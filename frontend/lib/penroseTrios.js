@@ -1715,3 +1715,227 @@ Label I "I"
 `,
   variation: "triangle_incircle",
 };
+
+// ─── Weighted Graph Domain ────────────────────────────────────────────────────
+
+const WEIGHTED_GRAPH_DOMAIN = `
+type Node
+type WEdge
+constructor MkWEdge(Node u, Node v) -> WEdge
+`;
+
+const WEIGHTED_GRAPH_STYLE = `
+canvas {
+  width = 500
+  height = 420
+}
+
+forall Node v {
+  shape v.icon = Circle {
+    r : 28
+    fillColor : rgba(139, 92, 246, 0.9)
+    strokeColor : rgba(109, 40, 217, 1.0)
+    strokeWidth : 2
+  }
+  shape v.lbl = Text {
+    string : v.label
+    fontSize : "17px"
+    fillColor : rgba(255, 255, 255, 1.0)
+    fontWeight : "bold"
+  }
+  ensure contains(v.icon, v.lbl)
+  encourage norm(v.lbl.center - v.icon.center) == 0
+  layer v.lbl above v.icon
+}
+
+forall WEdge e; Node u; Node v
+where e := MkWEdge(u, v) {
+  shape e.seg = Line {
+    start : u.icon.center
+    end : v.icon.center
+    strokeColor : rgba(100, 116, 139, 0.7)
+    strokeWidth : 2.5
+  }
+  shape e.wlbl = Text {
+    string : e.label
+    fontSize : "15px"
+    fillColor : rgba(30, 30, 30, 1.0)
+    fontWeight : "bold"
+    center : (u.icon.center + v.icon.center) / 2 + 18 * rot90(normalize(v.icon.center - u.icon.center))
+  }
+  layer e.seg below u.icon
+  layer e.seg below v.icon
+  layer e.wlbl above e.seg
+}
+
+forall Node u; Node v {
+  ensure disjoint(u.icon, v.icon, 52)
+}
+`;
+
+// ─── Chunk 5: Weighted graph, sequence, coterminal, unit circle, proportion, translation ──
+
+// 55. Weighted undirected graph: 4 nodes with labeled edge weights
+export const TRIO_WEIGHTED_GRAPH = {
+  domain: WEIGHTED_GRAPH_DOMAIN,
+  style: WEIGHTED_GRAPH_STYLE,
+  substance: `
+Node A, B, C, D
+WEdge ab := MkWEdge(A, B)
+WEdge bc := MkWEdge(B, C)
+WEdge cd := MkWEdge(C, D)
+WEdge ad := MkWEdge(A, D)
+WEdge bd := MkWEdge(B, D)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+Label ab "5"
+Label bc "3"
+Label cd "7"
+Label ad "4"
+Label bd "6"
+`,
+  variation: "weighted_graph",
+};
+
+// 56. Arithmetic sequence: 5 terms connected by arrows showing +d pattern
+export const TRIO_SEQUENCE_TERMS = {
+  domain: DIRECTED_GRAPH_DOMAIN,
+  style: DIRECTED_GRAPH_STYLE,
+  substance: `
+Node a1, a2, a3, a4, a5
+DEdge e1 := MkDEdge(a1, a2)
+DEdge e2 := MkDEdge(a2, a3)
+DEdge e3 := MkDEdge(a3, a4)
+DEdge e4 := MkDEdge(a4, a5)
+Label a1 "a₁"
+Label a2 "a₂"
+Label a3 "a₃"
+Label a4 "a₄"
+Label a5 "a₅"
+Label e1 "+d"
+Label e2 "+d"
+Label e3 "+d"
+Label e4 "+d"
+`,
+  variation: "sequence_terms",
+};
+
+// 57. Coterminal angles: two rays from origin sharing angle, one positive one negative
+export const TRIO_COTERMINAL_ANGLES = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, A, B, C
+Segment oa := MkSeg(O, A)
+Segment ob := MkSeg(O, B)
+Segment oc := MkSeg(O, C)
+AngleArc(A, O, B)
+AngleArc(B, O, C)
+IsCentered(O)
+IsLeftOf(O, A)
+IsAbove(B, O)
+IsAbove(C, O)
+IsLeftOf(C, O)
+Label O "O"
+Label A ""
+Label B "θ"
+Label C "-θ"
+`,
+  variation: "coterminal",
+};
+
+// 58. Unit circle: center O, radius to standard-position point P on circle
+export const TRIO_UNIT_CIRCLE_POINT = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, P, R, Q, U
+Segment op := MkSeg(O, P)
+Segment pr := MkSeg(P, R)
+Segment or2 := MkSeg(O, R)
+IsCenter(O)
+OnCircle(P, O)
+RightAngle(O, R, P)
+SameRow(O, R)
+AngleArc(U, O, P)
+IsCentered(O)
+IsLeftOf(O, R)
+IsAbove(P, O)
+Hidden(U)
+Label O "O"
+Label P "(cos θ, sin θ)"
+Label R ""
+Label U ""
+`,
+  variation: "unit_circle_pt",
+};
+
+// 59. Proportion diagram: two similar triangles sharing a vertex (AA similarity setup)
+export const TRIO_PROPORTION_SEGMENTS = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D, E, M, N
+Segment ab := MkSeg(A, B)
+Segment ac := MkSeg(A, C)
+Segment bc := MkSeg(B, C)
+Segment de := MkSeg(D, E)
+Segment bd := MkSeg(B, D)
+Segment ce := MkSeg(C, E)
+MidpointOf(M, A, B)
+MidpointOf(N, A, C)
+Hidden(M)
+Hidden(N)
+IsAbove(A, B)
+IsAbove(A, C)
+IsLeftOf(B, C)
+IsLeftOf(D, E)
+IsAbove(B, D)
+IsAbove(C, E)
+IsCentered(A)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+Label E "E"
+Label M "a"
+Label N "b"
+`,
+  variation: "proportion_segs",
+};
+
+// 60. Translation: triangle ABC shifted to A'B'C' with arrow showing vector of translation
+export const TRIO_TRANSLATION = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, Ap, Bp, Cp
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment apbp := MkSeg(Ap, Bp)
+Segment bpcp := MkSeg(Bp, Cp)
+Segment cpap := MkSeg(Cp, Ap)
+Separate(A, Ap)
+Separate(B, Bp)
+Separate(C, Cp)
+IsWellLeftOf(A, Ap)
+IsWellLeftOf(B, Bp)
+IsWellLeftOf(C, Cp)
+IsAbove(C, A)
+IsAbove(C, B)
+IsAbove(Cp, Ap)
+IsAbove(Cp, Bp)
+IsLeftOf(A, B)
+IsLeftOf(Ap, Bp)
+Label A "A"
+Label B "B"
+Label C "C"
+Label Ap "A'"
+Label Bp "B'"
+Label Cp "C'"
+`,
+  variation: "translation",
+};

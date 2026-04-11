@@ -145,6 +145,7 @@ export default function StandardsCoverageDashboard() {
   const [results, setResults] = useState({});        // { [standard.id]: { url, sourceUrl, error, explanation, query, prompting } | null }
   const [loadingIds, setLoadingIds] = useState({});  // { [standard.id]: true }
   const [activeSubject, setActiveSubject] = useState("all");
+  const [visualOnly, setVisualOnly] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [runQueue, setRunQueue] = useState([]);       // queue of ids to process
   const processingRef = useRef(false);
@@ -245,8 +246,25 @@ export default function StandardsCoverageDashboard() {
     enqueue(ids);
   };
 
+  // Visual heuristic filter
+  const isVisual = (std) => {
+    const text = (std.code + " " + std.description + " " + std.domain).toLowerCase();
+    const keywords = [
+      // Math
+      "geometry", "graph", "plot", "shape", "polygon", "triangle", "angle", "proof", "pythagorean", "volume", "area", "coordinate", "scatter", "histogram", "boxplot", "translation", "reflection", "rotation", "measurement", "model",
+      // Science
+      "cell", "anatomy", "ecosystem", "diagram", "model", "fossil", "planet", "solar", "cycle", "structure", "rock", "geological", "weather", "atmosphere", "organism", "chemical", "forces", "motion", "plate",
+      // History
+      "map", "war", "battle", "artifact", "portrait", "empire", "geography", "trade route", "civil war", "world war", "architecture", "culture", "colony", "invention", "ancient", "monument",
+      // General
+      "visual", "media", "illustration", "picture", "photograph", "chart"
+    ];
+    return keywords.some(kw => text.includes(kw));
+  };
+
   // Filtering
   const displayedStandards = standards.filter(s => {
+    if (visualOnly && !isVisual(s)) return false;
     if (activeSubject !== "all" && s.subject !== activeSubject) return false;
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase();
@@ -331,6 +349,18 @@ export default function StandardsCoverageDashboard() {
               </button>
             ))}
           </div>
+
+          <button
+            onClick={() => setVisualOnly(!visualOnly)}
+            className={`shrink-0 flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-bold transition-colors border ${
+              visualOnly 
+                ? "bg-emerald-50 border-emerald-200 text-emerald-700 dark:bg-emerald-900/40 dark:border-emerald-800 dark:text-emerald-400" 
+                : "bg-white border-gray-200 text-gray-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400"
+            }`}
+          >
+            <span className={`h-2 w-2 rounded-full ${visualOnly ? "bg-emerald-500" : "bg-gray-300 dark:bg-gray-600"}`} />
+            Highly Visual Only
+          </button>
 
           {/* Run all visible */}
           <button
