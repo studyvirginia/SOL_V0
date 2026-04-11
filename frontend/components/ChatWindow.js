@@ -142,7 +142,9 @@ const MarkdownMessage = ({ content, isUser }) => {
         </p>
       );
     },
-    a({ children, href, ...props }) {
+    a: ({ href, children, ...props }) => {
+      if (isMinimalMode) return <span>{children}</span>;
+
       if (href === "#highlight") {
          return <RoughNotation type="highlight" show={true} color="rgba(253, 224, 71, 0.4)" animationDuration={700} padding={3} {...props}>{children}</RoughNotation>;
       }
@@ -192,7 +194,7 @@ const MarkdownMessage = ({ content, isUser }) => {
   );
 }
 
-export default function ChatWindow({ session, onUpdateSession, graphEngine = "geogebra" }) {
+export default function ChatWindow({ session, onUpdateSession, graphEngine = "geogebra", isMinimalMode = false }) {
   const bottomRef = useRef(null);
 
   const subject = session.subject || "";
@@ -490,11 +492,11 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                      {splitMessageSegments(String(m.content || "")).map((seg, segIdx) => {
                        if (seg.type === 'text') {
                          return seg.content.trim()
-                           ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} />
+                           ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} isMinimalMode={isMinimalMode} />
                            : null;
                        }
                        const g = (graphs[m.id] || [])[seg.graphIndex];
-                       if (!g) return null;
+                       if (!g || isMinimalMode) return null;
                        return (
                          <div key={segIdx}>
                            {g.status === "pending" && (

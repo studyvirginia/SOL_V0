@@ -11,6 +11,7 @@ const MoonIcon = (props) => <svg viewBox="0 0 24 24" width="20" height="20" fill
 const ChevronDownIcon = (props) => <svg viewBox="0 0 16 16" fill="currentColor" {...props}><path fillRule="evenodd" d="M4.22 6.22a.75.75 0 011.06 0L8 8.94l2.72-2.72a.75.75 0 111.06 1.06l-3.25 3.25a.75.75 0 01-1.06 0L4.22 7.28a.75.75 0 010-1.06z" clipRule="evenodd" /></svg>;
 const LogOutIcon = (props) => <svg viewBox="0 0 24 24" width="20" height="20" fill="none" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9"/></svg>;
 const TrashIcon = (props) => <svg viewBox="0 0 24 24" width="18" height="18" fill="none" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>;
+const ZapIcon = (props) => <svg viewBox="0 0 24 24" width="18" height="18" fill="none" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>;
 
 export default function Home() {
   const [isReady, setIsReady] = useState(false);
@@ -38,6 +39,7 @@ export default function Home() {
   const [activeSessionId, setActiveSessionId] = useState(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isMinimalResponseMode, setIsMinimalResponseMode] = useState(false);
   const [graphEngine, setGraphEngine] = useState("geogebra");
 
   // Modal State
@@ -475,6 +477,14 @@ export default function Home() {
                       GeoGebra
                     </button>
                   </div>
+ 
+                  <button
+                    onClick={() => setIsMinimalResponseMode(!isMinimalResponseMode)}
+                    className={`rounded-lg p-1.5 transition-colors ${isMinimalResponseMode ? "bg-amber-100 text-amber-600 dark:bg-amber-900/40 dark:text-amber-400" : "text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"}`}
+                    title="Toggle Minimal Mode (No Graphs/Notation)"
+                  >
+                    <ZapIcon />
+                  </button>
 
                   <button
                     onClick={toggleTheme}
@@ -500,6 +510,7 @@ export default function Home() {
                     session={activeSession} 
                     onUpdateSession={updateSession}
                     graphEngine={graphEngine}
+                    isMinimalMode={isMinimalResponseMode}
                   />
                 ) : null}
             </div>
