@@ -26,18 +26,10 @@ export default async function handler(req, res) {
   if (!visual_search_term) return res.status(400).json({error: 'Missing visual_search_term'});
 
   try {
-    // 1. STAGE A: The Ai Search Architect & Category Injection
-    let catFilterStr = "";
-    if (category_filter) {
-      const cleanCat = category_filter.replace(/^Category:/i, "").trim();
-      if (cleanCat) {
-        catFilterStr = `incategory:"${cleanCat}" `;
-      }
-    }
-
-    const searchQuery = `${catFilterStr}${visual_search_term}`.trim();
+    // 1. STAGE A: The Ai Search Architect (No Category Filter - precise keywords only)
+    const searchQuery = visual_search_term.trim();
     
-    // Top 3 results to give the verifier a choice? Let's just limit to 1 for speed and determinism right now
+    // Limit to 1 for speed and determinism right now
     const searchUrl = `https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srnamespace=6&srsearch=${encodeURIComponent(searchQuery)}&srlimit=1`;
     
     const searchRes = await fetch(searchUrl, {
@@ -89,14 +81,15 @@ export default async function handler(req, res) {
         const modelId = process.env.CHAT_MODEL || "google/gemini-2.0-flash-lite-001";
         const openrouter = createOpenAICompatible({ name: "openrouter", baseURL: "https://openrouter.ai/api/v1", apiKey });
 
-        const prompt = `You are an educational relevance verifier. Determine if the provided candidate image accurately supports the given educational standard.
+        const prompt = `You are an educational relevance verifier. Determine if the provided candidate image EXACTLY matches the original visual search term AND accurately supports the standard concept.
 
+Original Search Term: ${visual_search_term}
 Standard Concept: ${standardContext}
 
 Candidate Image File Name: ${fileTitle}
 Candidate Image Description: ${cleanDescription}
 
-Is this image directly, educationally relevant to the standard? Output exactly one word: YES or NO.`;
+Is this image an EXACT match for the searched topic and relevant to the standard? Output exactly one word: YES or NO.`;
 
         const { text } = await generateText({
           model: openrouter(modelId),

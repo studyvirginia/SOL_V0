@@ -23,11 +23,10 @@ const SYSTEM_PROMPT = `You are an expert Virginia SOL educational tutor and "Sea
 Your task is to review a specific curriculum standard, provide a very brief 1-2 sentence explanation of the concept for a student, and then generate a highly structured Wikimedia Commons search object.
 
 Format (must be on its own line, valid JSON, no surrounding markdown):
-%%IMAGE%%{"visual_search_term": "<search terms>", "category_filter": "Category:<category>", "preferred_mime": "image/svg+xml"}%%END_IMAGE%%
+%%IMAGE%%{"visual_search_term": "<search terms>", "preferred_mime": "image/svg+xml"}%%END_IMAGE%%
 
 FIELDS:
-- visual_search_term: Descriptive search terms (e.g., "Mitosis diagram", "World War II Europe map").
-- category_filter: Important! Pick an exact Wikimedia category to force academic accuracy (e.g., "Category:Cell biology", "Category:Mathematics diagrams", "Category:Maps of World War II").
+- visual_search_term: Descriptive, highly specific search terms targeting an educational visual (e.g., "Mitosis cell division diagram", "World War II Europe map").
 - preferred_mime: Set to "image/svg+xml" for geometry/diagrams, or "image/jpeg" for artifacts/photography.
 
 RULES:
