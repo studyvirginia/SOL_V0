@@ -1546,3 +1546,172 @@ Label O "O"
   variation: "vertical_angles",
 };
 
+// ─── Chunk 4: Transformations, Number Line, Hasse, Function Map, Incircle ───
+
+// 49. Dilation: two similar triangles with matching tick marks showing proportional sides
+export const TRIO_DILATION = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, Ap, Bp, Cp
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment apbp := MkSeg(Ap, Bp)
+Segment bpcp := MkSeg(Bp, Cp)
+Segment cpap := MkSeg(Cp, Ap)
+Tick(ab)
+Tick(apbp)
+DoubleTick(bc)
+DoubleTick(bpcp)
+IsWellLeftOf(A, Ap)
+IsWellLeftOf(B, Bp)
+IsWellLeftOf(C, Cp)
+IsAbove(C, A)
+IsAbove(C, B)
+IsAbove(Cp, Ap)
+IsAbove(Cp, Bp)
+IsLeftOf(A, B)
+IsLeftOf(Ap, Bp)
+Label A "A"
+Label B "B"
+Label C "C"
+Label Ap "A'"
+Label Bp "B'"
+Label Cp "C'"
+`,
+  variation: "dilation",
+};
+
+// 50. Reflection: triangle ABC and its mirror image A'B'C' over a vertical axis
+export const TRIO_REFLECTION_LINE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, Ap, Bp, Cp, T, U
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment apbp := MkSeg(Ap, Bp)
+Segment bpcp := MkSeg(Bp, Cp)
+Segment cpap := MkSeg(Cp, Ap)
+Segment tu := MkSeg(T, U)
+IsLeftOf(A, T)
+IsLeftOf(B, T)
+IsLeftOf(C, T)
+IsLeftOf(T, Ap)
+IsLeftOf(T, Bp)
+IsLeftOf(T, Cp)
+IsAbove(T, U)
+IsAbove(C, A)
+IsAbove(C, B)
+IsAbove(Cp, Ap)
+IsAbove(Cp, Bp)
+IsLeftOf(A, B)
+IsLeftOf(Ap, Bp)
+IsCentered(T)
+Label A "A"
+Label B "B"
+Label C "C"
+Label Ap "A'"
+Label Bp "B'"
+Label Cp "C'"
+Label T ""
+Label U ""
+`,
+  variation: "reflection_line",
+};
+
+// 51. Hasse diagram (diamond partial order): ⊥ < {b, c} < ⊤
+export const TRIO_HASSE_POSET = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point bot, l, r, top
+Segment bl := MkSeg(bot, l)
+Segment br := MkSeg(bot, r)
+Segment lt := MkSeg(l, top)
+Segment rt := MkSeg(r, top)
+IsAbove(top, l)
+IsAbove(top, r)
+IsAbove(l, bot)
+IsAbove(r, bot)
+IsLeftOf(l, r)
+IsCentered(bot)
+IsCentered(top)
+Label bot "⊥"
+Label l "b"
+Label r "c"
+Label top "⊤"
+`,
+  variation: "hasse_poset",
+};
+
+// 52. Number line: five equally-spaced labeled integer points
+export const TRIO_NUMBER_LINE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point P, A, B, C, Q
+Segment pa := MkSeg(P, A)
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cq := MkSeg(C, Q)
+SameRow(P, A)
+SameRow(A, B)
+SameRow(B, C)
+SameRow(C, Q)
+IsLeftOf(P, A)
+IsLeftOf(A, B)
+IsLeftOf(B, C)
+IsLeftOf(C, Q)
+IsCentered(B)
+Label P "-2"
+Label A "-1"
+Label B "0"
+Label C "1"
+Label Q "2"
+`,
+  variation: "number_line",
+};
+
+// 53. Function mapping: f: {a, b, c} → {p, q, r} as directed bipartite graph
+export const TRIO_FUNCTION_MAPPING = {
+  domain: DIRECTED_GRAPH_DOMAIN,
+  style: DIRECTED_GRAPH_STYLE,
+  substance: `
+Node a, b, c, p, q, r
+DEdge e1 := MkDEdge(a, p)
+DEdge e2 := MkDEdge(b, q)
+DEdge e3 := MkDEdge(c, r)
+Label a "a"
+Label b "b"
+Label c "c"
+Label p "p"
+Label q "q"
+Label r "r"
+`,
+  variation: "function_map",
+};
+
+// 54. Triangle with its incircle (circle inscribed, touching all three sides)
+export const TRIO_TRIANGLE_INCIRCLE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, I
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+IsCenter(I)
+IsAbove(A, B)
+IsAbove(A, C)
+IsLeftOf(B, C)
+IsCentered(I)
+Label A "A"
+Label B "B"
+Label C "C"
+Label I "I"
+`,
+  variation: "triangle_incircle",
+};

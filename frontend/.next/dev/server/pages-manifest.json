@@ -4,5 +4,5 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/diagram-dashboard": "pages/diagram-dashboard.js",
-  "/api/courses": "pages/api/courses.js"
+  "/api/penrose-render": "pages/api/penrose-render.js"
 }

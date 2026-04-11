@@ -67,7 +67,7 @@ function StandardCard({ standard, result, loading, onTest }) {
               <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/>
             </svg>
             <span className="text-[0.6rem] text-indigo-500 font-bold max-w-full truncate px-4">
-              {result?.prompting === false ? \`Fetching: "\${result.query}"…\` : "Prompting AI…"}
+              {result?.prompting === false ? `Fetching: "${result.query}"…` : "Prompting AI…"}
             </span>
           </div>
         )}
@@ -175,7 +175,7 @@ export default function StandardsCoverageDashboard() {
       });
       const promptData = await promptRes.json();
       
-      if (promptData.error) throw new Error(\`LLM Error: \${promptData.error}\`);
+      if (promptData.error) throw new Error(`LLM Error: ${promptData.error}`);
       const query = promptData.query;
       
       if (!query) throw new Error("AI pipeline failed to generate an image query token.");
@@ -303,7 +303,7 @@ export default function StandardsCoverageDashboard() {
           {tested > 0 && (
             <div className="hidden md:flex flex-1 items-center gap-2 max-w-xs">
               <div className="flex-1 h-2 rounded-full bg-gray-200 dark:bg-gray-700 overflow-hidden shadow-inner">
-                <div className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-emerald-400 transition-all" style={{ width: \`\${(tested / standards.length) * 100}%\` }} />
+                <div className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-emerald-400 transition-all" style={{ width: `${(tested / standards.length) * 100}%` }} />
               </div>
               <span className="text-[0.6rem] font-bold text-gray-400">{Math.round((tested / standards.length) * 100)}%</span>
             </div>
@@ -325,9 +325,9 @@ export default function StandardsCoverageDashboard() {
               <button
                 key={s}
                 onClick={() => setActiveSubject(s)}
-                className={\`px-3 py-1 rounded-md text-[0.65rem] font-bold transition-all capitalize \${activeSubject === s ? "bg-white dark:bg-gray-700 text-indigo-600 dark:text-indigo-400 shadow-sm" : "text-gray-500 dark:text-gray-400 hover:text-gray-700"}\`}
+                className={`px-3 py-1 rounded-md text-[0.65rem] font-bold transition-all capitalize ${activeSubject === s ? "bg-white dark:bg-gray-700 text-indigo-600 dark:text-indigo-400 shadow-sm" : "text-gray-500 dark:text-gray-400 hover:text-gray-700"}`}
               >
-                {s === "all" ? \`All (\${standards.length})\` : s}
+                {s === "all" ? `All (${standards.length})` : s}
               </button>
             ))}
           </div>
@@ -343,7 +343,7 @@ export default function StandardsCoverageDashboard() {
                 <svg className="animate-spin h-3.5 w-3.5" fill="none" viewBox="0 0 24 24"><circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
                 Processing Queue…
               </>
-            ) : \`▶ Run \${displayedStandards.length} Visible\`}
+            ) : `▶ Run ${displayedStandards.length} Visible`}
           </button>
         </div>
       </div>
@@ -357,9 +357,9 @@ export default function StandardsCoverageDashboard() {
           return (
             <section key={subject}>
               {/* Subject Header */}
-              <div className={\`flex items-center justify-between rounded-xl px-5 py-3 mb-6 \${colors.bg} border \${colors.border} shadow-sm\`}>
+              <div className={`flex items-center justify-between rounded-xl px-5 py-3 mb-6 ${colors.bg} border ${colors.border} shadow-sm`}>
                 <div className="flex items-center gap-3">
-                  <span className={\`h-3 w-3 rounded-full \${colors.dot}\`} />
+                  <span className={`h-3 w-3 rounded-full ${colors.dot}`} />
                   <h2 className="text-sm font-extrabold uppercase tracking-widest text-gray-800 dark:text-gray-100 capitalize">{subject}</h2>
                   <span className="text-xs text-gray-400 font-medium">{subjectStdCount} standards · {Object.keys(courses).length} courses</span>
                 </div>
