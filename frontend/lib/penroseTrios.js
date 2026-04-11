@@ -1207,7 +1207,7 @@ Label B "B"
   variation: "circle_chord",
 };
 
-// 36. Circle with central angle at O and inscribed angle at C on the arc
+// 36. Circle with central angle at O and inscribed angle at C on the arc — central ∠ = 2×inscribed ∠
 export const TRIO_CENTRAL_INSCRIBED = {
   domain: GEOMETRY_DOMAIN,
   style: GEOMETRY_STYLE,
