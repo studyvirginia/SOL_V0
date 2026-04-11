@@ -1232,3 +1232,317 @@ Label C "C"
   variation: "central_inscribed",
 };
 
+// ─── Chunk 3: Bisectors, Circles, Angle Pairs, Pythagorean ──────────────────
+
+// 43. Perpendicular bisector of AB: segment AB + perpendicular through midpoint M
+export const TRIO_PERPENDICULAR_BISECTOR = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, M, P, Q
+Segment ma := MkSeg(M, A)
+Segment mb := MkSeg(M, B)
+Segment pm := MkSeg(P, M)
+Segment mq := MkSeg(M, Q)
+RightAngle(A, M, P)
+SameRow(A, M)
+SameRow(M, B)
+IsLeftOf(A, M)
+IsLeftOf(M, B)
+IsAbove(P, M)
+IsAbove(M, Q)
+Tick(ma)
+Tick(mb)
+Label A "A"
+Label B "B"
+Label M "M"
+Label P "P"
+Label Q "Q"
+`,
+  variation: "perp_bisector",
+};
+
+// 44. Triangle inscribed in its circumscribed circle (circumcenter O)
+export const TRIO_CIRCUMSCRIBED_TRIANGLE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, A, B, C
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+IsCenter(O)
+OnCircle(A, O)
+OnCircle(B, O)
+OnCircle(C, O)
+IsCentered(O)
+Label O "O"
+Label A "A"
+Label B "B"
+Label C "C"
+`,
+  variation: "circumscribed_tri",
+};
+
+// 45. Right triangle with sides labeled a², b², c² at midpoints (Pythagorean theorem)
+export const TRIO_PYTHAGOREAN_SQUARES = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, U, V, W
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+RightAngle(A, B, C)
+MidpointOf(U, A, B)
+MidpointOf(V, B, C)
+MidpointOf(W, C, A)
+Hidden(U)
+Hidden(V)
+Hidden(W)
+IsAbove(C, A)
+IsAbove(C, B)
+IsLeftOf(A, B)
+IsCentered(A)
+IsCentered(B)
+IsCentered(C)
+Label A ""
+Label B ""
+Label C ""
+Label U "a²"
+Label V "b²"
+Label W "c²"
+`,
+  variation: "pythagorean_squares",
+};
+
+// 46. Complementary angles: right-angle corner O with ray OC dividing into α + β = 90°
+export const TRIO_COMPLEMENTARY_ANGLES = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, A, B, C
+Segment oa := MkSeg(O, A)
+Segment ob := MkSeg(O, B)
+Segment oc := MkSeg(O, C)
+RightAngle(B, O, A)
+AngleArc(A, O, C)
+AngleArc(C, O, B)
+SameRow(O, A)
+IsAbove(B, O)
+IsAbove(C, O)
+IsLeftOf(O, A)
+IsCentered(O)
+Label O "O"
+Label A ""
+Label B ""
+Label C "C"
+`,
+  variation: "complementary",
+};
+
+// 47. Cyclic quadrilateral: four vertices on a circle (opposite angles sum to 180°)
+export const TRIO_CYCLIC_QUADRILATERAL = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, A, B, C, D
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cd := MkSeg(C, D)
+Segment da := MkSeg(D, A)
+IsCenter(O)
+OnCircle(A, O)
+OnCircle(B, O)
+OnCircle(C, O)
+OnCircle(D, O)
+IsCentered(O)
+Label O "O"
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+`,
+  variation: "cyclic_quad",
+};
+
+// 48. Arc / sector: circle with center O, two radii OA and OB and central angle arc
+export const TRIO_ARC_SECTOR = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, A, B, M
+Segment oa := MkSeg(O, A)
+Segment ob := MkSeg(O, B)
+IsCenter(O)
+OnCircle(A, O)
+OnCircle(B, O)
+AngleArc(A, O, B)
+MidpointOf(M, O, A)
+Hidden(M)
+IsCentered(O)
+Label O "O"
+Label A "A"
+Label B "B"
+Label M "r"
+`,
+  variation: "arc_sector",
+};
+
+// ─── Angle Pairs & Triangle Properties ──────────────────────────────────────
+
+// 37. Altitude from vertex C to foot F on base AB — creates two right triangles
+export const TRIO_TRIANGLE_ALTITUDE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, F
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment cf := MkSeg(C, F)
+RightAngle(C, F, A)
+SameRow(A, F)
+SameRow(F, B)
+IsLeftOf(A, F)
+IsLeftOf(F, B)
+IsAbove(C, A)
+IsAbove(C, B)
+IsCentered(C)
+Label A "A"
+Label B "B"
+Label C "C"
+Label F "F"
+`,
+  variation: "triangle_altitude",
+};
+
+// 38. Exterior angle theorem: extend AB to D; ∠CBD = ∠A + ∠C
+export const TRIO_EXTERIOR_ANGLE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment bd := MkSeg(B, D)
+SameRow(A, B)
+SameRow(B, D)
+IsLeftOf(A, B)
+IsLeftOf(B, D)
+IsAbove(C, A)
+IsAbove(C, B)
+AngleArc(C, A, B)
+AngleArc(A, C, B)
+AngleArc(C, B, D)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+`,
+  variation: "exterior_angle",
+};
+
+// 39. Midsegment theorem: MN connects midpoints of AB and AC, MN ∥ BC, MN = ½BC
+export const TRIO_MIDSEGMENT = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, M, N
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment mn := MkSeg(M, N)
+MidpointOf(M, A, B)
+MidpointOf(N, A, C)
+IsAbove(A, B)
+IsAbove(A, C)
+IsLeftOf(B, C)
+IsCentered(A)
+Label A "A"
+Label B "B"
+Label C "C"
+Label M "M"
+Label N "N"
+`,
+  variation: "midsegment",
+};
+
+// 40. Angle bisector from A to D on BC — two equal angle arcs at A
+export const TRIO_ANGLE_BISECTOR = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment ad := MkSeg(A, D)
+AngleArc(B, A, D)
+AngleArc(D, A, C)
+IsAbove(A, B)
+IsAbove(A, C)
+IsLeftOf(B, C)
+IsCentered(A)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+`,
+  variation: "angle_bisector",
+};
+
+// 41. Supplementary angles: ray OC splits straight line AB into α + β = 180°
+export const TRIO_SUPPLEMENTARY_ANGLES = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, O, B, C
+Segment ao := MkSeg(A, O)
+Segment ob := MkSeg(O, B)
+Segment oc := MkSeg(O, C)
+SameRow(A, O)
+SameRow(O, B)
+IsLeftOf(A, O)
+IsLeftOf(O, B)
+IsAbove(C, O)
+IsCentered(O)
+AngleArc(A, O, C)
+AngleArc(C, O, B)
+Label A ""
+Label O "O"
+Label B ""
+Label C "C"
+`,
+  variation: "supplementary",
+};
+
+// 42. Vertical angles: two lines cross at O — opposite angles are congruent
+export const TRIO_VERTICAL_ANGLES = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D, O
+Segment ao := MkSeg(A, O)
+Segment ob := MkSeg(O, B)
+Segment co := MkSeg(C, O)
+Segment od := MkSeg(O, D)
+IsLeftOf(A, O)
+IsLeftOf(O, B)
+IsAbove(C, O)
+IsAbove(O, D)
+IsCentered(O)
+AngleArc(A, O, C)
+AngleArc(C, O, B)
+AngleArc(B, O, D)
+AngleArc(D, O, A)
+Label A ""
+Label B ""
+Label C ""
+Label D ""
+Label O "O"
+`,
+  variation: "vertical_angles",
+};
+
