@@ -2809,3 +2809,173 @@ Label X "k·a"
 `,
   variation: "scale_factor",
 };
+
+// ─── Chunk 9: Final set ─────────────────────────────────────────────────
+
+// 91. Secant-secant from external point
+export const TRIO_SECANT_SECANT = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, E, A, B, C, D
+Segment ea := MkSeg(E, A)
+Segment ab := MkSeg(A, B)
+Segment ec := MkSeg(E, C)
+Segment cd := MkSeg(C, D)
+IsCenter(O)
+OnCircle(A, O)
+OnCircle(B, O)
+OnCircle(C, O)
+OnCircle(D, O)
+IsWellLeftOf(E, O)
+IsAbove(A, E)
+IsAbove(B, E)
+IsCentered(O)
+Label O "O"
+Label E "E"
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+`,
+  variation: "secant_secant",
+};
+
+// 92. Trapezoid with parallel bases
+
+// 93. Kite quadrilateral
+
+// 94. Slope triangle on coordinate plane
+
+// 95. Rhombus with four equal sides
+
+// 96. Power of a point: tangent and secant
+export const TRIO_POWER_POINT = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, E, A, B, C, T
+Segment ea := MkSeg(E, A)
+Segment eb := MkSeg(E, B)
+Segment bc := MkSeg(B, C)
+Segment et := MkSeg(E, T)
+RightAngle(O, T, E)
+IsCenter(O)
+OnCircle(A, O)
+OnCircle(B, O)
+OnCircle(C, O)
+OnCircle(T, O)
+IsWellLeftOf(E, O)
+IsAbove(A, E)
+IsCentered(O)
+Label O "O"
+Label E "E"
+Label A "A"
+Label B "B"
+Label C "C"
+Label T "T"
+`,
+  variation: "power_point",
+};
+// Final 4 unique trios (avoiding name conflicts)
+
+// 93. Trapezoid with parallel bases
+export const TRIO_TRAPEZOID_BASES = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D, F, H
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cd := MkSeg(C, D)
+Segment da := MkSeg(D, A)
+Segment fh := MkSeg(F, H)
+SameRow(A, B)
+SameRow(D, C)
+IsAbove(D, A)
+IsAbove(C, B)
+RightAngle(B, F, H)
+Hidden(F)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+Label H "h"
+`,
+  variation: "trapezoid_bases",
+};
+
+// 94. Kite quadrilateral
+export const TRIO_KITE_QUADRILATERAL = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cd := MkSeg(C, D)
+Segment da := MkSeg(D, A)
+Tick(ab)
+Tick(da)
+DoubleTick(bc)
+DoubleTick(cd)
+IsAbove(A, B)
+IsAbove(A, C)
+IsLeftOf(B, D)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+`,
+  variation: "kite_quadrilateral",
+};
+
+// 95. Slope triangle on coordinate plane  
+export const TRIO_SLOPE_RISE_RUN = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point P1, P2, P3, M, N
+Segment p1p2 := MkSeg(P1, P2)
+Segment p2p3 := MkSeg(P2, P3)
+Segment p3p1 := MkSeg(P3, P1)
+RightAngle(P1, P2, P3)
+SameRow(P1, P2)
+IsAbove(P3, P2)
+MidpointOf(M, P1, P2)
+MidpointOf(N, P2, P3)
+Hidden(M)
+Hidden(N)
+Label P1 "x₁"
+Label P2 ""
+Label P3 "x₂"
+Label M "run"
+Label N "rise"
+`,
+  variation: "slope_rise_run",
+};
+
+// 96. Rhombus with four equal sides
+export const TRIO_RHOMBUS_SIDES = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cd := MkSeg(C, D)
+Segment da := MkSeg(D, A)
+Tick(ab)
+Tick(bc)
+Tick(cd)
+Tick(da)
+IsAbove(A, B)
+IsAbove(A, C)
+IsLeftOf(B, C)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+`,
+  variation: "rhombus_sides",
+};

@@ -26,13 +26,14 @@ Format (must be on its own line, valid JSON, no surrounding markdown):
 %%IMAGE%%{"visual_search_term": "<search terms>", "preferred_mime": "image/svg+xml"}%%END_IMAGE%%
 
 FIELDS:
-- visual_search_term: Descriptive, highly specific search terms targeting an educational visual (e.g., "Mitosis cell division diagram", "World War II Europe map").
+- visual_search_term: Clean, broad, and highly reliable search terms. Focus on famous, popular, or foundational examples (e.g. use "Right triangle diagram" instead of "30-60-90 scalene altitude proof"). Wikimedia Commons lacks hyper-specific niche graphics, so broader is safer.
 - preferred_mime: Set to "image/svg+xml" for geometry/diagrams, or "image/jpeg" for artifacts/photography.
 
 RULES:
 - Emit ONE image token per response. Place it after your brief explanation.
-- Do NOT wrap it in a code fence.
-- Your keyword logic should prioritize objective, academic diagrams and photographs.`;
+- BE CONSERVATIVE: If the curriculum standard is extremely niche or complex, fall back to searching for a broad, foundational concept that is guaranteed to have a high-quality academic image.
+- Do NOT over-constrain the search with too many adjectives. Keep it to 2-4 solid keywords.
+- Do NOT wrap it in a code fence.`;
 
 export default async function handler(req, res) {
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
