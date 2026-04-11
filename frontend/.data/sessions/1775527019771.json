@@ -2,13 +2,13 @@
   "id": "1775527019771",
   "subject": "math",
   "course": "Algebra 1",
-  "retrievalMode": "notes",
+  "retrievalMode": "placement",
   "userFacts": {
     "gradeLevel": "",
     "preferences": "",
     "needs": ""
   },
-  "sessionSummary": "Session retrieval mode: notes \nRecent questions: y | yo | yo | hi \nRecent assistant focus: Type to start learning. | Hi there! I'm ready to help you learn about math. What would you like to work on today? We can explore topics like [h]linear equations[/h], [h]quadratic functions[/h], or even [h]graphing[/h]. Just let me know what you're interested in!",
+  "sessionSummary": "Session retrieval mode: placement \nRecent questions: yo | hi | How do I solve linear equations? | yo \nRecent assistant focus: Type to start learning. | Hi there! Let's get started with solving linear equations.\n\nA [b]linear equation[/b] is an equation that can be written in the form $ax + b = c$, where $a$, $b$, and $c$ are constants, and $x$ is the variable we want to solve for. The goal is to isolate the variable $x$ on one side of the equation. Here's how you can solve them:\n\n1.  **Simplify both sides:** If there are any like terms to combine or parentheses to remove, do that first.\n2.  **Isolate the variable term:** Use addition or subtraction to get all terms with $x$ on one side and all constant terms on the other side. Remember to do the same operation to both sides to keep the equation balanced.\n3.  **Solve for the variable:** Divide both sides by the coefficient of $x$ to isolate $x$.\n\nLet's look at an example:\n\nSolve for $x$: $2x + 3 = 7$\n\n1.  There's nothing to simplify on either side.\n2.  Subtract $3$ from both sides:\n    $2x + 3 - 3 = 7 - 3$\n    $2x = 4$\n3.  Divide both sides by $2$:\n    $\\frac{2x}{2} = \\frac{4}{2}$\n    $x = 2$\n\nSo, the solution is $x = 2$.\n\n...",
   "messages": [
     {
       "role": "assistant",
@@ -31,9 +31,17 @@
       "content": "hi"
     },
     {
+      "role": "user",
+      "content": "How do I solve linear equations?"
+    },
+    {
+      "role": "user",
+      "content": "yo"
+    },
+    {
       "role": "assistant",
-      "content": "Hi there! I'm ready to help you learn about math. What would you like to work on today? We can explore topics like [h]linear equations[/h], [h]quadratic functions[/h], or even [h]graphing[/h]. Just let me know what you're interested in!\n"
+      "content": "Hi there! Let's get started with solving linear equations.\n\nA [b]linear equation[/b] is an equation that can be written in the form $ax + b = c$, where $a$, $b$, and $c$ are constants, and $x$ is the variable we want to solve for. The goal is to isolate the variable $x$ on one side of the equation. Here's how you can solve them:\n\n1.  **Simplify both sides:** If there are any like terms to combine or parentheses to remove, do that first.\n2.  **Isolate the variable term:** Use addition or subtraction to get all terms with $x$ on one side and all constant terms on the other side. Remember to do the same operation to both sides to keep the equation balanced.\n3.  **Solve for the variable:** Divide both sides by the coefficient of $x$ to isolate $x$.\n\nLet's look at an example:\n\nSolve for $x$: $2x + 3 = 7$\n\n1.  There's nothing to simplify on either side.\n2.  Subtract $3$ from both sides:\n    $2x + 3 - 3 = 7 - 3$\n    $2x = 4$\n3.  Divide both sides by $2$:\n    $\\frac{2x}{2} = \\frac{4}{2}$\n    $x = 2$\n\nSo, the solution is $x = 2$.\n\nWould you like to try another example, or would you like to see a visual representation?\n"
     }
   ],
-  "updatedAt": "2026-04-11T14:50:36.833Z"
+  "updatedAt": "2026-04-11T16:38:13.730Z"
 }

@@ -519,16 +519,16 @@ export default function Home() {
 
       {/* New Session Config Modal inside Main App */}
       {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900/60 dark:bg-black/80 backdrop-blur-md p-4 animate-in fade-in duration-200">
-           <div className="w-full max-w-md rounded-2xl border border-gray-200/50 dark:border-gray-800 bg-white dark:bg-gray-900 p-8 shadow-2xl animate-in zoom-in-95">
-              <h2 className="mb-6 text-2xl font-extrabold text-gray-900 dark:text-gray-100">Configure Session</h2>
-              <form onSubmit={createSessionFromModal} className="space-y-6">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900/60 dark:bg-black/80 backdrop-blur-md p-4 animate-in fade-in duration-200 text-sm">
+           <div className="w-full max-w-[380px] rounded-xl border border-gray-200/50 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 shadow-2xl animate-in zoom-in-95">
+              <h2 className="mb-4 text-xl font-extrabold text-gray-900 dark:text-gray-100">Configure Session</h2>
+              <form onSubmit={createSessionFromModal} className="space-y-4">
                 
-                <div className="space-y-3">
-                  <label className="text-[0.7rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Subject Focus</label>
+                <div className="space-y-2">
+                  <label className="text-[0.6rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Subject Focus</label>
                   <div className="relative">
                     <select
-                      className="w-full appearance-none rounded-2xl border-2 border-gray-100 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/50 py-3.5 pl-5 pr-12 text-[1rem] font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
+                      className="w-full appearance-none rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-10 text-sm font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
                       value={modalSubject}
                       onChange={handleModalSubjectChange}
                     >
@@ -540,11 +540,11 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="space-y-3">
-                  <label className="text-[0.7rem] font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400">Course Selection</label>
+                <div className="space-y-2">
+                  <label className="text-[0.6rem] font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400">Course Selection</label>
                   <div className="relative">
                     <select
-                      className="w-full appearance-none rounded-2xl border-2 border-gray-100 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/50 py-3.5 pl-5 pr-12 text-[1rem] font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-indigo-500 dark:focus:border-indigo-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-indigo-500/10"
+                      className="w-full appearance-none rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-10 text-sm font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-indigo-500 dark:focus:border-indigo-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-indigo-500/10"
                       value={modalCourse}
                       onChange={(e) => setModalCourse(e.target.value)}
                       disabled={!(courseOptions[modalSubject]?.length)}
@@ -557,49 +557,49 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="space-y-3">
-                  <label className="text-[0.7rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Grade / Level</label>
+                <div className="space-y-2">
+                  <label className="text-[0.6rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Grade / Level</label>
                   <input
-                    className="w-full rounded-2xl border-2 border-gray-100 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/50 py-3.5 pl-5 pr-4 text-[1rem] text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
+                    className="w-full rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-4 text-sm text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
                     value={modalGrade || ""}
                     onChange={(e) => setModalGrade(e.target.value)}
                     placeholder="e.g. 9th grade, Algebra 1"
                   />
                 </div>
-                <div className="space-y-3">
-                  <label className="text-[0.7rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Learning Preferences</label>
+                <div className="space-y-2">
+                  <label className="text-[0.6rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Learning Preferences</label>
                   <input
-                    className="w-full rounded-2xl border-2 border-gray-100 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/50 py-3.5 pl-5 pr-4 text-[1rem] text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
+                    className="w-full rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-4 text-sm text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
                     value={modalPreferences || ""}
                     onChange={(e) => setModalPreferences(e.target.value)}
                     placeholder="e.g. visual, step-by-step"
                   />
                 </div>
-                <div className="space-y-3">
-                  <label className="text-[0.7rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Learning Needs</label>
+                <div className="space-y-2">
+                  <label className="text-[0.6rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Learning Needs</label>
                   <input
-                    className="w-full rounded-2xl border-2 border-gray-100 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/50 py-3.5 pl-5 pr-4 text-[1rem] text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
+                    className="w-full rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-4 text-sm text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
                     value={modalNeeds || ""}
                     onChange={(e) => setModalNeeds(e.target.value)}
                     placeholder="e.g. dyslexia support, ELL"
                   />
                 </div>
 
-                <div className="mt-8 flex gap-3 pt-2">
+                <div className="mt-6 flex gap-3 pt-1">
                   <button 
                     type="button" 
                     onClick={() => {
                         setIsModalOpen(false);
                         if (sessions.length === 0) handleLogout(); // Prevent trapping empty users
                     }}
-                    className="flex-1 rounded-xl bg-gray-100 dark:bg-gray-800 py-3.5 font-bold text-gray-600 dark:text-gray-300 transition-colors hover:bg-gray-200 dark:hover:bg-gray-700"
+                    className="flex-1 rounded-lg bg-gray-100 dark:bg-gray-800 py-2.5 font-bold text-gray-600 dark:text-gray-300 transition-colors hover:bg-gray-200 dark:hover:bg-gray-700 text-xs"
                   >
                     Cancel
                   </button>
                   <button 
                     type="submit" 
                     disabled={!modalSubject || !modalCourse}
-                    className="flex-1 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 py-3.5 font-bold text-white shadow-lg transition-transform hover:scale-[1.02] active:scale-95 disabled:opacity-50 disabled:pointer-events-none"
+                    className="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 py-2.5 font-bold text-white shadow-sm transition-transform hover:scale-[1.02] active:scale-95 disabled:opacity-50 disabled:pointer-events-none text-xs"
                   >
                     Start Learning
                   </button>

@@ -478,15 +478,15 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                  ) : (
                    <div className={`w-full max-w-[750px] px-4 md:px-6 py-4 transition-all duration-500 relative ${isStreaming ? "rounded-xl border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
                      {isStreaming && (
-                       <div className="flex items-center gap-2 mb-4 text-[0.65rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
-                         <div className="relative h-5 w-5">
-                            <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                       <div className="flex items-center gap-2 mb-4 text-[0.6rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
+                         <div className="relative h-4 w-4">
+                            <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                               <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                               <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                             </svg>
-                            <div className="absolute inset-0 m-auto h-1.5 w-1.5 rounded-full bg-blue-600 animate-pulse"></div>
+                            <div className="absolute inset-0 m-auto h-1 w-1 rounded-full bg-blue-600 animate-pulse"></div>
                          </div>
-                         <span>SOL Synchronizing Stream</span>
+                         <span>Synchronizing</span>
                        </div>
                      )}
                      {splitMessageSegments(String(m.content || "")).map((seg, segIdx) => {
@@ -508,8 +508,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                            {g.status === "done" && g.engine === "desmos" && <DesmosRenderer state={g.desmosState} />}
                            {g.status === "done" && g.engine !== "desmos" && <GeoGebraRenderer state={g.ggbState} />}
                            {g.status === "done" && g.mode === "question" && g.question && (
-                             <div className="mt-3 flex items-start gap-3 rounded-2xl border border-amber-200 dark:border-amber-700/50 bg-amber-50 dark:bg-amber-900/20 px-4 py-3 text-sm font-semibold text-amber-800 dark:text-amber-300 shadow-sm">
-                               <span className="mt-0.5 text-base leading-none">❓</span>
+                             <div className="mt-2 flex items-start gap-2 rounded-xl border border-amber-200 dark:border-amber-700/50 bg-amber-50 dark:bg-amber-900/20 px-3 py-2 text-xs font-semibold text-amber-800 dark:text-amber-300 shadow-sm">
+                               <span className="mt-0.5 text-sm leading-none">❓</span>
                                <span>{g.question}</span>
                              </div>
                            )}
