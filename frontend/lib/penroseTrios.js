@@ -1939,3 +1939,339 @@ Label Cp "C'"
 `,
   variation: "translation",
 };
+
+// ─── Chunk 6: Rotation, Symmetry, Polygon Angles, Trig Ratios, Tangent, Chords ───
+
+// 61. Rotation: triangle ABC and rotated image A'B'C' with arc at center of rotation O
+export const TRIO_ROTATION = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, A, B, C, Ap, Bp, Cp
+Segment oa := MkSeg(O, A)
+Segment ob := MkSeg(O, B)
+Segment oc := MkSeg(O, C)
+Segment oap := MkSeg(O, Ap)
+Segment obp := MkSeg(O, Bp)
+Segment ocp := MkSeg(O, Cp)
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment apbp := MkSeg(Ap, Bp)
+Segment bpcp := MkSeg(Bp, Cp)
+Segment cpap := MkSeg(Cp, Ap)
+AngleArc(A, O, Ap)
+IsAbove(A, O)
+IsAbove(Ap, O)
+IsLeftOf(A, O)
+IsLeftOf(O, Ap)
+IsAbove(C, A)
+IsAbove(Cp, Ap)
+IsCentered(O)
+Label O "O"
+Label A "A"
+Label B "B"
+Label C "C"
+Label Ap "A'"
+Label Bp "B'"
+Label Cp "C'"
+`,
+  variation: "rotation",
+};
+
+// 62. Line of symmetry through an isosceles triangle (vertical axis of symmetry)
+export const TRIO_LINE_SYMMETRY = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, T, U
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment tu := MkSeg(T, U)
+Tick(ab)
+Tick(ca)
+IsAbove(A, B)
+IsAbove(A, C)
+IsLeftOf(B, C)
+IsCentered(A)
+IsAbove(T, A)
+IsAbove(A, U)
+SameRow(B, C)
+Label A "A"
+Label B "B"
+Label C "C"
+Label T ""
+Label U ""
+`,
+  variation: "line_symmetry",
+};
+
+// 63. Interior angles of a pentagon with PolyAngle arcs — sum = (5-2)×180 = 540°
+export const TRIO_POLYGON_INTERIOR_ANGLES = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D, E
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cd := MkSeg(C, D)
+Segment de := MkSeg(D, E)
+Segment ea := MkSeg(E, A)
+AngleArc(E, A, B)
+AngleArc(A, B, C)
+AngleArc(B, C, D)
+AngleArc(C, D, E)
+AngleArc(D, E, A)
+PolyAngle(E, A, B)
+PolyAngle(A, B, C)
+PolyAngle(B, C, D)
+PolyAngle(C, D, E)
+PolyAngle(D, E, A)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+Label E "E"
+`,
+  variation: "polygon_interior",
+};
+
+// 64. Right triangle with opp/adj/hyp labels at midpoints and angle θ at A
+export const TRIO_TRIG_RATIOS = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, U, V, W
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+RightAngle(A, B, C)
+AngleArc(B, A, C)
+MidpointOf(U, A, B)
+MidpointOf(V, B, C)
+MidpointOf(W, C, A)
+Hidden(U)
+Hidden(V)
+Hidden(W)
+IsAbove(C, A)
+IsAbove(C, B)
+IsLeftOf(A, B)
+IsCentered(A)
+IsCentered(B)
+IsCentered(C)
+Label A "θ"
+Label B ""
+Label C ""
+Label U "adj"
+Label V "opp"
+Label W "hyp"
+`,
+  variation: "trig_ratios",
+};
+
+// 65. Tangent line to circle: center O, radius OT, tangent line at T (OT ⊥ tangent)
+export const TRIO_TANGENT_CIRCLE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, T, P, Q
+Segment ot := MkSeg(O, T)
+Segment pq := MkSeg(P, Q)
+RightAngle(O, T, P)
+IsCenter(O)
+OnCircle(T, O)
+SameRow(P, T)
+SameRow(T, Q)
+IsLeftOf(P, T)
+IsLeftOf(T, Q)
+IsCentered(O)
+IsAbove(O, T)
+Label O "O"
+Label T "T"
+Label P ""
+Label Q ""
+`,
+  variation: "tangent_circle",
+};
+
+// 66. Two chords PQ and RS intersecting inside circle at point X  (chord-chord angle)
+export const TRIO_CHORD_CHORD = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, P, Q, R, S, X
+Segment px := MkSeg(P, X)
+Segment xq := MkSeg(X, Q)
+Segment rx := MkSeg(R, X)
+Segment xs := MkSeg(X, S)
+IsCenter(O)
+OnCircle(P, O)
+OnCircle(Q, O)
+OnCircle(R, O)
+OnCircle(S, O)
+IsCentered(O)
+IsCentered(X)
+AngleArc(P, X, R)
+Label O "O"
+Label P "P"
+Label Q "Q"
+Label R "R"
+Label S "S"
+Label X "X"
+`,
+  variation: "chord_chord",
+};
+
+// ─── Chunk 7: Secant, Midpoint, Distance, Coordinate Plane, Inequality, Proof ──
+
+// 67. Secant from external point E through circle: E-A-B on one line
+export const TRIO_SECANT_EXTERNAL = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, E, A, B
+Segment ea := MkSeg(E, A)
+Segment ab := MkSeg(A, B)
+IsCenter(O)
+OnCircle(A, O)
+OnCircle(B, O)
+IsWellLeftOf(E, O)
+SameRow(E, A)
+SameRow(A, B)
+IsLeftOf(E, A)
+IsLeftOf(A, B)
+IsCentered(O)
+Label O "O"
+Label E "E"
+Label A "A"
+Label B "B"
+`,
+  variation: "secant_external",
+};
+
+// 68. Midpoint of a segment: M is the midpoint of AB, with tick marks
+export const TRIO_MIDPOINT_SEGMENT = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, M
+Segment am := MkSeg(A, M)
+Segment mb := MkSeg(M, B)
+Tick(am)
+Tick(mb)
+SameRow(A, M)
+SameRow(M, B)
+IsLeftOf(A, M)
+IsLeftOf(M, B)
+Label A "A"
+Label M "M"
+Label B "B"
+`,
+  variation: "midpoint_segment",
+};
+
+// 69. Distance formula: right triangle on a grid with horizontal leg Δx, vertical leg Δy, hypotenuse d
+export const TRIO_DISTANCE_FORMULA = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point P, Q, R, U, V, W
+Segment pq := MkSeg(P, Q)
+Segment qr := MkSeg(Q, R)
+Segment rp := MkSeg(R, P)
+RightAngle(P, Q, R)
+SameRow(P, Q)
+IsAbove(R, Q)
+IsLeftOf(P, Q)
+MidpointOf(U, P, Q)
+MidpointOf(V, Q, R)
+MidpointOf(W, P, R)
+Hidden(U)
+Hidden(V)
+Hidden(W)
+Label P "P"
+Label Q "Q"
+Label R "R"
+Label U "Δx"
+Label V "Δy"
+Label W "d"
+`,
+  variation: "distance_formula",
+};
+
+// 70. Coordinate plane quadrants: four labeled quadrant regions around origin O
+export const TRIO_COORDINATE_QUADRANTS = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, R1, R2, R3, R4, Tx, Ty
+Segment ox := MkSeg(O, Tx)
+Segment oy := MkSeg(O, Ty)
+IsCentered(O)
+IsLeftOf(O, Tx)
+IsAbove(Ty, O)
+IsAbove(R1, O)
+IsAbove(R2, O)
+IsLeftOf(R3, O)
+IsLeftOf(R4, O)
+IsLeftOf(O, R1)
+IsLeftOf(R2, O)
+IsAbove(O, R3)
+IsAbove(O, R4)
+IsLeftOf(R4, O)
+Hidden(R1)
+Hidden(R2)
+Hidden(R3)
+Hidden(R4)
+Label O "O"
+Label Tx "x"
+Label Ty "y"
+Label R1 "Q I"
+Label R2 "Q II"
+Label R3 "Q III"
+Label R4 "Q IV"
+`,
+  variation: "coord_quadrants",
+};
+
+// 71. Number-line inequality: ray from point A going right (x > a)
+export const TRIO_INEQUALITY_RAY = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point L, A, B, R
+Segment la := MkSeg(L, A)
+Segment ar := MkSeg(A, R)
+Segment ab := MkSeg(A, B)
+SameRow(L, A)
+SameRow(A, R)
+SameRow(A, B)
+IsLeftOf(L, A)
+IsLeftOf(A, B)
+IsLeftOf(B, R)
+IsCentered(A)
+Label L ""
+Label A "a"
+Label B ""
+Label R ""
+`,
+  variation: "inequality_ray",
+};
+
+// 72. Logical implication chain: p → q → r (three nodes in a directed chain)
+export const TRIO_IMPLICATION_CHAIN = {
+  domain: DIRECTED_GRAPH_DOMAIN,
+  style: DIRECTED_GRAPH_STYLE,
+  substance: `
+Node p, q, r
+DEdge e1 := MkDEdge(p, q)
+DEdge e2 := MkDEdge(q, r)
+Label p "p"
+Label q "q"
+Label r "r"
+Label e1 "→"
+Label e2 "→"
+`,
+  variation: "implication_chain",
+};

@@ -177,20 +177,20 @@ export default function StandardsCoverageDashboard() {
       const promptData = await promptRes.json();
       
       if (promptData.error) throw new Error(`LLM Error: ${promptData.error}`);
-      const query = promptData.query;
+      const payload = promptData.payload;
       
-      if (!query) throw new Error("AI pipeline failed to generate an image query token.");
+      if (!payload || !payload.visual_search_term) throw new Error("AI pipeline failed to generate an image query token.");
 
       setResults(prev => ({ 
         ...prev, 
-        [id]: { prompting: false, query, explanation: promptData.explanation } 
+        [id]: { prompting: false, query: payload.visual_search_term, explanation: promptData.explanation } 
       }));
 
       // Step 2: Wikimedia Integration
       const wikiRes = await fetch("/api/wikimedia-search", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query }),
+        body: JSON.stringify(payload),
       });
       const wikiData = await wikiRes.json();
       

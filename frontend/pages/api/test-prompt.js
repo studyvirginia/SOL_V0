@@ -19,19 +19,21 @@ function loadOpenRouterKey() {
   return undefined;
 }
 
-const SYSTEM_PROMPT = `You are an expert Virginia SOL educational tutor.
-Your task is to review a specific curriculum standard, provide a very brief 1-2 sentence explanation of the concept for a student, and then request a highly relevant visual aid using the exact image token format below.
+const SYSTEM_PROMPT = `You are an expert Virginia SOL educational tutor and "Search Architect."
+Your task is to review a specific curriculum standard, provide a very brief 1-2 sentence explanation of the concept for a student, and then generate a highly structured Wikimedia Commons search object.
 
 Format (must be on its own line, valid JSON, no surrounding markdown):
-%%IMAGE%%{"query":"<search terms>"}%%END_IMAGE%%
+%%IMAGE%%{"visual_search_term": "<search terms>", "category_filter": "Category:<category>", "preferred_mime": "image/svg+xml"}%%END_IMAGE%%
 
 FIELDS:
-- query: Descriptive search terms. IMPORTANT: Always include a categorical keyword like "diagram", "map", "portrait", "illustration", or "photograph" to ensure the result matches the educational intent (e.g. "World War II theaters map", NOT just "World War II theaters").
+- visual_search_term: Descriptive search terms (e.g., "Mitosis diagram", "World War II Europe map").
+- category_filter: Important! Pick an exact Wikimedia category to force academic accuracy (e.g., "Category:Cell biology", "Category:Mathematics diagrams", "Category:Maps of World War II").
+- preferred_mime: Set to "image/svg+xml" for geometry/diagrams, or "image/jpeg" for artifacts/photography.
 
 RULES:
 - Emit ONE image token per response. Place it after your brief explanation.
 - Do NOT wrap it in a code fence.
-- Focus on accuracy and educational relevance.`;
+- Your keyword logic should prioritize objective, academic diagrams and photographs.`;
 
 export default async function handler(req, res) {
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
@@ -64,14 +66,12 @@ Generate a short explanation for a student, followed by the image request token.
     // Parse the token
     const tokenRegex = /%%IMAGE%%({.*?})%%END_IMAGE%%/s;
     const match = text.match(tokenRegex);
-    let extractedQuery = null;
+    let extractedPayload = null;
     let explanation = text;
 
     if (match && match[1]) {
       try {
-        const payload = JSON.parse(match[1]);
-        extractedQuery = payload.query;
-        // Remove the token from the explanation to keep it clean
+        extractedPayload = JSON.parse(match[1]);
         explanation = text.replace(match[0], "").trim();
       } catch (e) {
         console.warn("Failed to parse token JSON:", match[1]);
@@ -81,7 +81,7 @@ Generate a short explanation for a student, followed by the image request token.
     return res.status(200).json({ 
       rawText: text,
       explanation,
-      query: extractedQuery,
+      payload: extractedPayload,
       model: modelId
     });
 
