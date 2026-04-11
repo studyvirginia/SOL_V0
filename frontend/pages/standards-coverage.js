@@ -186,11 +186,11 @@ export default function StandardsCoverageDashboard() {
         [id]: { prompting: false, query: payload.visual_search_term, explanation: promptData.explanation } 
       }));
 
-      // Step 2: Wikimedia Integration
+      // Step 2: Wikimedia Integration with 2nd Stage AI Verification
       const wikiRes = await fetch("/api/wikimedia-search", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+        body: JSON.stringify({ ...payload, standardContext: standard.description }),
       });
       const wikiData = await wikiRes.json();
       
