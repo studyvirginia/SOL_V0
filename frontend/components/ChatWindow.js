@@ -440,23 +440,23 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   const activePillar = Object.entries(modeMap).find(([key, pillar]) => pillar.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
 
   return (
-    <div className="flex h-full w-full gap-4 md:gap-8">
-      <div className="w-[200px] hidden lg:flex flex-col shrink-0 space-y-2 h-full py-8 text-gray-800 dark:text-gray-300 gap-1">
-         <h2 className="text-[0.65rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-6 px-1">Learning Path</h2>
+    <div className="flex h-full w-full gap-4 md:gap-6">
+      <div className="w-[140px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-4 text-gray-800 dark:text-gray-300 gap-0.5">
+         <h2 className="text-[0.6rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4 px-1">Learning Path</h2>
          {Object.entries(modeMap).map(([pillarKey, pillarData]) => {
            const isActivePillar = activePillar === pillarKey;
            return (
              <div key={pillarKey} className="flex flex-col">
-                {pillarKey === "progress" && <hr className="my-4 border-gray-100 dark:border-gray-800" />}
+                {pillarKey === "progress" && <hr className="my-2 border-gray-100 dark:border-gray-800" />}
                 <div 
-                  className={`flex items-center justify-between px-3 py-2.5 rounded-xl cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
+                  className={`flex items-center justify-between px-2 py-2 rounded-lg cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
                   onClick={() => { if (!isActivePillar && pillarData.subModes.length > 0) onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id }); }}
                 >
-                  <span className="tracking-tight">{pillarData.label}</span>
+                  <span className="text-[0.8rem] tracking-tight">{pillarData.label}</span>
                 </div>
-                <div className={`flex flex-col pl-4 border-l-2 border-gray-100 dark:border-gray-800/60 ml-3 space-y-1 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-4 opacity-100" : "max-h-0 opacity-0"}`}>
+                <div className={`flex flex-col pl-3 border-l-2 border-gray-100 dark:border-gray-800/60 ml-2 space-y-0.5 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-0.5 mb-2 opacity-100" : "max-h-0 opacity-0"}`}>
                    {isActivePillar && pillarData.subModes.map((sub) => (
-                      <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`text-left px-3 py-2 rounded-xl text-[0.85rem] transition-colors ${currentMode === sub.id ? "font-bold text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-800 shadow-sm border border-gray-200/60 dark:border-gray-700/60" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>{sub.label}</button>
+                      <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`text-left px-2 py-1.5 rounded-lg text-[0.75rem] transition-colors ${currentMode === sub.id ? "font-bold text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-800 shadow-sm border border-gray-200/60 dark:border-gray-700/60" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>{sub.label}</button>
                    ))}
                 </div>
              </div>
