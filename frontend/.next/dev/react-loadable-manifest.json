@@ -10,11 +10,5 @@
     "files": [
       "static/chunks/_pages-dir-browser_components_GeoGebraRenderer_js.js"
     ]
-  },
-  "pages/diagram-dashboard.js -> ../components/PenroseRenderer": {
-    "id": "pages/diagram-dashboard.js -> ../components/PenroseRenderer",
-    "files": [
-      "static/chunks/_pages-dir-browser_components_PenroseRenderer_js.js"
-    ]
   }
 }

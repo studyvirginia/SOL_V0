@@ -401,6 +401,40 @@ export default function StandardsCoverageDashboard() {
 
       {/* Body */}
       <div className="max-w-screen-2xl mx-auto px-4 py-6 space-y-12">
+        {/* Active Queue Top Banner */}
+        {(runQueue.length > 0 || Object.keys(loadingIds).length > 0) && (() => {
+          const activeIds = new Set([...Object.keys(loadingIds), ...runQueue]);
+          // Gather actively processing standards
+          const activeCards = standards.filter(s => activeIds.has(s.id));
+          if (activeCards.length === 0) return null;
+          
+          return (
+            <section className="p-5 rounded-2xl border-2 border-indigo-200 dark:border-indigo-800/50 bg-indigo-50/50 dark:bg-indigo-950/20 shadow-sm relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-pink-500 via-indigo-500 to-emerald-400 block" style={{ backgroundSize: '200% 200%', animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' }} />
+              <div className="flex items-center gap-3 mb-5 mt-1">
+                 <div className="h-8 w-8 rounded-full bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center shadow-inner">
+                   <svg className="animate-spin h-5 w-5 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24"><circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
+                 </div>
+                 <div>
+                   <h2 className="text-sm font-black text-indigo-900 dark:text-indigo-100 uppercase tracking-widest">Active Processing Queue</h2>
+                   <p className="text-[0.65rem] text-indigo-600 dark:text-indigo-400 font-bold">{activeCards.length} standard{activeCards.length !== 1 && 's'} in queue</p>
+                 </div>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4">
+                 {activeCards.map(std => (
+                    <StandardCard
+                      key={std.id}
+                      standard={std}
+                      result={results[std.id]}
+                      loading={!!loadingIds[std.id]}
+                      onTest={() => fetchOne(std)}
+                    />
+                 ))}
+              </div>
+            </section>
+          );
+        })()}
+
         {Object.entries(grouped).map(([subject, courses]) => {
           const colors = SUBJECT_COLORS[subject] || SUBJECT_COLORS.math;
           const subjectStdCount = Object.values(courses).flatMap(d => Object.values(d)).flat().length;
