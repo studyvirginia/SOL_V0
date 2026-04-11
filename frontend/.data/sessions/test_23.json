@@ -1,0 +1,19 @@
+{
+  "id": "test_23",
+  "subject": "math",
+  "course": "Grade 2 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating horizontal bar graph \nRecent assistant focus: Here's a textbook-quality horizontal bar graph illustrating the number of students in each grade level at a school:\n\n%%TIKZ_GRAPH%%{\"description\":\"A horizontal bar graph with x-axis labeled 'Number of Students' ranging from 0 to 50, and y-axis labeled 'Grade Level' with categories 'Kindergarten', '1st Grade', '2nd Grade', '3rd Grade', '4th Grade', '5th Grade'. Bars are colored differently for each grade level. Data points: Kindergarten: 45 students, 1st Grade: 42 students, 2nd Grade: 48 students, 3rd Grade: 40 students, 4th Grade: 46 students, 5th Grade: 44 students.\",\"engine\":\"pgfplots\",\"course_hint\":\"grade_2_math\",\"archetype_hint\":\"horizontal_bar_graph\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis graph shows how many students are in each grade level. The length of each bar represents the number of students, and the different colors help distinguish between the grade levels. This type of graph is useful for comparing quantities across different categories, which is a key skill in the Probability and Statistics domain of Grade 2 Math.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating horizontal bar graph"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality horizontal bar graph illustrating the number of students in each grade level at a school:\n\n%%TIKZ_GRAPH%%{\"description\":\"A horizontal bar graph with x-axis labeled 'Number of Students' ranging from 0 to 50, and y-axis labeled 'Grade Level' with categories 'Kindergarten', '1st Grade', '2nd Grade', '3rd Grade', '4th Grade', '5th Grade'. Bars are colored differently for each grade level. Data points: Kindergarten: 45 students, 1st Grade: 42 students, 2nd Grade: 48 students, 3rd Grade: 40 students, 4th Grade: 46 students, 5th Grade: 44 students.\",\"engine\":\"pgfplots\",\"course_hint\":\"grade_2_math\",\"archetype_hint\":\"horizontal_bar_graph\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis graph shows how many students are in each grade level. The length of each bar represents the number of students, and the different colors help distinguish between the grade levels. This type of graph is useful for comparing quantities across different categories, which is a key skill in the Probability and Statistics domain of Grade 2 Math."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:07:30.385Z"
+}

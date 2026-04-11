@@ -1,0 +1,56 @@
+{
+  "createdAt": "2026-03-26T22:49:53.285Z",
+  "profile": {
+    "grade": null,
+    "learningNeeds": null
+  },
+  "sessionSetup": {
+    "subject": "Math",
+    "course": "Kindergarten Math",
+    "focus": null
+  },
+  "curriculum": {
+    "subject": "Math",
+    "course": "Kindergarten Math",
+    "compressed": ""
+  },
+  "memory": {
+    "summary": "",
+    "messages": [
+      {
+        "role": "user",
+        "content": "yoo",
+        "at": "2026-03-26T23:02:03.018Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Setup check\n\nI can’t reach the AI service right now (quota/rate limit).\n\nChoose what you want to do next (reply with a number):\n1) Review → Flashcards (Counting to 10)\n2) Review → Notes (Counting basics)\n3) Mastery → Questions (quick check)\n4) Change focus / switch subject/course\n5) Exit",
+        "at": "2026-03-26T23:02:03.631Z"
+      },
+      {
+        "role": "user",
+        "content": "2",
+        "at": "2026-03-26T23:02:05.628Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Setup check\n\nI can’t reach the AI service right now (quota/rate limit).\n\nChoose what you want to do next (reply with a number):\n1) Review → Flashcards (Counting to 10)\n2) Review → Notes (Counting basics)\n3) Mastery → Questions (quick check)\n4) Change focus / switch subject/course\n5) Exit",
+        "at": "2026-03-26T23:02:06.204Z"
+      },
+      {
+        "role": "user",
+        "content": "3",
+        "at": "2026-03-26T23:02:08.481Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Setup check\n\nI can’t reach the AI service right now (quota/rate limit).\n\nChoose what you want to do next (reply with a number):\n1) Review → Flashcards (Counting to 10)\n2) Review → Notes (Counting basics)\n3) Mastery → Questions (quick check)\n4) Change focus / switch subject/course\n5) Exit",
+        "at": "2026-03-26T23:02:09.161Z"
+      }
+    ],
+    "turns": 3,
+    "questionCounter": 0,
+    "flashcardCounter": 0
+  },
+  "updatedAt": "2026-03-26T23:02:09.161Z"
+}

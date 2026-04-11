@@ -1,0 +1,19 @@
+{
+  "id": "test_32",
+  "subject": "math",
+  "course": "Grade 3 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram of perimeter labels (area perimeter) \nRecent assistant focus: Here's a textbook-quality diagram showing a rectangle with both perimeter and area labels:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a rectangle with length 6 units and width 4 units. Label the length as '6 units' and the width as '4 units'. Write 'Perimeter = 20 units' near the top and 'Area = 24 square units' near the bottom.\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_3_math\",\"archetype_hint\":\"rectangle_with_labels\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows a rectangle with:\n- Length = 6 units\n- Width = 4 units\n- Perimeter = 20 units (calculated as 2 × (length + width))\n- Area = 24 square units (calculated as length × width)\n\nThe perimeter is the total distance around the outside of the rectangle, while the area is the amount of space inside the rectangle.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram of perimeter labels (area perimeter)"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram showing a rectangle with both perimeter and area labels:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a rectangle with length 6 units and width 4 units. Label the length as '6 units' and the width as '4 units'. Write 'Perimeter = 20 units' near the top and 'Area = 24 square units' near the bottom.\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_3_math\",\"archetype_hint\":\"rectangle_with_labels\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows a rectangle with:\n- Length = 6 units\n- Width = 4 units\n- Perimeter = 20 units (calculated as 2 × (length + width))\n- Area = 24 square units (calculated as length × width)\n\nThe perimeter is the total distance around the outside of the rectangle, while the area is the amount of space inside the rectangle."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:08:24.396Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "test_22",
+  "subject": "math",
+  "course": "Grade 2 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating line of symmetry \nRecent assistant focus: Here's a textbook-quality diagram illustrating a line of symmetry for a simple geometric shape:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw an isosceles triangle with vertices at (0,0), (2,4), and (-2,4). Draw a vertical dashed line from (0,0) to (0,4) and label it 'Line of Symmetry'. Label the vertices A, B, and C respectively.\",\"engine\":\"pure_tikz\",\"course_hint\":\"geometry\",\"archetype_hint\":\"symmetry\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows an isosceles triangle with its line of symmetry. The line of symmetry is the vertical dashed line that divides the triangle into two mirror-image halves. Notice how points on one side of the line have corresponding points on the other side that are the same distance from the line.\n\nIn second grade math, understanding symmetry helps you recognize patterns and balance in shapes, which is part of the Measurement and Geometry domain (2.MG.1).",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating line of symmetry"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram illustrating a line of symmetry for a simple geometric shape:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw an isosceles triangle with vertices at (0,0), (2,4), and (-2,4). Draw a vertical dashed line from (0,0) to (0,4) and label it 'Line of Symmetry'. Label the vertices A, B, and C respectively.\",\"engine\":\"pure_tikz\",\"course_hint\":\"geometry\",\"archetype_hint\":\"symmetry\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows an isosceles triangle with its line of symmetry. The line of symmetry is the vertical dashed line that divides the triangle into two mirror-image halves. Notice how points on one side of the line have corresponding points on the other side that are the same distance from the line.\n\nIn second grade math, understanding symmetry helps you recognize patterns and balance in shapes, which is part of the Measurement and Geometry domain (2.MG.1)."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:07:25.360Z"
+}

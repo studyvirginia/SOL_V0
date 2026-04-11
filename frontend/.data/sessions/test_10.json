@@ -1,0 +1,19 @@
+{
+  "id": "test_10",
+  "subject": "math",
+  "course": "Grade 1 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating counting 120 chart \nRecent assistant focus: Here's a textbook-quality diagram of a 120 chart, which is a grid used to help students visualize and practice counting up to 120:\n\n%%TIKZ_GRAPH%%{\"description\":\"A 120 chart with 10 columns and 12 rows. Each cell contains a number from 1 to 120, incrementing by 1 in each cell. The chart should have a light gray grid with black borders. The numbers should be centered in each cell. The top row should be labeled with numbers 1 through 10, and the leftmost column should be labeled with multiples of 10 (10, 20, 30, ..., 120).\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_1_math\",\"archetype_hint\":\"number_chart\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis chart is a useful tool for practicing counting, skip counting, and recognizing number patterns. It's particularly helpful for first-grade students to develop their number sense and understanding of numbers up to 120.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating counting 120 chart"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram of a 120 chart, which is a grid used to help students visualize and practice counting up to 120:\n\n%%TIKZ_GRAPH%%{\"description\":\"A 120 chart with 10 columns and 12 rows. Each cell contains a number from 1 to 120, incrementing by 1 in each cell. The chart should have a light gray grid with black borders. The numbers should be centered in each cell. The top row should be labeled with numbers 1 through 10, and the leftmost column should be labeled with multiples of 10 (10, 20, 30, ..., 120).\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_1_math\",\"archetype_hint\":\"number_chart\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis chart is a useful tool for practicing counting, skip counting, and recognizing number patterns. It's particularly helpful for first-grade students to develop their number sense and understanding of numbers up to 120."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:06:15.178Z"
+}

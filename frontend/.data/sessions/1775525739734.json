@@ -1,0 +1,31 @@
+{
+  "id": "1775525739734",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: create study guide ofr polar functions - include highlights, underlines, and boxes | yo use [u] and [/u] around some text with a desmos graph so its unerlined \nRecent assistant focus: Type to start learning. | Okay, let's create a study guide for polar functions. Since the current curriculum context is Algebra 1, and polar functions are typically covered in higher-level math courses, I'll provide a general overview.\n\n### Polar Functions Study Guide\n\n**1. Introduction to Polar Coordinates**\n\n*   [h]What are Polar Coordinates?[/h]\n    *   Polar coordinates are an alternative way to represent points in a plane. Instead of using [u]Cartesian coordinates[/u] (x, y), we use (r, θ), where:\n        *   r is the distance from the origin (pole).\n        *   θ (theta) is the angle measured counterclockwise from the positive x-axis (polar axis).\n*   [b]Converting Between Coordinate Systems[/b]\n    *   From Polar to Cartesian:\n        *   x = r * cos(θ)\n        *   y = r * sin(θ)\n    *   From Cartesian to Polar:\n        *   r = √(x² + y²)\n        *   θ = arctan(y/x) (Be mindful of the quadrant!)\n\n**2. Graphing Polar Equations**\n\n*   [h]...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Type to start learning."
+    },
+    {
+      "role": "user",
+      "content": "create study guide ofr polar functions - include highlights, underlines, and boxes"
+    },
+    {
+      "role": "user",
+      "content": "yo use [u] and [/u] around some text with a desmos graph so its unerlined"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's create a study guide for polar functions. Since the current curriculum context is Algebra 1, and polar functions are typically covered in higher-level math courses, I'll provide a general overview.\n\n### Polar Functions Study Guide\n\n**1. Introduction to Polar Coordinates**\n\n*   [h]What are Polar Coordinates?[/h]\n    *   Polar coordinates are an alternative way to represent points in a plane. Instead of using [u]Cartesian coordinates[/u] (x, y), we use (r, θ), where:\n        *   r is the distance from the origin (pole).\n        *   θ (theta) is the angle measured counterclockwise from the positive x-axis (polar axis).\n*   [b]Converting Between Coordinate Systems[/b]\n    *   From Polar to Cartesian:\n        *   x = r * cos(θ)\n        *   y = r * sin(θ)\n    *   From Cartesian to Polar:\n        *   r = √(x² + y²)\n        *   θ = arctan(y/x) (Be mindful of the quadrant!)\n\n**2. Graphing Polar Equations**\n\n*   [h]Basic Polar Equations[/h]\n    *   r = a (circle centered at the origin with radius |a|)\n    *   θ = α (a line through the origin at an angle α)\n*   [b]Common Polar Curves[/b]\n    *   Cardioids: r = a(1 + cos(θ)) or r = a(1 + sin(θ))\n    *   Limacons: r = a + b*cos(θ) or r = a + b*sin(θ)\n    *   Roses: r = a*cos(nθ) or r = a*sin(nθ) (n determines the number of petals)\n    *   Lemniscates: r² = a²*cos(2θ)\n\n**3. Examples and Practice**\n\n*   **Example 1:** Graph the polar equation r = 2. This represents a [u]circle[/u] with a radius of 2 centered at the origin.\n\n%%GRAPH%%{\"description\":\"r=2\",\"engine\":\"desmos\",\"course_hint\":\"precalculus\",\"archetype_hint\":\"polar_circle\",\"extra_rules\":\"\"}%%END_GRAPH%%\n\n*   **Example 2:** Convert the Cartesian equation x² + y² = 9 to polar form.\n    *   Substitute x = r*cos(θ) and y = r*sin(θ):\n        *   (r*cos(θ))² + (r*sin(θ))² = 9\n        *   r²*cos²(θ) + r²*sin²(θ) = 9\n        *   r²(cos²(θ) + sin²(θ)) = 9\n        *   r² = 9\n        *   r = 3 (This is a circle with radius 3)\n\n**4. Tips for Success**\n\n*   [c]Practice Conversions[/c]: Become comfortable converting between Cartesian and polar coordinates.\n*   [h]Understand the Basic Shapes[/h]: Recognize the general shapes of cardioids, limacons, roses, and lemniscates.\n*   [b]Use a Graphing Calculator or Software[/b]: Utilize tools like Desmos to visualize polar graphs.\n\nThis study guide provides a basic overview. Remember to consult your textbook and practice problems to solidify your understanding.\n"
+    }
+  ],
+  "updatedAt": "2026-04-07T02:44:40.627Z"
+}

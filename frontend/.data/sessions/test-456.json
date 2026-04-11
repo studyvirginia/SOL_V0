@@ -1,0 +1,19 @@
+{
+  "id": "test-456",
+  "subject": "math",
+  "course": "Algebra 2",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a graph of y=floor(x), the greatest integer function \nRecent assistant focus: The greatest integer function, often written as $y = \\lfloor x \\rfloor$, gives the largest integer less than or equal to $x$. For example, $\\lfloor 3.2 \\rfloor = 3$, $\\lfloor -1.5 \\rfloor = -2$, and $\\lfloor 5 \\rfloor = 5$.\n\nHere's a graph of the function:\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=floor(x)\"],\"label_points\":[]}%%END_GRAPH%%\n\nNotice that the graph looks like a series of steps. Each step has a closed circle on the left and an open circle on the right, indicating that the function includes the value at the left endpoint but not the right endpoint of each interval.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a graph of y=floor(x), the greatest integer function"
+    },
+    {
+      "role": "assistant",
+      "content": "The greatest integer function, often written as $y = \\lfloor x \\rfloor$, gives the largest integer less than or equal to $x$. For example, $\\lfloor 3.2 \\rfloor = 3$, $\\lfloor -1.5 \\rfloor = -2$, and $\\lfloor 5 \\rfloor = 5$.\n\nHere's a graph of the function:\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=floor(x)\"],\"label_points\":[]}%%END_GRAPH%%\n\nNotice that the graph looks like a series of steps. Each step has a closed circle on the left and an open circle on the right, indicating that the function includes the value at the left endpoint but not the right endpoint of each interval.\n"
+    }
+  ],
+  "updatedAt": "2026-04-08T00:17:53.084Z"
+}

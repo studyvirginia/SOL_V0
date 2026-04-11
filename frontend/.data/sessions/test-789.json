@@ -1,0 +1,19 @@
+{
+  "id": "test-789",
+  "subject": "math",
+  "course": "Geometry",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a right triangle with legs 3 and 4 \nRecent assistant focus: Here's a right triangle with legs of length 3 and 4.\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"geometry\",\"equations\":[\"polygon((0,0),(4,0),(4,3))\"],\"label_points\":[{\"x\":0,\"y\":0,\"label\":\"\"},{\"x\":4,\"y\":0,\"label\":\"\"},{\"x\":4,\"y\":3,\"label\":\"\"}],\"course\":\"geometry\",\"notes\":\"\"}%%END_GRAPH%%\n\nRemember, the [b]Pythagorean Theorem[/b] states that in a right triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides (the legs). In this case, the hypotenuse has a length of 5, since $3^2 + 4^2 = 9 + 16 = 25$, and $\\sqrt{25} = 5$.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a right triangle with legs 3 and 4"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a right triangle with legs of length 3 and 4.\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"geometry\",\"equations\":[\"polygon((0,0),(4,0),(4,3))\"],\"label_points\":[{\"x\":0,\"y\":0,\"label\":\"\"},{\"x\":4,\"y\":0,\"label\":\"\"},{\"x\":4,\"y\":3,\"label\":\"\"}],\"course\":\"geometry\",\"notes\":\"\"}%%END_GRAPH%%\n\nRemember, the [b]Pythagorean Theorem[/b] states that in a right triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides (the legs). In this case, the hypotenuse has a length of 5, since $3^2 + 4^2 = 9 + 16 = 25$, and $\\sqrt{25} = 5$.\n"
+    }
+  ],
+  "updatedAt": "2026-04-08T00:18:00.771Z"
+}

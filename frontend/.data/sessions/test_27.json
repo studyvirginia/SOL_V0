@@ -1,0 +1,19 @@
+{
+  "id": "test_27",
+  "subject": "math",
+  "course": "Grade 2 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating fraction bar model \nRecent assistant focus: Here's a textbook-quality diagram illustrating the fraction bar model for $\\frac{3}{4}$:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a horizontal bar divided into 4 equal parts. Shade the first 3 parts to represent 3/4. Label the whole bar as '1' and the shaded portion as '3/4'. Add a legend showing the fraction bar model concept.\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_2_math\",\"archetype_hint\":\"fraction_bar_model\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows how a fraction can be represented as a part of a whole. The entire bar represents the whole (1), and the shaded portion represents the fraction $\\frac{3}{4}$. This visual model helps students understand that a fraction shows how many equal parts make up a whole.\n\nWould you like to see another example with a different fraction?",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating fraction bar model"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram illustrating the fraction bar model for $\\frac{3}{4}$:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a horizontal bar divided into 4 equal parts. Shade the first 3 parts to represent 3/4. Label the whole bar as '1' and the shaded portion as '3/4'. Add a legend showing the fraction bar model concept.\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_2_math\",\"archetype_hint\":\"fraction_bar_model\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows how a fraction can be represented as a part of a whole. The entire bar represents the whole (1), and the shaded portion represents the fraction $\\frac{3}{4}$. This visual model helps students understand that a fraction shows how many equal parts make up a whole.\n\nWould you like to see another example with a different fraction?"
+    }
+  ],
+  "updatedAt": "2026-04-06T22:07:58.545Z"
+}

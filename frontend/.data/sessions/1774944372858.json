@@ -1,0 +1,27 @@
+{
+  "id": "1774944372858",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: \"Hey SOL! I'm studying Systems of Equations. Can you explain how to solve this system using the Substitution Method:  $2x + y = 10$ $y = x + 1$  Please include:  A Mafs graph plotting both lines so I can see the intersection. A JSXGraph diagram to highlight the specific coordinate point $(3, 4)$ where they meet. Step-by-step math using KaTeX. Use [h]highlights[/h] for the core definitions, [u]underlines[/u] for the substitution step, a [c]circle[/c] around the final $(x, y)$ solution, and a [b]box[/b] around the final rule for checking my work.\" \nRecent assistant focus: Type to start learning. | # Solving Systems of Equations Using the Substitution Method\n\n## Graphical Representation\n\nFirst, let's visualize the system of equations:\n\n### Mafs Graph\n```mafs\n{\n  \"series\": [\n    {\n      \"type\": \"ofx\",\n      \"expression\": \"2*x + 10 - y\",\n      \"color\": \"blue\",\n      \"label\": \"2x + y = 10\"\n    },\n    {\n      \"type\": \"ofx\",\n      \"expression\": \"x + 1\",\n      \"color\": \"red\",\n      \"label\": \"y = x + 1\"\n    },\n    {\n      \"type\": \"point\",\n      \"x\": 3,\n      \"y\": 4,\n      \"color\": \"green\",\n      \"label\": \"(3, 4)\"\n    }\n  ],\n  \"viewBo...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Type to start learning."
+    },
+    {
+      "role": "user",
+      "content": "\"Hey SOL! I'm studying Systems of Equations. Can you explain how to solve this system using the Substitution Method:  $2x + y = 10$ $y = x + 1$  Please include:  A Mafs graph plotting both lines so I can see the intersection. A JSXGraph diagram to highlight the specific coordinate point $(3, 4)$ where they meet. Step-by-step math using KaTeX. Use [h]highlights[/h] for the core definitions, [u]underlines[/u] for the substitution step, a [c]circle[/c] around the final $(x, y)$ solution, and a [b]box[/b] around the final rule for checking my work.\""
+    },
+    {
+      "role": "assistant",
+      "content": "# Solving Systems of Equations Using the Substitution Method\n\n## Graphical Representation\n\nFirst, let's visualize the system of equations:\n\n### Mafs Graph\n```mafs\n{\n  \"series\": [\n    {\n      \"type\": \"ofx\",\n      \"expression\": \"2*x + 10 - y\",\n      \"color\": \"blue\",\n      \"label\": \"2x + y = 10\"\n    },\n    {\n      \"type\": \"ofx\",\n      \"expression\": \"x + 1\",\n      \"color\": \"red\",\n      \"label\": \"y = x + 1\"\n    },\n    {\n      \"type\": \"point\",\n      \"x\": 3,\n      \"y\": 4,\n      \"color\": \"green\",\n      \"label\": \"(3, 4)\"\n    }\n  ],\n  \"viewBox\": [-1, 12, -1, 12],\n  \"height\": 400,\n  \"zoom\": 1,\n  \"pan\": [0, 0],\n  \"subdivisions\": 10\n}\n```\n\n## Step-by-Step Solution\n\nWe have the system:\n1. $2x + y = 10$\n2. $y = x + 1$\n\n### Step 1: Identify the [h]substitution[/h] equation\nThe second equation is already solved for $y$, so we can [u]substitute[/u] $y = x + 1$ into the first equation.\n\n### Step 2: Substitute and solve for $x$\nReplace $y$ in the first equation with $x + 1$:\n$$2x + (x + 1) = 10$$\n\nSimplify and solve for $x$:\n$$3x + 1 = 10$$\n$$3x = 9$$\n$$x = 3$$\n\n### Step 3: Find $y$ using the substitution equation\nNow that we have $x = 3$, substitute this value back into the second equation to find $y$:\n$$y = (3) + 1$$\n$$y = 4$$\n\n### Step 4: Write the solution\nThe solution to the system is the ordered pair $(x, y)$ that satisfies both equations. In this case, the solution is [c]$(3, 4)$[/c].\n\n### Step 5: [b]Verification[/b]\nTo ensure our solution is correct, we can substitute $x = 3$ and $y = 4$ back into both original equations:\n\n1. $2(3) + 4 = 6 + 4 = 10$ ✓\n2. $4 = 3 + 1$ ✓\n\nBoth equations are satisfied, so our solution is correct.\n\n## JSXGraph Diagram\n\nHere's a diagram highlighting the intersection point:\n\n```jsxgraph\n{\n  \"elements\": [\n    {\n      \"type\": \"line\",\n      \"id\": \"line1\",\n      \"expression\": \"y = 2x + 10\",\n      \"color\": \"blue\",\n      \"label\": \"2x + y = 10\"\n    },\n    {\n      \"type\": \"line\",\n      \"id\": \"line2\",\n      \"expression\": \"y = x + 1\",\n      \"color\": \"red\",\n      \"label\": \"y = x + 1\"\n    },\n    {\n      \"type\": \"point\",\n      \"id\": \"solution\",\n      \"x\": 3,\n      \"y\": 4,\n      \"color\": \"green\",\n      \"size\": 5,\n      \"label\": \"(3, 4)\"\n    },\n    {\n      \"type\": \"circle\",\n      \"id\": \"circle\",\n      \"center\": \"solution\",\n      \"radius\": 0.2,\n      \"color\": \"green\",\n      \"fillColor\": \"green\",\n      \"fillOpacity\": 0.3\n    }\n  ],\n  \"grid\": {\n    \"type\": \"axis\",\n    \"xmin\": -1,\n    \"xmax\": 12,\n    \"ymin\": -1,\n    \"ymax\": 12\n  }\n}\n```\n\n## Key Concepts\n\n- The [h]substitution method[/h] is useful when one equation is already solved for one variable.\n- Always [u]substitute[/u] the expression from one equation into the other.\n- Remember to [b]verify[/b] your solution by plugging the values back into both original equations.\n- The solution to a system of equations is the point where the two lines intersect on the graph."
+    }
+  ],
+  "updatedAt": "2026-03-31T08:07:02.960Z"
+}

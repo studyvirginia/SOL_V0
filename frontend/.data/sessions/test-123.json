@@ -1,0 +1,19 @@
+{
+  "id": "test-123",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Graph y=sin(x) for me \nRecent assistant focus: Here's the graph of $y = \\sin(x)$.\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sin(x)\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n\nThe sine function is a periodic function, meaning it repeats its values in regular intervals. The graph oscillates between -1 and 1. The period of the sine function is $2\\pi$, which means the function completes one full cycle every $2\\pi$ units along the x-axis.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Graph y=sin(x) for me"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's the graph of $y = \\sin(x)$.\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sin(x)\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n\nThe sine function is a periodic function, meaning it repeats its values in regular intervals. The graph oscillates between -1 and 1. The period of the sine function is $2\\pi$, which means the function completes one full cycle every $2\\pi$ units along the x-axis.\n"
+    }
+  ],
+  "updatedAt": "2026-04-08T00:17:43.270Z"
+}

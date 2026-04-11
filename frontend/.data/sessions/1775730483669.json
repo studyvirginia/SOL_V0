@@ -1,0 +1,35 @@
+{
+  "id": "1775730483669",
+  "subject": "math",
+  "course": "Geometry",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: generate graphs of parent functions | generate graphs of key geometry diagrams \nRecent assistant focus: Type to start learning. | Okay, let's review some parent functions. These are the basic forms of different types of functions. Understanding them is fundamental to [b]graphing[/b] and [u]analyzing[/u] more complex functions.\n\nHere are a few key parent functions:\n\n*   **Linear Function:** $f(x) = x$\n    *   This is a straight line.\n    *   The graph passes through the origin (0,0).\n    *   It has a slope of 1.\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"function\",\"equations\":[\"y=x\"],\"label_points\":[{\"x\":0,\"y\":0,\"label\":\"\"}],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n\n*   **Quadratic Function:** $f(x) = x^2$\n    *   This is a parabola.\n    *   The vertex is at the origin (0,0).\n    *   It opens upwards.\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"function\",\"equations\":[\"y=x^2\"],\"label_points\":[{\"x\":0,\"y\":0,\"label\":\"vertex\"}],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n\n*   **Absolute Value Function:** $f(x) = |x|$\n    *   This is a \"V\" shaped graph.\n    *   The vertex is at the origin (0,0).\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\"...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Type to start learning."
+    },
+    {
+      "role": "user",
+      "content": "generate graphs of parent functions"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's review some parent functions. These are the basic forms of different types of functions. Understanding them is fundamental to [b]graphing[/b] and [u]analyzing[/u] more complex functions.\n\nHere are a few key parent functions:\n\n*   **Linear Function:** $f(x) = x$\n    *   This is a straight line.\n    *   The graph passes through the origin (0,0).\n    *   It has a slope of 1.\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"function\",\"equations\":[\"y=x\"],\"label_points\":[{\"x\":0,\"y\":0,\"label\":\"\"}],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n\n*   **Quadratic Function:** $f(x) = x^2$\n    *   This is a parabola.\n    *   The vertex is at the origin (0,0).\n    *   It opens upwards.\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"function\",\"equations\":[\"y=x^2\"],\"label_points\":[{\"x\":0,\"y\":0,\"label\":\"vertex\"}],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n\n*   **Absolute Value Function:** $f(x) = |x|$\n    *   This is a \"V\" shaped graph.\n    *   The vertex is at the origin (0,0).\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"function\",\"equations\":[\"y=abs(x)\"],\"label_points\":[{\"x\":0,\"y\":0,\"label\":\"vertex\"}],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n\n*   **Square Root Function:** $f(x) = \\sqrt{x}$\n    *   Starts at the origin (0,0) and increases.\n    *   The domain is $x \\ge 0$.\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"function\",\"equations\":[\"y=sqrt(x)\"],\"label_points\":[{\"x\":0,\"y\":0,\"label\":\"\"}],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n\n*   **Cubic Function:** $f(x) = x^3$\n    *   Passes through the origin (0,0).\n    *   Increases across the entire domain.\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"function\",\"equations\":[\"y=x^3\"],\"label_points\":[{\"x\":0,\"y\":0,\"label\":\"\"}],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n\nDo you want to explore any of these in more detail, or would you like to look at other parent functions?"
+    },
+    {
+      "role": "user",
+      "content": "generate graphs of key geometry diagrams"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's look at some key geometry diagrams. Understanding these diagrams is fundamental to solving geometry problems.\n\n*   **Line Segment:** A part of a line that is bounded by two distinct end points.\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"geometry\",\"equations\":[\"segment((0,0),(4,0))\"],\"label_points\":[],\"course\":\"geometry\",\"notes\":\"\"}%%END_GRAPH%%\n\n*   **Angle:** Formed by two rays sharing a common endpoint (the vertex).\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"geometry\",\"equations\":[\"angle((0,0),(0,4),(4,0))\"],\"label_points\":[],\"course\":\"geometry\",\"notes\":\"\"}%%END_GRAPH%%\n\n*   **Triangle:** A polygon with three sides and three angles.\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"geometry\",\"equations\":[\"polygon((0,0),(4,0),(2,3))\"],\"label_points\":[],\"course\":\"geometry\",\"notes\":\"\"}%%END_GRAPH%%\n\n*   **Circle:** The set of all points equidistant from a center point.\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"geometry\",\"equations\":[\"x^2+y^2=9\"],\"label_points\":[],\"course\":\"geometry\",\"notes\":\"\"}%%END_GRAPH%%\n\nWould you like to explore any of these in more detail? We could also look at other geometric shapes or concepts.\n"
+    }
+  ],
+  "updatedAt": "2026-04-09T10:28:31.738Z"
+}

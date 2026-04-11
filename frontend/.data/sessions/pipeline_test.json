@@ -1,0 +1,19 @@
+{
+  "id": "pipeline_test",
+  "subject": "math",
+  "course": "Algebra 2",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Graph y = 1/(x-2) showing vertical and horizontal asymptotes \nRecent assistant focus: To graph the function \\( y = \\frac{1}{x-2} \\), we need to identify and plot its vertical and horizontal asymptotes.\n\n### Vertical Asymptote\nThe vertical asymptote occurs where the denominator is zero (since division by zero is undefined). For the function \\( y = \\frac{1}{x-2} \\), set the denominator equal to zero and solve for \\( x \\):\n\n\\[ x - 2 = 0 \\]\n\\[ x = 2 \\]\n\nSo, the vertical asymptote is the line \\( x = 2 \\).\n\n### Horizontal Asymptote\nFor rational functions where the degree of the numerator is less than the degree of the denominator, the horizontal asymptote is \\( y = 0 \\). In this case, the numerator is a constant (degree 0) and the denominator is linear (degree 1). Therefore, the horizontal asymptote is \\( y = 0 \\).\n\n### Graph\nHere is the graph of \\( y = \\frac{1}{x-2} \\) with the vertical and horizontal asymptotes labeled:\n\n%%TIKZ_GRAPH%%{\"description\":\"Graph of y = 1/(x-2) with vertical asymptote at x=2 and horizontal asymptote at y=0. Plot the function from x=-5 to x=5 and y=-5 to y=5. Label the asymptotes clearly.\",\"engine\":\"pg...",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Graph y = 1/(x-2) showing vertical and horizontal asymptotes"
+    },
+    {
+      "role": "assistant",
+      "content": "To graph the function \\( y = \\frac{1}{x-2} \\), we need to identify and plot its vertical and horizontal asymptotes.\n\n### Vertical Asymptote\nThe vertical asymptote occurs where the denominator is zero (since division by zero is undefined). For the function \\( y = \\frac{1}{x-2} \\), set the denominator equal to zero and solve for \\( x \\):\n\n\\[ x - 2 = 0 \\]\n\\[ x = 2 \\]\n\nSo, the vertical asymptote is the line \\( x = 2 \\).\n\n### Horizontal Asymptote\nFor rational functions where the degree of the numerator is less than the degree of the denominator, the horizontal asymptote is \\( y = 0 \\). In this case, the numerator is a constant (degree 0) and the denominator is linear (degree 1). Therefore, the horizontal asymptote is \\( y = 0 \\).\n\n### Graph\nHere is the graph of \\( y = \\frac{1}{x-2} \\) with the vertical and horizontal asymptotes labeled:\n\n%%TIKZ_GRAPH%%{\"description\":\"Graph of y = 1/(x-2) with vertical asymptote at x=2 and horizontal asymptote at y=0. Plot the function from x=-5 to x=5 and y=-5 to y=5. Label the asymptotes clearly.\",\"engine\":\"pgfplots\",\"course_hint\":\"algebra_2\",\"archetype_hint\":\"rational_function\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\n### Key Points\n- **Vertical Asymptote**: \\( x = 2 \\)\n- **Horizontal Asymptote**: \\( y = 0 \\)\n\nThe graph shows the behavior of the function as it approaches these asymptotes. As \\( x \\) approaches 2 from the right, \\( y \\) tends to \\( +\\infty \\), and as \\( x \\) approaches 2 from the left, \\( y \\) tends to \\( -\\infty \\). As \\( x \\) approaches \\( \\pm\\infty \\), \\( y \\) approaches 0."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:02:57.223Z"
+}

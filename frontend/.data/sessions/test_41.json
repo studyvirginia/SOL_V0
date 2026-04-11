@@ -1,0 +1,19 @@
+{
+  "id": "test_41",
+  "subject": "math",
+  "course": "Grade 4 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating lines rays angles \nRecent assistant focus: Here's a textbook-quality diagram illustrating lines, rays, and angles. This diagram will help you visualize these fundamental geometric concepts:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a coordinate system with x-axis from -1 to 5 and y-axis from -1 to 3. Plot a horizontal line segment from (0,0) to (4,0) labeled 'Line AB'. Plot a ray starting at (0,0) extending to the right labeled 'Ray CD' with endpoint at (3,0). Plot another ray starting at (0,0) extending upward at 45 degrees labeled 'Ray EF' with endpoint at (2,2). Plot a third ray starting at (0,0) extending upward at 60 degrees labeled 'Ray GH' with endpoint at (2,1.73). Label the angle between Ray EF and Ray GH as 'Angle IJK'.\", \"engine\":\"pgfplots\", \"course_hint\":\"geometry\", \"archetype_hint\":\"lines_rays_angles\", \"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows:\n1. A **line** (AB) that extends infinitely in both directions\n2. Two **rays** (CD and EF) that start at a point and extend infinitely in one direction\n3. An **angle** (IJK) formed by two rays (EF and GH) sharing a c...",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating lines rays angles"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram illustrating lines, rays, and angles. This diagram will help you visualize these fundamental geometric concepts:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a coordinate system with x-axis from -1 to 5 and y-axis from -1 to 3. Plot a horizontal line segment from (0,0) to (4,0) labeled 'Line AB'. Plot a ray starting at (0,0) extending to the right labeled 'Ray CD' with endpoint at (3,0). Plot another ray starting at (0,0) extending upward at 45 degrees labeled 'Ray EF' with endpoint at (2,2). Plot a third ray starting at (0,0) extending upward at 60 degrees labeled 'Ray GH' with endpoint at (2,1.73). Label the angle between Ray EF and Ray GH as 'Angle IJK'.\", \"engine\":\"pgfplots\", \"course_hint\":\"geometry\", \"archetype_hint\":\"lines_rays_angles\", \"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows:\n1. A **line** (AB) that extends infinitely in both directions\n2. Two **rays** (CD and EF) that start at a point and extend infinitely in one direction\n3. An **angle** (IJK) formed by two rays (EF and GH) sharing a common endpoint\n\nKey points to remember:\n- A line has no endpoints and extends infinitely in both directions\n- A ray has one endpoint and extends infinitely in one direction\n- An angle is formed when two rays share a common endpoint\n\nWould you like me to explain any of these concepts in more detail?"
+    }
+  ],
+  "updatedAt": "2026-04-06T22:09:33.125Z"
+}

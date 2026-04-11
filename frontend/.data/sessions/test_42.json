@@ -1,0 +1,19 @@
+{
+  "id": "test_42",
+  "subject": "math",
+  "course": "Grade 4 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram of line ray segment (lines rays angles) \nRecent assistant focus: Here's a textbook-quality diagram showing a line, ray, and line segment, along with an angle:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a coordinate system with x-axis from -1 to 5 and y-axis from -1 to 3. Plot a line extending from (-0.5,1) to (4.5,2) with equation y = 0.2x + 1.5. Plot a ray starting at (1,0) and extending to (3,2) with arrowhead. Plot a line segment from (0,1) to (2,0). Plot an angle with vertex at (1,0), one ray along x-axis, and other ray to (3,2). Label line as 'Line', ray as 'Ray', line segment as 'Segment', and angle as 'Angle'.\",\"engine\":\"pgfplots\",\"course_hint\":\"geometry\",\"archetype_hint\":\"lines_rays_segments_angles\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows:\n- A **line** that extends infinitely in both directions\n- A **ray** that starts at a point and extends infinitely in one direction\n- A **line segment** that connects two points and has a definite length\n- An **angle** formed by two rays sharing a common endpoint\n\nThese are fundamental geometric concepts that help us understand and descri...",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram of line ray segment (lines rays angles)"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram showing a line, ray, and line segment, along with an angle:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a coordinate system with x-axis from -1 to 5 and y-axis from -1 to 3. Plot a line extending from (-0.5,1) to (4.5,2) with equation y = 0.2x + 1.5. Plot a ray starting at (1,0) and extending to (3,2) with arrowhead. Plot a line segment from (0,1) to (2,0). Plot an angle with vertex at (1,0), one ray along x-axis, and other ray to (3,2). Label line as 'Line', ray as 'Ray', line segment as 'Segment', and angle as 'Angle'.\",\"engine\":\"pgfplots\",\"course_hint\":\"geometry\",\"archetype_hint\":\"lines_rays_segments_angles\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows:\n- A **line** that extends infinitely in both directions\n- A **ray** that starts at a point and extends infinitely in one direction\n- A **line segment** that connects two points and has a definite length\n- An **angle** formed by two rays sharing a common endpoint\n\nThese are fundamental geometric concepts that help us understand and describe shapes and their relationships."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:09:40.071Z"
+}

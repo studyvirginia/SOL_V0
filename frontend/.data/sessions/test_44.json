@@ -1,0 +1,19 @@
+{
+  "id": "test_44",
+  "subject": "math",
+  "course": "Grade 4 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating line graph \nRecent assistant focus: Here's a textbook-quality line graph illustrating how data points are connected to form a line graph:\n\n%%TIKZ_GRAPH%%{\"description\":\"A line graph with x-axis labeled 'Time (hours)' from 0 to 10 and y-axis labeled 'Temperature (°C)' from 0 to 40. Plot the points (0,10), (2,15), (4,20), (6,25), (8,30), and (10,35) and connect them with a smooth line. Add a title 'Temperature Over Time'.\",\"engine\":\"pgfplots\",\"course_hint\":\"grade_4_math\",\"archetype_hint\":\"line_graph\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis graph shows how temperature changes over time. Each point represents a data pair (time, temperature), and the line connects these points to show the trend. Line graphs are useful for showing changes over time, like in weather patterns or growth measurements.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating line graph"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality line graph illustrating how data points are connected to form a line graph:\n\n%%TIKZ_GRAPH%%{\"description\":\"A line graph with x-axis labeled 'Time (hours)' from 0 to 10 and y-axis labeled 'Temperature (°C)' from 0 to 40. Plot the points (0,10), (2,15), (4,20), (6,25), (8,30), and (10,35) and connect them with a smooth line. Add a title 'Temperature Over Time'.\",\"engine\":\"pgfplots\",\"course_hint\":\"grade_4_math\",\"archetype_hint\":\"line_graph\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis graph shows how temperature changes over time. Each point represents a data pair (time, temperature), and the line connects these points to show the trend. Line graphs are useful for showing changes over time, like in weather patterns or growth measurements."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:09:53.722Z"
+}

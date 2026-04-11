@@ -1,0 +1,19 @@
+{
+  "id": "test_20",
+  "subject": "math",
+  "course": "Grade 2 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating skip count number line \nRecent assistant focus: Here's a textbook-quality diagram illustrating a skip count number line for counting by 5s:\n\n%%TIKZ_GRAPH%%{\"description\":\"A horizontal number line from 0 to 50 with tick marks at every 5 units. Each tick mark is labeled with the corresponding number (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50). The numbers are evenly spaced and the line is marked with arrows at both ends to indicate it continues infinitely in both directions.\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_2_math\",\"archetype_hint\":\"number_line\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows a number line where we're counting by 5s. Notice how we're skipping 4 numbers between each labeled number. This is a great way to visualize multiplication and practice counting by equal groups. You can create similar number lines for other skip counting patterns like counting by 2s, 3s, or 10s.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating skip count number line"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram illustrating a skip count number line for counting by 5s:\n\n%%TIKZ_GRAPH%%{\"description\":\"A horizontal number line from 0 to 50 with tick marks at every 5 units. Each tick mark is labeled with the corresponding number (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50). The numbers are evenly spaced and the line is marked with arrows at both ends to indicate it continues infinitely in both directions.\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_2_math\",\"archetype_hint\":\"number_line\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows a number line where we're counting by 5s. Notice how we're skipping 4 numbers between each labeled number. This is a great way to visualize multiplication and practice counting by equal groups. You can create similar number lines for other skip counting patterns like counting by 2s, 3s, or 10s."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:07:13.328Z"
+}

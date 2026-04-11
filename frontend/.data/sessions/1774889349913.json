@@ -1,0 +1,75 @@
+{
+  "id": "1774889349913",
+  "subject": "math",
+  "course": "Algebra 2",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: list all major parent functions for final review with grpahs | continue | continue | create more graphs \nRecent assistant focus: I hit an error talking to the server. Check your API key and try again. | I hit an error talking to the server. Check your API key and try again. | Let's continue with the remaining parent functions. Here are the graphs and key characteristics for the absolute value, square root, reciprocal, exponential, logarithmic, and sine functions:\n\n---\n\n#### **4. Absolute Value Parent Function**\n\n*   **Equation**: $f(x) = |x|$ or $y = |x|$\n*   **Graph**:\n    ```mafs\n    {\n      \"series\": [\n        {\n          \"type\": \"ofx\",\n          \"expression\": \"abs(x)\",\n          \"color\": \"purple\",\n          \"label\": \"y = |x|\"\n        }\n      ],\n      \"viewBox\": {\n        \"x\": [-5, 5],\n        \"y\": [-1, 5]\n      },\n      \"height\": 250,\n      \"zoom\": false,\n      \"pan\": false,\n      \"subdivisions\": 2\n    }\n    ```\n*   **Key Characteristics**:\n    *   **Shape**: A V-shape with its vertex at the origin.\n    *   **Vertex**: $(0,0)$\n    *   **Domain**: All real numbers ($-\\infty < x < \\infty$)\n    *   **Range**: All non-negat...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Type to start learning."
+    },
+    {
+      "role": "user",
+      "content": "create some graphs of parent functions with desmos"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a great idea for reviewing! Parent functions are the simplest form of a family of functions, and understanding them is key to understanding more complex functions.\n\nHere are some common parent functions graphed using Desmos. I've included the linear, quadratic, cubic, square root, absolute value, and exponential functions.\n\n```desmos\n{\n  \"expressions\": [\n    {\n      \"latex\": \"y = x\",\n      \"label\": \"Linear Parent Function\"\n    },\n    {\n      \"latex\": \"y = x^2\",\n      \"label\": \"Quadratic Parent Function\"\n    },\n    {\n      \"latex\": \"y = x^3\",\n      \"label\": \"Cubic Parent Function\"\n    },\n    {\n      \"latex\": \"y = \\\\sqrt{x}\",\n      \"label\": \"Square Root Parent Function\"\n    },\n    {\n      \"latex\": \"y = |x|\",\n      \"label\": \"Absolute Value Parent Function\"\n    },\n    {\n      \"latex\": \"y = 2^x\",\n      \"label\": \"Exponential Parent Function\"\n    }\n  ],\n  \"viewport\": {\n    \"xmin\": -10,\n    \"ymin\": -10,\n    \"xmax\": 10,\n    \"ymax\": 10\n  }\n}\n```\n\n**Key things to notice about these parent functions:**\n\n*   **Linear Function ($y = x$)**: This is a straight line passing through the origin $(0,0)$ with a slope of 1.\n*   **Quadratic Function ($y = x^2$)**: This forms a parabola opening upwards, with its vertex at the origin $(0,0)$. It's symmetrical about the y-axis.\n*   **Cubic Function ($y = x^3$)**: This graph passes through the origin $(0,0)$ and has a characteristic \"S\" shape.\n*   **Square Root Function ($y = \\sqrt{x}$)**: This graph starts at the origin $(0,0)$ and extends only to the right, as you cannot take the square root of a negative number in the real number system.\n*   **Absolute Value Function ($y = |x|$)**: This forms a \"V\" shape, with its vertex at the origin $(0,0)$. It's symmetrical about the y-axis.\n*   **Exponential Function ($y = 2^x$)**: This graph shows rapid growth. It passes through $(0,1)$ and $(1,2)$ and approaches the x-axis as $x$ goes to negative infinity (this is called a horizontal asymptote).\n\nUnderstanding these basic shapes will help you predict how transformations (like shifting, stretching, or reflecting) will affect more complex functions!"
+    },
+    {
+      "role": "user",
+      "content": "i didnt see any"
+    },
+    {
+      "role": "assistant",
+      "content": "Ah, I apologize if the Desmos graphs weren't immediately clear!\n\nSometimes, the Desmos output appears as a block of code. To see the graphs, you'll need to **copy the entire block of text that starts with ````json` and ends with ```` ` into the Desmos graphing calculator.**\n\nHere's how you can do it:\n\n1.  **Go to Desmos.com/calculator** in your web browser.\n2.  **Copy the JSON code block** I provided in my previous response. It looks like this:\n\n    ```desmos\n    {\n      \"expressions\": [\n        {\n          \"latex\": \"y = x\",\n          \"label\": \"Linear Parent Function\"\n        },\n        {\n          \"latex\": \"y = x^2\",\n          \"label\": \"Quadratic Parent Function\"\n        },\n        {\n          \"latex\": \"y = x^3\",\n          \"label\": \"Cubic Parent Function\"\n        },\n        {\n          \"latex\": \"\\\\sqrt{x}\",\n          \"label\": \"Square Root Parent Function\"\n        },\n        {\n          \"latex\": \"|x|\",\n          \"label\": \"Absolute Value Parent Function\"\n        },\n        {\n          \"latex\": \"2^x\",\n          \"label\": \"Exponential Parent Function\"\n        }\n      ],\n      \"viewport\": {\n        \"xmin\": -10,\n        \"ymin\": -10,\n        \"xmax\": 10,\n        \"ymax\": 10\n      }\n    }\n    ```\n3.  **Paste the copied code directly into the first empty expression box** on the left side of the Desmos calculator. Desmos will automatically load all the graphs for you!\n\nThis way, you'll be able to interact with each parent function and see their shapes clearly.\n\nPlease let me know if you're able to see them now, or if you'd like me to show you just one graph at a time!"
+    },
+    {
+      "role": "user",
+      "content": "create one with mafs"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely! I can definitely create a graph using Mafs for you. Mafs is great for showing symbolic math graphs directly.\n\nLet's look at the **Quadratic Parent Function**, $y = x^2$. This is a fundamental function in Algebra 2, often used when studying parabolas and transformations.\n\nHere's the graph of $y = x^2$:\n\n```mafs\n{\n  \"series\": [\n    {\n      \"type\": \"ofx\",\n      \"expression\": \"x^2\",\n      \"color\": \"blue\",\n      \"label\": \"y = x^2\"\n    }\n  ],\n  \"viewBox\": {\n    \"x\": [-5, 5],\n    \"y\": [-1, 10]\n  },\n  \"height\": 300,\n  \"zoom\": false,\n  \"pan\": false,\n  \"subdivisions\": 2\n}\n```\n\n**Key characteristics of the Quadratic Parent Function ($y = x^2$):**\n\n*   **Shape**: It forms a U-shaped curve called a parabola.\n*   **Vertex**: The lowest point (or highest, if it opened downwards) of the parabola is called the vertex. For $y = x^2$, the vertex is at the origin $(0,0)$.\n*   **Symmetry**: The parabola is symmetrical about the y-axis (the line $x=0$). This line is called the axis of symmetry.\n*   **Domain**: All real numbers ($-\\infty < x < \\infty$).\n*   **Range**: All non-negative real numbers ($y \\ge 0$).\n\nUnderstanding this basic shape is crucial for analyzing more complex quadratic functions, especially when you start learning about transformations like shifting, stretching, and reflecting parabolas!"
+    },
+    {
+      "role": "user",
+      "content": "list all major parent functions for final review with grpahs"
+    },
+    {
+      "role": "assistant",
+      "content": "Excellent idea for a final review! Understanding parent functions is absolutely crucial in Algebra 2, as they are the building blocks for all other functions you'll encounter. This review will help you solidify your understanding of their basic shapes and characteristics, which is a key skill under the \"Functions\" domain (A2.F.1, A2.F.2) of your Algebra 2 curriculum.\n\nHere's a study guide covering the major parent functions, complete with their graphs and key features:\n\n---\n\n### **Algebra 2 Final Review: Major Parent Functions**\n\nParent functions are the simplest form of a family of functions. All other functions in that family are transformations (shifts, stretches, reflections) of the parent function.\n\n---\n\n#### **1. Linear Parent Function**\n\n*   **Equation**: $f(x) = x$ or $y = x$\n*   **Graph**:\n    ```mafs\n    {\n      \"series\": [\n        {\n          \"type\": \"ofx\",\n          \"expression\": \"x\",\n          \"color\": \"blue\",\n          \"label\": \"y = x\"\n        }\n      ],\n      \"viewBox\": {\n        \"x\": [-5, 5],\n        \"y\": [-5, 5]\n      },\n      \"height\": 250,\n      \"zoom\": false,\n      \"pan\": false,\n      \"subdivisions\": 2\n    }\n    ```\n*   **Key Characteristics**:\n    *   **Shape**: A straight line.\n    *   **Slope**: 1\n    *   **Y-intercept**: $(0,0)$\n    *   **Domain**: All real numbers ($-\\infty < x < \\infty$)\n    *   **Range**: All real numbers ($-\\infty < y < \\infty$)\n\n---\n\n#### **2. Quadratic Parent Function**\n\n*   **Equation**: $f(x) = x^2$ or $y = x^2$\n*   **Graph**:\n    ```mafs\n    {\n      \"series\": [\n        {\n          \"type\": \"ofx\",\n          \"expression\": \"x^2\",\n          \"color\": \"red\",\n          \"label\": \"y = x^2\"\n        }\n      ],\n      \"viewBox\": {\n        \"x\": [-5, 5],\n        \"y\": [-1, 10]\n      },\n      \"height\": 250,\n      \"zoom\": false,\n      \"pan\": false,\n      \"subdivisions\": 2\n    }\n    ```\n*   **Key Characteristics**:\n    *   **Shape**: A parabola opening upwards.\n    *   **Vertex**: $(0,0)$\n    *   **Axis of Symmetry**: $x=0$ (the y-axis)\n    *   **Domain**: All real numbers ($-\\infty < x < \\infty$)\n    *   **Range**: All non-negative real numbers ($y \\ge 0$)\n\n---\n\n#### **3. Cubic Parent Function**\n\n*   **Equation**: $f(x) = x^3$ or $y = x^3$\n*   **Graph**:\n    ```mafs\n    {\n      \"series\": [\n        {\n          \"type\": \"ofx\",\n          \"expression\": \"x^3\",\n          \"color\": \"green\",\n          \"label\": \"y = x^3\"\n        }"
+    },
+    {
+      "role": "user",
+      "content": "continue"
+    },
+    {
+      "role": "assistant",
+      "content": "I hit an error talking to the server. Check your API key and try again."
+    },
+    {
+      "role": "user",
+      "content": "continue"
+    },
+    {
+      "role": "assistant",
+      "content": "I hit an error talking to the server. Check your API key and try again."
+    },
+    {
+      "role": "user",
+      "content": "create more graphs"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's continue with the remaining parent functions. Here are the graphs and key characteristics for the absolute value, square root, reciprocal, exponential, logarithmic, and sine functions:\n\n---\n\n#### **4. Absolute Value Parent Function**\n\n*   **Equation**: $f(x) = |x|$ or $y = |x|$\n*   **Graph**:\n    ```mafs\n    {\n      \"series\": [\n        {\n          \"type\": \"ofx\",\n          \"expression\": \"abs(x)\",\n          \"color\": \"purple\",\n          \"label\": \"y = |x|\"\n        }\n      ],\n      \"viewBox\": {\n        \"x\": [-5, 5],\n        \"y\": [-1, 5]\n      },\n      \"height\": 250,\n      \"zoom\": false,\n      \"pan\": false,\n      \"subdivisions\": 2\n    }\n    ```\n*   **Key Characteristics**:\n    *   **Shape**: A V-shape with its vertex at the origin.\n    *   **Vertex**: $(0,0)$\n    *   **Domain**: All real numbers ($-\\infty < x < \\infty$)\n    *   **Range**: All non-negative real numbers ($y \\ge 0$)\n\n---\n\n#### **5. Square Root Parent Function**\n\n*   **Equation**: $f(x) = \\sqrt{x}$ or $y = \\sqrt{x}$\n*   **Graph**:\n    ```mafs\n    {\n      \"series\": [\n        {\n          \"type\": \"ofx\",\n          \"expression\": \"sqrt(x)\",\n          \"color\": \"orange\",\n          \"label\": \"y = sqrt(x)\"\n        }\n      ],\n      \"viewBox\": {\n        \"x\": [-1, 10],\n        \"y\": [-1, 5]\n      },\n      \"height\": 250,\n      \"zoom\": false,\n      \"pan\": false,\n      \"subdivisions\": 2\n    }\n    ```\n*   **Key Characteristics**:\n    *   **Shape**: A curve that starts at the origin and increases gradually.\n    *   **Domain**: All non-negative real numbers ($x \\ge 0$)\n    *   **Range**: All non-negative real numbers ($y \\ge 0$)\n\n---\n\n#### **6. Reciprocal Parent Function**\n\n*   **Equation**: $f(x) = \\frac{1}{x}$ or $y = \\frac{1}{x}$\n*   **Graph**:\n    ```mafs\n    {\n      \"series\": [\n        {\n          \"type\": \"ofx\",\n          \"expression\": \"1/x\",\n          \"color\": \"cyan\",\n          \"label\": \"y = 1/x\"\n        }\n      ],\n      \"viewBox\": {\n        \"x\": [-5, 5],\n        \"y\": [-5, 5]\n      },\n      \"height\": 250,\n      \"zoom\": false,\n      \"pan\": false,\n      \"subdivisions\": 2\n    }\n    ```\n*   **Key Characteristics**:\n    *   **Shape**: A hyperbola with two branches.\n    *   **Asymptotes**: Vertical asymptote at $x=0$, horizontal asymptote at $y=0$.\n    *   **Domain**: All real numbers except $x=0$ ($-\\infty < x < 0$ or $0 < x < \\infty$)\n    *   **Range**: All real numbers except $y=0$ ($-\\infty < y < 0$ or $0 < y < \\infty$)\n\n---\n\n#### **7. Exponential Parent Function**\n\n*   **Equation**: $f(x) = e^x$ or $y = e^x$\n*   **Graph**:\n    ```mafs\n    {\n      \"series\": [\n        {\n          \"type\": \"ofx\",\n          \"expression\": \"exp(x)\",\n          \"color\": \"magenta\",\n          \"label\": \"y = e^x\"\n        }\n      ],\n      \"viewBox\": {\n        \"x\": [-5, 5],\n        \"y\": [-1, 10]\n      },\n      \"height\": 250,\n      \"zoom\": false,\n      \"pan\": false,\n      \"subdivisions\": 2\n    }\n    ```\n*   **Key Characteristics**:\n    *   **Shape**: A curve that increases rapidly as $x$ increases.\n    *   **Domain**: All real numbers ($-\\infty < x < \\infty$)\n    *   **Range**: All positive real numbers ($y > 0$)\n    *   **Horizontal Asymptote**: $y=0$ (as $x \\to -\\infty$)\n\n---\n\n#### **8. Logarithmic Parent Function**\n\n*   **Equation**: $f(x) = \\ln(x)$ or $y = \\ln(x)$\n*   **Graph**:\n    ```mafs\n   "
+    }
+  ],
+  "updatedAt": "2026-03-31T06:21:31.119Z"
+}

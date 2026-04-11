@@ -1,0 +1,27 @@
+{
+  "id": "1775061437365",
+  "subject": "math",
+  "course": "Trigonometry",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: \"Hey SOL! Explain the relationship between the **Unit Circle** and the **Cosine Wave**. Please follow this strict layout: 1. **Diagram 1**: A standalone TikZ block for the Unit Circle with a point at $150^\\circ$. 2. **Diagram 2**: A standalone TikZ block for a Cosine wave $y = \\cos(x)$ from $0$ to $2\\pi$. Use `cos(deg(x))` for the plot. 3. **Separated Explanation**: Below both diagrams, provide the text:    - **[h]highlights[/h]** for 'Horizontal Displacement'.    - **[u]underlines[/u]** for the projection of the x-coordinate.    - A **[c]circle[/c]** around the value $-\\frac{\\sqrt{3}}{2}$.    - A **[b]box[/b]** around the final Domain & Range summary.     CRITICAL: Ensure the diagrams are perfectly aligned in their own blocks. All markers must be in this text section only.\" \nRecent assistant focus: Type to start learning. | ```tikz\n\\begin{tikzpicture}[scale=2]\n    % Unit Circle\n    \\draw (0,0) circle (1cm);\n    \\draw[->] (-1.5,0) -- (1.5,0) node[right]{$x$};\n    \\draw[->] (0,-1.5) -- (0,1.5) node[above]{$y$};\n\n    % Axes labels\n    \\foreach \\x in {0,30,...,360} {\n        \\draw (\\x:1.1cm) -- (\\x:1cm);\n        \\node at (\\x:1...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Type to start learning."
+    },
+    {
+      "role": "user",
+      "content": "\"Hey SOL! Explain the relationship between the **Unit Circle** and the **Cosine Wave**. Please follow this strict layout: 1. **Diagram 1**: A standalone TikZ block for the Unit Circle with a point at $150^\\circ$. 2. **Diagram 2**: A standalone TikZ block for a Cosine wave $y = \\cos(x)$ from $0$ to $2\\pi$. Use `cos(deg(x))` for the plot. 3. **Separated Explanation**: Below both diagrams, provide the text:    - **[h]highlights[/h]** for 'Horizontal Displacement'.    - **[u]underlines[/u]** for the projection of the x-coordinate.    - A **[c]circle[/c]** around the value $-\\frac{\\sqrt{3}}{2}$.    - A **[b]box[/b]** around the final Domain & Range summary.     CRITICAL: Ensure the diagrams are perfectly aligned in their own blocks. All markers must be in this text section only.\""
+    },
+    {
+      "role": "assistant",
+      "content": "```tikz\n\\begin{tikzpicture}[scale=2]\n    % Unit Circle\n    \\draw (0,0) circle (1cm);\n    \\draw[->] (-1.5,0) -- (1.5,0) node[right]{$x$};\n    \\draw[->] (0,-1.5) -- (0,1.5) node[above]{$y$};\n\n    % Axes labels\n    \\foreach \\x in {0,30,...,360} {\n        \\draw (\\x:1.1cm) -- (\\x:1cm);\n        \\node at (\\x:1.25cm) {$\\x^\\circ$};\n    }\n\n    % Point at 150 degrees\n    \\filldraw[fill=blue!20,draw=blue] (150:1cm) circle (1pt) node[above left]{$P$};\n\n    % Projection onto x-axis\n    \\draw[dashed] (150:1cm) -- (150:1cm |- 0,0) node[below]{$-\\frac{\\sqrt{3}}{2}$};\n\\end{tikzpicture}\n```\n\n```tikz\n\\begin{axis}[\n    xmin=0, xmax=2*pi,\n    ymin=-1.5, ymax=1.5,\n    axis lines=middle,\n    xlabel=$x$,\n    ylabel=$y$,\n    xtick={0,pi/2,pi,3*pi/2,2*pi},\n    xticklabels={$0$,$\\frac{\\pi}{2}$,$\\pi$,$\\frac{3\\pi}{2}$,$2\\pi$},\n    ytick={-1,1},\n    yticklabels={$-1$,$1$},\n    samples=100\n]\n    \\addplot[blue, thick, domain=0:2*pi] {cos(deg(x))};\n    \\addplot[only marks, mark=*, mark size=2pt] coordinates {(5*pi/6, -sqrt(3)/2)};\n\\end{axis}\n```\n\nThe **Unit Circle** and the **Cosine Wave** are deeply connected through the concept of **Horizontal Displacement**. Here's how they relate:\n\n1. **Unit Circle**: The unit circle is a circle with a radius of 1 centered at the origin. Any point on the unit circle can be represented as $(\\cos(\\theta), \\sin(\\theta))$, where $\\theta$ is the angle formed with the positive x-axis.\n\n2. **Cosine Wave**: The cosine wave is a graphical representation of the cosine function. It oscillates between -1 and 1 and has a period of $2\\pi$.\n\n3. **Relationship**:\n   - The x-coordinate of any point on the unit circle is equal to the cosine of the angle $\\theta$.\n   - As you move around the unit circle, the x-coordinate (which is the cosine of the angle) traces out the cosine wave.\n\n4. **Example**: Consider the point $P$ at $150^\\circ$ on the unit circle.\n   - The x-coordinate of $P$ is $[u]\\cos(150^\\circ) = -\\frac{\\sqrt{3}}{2}[/u]$.\n   - This value corresponds to the y-value of the cosine wave at $150^\\circ$ (or $\\frac{5\\pi}{6}$ radians).\n\n5. **Domain and Range**:\n   - The domain of the cosine function is all real numbers, $[b]-\\infty < x < \\infty[/b]$.\n   - The range of the cosine function is $[-1, 1]$.\n\nThe cosine wave is essentially a continuous graph of the x-coordinates of points on the unit circle as the angle $\\theta$ changes. This is why the cosine wave starts at its maximum value of 1 when $\\theta = 0^\\circ$ and decreases as $\\theta$ increases."
+    }
+  ],
+  "updatedAt": "2026-04-01T16:37:26.740Z"
+}

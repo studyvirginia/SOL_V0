@@ -1,0 +1,19 @@
+{
+  "id": "test_8",
+  "subject": "math",
+  "course": "Kindergarten Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating picture bar graph \nRecent assistant focus: Here's a textbook-quality picture bar graph illustrating the number of different animals seen at a zoo on a particular day:\n\n%%TIKZ_GRAPH%%{\"description\":\"A bar graph with x-axis labeled 'Animals' and y-axis labeled 'Number of Animals'. The bars represent the following data: Lions - 5, Tigers - 3, Bears - 4, Monkeys - 7, and Elephants - 2. Each bar is a different color and has a label at the top indicating the exact number. The graph has a title 'Animals Seen at the Zoo' and grid lines for better readability.\",\"engine\":\"pgfplots\",\"course_hint\":\"kindergarten_math\",\"archetype_hint\":\"bar_chart\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis bar graph helps us visualize and compare the number of different animals seen at the zoo. Each bar represents a different type of animal, and the height of the bar shows how many of that animal were seen. The numbers on top of each bar make it easy to see the exact count for each animal.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating picture bar graph"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality picture bar graph illustrating the number of different animals seen at a zoo on a particular day:\n\n%%TIKZ_GRAPH%%{\"description\":\"A bar graph with x-axis labeled 'Animals' and y-axis labeled 'Number of Animals'. The bars represent the following data: Lions - 5, Tigers - 3, Bears - 4, Monkeys - 7, and Elephants - 2. Each bar is a different color and has a label at the top indicating the exact number. The graph has a title 'Animals Seen at the Zoo' and grid lines for better readability.\",\"engine\":\"pgfplots\",\"course_hint\":\"kindergarten_math\",\"archetype_hint\":\"bar_chart\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis bar graph helps us visualize and compare the number of different animals seen at the zoo. Each bar represents a different type of animal, and the height of the bar shows how many of that animal were seen. The numbers on top of each bar make it easy to see the exact count for each animal."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:06:04.623Z"
+}

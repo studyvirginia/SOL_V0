@@ -1,0 +1,19 @@
+{
+  "id": "test_45",
+  "subject": "math",
+  "course": "Grade 4 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating fraction number line denominators 12 \nRecent assistant focus: Here's a textbook-quality diagram illustrating fractions with denominators of 12 on a number line:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a horizontal number line from 0 to 2. Label the major ticks at 0, 1, and 2. Divide each unit into 12 equal parts and label the minor ticks with fractions 0/12, 1/12, 2/12, ..., 12/12, 13/12, 14/12, ..., 24/12. Highlight and label the fractions 3/12, 6/12, 9/12, and 15/12, 18/12, 21/12.\",\"engine\":\"pgfplots\",\"course_hint\":\"grade_4_math\",\"archetype_hint\":\"fraction_number_line\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows:\n1. The number line ranges from 0 to 2\n2. Each whole number is divided into 12 equal parts\n3. Fractions are labeled at each tick mark\n4. Some fractions are highlighted to show equivalent fractions (3/12 = 1/4, 6/12 = 1/2, 9/12 = 3/4, etc.)\n\nNotice how the fractions increase by 1/12 at each step. This helps visualize how fractions with denominator 12 relate to each other and to whole numbers.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating fraction number line denominators 12"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram illustrating fractions with denominators of 12 on a number line:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a horizontal number line from 0 to 2. Label the major ticks at 0, 1, and 2. Divide each unit into 12 equal parts and label the minor ticks with fractions 0/12, 1/12, 2/12, ..., 12/12, 13/12, 14/12, ..., 24/12. Highlight and label the fractions 3/12, 6/12, 9/12, and 15/12, 18/12, 21/12.\",\"engine\":\"pgfplots\",\"course_hint\":\"grade_4_math\",\"archetype_hint\":\"fraction_number_line\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows:\n1. The number line ranges from 0 to 2\n2. Each whole number is divided into 12 equal parts\n3. Fractions are labeled at each tick mark\n4. Some fractions are highlighted to show equivalent fractions (3/12 = 1/4, 6/12 = 1/2, 9/12 = 3/4, etc.)\n\nNotice how the fractions increase by 1/12 at each step. This helps visualize how fractions with denominator 12 relate to each other and to whole numbers."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:09:59.293Z"
+}

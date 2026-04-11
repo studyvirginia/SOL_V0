@@ -1,0 +1,19 @@
+{
+  "id": "test_7",
+  "subject": "math",
+  "course": "Kindergarten Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating calendar grid \nRecent assistant focus: Here's a textbook-quality diagram of a calendar grid for the month of September:\n\n%%TIKZ_GRAPH%%{\"description\":\"A 7x5 grid representing a calendar for September. Each cell contains the day number (1-30). The days of the week are labeled at the top (Sunday to Saturday). The first day (Sunday) is in the first column, and the month name 'September' is centered above the grid.\",\"engine\":\"pure_tikz\",\"course_hint\":\"kindergarten_math\",\"archetype_hint\":\"calendar_grid\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis calendar grid helps you visualize how weeks and days are organized in a month. Each row represents a week, and each column represents a day of the week. This is a fundamental concept in understanding time and schedules.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating calendar grid"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram of a calendar grid for the month of September:\n\n%%TIKZ_GRAPH%%{\"description\":\"A 7x5 grid representing a calendar for September. Each cell contains the day number (1-30). The days of the week are labeled at the top (Sunday to Saturday). The first day (Sunday) is in the first column, and the month name 'September' is centered above the grid.\",\"engine\":\"pure_tikz\",\"course_hint\":\"kindergarten_math\",\"archetype_hint\":\"calendar_grid\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis calendar grid helps you visualize how weeks and days are organized in a month. Each row represents a week, and each column represents a day of the week. This is a fundamental concept in understanding time and schedules."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:05:58.857Z"
+}

@@ -1,0 +1,36 @@
+{
+  "createdAt": "2026-03-26T23:02:55.911Z",
+  "profile": {
+    "grade": null,
+    "learningNeeds": null
+  },
+  "sessionSetup": {
+    "subject": "Math",
+    "course": "Grade 3 Math",
+    "focus": null
+  },
+  "curriculum": {
+    "subject": "Math",
+    "course": "Grade 3 Math",
+    "compressed": ""
+  },
+  "memory": {
+    "summary": "",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Test API key",
+        "at": "2026-03-26T23:02:56.234Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Setup check\n\nI can’t reach the AI service right now (quota/rate limit).\n\nChoose what you want to do next (reply with a number):\n1) Review → Flashcards (Counting to 10)\n2) Review → Notes (Counting basics)\n3) Mastery → Questions (quick check)\n4) Change focus / switch subject/course\n5) Exit",
+        "at": "2026-03-26T23:02:56.880Z"
+      }
+    ],
+    "turns": 1,
+    "questionCounter": 0,
+    "flashcardCounter": 0
+  },
+  "updatedAt": "2026-03-26T23:02:56.881Z"
+}

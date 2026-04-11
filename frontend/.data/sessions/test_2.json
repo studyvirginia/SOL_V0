@@ -1,0 +1,19 @@
+{
+  "id": "test_2",
+  "subject": "math",
+  "course": "Kindergarten Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram of number line 0 to 30 hops (counting strategies) \nRecent assistant focus: Here's a textbook-quality number line from 0 to 30 that demonstrates counting strategies with hops:\n\n%%TIKZ_GRAPH%%{\"description\":\"A horizontal number line from 0 to 30 with major ticks at each integer. Show 5 hops of 5 units each (0 to 5, 5 to 10, 10 to 15, 15 to 20, 20 to 25, 25 to 30) with arrows and labels '5' above each hop. Show 3 hops of 10 units each (0 to 10, 10 to 20, 20 to 30) with dashed arrows and labels '10' above each hop. Label the number line 'Counting by 5s and 10s'.\",\"engine\":\"pure_tikz\",\"course_hint\":\"kindergarten_math\",\"archetype_hint\":\"number_line\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows two counting strategies:\n1. Counting by 5s (solid arrows)\n2. Counting by 10s (dashed arrows)\n\nEach hop represents the count increment, and the arrows show the direction of counting. This visual helps students understand different ways to count and visualize numbers on a number line.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram of number line 0 to 30 hops (counting strategies)"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality number line from 0 to 30 that demonstrates counting strategies with hops:\n\n%%TIKZ_GRAPH%%{\"description\":\"A horizontal number line from 0 to 30 with major ticks at each integer. Show 5 hops of 5 units each (0 to 5, 5 to 10, 10 to 15, 15 to 20, 20 to 25, 25 to 30) with arrows and labels '5' above each hop. Show 3 hops of 10 units each (0 to 10, 10 to 20, 20 to 30) with dashed arrows and labels '10' above each hop. Label the number line 'Counting by 5s and 10s'.\",\"engine\":\"pure_tikz\",\"course_hint\":\"kindergarten_math\",\"archetype_hint\":\"number_line\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows two counting strategies:\n1. Counting by 5s (solid arrows)\n2. Counting by 10s (dashed arrows)\n\nEach hop represents the count increment, and the arrows show the direction of counting. This visual helps students understand different ways to count and visualize numbers on a number line."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:05:30.336Z"
+}

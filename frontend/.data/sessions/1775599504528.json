@@ -1,0 +1,163 @@
+{
+  "id": "1775599504528",
+  "subject": "math",
+  "course": "Mathematical Analysis",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: whatever | connect the dots | regnerate the right triangle | rehegenearte all parent function graphs and triangel \nRecent assistant focus: I understand. To \"connect the dots\" in the context of our conversation, it seems you're asking me to continue generating diagrams or visualizations based on our previous discussions.\n\nSince we've been focusing on graphs, I can generate more graphs for you. Would you like to see more graphs of functions, or would you like to explore other geometric shapes or concepts? Let me know what you'd like to see! | Okay, let's regenerate a [b]right triangle[/b]. I'll create a diagram of a right triangle with vertices at (0,0), (4,0), and (4,3).\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"geometry\",\"equations\":[\"polygon((0,0),(4,0),(4,3))\"],\"label_points\":[],\"course\":\"geometry\",\"notes\":\"\"}%%END_GRAPH%%\n\nThis is a visual representation of a right triangle. Do you want to explore any other geometric shapes or concepts? | Okay, let's regenerate all the parent function graphs and the triangle.\n\nFirst, here are the parent function graphs:\n\n1.  **Linear Function:** $f(x) = x$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"ty...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Type to start learning."
+    },
+    {
+      "role": "user",
+      "content": "generate polar functions study guide"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's create a study guide for polar functions. Here's a breakdown of key concepts and topics to focus on:\n\n### I. Introduction to Polar Coordinates\n\n*   **Definition:** [b]Polar coordinates[/b] represent points in a plane using a distance from the origin (r) and an angle from the positive x-axis (θ).\n*   **Coordinate System:** Understand the polar coordinate system, including the pole (origin) and the polar axis (positive x-axis).\n*   **Plotting Points:** Practice plotting points given in polar coordinates $(r, \\theta)$. Remember that $\\theta$ is usually measured in radians.\n\n### II. Converting Between Coordinate Systems\n\n*   **Polar to Rectangular:** Learn the conversion formulas:\n    *   $x = r \\cos(\\theta)$\n    *   $y = r \\sin(\\theta)$\n*   **Rectangular to Polar:** Learn the conversion formulas:\n    *   $r = \\sqrt{x^2 + y^2}$\n    *   $\\theta = \\arctan(\\frac{y}{x})$ (Pay attention to the quadrant of the point to determine the correct angle.)\n*   **Practice:** Work through examples converting between polar and rectangular coordinates.\n\n### III. Graphing Polar Equations\n\n*   **Basic Polar Equations:** Understand the graphs of basic polar equations, such as:\n    *   $r = a$ (circles)\n    *   $\\theta = \\alpha$ (lines)\n*   **Types of Polar Graphs:** Familiarize yourself with different types of polar graphs:\n    *   **Cardioids:** $r = a \\pm a \\cos(\\theta)$ or $r = a \\pm a \\sin(\\theta)$\n    *   **Limacons:** $r = a \\pm b \\cos(\\theta)$ or $r = a \\pm b \\sin(\\theta)$\n    *   **Roses:** $r = a \\cos(n\\theta)$ or $r = a \\sin(n\\theta)$\n    *   **Lemniscates:** $r^2 = a^2 \\cos(2\\theta)$ or $r^2 = a^2 \\sin(2\\theta)$\n*   **Graphing Techniques:** Learn how to graph polar equations by:\n    *   Creating a table of values.\n    *   Using symmetry (e.g., symmetry about the polar axis, the line $\\theta = \\frac{\\pi}{2}$, or the pole).\n\nHere's an example of a cardioid: $r = 2 + 2\\cos(\\theta)$.\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"polar\",\"equations\":[\"r=2+2cos(\\\\theta)\"],\"label_points\":[],\"course\":\"pre_calc\",\"notes\":\"\"}%%END_GRAPH%%\n\n### IV. Applications of Polar Coordinates\n\n*   **Area in Polar Coordinates:** Learn how to calculate the area enclosed by a polar curve using the formula:\n    $$A = \\frac{1}{2} \\int_{\\alpha}^{\\beta} r^2 \\, d\\theta$$\n*   **Intersection of Polar Curves:** Understand how to find the points of intersection of two or more polar curves. Remember to consider intersections at the pole.\n\n### V. Practice Problems\n\n*   Work through a variety of problems to solidify your understanding.\n*   Focus on converting between coordinate systems, graphing polar equations, and finding areas.\n\nThis study guide covers the main topics related to polar functions. Remember to review your notes, practice problems, and ask your teacher or classmates for help if you have any questions. Good luck!"
+    },
+    {
+      "role": "user",
+      "content": "list all polar graphs inline here"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a list of common polar graphs, presented inline:\n\n*   **Circles:** $r = a$ (centered at the pole)\n*   **Lines:** $\\theta = \\alpha$ (passing through the pole)\n*   **Cardioids:** $r = a \\pm a \\cos(\\theta)$ or $r = a \\pm a \\sin(\\theta)$\n*   **Limacons:** $r = a \\pm b \\cos(\\theta)$ or $r = a \\pm b \\sin(\\theta)$ (with or without an inner loop, depending on the ratio of *a* and *b*)\n*   **Roses:** $r = a \\cos(n\\theta)$ or $r = a \\sin(n\\theta)$ (with *n* petals if *n* is odd, and *2n* petals if *n* is even)\n*   **Lemniscates:** $r^2 = a^2 \\cos(2\\theta)$ or $r^2 = a^2 \\sin(2\\theta)$ (figure-eight shapes)"
+    },
+    {
+      "role": "user",
+      "content": "list all functions with graphs"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a list of common function types, each of which has a corresponding graph:\n\n*   **Linear Functions:** $f(x) = mx + b$ (straight lines)\n*   **Quadratic Functions:** $f(x) = ax^2 + bx + c$ (parabolas)\n*   **Polynomial Functions:** $f(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0$ (smooth, continuous curves; the degree determines the general shape)\n*   **Rational Functions:** $f(x) = \\frac{P(x)}{Q(x)}$ (ratios of polynomials; can have vertical and horizontal asymptotes)\n*   **Exponential Functions:** $f(x) = a \\cdot b^x$ (exponential growth or decay)\n*   **Logarithmic Functions:** $f(x) = \\log_b(x)$ (inverse of exponential functions)\n*   **Trigonometric Functions:** $f(x) = \\sin(x)$, $f(x) = \\cos(x)$, $f(x) = \\tan(x)$, etc. (periodic waves)\n*   **Absolute Value Functions:** $f(x) = |x|$ (V-shaped graphs)\n*   **Radical Functions:** $f(x) = \\sqrt[n]{x}$ (square root, cube root, etc.; the shape depends on the index *n*)\n*   **Piecewise Functions:** Functions defined by different formulas for different intervals of the domain (graphs can have breaks or changes in direction)\n*   **Polar Functions:** $r = f(\\theta)$ (graphs in polar coordinates, such as cardioids, roses, and limacons)"
+    },
+    {
+      "role": "user",
+      "content": "show graphs here"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, I can show you some graphs. Which function types would you like to see? I can generate graphs for any of the functions I listed earlier, such as linear, quadratic, exponential, trigonometric, or polar functions. Just let me know which ones you'd like to visualize!"
+    },
+    {
+      "role": "user",
+      "content": "choose for me"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's start with a few examples. I'll choose one from the list of common function types.\n\nFirst, let's look at a [u]quadratic function[/u]: $f(x) = x^2 - 4$. This will be a parabola.\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=x^2-4\"],\"label_points\":[{\"x\":0,\"y\":-4,\"label\":\"vertex\"}],\"course\":\"algebra_2\",\"notes\":\"show vertex and intercepts\"}%%END_GRAPH%%\n\nNext, let's look at a [u]trigonometric function[/u]: $f(x) = \\sin(x)$. This will be a wave.\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sin(x)\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n\nFinally, let's look at a [u]polar function[/u]: $r = 2\\cos(2\\theta)$. This will be a rose.\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"polar\",\"equations\":[\"r=2cos(2\\\\theta)\"],\"label_points\":[],\"course\":\"pre_calc\",\"notes\":\"\"}%%END_GRAPH%%\n\nI've chosen one example from each of the function types. Let me know if you'd like to see more examples or different types of functions!"
+    },
+    {
+      "role": "user",
+      "content": "show me greatest step graph"
+    },
+    {
+      "role": "assistant",
+      "content": "You're asking about the [b]greatest integer function[/b], also known as the [b]floor function[/b]. This function, often written as $f(x) = \\lfloor x \\rfloor$, gives the greatest integer less than or equal to *x*.\n\nHere's what the graph looks like:\n\n*   The graph consists of a series of horizontal line segments.\n*   Each segment starts at a closed point (filled circle) and extends to an open point (empty circle) at the next integer value.\n*   For example, for all values of *x* between 0 and 1 (including 0 but not 1), the function's value is 0. For all values of *x* between 1 and 2 (including 1 but not 2), the function's value is 1, and so on.\n\nHere's the graph:\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=\\\\lfloor x \\\\rfloor\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%"
+    },
+    {
+      "role": "user",
+      "content": "regenerate"
+    },
+    {
+      "role": "assistant",
+      "content": "I can generate graphs for you. What type of graph would you like to see? I can create graphs for various function types, including linear, quadratic, exponential, trigonometric, and polar functions. Just let me know which one you'd like to visualize!"
+    },
+    {
+      "role": "user",
+      "content": "that last one"
+    },
+    {
+      "role": "assistant",
+      "content": "You're referring to the [b]greatest integer function[/b], also known as the [b]floor function[/b]. The graph of this function, $f(x) = \\lfloor x \\rfloor$, consists of a series of horizontal line segments. Each segment starts at a closed point (filled circle) and extends to an open point (empty circle) at the next integer value.\n\nHere's the graph again:\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=\\\\lfloor x \\\\rfloor\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%"
+    },
+    {
+      "role": "user",
+      "content": "show me graphs for all trig functions - make sue to use domain with multiples of pi"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's visualize the graphs of the six trigonometric functions, using a domain with multiples of $\\pi$.\n\n1.  **Sine Function:** $y = \\sin(x)$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sin(x)\",\"x=-2\\\\pi\",\"x=2\\\\pi\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n2.  **Cosine Function:** $y = \\cos(x)$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=cos(x)\",\"x=-2\\\\pi\",\"x=2\\\\pi\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n3.  **Tangent Function:** $y = \\tan(x)$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=tan(x)\",\"x=-2\\\\pi\",\"x=2\\\\pi\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n4.  **Cosecant Function:** $y = \\csc(x) = \\frac{1}{\\sin(x)}$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=csc(x)\",\"x=-2\\\\pi\",\"x=2\\\\pi\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n5.  **Secant Function:** $y = \\sec(x) = \\frac{1}{\\cos(x)}$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sec(x)\",\"x=-2\\\\pi\",\"x=2\\\\pi\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n6.  **Cotangent Function:** $y = \\cot(x) = \\frac{1}{\\tan(x)}$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=cot(x)\",\"x=-2\\\\pi\",\"x=2\\\\pi\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n\nI've included the graphs of all six trigonometric functions, showing their behavior over a domain that includes multiples of $\\pi$. Remember that the domain and range of each function are important characteristics to understand."
+    },
+    {
+      "role": "user",
+      "content": "regenerate a grpah for each type of parent function"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's visualize the graphs of some common parent functions. A [b]parent function[/b] is the simplest form of a function within a family of functions. Here are a few examples:\n\n1.  **Linear Function:** $f(x) = x$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=x\"],\"label_points\":[],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n2.  **Quadratic Function:** $f(x) = x^2$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=x^2\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n3.  **Cubic Function:** $f(x) = x^3$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=x^3\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n4.  **Square Root Function:** $f(x) = \\sqrt{x}$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sqrt(x)\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n5.  **Absolute Value Function:** $f(x) = |x|$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=|x|\"],\"label_points\":[],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n6.  **Exponential Function:** $f(x) = 2^x$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=2^x\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n7.  **Logarithmic Function:** $f(x) = \\log_2(x)$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=log_2(x)\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n\nI've provided graphs for several common parent functions. These are the basic building blocks for understanding transformations and more complex functions."
+    },
+    {
+      "role": "user",
+      "content": "do trig and polar"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's visualize some trigonometric and polar graphs.\n\nFirst, let's look at the [u]sine function[/u] in trigonometry: $y = \\sin(x)$.\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sin(x)\",\"x=-2\\\\pi\",\"x=2\\\\pi\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n\nNow, let's look at a [u]polar graph[/u]: $r = \\cos(2\\theta)$. This will be a four-leaf rose.\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"polar\",\"equations\":[\"r=cos(2\\\\theta)\"],\"label_points\":[],\"course\":\"pre_calc\",\"notes\":\"\"}%%END_GRAPH%%\n\nI've provided a graph for a trigonometric function and a polar function. Let me know if you'd like to explore other examples!"
+    },
+    {
+      "role": "user",
+      "content": "regenerate all"
+    },
+    {
+      "role": "assistant",
+      "content": "I can regenerate graphs for you. What specific graphs are you interested in seeing? I can generate graphs for various function types, including linear, quadratic, exponential, trigonometric, and polar functions. Just let me know which ones you'd like to visualize!"
+    },
+    {
+      "role": "user",
+      "content": "all of those"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's regenerate all the graphs we've covered so far. Here they are:\n\n1.  **Linear Function:** $f(x) = x$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=x\"],\"label_points\":[],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n2.  **Quadratic Function:** $f(x) = x^2$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=x^2\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n3.  **Cubic Function:** $f(x) = x^3$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=x^3\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n4.  **Square Root Function:** $f(x) = \\sqrt{x}$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sqrt(x)\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n5.  **Absolute Value Function:** $f(x) = |x|$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=|x|\"],\"label_points\":[],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n6.  **Exponential Function:** $f(x) = 2^x$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=2^x\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n7.  **Logarithmic Function:** $f(x) = \\log_2(x)$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=log_2(x)\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n8.  **Sine Function:** $y = \\sin(x)$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sin(x)\",\"x=-2\\\\pi\",\"x=2\\\\pi\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n9.  **Polar Graph:** $r = \\cos(2\\theta)$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"polar\",\"equations\":[\"r=cos(2\\\\theta)\"],\"label_points\":[],\"course\":\"pre_calc\",\"notes\":\"\"}%%END_GRAPH%%\n\nI've regenerated all the graphs we've discussed. Let me know if you'd like to explore anything else!"
+    },
+    {
+      "role": "user",
+      "content": "gnerate some geoemtry  diagrams"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's generate some geometry diagrams. What specific diagrams are you interested in seeing? I can create diagrams for various geometric shapes and concepts, such as:\n\n*   Lines and angles\n*   Triangles (various types)\n*   Quadrilaterals (squares, rectangles, parallelograms, etc.)\n*   Circles\n*   3D shapes (cubes, spheres, etc.)\n\nTell me what you'd like to visualize, and I'll do my best to create the diagram for you!"
+    },
+    {
+      "role": "user",
+      "content": "whatever"
+    },
+    {
+      "role": "assistant",
+      "content": "Alright, let's start with a basic [b]triangle[/b]. I'll create a diagram of a triangle with vertices at (0,0), (4,0), and (2,3).\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"geometry\",\"equations\":[\"polygon((0,0),(4,0),(2,3))\"],\"label_points\":[],\"course\":\"geometry\",\"notes\":\"\"}%%END_GRAPH%%\n\nThis is a visual representation of a triangle. Do you want to explore any other geometric shapes or concepts?"
+    },
+    {
+      "role": "user",
+      "content": "connect the dots"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand. To \"connect the dots\" in the context of our conversation, it seems you're asking me to continue generating diagrams or visualizations based on our previous discussions.\n\nSince we've been focusing on graphs, I can generate more graphs for you. Would you like to see more graphs of functions, or would you like to explore other geometric shapes or concepts? Let me know what you'd like to see!"
+    },
+    {
+      "role": "user",
+      "content": "regnerate the right triangle"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's regenerate a [b]right triangle[/b]. I'll create a diagram of a right triangle with vertices at (0,0), (4,0), and (4,3).\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"geometry\",\"equations\":[\"polygon((0,0),(4,0),(4,3))\"],\"label_points\":[],\"course\":\"geometry\",\"notes\":\"\"}%%END_GRAPH%%\n\nThis is a visual representation of a right triangle. Do you want to explore any other geometric shapes or concepts?"
+    },
+    {
+      "role": "user",
+      "content": "rehegenearte all parent function graphs and triangel"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's regenerate all the parent function graphs and the triangle.\n\nFirst, here are the parent function graphs:\n\n1.  **Linear Function:** $f(x) = x$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=x\"],\"label_points\":[],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n2.  **Quadratic Function:** $f(x) = x^2$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=x^2\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n3.  **Cubic Function:** $f(x) = x^3$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=x^3\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n4.  **Square Root Function:** $f(x) = \\sqrt{x}$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sqrt(x)\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n5.  **Absolute Value Function:** $f(x) = |x|$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=|x|\"],\"label_points\":[],\"course\":\"algebra_1\",\"notes\":\"\"}%%END_GRAPH%%\n6.  **Exponential Function:** $f(x) = 2^x$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=2^x\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n7.  **Logarithmic Function:** $f(x) = \\log_2(x)$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=log_2(x)\"],\"label_points\":[],\"course\":\"algebra_2\",\"notes\":\"\"}%%END_GRAPH%%\n8.  **Sine Function:** $y = \\sin(x)$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"function\",\"equations\":[\"y=sin(x)\",\"x=-2\\\\pi\",\"x=2\\\\pi\"],\"label_points\":[],\"course\":\"trig\",\"notes\":\"\"}%%END_GRAPH%%\n9.  **Polar Graph:** $r = \\cos(2\\theta)$\n\n    %%GRAPH%%{\"engine\":\"desmos\",\"type\":\"polar\",\"equations\":[\"r=cos(2\\\\theta)\"],\"label_points\":[],\"course\":\"pre_calc\",\"notes\":\"\"}%%END_GRAPH%%\n\nAnd here's the [b]right triangle[/b] again:\n\n%%GRAPH%%{\"engine\":\"desmos\",\"type\":\"geometry\",\"equations\":[\"polygon((0,0),(4,0),(4,3))\"],\"label_points\":[],\"course\":\"geometry\",\"notes\":\"\"}%%END_GRAPH%%\n\nI've regenerated all the requested graphs and the triangle. Let me know if you'd like to explore anything else!"
+    }
+  ],
+  "updatedAt": "2026-04-07T22:41:53.194Z"
+}

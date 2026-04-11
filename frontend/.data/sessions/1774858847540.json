@@ -1,0 +1,27 @@
+{
+  "id": "1774858847540",
+  "subject": "math",
+  "course": "Trigonometry",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: create a labelled triangle for trig \nRecent assistant focus: Type to start learning. | Great question! Understanding how to label the sides of a right triangle is fundamental to trigonometry. Let's create a diagram to help you visualize this.\n\nHere's a right-angled triangle with its sides labeled relative to one of its acute angles, often called $\\theta$ (theta).\n\n```tikz\n\\documentclass[tikz, border=5mm]{standalone}\n\\usepackage{amsmath}\n\\begin{document}\n\\begin{tikzpicture}\n    % Define coordinates for the triangle\n    \\coordinate (A) at (0,0);\n    \\coordinate (B) at (4,0);\n    \\coordinate (C) at (0,3);\n\n    % Draw the triangle\n    \\draw (A) -- (B) -- (C) -- cycle;\n\n    % Label the vertices\n    \\node[below left] at (A) {$A$};\n    \\node[below right] at (B) {$B$};\n    \\node[above left] at (C) {$C$};\n\n    % Mark the right angle at A\n    \\draw (A) rectangle +(0.3,0.3);\n\n    % Label the angle theta at B\n    \\draw (B) ++(-0.5,0) arc (180:140:0.5);\n    \\node[below right] at (B) {$\\theta$};\n\n    % Label the sides relative to angle theta\n    \\node[midway, above] at (A -- C) {Opposite};\n    \\node[midway, below] at (A -- B) {Adjacent};...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Type to start learning."
+    },
+    {
+      "role": "user",
+      "content": "create a labelled triangle for trig"
+    },
+    {
+      "role": "assistant",
+      "content": "Great question! Understanding how to label the sides of a right triangle is fundamental to trigonometry. Let's create a diagram to help you visualize this.\n\nHere's a right-angled triangle with its sides labeled relative to one of its acute angles, often called $\\theta$ (theta).\n\n```tikz\n\\documentclass[tikz, border=5mm]{standalone}\n\\usepackage{amsmath}\n\\begin{document}\n\\begin{tikzpicture}\n    % Define coordinates for the triangle\n    \\coordinate (A) at (0,0);\n    \\coordinate (B) at (4,0);\n    \\coordinate (C) at (0,3);\n\n    % Draw the triangle\n    \\draw (A) -- (B) -- (C) -- cycle;\n\n    % Label the vertices\n    \\node[below left] at (A) {$A$};\n    \\node[below right] at (B) {$B$};\n    \\node[above left] at (C) {$C$};\n\n    % Mark the right angle at A\n    \\draw (A) rectangle +(0.3,0.3);\n\n    % Label the angle theta at B\n    \\draw (B) ++(-0.5,0) arc (180:140:0.5);\n    \\node[below right] at (B) {$\\theta$};\n\n    % Label the sides relative to angle theta\n    \\node[midway, above] at (A -- C) {Opposite};\n    \\node[midway, below] at (A -- B) {Adjacent};\n    \\node[midway, above right, sloped] at (B -- C) {Hypotenuse};\n\n\\end{tikzpicture}\n\\end{document}\n```\n\n### Explanation of the Labels:\n\n1.  **Hypotenuse:**\n    *   This is always the **longest side** of a right-angled triangle.\n    *   It is always **opposite the right angle** (the $90^\\circ$ angle).\n\n2.  **Opposite Side:**\n    *   This side is directly **across from the angle $\\theta$** that you are focusing on.\n\n3.  **Adjacent Side:**\n    *   This side is **next to the angle $\\theta$** that you are focusing on.\n    *   It is *not* the hypotenuse, but it forms one of the arms of the angle $\\theta$.\n\nThese labels are crucial for defining the basic trigonometric ratios: sine, cosine, and tangent (SOH CAH TOA)."
+    }
+  ],
+  "updatedAt": "2026-03-30T08:20:56.889Z"
+}

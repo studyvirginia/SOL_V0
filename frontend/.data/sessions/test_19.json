@@ -1,0 +1,19 @@
+{
+  "id": "test_19",
+  "subject": "math",
+  "course": "Grade 1 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating nonstandard measurement icons \nRecent assistant focus: Here's a textbook-quality diagram illustrating nonstandard measurement icons:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a horizontal row of five icons representing nonstandard measurement units. From left to right: a paperclip, a pencil, a small block, a hand span, and a shoe. Label each icon with its corresponding measurement unit: 'paperclip', 'pencil', 'block', 'hand span', and 'shoe'. Use simple, clear line drawings for each icon.\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_1_math\",\"archetype_hint\":\"nonstandard_measurement\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThese icons represent common nonstandard units of measurement that students often use to compare lengths and sizes in early math education. Nonstandard measurement involves using everyday objects to measure and compare quantities, which helps build foundational measurement skills.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating nonstandard measurement icons"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram illustrating nonstandard measurement icons:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a horizontal row of five icons representing nonstandard measurement units. From left to right: a paperclip, a pencil, a small block, a hand span, and a shoe. Label each icon with its corresponding measurement unit: 'paperclip', 'pencil', 'block', 'hand span', and 'shoe'. Use simple, clear line drawings for each icon.\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_1_math\",\"archetype_hint\":\"nonstandard_measurement\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThese icons represent common nonstandard units of measurement that students often use to compare lengths and sizes in early math education. Nonstandard measurement involves using everyday objects to measure and compare quantities, which helps build foundational measurement skills."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:07:05.549Z"
+}

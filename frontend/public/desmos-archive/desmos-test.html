@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desmos Test Dashboard · SOL v0</title>
+  <style>
+    :root {
+      --bg:        #0d0f18;
+      --surface:   #161927;
+      --surface2:  #1e2235;
+      --border:    rgba(255,255,255,0.07);
+      --text:      #e0e4f0;
+      --muted:     #7a82a0;
+      --accent:    #007AFF;
+      --green:     #34C759;
+      --red:       #FF3B30;
+      --orange:    #FF9500;
+      --purple:    #AF52DE;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;
+      font-size: 13px; min-height: 100vh;
+    }
+
+    /* ── Header ─────────────────────────────────────────────────────── */
+    header {
+      position: sticky; top: 0; z-index: 200;
+      background: rgba(13,15,24,0.96); backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+    .hdr-inner {
+      max-width: 1640px; margin: 0 auto; padding: 0 24px;
+      height: 60px; display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    }
+    .hdr-title { font-size: 16px; font-weight: 700; letter-spacing: -0.2px; }
+    .hdr-sub { font-size: 11px; color: var(--muted); margin-top: 1px; }
+    .hdr-actions { display: flex; gap: 8px; align-items: center; flex-shrink: 0; }
+
+    .hdr-progress {
+      max-width: 1640px; margin: 0 auto; padding: 0 24px 10px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    #progress-bar { flex: 1; height: 3px; background: var(--surface2); border-radius: 2px; overflow: hidden; }
+    #progress-fill { height: 100%; width: 0; background: var(--green); border-radius: 2px; transition: width .4s; }
+    #progress-text { font-size: 11px; font-weight: 700; color: var(--muted); white-space: nowrap; min-width: 90px; text-align: right; }
+
+    /* ── Buttons ─────────────────────────────────────────────────────── */
+    .btn {
+      padding: 7px 14px; border-radius: 8px; font-size: 12px; font-weight: 700;
+      cursor: pointer; border: none; transition: all .15s; letter-spacing: .2px;
+    }
+    .btn:disabled { opacity: .5; cursor: not-allowed; }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:not(:disabled):hover { background: #0065d8; }
+    .btn-ghost {
+      background: var(--surface2); color: var(--muted);
+      border: 1px solid var(--border);
+    }
+    .btn-ghost:hover { color: var(--text); }
+    .btn-xs { padding: 3px 8px; font-size: 10px; border-radius: 5px; }
+
+    /* ── Filters ─────────────────────────────────────────────────────── */
+    #filters {
+      max-width: 1640px; margin: 0 auto; padding: 10px 24px;
+      display: flex; gap: 6px; flex-wrap: wrap; align-items: center;
+    }
+    .filter-label { font-size: 10px; font-weight: 700; color: var(--muted); letter-spacing: .8px; text-transform: uppercase; margin-right: 4px; }
+    .filter-btn {
+      padding: 3px 11px; border-radius: 20px; font-size: 11px; font-weight: 700;
+      cursor: pointer; border: 1px solid var(--border);
+      background: var(--surface2); color: var(--muted); transition: all .15s;
+    }
+    .filter-btn.active { border-color: transparent; color: #fff; }
+    .filter-btn:not(.active):hover { color: var(--text); }
+
+    /* ── Stats row ───────────────────────────────────────────────────── */
+    #stats-row {
+      max-width: 1640px; margin: 0 auto; padding: 0 24px 14px;
+      display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+    }
+    .stat-chip {
+      display: flex; align-items: center; gap: 6px;
+      padding: 5px 11px; border-radius: 8px; background: var(--surface2);
+      font-size: 11px; font-weight: 700; color: var(--muted);
+    }
+    .stat-dot { width: 7px; height: 7px; border-radius: 50%; }
+
+    /* ── Card grid ───────────────────────────────────────────────────── */
+    #grid {
+      max-width: 1640px; margin: 0 auto; padding: 0 24px 60px;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(370px, 1fr)); gap: 14px;
+    }
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; overflow: hidden; transition: border-color .2s;
+    }
+    .card.filtered-out { display: none; }
+    .card.status-pass { border-color: rgba(52,199,89,.25); }
+    .card.status-fail { border-color: rgba(255,59,48,.25); }
+    .card.status-running { border-color: rgba(0,122,255,.3); }
+
+    .card-header {
+      display: flex; align-items: center; gap: 8px;
+      padding: 9px 12px; border-bottom: 1px solid var(--border);
+      min-height: 38px;
+    }
+    .cat-badge {
+      padding: 2px 7px; border-radius: 10px;
+      font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .6px;
+      flex-shrink: 0;
+    }
+    .card-label {
+      flex: 1; font-size: 12px; font-weight: 600; color: var(--text);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .status-icon { font-size: 14px; flex-shrink: 0; min-width: 18px; text-align: center; }
+
+    .calc-wrap {
+      width: 100%; height: 252px; position: relative; background: #f5f7ff;
+    }
+    .calc-placeholder {
+      position: absolute; inset: 0; display: flex; align-items: center;
+      justify-content: center; gap: 8px; font-size: 11px; font-weight: 700;
+      color: #aab; letter-spacing: .5px; text-transform: uppercase;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spinner {
+      width: 16px; height: 16px; border: 2px solid rgba(0,122,255,.2);
+      border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite;
+    }
+
+    .card-footer { padding: 9px 12px; border-top: 1px solid var(--border); }
+    .eq-line { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 10px; color: var(--muted); margin-bottom: 4px; }
+    .issue-note { font-size: 10px; color: var(--orange); font-style: italic; margin-top: 3px; }
+    .error-msg { font-size: 10px; color: var(--red); margin-top: 4px; display: none; }
+    .timing { font-size: 10px; color: var(--muted); margin-top: 3px; }
+
+    .footer-row {
+      display: flex; align-items: center; justify-content: space-between; margin-top: 5px;
+    }
+    .json-toggle { font-size: 10px; color: var(--accent); cursor: pointer; text-decoration: underline; }
+    .json-block {
+      display: none; margin-top: 7px; padding: 8px;
+      background: var(--surface2); border-radius: 6px;
+      font-size: 9.5px; font-family: 'SF Mono', 'Fira Code', monospace;
+      color: #7fb; max-height: 220px; overflow-y: auto; white-space: pre-wrap; line-height: 1.4;
+    }
+    .json-block.open { display: block; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="hdr-inner">
+    <div>
+      <div class="hdr-title">Desmos Test Dashboard</div>
+      <div class="hdr-sub">v1.11 · K–12 Standards &amp; Applications · SOL v0</div>
+    </div>
+    <div class="hdr-actions">
+      <div class="stat-chip" style="margin-right:4px">
+        <span id="hdr-pass" style="color:var(--green)">0</span>
+        <span style="color:var(--muted)">/ <span id="hdr-total">—</span> passed</span>
+      </div>
+      <button class="btn btn-ghost btn-xs" onclick="clearAll()">Clear</button>
+      <button class="btn btn-primary" id="run-all-btn" onclick="runAll()">▶ Run All</button>
+    </div>
+  </div>
+  <div class="hdr-progress">
+    <div id="progress-bar"><div id="progress-fill"></div></div>
+    <div id="progress-text">Idle</div>
+  </div>
+</header>
+
+<div id="filters">
+  <span class="filter-label">Filter</span>
+  <button class="filter-btn active" data-cat="all"    onclick="filterCat('all')">All</button>
+  <button class="filter-btn" data-cat="Critical"    onclick="filterCat('Critical')">Critical</button>
+  <button class="filter-btn" data-cat="Trig"        onclick="filterCat('Trig')">Trig</button>
+  <button class="filter-btn" data-cat="Polar"       onclick="filterCat('Polar')">Polar</button>
+  <button class="filter-btn" data-cat="Piecewise"   onclick="filterCat('Piecewise')">Piecewise</button>
+  <button class="filter-btn" data-cat="Geometry"    onclick="filterCat('Geometry')">Geometry</button>
+  <button class="filter-btn" data-cat="Scatter"     onclick="filterCat('Scatter')">Scatter</button>
+  <button class="filter-btn" data-cat="Inequality"  onclick="filterCat('Inequality')">Inequality</button>
+  <button class="filter-btn" data-cat="Number Line" onclick="filterCat('Number Line')">Number Line</button>
+  <button class="filter-btn" data-cat="Functions"   onclick="filterCat('Functions')">Functions</button>
+  <button class="filter-btn" data-cat="Parametric"  onclick="filterCat('Parametric')">Parametric</button>
+</div>
+
+<div id="stats-row">
+  <div class="stat-chip"><div class="stat-dot" style="background:#555"></div><span id="stat-pending">— pending</span></div>
+  <div class="stat-chip"><div class="stat-dot" style="background:var(--green)"></div><span id="stat-pass">0 passed</span></div>
+  <div class="stat-chip"><div class="stat-dot" style="background:var(--red)"></div><span id="stat-fail">0 failed</span></div>
+  <div class="stat-chip" style="margin-left:auto;font-weight:400;color:var(--muted)">POST /api/desmos-generate</div>
+</div>
+
+<div id="grid"></div>
+
+<!-- Desmos API must load before any render call -->
+<script src="https://www.desmos.com/api/v1.11/calculator.js?apiKey=9299ac9714cd4f159e4a6a40b9c8e4a2"></script>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════════════
+// CAT COLORS
+// ═══════════════════════════════════════════════════════════════════════════
+const CATS = {
+  Critical:     '#FF3B30',
+  Trig:         '#AF52DE',
+  Polar:        '#007AFF',
+  Piecewise:    '#FF9500',
+  Geometry:     '#34C759',
+  Scatter:      '#00C7BE',
+  Inequality:   '#FF6B8A',
+  'Number Line':'#FFD60A',
+  Functions:    '#8E8E93',
+  Parametric:   '#5856D6',
+};
+
+// ═══════════════════════════════════════════════════════════════════════════
+// TEST DEFINITIONS
+// ═══════════════════════════════════════════════════════════════════════════
+const TESTS = [
+
+  // ─── Critical (known / suspected issues) ───────────────────────────────
+  {
+    id:'c1', cat:'Critical', label:'floor(x) — Greatest Integer',
+    req:{ type:'function', equations:['y=floor(x)'], course:'algebra_2', notes:'step function; x range -5 to 5; no backslash on floor' },
+    issue:'floor() must not receive backslash — renders blank if \\floor used',
+  },
+  {
+    id:'c2', cat:'Critical', label:'ceil(x) — Ceiling Function',
+    req:{ type:'function', equations:['y=ceil(x)'], course:'algebra_2', notes:'ceiling step function x -4 to 4' },
+    issue:'Built-in: no backslash ever',
+  },
+  {
+    id:'c3', cat:'Critical', label:'abs(x) — Absolute Value',
+    req:{ type:'function', equations:['y=abs(x)'], course:'algebra_1', notes:'V-shape; label vertex at origin; NEVER use |x|' },
+    issue:'Must use abs(x) not \\abs(x) or |x|',
+  },
+  {
+    id:'c4', cat:'Critical', label:'r = 1+cos(θ) — Polar Cardioid',
+    req:{ type:'polar', equations:['r=1+cos(theta)'], course:'pre_calc', notes:'cardioid; polarMode true' },
+    issue:'cos(theta) must not become \\cos(\\theta) in polar',
+  },
+  {
+    id:'c5', cat:'Critical', label:'polygon() — Triangle',
+    req:{ type:'geometry', equations:['polygon((0,0),(4,0),(2,3))'], course:'geometry', notes:'triangle; fill; round parens only' },
+    issue:'polygon requires round parens — square brackets fail silently',
+  },
+  {
+    id:'c6', cat:'Critical', label:'round(x) — Rounding',
+    req:{ type:'function', equations:['y=round(x)'], course:'algebra_2', notes:'step function at half-integers' },
+  },
+  {
+    id:'c7', cat:'Critical', label:'sign(x) — Sign Function',
+    req:{ type:'function', equations:['y=sign(x)'], course:'algebra_2', notes:'returns -1 0 1; piecewise-like step' },
+  },
+
+  // ─── Trig ───────────────────────────────────────────────────────────────
+  {
+    id:'t1', cat:'Trig', label:'y = sin(x) — Basic Sine',
+    req:{ type:'trig', equations:['y=sin(x)'], course:'pre_calc', notes:'label key points at 0 pi/2 pi 3pi/2 2pi; xAxisStep pi/2' },
+  },
+  {
+    id:'t2', cat:'Trig', label:'y = 2sin(3x − π/4) + 1',
+    req:{ type:'trig', equations:['y=2sin(3x-pi/4)+1'], course:'pre_calc', notes:'amplitude 2 period 2pi/3 phase shift pi/12 vertical shift 1' },
+  },
+  {
+    id:'t3', cat:'Trig', label:'y = cos(x) & y = sin(x)',
+    req:{ type:'trig', equations:['y=cos(x)','y=sin(x)'], course:'pre_calc', notes:'both on same graph; different colors' },
+  },
+  {
+    id:'t4', cat:'Trig', label:'y = tan(x) — Asymptotes',
+    req:{ type:'trig', equations:['y=tan(x)'], course:'pre_calc', notes:'dashed gray asymptotes at ±pi/2; viewport ±pi ±5' },
+  },
+  {
+    id:'t5', cat:'Trig', label:'y = arcsin(x) & y = arccos(x)',
+    req:{ type:'trig', equations:['y=arcsin(x)','y=arccos(x)'], course:'pre_calc', notes:'inverse trig functions; domain -1 to 1' },
+  },
+  {
+    id:'t6', cat:'Trig', label:'y = sec(x) alongside y = cos(x)',
+    req:{ type:'trig', equations:['y=sec(x)','y=cos(x)'], course:'pre_calc', notes:'secant branches and cosine; dashed asymptotes' },
+  },
+
+  // ─── Polar ──────────────────────────────────────────────────────────────
+  {
+    id:'p1', cat:'Polar', label:'r = sin(2θ) — 4-Petal Rose',
+    req:{ type:'polar', equations:['r=sin(2*theta)'], course:'pre_calc', notes:'4-petal rose; polarMode true' },
+  },
+  {
+    id:'p2', cat:'Polar', label:'r = θ — Archimedean Spiral',
+    req:{ type:'polar', equations:['r=theta'], course:'pre_calc', notes:'spiral from 0 to 4pi' },
+  },
+  {
+    id:'p3', cat:'Polar', label:'r = 2+sin(3θ) — Limaçon / Rose',
+    req:{ type:'polar', equations:['r=2+sin(3*theta)'], course:'pre_calc', notes:'3-fold limaçon variation' },
+  },
+  {
+    id:'p4', cat:'Polar', label:'r² = cos(2θ) — Lemniscate',
+    req:{ type:'polar', equations:['r^2=cos(2*theta)'], course:'pre_calc', notes:'lemniscate of Bernoulli' },
+  },
+  {
+    id:'p5', cat:'Polar', label:'r = 1 (Unit Circle in Polar)',
+    req:{ type:'polar', equations:['r=1'], course:'pre_calc', notes:'unit circle in polar form' },
+  },
+
+  // ─── Piecewise ──────────────────────────────────────────────────────────
+  {
+    id:'pw1', cat:'Piecewise', label:'Absolute Value Piecewise',
+    req:{ type:'piecewise', equations:['y={x<0:-x, x>=0:x}'], course:'algebra_1', notes:'show open/closed circle at junction origin' },
+  },
+  {
+    id:'pw2', cat:'Piecewise', label:'3-Piece Clamp Function',
+    req:{ type:'piecewise', equations:['y={x<-2:-2, -2<=x<=2:x, x>2:2}'], course:'algebra_2', notes:'flat-linear-flat; open circles at both ends of linear piece' },
+  },
+  {
+    id:'pw3', cat:'Piecewise', label:'Quadratic–Linear–Constant',
+    req:{ type:'piecewise', equations:['y={x<0:x^2, 0<=x<=2:2*x, x>2:4}'], course:'algebra_2', notes:'mark breakpoints; label (0,0) and (2,4)' },
+  },
+  {
+    id:'pw4', cat:'Piecewise', label:'Step / Tax-Bracket Style',
+    req:{ type:'piecewise', equations:['y={x<1:0, 1<=x<3:1, 3<=x<6:2, x>=6:3}'], course:'algebra_2', notes:'horizontal steps like floor quantized; open and closed circles' },
+  },
+
+  // ─── Geometry ───────────────────────────────────────────────────────────
+  {
+    id:'g1', cat:'Geometry', label:'Triangle — Labeled Vertices',
+    req:{ type:'geometry', equations:['polygon((0,0),(6,0),(3,4))'], course:'geometry', notes:'labeled vertices A B C; fill 15%; equal aspect ratio' },
+  },
+  {
+    id:'g2', cat:'Geometry', label:'Right Triangle + Right Angle Marker',
+    req:{ type:'geometry', equations:['polygon((0,0),(4,0),(0,3))'], course:'geometry', notes:'right angle box at origin; label legs 4 and 3 and hypotenuse 5' },
+  },
+  {
+    id:'g3', cat:'Geometry', label:'Circle x²+y²=25',
+    req:{ type:'geometry', equations:['x^2+y^2=25'], course:'geometry', notes:'circle radius 5; label center origin and point (3,4) on circle' },
+  },
+  {
+    id:'g4', cat:'Geometry', label:'Parallelogram + Diagonals',
+    req:{ type:'geometry', equations:['polygon((0,0),(4,0),(5,2),(1,2))'], course:'geometry', notes:'parallelogram with both diagonals as dashed lines' },
+  },
+  {
+    id:'g5', cat:'Geometry', label:'Angle Arc on a Ray',
+    req:{ type:'geometry', equations:['polygon((0,0),(4,0))','polygon((0,0),(3,3))'], course:'geometry', notes:'two rays from origin; angle arc between them at radius 0.8; label 45°' },
+  },
+
+  // ─── Scatter / Regression ───────────────────────────────────────────────
+  {
+    id:'s1', cat:'Scatter', label:'Linear Regression y~mx+b',
+    req:{ type:'scatter', equations:['scatter'], course:'statistics', notes:'x=[1,2,3,4,5,6] y=[2.1,3.8,6.0,7.9,9.8,12.1]; linear regression line; label slope m' },
+  },
+  {
+    id:'s2', cat:'Scatter', label:'Quadratic Regression y~ax²+bx+c',
+    req:{ type:'scatter', equations:['scatter'], course:'algebra_2', notes:'x=[1,2,3,4,5] y=[1,3.9,9.1,15.8,25.2]; quadratic regression' },
+  },
+  {
+    id:'s3', cat:'Scatter', label:'Two Group Comparison',
+    req:{ type:'scatter', equations:['scatter'], course:'statistics', notes:'Group A x=[1,2,3,4] y=[2,4,6,8] blue; Group B x=[1,2,3,4] y=[3,5,2,7] red; no regression; legend' },
+  },
+
+  // ─── Inequality ─────────────────────────────────────────────────────────
+  {
+    id:'i1', cat:'Inequality', label:'System: y < 2x+3 & y ≥ −x+1',
+    req:{ type:'inequality', equations:['y<2x+3','y>=-x+1'], course:'algebra_1', notes:'shaded feasible intersection region' },
+  },
+  {
+    id:'i2', cat:'Inequality', label:'y ≤ x² — Parabolic Region',
+    req:{ type:'inequality', equations:['y<=x^2'], course:'algebra_2', notes:'fill below parabola; label vertex; solid boundary' },
+  },
+  {
+    id:'i3', cat:'Inequality', label:'x²+y² ≤ 25 — Filled Disk',
+    req:{ type:'inequality', equations:['x^2+y^2<=25'], course:'geometry', notes:'filled disk radius 5' },
+  },
+  {
+    id:'i4', cat:'Inequality', label:'Linear Programming (3-constraint)',
+    req:{ type:'inequality', equations:['y<=4','x<=3','x+y<=5'], course:'algebra_2', notes:'3 inequalities; shade feasible region; label corner vertices' },
+  },
+
+  // ─── Number Line ────────────────────────────────────────────────────────
+  {
+    id:'n1', cat:'Number Line', label:'−2 < x ≤ 4 Compound',
+    req:{ type:'number_line', equations:['x>-2','x<=4'], course:'algebra_1', notes:'open circle at -2 closed at 4; shaded segment' },
+  },
+  {
+    id:'n2', cat:'Number Line', label:'|x| < 3 — Both Ends Open',
+    req:{ type:'number_line', equations:['x>-3','x<3'], course:'algebra_1', notes:'-3 < x < 3; open circles both ends' },
+  },
+  {
+    id:'n3', cat:'Number Line', label:'x ≤ −1 or x ≥ 2 — Union',
+    req:{ type:'number_line', equations:['x<=-1','x>=2'], course:'algebra_2', notes:'two rays in opposite directions; closed endpoints; union notation' },
+  },
+
+  // ─── Functions ──────────────────────────────────────────────────────────
+  {
+    id:'f1', cat:'Functions', label:'y = x²−4 — Parabola',
+    req:{ type:'function', equations:['y=x^2-4'], course:'algebra_1', notes:'label vertex (0,-4) and x-intercepts (±2,0)' },
+  },
+  {
+    id:'f2', cat:'Functions', label:'y = 1/x — Rational + Asymptotes',
+    req:{ type:'function', equations:['y=1/x'], course:'algebra_2', notes:'dashed gray asymptotes x=0 and y=0; show both branches' },
+  },
+  {
+    id:'f3', cat:'Functions', label:'y = √x — Square Root Domain',
+    req:{ type:'function', equations:['y=sqrt(x)'], course:'algebra_1', notes:'label (0,0) (1,1) (4,2) (9,3)' },
+  },
+  {
+    id:'f4', cat:'Functions', label:'y = eˣ & y = ln(x) — Inverses',
+    req:{ type:'function', equations:['y=e^x','y=ln(x)','y=x'], course:'pre_calc', notes:'y=x as dashed line of reflection; label (0,1) and (1,e)' },
+  },
+  {
+    id:'f5', cat:'Functions', label:'y = x³−3x — Cubic Extrema',
+    req:{ type:'function', equations:['y=x^3-3x'], course:'algebra_2', notes:'label local max (-1,2) and min (1,-2) and three x-intercepts' },
+  },
+  {
+    id:'f6', cat:'Functions', label:'y = (x²−1)/(x−1) — Hole',
+    req:{ type:'function', equations:['y=(x^2-1)/(x-1)'], course:'algebra_2', notes:'simplifies to y=x+1 but hole at x=1; show open circle at (1,2)' },
+  },
+
+  // ─── Parametric ─────────────────────────────────────────────────────────
+  {
+    id:'par1', cat:'Parametric', label:'Unit Circle (cos t, sin t)',
+    req:{ type:'function', equations:['(cos(t), sin(t))'], course:'pre_calc', notes:'parametric unit circle t from 0 to 2pi; parametricDomain 0 to 2pi' },
+  },
+  {
+    id:'par2', cat:'Parametric', label:'Lissajous Curve (sin 3t, sin 2t)',
+    req:{ type:'function', equations:['(sin(3*t), sin(2*t))'], course:'pre_calc', notes:'Lissajous figure; parametricDomain 0 to 2pi' },
+  },
+  {
+    id:'par3', cat:'Parametric', label:'Cycloid (t − sin t, 1 − cos t)',
+    req:{ type:'function', equations:['(t-sin(t), 1-cos(t))'], course:'pre_calc', notes:'cycloid curve t from 0 to 4pi; show rolling circle path' },
+  },
+];
+
+// ═══════════════════════════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════════════════════════
+const state   = {}; // id → { status, ms, error, desmosState }
+const calcs   = {}; // id → { calc, rafId }
+TESTS.forEach(t => { state[t.id] = { status:'pending' }; });
+
+// ═══════════════════════════════════════════════════════════════════════════
+// BUILD CARDS
+// ═══════════════════════════════════════════════════════════════════════════
+function buildCards() {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  TESTS.forEach(test => {
+    const catColor = CATS[test.cat] || '#888';
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.id = `card-${test.id}`;
+    card.dataset.cat = test.cat;
+    card.innerHTML = `
+      <div class="card-header">
+        <span class="cat-badge" style="background:${catColor}22;color:${catColor}">${test.cat}</span>
+        <span class="card-label" title="${test.label}">${test.label}</span>
+        <span class="status-icon" id="icon-${test.id}">⬜</span>
+        <button class="btn btn-ghost btn-xs" onclick="runTest('${test.id}')">Run</button>
+      </div>
+      <div class="calc-wrap" id="wrap-${test.id}">
+        <div class="calc-placeholder" id="ph-${test.id}">Not yet run</div>
+      </div>
+      <div class="card-footer">
+        <div class="eq-line">${test.req.equations.join('  ·  ')}</div>
+        ${test.issue ? `<div class="issue-note">⚠ ${test.issue}</div>` : ''}
+        <div class="error-msg" id="err-${test.id}"></div>
+        <div class="footer-row">
+          <span class="timing" id="ms-${test.id}"></span>
+          <span class="json-toggle" id="json-btn-${test.id}" style="display:none" onclick="toggleJson('${test.id}')">View JSON</span>
+        </div>
+        <pre class="json-block" id="json-${test.id}"></pre>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+  updateStats();
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// FILTER
+// ═══════════════════════════════════════════════════════════════════════════
+function filterCat(cat) {
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    const isActive = btn.dataset.cat === cat;
+    btn.classList.toggle('active', isActive);
+    if (isActive) {
+      const c = cat === 'all' ? 'var(--accent)' : (CATS[cat] || 'var(--accent)');
+      btn.style.background = c;
+      btn.style.color = '#fff';
+      btn.style.borderColor = 'transparent';
+    } else {
+      btn.style.background = btn.style.color = btn.style.borderColor = '';
+    }
+  });
+  document.querySelectorAll('.card').forEach(c => {
+    c.classList.toggle('filtered-out', cat !== 'all' && c.dataset.cat !== cat);
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// STATS
+// ═══════════════════════════════════════════════════════════════════════════
+function updateStats() {
+  let pending = 0, running = 0, pass = 0, fail = 0;
+  TESTS.forEach(t => {
+    const s = state[t.id].status;
+    if (s === 'pending')  pending++;
+    else if (s === 'running') running++;
+    else if (s === 'pass')    pass++;
+    else if (s === 'fail')    fail++;
+  });
+  const total = TESTS.length;
+  const done  = pass + fail;
+  document.getElementById('stat-pending').textContent = `${pending + running} pending`;
+  document.getElementById('stat-pass').textContent    = `${pass} passed`;
+  document.getElementById('stat-fail').textContent    = `${fail} failed`;
+  document.getElementById('hdr-pass').textContent     = pass;
+  document.getElementById('hdr-total').textContent    = total;
+  document.getElementById('progress-text').textContent = done === 0 ? 'Idle' : `${pass} / ${total} passed`;
+  document.getElementById('progress-fill').style.width = `${(done / total) * 100}%`;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// CARD STATUS
+// ═══════════════════════════════════════════════════════════════════════════
+function setCardStatus(id, status, errMsg) {
+  state[id].status = status;
+  const card  = document.getElementById(`card-${id}`);
+  const icon  = document.getElementById(`icon-${id}`);
+  const errEl = document.getElementById(`err-${id}`);
+
+  card.className = 'card';
+  if (card.dataset.catOrig === undefined) card.dataset.catOrig = card.dataset.cat;
+
+  if (status === 'running') {
+    card.classList.add('status-running');
+    icon.innerHTML = '<div class="spinner" style="display:inline-block;width:13px;height:13px;margin:0"></div>';
+    const ph = document.getElementById(`ph-${id}`);
+    ph.innerHTML = '<div class="spinner"></div><span>Generating…</span>';
+    ph.style.display = 'flex';
+  } else if (status === 'pass') {
+    card.classList.add('status-pass');
+    icon.textContent = '✅';
+    document.getElementById(`ph-${id}`).style.display = 'none';
+    errEl.style.display = 'none';
+  } else if (status === 'fail') {
+    card.classList.add('status-fail');
+    icon.textContent = '❌';
+    document.getElementById(`ph-${id}`).style.display = 'none';
+    if (errMsg) { errEl.textContent = errMsg; errEl.style.display = 'block'; }
+  } else {
+    icon.textContent = '⬜';
+    const ph = document.getElementById(`ph-${id}`);
+    ph.textContent = 'Not yet run';
+    ph.style.display = 'flex';
+  }
+  updateStats();
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// DESMOS RENDERING
+// ═══════════════════════════════════════════════════════════════════════════
+function destroyCalc(id) {
+  if (calcs[id]) {
+    const { calc, rafId } = calcs[id];
+    if (rafId)  cancelAnimationFrame(rafId);
+    if (calc)   try { calc.destroy(); } catch(e) {}
+    delete calcs[id];
+  }
+}
+
+const PASSTHROUGH = [
+  'lineStyle','lineWidth','lineOpacity',
+  'pointStyle','pointSize','pointOpacity',
+  'points','lines','fill','fillOpacity',
+  'dragMode','label','labelOrientation','labelSize',
+  'parametricDomain','polarDomain',
+];
+
+function renderDesmos(id, ds) {
+  destroyCalc(id);
+  if (!window.Desmos) throw new Error('Desmos API not loaded');
+
+  const wrap = document.getElementById(`wrap-${id}`);
+  const container = document.createElement('div');
+  container.style.cssText = 'width:100%;height:252px';
+  wrap.appendChild(container);
+
+  const calc = window.Desmos.GraphingCalculator(container, {
+    expressionsCollapsed: true,
+    expressionsTopbar:    false,
+    settingsMenu:  false,
+    zoomButtons:   true,
+    border:        false,
+    lockViewport:  false,
+    images:        false,
+    folders:       false,
+    notes:         false,
+    sliders:       false,
+    links:         false,
+    keypad:        false,
+    distributions: false,
+    trace:         true,
+    pointsOfInterest: false,
+    administerSecretFolders: false,
+  });
+
+  calc.updateSettings({
+    showGrid:   ds.showGrid   ?? true,
+    showXAxis:  ds.showAxes   ?? true,
+    showYAxis:  ds.showAxes   ?? true,
+    degreeMode: ds.degreeMode ?? false,
+    polarMode:  ds.polarMode  ?? false,
+    xAxisLabel: ds.xAxisLabel ?? '',
+    yAxisLabel: ds.yAxisLabel ?? '',
+    ...(ds.xAxisStep    != null && { xAxisStep:    ds.xAxisStep    }),
+    ...(ds.yAxisStep    != null && { yAxisStep:    ds.yAxisStep    }),
+    ...(ds.xAxisNumbers != null && { xAxisNumbers: ds.xAxisNumbers }),
+    ...(ds.yAxisNumbers != null && { yAxisNumbers: ds.yAxisNumbers }),
+  });
+
+  calc.setMathBounds({
+    left:   ds.viewport?.left   ?? -10,
+    right:  ds.viewport?.right  ?? 10,
+    bottom: ds.viewport?.bottom ?? -10,
+    top:    ds.viewport?.top    ?? 10,
+  });
+
+  const raw     = ds.expressions || [];
+  const tables  = raw.filter(e => e.type === 'table');
+  const others  = raw.filter(e => e.type !== 'table');
+  const ordered = [...tables, ...others];
+
+  const toSet = ordered.map(e => {
+    if (e.type === 'table') return { type:'table', id:e.id, columns:e.columns };
+    const expr = {
+      type:'expression', id:e.id,
+      latex: e.latex  ?? '',
+      color: e.color  ?? '#007AFF',
+      hidden: e.hidden ?? false,
+      showLabel: e.showLabel ?? false,
+    };
+    for (const k of PASSTHROUGH) if (e[k] != null) expr[k] = e[k];
+    return expr;
+  });
+
+  const instance = { calc, rafId: null };
+  calcs[id] = instance;
+
+  const r1 = requestAnimationFrame(() => {
+    calc.setExpressions(toSet);
+    const r2 = requestAnimationFrame(() => {
+      try { calc.setState(calc.getState()); } catch(err) { console.error('[DesmosTest]', id, err); }
+    });
+    instance.rafId = r2;
+  });
+  instance.rafId = r1;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// RUN SINGLE TEST
+// ═══════════════════════════════════════════════════════════════════════════
+async function runTest(id) {
+  const test = TESTS.find(t => t.id === id);
+  if (!test) return;
+
+  destroyCalc(id);
+  setCardStatus(id, 'running');
+
+  // Reset wrap to just placeholder
+  const wrap = document.getElementById(`wrap-${id}`);
+  wrap.innerHTML = `<div class="calc-placeholder" id="ph-${id}" style="display:flex"><div class="spinner"></div><span>Generating…</span></div>`;
+  document.getElementById(`err-${id}`).style.display = 'none';
+  document.getElementById(`ms-${id}`).textContent = '';
+  document.getElementById(`json-btn-${id}`).style.display = 'none';
+  document.getElementById(`json-${id}`).classList.remove('open');
+
+  const t0 = Date.now();
+  try {
+    const res  = await fetch('/api/desmos-generate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(test.req),
+    });
+    const data = await res.json();
+    const ms   = Date.now() - t0;
+
+    if (!res.ok || data.error) throw new Error(data.error || `HTTP ${res.status}`);
+    if (!data.desmosState)      throw new Error('Missing desmosState in response');
+
+    state[id].desmosState = data.desmosState;
+    state[id].ms = ms;
+
+    document.getElementById(`ms-${id}`).textContent = `${ms}ms`;
+    document.getElementById(`json-${id}`).textContent = JSON.stringify(data.desmosState, null, 2);
+    document.getElementById(`json-btn-${id}`).style.display = 'block';
+
+    renderDesmos(id, data.desmosState);
+    setCardStatus(id, 'pass');
+
+  } catch (err) {
+    const ms = Date.now() - t0;
+    console.error('[DesmosTest]', id, err);
+    state[id].ms = ms;
+    document.getElementById(`ms-${id}`).textContent = `${ms}ms`;
+    setCardStatus(id, 'fail', err.message);
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// RUN ALL  (3 concurrent)
+// ═══════════════════════════════════════════════════════════════════════════
+async function runAll() {
+  const btn = document.getElementById('run-all-btn');
+  btn.disabled = true;
+  btn.textContent = '⏳ Running…';
+
+  const queue = TESTS.map(t => t.id);
+  let active  = 0;
+
+  await new Promise(resolve => {
+    function next() {
+      if (queue.length === 0 && active === 0) { resolve(); return; }
+      while (queue.length > 0 && active < 3) {
+        const id = queue.shift();
+        active++;
+        runTest(id).finally(() => { active--; next(); });
+      }
+    }
+    next();
+  });
+
+  btn.disabled = false;
+  btn.textContent = '▶ Run All';
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// CLEAR ALL
+// ═══════════════════════════════════════════════════════════════════════════
+function clearAll() {
+  TESTS.forEach(t => {
+    destroyCalc(t.id);
+    state[t.id] = { status:'pending' };
+  });
+  buildCards();
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// JSON TOGGLE
+// ═══════════════════════════════════════════════════════════════════════════
+function toggleJson(id) {
+  const block  = document.getElementById(`json-${id}`);
+  const btn    = document.getElementById(`json-btn-${id}`);
+  const isOpen = block.classList.toggle('open');
+  btn.textContent = isOpen ? 'Hide JSON' : 'View JSON';
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════════════════════════════
+buildCards();
+// Activate "All" filter visually
+const allBtn = document.querySelector('[data-cat="all"]');
+if (allBtn) { allBtn.style.background = 'var(--accent)'; allBtn.style.color = '#fff'; }
+</script>
+</body>
+</html>

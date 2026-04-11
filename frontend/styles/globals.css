@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap");
+
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/*
+  This file sets up the global styles, CSS variables for theming, and font imports.
+  - We are using "Inter" for the body font and "Poppins" for display/headings to give it a modern but playful feel.
+  - CSS variables are defined for both light (default) and dark themes.
+  - Base styles are applied using Tailwind's @layer directive.
+*/
+
+@layer base {
+  :root {
+    /* Define the color palette using CSS variables for easy theming. */
+    --background: 240 10% 99%; /* hsl(240, 10%, 99%) */
+    --foreground: 240 10% 3.9%; /* hsl(240, 10%, 3.9%) */
+    --card: 0 0% 100%; /* hsl(0, 0%, 100%) */
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 222.2 47.4% 11.2%; /* Blue */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 270 60% 60%; /* Purple */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Dark mode color palette. */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 270 60% 70%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  /* Define the default font families. */
+  html {
+    @apply font-sans;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h6 {
+    @apply font-display;
+  }
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.3);
+  border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(156, 163, 175, 0.5);
+}
+
+/* Forced Light Mode for Mafs Components */
+.mafs-forced-light {
+  --mafs-bg: #ffffff !important;
+  --mafs-fg: #0f172a !important; /* Slate 900 for dark text */
+  --mafs-grid: #f1f5f9 !important; /* Slate 100 for grid lines */
+  --mafs-axis: #94a3b8 !important; /* Slate 400 for axes */
+  --mafs-font-family: 'Inter', sans-serif !important;
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+.mafs-forced-light svg {
+  background-color: white !important;
+}
+
+/* Ensure coordinate labels are dark and crisp */
+.mafs-forced-light text {
+  fill: #0f172a !important;
+  font-weight: 500 !important;
+  font-size: 13px !important;
+}
+
+/* Force grid line visibility */
+.mafs-forced-light path[stroke="var(--mafs-grid)"] {
+  stroke-opacity: 1 !important;
+  stroke: #e2e8f0 !important;
+}
+
+/* Crystal-Clear TikZ Rendering Styles */
+.tikz-renderer-container {
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.tikz-image {
+  /* SVGs are sharp by default, but we ensure crisp rendering for high-DPI screens */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  min-height: 120px;
+  display: block;
+  transition: transform 0.3s ease-out;
+}
+
+.tikz-renderer-container:hover .tikz-image {
+  transform: scale(1.02);
+}
+
+/* Ensure TikZ labels (usually black) are visible in dark mode or on dark backgrounds */
+.dark .tikz-renderer-container {
+  background-color: rgba(255, 255, 255, 0.85) !important; /* Premium glass-light for dark mode diagrams */
+}
+
+/* Add a subtle "blueprint" feel to the container */
+.tikz-renderer-container::before {
+  content: "TEXTBOOK SCHEMA [STRICT]";
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-family: 'JetBrains Mono', 'Courier New', monospace; /* Technical, high-accuracy feel */
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: rgba(100, 116, 139, 0.3); /* slate-500 */
+  pointer-events: none;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tikz-renderer-container:hover::before {
+  color: rgba(59, 130, 246, 0.7); /* blue-500 */
+  transform: translateY(-2px) scale(1.05);
+  text-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+}
+
+/* Dual-layered shadow for high-end elevation */
+.tikz-renderer-container {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+}
+
+.tikz-renderer-container:hover {
+  box-shadow: 0 25px 30px -5px rgba(0, 0, 0, 0.08), 0 12px 20px -8px rgba(0, 0, 0, 0.04);
+}

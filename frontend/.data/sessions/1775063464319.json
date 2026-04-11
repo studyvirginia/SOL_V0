@@ -1,0 +1,35 @@
+{
+  "id": "1775063464319",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Hey SOL! I'm studying the Properties of Parallelograms. Can you show me how a diagonal bisects a parallelogram? Please follow this strict layout: 1. Provide the TikZ diagram as a standalone block. Label all sides and angles. 2. Below that, provide the explanation text using our markers: [h]Theorem[/h], [c]A[/c], etc. | Hey SOL! Graph a sine wave y = 2*sin(x) from 0 to 2pi. Use our strict layout: Diagram first, then explanation with markers. \nRecent assistant focus: Type to start learning. | ```tikz\n\\begin{tikzpicture}[scale=1.2, transform shape]\n    % Define the coordinates of the parallelogram vertices\n    \\coordinate (A) at (0,0);\n    \\coordinate (B) at (4,0);\n    \\coordinate (C) at (5,2);\n    \\coordinate (D) at (1,2);\n\n    % Draw the parallelogram\n    \\draw[thick, line join=round] (A) -- (B) -- (C) -- (D) -- cycle;\n\n    % Draw the diagonal\n    \\draw[thick, line join=round, dashed] (A) -- (C);\n\n    % Label the vertices\n    \\node[below left] at (A) {A};\n    \\node[below right] at (B) {B};\n    \\node[above right] at (C) {C};\n    \\node[above left] at (D) {D};\n\n    % Label the sides\n    \\node[midway, below] at (A) -- (B) {AB};\n...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Type to start learning."
+    },
+    {
+      "role": "user",
+      "content": "Hey SOL! I'm studying the Properties of Parallelograms. Can you show me how a diagonal bisects a parallelogram? Please follow this strict layout: 1. Provide the TikZ diagram as a standalone block. Label all sides and angles. 2. Below that, provide the explanation text using our markers: [h]Theorem[/h], [c]A[/c], etc."
+    },
+    {
+      "role": "assistant",
+      "content": "```tikz\n\\begin{tikzpicture}[scale=1.2, transform shape]\n    % Define the coordinates of the parallelogram vertices\n    \\coordinate (A) at (0,0);\n    \\coordinate (B) at (4,0);\n    \\coordinate (C) at (5,2);\n    \\coordinate (D) at (1,2);\n\n    % Draw the parallelogram\n    \\draw[thick, line join=round] (A) -- (B) -- (C) -- (D) -- cycle;\n\n    % Draw the diagonal\n    \\draw[thick, line join=round, dashed] (A) -- (C);\n\n    % Label the vertices\n    \\node[below left] at (A) {A};\n    \\node[below right] at (B) {B};\n    \\node[above right] at (C) {C};\n    \\node[above left] at (D) {D};\n\n    % Label the sides\n    \\node[midway, below] at (A) -- (B) {AB};\n    \\node[midway, right] at (B) -- (C) {BC};\n    \\node[midway, above] at (C) -- (D) {CD};\n    \\node[midway, left] at (D) -- (A) {DA};\n\n    % Label the angles\n    \\node[below left] at (A) {$\\angle A$};\n    \\node[below right] at (B) {$\\angle B$};\n    \\node[above right] at (C) {$\\angle C$};\n    \\node[above left] at (D) {$\\angle D$};\n\n    % Label the diagonal\n    \\node[midway, above left] at (A) -- (C) {AC};\n\\end{tikzpicture}\n```\n\n### Explanation\n\n- [h]Theorem[/h]: In a parallelogram, a diagonal bisects the parallelogram into two congruent triangles.\n- [c]A[/c] and [c]C[/c] are opposite vertices of the parallelogram.\n- [u]Diagonal AC[/u] divides the parallelogram into two triangles, $\\triangle ABC$ and $\\triangle ADC$.\n- [b]Congruent Triangles[/b]: $\\triangle ABC \\cong \\triangle ADC$ because:\n  - [s]AB = DC[/s] (opposite sides of a parallelogram are equal)\n  - [s]AD = BC[/s] (opposite sides of a parallelogram are equal)\n  - [s]AC = AC[/s] (common side)\n- Therefore, the diagonal [u]AC[/u] bisects the parallelogram into two congruent triangles."
+    },
+    {
+      "role": "user",
+      "content": "Hey SOL! Graph a sine wave y = 2*sin(x) from 0 to 2pi. Use our strict layout: Diagram first, then explanation with markers."
+    },
+    {
+      "role": "assistant",
+      "content": "```tikz\n\\begin{tikzpicture}[scale=1.2, transform shape]\n    % Draw the grid\n    \\foreach \\x in {-0.5,0.5,...,6.5} {\n        \\draw[gray!30, very thin] (\\x,-1.5) -- (\\x,2.5);\n    }\n    \\foreach \\y in {-1.5,-1.0,...,2.5} {\n        \\draw[gray!30, very thin] (-0.5,\\y) -- (6.5,\\y);\n    }\n\n    % Draw the axes\n    \\draw[->, thick] (-0.5,0) -- (6.5,0) node[right] {$x$};\n    \\draw[->, thick] (0,-1.5) -- (0,2.5) node[above] {$y$};\n\n    % Draw the sine wave\n    \\draw[blue, very thick, domain=0:6.28, samples=100] plot (\\x, {2*sin(\\x r)});\n\n    % Label the axes\n    \\node[below left] at (0,0) {0};\n\n    % Label the amplitude\n    \\node[blue, right] at (0,2) {2};\n\n    % Label the period\n    \\node[below] at (3.14,0) {$\\pi$};\n    \\node[below] at (6.28,0) {$2\\pi$};\n\\end{tikzpicture}\n```\n\n### Explanation\n\n- [h]Amplitude[/h]: The amplitude of the sine wave is [c]2[/c], which means the wave reaches a maximum of 2 and a minimum of -2.\n- [u]Period[/u]: The period of the sine wave is $2\\pi$, which is the distance between two consecutive peaks or troughs.\n- [b]Key Points[/b]:\n  - At $x = 0$, $y = 0$ (the wave starts at the origin).\n  - At $x = \\frac{\\pi}{2}$, $y = 2$ (the maximum value).\n  - At $x = \\pi$, $y = 0$ (the wave crosses the x-axis).\n  - At $x = \\frac{3\\pi}{2}$, $y = -2$ (the minimum value).\n  - At $x = 2\\pi$, $y = 0$ (the wave completes one full cycle)."
+    }
+  ],
+  "updatedAt": "2026-04-01T17:16:33.151Z"
+}

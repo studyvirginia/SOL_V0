@@ -1,0 +1,19 @@
+{
+  "id": "test_43",
+  "subject": "math",
+  "course": "Grade 4 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram of angle types (lines rays angles) \nRecent assistant focus: Here's a textbook-quality diagram showing different types of angles, lines, and rays:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a diagram showing different types of angles, lines, and rays. Include a straight line, a ray, an acute angle, a right angle, an obtuse angle, and a straight angle. Label each clearly.\",\"engine\":\"pure_tikz\",\"course_hint\":\"geometry\",\"archetype_hint\":\"angle_types\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram illustrates the fundamental geometric concepts you're learning in Grade 4 Math, particularly within the Measurement and Geometry domain (4.MG.3). Here's what each part represents:\n\n1. **Line**: A straight path that extends infinitely in both directions\n2. **Ray**: A part of a line that starts at a point and extends infinitely in one direction\n3. **Acute Angle**: An angle less than 90° (shown as the small angle)\n4. **Right Angle**: An angle that is exactly 90° (shown as the square corner)\n5. **Obtuse Angle**: An angle greater than 90° but less than 180° (shown as the wide angle)\n6. **Straight Angle**: An a...",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram of angle types (lines rays angles)"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram showing different types of angles, lines, and rays:\n\n%%TIKZ_GRAPH%%{\"description\":\"Draw a diagram showing different types of angles, lines, and rays. Include a straight line, a ray, an acute angle, a right angle, an obtuse angle, and a straight angle. Label each clearly.\",\"engine\":\"pure_tikz\",\"course_hint\":\"geometry\",\"archetype_hint\":\"angle_types\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram illustrates the fundamental geometric concepts you're learning in Grade 4 Math, particularly within the Measurement and Geometry domain (4.MG.3). Here's what each part represents:\n\n1. **Line**: A straight path that extends infinitely in both directions\n2. **Ray**: A part of a line that starts at a point and extends infinitely in one direction\n3. **Acute Angle**: An angle less than 90° (shown as the small angle)\n4. **Right Angle**: An angle that is exactly 90° (shown as the square corner)\n5. **Obtuse Angle**: An angle greater than 90° but less than 180° (shown as the wide angle)\n6. **Straight Angle**: An angle that is exactly 180° (shown as the straight line)"
+    }
+  ],
+  "updatedAt": "2026-04-06T22:09:47.262Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1775527019771",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: y | yo | yo | hi \nRecent assistant focus: Type to start learning. | Hi there! I'm ready to help you learn about math. What would you like to work on today? We can explore topics like [h]linear equations[/h], [h]quadratic functions[/h], or even [h]graphing[/h]. Just let me know what you're interested in!",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Type to start learning."
+    },
+    {
+      "role": "user",
+      "content": "y"
+    },
+    {
+      "role": "user",
+      "content": "yo"
+    },
+    {
+      "role": "user",
+      "content": "yo"
+    },
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi there! I'm ready to help you learn about math. What would you like to work on today? We can explore topics like [h]linear equations[/h], [h]quadratic functions[/h], or even [h]graphing[/h]. Just let me know what you're interested in!\n"
+    }
+  ],
+  "updatedAt": "2026-04-11T14:50:36.833Z"
+}

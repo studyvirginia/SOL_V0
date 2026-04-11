@@ -1,0 +1,19 @@
+{
+  "id": "test",
+  "subject": "Math",
+  "course": "Algebra 1",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: what is slope \nRecent assistant focus: Slope is a fundamental concept in algebra that describes the steepness and direction of a line. It's a measure of how much the $y$-value changes for every unit change in the $x$-value.\n\nHere's a breakdown:\n\n*   **Definition:** Slope is often represented by the letter $m$ and is calculated as the \"rise over run\".\n    *   Rise: The vertical change (change in $y$).\n    *   Run: The horizontal change (change in $x$).\n    *   Formula: $$m = \\frac{\\text{rise}}{\\text{run}} = \\frac{\\Delta y}{\\Delta x} = \\frac{y_2 - y_1}{x_2 - x_1}$$, where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line.\n\n*   **Types of Slope:**\n    *   **Positive Slope:** The line goes upwards from left to right.\n    *   **Negative Slope:** The line goes downwards from left to right.\n    *   **Zero Slope:** The line is horizontal (flat). The slope is 0.\n    *   **Undefined Slope:** The line is vertical. The slope is undefined because the run is 0 (division by zero is not possible).\n\n*   **Visual Representation:**\n    *   You can visualize slope by drawing a right triangle on the line. The legs of the triangle represe...",
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is slope"
+    },
+    {
+      "role": "assistant",
+      "content": "Slope is a fundamental concept in algebra that describes the steepness and direction of a line. It's a measure of how much the $y$-value changes for every unit change in the $x$-value.\n\nHere's a breakdown:\n\n*   **Definition:** Slope is often represented by the letter $m$ and is calculated as the \"rise over run\".\n    *   Rise: The vertical change (change in $y$).\n    *   Run: The horizontal change (change in $x$).\n    *   Formula: $$m = \\frac{\\text{rise}}{\\text{run}} = \\frac{\\Delta y}{\\Delta x} = \\frac{y_2 - y_1}{x_2 - x_1}$$, where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line.\n\n*   **Types of Slope:**\n    *   **Positive Slope:** The line goes upwards from left to right.\n    *   **Negative Slope:** The line goes downwards from left to right.\n    *   **Zero Slope:** The line is horizontal (flat). The slope is 0.\n    *   **Undefined Slope:** The line is vertical. The slope is undefined because the run is 0 (division by zero is not possible).\n\n*   **Visual Representation:**\n    *   You can visualize slope by drawing a right triangle on the line. The legs of the triangle represent the rise and run.\n\nHere's an example:\n\nLet's say you have two points: $(1, 2)$ and $(3, 6)$.\n\n1.  **Find the change in y (rise):** $6 - 2 = 4$\n2.  **Find the change in x (run):** $3 - 1 = 2$\n3.  **Calculate the slope:** $$m = \\frac{4}{2} = 2$$\n\nThis means the line has a slope of 2. For every 1 unit you move to the right, the line goes up 2 units.\n\n%%GRAPH%%{\"description\":\"y=2x, label the line and the points (1,2) and (3,6)\",\"engine\":\"desmos\",\"course_hint\":\"algebra_1\",\"archetype_hint\":\"linear_function\",\"extra_rules\":\"\"}%%END_GRAPH%%\n"
+    }
+  ],
+  "updatedAt": "2026-04-07T02:01:48.345Z"
+}

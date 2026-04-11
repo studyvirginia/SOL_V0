@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOL Math — Graphing Comparison · Desmos vs GeoGebra</title>
+  <style>
+    :root {
+      --bg:       #0d0f18;
+      --surface:  #161927;
+      --surface2: #1e2235;
+      --border:   rgba(255,255,255,0.07);
+      --text:     #e0e4f0;
+      --muted:    #7a82a0;
+      --accent:   #007AFF;
+      --green:    #34C759;
+      --red:      #FF3B30;
+      --orange:   #FF9500;
+
+      --col-dg:   #2d70b3;   /* Desmos Graphing  */
+      --col-geo:  #6042a6;   /* Desmos Geometry  */
+      --col-ggb:  #e75c1a;   /* GeoGebra         */
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;
+      font-size: 13px;
+    }
+
+    /* ── HEADER ─────────────────────────────────────────────────────── */
+    header {
+      position: sticky; top: 0; z-index: 300;
+      background: rgba(13,15,24,0.96); backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+    .hdr-inner {
+      max-width: 1800px; margin: 0 auto; padding: 0 20px;
+      height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    }
+    .hdr-title { font-size: 15px; font-weight: 700; letter-spacing: -0.2px; }
+    .hdr-sub   { font-size: 11px; color: var(--muted); margin-top: 1px; }
+    .hdr-actions { display: flex; gap: 8px; align-items: center; }
+
+    .btn {
+      padding: 6px 14px; border-radius: 8px; font-size: 12px; font-weight: 700;
+      cursor: pointer; border: none; transition: all .15s;
+    }
+    .btn:disabled { opacity: .4; cursor: not-allowed; }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:not(:disabled):hover { background: #0065d8; }
+    .btn-ghost { background: var(--surface2); color: var(--muted); border: 1px solid var(--border); }
+    .btn-ghost:hover { color: var(--text); }
+    .btn-xs { padding: 3px 8px; font-size: 10px; border-radius: 5px; }
+
+    /* ── PROGRESS ───────────────────────────────────────────────────── */
+    .hdr-progress {
+      max-width: 1800px; margin: 0 auto; padding: 0 20px 8px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    #progress-bar  { flex: 1; height: 3px; background: var(--surface2); border-radius: 2px; overflow: hidden; }
+    #progress-fill { height: 100%; width: 0; background: var(--green); border-radius: 2px; transition: width .4s; }
+    #progress-text { font-size: 11px; font-weight: 700; color: var(--muted); white-space: nowrap; min-width: 100px; text-align: right; }
+
+    /* ── FILTER BAR ─────────────────────────────────────────────────── */
+    #filters {
+      max-width: 1800px; margin: 0 auto; padding: 8px 20px;
+      display: flex; gap: 5px; flex-wrap: wrap; align-items: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .filter-label { font-size: 10px; font-weight: 700; color: var(--muted);
+      letter-spacing: .8px; text-transform: uppercase; margin-right: 4px; }
+    .filter-btn {
+      padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700;
+      cursor: pointer; border: 1px solid var(--border);
+      background: var(--surface2); color: var(--muted); transition: all .15s;
+    }
+    .filter-btn.active { border-color: transparent; color: #fff; }
+    .filter-btn:not(.active):hover { color: var(--text); }
+
+    /* ── COLUMN LEGEND ──────────────────────────────────────────────── */
+    .col-legend {
+      max-width: 1800px; margin: 0 auto; padding: 6px 20px;
+      display: grid; grid-template-columns: 220px 1fr 1fr 1fr; gap: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    .col-legend-label {
+      padding: 6px 10px; border-radius: 6px; font-size: 11px; font-weight: 700;
+      text-align: center; letter-spacing: .3px;
+    }
+    .lbl-dg  { background: rgba(45,112,179,.15); color: #6aa3d5; border: 1px solid rgba(45,112,179,.3); }
+    .lbl-geo { background: rgba(96,66,166,.15);  color: #a98bdd; border: 1px solid rgba(96,66,166,.3); }
+    .lbl-ggb { background: rgba(231,92,26,.15);  color: #f09060; border: 1px solid rgba(231,92,26,.3); }
+
+    /* ── MAIN GRID ──────────────────────────────────────────────────── */
+    #grid {
+      max-width: 1800px; margin: 0 auto; padding: 12px 20px 60px;
+      display: flex; flex-direction: column; gap: 10px;
+    }
+
+    /* ── ROW ────────────────────────────────────────────────────────── */
+    .row-wrap {
+      border: 1px solid var(--border); border-radius: 14px;
+      overflow: hidden; background: var(--surface);
+      transition: border-color .2s;
+    }
+    .row-wrap.filtered-out { display: none; }
+    .row-wrap.status-pass { border-color: rgba(52,199,89,.2); }
+    .row-wrap.status-fail { border-color: rgba(255,59,48,.2); }
+    .row-wrap.status-running { border-color: rgba(0,122,255,.25); }
+
+    .row-header {
+      display: grid; grid-template-columns: 220px 1fr 1fr 1fr;
+      border-bottom: 1px solid var(--border); min-height: 36px;
+    }
+    .row-topic {
+      padding: 8px 12px; display: flex; flex-direction: column; justify-content: center;
+      border-right: 1px solid var(--border); background: var(--surface2);
+    }
+    .topic-label { font-size: 12px; font-weight: 700; color: var(--text); line-height: 1.3; }
+    .topic-sol   { font-size: 9px; color: var(--muted); font-family: 'SF Mono','Fira Code',monospace;
+      margin-top: 2px; letter-spacing: .3px; }
+    .topic-cat-badge {
+      display: inline-block; padding: 1px 6px; border-radius: 8px; font-size: 8px; font-weight: 800;
+      text-transform: uppercase; letter-spacing: .5px; margin-top: 3px; }
+
+    .col-header {
+      padding: 6px 10px; display: flex; align-items: center; justify-content: space-between;
+      border-right: 1px solid var(--border); font-size: 10px; font-weight: 700; color: var(--muted);
+    }
+    .col-header:last-child { border-right: none; }
+    .col-status-dot { width: 7px; height: 7px; border-radius: 50%; background: #444; flex-shrink: 0; }
+    .dot-pass    { background: var(--green) !important; }
+    .dot-fail    { background: var(--red) !important; }
+    .dot-running { background: var(--accent) !important; animation: pulse .8s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+    /* ── FRAME CELLS ────────────────────────────────────────────────── */
+    .row-frames {
+      display: grid; grid-template-columns: 220px 1fr 1fr 1fr;
+    }
+    .row-note {
+      padding: 8px 12px; border-right: 1px solid var(--border);
+      font-size: 10px; color: var(--muted); line-height: 1.5;
+      background: var(--surface2); display: flex; align-items: flex-start;
+    }
+
+    .frame-cell {
+      border-right: 1px solid var(--border); position: relative;
+      height: 220px; background: #f5f7fa; overflow: hidden;
+    }
+    .frame-cell:last-child { border-right: none; }
+    .frame-placeholder {
+      position: absolute; inset: 0; display: flex; align-items: center;
+      justify-content: center; gap: 6px; font-size: 10px; font-weight: 700;
+      color: #aab; letter-spacing: .4px; text-transform: uppercase;
+      background: #f5f7fa;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spinner {
+      width: 14px; height: 14px; border: 2px solid rgba(0,122,255,.2);
+      border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite;
+    }
+
+    /* ── ROW FOOTER ─────────────────────────────────────────────────── */
+    .row-footer {
+      display: grid; grid-template-columns: 220px 1fr 1fr 1fr;
+      border-top: 1px solid var(--border);
+    }
+    .row-footer-pad { border-right: 1px solid var(--border); background: var(--surface2); }
+    .col-footer {
+      padding: 5px 10px; border-right: 1px solid var(--border);
+      font-size: 9px; color: var(--muted); font-family: 'SF Mono','Fira Code',monospace;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .col-footer:last-child { border-right: none; }
+
+    /* ── STATS ROW ──────────────────────────────────────────────────── */
+    #stats-row {
+      max-width: 1800px; margin: 0 auto; padding: 4px 20px 8px;
+      display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .stat-chip {
+      display: flex; align-items: center; gap: 5px;
+      padding: 4px 10px; border-radius: 8px; background: var(--surface2);
+      font-size: 11px; font-weight: 700; color: var(--muted);
+    }
+    .stat-dot { width: 6px; height: 6px; border-radius: 50%; }
+  </style>
+</head>
+<body>
+
+<!-- ── HEADER ──────────────────────────────────────────────────────────── -->
+<header>
+  <div class="hdr-inner">
+    <div>
+      <div class="hdr-title">SOL Math Rendering Comparison</div>
+      <div class="hdr-sub">Desmos Graphing · Desmos Geometry · GeoGebra Classic — side-by-side</div>
+    </div>
+    <div class="hdr-actions">
+      <div class="stat-chip" style="margin-right:4px">
+        <span id="hdr-pass" style="color:var(--green)">0</span>
+        <span style="color:var(--muted)">/<span id="hdr-total">—</span></span>
+      </div>
+      <button class="btn btn-ghost btn-xs" onclick="clearAll()">Clear</button>
+      <button class="btn btn-primary" id="run-all-btn" onclick="runAll()">▶ Run All</button>
+    </div>
+  </div>
+  <div class="hdr-progress">
+    <div id="progress-bar"><div id="progress-fill"></div></div>
+    <div id="progress-text">Idle</div>
+  </div>
+</header>
+
+<!-- ── FILTER BAR ────────────────────────────────────────────────────────── -->
+<div id="filters">
+  <span class="filter-label">Topic</span>
+  <button class="filter-btn active" data-cat="all" onclick="filterCat('all')">All</button>
+  <button class="filter-btn" data-cat="Linear"         onclick="filterCat('Linear')">Linear</button>
+  <button class="filter-btn" data-cat="Polynomials"    onclick="filterCat('Polynomials')">Polynomials</button>
+  <button class="filter-btn" data-cat="Rational"       onclick="filterCat('Rational')">Rational</button>
+  <button class="filter-btn" data-cat="Exp & Log"      onclick="filterCat('Exp & Log')">Exp &amp; Log</button>
+  <button class="filter-btn" data-cat="Trigonometry"   onclick="filterCat('Trigonometry')">Trig</button>
+  <button class="filter-btn" data-cat="Triangles"      onclick="filterCat('Triangles')">Triangles</button>
+  <button class="filter-btn" data-cat="Circles"        onclick="filterCat('Circles')">Circles</button>
+  <button class="filter-btn" data-cat="Transformations" onclick="filterCat('Transformations')">Transforms</button>
+  <button class="filter-btn" data-cat="Conics"         onclick="filterCat('Conics')">Conics</button>
+  <button class="filter-btn" data-cat="Statistics"     onclick="filterCat('Statistics')">Statistics</button>
+  <button class="filter-btn" data-cat="Calculus"       onclick="filterCat('Calculus')">Calculus</button>
+</div>
+
+<!-- ── STATS ─────────────────────────────────────────────────────────────── -->
+<div id="stats-row">
+  <div class="stat-chip"><div class="stat-dot" style="background:#444"></div><span id="stat-pending">— pending</span></div>
+  <div class="stat-chip"><div class="stat-dot" style="background:var(--green)"></div><span id="stat-pass">0 passed</span></div>
+  <div class="stat-chip"><div class="stat-dot" style="background:var(--red)"></div><span id="stat-fail">0 failed</span></div>
+  <div class="stat-chip" style="margin-left:auto">
+    <span style="color:rgba(45,112,179,.8)">■</span>&nbsp;Desmos Graphing&emsp;
+    <span style="color:rgba(96,66,166,.8)">■</span>&nbsp;Desmos Geometry&emsp;
+    <span style="color:rgba(231,92,26,.8)">■</span>&nbsp;GeoGebra
+  </div>
+</div>
+
+<!-- ── COLUMN LEGEND ─────────────────────────────────────────────────────── -->
+<div class="col-legend">
+  <div></div>
+  <div class="col-legend-label lbl-dg">Desmos Graphing Calculator</div>
+  <div class="col-legend-label lbl-geo">Desmos Geometry</div>
+  <div class="col-legend-label lbl-ggb">GeoGebra Classic</div>
+</div>
+
+<!-- ── MAIN GRID ─────────────────────────────────────────────────────────── -->
+<div id="grid"></div>
+
+<!-- ── APIs ──────────────────────────────────────────────────────────────── -->
+<script src="https://www.desmos.com/api/v1.12/calculator.js?apiKey=9299ac9714cd4f159e4a6a40b9c8e4a2"></script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════
+// CATEGORY COLORS
+// ═══════════════════════════════════════════════════════════════════
+const CAT_COLORS = {
+  'Linear':          '#007AFF',
+  'Polynomials':     '#FF9500',
+  'Rational':        '#FF6B8A',
+  'Exp & Log':       '#FF3B30',
+  'Trigonometry':    '#AF52DE',
+  'Triangles':       '#34C759',
+  'Circles':         '#00C7BE',
+  'Transformations': '#5856D6',
+  'Conics':          '#FFD60A',
+  'Statistics':      '#64D2FF',
+  'Calculus':        '#BF5AF2',
+};
+
+// ═══════════════════════════════════════════════════════════════════
+// ROWS  — each row = one SOL topic rendered three ways
+//
+// dg  : Desmos GraphingCalculator — { exprs[], bounds, polarMode?, degreeMode? }
+// geo : Desmos Geometry           — { exprs[], bounds }
+//       set geo:null if topic doesn't suit Geometry mode
+// ggb : GeoGebra Classic          — { cmds[], view:[xmin,xmax,ymin,ymax] }
+// ═══════════════════════════════════════════════════════════════════
+const ROWS = [
+
+  // ── LINEAR ────────────────────────────────────────────────────────
+  { id:'lin1', cat:'Linear', sol:'A.F.1', topic:'Slope-intercept form  y = 2x − 1',
+    note:'Slope=2, y-int=−1. All three engines show the same line.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'y=2x-1', color:'#2d70b3'},
+        {id:'e2', latex:'(0,-1)', color:'#c74440', showLabel:true, label:'(0,−1)'},
+        {id:'e3', latex:'(0.5,0)', color:'#c74440', showLabel:true, label:'(0.5,0)'},
+      ],
+      bounds:{left:-5,right:5,bottom:-6,top:5},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=2x-1', color:'#2d70b3'},
+        {latex:'A=(0,-1)', showLabel:true, color:'#c74440'},
+        {latex:'B=(0.5,0)', showLabel:true, color:'#c74440'},
+      ],
+      bounds:{left:-5,right:5,bottom:-6,top:5},
+    },
+    ggb:{ cmds:['f(x)=2*x-1','A=(0,-1)','B=(0.5,0)'], view:[-5,5,-6,5] },
+  },
+
+  { id:'lin2', cat:'Linear', sol:'A.EI.2', topic:'System of linear equations',
+    note:'Two lines intersect; solution visible. Geometry mode shows exact intersection point.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'y=2x+1',  color:'#2d70b3'},
+        {id:'e2', latex:'y=-x+4',  color:'#c74440'},
+      ],
+      bounds:{left:-2,right:6,bottom:-1,top:8},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=2x+1',  color:'#2d70b3'},
+        {latex:'y=-x+4',  color:'#c74440'},
+        {latex:'I=(1,3)',  showLabel:true, color:'#388c46'},
+      ],
+      bounds:{left:-2,right:6,bottom:-1,top:8},
+    },
+    ggb:{ cmds:['f(x)=2*x+1','g(x)=-x+4','Intersect(f,g)'], view:[-2,6,-1,8] },
+  },
+
+  // ── POLYNOMIALS ───────────────────────────────────────────────────
+  { id:'poly1', cat:'Polynomials', sol:'A.EI.3', topic:'Quadratic  y = x² − 4',
+    note:'Roots at ±2, vertex (0,−4). GeoGebra adds symbolic Root() markers.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'y=x^2-4', color:'#FF9500'},
+        {id:'e2', latex:'(0,-4)',   color:'#c74440', showLabel:true, label:'vertex'},
+        {id:'e3', latex:'(2,0)',    color:'#388c46', showLabel:true, label:'(2,0)'},
+        {id:'e4', latex:'(-2,0)',   color:'#388c46', showLabel:true, label:'(−2,0)'},
+      ],
+      bounds:{left:-5,right:5,bottom:-6,top:8},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=x^2-4',  color:'#FF9500'},
+        {latex:'V=(0,-4)', showLabel:true, color:'#c74440'},
+        {latex:'R1=(2,0)', showLabel:true, color:'#388c46'},
+        {latex:'R2=(-2,0)',showLabel:true, color:'#388c46'},
+      ],
+      bounds:{left:-5,right:5,bottom:-6,top:8},
+    },
+    ggb:{ cmds:['f(x)=x^2-4','Root(f)','Extremum(f)'], view:[-5,5,-6,8] },
+  },
+
+  { id:'poly2', cat:'Polynomials', sol:'A2.EI.6', topic:'Cubic  y = x³ − 3x',
+    note:'Local max (−1,2), min (1,−2). GeoGebra: Extremum() labels them automatically.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'y=x^3-3*x', color:'#FF9500'},
+        {id:'e2', latex:'(-1,2)',     color:'#c74440', showLabel:true, label:'max'},
+        {id:'e3', latex:'(1,-2)',     color:'#c74440', showLabel:true, label:'min'},
+      ],
+      bounds:{left:-4,right:4,bottom:-5,top:5},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=x^3-3x', color:'#FF9500'},
+        {latex:'M1=(-1,2)', showLabel:true, color:'#c74440'},
+        {latex:'M2=(1,-2)', showLabel:true, color:'#c74440'},
+      ],
+      bounds:{left:-4,right:4,bottom:-5,top:5},
+    },
+    ggb:{ cmds:['f(x)=x^3-3*x','Extremum(f)','Root(f)'], view:[-4,4,-5,5] },
+  },
+
+  // ── RATIONAL & RADICAL ────────────────────────────────────────────
+  { id:'rat1', cat:'Rational', sol:'A2.EI.4', topic:'Rational  y = 1/(x−2)',
+    note:'VA x=2, HA y=0. Desmos dashes asymptotes; GeoGebra draws them via separate lines.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'y=\\frac{1}{x-2}', color:'#FF6B8A'},
+        {id:'e2', latex:'x=2', color:'#888', lineStyle:'DASHED'},
+        {id:'e3', latex:'y=0', color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-3,right:7,bottom:-6,top:6},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=\\frac{1}{x-2}', color:'#FF6B8A'},
+        {latex:'x=2', color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-3,right:7,bottom:-6,top:6},
+    },
+    ggb:{ cmds:['f(x)=1/(x-2)','Line((2,-6),(2,6))'], view:[-3,7,-6,6] },
+  },
+
+  { id:'rad1', cat:'Rational', sol:'A2.EI.5', topic:'Square root  y = √(x+2)',
+    note:'Domain x≥−2. Desmos/GeoGebra both show the half-parabola shape.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'y=\\sqrt{x+2}', color:'#FF6B8A'},
+        {id:'e2', latex:'(-2,0)', color:'#6042a6', showLabel:true, label:'(−2,0)'},
+      ],
+      bounds:{left:-3,right:8,bottom:-1,top:5},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=\\sqrt{x+2}', color:'#FF6B8A'},
+        {latex:'P=(-2,0)', showLabel:true, color:'#6042a6'},
+      ],
+      bounds:{left:-3,right:8,bottom:-1,top:5},
+    },
+    ggb:{ cmds:['f(x)=sqrt(x+2)','A=(-2,0)'], view:[-3,8,-1,5] },
+  },
+
+  // ── EXP & LOG ─────────────────────────────────────────────────────
+  { id:'exp1', cat:'Exp & Log', sol:'A.F.2', topic:'Exponential growth  y = 2^x',
+    note:'y-intercept (0,1). HA y=0. All engines render the curve; GeoGebra labels HA.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'y=2^x',  color:'#FF3B30'},
+        {id:'e2', latex:'(0,1)',   color:'#6042a6', showLabel:true, label:'(0,1)'},
+      ],
+      bounds:{left:-5,right:5,bottom:-0.5,top:8},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=2^x',  color:'#FF3B30'},
+        {latex:'P=(0,1)', showLabel:true, color:'#6042a6'},
+      ],
+      bounds:{left:-5,right:5,bottom:-0.5,top:8},
+    },
+    ggb:{ cmds:['f(x)=2^x','A=(0,1)','y=0'], view:[-5,5,-0.5,8] },
+  },
+
+  { id:'log1', cat:'Exp & Log', sol:'A2.F.1', topic:'e^x and ln(x) — inverse pair',
+    note:'Reflections over y=x. Desmos/Geometry show via overlapping curves; GeoGebra identical.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'y=e^x',  color:'#FF3B30'},
+        {id:'e2', latex:'y=\\ln(x)', color:'#2d70b3'},
+        {id:'e3', latex:'y=x',    color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-4,right:5,bottom:-4,top:6},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=e^x',    color:'#FF3B30'},
+        {latex:'y=\\ln(x)', color:'#2d70b3'},
+        {latex:'y=x',      color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-4,right:5,bottom:-4,top:6},
+    },
+    ggb:{ cmds:['f(x)=e^x','g(x)=ln(x)','h(x)=x'], view:[-4,5,-4,6] },
+  },
+
+  // ── TRIGONOMETRY ──────────────────────────────────────────────────
+  { id:'trig1', cat:'Trigonometry', sol:'T.GT.1', topic:'y = sin(x) — period & amplitude',
+    note:'Period 2π, amplitude 1. Desmos Geometry mode is limited on continuous curves but can plot them.',
+    dg:{
+      exprs:[{id:'e1', latex:'y=\\sin(x)', color:'#AF52DE'}],
+      bounds:{left:-7,right:7,bottom:-2,top:2},
+    },
+    geo:{
+      exprs:[{latex:'y=\\sin(x)', color:'#AF52DE'}],
+      bounds:{left:-7,right:7,bottom:-2,top:2},
+    },
+    ggb:{ cmds:['f(x)=sin(x)'], view:[-7,7,-2,2] },
+  },
+
+  { id:'trig2', cat:'Trigonometry', sol:'T.GT.1', topic:'y = 2sin(3x) — amplitude & period change',
+    note:'Amplitude=2, period=2π/3. All three scale the sine correctly.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'y=2\\sin(3x)', color:'#AF52DE'},
+        {id:'e2', latex:'y=\\sin(x)',   color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-4,right:4,bottom:-3,top:3},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=2\\sin(3x)', color:'#AF52DE'},
+        {latex:'y=\\sin(x)',   color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-4,right:4,bottom:-3,top:3},
+    },
+    ggb:{ cmds:['f(x)=2*sin(3*x)','g(x)=sin(x)'], view:[-4,4,-3,3] },
+  },
+
+  // ── TRIANGLES ─────────────────────────────────────────────────────
+  { id:'tri1', cat:'Triangles', sol:'G.TR.4', topic:'3-4-5 right triangle',
+    note:'Desmos Graphing uses polygon(). Geometry has labeled angles. GeoGebra: native Polygon() + angles.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'\\operatorname{polygon}((0,0),(4,0),(0,3))', color:'#2d70b3', fill:true, fillOpacity:0.08},
+        {id:'e2', latex:'(0,0)', color:'#6042a6', showLabel:true, label:'A'},
+        {id:'e3', latex:'(4,0)', color:'#6042a6', showLabel:true, label:'B'},
+        {id:'e4', latex:'(0,3)', color:'#6042a6', showLabel:true, label:'C'},
+        {id:'e5', latex:'(0.35t,0.35(1-t))', color:'#333', parametricDomain:{min:'0',max:'1'}},
+      ],
+      bounds:{left:-0.5,right:5.5,bottom:-0.5,top:4.5},
+    },
+    geo:{
+      exprs:[
+        {latex:'\\operatorname{polygon}((0,0),(4,0),(0,3))', color:'#2d70b3', fill:true, fillOpacity:0.08},
+        {latex:'A=(0,0)', showLabel:true, color:'#6042a6'},
+        {latex:'B=(4,0)', showLabel:true, color:'#6042a6'},
+        {latex:'C=(0,3)', showLabel:true, color:'#6042a6'},
+        {latex:'\\operatorname{polygon}((0.35,0),(0.35,0.35),(0,0.35))', color:'#333'},
+        {latex:'(0.55\\cos t,0.55\\sin t)', color:'#c74440', parametricDomain:{min:'2.498',max:'3.14159'}},
+        {latex:'L_{B}=(3.4,0.38)', showLabel:true, label:'37°', color:'#c74440'},
+      ],
+      bounds:{left:-0.5,right:5.5,bottom:-0.5,top:4.5},
+    },
+    ggb:{ cmds:['A=(0,0)','B=(4,0)','C=(0,3)','tri=Polygon(A,B,C)','Angle(tri)'], view:[-0.5,5.5,-0.5,4.5] },
+  },
+
+  { id:'tri2', cat:'Triangles', sol:'G.TR.2', topic:'Triangle circumcircle',
+    note:'Desmos Graphing: hardcoded circle. Geometry: same. GeoGebra: Circumcircle() computes it symbolically.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'\\operatorname{polygon}((0,0),(6,0),(2,4))', color:'#2d70b3', fill:true, fillOpacity:0.06},
+        {id:'e2', latex:'(x-3)^2+(y-\\frac{5}{3})^2=\\frac{61}{9}', color:'#388c46'},
+        {id:'e3', latex:'(3,\\frac{5}{3})', color:'#388c46', showLabel:true, label:'O'},
+      ],
+      bounds:{left:-2,right:9,bottom:-3,top:7},
+    },
+    geo:{
+      exprs:[
+        {latex:'\\operatorname{polygon}((0,0),(6,0),(2,4))', color:'#2d70b3', fill:true, fillOpacity:0.06},
+        {latex:'(x-3)^2+(y-1.667)^2=6.778', color:'#388c46'},
+        {latex:'O=(3,1.667)', showLabel:true, color:'#388c46'},
+      ],
+      bounds:{left:-2,right:9,bottom:-3,top:7},
+    },
+    ggb:{ cmds:['A=(0,0)','B=(6,0)','C=(2,4)','tri=Polygon(A,B,C)','Circumcircle(A,B,C)'], view:[-2,9,-3,7] },
+  },
+
+  // ── CIRCLES ───────────────────────────────────────────────────────
+  { id:'circ1', cat:'Circles', sol:'G.PC.3', topic:'Circle equation (x−2)²+(y−1)²=9',
+    note:'Center (2,1), r=3. Desmos plots as implicit; Geometry ditto; GeoGebra uses Circle() command.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'(x-2)^2+(y-1)^2=9', color:'#00C7BE'},
+        {id:'e2', latex:'(2,1)', color:'#6042a6', showLabel:true, label:'(2,1)'},
+        {id:'e3', latex:'(5,1)', color:'#c74440', showLabel:true, label:'r=3'},
+      ],
+      bounds:{left:-2,right:6.5,bottom:-3.5,top:5.5},
+    },
+    geo:{
+      exprs:[
+        {latex:'(x-2)^2+(y-1)^2=9', color:'#00C7BE'},
+        {latex:'O=(2,1)', showLabel:true, color:'#6042a6'},
+        {latex:'P=(5,1)', showLabel:true, color:'#c74440'},
+        {latex:'\\operatorname{polygon}(O,P)', color:'#6042a6', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-2,right:6.5,bottom:-3.5,top:5.5},
+    },
+    ggb:{ cmds:['O=(2,1)','c=Circle(O,3)','P=(5,1)','Segment(O,P)'], view:[-2,6.5,-3.5,5.5] },
+  },
+
+  { id:'circ2', cat:'Circles', sol:'G.PC.3', topic:'Circle + tangent at a point',
+    note:'Radius ⊥ tangent. Desmos/Geometry: manual tangent line. GeoGebra: Tangent() command.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'x^2+y^2=25', color:'#00C7BE'},
+        {id:'e2', latex:'y=-\\frac{3}{4}x+\\frac{25}{4}', color:'#c74440'},
+        {id:'e3', latex:'(3,4)', color:'#6042a6', showLabel:true, label:'T'},
+        {id:'e4', latex:'(0,0)', color:'#6042a6', showLabel:true, label:'O'},
+        {id:'e5', latex:'\\operatorname{polygon}((0,0),(3,4))', color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-7,right:9.5,bottom:-7,top:9.5},
+    },
+    geo:{
+      exprs:[
+        {latex:'x^2+y^2=25', color:'#00C7BE'},
+        {latex:'y=-0.75x+6.25', color:'#c74440'},
+        {latex:'T=(3,4)', showLabel:true, color:'#6042a6'},
+        {latex:'\\operatorname{polygon}((0,0),(3,4))', color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-7,right:9.5,bottom:-7,top:9.5},
+    },
+    ggb:{ cmds:['c=Circle((0,0),5)','T=(3,4)','Tangent(T,c)','Segment((0,0),T)'], view:[-7,9.5,-7,9.5] },
+  },
+
+  // ── TRANSFORMATIONS ───────────────────────────────────────────────
+  { id:'tf1', cat:'Transformations', sol:'G.RLT.3', topic:'Reflection over y-axis',
+    note:'(x,y)→(−x,y). Desmos Graphing plots both polygons; Geometry/GeoGebra show the dashed mirror.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'\\operatorname{polygon}((1,1),(4,1),(2,4))', color:'#2d70b3', fill:true, fillOpacity:0.1},
+        {id:'e2', latex:'\\operatorname{polygon}((-1,1),(-4,1),(-2,4))', color:'#c74440', fill:true, fillOpacity:0.1},
+        {id:'e3', latex:'x=0', color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-6,right:6,bottom:0,top:5.5},
+    },
+    geo:{
+      exprs:[
+        {latex:'\\operatorname{polygon}((1,1),(4,1),(2,4))', color:'#2d70b3', fill:true, fillOpacity:0.1},
+        {latex:'\\operatorname{polygon}((-1,1),(-4,1),(-2,4))', color:'#c74440', fill:true, fillOpacity:0.1},
+        {latex:'x=0', color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-6,right:6,bottom:0,top:5.5},
+    },
+    ggb:{ cmds:['src=Polygon((1,1),(4,1),(2,4))','Reflect(src,yAxis)'], view:[-6,6,0,5.5] },
+  },
+
+  { id:'tf2', cat:'Transformations', sol:'G.RLT.3', topic:'Dilation from origin (scale 2)',
+    note:'All coords doubled; area × 4. GeoGebra: Dilate() command is unique here.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'\\operatorname{polygon}((1,1),(3,1),(2,3))', color:'#2d70b3', fill:true, fillOpacity:0.12},
+        {id:'e2', latex:'\\operatorname{polygon}((2,2),(6,2),(4,6))', color:'#c74440', fill:true, fillOpacity:0.1},
+        {id:'e3', latex:'(0,0)', color:'#388c46', showLabel:true, label:'O'},
+      ],
+      bounds:{left:-0.5,right:7.5,bottom:0,top:7.5},
+    },
+    geo:{
+      exprs:[
+        {latex:'\\operatorname{polygon}((1,1),(3,1),(2,3))', color:'#2d70b3', fill:true, fillOpacity:0.12},
+        {latex:'\\operatorname{polygon}((2,2),(6,2),(4,6))', color:'#c74440', fill:true, fillOpacity:0.1},
+        {latex:'O=(0,0)', showLabel:true, color:'#388c46'},
+      ],
+      bounds:{left:-0.5,right:7.5,bottom:0,top:7.5},
+    },
+    ggb:{ cmds:['O=(0,0)','src=Polygon((1,1),(3,1),(2,3))','Dilate(src,2,O)'], view:[-0.5,7.5,0,7.5] },
+  },
+
+  // ── CONICS ────────────────────────────────────────────────────────
+  { id:'con1', cat:'Conics', sol:'MA.AG.1', topic:'Ellipse  x²/9 + y²/4 = 1',
+    note:'a=3, b=2, c=√5. Desmos/Geometry: implicit; GeoGebra: Ellipse() with foci.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'\\frac{x^2}{9}+\\frac{y^2}{4}=1', color:'#FFD60A'},
+        {id:'e2', latex:'(-2.236,0)', color:'#c74440', showLabel:true, label:'F₁'},
+        {id:'e3', latex:'(2.236,0)',  color:'#c74440', showLabel:true, label:'F₂'},
+      ],
+      bounds:{left:-4.5,right:4.5,bottom:-3.5,top:3.5},
+    },
+    geo:{
+      exprs:[
+        {latex:'\\frac{x^2}{9}+\\frac{y^2}{4}=1', color:'#FFD60A'},
+        {latex:'F1=(-2.236,0)', showLabel:true, color:'#c74440'},
+        {latex:'F2=(2.236,0)',  showLabel:true, color:'#c74440'},
+      ],
+      bounds:{left:-4.5,right:4.5,bottom:-3.5,top:3.5},
+    },
+    ggb:{ cmds:['F1=(-2.236,0)','F2=(2.236,0)','Ellipse(F1,F2,3)'], view:[-4.5,4.5,-3.5,3.5] },
+  },
+
+  { id:'con2', cat:'Conics', sol:'MA.AG.1', topic:'Parabola  x² = 8y',
+    note:'Focus (0,2), directrix y=−2. GeoGebra: Parabola() command with focus+directrix.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'x^2=8y', color:'#FFD60A'},
+        {id:'e2', latex:'(0,2)',  color:'#c74440', showLabel:true, label:'Focus'},
+        {id:'e3', latex:'y=-2',  color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-6,right:6,bottom:-3,top:9},
+    },
+    geo:{
+      exprs:[
+        {latex:'x^2=8y', color:'#FFD60A'},
+        {latex:'F=(0,2)', showLabel:true, color:'#c74440'},
+        {latex:'y=-2', color:'#888', lineStyle:'DASHED'},
+      ],
+      bounds:{left:-6,right:6,bottom:-3,top:9},
+    },
+    ggb:{ cmds:['dir=Line((0,-2),(1,-2))','Parabola((0,2),dir)'], view:[-6,6,-3,9] },
+  },
+
+  // ── STATISTICS ────────────────────────────────────────────────────
+  { id:'stat1', cat:'Statistics', sol:'PS.DS.6', topic:'Scatter + linear regression',
+    note:'Desmos: table + regression. Geometry: not suited (no table). GeoGebra: FitLine().',
+    dg:{
+      exprs:[
+        {id:'t1', type:'table', columns:[
+          {latex:'x_1', values:['1','2','3','4','5','6']},
+          {latex:'y_1', values:['2','4','3.5','5','4.8','6'], color:'#2d70b3'},
+        ]},
+        {id:'e1', latex:'y_1\\sim mx_1+b', color:'#c74440'},
+      ],
+      bounds:{left:0,right:7,bottom:0,top:8},
+    },
+    geo: null,  // Geometry mode has no table support — skip
+    ggb:{ cmds:['pts={(1,2),(2,4),(3,3.5),(4,5),(5,4.8),(6,6)}','FitLine(pts)'], view:[0,7,0,8] },
+  },
+
+  { id:'stat2', cat:'Statistics', sol:'PS.P.3', topic:'Normal distribution PDF',
+    note:'Bell curve μ=0 σ=1. Desmos plots directly; GeoGebra identical equation.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'y=\\frac{1}{\\sqrt{2\\pi}}e^{-x^2/2}', color:'#64D2FF'},
+        {id:'e2', latex:'y=\\frac{1}{\\sqrt{2\\pi}}e^{-x^2/2}\\left\\{-1\\le x\\le1\\right\\}', color:'#2d70b3', fill:true, fillOpacity:0.3},
+      ],
+      bounds:{left:-4,right:4,bottom:-0.05,top:0.45},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=\\frac{1}{\\sqrt{2\\pi}}e^{-x^2/2}', color:'#64D2FF'},
+      ],
+      bounds:{left:-4,right:4,bottom:-0.05,top:0.45},
+    },
+    ggb:{ cmds:['f(x)=1/sqrt(2*pi)*e^(-x^2/2)','Integral(f,-1,1)'], view:[-4,4,-0.05,0.45] },
+  },
+
+  // ── CALCULUS ──────────────────────────────────────────────────────
+  { id:'cal1', cat:'Calculus', sol:'MA.CF.1', topic:'Derivative — f and f\'',
+    note:'f=x³−3x, f\'=3x²−3. Desmos Graphing: two expressions. GeoGebra: Derivative() command.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'f(x)=x^3-3x',   color:'#BF5AF2'},
+        {id:'e2', latex:"f'(x)",           color:'#FF3B30'},
+      ],
+      bounds:{left:-4,right:4,bottom:-6,top:6},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=x^3-3x', color:'#BF5AF2'},
+        {latex:'y=3x^2-3', color:'#FF3B30'},
+      ],
+      bounds:{left:-4,right:4,bottom:-6,top:6},
+    },
+    ggb:{ cmds:['f(x)=x^3-3*x','g=Derivative(f)','Root(g)'], view:[-4,4,-6,6] },
+  },
+
+  { id:'cal2', cat:'Calculus', sol:'MA.CF.1', topic:'Definite integral — shaded area',
+    note:'∫₀³ x² dx = 9. Desmos: fill between 0 and f. GeoGebra: Integral(f,0,3) shades automatically.',
+    dg:{
+      exprs:[
+        {id:'e1', latex:'f(x)=x^2',          color:'#BF5AF2'},
+        {id:'e2', latex:'0\\le x\\le3',       color:'#BF5AF2', fill:true, fillOpacity:0.25},
+      ],
+      bounds:{left:-1,right:4,bottom:-1,top:10},
+    },
+    geo:{
+      exprs:[
+        {latex:'y=x^2', color:'#BF5AF2'},
+      ],
+      bounds:{left:-1,right:4,bottom:-1,top:10},
+    },
+    ggb:{ cmds:['f(x)=x^2','Integral(f,0,3)'], view:[-1,4,-1,10] },
+  },
+];
+
+// ═══════════════════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════════════════
+const dgCalcs  = {};   // id → Desmos.GraphingCalculator instance
+const geoCalcs = {};   // id → Desmos.Geometry instance
+const ggbApis  = {};   // id → GeoGebra API
+
+const rowState = {};
+ROWS.forEach(r => { rowState[r.id] = { dg:'pending', geo:'pending', ggb:'pending' }; });
+
+let ggbReady    = false;
+let ggbReadyCbs = [];
+const GGB_WAIT_MS = 5000; // ms to wait for GeoGebra to initialize
+
+// ═══════════════════════════════════════════════════════════════════
+// BUILD DOM
+// ═══════════════════════════════════════════════════════════════════
+function buildGrid() {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  ROWS.forEach(r => {
+    const color = CAT_COLORS[r.cat] || '#888';
+    const hex = color;
+
+    const wrap = document.createElement('div');
+    wrap.className = 'row-wrap';
+    wrap.id = `row-${r.id}`;
+    wrap.dataset.cat = r.cat;
+
+    const geoSkip = r.geo === null;
+    const placeholderGeo = geoSkip
+      ? `<div class="frame-placeholder" style="background:#1a1a2e;color:#555">N/A — Geometry mode<br>not suited for this topic</div>`
+      : `<div class="frame-placeholder" id="ph-geo-${r.id}">Ready</div>`;
+
+    wrap.innerHTML = `
+      <div class="row-header">
+        <div class="row-topic">
+          <span class="topic-label">${r.topic}</span>
+          <span class="topic-sol">${r.sol}</span>
+          <span class="topic-cat-badge" style="background:${hex}22;color:${hex}">${r.cat}</span>
+        </div>
+        <div class="col-header" style="border-left:2px solid rgba(45,112,179,.4)">
+          <span>Desmos Graphing</span><div class="col-status-dot" id="dot-dg-${r.id}"></div>
+        </div>
+        <div class="col-header" style="border-left:2px solid rgba(96,66,166,.4)">
+          <span>Desmos Geometry</span><div class="col-status-dot" id="dot-geo-${r.id}"></div>
+        </div>
+        <div class="col-header" style="border-left:2px solid rgba(231,92,26,.4)">
+          <span>GeoGebra</span><div class="col-status-dot" id="dot-ggb-${r.id}"></div>
+        </div>
+      </div>
+      <div class="row-frames">
+        <div class="row-note">${r.note}</div>
+        <div class="frame-cell" id="frame-dg-${r.id}">
+          <div class="frame-placeholder" id="ph-dg-${r.id}">Ready</div>
+        </div>
+        <div class="frame-cell" id="frame-geo-${r.id}">${placeholderGeo}</div>
+        <div class="frame-cell" id="frame-ggb-${r.id}">
+          <div class="frame-placeholder" id="ph-ggb-${r.id}">Ready</div>
+        </div>
+      </div>
+      <div class="row-footer">
+        <div class="row-footer-pad"></div>
+        <div class="col-footer" id="ft-dg-${r.id}"></div>
+        <div class="col-footer" id="ft-geo-${r.id}">${geoSkip ? 'skipped' : ''}</div>
+        <div class="col-footer" id="ft-ggb-${r.id}"></div>
+      </div>
+    `;
+    grid.appendChild(wrap);
+  });
+
+  document.getElementById('hdr-total').textContent = ROWS.length;
+  updateStats();
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// STATUS HELPERS
+// ═══════════════════════════════════════════════════════════════════
+function setDot(id, col, status) {
+  const dot = document.getElementById(`dot-${col}-${id}`);
+  if (!dot) return;
+  dot.className = `col-status-dot${status === 'pass' ? ' dot-pass' : status === 'fail' ? ' dot-fail' : status === 'running' ? ' dot-running' : ''}`;
+}
+
+function updateStats() {
+  let pass = 0, fail = 0, pending = 0;
+  ROWS.forEach(r => {
+    const s = rowState[r.id];
+    const all = [s.dg, r.geo === null ? 'pass' : s.geo, s.ggb];
+    if (all.every(x => x === 'pass')) pass++;
+    else if (all.some(x => x === 'fail')) fail++;
+    else pending++;
+  });
+  document.getElementById('stat-pending').textContent = `${pending} pending`;
+  document.getElementById('stat-pass').textContent    = `${pass} passed`;
+  document.getElementById('stat-fail').textContent    = `${fail} failed`;
+  document.getElementById('hdr-pass').textContent     = pass;
+  const done = pass + fail;
+  const pct  = ROWS.length ? Math.round(done / ROWS.length * 100) : 0;
+  document.getElementById('progress-fill').style.width = `${pct}%`;
+  document.getElementById('progress-text').textContent =
+    done === ROWS.length ? `${pass}/${ROWS.length} rows ok` : `${done}/${ROWS.length} done`;
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// DESTROY
+// ═══════════════════════════════════════════════════════════════════
+function destroyRow(id) {
+  if (dgCalcs[id])  { try { dgCalcs[id].destroy();  } catch(e){} delete dgCalcs[id]; }
+  if (geoCalcs[id]) { try { geoCalcs[id].destroy(); } catch(e){} delete geoCalcs[id]; }
+  // GeoGebra cleanup: replaced by clearing inner div
+  const ggbFrame = document.getElementById(`frame-ggb-${id}`);
+  if (ggbFrame) ggbFrame.innerHTML = `<div class="frame-placeholder" id="ph-ggb-${id}">Ready</div>`;
+  delete ggbApis[id];
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// DESMOS GRAPHING
+// ═══════════════════════════════════════════════════════════════════
+async function runDG(row) {
+  const id = row.id;
+  setDot(id, 'dg', 'running');
+  const frame = document.getElementById(`frame-dg-${id}`);
+  frame.innerHTML = `<div class="frame-placeholder" style="display:flex"><div class="spinner"></div></div>`;
+
+  const t0 = Date.now();
+  try {
+    const container = document.createElement('div');
+    container.style.cssText = 'width:100%;height:220px';
+    frame.innerHTML = '';
+    frame.appendChild(container);
+
+    const calc = window.Desmos.GraphingCalculator(container, {
+      expressionsCollapsed:true, expressionsTopbar:false, settingsMenu:false,
+      zoomButtons:false, border:false, lockViewport:false,
+      images:false, folders:false, notes:false, sliders:false,
+      links:false, keypad:false, distributions:false,
+    });
+    const ds = row.dg;
+    calc.updateSettings({
+      showGrid:true, showXAxis:true, showYAxis:true,
+      degreeMode: ds.degreeMode ?? false,
+      polarMode:  ds.polarMode  ?? false,
+    });
+    calc.setMathBounds(ds.bounds);
+
+    const toSet = (ds.exprs || []).map(e => {
+      if (e.type === 'table') return { type:'table', id:e.id, columns:e.columns };
+      const expr = { type:'expression', id:e.id, latex:e.latex||'',
+        color:e.color||'#2d70b3', hidden:e.hidden??false, showLabel:e.showLabel??false };
+      for (const k of ['lineStyle','lineWidth','fill','fillOpacity','points','lines',
+                        'pointStyle','pointSize','label','parametricDomain']) {
+        if (e[k] != null) expr[k] = e[k];
+      }
+      return expr;
+    });
+
+    await new Promise(r => requestAnimationFrame(r));
+    calc.setExpressions(toSet);
+    await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+
+    dgCalcs[id] = calc;
+    rowState[id].dg = 'pass';
+    setDot(id, 'dg', 'pass');
+    document.getElementById(`ft-dg-${id}`).textContent = `${Date.now()-t0}ms · ${toSet.length} expr`;
+  } catch(err) {
+    rowState[id].dg = 'fail';
+    setDot(id, 'dg', 'fail');
+    frame.innerHTML = `<div class="frame-placeholder" style="background:#1a0a0a;color:#ff6b6b;font-size:9px;padding:8px">${err.message}</div>`;
+    document.getElementById(`ft-dg-${id}`).textContent = `ERR ${Date.now()-t0}ms`;
+  }
+  updateStats();
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// DESMOS GEOMETRY
+// ═══════════════════════════════════════════════════════════════════
+async function runGeo(row) {
+  const id = row.id;
+  if (row.geo === null) {
+    rowState[id].geo = 'pass'; // skip counts as pass
+    return;
+  }
+  setDot(id, 'geo', 'running');
+  const frame = document.getElementById(`frame-geo-${id}`);
+  frame.innerHTML = `<div class="frame-placeholder" style="display:flex"><div class="spinner"></div></div>`;
+
+  const t0 = Date.now();
+  try {
+    const container = document.createElement('div');
+    container.style.cssText = 'width:100%;height:220px';
+    frame.innerHTML = '';
+    frame.appendChild(container);
+
+    const geo = window.Desmos.Geometry(container, {
+      settingsMenu:false, zoomButtons:false, border:false,
+      expressions:false, keypad:false,
+    });
+    const ds = row.geo;
+    geo.setMathBounds(ds.bounds);
+
+    const toSet = (ds.exprs || []).map((e, i) => {
+      const expr = { type:'expression', id:`eg${i}`, latex:e.latex||'',
+        color:e.color||'#6042a6', hidden:e.hidden??false, showLabel:e.showLabel??false };
+      for (const k of ['lineStyle','lineWidth','fill','fillOpacity',
+                        'pointStyle','pointSize','label','parametricDomain']) {
+        if (e[k] != null) expr[k] = e[k];
+      }
+      return expr;
+    });
+
+    await new Promise(r => requestAnimationFrame(r));
+    geo.setExpressions(toSet);
+    await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+
+    geoCalcs[id] = geo;
+    rowState[id].geo = 'pass';
+    setDot(id, 'geo', 'pass');
+    document.getElementById(`ft-geo-${id}`).textContent = `${Date.now()-t0}ms · ${toSet.length} expr`;
+  } catch(err) {
+    rowState[id].geo = 'fail';
+    setDot(id, 'geo', 'fail');
+    frame.innerHTML = `<div class="frame-placeholder" style="background:#1a0a0a;color:#ff6b6b;font-size:9px;padding:8px">${err.message}</div>`;
+    document.getElementById(`ft-geo-${id}`).textContent = `ERR ${Date.now()-t0}ms`;
+  }
+  updateStats();
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// GEOGEBRA
+// ═══════════════════════════════════════════════════════════════════
+let ggbSerial = 0; // unique IDs across multiple applets
+
+async function runGGB(row) {
+  const id = row.id;
+  setDot(id, 'ggb', 'running');
+  const frame = document.getElementById(`frame-ggb-${id}`);
+  frame.innerHTML = `<div class="frame-placeholder" style="display:flex"><div class="spinner"></div></div>`;
+
+  const t0 = Date.now();
+  try {
+    const appletId = `ggb_${id}_${++ggbSerial}`;
+    const container = document.createElement('div');
+    container.id = appletId;
+    container.style.cssText = 'width:100%;height:220px';
+    frame.innerHTML = '';
+    frame.appendChild(container);
+
+    const [xmin, xmax, ymin, ymax] = row.ggb.view;
+
+    await new Promise((resolve, reject) => {
+      const timeout = setTimeout(() => reject(new Error('GeoGebra init timeout')), GGB_WAIT_MS);
+
+      const params = {
+        appName:        'classic',
+        width:           container.offsetWidth || 450,
+        height:          220,
+        showToolBar:     false,
+        showAlgebraInput:false,
+        showMenuBar:     false,
+        enableRightClick:false,
+        errorDialogsActive:false,
+        useBrowserForJS: false,
+        scaleContainerClass: null,
+        id:              appletId,
+        appletOnLoad(api) {
+          clearTimeout(timeout);
+          ggbApis[id] = api;
+
+          try {
+            api.setPerspective('G');
+            api.setCoordSystem(xmin, xmax, ymin, ymax);
+            api.setAxesVisible(true, true);
+            api.setGridVisible(true);
+            api.setErrorDialogsActive(false);
+
+            for (const cmd of row.ggb.cmds) {
+              api.evalCommand(cmd);
+            }
+
+            requestAnimationFrame(() => {
+              requestAnimationFrame(() => {
+                api.refreshViews();
+                resolve();
+              });
+            });
+          } catch(e) {
+            reject(e);
+          }
+        },
+      };
+
+      const applet = new GGBApplet(params, true);
+      applet.inject(appletId);
+    });
+
+    rowState[id].ggb = 'pass';
+    setDot(id, 'ggb', 'pass');
+    document.getElementById(`ft-ggb-${id}`).textContent =
+      `${Date.now()-t0}ms · ${row.ggb.cmds.length} cmd`;
+  } catch(err) {
+    rowState[id].ggb = 'fail';
+    setDot(id, 'ggb', 'fail');
+    frame.innerHTML = `<div class="frame-placeholder" style="background:#1a0a0a;color:#ff6b6b;font-size:9px;padding:8px">${err.message}</div>`;
+    document.getElementById(`ft-ggb-${id}`).textContent = `ERR ${Date.now()-t0}ms`;
+  }
+  updateStats();
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// RUN A SINGLE ROW
+// ═══════════════════════════════════════════════════════════════════
+async function runRow(id) {
+  const row = ROWS.find(r => r.id === id);
+  if (!row) return;
+  destroyRow(id);
+  rowState[id] = { dg:'pending', geo:'pending', ggb:'pending' };
+  // Run all three in parallel
+  await Promise.all([runDG(row), runGeo(row), runGGB(row)]);
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// RUN ALL  (1 row at a time — GeoGebra can't handle many concurrent applets)
+// ═══════════════════════════════════════════════════════════════════
+async function runAll() {
+  const btn = document.getElementById('run-all-btn');
+  btn.disabled = true;
+  btn.textContent = '⏳ Running…';
+
+  for (const row of ROWS) {
+    await runRow(row.id);
+  }
+
+  btn.disabled = false;
+  btn.textContent = '▶ Run All';
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// CLEAR ALL
+// ═══════════════════════════════════════════════════════════════════
+function clearAll() {
+  ROWS.forEach(r => destroyRow(r.id));
+  ROWS.forEach(r => { rowState[r.id] = { dg:'pending', geo:'pending', ggb:'pending' }; });
+  buildGrid();
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// FILTER
+// ═══════════════════════════════════════════════════════════════════
+function filterCat(cat) {
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.classList.remove('active');
+    b.style.background = '';
+    b.style.color = '';
+  });
+  const active = document.querySelector(`.filter-btn[data-cat="${cat}"]`);
+  if (active) {
+    active.classList.add('active');
+    const c = cat === 'all' ? 'var(--accent)' : (CAT_COLORS[cat] || 'var(--accent)');
+    active.style.background = c;
+    active.style.color = '#fff';
+  }
+  ROWS.forEach(r => {
+    const wrap = document.getElementById(`row-${r.id}`);
+    if (wrap) wrap.classList.toggle('filtered-out', cat !== 'all' && r.cat !== cat);
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════════════════════
+buildGrid();
+const allBtn = document.querySelector('.filter-btn[data-cat="all"]');
+if (allBtn) { allBtn.style.background = 'var(--accent)'; allBtn.style.color = '#fff'; }
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "id": "test_25",
+  "subject": "math",
+  "course": "Grade 2 Math",
+  "retrievalMode": "notes",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: Show me a textbook-quality diagram illustrating ruler inch increments \nRecent assistant focus: Here's a textbook-quality diagram of a ruler showing inch increments:\n\n%%TIKZ_GRAPH%%{\"description\":\"A horizontal ruler with 12-inch length, showing whole number increments from 0 to 12. Each inch mark is labeled with its value. The ruler has a light brown background with black markings.\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_2_math\",\"archetype_hint\":\"ruler_diagram\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows a standard 12-inch ruler with clear markings for each whole inch. The numbers at the bottom represent the inch measurements from 0 to 12. Each vertical line represents an inch increment.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Show me a textbook-quality diagram illustrating ruler inch increments"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a textbook-quality diagram of a ruler showing inch increments:\n\n%%TIKZ_GRAPH%%{\"description\":\"A horizontal ruler with 12-inch length, showing whole number increments from 0 to 12. Each inch mark is labeled with its value. The ruler has a light brown background with black markings.\",\"engine\":\"pure_tikz\",\"course_hint\":\"grade_2_math\",\"archetype_hint\":\"ruler_diagram\",\"extra_rules\":\"\"}%%END_TIKZ_GRAPH%%\n\nThis diagram shows a standard 12-inch ruler with clear markings for each whole inch. The numbers at the bottom represent the inch measurements from 0 to 12. Each vertical line represents an inch increment."
+    }
+  ],
+  "updatedAt": "2026-04-06T22:07:42.786Z"
+}
