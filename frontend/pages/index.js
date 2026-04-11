@@ -131,31 +131,6 @@ export default function Home() {
     const user = data.get("username");
     const pass = data.get("password");
     if (user === "demo" && pass === "password") {
-       if (!modalSubject || !modalCourse) { 
-          alert("Please wait for courses to load.");
-          return; 
-       }
-       
-       const personalization = {
-         gradeLevel: modalGrade || "",
-         preferences: modalPreferences || "",
-         needs: modalNeeds || "",
-       };
-       
-       // Force create session at the same time as login
-       const newSession = {
-         id: Date.now().toString(),
-         name: formatName(modalCourse) || formatName(modalSubject) || "Start Session",
-         subject: modalSubject,
-         course: modalCourse,
-         retrievalMode: "notes",
-         userFacts: personalization,
-         sessionSummary: "",
-         messages: [{ role: "assistant", content: "Type to start learning." }],
-       };
-       
-       setSessions([newSession]);
-       setActiveSessionId(newSession.id);
        setIsLoggedIn(true);
        localStorage.setItem("sol_logged_in", "true");
     } else {
