@@ -239,22 +239,26 @@ export const PENROSE_TOPIC_RULES = [
   {
     id: "sets_logic",
     label: "Sets / Venn diagrams",
-    includeTerms: ["venn diagrams", "venn diagram", "set relationships", "subset", "intersection", "union"],
-    excludeTerms: ["two-way tables"],
+    courseIncludes: ["Geometry", "Discrete Mathematics", "Probability and Statistics", "Algebra Functions Data Analysis", "Grade 8 Math"],
+    includeTerms: ["venn diagrams", "venn diagram", "set relationships", "properties of sets", "set operations", "subsets of the real number system", "conditional statements using venn diagrams"],
+    excludeTerms: ["two-way tables", "picture graphs", "object graphs"],
     noteArchetypeIds: ["venn_notes", "euler_subset"],
     practiceArchetypeIds: ["venn_practice_intersect", "venn_practice_disjoint", "venn_logic"],
   },
   {
     id: "probability_trees",
     label: "Probability trees",
-    includeTerms: ["tree diagrams", "tree diagram", "independent events"],
+    courseIncludes: ["Probability and Statistics", "Algebra Functions Data Analysis", "Discrete Mathematics", "Grade 5 Math", "Grade 8 Math"],
+    includeTerms: ["tree diagrams", "tree diagram", "independent events", "counting principle"],
+    excludeTerms: ["two-way tables"],
     noteArchetypeIds: ["prob_tree"],
     practiceArchetypeIds: ["prob_tree"],
   },
   {
     id: "graph_theory",
     label: "Graph theory",
-    includeTerms: ["graph theory", "vertex", "edge", "directed graph", "digraph", "spanning tree", "adjacency"],
+    courseIncludes: ["Discrete Mathematics"],
+    includeTerms: ["graph theory", "directed graph", "digraph", "spanning tree", "adjacency", "hamilton", "euler path", "euler circuit", "graph coloring", "matching"],
     excludeTerms: ["bar graph", "line graph", "scatter plot", "graphing technology", "graph trigonometric"],
     noteArchetypeIds: ["graph_notes", "graph_tree", "graph_digraph"],
     practiceArchetypeIds: ["graph_practice_complete", "graph_practice_spanning", "graph_practice_cycle", "graph_practice_bipartite", "graph_expr_tree"],
@@ -262,6 +266,7 @@ export const PENROSE_TOPIC_RULES = [
   {
     id: "triangle_congruence",
     label: "Triangle congruence",
+    courseIncludes: ["Geometry"],
     includeTerms: ["triangle congruence", "triangles are congruent", "sss", "sas", "asa", "aas", "hl"],
     noteArchetypeIds: ["congruence_notes"],
     practiceArchetypeIds: ["congruence_practice", "right_triangle_practice"],
@@ -269,21 +274,33 @@ export const PENROSE_TOPIC_RULES = [
   {
     id: "triangle_similarity",
     label: "Triangle similarity / dilation",
+    courseIncludes: ["Geometry", "Grade 7 Math"],
     includeTerms: ["triangle similarity", "triangles are similar", "similar triangles", "aa", "dilation", "scale factor", "scale drawings"],
     excludeTerms: ["graphing technology"],
     noteArchetypeIds: ["similarity_notes"],
     practiceArchetypeIds: ["similarity_practice"],
   },
   {
+    id: "triangle_relations",
+    label: "Triangle side / angle relationships",
+    courseIncludes: ["Geometry"],
+    includeTerms: ["triangle could be formed", "range of the third side", "order the sides of a triangle", "order the angles of a triangle", "interior and exterior angles of a triangle"],
+    noteArchetypeIds: ["triangle_notes", "angle_arc", "triangle_median"],
+    practiceArchetypeIds: ["triangle_notes", "right_triangle_practice"],
+  },
+  {
     id: "right_triangle_trig",
     label: "Right triangles / trig ratios",
+    courseIncludes: ["Geometry", "Trigonometry", "Grade 8 Math", "Grade 5 Math"],
     includeTerms: ["right triangle", "right triangles", "trigonometric ratios", "pythagorean theorem", "special right triangles", "angles of elevation", "angles of depression"],
+    excludeTerms: ["unit circle", "circular trigonometry", "radian", "arc length", "sector area", "coterminal", "equations of circles", "circle", "circles"],
     noteArchetypeIds: ["right_triangle_notes", "angle_arc"],
     practiceArchetypeIds: ["right_triangle_practice"],
   },
   {
     id: "law_sines_cosines",
     label: "Law of Sines / Cosines",
+    courseIncludes: ["Trigonometry"],
     includeTerms: ["law of sines", "law of cosines", "non-right triangle", "triangle area", "ambiguous case"],
     noteArchetypeIds: ["triangle_notes", "angle_arc"],
     practiceArchetypeIds: ["law_cosines_practice", "law_sines_practice"],
@@ -291,14 +308,17 @@ export const PENROSE_TOPIC_RULES = [
   {
     id: "polygons_quadrilaterals",
     label: "Polygons / quadrilaterals",
-    includeTerms: ["quadrilateral", "quadrilaterals", "polygon", "polygons", "interior angles", "exterior angles", "regular polygons", "convex polygons", "parallelogram", "trapezoid", "rhombi", "rectangles", "squares"],
+    courseIncludes: ["Geometry", "Grade 2 Math", "Grade 3 Math", "Grade 4 Math", "Grade 5 Math", "Grade 6 Math", "Grade 7 Math", "Grade 8 Math", "Kindergarten Math"],
+    includeTerms: ["quadrilateral", "quadrilaterals", "polygon", "polygons", "interior angles", "exterior angles", "regular polygons", "convex polygons", "parallelogram", "trapezoid", "rhombi", "rectangle", "rectangles"],
+    excludeTerms: ["least squares", "perfect squares", "circle", "circles", "surface area", "volume", "solid figures", "coordinate plane", "triangle", "triangles", "parallel lines", "transversal"],
     noteArchetypeIds: ["polygon_notes_quad", "polygon_notes_pent", "polygon_notes_hex"],
     practiceArchetypeIds: ["polygon_notes_quad", "polygon_notes_pent"],
   },
   {
     id: "figure_symmetry",
     label: "Figure symmetry",
-    includeTerms: ["line of symmetry", "lines of symmetry", "point symmetry", "figure symmetry", "regular polygons"],
+    courseIncludes: ["Geometry", "Grade 2 Math", "Grade 6 Math"],
+    includeTerms: ["line of symmetry", "lines of symmetry", "point symmetry", "figure symmetry"],
     excludeTerms: ["function symmetry", "even functions", "odd functions", "polynomial symmetry"],
     noteArchetypeIds: ["polygon_notes_hex", "polygon_notes_pent"],
     practiceArchetypeIds: ["polygon_notes_hex"],
@@ -306,7 +326,9 @@ export const PENROSE_TOPIC_RULES = [
   {
     id: "vectors",
     label: "Vectors",
+    courseIncludes: ["Mathematical Analysis"],
     includeTerms: ["vector notation", "vector representation", "vector addition", "vector subtraction", "scalar multiplication", "dot product", "orthogonal vectors", "angle between vectors"],
+    excludeTerms: ["matrices", "polar equations"],
     noteArchetypeIds: ["vector_notes"],
     practiceArchetypeIds: ["vector_notes"],
   },
@@ -318,6 +340,26 @@ function unique(list) {
 
 function normalizeText(value) {
   return String(value || "").toLowerCase();
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function matchesTerm(text, term) {
+  const normalizedTerm = normalizeText(term);
+  if (normalizedTerm.includes(" ") || normalizedTerm.includes("°") || normalizedTerm.includes("-")) {
+    return text.includes(normalizedTerm);
+  }
+  const pattern = new RegExp(`(^|[^a-z0-9])${escapeRegExp(normalizedTerm)}($|[^a-z0-9])`);
+  return pattern.test(text);
+}
+
+function courseAllowed(courseName, rule) {
+  if (!rule.courseIncludes || !rule.courseIncludes.length) {
+    return true;
+  }
+  return rule.courseIncludes.includes(courseName);
 }
 
 function flattenStandardText(course, domain, standard) {
@@ -335,8 +377,11 @@ function collectStandardMatches(course, domain, standard) {
   const text = flattenStandardText(course, domain, standard);
 
   return PENROSE_TOPIC_RULES.filter((rule) => {
-    const included = rule.includeTerms.some((term) => text.includes(term));
-    const excluded = (rule.excludeTerms || []).some((term) => text.includes(term));
+    if (!courseAllowed(course.course, rule)) {
+      return false;
+    }
+    const included = rule.includeTerms.some((term) => matchesTerm(text, term));
+    const excluded = (rule.excludeTerms || []).some((term) => matchesTerm(text, term));
     return included && !excluded;
   });
 }

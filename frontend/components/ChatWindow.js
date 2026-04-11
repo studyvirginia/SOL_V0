@@ -169,7 +169,7 @@ const MarkdownMessage = ({ content, isUser }) => {
   };
 
   return (
-    <div className={`prose max-w-none break-words ${isUser ? "prose-sm text-gray-800 dark:text-gray-200" : "prose-base dark:prose-invert font-sans selection:bg-blue-100 selection:text-blue-900"} 
+    <div className={`prose prose-sm max-w-none break-words ${isUser ? "text-gray-800 dark:text-gray-200" : "dark:prose-invert font-sans selection:bg-blue-100 selection:text-blue-900"} 
       prose-headings:font-display prose-headings:font-extrabold prose-headings:tracking-tight prose-headings:text-slate-900 dark:prose-headings:text-white
       prose-h1:text-5xl prose-h1:mt-16 prose-h1:mb-10 prose-h1:leading-tight
       prose-h2:text-3xl prose-h2:mt-14 prose-h2:mb-8 prose-h2:border-b-2 prose-h2:border-slate-100 dark:prose-h2:border-slate-800 prose-h2:pb-3
