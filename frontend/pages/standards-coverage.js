@@ -246,6 +246,12 @@ export default function StandardsCoverageDashboard() {
     enqueue(ids);
   };
 
+  const runRandom = (count) => {
+    const candidates = standards.filter(s => isVisual(s) && results[s.id] === undefined && !runQueue.includes(s.id) && !loadingIds[s.id]);
+    const shuffled = [...candidates].sort(() => 0.5 - Math.random());
+    enqueue(shuffled.slice(0, count).map(s => s.id));
+  };
+
   // Visual heuristic filter
   const isVisual = (std) => {
     const text = (std.code + " " + std.description + " " + std.domain).toLowerCase();
@@ -262,16 +268,24 @@ export default function StandardsCoverageDashboard() {
     return keywords.some(kw => text.includes(kw));
   };
 
-  // Filtering
-  const displayedStandards = standards.filter(s => {
-    if (visualOnly && !isVisual(s)) return false;
-    if (activeSubject !== "all" && s.subject !== activeSubject) return false;
-    if (searchQuery.trim()) {
-      const q = searchQuery.toLowerCase();
-      return s.code.toLowerCase().includes(q) || s.description.toLowerCase().includes(q) || s.course.toLowerCase().includes(q) || s.domain.toLowerCase().includes(q);
-    }
-    return true;
-  });
+  // Filtering & Sorting (move processing items to front within their domains)
+  const displayedStandards = standards
+    .filter(s => {
+      if (visualOnly && !isVisual(s)) return false;
+      if (activeSubject !== "all" && s.subject !== activeSubject) return false;
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase();
+        return s.code.toLowerCase().includes(q) || s.description.toLowerCase().includes(q) || s.course.toLowerCase().includes(q) || s.domain.toLowerCase().includes(q);
+      }
+      return true;
+    })
+    .sort((a, b) => {
+      const aActive = loadingIds[a.id] || runQueue.includes(a.id);
+      const bActive = loadingIds[b.id] || runQueue.includes(b.id);
+      if (aActive && !bActive) return -1;
+      if (!aActive && bActive) return 1;
+      return 0;
+    });
 
   const grouped = groupStandards(displayedStandards);
   const subjects = ["all", "math", "english", "history", "science"];
@@ -362,16 +376,23 @@ export default function StandardsCoverageDashboard() {
             Highly Visual Only
           </button>
 
+          {/* Random Run */}
+          <button
+            onClick={() => runRandom(10)}
+            className="shrink-0 flex items-center gap-1.5 rounded-lg bg-pink-100 dark:bg-pink-900/30 text-pink-700 dark:text-pink-400 hover:bg-pink-200 dark:hover:bg-pink-900/50 px-3 py-1.5 text-xs font-bold transition-colors shadow-sm"
+          >
+            🎲 Run 10 Random
+          </button>
+
           {/* Run all visible */}
           <button
             onClick={runAll}
-            disabled={queueSize > 0}
-            className="shrink-0 flex items-center gap-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 text-xs font-bold transition-colors disabled:opacity-40 shadow-sm"
+            className="shrink-0 flex items-center gap-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 text-xs font-bold transition-colors shadow-sm"
           >
             {queueSize > 0 ? (
               <>
                 <svg className="animate-spin h-3.5 w-3.5" fill="none" viewBox="0 0 24 24"><circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
-                Processing Queue…
+                Queue {displayedStandards.length} More Visible
               </>
             ) : `▶ Run ${displayedStandards.length} Visible`}
           </button>
