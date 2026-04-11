@@ -40,7 +40,7 @@ export default async function handler(req, res) {
     const searchData = await searchRes.json();
 
     if (!searchData.query || !searchData.query.search || searchData.query.search.length === 0) {
-      return res.status(404).json({ error: "No verified images found in academic categories." });
+      return res.status(404).json({ error: "No relevant Wikipedia images found for this specific search term." });
     }
 
     const fileTitle = searchData.query.search[0].title;
