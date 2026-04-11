@@ -465,20 +465,20 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
       </div>
 
       <div className="relative flex h-full flex-col flex-1 overflow-hidden bg-transparent">
-        <div className="custom-scrollbar flex-1 space-y-12 overflow-y-auto px-4 pt-24 pb-12 sm:px-6 lg:px-12 flex flex-col items-center">
+        <div className="custom-scrollbar flex-1 space-y-6 overflow-y-auto px-4 pt-16 pb-8 sm:px-6 lg:px-8 flex flex-col items-center">
           {messages.map((m, idx) => {
             const isUser = m.role === "user";
             const isStreaming = isLoading && idx === messages.length - 1 && !isUser;
             return (
-              <div key={idx} className={`w-full max-w-[900px] animate-in fade-in flex ${isUser ? "justify-end" : "justify-center"}`}>
+              <div key={idx} className={`w-full max-w-[800px] animate-in fade-in flex ${isUser ? "justify-end" : "justify-center"}`}>
                  {isUser ? (
-                   <div className="max-w-[75%] rounded-2xl rounded-br-sm border border-gray-200/60 dark:border-gray-700/60 bg-white dark:bg-gray-800 px-8 py-5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] dark:shadow-black/20">
-                     <div className="whitespace-pre-wrap text-[1.05rem] font-medium leading-relaxed text-gray-800 dark:text-gray-100">{String(m.content || "")}</div>
+                   <div className="max-w-[85%] rounded-2xl rounded-br-sm border border-gray-200/60 dark:border-gray-700/60 bg-white dark:bg-gray-800 px-5 py-3 shadow-[0_4px_12px_rgba(0,0,0,0.02)] dark:shadow-black/20">
+                     <div className="whitespace-pre-wrap text-[0.95rem] font-medium leading-relaxed text-gray-800 dark:text-gray-100">{String(m.content || "")}</div>
                    </div>
                  ) : (
-                   <div className={`w-full max-w-[850px] px-8 md:px-12 py-10 transition-all duration-500 relative ${isStreaming ? "rounded-2xl border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
+                   <div className={`w-full max-w-[750px] px-4 md:px-6 py-4 transition-all duration-500 relative ${isStreaming ? "rounded-xl border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
                      {isStreaming && (
-                       <div className="flex items-center gap-3 mb-8 text-[0.75rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
+                       <div className="flex items-center gap-2 mb-4 text-[0.65rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
                          <div className="relative h-5 w-5">
                             <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                               <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
@@ -528,15 +528,15 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
         </div>
 
         <div className="absolute bottom-4 inset-x-0 flex justify-center px-4 pointer-events-none">
-          <form onSubmit={handleFormSubmit} className="w-full max-w-[750px] relative flex items-center gap-3 pointer-events-auto rounded-2xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.1)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1.5 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/20">
+          <form onSubmit={handleFormSubmit} className="w-full max-w-[650px] relative flex items-center gap-2 pointer-events-auto rounded-xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.08)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/10">
               <input
-                className="flex-1 bg-transparent py-3.5 pl-6 pr-16 text-[1.05rem] font-medium text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none"
+                className="flex-1 bg-transparent py-2.5 pl-5 pr-14 text-[0.95rem] font-medium text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none"
                 value={draftInput}
                 onChange={handleInput}
                 placeholder="Ask a mathematical question..."
               />
-            <button type="submit" className="absolute right-2 top-2 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isLoading || !draftInput.trim()}>
-              <SendIcon className="h-5 w-5" />
+            <button type="submit" className="absolute right-1.5 top-1.5 flex h-[2.5rem] w-[2.5rem] items-center justify-center rounded-lg bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isLoading || !draftInput.trim()}>
+              <SendIcon className="h-4 w-4" />
             </button>
           </form>
         </div>

@@ -376,22 +376,22 @@ export default function Home() {
             </button>
           </div>
 
-          <div className="mx-auto w-full max-w-6xl px-6 py-12 md:py-24">
-            <header className="mb-12 flex flex-col md:flex-row md:items-center justify-between border-b border-gray-100 dark:border-gray-800 pb-6 gap-6">
+          <div className="mx-auto w-full max-w-5xl px-4 py-8 md:py-16">
+            <header className="mb-8 flex flex-col md:flex-row md:items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-4 gap-4">
               <div>
-                <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white flex items-center gap-3">
-                  <div className="h-10 w-10 flex items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-md">
+                <h1 className="text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white flex items-center gap-2">
+                  <div className="h-8 w-8 flex items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-md text-sm">
                     S
                   </div> 
                   My Study Sessions
                 </h1>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400 font-medium">Select a study session or create a new curriculum thread.</p>
+                <p className="mt-1 text-xs text-gray-500 dark:text-gray-400 font-medium">Select a study session or create a new curriculum thread.</p>
               </div>
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 text-sm font-bold text-white shadow-[0_4px_14px_0_rgba(37,99,235,0.39)] transition-all hover:bg-blue-700 hover:shadow-[0_6px_20px_rgba(37,99,235,0.23)] active:scale-95 shrink-0"
+                className="flex items-center gap-2 rounded-lg bg-blue-600 px-5 py-2.5 text-xs font-bold text-white shadow-sm transition-all hover:bg-blue-700 active:scale-95 shrink-0"
               >
-                <PlusIcon className="h-5 w-5" />
+                <PlusIcon className="h-4 w-4" />
                 <span>New Session</span>
               </button>
             </header>
@@ -401,7 +401,7 @@ export default function Home() {
                 <div
                   key={session.id}
                   onClick={() => setActiveSessionId(session.id)}
-                  className="group relative cursor-pointer flex flex-col h-[260px] rounded-2xl border border-gray-200/50 dark:border-gray-800 bg-white dark:bg-gray-800/50 p-6 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] dark:hover:shadow-black/20 hover:-translate-y-1 transition-all duration-300"
+                  className="group relative cursor-pointer flex flex-col min-h-[160px] rounded-xl border border-gray-200/50 dark:border-gray-800 bg-white dark:bg-gray-800/50 p-5 shadow-sm hover:shadow-md dark:hover:shadow-black/20 hover:-translate-y-0.5 transition-all duration-300"
                 >
                   <div className="flex items-start justify-between">
                     <div className="w-[85%]">
@@ -436,12 +436,12 @@ export default function Home() {
               {/* Empty state "New Session" Card */}
               <div 
                 onClick={() => setIsModalOpen(true)}
-                className="group cursor-pointer flex h-[260px] flex-col items-center justify-center rounded-2xl border-2 border-dashed border-gray-300 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-800/20 p-6 hover:border-blue-400 hover:bg-blue-50/30 dark:hover:border-blue-500 transition-all duration-300"
+                className="group cursor-pointer flex min-h-[160px] flex-col items-center justify-center rounded-xl border-2 border-dashed border-gray-200 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-800/20 p-4 hover:border-blue-400 hover:bg-blue-50/30 dark:hover:border-blue-500 transition-all duration-300"
               >
-                  <div className="h-12 w-12 rounded-full bg-white dark:bg-gray-800 flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform">
-                      <PlusIcon className="h-6 w-6 text-gray-400 group-hover:text-blue-500" />
+                  <div className="h-10 w-10 rounded-full bg-white dark:bg-gray-800 flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform">
+                      <PlusIcon className="h-5 w-5 text-gray-400 group-hover:text-blue-500" />
                   </div>
-                  <p className="mt-4 font-bold text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-400">Create New Session</p>
+                  <p className="mt-3 text-xs font-bold text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-400">Create New Session</p>
               </div>
             </div>
           </div>
