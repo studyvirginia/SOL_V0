@@ -5,8 +5,5 @@
   "/": "pages/index.js",
   "/diagram-dashboard": "pages/diagram-dashboard.js",
   "/standards-coverage": "pages/standards-coverage.js",
-  "/api/all-standards": "pages/api/all-standards.js",
-  "/api/test-prompt": "pages/api/test-prompt.js",
-  "/api/wikimedia-search": "pages/api/wikimedia-search.js",
-  "/api/penrose-render": "pages/api/penrose-render.js"
+  "/api/test-prompt": "pages/api/test-prompt.js"
 }

@@ -19,111 +19,143 @@ function loadOpenRouterKey() {
   return undefined;
 }
 
-export default async function handler(req, res) {
-  if (req.method !== 'POST') return res.status(405).json({error: 'Method not allowed'});
-  const { visual_search_term, category_filter, preferred_mime, standardContext } = req.body;
+// Hardcode Flash Lite for ultra-cheap Stage 2 background verification
+const STAGE_2_MODEL = "google/gemini-2.0-flash-lite-001";
+
+async function fetchAndVerify(queryTerm, standardContext, openrouter, apiKey) {
+  // 1. STAGE A: The Ai Search Architect Wrapper
+  const searchQuery = `${queryTerm.trim()} filetype:bitmap|drawing`;
+  const searchUrl = `https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srnamespace=6&srsearch=${encodeURIComponent(searchQuery)}&srlimit=1`;
   
-  if (!visual_search_term) return res.status(400).json({error: 'Missing visual_search_term'});
+  const searchRes = await fetch(searchUrl, {
+    headers: { "User-Agent": "SOLAssistant/2.0 (lincoln@studyvirginia.org) Bot" }
+  });
+  const searchData = await searchRes.json();
 
-  try {
-    // 1. STAGE A: The Ai Search Architect (No Category Filter - precise keywords only)
-    // Force Wikimedia to only return static images and vectors (no PDFs, Audio, Video)
-    const searchQuery = `${visual_search_term.trim()} filetype:bitmap|drawing`;
-    
-    // Limit to 1 for speed and determinism right now
-    const searchUrl = `https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srnamespace=6&srsearch=${encodeURIComponent(searchQuery)}&srlimit=1`;
-    
-    const searchRes = await fetch(searchUrl, {
-      headers: { "User-Agent": "SOLAssistant/2.0 (lincoln@studyvirginia.org) Bot" }
-    });
+  if (!searchData.query || !searchData.query.search || searchData.query.search.length === 0) {
+    return { success: false, reason: "No relevant Wikipedia images found.", fallback_query: "" };
+  }
 
-    const searchData = await searchRes.json();
+  const fileTitle = searchData.query.search[0].title;
 
-    if (!searchData.query || !searchData.query.search || searchData.query.search.length === 0) {
-      return res.status(404).json({ error: "No relevant Wikipedia images found for this specific search term." });
-    }
+  // 2. STAGE B: The Image Info Query
+  const infoUrl = `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata|mime&titles=${encodeURIComponent(fileTitle)}`;
+  const infoRes = await fetch(infoUrl, {
+    headers: { "User-Agent": "SOLAssistant/2.0 (lincoln@studyvirginia.org) Bot" }
+  });
 
-    const fileTitle = searchData.query.search[0].title;
+  const infoData = await infoRes.json();
+  const pages = infoData.query?.pages;
+  if (!pages) return { success: false, reason: "Verification fetch failed", fallback_query: "" };
 
-    // 2. STAGE B: The Image Info Query
-    const infoUrl = `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata|mime&titles=${encodeURIComponent(fileTitle)}`;
-    const infoRes = await fetch(infoUrl, {
-      headers: { "User-Agent": "SOLAssistant/2.0 (lincoln@studyvirginia.org) Bot" }
-    });
+  const pageId = Object.keys(pages)[0];
+  const page = pages[pageId];
 
-    const infoData = await infoRes.json();
-    const pages = infoData.query?.pages;
-    if (!pages) return res.status(404).json({ error: "No verified images found." });
+  if (!page.imageinfo || page.imageinfo.length === 0) {
+    return { success: false, reason: "No image info found", fallback_query: "" };
+  }
 
-    const pageId = Object.keys(pages)[0];
-    const page = pages[pageId];
+  const imageinfo = page.imageinfo[0];
+  const mime = imageinfo.mime;
+  
+  // Explicitly reject unsupported document formats
+  if (!mime.startsWith("image/")) {
+    return { success: false, reason: `Unsupported file type (${mime})`, fallback_query: "" };
+  }
 
-    if (!page.imageinfo || page.imageinfo.length === 0) {
-      return res.status(404).json({ error: "No verified images found." });
-    }
+  const extmetadata = imageinfo.extmetadata || {};
+  const descriptionHTML = extmetadata.ImageDescription?.value || "";
+  const cleanDescription = descriptionHTML.replace(/<[^>]+>/g, '').substring(0, 400);
 
-    const imageinfo = page.imageinfo[0];
-    const url = imageinfo.url;
-    const sourceUrl = imageinfo.descriptionurl;
-    const mime = imageinfo.mime;
-    
-    // Explicitly reject unsupported document formats just in case Wikimedia sneaks one in
-    if (!mime.startsWith("image/")) {
-      console.warn(`[Shield Reject] Invalid file type: ${mime} for ${fileTitle}`);
-      return res.status(404).json({ error: `Unsupported file type (${mime})` });
-    }
+  // 3. STAGE C: THE 2ND PHASE AI VERIFIER
+  if (standardContext && apiKey) {
+    const prompt = `You are an educational relevance verifier. Determine if the provided candidate image EXACTLY matches the original visual search term AND accurately supports the standard concept.
 
-    const extmetadata = imageinfo.extmetadata || {};
-    
-    const attribution = extmetadata.Attribution?.value || "";
-    const license = extmetadata.LicenseShortName?.value || "";
-    const usageTerms = extmetadata.UsageTerms?.value || "";
-    const descriptionHTML = extmetadata.ImageDescription?.value || "";
-    // Strip HTML from raw description for AI consumption
-    const cleanDescription = descriptionHTML.replace(/<[^>]+>/g, '').substring(0, 400);
-
-    // 3. STAGE C: THE 2ND PHASE AI VERIFIER (Accuracy Shield)
-    if (standardContext) {
-      const apiKey = loadOpenRouterKey();
-      if (apiKey) {
-        const modelId = process.env.CHAT_MODEL || "google/gemini-2.0-flash-lite-001";
-        const openrouter = createOpenAICompatible({ name: "openrouter", baseURL: "https://openrouter.ai/api/v1", apiKey });
-
-        const prompt = `You are an educational relevance verifier. Determine if the provided candidate image EXACTLY matches the original visual search term AND accurately supports the standard concept.
-
-Original Search Term: ${visual_search_term}
+Original Search Term: ${queryTerm}
 Standard Concept: ${standardContext}
 
 Candidate Image File Name: ${fileTitle}
 Candidate Image Description: ${cleanDescription}
 
-Is this image an EXACT match for the searched topic and relevant to the standard? Output exactly one word: YES or NO.`;
+CRITICAL RULES:
+1. The description MUST be comprehensible in English. Reject foreign languages (like Arabic, Russian, etc.).
+2. The image MUST be highly relevant, objective, and accurately describe the concept.
+3. If it fails either rule, output {"approved": false, "fallback_query": "<simplified, broader English search term>"}.
 
-        const { text } = await generateText({
-          model: openrouter(modelId),
-          prompt,
-          maxTokens: 5,
-          temperature: 0,
-        });
+OUTPUT FORMAT:
+Provide your response strictly as valid JSON with NO markdown formatting:
+{"approved": true|false, "fallback_query": "<string if false>"}`;
 
-        if (!text.toUpperCase().includes("YES")) {
-          console.warn(`[Shield Reject] AI Verifier rejected title: ${fileTitle}`);
-          return res.status(404).json({ error: "Image failed 2nd-stage AI relevance verification." });
-        }
+    const { text } = await generateText({
+      model: openrouter(STAGE_2_MODEL),
+      prompt,
+      maxTokens: 50,
+      temperature: 0.2, // Low temp for strictly formatted JSON validation
+    });
+
+    try {
+      let cleanText = text.trim();
+      if (cleanText.startsWith('```json')) {
+        cleanText = cleanText.replace(/```json/g, '').replace(/```/g, '').trim();
       }
+      
+      const verifierResponse = JSON.parse(cleanText);
+      
+      if (verifierResponse && verifierResponse.approved !== true) {
+        console.warn(`[Shield Reject] AI Verifier rejected title: ${fileTitle}. Fallback suggested: ${verifierResponse.fallback_query}`);
+        return { 
+          success: false, 
+          reason: "Image failed 2nd-stage AI relevance verification.",
+          fallback_query: verifierResponse.fallback_query
+        };
+      }
+    } catch (e) {
+      console.warn(`[Shield Error] Failed to parse Verifier JSON: ${text}`);
+      // Fail safely if the AI hallucinated the format
+      return { success: false, reason: "Verifier Output Format Error", fallback_query: "" };
     }
+  }
 
-    return res.status(200).json({
-      url,
-      sourceUrl,
+  return {
+    success: true,
+    data: {
+      url: imageinfo.url,
+      sourceUrl: imageinfo.descriptionurl,
       mime,
-      attribution,
-      license,
-      usageTerms,
+      attribution: extmetadata.Attribution?.value || "",
+      license: extmetadata.LicenseShortName?.value || "",
+      usageTerms: extmetadata.UsageTerms?.value || "",
       description: cleanDescription,
       author: extmetadata.Artist?.value || "",
       fileTitle
-    });
+    }
+  };
+}
+
+export default async function handler(req, res) {
+  if (req.method !== 'POST') return res.status(405).json({error: 'Method not allowed'});
+  const { visual_search_term, standardContext } = req.body;
+  
+  if (!visual_search_term) return res.status(400).json({error: 'Missing visual_search_term'});
+
+  try {
+    const apiKey = loadOpenRouterKey();
+    const openrouter = apiKey ? createOpenAICompatible({ name: "openrouter", baseURL: "https://openrouter.ai/api/v1", apiKey }) : null;
+
+    // First attempt
+    let result = await fetchAndVerify(visual_search_term, standardContext, openrouter, apiKey);
+
+    // One-Shot Retry
+    if (!result.success && result.fallback_query) {
+      console.log(`[Shield Retry] Retrying with fallback query: "${result.fallback_query}"`);
+      result = await fetchAndVerify(result.fallback_query, standardContext, openrouter, apiKey);
+    }
+
+    if (!result.success) {
+      return res.status(404).json({ error: result.reason });
+    }
+
+    return res.status(200).json(result.data);
 
   } catch (error) {
     console.error("Wikimedia Backend Accuracy Shield Error:", error.message);
