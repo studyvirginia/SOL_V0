@@ -80,7 +80,7 @@ function splitMessageSegments(content) {
   return segments;
 }
 
-const MarkdownMessage = ({ content, isUser }) => {
+const MarkdownMessage = ({ content, isUser, isMinimalMode }) => {
   // Strip TIKZ_GRAPH tokens — handled outside this component.
   // Also strip partial tokens (incomplete during streaming) so they never reach
   // the KaTeX / remarkMath pipeline and cause parse interference.
