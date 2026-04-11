@@ -430,6 +430,9 @@ predicate IsLeftOf(Point left, Point right)
 predicate IsWellLeftOf(Point left, Point right)
 predicate IsCentered(Point p)
 predicate Hidden(Point p)
+predicate SameRow(Point a, Point b)
+predicate IsCenter(Point p)
+predicate OnCircle(Point p, Point center)
 constructor MkSeg(Point a, Point b) -> Segment
 `;
 
@@ -586,6 +589,28 @@ where IsWellLeftOf(lft, rgt) {
 forall Point p
 where IsCentered(p) {
   encourage norm(p.dot.center) == 0
+}
+
+forall Point a; Point b
+where SameRow(a, b) {
+  ensure equal(a.dot.center[1], b.dot.center[1])
+}
+
+forall Point p
+where IsCenter(p) {
+  shape p.ring = Circle {
+    center : p.dot.center
+    r : 130
+    fillColor : rgba(180, 220, 255, 0.12)
+    strokeColor : rgba(60, 100, 200, 0.85)
+    strokeWidth : 2.5
+  }
+  layer p.ring below p.dot
+}
+
+forall Point p; Point center
+where OnCircle(p, center) {
+  ensure norm(p.dot.center - center.dot.center) == 130
 }
 `;
 

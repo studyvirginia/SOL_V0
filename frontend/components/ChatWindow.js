@@ -436,7 +436,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
             .then(data => {
                setImages(prev => {
                   const arr = [...(prev[aiId] || [])];
-                  arr[idx] = { status: "done", ...data, caption: imageRequest.caption };
+                  arr[idx] = { status: "done", ...data };
                   return { ...prev, [aiId]: arr };
                });
             })
@@ -586,7 +586,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                                 </div>
                               )}
                               {img.status === "done" && (
-                                <WikimediaRenderer image={img} caption={img.caption} />
+                                <WikimediaRenderer image={img} />
                               )}
                               {img.status === "error" && (
                                 <p className="text-xs text-red-400 italic my-4">Contextual image could not be loaded.</p>
