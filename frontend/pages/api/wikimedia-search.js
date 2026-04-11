@@ -27,7 +27,8 @@ export default async function handler(req, res) {
 
   try {
     // 1. STAGE A: The Ai Search Architect (No Category Filter - precise keywords only)
-    const searchQuery = visual_search_term.trim();
+    // Force Wikimedia to only return static images and vectors (no PDFs, Audio, Video)
+    const searchQuery = `${visual_search_term.trim()} filetype:bitmap|drawing`;
     
     // Limit to 1 for speed and determinism right now
     const searchUrl = `https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srnamespace=6&srsearch=${encodeURIComponent(searchQuery)}&srlimit=1`;
@@ -65,6 +66,13 @@ export default async function handler(req, res) {
     const url = imageinfo.url;
     const sourceUrl = imageinfo.descriptionurl;
     const mime = imageinfo.mime;
+    
+    // Explicitly reject unsupported document formats just in case Wikimedia sneaks one in
+    if (!mime.startsWith("image/")) {
+      console.warn(`[Shield Reject] Invalid file type: ${mime} for ${fileTitle}`);
+      return res.status(404).json({ error: `Unsupported file type (${mime})` });
+    }
+
     const extmetadata = imageinfo.extmetadata || {};
     
     const attribution = extmetadata.Attribution?.value || "";

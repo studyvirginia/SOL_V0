@@ -2275,3 +2275,537 @@ Label e2 "→"
 `,
   variation: "implication_chain",
 };
+
+// ─── Chunk 8: slope, altitude, trapezoid, kite, rhombus ─────────────────────
+
+// 73. Geometric mean altitude: right triangle with altitude CD to hypotenuse creating similar sub-triangles
+export const TRIO_GEOMETRIC_MEAN_ALTITUDE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, D, B, C, U, V, W
+Segment ad := MkSeg(A, D)
+Segment db := MkSeg(D, B)
+Segment ca := MkSeg(C, A)
+Segment cb := MkSeg(C, B)
+Segment cd := MkSeg(C, D)
+RightAngle(A, C, B)
+RightAngle(A, D, C)
+SameRow(A, D)
+SameRow(D, B)
+IsLeftOf(A, D)
+IsLeftOf(D, B)
+IsAbove(C, A)
+IsAbove(C, B)
+MidpointOf(U, A, D)
+MidpointOf(V, D, B)
+MidpointOf(W, C, D)
+Hidden(U)
+Hidden(V)
+Hidden(W)
+Label A "A"
+Label D "D"
+Label B "B"
+Label C "C"
+Label U "p"
+Label V "q"
+Label W "h"
+`,
+  variation: "geometric_mean_alt",
+};
+
+// 74. Slope triangle: horizontal "run" and vertical "rise" from P up to R
+export const TRIO_SLOPE_TRIANGLE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point P, Q, R, U, V
+Segment pq := MkSeg(P, Q)
+Segment qr := MkSeg(Q, R)
+Segment rp := MkSeg(R, P)
+RightAngle(P, Q, R)
+SameRow(P, Q)
+IsAbove(R, Q)
+IsLeftOf(P, Q)
+MidpointOf(U, P, Q)
+MidpointOf(V, Q, R)
+Hidden(U)
+Hidden(V)
+Label P ""
+Label Q ""
+Label R ""
+Label U "run"
+Label V "rise"
+`,
+  variation: "slope_triangle",
+};
+
+// 75. Trapezoid: AB ∥ CD (one pair of parallel sides)
+export const TRIO_TRAPEZOID = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cd := MkSeg(C, D)
+Segment da := MkSeg(D, A)
+SameRow(A, B)
+SameRow(C, D)
+IsAbove(C, A)
+IsAbove(C, B)
+IsLeftOf(A, B)
+IsLeftOf(D, C)
+PolyAngle(D, A, B)
+PolyAngle(A, B, C)
+PolyAngle(B, C, D)
+PolyAngle(C, D, A)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+`,
+  variation: "trapezoid",
+};
+
+// 76. Isosceles trapezoid: AB ∥ CD with equal legs AD = BC (tick marks)
+export const TRIO_ISOSCELES_TRAPEZOID = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cd := MkSeg(C, D)
+Segment da := MkSeg(D, A)
+Tick(bc)
+Tick(da)
+SameRow(A, B)
+SameRow(C, D)
+IsAbove(C, A)
+IsAbove(C, B)
+IsLeftOf(A, B)
+IsLeftOf(D, C)
+PolyAngle(D, A, B)
+PolyAngle(A, B, C)
+PolyAngle(B, C, D)
+PolyAngle(C, D, A)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+`,
+  variation: "isosceles_trap",
+};
+
+// 77. Kite: AB = AD (top pair), CB = CD (bottom pair) — adjacent equal sides
+export const TRIO_KITE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cd := MkSeg(C, D)
+Segment da := MkSeg(D, A)
+Tick(ab)
+Tick(da)
+DoubleTick(bc)
+DoubleTick(cd)
+PolyAngle(D, A, B)
+PolyAngle(A, B, C)
+PolyAngle(B, C, D)
+PolyAngle(C, D, A)
+IsAbove(A, B)
+IsAbove(A, D)
+IsAbove(B, C)
+IsAbove(D, C)
+IsLeftOf(B, D)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+`,
+  variation: "kite",
+};
+
+// 78. Rhombus: all four sides equal (all single tick marks)
+export const TRIO_RHOMBUS = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cd := MkSeg(C, D)
+Segment da := MkSeg(D, A)
+Tick(ab)
+Tick(bc)
+Tick(cd)
+Tick(da)
+PolyAngle(D, A, B)
+PolyAngle(A, B, C)
+PolyAngle(B, C, D)
+PolyAngle(C, D, A)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+`,
+  variation: "rhombus",
+};
+
+// ─── Chunk 9: Angle depression, HL, AA, segment addition, composition ────────
+
+// 79. Angle of depression: observer O at height, horizontal reference H, target T below
+export const TRIO_ANGLE_DEPRESSION = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, H, T, M
+Segment oh := MkSeg(O, H)
+Segment ht := MkSeg(H, T)
+Segment ot := MkSeg(O, T)
+RightAngle(O, H, T)
+SameRow(O, H)
+IsLeftOf(O, H)
+IsAbove(O, T)
+IsAbove(H, T)
+AngleArc(H, O, T)
+MidpointOf(M, H, T)
+Hidden(M)
+Label O "O"
+Label H ""
+Label T "T"
+Label M "d"
+`,
+  variation: "angle_depression",
+};
+
+// 80. HL congruence: two right triangles — hypotenuses equal (Tick), one leg equal (DoubleTick)
+export const TRIO_HL_CONGRUENCE = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D, E, F
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment de := MkSeg(D, E)
+Segment ef := MkSeg(E, F)
+Segment fd := MkSeg(F, D)
+RightAngle(B, A, C)
+RightAngle(E, D, F)
+Tick(bc)
+Tick(ef)
+DoubleTick(ab)
+DoubleTick(de)
+IsWellLeftOf(B, E)
+IsWellLeftOf(A, D)
+IsWellLeftOf(C, F)
+IsAbove(C, A)
+IsAbove(C, B)
+IsAbove(F, D)
+IsAbove(F, E)
+IsLeftOf(A, B)
+IsLeftOf(D, E)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+Label E "E"
+Label F "F"
+`,
+  variation: "hl_congruence",
+};
+
+// 81. AA similarity: two triangles with matching angle arcs at corresponding pairs
+export const TRIO_AA_SIMILARITY = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D, E, F
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment de := MkSeg(D, E)
+Segment ef := MkSeg(E, F)
+Segment fd := MkSeg(F, D)
+AngleArc(C, A, B)
+AngleArc(F, D, E)
+AngleArc(A, B, C)
+AngleArc(D, E, F)
+IsWellLeftOf(B, E)
+IsWellLeftOf(A, D)
+IsWellLeftOf(C, F)
+IsAbove(C, A)
+IsAbove(C, B)
+IsAbove(F, D)
+IsAbove(F, E)
+IsLeftOf(A, B)
+IsLeftOf(D, E)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+Label E "E"
+Label F "F"
+`,
+  variation: "aa_similarity",
+};
+
+// 82. Segment addition postulate: A--M--B with labeled segment lengths a, b
+export const TRIO_SEGMENT_ADDITION = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, M, B, U, V
+Segment am := MkSeg(A, M)
+Segment mb := MkSeg(M, B)
+SameRow(A, M)
+SameRow(M, B)
+IsLeftOf(A, M)
+IsLeftOf(M, B)
+MidpointOf(U, A, M)
+MidpointOf(V, M, B)
+Hidden(U)
+Hidden(V)
+IsCentered(M)
+Label A "A"
+Label M "M"
+Label B "B"
+Label U "a"
+Label V "b"
+`,
+  variation: "segment_addition",
+};
+
+// 83. Composite function: X -f→ Y -g→ Z with diagonal shortcut g∘f from X to Z
+export const TRIO_COMPOSITE_FUNCTION = {
+  domain: DIRECTED_GRAPH_DOMAIN,
+  style: DIRECTED_GRAPH_STYLE,
+  substance: `
+Node X, Y, Z
+DEdge f := MkDEdge(X, Y)
+DEdge g := MkDEdge(Y, Z)
+DEdge gf := MkDEdge(X, Z)
+Label X "X"
+Label Y "Y"
+Label Z "Z"
+`,
+  variation: "composite_fn",
+};
+
+// 84. Biconditional: p ↔ q shown as mutual directed edges
+export const TRIO_BICONDITIONAL = {
+  domain: DIRECTED_GRAPH_DOMAIN,
+  style: DIRECTED_GRAPH_STYLE,
+  substance: `
+Node p, q
+DEdge pq := MkDEdge(p, q)
+DEdge qp := MkDEdge(q, p)
+Label p "p"
+Label q "q"
+`,
+  variation: "biconditional",
+};
+
+// ─── Chunk 10: Three parallels, polygon exterior, geometric series, tangent-secant, alternate interior, scale factor ──
+
+// 85. Three parallel lines cut by one transversal — corresponding angles at P, Q, R
+export const TRIO_THREE_PARALLEL = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, P, B, C, Q, D, E, R, F
+Segment ap := MkSeg(A, P)
+Segment pb := MkSeg(P, B)
+Segment cq := MkSeg(C, Q)
+Segment qd := MkSeg(Q, D)
+Segment er := MkSeg(E, R)
+Segment rf := MkSeg(R, F)
+Segment pq := MkSeg(P, Q)
+Segment qr := MkSeg(Q, R)
+SameRow(A, P)
+SameRow(P, B)
+SameRow(C, Q)
+SameRow(Q, D)
+SameRow(E, R)
+SameRow(R, F)
+IsAbove(A, C)
+IsAbove(C, E)
+IsAbove(P, Q)
+IsAbove(Q, R)
+IsLeftOf(A, B)
+IsLeftOf(C, D)
+IsLeftOf(E, F)
+IsLeftOf(P, Q)
+IsLeftOf(Q, R)
+Hidden(P)
+Hidden(Q)
+Hidden(R)
+AngleArc(A, P, Q)
+AngleArc(C, Q, R)
+Label A ""
+Label B ""
+Label C ""
+Label D ""
+Label E ""
+Label F ""
+Label P ""
+Label Q ""
+Label R ""
+`,
+  variation: "three_parallel",
+};
+
+// 86. Polygon exterior angle: pentagon with one side extended, exterior angle arc at B
+export const TRIO_POLYGON_EXTERIOR = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D, E, F
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment cd := MkSeg(C, D)
+Segment de := MkSeg(D, E)
+Segment ea := MkSeg(E, A)
+Segment bf := MkSeg(B, F)
+PolyAngle(E, A, B)
+PolyAngle(A, B, C)
+PolyAngle(B, C, D)
+PolyAngle(C, D, E)
+PolyAngle(D, E, A)
+SameRow(A, B)
+SameRow(B, F)
+IsLeftOf(A, B)
+IsLeftOf(B, F)
+AngleArc(C, B, F)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+Label E "E"
+Label F ""
+`,
+  variation: "polygon_exterior",
+};
+
+// 87. Geometric series: a → ar → ar² → ar³ as a directed chain
+export const TRIO_GEOMETRIC_SERIES = {
+  domain: DIRECTED_GRAPH_DOMAIN,
+  style: DIRECTED_GRAPH_STYLE,
+  substance: `
+Node t0, t1, t2, t3
+DEdge e1 := MkDEdge(t0, t1)
+DEdge e2 := MkDEdge(t1, t2)
+DEdge e3 := MkDEdge(t2, t3)
+Label t0 "a"
+Label t1 "ar"
+Label t2 "ar²"
+Label t3 "ar³"
+`,
+  variation: "geometric_series",
+};
+
+// 88. Tangent-secant from external point P: tangent PT (PT² = PA·PB)
+export const TRIO_TANGENT_SECANT = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, P, T, A, B
+Segment pt := MkSeg(P, T)
+Segment pa := MkSeg(P, A)
+Segment ab := MkSeg(A, B)
+RightAngle(O, T, P)
+IsCenter(O)
+OnCircle(T, O)
+OnCircle(A, O)
+OnCircle(B, O)
+IsWellLeftOf(P, O)
+SameRow(P, A)
+SameRow(A, B)
+IsLeftOf(P, A)
+IsLeftOf(A, B)
+IsCentered(O)
+Label O "O"
+Label P "P"
+Label T "T"
+Label A "A"
+Label B "B"
+`,
+  variation: "tangent_secant",
+};
+
+// 89. Alternate interior angles: two parallel lines, transversal, arcs on opposite sides at P and Q
+export const TRIO_ALTERNATE_INTERIOR = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, P, B, C, Q, D
+Segment ap := MkSeg(A, P)
+Segment pb := MkSeg(P, B)
+Segment cq := MkSeg(C, Q)
+Segment qd := MkSeg(Q, D)
+Segment pq := MkSeg(P, Q)
+SameRow(A, P)
+SameRow(P, B)
+SameRow(C, Q)
+SameRow(Q, D)
+Separate(A, B)
+Separate(C, D)
+IsAbove(A, C)
+IsAbove(P, Q)
+IsLeftOf(A, B)
+IsLeftOf(C, D)
+IsLeftOf(P, Q)
+Hidden(P)
+Hidden(Q)
+AngleArc(A, P, Q)
+AngleArc(P, Q, D)
+Label A ""
+Label B ""
+Label C ""
+Label D ""
+Label P ""
+Label Q ""
+`,
+  variation: "alternate_interior",
+};
+
+// 90. Scale factor: two similar triangles with corresponding side labels a, b, c and ka, kb, kc
+export const TRIO_SCALE_FACTOR = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, D, E, F, U, X
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+Segment de := MkSeg(D, E)
+Segment ef := MkSeg(E, F)
+Segment fd := MkSeg(F, D)
+MidpointOf(U, A, B)
+MidpointOf(X, D, E)
+Hidden(U)
+Hidden(X)
+IsWellLeftOf(B, E)
+IsWellLeftOf(A, D)
+IsWellLeftOf(C, F)
+IsAbove(C, A)
+IsAbove(C, B)
+IsAbove(F, D)
+IsAbove(F, E)
+IsLeftOf(A, B)
+IsLeftOf(D, E)
+Label A "A"
+Label B "B"
+Label C "C"
+Label D "D"
+Label E "E"
+Label F "F"
+Label U "a"
+Label X "k·a"
+`,
+  variation: "scale_factor",
+};
