@@ -7,6 +7,7 @@ import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import { buildMediumTermSummary, buildShortTermMemory } from "../lib/sessionMemoryService";
 import ErrorBoundary from "./ErrorBoundary";
+import WikimediaRenderer from "./WikimediaRenderer";
 
 // Advanced formatting utilities for proper display capitalization
 export const formatName = (str) => {
@@ -48,36 +49,44 @@ const DesmosRenderer = dynamic(() => import("./DesmosRenderer"), {
 
 // Complete token — both delimiters present
 const GRAPH_TOKEN_RE = /%%GRAPH%%[\s\S]*?%%END_GRAPH%%/g;
-// Partial token — opening delimiter present but closing not yet arrived (strips during streaming)
-const GRAPH_PARTIAL_RE = /%%GRAPH%%[\s\S]*$/;
+const IMAGE_TOKEN_RE = /%%IMAGE%%[\s\S]*?%%END_IMAGE%%/g;
 
-/**
- * Split a message string into alternating text/graph segments so graphs
- * can be rendered inline at the exact position the token appeared.
- * Returns an array of { type: 'text'|'graph', content: string, graphIndex: number }
- */
+// Partial tokens — opening delimiter present but closing not yet arrived (strips during streaming)
+const GRAPH_PARTIAL_RE = /%%GRAPH%%[\s\S]*$/;
+const IMAGE_PARTIAL_RE = /%%IMAGE%%[\s\S]*$/;
+
 function splitMessageSegments(content) {
   const segments = [];
+  const text = String(content || "");
+  
+  // Regex to match either a Graph or an Image token
+  const combinedRe = new RegExp(`${GRAPH_TOKEN_RE.source}|${IMAGE_TOKEN_RE.source}`, 'g');
+  
   let lastIndex = 0;
-  let graphIndex = 0;
-  const re = new RegExp(GRAPH_TOKEN_RE.source, 'g'); // always fresh instance — no stale lastIndex
+  let graphCounter = 0;
+  let imageCounter = 0;
   let match;
-  while ((match = re.exec(content)) !== null) {
+
+  while ((match = combinedRe.exec(text)) !== null) {
     if (match.index > lastIndex) {
-      segments.push({ type: 'text', content: content.slice(lastIndex, match.index) });
+      segments.push({ type: 'text', content: text.slice(lastIndex, match.index) });
     }
-    segments.push({ type: 'graph', graphIndex });
-    graphIndex++;
-    lastIndex = match.index + match[0].length;
+    
+    const token = match[0];
+    if (token.startsWith('%%GRAPH%%')) {
+      segments.push({ type: 'graph', graphIndex: graphCounter++ });
+    } else if (token.startsWith('%%IMAGE%%')) {
+      segments.push({ type: 'image', imageIndex: imageCounter++ });
+    }
+    
+    lastIndex = match.index + token.length;
   }
-  if (lastIndex < content.length) {
-    segments.push({ type: 'text', content: content.slice(lastIndex) });
+  
+  if (lastIndex < text.length) {
+    segments.push({ type: 'text', content: text.slice(lastIndex) });
   }
-  // If no tokens found at all, single text segment
-  if (segments.length === 0) {
-    segments.push({ type: 'text', content });
-  }
-  return segments;
+  
+  return segments.length > 0 ? segments : [{ type: 'text', content: text }];
 }
 
 const MarkdownMessage = ({ content, isUser, isMinimalMode }) => {
@@ -85,8 +94,10 @@ const MarkdownMessage = ({ content, isUser, isMinimalMode }) => {
   // Also strip partial tokens (incomplete during streaming) so they never reach
   // the KaTeX / remarkMath pipeline and cause parse interference.
   const formattedContent = String(content || "")
-    .replace(new RegExp(GRAPH_TOKEN_RE.source, 'g'), "")  // complete tokens
-    .replace(GRAPH_PARTIAL_RE, "")                        // partial tokens (streaming)
+    .replace(new RegExp(GRAPH_TOKEN_RE.source, 'g'), "")  // complete graph tokens
+    .replace(new RegExp(IMAGE_TOKEN_RE.source, 'g'), "")  // complete image tokens
+    .replace(GRAPH_PARTIAL_RE, "")                        // partial tokens
+    .replace(IMAGE_PARTIAL_RE, "")
     .replace(/\[h\](.*?)\[\/h\]/g, "[$1](#highlight)")
     .replace(/\[c\](.*?)\[\/c\]/g, "[$1](#circle)")
     .replace(/\[u\](.*?)\[\/u\]/g, "[$1](#underline)")
@@ -205,9 +216,9 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   const [draftInput, setDraftInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  // graphs: { [messageId]: [{ status: 'pending'|'done'|'error', ggbState?, desmosState? }] }
-  // Seeded from session.graphs so graphs survive reload and session switches.
+  // State for graphs and images per message
   const [graphs, setGraphs] = useState(session.graphs || {});
+  const [images, setImages] = useState(session.images || {});
 
   // Refs so the persistence effect below can read latest values without
   // being a dependency (which would cause an infinite loop).
@@ -219,8 +230,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   useEffect(() => {
     if (session.id && session.messages) {
       setMessages(session.messages);
-      // Restore persisted graph states for this session
       setGraphs(session.graphs || {});
+      setImages(session.images || {});
       setError(null);
     }
   }, [session.id]);
@@ -235,11 +246,20 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
       const done = (arr || []).filter(g => g.status === "done");
       if (done.length) { doneGraphs[msgId] = done; hasDone = true; }
     }
+    
+    const doneImages = {};
+    for (const [msgId, arr] of Object.entries(images)) {
+      const done = (arr || []).filter(img => img.status === "done");
+      if (done.length) { doneImages[msgId] = done; hasDone = true; }
+    }
+
     if (!hasDone) return;
     const s = sessionRef.current;
-    if (JSON.stringify(doneGraphs) === JSON.stringify(s.graphs || {})) return;
-    onUpdateSession({ ...s, messages: messagesRef.current, graphs: doneGraphs });
-  }, [graphs]); // intentionally omitting session/messages to break the loop
+    if (JSON.stringify(doneGraphs) === JSON.stringify(s.graphs || {}) && 
+        JSON.stringify(doneImages) === JSON.stringify(s.images || {})) return;
+    
+    onUpdateSession({ ...s, messages: messagesRef.current, graphs: doneGraphs, images: doneImages });
+  }, [graphs, images]);
 
   const handleInput = (e) => setDraftInput(e.target.value);
 
@@ -318,16 +338,18 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
         throw readErr;
       }
 
-      // --- Phase 2: detect embedded GRAPH tokens and generate GeoGebra diagrams ---
-      // Sanitise first: strip any markdown code-fence wrappers the LLM may have
-      // added around the token (e.g. ```%%GRAPH%%...%%END_GRAPH%%```).
+      // --- Phase 2: detect embedded GRAPH / IMAGE tokens and generate ---
       const sanitizedContent = aiContent
         .replace(/```[^\n]*\n(%%GRAPH%%[\s\S]*?%%END_GRAPH%%)\n?```/g, "$1")
-        .replace(/`(%%GRAPH%%[\s\S]*?%%END_GRAPH%%)`/g, "$1");
+        .replace(/`(%%GRAPH%%[\s\S]*?%%END_GRAPH%%)`/g, "$1")
+        .replace(/```[^\n]*\n(%%IMAGE%%[\s\S]*?%%END_IMAGE%%)\n?```/g, "$1")
+        .replace(/`(%%IMAGE%%[\s\S]*?%%END_IMAGE%%)`/g, "$1");
 
-      // Tolerate optional whitespace and newlines between %%GRAPH%% and the JSON.
       const GRAPH_RE = /%%GRAPH%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_GRAPH%%/g;
+      const IMAGE_RE = /%%IMAGE%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_IMAGE%%/g;
+
       const graphMatches = [...sanitizedContent.matchAll(GRAPH_RE)];
+      const imageMatches = [...sanitizedContent.matchAll(IMAGE_RE)];
       if (graphMatches.length > 0) {
         // Initialise all entries as pending
         const pending = graphMatches.map(() => ({ status: "pending", ggbState: null }));
@@ -393,6 +415,37 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                 arr[idx] = { status: "error" };
                 return { ...prev, [aiId]: arr };
               });
+            });
+        });
+      }
+
+      if (imageMatches.length > 0) {
+        const pending = imageMatches.map(() => ({ status: "pending", url: null }));
+        setImages(prev => ({ ...prev, [aiId]: pending }));
+
+        imageMatches.forEach((m, idx) => {
+          let imageRequest;
+          try { imageRequest = JSON.parse(m[1]); } catch { return; }
+
+          fetch("/api/wikimedia-search", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ query: imageRequest.query }),
+          })
+            .then(r => r.json())
+            .then(data => {
+               setImages(prev => {
+                  const arr = [...(prev[aiId] || [])];
+                  arr[idx] = { status: "done", ...data, caption: imageRequest.caption };
+                  return { ...prev, [aiId]: arr };
+               });
+            })
+            .catch(() => {
+               setImages(prev => {
+                  const arr = [...(prev[aiId] || [])];
+                  arr[idx] = { status: "error" };
+                  return { ...prev, [aiId]: arr };
+               });
             });
         });
       }
@@ -508,16 +561,54 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                            {g.status === "done" && g.engine === "desmos" && <DesmosRenderer state={g.desmosState} />}
                            {g.status === "done" && g.engine !== "desmos" && <GeoGebraRenderer state={g.ggbState} />}
                            {g.status === "done" && g.mode === "question" && g.question && (
-                             <div className="mt-2 flex items-start gap-2 rounded-xl border border-amber-200 dark:border-amber-700/50 bg-amber-50 dark:bg-amber-900/20 px-3 py-2 text-xs font-semibold text-amber-800 dark:text-amber-300 shadow-sm">
-                               <span className="mt-0.5 text-sm leading-none">❓</span>
-                               <span>{g.question}</span>
-                             </div>
-                           )}
-                           {g.status === "error" && (
-                             <p className="text-xs text-red-400 italic my-4">Diagram could not be generated.</p>
-                           )}
-                         </div>
-                       );
+                       if (seg.type === 'graph') {
+                         const g = (graphs[m.id] || [])[seg.graphIndex];
+                         if (!g || isMinimalMode) return null;
+                         return (
+                           <div key={segIdx}>
+                             {g.status === "pending" && (
+                               <div className="flex items-center gap-2 my-6 text-xs font-semibold text-blue-500 uppercase tracking-widest opacity-60">
+                                 <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
+                                 Generating diagram…
+                               </div>
+                             )}
+                             {g.status === "done" && g.engine === "desmos" && <DesmosRenderer state={g.desmosState} />}
+                             {g.status === "done" && g.engine !== "desmos" && <GeoGebraRenderer state={g.ggbState} />}
+                             {g.status === "done" && g.mode === "question" && g.question && (
+                               <div className="mt-2 flex items-start gap-2 rounded-xl border border-amber-200 dark:border-amber-700/50 bg-amber-50 dark:bg-amber-900/20 px-3 py-2 text-xs font-semibold text-amber-800 dark:text-amber-300 shadow-sm">
+                                 <span className="mt-0.5 text-sm leading-none">❓</span>
+                                 <span>{g.question}</span>
+                               </div>
+                             )}
+                             {g.status === "error" && (
+                               <p className="text-xs text-red-400 italic my-4">Diagram could not be generated.</p>
+                             )}
+                           </div>
+                         );
+                       }
+
+                       if (seg.type === 'image') {
+                         const img = (images[m.id] || [])[seg.imageIndex];
+                         if (!img || isMinimalMode) return null;
+                         return (
+                           <div key={segIdx}>
+                              {img.status === "pending" && (
+                                <div className="flex items-center gap-2 my-6 text-xs font-semibold text-blue-500 uppercase tracking-widest opacity-60">
+                                  <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
+                                  Sourcing visual aid…
+                                </div>
+                              )}
+                              {img.status === "done" && (
+                                <WikimediaRenderer image={img} caption={img.caption} />
+                              )}
+                              {img.status === "error" && (
+                                <p className="text-xs text-red-400 italic my-4">Contextual image could not be loaded.</p>
+                              )}
+                           </div>
+                         );
+                       }
+
+                       return null;
                      })}
                    </div>
                  )}

@@ -1,4 +1,5 @@
 import { GRAPH_REQUEST_SCHEMA } from "./graphSchema";
+import { IMAGE_REQUEST_SCHEMA } from "./imageSchema";
 
 export function formatConversationMessage(message) {
   if (!message || typeof message !== "object") return String(message || "").trim();
@@ -69,7 +70,8 @@ export function buildLangChainSystemPrompt({
     "You are a SOL Study Assistant for middle and high school students. Always answer clearly, directly, and as if you are teaching a learner. Use Markdown formatting for all responses and do not return plain HTML.",
     "Use KaTeX for all math expressions. Inline math must use single dollar delimiters like $x^2 + y^2 = r^2$, and display math must use double dollars like $$\\int_0^\\pi \\sin(x) \\, dx$$.",
     GRAPH_REQUEST_SCHEMA,
-    "If a visual is not required, answer in natural language with Markdown formatting for lists, bold/italic text, and tables.",
+    IMAGE_REQUEST_SCHEMA,
+    "If a visual or diagram is not required, answer in natural language with Markdown formatting for lists, bold/italic text, and tables.",
     "You can annotate important words or phrases in your text responses using these inline tags: [h]text[/h] for a yellow highlight, [c]text[/c] for a red circle, [u]text[/u] for a blue underline, and [b]text[/b] for a green box. Use these sparingly and only when they genuinely help emphasize a key term, definition, or critical value. Do not overuse them.",
     "Follow this memory stack: first apply long-term personalization facts, then use the medium-term session summary, then incorporate recent short-term conversation memory, and finally ground your answer in the current curriculum context.",
     memoryStack.longTermFactsText ? `Student personalization facts:\n${memoryStack.longTermFactsText}` : "",
