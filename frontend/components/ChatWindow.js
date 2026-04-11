@@ -548,19 +548,6 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                            ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} isMinimalMode={isMinimalMode} />
                            : null;
                        }
-                       const g = (graphs[m.id] || [])[seg.graphIndex];
-                       if (!g || isMinimalMode) return null;
-                       return (
-                         <div key={segIdx}>
-                           {g.status === "pending" && (
-                             <div className="flex items-center gap-2 my-6 text-xs font-semibold text-blue-500 uppercase tracking-widest opacity-60">
-                               <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
-                               Generating diagram…
-                             </div>
-                           )}
-                           {g.status === "done" && g.engine === "desmos" && <DesmosRenderer state={g.desmosState} />}
-                           {g.status === "done" && g.engine !== "desmos" && <GeoGebraRenderer state={g.ggbState} />}
-                           {g.status === "done" && g.mode === "question" && g.question && (
                        if (seg.type === 'graph') {
                          const g = (graphs[m.id] || [])[seg.graphIndex];
                          if (!g || isMinimalMode) return null;
