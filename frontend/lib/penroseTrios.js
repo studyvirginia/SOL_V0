@@ -1052,3 +1052,183 @@ Label r "u+v"
   variation: "vec_add",
 };
 
+// ─── Parallel Lines & Transversal ───────────────────────────────────────────
+
+// 31. Two parallel horizontal lines cut by a diagonal transversal
+// Intersection points P (top) and Q (bottom) are hidden; angle arc at P.
+export const TRIO_PARALLEL_TRANSVERSAL = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, P, B, C, Q, D
+Segment ap := MkSeg(A, P)
+Segment pb := MkSeg(P, B)
+Segment cq := MkSeg(C, Q)
+Segment qd := MkSeg(Q, D)
+Segment pq := MkSeg(P, Q)
+SameRow(A, P)
+SameRow(P, B)
+SameRow(C, Q)
+SameRow(Q, D)
+Separate(A, B)
+Separate(C, D)
+Separate(P, Q)
+IsAbove(A, C)
+IsAbove(P, Q)
+IsLeftOf(A, B)
+IsLeftOf(C, D)
+Hidden(P)
+Hidden(Q)
+AngleArc(A, P, Q)
+Label A ""
+Label B ""
+Label C ""
+Label D ""
+Label P ""
+Label Q ""
+`,
+  variation: "parallel_transversal",
+};
+
+// ─── Special Right Triangles ─────────────────────────────────────────────────
+
+// 32. 30-60-90 special right triangle with labeled angle and side ratios
+export const TRIO_SPECIAL_30_60_90 = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, U, V, W
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+RightAngle(A, B, C)
+MidpointOf(U, A, B)
+MidpointOf(V, B, C)
+MidpointOf(W, C, A)
+Hidden(U)
+Hidden(V)
+Hidden(W)
+IsAbove(C, A)
+IsAbove(C, B)
+IsLeftOf(A, B)
+IsCentered(A)
+IsCentered(B)
+IsCentered(C)
+Label A "30°"
+Label B "90°"
+Label C "60°"
+Label U "x√3"
+Label V "x"
+Label W "2x"
+`,
+  variation: "special_30_60_90",
+};
+
+// 33. 45-45-90 special right triangle (isosceles) with labeled sides
+export const TRIO_SPECIAL_45_45_90 = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point A, B, C, U, V, W
+Segment ab := MkSeg(A, B)
+Segment bc := MkSeg(B, C)
+Segment ca := MkSeg(C, A)
+RightAngle(A, B, C)
+Tick(ab)
+Tick(bc)
+MidpointOf(U, A, B)
+MidpointOf(V, B, C)
+MidpointOf(W, C, A)
+Hidden(U)
+Hidden(V)
+Hidden(W)
+IsAbove(C, A)
+IsAbove(C, B)
+IsLeftOf(A, B)
+IsCentered(A)
+IsCentered(B)
+IsCentered(C)
+Label A "45°"
+Label B "90°"
+Label C "45°"
+Label U "x"
+Label V "x"
+Label W "x√2"
+`,
+  variation: "special_45_45_90",
+};
+
+// ─── Angle of Elevation ──────────────────────────────────────────────────────
+
+// 34. Right triangle showing angle of elevation θ from observer O to object T
+export const TRIO_ANGLE_ELEVATION = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, G, T, M
+Segment og := MkSeg(O, G)
+Segment gt := MkSeg(G, T)
+Segment ot := MkSeg(O, T)
+RightAngle(O, G, T)
+SameRow(O, G)
+IsAbove(T, G)
+IsLeftOf(O, G)
+IsWellLeftOf(O, T)
+AngleArc(G, O, T)
+MidpointOf(M, G, T)
+Hidden(M)
+Label O "O"
+Label G ""
+Label T "T"
+Label M "h"
+`,
+  variation: "angle_elevation",
+};
+
+// ─── Circle Diagrams ─────────────────────────────────────────────────────────
+
+// 35. Circle with center O, two radii OA and OB, and chord AB
+export const TRIO_CIRCLE_CHORD = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, A, B
+Segment oa := MkSeg(O, A)
+Segment ob := MkSeg(O, B)
+Segment ab := MkSeg(A, B)
+IsCenter(O)
+OnCircle(A, O)
+OnCircle(B, O)
+IsCentered(O)
+Label O "O"
+Label A "A"
+Label B "B"
+`,
+  variation: "circle_chord",
+};
+
+// 36. Circle with central angle at O and inscribed angle at C on the arc
+export const TRIO_CENTRAL_INSCRIBED = {
+  domain: GEOMETRY_DOMAIN,
+  style: GEOMETRY_STYLE,
+  substance: `
+Point O, A, B, C
+Segment oa := MkSeg(O, A)
+Segment ob := MkSeg(O, B)
+Segment ca := MkSeg(C, A)
+Segment cb := MkSeg(C, B)
+IsCenter(O)
+OnCircle(A, O)
+OnCircle(B, O)
+OnCircle(C, O)
+IsCentered(O)
+AngleArc(A, O, B)
+AngleArc(A, C, B)
+Label O "O"
+Label A "A"
+Label B "B"
+Label C "C"
+`,
+  variation: "central_inscribed",
+};
+

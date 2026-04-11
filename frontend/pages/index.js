@@ -231,96 +231,32 @@ export default function Home() {
            
            <form onSubmit={handleLogin} className="space-y-6">
              
-             {/* Integrated New Session Selectors */}
-             <div className="space-y-4 rounded-2xl border border-gray-100 dark:border-gray-700/50 bg-gray-50/50 dark:bg-gray-900/50 p-5">
-                 <div className="space-y-2">
-                    <label className="text-[0.65rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Subject Focus</label>
-                    <div className="relative">
-                      <select
-                        className="w-full appearance-none rounded-xl border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 py-3 pl-4 pr-10 text-sm font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/10"
-                        value={modalSubject}
-                        onChange={handleModalSubjectChange}
-                      >
-                        {Object.keys(courseOptions).length === 0 ? <option>Loading...</option> : Object.keys(courseOptions).map((s) => (
-                          <option key={s} value={s}>{formatName(s)}</option>
-                        ))}
-                      </select>
-                      <ChevronDownIcon className="pointer-events-none absolute right-3 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400" />
-                    </div>
-                 </div>
-
-                 <div className="space-y-2">
-                    <label className="text-[0.65rem] font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400">Course Selection</label>
-                    <div className="relative">
-                      <select
-                        className="w-full appearance-none rounded-xl border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 py-3 pl-4 pr-10 text-sm font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/10"
-                        value={modalCourse}
-                        onChange={(e) => setModalCourse(e.target.value)}
-                        disabled={!(courseOptions[modalSubject]?.length)}
-                      >
-                        {(courseOptions[modalSubject] || []).length === 0 ? <option>Loading...</option> : (courseOptions[modalSubject] || []).map((c) => (
-                          <option key={c} value={c}>{formatName(c)}</option>
-                        ))}
-                      </select>
-                      <ChevronDownIcon className="pointer-events-none absolute right-3 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400" />
-                    </div>
-                 </div>
-
-                 <div className="space-y-2">
-                    <label className="text-[0.65rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Grade / Level</label>
-                    <input
-                      className="w-full rounded-xl border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-900 py-3 px-4 text-sm text-gray-800 dark:text-gray-100 transition-all focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/10"
-                      value={modalGrade || ""}
-                      onChange={(e) => setModalGrade(e.target.value)}
-                      placeholder="e.g. 9th grade, Algebra 1"
+             <div className="space-y-4 pt-4">
+                  <div className="space-y-1.5">
+                    <label className="text-[0.65rem] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Auth ID</label>
+                    <input 
+                      name="username" 
+                      type="text"
+                      placeholder="demo"
+                      defaultValue="demo"
+                      className="w-full rounded-xl border-2 border-transparent bg-gray-100 dark:bg-gray-700/50 px-4 py-3.5 text-[0.95rem] transition-all focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10 dark:focus:ring-blue-400/10"
                     />
-                 </div>
-                 <div className="space-y-2">
-                    <label className="text-[0.65rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Learning Preferences</label>
-                    <input
-                      className="w-full rounded-xl border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-900 py-3 px-4 text-sm text-gray-800 dark:text-gray-100 transition-all focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/10"
-                      value={modalPreferences || ""}
-                      onChange={(e) => setModalPreferences(e.target.value)}
-                      placeholder="e.g. visual explanations, step-by-step"
+                  </div>
+                  <div className="space-y-1.5">
+                    <label className="text-[0.65rem] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Passphrase</label>
+                    <input 
+                      name="password" 
+                      type="password"
+                      placeholder="password"
+                      defaultValue="password"
+                      className="w-full rounded-xl border-2 border-transparent bg-gray-100 dark:bg-gray-700/50 px-4 py-3.5 text-[0.95rem] transition-all focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10 dark:focus:ring-blue-400/10"
                     />
-                 </div>
-                 <div className="space-y-2">
-                    <label className="text-[0.65rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Learning Needs</label>
-                    <input
-                      className="w-full rounded-xl border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-900 py-3 px-4 text-sm text-gray-800 dark:text-gray-100 transition-all focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/10"
-                      value={modalNeeds || ""}
-                      onChange={(e) => setModalNeeds(e.target.value)}
-                      placeholder="e.g. dyslexia support, ELL"
-                    />
-                 </div>
-             </div>
-
-             <div className="space-y-3 pt-2">
-                 <div className="space-y-1.5">
-                   <label className="text-xs font-bold tracking-wide text-gray-700 dark:text-gray-300">Auth ID</label>
-                   <input 
-                     name="username" 
-                     type="text"
-                     placeholder="demo"
-                     defaultValue="demo"
-                     className="w-full rounded-xl border-2 border-transparent bg-gray-100 dark:bg-gray-700/50 px-4 py-3.5 text-[0.95rem] transition-all focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10 dark:focus:ring-blue-400/10"
-                   />
-                 </div>
-                 <div className="space-y-1.5">
-                   <label className="text-xs font-bold tracking-wide text-gray-700 dark:text-gray-300">Passphrase</label>
-                   <input 
-                     name="password" 
-                     type="password"
-                     placeholder="password"
-                     defaultValue="password"
-                     className="w-full rounded-xl border-2 border-transparent bg-gray-100 dark:bg-gray-700/50 px-4 py-3.5 text-[0.95rem] transition-all focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10 dark:focus:ring-blue-400/10"
-                   />
-                 </div>
-             </div>
-             
-             <button type="submit" disabled={!modalSubject || !modalCourse} className="w-full rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-500 dark:to-indigo-500 py-3.5 font-bold text-white shadow-lg transition-transform hover:scale-[1.02] active:scale-95 disabled:opacity-50 disabled:pointer-events-none">
-               Create Session & Login
-             </button>
+                  </div>
+              </div>
+              
+              <button type="submit" className="w-full rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-500 dark:to-indigo-500 py-3.5 font-bold text-white shadow-lg transition-transform hover:scale-[1.02] active:scale-95">
+                Sign In
+              </button>
            </form>
            
            {/* Dark Mode specific switch for sign in page */}
