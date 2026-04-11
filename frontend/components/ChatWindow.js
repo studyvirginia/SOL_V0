@@ -7,12 +7,11 @@ import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import { buildMediumTermSummary, buildShortTermMemory } from "../lib/sessionMemoryService";
 import ErrorBoundary from "./ErrorBoundary";
-import WikimediaRenderer from "./WikimediaRenderer";
 
 // Advanced formatting utilities for proper display capitalization
 export const formatName = (str) => {
   if (!str) return "";
-  
+
   const dictionary = {
     "va": "VA",
     "us": "US",
@@ -49,55 +48,45 @@ const DesmosRenderer = dynamic(() => import("./DesmosRenderer"), {
 
 // Complete token — both delimiters present
 const GRAPH_TOKEN_RE = /%%GRAPH%%[\s\S]*?%%END_GRAPH%%/g;
-const IMAGE_TOKEN_RE = /%%IMAGE%%[\s\S]*?%%END_IMAGE%%/g;
-
-// Partial tokens — opening delimiter present but closing not yet arrived (strips during streaming)
+// Partial token — opening delimiter present but closing not yet arrived (strips during streaming)
 const GRAPH_PARTIAL_RE = /%%GRAPH%%[\s\S]*$/;
-const IMAGE_PARTIAL_RE = /%%IMAGE%%[\s\S]*$/;
 
+/**
+ * Split a message string into alternating text/graph segments so graphs
+ * can be rendered inline at the exact position the token appeared.
+ * Returns an array of { type: 'text'|'graph', content: string, graphIndex: number }
+ */
 function splitMessageSegments(content) {
   const segments = [];
-  const text = String(content || "");
-  
-  // Regex to match either a Graph or an Image token
-  const combinedRe = new RegExp(`${GRAPH_TOKEN_RE.source}|${IMAGE_TOKEN_RE.source}`, 'g');
-  
   let lastIndex = 0;
-  let graphCounter = 0;
-  let imageCounter = 0;
+  let graphIndex = 0;
+  const re = new RegExp(GRAPH_TOKEN_RE.source, 'g'); // always fresh instance — no stale lastIndex
   let match;
-
-  while ((match = combinedRe.exec(text)) !== null) {
+  while ((match = re.exec(content)) !== null) {
     if (match.index > lastIndex) {
-      segments.push({ type: 'text', content: text.slice(lastIndex, match.index) });
+      segments.push({ type: 'text', content: content.slice(lastIndex, match.index) });
     }
-    
-    const token = match[0];
-    if (token.startsWith('%%GRAPH%%')) {
-      segments.push({ type: 'graph', graphIndex: graphCounter++ });
-    } else if (token.startsWith('%%IMAGE%%')) {
-      segments.push({ type: 'image', imageIndex: imageCounter++ });
-    }
-    
-    lastIndex = match.index + token.length;
+    segments.push({ type: 'graph', graphIndex });
+    graphIndex++;
+    lastIndex = match.index + match[0].length;
   }
-  
-  if (lastIndex < text.length) {
-    segments.push({ type: 'text', content: text.slice(lastIndex) });
+  if (lastIndex < content.length) {
+    segments.push({ type: 'text', content: content.slice(lastIndex) });
   }
-  
-  return segments.length > 0 ? segments : [{ type: 'text', content: text }];
+  // If no tokens found at all, single text segment
+  if (segments.length === 0) {
+    segments.push({ type: 'text', content });
+  }
+  return segments;
 }
 
-const MarkdownMessage = ({ content, isUser, isMinimalMode }) => {
+const MarkdownMessage = ({ content, isUser }) => {
   // Strip TIKZ_GRAPH tokens — handled outside this component.
   // Also strip partial tokens (incomplete during streaming) so they never reach
   // the KaTeX / remarkMath pipeline and cause parse interference.
   const formattedContent = String(content || "")
-    .replace(new RegExp(GRAPH_TOKEN_RE.source, 'g'), "")  // complete graph tokens
-    .replace(new RegExp(IMAGE_TOKEN_RE.source, 'g'), "")  // complete image tokens
-    .replace(GRAPH_PARTIAL_RE, "")                        // partial tokens
-    .replace(IMAGE_PARTIAL_RE, "")
+    .replace(new RegExp(GRAPH_TOKEN_RE.source, 'g'), "")  // complete tokens
+    .replace(GRAPH_PARTIAL_RE, "")                        // partial tokens (streaming)
     .replace(/\[h\](.*?)\[\/h\]/g, "[$1](#highlight)")
     .replace(/\[c\](.*?)\[\/c\]/g, "[$1](#circle)")
     .replace(/\[u\](.*?)\[\/u\]/g, "[$1](#underline)")
@@ -153,23 +142,21 @@ const MarkdownMessage = ({ content, isUser, isMinimalMode }) => {
         </p>
       );
     },
-    a: ({ href, children, ...props }) => {
-      if (isMinimalMode) return <span>{children}</span>;
-
+    a({ children, href, ...props }) {
       if (href === "#highlight") {
-         return <RoughNotation type="highlight" show={true} color="rgba(253, 224, 71, 0.4)" animationDuration={700} padding={3} {...props}>{children}</RoughNotation>;
+        return <RoughNotation type="highlight" show={true} color="rgba(253, 224, 71, 0.4)" animationDuration={700} padding={3} {...props}>{children}</RoughNotation>;
       }
       if (href === "#circle") {
-         return <RoughNotation type="circle" show={true} color="rgba(239, 68, 68, 0.7)" animationDuration={900} padding={5} strokeWidth={2} {...props}>{children}</RoughNotation>;
+        return <RoughNotation type="circle" show={true} color="rgba(239, 68, 68, 0.7)" animationDuration={900} padding={5} strokeWidth={2} {...props}>{children}</RoughNotation>;
       }
       if (href === "#underline") {
-         return <RoughNotation type="underline" show={true} color="rgba(59, 130, 246, 0.8)" animationDuration={600} strokeWidth={2} {...props}>{children}</RoughNotation>;
+        return <RoughNotation type="underline" show={true} color="rgba(59, 130, 246, 0.8)" animationDuration={600} strokeWidth={2} {...props}>{children}</RoughNotation>;
       }
       if (href === "#box") {
-         return <RoughNotation type="box" show={true} color="rgba(16, 185, 129, 0.7)" animationDuration={800} strokeWidth={2} {...props}>{children}</RoughNotation>;
+        return <RoughNotation type="box" show={true} color="rgba(16, 185, 129, 0.7)" animationDuration={800} strokeWidth={2} {...props}>{children}</RoughNotation>;
       }
       if (href === "#strike") {
-         return <RoughNotation type="strike-through" show={true} color="rgba(239, 68, 68, 0.6)" animationDuration={500} strokeWidth={2} {...props}>{children}</RoughNotation>;
+        return <RoughNotation type="strike-through" show={true} color="rgba(239, 68, 68, 0.6)" animationDuration={500} strokeWidth={2} {...props}>{children}</RoughNotation>;
       }
       return (
         <a href={href} target="_blank" rel="noreferrer" className="text-blue-500 hover:text-blue-600 underline underline-offset-4 decoration-2 decoration-blue-500/30" {...props}>
@@ -180,17 +167,17 @@ const MarkdownMessage = ({ content, isUser, isMinimalMode }) => {
   };
 
   return (
-    <div className={`prose prose-sm max-w-none break-words ${isUser ? "text-gray-800 dark:text-gray-200" : "dark:prose-invert font-sans selection:bg-blue-100 selection:text-blue-900"} 
+    <div className={`prose max-w-none break-words ${isUser ? "prose-sm text-gray-800 dark:text-gray-200" : "prose-base dark:prose-invert font-sans selection:bg-blue-100 selection:text-blue-900"} 
       prose-headings:font-display prose-headings:font-extrabold prose-headings:tracking-tight prose-headings:text-slate-900 dark:prose-headings:text-white
       prose-h1:text-5xl prose-h1:mt-16 prose-h1:mb-10 prose-h1:leading-tight
       prose-h2:text-3xl prose-h2:mt-14 prose-h2:mb-8 prose-h2:border-b-2 prose-h2:border-slate-100 dark:prose-h2:border-slate-800 prose-h2:pb-3
       prose-h3:text-2xl prose-h3:mt-10 prose-h3:mb-5 prose-h3:font-bold
-      prose-p:leading-relaxed prose-p:mb-4 prose-p:text-slate-700 dark:prose-p:text-slate-300
-      prose-li:leading-relaxed prose-li:mb-2
-      prose-strong:text-blue-600 dark:prose-strong:text-blue-400 prose-strong:font-bold
+      prose-p:text-[1.1rem] prose-p:leading-relaxed prose-p:mb-8 prose-p:text-slate-700 dark:prose-p:text-slate-300
+      prose-li:text-[1.1rem] prose-li:leading-relaxed prose-li:mb-3
+      prose-strong:text-blue-700 dark:prose-strong:text-blue-400 prose-strong:font-black
       prose-code:text-pink-600 prose-code:bg-pink-50/80 dark:prose-code:bg-pink-900/40 prose-code:px-2 prose-code:py-0.5 prose-code:rounded-lg prose-code:font-semibold prose-code:before:content-none prose-code:after:content-none
-      prose-blockquote:border-l-8 prose-blockquote:border-blue-600 prose-blockquote:bg-blue-50/40 dark:prose-blockquote:bg-blue-900/10 prose-blockquote:py-6 prose-blockquote:px-10 prose-blockquote:rounded-r-2xl prose-blockquote:italic prose-blockquote:text-blue-950 dark:prose-blockquote:text-blue-100
-      prose-img:rounded-2xl prose-img:shadow-2xl
+      prose-blockquote:border-l-8 prose-blockquote:border-blue-600 prose-blockquote:bg-blue-50/40 dark:prose-blockquote:bg-blue-900/10 prose-blockquote:py-6 prose-blockquote:px-10 prose-blockquote:rounded-r-[2.5rem] prose-blockquote:italic prose-blockquote:text-blue-950 dark:prose-blockquote:text-blue-100
+      prose-img:rounded-[2.5rem] prose-img:shadow-2xl
       prose-hr:my-16 prose-hr:border-slate-100 dark:prose-hr:border-slate-800
     `}>
       <ReactMarkdown
@@ -205,7 +192,7 @@ const MarkdownMessage = ({ content, isUser, isMinimalMode }) => {
   );
 }
 
-export default function ChatWindow({ session, onUpdateSession, graphEngine = "geogebra", isMinimalMode = false }) {
+export default function ChatWindow({ session, onUpdateSession, graphEngine = "geogebra" }) {
   const bottomRef = useRef(null);
 
   const subject = session.subject || "";
@@ -216,9 +203,9 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   const [draftInput, setDraftInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  // State for graphs and images per message
+  // graphs: { [messageId]: [{ status: 'pending'|'done'|'error', ggbState?, desmosState? }] }
+  // Seeded from session.graphs so graphs survive reload and session switches.
   const [graphs, setGraphs] = useState(session.graphs || {});
-  const [images, setImages] = useState(session.images || {});
 
   // Refs so the persistence effect below can read latest values without
   // being a dependency (which would cause an infinite loop).
@@ -230,8 +217,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   useEffect(() => {
     if (session.id && session.messages) {
       setMessages(session.messages);
+      // Restore persisted graph states for this session
       setGraphs(session.graphs || {});
-      setImages(session.images || {});
       setError(null);
     }
   }, [session.id]);
@@ -246,20 +233,11 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
       const done = (arr || []).filter(g => g.status === "done");
       if (done.length) { doneGraphs[msgId] = done; hasDone = true; }
     }
-    
-    const doneImages = {};
-    for (const [msgId, arr] of Object.entries(images)) {
-      const done = (arr || []).filter(img => img.status === "done");
-      if (done.length) { doneImages[msgId] = done; hasDone = true; }
-    }
-
     if (!hasDone) return;
     const s = sessionRef.current;
-    if (JSON.stringify(doneGraphs) === JSON.stringify(s.graphs || {}) && 
-        JSON.stringify(doneImages) === JSON.stringify(s.images || {})) return;
-    
-    onUpdateSession({ ...s, messages: messagesRef.current, graphs: doneGraphs, images: doneImages });
-  }, [graphs, images]);
+    if (JSON.stringify(doneGraphs) === JSON.stringify(s.graphs || {})) return;
+    onUpdateSession({ ...s, messages: messagesRef.current, graphs: doneGraphs });
+  }, [graphs]); // intentionally omitting session/messages to break the loop
 
   const handleInput = (e) => setDraftInput(e.target.value);
 
@@ -267,7 +245,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
     e?.preventDefault?.();
     const text = draftInput.trim();
     if (!text || isLoading) return;
-    
+
     setDraftInput("");
     setIsLoading(true);
     setError(null);
@@ -309,7 +287,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
 
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
-      
+
       let aiContent = "";
       const aiId = Date.now().toString() + "_ai";
       setMessages(prev => [...prev, { id: aiId, role: "assistant", content: "" }]);
@@ -318,17 +296,17 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
         while (true) {
           const { value, done } = await reader.read();
           if (done) break;
-          
+
           const chunk = decoder.decode(value, { stream: true });
           aiContent += chunk;
-          
+
           setMessages(prev => {
-             const updated = [...prev];
-             const lastIdx = updated.length - 1;
-             if (lastIdx >= 0 && updated[lastIdx].role === "assistant") {
-                updated[lastIdx] = { ...updated[lastIdx], content: aiContent };
-             }
-             return updated;
+            const updated = [...prev];
+            const lastIdx = updated.length - 1;
+            if (lastIdx >= 0 && updated[lastIdx].role === "assistant") {
+              updated[lastIdx] = { ...updated[lastIdx], content: aiContent };
+            }
+            return updated;
           });
         }
       } catch (readErr) {
@@ -338,18 +316,16 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
         throw readErr;
       }
 
-      // --- Phase 2: detect embedded GRAPH / IMAGE tokens and generate ---
+      // --- Phase 2: detect embedded GRAPH tokens and generate GeoGebra diagrams ---
+      // Sanitise first: strip any markdown code-fence wrappers the LLM may have
+      // added around the token (e.g. ```%%GRAPH%%...%%END_GRAPH%%```).
       const sanitizedContent = aiContent
         .replace(/```[^\n]*\n(%%GRAPH%%[\s\S]*?%%END_GRAPH%%)\n?```/g, "$1")
-        .replace(/`(%%GRAPH%%[\s\S]*?%%END_GRAPH%%)`/g, "$1")
-        .replace(/```[^\n]*\n(%%IMAGE%%[\s\S]*?%%END_IMAGE%%)\n?```/g, "$1")
-        .replace(/`(%%IMAGE%%[\s\S]*?%%END_IMAGE%%)`/g, "$1");
+        .replace(/`(%%GRAPH%%[\s\S]*?%%END_GRAPH%%)`/g, "$1");
 
+      // Tolerate optional whitespace and newlines between %%GRAPH%% and the JSON.
       const GRAPH_RE = /%%GRAPH%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_GRAPH%%/g;
-      const IMAGE_RE = /%%IMAGE%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_IMAGE%%/g;
-
       const graphMatches = [...sanitizedContent.matchAll(GRAPH_RE)];
-      const imageMatches = [...sanitizedContent.matchAll(IMAGE_RE)];
       if (graphMatches.length > 0) {
         // Initialise all entries as pending
         const pending = graphMatches.map(() => ({ status: "pending", ggbState: null }));
@@ -418,37 +394,6 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
             });
         });
       }
-
-      if (imageMatches.length > 0) {
-        const pending = imageMatches.map(() => ({ status: "pending", url: null }));
-        setImages(prev => ({ ...prev, [aiId]: pending }));
-
-        imageMatches.forEach((m, idx) => {
-          let imageRequest;
-          try { imageRequest = JSON.parse(m[1]); } catch { return; }
-
-          fetch("/api/wikimedia-search", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ query: imageRequest.query }),
-          })
-            .then(r => r.json())
-            .then(data => {
-               setImages(prev => {
-                  const arr = [...(prev[aiId] || [])];
-                  arr[idx] = { status: "done", ...data };
-                  return { ...prev, [aiId]: arr };
-               });
-            })
-            .catch(() => {
-               setImages(prev => {
-                  const arr = [...(prev[aiId] || [])];
-                  arr[idx] = { status: "error" };
-                  return { ...prev, [aiId]: arr };
-               });
-            });
-        });
-      }
     } catch (err) {
       console.error("Chat fetch failure:", err);
       // Simplify "TypeError: Load failed" into something more user-friendly
@@ -466,15 +411,15 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
       const lastMsg = messages[messages.length - 1];
       const sessLast = session.messages?.[session.messages?.length - 1];
       if (!sessLast || lastMsg.id !== sessLast.id || lastMsg.content !== sessLast.content) {
-         onUpdateSession({ ...session, messages });
+        onUpdateSession({ ...session, messages });
       }
     }
   }, [messages, session.id]);
 
   useEffect(() => {
     if (session.name === "New Session" || session.name === "Start Session") {
-       const updatedName = formatName(course) || formatName(subject) || "Session";
-       onUpdateSession({ ...session, name: updatedName });
+      const updatedName = formatName(course) || formatName(subject) || "Session";
+      onUpdateSession({ ...session, name: updatedName });
     }
   }, []);
 
@@ -483,122 +428,96 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   }, [messages]);
 
   const modeMap = {
-    diagnostic: { label: "Diagnostic", subModes: [ { id: "placement", label: "Placement Quiz" }, { id: "concept", label: "Concept Check" } ] },
-    review: { label: "Review", subModes: [ { id: "notes", label: "Guided Notes" }, { id: "study-guide", label: "Study Guide" }, { id: "mnemonics", label: "Mnemonics" } ] },
-    mastery: { label: "Mastery", subModes: [ { id: "map", label: "Knowledge Map" }, { id: "analogies", label: "Analogies" }, { id: "deep-dive", label: "Deep Dive" } ] },
-    practice: { label: "Practice", subModes: [ { id: "flashcards", label: "Flashcards" }, { id: "quiz", label: "Interactive Quiz" }, { id: "worksheet", label: "Worksheet" } ] },
-    progress: { label: "Progress", subModes: [ { id: "stats", label: "Statistics" }, { id: "achievements", label: "Achievements" } ] }
+    diagnostic: { label: "Diagnostic", subModes: [{ id: "placement", label: "Placement Quiz" }, { id: "concept", label: "Concept Check" }] },
+    review: { label: "Review", subModes: [{ id: "notes", label: "Guided Notes" }, { id: "study-guide", label: "Study Guide" }, { id: "mnemonics", label: "Mnemonics" }] },
+    mastery: { label: "Mastery", subModes: [{ id: "map", label: "Knowledge Map" }, { id: "analogies", label: "Analogies" }, { id: "deep-dive", label: "Deep Dive" }] },
+    practice: { label: "Practice", subModes: [{ id: "flashcards", label: "Flashcards" }, { id: "quiz", label: "Interactive Quiz" }, { id: "worksheet", label: "Worksheet" }] },
+    progress: { label: "Progress", subModes: [{ id: "stats", label: "Statistics" }, { id: "achievements", label: "Achievements" }] }
   };
 
   const activePillar = Object.entries(modeMap).find(([key, pillar]) => pillar.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
 
   return (
-    <div className="flex h-full w-full gap-4 md:gap-6">
-      <div className="w-[140px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-4 text-gray-800 dark:text-gray-300 gap-0.5">
-         <h2 className="text-[0.6rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4 px-1">Learning Path</h2>
-         {Object.entries(modeMap).map(([pillarKey, pillarData]) => {
-           const isActivePillar = activePillar === pillarKey;
-           return (
-             <div key={pillarKey} className="flex flex-col">
-                {pillarKey === "progress" && <hr className="my-2 border-gray-100 dark:border-gray-800" />}
-                <div 
-                  className={`flex items-center justify-between px-2 py-2 rounded-lg cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
-                  onClick={() => { if (!isActivePillar && pillarData.subModes.length > 0) onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id }); }}
-                >
-                  <span className="text-[0.8rem] tracking-tight">{pillarData.label}</span>
-                </div>
-                <div className={`flex flex-col pl-3 border-l-2 border-gray-100 dark:border-gray-800/60 ml-2 space-y-0.5 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-0.5 mb-2 opacity-100" : "max-h-0 opacity-0"}`}>
-                   {isActivePillar && pillarData.subModes.map((sub) => (
-                      <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`text-left px-2 py-1.5 rounded-lg text-[0.75rem] transition-colors ${currentMode === sub.id ? "font-bold text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-800 shadow-sm border border-gray-200/60 dark:border-gray-700/60" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>{sub.label}</button>
-                   ))}
-                </div>
-             </div>
-           );
-         })}
+    <div className="flex h-full w-full gap-4 md:gap-8">
+      <div className="w-[200px] hidden lg:flex flex-col shrink-0 space-y-2 h-full py-8 text-gray-800 dark:text-gray-300 gap-1">
+        <h2 className="text-[0.65rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-6 px-1">Learning Path</h2>
+        {Object.entries(modeMap).map(([pillarKey, pillarData]) => {
+          const isActivePillar = activePillar === pillarKey;
+          return (
+            <div key={pillarKey} className="flex flex-col">
+              <div
+                className={`flex items-center justify-between px-3 py-2.5 rounded-xl cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
+                onClick={() => { if (!isActivePillar && pillarData.subModes.length > 0) onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id }); }}
+              >
+                <span className="tracking-tight">{pillarData.label}</span>
+              </div>
+              <div className={`flex flex-col pl-4 border-l-2 border-gray-100 dark:border-gray-800/60 ml-3 space-y-1 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-4 opacity-100" : "max-h-0 opacity-0"}`}>
+                {isActivePillar && pillarData.subModes.map((sub) => (
+                  <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`text-left px-3 py-2 rounded-lg text-[0.85rem] transition-colors ${currentMode === sub.id ? "font-bold text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-800 shadow-sm border border-gray-200/60 dark:border-gray-700/60" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>{sub.label}</button>
+                ))}
+              </div>
+            </div>
+          );
+        })}
       </div>
 
       <div className="relative flex h-full flex-col flex-1 overflow-hidden bg-transparent">
-        <div className="custom-scrollbar flex-1 space-y-6 overflow-y-auto px-4 pt-16 pb-8 sm:px-6 lg:px-8 flex flex-col items-center">
+        <div className="custom-scrollbar flex-1 space-y-12 overflow-y-auto px-4 pt-24 pb-12 sm:px-6 lg:px-12 flex flex-col items-center">
           {messages.map((m, idx) => {
             const isUser = m.role === "user";
             const isStreaming = isLoading && idx === messages.length - 1 && !isUser;
             return (
-              <div key={idx} className={`w-full max-w-[800px] animate-in fade-in flex ${isUser ? "justify-end" : "justify-center"}`}>
-                 {isUser ? (
-                   <div className="max-w-[85%] rounded-2xl rounded-br-sm border border-gray-200/60 dark:border-gray-700/60 bg-white dark:bg-gray-800 px-5 py-3 shadow-[0_4px_12px_rgba(0,0,0,0.02)] dark:shadow-black/20">
-                     <div className="whitespace-pre-wrap text-[0.95rem] font-medium leading-relaxed text-gray-800 dark:text-gray-100">{String(m.content || "")}</div>
-                   </div>
-                 ) : (
-                   <div className={`w-full max-w-[750px] px-4 md:px-6 py-4 transition-all duration-500 relative ${isStreaming ? "rounded-xl border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
-                     {isStreaming && (
-                       <div className="flex items-center gap-2 mb-4 text-[0.6rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
-                         <div className="relative h-4 w-4">
-                            <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                              <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                              <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                            </svg>
-                            <div className="absolute inset-0 m-auto h-1 w-1 rounded-full bg-blue-600 animate-pulse"></div>
-                         </div>
-                         <span>Synchronizing</span>
-                       </div>
-                     )}
-                     {splitMessageSegments(String(m.content || "")).map((seg, segIdx) => {
-                       if (seg.type === 'text') {
-                         return seg.content.trim()
-                           ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} isMinimalMode={isMinimalMode} />
-                           : null;
-                       }
-                       if (seg.type === 'graph') {
-                         const g = (graphs[m.id] || [])[seg.graphIndex];
-                         if (!g || isMinimalMode) return null;
-                         return (
-                           <div key={segIdx}>
-                             {g.status === "pending" && (
-                               <div className="flex items-center gap-2 my-6 text-xs font-semibold text-blue-500 uppercase tracking-widest opacity-60">
-                                 <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
-                                 Generating diagram…
-                               </div>
-                             )}
-                             {g.status === "done" && g.engine === "desmos" && <DesmosRenderer state={g.desmosState} />}
-                             {g.status === "done" && g.engine !== "desmos" && <GeoGebraRenderer state={g.ggbState} />}
-                             {g.status === "done" && g.mode === "question" && g.question && (
-                               <div className="mt-2 flex items-start gap-2 rounded-xl border border-amber-200 dark:border-amber-700/50 bg-amber-50 dark:bg-amber-900/20 px-3 py-2 text-xs font-semibold text-amber-800 dark:text-amber-300 shadow-sm">
-                                 <span className="mt-0.5 text-sm leading-none">❓</span>
-                                 <span>{g.question}</span>
-                               </div>
-                             )}
-                             {g.status === "error" && (
-                               <p className="text-xs text-red-400 italic my-4">Diagram could not be generated.</p>
-                             )}
-                           </div>
-                         );
-                       }
-
-                       if (seg.type === 'image') {
-                         const img = (images[m.id] || [])[seg.imageIndex];
-                         if (!img || isMinimalMode) return null;
-                         return (
-                           <div key={segIdx}>
-                              {img.status === "pending" && (
-                                <div className="flex items-center gap-2 my-6 text-xs font-semibold text-blue-500 uppercase tracking-widest opacity-60">
-                                  <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
-                                  Sourcing visual aid…
-                                </div>
-                              )}
-                              {img.status === "done" && (
-                                <WikimediaRenderer image={img} />
-                              )}
-                              {img.status === "error" && (
-                                <p className="text-xs text-red-400 italic my-4">Contextual image could not be loaded.</p>
-                              )}
-                           </div>
-                         );
-                       }
-
-                       return null;
-                     })}
-                   </div>
-                 )}
+              <div key={idx} className={`w-full max-w-[900px] animate-in fade-in flex ${isUser ? "justify-end" : "justify-center"}`}>
+                {isUser ? (
+                  <div className="max-w-[75%] rounded-[2rem] rounded-br-[0.5rem] border border-gray-200/60 dark:border-gray-700/60 bg-white dark:bg-gray-800 px-8 py-5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] dark:shadow-black/20">
+                    <div className="whitespace-pre-wrap text-[1.05rem] font-medium leading-relaxed text-gray-800 dark:text-gray-100">{String(m.content || "")}</div>
+                  </div>
+                ) : (
+                  <div className={`w-full max-w-[850px] px-8 md:px-12 py-10 transition-all duration-500 relative ${isStreaming ? "rounded-[3rem] border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
+                    {isStreaming && (
+                      <div className="flex items-center gap-3 mb-8 text-[0.75rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
+                        <div className="relative h-5 w-5">
+                          <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                            <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                          </svg>
+                          <div className="absolute inset-0 m-auto h-1.5 w-1.5 rounded-full bg-blue-600 animate-pulse"></div>
+                        </div>
+                        <span>SOL Synchronizing Stream</span>
+                      </div>
+                    )}
+                    {splitMessageSegments(String(m.content || "")).map((seg, segIdx) => {
+                      if (seg.type === 'text') {
+                        return seg.content.trim()
+                          ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} />
+                          : null;
+                      }
+                      const g = (graphs[m.id] || [])[seg.graphIndex];
+                      if (!g) return null;
+                      return (
+                        <div key={segIdx}>
+                          {g.status === "pending" && (
+                            <div className="flex items-center gap-2 my-6 text-xs font-semibold text-blue-500 uppercase tracking-widest opacity-60">
+                              <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" /><path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" /></svg>
+                              Generating diagram…
+                            </div>
+                          )}
+                          {g.status === "done" && g.engine === "desmos" && <DesmosRenderer state={g.desmosState} />}
+                          {g.status === "done" && g.engine !== "desmos" && <GeoGebraRenderer state={g.ggbState} />}
+                          {g.status === "done" && g.mode === "question" && g.question && (
+                            <div className="mt-3 flex items-start gap-3 rounded-2xl border border-amber-200 dark:border-amber-700/50 bg-amber-50 dark:bg-amber-900/20 px-4 py-3 text-sm font-semibold text-amber-800 dark:text-amber-300 shadow-sm">
+                              <span className="mt-0.5 text-base leading-none">❓</span>
+                              <span>{g.question}</span>
+                            </div>
+                          )}
+                          {g.status === "error" && (
+                            <p className="text-xs text-red-400 italic my-4">Diagram could not be generated.</p>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             );
           })}
@@ -606,15 +525,15 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
         </div>
 
         <div className="absolute bottom-4 inset-x-0 flex justify-center px-4 pointer-events-none">
-          <form onSubmit={handleFormSubmit} className="w-full max-w-[650px] relative flex items-center gap-2 pointer-events-auto rounded-xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.08)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/10">
-              <input
-                className="flex-1 bg-transparent py-2.5 pl-5 pr-14 text-[0.95rem] font-medium text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none"
-                value={draftInput}
-                onChange={handleInput}
-                placeholder="Ask a mathematical question..."
-              />
-            <button type="submit" className="absolute right-1.5 top-1.5 flex h-[2.5rem] w-[2.5rem] items-center justify-center rounded-lg bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isLoading || !draftInput.trim()}>
-              <SendIcon className="h-4 w-4" />
+          <form onSubmit={handleFormSubmit} className="w-full max-w-[750px] relative flex items-center gap-3 pointer-events-auto rounded-3xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.1)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1.5 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/20">
+            <input
+              className="flex-1 bg-transparent py-3.5 pl-6 pr-16 text-[1.05rem] font-medium text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none"
+              value={draftInput}
+              onChange={handleInput}
+              placeholder="Ask a mathematical question..."
+            />
+            <button type="submit" className="absolute right-2 top-2 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isLoading || !draftInput.trim()}>
+              <SendIcon className="h-5 w-5" />
             </button>
           </form>
         </div>
