@@ -538,6 +538,13 @@ export const PENROSE_ARCHETYPES = {
     trio: TRIO_SCALE_FACTOR,
     tags: ["scale factor", "dilation"],
   },
+  proportion_segs: {
+    id: "proportion_segs",
+    title: "Proportional segments",
+    description: "Parallel-segment proportionality setup for solving unknown lengths.",
+    trio: TRIO_PROPORTION_SEGMENTS,
+    tags: ["proportion", "segments", "similarity"],
+  },
   translation_notes: {
     id: "translation_notes",
     title: "Translation diagram",

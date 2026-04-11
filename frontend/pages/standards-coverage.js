@@ -101,7 +101,7 @@ function StandardCard({ standard, result, loading, onTest }) {
                   rel="noreferrer"
                   className="text-[0.55rem] text-gray-400 hover:text-blue-500 truncate inline-block"
                 >
-                  {decodeURIComponent(result.sourceUrl.split("/File:")[1] || "").replace(/_/g, " ")} (Wiki)
+                  {result.title} ({result.provider?.toUpperCase()})
                 </a>
               )}
             </>
@@ -186,20 +186,20 @@ export default function StandardsCoverageDashboard() {
         [id]: { prompting: false, query: payload.visual_search_term, explanation: promptData.explanation } 
       }));
 
-      // Step 2: Wikimedia Integration with 2nd Stage AI Verification
-      const wikiRes = await fetch("/api/wikimedia-search", {
+      // Step 2: Openverse Integration with 3-Layer Safety
+      const imageRes = await fetch("/api/image-search", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...payload, standardContext: standard.description }),
       });
-      const wikiData = await wikiRes.json();
+      const imageData = await imageRes.json();
       
       setResults(prev => ({ 
         ...prev, 
         [id]: { 
            ...prev[id],
            prompting: false,
-           ...(wikiData.error ? { error: wikiData.error } : wikiData)
+           ...(imageData.error ? { error: imageData.error } : imageData)
         } 
       }));
     } catch (e) {

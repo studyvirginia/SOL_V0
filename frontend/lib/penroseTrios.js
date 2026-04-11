@@ -614,6 +614,17 @@ where OnCircle(p, center) {
 }
 `;
 
+const NUMBER_LINE_STYLE = `
+${GEOMETRY_STYLE}
+
+forall Point p {
+  // Keep integer labels visually consistent under each tick on the number line.
+  override p.lbl.center = p.dot.center + (0, -28)
+  override p.lbl.fontSize = "18px"
+  override p.lbl.fontWeight = "700"
+}
+`;
+
 // 17. Basic labeled triangle ABC
 export const TRIO_TRIANGLE_LABELED = {
   domain: GEOMETRY_DOMAIN,
@@ -1650,7 +1661,7 @@ Label top "⊤"
 // 52. Number line: five equally-spaced labeled integer points
 export const TRIO_NUMBER_LINE = {
   domain: GEOMETRY_DOMAIN,
-  style: GEOMETRY_STYLE,
+  style: NUMBER_LINE_STYLE,
   substance: `
 Point P, A, B, C, Q
 Segment pa := MkSeg(P, A)
