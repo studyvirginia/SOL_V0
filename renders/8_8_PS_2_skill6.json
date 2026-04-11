@@ -1,0 +1,122 @@
+{
+  "key": "8_8_PS_2_skill6",
+  "grade": "8",
+  "code": "8.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 8 Math",
+  "desc": "Apply the data cycle with a focus on boxplots.",
+  "skill_desc": "Describe how the presence of an extreme data point (outlier) affects the shape and spread of the data distribution of a boxplot.",
+  "skill_idx": 5,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PS_2_skill6.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "col1",
+            "latex": "x_{1}",
+            "values": [
+              "10",
+              "12",
+              "15",
+              "18",
+              "20",
+              "22",
+              "25",
+              "28",
+              "30",
+              "50"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "boxplot(x_{1})",
+        "color": "#007AFF",
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "Q_{1}=\\operatorname{median}(x_{1\\leq\\operatorname{median}(x_{1})})",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e4",
+        "latex": "Q_{3}=\\operatorname{median}(x_{1\\geq\\operatorname{median}(x_{1})})",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e5",
+        "latex": "IQR=Q_{3}-Q_{1}",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e6",
+        "latex": "LowerBound=Q_{1}-1.5\\cdot IQR",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e7",
+        "latex": "UpperBound=Q_{3}+1.5\\cdot IQR",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "p1",
+        "latex": "(50,0)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "Outlier",
+        "showLabel": true,
+        "labelOrientation": "ABOVE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": -1,
+      "right": 55,
+      "top": 1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Boxplot with Outlier"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

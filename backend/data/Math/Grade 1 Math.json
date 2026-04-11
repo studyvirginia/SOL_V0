@@ -1,0 +1,822 @@
+{
+  "subject": "Math",
+  "course": "Grade 1 Math",
+  "domains": [
+    {
+      "name": "Number and Number Sense",
+      "standards": [
+        {
+          "code": "1.NS.1",
+          "description": "Utilize flexible counting strategies to determine and describe quantities up to 120.",
+          "skills": [
+            {
+              "description": "Count forward orally by ones from 0 to 120 starting at any number between 0 and 120.",
+              "keywords": [
+                "oral counting",
+                "ones",
+                "forward sequence",
+                "120 chart"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Count backward orally by ones when given any number between 1 and 30.",
+              "keywords": [
+                "oral counting",
+                "ones",
+                "backward sequence",
+                "counting down"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent forward counting patterns when counting by groups of 5 and groups of 10 up to 120 using a variety of tools (e.g., objects, coins, 120 chart).",
+              "keywords": [
+                "skip counting",
+                "groups of 5",
+                "groups of 10",
+                "120 chart",
+                "counting patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent forward counting patterns when counting by groups of 2 up to at least 30 using a variety of tools (e.g., beaded number strings, number paths, 120 chart).",
+              "keywords": [
+                "skip counting",
+                "groups of 2",
+                "even numbers",
+                "beaded number strings",
+                "number paths"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Group a collection of up to 120 objects into tens and ones, and count to determine the total.",
+              "keywords": [
+                "place value",
+                "tens and ones",
+                "grouping",
+                "counting total",
+                "connecting cubes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a penny, nickel, and dime by their attributes and describe the number of pennies equivalent to a nickel and a dime.",
+              "keywords": [
+                "coin attributes",
+                "penny",
+                "nickel",
+                "dime",
+                "equivalent value",
+                "pennies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Count by ones, fives, or tens to determine the value of a collection of like coins (pennies, nickels, or dimes), whose total value is 100 cents or less.",
+              "keywords": [
+                "coin value",
+                "pennies",
+                "nickels",
+                "dimes",
+                "skip counting",
+                "100 cents"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.NS.2",
+          "description": "Represent, compare, and order quantities up to 120.",
+          "skills": [
+            {
+              "description": "Read and write numerals 0-120 in sequence and out of sequence.",
+              "keywords": [
+                "numeral writing",
+                "0-120",
+                "sequence",
+                "out of sequence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate the number of objects (up to 120) in a given collection and justify the reasonableness of an answer.",
+              "keywords": [
+                "estimation",
+                "number of objects",
+                "reasonableness",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a concrete or pictorial representation of a number using tens and ones and write the corresponding numeral up to 120.",
+              "keywords": [
+                "concrete representation",
+                "pictorial representation",
+                "tens and ones",
+                "numeral writing",
+                "120"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the number of groups of tens and ones when given a two-digit number and justify reasoning.",
+              "keywords": [
+                "place value",
+                "tens and ones",
+                "two-digit number",
+                "justification",
+                "reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare two numbers between 0 and 120 represented pictorially or with concrete objects using the terms greater than, less than, or equal to.",
+              "keywords": [
+                "number comparison",
+                "greater than",
+                "less than",
+                "equal to",
+                "pictorial representation",
+                "concrete objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Order three sets, each set containing up to 120 objects, from least to greatest, and greatest to least.",
+              "keywords": [
+                "ordering sets",
+                "least to greatest",
+                "greatest to least",
+                "120 objects",
+                "comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.NS.3",
+          "description": "Use mathematical reasoning and justification to solve contextual problems that involve partitioning models into two and four equal-sized parts.",
+          "skills": [
+            {
+              "description": "Represent equal shares of a whole with two or four sharers, when given a contextual problem.",
+              "keywords": [
+                "equal shares",
+                "whole",
+                "two sharers",
+                "four sharers",
+                "contextual problem"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and name halves and fourths of a whole, using a region/area model (e.g., pie pieces, pattern blocks, paper folding, drawings) and a set model (e.g., eggs, marbles, counters) limited to two or four items.",
+              "keywords": [
+                "halves",
+                "fourths",
+                "region model",
+                "area model",
+                "set model",
+                "pie pieces",
+                "pattern blocks",
+                "eggs",
+                "marbles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and justify how shares are equal pieces or equal parts of the whole (limited to halves, fourths) when given a contextual problem.",
+              "keywords": [
+                "equal pieces",
+                "whole",
+                "halves",
+                "fourths",
+                "justification",
+                "contextual problem"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "name": "Computation and Estimation",
+          "standards": [
+            {
+              "code": "1.CE.1",
+              "description": "Recall with automaticity addition and subtraction facts within 10 and represent, solve, and justify solutions to single-step problems, including those in context, using addition and subtraction with whole numbers within 20.",
+              "skills": [
+                {
+                  "description": "Recognize and describe with fluency part-part-whole relationships for numbers up to 10 in a variety of configurations.",
+                  "keywords": [
+                    "part-part-whole",
+                    "numbers up to 10",
+                    "fluency",
+                    "configurations"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Demonstrate fluency with addition and subtraction within 10 by applying reasoning strategies (e.g., count on/count back, one more/one less, doubles, make ten).",
+                  "keywords": [
+                    "addition fluency",
+                    "subtraction fluency",
+                    "within 10",
+                    "reasoning strategies",
+                    "count on",
+                    "count back",
+                    "doubles",
+                    "make ten"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Recall with automaticity addition and subtraction facts within 10.",
+                  "keywords": [
+                    "automaticity",
+                    "addition facts",
+                    "subtraction facts",
+                    "within 10"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Investigate, recognize, and describe part-part-whole relationships for numbers up to 20 in a variety of configurations (e.g., beaded racks, double ten frames).",
+                  "keywords": [
+                    "part-part-whole",
+                    "numbers up to 20",
+                    "configurations",
+                    "beaded racks",
+                    "double ten frames"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Solve addition and subtraction problems within 20 using various strategies (e.g., inverse relationships: if 9 + 3 = 12 then 12 - 3 = 9; decomposition using known sums/differences: 9 + 7 can be thought of as 9 decomposed into 2 and 7, then use doubles, 7 + 7 = 14; 14 + 2 = 16 or decompose the 7 into 1 and 6; make a ten: 1 + 9 = 10; 10 + 6 = 16).",
+                  "keywords": [
+                    "addition strategies",
+                    "subtraction strategies",
+                    "within 20",
+                    "inverse relationships",
+                    "decomposition",
+                    "make ten",
+                    "known sums"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Represent, solve, and justify solutions to single-step addition and subtraction problems (join, separate, and part-part-whole) within 20, including those in context, using words, objects, drawings, or numbers.",
+                  "keywords": [
+                    "single-step problems",
+                    "join problems",
+                    "separate problems",
+                    "part-part-whole problems",
+                    "within 20",
+                    "contextual problems"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Determine the unknown whole number that will result in a sum or difference of 10 or 20 (e.g., 14 - __ = 10 or 15 + __ = 20).",
+                  "keywords": [
+                    "unknown whole number",
+                    "sum of 10",
+                    "difference of 10",
+                    "sum of 20",
+                    "difference of 20",
+                    "equations"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Identify and use (+) as a symbol for addition and (-) as a symbol for subtraction.",
+                  "keywords": [
+                    "addition symbol",
+                    "(+)",
+                    "subtraction symbol",
+                    "(-)",
+                    "symbol identification"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Describe the equal symbol (=) as a balance representing an equivalent relationship between expressions on either side of the equal symbol.",
+                  "keywords": [
+                    "equal symbol",
+                    "(=)",
+                    "balance",
+                    "equivalent relationship",
+                    "expressions",
+                    "symbol description"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Use concrete materials to model, identify, and justify when two expressions are not equal.",
+                  "keywords": [
+                    "unequal expressions",
+                    "concrete materials",
+                    "modeling",
+                    "justification"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Use concrete materials to model an equation that represents the relationship of two expressions of equal value.",
+                  "keywords": [
+                    "equal value expressions",
+                    "concrete materials",
+                    "equation modeling",
+                    "relationship"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Write an equation that could be used to represent the solution to an oral, written, or picture problem.",
+                  "keywords": [
+                    "equation writing",
+                    "oral problems",
+                    "written problems",
+                    "picture problems",
+                    "solution representation"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Measurement and Geometry",
+          "standards": [
+            {
+              "code": "1.MG.1",
+              "description": "Reason mathematically using nonstandard units to measure and compare objects by length, weight, and volume.",
+              "skills": [
+                {
+                  "description": "Measure the lengths of two objects (units laid end to end with no gaps or overlaps) and compare the measurements using the terms longer/shorter, taller/shorter, or the same as.",
+                  "keywords": [
+                    "length measurement",
+                    "nonstandard units",
+                    "longer",
+                    "shorter",
+                    "taller",
+                    "same as"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Measure the weights of two objects (using a balance scale or a pan scale) and compare the measurements using the terms lighter, heavier, or the same as.",
+                  "keywords": [
+                    "weight measurement",
+                    "balance scale",
+                    "pan scale",
+                    "lighter",
+                    "heavier",
+                    "same as"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Measure the volumes of two containers and compare the measurements using the terms more, less, or the same as.",
+                  "keywords": [
+                    "volume measurement",
+                    "nonstandard units",
+                    "more",
+                    "less",
+                    "same as"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Measure the length, weight, or volume of the same object or container with two different units and describe how and why the measurements differ.",
+                  "keywords": [
+                    "measurement comparison",
+                    "two different units",
+                    "differences in measurements",
+                    "unit proportionality"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                }
+              ]
+            },
+            {
+              "code": "1.MG.2",
+              "description": "Describe, sort, draw, and name plane figures (circles, triangles, squares, and rectangles), and compose larger plane figures by combining simple plane figures.",
+              "skills": [
+                {
+                  "description": "Describe triangles, squares, and rectangles using the terms sides, vertices, and angles. Describe a circle using terms such as round and curved.",
+                  "keywords": [
+                    "triangle description",
+                    "sides",
+                    "vertices",
+                    "angles",
+                    "square description",
+                    "rectangle description",
+                    "circle description",
+                    "round",
+                    "curved"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Sort plane figures based on their characteristics (e.g., number of sides, vertices, angles, curved).",
+                  "keywords": [
+                    "plane figure sorting",
+                    "characteristics",
+                    "number of sides",
+                    "vertices",
+                    "curved"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Draw and name the plane figure (circle, square, rectangle, triangle) when given information about the number of sides, vertices, and angles.",
+                  "keywords": [
+                    "plane figure drawing",
+                    "naming",
+                    "number of sides",
+                    "vertices",
+                    "angles",
+                    "circle",
+                    "square",
+                    "rectangle",
+                    "triangle"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Identify, name, and describe representations of circles, squares, rectangles, and triangles, regardless of orientation, in different environments and explain reasoning.",
+                  "keywords": [
+                    "plane figure identification",
+                    "circles",
+                    "squares",
+                    "rectangles",
+                    "triangles",
+                    "orientation independence",
+                    "reasoning explanation"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Recognize and name the angles found in rectangles and squares as right angles.",
+                  "keywords": [
+                    "right angles",
+                    "rectangles",
+                    "squares",
+                    "angle recognition",
+                    "naming"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Compose larger plane figures by combining two or three simple plane figures (triangles, squares, and/or rectangles).",
+                  "keywords": [
+                    "plane figure composition",
+                    "larger figures",
+                    "two simple figures",
+                    "three simple figures",
+                    "triangles",
+                    "squares",
+                    "rectangles"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                }
+              ]
+            },
+            {
+              "code": "1.MG.3",
+              "description": "Demonstrate an understanding of the concept of passage of time (to the nearest hour and half-hour) and the calendar.",
+              "skills": [
+                {
+                  "description": "Identify different tools to measure time including clocks (analog and digital) and calendar.",
+                  "keywords": [
+                    "time measurement tools",
+                    "clocks",
+                    "analog",
+                    "digital",
+                    "calendar"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Describe the units of time represented on a clock as minutes and hours.",
+                  "keywords": [
+                    "time units",
+                    "minutes",
+                    "hours",
+                    "clock description"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Tell time to the hour and half-hour, using analog and digital clocks.",
+                  "keywords": [
+                    "time telling",
+                    "hour",
+                    "half-hour",
+                    "analog clocks",
+                    "digital clocks"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Describe the location of the hour hand relative to time to the hour and half-hour on an analog clock.",
+                  "keywords": [
+                    "hour hand location",
+                    "analog clock",
+                    "time to the hour",
+                    "time to the half-hour"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Describe the location of the minute hand relative to time to the hour and half-hour on an analog clock.",
+                  "keywords": [
+                    "minute hand location",
+                    "analog clock",
+                    "time to the hour",
+                    "time to the half-hour"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Match the time shown on a digital clock to an analog clock to the hour and half-hour.",
+                  "keywords": [
+                    "time matching",
+                    "digital clock",
+                    "analog clock",
+                    "hour",
+                    "half-hour"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Identify specific days/dates on a calendar (e.g., What date is Saturday? How many Fridays are in October?).",
+                  "keywords": [
+                    "calendar identification",
+                    "days",
+                    "dates",
+                    "specific days",
+                    "specific dates"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Use ordinal numbers first through tenth to describe the relative position of specific days/dates.",
+                  "keywords": [
+                    "ordinal number usage",
+                    "first",
+                    "tenth",
+                    "relative position",
+                    "specific days",
+                    "specific dates"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Determine the day/date before and after a given day/date, and a date that is a specific number of days/weeks in the past or future.",
+                  "keywords": [
+                    "date determination",
+                    "day before",
+                    "day after",
+                    "specific number of days",
+                    "specific number of weeks",
+                    "past dates",
+                    "future dates"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Probability and Statistics",
+          "standards": [
+            {
+              "code": "1.PS.1",
+              "description": "Apply the data cycle (pose questions; collect or acquire data; organize and represent data; and analyze data and communicate results) with a focus on object graphs, picture graphs, and tables.",
+              "skills": [
+                {
+                  "description": "Sort and classify concrete objects into appropriate subsets (categories) based on one or two attributes, such as size, shape, color, and/or thickness.",
+                  "keywords": [
+                    "object sorting",
+                    "one attribute",
+                    "two attributes",
+                    "categories",
+                    "size",
+                    "shape",
+                    "color",
+                    "thickness"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Describe and label attributes of a set of objects that has been sorted.",
+                  "keywords": [
+                    "attribute labeling",
+                    "sorted objects",
+                    "one attribute",
+                    "two attributes"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Pose questions, given a predetermined context, that require the collection of data (limited to 25 or fewer data points for no more than four categories).",
+                  "keywords": [
+                    "data question posing",
+                    "predetermined context",
+                    "data collection",
+                    "four categories",
+                    "25 data points"
+                  ],
+                  "prerequisites": [],
+                  "cross_links: []": {
+                    "description": "Determine the data needed to answer a posed question and collect the data using various methods (e.g., counting objects, drawing pictures, tallying).",
+                    "keywords": [
+                      "data collection methods",
+                      "counting objects",
+                      "drawing pictures",
+                      "tallying",
+                      "posed questions"
+                    ]
+                  },
+                  "cross_links": []
+                }
+              ],
+              "standards": [
+                {
+                  "code": "1.PS.1",
+                  "description": "Apply the data cycle (pose questions; collect or acquire data; organize and represent data; and analyze data and communicate results) with a focus on object graphs, picture graphs, and tables.",
+                  "skills": [
+                    {
+                      "description": "Organize and represent a data set by sorting the collected data using various methods (e.g., tallying, T-charts).",
+                      "keywords": [
+                        "data organization",
+                        "tallying",
+                        "T-charts",
+                        "collected data"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    },
+                    {
+                      "description": "Represent a data set (vertically or horizontally) using object graphs, picture graphs, and tables.",
+                      "keywords": [
+                        "data representation",
+                        "object graphs",
+                        "picture graphs",
+                        "tables",
+                        "vertical",
+                        "horizontal"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    },
+                    {
+                      "description": "Analyze data represented in object graphs, picture graphs, and tables by asking and answering questions about the data (e.g., total number of data points represented, how many in each category, how many more or less are in one category than another).",
+                      "keywords": [
+                        "data analysis questions",
+                        "total data points",
+                        "number per category",
+                        "more or less per category"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    },
+                    {
+                      "description": "Draw conclusions about the data and make predictions based on the data.",
+                      "keywords": [
+                        "data conclusions",
+                        "predictions",
+                        "data patterns",
+                        "category comparisons"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Patterns, Functions, and Algebra",
+              "standards": [
+                {
+                  "code": "1.PFA.1",
+                  "description": "Identify, describe, extend, create, and transfer repeating patterns and increasing patterns using various representations.",
+                  "skills": [
+                    {
+                      "description": "Identify and describe repeating and increasing patterns.",
+                      "keywords": [
+                        "pattern identification",
+                        "repeating patterns",
+                        "increasing patterns",
+                        "pattern description"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    },
+                    {
+                      "description": "Analyze a repeating or increasing pattern and generalize the change to extend the pattern using objects, colors, movements, pictures, or geometric figures.",
+                      "keywords": [
+                        "pattern analysis",
+                        "repeating patterns",
+                        "increasing patterns",
+                        "change generalization",
+                        "pattern extension"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    },
+                    {
+                      "description": "Create a repeating or increasing pattern using objects, pictures, movements, colors, or geometric figures.",
+                      "keywords": [
+                        "pattern creation",
+                        "repeating patterns",
+                        "increasing patterns",
+                        "objects",
+                        "pictures",
+                        "movements",
+                        "colors",
+                        "geometric figures"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    },
+                    {
+                      "description": "Transfer a repeating or increasing pattern from one form to another.",
+                      "keywords": [
+                        "pattern transfer",
+                        "repeating patterns",
+                        "increasing patterns",
+                        "form change",
+                        "different representation"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

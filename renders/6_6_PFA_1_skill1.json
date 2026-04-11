@@ -1,0 +1,105 @@
+{
+  "key": "6_6_PFA_1_skill1",
+  "grade": "6",
+  "code": "6.PFA.1",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 6 Math",
+  "desc": "Use ratios to represent relationships between quantities, including contextual problems.",
+  "skill_desc": "Represent a relationship between two quantities using ratios.",
+  "skill_idx": 0,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PFA_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{2}{3}x",
+        "color": "#007AFF",
+        "label": "Ratio Relationship",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(3,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "label": "(3, 2)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(6,4)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "label": "(6, 4)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 7,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Ratio Relationship"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = x",
+      "SetColor(g, 255, 0, 0)",
+      "A = (1, 2)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"(1, 2)\")",
+      "SetLabelMode(A, 3)",
+      "B = (2, 4)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"(2, 4)\")",
+      "SetLabelMode(B, 3)",
+      "C = (3, 6)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"(3, 6)\")",
+      "SetLabelMode(C, 3)",
+      "D = (4, 8)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"(4, 8)\")",
+      "SetLabelMode(D, 3)",
+      "E = (5, 10)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"(5, 10)\")",
+      "SetLabelMode(E, 3)"
+    ],
+    "view": [
+      -1,
+      6,
+      -1,
+      11
+    ],
+    "showGrid": true,
+    "title": "Representing a relationship between two quantities using ratios"
+  },
+  "sketchmath_state": null
+}

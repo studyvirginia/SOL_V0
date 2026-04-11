@@ -1,0 +1,156 @@
+{
+  "key": "6_6_NS_1_skill3",
+  "grade": "6",
+  "code": "6.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 6 Math",
+  "desc": "Express equivalency, compare, and order numbers written as fractions, mixed numbers, decimals, and percents using multiple strategies.",
+  "skill_desc": "Represent and determine equivalencies among fractions (proper or improper) and mixed numbers with denominators \u226412 or factors of 100 and percents using number lines, concrete models, and pictorial models.",
+  "skill_idx": 2,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_NS_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\frac{1}{2}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "0.5",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "50\\%",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "l1",
+        "latex": "x=0",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "l2",
+        "latex": "x=1",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "l3",
+        "latex": "x=0.5",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#007AFF",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(0.5,0)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(1,0)",
+        "color": "#34C759",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,1)",
+        "color": "#007AFF",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(0.5,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(1,1)",
+        "color": "#34C759",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -0.2,
+      "bottom": -0.2,
+      "right": 1.2,
+      "top": 1.2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Fraction, Decimal, and Percent Equivalencies"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

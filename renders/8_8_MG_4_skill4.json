@@ -1,0 +1,177 @@
+{
+  "key": "8_8_MG_4_skill4",
+  "grade": "8",
+  "code": "8.MG.4",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 8 Math",
+  "desc": "Apply the Pythagorean Theorem to solve problems involving right triangles.",
+  "skill_desc": "Determine the measure of a side of a right triangle given the measures of the other two sides.",
+  "skill_idx": 3,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/8_8_MG_4_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "a=3",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e2",
+        "latex": "b=4",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointSize": 15,
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(a,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointSize": 15,
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(a,b)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointSize": 15,
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "poly1",
+        "latex": "\\operatorname{polygon}((0,0),(a,0),(a,b))",
+        "color": "#34C759",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "rightAngle",
+        "latex": "\\operatorname{polygon}((a,0),(a,0.5),(a-0.5,0))",
+        "color": "#000000",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "c",
+        "latex": "c=\\sqrt{a^{2}+b^{2}}",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "sideC",
+        "latex": "c",
+        "label": "c",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "labelOrientation": "RIGHT",
+        "color": "#007AFF",
+        "hidden": false
+      },
+      {
+        "id": "sideA",
+        "latex": "a",
+        "label": "a",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "labelOrientation": "BELOW",
+        "color": "#007AFF",
+        "hidden": false
+      },
+      {
+        "id": "sideB",
+        "latex": "b",
+        "label": "b",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "labelOrientation": "RIGHT",
+        "color": "#007AFF",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 6
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Pythagorean Theorem"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (12, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (0, 5)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "tri = Polygon(A, B, C)",
+      "SetColor(tri, 0, 122, 255)",
+      "Angle(tri)",
+      "seg = Segment(B, C)",
+      "SetColor(seg, 255, 0, 0)",
+      "SetLabelVisible(seg, true)",
+      "SetCaption(seg, \"c\")",
+      "SetLabelMode(seg, 3)"
+    ],
+    "view": [
+      -1,
+      13,
+      -1,
+      6
+    ],
+    "showGrid": true,
+    "title": "Right triangle with sides 5, 12, and c (Pythagorean Theorem)"
+  },
+  "sketchmath_state": null
+}

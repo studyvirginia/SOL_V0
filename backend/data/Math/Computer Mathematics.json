@@ -1,0 +1,986 @@
+{
+  "subject": "Math",
+  "course": "Computer Mathematics",
+  "domains": [
+    {
+      "name": "Data Representation and Storage",
+      "standards": [
+        {
+          "code": "CM.DRS.1",
+          "description": "Represent data and convert between number systems.",
+          "skills": [
+            {
+              "description": "Represent data in binary, decimal, and hexadecimal number systems.",
+              "keywords": [
+                "binary",
+                "decimal",
+                "hexadecimal",
+                "number systems",
+                "data representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Convert data between number systems (e.g., binary to decimal, decimal to hexadecimal).",
+              "keywords": [
+                "number conversion",
+                "binary to decimal",
+                "decimal to hexadecimal",
+                "data conversion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.DRS.2",
+          "description": "Differentiate between variable data types based on their characteristics.",
+          "skills": [
+            {
+              "description": "Describe the characteristics of Boolean data types.",
+              "keywords": [
+                "Boolean",
+                "data types",
+                "true/false",
+                "logical values"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the characteristics of character data types.",
+              "keywords": [
+                "character",
+                "data types",
+                "single character",
+                "ASCII",
+                "Unicode"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the characteristics of integer data types.",
+              "keywords": [
+                "integer",
+                "data types",
+                "whole numbers",
+                "signed/unsigned"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the characteristics of decimal (double/float) data types.",
+              "keywords": [
+                "decimal",
+                "double",
+                "float",
+                "floating-point",
+                "data types",
+                "precision"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the characteristics of string data types.",
+              "keywords": [
+                "string",
+                "data types",
+                "text",
+                "sequence of characters"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between variable data types to determine the appropriate type for intended use (e.g., character vs. string, integer vs. double/float).",
+              "keywords": [
+                "data type selection",
+                "character vs string",
+                "integer vs float",
+                "variable types"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.DRS.3",
+          "description": "Represent data using appropriate data structures.",
+          "skills": [
+            {
+              "description": "Determine the appropriate data structure (e.g., lists, arrays, objects) to represent data for a given task or problem.",
+              "keywords": [
+                "data structures",
+                "lists",
+                "arrays",
+                "objects",
+                "data representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Declare a one-dimensional or two-dimensional list or array.",
+              "keywords": [
+                "declare",
+                "list",
+                "array",
+                "one-dimensional",
+                "two-dimensional"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Choose an appropriate data type for a list or an array.",
+              "keywords": [
+                "data type selection",
+                "list",
+                "array",
+                "data types"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Fill a list or array with data.",
+              "keywords": [
+                "initialize",
+                "populate",
+                "list",
+                "array",
+                "data insertion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Access and manipulate a particular element of a list or array.",
+              "keywords": [
+                "access",
+                "manipulate",
+                "list",
+                "array",
+                "element indexing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Implement predefined objects to consolidate related information of different data types.",
+              "keywords": [
+                "objects",
+                "data consolidation",
+                "data types",
+                "predefined structures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Components of Programming",
+      "standards": [
+        {
+          "code": "CM.CP.1",
+          "description": "Design a step-by-step plan to perform a task or solve a problem.",
+          "skills": [
+            {
+              "description": "Design a step-by-step plan to perform a task or solve a problem using a flowchart or pseudocode.",
+              "keywords": [
+                "flowchart",
+                "pseudocode",
+                "step-by-step plan",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define the variables needed to perform a task or solve a problem.",
+              "keywords": [
+                "variable definition",
+                "variable declaration",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define the constraints of a task or problem (e.g., pre-conditions, post-conditions) to determine desired input and output.",
+              "keywords": [
+                "constraints",
+                "pre-conditions",
+                "post-conditions",
+                "input/output",
+                "problem constraints"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.CP.2",
+          "description": "Construct Boolean expressions and implement conditional statements.",
+          "skills": [
+            {
+              "description": "Write and implement Boolean expressions using logical and relational operators (e.g., !, &&, ||, ==, <, >, >=, <=, !=).",
+              "keywords": [
+                "Boolean expressions",
+                "logical operators",
+                "relational operators",
+                "&&",
+                "||",
+                "==",
+                "!="
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement 'if' conditional statements.",
+              "keywords": [
+                "if statements",
+                "conditional statements",
+                "branching"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement 'if/else' conditional statements.",
+              "keywords": [
+                "if/else statements",
+                "conditional statements",
+                "branching"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement compound conditional statements (e.g., nested conditionals, chained conditional statements).",
+              "keywords": [
+                "compound conditionals",
+                "nested conditionals",
+                "chained conditionals",
+                "branching"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which parts of an algorithm are executed based on a condition being true or false.",
+              "keywords": [
+                "algorithm execution",
+                "conditional logic",
+                "branching"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.CP.3",
+          "description": "Perform iteration with loops.",
+          "skills": [
+            {
+              "description": "Write and implement 'while' loops.",
+              "keywords": [
+                "while loops",
+                "iteration",
+                "looping"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement 'for' loops.",
+              "keywords": [
+                "for loops",
+                "iteration",
+                "looping",
+                "fixed iterations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between loops that run a fixed number of times and loops that run an indefinite number of times.",
+              "keywords": [
+                "fixed iterations",
+                "indefinite iterations",
+                "loop types",
+                "loop conditions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify conditions that cause infinite loops.",
+              "keywords": [
+                "infinite loops",
+                "loop conditions",
+                "termination conditions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the outcome of code segments that include loops.",
+              "keywords": [
+                "loop outcome",
+                "code tracing",
+                "iteration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.CP.4",
+          "description": "Write and implement the output phase of a computer program.",
+          "skills": [
+            {
+              "description": "Write and implement the output phase of a computer program, including formatting output in text-based environments.",
+              "keywords": [
+                "output formatting",
+                "text-based output",
+                "program output"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement output through a graphical user interface.",
+              "keywords": [
+                "GUI output",
+                "graphical output",
+                "program output"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write output to a physical device (e.g., speakers, robots, LED lights).",
+              "keywords": [
+                "physical device output",
+                "hardware output",
+                "output devices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write output to a file.",
+              "keywords": [
+                "file output",
+                "data storage",
+                "file I/O"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.CP.5",
+          "description": "Write and implement the input phase of a computer program.",
+          "skills": [
+            {
+              "description": "Write and implement input statements to store user-given values into a program.",
+              "keywords": [
+                "input statements",
+                "user input",
+                "data entry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Validate input data using exception coding (e.g., using a 'while' loop to control valid input by a user).",
+              "keywords": [
+                "input validation",
+                "exception handling",
+                "data validation",
+                "while loops"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine what output a program will produce given a specific input.",
+              "keywords": [
+                "input-output mapping",
+                "program output prediction",
+                "input analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.CP.6",
+          "description": "Implement library functions.",
+          "skills": [
+            {
+              "description": "Implement library functions to process data.",
+              "keywords": [
+                "library functions",
+                "data processing",
+                "built-in functions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Implement library functions to perform mathematical operations (e.g., random, absolute value, square root, power).",
+              "keywords": [
+                "mathematical functions",
+                "random",
+                "absolute value",
+                "square root",
+                "power",
+                "library functions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Implement void library functions.",
+              "keywords": [
+                "void functions",
+                "library functions",
+                "procedures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Implement return library functions.",
+              "keywords": [
+                "return functions",
+                "library functions",
+                "functions with return values"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Implement overloaded library functions.",
+              "keywords": [
+                "overloaded functions",
+                "function overloading",
+                "library functions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.CP.7",
+          "description": "Write and implement user-defined functions.",
+          "skills": [
+            {
+              "description": "Write and implement a user-defined function to complete a task or sub-task.",
+              "keywords": [
+                "user-defined functions",
+                "function definition",
+                "subroutines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement void functions.",
+              "keywords": [
+                "void functions",
+                "procedures",
+                "user-defined functions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement return functions.",
+              "keywords": [
+                "return functions",
+                "functions with return values",
+                "user-defined functions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement functions that accept parameters.",
+              "keywords": [
+                "parameterized functions",
+                "function parameters",
+                "user-defined functions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.CP.8",
+          "description": "Implement pre-defined algorithms, including search and sort routines.",
+          "skills": [
+            {
+              "description": "Differentiate between types of search routines.",
+              "keywords": [
+                "search routines",
+                "sequential search",
+                "binary search",
+                "search algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between types of sort routines.",
+              "keywords": [
+                "sort routines",
+                "selection sort",
+                "insertion sort",
+                "merge sort",
+                "sorting algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Implement pre-defined algorithms.",
+              "keywords": [
+                "pre-defined algorithms",
+                "algorithm implementation",
+                "algorithmic thinking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Implement a search routine on a one-dimensional list or array, including sequential search and binary search.",
+              "keywords": [
+                "sequential search",
+                "binary search",
+                "search implementation",
+                "list/array search"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Implement a sort routine on a one-dimensional list or array (e.g., selection sort, insertion sort, merge sort).",
+              "keywords": [
+                "selection sort",
+                "insertion sort",
+                "merge sort",
+                "sort implementation",
+                "list/array sort"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Applications of Programming",
+      "standards": [
+        {
+          "code": "CM.AP.1",
+          "description": "Write and implement programs using sequencing, selection, and iteration to perform tasks or solve problems.",
+          "skills": [
+            {
+              "description": "Determine what components of programming are needed to implement a step-by-step plan to perform a specific task or solve a problem.",
+              "keywords": [
+                "program components",
+                "sequencing",
+                "selection",
+                "iteration",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write a computer program that includes sequencing, selection (conditionals), and iteration (loops).",
+              "keywords": [
+                "sequencing",
+                "selection",
+                "iteration",
+                "conditionals",
+                "loops",
+                "programming"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement computer programs to solve mathematical problems using formulas and equations.",
+              "keywords": [
+                "mathematical formulas",
+                "equations",
+                "programming",
+                "math problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement computer programs to solve mathematical problems using functions.",
+              "keywords": [
+                "mathematical functions",
+                "programming",
+                "math problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement computer programs to solve mathematical problems using probability and statistics.",
+              "keywords": [
+                "probability",
+                "statistics",
+                "mathematical problems",
+                "programming"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and implement computer programs to solve mathematical problems using data analysis.",
+              "keywords": [
+                "data analysis",
+                "mathematical problems",
+                "programming"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.AP.2",
+          "description": "Create documentation using written comments to annotate the intended purpose of program components.",
+          "skills": [
+            {
+              "description": "Create documentation using written comments to describe the overall purpose of a program.",
+              "keywords": [
+                "program documentation",
+                "comments",
+                "purpose description"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create documentation using written comments to align a previously created step-by-step plan to a written program.",
+              "keywords": [
+                "program alignment",
+                "step-by-step plan",
+                "documentation",
+                "comments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create documentation using written comments to describe pre-conditions and post-conditions.",
+              "keywords": [
+                "pre-conditions",
+                "post-conditions",
+                "documentation",
+                "comments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create documentation using written comments to improve the readability of a program.",
+              "keywords": [
+                "readability",
+                "comments",
+                "program documentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.AP.3",
+          "description": "Verify how programs access and process variables.",
+          "skills": [
+            {
+              "description": "Verify that variable types are aligned to the purpose of the algorithm.",
+              "keywords": [
+                "variable types",
+                "algorithm purpose",
+                "data alignment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify that global variables are set to constant values before run time.",
+              "keywords": [
+                "global variables",
+                "constant values",
+                "pre-run initialization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between the scopes of variables (e.g., global scope vs. local scope) and verify intended use.",
+              "keywords": [
+                "variable scope",
+                "global scope",
+                "local scope",
+                "variable usage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.AP.4",
+          "description": "Translate a mathematical expression or statement into computer code.",
+          "skills": [
+            {
+              "description": "Declare, initialize, and assign variables to represent mathematical expressions or statements.",
+              "keywords": [
+                "variable declaration",
+                "variable initialization",
+                "mathematical expressions",
+                "assignment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Implement order of operations, including logical and relational operators.",
+              "keywords": [
+                "order of operations",
+                "logical operators",
+                "relational operators",
+                "PEMDAS"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Translate a mathematical expression or statement into a programming statement(s).",
+              "keywords": [
+                "mathematical translation",
+                "programming statements",
+                "expression conversion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.AP.5",
+          "description": "Trace existing code to interpret the intended purpose.",
+          "skills": [
+            {
+              "description": "Trace existing code of an algorithm to identify values at each stage of an algorithm.",
+              "keywords": [
+                "code tracing",
+                "algorithm values",
+                "step-by-step tracing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Trace existing code of an algorithm to predict return values of functions given specific arguments.",
+              "keywords": [
+                "return value prediction",
+                "function tracing",
+                "algorithm tracing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use tracing to describe the intended purpose of existing code for an algorithm.",
+              "keywords": [
+                "purpose interpretation",
+                "code tracing",
+                "algorithm purpose"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Evaluation of Programming",
+      "standards": [
+        {
+          "code": "CM.EP.1",
+          "description": "Test a program to match a sample output using a set of data.",
+          "skills": [
+            {
+              "description": "Produce a given output by entering a data set.",
+              "keywords": [
+                "output matching",
+                "data set",
+                "program testing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Test a program including boundary cases and inaccurate data types to verify intended outcomes.",
+              "keywords": [
+                "boundary testing",
+                "data type validation",
+                "program testing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.EP.2",
+          "description": "Identify errors and debug a program using various techniques.",
+          "skills": [
+            {
+              "description": "Differentiate among syntax errors, runtime errors, and logic errors.",
+              "keywords": [
+                "syntax errors",
+                "runtime errors",
+                "logic errors",
+                "error types"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Debug a program by interpreting syntax and runtime error messages.",
+              "keywords": [
+                "error message interpretation",
+                "syntax errors",
+                "runtime errors",
+                "debugging"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Debug a program by placing controlled breaks.",
+              "keywords": [
+                "controlled breaks",
+                "debugging",
+                "breakpoints"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Debug a program by outputting intermediate results.",
+              "keywords": [
+                "intermediate results",
+                "debugging",
+                "output analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Debug a program by disabling a section of code by converting it into a comment.",
+              "keywords": [
+                "code commenting",
+                "debugging",
+                "section isolation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Debug a program by tracing code to identify logic errors.",
+              "keywords": [
+                "code tracing",
+                "logic errors",
+                "debugging"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Debug a program using debugging tools available in the programming environment.",
+              "keywords": [
+                "debugging tools",
+                "IDE tools",
+                "debugging"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CM.EP.3",
+          "description": "Compare and contrast the efficiency of computer programs.",
+          "skills": [
+            {
+              "description": "Compare and contrast the efficiency of computer programs in terms of complexity of algorithms with the same intended outcomes.",
+              "keywords": [
+                "algorithm complexity",
+                "efficiency comparison",
+                "program efficiency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the efficiency of computer programs in terms of memory space used.",
+              "keywords": [
+                "memory usage",
+                "efficiency comparison",
+                "program efficiency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the efficiency of computer programs in terms of run time.",
+              "keywords": [
+                "run time",
+                "efficiency comparison",
+                "program efficiency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

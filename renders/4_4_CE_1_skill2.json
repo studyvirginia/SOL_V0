@@ -1,0 +1,82 @@
+{
+  "key": "4_4_CE_1_skill2",
+  "grade": "4",
+  "code": "4.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 4 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to single-step and multistep problems involving addition and subtraction with whole numbers.",
+  "skill_desc": "Apply strategies (e.g., rounding, compatible numbers) to estimate solutions for single-step or multistep addition or subtraction problems with whole numbers.",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/4_4_CE_1_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x+3",
+        "color": "#007AFF",
+        "label": "Estimate: 5+3",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=x-2",
+        "color": "#FF3B30",
+        "label": "Estimate: 5-2",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 10,
+      "top": 10
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Estimating Addition and Subtraction"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 100 - x",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 20 + x",
+      "SetColor(g, 255, 0, 0)",
+      "A = (0, 100)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Start\")",
+      "SetLabelMode(A, 3)",
+      "B = (80, 20)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"End\")",
+      "SetLabelMode(B, 3)",
+      "Intersect(f, g)",
+      "SetColor(Intersect(f, g), 0, 0, 0)",
+      "SetPointSize(Intersect(f, g), 5)"
+    ],
+    "view": [
+      -5,
+      105,
+      -5,
+      105
+    ],
+    "showGrid": true,
+    "title": "Estimate addition and subtraction with whole numbers"
+  },
+  "sketchmath_state": null
+}

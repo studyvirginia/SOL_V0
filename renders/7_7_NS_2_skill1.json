@@ -1,0 +1,145 @@
+{
+  "key": "7_7_NS_2_skill1",
+  "grade": "7",
+  "code": "7.NS.2",
+  "domain": "Number and Number Sense",
+  "course": "Grade 7 Math",
+  "desc": "Use multiple strategies to compare and order rational numbers.",
+  "skill_desc": "Use benchmarks, number lines, and equivalency to compare rational numbers using <, >, =.",
+  "skill_idx": 0,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_NS_2_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{1}{2}x+1",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=\\frac{3}{4}x-2",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,1)",
+        "color": "#007AFF",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(0,-2)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(-2,0)",
+        "color": "#007AFF",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(\\frac{8}{3},0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -4,
+      "right": 6,
+      "top": 4
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Comparing Rational Numbers"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 1/2*x + 1",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = x - 1",
+      "SetColor(g, 255, 0, 0)",
+      "h(x) = 3/4*x + 2",
+      "SetColor(h, 0, 255, 0)",
+      "A = (0, 1)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"(0, 1)\")",
+      "SetLabelMode(A, 3)",
+      "B = (2, 2)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"(2, 2)\")",
+      "SetLabelMode(B, 3)",
+      "C = (4, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"(4, 3)\")",
+      "SetLabelMode(C, 3)",
+      "D = (0, -1)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"(0, -1)\")",
+      "SetLabelMode(D, 3)",
+      "E = (2, 1)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"(2, 1)\")",
+      "SetLabelMode(E, 3)",
+      "F = (4, 5)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"(4, 5)\")",
+      "SetLabelMode(F, 3)",
+      "G = (0, 2)",
+      "SetLabelVisible(G, true)",
+      "SetCaption(G, \"(0, 2)\")",
+      "SetLabelMode(G, 3)",
+      "H = (2, 3)",
+      "SetLabelVisible(H, true)",
+      "SetCaption(H, \"(2, 3)\")",
+      "SetLabelMode(H, 3)",
+      "I = (4, 5)",
+      "SetLabelVisible(I, true)",
+      "SetCaption(I, \"(4, 5)\")",
+      "SetLabelMode(I, 3)"
+    ],
+    "view": [
+      -1,
+      5,
+      -2,
+      6
+    ],
+    "showGrid": true,
+    "title": "Comparing Rational Numbers using <, >, ="
+  },
+  "sketchmath_state": null
+}

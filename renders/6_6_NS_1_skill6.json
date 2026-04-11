@@ -1,0 +1,95 @@
+{
+  "key": "6_6_NS_1_skill6",
+  "grade": "6",
+  "code": "6.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 6 Math",
+  "desc": "Express equivalency, compare, and order numbers written as fractions, mixed numbers, decimals, and percents using multiple strategies.",
+  "skill_desc": "Justify solutions for comparing and ordering rational numbers orally, in writing, or with a model.",
+  "skill_idx": 5,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_NS_1_skill6.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "a=\\frac{1}{2}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "b=0.6",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "c=0.55",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "d=\\frac{3}{5}",
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "e=50\\%",
+        "color": "#5856D6",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "L=\\left[a,b,c,d,e\\right]",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e7",
+        "latex": "\\operatorname{sort}(L)",
+        "label": "Ordered List",
+        "showLabel": true,
+        "color": "#007AFF",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -0.1,
+      "bottom": -0.1,
+      "right": 1.1,
+      "top": 1.1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Comparing Rational Numbers"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

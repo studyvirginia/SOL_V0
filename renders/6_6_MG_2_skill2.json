@@ -1,0 +1,160 @@
+{
+  "key": "6_6_MG_2_skill2",
+  "grade": "6",
+  "code": "6.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 6 Math",
+  "desc": "Solve problems involving the area and perimeter of triangles and parallelograms.",
+  "skill_desc": "Solve problems involving the perimeter and area of triangles and parallelograms.",
+  "skill_idx": 1,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/6_6_MG_2_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(6,0),(3,4))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(6,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(3,4)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=0",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "x=3",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 7,
+      "top": 5
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": ""
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (6, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (2, 4)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "tri = Polygon(A, B, C)",
+      "SetColor(tri, 0, 122, 255)",
+      "lineAB = Segment(A, B)",
+      "SetColor(lineAB, 0, 0, 0)",
+      "lineBC = Segment(B, C)",
+      "SetColor(lineBC, 0, 0, 0)",
+      "lineCA = Segment(C, A)",
+      "SetColor(lineCA, 0, 0, 0)",
+      "lineBC_aux = Line(B, C)",
+      "perpAH = PerpendicularLine(A, lineBC_aux)",
+      "H = Intersect(perpAH, lineBC_aux)",
+      "SetVisible(lineBC_aux, false)",
+      "SetVisible(perpAH, false)",
+      "altAH = Segment(A, H)",
+      "SetLineStyle(altAH, 1)",
+      "SetColor(altAH, 142, 142, 147)",
+      "SetLabelVisible(H, true)",
+      "SetCaption(H, \"H\")",
+      "SetLabelMode(H, 3)",
+      "parallelogram = Polygon((8,0),(14,0),(10,4),(4,4))",
+      "SetColor(parallelogram, 220, 50, 50)",
+      "SetLabelVisible(parallelogram, true)",
+      "SetCaption(parallelogram, \"Parallelogram\")",
+      "SetLabelMode(parallelogram, 3)"
+    ],
+    "view": [
+      -1,
+      15,
+      -1,
+      5
+    ],
+    "showGrid": true,
+    "title": "Triangle and Parallelogram Area and Perimeter"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (5, 1)",
+      "C = (3, 4)",
+      "triangle = Polygon(A, B, C)",
+      "D = (7, 1)",
+      "E = (9, 4)",
+      "parallelogram = Polygon(B, D, E, C)",
+      "perimeterTriangle = Length(Segment(A, B)) + Length(Segment(B, C)) + Length(Segment(C, A))",
+      "areaTriangle = 0.5 * Abs((B - A) x (C - A))",
+      "perimeterParallelogram = 2 * (Length(Segment(B, C)) + Length(Segment(B, D)))",
+      "areaParallelogram = Abs((D - B) x (C - B))"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "T\u00f4i s\u1ebd t\u1ea1o m\u1ed9t tam gi\u00e1c v\u00e0 m\u1ed9t h\u00ecnh b\u00ecnh h\u00e0nh, sau \u0111\u00f3 t\u00ednh chu vi v\u00e0 di\u1ec7n t\u00edch c"
+  }
+}

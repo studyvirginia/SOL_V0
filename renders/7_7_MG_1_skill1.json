@@ -1,0 +1,183 @@
+{
+  "key": "7_7_MG_1_skill1",
+  "grade": "7",
+  "code": "7.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 7 Math",
+  "desc": "Investigate and apply volume and surface area formulas for right cylinders and rectangular prisms.",
+  "skill_desc": "Develop the formula for the volume of right cylinders and solve contextual problems using the formula.",
+  "skill_idx": 0,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/7_7_MG_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "r=3",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "h=5",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "V=\\pi r^{2}h",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "V=\\pi \\cdot 3^{2}\\cdot 5",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "V=141.37",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "Center",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(3,0)",
+        "color": "#FF3B30",
+        "label": "Radius",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "c1",
+        "latex": "(3\\cos(t),3\\sin(t))",
+        "color": "#007AFF",
+        "parametricDomain": {
+          "min": "0",
+          "max": "2\\pi"
+        },
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "l1",
+        "latex": "x=3",
+        "color": "#007AFF",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "l2",
+        "latex": "(-3,5)",
+        "color": "#007AFF",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "l4",
+        "latex": "y=-5",
+        "color": "#007AFF",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -6,
+      "bottom": -6,
+      "right": 6,
+      "top": 6
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Volume of a Cylinder"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "r = 2",
+      "h = 5",
+      "cyl = Curve(r * cos(t), r * sin(t), t, 0, 2 * pi)",
+      "SetColor(cyl, 0, 122, 255)",
+      "SetLineThickness(cyl, 3)",
+      "top = Translate(cyl, (0, h))",
+      "SetColor(top, 0, 122, 255)",
+      "SetLineThickness(top, 3)",
+      "A = (r, 0)",
+      "B = (r, h)",
+      "side1 = Segment(A, B)",
+      "SetColor(side1, 0, 122, 255)",
+      "SetLineThickness(side1, 3)",
+      "volume = pi * r^2 * h",
+      "SetCaption(volume, \"Volume = \u03c0r\u00b2h\")",
+      "SetLabelMode(volume, 3)"
+    ],
+    "view": [
+      -3,
+      3,
+      -1,
+      6
+    ],
+    "showGrid": true,
+    "title": "Volume of a Right Cylinder"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "O = (3, 2)",
+      "r = 2",
+      "h = 5",
+      "Circle(O, r)",
+      "A = (O + (r, 0))",
+      "B = (O + (0, h))",
+      "O2 = Translate(O, (0, h))",
+      "Circle(O2, r)",
+      "A2 = Translate(A, (0, h))",
+      "Segment(A, A2)",
+      "Segment(O, O2)",
+      "Segment(B, A2)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 ph\u00e1t tri\u1ec3n c\u00f4ng th\u1ee9c t\u00ednh th\u1ec3 t\u00edch c\u1ee7a h\u00ecnh tr\u1ee5 \u0111\u1ee9ng, ch\u00fang ta c\u00f3 th\u1ec3 h\u00ecnh du"
+  }
+}

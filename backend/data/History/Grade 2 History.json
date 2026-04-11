@@ -1,0 +1,671 @@
+{
+  "subject": "History",
+  "course": "Grade 2 History",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "2.SK.1",
+          "description": "Apply history and social science skills to analyze and interpret information sources.",
+          "skills": [
+            {
+              "description": "View and explore information sources including artifacts, primary and secondary sources, charts, graphs, and diagrams.",
+              "keywords": [
+                "artifacts",
+                "primary sources",
+                "secondary sources",
+                "charts",
+                "graphs",
+                "diagrams"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to identify and understand geographic features and connections.",
+              "keywords": [
+                "geographic features",
+                "geographic connections"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate curiosity and critical thinking through questioning and drawing conclusions.",
+              "keywords": [
+                "critical thinking",
+                "questioning",
+                "drawing conclusions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sequence and organize information.",
+              "keywords": [
+                "sequencing",
+                "organizing information"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify similarities and differences to clarify and explain content.",
+              "keywords": [
+                "similarities",
+                "differences",
+                "content clarification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize cause-and-effect relationships.",
+              "keywords": [
+                "cause-and-effect relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use economic decision-making models to make informed economic decisions.",
+              "keywords": [
+                "economic decision-making",
+                "economic decisions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Practice civility, respect, hard work, honesty, trustworthiness, and responsible citizenship skills.",
+              "keywords": [
+                "civility",
+                "respect",
+                "citizenship",
+                "honesty",
+                "trustworthiness"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use content vocabulary to demonstrate comprehension.",
+              "keywords": [
+                "content vocabulary",
+                "comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civics",
+      "standards": [
+        {
+          "code": "2.CV.1",
+          "description": "Distinguish between rights and responsibilities of individuals in the United States.",
+          "skills": [
+            {
+              "description": "Exercise freedom of expression.",
+              "keywords": [
+                "freedom of expression"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Exercise freedom of religion.",
+              "keywords": [
+                "freedom of religion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand equal protection.",
+              "keywords": [
+                "equal protection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Vote for local, state, and national representatives.",
+              "keywords": [
+                "voting",
+                "representatives"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Respect and follow laws.",
+              "keywords": [
+                "laws",
+                "civic responsibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Practice honesty and trustworthiness.",
+              "keywords": [
+                "honesty",
+                "trustworthiness"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Respect the rights, beliefs, and opinions of others.",
+              "keywords": [
+                "rights",
+                "beliefs",
+                "opinions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.CV.2",
+          "description": "Understand the benefits and responsibilities of U.S. citizenship.",
+          "skills": [
+            {
+              "description": "Identify the benefits of being a U.S. citizen.",
+              "keywords": [
+                "citizenship benefits"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the responsibilities of being a U.S. citizen.",
+              "keywords": [
+                "citizenship responsibilities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.CV.3",
+          "description": "Explain how communities honor local and national traditions and recognize designated holidays.",
+          "skills": [
+            {
+              "description": "Recognize designated Virginia holidays including Labor Day, Columbus Day (Indigenous Peoples' Day), Yorktown Victory Day, Election Day, Veterans Day, Thanksgiving Day, Christmas Day, New Year's Day, Martin Luther King, Jr. Day, George Washington Day (Presidents' Day), Memorial Day, Juneteenth, and Independence Day.",
+              "keywords": [
+                "holidays",
+                "traditions",
+                "Virginia holidays"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.CV.4",
+          "description": "Recognize state and national symbols and their meanings.",
+          "skills": [
+            {
+              "description": "Locate the Virginia and United States capitals and capitol buildings.",
+              "keywords": [
+                "capitals",
+                "capitol buildings"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the meaning behind symbols including the American flag, bald eagle, Washington Monument, Liberty Bell, and Statue of Liberty.",
+              "keywords": [
+                "symbols",
+                "American flag",
+                "bald eagle",
+                "Washington Monument",
+                "Liberty Bell",
+                "Statue of Liberty"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Learn about the meaning of the American flag and the words in the Pledge of Allegiance and the national anthem.",
+              "keywords": [
+                "American flag",
+                "Pledge of Allegiance",
+                "national anthem"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "standards": [
+        {
+          "code": "2.HI.1",
+          "description": "Identify the geographic location, use of resources, and contributions of Indigenous people past and present.",
+          "skills": [
+            {
+              "description": "Identify Indigenous nations and tribes of the Eastern Woodlands.",
+              "keywords": [
+                "Indigenous nations",
+                "Eastern Woodlands"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify Indigenous nations and tribes of the Plains.",
+              "keywords": [
+                "Indigenous nations",
+                "Plains"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify Indigenous nations and tribes of the Southwest.",
+              "keywords": [
+                "Indigenous nations",
+                "Southwest"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand tribal sovereignty and the importance of land, history, and culture.",
+              "keywords": [
+                "tribal sovereignty",
+                "land",
+                "history",
+                "culture"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.HI.2",
+          "description": "Identify the geographic location, use of resources, and contributions of European explorers and their influence on North America.",
+          "skills": [
+            {
+              "description": "Identify the geographic location and contributions of English explorers.",
+              "keywords": [
+                "English explorers",
+                "geographic location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the geographic location and contributions of French explorers.",
+              "keywords": [
+                "French explorers",
+                "geographic location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the geographic location and contributions of Spanish explorers.",
+              "keywords": [
+                "Spanish explorers",
+                "geographic location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the influence of European explorers on the development of North America.",
+              "keywords": [
+                "European explorers",
+                "North America development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.HI.3",
+          "description": "Describe the revolutionaries who fought for America's freedom (1764–1781).",
+          "skills": [
+            {
+              "description": "Describe the contributions of John Adams.",
+              "keywords": [
+                "John Adams",
+                "American Revolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the contributions of Benjamin Franklin.",
+              "keywords": [
+                "Benjamin Franklin",
+                "American Revolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the contributions of Alexander Hamilton.",
+              "keywords": [
+                "Alexander Hamilton",
+                "American Revolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the contributions of Patrick Henry.",
+              "keywords": [
+                "Patrick Henry",
+                "American Revolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the contributions of Thomas Jefferson.",
+              "keywords": [
+                "Thomas Jefferson",
+                "American Revolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the contributions of James Madison.",
+              "keywords": [
+                "James Madison",
+                "American Revolution",
+                "Father of the Constitution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the contributions of Paul Revere.",
+              "keywords": [
+                "Paul Revere",
+                "American Revolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the contributions of George Washington.",
+              "keywords": [
+                "George Washington",
+                "American Revolution",
+                "Father of our Country"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.HI.4",
+          "description": "Understand the principles of American democracy and relate them to the founding of the nation.",
+          "skills": [
+            {
+              "description": "Identify reasons for the settlement of the thirteen colonies.",
+              "keywords": [
+                "thirteen colonies",
+                "settlement reasons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the relationships between the colonies and Great Britain.",
+              "keywords": [
+                "colonies",
+                "Great Britain",
+                "colonial relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify key components of the Declaration of Independence.",
+              "keywords": [
+                "Declaration of Independence",
+                "key components"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.HI.5",
+          "description": "Understand key events in United States history.",
+          "skills": [
+            {
+              "description": "Recognize the reasons for moving the nation's capital from Philadelphia to Washington, D.C. and the importance of the nation's capital.",
+              "keywords": [
+                "capital relocation",
+                "Washington, D.C.",
+                "national capital"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the impact of the Louisiana Purchase on the westward expansion of the United States.",
+              "keywords": [
+                "Louisiana Purchase",
+                "westward expansion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.HI.6",
+          "description": "Describe the contributions and roles of changemakers in United States history.",
+          "skills": [
+            {
+              "description": "Describe the contributions of scholars and inventors including Benjamin Franklin, Benjamin Banneker, Thomas Jefferson, George Washington Carver, Booker T. Washington, Orville and Wilbur Wright, Steve Jobs, Jonas Salk, Thomas Edison, Alexander Graham Bell, and Mary Jackson.",
+              "keywords": [
+                "scholars",
+                "inventors",
+                "contributions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the contributions of explorers and adventurers including Meriwether Lewis, William Clark, Sacagawea, Neil Armstrong, and Amelia Earhart.",
+              "keywords": [
+                "explorers",
+                "adventurers",
+                "contributions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the contributions of reformers and champions including Abraham Lincoln, Theodore Roosevelt, Helen Keller, Thurgood Marshall, Rosa Parks, Jackie Robinson, Cesar Chavez, Dr. Martin Luther King, Jr., Sen. Daniel Inouye, John F. Kennedy, and Barack Obama.",
+              "keywords": [
+                "reformers",
+                "champions",
+                "contributions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "standards": [
+        {
+          "code": "2.GE.1",
+          "description": "Develop geographic mapping skills using world maps and globes.",
+          "skills": [
+            {
+              "description": "Locate the countries of North America and the bordering oceans.",
+              "keywords": [
+                "North America",
+                "bordering oceans",
+                "geographic location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify major rivers, mountain ranges, lakes, and other physical features in the United States.",
+              "keywords": [
+                "rivers",
+                "mountain ranges",
+                "lakes",
+                "physical features"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.GE.2",
+          "description": "Connect geography to landmarks and historic events.",
+          "skills": [
+            {
+              "description": "Connect the Jefferson Memorial and the Lincoln Memorial to their geographic and historical significance.",
+              "keywords": [
+                "Jefferson Memorial",
+                "Lincoln Memorial",
+                "landmarks"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Connect Valley Forge and George Washington's crossing of the Delaware River to their geographic and historical significance.",
+              "keywords": [
+                "Valley Forge",
+                "Delaware River",
+                "historic events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Connect Yellowstone National Park to its geographic and historical significance.",
+              "keywords": [
+                "Yellowstone National Park",
+                "landmarks"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economics",
+      "standards": [
+        {
+          "code": "2.EC.1",
+          "description": "Understand basic economic principles.",
+          "skills": [
+            {
+              "description": "Identify natural resources including water, soil, wood, and coal.",
+              "keywords": [
+                "natural resources",
+                "water",
+                "soil",
+                "wood",
+                "coal"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify human resources (people at work).",
+              "keywords": [
+                "human resources",
+                "people at work"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify capital resources including machines, tools, computers, and buildings.",
+              "keywords": [
+                "capital resources",
+                "machines",
+                "tools",
+                "computers",
+                "buildings"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between needs and wants.",
+              "keywords": [
+                "needs",
+                "wants"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between the use of barter and the use of money in the exchange for goods and services.",
+              "keywords": [
+                "barter",
+                "money",
+                "exchange",
+                "goods and services"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how money makes trading easier than barter.",
+              "keywords": [
+                "money",
+                "trading",
+                "barter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain that scarcity (having limited resources) requires people to make choices about producing and consuming goods and services.",
+              "keywords": [
+                "scarcity",
+                "resource limitations",
+                "economic choices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

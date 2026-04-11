@@ -1,0 +1,18 @@
+{
+  "key": "7_7_NS_1_skill4",
+  "grade": "7",
+  "code": "7.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 7 Math",
+  "desc": "Investigate and describe exponents for powers of ten and compare/order numbers in scientific notation.",
+  "skill_desc": "Compare and order no more than four numbers greater than 0 written in scientific notation.",
+  "skill_idx": 3,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/7_7_NS_1_skill4.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

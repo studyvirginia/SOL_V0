@@ -1,0 +1,1025 @@
+{
+  "subject": "Math",
+  "course": "Mathematical Analysis",
+  "domains": [
+    {
+      "name": "Characteristics of Functions",
+      "standards": [
+        {
+          "code": "MA.CF.1",
+          "description": "Identify and analyze properties of polynomial, rational, piecewise-defined, absolute value, radical, and step functions and sketch their graphs.",
+          "skills": [
+            {
+              "description": "Identify polynomial, rational, piecewise-defined, absolute value, radical, and step functions from an equation or graph using mathematical reasoning.",
+              "keywords": [
+                "polynomial functions",
+                "rational functions",
+                "piecewise functions",
+                "absolute value functions",
+                "radical functions",
+                "step functions",
+                "function identification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the domain and range of polynomial, rational, piecewise-defined, absolute value, radical, and step functions.",
+              "keywords": [
+                "domain",
+                "range",
+                "function analysis",
+                "polynomial functions",
+                "rational functions",
+                "piecewise functions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine roots (including complex roots) of polynomial, rational, piecewise-defined, absolute value, radical, and step functions.",
+              "keywords": [
+                "roots",
+                "complex roots",
+                "polynomial roots",
+                "rational roots",
+                "piecewise functions",
+                "absolute value roots"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify intercepts of polynomial, rational, piecewise-defined, absolute value, radical, and step functions.",
+              "keywords": [
+                "intercepts",
+                "x-intercepts",
+                "y-intercepts",
+                "function intercepts",
+                "polynomial intercepts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze symmetry of functions, including even and odd functions.",
+              "keywords": [
+                "symmetry",
+                "even functions",
+                "odd functions",
+                "function symmetry",
+                "polynomial symmetry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify asymptotes (horizontal, vertical, and oblique/slant) of rational and other functions.",
+              "keywords": [
+                "asymptotes",
+                "horizontal asymptotes",
+                "vertical asymptotes",
+                "oblique asymptotes",
+                "rational functions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine points of discontinuity in functions.",
+              "keywords": [
+                "discontinuity",
+                "points of discontinuity",
+                "removable discontinuity",
+                "jump discontinuity",
+                "infinite discontinuity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify intervals where functions are increasing, decreasing, or constant.",
+              "keywords": [
+                "increasing intervals",
+                "decreasing intervals",
+                "constant intervals",
+                "function intervals",
+                "monotonicity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze end behavior of functions.",
+              "keywords": [
+                "end behavior",
+                "function behavior",
+                "polynomial end behavior",
+                "rational end behavior"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify relative and absolute maximum and minimum points of functions.",
+              "keywords": [
+                "relative maximum",
+                "absolute maximum",
+                "relative minimum",
+                "absolute minimum",
+                "extrema",
+                "critical points"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sketch graphs of polynomial, rational, piecewise-defined, absolute value, radical, and step functions.",
+              "keywords": [
+                "graphing functions",
+                "polynomial graphs",
+                "rational graphs",
+                "piecewise graphs",
+                "absolute value graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "MA.CF.2",
+          "description": "Determine the limit of a function if it exists using algebraic, numerical, and graphical methods.",
+          "skills": [
+            {
+              "description": "Verify estimates about the limit of a function using graphing technology.",
+              "keywords": [
+                "limit estimation",
+                "graphing technology",
+                "limit verification",
+                "function limits"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the limit of a function algebraically.",
+              "keywords": [
+                "algebraic limits",
+                "limit calculation",
+                "function limits",
+                "limit laws"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the limit of a function numerically by direct substitution.",
+              "keywords": [
+                "numerical limits",
+                "direct substitution",
+                "limit calculation",
+                "function limits"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate the limit of a function using a table of values.",
+              "keywords": [
+                "limit estimation",
+                "table of values",
+                "numerical limits",
+                "function limits"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the limit of a function from a given graph.",
+              "keywords": [
+                "graphical limits",
+                "limit from graph",
+                "function limits",
+                "graph analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use proper limit notation, including when describing the end behavior of a function.",
+              "keywords": [
+                "limit notation",
+                "end behavior",
+                "limit symbols",
+                "function limits"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the limit of a function as the variable approaches positive or negative infinity to describe end behavior.",
+              "keywords": [
+                "end behavior",
+                "infinite limits",
+                "limit at infinity",
+                "function behavior"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "MA.CF.3",
+          "description": "Analyze and describe the continuity of functions using graphical and algebraic methods.",
+          "skills": [
+            {
+              "description": "Describe continuity of a function.",
+              "keywords": [
+                "continuity",
+                "continuous functions",
+                "function continuity",
+                "mathematical notation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use mathematical notation to communicate and describe the continuity of functions including polynomial, rational, piecewise, absolute value, radical, and step functions.",
+              "keywords": [
+                "continuity notation",
+                "polynomial continuity",
+                "rational continuity",
+                "piecewise continuity",
+                "mathematical notation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Prove continuity at a point using the definition.",
+              "keywords": [
+                "continuity proof",
+                "continuity at a point",
+                "epsilon-delta proof",
+                "mathematical reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify types of discontinuity based on which condition of continuity is violated.",
+              "keywords": [
+                "discontinuity classification",
+                "removable discontinuity",
+                "jump discontinuity",
+                "infinite discontinuity",
+                "continuity conditions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Functional Relationships",
+      "standards": [
+        {
+          "code": "MA.FR.1",
+          "description": "Analyze compositions of functions to determine and verify inverses of functions.",
+          "skills": [
+            {
+              "description": "Construct the composition of functions algebraically.",
+              "keywords": [
+                "function composition",
+                "algebraic composition",
+                "composite functions",
+                "function operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct the composition of functions graphically.",
+              "keywords": [
+                "graphical composition",
+                "function composition",
+                "composite functions",
+                "graph analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the domain and range of composite functions algebraically.",
+              "keywords": [
+                "composite domain",
+                "composite range",
+                "function composition",
+                "domain analysis",
+                "range analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the domain and range of composite functions graphically.",
+              "keywords": [
+                "graphical domain",
+                "graphical range",
+                "composite functions",
+                "graph analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop the inverse of a function algebraically.",
+              "keywords": [
+                "algebraic inverse",
+                "function inverse",
+                "inverse functions",
+                "inverse calculation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop the inverse of a function graphically.",
+              "keywords": [
+                "graphical inverse",
+                "function inverse",
+                "inverse functions",
+                "graph analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the domain and range of the inverse of a function with the original function, both algebraically and graphically.",
+              "keywords": [
+                "inverse domain",
+                "inverse range",
+                "function comparison",
+                "algebraic comparison",
+                "graphical comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use mathematical reasoning to generalize and communicate the criteria for an inverse function to exist.",
+              "keywords": [
+                "inverse criteria",
+                "one-to-one functions",
+                "horizontal line test",
+                "mathematical reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "MA.FR.2",
+          "description": "Analyze the characteristics of exponential and logarithmic functions and sketch their graphs.",
+          "skills": [
+            {
+              "description": "Generalize characteristics of exponential and logarithmic functions from an equation or a graph.",
+              "keywords": [
+                "exponential functions",
+                "logarithmic functions",
+                "function characteristics",
+                "graph analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define e and estimate its value.",
+              "keywords": [
+                "Euler's number",
+                "e",
+                "mathematical constant",
+                "constant estimation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Convert between equations written in logarithmic and exponential form.",
+              "keywords": [
+                "logarithmic form",
+                "exponential form",
+                "equation conversion",
+                "logarithm properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use laws of exponents and properties of logarithms to solve equations and simplify expressions.",
+              "keywords": [
+                "exponent laws",
+                "logarithm properties",
+                "equation solving",
+                "expression simplification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent contextual problems using exponential and logarithmic functions, including common and natural logarithms.",
+              "keywords": [
+                "contextual problems",
+                "exponential models",
+                "logarithmic models",
+                "common logarithm",
+                "natural logarithm"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sketch the graph of exponential and logarithmic functions and identify asymptotes, end behavior, intercepts, domain, and range.",
+              "keywords": [
+                "exponential graphs",
+                "logarithmic graphs",
+                "asymptotes",
+                "end behavior",
+                "intercepts",
+                "domain",
+                "range"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "MA.FR.3",
+          "description": "Analyze sequences and finite series, and model and solve problems in context using sequences and series.",
+          "skills": [
+            {
+              "description": "Use and interpret the notation: ∑, n, nth, and an.",
+              "keywords": [
+                "summation notation",
+                "sequence notation",
+                "series notation",
+                "mathematical notation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Derive the formulas associated with arithmetic and geometric sequences and series.",
+              "keywords": [
+                "arithmetic sequences",
+                "geometric sequences",
+                "sequence formulas",
+                "series formulas",
+                "formula derivation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the nth term, an, for an arithmetic or geometric sequence.",
+              "keywords": [
+                "nth term",
+                "arithmetic sequence",
+                "geometric sequence",
+                "sequence term"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the sum, Sn, if it exists, of an arithmetic or geometric series.",
+              "keywords": [
+                "series sum",
+                "arithmetic series",
+                "geometric series",
+                "series convergence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Model and solve problems in context using sequences and series.",
+              "keywords": [
+                "contextual problems",
+                "sequence models",
+                "series models",
+                "problem solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between a convergent and divergent series.",
+              "keywords": [
+                "convergent series",
+                "divergent series",
+                "series convergence",
+                "series divergence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe convergent series in relation to the concept of a limit.",
+              "keywords": [
+                "convergent series",
+                "limit concept",
+                "series limits",
+                "mathematical reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Analytic Geometry",
+      "standards": [
+        {
+          "code": "MA.AG.1",
+          "description": "Identify and analyze the properties of conic sections and sketch a graph given an equation.",
+          "skills": [
+            {
+              "description": "Given a translation or rotation matrix, determine an equation for the transformed function or conic section.",
+              "keywords": [
+                "translation matrix",
+                "rotation matrix",
+                "conic transformation",
+                "equation transformation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Convert between standard and general forms of conic equations by completing the square.",
+              "keywords": [
+                "conic forms",
+                "standard form",
+                "general form",
+                "completing the square",
+                "conic conversion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph conic sections from equations written in general or standard form using transformations.",
+              "keywords": [
+                "conic graphs",
+                "graphing conics",
+                "transformation graphs",
+                "conic sections"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify characteristics of conic sections including center, vertices, axes, symmetry, foci, directrix, eccentricity, and asymptotes.",
+              "keywords": [
+                "conic characteristics",
+                "center",
+                "vertices",
+                "foci",
+                "directrix",
+                "eccentricity",
+                "asymptotes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent applications of conic sections.",
+              "keywords": [
+                "conic applications",
+                "real-world applications",
+                "conic modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "MA.AG.2",
+          "description": "Use parametric equations to model and solve problems in context.",
+          "skills": [
+            {
+              "description": "Graph and analyze parametric equations and use the graph to determine solutions.",
+              "keywords": [
+                "parametric graphs",
+                "parametric analysis",
+                "parametric solutions",
+                "graph analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use parametric equations to model contextual problems, including motion over time.",
+              "keywords": [
+                "contextual modeling",
+                "parametric models",
+                "motion modeling",
+                "time-based modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "MA.AG.3",
+          "description": "Perform operations with vectors in the coordinate plane.",
+          "skills": [
+            {
+              "description": "Use vector notation.",
+              "keywords": [
+                "vector notation",
+                "vector representation",
+                "mathematical notation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Perform vector addition graphically.",
+              "keywords": [
+                "vector addition",
+                "graphical addition",
+                "vector operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Perform vector subtraction graphically.",
+              "keywords": [
+                "vector subtraction",
+                "graphical subtraction",
+                "vector operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Perform scalar multiplication on vectors graphically.",
+              "keywords": [
+                "scalar multiplication",
+                "graphical scaling",
+                "vector operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Perform vector addition algebraically.",
+              "keywords": [
+                "vector addition",
+                "algebraic addition",
+                "vector operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Perform vector subtraction algebraically.",
+              "keywords": [
+                "vector subtraction",
+                "algebraic subtraction",
+                "vector operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Perform scalar multiplication on vectors algebraically.",
+              "keywords": [
+                "scalar multiplication",
+                "algebraic scaling",
+                "vector operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Find the dot (inner) product of two vectors.",
+              "keywords": [
+                "dot product",
+                "inner product",
+                "vector operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use the dot product to determine the angle between two vectors.",
+              "keywords": [
+                "angle between vectors",
+                "dot product application",
+                "vector angle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine if two vectors are orthogonal.",
+              "keywords": [
+                "orthogonal vectors",
+                "dot product zero",
+                "vector orthogonality"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Express complex numbers in vector notation.",
+              "keywords": [
+                "complex numbers",
+                "vector notation",
+                "complex plane",
+                "vector representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify properties of the dot product.",
+              "keywords": [
+                "dot product properties",
+                "vector properties",
+                "mathematical verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the components of a vector.",
+              "keywords": [
+                "vector components",
+                "component analysis",
+                "vector decomposition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the norm (magnitude) of a vector.",
+              "keywords": [
+                "vector norm",
+                "vector magnitude",
+                "vector length"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Find a unit vector in the same direction of a given vector.",
+              "keywords": [
+                "unit vector",
+                "vector normalization",
+                "direction vector"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply vectors to problems in context.",
+              "keywords": [
+                "contextual vector problems",
+                "real-world applications",
+                "vector modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "MA.AG.4",
+          "description": "Investigate and identify the characteristics of the graphs of polar equations.",
+          "skills": [
+            {
+              "description": "Classify polar equations (rose, cardioid, limaçon, lemniscate, spiral, and circle), given the graph or the equation.",
+              "keywords": [
+                "polar equations",
+                "rose curves",
+                "cardioid",
+                "limaçon",
+                "lemniscate",
+                "spiral",
+                "circle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the effects of changes in the parameters of polar equations on the graph, using graphing technology.",
+              "keywords": [
+                "polar parameters",
+                "graphing technology",
+                "parameter effects",
+                "polar graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Convert between polar and rectangular forms of coordinates.",
+              "keywords": [
+                "polar coordinates",
+                "rectangular coordinates",
+                "coordinate conversion",
+                "polar-rectangular conversion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Convert between complex numbers written in rectangular form and polar form.",
+              "keywords": [
+                "complex numbers",
+                "rectangular form",
+                "polar form",
+                "complex conversion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Convert equations between polar and rectangular forms.",
+              "keywords": [
+                "polar equations",
+                "rectangular equations",
+                "equation conversion",
+                "polar-rectangular conversion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine and verify the intersection of the graphs of two polar equations, using graphing technology.",
+              "keywords": [
+                "polar intersections",
+                "graphing technology",
+                "intersection verification",
+                "polar graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "MA.AG.5",
+          "description": "Use matrices to organize data and perform operations to solve systems of equations.",
+          "skills": [
+            {
+              "description": "Multiply matrices by a scalar.",
+              "keywords": [
+                "scalar multiplication",
+                "matrix operations",
+                "scalar matrix multiplication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Add matrices.",
+              "keywords": [
+                "matrix addition",
+                "matrix operations",
+                "element-wise addition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Subtract matrices.",
+              "keywords": [
+                "matrix subtraction",
+                "matrix operations",
+                "element-wise subtraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Multiply matrices.",
+              "keywords": [
+                "matrix multiplication",
+                "matrix operations",
+                "dot product multiplication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent problems with a system of no more than three linear equations.",
+              "keywords": [
+                "linear systems",
+                "system of equations",
+                "equation representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Express a system of linear equations as a matrix equation.",
+              "keywords": [
+                "matrix equation",
+                "linear systems",
+                "equation representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve a system of equations using matrices.",
+              "keywords": [
+                "matrix solution",
+                "linear systems",
+                "equation solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the inverse of a two-by-two or three-by-three matrix using paper and pencil.",
+              "keywords": [
+                "matrix inverse",
+                "2x2 inverse",
+                "3x3 inverse",
+                "inverse calculation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify two matrices are inverses using matrix multiplication.",
+              "keywords": [
+                "inverse verification",
+                "matrix multiplication",
+                "inverse properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify the commutative property for matrix addition.",
+              "keywords": [
+                "commutative property",
+                "matrix addition",
+                "property verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify the associative property for matrix addition.",
+              "keywords": [
+                "associative property",
+                "matrix addition",
+                "property verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify the commutative property for matrix multiplication.",
+              "keywords": [
+                "commutative property",
+                "matrix multiplication",
+                "property verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify the associative property for matrix multiplication.",
+              "keywords": [
+                "associative property",
+                "matrix multiplication",
+                "property verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

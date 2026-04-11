@@ -1,0 +1,105 @@
+{
+  "key": "6_6_PS_1_skill4",
+  "grade": "6",
+  "code": "6.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 6 Math",
+  "desc": "Apply the data cycle with a focus on circle graphs.",
+  "skill_desc": "Organize and represent data using circle graphs with and without technology tools. Limit data values to allow comparisons with denominators \u226412 or factors of 100.",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PS_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "1",
+              "1",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "Total = \\operatorname{total}(y)",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "\\frac{y_{1}}{Total}",
+        "color": "#FF3B30",
+        "label": "Fraction of Total",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "360\\cdot\\frac{y_{1}}{Total}",
+        "color": "#34C759",
+        "label": "Degrees",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 13,
+      "top": 8
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": true,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Circle Graph Data"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

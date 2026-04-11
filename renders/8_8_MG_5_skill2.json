@@ -1,0 +1,191 @@
+{
+  "key": "8_8_MG_5_skill2",
+  "grade": "8",
+  "code": "8.MG.5",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 8 Math",
+  "desc": "Solve area and perimeter problems involving composite plane figures.",
+  "skill_desc": "Subdivide a plane figure into triangles, rectangles, squares, trapezoids, parallelograms, and semicircles to determine the perimeter of the composite plane figure using attributes of subdivisions.",
+  "skill_idx": 1,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/8_8_MG_5_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(2,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "arc1",
+        "latex": "(0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1.03"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel1",
+        "latex": "(0.55*\\cos(0.515),0.55*\\sin(0.515))",
+        "label": "42\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc2",
+        "latex": "(4+0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "3.14",
+          "max": "4.17"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel2",
+        "latex": "(4+0.55*\\cos(3.655),0.55*\\sin(3.655))",
+        "label": "42\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc3",
+        "latex": "(2+0.4*\\cos(t),3+0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "1.57",
+          "max": "2.6"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel3",
+        "latex": "(2+0.55*\\cos(2.085),3+0.55*\\sin(2.085))",
+        "label": "96\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": true,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Triangle Area and Perimeter"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (6, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (6, 4)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "D = (2, 4)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"D\")",
+      "SetLabelMode(D, 3)",
+      "E = (2, 2)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"E\")",
+      "SetLabelMode(E, 3)",
+      "rect1 = Polygon(A, B, C, D)",
+      "SetColor(rect1, 0, 122, 255)",
+      "rect2 = Polygon(D, E, (2,0), A)",
+      "SetColor(rect2, 255, 0, 0)",
+      "segAB = Segment(A, B)",
+      "SetColor(segAB, 0, 0, 0)",
+      "segBC = Segment(B, C)",
+      "SetColor(segBC, 0, 0, 0)",
+      "segCD = Segment(C, D)",
+      "SetColor(segCD, 0, 0, 0)",
+      "segDE = Segment(D, E)",
+      "SetColor(segDE, 0, 0, 0)",
+      "segEA = Segment(E, A)",
+      "SetColor(segEA, 0, 0, 0)",
+      "segAE = Segment(A, E)",
+      "SetColor(segAE, 0, 0, 0)",
+      "perimeter = Distance(A, B) + Distance(B, C) + Distance(C, D) + Distance(D, E) + Distance(E, A)",
+      "SetCaption(perimeter, \"Perimeter\")",
+      "SetLabelMode(perimeter, 1)"
+    ],
+    "view": [
+      -0.5,
+      7,
+      -0.5,
+      5
+    ],
+    "showGrid": true,
+    "title": "Composite Figure Perimeter"
+  },
+  "sketchmath_state": null
+}

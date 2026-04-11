@@ -1,0 +1,150 @@
+{
+  "key": "8_8_PS_2_skill5",
+  "grade": "8",
+  "code": "8.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 8 Math",
+  "desc": "Apply the data cycle with a focus on boxplots.",
+  "skill_desc": "Identify and describe the lower extreme (minimum), upper extreme (maximum), median, upper quartile, lower quartile, range, and interquartile range given a data set represented by a boxplot.",
+  "skill_idx": 4,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PS_2_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x_{1}",
+            "values": [
+              "10",
+              "12",
+              "15",
+              "18",
+              "20",
+              "22",
+              "25",
+              "28",
+              "30",
+              "32"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "L_{1}= \\left[x_{1}\\right]",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "\\min(L_{1}) = \\min(L_{1})",
+        "color": "#FF3B30",
+        "label": "Minimum",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "\\max(L_{1}) = \\max(L_{1})",
+        "color": "#FF3B30",
+        "label": "Maximum",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "\\operatorname{median}(L_{1}) = \\operatorname{median}(L_{1})",
+        "color": "#FF3B30",
+        "label": "Median",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "Q_{1} = \\operatorname{median}(L_{1,\\,1:\\operatorname{ceil}(\\frac{n}{2})})",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e7",
+        "latex": "Q_{3} = \\operatorname{median}(L_{1,\\,\\operatorname{floor}(\\frac{n}{2})+1:n})",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e8",
+        "latex": "Q_{1} = Q_{1}",
+        "color": "#FF3B30",
+        "label": "Q1",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e9",
+        "latex": "Q_{3} = Q_{3}",
+        "color": "#FF3B30",
+        "label": "Q3",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e10",
+        "latex": "IQR = Q_{3} - Q_{1}",
+        "color": "#FF3B30",
+        "label": "IQR",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e11",
+        "latex": "Range = \\max(L_{1}) - \\min(L_{1})",
+        "color": "#FF3B30",
+        "label": "Range",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e12",
+        "latex": "boxplot(L_{1})",
+        "color": "#007AFF",
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 8,
+      "bottom": 9,
+      "right": 34,
+      "top": 3
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Boxplot of a Data Set"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

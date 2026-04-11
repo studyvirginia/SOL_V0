@@ -1,0 +1,831 @@
+{
+  "subject": "Science",
+  "course": "Environmental Science",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "ENV.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, analysis, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions arising from observation of phenomena, models, theories, or to seek additional information.",
+              "keywords": [
+                "question formulation",
+                "phenomena observation",
+                "model analysis",
+                "theory-based inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of a school laboratory or field study.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "field study feasibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Formulate hypotheses specifying the relationship between independent and dependent variables.",
+              "keywords": [
+                "hypothesis formation",
+                "independent variable",
+                "dependent variable",
+                "cause-effect prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "research-based hypothesis",
+                "scientific principles",
+                "evidence-based prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define design problems involving processes or systems with multiple components and criteria.",
+              "keywords": [
+                "design problem",
+                "system components",
+                "criteria specification",
+                "engineering constraints"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct observational and experimental investigations; identify variables, constants, and controls.",
+              "keywords": [
+                "investigation planning",
+                "variable identification",
+                "control setup",
+                "experimental design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Conduct investigations or test design solutions safely and ethically, considering environmental, social, and personal effects.",
+              "keywords": [
+                "safe investigation",
+                "ethical considerations",
+                "environmental impact",
+                "social responsibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect and record data.",
+              "keywords": [
+                "data collection tools",
+                "technology selection",
+                "measurement instruments",
+                "data recording"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine appropriate sample size and techniques for investigations.",
+              "keywords": [
+                "sample size",
+                "sampling techniques",
+                "data representativeness",
+                "statistical validity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variable",
+                "dependent variable",
+                "repeated trials",
+                "mean calculation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data; consider limitations of data analysis.",
+              "keywords": [
+                "graphical data display",
+                "data interpretation",
+                "data limitations",
+                "trend analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, support explanations for phenomena, or test solutions to problems.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "phenomena explanation",
+                "solution testing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes to analyze data.",
+              "keywords": [
+                "mathematical application",
+                "data analysis",
+                "quantitative reasoning",
+                "statistical methods"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims or determine optimal design solutions.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "design optimization",
+                "tool application"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from models, theories, simulations, peer review, or investigations.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "peer review",
+                "model validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data interpretation",
+                "evidence-based conclusions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to explain phenomena or design solutions.",
+              "keywords": [
+                "scientific application",
+                "phenomena explanation",
+                "design solution",
+                "evidence integration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments or design solutions using accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument comparison",
+                "design solution evaluation",
+                "scientific evidence",
+                "peer review"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support claims using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim formulation",
+                "empirical evidence",
+                "scientific reasoning",
+                "argument support"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate claims by applying scientific reasoning, theory, and/or models to link evidence to explanations or conclusions.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theory application",
+                "model validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate among scientific hypothesis, theory, and law.",
+              "keywords": [
+                "hypothesis",
+                "scientific theory",
+                "scientific law",
+                "conceptual differentiation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model limitations",
+                "model validity",
+                "system representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships, support explanations, predict phenomena, analyze systems, or solve problems.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "system analysis",
+                "phenomena prediction",
+                "problem solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address scientific questions or solve problems.",
+              "keywords": [
+                "source comparison",
+                "information integration",
+                "media literacy",
+                "scientific inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing evidence and credibility.",
+              "keywords": [
+                "source evaluation",
+                "credibility assessment",
+                "scientific literature",
+                "technical reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena or design processes in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical writing",
+                "data presentation",
+                "multimedia formats"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matter and Energy in Earth's Systems",
+      "standards": [
+        {
+          "code": "ENV.2",
+          "description": "Investigate and understand the movement of matter and energy within and among Earth's systems.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate claims about Earth as a system composed of interacting components.",
+              "keywords": [
+                "Earth systems",
+                "system interactions",
+                "claim evaluation",
+                "system dynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the importance of water's properties and characteristics in supporting life processes and Earth systems.",
+              "keywords": [
+                "water properties",
+                "life support",
+                "Earth systems",
+                "biogeochemical cycles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to explain how biogeochemical processes support life and demonstrate conservation of matter and energy.",
+              "keywords": [
+                "biogeochemical processes",
+                "matter conservation",
+                "energy conservation",
+                "system modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models of Earth's energy budget to predict how fluctuations and changes affect Earth's ability to sustain life.",
+              "keywords": [
+                "Earth's energy budget",
+                "energy budget modeling",
+                "life sustainability",
+                "climate prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Processes and Systems on Earth's Surface",
+      "standards": [
+        {
+          "code": "ENV.3",
+          "description": "Investigate and understand processes and systems that lead to changes on Earth's surface.",
+          "skills": [
+            {
+              "description": "Plan and conduct investigations on the effect of processes on Earth's surface.",
+              "keywords": [
+                "investigation planning",
+                "Earth surface processes",
+                "field study",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to explain how rock cycle processes change Earth's surface.",
+              "keywords": [
+                "rock cycle",
+                "Earth surface change",
+                "geological modeling",
+                "system dynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate claims about how natural processes and human activities have changed Earth's surface.",
+              "keywords": [
+                "natural processes",
+                "human impact",
+                "Earth surface change",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ecosystems and Dynamic Equilibrium",
+      "standards": [
+        {
+          "code": "ENV.4",
+          "description": "Investigate and understand ecosystems in dynamic equilibrium affected by biotic and abiotic interactions.",
+          "skills": [
+            {
+              "description": "Compare biotic and abiotic factors in terrestrial and aquatic ecosystems.",
+              "keywords": [
+                "biotic factors",
+                "abiotic factors",
+                "terrestrial ecosystems",
+                "aquatic ecosystems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the ecological role an organism plays in supporting ecosystem sustainability.",
+              "keywords": [
+                "ecological role",
+                "organism function",
+                "ecosystem sustainability",
+                "trophic levels"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate claims about ecological roles of different species in maintaining or disrupting ecosystem equilibrium.",
+              "keywords": [
+                "species roles",
+                "ecosystem equilibrium",
+                "claim evaluation",
+                "trophic dynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict the effect of introducing an invasive species on ecosystem equilibrium.",
+              "keywords": [
+                "invasive species",
+                "ecosystem disruption",
+                "prediction",
+                "biodiversity impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to predict effects of energy and matter transfer in ecosystems.",
+              "keywords": [
+                "energy transfer",
+                "matter cycling",
+                "ecosystem modeling",
+                "trophic interactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate claims about conservation of energy and matter in ecosystems.",
+              "keywords": [
+                "energy conservation",
+                "matter conservation",
+                "ecosystem dynamics",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate claims about how environmental pressures lead to shifts in ecosystem equilibrium.",
+              "keywords": [
+                "environmental pressures",
+                "ecosystem shifts",
+                "claim evaluation",
+                "stability analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how ecosystems change over time through succession and how this affects ecosystem dynamics.",
+              "keywords": [
+                "ecological succession",
+                "ecosystem change",
+                "dynamics analysis",
+                "habitat development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict the effect of natural processes and human activities on Virginia's biodiversity and ecosystem equilibrium.",
+              "keywords": [
+                "Virginia biodiversity",
+                "ecosystem impact",
+                "prediction",
+                "human activities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Population Changes and Biodiversity",
+      "standards": [
+        {
+          "code": "ENV.5",
+          "description": "Investigate and understand how population changes affect biodiversity and ecosystem success.",
+          "skills": [
+            {
+              "description": "Analyze and interpret population growth curves to identify changes in population size.",
+              "keywords": [
+                "population growth curves",
+                "population size analysis",
+                "data interpretation",
+                "demographic trends"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate claims about the relationship among limiting factors, population size, and carrying capacity.",
+              "keywords": [
+                "limiting factors",
+                "carrying capacity",
+                "population dynamics",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate claims about the importance of genetic variation for ecosystem biodiversity.",
+              "keywords": [
+                "genetic variation",
+                "biodiversity",
+                "claim evaluation",
+                "evolutionary processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to explain how species diversity is affected by environmental pressures.",
+              "keywords": [
+                "species diversity",
+                "environmental pressures",
+                "ecological modeling",
+                "adaptation prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how human population growth has changed over time due to various factors and predict future environmental effects.",
+              "keywords": [
+                "human population growth",
+                "historical trends",
+                "future prediction",
+                "environmental impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth's Resources",
+      "standards": [
+        {
+          "code": "ENV.6",
+          "description": "Investigate and understand that Earth's resources are finite and should be conserved.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate claims about how sustainable and unsustainable natural resources affect organisms.",
+              "keywords": [
+                "sustainable resources",
+                "unsustainable resources",
+                "organism impact",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare geologic and chemical processes responsible for filtering, cycling, and storing Earth's freshwater resources.",
+              "keywords": [
+                "freshwater resources",
+                "geologic processes",
+                "chemical processes",
+                "water cycling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Debate advantages and disadvantages of sustainable practices in community, home, and individual contexts.",
+              "keywords": [
+                "sustainable practices",
+                "community impact",
+                "individual responsibility",
+                "debate"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate claims about how human activities affect Earth's resources.",
+              "keywords": [
+                "human impact",
+                "resource depletion",
+                "claim evaluation",
+                "environmental consequences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare environmental effects related to various energy sources in Virginia.",
+              "keywords": [
+                "energy sources",
+                "environmental effects",
+                "Virginia context",
+                "comparative analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "name": "Pollutants and Their Consequences",
+          "standards": [
+            {
+              "code": "ENV.7",
+              "description": "Investigate and understand that pollutants have physical, chemical, and biological consequences at local, regional, and global levels.",
+              "skills": [
+                {
+                  "description": "Use data to identify a land, water, or atmospheric pollutant in the local community and determine possible sources and effects on the environment.",
+                  "keywords": [
+                    "pollutant identification",
+                    "local pollution",
+                    "source analysis",
+                    "environmental impact"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Debate advantages and disadvantages of solutions to safely reduce, eliminate, or remediate land, water, or atmospheric pollutants.",
+                  "keywords": [
+                    "pollution remediation",
+                    "solution evaluation",
+                    "safety considerations",
+                    "debate"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Compare benefits and limitations of remediation methods for land, water, and atmospheric pollutants.",
+                  "keywords": [
+                    "remediation methods",
+                    "pollutant cleanup",
+                    "method comparison",
+                    "effectiveness analysis"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                },
+                {
+                  "description": "Research a clean-up plan for a designated Environmental Protection Agency Superfund site.",
+                  "keywords": [
+                    "Superfund site",
+                    "cleanup plan",
+                    "research",
+                    "environmental remediation"
+                  ],
+                  "prerequisites": [],
+                  "cross_links": []
+                }
+              ]
+            },
+            {
+              "name": "Global Climate Change",
+              "standards": [
+                {
+                  "code": "ENV.8",
+                  "description": "Investigate and understand that natural events and human activities affect global climate change.",
+                  "skills": [
+                    {
+                      "description": "Make, support, and evaluate claims about how human activities affect global climate change.",
+                      "keywords": [
+                        "human activities",
+                        "climate change",
+                        "claim evaluation",
+                        "anthropogenic impact"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    },
+                    {
+                      "description": "Compare effects of natural events and human activities on global climate change.",
+                      "keywords": [
+                        "natural events",
+                        "human activities",
+                        "climate change comparison",
+                        "cause analysis"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    },
+                    {
+                      "description": "Develop and use models to explain how changes in global temperature affect specific ecosystems.",
+                      "keywords": [
+                        "global temperature",
+                        "ecosystem impact",
+                        "climate modeling",
+                        "temperature change effects"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    },
+                    {
+                      "description": "Make, support, and evaluate claims about how climate change affects Virginia communities.",
+                      "keywords": [
+                        "climate change",
+                        "Virginia communities",
+                        "claim evaluation",
+                        "local impact"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    },
+                    {
+                      "description": "Research ways to mitigate greenhouse gas emissions and propose solutions to reduce emissions in school, home, and community.",
+                      "keywords": [
+                        "greenhouse gas mitigation",
+                        "emission reduction",
+                        "solution proposal",
+                        "community action"
+                      ],
+                      "prerequisites": [],
+                      "cross_links": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Environmental Sustainability and Policy",
+                  "standards": [
+                    {
+                      "code": "ENV.9",
+                      "description": "Investigate and understand that individual and collective actions influence environmental sustainability and policy at local, national, and global levels.",
+                      "skills": [
+                        {
+                          "description": "Make, support, and evaluate claims about how consumer, corporation, and government choices affect the environment.",
+                          "keywords": [
+                            "consumer choices",
+                            "corporate responsibility",
+                            "government policy",
+                            "claim evaluation"
+                          ],
+                          "prerequisites": [],
+                          "cross_links": []
+                        },
+                        {
+                          "description": "Compare priorities of multiple stakeholders involved in an environmental issue affecting global or local ecosystem health.",
+                          "keywords": [
+                            "stakeholder priorities",
+                            "environmental issues",
+                            "ecosystem health",
+                            "comparative analysis"
+                          ],
+                          "prerequisites": [],
+                          "cross_links": []
+                        },
+                        {
+                          "description": "Debate advantages and disadvantages of possible solutions to an environmental problem.",
+                          "keywords": [
+                            "environmental solutions",
+                            "solution evaluation",
+                            "debate",
+                            "policy analysis"
+                          ],
+                          "prerequisites": [],
+                          "cross_links": []
+                        },
+                        {
+                          "description": "Research solutions that reduce effects of human activities on natural systems and propose solutions for school, home, and community.",
+                          "keywords": [
+                            "human impact reduction",
+                            "solution research",
+                            "proposal development",
+                            "community action"
+                          ],
+                          "prerequisites": [],
+                          "cross_links": []
+                        },
+                        {
+                          "description": "Explain roles of individuals, communities, and policies in mitigating negative effects of human activities on climate.",
+                          "keywords": [
+                            "individual responsibility",
+                            "community action",
+                            "policy roles",
+                            "climate mitigation"
+                          ],
+                          "prerequisites": [],
+                          "cross_links": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

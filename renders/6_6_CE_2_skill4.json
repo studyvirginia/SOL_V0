@@ -1,0 +1,111 @@
+{
+  "key": "6_6_CE_2_skill4",
+  "grade": "6",
+  "code": "6.CE.2",
+  "domain": "Computation and Estimation",
+  "course": "Grade 6 Math",
+  "desc": "Estimate, solve, and justify solutions to problems using operations with integers, including contextual problems.",
+  "skill_desc": "Estimate, determine, and justify solutions to one- and two-step contextual problems involving addition, subtraction, multiplication, and division with integers.",
+  "skill_idx": 3,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_CE_2_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x+3",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=2x-1",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(-3,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(0,-1)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0.5,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -2,
+      "right": 5,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear Equations"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x - 3",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = -x + 1",
+      "SetColor(g, 255, 0, 0)",
+      "Intersect(f, g)",
+      "SetLabelMode(Intersect(f, g), 1)",
+      "SetCaption(Intersect(f, g), \"Solution\")",
+      "SetLabelMode(Intersect(f, g), 3)"
+    ],
+    "view": [
+      -5,
+      5,
+      -5,
+      5
+    ],
+    "showGrid": true,
+    "title": "Solving a system of linear equations: 2x - 3 = -x + 1"
+  },
+  "sketchmath_state": null
+}

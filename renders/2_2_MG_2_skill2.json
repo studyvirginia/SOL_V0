@@ -1,0 +1,110 @@
+{
+  "key": "2_2_MG_2_skill2",
+  "grade": "2",
+  "code": "2.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 2 Math",
+  "desc": "Demonstrate understanding of the concept of time to the nearest five minutes using analog and digital clocks.",
+  "skill_desc": "Determine the most appropriate unit of time (minutes, hours, days, or weeks) for a given activity or context and explain reasoning.",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/2_2_MG_2_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=60",
+        "color": "#FF3B30",
+        "label": "1 hour",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=24",
+        "color": "#34C759",
+        "label": "1 day",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=7",
+        "color": "#FF9500",
+        "label": "1 week",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 65,
+      "top": 25
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Units of Time"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = x",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 60*x",
+      "SetColor(g, 255, 0, 0)",
+      "A = (1, 1)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"1 hour\")",
+      "SetLabelMode(A, 3)",
+      "B = (0.5, 30)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"30 minutes\")",
+      "SetLabelMode(B, 3)",
+      "C = (0.25, 15)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"15 minutes\")",
+      "SetLabelMode(C, 3)",
+      "D = (0.1, 6)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"6 minutes\")",
+      "SetLabelMode(D, 3)",
+      "E = (0.083, 5)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"5 minutes\")",
+      "SetLabelMode(E, 3)"
+    ],
+    "view": [
+      0,
+      1.2,
+      0,
+      75
+    ],
+    "showGrid": true,
+    "title": "Time Conversion: Hours to Minutes"
+  },
+  "sketchmath_state": null
+}

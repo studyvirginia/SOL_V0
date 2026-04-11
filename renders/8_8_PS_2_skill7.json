@@ -1,0 +1,106 @@
+{
+  "key": "8_8_PS_2_skill7",
+  "grade": "8",
+  "code": "8.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 8 Math",
+  "desc": "Apply the data cycle with a focus on boxplots.",
+  "skill_desc": "Analyze data represented in a boxplot by making observations and drawing conclusions.",
+  "skill_idx": 6,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PS_2_skill7.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "L=[10,12,15,18,20,22,25,28,30,32]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "boxplot(L)",
+        "color": "#007AFF",
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(\\operatorname{min}(L),0)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "label": "Min",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(\\operatorname{median}(L),0)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "label": "Median",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(\\operatorname{quantile}(L,0.25),0)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "label": "Q1",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(\\operatorname{quantile}(L,0.75),0)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "label": "Q3",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(\\operatorname{max}(L),0)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "label": "Max",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 8,
+      "bottom": -1,
+      "right": 34,
+      "top": 1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Boxplot Analysis"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

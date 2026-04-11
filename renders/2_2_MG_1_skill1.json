@@ -1,0 +1,161 @@
+{
+  "key": "2_2_MG_1_skill1",
+  "grade": "2",
+  "code": "2.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 2 Math",
+  "desc": "Reason mathematically using standard U.S. Customary units to estimate, measure, and compare objects by length, weight, and liquid volume.",
+  "skill_desc": "Explain the purpose of measurement tools (ruler, scales, measuring cups) and how to use them appropriately.",
+  "skill_idx": 0,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/2_2_MG_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "x",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e2",
+        "latex": "y",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "Ruler",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(5,0)",
+        "color": "#FF3B30",
+        "label": "5 inches",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(0,2)",
+        "color": "#FF3B30",
+        "label": "2 inches",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "Scale",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(2,0)",
+        "color": "#FF3B30",
+        "label": "2 lbs",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "Measuring Cup",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p7",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "3 cups",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Measurement Tools"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "ruler = Segment((0,0), (10,0))",
+      "SetColor(ruler, 0, 0, 0)",
+      "SetLineThickness(ruler, 2)",
+      "SetCaption(ruler, \"Ruler\")",
+      "SetLabelMode(ruler, 3)",
+      "scale = Segment((0,-1), (0,1))",
+      "SetColor(scale, 0, 0, 0)",
+      "SetLineThickness(scale, 2)",
+      "SetCaption(scale, \"Scale\")",
+      "SetLabelMode(scale, 3)",
+      "cup = Polygon((12, -1), (14, -1), (14, 1), (12, 1))",
+      "SetColor(cup, 0, 0, 255)",
+      "SetCaption(cup, \"Measuring Cup\")",
+      "SetLabelMode(cup, 3)"
+    ],
+    "view": [
+      -1,
+      15,
+      -2,
+      2
+    ],
+    "showGrid": false,
+    "title": "Measurement Tools: Ruler, Scale, Measuring Cup"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (5, 1)",
+      "s = Segment(A, B)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 gi\u1ea3i th\u00edch m\u1ee5c \u0111\u00edch c\u1ee7a c\u00e1c c\u00f4ng c\u1ee5 \u0111o l\u01b0\u1eddng v\u00e0 c\u00e1ch s\u1eed d\u1ee5ng ch\u00fang m\u1ed9t c\u00e1ch t"
+  }
+}

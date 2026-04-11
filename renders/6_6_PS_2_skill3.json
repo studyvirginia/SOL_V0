@@ -1,0 +1,95 @@
+{
+  "key": "6_6_PS_2_skill3",
+  "grade": "6",
+  "code": "6.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 6 Math",
+  "desc": "Represent the mean as a balance point and determine the effect on statistical measures when a data point is added, removed, or changed.",
+  "skill_desc": "Observe patterns in data to identify outliers and determine their effect on mean, median, mode, or range.",
+  "skill_idx": 2,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PS_2_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x_{1}",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "10"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y_{1}",
+            "values": [
+              "2",
+              "4",
+              "6",
+              "8",
+              "10",
+              "20"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "\\operatorname{mean}\\left(y_{1}\\right)",
+        "color": "#007AFF",
+        "label": "Mean",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "\\left(\\operatorname{mean}\\left(x_{1}\\right),\\operatorname{mean}\\left(y_{1}\\right)\\right)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "label": "Mean Point",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=2x",
+        "color": "#5856D6",
+        "label": "Line of Best Fit",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 11,
+      "top": 22
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Mean and Outlier"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

@@ -1,0 +1,204 @@
+{
+  "key": "5_5_PS_1_skill8",
+  "grade": "5",
+  "code": "5.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 5 Math",
+  "desc": "Apply the data cycle with a focus on line plots (dot plots) and stem-and-leaf plots.",
+  "skill_desc": "Identify parts of the data that have special characteristics and explain the meaning of the greatest, least, or same.",
+  "skill_idx": 7,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/5_5_PS_1_skill8.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              "1",
+              "2",
+              "2",
+              "3",
+              "3",
+              "3",
+              "4",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y",
+            "values": [
+              "1",
+              "1",
+              "2",
+              "1",
+              "2",
+              "3",
+              "1",
+              "2",
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "expression",
+        "latex": "y=1",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "type": "expression",
+        "latex": "y=2",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "type": "expression",
+        "latex": "y=3",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(1,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(2,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(3,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(3,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(3,3)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p7",
+        "latex": "(4,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p8",
+        "latex": "(4,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p9",
+        "latex": "(5,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 6,
+      "top": 4
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Line Plot Example"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

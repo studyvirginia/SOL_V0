@@ -1,0 +1,126 @@
+{
+  "key": "6_6_NS_2_skill2",
+  "grade": "6",
+  "code": "6.NS.2",
+  "domain": "Number and Number Sense",
+  "course": "Grade 6 Math",
+  "desc": "Represent, compare, and order integers using multiple strategies.",
+  "skill_desc": "Identify an integer represented by a point on a number line.",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_NS_2_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(2,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "label": "2",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(-3,-3)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "label": "-3",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "label": "0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -4,
+      "bottom": -4,
+      "right": 4,
+      "top": 4
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Number Line Representation of Integers"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "xAxis",
+      "yAxis",
+      "A = (-4, 0)",
+      "SetPointStyle(A, 2)",
+      "SetPointSize(A, 7)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"-4\")",
+      "SetLabelMode(A, 3)",
+      "B = (-2, 0)",
+      "SetPointStyle(B, 2)",
+      "SetPointSize(B, 7)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"-2\")",
+      "SetLabelMode(B, 3)",
+      "C = (0, 0)",
+      "SetPointStyle(C, 2)",
+      "SetPointSize(C, 7)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"0\")",
+      "SetLabelMode(C, 3)",
+      "D = (2, 0)",
+      "SetPointStyle(D, 2)",
+      "SetPointSize(D, 7)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"2\")",
+      "SetLabelMode(D, 3)",
+      "E = (4, 0)",
+      "SetPointStyle(E, 2)",
+      "SetPointSize(E, 7)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"4\")",
+      "SetLabelMode(E, 3)"
+    ],
+    "view": [
+      -6,
+      6,
+      -1,
+      1
+    ],
+    "showGrid": true,
+    "title": "Number Line with Integers"
+  },
+  "sketchmath_state": null
+}

@@ -1,0 +1,18 @@
+{
+  "key": "4_4_CE_2_skill5",
+  "grade": "4",
+  "code": "4.CE.2",
+  "domain": "Computation and Estimation",
+  "course": "Grade 4 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to single-step and multistep problems involving multiplication and single-step problems involving division with whole numbers.",
+  "skill_desc": "Determine common factors and the greatest common factor of no more than three numbers.",
+  "skill_idx": 4,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/4_4_CE_2_skill5.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

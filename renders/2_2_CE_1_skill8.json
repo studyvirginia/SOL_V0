@@ -1,0 +1,71 @@
+{
+  "key": "2_2_CE_1_skill8",
+  "grade": "2",
+  "code": "2.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 2 Math",
+  "desc": "Recall addition and subtraction facts within 20 and solve single-step and multistep problems using addition and subtraction with whole numbers up to 100.",
+  "skill_desc": "Use inverse relationships to write all related facts connected to a given addition or subtraction fact model within 20.",
+  "skill_idx": 7,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/2_2_CE_1_skill8.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "3+4=7",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "4+3=7",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "7-3=4",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "7-4=3",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 8,
+      "top": 8
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Related Facts: Addition and Subtraction within 20"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

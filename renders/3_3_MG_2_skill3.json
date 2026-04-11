@@ -1,0 +1,149 @@
+{
+  "key": "3_3_MG_2_skill3",
+  "grade": "3",
+  "code": "3.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 3 Math",
+  "desc": "Estimate and solve problems involving area and perimeter using multiple representations.",
+  "skill_desc": "Describe and give examples of perimeter as a measurement in contextual situations.",
+  "skill_idx": 2,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/3_3_MG_2_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(4,3),(0,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "P=2\\cdot(4+3)",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 5
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Perimeter of a Rectangle"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Start\")",
+      "SetLabelMode(A, 3)",
+      "B = (5, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"End\")",
+      "SetLabelMode(B, 3)",
+      "seg = Segment(A, B)",
+      "SetColor(seg, 0, 122, 255)",
+      "SetLineThickness(seg, 3)",
+      "C = (0, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"Top\")",
+      "SetLabelMode(C, 3)",
+      "D = (5, 3)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"Top End\")",
+      "SetLabelMode(D, 3)",
+      "seg2 = Segment(C, D)",
+      "SetColor(seg2, 0, 122, 255)",
+      "SetLineThickness(seg2, 3)",
+      "seg3 = Segment(A, C)",
+      "SetColor(seg3, 0, 122, 255)",
+      "SetLineThickness(seg3, 3)",
+      "seg4 = Segment(B, D)",
+      "SetColor(seg4, 0, 122, 255)",
+      "SetLineThickness(seg4, 3)",
+      "perimeter = 2*(5+3)",
+      "SetCaption(perimeter, \"Perimeter = 16 units\")",
+      "SetLabelMode(perimeter, 3)"
+    ],
+    "view": [
+      -1,
+      6,
+      -1,
+      4
+    ],
+    "showGrid": true,
+    "title": "Rectangle with labeled sides and perimeter calculation"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (5, 1)",
+      "C = (5, 3)",
+      "D = (1, 3)",
+      "Polygon(A, B, C, D)",
+      "perimeter = 2 * (Distance(A, B) + Distance(B, C))"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 minh h\u1ecda kh\u00e1i ni\u1ec7m chu vi, ch\u00fang ta s\u1ebd t\u1ea1o m\u1ed9t h\u00ecnh ch\u1eef nh\u1eadt v\u00e0 t\u00ednh chu vi c"
+  }
+}

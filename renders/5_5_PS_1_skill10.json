@@ -1,0 +1,179 @@
+{
+  "key": "5_5_PS_1_skill10",
+  "grade": "5",
+  "code": "5.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 5 Math",
+  "desc": "Apply the data cycle with a focus on line plots (dot plots) and stem-and-leaf plots.",
+  "skill_desc": "Solve single-step and multistep addition and subtraction problems using data from line plots (dot plots) and stem-and-leaf plots.",
+  "skill_idx": 9,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/5_5_PS_1_skill10.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              0,
+              1,
+              1,
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+              3,
+              4,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              6,
+              7
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y=1",
+            "values": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p1",
+        "latex": "y=0",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 1,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "l1",
+        "latex": "0",
+        "color": "#007AFF",
+        "label": "0",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "l2",
+        "latex": "1",
+        "color": "#007AFF",
+        "label": "1",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "l3",
+        "latex": "2",
+        "color": "#007AFF",
+        "label": "2",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "l4",
+        "latex": "3",
+        "color": "#007AFF",
+        "label": "3",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "l5",
+        "latex": "4",
+        "color": "#007AFF",
+        "label": "4",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "l6",
+        "latex": "5",
+        "color": "#007AFF",
+        "label": "5",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "l7",
+        "latex": "6",
+        "color": "#007AFF",
+        "label": "6",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "l8",
+        "latex": "7",
+        "color": "#007AFF",
+        "label": "7",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -0.5,
+      "right": 8,
+      "top": 1.5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Line Plot (Dot Plot)"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

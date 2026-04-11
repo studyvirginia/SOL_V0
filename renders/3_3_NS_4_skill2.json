@@ -1,0 +1,18 @@
+{
+  "key": "3_3_NS_4_skill2",
+  "grade": "3",
+  "code": "3.NS.4",
+  "domain": "Number and Number Sense",
+  "course": "Grade 3 Math",
+  "desc": "Solve problems involving counting, comparing, representing, and making change for money amounts up to $5.00.",
+  "skill_desc": "Construct a set of bills and coins to total a given amount up to $5.00.",
+  "skill_idx": 1,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/3_3_NS_4_skill2.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

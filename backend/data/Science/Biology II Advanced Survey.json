@@ -1,0 +1,710 @@
+{
+  "subject": "Science",
+  "course": "Biology II Advanced Survey",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "BIOII.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through inquiry, investigation, data analysis, modeling, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from careful observation of phenomena, models, theories, or to seek additional information.",
+              "keywords": [
+                "scientific questioning",
+                "phenomena observation",
+                "model analysis",
+                "theory examination"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of the school laboratory or field.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "field investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make hypotheses that specify what happens to a dependent variable when an independent variable is manipulated.",
+              "keywords": [
+                "hypothesis formation",
+                "dependent variable",
+                "independent variable",
+                "variable manipulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "scientific principles",
+                "research-based hypotheses"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct observational and experimental investigations; identify variables, constants, and controls.",
+              "keywords": [
+                "investigation planning",
+                "variables identification",
+                "constants",
+                "controls"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations in a safe and ethical manner, considering environmental, social, and personal effects.",
+              "keywords": [
+                "safe investigation",
+                "ethical conduct",
+                "environmental considerations",
+                "social impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine appropriate sample size and techniques for investigations.",
+              "keywords": [
+                "sample size determination",
+                "sampling techniques",
+                "investigation design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect and record data.",
+              "keywords": [
+                "data collection tools",
+                "technology selection",
+                "data recording"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variables",
+                "dependent variables",
+                "repeated trials",
+                "means calculation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data; consider limitations of data analysis.",
+              "keywords": [
+                "graphical data display",
+                "data analysis",
+                "data interpretation",
+                "limitations assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models or to support an explanation for phenomena.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "phenomena explanation",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes in scientific contexts.",
+              "keywords": [
+                "mathematical application",
+                "scientific data analysis",
+                "quantitative reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "validity assessment",
+                "reliability evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from multiple sources.",
+              "keywords": [
+                "explanation construction",
+                "evidence evaluation",
+                "peer review",
+                "model-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide an explanation of phenomena.",
+              "keywords": [
+                "scientific explanation",
+                "phenomena interpretation",
+                "principle application"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments in light of currently accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument comparison",
+                "scientific evidence",
+                "explanation evaluation",
+                "peer review"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support a claim using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim formulation",
+                "empirical evidence",
+                "scientific reasoning",
+                "claim support"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate a claim by applying scientific reasoning, theory, and/or models to link evidence to assess the extent to which the reasoning and data support the explanation or conclusion.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theory application",
+                "model-based assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model limitations",
+                "model merits",
+                "scientific modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships, support explanations, predict phenomena, analyze systems, and/or solve problems.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "evidence-based modeling",
+                "system analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical and statistical concepts and processes in building and revising models, and supporting explanations of phenomena.",
+              "keywords": [
+                "mathematical modeling",
+                "statistical analysis",
+                "model revision",
+                "phenomena explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question or solve a problem.",
+              "keywords": [
+                "source comparison",
+                "information integration",
+                "media evaluation",
+                "scientific problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing the evidence and credibility of each source.",
+              "keywords": [
+                "source evaluation",
+                "scientific literature",
+                "credibility assessment",
+                "evidence analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical reporting",
+                "multi-format presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cell Processes",
+      "standards": [
+        {
+          "code": "BIOII.2",
+          "description": "Investigate how cell processes support survival and serve as a foundation for more complex systems in multicellular organisms.",
+          "skills": [
+            {
+              "description": "Explain how cell structures and organelles interact as a system to maintain homeostasis in the cell and the organism.",
+              "keywords": [
+                "cell homeostasis",
+                "organelle interaction",
+                "cellular systems",
+                "homeostatic regulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain how the cell membrane allows for selective permeability and maintains the internal environment of the cell.",
+              "keywords": [
+                "cell membrane",
+                "selective permeability",
+                "internal environment",
+                "membrane model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how a cell's form fits its function within a multicellular organism.",
+              "keywords": [
+                "cell form and function",
+                "cellular adaptation",
+                "multicellular organisms",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to explain the different processes of asexual reproduction (budding, vegetative propagation, binary fission, fragmentation, and sporogenesis).",
+              "keywords": [
+                "asexual reproduction",
+                "budding",
+                "vegetative propagation",
+                "binary fission",
+                "fragmentation",
+                "sporogenesis",
+                "reproductive models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how cell communication and cell specialization support cellular processes (regulation of cell growth, cell division, and cell energetics).",
+              "keywords": [
+                "cell communication",
+                "cell specialization",
+                "cell growth regulation",
+                "cell division",
+                "cell energetics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation to determine the relationship between feedback mechanisms and homeostasis.",
+              "keywords": [
+                "feedback mechanisms",
+                "homeostasis investigation",
+                "experimental design",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy Transformations and Matter Exchange",
+      "standards": [
+        {
+          "code": "BIOII.3",
+          "description": "Investigate how the highly complex organization of living systems requires energy transformations and the exchange of matter.",
+          "skills": [
+            {
+              "description": "Compare energy changes associated with anabolic and catabolic metabolic pathways.",
+              "keywords": [
+                "anabolic pathways",
+                "catabolic pathways",
+                "energy changes",
+                "metabolic pathways"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain the two stages of photosynthesis and describe their interdependence.",
+              "keywords": [
+                "photosynthesis stages",
+                "light-dependent reactions",
+                "Calvin cycle",
+                "photosynthetic model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the importance of photosynthesis and respiration in the cycling of matter and transfer of energy within living systems.",
+              "keywords": [
+                "photosynthesis",
+                "cellular respiration",
+                "matter cycling",
+                "energy transfer",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation to compare factors that affect enzyme activity and explain how these factors influence energy and matter in living systems.",
+              "keywords": [
+                "enzyme activity",
+                "investigation design",
+                "factors affecting enzymes",
+                "energy transformation",
+                "matter exchange"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict how disruption in enzyme activity will affect energy and matter in living systems.",
+              "keywords": [
+                "enzyme disruption",
+                "energy transformation",
+                "matter exchange",
+                "predictive modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transfer of Heritable Information",
+      "standards": [
+        {
+          "code": "BIOII.4",
+          "description": "Investigate how the transfer of heritable information leads to the continuity of life.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain how processes during sexual reproduction (crossing over, independent assortment, and random gamete combinations) increase genetic diversity.",
+              "keywords": [
+                "sexual reproduction",
+                "crossing over",
+                "independent assortment",
+                "gamete combination",
+                "genetic diversity",
+                "reproductive model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the effect of mutations in DNA (frameshift, insertion, deletion, and substitution) or nondisjunction on diversity.",
+              "keywords": [
+                "DNA mutations",
+                "frameshift mutations",
+                "insertion mutations",
+                "deletion mutations",
+                "substitution mutations",
+                "nondisjunction",
+                "genetic diversity",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the type of intra-allelic gene interactions (dominance, incomplete dominance, codominance, and multiple alleles) in a given scenario.",
+              "keywords": [
+                "intra-allelic interactions",
+                "dominance",
+                "incomplete dominance",
+                "codominance",
+                "multiple alleles",
+                "genetic scenario",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare gene linkage and sex-linked inheritance with intra-allelic interactions.",
+              "keywords": [
+                "gene linkage",
+                "sex-linked inheritance",
+                "intra-allelic interactions",
+                "genetic comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict genotypes and phenotypes from genetic crosses of dihybrid and sex-linked traits in simple organisms.",
+              "keywords": [
+                "genetic crosses",
+                "dihybrid traits",
+                "sex-linked traits",
+                "genotype prediction",
+                "phenotype prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain patterns of polygenic inheritance.",
+              "keywords": [
+                "polygenic inheritance",
+                "inheritance patterns",
+                "genetic model",
+                "trait variation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Evolutionary Mechanisms",
+      "standards": [
+        {
+          "code": "BIOII.5",
+          "description": "Investigate how evolutionary mechanisms affect the genetic makeup of populations over time.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate a claim about the effect of selective pressures on species evolution.",
+              "keywords": [
+                "selective pressures",
+                "species evolution",
+                "claim evaluation",
+                "evolutionary mechanisms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the effect of changing environmental conditions on the allele frequencies in a population.",
+              "keywords": [
+                "environmental conditions",
+                "allele frequencies",
+                "population genetics",
+                "evolutionary change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain how evolutionary factors (gene flow, genetic drift, mutation, non-random mating, and natural selection) change allele frequencies over time.",
+              "keywords": [
+                "evolutionary factors",
+                "gene flow",
+                "genetic drift",
+                "mutation",
+                "non-random mating",
+                "natural selection",
+                "allele frequency",
+                "population model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain the effects of inbreeding and genetic drift in small, isolated populations.",
+              "keywords": [
+                "inbreeding",
+                "genetic drift",
+                "small populations",
+                "isolated populations",
+                "population model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how speciation occurs.",
+              "keywords": [
+                "speciation",
+                "claim evaluation",
+                "evolutionary mechanisms",
+                "species formation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how evolution happens at the population level.",
+              "keywords": [
+                "population-level evolution",
+                "claim evaluation",
+                "microevolution",
+                "genetic change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ecosystems",
+      "standards": [
+        {
+          "code": "BIOII.6",
+          "description": "Investigate how ecosystems are dynamic systems in which energy transfers and matter flow through interactions among living organisms and their environment.",
+          "skills": [
+            {
+              "description": "Explain how the laws of thermodynamics govern energy transfers through ecosystems.",
+              "keywords": [
+                "thermodynamics",
+                "energy transfer",
+                "ecosystem dynamics",
+                "energy laws"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how energy transfer influences productivity and ecological efficiency across trophic levels.",
+              "keywords": [
+                "energy transfer",
+                "ecological productivity",
+                "trophic levels",
+                "ecological efficiency",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain the cycling of matter in ecosystems through biogeochemical processes (carbon, nitrogen, water, and phosphorus).",
+              "keywords": [
+                "biogeochemical cycles",
+                "carbon cycle",
+                "nitrogen cycle",
+                "water cycle",
+                "phosphorus cycle",
+                "matter cycling",
+                "ecosystem model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the biotic and abiotic factors in an ecosystem and determine how these factors affect patterns of species distribution and population size.",
+              "keywords": [
+                "biotic factors",
+                "abiotic factors",
+                "species distribution",
+                "population size",
+                "ecosystem analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how species interactions influence ecosystem structure.",
+              "keywords": [
+                "species interactions",
+                "ecosystem structure",
+                "claim evaluation",
+                "community dynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how biodiversity and ecosystem resilience are influenced by natural and human-induced disturbances.",
+              "keywords": [
+                "biodiversity",
+                "ecosystem resilience",
+                "natural disturbances",
+                "human-induced disturbances",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Advanced Topics in Biology",
+      "standards": [
+        {
+          "code": "BIOII.7",
+          "description": "Investigate concepts from different fields in biology, including biochemistry, comparative anatomy, human health, genetics, and synthetic biology.",
+          "skills": [
+            {
+              "description": "Investigate and understand advanced biological concepts from specified fields.",
+              "keywords": [
+                "advanced biology",
+                "biochemistry",
+                "comparative anatomy",
+                "human health",
+                "genetics",
+                "synthetic biology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

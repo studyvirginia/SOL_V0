@@ -1,0 +1,158 @@
+{
+  "key": "5_5_MG_1_skill4",
+  "grade": "5",
+  "code": "5.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 5 Math",
+  "desc": "Solve problems involving length, mass, and liquid volume using metric units.",
+  "skill_desc": "Estimate and measure length (millimeters, centimeters, meters) to solve contextual problems.",
+  "skill_idx": 3,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/5_5_MG_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(4,3),(0,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "3\\text{ cm}",
+        "color": "#007AFF",
+        "label": "Height",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "labelOrientation": "LEFT",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "4\\text{ cm}",
+        "color": "#007AFF",
+        "label": "Base",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "labelOrientation": "BELOW",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 5
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Rectangle with labeled sides"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Start\")",
+      "SetLabelMode(A, 3)",
+      "B = (10, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"10 cm\")",
+      "SetLabelMode(B, 3)",
+      "seg = Segment(A, B)",
+      "SetColor(seg, 0, 122, 255)",
+      "C = (0, 5)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"5 cm\")",
+      "SetLabelMode(C, 3)",
+      "seg2 = Segment(A, C)",
+      "SetColor(seg2, 0, 122, 255)",
+      "D = (5, 0)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"5 cm\")",
+      "SetLabelMode(D, 3)",
+      "seg3 = Segment(D, B)",
+      "SetColor(seg3, 0, 122, 255)",
+      "E = (0, 2.5)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"2.5 cm\")",
+      "SetLabelMode(E, 3)",
+      "seg4 = Segment(A, E)",
+      "SetColor(seg4, 0, 122, 255)",
+      "F = (0, 1)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"1 cm\")",
+      "SetLabelMode(F, 3)",
+      "seg5 = Segment(A, F)",
+      "SetColor(seg5, 0, 122, 255)",
+      "G = (0, 0.5)",
+      "SetLabelVisible(G, true)",
+      "SetCaption(G, \"0.5 cm\")",
+      "SetLabelMode(G, 3)",
+      "seg6 = Segment(A, G)",
+      "SetColor(seg6, 0, 122, 255)"
+    ],
+    "view": [
+      -1,
+      11,
+      -1,
+      6
+    ],
+    "showGrid": true,
+    "title": "Estimating and measuring length in centimeters"
+  },
+  "sketchmath_state": null
+}

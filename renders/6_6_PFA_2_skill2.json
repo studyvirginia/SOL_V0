@@ -1,0 +1,83 @@
+{
+  "key": "6_6_PFA_2_skill2",
+  "grade": "6",
+  "code": "6.PFA.2",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 6 Math",
+  "desc": "Identify and represent proportional relationships between two quantities, including contextual problems.",
+  "skill_desc": "Determine a missing value in a ratio table representing a proportional relationship using a unit rate.",
+  "skill_idx": 1,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PFA_2_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=3x",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "type": "table",
+        "id": "t1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y",
+            "values": [
+              "3",
+              "6",
+              "9",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p1",
+        "latex": "(4,12)",
+        "color": "#FF3B30",
+        "label": "(4, 12)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 15
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Proportional Relationships: Finding Missing Value"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

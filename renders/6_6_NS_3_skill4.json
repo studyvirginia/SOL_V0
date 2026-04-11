@@ -1,0 +1,123 @@
+{
+  "key": "6_6_NS_3_skill4",
+  "grade": "6",
+  "code": "6.NS.3",
+  "domain": "Number and Number Sense",
+  "course": "Grade 6 Math",
+  "desc": "Recognize and represent patterns with whole number exponents and perfect squares.",
+  "skill_desc": "Recognize and represent powers of 10 with whole number exponents by examining patterns in place value.",
+  "skill_idx": 3,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_NS_3_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=10^{x}",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,1)",
+        "color": "#FF3B30",
+        "label": "(0, 1)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(1,10)",
+        "color": "#FF3B30",
+        "label": "(1, 10)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,100)",
+        "color": "#FF3B30",
+        "label": "(2, 100)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "a1",
+        "latex": "y=0",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "lines": true,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 3,
+      "top": 110
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Powers of 10"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 10^x",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 10^(x-1)",
+      "SetColor(g, 255, 0, 0)",
+      "h(x) = 10^(x-2)",
+      "SetColor(h, 0, 255, 0)",
+      "A = (0, 1)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"10^0 = 1\")",
+      "SetLabelMode(A, 3)",
+      "B = (1, 10)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"10^1 = 10\")",
+      "SetLabelMode(B, 3)",
+      "C = (2, 100)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"10^2 = 100\")",
+      "SetLabelMode(C, 3)",
+      "D = (3, 1000)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"10^3 = 1000\")",
+      "SetLabelMode(D, 3)"
+    ],
+    "view": [
+      -1,
+      4,
+      -10,
+      1100
+    ],
+    "showGrid": true,
+    "title": "Powers of 10"
+  },
+  "sketchmath_state": null
+}

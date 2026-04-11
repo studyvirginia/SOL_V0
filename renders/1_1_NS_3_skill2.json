@@ -1,0 +1,71 @@
+{
+  "key": "1_1_NS_3_skill2",
+  "grade": "1",
+  "code": "1.NS.3",
+  "domain": "Number and Number Sense",
+  "course": "Grade 1 Math",
+  "desc": "Use mathematical reasoning and justification to solve contextual problems that involve partitioning models into two and four equal-sized parts.",
+  "skill_desc": "Represent and name halves and fourths of a whole, using a region/area model (e.g., pie pieces, pattern blocks, paper folding, drawings) and a set model (e.g., eggs, marbles, counters) limited to two or four items.",
+  "skill_idx": 1,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/1_1_NS_3_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "A=\\frac{1}{2}",
+        "color": "#007AFF",
+        "label": "One half",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "B=\\frac{1}{4}",
+        "color": "#FF3B30",
+        "label": "One fourth",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "C=\\frac{2}{4}",
+        "color": "#34C759",
+        "label": "Two fourths",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "D=\\frac{3}{4}",
+        "color": "#FF9500",
+        "label": "Three fourths",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Fractions: Halves and Fourths"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

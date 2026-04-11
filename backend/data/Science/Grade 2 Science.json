@@ -1,0 +1,504 @@
+{
+  "subject": "Science",
+  "course": "Grade 2 Science",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "2.1.AQ",
+          "description": "Ask questions and define problems that can be investigated scientifically or solved through engineering.",
+          "skills": [
+            {
+              "description": "Ask questions that can be investigated through observation or experimentation.",
+              "keywords": [
+                "investigative questions",
+                "scientific inquiry",
+                "observation",
+                "experimentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make predictions based on observations and prior experiences.",
+              "keywords": [
+                "prediction",
+                "observation",
+                "prior knowledge",
+                "hypothesis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a simple problem that can be solved through the development of a new tool or improved object.",
+              "keywords": [
+                "problem identification",
+                "engineering design",
+                "tool development",
+                "solution design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.1.PI",
+          "description": "Plan and carry out simple investigations to produce data.",
+          "skills": [
+            {
+              "description": "With guidance, plan simple investigations to produce data.",
+              "keywords": [
+                "investigation planning",
+                "data collection",
+                "guided inquiry",
+                "experimental design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use appropriate tools to measure length, weight, and temperature of common objects using U.S. Customary units.",
+              "keywords": [
+                "measurement",
+                "length",
+                "weight",
+                "temperature",
+                "U.S. Customary units",
+                "ruler",
+                "scale",
+                "thermometer"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Measure time intervals using proper tools.",
+              "keywords": [
+                "time measurement",
+                "intervals",
+                "stopwatch",
+                "clock",
+                "timing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.1.IA",
+          "description": "Interpret, analyze, and evaluate data.",
+          "skills": [
+            {
+              "description": "Organize and represent data in pictographs and bar graphs.",
+              "keywords": [
+                "data organization",
+                "pictographs",
+                "bar graphs",
+                "data representation",
+                "graphing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and interpret data represented in pictographs and bar graphs.",
+              "keywords": [
+                "data interpretation",
+                "pictographs",
+                "bar graphs",
+                "graph reading",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.1.CC",
+          "description": "Construct and critique conclusions and explanations based on data or observations.",
+          "skills": [
+            {
+              "description": "Make simple conclusions based on data or observations.",
+              "keywords": [
+                "conclusion drawing",
+                "data analysis",
+                "observation",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between opinion and evidence.",
+              "keywords": [
+                "opinion vs. evidence",
+                "critical thinking",
+                "data validation",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize unusual or unexpected results in data or observations.",
+              "keywords": [
+                "anomaly detection",
+                "data validation",
+                "unexpected results",
+                "observation analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.1.M",
+          "description": "Develop and use models to demonstrate phenomena and natural processes.",
+          "skills": [
+            {
+              "description": "Use models to demonstrate simple phenomena and natural processes.",
+              "keywords": [
+                "modeling",
+                "phenomena demonstration",
+                "natural processes",
+                "physical models",
+                "diagrams"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.1.CI",
+          "description": "Obtain, evaluate, and communicate information.",
+          "skills": [
+            {
+              "description": "Communicate observations and data using simple graphs, drawings, numbers, speech, and/or writing.",
+              "keywords": [
+                "data communication",
+                "graphing",
+                "drawings",
+                "numerical representation",
+                "verbal reporting",
+                "written reporting"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Force, Motion, and Energy",
+      "standards": [
+        {
+          "code": "2.2",
+          "description": "Investigate and understand that different types of forces may cause an object’s motion to change.",
+          "skills": [
+            {
+              "description": "Investigate how forces from direct contact can cause an object to move.",
+              "keywords": [
+                "contact forces",
+                "object motion",
+                "push",
+                "pull",
+                "force application"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that some forces, including gravity and magnetism, can cause objects to move from a distance.",
+              "keywords": [
+                "non-contact forces",
+                "gravity",
+                "magnetism",
+                "distance forces",
+                "object motion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify real-world applications of forces in daily life.",
+              "keywords": [
+                "force applications",
+                "real-world examples",
+                "daily life",
+                "motion changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matter",
+      "standards": [
+        {
+          "code": "2.3",
+          "description": "Investigate and understand that matter can exist in different phases and has specific characteristics.",
+          "skills": [
+            {
+              "description": "Recognize that matter has mass and takes up space.",
+              "keywords": [
+                "mass",
+                "volume",
+                "matter properties",
+                "physical properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify characteristics of solids, liquids, and gases.",
+              "keywords": [
+                "solid",
+                "liquid",
+                "gas",
+                "matter phases",
+                "physical states"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate that heating and cooling can change the phases of matter.",
+              "keywords": [
+                "phase change",
+                "heating",
+                "cooling",
+                "melting",
+                "freezing",
+                "evaporation",
+                "condensation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Living Systems and Processes",
+      "standards": [
+        {
+          "code": "2.4",
+          "description": "Investigate and understand that plants and animals undergo a series of orderly changes as they grow and develop.",
+          "skills": [
+            {
+              "description": "Identify the life cycles of animals.",
+              "keywords": [
+                "animal life cycle",
+                "metamorphosis",
+                "growth stages",
+                "developmental stages"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the life cycles of plants.",
+              "keywords": [
+                "plant life cycle",
+                "seed germination",
+                "growth stages",
+                "developmental stages"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.5",
+          "description": "Investigate and understand that living things are part of a system and interact with their environment.",
+          "skills": [
+            {
+              "description": "Recognize that plants and animals are interdependent with their living and nonliving surroundings.",
+              "keywords": [
+                "interdependence",
+                "ecosystem",
+                "living components",
+                "nonliving components",
+                "habitat"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify how an animal’s habitat provides all of its basic needs.",
+              "keywords": [
+                "habitat",
+                "basic needs",
+                "shelter",
+                "food",
+                "water",
+                "air"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how habitats change over time due to environmental influences.",
+              "keywords": [
+                "habitat change",
+                "environmental influences",
+                "ecological succession",
+                "natural changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth and Space Systems",
+      "standards": [
+        {
+          "code": "2.6",
+          "description": "Investigate and understand that there are different types of weather on Earth and how to measure and interpret weather data.",
+          "skills": [
+            {
+              "description": "Identify different types of weather and their specific characteristics.",
+              "keywords": [
+                "weather types",
+                "sunny",
+                "rainy",
+                "snowy",
+                "cloudy",
+                "stormy",
+                "weather characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Measure, record, and interpret weather data to identify weather patterns.",
+              "keywords": [
+                "weather measurement",
+                "data recording",
+                "weather patterns",
+                "data interpretation",
+                "weather tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that tracking weather allows preparation for weather and storms.",
+              "keywords": [
+                "weather tracking",
+                "storm preparation",
+                "weather forecasting",
+                "safety measures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.7",
+          "description": "Investigate and understand that weather patterns and seasonal changes affect plants, animals, and their surroundings.",
+          "skills": [
+            {
+              "description": "Explain how weather and seasonal changes affect the growth and behavior of living things.",
+              "keywords": [
+                "seasonal changes",
+                "growth patterns",
+                "behavioral changes",
+                "adaptation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize how wind and weather can change the land over time.",
+              "keywords": [
+                "land changes",
+                "wind erosion",
+                "weathering",
+                "landforms",
+                "erosion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare changes that happen quickly (e.g., storms) to those that happen slowly (e.g., erosion).",
+              "keywords": [
+                "rapid changes",
+                "slow changes",
+                "storms",
+                "erosion",
+                "landform changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth Resources",
+      "standards": [
+        {
+          "code": "2.8",
+          "description": "Investigate and understand that plants are important natural resources with various applications.",
+          "skills": [
+            {
+              "description": "Explain how the availability of plant products affects the development of a geographic area.",
+              "keywords": [
+                "plant products",
+                "geographic development",
+                "agriculture",
+                "resource availability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify how plants provide oxygen, homes, and food for many animals.",
+              "keywords": [
+                "oxygen production",
+                "habitat",
+                "food source",
+                "animal survival",
+                "ecosystem services"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate how plants can help reduce the impact of wind and water.",
+              "keywords": [
+                "windbreak",
+                "erosion control",
+                "plant roots",
+                "soil stabilization",
+                "natural barriers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "4_4_PS_2_skill4",
+  "grade": "4",
+  "code": "4.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 4 Math",
+  "desc": "Model and determine the probability of an outcome of a simple event.",
+  "skill_desc": "Determine the likelihood of an event occurring and relate it to its whole number or fractional representation.",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/4_4_PS_2_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "P(A)=\\frac{1}{2}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "P(B)=\\frac{1}{4}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "P(C)=0",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "P(D)=1",
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "P(E)=\\frac{3}{4}",
+        "color": "#5856D6",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -0.2,
+      "right": 6,
+      "top": 1.2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Probability of Events"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

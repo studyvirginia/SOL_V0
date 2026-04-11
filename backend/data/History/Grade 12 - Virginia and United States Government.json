@@ -1,0 +1,1036 @@
+{
+  "subject": "History",
+  "course": "Grade 12 - Virginia and United States Government",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "GOVT.SKILLS",
+          "description": "Apply history and social science skills to analyze government and politics.",
+          "skills": [
+            {
+              "description": "Select and synthesize evidence from artifacts, primary and secondary sources, charts, graphs, and diagrams to analyze government and politics.",
+              "keywords": [
+                "evidence synthesis",
+                "primary sources",
+                "secondary sources",
+                "charts",
+                "graphs",
+                "diagrams",
+                "government analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to determine and predict patterns and trends in government and politics.",
+              "keywords": [
+                "geographic skills",
+                "patterns",
+                "trends",
+                "government analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct arguments using evidence from multiple sources to analyze government and politics.",
+              "keywords": [
+                "argument construction",
+                "evidence-based reasoning",
+                "government analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and analyze evidence from multiple sources to construct arguments and draw conclusions about government and politics.",
+              "keywords": [
+                "evidence analysis",
+                "argument construction",
+                "government analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast historical, cultural, economic, and political perspectives in government and politics.",
+              "keywords": [
+                "comparative analysis",
+                "historical perspectives",
+                "cultural perspectives",
+                "economic perspectives",
+                "political perspectives"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine cause and effect to analyze connections in government and politics.",
+              "keywords": [
+                "cause and effect",
+                "connections",
+                "government analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use economic decision-making models to analyze incentives and consequences of specific choices in government and politics.",
+              "keywords": [
+                "economic decision-making",
+                "incentives",
+                "consequences",
+                "government analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Engage and communicate as an informed individual with persons holding different perspectives on government and politics.",
+              "keywords": [
+                "civic engagement",
+                "perspective-taking",
+                "government analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop products that reflect understanding of research and content to make real-life connections in government and politics.",
+              "keywords": [
+                "product development",
+                "research synthesis",
+                "real-life connections",
+                "government analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Contextualize, corroborate, and evaluate sources for credibility, propaganda, and bias to determine patterns and trends in government and politics.",
+              "keywords": [
+                "source evaluation",
+                "credibility assessment",
+                "propaganda analysis",
+                "bias detection",
+                "government analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Foundations of American Constitutional Government",
+      "standards": [
+        {
+          "code": "GOVT.1",
+          "description": "Understand the foundations of American constitutional government through historic influences and foundational documents.",
+          "skills": [
+            {
+              "description": "Describe features of a democratic republic influenced by Athenian democracy and the Roman Republic.",
+              "keywords": [
+                "democratic republic",
+                "Athenian democracy",
+                "Roman Republic",
+                "government structures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze foundational principles in historic writings and prior governing documents, including the Magna Carta, charters of the Virginia Company of London, Enlightenment philosophers, the Great Awakening, and the English Bill of Rights.",
+              "keywords": [
+                "foundational principles",
+                "Magna Carta",
+                "Virginia Company charters",
+                "Enlightenment philosophers",
+                "Great Awakening",
+                "English Bill of Rights"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate foundational principles expressed in the Constitution of Virginia, the Declaration of Independence, the Articles of Confederation, and the Constitution of the United States.",
+              "keywords": [
+                "foundational principles",
+                "Constitution of Virginia",
+                "Declaration of Independence",
+                "Articles of Confederation",
+                "U.S. Constitution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze George Mason's Virginia Declaration of Rights, Thomas Jefferson's Virginia Statute for Religious Freedom, and James Madison's role in securing adoption of the Bill of Rights.",
+              "keywords": [
+                "Virginia Declaration of Rights",
+                "Virginia Statute for Religious Freedom",
+                "James Madison",
+                "Bill of Rights"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "GOVT.2",
+          "description": "Describe the concept of democracy and its structural variations.",
+          "skills": [
+            {
+              "description": "Explain concepts of popular sovereignty, natural rights, the rule of law, self-government, and consent of the governed.",
+              "keywords": [
+                "popular sovereignty",
+                "natural rights",
+                "rule of law",
+                "self-government",
+                "consent of the governed"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare structures of government including constitutional republic, autocracy, direct democracy, representative democracy, presidential system, and parliamentary system.",
+              "keywords": [
+                "government structures",
+                "constitutional republic",
+                "autocracy",
+                "direct democracy",
+                "representative democracy",
+                "presidential system",
+                "parliamentary system"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize the equality of all citizens under the law.",
+              "keywords": [
+                "citizen equality",
+                "rule of law"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize majority rule and minority rights.",
+              "keywords": [
+                "majority rule",
+                "minority rights"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize the necessity of compromise in democratic governance.",
+              "keywords": [
+                "compromise",
+                "democratic governance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize the freedom of the individual in a democratic system.",
+              "keywords": [
+                "individual freedom",
+                "democratic system"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "GOVT.3",
+          "description": "Analyze the U.S. and Virginia Constitutions and the Bill of Rights.",
+          "skills": [
+            {
+              "description": "Examine ratification debates and the Federalist Papers, including No. 10 and No. 51.",
+              "keywords": [
+                "ratification debates",
+                "Federalist Papers",
+                "No. 10",
+                "No. 51"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the purposes for government stated in the Preamble of the U.S. Constitution.",
+              "keywords": [
+                "Preamble",
+                "government purposes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define the structure and authority of the national government as outlined in Articles I, II, and III of the U.S. Constitution.",
+              "keywords": [
+                "Article I",
+                "Article II",
+                "Article III",
+                "national government structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine differences between powers and authority of state and national governments.",
+              "keywords": [
+                "state government",
+                "national government",
+                "powers",
+                "authority"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Connect principles of checks and balances and separation of powers to the three branches of government.",
+              "keywords": [
+                "checks and balances",
+                "separation of powers",
+                "three branches of government"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the Bill of Rights affirms natural rights as preceding politics.",
+              "keywords": [
+                "Bill of Rights",
+                "natural rights",
+                "preceding politics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the amendment process for the U.S. Constitution.",
+              "keywords": [
+                "amendment process",
+                "U.S. Constitution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "GOVT.4",
+          "description": "Explore the significance and values of the American republic.",
+          "skills": [
+            {
+              "description": "Analyze the five values of liberty, egalitarianism, individualism, populism, and laissez-faire government as described by Alexis de Tocqueville.",
+              "keywords": [
+                "liberty",
+                "egalitarianism",
+                "individualism",
+                "populism",
+                "laissez-faire",
+                "Alexis de Tocqueville"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand the meaning and historical significance of the mottos 'E Pluribus Unum' and 'In God We Trust.'",
+              "keywords": [
+                "E Pluribus Unum",
+                "In God We Trust",
+                "mottos",
+                "historical significance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe fundamental concepts of American constitutional democracy, including government power derived from the people and primacy of individual liberty.",
+              "keywords": [
+                "American constitutional democracy",
+                "government power",
+                "individual liberty"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define the American Creed and its call to safeguard liberty, respect the rule of law, and preserve the Constitution.",
+              "keywords": [
+                "American Creed",
+                "liberty",
+                "rule of law",
+                "Constitution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate how the U.S. Constitution and Bill of Rights protect freedoms and limit government.",
+              "keywords": [
+                "U.S. Constitution",
+                "Bill of Rights",
+                "freedoms",
+                "limited government"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rights and Responsibilities of Citizenship",
+      "standards": [
+        {
+          "code": "GOVT.5",
+          "description": "Explain the rights and responsibilities of U.S. citizenship.",
+          "skills": [
+            {
+              "description": "Describe the paths to U.S. citizenship.",
+              "keywords": [
+                "U.S. citizenship",
+                "naturalization",
+                "paths to citizenship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Obey the law and pay taxes.",
+              "keywords": [
+                "law obedience",
+                "tax payment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Serve as a juror.",
+              "keywords": [
+                "jury duty",
+                "civic responsibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Participate in the political process and vote in local, state, and national elections.",
+              "keywords": [
+                "political participation",
+                "voting",
+                "local elections",
+                "state elections",
+                "national elections"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Perform public service.",
+              "keywords": [
+                "public service",
+                "civic engagement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Keep informed about current issues.",
+              "keywords": [
+                "civic awareness",
+                "current issues"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Practice personal and fiscal responsibility.",
+              "keywords": [
+                "personal responsibility",
+                "fiscal responsibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand the voluntary nature of the U.S. military and the importance of Selective Service registration.",
+              "keywords": [
+                "Selective Service",
+                "voluntary military",
+                "civic duty"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elections",
+      "standards": [
+        {
+          "code": "GOVT.6",
+          "description": "Explain the process of local, state, and national elections.",
+          "skills": [
+            {
+              "description": "Describe how amendments and laws have extended voting rights to previously disenfranchised Americans.",
+              "keywords": [
+                "voting rights",
+                "amendments",
+                "disenfranchised groups"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine campaign finance laws, funding, and spending, including Supreme Court decisions and the role of interest groups.",
+              "keywords": [
+                "campaign finance",
+                "campaign funding",
+                "Supreme Court decisions",
+                "interest groups"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the nomination and election process, including the organization and evolving role of political parties and interest groups.",
+              "keywords": [
+                "nomination process",
+                "election process",
+                "political parties",
+                "interest groups"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the influence of media coverage, campaign advertising, public opinion polls, social media, and digital communications on elections.",
+              "keywords": [
+                "media influence",
+                "campaign advertising",
+                "public opinion polls",
+                "social media",
+                "digital communications"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role of the Electoral College and the impact of reapportionment and redistricting on elections and governance.",
+              "keywords": [
+                "Electoral College",
+                "reapportionment",
+                "redistricting",
+                "elections",
+                "governance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate challenges of the election process, including redistricting and gerrymandering.",
+              "keywords": [
+                "election challenges",
+                "redistricting",
+                "gerrymandering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Federal Government",
+      "standards": [
+        {
+          "code": "GOVT.7",
+          "description": "Describe the scope and limits of the powers of the legislative branch.",
+          "skills": [
+            {
+              "description": "Describe the structure and process for the election of legislative branch members.",
+              "keywords": [
+                "legislative branch",
+                "structure",
+                "election process"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the power of the legislative branch has changed over time.",
+              "keywords": [
+                "legislative power",
+                "historical change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate how legislative branch processes reflect democratic principles of American constitutional government.",
+              "keywords": [
+                "legislative processes",
+                "democratic principles",
+                "constitutional government"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "GOVT.8",
+          "description": "Describe the scope and limits of the powers of the executive branch.",
+          "skills": [
+            {
+              "description": "Describe the structure and organization of the executive branch.",
+              "keywords": [
+                "executive branch",
+                "structure",
+                "organization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the power of the executive branch has changed over time, including the Twentieth, Twenty-second, and Twenty-fifth Amendments.",
+              "keywords": [
+                "executive power",
+                "historical change",
+                "Twentieth Amendment",
+                "Twenty-second Amendment",
+                "Twenty-fifth Amendment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast executive branch processes with those of the legislative branch.",
+              "keywords": [
+                "executive branch",
+                "legislative branch",
+                "process comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "GOVT.9",
+          "description": "Describe the scope and limits of the powers of the federal judiciary.",
+          "skills": [
+            {
+              "description": "Describe the organization, jurisdiction, and proceedings of federal courts.",
+              "keywords": [
+                "federal courts",
+                "organization",
+                "jurisdiction",
+                "proceedings"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the Marshall Court established the Supreme Court as an independent branch in Marbury v. Madison.",
+              "keywords": [
+                "Marshall Court",
+                "Marbury v. Madison",
+                "Supreme Court independence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the Supreme Court decides cases.",
+              "keywords": [
+                "Supreme Court",
+                "case decision-making"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the philosophy of originalism, judicial pragmatism, judicial activism, and judicial restraint.",
+              "keywords": [
+                "originalism",
+                "judicial pragmatism",
+                "judicial activism",
+                "judicial restraint"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "State and Local Government",
+      "standards": [
+        {
+          "code": "GOVT.10",
+          "description": "Explain the organization and powers of state and local governments.",
+          "skills": [
+            {
+              "description": "Analyze legislative, executive, and judicial branches of state and local governments.",
+              "keywords": [
+                "legislative branch",
+                "executive branch",
+                "judicial branch",
+                "state government",
+                "local government"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the law-making process at the state and local levels.",
+              "keywords": [
+                "law-making process",
+                "state government",
+                "local government"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the structure and powers of local governments (county, city, and town).",
+              "keywords": [
+                "local government",
+                "county government",
+                "city government",
+                "town government",
+                "powers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the relationship between state and local governments and the roles of regional authorities, governing boards, and commissions.",
+              "keywords": [
+                "state-local government relationship",
+                "regional authorities",
+                "governing boards",
+                "commissions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare partisan and nonpartisan offices.",
+              "keywords": [
+                "partisan offices",
+                "nonpartisan offices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and explain ways individuals and groups exert influence on state and local governments.",
+              "keywords": [
+                "civic influence",
+                "state government",
+                "local government"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civil Liberties and Civil Rights",
+      "standards": [
+        {
+          "code": "GOVT.11",
+          "description": "Analyze civil liberties and civil rights.",
+          "skills": [
+            {
+              "description": "Explain the difference between civil rights and civil liberties.",
+              "keywords": [
+                "civil rights",
+                "civil liberties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the purpose of the Bill of Rights, with emphasis on First Amendment freedoms.",
+              "keywords": [
+                "Bill of Rights",
+                "First Amendment",
+                "freedoms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the rights of the accused and due process of law expressed in the Bill of Rights and the Fourteenth Amendment.",
+              "keywords": [
+                "rights of the accused",
+                "due process",
+                "Bill of Rights",
+                "Fourteenth Amendment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the Supreme Court has applied most of the protections of the Bill of Rights to the states through selective incorporation.",
+              "keywords": [
+                "Supreme Court",
+                "Bill of Rights",
+                "selective incorporation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the balance between individual liberties and the public interest.",
+              "keywords": [
+                "individual liberties",
+                "public interest",
+                "balance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine how civil liberties and civil rights are protected under the law.",
+              "keywords": [
+                "civil liberties",
+                "civil rights",
+                "legal protection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Role of the United States in a Changing World",
+      "standards": [
+        {
+          "code": "GOVT.12",
+          "description": "Understand the role of the United States in a changing world.",
+          "skills": [
+            {
+              "description": "Describe the responsibilities of the federal government for foreign policy and national security.",
+              "keywords": [
+                "foreign policy",
+                "national security",
+                "federal government"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Assess and analyze the role of national interest in shaping foreign policy and promoting world peace.",
+              "keywords": [
+                "national interest",
+                "foreign policy",
+                "world peace"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the relationship of Virginia and the United States in the global economy, including trends in international trade.",
+              "keywords": [
+                "global economy",
+                "international trade",
+                "Virginia",
+                "United States"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "GOVT.13",
+          "description": "Evaluate economic and political systems and their global influence.",
+          "skills": [
+            {
+              "description": "Evaluate the economic and political systems of capitalism, communism, Marxism, socialism, fascism, authoritarianism, and totalitarianism.",
+              "keywords": [
+                "capitalism",
+                "communism",
+                "Marxism",
+                "socialism",
+                "fascism",
+                "authoritarianism",
+                "totalitarianism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the characteristics of economies as described by Adam Smith, Karl Marx, John Maynard Keynes, Friedrich Hayek, Milton Friedman, and Thomas Sowell.",
+              "keywords": [
+                "Adam Smith",
+                "Karl Marx",
+                "John Maynard Keynes",
+                "Friedrich Hayek",
+                "Milton Friedman",
+                "Thomas Sowell",
+                "economic theories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast capitalism and socialism as economic systems, including the role of government and individual economic freedoms.",
+              "keywords": [
+                "capitalism",
+                "socialism",
+                "government role",
+                "economic freedoms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the differences between the principles of the Bill of Rights and the Communist Manifesto.",
+              "keywords": [
+                "Bill of Rights",
+                "Communist Manifesto",
+                "principles comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the factors that influence production and distribution of goods in a market system.",
+              "keywords": [
+                "production",
+                "distribution",
+                "market system"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how competition and free enterprise influence local, national, and global economies.",
+              "keywords": [
+                "competition",
+                "free enterprise",
+                "local economy",
+                "national economy",
+                "global economy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Role of the Government in the Economy",
+      "standards": [
+        {
+          "code": "GOVT.14",
+          "description": "Explain the role of government in the Virginia and United States economies.",
+          "skills": [
+            {
+              "description": "Explain government's limited but important role in free enterprise and its effect on individual economic freedoms.",
+              "keywords": [
+                "free enterprise",
+                "government role",
+                "economic freedoms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the provision of government goods and services not readily produced by the market.",
+              "keywords": [
+                "government goods",
+                "government services",
+                "market failure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate government's establishment and maintenance of rules and institutions for markets, including property rights, contracts, consumer rights, labor-management relations, environmental protection, and competition.",
+              "keywords": [
+                "property rights",
+                "contracts",
+                "consumer rights",
+                "labor-management relations",
+                "environmental protection",
+                "competition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and describe the types and purposes of taxation used by local, state, and federal governments to fund services.",
+              "keywords": [
+                "taxation",
+                "local government",
+                "state government",
+                "federal government",
+                "government services"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze how Congress can use fiscal policy to stabilize the economy.",
+              "keywords": [
+                "Congress",
+                "fiscal policy",
+                "economic stabilization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the Federal Reserve can use monetary policy to pursue price stability, full employment, and economic growth.",
+              "keywords": [
+                "Federal Reserve",
+                "monetary policy",
+                "price stability",
+                "full employment",
+                "economic growth"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the trade-offs in government decisions.",
+              "keywords": [
+                "government decisions",
+                "trade-offs",
+                "economic policy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

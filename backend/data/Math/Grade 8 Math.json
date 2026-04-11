@@ -1,0 +1,1016 @@
+{
+  "subject": "Math",
+  "course": "Grade 8 Math",
+  "domains": [
+    {
+      "name": "Number and Number Sense",
+      "standards": [
+        {
+          "code": "8.NS.1",
+          "description": "Compare and order real numbers, including irrational numbers, using rational approximations and multiple strategies.",
+          "skills": [
+            {
+              "description": "Estimate and identify the two consecutive natural numbers between which the positive square root of a given number lies (1 to 400) and justify the better approximation.",
+              "keywords": [
+                "square root",
+                "natural numbers",
+                "approximation",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use rational approximations (to the nearest hundredth) of irrational numbers to compare, order, and locate values on a number line.",
+              "keywords": [
+                "irrational numbers",
+                "rational approximations",
+                "number line",
+                "comparison",
+                "ordering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and order up to five real numbers (integers, fractions, decimals, mixed numbers, percents, scientific notation, radicals, π) using benchmarks, number lines, or equivalency.",
+              "keywords": [
+                "real numbers",
+                "comparison",
+                "ordering",
+                "benchmarks",
+                "number line",
+                "equivalency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify solutions for comparing and ordering real numbers orally, in writing, or with a model.",
+              "keywords": [
+                "justification",
+                "solutions",
+                "oral",
+                "written",
+                "model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.NS.2",
+          "description": "Investigate and describe relationships among subsets of the real number system.",
+          "skills": [
+            {
+              "description": "Describe and illustrate relationships among subsets of the real number system (rational, irrational, integers, whole, natural) using representations like graphic organizers or number lines.",
+              "keywords": [
+                "real number system",
+                "subsets",
+                "rational numbers",
+                "irrational numbers",
+                "integers",
+                "whole numbers",
+                "natural numbers",
+                "graphic organizers",
+                "number lines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify and explain why a given number belongs to a particular subset or subsets of the real number system.",
+              "keywords": [
+                "classification",
+                "real number subsets",
+                "rational numbers",
+                "irrational numbers",
+                "integers",
+                "whole numbers",
+                "natural numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe each subset of the real number system with examples and non-examples.",
+              "keywords": [
+                "real number subsets",
+                "examples",
+                "non-examples",
+                "rational numbers",
+                "irrational numbers",
+                "integers",
+                "whole numbers",
+                "natural numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computation and Estimation",
+      "standards": [
+        {
+          "code": "8.CE.1",
+          "description": "Estimate and apply proportional reasoning to solve contextual problems involving discounts, taxes, tips, and percent changes.",
+          "skills": [
+            {
+              "description": "Estimate and solve contextual problems requiring computation of one discount or markup and the resulting sale price.",
+              "keywords": [
+                "discount",
+                "markup",
+                "sale price",
+                "proportional reasoning",
+                "estimation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and solve contextual problems requiring computation of sales tax, tip, and resulting total.",
+              "keywords": [
+                "sales tax",
+                "tip",
+                "total cost",
+                "proportional reasoning",
+                "estimation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and solve contextual problems requiring computation of percent increase or decrease.",
+              "keywords": [
+                "percent increase",
+                "percent decrease",
+                "proportional reasoning",
+                "estimation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Measurement and Geometry",
+      "standards": [
+        {
+          "code": "8.MG.1",
+          "description": "Use relationships among vertical, adjacent, supplementary, and complementary angles to determine unknown angle measures.",
+          "skills": [
+            {
+              "description": "Identify and describe relationships between pairs of angles that are vertical, adjacent, supplementary, or complementary.",
+              "keywords": [
+                "vertical angles",
+                "adjacent angles",
+                "supplementary angles",
+                "complementary angles",
+                "angle relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use relationships among supplementary, complementary, vertical, and adjacent angles to solve problems involving unknown angle measures.",
+              "keywords": [
+                "angle measures",
+                "supplementary angles",
+                "complementary angles",
+                "vertical angles",
+                "adjacent angles",
+                "problem solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.MG.2",
+          "description": "Determine surface area of square-based pyramids and volume of cones and square-based pyramids.",
+          "skills": [
+            {
+              "description": "Determine the surface area of square-based pyramids using concrete objects, nets, diagrams, and formulas.",
+              "keywords": [
+                "surface area",
+                "square-based pyramids",
+                "nets",
+                "formulas",
+                "concrete objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the volume of cones and square-based pyramids using concrete objects, diagrams, and formulas.",
+              "keywords": [
+                "volume",
+                "cones",
+                "square-based pyramids",
+                "formulas",
+                "concrete objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine and explain the relationship between the volume of cones and cylinders, and the volume of rectangular prisms and square-based pyramids.",
+              "keywords": [
+                "volume relationships",
+                "cones",
+                "cylinders",
+                "rectangular prisms",
+                "square-based pyramids"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems in context involving volume of cones and square-based pyramids and surface area of square-based pyramids.",
+              "keywords": [
+                "volume problems",
+                "surface area problems",
+                "contextual problems",
+                "cones",
+                "square-based pyramids"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.MG.3",
+          "description": "Apply translations and reflections to polygons in the coordinate plane.",
+          "skills": [
+            {
+              "description": "Given a preimage in the coordinate plane, identify the coordinates of the image of a polygon after vertical, horizontal, or combined translation.",
+              "keywords": [
+                "translation",
+                "coordinate plane",
+                "preimage",
+                "image coordinates",
+                "polygon"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a preimage in the coordinate plane, identify the coordinates of the image of a polygon after reflection over the x- or y-axis.",
+              "keywords": [
+                "reflection",
+                "coordinate plane",
+                "preimage",
+                "image coordinates",
+                "x-axis",
+                "y-axis",
+                "polygon"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a preimage in the coordinate plane, identify the coordinates of the image of a polygon after translation and reflection (in any order).",
+              "keywords": [
+                "translation",
+                "reflection",
+                "coordinate plane",
+                "preimage",
+                "image coordinates",
+                "polygon"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sketch the image of a polygon after vertical, horizontal, or combined translation.",
+              "keywords": [
+                "translation",
+                "sketch",
+                "polygon",
+                "coordinate plane"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sketch the image of a polygon after reflection over the x- or y-axis.",
+              "keywords": [
+                "reflection",
+                "sketch",
+                "polygon",
+                "coordinate plane",
+                "x-axis",
+                "y-axis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sketch the image of a polygon after translation and reflection (in any order).",
+              "keywords": [
+                "translation",
+                "reflection",
+                "sketch",
+                "polygon",
+                "coordinate plane"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe transformations in context (e.g., tiling, fabric, wallpaper designs, art).",
+              "keywords": [
+                "transformations",
+                "context",
+                "tiling",
+                "fabric",
+                "wallpaper",
+                "art"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.MG.4",
+          "description": "Apply the Pythagorean Theorem to solve problems involving right triangles.",
+          "skills": [
+            {
+              "description": "Verify the Pythagorean Theorem using diagrams, concrete materials, and measurement.",
+              "keywords": [
+                "Pythagorean Theorem",
+                "verification",
+                "diagrams",
+                "concrete materials",
+                "measurement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine whether a triangle is a right triangle given the measures of its three sides.",
+              "keywords": [
+                "right triangle",
+                "side measures",
+                "Pythagorean Theorem"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the hypotenuse and legs of a right triangle given figures in various orientations.",
+              "keywords": [
+                "hypotenuse",
+                "legs",
+                "right triangle",
+                "figure orientation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the measure of a side of a right triangle given the measures of the other two sides.",
+              "keywords": [
+                "side measure",
+                "right triangle",
+                "Pythagorean Theorem"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply the Pythagorean Theorem and its converse to solve problems involving right triangles in context.",
+              "keywords": [
+                "Pythagorean Theorem",
+                "converse",
+                "right triangle",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.MG.5",
+          "description": "Solve area and perimeter problems involving composite plane figures.",
+          "skills": [
+            {
+              "description": "Subdivide a plane figure into triangles, rectangles, squares, trapezoids, parallelograms, circles, and semicircles to determine the area of subdivisions and combine to find the composite area.",
+              "keywords": [
+                "composite plane figure",
+                "subdivision",
+                "area",
+                "triangles",
+                "rectangles",
+                "squares",
+                "trapezoids",
+                "parallelograms",
+                "circles",
+                "semicircles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Subdivide a plane figure into triangles, rectangles, squares, trapezoids, parallelograms, and semicircles to determine the perimeter of the composite plane figure using attributes of subdivisions.",
+              "keywords": [
+                "composite plane figure",
+                "subdivision",
+                "perimeter",
+                "triangles",
+                "rectangles",
+                "squares",
+                "trapezoids",
+                "parallelograms",
+                "semicircles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply perimeter, circumference, and area formulas to solve contextual problems involving composite plane figures.",
+              "keywords": [
+                "perimeter",
+                "circumference",
+                "area",
+                "formulas",
+                "contextual problems",
+                "composite plane figures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability and Statistics",
+      "standards": [
+        {
+          "code": "8.PS.1",
+          "description": "Determine the probability of independent and dependent events.",
+          "skills": [
+            {
+              "description": "Determine whether two events are independent or dependent and explain how replacement impacts the probability.",
+              "keywords": [
+                "independent events",
+                "dependent events",
+                "replacement",
+                "probability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the probability of independent and dependent events.",
+              "keywords": [
+                "probability comparison",
+                "independent events",
+                "dependent events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the probability of two independent events.",
+              "keywords": [
+                "probability",
+                "independent events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the probability of two dependent events.",
+              "keywords": [
+                "probability",
+                "dependent events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.PS.2",
+          "description": "Apply the data cycle with a focus on boxplots.",
+          "skills": [
+            {
+              "description": "Formulate questions that require the collection or acquisition of data with a focus on boxplots.",
+              "keywords": [
+                "data cycle",
+                "formulate questions",
+                "boxplots"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the data needed to answer a formulated question and collect the data using observations, measurement, surveys, or experiments.",
+              "keywords": [
+                "data collection",
+                "observations",
+                "measurement",
+                "surveys",
+                "experiments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine how statistical bias might affect whether the data collected from the sample is representative of a larger population.",
+              "keywords": [
+                "statistical bias",
+                "data representativeness",
+                "sample",
+                "population"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent a numeric data set of no more than 20 items using boxplots, with or without technology.",
+              "keywords": [
+                "data organization",
+                "boxplots",
+                "numeric data",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe the lower extreme (minimum), upper extreme (maximum), median, upper quartile, lower quartile, range, and interquartile range given a data set represented by a boxplot.",
+              "keywords": [
+                "boxplot",
+                "lower extreme",
+                "upper extreme",
+                "median",
+                "quartiles",
+                "range",
+                "interquartile range"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the presence of an extreme data point (outlier) affects the shape and spread of the data distribution of a boxplot.",
+              "keywords": [
+                "outlier",
+                "data distribution",
+                "boxplot",
+                "shape",
+                "spread"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data represented in a boxplot by making observations and drawing conclusions.",
+              "keywords": [
+                "data analysis",
+                "boxplot",
+                "observations",
+                "conclusions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and analyze two data sets represented in boxplots.",
+              "keywords": [
+                "data comparison",
+                "boxplots",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a contextual situation, justify which graphical representation (e.g., pictographs, bar graphs, line graphs, line plots/dot plots, stem-and-leaf plots, circle graphs, histograms, boxplots) best represents the data.",
+              "keywords": [
+                "graphical representation",
+                "contextual situation",
+                "data representation",
+                "pictographs",
+                "bar graphs",
+                "line graphs",
+                "histograms",
+                "boxplots"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify components of graphical displays that can be misleading.",
+              "keywords": [
+                "graphical displays",
+                "misleading components",
+                "data representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.PS.3",
+          "description": "Apply the data cycle with a focus on scatterplots.",
+          "skills": [
+            {
+              "description": "Formulate questions that require the collection or acquisition of data with a focus on scatterplots.",
+              "keywords": [
+                "data cycle",
+                "formulate questions",
+                "scatterplots"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the data needed to answer a formulated question and collect the data of no more than 20 items using observations, measurement, surveys, or experiments.",
+              "keywords": [
+                "data collection",
+                "observations",
+                "measurement",
+                "surveys",
+                "experiments",
+                "scatterplots"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent numeric bivariate data using scatterplots, with or without technology.",
+              "keywords": [
+                "data organization",
+                "bivariate data",
+                "scatterplots",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make observations about a set of data points in a scatterplot as having a positive linear relationship, a negative linear relationship, or no relationship.",
+              "keywords": [
+                "scatterplot",
+                "data points",
+                "positive linear relationship",
+                "negative linear relationship",
+                "no relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze and justify the relationship of the quantitative bivariate data represented in scatterplots.",
+              "keywords": [
+                "data analysis",
+                "bivariate data",
+                "scatterplot",
+                "relationship justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sketch the line of best fit for data represented in a scatterplot.",
+              "keywords": [
+                "line of best fit",
+                "scatterplot",
+                "data representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patterns, Functions, and Algebra",
+      "standards": [
+        {
+          "code": "8.PFA.1",
+          "description": "Represent, simplify, and generate equivalent algebraic expressions in one variable.",
+          "skills": [
+            {
+              "description": "Represent algebraic expressions using concrete manipulatives or pictorial representations, including expressions that apply the distributive property.",
+              "keywords": [
+                "algebraic expressions",
+                "concrete manipulatives",
+                "pictorial representations",
+                "distributive property"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Simplify and generate equivalent algebraic expressions in one variable by applying the order of operations and properties of real numbers.",
+              "keywords": [
+                "simplify expressions",
+                "equivalent expressions",
+                "order of operations",
+                "properties of real numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Expand expressions using the distributive property or combine like terms to simplify.",
+              "keywords": [
+                "distributive property",
+                "combining like terms",
+                "expression simplification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.PFA.2",
+          "description": "Determine whether a given relation is a function and determine the domain and range of a function.",
+          "skills": [
+            {
+              "description": "Determine whether a relation, represented by a set of ordered pairs, a table, or a graph of discrete points, is a function.",
+              "keywords": [
+                "relation",
+                "function",
+                "ordered pairs",
+                "table",
+                "graph",
+                "discrete points"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the domain and range of a function represented as a set of ordered pairs, a table, or a graph of discrete points.",
+              "keywords": [
+                "domain",
+                "range",
+                "function",
+                "ordered pairs",
+                "table",
+                "graph",
+                "discrete points"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.PFA.3",
+          "description": "Represent and solve problems using linear functions and analyze their key characteristics.",
+          "skills": [
+            {
+              "description": "Determine how adding a constant (b) to the equation of a proportional relationship y = mx will translate the line on a graph.",
+              "keywords": [
+                "proportional relationship",
+                "translation",
+                "graph",
+                "constant (b)",
+                "slope (m)"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe key characteristics of linear functions including slope (m), y-intercept (b), and independent and dependent variables.",
+              "keywords": [
+                "linear functions",
+                "slope (m)",
+                "y-intercept (b)",
+                "independent variables",
+                "dependent variables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph a linear function given a table, equation, or a situation in context.",
+              "keywords": [
+                "graph",
+                "linear function",
+                "table",
+                "equation",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a table of values for a linear function given a graph, equation in the form of y = mx + b, or context.",
+              "keywords": [
+                "table of values",
+                "linear function",
+                "graph",
+                "equation",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write an equation of a linear function in the form y = mx + b given a graph, table, or a situation in context.",
+              "keywords": [
+                "linear function equation",
+                "y = mx + b",
+                "graph",
+                "table",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a context for a linear function given a graph, table, or equation in the form y = mx + b.",
+              "keywords": [
+                "linear function context",
+                "graph",
+                "table",
+                "equation",
+                "y = mx + b"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.PFA.4",
+          "description": "Write and solve multistep linear equations in one variable, including contextual problems.",
+          "skills": [
+            {
+              "description": "Represent and solve multistep linear equations in one variable with the variable on one or both sides of the equation (up to four steps) using concrete materials and pictorial representations.",
+              "keywords": [
+                "multistep linear equations",
+                "concrete materials",
+                "pictorial representations",
+                "variable",
+                "equation steps"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply properties of real numbers and properties of equality to solve multistep linear equations in one variable (up to four steps).",
+              "keywords": [
+                "properties of real numbers",
+                "properties of equality",
+                "multistep linear equations",
+                "equation solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write a multistep linear equation in one variable to represent a verbal situation, including those in context.",
+              "keywords": [
+                "multistep linear equation",
+                "verbal situation",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a verbal situation in context given a multistep linear equation in one variable.",
+              "keywords": [
+                "verbal situation",
+                "context",
+                "multistep linear equation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems in context that require the solution of a multistep linear equation.",
+              "keywords": [
+                "contextual problems",
+                "multistep linear equation",
+                "solution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret algebraic solutions in context to linear equations in one variable.",
+              "keywords": [
+                "algebraic solutions",
+                "context",
+                "linear equations",
+                "interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Confirm algebraic solutions to linear equations in one variable.",
+              "keywords": [
+                "algebraic solutions",
+                "linear equations",
+                "confirmation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.PFA.5",
+          "description": "Write and solve multistep linear inequalities in one variable, including contextual problems.",
+          "skills": [
+            {
+              "description": "Apply properties of real numbers and properties of inequality to solve multistep linear inequalities (up to four steps) in one variable with the variable on one or both sides of the inequality.",
+              "keywords": [
+                "multistep linear inequalities",
+                "properties of real numbers",
+                "properties of inequality",
+                "inequality solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent solutions to inequalities algebraically and graphically using a number line.",
+              "keywords": [
+                "inequality solutions",
+                "algebraic representation",
+                "graphical representation",
+                "number line"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write multistep linear inequalities in one variable to represent a verbal situation, including those in context.",
+              "keywords": [
+                "multistep linear inequalities",
+                "verbal situation",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a verbal situation in context given a multistep linear inequality in one variable.",
+              "keywords": [
+                "verbal situation",
+                "context",
+                "multistep linear inequality"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems in context that require the solution of a multistep linear inequality.",
+              "keywords": [
+                "contextual problems",
+                "multistep linear inequality",
+                "solution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a numerical value(s) that is part of the solution set of a given inequality.",
+              "keywords": [
+                "solution set",
+                "inequality",
+                "numerical value"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret algebraic solutions in context to linear inequalities in one variable.",
+              "keywords": [
+                "algebraic solutions",
+                "context",
+                "linear inequalities",
+                "interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

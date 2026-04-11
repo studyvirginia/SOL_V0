@@ -1,0 +1,141 @@
+{
+  "key": "8_8_NS_1_skill3",
+  "grade": "8",
+  "code": "8.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 8 Math",
+  "desc": "Compare and order real numbers, including irrational numbers, using rational approximations and multiple strategies.",
+  "skill_desc": "Compare and order up to five real numbers (integers, fractions, decimals, mixed numbers, percents, scientific notation, radicals, \u03c0) using benchmarks, number lines, or equivalency.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_NS_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "x",
+        "color": "#007AFF",
+        "label": "y = x",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "2",
+        "color": "#FF3B30",
+        "label": "2",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "\\frac{3}{2}",
+        "color": "#34C759",
+        "label": "\\frac{3}{2}",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "\\sqrt{2}",
+        "color": "#FF9500",
+        "label": "\\sqrt{2}",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "\\pi",
+        "color": "#5856D6",
+        "label": "\\pi",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(2,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(1.5,1.5)",
+        "color": "#34C759",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(\\sqrt{2},\\sqrt{2})",
+        "color": "#FF9500",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(\\pi,\\pi)",
+        "color": "#5856D6",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Comparing Real Numbers"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2",
+      "g(x) = 3/2",
+      "h(x) = 1.75",
+      "i(x) = sqrt(3)",
+      "j(x) = pi",
+      "SetColor(f, 255, 0, 0)",
+      "SetColor(g, 0, 255, 0)",
+      "SetColor(h, 0, 0, 255)",
+      "SetColor(i, 255, 165, 0)",
+      "SetColor(j, 128, 0, 128)"
+    ],
+    "view": [
+      -1,
+      5,
+      0,
+      5
+    ],
+    "showGrid": true,
+    "title": "Comparing Real Numbers on a Number Line"
+  },
+  "sketchmath_state": null
+}

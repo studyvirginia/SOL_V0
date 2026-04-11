@@ -1,0 +1,868 @@
+{
+  "subject": "Science",
+  "course": "Earth Science II Advanced Survey",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "ESII.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, data analysis, modeling, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from careful observation of phenomena, examination of a model or theory, or unexpected results to seek additional information.",
+              "keywords": [
+                "phenomena observation",
+                "model examination",
+                "unexpected results",
+                "scientific questioning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of the school laboratory or field.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "field investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make hypotheses that specify what happens to a dependent variable when an independent variable is manipulated.",
+              "keywords": [
+                "hypothesis formulation",
+                "dependent variable",
+                "independent variable",
+                "variable manipulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "scientific principles",
+                "research-based hypotheses"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology, including cartographic tools, GIS, and instruments to collect and record data.",
+              "keywords": [
+                "data collection tools",
+                "cartographic tools",
+                "GIS",
+                "instrumentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variables",
+                "dependent variables",
+                "repeated trials",
+                "means"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data and consider limitations of data analysis.",
+              "keywords": [
+                "graphical data analysis",
+                "data interpretation",
+                "data limitations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, support explanations for phenomena, or test solutions to problems.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "phenomena explanation",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes in scientific contexts.",
+              "keywords": [
+                "mathematical application",
+                "scientific data analysis",
+                "quantitative reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "validity",
+                "reliability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and/or interpret map scales, satellite imagery, diagrams, classification charts, graphs, tables, models, geologic cross-sections, and topographic profiles.",
+              "keywords": [
+                "map scales",
+                "satellite imagery",
+                "geologic cross-sections",
+                "topographic profiles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and interpret topographic and basic geologic maps and globes using a variety of geospatial coordinate systems.",
+              "keywords": [
+                "topographic maps",
+                "geologic maps",
+                "geospatial coordinates",
+                "map interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from models, theories, simulations, peer review, and investigations.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "peer review",
+                "scientific models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide an explanation of phenomena.",
+              "keywords": [
+                "scientific explanation",
+                "phenomena interpretation",
+                "evidence application"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments in light of currently accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument comparison",
+                "scientific evidence",
+                "explanation evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support a claim using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim formulation",
+                "empirical evidence",
+                "scientific reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate a claim by applying scientific reasoning, theory, and/or models to link evidence to assess the extent to which the reasoning and data support the explanation or conclusion.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theory application",
+                "model linking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model merits",
+                "model limitations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships, support explanations, predict phenomena, analyze systems, and/or solve problems.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "evidence-based modeling",
+                "system analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and interpret sun path diagrams, day/night world maps, and other models scientists use to communicate information.",
+              "keywords": [
+                "sun path diagrams",
+                "day/night maps",
+                "scientific models",
+                "data communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical and statistical concepts and processes in building and revising models, and supporting explanations of phenomena.",
+              "keywords": [
+                "mathematical modeling",
+                "statistical analysis",
+                "model revision",
+                "phenomena explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question or solve a problem.",
+              "keywords": [
+                "source comparison",
+                "information integration",
+                "scientific media",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing the evidence and credibility of each source.",
+              "keywords": [
+                "source evaluation",
+                "scientific literature",
+                "credibility assessment",
+                "evidence gathering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical reporting",
+                "multi-format presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geospatial Analytics",
+      "standards": [
+        {
+          "code": "ESII.2",
+          "description": "Investigate and understand the use of geospatial analytics to simplify complex situations and guide scientific decision-making.",
+          "skills": [
+            {
+              "description": "Interpret maps in terms of decimal degrees and sexagesimal degrees.",
+              "keywords": [
+                "map interpretation",
+                "decimal degrees",
+                "sexagesimal degrees",
+                "geospatial coordinates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain factors (geographical, political, and practical) that affect the construction of time zones.",
+              "keywords": [
+                "time zone construction",
+                "geographical factors",
+                "political factors",
+                "practical factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the merits and limitations of longitude and latitude compared to horizontal and vertical datums for an intended purpose.",
+              "keywords": [
+                "longitude/latitude",
+                "horizontal/vertical datums",
+                "claim evaluation",
+                "geospatial comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare map projections when determining the appropriate map for a specific need.",
+              "keywords": [
+                "map projection comparison",
+                "map selection",
+                "geospatial analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the different map attributes (scale, elevation interval, and land attributes) needed for a specific purpose of the map.",
+              "keywords": [
+                "map attributes",
+                "scale determination",
+                "elevation interval",
+                "land attributes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare different satellite imagery for an intended purpose.",
+              "keywords": [
+                "satellite imagery comparison",
+                "remote sensing",
+                "geospatial analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop a map based on direct observation and/or technology that supports an explanation, predicts phenomena, analyzes a system, and/or solves a problem.",
+              "keywords": [
+                "map development",
+                "direct observation",
+                "geospatial technology",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how Global Positioning System satellites are used to calculate positions on the surface of Earth.",
+              "keywords": [
+                "GPS satellites",
+                "position calculation",
+                "geospatial positioning",
+                "Earth surface coordinates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth's Internal and Surface Processes",
+      "standards": [
+        {
+          "code": "ESII.3",
+          "description": "Investigate and understand that Earth's internal and surface processes produce changes in continental and ocean-floor features.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain the relationships between plate boundaries and predict phenomena.",
+              "keywords": [
+                "plate boundary model",
+                "phenomena prediction",
+                "tectonic relationships",
+                "model development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain plate motion.",
+              "keywords": [
+                "plate motion model",
+                "tectonic movement",
+                "model development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate claims about the cycling of matter, ages of rocks, distribution of rocks and minerals, and the formation of continental and oceanic features.",
+              "keywords": [
+                "matter cycling",
+                "rock age determination",
+                "mineral distribution",
+                "feature formation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain changes in Earth's surface features by analyzing seismic data (frequency of events, location, depth, magnitude, and stress).",
+              "keywords": [
+                "seismic data analysis",
+                "surface feature changes",
+                "earthquake frequency",
+                "seismic magnitude"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the relationship between magma composition and resulting internal and surface features.",
+              "keywords": [
+                "magma composition",
+                "internal features",
+                "surface features",
+                "volcanic processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geological and Biological Events in Earth's History",
+      "standards": [
+        {
+          "code": "ESII.4",
+          "description": "Investigate and understand that major geological and biological events are recorded in rocks and fossils.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate a claim about the age of Earth.",
+              "keywords": [
+                "Earth age determination",
+                "geological dating",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the use of different radioactive isotopes for absolute dating of rock and/or fossils for a location.",
+              "keywords": [
+                "radioactive isotopes",
+                "absolute dating",
+                "rock dating",
+                "fossil dating"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the major geologic and biological events in Earth's history in terms of the scale, proportion, and quantity and determine the significance.",
+              "keywords": [
+                "geological event analysis",
+                "biological event analysis",
+                "scale analysis",
+                "proportion analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the coevolution of Earth's systems (hydrosphere, lithosphere, atmosphere, and biosphere).",
+              "keywords": [
+                "Earth system coevolution",
+                "hydrosphere",
+                "lithosphere",
+                "atmosphere",
+                "biosphere"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the geological events of a region based on correlating rock strata with and without fossils from different locations within a region.",
+              "keywords": [
+                "rock strata correlation",
+                "fossil correlation",
+                "regional geology",
+                "stratigraphic analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim using a variety of sources (rocks, fossil records, and geologic maps) about how changes to climate and ecosystems in Earth's history affected life.",
+              "keywords": [
+                "climate change impact",
+                "ecosystem change impact",
+                "fossil records",
+                "geologic maps"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a timeline to interpret the geologic history of Virginia based on evidence.",
+              "keywords": [
+                "geologic timeline",
+                "Virginia geology",
+                "stratigraphic evidence",
+                "timeline development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy Transfer in Earth's Systems",
+      "standards": [
+        {
+          "code": "ESII.5",
+          "description": "Investigate and understand that energy transfer into and out of Earth's systems is affected by the dynamics of the sun-Earth system and human activities.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain how Earth's rotation and revolution around the sun and solar incidence affect atmospheric and biological systems (seasonal changes, length of day, and circadian rhythm).",
+              "keywords": [
+                "Earth rotation model",
+                "solar incidence",
+                "atmospheric systems",
+                "biological systems",
+                "seasonal changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain global climate trends over geologic time using Milankovitch cycles and evaluate how current climate change differs in cause, rate, and scale from these natural cycles.",
+              "keywords": [
+                "Milankovitch cycles",
+                "climate trends",
+                "geologic time",
+                "current climate change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how solar flares and coronal mass ejections affect technology.",
+              "keywords": [
+                "solar flares",
+                "coronal mass ejections",
+                "technology impact",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the effect of sunspot cycles on global average temperatures and compare their effect to how human activities are changing Earth's climate.",
+              "keywords": [
+                "sunspot cycles",
+                "global temperatures",
+                "human climate impact",
+                "claim comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hydrosphere",
+      "standards": [
+        {
+          "code": "ESII.6",
+          "description": "Investigate and understand that the hydrosphere plays a crucial role in shaping Earth's environment and in supporting life.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain the processes of the hydrologic cycle and predict the effect of the processes on landscape and life.",
+              "keywords": [
+                "hydrologic cycle model",
+                "landscape prediction",
+                "life support",
+                "process modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the availability and quality of water affect ecosystem dynamics.",
+              "keywords": [
+                "water availability",
+                "water quality",
+                "ecosystem dynamics",
+                "hydrologic impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how salinity and temperature affect oceanic ecosystems (coastal, deep water, estuarine, equatorial, and polar).",
+              "keywords": [
+                "salinity impact",
+                "temperature impact",
+                "oceanic ecosystems",
+                "coastal ecosystems",
+                "deep water ecosystems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain major surface oceanic currents and their characteristics (temperature, origin, and direction of motion).",
+              "keywords": [
+                "ocean current model",
+                "surface currents",
+                "current characteristics",
+                "temperature origin"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how major surface currents affect local climates.",
+              "keywords": [
+                "surface currents",
+                "local climate impact",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to predict the results of interactions among geomorphic characteristics, geological characteristics, and the water budget of the region.",
+              "keywords": [
+                "geomorphic characteristics",
+                "geological characteristics",
+                "water budget",
+                "regional prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research organizations that are working to solve problems related to freshwater availability and quality.",
+              "keywords": [
+                "freshwater research",
+                "water quality research",
+                "organization research"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Propose a solution or design a device that addresses a problem of freshwater availability and quality.",
+              "keywords": [
+                "freshwater solution",
+                "water quality device",
+                "engineering design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how climate change and human activities affect the hydrosphere.",
+              "keywords": [
+                "climate change impact",
+                "human activity impact",
+                "hydrosphere impact",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Atmosphere",
+      "standards": [
+        {
+          "code": "ESII.7",
+          "description": "Investigate and understand that the atmosphere is a complex, dynamic system that drives climate, weather, and air quality patterns.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate a claim about how atmospheric changes affect multiple Earth systems.",
+              "keywords": [
+                "atmospheric changes",
+                "Earth system impact",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Propose a solution or design a device that addresses a problem involving air quality.",
+              "keywords": [
+                "air quality solution",
+                "device design",
+                "engineering design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict weather conditions by analyzing prevailing wind patterns and air mass interactions.",
+              "keywords": [
+                "weather prediction",
+                "wind patterns",
+                "air mass interactions",
+                "meteorological analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models to explain relationships and predict local weather.",
+              "keywords": [
+                "model evaluation",
+                "weather prediction",
+                "local weather models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict potential changes in the future climate by analyzing long-term climate data.",
+              "keywords": [
+                "climate prediction",
+                "long-term data analysis",
+                "future climate trends"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how natural atmospheric events and human activities affect global climate.",
+              "keywords": [
+                "natural atmospheric events",
+                "human climate impact",
+                "global climate impact",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict how atmospheric conditions due to climate change affect a specific ecosystem.",
+              "keywords": [
+                "atmospheric conditions",
+                "climate change impact",
+                "ecosystem prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Advanced Topics in Earth Science",
+      "standards": [
+        {
+          "code": "ESII.8",
+          "description": "Explore technological advancements and innovative research in Earth Science.",
+          "skills": [
+            {
+              "description": "Investigate technological advancements such as Gravity Recovery and Climate Experiment-Follow-On (GRACE-FO).",
+              "keywords": [
+                "GRACE-FO",
+                "gravity measurement",
+                "climate monitoring",
+                "technological investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate Global Positioning Systems and Global Information Systems.",
+              "keywords": [
+                "GPS",
+                "GIS",
+                "geospatial technology",
+                "positioning systems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate Geospatial Imaging technologies.",
+              "keywords": [
+                "geospatial imaging",
+                "remote sensing",
+                "satellite imagery",
+                "geospatial analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate Geostationary Operational Environmental Satellites.",
+              "keywords": [
+                "GOES satellites",
+                "environmental monitoring",
+                "geostationary satellites",
+                "weather satellites"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate geophysical imaging of Earth's deep and shallow interior.",
+              "keywords": [
+                "geophysical imaging",
+                "Earth's interior",
+                "seismic imaging",
+                "deep Earth analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate macro and micro mineral analytical techniques.",
+              "keywords": [
+                "mineral analysis",
+                "macro mineral techniques",
+                "micro mineral techniques",
+                "geochemical analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate stable isotope geochemistry.",
+              "keywords": [
+                "stable isotope geochemistry",
+                "isotope analysis",
+                "geochemical processes",
+                "isotope dating"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

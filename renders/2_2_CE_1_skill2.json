@@ -1,0 +1,110 @@
+{
+  "key": "2_2_CE_1_skill2",
+  "grade": "2",
+  "code": "2.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 2 Math",
+  "desc": "Recall addition and subtraction facts within 20 and solve single-step and multistep problems using addition and subtraction with whole numbers up to 100.",
+  "skill_desc": "Apply strategies (e.g., concrete models, place value, properties of addition) to determine the sum or difference of two whole numbers up to 100.",
+  "skill_idx": 1,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/2_2_CE_1_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              "10",
+              "15",
+              "20",
+              "25",
+              "30",
+              "35",
+              "40",
+              "45",
+              "50"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y",
+            "values": [
+              "12",
+              "17",
+              "22",
+              "27",
+              "32",
+              "37",
+              "42",
+              "47",
+              "52"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "y=x+2",
+        "color": "#007AFF",
+        "lines": false,
+        "points": true,
+        "pointStyle": "OPEN",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "(10,12)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 10,
+        "dragMode": "NONE",
+        "showLabel": true,
+        "label": "(10, 12)",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "(50,52)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 10,
+        "dragMode": "NONE",
+        "showLabel": true,
+        "label": "(50, 52)",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 5,
+      "bottom": 10,
+      "right": 55,
+      "top": 55
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Addition within 100"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

@@ -1,0 +1,1027 @@
+{
+  "subject": "Math",
+  "course": "Discrete Mathematics",
+  "domains": [
+    {
+      "name": "Logical Reasoning",
+      "standards": [
+        {
+          "code": "DM.LR.1",
+          "description": "Develop and apply logical arguments using reasoning and symbolic logic.",
+          "skills": [
+            {
+              "description": "Use Venn diagrams to codify and solve logic problems.",
+              "keywords": [
+                "Venn diagrams",
+                "logic problems",
+                "set relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Express logical statements in symbolic form.",
+              "keywords": [
+                "symbolic logic",
+                "logical statements",
+                "formal logic"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent a conditional statement as its converse, inverse, and contrapositive.",
+              "keywords": [
+                "conditional statements",
+                "converse",
+                "inverse",
+                "contrapositive"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how symbolic logic maps processes in computer applications.",
+              "keywords": [
+                "symbolic logic",
+                "computer applications",
+                "logical processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct a truth table to display all possible input combinations and their outputs.",
+              "keywords": [
+                "truth tables",
+                "logical inputs",
+                "output combinations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify rules of inference and model logical statements including De Morgan's Law.",
+              "keywords": [
+                "rules of inference",
+                "De Morgan's Law",
+                "logical statements"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply logical reasoning to model contextual situations and make decisions.",
+              "keywords": [
+                "logical reasoning",
+                "contextual modeling",
+                "decision making"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.LR.2",
+          "description": "Apply logic and proof techniques to construct sound arguments.",
+          "skills": [
+            {
+              "description": "Apply informal logical reasoning to contextual problems (e.g., software behavior, puzzles).",
+              "keywords": [
+                "informal logic",
+                "contextual reasoning",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Outline the basic structure of proof techniques (direct proof, proof by contradiction, induction).",
+              "keywords": [
+                "proof techniques",
+                "direct proof",
+                "proof by contradiction",
+                "mathematical induction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Deduce the best type of proof for a given problem.",
+              "keywords": [
+                "proof selection",
+                "problem-solving",
+                "logical deduction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use rules of inference to construct direct proofs and proofs by contradiction.",
+              "keywords": [
+                "rules of inference",
+                "direct proofs",
+                "proof by contradiction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct induction proofs involving summations and inequalities.",
+              "keywords": [
+                "induction proofs",
+                "summations",
+                "inequalities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use a truth table to prove the logical equivalence of statements.",
+              "keywords": [
+                "truth tables",
+                "logical equivalence",
+                "statement equivalence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.LR.3",
+          "description": "Apply Boolean algebra to represent and analyze logical gates and circuits.",
+          "skills": [
+            {
+              "description": "Explain basic properties of Boolean algebra: duality, complements, and standard forms.",
+              "keywords": [
+                "Boolean algebra",
+                "duality",
+                "complements",
+                "standard forms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent verbal statements as Boolean expressions.",
+              "keywords": [
+                "Boolean expressions",
+                "verbal statements",
+                "logical representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply Boolean algebra to prove identities and simplify expressions.",
+              "keywords": [
+                "Boolean identities",
+                "expression simplification",
+                "logical proofs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate truth tables encoding the truth and falsity of two or more statements.",
+              "keywords": [
+                "truth tables",
+                "logical statements",
+                "statement evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the operation of discrete logic gates.",
+              "keywords": [
+                "logic gates",
+                "AND gate",
+                "OR gate",
+                "NOT gate",
+                "NAND gate",
+                "NOR gate",
+                "XOR gate"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the relationship between Boolean algebra and electronic circuits.",
+              "keywords": [
+                "Boolean algebra",
+                "electronic circuits",
+                "logic gates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze a combinational network using Boolean expressions.",
+              "keywords": [
+                "combinational networks",
+                "Boolean expressions",
+                "circuit analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Design simple combinational networks using NAND, NOR, and XOR gates.",
+              "keywords": [
+                "combinational networks",
+                "NAND gate",
+                "NOR gate",
+                "XOR gate",
+                "circuit design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.LR.4",
+          "description": "Use mathematical induction to prove formulas and mathematical statements.",
+          "skills": [
+            {
+              "description": "Compare and contrast inductive and deductive reasoning.",
+              "keywords": [
+                "inductive reasoning",
+                "deductive reasoning",
+                "logical reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the relationship between weak and strong induction.",
+              "keywords": [
+                "weak induction",
+                "strong induction",
+                "mathematical induction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct induction proofs involving divisibility arguments.",
+              "keywords": [
+                "induction proofs",
+                "divisibility",
+                "number theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Prove the Binomial Theorem through mathematical induction.",
+              "keywords": [
+                "Binomial Theorem",
+                "mathematical induction",
+                "combinatorics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Set and Number Theory",
+      "standards": [
+        {
+          "code": "DM.SNT.1",
+          "description": "Identify and use properties of sets and set operations.",
+          "skills": [
+            {
+              "description": "Compare and contrast sets, relations, and functions.",
+              "keywords": [
+                "sets",
+                "relations",
+                "functions",
+                "set theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Express relationships between sets using Venn diagrams.",
+              "keywords": [
+                "Venn diagrams",
+                "set relationships",
+                "set visualization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe a set using set-builder notation.",
+              "keywords": [
+                "set-builder notation",
+                "set description",
+                "mathematical notation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct new sets using intersection, union, difference, and complement operations.",
+              "keywords": [
+                "set operations",
+                "intersection",
+                "union",
+                "difference",
+                "complement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify laws of set theory (associative, commutative, distributive, De Morgan's Law).",
+              "keywords": [
+                "set theory laws",
+                "associative law",
+                "commutative law",
+                "distributive law",
+                "De Morgan's Law"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use the principle of inclusion and exclusion to determine the size of a set.",
+              "keywords": [
+                "inclusion-exclusion principle",
+                "set size",
+                "combinatorics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use properties of set operations to prove set equality.",
+              "keywords": [
+                "set equality",
+                "set operations",
+                "proof techniques"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.SNT.2",
+          "description": "Apply formulas of combinatorics.",
+          "skills": [
+            {
+              "description": "Create a tree diagram to represent relationships between independent events.",
+              "keywords": [
+                "tree diagrams",
+                "independent events",
+                "probability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use the Fundamental (Basic) Counting Principle to determine possible outcomes.",
+              "keywords": [
+                "Fundamental Counting Principle",
+                "possible outcomes",
+                "combinatorics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the number of combinations when selecting r elements from n without regard to order.",
+              "keywords": [
+                "combinations",
+                "binomial coefficient",
+                "subsets"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the number of permutations when ordering r objects from n.",
+              "keywords": [
+                "permutations",
+                "ordered arrangements",
+                "factorial"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use the pigeonhole principle to solve packing problems and facilitate proofs.",
+              "keywords": [
+                "pigeonhole principle",
+                "packing problems",
+                "proof techniques"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct a proof by induction using principles of combinatorics.",
+              "keywords": [
+                "induction proofs",
+                "combinatorics",
+                "mathematical induction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.SNT.3",
+          "description": "Use Pascal's Triangle to analyze numerical patterns and relationships.",
+          "skills": [
+            {
+              "description": "Construct Pascal's Triangle.",
+              "keywords": [
+                "Pascal's Triangle",
+                "binomial coefficients",
+                "combinatorics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Expand binomials with positive integral exponents using the Binomial Theorem and Pascal's Triangle.",
+              "keywords": [
+                "Binomial Theorem",
+                "Pascal's Triangle",
+                "binomial expansion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the binomial coefficient to the calculation of combinations.",
+              "keywords": [
+                "binomial coefficient",
+                "combinations",
+                "combinatorics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify Fibonacci numbers within Pascal's Triangle.",
+              "keywords": [
+                "Fibonacci numbers",
+                "Pascal's Triangle",
+                "number patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graph Theory",
+      "standards": [
+        {
+          "code": "DM.GT.1",
+          "description": "Represent problems using vertex-edge graphs and analyze graph properties.",
+          "skills": [
+            {
+              "description": "Illustrate basic terminology of graph theory (vertex, edge, graph, degree of a vertex).",
+              "keywords": [
+                "graph theory",
+                "vertex",
+                "edge",
+                "degree of a vertex"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use graphs to map situations where vertices represent objects and edges represent relationships.",
+              "keywords": [
+                "graph mapping",
+                "vertices",
+                "edges",
+                "relationship representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe degree and connectedness in graphs.",
+              "keywords": [
+                "degree of a vertex",
+                "connectedness",
+                "graph properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine whether a graph is planar or nonplanar.",
+              "keywords": [
+                "planar graphs",
+                "nonplanar graphs",
+                "graph properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the relationship between faces, edges, and vertices using Euler's formula (F = E - V + 2).",
+              "keywords": [
+                "Euler's formula",
+                "faces",
+                "edges",
+                "vertices",
+                "planar graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use directed graphs (digraphs) to represent situations with traversal restrictions.",
+              "keywords": [
+                "directed graphs",
+                "digraphs",
+                "traversal restrictions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine when graphs are trees.",
+              "keywords": [
+                "trees",
+                "graph theory",
+                "acyclic graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.GT.2",
+          "description": "Solve problems using circuits, cycles, Euler paths, Euler circuits, Hamilton paths, and Hamilton circuits.",
+          "skills": [
+            {
+              "description": "Determine whether a graph has an Euler circuit or path and identify it if it exists.",
+              "keywords": [
+                "Euler circuit",
+                "Euler path",
+                "graph traversal"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine whether a graph has a Hamilton circuit or path and identify it if it exists.",
+              "keywords": [
+                "Hamilton circuit",
+                "Hamilton path",
+                "graph traversal"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Count the number of Hamilton circuits for a complete graph with n vertices.",
+              "keywords": [
+                "Hamilton circuits",
+                "complete graphs",
+                "combinatorics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use an Euler circuit algorithm to solve optimization problems.",
+              "keywords": [
+                "Euler circuit algorithm",
+                "optimization problems",
+                "graph algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.GT.3",
+          "description": "Apply graphs to conflict-resolution problems such as graph coloring, scheduling, matching, and optimization.",
+          "skills": [
+            {
+              "description": "Model projects with subtasks using a graph.",
+              "keywords": [
+                "graph modeling",
+                "project management",
+                "subtasks"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use graphs to resolve conflicts in scheduling.",
+              "keywords": [
+                "graph coloring",
+                "scheduling conflicts",
+                "graph applications"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use graph coloring to determine the chromatic number of a graph.",
+              "keywords": [
+                "graph coloring",
+                "chromatic number",
+                "graph properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.GT.4",
+          "description": "Recognize and apply algorithms to solve configuration, conflict-resolution, and sorting problems.",
+          "skills": [
+            {
+              "description": "Recognize algorithms such as nearest neighbor, brute force, and cheapest link as they apply to graphs.",
+              "keywords": [
+                "nearest neighbor algorithm",
+                "brute force algorithm",
+                "cheapest link algorithm",
+                "graph algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use Kruskal's algorithm to determine the shortest spanning tree of a connected graph.",
+              "keywords": [
+                "Kruskal's algorithm",
+                "shortest spanning tree",
+                "graph algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use Prim's algorithm to determine the shortest spanning tree of a connected graph.",
+              "keywords": [
+                "Prim's algorithm",
+                "shortest spanning tree",
+                "graph algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use Dijkstra's algorithm to determine the shortest spanning tree of a connected graph.",
+              "keywords": [
+                "Dijkstra's algorithm",
+                "shortest path",
+                "graph algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.GT.5",
+          "description": "Use algorithms to schedule tasks and determine minimum project time.",
+          "skills": [
+            {
+              "description": "Specify in a digraph the order in which tests are to be performed.",
+              "keywords": [
+                "digraph scheduling",
+                "task ordering",
+                "directed graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the critical path to determine the earliest completion time (minimum project time).",
+              "keywords": [
+                "critical path",
+                "project scheduling",
+                "earliest completion time"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use the list-processing algorithm to determine an optimal schedule.",
+              "keywords": [
+                "list-processing algorithm",
+                "optimal scheduling",
+                "task scheduling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create and test scheduling algorithms.",
+              "keywords": [
+                "scheduling algorithms",
+                "algorithm testing",
+                "project management"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computational Methods",
+      "standards": [
+        {
+          "code": "DM.CM.1",
+          "description": "Describe and apply sorting and searching algorithms used in processing and communicating information.",
+          "skills": [
+            {
+              "description": "Select and apply a sorting algorithm such as bubble sort, merge sort, or network sort.",
+              "keywords": [
+                "sorting algorithms",
+                "bubble sort",
+                "merge sort",
+                "network sort"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the advantages and disadvantages of various sorting algorithms.",
+              "keywords": [
+                "sorting algorithms",
+                "algorithm efficiency",
+                "time complexity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the knapsack and bin-packing problems.",
+              "keywords": [
+                "knapsack problem",
+                "bin-packing problem",
+                "optimization problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and apply search algorithms to analyze problems.",
+              "keywords": [
+                "search algorithms",
+                "binary search",
+                "linear search",
+                "algorithm selection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the average, best-case, and worst-case reasoning for different searches.",
+              "keywords": [
+                "search complexity",
+                "average case",
+                "best case",
+                "worst case"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.CM.2",
+          "description": "Use recursive processes.",
+          "skills": [
+            {
+              "description": "Compare and contrast iterative and recursive processes.",
+              "keywords": [
+                "iterative processes",
+                "recursive processes",
+                "algorithm design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use recursive processes to model growth and decay.",
+              "keywords": [
+                "recursive modeling",
+                "growth models",
+                "decay models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use recursive processes to create fractals.",
+              "keywords": [
+                "recursive fractals",
+                "fractal generation",
+                "recursive algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use recursive processes to generate the Fibonacci sequence.",
+              "keywords": [
+                "Fibonacci sequence",
+                "recursive generation",
+                "number sequences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine if a recursive solution is more efficient than an iterative solution.",
+              "keywords": [
+                "recursive efficiency",
+                "iterative efficiency",
+                "algorithm comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.CM.3",
+          "description": "Identify and apply cryptographic methods.",
+          "skills": [
+            {
+              "description": "Compare and contrast ciphers and codes.",
+              "keywords": [
+                "ciphers",
+                "codes",
+                "cryptography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the evolution of cipher systems.",
+              "keywords": [
+                "cipher evolution",
+                "cryptographic history",
+                "cryptography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the Fundamental Theorem of Arithmetic.",
+              "keywords": [
+                "Fundamental Theorem of Arithmetic",
+                "prime factorization",
+                "number theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the complexity of prime factorization is used in cryptography.",
+              "keywords": [
+                "prime factorization",
+                "cryptographic complexity",
+                "RSA encryption"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe modular arithmetic in context (e.g., clocks, days of the week, measures of time).",
+              "keywords": [
+                "modular arithmetic",
+                "clock arithmetic",
+                "time calculations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the relationship between divisibility and modulus.",
+              "keywords": [
+                "divisibility",
+                "modular arithmetic",
+                "number theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine congruence within modular arithmetic.",
+              "keywords": [
+                "congruence",
+                "modular arithmetic",
+                "equivalence classes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Perform operations within modular arithmetic.",
+              "keywords": [
+                "modular operations",
+                "addition",
+                "subtraction",
+                "multiplication",
+                "division"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply modular arithmetic to problems in context (e.g., cryptography, ISBN, IBAN).",
+              "keywords": [
+                "modular arithmetic applications",
+                "cryptography",
+                "ISBN",
+                "IBAN"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DM.CM.4",
+          "description": "Analyze the limitations of algorithms and their contextual relationships in computing.",
+          "skills": [
+            {
+              "description": "Describe maximum complexity of an algorithm using Big O notation.",
+              "keywords": [
+                "Big O notation",
+                "algorithm complexity",
+                "time complexity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe Turing machines and how they are used to test the limits of computation.",
+              "keywords": [
+                "Turing machines",
+                "computational limits",
+                "computability theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the halting problem and explain its implications for computation and undecidability.",
+              "keywords": [
+                "halting problem",
+                "undecidability",
+                "computability theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the P versus NP problem and defend a justification for equality, inequality, or undecidability.",
+              "keywords": [
+                "P vs NP",
+                "computational complexity",
+                "NP-hardness"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze how the equivalence of P- and NP-class problems might impact society.",
+              "keywords": [
+                "P vs NP impact",
+                "computational complexity",
+                "societal implications"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

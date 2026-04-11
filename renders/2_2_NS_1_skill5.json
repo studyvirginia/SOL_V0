@@ -1,0 +1,93 @@
+{
+  "key": "2_2_NS_1_skill5",
+  "grade": "2",
+  "code": "2.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 2 Math",
+  "desc": "Utilize flexible counting strategies to determine and describe quantities up to 200, including skip counting and identifying even/odd numbers.",
+  "skill_desc": "Represent backward counting patterns when counting by groups of 10 from 200 or less using tools like objects, number lines, calculators, or hundreds charts.",
+  "skill_idx": 4,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/2_2_NS_1_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=200-10x",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,200)",
+        "color": "#FF3B30",
+        "label": "200",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(20,0)",
+        "color": "#FF3B30",
+        "label": "0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -10,
+      "right": 21,
+      "top": 210
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Backward Counting by 10s from 200"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 200 - 10x",
+      "SetColor(f, 0, 122, 255)",
+      "A = (0, 200)",
+      "B = (20, 0)",
+      "SetPointStyle(A, 7)",
+      "SetPointSize(A, 7)",
+      "SetPointStyle(B, 7)",
+      "SetPointSize(B, 7)",
+      "SetCaption(A, \"200\")",
+      "SetLabelMode(A, 3)",
+      "SetCaption(B, \"0\")",
+      "SetLabelMode(B, 3)"
+    ],
+    "view": [
+      -1,
+      21,
+      -10,
+      210
+    ],
+    "showGrid": true,
+    "title": "Backward Counting by 10 from 200"
+  },
+  "sketchmath_state": null
+}

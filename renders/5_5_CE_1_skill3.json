@@ -1,0 +1,85 @@
+{
+  "key": "5_5_CE_1_skill3",
+  "grade": "5",
+  "code": "5.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 5 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to single-step and multistep contextual problems using whole number operations.",
+  "skill_desc": "Apply strategies (estimation, properties of addition and multiplication) and algorithms, including the standard algorithm, to solve whole number problems.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/5_5_CE_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2x+3",
+        "color": "#007AFF",
+        "label": "Linear Function",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(-1.5,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -2,
+      "right": 5,
+      "top": 6
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear Function"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x + 3",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 4*x - 1",
+      "SetColor(g, 255, 0, 0)",
+      "Intersect(f, g)",
+      "SetLabelVisible(Intersect(f, g), true)",
+      "SetCaption(Intersect(f, g), \"Solution\")",
+      "SetLabelMode(Intersect(f, g), 3)"
+    ],
+    "view": [
+      -5,
+      5,
+      -5,
+      10
+    ],
+    "showGrid": true,
+    "title": "Solving a system of linear equations (Grade 5)"
+  },
+  "sketchmath_state": null
+}

@@ -1,0 +1,115 @@
+{
+  "key": "7_7_PS_2_skill6",
+  "grade": "7",
+  "code": "7.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 7 Math",
+  "desc": "Apply the data cycle with a focus on histograms to collect, organize, represent, and analyze data.",
+  "skill_desc": "Compare data represented in histograms with other graphs (line plots, circle graphs, stem-and-leaf plots) and justify the best representation.",
+  "skill_idx": 5,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/7_7_PS_2_skill6.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "col1",
+            "latex": "x_1",
+            "values": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ]
+          },
+          {
+            "id": "col2",
+            "latex": "y_1",
+            "values": [
+              2,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              17,
+              19,
+              21,
+              23,
+              25,
+              27,
+              29,
+              31,
+              33,
+              35,
+              37,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "histogram(x_1,y_1)",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.5,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=x",
+        "color": "#FF3B30",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 20,
+      "top": 40
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Histogram of Data"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

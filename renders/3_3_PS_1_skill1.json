@@ -1,0 +1,79 @@
+{
+  "key": "3_3_PS_1_skill1",
+  "grade": "3",
+  "code": "3.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 3 Math",
+  "desc": "Apply the data cycle to formulate questions, collect data, organize and represent data, and analyze results using pictographs and bar graphs.",
+  "skill_desc": "Formulate questions that require the collection or acquisition of data.",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/3_3_PS_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "title: Formulate questions that require the collection or acquisition of data.",
+        "color": "#000000",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e2",
+        "latex": "Question 1: What is your favorite color?",
+        "color": "#000000",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "Question 2: How many pets do you have?",
+        "color": "#000000",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e4",
+        "latex": "Question 3: What is your favorite fruit?",
+        "color": "#000000",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e5",
+        "latex": "Question 4: How many siblings do you have?",
+        "color": "#000000",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 1,
+      "top": 1
+    },
+    "showGrid": false,
+    "showAxes": false,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Formulate questions that require the collection or acquisition of data."
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

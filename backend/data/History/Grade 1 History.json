@@ -1,0 +1,546 @@
+{
+  "subject": "History",
+  "course": "Grade 1 History",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "1.SS.1",
+          "description": "Apply history and social science skills to analyze and interpret information sources and concepts.",
+          "skills": [
+            {
+              "description": "View and explore information sources including artifacts, primary and secondary sources, charts, graphs, and diagrams.",
+              "keywords": [
+                "artifacts",
+                "primary sources",
+                "secondary sources",
+                "charts",
+                "graphs",
+                "diagrams"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to identify and understand geographic features.",
+              "keywords": [
+                "geographic features",
+                "geography",
+                "landforms",
+                "bodies of water"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate curiosity and critical thinking through questioning.",
+              "keywords": [
+                "critical thinking",
+                "questioning",
+                "inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sequence and organize information to clarify content.",
+              "keywords": [
+                "sequencing",
+                "organizing information",
+                "timelines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify similarities and differences to explain content.",
+              "keywords": [
+                "comparing",
+                "contrasting",
+                "similarities",
+                "differences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize cause-and-effect relationships in historical and social contexts.",
+              "keywords": [
+                "cause-and-effect",
+                "consequences",
+                "historical events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use economic decision-making models to make informed economic decisions.",
+              "keywords": [
+                "economic decisions",
+                "consumers",
+                "producers",
+                "goods",
+                "services"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Practice civility, respect, hard work, and responsible citizenship skills.",
+              "keywords": [
+                "citizenship",
+                "respect",
+                "responsibility",
+                "civility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use content vocabulary to demonstrate comprehension.",
+              "keywords": [
+                "vocabulary",
+                "content terms",
+                "social studies terminology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civics",
+      "standards": [
+        {
+          "code": "1.CV.1",
+          "description": "Practice citizenship skills in the classroom by demonstrating honesty, respect, and responsibility.",
+          "skills": [
+            {
+              "description": "Practice honesty and show kindness to oneself and others.",
+              "keywords": [
+                "honesty",
+                "kindness",
+                "self-respect"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize the purpose of rules and practice self-control.",
+              "keywords": [
+                "rules",
+                "self-control",
+                "classroom management"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Be respectful of others and celebrate differences in ethnic origins, customs, and traditions.",
+              "keywords": [
+                "respect",
+                "diversity",
+                "cultural differences",
+                "traditions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Work respectfully with others to achieve a goal.",
+              "keywords": [
+                "teamwork",
+                "collaboration",
+                "respectful interaction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Contribute one's time and talents to help others in homes, schools, and communities through jobs.",
+              "keywords": [
+                "community service",
+                "volunteering",
+                "jobs",
+                "responsibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Participate in classroom decision-making by voting.",
+              "keywords": [
+                "voting",
+                "classroom democracy",
+                "decision-making"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand that local and state government representatives are elected by citizens who vote.",
+              "keywords": [
+                "elections",
+                "government representatives",
+                "voting rights"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.CV.2",
+          "description": "Explain how communities honor local and national traditions and recognize designated Virginia holidays.",
+          "skills": [
+            {
+              "description": "Recognize and explain the significance of designated Virginia holidays including Labor Day, Veterans Day, Thanksgiving Day, and others.",
+              "keywords": [
+                "holidays",
+                "traditions",
+                "Virginia holidays",
+                "Labor Day",
+                "Veterans Day",
+                "Thanksgiving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.CV.3",
+          "description": "Describe symbols and traditions that honor and foster patriotism in the United States.",
+          "skills": [
+            {
+              "description": "Learn the Pledge of Allegiance and the national anthem.",
+              "keywords": [
+                "Pledge of Allegiance",
+                "national anthem",
+                "patriotism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Learn the ways people express respect for the American flag.",
+              "keywords": [
+                "American flag",
+                "flag etiquette",
+                "respect for symbols"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the symbolism of the colors, stars, and stripes of the American flag.",
+              "keywords": [
+                "flag symbolism",
+                "stars",
+                "stripes",
+                "colors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the Virginia flag, state capitol building, the cardinal as the state bird, and the dogwood as the state flower.",
+              "keywords": [
+                "Virginia flag",
+                "state symbols",
+                "cardinal",
+                "dogwood",
+                "state capitol"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain why people use symbols and have traditions.",
+              "keywords": [
+                "symbols",
+                "traditions",
+                "cultural significance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "standards": [
+        {
+          "code": "1.H.1",
+          "description": "Understand Virginia's history by identifying important events, locations, and changes over time.",
+          "skills": [
+            {
+              "description": "Identify and describe important events and locations in early Virginia history including Werowocomoco and Jamestown.",
+              "keywords": [
+                "Werowocomoco",
+                "Jamestown",
+                "early Virginia history",
+                "historical locations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how life in various Virginia communities has changed over time.",
+              "keywords": [
+                "community changes",
+                "historical change",
+                "Virginia history"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify local cities or counties on a map of Virginia.",
+              "keywords": [
+                "Virginia map",
+                "local geography",
+                "cities",
+                "counties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.H.2",
+          "description": "Describe contributions of Virginia's diverse people and the stories of changemakers in Virginia history.",
+          "skills": [
+            {
+              "description": "Describe contributions of Indigenous people such as Chief Powhatan and Pocahontas.",
+              "keywords": [
+                "Chief Powhatan",
+                "Pocahontas",
+                "Indigenous people",
+                "Virginia history"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe contributions of explorers such as John Smith and Christopher Newport.",
+              "keywords": [
+                "John Smith",
+                "Christopher Newport",
+                "explorers",
+                "Virginia history"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe contributions of Presidents such as George Washington, Thomas Jefferson, James Madison, and James Monroe.",
+              "keywords": [
+                "George Washington",
+                "Thomas Jefferson",
+                "James Madison",
+                "James Monroe",
+                "Presidents",
+                "Virginia history"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe contributions of barrier breakers such as John Mercer Langston, Booker T. Washington, Maggie L. Walker, Barbara Johns, Arthur R. Ashe, Jr., and L. Douglas Wilder.",
+              "keywords": [
+                "John Mercer Langston",
+                "Booker T. Washington",
+                "Maggie L. Walker",
+                "Barbara Johns",
+                "Arthur R. Ashe, Jr.",
+                "L. Douglas Wilder",
+                "barrier breakers",
+                "Virginia history"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "standards": [
+        {
+          "code": "1.G.1",
+          "description": "Develop geographic skills including map reading, symbols, and directions.",
+          "skills": [
+            {
+              "description": "Use basic map symbols including references to land, water, cities, and roads.",
+              "keywords": [
+                "map symbols",
+                "land",
+                "water",
+                "cities",
+                "roads"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use cardinal directions on maps.",
+              "keywords": [
+                "cardinal directions",
+                "north",
+                "south",
+                "east",
+                "west"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate Virginia, the United States, continents, and oceans on maps and globes.",
+              "keywords": [
+                "Virginia",
+                "United States",
+                "continents",
+                "oceans",
+                "maps",
+                "globes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct simple maps including a title, map legend or key, and a compass rose.",
+              "keywords": [
+                "map construction",
+                "title",
+                "legend",
+                "compass rose",
+                "simple maps"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.G.2",
+          "description": "Connect geography to historic events of Virginia and the United States.",
+          "skills": [
+            {
+              "description": "Identify landforms and bodies of water of Virginia and describe how they affect the way people live.",
+              "keywords": [
+                "landforms",
+                "bodies of water",
+                "Virginia geography",
+                "human impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand that the location of Virginia determines its climate and its four distinct seasons.",
+              "keywords": [
+                "Virginia climate",
+                "seasons",
+                "geographic location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate the site of the Jamestown colony.",
+              "keywords": [
+                "Jamestown",
+                "colony location",
+                "Virginia geography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate Richmond and Washington, D.C. on Virginia and United States maps.",
+              "keywords": [
+                "Richmond",
+                "Washington, D.C.",
+                "Virginia map",
+                "United States map"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economics",
+      "standards": [
+        {
+          "code": "1.EC.1",
+          "description": "Explain how individuals make economic choices to meet their basic needs.",
+          "skills": [
+            {
+              "description": "Identify the difference between goods and services.",
+              "keywords": [
+                "goods",
+                "services",
+                "economic concepts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how people can be both consumers and producers.",
+              "keywords": [
+                "consumers",
+                "producers",
+                "economic roles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe ways people work to earn and save money to purchase goods and services.",
+              "keywords": [
+                "earning money",
+                "saving money",
+                "purchasing",
+                "economic choices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe goods produced and services provided in Virginia.",
+              "keywords": [
+                "Virginia goods",
+                "Virginia services",
+                "local economy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe why people must make choices, prioritizing needs over wants.",
+              "keywords": [
+                "economic choices",
+                "needs",
+                "wants",
+                "prioritization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

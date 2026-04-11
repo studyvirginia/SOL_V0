@@ -1,0 +1,72 @@
+{
+  "key": "5_5_CE_2_skill5",
+  "grade": "5",
+  "code": "5.CE.2",
+  "domain": "Computation and Estimation",
+  "course": "Grade 5 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to problems using addition and subtraction of fractions and multiplication of whole numbers and proper fractions.",
+  "skill_desc": "Solve single-step contextual problems involving multiplication of a whole number (limited to 12 or less) and a proper fraction with models.",
+  "skill_idx": 4,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/5_5_CE_2_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{1}{4}x",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "x=8",
+        "color": "#FF3B30",
+        "lines": true,
+        "lineWidth": 3,
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(8,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "Solution",
+        "showLabel": true,
+        "labelOrientation": "ABOVE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 10,
+      "top": 4
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Multiplication of a whole number and a proper fraction"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

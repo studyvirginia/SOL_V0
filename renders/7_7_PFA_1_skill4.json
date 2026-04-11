@@ -1,0 +1,80 @@
+{
+  "key": "7_7_PFA_1_skill4",
+  "grade": "7",
+  "code": "7.PFA.1",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 7 Math",
+  "desc": "Investigate and analyze proportional relationships using verbal descriptions, tables, equations, and graphs.",
+  "skill_desc": "Graph a line representing a proportional relationship given the equation y = mx.",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/7_7_PFA_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2x",
+        "color": "#007AFF",
+        "label": "y = 2x",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "label": "(0, 0)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(1,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "label": "(1, 2)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(-1,-2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "label": "(-1, -2)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -3,
+      "bottom": -3,
+      "right": 3,
+      "top": 3
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Proportional Relationship: y = 2x"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

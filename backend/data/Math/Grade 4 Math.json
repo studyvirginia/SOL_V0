@@ -1,0 +1,1141 @@
+{
+  "subject": "Math",
+  "course": "Grade 4 Math",
+  "domains": [
+    {
+      "name": "Number and Number Sense",
+      "standards": [
+        {
+          "code": "4.NS.1",
+          "description": "Read, write, and identify the place and value of each digit in a nine-digit whole number using place value understanding.",
+          "skills": [
+            {
+              "description": "Read nine-digit whole numbers in standard form and represent them in written form.",
+              "keywords": [
+                "nine-digit numbers",
+                "standard form",
+                "written form",
+                "place value"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write nine-digit whole numbers in standard form when presented orally or in written form.",
+              "keywords": [
+                "nine-digit numbers",
+                "standard form",
+                "oral presentation",
+                "written form"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the place and value of each digit in a nine-digit whole number (e.g., in 568,165,724, the 8 represents 8 millions and its value is 8,000,000).",
+              "keywords": [
+                "place value",
+                "nine-digit numbers",
+                "digit value",
+                "base 10 system"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.NS.2",
+          "description": "Compare and order whole numbers up to seven digits using the base 10 system.",
+          "skills": [
+            {
+              "description": "Compare two whole numbers up to seven digits using words (greater than, less than, equal to, not equal to) and/or symbols (>, <, =, ≠).",
+              "keywords": [
+                "whole numbers",
+                "comparison",
+                "symbols",
+                "base 10 system"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Order up to four whole numbers up to seven digits from least to greatest or greatest to least.",
+              "keywords": [
+                "whole numbers",
+                "ordering",
+                "least to greatest",
+                "greatest to least"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.NS.3",
+          "description": "Represent, compare, and order fractions and mixed numbers with denominators up to 12, with and without models.",
+          "skills": [
+            {
+              "description": "Compare and order fractions with like denominators by comparing numerators (e.g., 3/8 < 5/8).",
+              "keywords": [
+                "fractions",
+                "like denominators",
+                "numerator comparison",
+                "ordering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and order fractions with like numerators and unlike denominators by comparing the size of the parts (e.g., 1/3 < 1/2).",
+              "keywords": [
+                "fractions",
+                "like numerators",
+                "unlike denominators",
+                "part comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use benchmarks (0, 1/2, 1) to compare and order fractions and mixed numbers with denominators up to 12.",
+              "keywords": [
+                "fractions",
+                "benchmarks",
+                "comparison",
+                "ordering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare fractions and mixed numbers using symbols >, <, and = (e.g., 2/3 > 1/2).",
+              "keywords": [
+                "fractions",
+                "mixed numbers",
+                "symbol comparison",
+                "denominators up to 12"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent equivalent fractions with denominators up to 12, with and without models.",
+              "keywords": [
+                "equivalent fractions",
+                "denominators up to 12",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compose and decompose fractions and mixed numbers with denominators up to 12 in multiple ways, with and without models.",
+              "keywords": [
+                "compose fractions",
+                "decompose fractions",
+                "mixed numbers",
+                "denominators up to 12"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent the division of two whole numbers as a fraction given a contextual situation and a model (e.g., 3/5 means 3 divided by 5).",
+              "keywords": [
+                "division",
+                "fractions",
+                "contextual representation",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.NS.4",
+          "description": "Represent, compare, and order decimals through thousandths, with and without models.",
+          "skills": [
+            {
+              "description": "Investigate and describe the ten-to-one place value relationship for decimals through thousandths using concrete models.",
+              "keywords": [
+                "decimals",
+                "place value",
+                "thousandths",
+                "concrete models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and identify decimals expressed through thousandths using concrete, pictorial, and numerical representations.",
+              "keywords": [
+                "decimals",
+                "thousandths",
+                "concrete representation",
+                "pictorial representation",
+                "numerical representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and write decimals expressed through thousandths using concrete, pictorial, and numerical representations.",
+              "keywords": [
+                "decimals",
+                "thousandths",
+                "reading",
+                "writing",
+                "numerical representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and communicate the place and value of each digit in a decimal through thousandths (e.g., in 0.385, the 8 is in the hundredths place and has a value of 0.08).",
+              "keywords": [
+                "decimals",
+                "thousandths",
+                "place value",
+                "digit value"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and order up to four decimals expressed through thousandths using symbols and/or words, and justify comparisons with models.",
+              "keywords": [
+                "decimals",
+                "thousandths",
+                "comparison",
+                "ordering",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.NS.5",
+          "description": "Identify and represent equivalencies between fractions and decimals limited to halves, fourths, fifths, tenths, and hundredths.",
+          "skills": [
+            {
+              "description": "Represent fractions and mixed numbers as decimals through hundredths using multiple representations.",
+              "keywords": [
+                "fractions",
+                "mixed numbers",
+                "decimals",
+                "hundredths",
+                "multiple representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and model equivalent relationships between fractions and decimals using halves, fourths, fifths, tenths, and hundredths.",
+              "keywords": [
+                "equivalent fractions",
+                "decimals",
+                "halves",
+                "fourths",
+                "fifths",
+                "tenths",
+                "hundredths"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write the decimal and fraction equivalent for a given model (e.g., 1/4 = 0.25, 1.25 = 5/4 or 1 1/4).",
+              "keywords": [
+                "decimal equivalent",
+                "fraction equivalent",
+                "models",
+                "conversion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computation and Estimation",
+      "standards": [
+        {
+          "code": "4.CE.1",
+          "description": "Estimate, represent, solve, and justify solutions to single-step and multistep problems involving addition and subtraction with whole numbers.",
+          "skills": [
+            {
+              "description": "Determine and justify whether an estimate or an exact answer is appropriate for contextual problems involving addition and subtraction with whole numbers.",
+              "keywords": [
+                "estimation",
+                "exact answer",
+                "contextual problems",
+                "addition",
+                "subtraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply strategies (e.g., rounding, compatible numbers) to estimate solutions for single-step or multistep addition or subtraction problems with whole numbers.",
+              "keywords": [
+                "estimation strategies",
+                "rounding",
+                "compatible numbers",
+                "addition",
+                "subtraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply strategies and algorithms, including the standard algorithm, to determine the sum or difference of two whole numbers.",
+              "keywords": [
+                "addition",
+                "subtraction",
+                "standard algorithm",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate, represent, solve, and justify solutions to single-step and multistep contextual problems involving addition and subtraction with whole numbers up to 1,000,000.",
+              "keywords": [
+                "contextual problems",
+                "addition",
+                "subtraction",
+                "whole numbers",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.CE.2",
+          "description": "Estimate, represent, solve, and justify solutions to single-step and multistep problems involving multiplication and single-step problems involving division with whole numbers.",
+          "skills": [
+            {
+              "description": "Determine and justify whether an estimate or an exact answer is appropriate for contextual problems involving multiplication and division of whole numbers.",
+              "keywords": [
+                "estimation",
+                "exact answer",
+                "contextual problems",
+                "multiplication",
+                "division"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recall with automaticity the multiplication facts through 12 × 12 and the corresponding division facts.",
+              "keywords": [
+                "multiplication facts",
+                "division facts",
+                "automaticity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create an equation using addition, subtraction, multiplication, and division to represent the relationship between equivalent mathematical expressions.",
+              "keywords": [
+                "equation creation",
+                "equivalent expressions",
+                "addition",
+                "subtraction",
+                "multiplication",
+                "division"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine all factor pairs for a whole number 1 to 100 using concrete, pictorial, and numerical representations.",
+              "keywords": [
+                "factor pairs",
+                "whole numbers",
+                "concrete representation",
+                "pictorial representation",
+                "numerical representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine common factors and the greatest common factor of no more than three numbers.",
+              "keywords": [
+                "common factors",
+                "greatest common factor",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply strategies and algorithms, including the standard algorithm, to estimate and determine the product of two whole numbers with specified factors.",
+              "keywords": [
+                "multiplication",
+                "standard algorithm",
+                "estimation",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply strategies and algorithms to estimate and determine the quotient of two whole numbers with a one-digit divisor and a two- or three-digit dividend, with and without remainders.",
+              "keywords": [
+                "division",
+                "quotient",
+                "remainder",
+                "estimation",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate, represent, solve, and justify solutions to single-step contextual problems involving division with whole numbers.",
+              "keywords": [
+                "contextual problems",
+                "division",
+                "whole numbers",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret the quotient and remainder when solving a contextual problem.",
+              "keywords": [
+                "quotient",
+                "remainder",
+                "contextual problems",
+                "interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.CE.3",
+          "description": "Estimate, represent, solve, and justify solutions to single-step problems involving addition and subtraction of fractions and single-step problems involving multiplication of a whole number and a unit fraction.",
+          "skills": [
+            {
+              "description": "Estimate and determine the sum or difference of two fractions and/or mixed numbers with like denominators limited to 2, 3, 4, 5, 6, 8, 10, and 12, and simplify the resulting fraction.",
+              "keywords": [
+                "fractions",
+                "mixed numbers",
+                "like denominators",
+                "addition",
+                "subtraction",
+                "simplification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate, represent, solve, and justify solutions to single-step contextual problems using addition and subtraction with fractions and/or mixed numbers with like denominators.",
+              "keywords": [
+                "contextual problems",
+                "fractions",
+                "mixed numbers",
+                "like denominators",
+                "addition",
+                "subtraction",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve single-step contextual problems involving multiplication of a whole number (12 or less) and a unit fraction with models.",
+              "keywords": [
+                "contextual problems",
+                "multiplication",
+                "whole numbers",
+                "unit fractions",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply the inverse property of multiplication in models (e.g., represent 4/4 or 1 as the product of 4 × 1/4).",
+              "keywords": [
+                "inverse property",
+                "multiplication",
+                "models",
+                "fractions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.CE.4",
+          "description": "Estimate, represent, solve, and justify solutions to single-step and multistep problems involving addition and subtraction of decimals through the thousandths.",
+          "skills": [
+            {
+              "description": "Apply strategies and algorithms to estimate and determine the sum or difference of two decimals through the thousandths.",
+              "keywords": [
+                "decimals",
+                "thousandths",
+                "addition",
+                "subtraction",
+                "estimation",
+                "algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate, represent, solve, and justify solutions to single-step and multistep contextual problems using addition and subtraction of decimals through the thousandths.",
+              "keywords": [
+                "contextual problems",
+                "decimals",
+                "thousandths",
+                "addition",
+                "subtraction",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Measurement and Geometry",
+      "standards": [
+        {
+          "code": "4.MG.1",
+          "description": "Solve problems involving length, weight/mass, and liquid volume using U.S. Customary and metric units.",
+          "skills": [
+            {
+              "description": "Determine an appropriate unit of measure for length, weight/mass, and liquid volume in U.S. Customary and metric systems.",
+              "keywords": [
+                "unit of measure",
+                "length",
+                "weight/mass",
+                "liquid volume",
+                "U.S. Customary",
+                "metric"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure length, weight/mass, and liquid volume to the nearest specified unit.",
+              "keywords": [
+                "measurement",
+                "length",
+                "weight/mass",
+                "liquid volume",
+                "estimation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare estimates of length, weight/mass, or liquid volume with actual measurements.",
+              "keywords": [
+                "estimation",
+                "measurement",
+                "comparison",
+                "length",
+                "weight/mass",
+                "liquid volume"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems to determine equivalent measures within the U.S. Customary system for length, weight/mass, and liquid volume.",
+              "keywords": [
+                "equivalent measures",
+                "U.S. Customary",
+                "length",
+                "weight/mass",
+                "liquid volume"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.MG.2",
+          "description": "Solve single-step and multistep contextual problems involving elapsed time within a 12-hour period.",
+          "skills": [
+            {
+              "description": "Solve contextual problems involving elapsed time in hours and minutes within a 12-hour period given starting and ending times.",
+              "keywords": [
+                "elapsed time",
+                "hours",
+                "minutes",
+                "12-hour period",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve contextual problems involving elapsed time in hours and minutes within a 12-hour period given starting time and amount of elapsed time.",
+              "keywords": [
+                "elapsed time",
+                "hours",
+                "minutes",
+                "12-hour period",
+                "starting time",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve contextual problems involving elapsed time in hours and minutes within a 12-hour period given ending time and amount of elapsed time.",
+              "keywords": [
+                "elapsed time",
+                "hours",
+                "minutes",
+                "12-hour period",
+                "ending time",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.MG.3",
+          "description": "Develop and use formulas to solve problems involving area and perimeter of rectangles and squares.",
+          "skills": [
+            {
+              "description": "Use concrete materials and pictorial models to develop formulas for the area and perimeter of a rectangle (including a square).",
+              "keywords": [
+                "area",
+                "perimeter",
+                "rectangle",
+                "square",
+                "concrete materials",
+                "pictorial models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the area and perimeter of a rectangle when given the measure of two adjacent sides, with and without models.",
+              "keywords": [
+                "area",
+                "perimeter",
+                "rectangle",
+                "adjacent sides",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the area and perimeter of a square when given the measure of one side, with and without models.",
+              "keywords": [
+                "area",
+                "perimeter",
+                "square",
+                "side length",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explore the relationship between area and perimeter of rectangles using concrete materials and pictorial models.",
+              "keywords": [
+                "area",
+                "perimeter",
+                "rectangles",
+                "relationship",
+                "concrete materials",
+                "pictorial models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and represent rectangles with the same perimeter and different areas or with the same area and different perimeters.",
+              "keywords": [
+                "rectangles",
+                "perimeter",
+                "area",
+                "comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve contextual problems involving area and perimeter of rectangles and squares.",
+              "keywords": [
+                "contextual problems",
+                "area",
+                "perimeter",
+                "rectangles",
+                "squares"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.MG.4",
+          "description": "Identify, describe, and draw points, rays, line segments, angles, and lines, including intersecting, parallel, and perpendicular lines.",
+          "skills": [
+            {
+              "description": "Identify and describe points, lines, line segments, rays, and angles, including endpoints and vertices.",
+              "keywords": [
+                "points",
+                "lines",
+                "line segments",
+                "rays",
+                "angles",
+                "endpoints",
+                "vertices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe endpoints and vertices in relation to lines, line segments, rays, and angles.",
+              "keywords": [
+                "endpoints",
+                "vertices",
+                "lines",
+                "line segments",
+                "rays",
+                "angles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Draw representations of points, line segments, rays, angles, and lines using a ruler or straightedge.",
+              "keywords": [
+                "drawing",
+                "points",
+                "line segments",
+                "rays",
+                "angles",
+                "lines",
+                "ruler",
+                "straightedge"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify parallel, perpendicular, and intersecting lines and line segments in plane and solid figures, including those in context.",
+              "keywords": [
+                "parallel lines",
+                "perpendicular lines",
+                "intersecting lines",
+                "plane figures",
+                "solid figures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use symbolic notation to name points, lines, line segments, rays, angles, and to describe parallel and perpendicular lines.",
+              "keywords": [
+                "symbolic notation",
+                "points",
+                "lines",
+                "line segments",
+                "rays",
+                "angles",
+                "parallel lines",
+                "perpendicular lines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.MG.5",
+          "description": "Classify and describe quadrilaterals using specific properties and attributes.",
+          "skills": [
+            {
+              "description": "Develop definitions for parallelograms, rectangles, squares, rhombi, and trapezoids through exploration of properties and attributes.",
+              "keywords": [
+                "parallelograms",
+                "rectangles",
+                "squares",
+                "rhombi",
+                "trapezoids",
+                "properties",
+                "attributes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe points, line segments, angles, and vertices in quadrilaterals.",
+              "keywords": [
+                "quadrilaterals",
+                "points",
+                "line segments",
+                "angles",
+                "vertices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe parallel, intersecting, perpendicular, and congruent sides in quadrilaterals.",
+              "keywords": [
+                "quadrilaterals",
+                "parallel sides",
+                "intersecting sides",
+                "perpendicular sides",
+                "congruent sides"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, contrast, and classify quadrilaterals based on parallel sides, perpendicular sides, congruence of sides, and number of right angles.",
+              "keywords": [
+                "quadrilaterals",
+                "classification",
+                "parallel sides",
+                "perpendicular sides",
+                "congruent sides",
+                "right angles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Denote properties of quadrilaterals and identify parallel sides, congruent sides, and right angles using geometric markings.",
+              "keywords": [
+                "quadrilaterals",
+                "geometric markings",
+                "parallel sides",
+                "congruent sides",
+                "right angles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use symbolic notation to name line segments and angles in quadrilaterals.",
+              "keywords": [
+                "symbolic notation",
+                "line segments",
+                "angles",
+                "quadrilaterals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.MG.6",
+          "description": "Identify, describe, compare, and contrast plane and solid figures according to their characteristics.",
+          "skills": [
+            {
+              "description": "Identify concrete models and pictorial representations of solid figures (cube, rectangular prism, square pyramid, sphere, cone, and cylinder).",
+              "keywords": [
+                "solid figures",
+                "cube",
+                "rectangular prism",
+                "square pyramid",
+                "sphere",
+                "cone",
+                "cylinder",
+                "concrete models",
+                "pictorial representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe solid figures (cube, rectangular prism, square pyramid, and sphere) according to their characteristics (number of angles, vertices, edges, and number and shape of faces).",
+              "keywords": [
+                "solid figures",
+                "cube",
+                "rectangular prism",
+                "square pyramid",
+                "sphere",
+                "angles",
+                "vertices",
+                "edges",
+                "faces"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast plane and solid figures (limited to circles, squares, triangles, rectangles, spheres, cubes, square pyramids, and rectangular prisms) according to their characteristics.",
+              "keywords": [
+                "plane figures",
+                "solid figures",
+                "comparison",
+                "circles",
+                "squares",
+                "triangles",
+                "rectangles",
+                "spheres",
+                "cubes",
+                "square pyramids",
+                "rectangular prisms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability and Statistics",
+      "standards": [
+        {
+          "code": "4.PS.1",
+          "description": "Apply the data cycle with a focus on line graphs to formulate questions, collect data, organize and represent data, and analyze data and communicate results.",
+          "skills": [
+            {
+              "description": "Formulate questions that require the collection or acquisition of data.",
+              "keywords": [
+                "data collection",
+                "questions",
+                "data cycle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the data needed to answer a formulated question and collect or acquire existing data (limited to 10 or fewer data points) using various methods.",
+              "keywords": [
+                "data collection",
+                "existing data",
+                "methods",
+                "data points"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent a data set using line graphs with a title and labeled axes with whole number increments, with and without technology tools.",
+              "keywords": [
+                "line graphs",
+                "data organization",
+                "data representation",
+                "title",
+                "labeled axes",
+                "whole number increments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data represented in line graphs and communicate results: describe characteristics of the data and the data as a whole.",
+              "keywords": [
+                "data analysis",
+                "line graphs",
+                "characteristics",
+                "data as a whole"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data represented in line graphs and communicate results: identify parts of the data with special characteristics and explain their meaning.",
+              "keywords": [
+                "data analysis",
+                "line graphs",
+                "special characteristics",
+                "explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data represented in line graphs and communicate results: make inferences about the data.",
+              "keywords": [
+                "data analysis",
+                "line graphs",
+                "inferences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data represented in line graphs and communicate results: draw conclusions and make predictions based on the data.",
+              "keywords": [
+                "data analysis",
+                "line graphs",
+                "conclusions",
+                "predictions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve single-step and multistep addition and subtraction problems using data from line graphs.",
+              "keywords": [
+                "addition",
+                "subtraction",
+                "line graphs",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.PS.2",
+          "description": "Model and determine the probability of an outcome of a simple event.",
+          "skills": [
+            {
+              "description": "Describe probability as the degree of likelihood of an outcome occurring using terms such as impossible, unlikely, equally likely, likely, and certain.",
+              "keywords": [
+                "probability",
+                "likelihood",
+                "impossible",
+                "unlikely",
+                "equally likely",
+                "likely",
+                "certain"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Model and determine all possible outcomes of a given simple event with no more than 24 possible outcomes using manipulatives.",
+              "keywords": [
+                "probability",
+                "possible outcomes",
+                "manipulatives",
+                "simple event"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write the probability of a given simple event as a fraction between 0 and 1 with no more than 24 possible outcomes.",
+              "keywords": [
+                "probability",
+                "fraction",
+                "simple event",
+                "possible outcomes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the likelihood of an event occurring and relate it to its whole number or fractional representation.",
+              "keywords": [
+                "probability",
+                "likelihood",
+                "whole number representation",
+                "fractional representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a model or contextual problem to represent a given probability.",
+              "keywords": [
+                "probability",
+                "model creation",
+                "contextual problem"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patterns, Functions, and Algebra",
+      "standards": [
+        {
+          "code": "4.PFA.1",
+          "description": "Identify, describe, extend, and create increasing and decreasing patterns using various representations.",
+          "skills": [
+            {
+              "description": "Identify, describe, extend, and create increasing and decreasing patterns using various representations (e.g., objects, pictures, numbers, number lines, input/output tables, function machines).",
+              "keywords": [
+                "patterns",
+                "increasing",
+                "decreasing",
+                "objects",
+                "pictures",
+                "numbers",
+                "number lines",
+                "input/output tables",
+                "function machines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze a single-operation numerical pattern found in lists, input/output tables, or function machines to identify the rule, extend the pattern, or identify missing terms.",
+              "keywords": [
+                "numerical patterns",
+                "single-operation",
+                "rule identification",
+                "pattern extension",
+                "missing terms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a rule, create increasing and decreasing patterns using numbers and input/output tables (including function machines).",
+              "keywords": [
+                "patterns",
+                "rule",
+                "input/output tables",
+                "function machines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve contextual problems that involve identifying, describing, and extending increasing and decreasing patterns using single-operation input and output rules.",
+              "keywords": [
+                "contextual problems",
+                "patterns",
+                "input/output rules",
+                "identification",
+                "description",
+                "extension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

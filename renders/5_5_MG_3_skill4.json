@@ -1,0 +1,220 @@
+{
+  "key": "5_5_MG_3_skill4",
+  "grade": "5",
+  "code": "5.MG.3",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 5 Math",
+  "desc": "Classify and measure angles and triangles, and solve problems involving angles.",
+  "skill_desc": "Compare and contrast the properties of triangles.",
+  "skill_idx": 3,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/5_5_MG_3_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(5,0),(2.5,4))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(5,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2.5,4)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "arc1",
+        "latex": "(0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "63.4"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel1",
+        "latex": "(0.55*\\cos(31.7),0.55*\\sin(31.7))",
+        "label": "63.4\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc2",
+        "latex": "(5+0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "180",
+          "max": "180+63.4"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel2",
+        "latex": "(5+0.55*\\cos(211.7),0.55*\\sin(211.7))",
+        "label": "63.4\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc3",
+        "latex": "(2.5+0.4*\\cos(t),4+0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "90",
+          "max": "180-26.6"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel3",
+        "latex": "(2.5+0.55*\\cos(111.7),4+0.55*\\sin(111.7))",
+        "label": "53.1\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 5
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": true,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Triangle Angle Measures"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (5, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (2.5, 4.33)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "tri = Polygon(A, B, C)",
+      "SetColor(tri, 0, 122, 255)",
+      "Angle(tri)",
+      "lineAB = Segment(A, B)",
+      "SetColor(lineAB, 255, 0, 0)",
+      "lineBC = Segment(B, C)",
+      "SetColor(lineBC, 0, 255, 0)",
+      "lineCA = Segment(C, A)",
+      "SetColor(lineCA, 0, 0, 255)",
+      "SetLineThickness(lineAB, 3)",
+      "SetLineThickness(lineBC, 3)",
+      "SetLineThickness(lineCA, 3)",
+      "M = MidPoint(A, B)",
+      "SetLabelVisible(M, true)",
+      "SetCaption(M, \"M\")",
+      "SetLabelMode(M, 3)",
+      "medianCM = Segment(C, M)",
+      "SetColor(medianCM, 142, 142, 147)",
+      "SetLineStyle(medianCM, 1)",
+      "lineBC = Line(B, C)",
+      "perpAH = PerpendicularLine(A, lineBC)",
+      "H = Intersect(perpAH, lineBC)",
+      "SetVisible(lineBC, false)",
+      "SetVisible(perpAH, false)",
+      "altitudeAH = Segment(A, H)",
+      "SetColor(altitudeAH, 142, 142, 147)",
+      "SetLineStyle(altitudeAH, 1)",
+      "pb1 = PerpendicularBisector(A, B)",
+      "pb2 = PerpendicularBisector(B, C)",
+      "O = Intersect(pb1, pb2)",
+      "SetVisible(pb1, false)",
+      "SetVisible(pb2, false)",
+      "circumcircle = Circumcircle(A, B, C)",
+      "SetColor(circumcircle, 255, 170, 0)",
+      "SetLineThickness(circumcircle, 2)"
+    ],
+    "view": [
+      -1,
+      6,
+      -1,
+      6
+    ],
+    "showGrid": true,
+    "title": "Triangle Properties: Sides, Angles, Medians, Altitudes, and Circumcircle"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (2, 5)",
+      "B = (0, 0)",
+      "C = (4, 0)",
+      "Polygon(A, B, C)",
+      "D = (7, 5)",
+      "E = (5, 0)",
+      "F = (9, 0)",
+      "Polygon(D, E, F)",
+      "G = (11, 5)",
+      "H = (10, 0)",
+      "I = (16, 0)",
+      "Polygon(G, H, I)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 so s\u00e1nh v\u00e0 \u0111\u1ed1i chi\u1ebfu c\u00e1c thu\u1ed9c t\u00ednh c\u1ee7a tam gi\u00e1c, ch\u00fang ta s\u1ebd v\u1ebd ba lo\u1ea1i tam "
+  }
+}

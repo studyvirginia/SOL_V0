@@ -1,0 +1,834 @@
+{
+  "subject": "Science",
+  "course": "Biology II Anatomy and Physiology",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "AP.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, analysis, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from careful observation of phenomena, organisms, models, or theories to seek additional information.",
+              "keywords": [
+                "question formulation",
+                "observation",
+                "phenomena",
+                "models",
+                "theories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of a school laboratory or field setting.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "field investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Formulate hypotheses specifying the relationship between independent and dependent variables.",
+              "keywords": [
+                "hypothesis formation",
+                "independent variable",
+                "dependent variable",
+                "manipulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "research-based",
+                "scientific principles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct observational and experimental investigations; identify variables, constants, and controls.",
+              "keywords": [
+                "investigation design",
+                "variables",
+                "constants",
+                "controls",
+                "observational study",
+                "experimental study"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations in a safe and ethical manner, considering environmental, social, and personal effects.",
+              "keywords": [
+                "safety protocols",
+                "ethical considerations",
+                "environmental impact",
+                "social impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine appropriate sample size and techniques for investigations.",
+              "keywords": [
+                "sample size",
+                "sampling techniques",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect and record data.",
+              "keywords": [
+                "data collection tools",
+                "technology",
+                "measurement tools",
+                "recording data"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variable",
+                "dependent variable",
+                "repeated trials",
+                "means"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data; consider limitations of data analysis.",
+              "keywords": [
+                "graphical displays",
+                "data analysis",
+                "limitations",
+                "trends",
+                "patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, support explanations for phenomena, or test solutions to problems.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "phenomena explanation",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes in scientific investigations.",
+              "keywords": [
+                "mathematical application",
+                "statistical analysis",
+                "quantitative reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "validity",
+                "reliability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from models, theories, simulations, peer review, or investigations.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based",
+                "peer review",
+                "model validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide explanations of phenomena.",
+              "keywords": [
+                "scientific application",
+                "phenomena explanation",
+                "principles",
+                "evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments in light of currently accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument evaluation",
+                "competing explanations",
+                "scientific evidence",
+                "peer review"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support a claim using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim formulation",
+                "empirical evidence",
+                "scientific reasoning",
+                "support"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate a claim by applying scientific reasoning, theory, and/or models to link evidence to assess the extent to which the reasoning and data support the explanation or conclusion.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theory application",
+                "model validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "merits",
+                "limitations",
+                "predictive accuracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships, support explanations, predict phenomena, analyze systems, or solve problems.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "system analysis",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical and statistical concepts and processes in building and revising models, and supporting explanations of phenomena.",
+              "keywords": [
+                "mathematical modeling",
+                "statistical analysis",
+                "phenomena prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question or solve a problem.",
+              "keywords": [
+                "source evaluation",
+                "information integration",
+                "media literacy",
+                "scientific communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing the evidence and credibility of each source.",
+              "keywords": [
+                "source credibility",
+                "scientific literature",
+                "evidence assessment",
+                "authoritative sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical writing",
+                "data visualization",
+                "oral presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Body Systems and Homeostasis",
+      "standards": [
+        {
+          "code": "AP.2",
+          "description": "Investigate how body systems work together to maintain homeostasis through feedback mechanisms and system interactions.",
+          "skills": [
+            {
+              "description": "Develop and use models to explain how feedback mechanisms maintain homeostasis.",
+              "keywords": [
+                "feedback mechanisms",
+                "homeostasis",
+                "model development",
+                "system regulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations related to feedback mechanisms and homeostasis.",
+              "keywords": [
+                "investigation design",
+                "feedback loops",
+                "homeostasis experiments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to explain how various body systems help maintain homeostasis.",
+              "keywords": [
+                "body systems",
+                "homeostasis",
+                "model development",
+                "system interactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the structure and function of various body systems help maintain homeostasis.",
+              "keywords": [
+                "claim formulation",
+                "homeostasis",
+                "body system structure",
+                "system function"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain a disorder, disease, injury, lifestyle, or component of aging that affects homeostasis.",
+              "keywords": [
+                "homeostasis disruption",
+                "disorder",
+                "disease",
+                "aging",
+                "lifestyle factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Movement and Structural Support",
+      "standards": [
+        {
+          "code": "AP.3",
+          "description": "Investigate how body systems work together to enable movement and provide structural support.",
+          "skills": [
+            {
+              "description": "Identify the major components of the skeletal, nervous, and muscular systems.",
+              "keywords": [
+                "skeletal system",
+                "nervous system",
+                "muscular system",
+                "system components"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to illustrate the structure and function of body systems in movement and support.",
+              "keywords": [
+                "model development",
+                "body system structure",
+                "movement mechanics",
+                "structural support"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the structure of cells and tissues in body systems affect movement and support.",
+              "keywords": [
+                "cell structure",
+                "tissue function",
+                "movement mechanics",
+                "structural support"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how movement and support require body systems to work independently and together.",
+              "keywords": [
+                "system interaction",
+                "movement mechanics",
+                "structural support",
+                "system independence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations related to movement and support in body systems.",
+              "keywords": [
+                "investigation design",
+                "movement mechanics",
+                "structural support experiments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain a disorder, disease, injury, lifestyle, or component of aging that affects movement and support.",
+              "keywords": [
+                "movement disorder",
+                "structural support disruption",
+                "disease",
+                "aging",
+                "lifestyle factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transport and Exchange of Substances",
+      "standards": [
+        {
+          "code": "AP.4",
+          "description": "Investigate how body systems work together to enable the transport and exchange of substances throughout the body, with the environment, or between tissues.",
+          "skills": [
+            {
+              "description": "Identify the major components of the cardiovascular, respiratory, lymphatic, digestive, and excretory systems.",
+              "keywords": [
+                "cardiovascular system",
+                "respiratory system",
+                "lymphatic system",
+                "digestive system",
+                "excretory system",
+                "system components"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to illustrate how the structure and function of body systems support transport and exchange.",
+              "keywords": [
+                "model development",
+                "transport mechanisms",
+                "substance exchange",
+                "system structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the structure of cells and tissues in body systems affect transport and exchange.",
+              "keywords": [
+                "cell structure",
+                "tissue function",
+                "transport mechanisms",
+                "substance exchange"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how transport and exchange require body systems to work independently and together.",
+              "keywords": [
+                "system interaction",
+                "transport mechanisms",
+                "substance exchange",
+                "system independence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations related to transport and exchange in body systems.",
+              "keywords": [
+                "investigation design",
+                "transport experiments",
+                "substance exchange studies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain a disorder, disease, injury, lifestyle, or component of aging that affects transport and exchange.",
+              "keywords": [
+                "transport disorder",
+                "substance exchange disruption",
+                "disease",
+                "aging",
+                "lifestyle factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regulation and Communication",
+      "standards": [
+        {
+          "code": "AP.5",
+          "description": "Investigate how body systems work together to regulate functions and communicate by receiving, processing, and responding to internal and external stimuli.",
+          "skills": [
+            {
+              "description": "Identify the major components of the nervous and endocrine systems related to regulation and communication.",
+              "keywords": [
+                "nervous system",
+                "endocrine system",
+                "system components",
+                "regulation",
+                "communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to illustrate how the structure and function of body systems support regulation and communication.",
+              "keywords": [
+                "model development",
+                "system structure",
+                "regulation mechanisms",
+                "communication pathways"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the structure of cells and tissues in body systems affect regulation and communication.",
+              "keywords": [
+                "cell structure",
+                "tissue function",
+                "regulation mechanisms",
+                "communication pathways"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how regulation and communication require body systems to work independently and together.",
+              "keywords": [
+                "system interaction",
+                "regulation mechanisms",
+                "communication pathways",
+                "system independence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations related to regulation and communication in body systems.",
+              "keywords": [
+                "investigation design",
+                "regulation experiments",
+                "communication studies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain a disorder, disease, injury, lifestyle, or component of aging that affects regulation and communication.",
+              "keywords": [
+                "regulation disorder",
+                "communication disruption",
+                "disease",
+                "aging",
+                "lifestyle factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Protection and Defense",
+      "standards": [
+        {
+          "code": "AP.6",
+          "description": "Investigate how body systems work together to provide protection and defense from physical damage, pathogens, and other threats.",
+          "skills": [
+            {
+              "description": "Identify the major components of the integumentary, skeletal, lymphatic, and immune systems related to protection and defense.",
+              "keywords": [
+                "integumentary system",
+                "skeletal system",
+                "lymphatic system",
+                "immune system",
+                "system components",
+                "protection",
+                "defense"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to illustrate how the structure and function of body systems support protection and defense.",
+              "keywords": [
+                "model development",
+                "system structure",
+                "protection mechanisms",
+                "defense mechanisms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the structure of cells and tissues in body systems affect protection and defense.",
+              "keywords": [
+                "cell structure",
+                "tissue function",
+                "protection mechanisms",
+                "defense mechanisms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how protection and defense require body systems to work independently and together.",
+              "keywords": [
+                "system interaction",
+                "protection mechanisms",
+                "defense mechanisms",
+                "system independence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the use and/or misuse of therapies in treating or preventing infections.",
+              "keywords": [
+                "therapy evaluation",
+                "infection treatment",
+                "prevention strategies",
+                "antimicrobial resistance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain a disorder, disease, injury, lifestyle, or component of aging that affects the body’s ability to protect and defend itself.",
+              "keywords": [
+                "protection disorder",
+                "defense disruption",
+                "disease",
+                "aging",
+                "lifestyle factors",
+                "immunocompromise"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy Production and Metabolism",
+      "standards": [
+        {
+          "code": "AP.7",
+          "description": "Investigate how body systems work together to support energy production and metabolism by obtaining, transforming, and utilizing resources.",
+          "skills": [
+            {
+              "description": "Identify the major components of the digestive, respiratory, cardiovascular, and endocrine systems related to energy and metabolism.",
+              "keywords": [
+                "digestive system",
+                "respiratory system",
+                "cardiovascular system",
+                "endocrine system",
+                "system components",
+                "metabolism",
+                "energy production"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to illustrate how the structure and function of body systems support energy and metabolism.",
+              "keywords": [
+                "model development",
+                "system structure",
+                "energy pathways",
+                "metabolic processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the structure of cells and tissues in body systems affect energy and metabolism.",
+              "keywords": [
+                "cell structure",
+                "tissue function",
+                "energy pathways",
+                "metabolic processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how energy and metabolism require body systems to work independently and together.",
+              "keywords": [
+                "system interaction",
+                "energy pathways",
+                "metabolic processes",
+                "system independence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the importance of nutrition on human health.",
+              "keywords": [
+                "nutrition",
+                "human health",
+                "dietary requirements",
+                "metabolic regulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations related to energy and metabolism in body systems.",
+              "keywords": [
+                "investigation design",
+                "energy experiments",
+                "metabolic studies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain a disorder, disease, injury, lifestyle, or component of aging that affects energy and metabolism.",
+              "keywords": [
+                "energy disorder",
+                "metabolic disruption",
+                "disease",
+                "aging",
+                "lifestyle factors",
+                "nutritional deficiencies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reproduction and Development",
+      "standards": [
+        {
+          "code": "AP.8",
+          "description": "Investigate how body systems work together to create and develop new life.",
+          "skills": [
+            {
+              "description": "Identify the major components of the reproductive and endocrine systems related to reproduction and development.",
+              "keywords": [
+                "reproductive system",
+                "endocrine system",
+                "system components",
+                "reproduction",
+                "development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to illustrate how the structure and function of body systems support reproduction and development.",
+              "keywords": [
+                "model development",
+                "system structure",
+                "reproductive processes",
+                "developmental pathways"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the structure of cells and tissues in body systems affect reproduction and development.",
+              "keywords": [
+                "cell structure",
+                "tissue function",
+                "reproductive processes",
+                "developmental pathways"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how reproduction and development require body systems to work independently and together.",
+              "keywords": [
+                "system interaction",
+                "reproductive processes",
+                "developmental pathways",
+                "system independence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain a disorder, disease, injury, lifestyle, or component of aging that affects reproduction and development.",
+              "keywords": [
+                "reproductive disorder",
+                "developmental disruption",
+                "disease",
+                "aging",
+                "lifestyle factors",
+                "hormonal imbalances"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "key": "5_5_NS_2_skill3",
+  "grade": "5",
+  "code": "5.NS.2",
+  "domain": "Number and Number Sense",
+  "course": "Grade 5 Math",
+  "desc": "Demonstrate understanding of prime and composite numbers and determine prime factorization of whole numbers up to 100.",
+  "skill_desc": "Determine the prime factorization for a whole number up to 100.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/5_5_NS_2_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "24",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "2\\cdot2\\cdot2\\cdot3",
+        "color": "#FF3B30",
+        "label": "Prime Factorization",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 25,
+      "top": 25
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Prime Factorization of 24"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*3*5",
+      "SetColor(f, 0, 122, 255)",
+      "Root(f)",
+      "SetLabelVisible(f, true)",
+      "SetLabelMode(f, 1)"
+    ],
+    "view": [
+      -1,
+      16,
+      -1,
+      1
+    ],
+    "showGrid": true,
+    "title": "Prime Factorization of 30"
+  },
+  "sketchmath_state": null
+}

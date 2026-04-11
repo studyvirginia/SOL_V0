@@ -1,0 +1,199 @@
+{
+  "key": "2_2_CE_1_skill6",
+  "grade": "2",
+  "code": "2.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 2 Math",
+  "desc": "Recall addition and subtraction facts within 20 and solve single-step and multistep problems using addition and subtraction with whole numbers up to 100.",
+  "skill_desc": "Use patterns, models, and strategies to make generalizations about algebraic properties for fluency.",
+  "skill_idx": 5,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/2_2_CE_1_skill6.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "L=\\left[1,2,3,4,5,6,7,8,9,10\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "M=\\left[11,12,13,14,15,16,17,18,19,20\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "N=\\left[21,22,23,24,25,26,27,28,29,30\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "O=\\left[31,32,33,34,35,36,37,38,39,40\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "P=\\left[41,42,43,44,45,46,47,48,49,50\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "Q=\\left[51,52,53,54,55,56,57,58,59,60\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e7",
+        "latex": "R=\\left[61,62,63,64,65,66,67,68,69,70\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e8",
+        "latex": "S=\\left[71,72,73,74,75,76,77,78,79,80\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e9",
+        "latex": "T=\\left[81,82,83,84,85,86,87,88,89,90\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e10",
+        "latex": "U=\\left[91,92,93,94,95,96,97,98,99,100\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e11",
+        "latex": "\\operatorname{mean}(L)",
+        "color": "#FF3B30",
+        "label": "Mean of L",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e12",
+        "latex": "\\operatorname{mean}(M)",
+        "color": "#FF3B30",
+        "label": "Mean of M",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e13",
+        "latex": "\\operatorname{mean}(N)",
+        "color": "#FF3B30",
+        "label": "Mean of N",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e14",
+        "latex": "\\operatorname{mean}(O)",
+        "color": "#FF3B30",
+        "label": "Mean of O",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e15",
+        "latex": "\\operatorname{mean}(P)",
+        "color": "#FF3B30",
+        "label": "Mean of P",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e16",
+        "latex": "\\operatorname{mean}(Q)",
+        "color": "#FF3B30",
+        "label": "Mean of Q",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e17",
+        "latex": "\\operatorname{mean}(R)",
+        "color": "#FF3B30",
+        "label": "Mean of R",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e18",
+        "latex": "\\operatorname{mean}(S)",
+        "color": "#FF3B30",
+        "label": "Mean of S",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e19",
+        "latex": "\\operatorname{mean}(T)",
+        "color": "#FF3B30",
+        "label": "Mean of T",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e20",
+        "latex": "\\operatorname{mean}(U)",
+        "color": "#FF3B30",
+        "label": "Mean of U",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -5,
+      "right": 105,
+      "top": 105
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Addition and Subtraction Patterns"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

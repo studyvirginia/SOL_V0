@@ -1,0 +1,658 @@
+{
+  "subject": "Science",
+  "course": "Earth Science II Astronomy",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "AS.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, data analysis, modeling, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from careful observation of phenomena, examination of a model or theory, or unexpected results.",
+              "keywords": [
+                "phenomena observation",
+                "model examination",
+                "unexpected results",
+                "scientific questioning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of the school laboratory or field.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "field investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make hypotheses that specify what happens to a dependent variable when an independent variable is manipulated.",
+              "keywords": [
+                "hypothesis formulation",
+                "dependent variable",
+                "independent variable",
+                "variable manipulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "research-based hypotheses",
+                "scientific principles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect and record data.",
+              "keywords": [
+                "data collection tools",
+                "technology selection",
+                "data recording"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables.",
+              "keywords": [
+                "data tables",
+                "data construction",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data and consider limitations of data analysis.",
+              "keywords": [
+                "graphical displays",
+                "data analysis",
+                "data interpretation",
+                "data limitations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, to support an explanation for phenomena, or test a solution to problems.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "phenomena explanation",
+                "problem testing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes.",
+              "keywords": [
+                "mathematical application",
+                "mathematical processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "validity",
+                "reliability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence obtained from a variety of sources including models, theories, simulations, peer review, and students' own investigations.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "peer review",
+                "model-based evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data-based claims"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide an explanation of phenomena.",
+              "keywords": [
+                "scientific application",
+                "phenomena explanation",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments in light of currently accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument comparison",
+                "scientific evidence",
+                "explanation evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support a claim using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim formulation",
+                "empirical evidence",
+                "scientific reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate a claim by applying scientific reasoning, theory, and/or models to link evidence to assess the extent to which the reasoning and data support the explanation or conclusion.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theory application",
+                "model linking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model merits",
+                "model limitations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships, to support explanations, predict phenomena, analyze systems, and/or solve problems.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "evidence-based modeling",
+                "phenomena prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and interpret star charts, Sun path diagrams, day/night world maps, and other ways astronomers communicate information.",
+              "keywords": [
+                "star charts",
+                "Sun path diagrams",
+                "world maps",
+                "astronomical communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical and statistical concepts and processes in building and revising models, and supporting explanations of phenomena.",
+              "keywords": [
+                "mathematical modeling",
+                "statistical application",
+                "model revision",
+                "phenomena explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Derive mathematical models (equations) from experimental data.",
+              "keywords": [
+                "mathematical derivation",
+                "experimental data",
+                "model equations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question or solve a problem.",
+              "keywords": [
+                "source comparison",
+                "information integration",
+                "media evaluation",
+                "scientific problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing the evidence and credibility of each source.",
+              "keywords": [
+                "information gathering",
+                "source evaluation",
+                "evidence assessment",
+                "credibility assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical communication",
+                "multi-format presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History of Astronomy",
+      "standards": [
+        {
+          "code": "AS.2",
+          "description": "Investigate and understand how human curiosity and ingenuity across cultures and time have shaped our understanding of the universe.",
+          "skills": [
+            {
+              "description": "Compare the astronomical contributions made by ancient cultures.",
+              "keywords": [
+                "ancient cultures",
+                "astronomical contributions",
+                "historical comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how ancient people determined sizes of Earth, moon, and sun and distances between them, and compare these to current values.",
+              "keywords": [
+                "ancient measurements",
+                "Earth size",
+                "moon size",
+                "sun size",
+                "distance comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the heliocentric model of the solar system is a better predictor of planetary motion than the geocentric model.",
+              "keywords": [
+                "heliocentric model",
+                "geocentric model",
+                "planetary motion prediction",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how advances in astronomical observations and timekeeping led to more accurate measurements of latitude and longitude, improving navigation and global exploration.",
+              "keywords": [
+                "astronomical observations",
+                "timekeeping advances",
+                "latitude measurement",
+                "longitude measurement",
+                "navigation improvement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how Kepler's laws of planetary motion and Newton's law of universal gravitation advanced earlier models of the solar system and allowed for more accurate predictions of orbital motion.",
+              "keywords": [
+                "Kepler's laws",
+                "Newton's law",
+                "planetary motion",
+                "orbital prediction",
+                "model advancement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research how technological advances in observational tools contribute to the development of more accurate models of the cosmos and support modern applications such as navigation, communication, and Earth monitoring.",
+              "keywords": [
+                "technological advances",
+                "observational tools",
+                "cosmic models",
+                "navigation",
+                "communication",
+                "Earth monitoring"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stars, Galaxies, and the Universe",
+      "standards": [
+        {
+          "code": "AS.3",
+          "description": "Investigate and understand the evolution and structure of stars, galaxies, and the universe based on examining evidence.",
+          "skills": [
+            {
+              "description": "Compare the information gained from different types of telescopes (radio, optical, infrared, ultraviolet, x-ray, gamma ray, neutrino, and space-based).",
+              "keywords": [
+                "telescope types",
+                "radio telescopes",
+                "optical telescopes",
+                "infrared telescopes",
+                "ultraviolet telescopes",
+                "x-ray telescopes",
+                "gamma ray telescopes",
+                "neutrino telescopes",
+                "space-based telescopes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how attributes of the electromagnetic spectrum are used to determine characteristics of astronomical objects.",
+              "keywords": [
+                "electromagnetic spectrum",
+                "astronomical object characteristics",
+                "spectral analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how celestial observations resulted in the Nebular Theory of star formation.",
+              "keywords": [
+                "Nebular Theory",
+                "star formation",
+                "celestial observations",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the relationship between the energy and luminosity of a star by constructing a Hertzsprung-Russell diagram.",
+              "keywords": [
+                "Hertzsprung-Russell diagram",
+                "star energy",
+                "star luminosity",
+                "stellar classification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain the life stages of stars.",
+              "keywords": [
+                "stellar life stages",
+                "star model",
+                "stellar evolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how nucleosynthesis resulted in the chemical composition of the cosmos.",
+              "keywords": [
+                "nucleosynthesis",
+                "cosmic chemical composition",
+                "stellar nucleosynthesis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the characteristics of the Milky Way Galaxy, including size, shape, rotation, stellar distribution, and our place within it.",
+              "keywords": [
+                "Milky Way Galaxy",
+                "galactic characteristics",
+                "galactic size",
+                "galactic shape",
+                "stellar distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the evolution of galaxies based on their shape and content.",
+              "keywords": [
+                "galactic evolution",
+                "galactic shape",
+                "galactic content",
+                "galaxy comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare techniques that are used to determine astronomical distances.",
+              "keywords": [
+                "astronomical distance techniques",
+                "distance measurement",
+                "parallax",
+                "standard candles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the characteristics of the universe (formation, age, composition, expansion, and structure).",
+              "keywords": [
+                "universe characteristics",
+                "universe formation",
+                "universe age",
+                "universe composition",
+                "universe expansion",
+                "universe structure",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain the relationships among matter, energy, dark matter, and dark energy.",
+              "keywords": [
+                "matter-energy relationships",
+                "dark matter",
+                "dark energy",
+                "cosmic model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solar System Structure and Evolution",
+      "standards": [
+        {
+          "code": "AS.4",
+          "description": "Investigate and understand the structure, evolution, and formation of the solar system as a model for planetary system formation.",
+          "skills": [
+            {
+              "description": "Infer the age, composition, and evolution of the solar system based on the study of asteroids and meteorites.",
+              "keywords": [
+                "solar system age",
+                "solar system composition",
+                "solar system evolution",
+                "asteroid study",
+                "meteorite study"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about Earth's formation and early history.",
+              "keywords": [
+                "Earth formation",
+                "Earth early history",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare theories on the formation and evolution of planetary systems (solar nebular theory, condensation theory, core accretion theory, and gravitational instability theory).",
+              "keywords": [
+                "planetary system formation",
+                "solar nebular theory",
+                "condensation theory",
+                "core accretion theory",
+                "gravitational instability theory",
+                "theory comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe characteristics of major and minor objects in our solar system.",
+              "keywords": [
+                "solar system objects",
+                "major objects",
+                "minor objects",
+                "planetary characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain how interactions between layers of the sun affect Earth.",
+              "keywords": [
+                "solar layer interactions",
+                "sun-Earth model",
+                "solar influence on Earth"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how studies of the sun can be used as a model to understand characteristics of stars.",
+              "keywords": [
+                "sun studies",
+                "stellar characteristics",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the strengths and limitations of methods (transit method, radial velocity, gravitational lensing, direct imaging, and astrometry) used to discover exoplanets.",
+              "keywords": [
+                "exoplanet discovery methods",
+                "transit method",
+                "radial velocity",
+                "gravitational lensing",
+                "direct imaging",
+                "astrometry",
+                "method comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Celestial Motion and Patterns",
+      "standards": [
+        {
+          "code": "AS.5",
+          "description": "Investigate and understand the predictable and observable patterns produced by celestial objects in the Solar System.",
+          "skills": [
+            {
+              "description": "Explain the effects of the relative positions of Earth, moon, and sun.",
+              "keywords": [
+                "Earth-moon-sun positions",
+                "celestial effects",
+                "tidal forces",
+                "eclipses"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict the path of the moon, sun, stars, and constellations as they move across the sky daily and seasonally based on various locations, times, and dates.",
+              "keywords": [
+                "celestial path prediction",
+                "daily motion",
+                "seasonal motion",
+                "star paths",
+                "constellation paths"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the strengths and limitations of astronomical coordinate systems (horizontal system, ecliptic system, equatorial system, and galactic coordinate system).",
+              "keywords": [
+                "coordinate systems",
+                "horizontal system",
+                "ecliptic system",
+                "equatorial system",
+                "galactic coordinate system",
+                "system comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate and identify celestial objects using coordinate systems.",
+              "keywords": [
+                "celestial object location",
+                "coordinate systems",
+                "object identification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain sidereal, solar, and synodic time and predict the effects on daily changes in the rise time, set time, and transit of stars.",
+              "keywords": [
+                "sidereal time",
+                "solar time",
+                "synodic time",
+                "star rise time",
+                "star set time",
+                "star transit"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain retrograde motion of planets.",
+              "keywords": [
+                "retrograde motion",
+                "planetary motion",
+                "celestial model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

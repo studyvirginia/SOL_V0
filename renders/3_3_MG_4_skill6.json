@@ -1,0 +1,203 @@
+{
+  "key": "3_3_MG_4_skill6",
+  "grade": "3",
+  "code": "3.MG.4",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 3 Math",
+  "desc": "Identify, describe, classify, compare, combine, and subdivide polygons.",
+  "skill_desc": "Combine no more than three polygons (each with three or four sides) and name the resulting polygon.",
+  "skill_idx": 5,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/3_3_MG_4_skill6.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(4,3),(0,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "\\operatorname{polygon}((4,3),(7,3),(7,0))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(7,3)",
+        "color": "#FF3B30",
+        "label": "E",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(7,0)",
+        "color": "#FF3B30",
+        "label": "F",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "\\operatorname{polygon}((0,3),(4,3),(2,6))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p7",
+        "latex": "(2,6)",
+        "color": "#FF3B30",
+        "label": "G",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 8,
+      "top": 7
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Combining Polygons"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (4, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (2, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "tri1 = Polygon(A, B, C)",
+      "SetColor(tri1, 0, 122, 255)",
+      "D = (6, 0)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"D\")",
+      "SetLabelMode(D, 3)",
+      "E = (8, 3)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"E\")",
+      "SetLabelMode(E, 3)",
+      "tri2 = Polygon(B, D, E)",
+      "SetColor(tri2, 255, 0, 0)",
+      "F = (8, 3)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"F\")",
+      "SetLabelMode(F, 3)",
+      "G = (10, 6)",
+      "SetLabelVisible(G, true)",
+      "SetCaption(G, \"G\")",
+      "SetLabelMode(G, 3)",
+      "H = (6, 6)",
+      "SetLabelVisible(H, true)",
+      "SetCaption(H, \"H\")",
+      "SetLabelMode(H, 3)",
+      "tri3 = Polygon(D, E, G, H)",
+      "SetColor(tri3, 0, 255, 0)",
+      "polyCombined = Polygon(A, C, E, G, H, B)",
+      "SetColor(polyCombined, 142, 142, 147)"
+    ],
+    "view": [
+      -1,
+      11,
+      -1,
+      7
+    ],
+    "showGrid": true,
+    "title": "Combining Polygons"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (3, 1)",
+      "C = (2, 3)",
+      "Polygon(A, B, C)",
+      "D = (4, 1)",
+      "E = (5, 3)",
+      "Polygon(B, D, E)",
+      "F = (6, 1)",
+      "G = (7, 1)",
+      "H = (7, 2)",
+      "I = (6, 2)",
+      "Polygon(F, G, H, I)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 k\u1ebft h\u1ee3p c\u00e1c \u0111a gi\u00e1c, ch\u00fang ta s\u1ebd t\u1ea1o ba \u0111a gi\u00e1c (hai tam gi\u00e1c v\u00e0 m\u1ed9t t\u1ee9 gi\u00e1c)"
+  }
+}

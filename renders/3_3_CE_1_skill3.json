@@ -1,0 +1,18 @@
+{
+  "key": "3_3_CE_1_skill3",
+  "grade": "3",
+  "code": "3.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 3 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to addition and subtraction problems with whole numbers up to 1,000.",
+  "skill_desc": "Apply the standard algorithm to determine the sum or difference of two whole numbers up to 1,000.",
+  "skill_idx": 2,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/3_3_CE_1_skill3.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

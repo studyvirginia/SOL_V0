@@ -1,0 +1,982 @@
+{
+  "subject": "History",
+  "course": "Grade 10 - World History and Geography: 1500 A.D. to the Present",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "WHII.SKILLS",
+          "description": "Apply history and social science skills to analyze and synthesize information from various sources.",
+          "skills": [
+            {
+              "description": "Select and synthesize evidence from artifacts, primary and secondary sources, charts, graphs, and diagrams in world history events.",
+              "keywords": [
+                "evidence synthesis",
+                "primary sources",
+                "secondary sources",
+                "artifacts",
+                "charts",
+                "graphs",
+                "diagrams"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to determine and predict patterns and trends of people, places, and events.",
+              "keywords": [
+                "geographic analysis",
+                "spatial patterns",
+                "trend prediction",
+                "cartography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct arguments using evidence from multiple sources.",
+              "keywords": [
+                "argumentation",
+                "evidence-based reasoning",
+                "source analysis",
+                "historical argument"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and analyze evidence from multiple sources to construct arguments and draw conclusions.",
+              "keywords": [
+                "source investigation",
+                "evidence analysis",
+                "conclusion drawing",
+                "historical inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast historical, cultural, economic, and political perspectives.",
+              "keywords": [
+                "comparative analysis",
+                "historical perspectives",
+                "cultural comparison",
+                "economic systems",
+                "political systems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine cause and effect to analyze connections between historical events.",
+              "keywords": [
+                "causal analysis",
+                "cause and effect",
+                "historical connections",
+                "event relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use decision-making models (e.g., T-charts, Venn diagrams) to analyze incentives and consequences of choices.",
+              "keywords": [
+                "decision-making models",
+                "T-charts",
+                "Venn diagrams",
+                "incentive analysis",
+                "consequence evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Contextualize and corroborate sources for credibility, propaganda, and bias to understand modern world patterns.",
+              "keywords": [
+                "source credibility",
+                "propaganda analysis",
+                "bias detection",
+                "source corroboration",
+                "historical context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Emergence of a Global Age",
+      "standards": [
+        {
+          "code": "WHII.1",
+          "description": "Analyze political, cultural, geographic, and economic conditions in the world around 1500 A.D.",
+          "skills": [
+            {
+              "description": "Locate major states and empires in the world around 1500 A.D.",
+              "keywords": [
+                "geographic location",
+                "major empires",
+                "1500 A.D.",
+                "historical mapping"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the beliefs, sacred writings, traditions, customs, and growth of major religions including Buddhism, Christianity, Hinduism, Islam, Judaism, and Sikhism.",
+              "keywords": [
+                "religious beliefs",
+                "sacred texts",
+                "religious traditions",
+                "religious growth",
+                "comparative religion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze major trade patterns, regional and global interactions, and cultural, technological, and scientific exchanges.",
+              "keywords": [
+                "trade patterns",
+                "global interactions",
+                "cultural exchange",
+                "technological diffusion",
+                "scientific exchange"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WHII.2",
+          "description": "Analyze the Renaissance and Protestant Reformation and their impacts on western civilization.",
+          "skills": [
+            {
+              "description": "Explain the effects of theological, political, and economic differences during the Renaissance and Reformation.",
+              "keywords": [
+                "theological differences",
+                "political conflicts",
+                "economic changes",
+                "Renaissance",
+                "Protestant Reformation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the views and actions of Martin Luther, John Calvin, Henry VIII, and Elizabeth I.",
+              "keywords": [
+                "Martin Luther",
+                "John Calvin",
+                "Henry VIII",
+                "Elizabeth I",
+                "Reformation leaders"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the Renaissance and Reformation led to changing cultural values, traditions, and philosophies.",
+              "keywords": [
+                "cultural change",
+                "Renaissance values",
+                "Reformation philosophies",
+                "printing press"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the effect of religious conflicts on society and government actions including the Inquisition and Catholic Reformation.",
+              "keywords": [
+                "religious conflicts",
+                "Inquisition",
+                "Catholic Reformation",
+                "government actions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WHII.3",
+          "description": "Describe European exploration and its political, social, cultural, and economic impacts.",
+          "skills": [
+            {
+              "description": "Explain the political, social, cultural, and economic goals of European exploration and colonization.",
+              "keywords": [
+                "exploration goals",
+                "colonization motives",
+                "political goals",
+                "economic goals",
+                "cultural goals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the social, political, economic, and cultural effects of European colonization and Indigenous responses in Africa, Asia, and the Americas.",
+              "keywords": [
+                "colonization effects",
+                "Indigenous responses",
+                "social impact",
+                "political impact",
+                "economic impact",
+                "cultural impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze how competition for colonies among Britain, France, and Spain changed the economic system of Europe.",
+              "keywords": [
+                "colonial competition",
+                "economic systems",
+                "European colonial powers",
+                "mercantilism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Age of Revolutions",
+      "standards": [
+        {
+          "code": "WHII.4",
+          "description": "Analyze political, socio-cultural, geographic, religious, and economic conditions leading to political unrest and revolution from 1500 to 1800 A.D.",
+          "skills": [
+            {
+              "description": "Describe the series of wars in Europe including the French Wars of Religion, Thirty Years' War, German Peasants' War, Tudor rebellions, and Dutch Revolt.",
+              "keywords": [
+                "European wars",
+                "French Wars of Religion",
+                "Thirty Years' War",
+                "German Peasants' War",
+                "Tudor rebellions",
+                "Dutch Revolt"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define and describe how the Scientific Revolution and Enlightenment influenced the European view of the world.",
+              "keywords": [
+                "Scientific Revolution",
+                "Enlightenment",
+                "European worldview",
+                "Descartes",
+                "Hume",
+                "Kant",
+                "Locke",
+                "Montesquieu",
+                "Newton",
+                "Rousseau",
+                "Voltaire"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze Enlightenment themes and their influence on the political foundations of Virginia and the United States.",
+              "keywords": [
+                "Enlightenment themes",
+                "political foundations",
+                "Virginia",
+                "United States",
+                "democratic ideals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the Age of Absolutism with emphasis on the development of France and Louis XIV and the Hapsburg empire and Charles V.",
+              "keywords": [
+                "Age of Absolutism",
+                "Louis XIV",
+                "Hapsburg Empire",
+                "Charles V",
+                "absolute monarchy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the development of constitutional monarchy in Great Britain, including the English Civil War and Glorious Revolution.",
+              "keywords": [
+                "constitutional monarchy",
+                "English Civil War",
+                "Glorious Revolution",
+                "British political development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the influence of the American Revolution on the causes and effects of the French and Latin American revolutions.",
+              "keywords": [
+                "American Revolution",
+                "French Revolution",
+                "Latin American revolutions",
+                "revolutionary influence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Assess the effect of Napoleon and the Congress of Vienna on political power in Europe.",
+              "keywords": [
+                "Napoleon",
+                "Congress of Vienna",
+                "political power",
+                "European balance of power"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global Interactions",
+      "standards": [
+        {
+          "code": "WHII.5",
+          "description": "Understand Asia from 1500 to 1800 A.D. in terms of trade, empires, and cultural developments.",
+          "skills": [
+            {
+              "description": "Describe the location and development of previously established trade routes and the Ottoman Empire.",
+              "keywords": [
+                "trade routes",
+                "Ottoman Empire",
+                "geographic location",
+                "economic success"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the location and development of northern and southern empires in India including major trading posts and the growth of Sikhism.",
+              "keywords": [
+                "Indian empires",
+                "trading posts",
+                "Sikhism",
+                "Mughal Empire",
+                "cultural developments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the location, origins, and development of China including the Ming and Qing (Manchu) dynasties.",
+              "keywords": [
+                "Ming Dynasty",
+                "Qing Dynasty",
+                "Manchu rule",
+                "Chinese expansion",
+                "social patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the location, origins, and development of Japan including the Tokugawa shogunate's closed-country policy and the roles of the emperor and shogun.",
+              "keywords": [
+                "Tokugawa shogunate",
+                "closed-country policy",
+                "Japanese emperor",
+                "Japanese shogun",
+                "Japanese religion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WHII.6",
+          "description": "Understand sub-Saharan Africa from 1500 to 1800 A.D. in terms of empires, trade, and cultural developments.",
+          "skills": [
+            {
+              "description": "Describe the location and development of eastern and western Africa.",
+              "keywords": [
+                "eastern Africa",
+                "western Africa",
+                "geographic location",
+                "historical development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the influence of Askia Muhammad I in the region.",
+              "keywords": [
+                "Askia Muhammad I",
+                "Songhai Empire",
+                "West African leadership"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the role of religion in eastern and western Africa including Islam in Songhai, Coptic Christianity in Ethiopia, and Animism in Songhai and Asante empires.",
+              "keywords": [
+                "Islam in Songhai",
+                "Coptic Christianity",
+                "Animism",
+                "Songhai Empire",
+                "Asante Empire"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the role of the Ashanti and other powerful western African empires in the Transatlantic Slave Trade.",
+              "keywords": [
+                "Ashanti Empire",
+                "Transatlantic Slave Trade",
+                "West African empires",
+                "slave trade"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the Swahili trade network and its impacts on eastern Africa.",
+              "keywords": [
+                "Swahili trade network",
+                "eastern Africa",
+                "trade impacts",
+                "Indian Ocean trade"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the development of Central and Southern Africa including the political systems of Songhai, Asante, Kongo, and Zulu empires.",
+              "keywords": [
+                "Central Africa",
+                "Southern Africa",
+                "Songhai Empire",
+                "Asante Empire",
+                "Kongo Empire",
+                "Zulu Empire",
+                "political systems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the adoption of African Christianity in Kongo and compare it to the practice of Indigenous religions in the Zulu Empire.",
+              "keywords": [
+                "African Christianity",
+                "Kongo Empire",
+                "Indigenous religions",
+                "Zulu Empire",
+                "religious comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify trading partners, resources, and products exchanged with major central and southern African empires.",
+              "keywords": [
+                "trading partners",
+                "resources",
+                "products",
+                "Central Africa",
+                "Southern Africa"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WHII.7",
+          "description": "Analyze the global impact of changes in European nations between 1800 and 1900.",
+          "skills": [
+            {
+              "description": "Explain the roles of resources, capital, and entrepreneurship in developing an industrial economy.",
+              "keywords": [
+                "industrial economy",
+                "resources",
+                "capital",
+                "entrepreneurship",
+                "Industrial Revolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the effects of the First Industrial Revolution and the Second Industrial Revolution.",
+              "keywords": [
+                "First Industrial Revolution",
+                "Second Industrial Revolution",
+                "industrial effects",
+                "technological advancements"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate responses to imperialism including the Indian Rebellion of 1857 and the Boxer Rebellion.",
+              "keywords": [
+                "imperialism",
+                "Indian Rebellion of 1857",
+                "Boxer Rebellion",
+                "anti-imperialist responses"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the events related to the unification of Italy and the role of Italian nationalism.",
+              "keywords": [
+                "Italian unification",
+                "Italian nationalism",
+                "Risorgimento",
+                "nationalist movements"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the events related to the unification of Germany and the role of Otto von Bismarck.",
+              "keywords": [
+                "German unification",
+                "Otto von Bismarck",
+                "Prussian leadership",
+                "national unification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Era of Global Wars",
+      "standards": [
+        {
+          "code": "WHII.8",
+          "description": "Understand World War I including causes, major events, and consequences.",
+          "skills": [
+            {
+              "description": "Explain economic and political causes of World War I and identify major events and leaders.",
+              "keywords": [
+                "World War I causes",
+                "economic causes",
+                "political causes",
+                "Archduke Franz Ferdinand",
+                "Georges Clemenceau",
+                "John J. Pershing",
+                "Kaiser Friedrich Wilhelm II",
+                "Woodrow Wilson"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify changes to modern warfare exemplified in battles along the Eastern Front and Western Front.",
+              "keywords": [
+                "modern warfare",
+                "Eastern Front",
+                "Western Front",
+                "military tactics",
+                "World War I battles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major battles including Gallipoli, Marne, Meuse-Argonne, Somme, and Verdun.",
+              "keywords": [
+                "Gallipoli",
+                "Marne",
+                "Meuse-Argonne",
+                "Somme",
+                "Verdun",
+                "World War I battles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze and explain the terms of the Treaty of Versailles, the actions of the League of Nations, and the mandate system.",
+              "keywords": [
+                "Treaty of Versailles",
+                "League of Nations",
+                "mandate system",
+                "post-war agreements"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the causes and consequences of the Russian Revolution.",
+              "keywords": [
+                "Russian Revolution",
+                "causes",
+                "consequences",
+                "Bolshevik Revolution",
+                "communist rise"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the causes and effects of worldwide economic depression in the 1930s.",
+              "keywords": [
+                "Great Depression",
+                "economic depression",
+                "1930s economic crisis",
+                "global economic effects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the rise of totalitarianism.",
+              "keywords": [
+                "totalitarianism",
+                "authoritarian regimes",
+                "rise of dictatorships",
+                "20th century political systems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WHII.9",
+          "description": "Understand World War II including causes, major events, technology, and consequences.",
+          "skills": [
+            {
+              "description": "Explain economic and political causes of World War II and identify major events and leaders.",
+              "keywords": [
+                "World War II causes",
+                "economic causes",
+                "political causes",
+                "Winston Churchill",
+                "Dwight Eisenhower",
+                "Adolf Hitler",
+                "Michinomiya Hirohito",
+                "Joseph Stalin",
+                "Douglas MacArthur",
+                "Franklin D. Roosevelt",
+                "Harry Truman",
+                "Admiral Chester Nimitz"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major battles including Leningrad, Midway, Normandy, Okinawa, and Stalingrad.",
+              "keywords": [
+                "Leningrad",
+                "Midway",
+                "Normandy",
+                "Okinawa",
+                "Stalingrad",
+                "World War II battles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the role of technology in the war including naval power, radar, computers, antibiotics, and the atomic bomb.",
+              "keywords": [
+                "World War II technology",
+                "naval power",
+                "radar",
+                "computers",
+                "ENIAC",
+                "antibiotics",
+                "atomic bomb"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe key causes, events, victims, and impacts of the Holocaust including antisemitism, Nazi Party rise, Kristallnacht, ghettos, concentration camps, and liberation.",
+              "keywords": [
+                "Holocaust",
+                "antisemitism",
+                "Nazi Party",
+                "Kristallnacht",
+                "ghettos",
+                "concentration camps",
+                "death camps",
+                "Jewish resistance",
+                "liberation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the effects of the war including terms of peace, war crimes trials, division of Europe, plans to rebuild Germany and Japan, creation of international organizations, and the Universal Declaration of Human Rights.",
+              "keywords": [
+                "post-World War II",
+                "peace terms",
+                "war crimes trials",
+                "division of Europe",
+                "rebuilding Germany",
+                "rebuilding Japan",
+                "United Nations",
+                "Universal Declaration of Human Rights"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe heroic aspects including D-Day, French Resistance, Dunkirk Evacuation, covert action, and Operation Jedburgh.",
+              "keywords": [
+                "D-Day",
+                "French Resistance",
+                "Dunkirk Evacuation",
+                "covert action",
+                "Operation Jedburgh",
+                "heroic events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WHII.10",
+          "description": "Understand the significance of the Cold War during the second half of the 20th century.",
+          "skills": [
+            {
+              "description": "Explain the causes of the Cold War, the domino theory, the role of containment, and differences between U.S. and Soviet economic and political systems.",
+              "keywords": [
+                "Cold War causes",
+                "domino theory",
+                "containment policy",
+                "U.S. economic system",
+                "Soviet economic system",
+                "U.S. political system",
+                "Soviet political system"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe events, conflicts, and revolutionary movements including Berlin Blockade, Suez Canal Crisis, Hungarian Revolution, Bay of Pigs, Cuban Missile Crisis, and Prague Spring.",
+              "keywords": [
+                "Berlin Blockade",
+                "Suez Canal Crisis",
+                "Hungarian Revolution",
+                "Bay of Pigs",
+                "Cuban Missile Crisis",
+                "Prague Spring",
+                "Cold War events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe conflicts, events, and major leaders in Asia including Mao Zedong, Chiang Kai-shek, Deng Xiaoping, Ho Chi Minh, and Tiananmen Square.",
+              "keywords": [
+                "Mao Zedong",
+                "Chiang Kai-shek",
+                "Deng Xiaoping",
+                "Ho Chi Minh",
+                "Tiananmen Square",
+                "Asian conflicts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the collapse of communism in the Soviet Union and Eastern Europe and the end of the Cold War including actions of Mikhail Gorbachev, Pope John Paul II, Ronald Reagan, Margaret Thatcher, and Václav Havel.",
+              "keywords": [
+                "collapse of communism",
+                "Soviet Union",
+                "Eastern Europe",
+                "Mikhail Gorbachev",
+                "Pope John Paul II",
+                "Ronald Reagan",
+                "Margaret Thatcher",
+                "Václav Havel",
+                "end of Cold War"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the political and economic causes and global consequences of the breakup of the Soviet Union.",
+              "keywords": [
+                "Soviet Union breakup",
+                "political causes",
+                "economic causes",
+                "global consequences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze how nations around the world developed a culture of global interdependence.",
+              "keywords": [
+                "global interdependence",
+                "international cooperation",
+                "globalization",
+                "economic interdependence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independence Movements and Decolonization",
+      "standards": [
+        {
+          "code": "WHII.11",
+          "description": "Identify political, economic, and socioeconomic aspects of independence movements and decolonization.",
+          "skills": [
+            {
+              "description": "Describe the struggles for self-rule including Gandhi's leadership and the development of India's democracy.",
+              "keywords": [
+                "self-rule",
+                "Gandhi",
+                "Indian independence",
+                "Indian democracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe African independence movements in Ghana, Algeria, Kenya, and South Africa including Jomo Kenyatta's leadership of Kenya and Nelson Mandela's role in South Africa.",
+              "keywords": [
+                "African independence",
+                "Ghana",
+                "Algeria",
+                "Kenya",
+                "South Africa",
+                "Jomo Kenyatta",
+                "Nelson Mandela"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the end of the League of Nations' mandate system and the creation of states in the Middle East including the roles of Golda Meir and Gamal Abdel Nasser.",
+              "keywords": [
+                "League of Nations mandate system",
+                "Middle East states",
+                "Golda Meir",
+                "Gamal Abdel Nasser",
+                "state creation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the effects of decolonization and other methods of gaining independence.",
+              "keywords": [
+                "decolonization",
+                "independence methods",
+                "post-colonial effects",
+                "sovereignty"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global Changes",
+      "standards": [
+        {
+          "code": "WHII.12",
+          "description": "Explain global changes during the late 20th and early 21st centuries.",
+          "skills": [
+            {
+              "description": "Identify modern era genocides and crimes against humanity including Mao's Cultural Revolution, Stalin regime, Armenia, Cambodia, Fidel Castro's Cuba, Darfur, Rwanda, and China's minority Uyghur population.",
+              "keywords": [
+                "modern genocides",
+                "Mao's Cultural Revolution",
+                "Stalin regime",
+                "Armenian Genocide",
+                "Cambodian Genocide",
+                "Cuban repression",
+                "Darfur genocide",
+                "Rwandan Genocide",
+                "Uyghur persecution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify contemporary economic and political issues and ethnic and religious conflicts resulting in the migrations of refugees.",
+              "keywords": [
+                "contemporary issues",
+                "economic issues",
+                "political issues",
+                "ethnic conflicts",
+                "religious conflicts",
+                "refugee migrations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the development, role, and effects of technology including social media and chemical and biological technologies.",
+              "keywords": [
+                "technology development",
+                "social media",
+                "chemical technologies",
+                "biological technologies",
+                "technological impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the increasing impact, events, and conditions that have given rise to international terrorism including U.S. Embassy bombing in Beirut, Lockerbie Bombing, U.S. Embassy bombings in Nairobi, and 2011 Breivik shootings.",
+              "keywords": [
+                "international terrorism",
+                "U.S. Embassy bombing Beirut",
+                "Lockerbie Bombing",
+                "U.S. Embassy bombings Nairobi",
+                "2011 Breivik shootings",
+                "terrorist events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe economic interdependence including the rise of multinational corporations, international organizations, and trade agreements.",
+              "keywords": [
+                "economic interdependence",
+                "multinational corporations",
+                "international organizations",
+                "trade agreements",
+                "global economy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

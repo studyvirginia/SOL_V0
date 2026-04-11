@@ -1,0 +1,570 @@
+{
+  "subject": "Science",
+  "course": "Kindergarten Science",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "K.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through questioning, investigation, data analysis, modeling, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions based on observations of the natural world.",
+              "keywords": [
+                "observations",
+                "questions",
+                "inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a problem based on a need or observation.",
+              "keywords": [
+                "problem identification",
+                "needs assessment",
+                "engineering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make predictions based on observations.",
+              "keywords": [
+                "predictions",
+                "hypotheses",
+                "observations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make observations to collect data about objects or events.",
+              "keywords": [
+                "observations",
+                "data collection",
+                "sensory input"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify characteristics and properties of objects through observations.",
+              "keywords": [
+                "properties",
+                "characteristics",
+                "observation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Measure the relative length and weight of common objects using non-standard units.",
+              "keywords": [
+                "measurement",
+                "length",
+                "weight",
+                "non-standard units"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Record information from investigations using drawings, charts, or simple notes.",
+              "keywords": [
+                "data recording",
+                "charts",
+                "drawings",
+                "documentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe patterns observed in data or objects.",
+              "keywords": [
+                "patterns",
+                "data analysis",
+                "sequencing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify or sequence objects based on a single physical characteristic or property.",
+              "keywords": [
+                "classification",
+                "sorting",
+                "properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent data using object graphs, picture graphs, or tables.",
+              "keywords": [
+                "data representation",
+                "graphs",
+                "tables",
+                "organization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and interpret data presented in object graphs, picture graphs, or tables.",
+              "keywords": [
+                "data interpretation",
+                "graphs",
+                "tables",
+                "comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make simple conclusions based on data or observations.",
+              "keywords": [
+                "conclusions",
+                "data analysis",
+                "inference"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between a model and an actual object.",
+              "keywords": [
+                "models",
+                "representation",
+                "scaling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate comparative measures using terms like heavier, lighter, longer, shorter, more, less, hotter, or colder.",
+              "keywords": [
+                "comparative language",
+                "measurement terms",
+                "communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate observations using pictures, drawings, or speech.",
+              "keywords": [
+                "communication",
+                "visual representation",
+                "verbal expression"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Force, Motion, and Energy",
+      "standards": [
+        {
+          "code": "K.2",
+          "description": "Investigate and understand that pushes and pulls affect the motion of objects.",
+          "skills": [
+            {
+              "description": "Investigate that pushes and pulls can cause an object to move.",
+              "keywords": [
+                "push",
+                "pull",
+                "motion",
+                "force"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate that pushes and pulls can change the direction of an object's motion.",
+              "keywords": [
+                "direction change",
+                "force",
+                "motion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate that changes in motion are related to the strength of the push or pull.",
+              "keywords": [
+                "force strength",
+                "motion change",
+                "energy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matter",
+      "standards": [
+        {
+          "code": "K.3",
+          "description": "Investigate and understand that physical properties of an object can be described.",
+          "skills": [
+            {
+              "description": "Identify and describe the color of objects.",
+              "keywords": [
+                "color",
+                "properties",
+                "observation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe the shapes and forms of objects.",
+              "keywords": [
+                "shape",
+                "form",
+                "geometry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe the textures and feel of objects.",
+              "keywords": [
+                "texture",
+                "touch",
+                "properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the relative sizes and weights of objects.",
+              "keywords": [
+                "size",
+                "weight",
+                "comparison",
+                "measurement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.4",
+          "description": "Investigate and understand that water is important in daily life and has specific properties.",
+          "skills": [
+            {
+              "description": "Identify multiple uses of water in daily life.",
+              "keywords": [
+                "water uses",
+                "daily life",
+                "utility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate places where water can be found (e.g., rivers, oceans, rain).",
+              "keywords": [
+                "water sources",
+                "locations",
+                "environment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the different phases of water (solid, liquid, gas).",
+              "keywords": [
+                "water phases",
+                "solid",
+                "liquid",
+                "gas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Observe and describe that water flows downhill.",
+              "keywords": [
+                "water flow",
+                "gravity",
+                "direction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Living Systems and Processes",
+      "standards": [
+        {
+          "code": "K.5",
+          "description": "Investigate and understand that senses allow humans to seek, find, take in, and react to information.",
+          "skills": [
+            {
+              "description": "Match the five basic senses to their corresponding human body structures (e.g., eyes for sight).",
+              "keywords": [
+                "senses",
+                "body structures",
+                "sensory organs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how senses are used in daily life to gather information.",
+              "keywords": [
+                "sensory input",
+                "daily activities",
+                "observation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.6",
+          "description": "Investigate and understand that there are differences between living organisms and nonliving objects.",
+          "skills": [
+            {
+              "description": "Classify objects or items as living or nonliving based on characteristics.",
+              "keywords": [
+                "classification",
+                "living",
+                "nonliving",
+                "characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify characteristics that distinguish living organisms from nonliving objects.",
+              "keywords": [
+                "living organisms",
+                "characteristics",
+                "growth",
+                "reproduction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.7",
+          "description": "Investigate and understand that plants and animals have basic needs and life processes.",
+          "skills": [
+            {
+              "description": "Identify the basic needs of living things (food, water, shelter, air, space).",
+              "keywords": [
+                "basic needs",
+                "survival",
+                "food",
+                "water",
+                "shelter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the life cycles of plants and animals.",
+              "keywords": [
+                "life cycle",
+                "growth",
+                "development",
+                "stages"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare offspring of plants and animals to their parents or siblings.",
+              "keywords": [
+                "offspring",
+                "similarities",
+                "differences",
+                "inheritance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth and Space Systems",
+      "standards": [
+        {
+          "code": "K.8",
+          "description": "Investigate and understand that light influences temperature on Earth's surfaces and can cause shadows.",
+          "skills": [
+            {
+              "description": "Explain that the sun provides light and warms Earth's surface.",
+              "keywords": [
+                "sun",
+                "light",
+                "temperature",
+                "energy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate that shadows are produced when light is blocked by an object.",
+              "keywords": [
+                "shadows",
+                "light blockage",
+                "objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare temperatures of objects in shadows and objects in sunlight.",
+              "keywords": [
+                "temperature comparison",
+                "shadows",
+                "sunlight"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.9",
+          "description": "Investigate and understand that there are patterns in nature, including weather, seasons, and day/night.",
+          "skills": [
+            {
+              "description": "Identify patterns in daily weather (e.g., sunny, rainy, cloudy).",
+              "keywords": [
+                "weather patterns",
+                "daily changes",
+                "observation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe seasonal changes (e.g., temperature, plant growth).",
+              "keywords": [
+                "seasons",
+                "seasonal changes",
+                "environment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the pattern of day and night.",
+              "keywords": [
+                "day and night",
+                "Earth's rotation",
+                "cycle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.10",
+          "description": "Investigate and understand that change occurs over time in natural and human-made systems.",
+          "skills": [
+            {
+              "description": "Observe and describe changes in natural and human-made objects over time.",
+              "keywords": [
+                "change over time",
+                "observation",
+                "natural systems",
+                "human-made systems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Measure and compare changes that occur over time (e.g., growth of a plant).",
+              "keywords": [
+                "measurement",
+                "time",
+                "growth",
+                "comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify changes as fast or slow.",
+              "keywords": [
+                "rate of change",
+                "fast",
+                "slow",
+                "classification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth Resources",
+      "standards": [
+        {
+          "code": "K.11",
+          "description": "Investigate and understand that humans use resources and that choices impact the environment.",
+          "skills": [
+            {
+              "description": "Identify materials and objects that can be used over and over again (e.g., reusable containers).",
+              "keywords": [
+                "reusable materials",
+                "sustainability",
+                "resources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the process of recycling materials.",
+              "keywords": [
+                "recycling",
+                "material reuse",
+                "environmental impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how human choices impact air, water, land, and living things.",
+              "keywords": [
+                "human impact",
+                "environment",
+                "conservation",
+                "choices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

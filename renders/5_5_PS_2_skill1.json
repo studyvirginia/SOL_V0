@@ -1,0 +1,155 @@
+{
+  "key": "5_5_PS_2_skill1",
+  "grade": "5",
+  "code": "5.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 5 Math",
+  "desc": "Solve contextual problems using measures of center and the range.",
+  "skill_desc": "Describe mean as fair share.",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/5_5_PS_2_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "L=\\left[2, 3, 3, 4, 5, 5, 5, 6, 7, 8\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "\\operatorname{mean}(L)",
+        "color": "#FF3B30",
+        "label": "Mean = 4.8",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(1,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(2,3)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(3,3)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(4,4)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(5,5)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(6,5)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p7",
+        "latex": "(7,5)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p8",
+        "latex": "(8,6)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p9",
+        "latex": "(9,7)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p10",
+        "latex": "(10,8)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 11,
+      "top": 9
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Mean as Fair Share"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

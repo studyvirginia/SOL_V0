@@ -1,0 +1,129 @@
+{
+  "key": "7_7_MG_2_skill7",
+  "grade": "7",
+  "code": "7.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 7 Math",
+  "desc": "Solve problems and justify relationships of similarity using proportional reasoning.",
+  "skill_desc": "Given angle measures in a quadrilateral or triangle, determine unknown angle measures in a similar quadrilateral or triangle.",
+  "skill_idx": 6,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_MG_2_skill7.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "A=60",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "B=90",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "C=30",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "D=180-A-B-C",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "D",
+        "color": "#FF3B30",
+        "label": "Unknown Angle",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -10,
+      "bottom": -10,
+      "right": 10,
+      "top": 10
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": true,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": ""
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "B = (5, 0)",
+      "C = (2, 4)",
+      "D = (7, 4)",
+      "quad = Polygon(A, B, C, D)",
+      "SetColor(quad, 0, 122, 255)",
+      "SetFilling(quad, true)",
+      "angA = Angle(D, A, B)",
+      "SetColor(angA, 255, 0, 0)",
+      "angB = Angle(A, B, C)",
+      "SetColor(angB, 0, 255, 0)",
+      "angC = Angle(B, C, D)",
+      "SetColor(angC, 0, 0, 255)",
+      "angD = Angle(C, D, A)",
+      "SetColor(angD, 255, 255, 0)",
+      "SetLabelMode(angA, 1)",
+      "SetLabelMode(angB, 1)",
+      "SetLabelMode(angC, 1)",
+      "SetLabelMode(angD, 1)",
+      "A1 = (8, 0)",
+      "B1 = (13, 0)",
+      "C1 = (10, 4)",
+      "D1 = (15, 4)",
+      "quad1 = Polygon(A1, B1, C1, D1)",
+      "SetColor(quad1, 0, 122, 255)",
+      "SetFilling(quad1, true)",
+      "angA1 = Angle(D1, A1, B1)",
+      "SetColor(angA1, 255, 0, 0)",
+      "angB1 = Angle(A1, B1, C1)",
+      "SetColor(angB1, 0, 255, 0)",
+      "angC1 = Angle(B1, C1, D1)",
+      "SetColor(angC1, 0, 0, 255)",
+      "angD1 = Angle(C1, D1, A1)",
+      "SetColor(angD1, 255, 255, 0)",
+      "SetLabelMode(angA1, 1)",
+      "SetLabelMode(angB1, 1)",
+      "SetLabelMode(angC1, 1)",
+      "SetLabelMode(angD1, 1)"
+    ],
+    "view": [
+      -1,
+      16,
+      -1,
+      5
+    ],
+    "showGrid": true,
+    "title": "Similar Quadrilaterals - Angle Measures"
+  },
+  "sketchmath_state": null
+}

@@ -1,0 +1,120 @@
+{
+  "key": "6_6_NS_1_skill4",
+  "grade": "6",
+  "code": "6.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 6 Math",
+  "desc": "Express equivalency, compare, and order numbers written as fractions, mixed numbers, decimals, and percents using multiple strategies.",
+  "skill_desc": "Represent and determine equivalencies among decimals, percents, fractions (proper or improper), and mixed numbers with denominators \u226412 or factors of 100 using number lines, concrete models, and pictorial models.",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_NS_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "0.25",
+        "color": "#007AFF",
+        "label": "Decimal",
+        "showLabel": true,
+        "labelOrientation": "ABOVE",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "\\frac{1}{4}",
+        "color": "#FF3B30",
+        "label": "Fraction",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "25\\%",
+        "color": "#34C759",
+        "label": "Percent",
+        "showLabel": true,
+        "labelOrientation": "RIGHT",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "0.5",
+        "color": "#007AFF",
+        "label": "Decimal",
+        "showLabel": true,
+        "labelOrientation": "ABOVE",
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "\\frac{1}{2}",
+        "color": "#FF3B30",
+        "label": "Fraction",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "50\\%",
+        "color": "#34C759",
+        "label": "Percent",
+        "showLabel": true,
+        "labelOrientation": "RIGHT",
+        "hidden": false
+      },
+      {
+        "id": "e7",
+        "latex": "0.75",
+        "color": "#007AFF",
+        "label": "Decimal",
+        "showLabel": true,
+        "labelOrientation": "ABOVE",
+        "hidden": false
+      },
+      {
+        "id": "e8",
+        "latex": "\\frac{3}{4}",
+        "color": "#FF3B30",
+        "label": "Fraction",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e9",
+        "latex": "75\\%",
+        "color": "#34C759",
+        "label": "Percent",
+        "showLabel": true,
+        "labelOrientation": "RIGHT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -0.1,
+      "bottom": -0.1,
+      "right": 1.1,
+      "top": 1.1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Decimal, Fraction, and Percent Equivalencies"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

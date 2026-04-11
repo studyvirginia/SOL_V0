@@ -1,0 +1,11 @@
+-rendering closed vs open circle
+-incositnet latex rendering (eg pi) in annotations
+-usage of pi multiples for trig graphs 
+-greatest step integer y=floor(x) not working unless inputted manually (same equation tho) - same errors with r=1+cos(-theta) why does it have trouble with this (its literally the same equation - not latex or anything just werid with entering idk if theres a safer way)
+further uses
+-abilitiy to use polar axis??
+unreealted to desmos
+-our wrapper for desmos didnt do latex when it put the equation in title of wrapper (lowk uncessary even then)
+exploration
+-need for geometry and other uses rq tho
+-need geometry tool

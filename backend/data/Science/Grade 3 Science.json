@@ -1,0 +1,553 @@
+{
+  "subject": "Science",
+  "course": "Grade 3 Science",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "3.1.AQ",
+          "description": "Ask questions and define problems that can be investigated scientifically or solved through engineering design.",
+          "skills": [
+            {
+              "description": "Ask questions that can be investigated and predict reasonable outcomes.",
+              "keywords": [
+                "investigative questions",
+                "prediction",
+                "reasonable outcomes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Ask questions about what would happen if a variable is changed.",
+              "keywords": [
+                "variable",
+                "cause and effect",
+                "hypothesis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define a simple design problem that can be solved through the development of an object, tool, process, or system.",
+              "keywords": [
+                "engineering design",
+                "problem definition",
+                "solution development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.1.PI",
+          "description": "Plan and carry out investigations to gather data and test hypotheses.",
+          "skills": [
+            {
+              "description": "With guidance, plan and conduct investigations.",
+              "keywords": [
+                "investigation planning",
+                "data collection",
+                "guided inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use appropriate methods and/or tools for collecting data.",
+              "keywords": [
+                "data collection methods",
+                "measurement tools",
+                "investigation tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate length, mass, volume, and temperature.",
+              "keywords": [
+                "estimation",
+                "length",
+                "mass",
+                "volume",
+                "temperature"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Measure length, mass, volume, and temperature in metric and U.S. Customary units using proper tools.",
+              "keywords": [
+                "measurement",
+                "metric units",
+                "U.S. Customary units",
+                "proper tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Measure elapsed time.",
+              "keywords": [
+                "elapsed time",
+                "time measurement",
+                "stopwatch"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use tools and/or materials to design and/or build a device that solves a specific problem.",
+              "keywords": [
+                "device design",
+                "problem-solving",
+                "engineering design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.1.ID",
+          "description": "Interpret, analyze, and evaluate data to draw conclusions.",
+          "skills": [
+            {
+              "description": "Organize and represent data in pictographs or bar graphs.",
+              "keywords": [
+                "data organization",
+                "pictographs",
+                "bar graphs",
+                "data representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read, interpret, and analyze data represented in pictographs and bar graphs.",
+              "keywords": [
+                "data interpretation",
+                "pictographs",
+                "bar graphs",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data from tests of an object or tool to determine if it works as intended.",
+              "keywords": [
+                "data analysis",
+                "test results",
+                "object performance",
+                "tool evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.1.CE",
+          "description": "Construct and critique conclusions and explanations using evidence.",
+          "skills": [
+            {
+              "description": "Use evidence (measurements, observations, patterns) to construct or support an explanation.",
+              "keywords": [
+                "evidence-based reasoning",
+                "measurements",
+                "observations",
+                "patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate and/or compare multiple solutions to a problem.",
+              "keywords": [
+                "solution generation",
+                "problem-solving",
+                "solution comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how scientific ideas apply to design solutions.",
+              "keywords": [
+                "scientific principles",
+                "design solutions",
+                "application of science"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.1.MO",
+          "description": "Develop and use models to represent phenomena and design solutions.",
+          "skills": [
+            {
+              "description": "Use models to demonstrate simple phenomena and natural processes.",
+              "keywords": [
+                "models",
+                "phenomena demonstration",
+                "natural processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop a model (e.g., diagram or simple physical prototype) to illustrate a proposed object, tool, or process.",
+              "keywords": [
+                "model development",
+                "diagram",
+                "physical prototype",
+                "illustration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.1.CI",
+          "description": "Obtain, evaluate, and communicate scientific information and design ideas.",
+          "skills": [
+            {
+              "description": "Read and comprehend reading-level appropriate texts and/or other reliable media.",
+              "keywords": [
+                "text comprehension",
+                "reliable media",
+                "scientific reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific information, design ideas, and/or solutions with others.",
+              "keywords": [
+                "scientific communication",
+                "design ideas",
+                "solution presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Force, Motion, and Energy",
+      "standards": [
+        {
+          "code": "3.2",
+          "description": "Investigate and understand how force and motion are related and how simple machines work.",
+          "skills": [
+            {
+              "description": "Investigate how the direction and size of force affects the motion of an object.",
+              "keywords": [
+                "force",
+                "motion",
+                "direction",
+                "force size",
+                "object movement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that multiple forces may act on an object.",
+              "keywords": [
+                "multiple forces",
+                "balanced forces",
+                "unbalanced forces",
+                "net force"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that the net force on an object determines how an object moves.",
+              "keywords": [
+                "net force",
+                "object motion",
+                "force calculation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that simple machines increase or change the direction of a force.",
+              "keywords": [
+                "simple machines",
+                "force direction",
+                "mechanical advantage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that simple and compound machines have many applications.",
+              "keywords": [
+                "compound machines",
+                "machine applications",
+                "real-world examples"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matter",
+      "standards": [
+        {
+          "code": "3.3",
+          "description": "Investigate and understand how materials interact with water.",
+          "skills": [
+            {
+              "description": "Investigate how solids and liquids mix with water in different ways.",
+              "keywords": [
+                "solids",
+                "liquids",
+                "water interaction",
+                "mixing",
+                "dissolving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that many solids dissolve more easily in hot water than in cold water.",
+              "keywords": [
+                "dissolving",
+                "hot water",
+                "cold water",
+                "solubility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Living Systems and Processes",
+      "standards": [
+        {
+          "code": "3.4",
+          "description": "Investigate and understand how adaptations allow organisms to satisfy life needs and respond to the environment.",
+          "skills": [
+            {
+              "description": "Investigate how adaptations allow organisms to satisfy life needs and respond to the environment.",
+              "keywords": [
+                "adaptations",
+                "life needs",
+                "environmental response",
+                "organism survival"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that populations may adapt over time.",
+              "keywords": [
+                "population adaptation",
+                "evolution",
+                "natural selection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that adaptations may be behavioral or physical.",
+              "keywords": [
+                "behavioral adaptation",
+                "physical adaptation",
+                "camouflage",
+                "migration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that fossils provide evidence about the types of organisms that lived long ago as well as the nature of their environments.",
+              "keywords": [
+                "fossils",
+                "paleontology",
+                "historical evidence",
+                "environmental reconstruction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.5",
+          "description": "Investigate and understand how aquatic and terrestrial ecosystems support a diversity of organisms.",
+          "skills": [
+            {
+              "description": "Investigate how ecosystems are made of living and nonliving components of the environment.",
+              "keywords": [
+                "ecosystems",
+                "living components",
+                "nonliving components",
+                "biotic",
+                "abiotic"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that relationships exist among organisms in an ecosystem.",
+              "keywords": [
+                "ecological relationships",
+                "food chains",
+                "symbiosis",
+                "predator-prey"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth and Space Systems",
+      "standards": [
+        {
+          "code": "3.6",
+          "description": "Investigate and understand the importance of soil in ecosystems.",
+          "skills": [
+            {
+              "description": "Recognize that soil, with its different components, is important to organisms.",
+              "keywords": [
+                "soil components",
+                "soil importance",
+                "organism support",
+                "soil nutrients"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that soil provides support and nutrients necessary for plant growth.",
+              "keywords": [
+                "soil support",
+                "plant nutrients",
+                "plant growth",
+                "soil composition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.7",
+          "description": "Investigate and understand the water cycle and its importance to life on Earth.",
+          "skills": [
+            {
+              "description": "Recognize that there are many reservoirs of water on Earth.",
+              "keywords": [
+                "water reservoirs",
+                "Earth's water",
+                "hydrosphere",
+                "water sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that the energy from the sun drives the water cycle.",
+              "keywords": [
+                "solar energy",
+                "water cycle",
+                "evaporation",
+                "condensation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that the water cycle involves specific processes.",
+              "keywords": [
+                "water cycle processes",
+                "precipitation",
+                "runoff",
+                "transpiration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth Resources",
+      "standards": [
+        {
+          "code": "3.8",
+          "description": "Investigate and understand how natural events and humans influence ecosystems.",
+          "skills": [
+            {
+              "description": "Recognize that human activity affects the quality of air, water, and habitats.",
+              "keywords": [
+                "human impact",
+                "air quality",
+                "water quality",
+                "habitat degradation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that water is limited and needs to be conserved.",
+              "keywords": [
+                "water conservation",
+                "water scarcity",
+                "sustainable use"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that fire, flood, disease, and erosion affect ecosystems.",
+              "keywords": [
+                "natural events",
+                "ecosystem disruption",
+                "fire",
+                "flood",
+                "disease",
+                "erosion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that soil is a natural resource and should be conserved.",
+              "keywords": [
+                "soil conservation",
+                "natural resource",
+                "sustainable agriculture"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

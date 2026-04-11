@@ -1,0 +1,903 @@
+{
+  "subject": "Math",
+  "course": "Algebra 2",
+  "domains": [
+    {
+      "name": "Expressions and Operations",
+      "standards": [
+        {
+          "code": "A2.EO.1",
+          "description": "Perform operations on and simplify rational expressions.",
+          "skills": [
+            {
+              "description": "Add, subtract, multiply, or divide rational algebraic expressions and simplify the result.",
+              "keywords": [
+                "rational expressions",
+                "simplification",
+                "algebraic operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify and determine equivalent rational algebraic expressions with monomial and binomial factors.",
+              "keywords": [
+                "equivalent expressions",
+                "monomial factors",
+                "binomial factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize and simplify complex algebraic fractions as products or quotients of simple algebraic fractions.",
+              "keywords": [
+                "complex fractions",
+                "simplification",
+                "algebraic fractions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and demonstrate equivalence of rational expressions in different forms.",
+              "keywords": [
+                "equivalence",
+                "rational expressions",
+                "different forms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.EO.2",
+          "description": "Perform operations on and simplify radical expressions.",
+          "skills": [
+            {
+              "description": "Simplify and determine equivalent radical expressions with numeric and algebraic radicands.",
+              "keywords": [
+                "radical expressions",
+                "simplification",
+                "radicands"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Add, subtract, multiply, and divide radical expressions with numeric and algebraic radicands, simplifying the result.",
+              "keywords": [
+                "radical operations",
+                "simplification",
+                "radicands"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Convert between radical expressions and expressions containing rational exponents.",
+              "keywords": [
+                "radical expressions",
+                "rational exponents",
+                "conversion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.EO.3",
+          "description": "Perform operations on polynomial expressions and factor polynomials in one and two variables.",
+          "skills": [
+            {
+              "description": "Determine sums, differences, and products of polynomials in one and two variables.",
+              "keywords": [
+                "polynomial operations",
+                "sums",
+                "differences",
+                "products"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Factor polynomials completely in one and two variables with no more than four terms over the set of integers.",
+              "keywords": [
+                "factoring",
+                "polynomials",
+                "integers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the quotient of polynomials using monomial, binomial, and factorable trinomial divisors.",
+              "keywords": [
+                "polynomial division",
+                "quotient",
+                "divisors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and demonstrate equality of polynomial expressions in different forms and verify polynomial identities.",
+              "keywords": [
+                "polynomial identities",
+                "equality",
+                "different forms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.EO.4",
+          "description": "Perform operations on complex numbers.",
+          "skills": [
+            {
+              "description": "Explain the meaning of i.",
+              "keywords": [
+                "imaginary unit",
+                "i",
+                "complex numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify equivalent radical expressions containing negative rational numbers and expressions in a + bi form.",
+              "keywords": [
+                "complex numbers",
+                "a + bi form",
+                "radical expressions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply properties to add, subtract, and multiply complex numbers.",
+              "keywords": [
+                "complex number operations",
+                "addition",
+                "subtraction",
+                "multiplication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Equations and Inequalities",
+      "standards": [
+        {
+          "code": "A2.EI.1",
+          "description": "Represent, solve, and interpret absolute value equations and inequalities in one variable.",
+          "skills": [
+            {
+              "description": "Create an absolute value equation in one variable to model a contextual situation.",
+              "keywords": [
+                "absolute value equation",
+                "contextual modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve an absolute value equation in one variable algebraically and verify the solution graphically.",
+              "keywords": [
+                "absolute value equation",
+                "algebraic solution",
+                "graphical verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create an absolute value inequality in one variable to model a contextual situation.",
+              "keywords": [
+                "absolute value inequality",
+                "contextual modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve an absolute value inequality in one variable and represent the solution set using set notation, interval notation, and a number line.",
+              "keywords": [
+                "absolute value inequality",
+                "solution set",
+                "set notation",
+                "interval notation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify possible solutions to absolute value equations and inequalities algebraically, graphically, and with technology.",
+              "keywords": [
+                "solution verification",
+                "algebraic",
+                "graphical",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.EI.2",
+          "description": "Represent, solve, and interpret quadratic equations in one variable over the set of complex numbers and solve quadratic inequalities in one variable.",
+          "skills": [
+            {
+              "description": "Create a quadratic equation or inequality in one variable to model a contextual situation.",
+              "keywords": [
+                "quadratic equation",
+                "contextual modeling",
+                "inequality"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve a quadratic equation in one variable over the set of complex numbers algebraically.",
+              "keywords": [
+                "quadratic equation",
+                "complex solutions",
+                "algebraic solution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the solution to a quadratic inequality in one variable over the set of real numbers algebraically.",
+              "keywords": [
+                "quadratic inequality",
+                "real solutions",
+                "algebraic solution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify possible solutions to quadratic equations or inequalities algebraically, graphically, and with technology.",
+              "keywords": [
+                "solution verification",
+                "algebraic",
+                "graphical",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.EI.3",
+          "description": "Solve a system of equations in two variables containing a quadratic expression.",
+          "skills": [
+            {
+              "description": "Create a linear-quadratic or quadratic-quadratic system of equations to model a contextual situation.",
+              "keywords": [
+                "system of equations",
+                "contextual modeling",
+                "linear-quadratic",
+                "quadratic-quadratic"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the number of solutions to a linear-quadratic and quadratic-quadratic system of equations in two variables.",
+              "keywords": [
+                "system of equations",
+                "number of solutions",
+                "linear-quadratic",
+                "quadratic-quadratic"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve a linear-quadratic and quadratic-quadratic system of equations algebraically and graphically.",
+              "keywords": [
+                "system of equations",
+                "algebraic solution",
+                "graphical solution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify possible solutions to linear-quadratic or quadratic-quadratic systems algebraically, graphically, and with technology.",
+              "keywords": [
+                "solution verification",
+                "algebraic",
+                "graphical",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.EI.4",
+          "description": "Represent, solve, and interpret equations containing rational algebraic expressions.",
+          "skills": [
+            {
+              "description": "Create an equation containing a rational expression to model a contextual situation.",
+              "keywords": [
+                "rational equation",
+                "contextual modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve rational equations with real solutions containing factorable algebraic expressions algebraically and graphically.",
+              "keywords": [
+                "rational equation",
+                "algebraic solution",
+                "graphical solution",
+                "factorable expressions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify possible solutions to rational equations algebraically, graphically, and with technology.",
+              "keywords": [
+                "solution verification",
+                "algebraic",
+                "graphical",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify why a possible solution to an equation containing a rational expression might be extraneous.",
+              "keywords": [
+                "extraneous solutions",
+                "rational expressions",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.EI.5",
+          "description": "Represent, solve, and interpret equations containing radical expressions.",
+          "skills": [
+            {
+              "description": "Solve an equation containing no more than one radical expression algebraically and graphically.",
+              "keywords": [
+                "radical equation",
+                "algebraic solution",
+                "graphical solution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify possible solutions to radical equations algebraically, graphically, and with technology.",
+              "keywords": [
+                "solution verification",
+                "algebraic",
+                "graphical",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify why a possible solution to an equation with a square root might be extraneous.",
+              "keywords": [
+                "extraneous solutions",
+                "square root",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.EI.6",
+          "description": "Represent, solve, and interpret polynomial equations.",
+          "skills": [
+            {
+              "description": "Determine a factored form of a polynomial equation of degree three or higher, given its zeros or the x-intercepts of the graph of its related function.",
+              "keywords": [
+                "polynomial equation",
+                "factored form",
+                "zeros",
+                "x-intercepts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the number and type of solutions (real or imaginary) of a polynomial equation of degree three or higher.",
+              "keywords": [
+                "polynomial equation",
+                "solutions",
+                "real",
+                "imaginary"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve a polynomial equation over the set of complex numbers.",
+              "keywords": [
+                "polynomial equation",
+                "complex solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify possible solutions to polynomial equations of degree three or higher algebraically, graphically, and with technology.",
+              "keywords": [
+                "solution verification",
+                "algebraic",
+                "graphical",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Functions",
+      "standards": [
+        {
+          "code": "A2.F.1",
+          "description": "Investigate, analyze, and compare square root, cube root, rational, exponential, and logarithmic function families using transformations.",
+          "skills": [
+            {
+              "description": "Distinguish between the graphs of parent functions for square root, cube root, rational, exponential, and logarithmic function families.",
+              "keywords": [
+                "parent functions",
+                "graph comparison",
+                "function families"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write the equation of a square root, cube root, rational, exponential, or logarithmic function, given a graph, using transformations of the parent function.",
+              "keywords": [
+                "function equation",
+                "graph transformation",
+                "parent function"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph a square root, cube root, rational, exponential, or logarithmic function, given the equation, using transformations of the parent function.",
+              "keywords": [
+                "function graphing",
+                "graph transformation",
+                "parent function"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine when two variables are directly proportional, inversely proportional, or neither, given a table of values.",
+              "keywords": [
+                "proportionality",
+                "direct variation",
+                "inverse variation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the graphs, tables, and equations of square root, cube root, rational, exponential, and logarithmic functions.",
+              "keywords": [
+                "function comparison",
+                "graphs",
+                "tables",
+                "equations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.F.2",
+          "description": "Investigate and analyze characteristics of square root, cube root, rational, polynomial, exponential, logarithmic, and piecewise-defined functions.",
+          "skills": [
+            {
+              "description": "Determine and identify the domain, range, zeros, and intercepts of a function presented algebraically or graphically.",
+              "keywords": [
+                "domain",
+                "range",
+                "zeros",
+                "intercepts",
+                "function characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the characteristics of square root, cube root, rational, polynomial, exponential, logarithmic, and piecewise-defined functions.",
+              "keywords": [
+                "function comparison",
+                "characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the intervals on which the graph of a function is increasing, decreasing, or constant.",
+              "keywords": [
+                "intervals",
+                "increasing",
+                "decreasing",
+                "constant"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the location and value of absolute (global) maxima and minima of a function.",
+              "keywords": [
+                "absolute maxima",
+                "absolute minima",
+                "function extrema"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the location and value of relative (local) maxima or minima of a function.",
+              "keywords": [
+                "relative maxima",
+                "relative minima",
+                "function extrema"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "For any value x in the domain of f, determine f(x) using a graph or equation.",
+              "keywords": [
+                "function evaluation",
+                "domain",
+                "graph",
+                "equation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the end behavior of a function.",
+              "keywords": [
+                "end behavior",
+                "function"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the equations of any vertical and horizontal asymptotes of a function using a graph or equation.",
+              "keywords": [
+                "asymptotes",
+                "vertical",
+                "horizontal",
+                "function"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the inverse of a function algebraically and graphically, given the equation of a linear or quadratic function.",
+              "keywords": [
+                "inverse function",
+                "algebraic",
+                "graphical"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph the inverse of a function as a reflection over the line y = x.",
+              "keywords": [
+                "inverse function",
+                "graphing",
+                "reflection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the composition of two functions algebraically and graphically.",
+              "keywords": [
+                "function composition",
+                "algebraic",
+                "graphical"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Statistics",
+      "standards": [
+        {
+          "code": "A2.ST.1",
+          "description": "Apply the data cycle with a focus on univariate quantitative data represented by a smooth curve, including a normal curve.",
+          "skills": [
+            {
+              "description": "Formulate investigative questions requiring the collection or acquisition of univariate quantitative data.",
+              "keywords": [
+                "investigative questions",
+                "univariate data",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Collect or acquire univariate data through research, surveys, observations, experiments, polls, or questionnaires.",
+              "keywords": [
+                "data collection",
+                "univariate data",
+                "research",
+                "surveys"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the shape of a data set (skewed versus symmetric) and sketch a smooth curve to model the distribution.",
+              "keywords": [
+                "data shape",
+                "skewed",
+                "symmetric",
+                "smooth curve"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the properties of a normal distribution.",
+              "keywords": [
+                "normal distribution",
+                "properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and interpret a data distribution represented by a smooth curve by analyzing measures of center, spread, and shape.",
+              "keywords": [
+                "data interpretation",
+                "measures of center",
+                "measures of spread",
+                "shape"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret the z-score for a value in a data set.",
+              "keywords": [
+                "z-score",
+                "data set",
+                "interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare two data points from different distributions using z-scores.",
+              "keywords": [
+                "z-score comparison",
+                "data points",
+                "distributions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the relationship between the mean, standard deviation, and z-score of a data set.",
+              "keywords": [
+                "mean",
+                "standard deviation",
+                "z-score",
+                "relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply the Empirical Rule to answer investigative questions.",
+              "keywords": [
+                "Empirical Rule",
+                "investigative questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare multiple data distributions using measures of center, spread, and shape.",
+              "keywords": [
+                "data comparison",
+                "measures of center",
+                "measures of spread",
+                "shape"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.ST.2",
+          "description": "Apply the data cycle with a focus on representing bivariate data in scatterplots and determining the curve of best fit.",
+          "skills": [
+            {
+              "description": "Formulate investigative questions requiring the collection or acquisition of bivariate data.",
+              "keywords": [
+                "investigative questions",
+                "bivariate data",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Collect or acquire bivariate data through research, surveys, observations, experiments, polls, or questionnaires.",
+              "keywords": [
+                "data collection",
+                "bivariate data",
+                "research",
+                "surveys"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent bivariate data with a scatterplot using technology.",
+              "keywords": [
+                "scatterplot",
+                "bivariate data",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine whether the relationship between two quantitative variables is best approximated by a linear, quadratic, exponential, or combination of these functions.",
+              "keywords": [
+                "relationship approximation",
+                "linear",
+                "quadratic",
+                "exponential"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the equation(s) of the function(s) that best models the relationship between two variables using technology.",
+              "keywords": [
+                "curve of best fit",
+                "modeling",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use the correlation coefficient to designate the goodness of fit of a linear function.",
+              "keywords": [
+                "correlation coefficient",
+                "goodness of fit",
+                "linear function"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make predictions, decisions, and critical judgments using data, scatterplots, or the equation(s) of the mathematical model.",
+              "keywords": [
+                "predictions",
+                "decisions",
+                "mathematical model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the reasonableness of a mathematical model of a contextual situation.",
+              "keywords": [
+                "model evaluation",
+                "contextual situation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A2.ST.3",
+          "description": "Compute and distinguish between permutations and combinations.",
+          "skills": [
+            {
+              "description": "Compare and contrast permutations and combinations to count the number of ways events can occur.",
+              "keywords": [
+                "permutations",
+                "combinations",
+                "counting techniques"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate the number of permutations of n objects taken r at a time.",
+              "keywords": [
+                "permutations",
+                "nPr",
+                "counting"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate the number of combinations of n objects taken r at a time.",
+              "keywords": [
+                "combinations",
+                "nCr",
+                "counting"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use permutations and combinations as counting techniques to solve contextual problems.",
+              "keywords": [
+                "counting techniques",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and verify permutations and combinations using technology.",
+              "keywords": [
+                "permutations",
+                "combinations",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

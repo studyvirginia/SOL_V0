@@ -1,0 +1,18 @@
+{
+  "key": "2_2_CE_1_skill3",
+  "grade": "2",
+  "code": "2.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 2 Math",
+  "desc": "Recall addition and subtraction facts within 20 and solve single-step and multistep problems using addition and subtraction with whole numbers up to 100.",
+  "skill_desc": "Represent, solve, and justify solutions to single-step and multistep contextual problems involving addition or subtraction of whole numbers up to 100.",
+  "skill_idx": 2,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/2_2_CE_1_skill3.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

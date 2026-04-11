@@ -1,0 +1,820 @@
+{
+  "subject": "Math",
+  "course": "Grade 2 Math",
+  "domains": [
+    {
+      "name": "Number and Number Sense",
+      "standards": [
+        {
+          "code": "2.NS.1",
+          "description": "Utilize flexible counting strategies to determine and describe quantities up to 200, including skip counting and identifying even/odd numbers.",
+          "skills": [
+            {
+              "description": "Represent forward counting patterns when counting by groups of 2 up to at least 50, starting at various multiples of 2 using tools like objects, number lines, or hundreds charts.",
+              "keywords": [
+                "skip counting",
+                "multiples of 2",
+                "number line",
+                "hundreds chart"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent forward counting patterns when counting by groups of 5s, 10s, and 25s up to at least 200 using tools like objects, number lines, or hundreds charts.",
+              "keywords": [
+                "skip counting",
+                "multiples of 5",
+                "multiples of 10",
+                "multiples of 25",
+                "number line",
+                "hundreds chart"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and use patterns in skip counting by multiples of 2 (to at least 50), and multiples of 5, 10, and 25 (to at least 200) to justify the next number in the counting sequence.",
+              "keywords": [
+                "skip counting patterns",
+                "justify sequence",
+                "multiples"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent forward counting patterns when counting by groups of 100 up to at least 1,000 starting at 0 using tools like objects, number lines, calculators, or one thousand charts.",
+              "keywords": [
+                "skip counting",
+                "multiples of 100",
+                "number line",
+                "calculator",
+                "one thousand chart"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent backward counting patterns when counting by groups of 10 from 200 or less using tools like objects, number lines, calculators, or hundreds charts.",
+              "keywords": [
+                "backward counting",
+                "multiples of 10",
+                "number line",
+                "hundreds chart"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and use patterns in skip counting backwards by 10s (from at least 200) to justify the next number in the counting sequence.",
+              "keywords": [
+                "backward skip counting",
+                "justify sequence",
+                "multiples of 10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Choose a reasonable estimate up to 1,000 when given a contextual problem.",
+              "keywords": [
+                "estimate",
+                "contextual problem",
+                "reasonable"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent even numbers (up to 50) with concrete objects using two equal groups or two equal addends.",
+              "keywords": [
+                "even numbers",
+                "equal groups",
+                "addends"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent odd numbers (up to 50) with concrete objects using two equal groups with one leftover or two equal addends plus 1.",
+              "keywords": [
+                "odd numbers",
+                "equal groups",
+                "leftover",
+                "addends"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine whether a number (up to 50) is even or odd using concrete objects and justify reasoning.",
+              "keywords": [
+                "even or odd",
+                "concrete objects",
+                "justify reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.NS.2",
+          "description": "Demonstrate understanding of the ten-to-one relationships of the base 10 number system to represent, compare, and order whole numbers up to 999.",
+          "skills": [
+            {
+              "description": "Write the three-digit whole number represented by a given model (e.g., concrete objects, pictures of base 10 blocks).",
+              "keywords": [
+                "three-digit number",
+                "base 10 blocks",
+                "model representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read, write, and represent three-digit numbers in standard form, expanded form, and word form using concrete or pictorial representations.",
+              "keywords": [
+                "standard form",
+                "expanded form",
+                "word form",
+                "three-digit numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply patterns within the base 10 system to determine and communicate the place (ones, tens, hundreds) and value of each digit in a three-digit whole number.",
+              "keywords": [
+                "place value",
+                "digit value",
+                "base 10 system",
+                "three-digit number"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and explain the ten-to-one relationships among ones, tens, and hundreds using models.",
+              "keywords": [
+                "ten-to-one relationship",
+                "base 10 models",
+                "place value"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compose and decompose whole numbers up to 200 by making connections between models and counting strategies.",
+              "keywords": [
+                "compose numbers",
+                "decompose numbers",
+                "base 10 models",
+                "counting strategies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plot and justify the position of a given number up to 100 on a number line with pre-marked benchmarks of 1s, 2s, 5s, 10s, or 25s.",
+              "keywords": [
+                "plot numbers",
+                "number line",
+                "benchmarks",
+                "justify position"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare two whole numbers, each 999 or less, represented concretely, pictorially, or symbolically using words and symbols.",
+              "keywords": [
+                "compare numbers",
+                "greater than",
+                "less than",
+                "equal to",
+                "symbols"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Order up to three whole numbers, each 999 or less, represented concretely, pictorially, or symbolically from least to greatest and greatest to least.",
+              "keywords": [
+                "order numbers",
+                "least to greatest",
+                "greatest to least"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.NS.3",
+          "description": "Use mathematical reasoning and justification to solve contextual problems involving partitioning models into equal-sized parts.",
+          "skills": [
+            {
+              "description": "Model and describe fractions as representing equal-size parts of a whole.",
+              "keywords": [
+                "fractions",
+                "equal parts",
+                "whole"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the relationship between the number of fractional parts needed to make a whole and the size of the parts.",
+              "keywords": [
+                "fractional parts",
+                "whole",
+                "size relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compose the whole for a given fractional part and its value for halves, fourths, eighths, thirds, and sixths.",
+              "keywords": [
+                "compose whole",
+                "fractional part",
+                "halves",
+                "fourths",
+                "eighths",
+                "thirds",
+                "sixths"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Count by unit fractions up to two wholes using same-size fraction pieces from a region/area model.",
+              "keywords": [
+                "unit fractions",
+                "count fractions",
+                "region model",
+                "two wholes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent, name, and write fractional parts of a whole for halves, fourths, eighths, thirds, and sixths using region/area models.",
+              "keywords": [
+                "fractional parts",
+                "region model",
+                "halves",
+                "fourths",
+                "eighths",
+                "thirds",
+                "sixths"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent, name, and write fractional parts of a whole for halves, fourths, eighths, thirds, and sixths using length models.",
+              "keywords": [
+                "fractional parts",
+                "length model",
+                "halves",
+                "fourths",
+                "eighths",
+                "thirds",
+                "sixths"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent, name, and write fractional parts of a whole for halves, fourths, eighths, thirds, and sixths using set models.",
+              "keywords": [
+                "fractional parts",
+                "set model",
+                "halves",
+                "fourths",
+                "eighths",
+                "thirds",
+                "sixths"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare unit fractions for halves, fourths, eighths, thirds, and sixths using words and symbols with region/area and length models.",
+              "keywords": [
+                "compare fractions",
+                "unit fractions",
+                "region model",
+                "length model",
+                "greater than",
+                "less than",
+                "equal to"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.NS.4",
+          "description": "Solve problems involving counting and representing money amounts up to $2.00.",
+          "skills": [
+            {
+              "description": "Identify a quarter and its value and determine multiple ways to represent the value of a quarter using pennies, nickels, and/or dimes.",
+              "keywords": [
+                "quarter",
+                "value",
+                "pennies",
+                "nickels",
+                "dimes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Count by ones, fives, tens, and twenty-fives to determine the value of a collection of mixed coins and one-dollar bills whose total value is $2.00 or less.",
+              "keywords": [
+                "count coins",
+                "mixed coins",
+                "one-dollar bills",
+                "total value"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct a set of coins and/or bills to total a given amount of money whose value is $2.00 or less.",
+              "keywords": [
+                "construct money set",
+                "total amount",
+                "coins",
+                "bills"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent the value of a collection of coins and one-dollar bills (limited to $2.00 or less) using the cent and dollar symbols and decimal point.",
+              "keywords": [
+                "represent money value",
+                "cent symbol",
+                "dollar symbol",
+                "decimal point"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computation and Estimation",
+      "standards": [
+        {
+          "code": "2.CE.1",
+          "description": "Recall addition and subtraction facts within 20 and solve single-step and multistep problems using addition and subtraction with whole numbers up to 100.",
+          "skills": [
+            {
+              "description": "Apply strategies (e.g., rounding, compatible numbers) to estimate solutions for single-step addition or subtraction problems.",
+              "keywords": [
+                "estimate",
+                "rounding",
+                "compatible numbers",
+                "single-step problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply strategies (e.g., concrete models, place value, properties of addition) to determine the sum or difference of two whole numbers up to 100.",
+              "keywords": [
+                "sum",
+                "difference",
+                "concrete models",
+                "place value",
+                "properties of addition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent, solve, and justify solutions to single-step and multistep contextual problems involving addition or subtraction of whole numbers up to 100.",
+              "keywords": [
+                "solve problems",
+                "contextual problems",
+                "justify solutions",
+                "addition",
+                "subtraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate fluency with addition and subtraction within 20 by applying reasoning strategies (e.g., doubles, near doubles, make-a-ten).",
+              "keywords": [
+                "fluency",
+                "addition",
+                "subtraction",
+                "doubles",
+                "near doubles",
+                "make-a-ten"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recall with automaticity addition and subtraction facts within 20.",
+              "keywords": [
+                "automaticity",
+                "addition facts",
+                "subtraction facts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use patterns, models, and strategies to make generalizations about algebraic properties for fluency.",
+              "keywords": [
+                "algebraic properties",
+                "generalizations",
+                "patterns",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the missing number in an equation with addition and subtraction within 20.",
+              "keywords": [
+                "missing number",
+                "equation",
+                "addition",
+                "subtraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use inverse relationships to write all related facts connected to a given addition or subtraction fact model within 20.",
+              "keywords": [
+                "inverse relationships",
+                "related facts",
+                "addition",
+                "subtraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the not equal symbol as representing a relationship where expressions on either side represent different values and justify reasoning.",
+              "keywords": [
+                "not equal symbol",
+                "justify reasoning",
+                "different values"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Measurement and Geometry",
+      "standards": [
+        {
+          "code": "2.MG.1",
+          "description": "Reason mathematically using standard U.S. Customary units to estimate, measure, and compare objects by length, weight, and liquid volume.",
+          "skills": [
+            {
+              "description": "Explain the purpose of measurement tools (ruler, scales, measuring cups) and how to use them appropriately.",
+              "keywords": [
+                "measurement tools",
+                "ruler",
+                "scales",
+                "measuring cups"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use U.S. Customary units to estimate, measure, and compare the length of an object to the nearest inch using a ruler.",
+              "keywords": [
+                "estimate length",
+                "inch",
+                "ruler"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use U.S. Customary units to estimate, measure, and compare the weight of an object to the nearest pound using a scale.",
+              "keywords": [
+                "estimate weight",
+                "pound",
+                "scale"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use U.S. Customary units to estimate, measure, and compare the liquid volume of a container to the nearest cup using a measuring cup.",
+              "keywords": [
+                "estimate volume",
+                "cup",
+                "measuring cup"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.MG.2",
+          "description": "Demonstrate understanding of the concept of time to the nearest five minutes using analog and digital clocks.",
+          "skills": [
+            {
+              "description": "Identify the number of minutes in an hour (60 minutes) and the number of hours in a day (24 hours).",
+              "keywords": [
+                "minutes in an hour",
+                "hours in a day"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the most appropriate unit of time (minutes, hours, days, or weeks) for a given activity or context and explain reasoning.",
+              "keywords": [
+                "unit of time",
+                "minutes",
+                "hours",
+                "days",
+                "weeks"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Show, tell, and write time to the nearest five minutes using analog and digital clocks.",
+              "keywords": [
+                "tell time",
+                "analog clock",
+                "digital clock",
+                "nearest five minutes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Match a written time to the time shown on an analog clock to the nearest five minutes.",
+              "keywords": [
+                "match time",
+                "analog clock",
+                "written time",
+                "nearest five minutes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.MG.3",
+          "description": "Identify, describe, and create plane figures with at least one line of symmetry and explain its relationship with congruency.",
+          "skills": [
+            {
+              "description": "Explore a figure using tools (e.g., paper folding, geoboards, drawings) to show and justify a line of symmetry, if one exists.",
+              "keywords": [
+                "line of symmetry",
+                "paper folding",
+                "geoboards",
+                "justify symmetry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create figures with at least one line of symmetry using various concrete and pictorial representations.",
+              "keywords": [
+                "create figures",
+                "line of symmetry",
+                "concrete representations",
+                "pictorial representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the two resulting figures formed by a line of symmetry as being congruent (having the same shape and size).",
+              "keywords": [
+                "congruent figures",
+                "line of symmetry",
+                "same shape",
+                "same size"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.MG.4",
+          "description": "Describe, name, compare, and contrast plane and solid figures.",
+          "skills": [
+            {
+              "description": "Trace faces of solid figures (cubes and rectangular prisms) to create the set of plane figures related to the solid figure.",
+              "keywords": [
+                "trace faces",
+                "solid figures",
+                "cubes",
+                "rectangular prisms",
+                "plane figures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast models and nets of cubes and rectangular prisms (e.g., number and shapes of faces, edges, vertices).",
+              "keywords": [
+                "compare models",
+                "nets",
+                "cubes",
+                "rectangular prisms",
+                "faces",
+                "edges",
+                "vertices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a concrete or pictorial model, name and describe the solid figure (sphere, cube, rectangular prism) by its characteristics.",
+              "keywords": [
+                "name solid figure",
+                "sphere",
+                "cube",
+                "rectangular prism",
+                "characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast plane and solid figures (circles/spheres, squares/cubes, rectangles/rectangular prisms) according to their characteristics.",
+              "keywords": [
+                "compare figures",
+                "plane figures",
+                "solid figures",
+                "circles",
+                "spheres",
+                "squares",
+                "cubes",
+                "rectangles",
+                "rectangular prisms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability and Statistics",
+      "standards": [
+        {
+          "code": "2.PS.1",
+          "description": "Apply the data cycle to pose questions, collect data, organize and represent data, and analyze data with a focus on pictographs and bar graphs.",
+          "skills": [
+            {
+              "description": "Pose questions, given a predetermined context, that require the collection of data (limited to 25 or fewer data points for no more than six categories).",
+              "keywords": [
+                "pose questions",
+                "data collection",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the data needed to answer a posed question and collect the data using various methods (e.g., voting, lists, tables, charts, tallying).",
+              "keywords": [
+                "determine data",
+                "collect data",
+                "voting",
+                "tallying"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent a data set using a pictograph where each symbol represents up to 2 data points. Determine and use a key to assist in the analysis.",
+              "keywords": [
+                "pictograph",
+                "symbol representation",
+                "key",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent a data set using a bar graph with a title and labeled axes (limited to 25 or fewer data points for up to six categories).",
+              "keywords": [
+                "bar graph",
+                "title",
+                "labeled axes",
+                "data representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data represented in pictographs and bar graphs and communicate results by asking and answering questions about the data.",
+              "keywords": [
+                "analyze data",
+                "pictographs",
+                "bar graphs",
+                "ask questions",
+                "answer questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Draw conclusions about the data and make predictions based on the data represented in pictographs and bar graphs.",
+              "keywords": [
+                "draw conclusions",
+                "make predictions",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patterns, Functions, and Algebra",
+      "standards": [
+        {
+          "code": "2.PFA.1",
+          "description": "Describe, extend, create, and transfer repeating and increasing patterns using various representations.",
+          "skills": [
+            {
+              "description": "Identify and describe repeating and increasing patterns.",
+              "keywords": [
+                "repeating patterns",
+                "increasing patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze a repeating or increasing pattern and generalize the change to extend the pattern using objects, pictures, and numbers.",
+              "keywords": [
+                "analyze patterns",
+                "generalize change",
+                "extend patterns",
+                "objects",
+                "pictures",
+                "numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a repeating or increasing pattern using various representations (e.g., objects, pictures, numbers).",
+              "keywords": [
+                "create patterns",
+                "repeating patterns",
+                "increasing patterns",
+                "objects",
+                "pictures",
+                "numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Transfer a given repeating or increasing pattern from one form to another (e.g., objects, pictures, numbers) and explain the connection.",
+              "keywords": [
+                "transfer patterns",
+                "repeating patterns",
+                "increasing patterns",
+                "explain connection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

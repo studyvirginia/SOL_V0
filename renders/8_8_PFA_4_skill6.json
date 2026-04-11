@@ -1,0 +1,82 @@
+{
+  "key": "8_8_PFA_4_skill6",
+  "grade": "8",
+  "code": "8.PFA.4",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 8 Math",
+  "desc": "Write and solve multistep linear equations in one variable, including contextual problems.",
+  "skill_desc": "Interpret algebraic solutions in context to linear equations in one variable.",
+  "skill_idx": 5,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PFA_4_skill6.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2x+3",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(-1.5,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -2,
+      "right": 5,
+      "top": 6
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear Equation: y = 2x + 3"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x + 3",
+      "g(x) = -x + 6",
+      "Intersect(f, g)",
+      "SetColor(f, 0, 122, 255)",
+      "SetColor(g, 255, 0, 0)"
+    ],
+    "view": [
+      -1,
+      6,
+      -1,
+      8
+    ],
+    "showGrid": true,
+    "title": "Solving 2x + 3 = -x + 6 graphically"
+  },
+  "sketchmath_state": null
+}

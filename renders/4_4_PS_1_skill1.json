@@ -1,0 +1,79 @@
+{
+  "key": "4_4_PS_1_skill1",
+  "grade": "4",
+  "code": "4.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 4 Math",
+  "desc": "Apply the data cycle with a focus on line graphs to formulate questions, collect data, organize and represent data, and analyze data and communicate results.",
+  "skill_desc": "Formulate questions that require the collection or acquisition of data.",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/4_4_PS_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=2x",
+        "color": "#FF3B30",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=3x",
+        "color": "#34C759",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=4x",
+        "color": "#FF9500",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 13
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Line Graphs: Exploring Relationships"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

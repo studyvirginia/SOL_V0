@@ -1,0 +1,157 @@
+{
+  "key": "2_2_MG_1_skill4",
+  "grade": "2",
+  "code": "2.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 2 Math",
+  "desc": "Reason mathematically using standard U.S. Customary units to estimate, measure, and compare objects by length, weight, and liquid volume.",
+  "skill_desc": "Use U.S. Customary units to estimate, measure, and compare the liquid volume of a container to the nearest cup using a measuring cup.",
+  "skill_idx": 3,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/2_2_MG_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(4,4),(0,4))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,4)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,4)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "\\operatorname{polygon}((0,0),(0.5,0),(0.5,0.5))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "\\operatorname{polygon}((4,0),(4.5,0),(4.5,0.5))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "\\operatorname{polygon}((4,4),(4,4.5),(3.5,4.5))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "\\operatorname{polygon}((0,4),(0,4.5),(0.5,4.5))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 5
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Liquid Volume Comparison"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "cup = Polygon((0,0), (1,0), (1,2), (0,2))",
+      "SetColor(cup, 0, 122, 255)",
+      "SetCaption(cup, \"Measuring Cup\")",
+      "SetLabelMode(cup, 3)",
+      "oneCup = Segment((0,1), (1,1))",
+      "SetColor(oneCup, 255, 0, 0)",
+      "SetLineStyle(oneCup, 1)",
+      "SetCaption(oneCup, \"1 Cup\")",
+      "SetLabelMode(oneCup, 3)",
+      "halfCup = Segment((0,0.5), (1,0.5))",
+      "SetColor(halfCup, 255, 165, 0)",
+      "SetLineStyle(halfCup, 1)",
+      "SetCaption(halfCup, \"1/2 Cup\")",
+      "SetLabelMode(halfCup, 3)",
+      "quarterCup = Segment((0,0.25), (1,0.25))",
+      "SetColor(quarterCup, 255, 255, 0)",
+      "SetLineStyle(quarterCup, 1)",
+      "SetCaption(quarterCup, \"1/4 Cup\")",
+      "SetLabelMode(quarterCup, 3)"
+    ],
+    "view": [
+      -0.5,
+      1.5,
+      -0.5,
+      2.5
+    ],
+    "showGrid": true,
+    "title": "Measuring Cup with Volume Markings"
+  },
+  "sketchmath_state": null
+}

@@ -1,0 +1,18 @@
+{
+  "key": "1_1_NS_2_skill3",
+  "grade": "1",
+  "code": "1.NS.2",
+  "domain": "Number and Number Sense",
+  "course": "Grade 1 Math",
+  "desc": "Represent, compare, and order quantities up to 120.",
+  "skill_desc": "Create a concrete or pictorial representation of a number using tens and ones and write the corresponding numeral up to 120.",
+  "skill_idx": 2,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/1_1_NS_2_skill3.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

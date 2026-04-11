@@ -1,0 +1,47 @@
+{
+  "key": "6_6_PS_1_skill5",
+  "grade": "6",
+  "code": "6.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 6 Math",
+  "desc": "Apply the data cycle with a focus on circle graphs.",
+  "skill_desc": "Analyze data represented in a circle graph by making observations and drawing conclusions.",
+  "skill_idx": 4,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PS_1_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=0",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 1,
+      "top": 1
+    },
+    "showGrid": false,
+    "showAxes": false,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Circle Graph Analysis"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

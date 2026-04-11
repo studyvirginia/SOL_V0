@@ -1,0 +1,762 @@
+{
+  "subject": "Science",
+  "course": "Chemistry II Advanced Survey",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "CHII.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, analysis, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions arising from observation of phenomena, examination of models, unexpected results, or to seek additional information.",
+              "keywords": [
+                "phenomena observation",
+                "model examination",
+                "unexpected results",
+                "scientific questioning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of a school laboratory or field setting.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "field investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Formulate hypotheses specifying the effect of manipulating an independent variable on a dependent variable.",
+              "keywords": [
+                "hypothesis formation",
+                "independent variable",
+                "dependent variable",
+                "manipulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "research-based",
+                "scientific principles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct observational and experimental investigations; identify variables, constants, and controls.",
+              "keywords": [
+                "investigation planning",
+                "variables identification",
+                "constants",
+                "controls"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations in a safe and ethical manner, considering environmental, social, and personal effects.",
+              "keywords": [
+                "safe investigation",
+                "ethical conduct",
+                "environmental considerations",
+                "social impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine appropriate sample size and techniques for investigations.",
+              "keywords": [
+                "sample size",
+                "sampling techniques",
+                "investigation design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect and record data.",
+              "keywords": [
+                "data collection tools",
+                "technology selection",
+                "data recording"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variable",
+                "dependent variable",
+                "repeated trials",
+                "means"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data; consider limitations of data analysis.",
+              "keywords": [
+                "graphical displays",
+                "data analysis",
+                "data interpretation",
+                "limitations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, support explanations for phenomena, or test solutions to problems.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "phenomena explanation",
+                "problem testing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems using mathematical manipulations including SI units, scientific notation, derived units, significant digits, and dimensional analysis.",
+              "keywords": [
+                "mathematical manipulations",
+                "SI units",
+                "scientific notation",
+                "dimensional analysis",
+                "significant digits"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "validity",
+                "reliability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Consider limitations of data analysis including instrument limitations, sampling selection, and measurement error.",
+              "keywords": [
+                "data limitations",
+                "instrument limitations",
+                "sampling selection",
+                "measurement error"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between accuracy and precision of measurements.",
+              "keywords": [
+                "accuracy",
+                "precision",
+                "measurement differentiation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from models, theories, simulations, peer review, or investigations.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based",
+                "model validation",
+                "peer review"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide explanations of phenomena.",
+              "keywords": [
+                "scientific application",
+                "phenomena explanation",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments in light of currently accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument comparison",
+                "scientific evidence",
+                "explanation evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support a claim using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim formulation",
+                "empirical evidence",
+                "scientific reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate a claim by applying scientific reasoning, theory, and/or models to link evidence to assess the extent to which reasoning and data support the explanation or conclusion.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theory application",
+                "model linking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model merits",
+                "model limitations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships, support explanations, predict phenomena, analyze systems, or solve problems.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "evidence-based modeling",
+                "phenomena prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use models and simulations to visualize and explain particle movement, represent chemical reactions, formulate mathematical equations, and interpret data sets.",
+              "keywords": [
+                "model usage",
+                "simulation",
+                "particle visualization",
+                "chemical reaction representation",
+                "mathematical formulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical and statistical concepts and processes in building and revising models, and supporting explanations of phenomena.",
+              "keywords": [
+                "mathematical application",
+                "statistical concepts",
+                "model building",
+                "phenomena explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Derive mathematical models (equations) from experimental data.",
+              "keywords": [
+                "mathematical modeling",
+                "equation derivation",
+                "experimental data"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question or solve a problem.",
+              "keywords": [
+                "source comparison",
+                "information integration",
+                "media evaluation",
+                "scientific problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing evidence and credibility.",
+              "keywords": [
+                "information gathering",
+                "source evaluation",
+                "evidence assessment",
+                "credibility assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical communication",
+                "multi-format presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Atomic Structure and Electron Distribution",
+      "standards": [
+        {
+          "code": "CHII.2",
+          "description": "Investigate and understand that atoms can be identified by their electron distribution and energy.",
+          "skills": [
+            {
+              "description": "Describe how the quantum mechanical model illustrates the current understanding of the atom.",
+              "keywords": [
+                "quantum mechanical model",
+                "atomic structure",
+                "electron distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain electron distribution.",
+              "keywords": [
+                "electron distribution model",
+                "model development",
+                "model usage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain the emission and absorption spectra of atoms.",
+              "keywords": [
+                "emission spectra",
+                "absorption spectra",
+                "atomic model",
+                "spectra explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how spectra can be used to identify elements.",
+              "keywords": [
+                "spectra identification",
+                "element identification",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electron Arrangement, Bonding, and Properties of Materials",
+      "standards": [
+        {
+          "code": "CHII.3",
+          "description": "Investigate and understand that the electron arrangement in atoms and ions contributes to bonding, structure, and properties of materials.",
+          "skills": [
+            {
+              "description": "Predict the type of bonding that occurs between elements.",
+              "keywords": [
+                "bonding prediction",
+                "element bonding",
+                "chemical bonding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how Coulomb’s law explains the arrangement of ions in an ionic substance.",
+              "keywords": [
+                "Coulomb’s law",
+                "ionic arrangement",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models of molecules (Lewis diagrams, VSEPR model, hybrid orbitals) to predict molecular geometry including expanded octets.",
+              "keywords": [
+                "molecular geometry",
+                "Lewis diagrams",
+                "VSEPR model",
+                "hybrid orbitals",
+                "expanded octets"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation to identify an unknown substance using properties.",
+              "keywords": [
+                "unknown substance identification",
+                "property analysis",
+                "investigation planning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how metallic bonding explains the properties of metallic substances.",
+              "keywords": [
+                "metallic bonding",
+                "metallic properties",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the atomic and molecular structure of materials determines their function and properties.",
+              "keywords": [
+                "atomic structure",
+                "molecular structure",
+                "material properties",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intermolecular Forces and Phases of Matter",
+      "standards": [
+        {
+          "code": "CHII.4",
+          "description": "Investigate and understand that forces of attraction among particles contribute to properties of substances.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain the strength(s) and type(s) of intermolecular forces in substances.",
+              "keywords": [
+                "intermolecular forces",
+                "model development",
+                "model usage",
+                "force strength"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation related to intermolecular forces.",
+              "keywords": [
+                "intermolecular forces investigation",
+                "investigation planning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the strength(s) and type(s) of intermolecular forces present in substances.",
+              "keywords": [
+                "intermolecular force identification",
+                "claim evaluation",
+                "force strength"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain the motion of particles in different phases of matter.",
+              "keywords": [
+                "particle motion",
+                "phase model",
+                "model development",
+                "model usage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation related to deviations from the ideal gas law.",
+              "keywords": [
+                "ideal gas law deviations",
+                "investigation planning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about deviations from the ideal gas law.",
+              "keywords": [
+                "ideal gas law deviations",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how intermolecular forces affect solubility and separation of mixtures.",
+              "keywords": [
+                "intermolecular forces",
+                "solubility",
+                "mixture separation",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemical Reactions",
+      "standards": [
+        {
+          "code": "CHII.5",
+          "description": "Investigate and understand that chemical reactions are predictable and quantifiable.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain changes in matter using balanced equations (chemical, ionic, and net ionic).",
+              "keywords": [
+                "balanced equations",
+                "chemical reactions",
+                "model development",
+                "model usage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the classification of reactions as oxidation-reduction (redox) or non-redox reactions.",
+              "keywords": [
+                "reaction classification",
+                "redox reactions",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict the products of chemical reactions.",
+              "keywords": [
+                "reaction product prediction",
+                "chemical reactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations related to chemical reactions.",
+              "keywords": [
+                "chemical reactions investigation",
+                "investigation planning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Perform stoichiometric calculations to determine the amounts of reactants and products.",
+              "keywords": [
+                "stoichiometric calculations",
+                "reactant amounts",
+                "product amounts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reaction Rates and Kinetics",
+      "standards": [
+        {
+          "code": "CHII.6",
+          "description": "Investigate and understand that rates of a chemical reaction can be observed, measured, and predicted.",
+          "skills": [
+            {
+              "description": "Plan and conduct investigations to determine how factors affect the rate of a chemical reaction.",
+              "keywords": [
+                "reaction rate investigation",
+                "factor analysis",
+                "investigation planning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about why a chemical reaction may or may not occur.",
+              "keywords": [
+                "reaction occurrence",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate experimental data to determine the rate and rate law expression for a reaction.",
+              "keywords": [
+                "experimental data evaluation",
+                "reaction rate",
+                "rate law expression"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about why a given reaction mechanism is consistent with experimental evidence for a specific reaction.",
+              "keywords": [
+                "reaction mechanism",
+                "experimental evidence",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Equilibrium and Reversible Reactions",
+      "standards": [
+        {
+          "code": "CHII.7",
+          "description": "Investigate and understand that many chemical reactions are reversible.",
+          "skills": [
+            {
+              "description": "Determine the equilibrium position based on the equilibrium constant.",
+              "keywords": [
+                "equilibrium position",
+                "equilibrium constant"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate equilibrium constant values for equilibrium reactions.",
+              "keywords": [
+                "equilibrium constant calculation",
+                "equilibrium reactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations related to equilibrium reactions.",
+              "keywords": [
+                "equilibrium reactions investigation",
+                "investigation planning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how changing conditions affect equilibrium reactions.",
+              "keywords": [
+                "equilibrium conditions",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research how industry uses equilibrium reactions.",
+              "keywords": [
+                "industry applications",
+                "equilibrium reactions",
+                "research"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Advanced Topics in Chemistry",
+      "standards": [
+        {
+          "code": "CHII.8",
+          "description": "Investigate and understand concepts from different fields in chemistry, including thermochemistry, organic chemistry, electrochemistry, biochemistry, and nuclear chemistry.",
+          "skills": [
+            {
+              "description": "Investigate and understand advanced concepts in thermochemistry.",
+              "keywords": [
+                "thermochemistry",
+                "heat transfer",
+                "energy changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and understand advanced concepts in organic chemistry.",
+              "keywords": [
+                "organic chemistry",
+                "carbon compounds",
+                "functional groups"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and understand advanced concepts in electrochemistry.",
+              "keywords": [
+                "electrochemistry",
+                "redox reactions",
+                "electrochemical cells"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and understand advanced concepts in biochemistry.",
+              "keywords": [
+                "biochemistry",
+                "biomolecules",
+                "metabolic pathways"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and understand advanced concepts in nuclear chemistry.",
+              "keywords": [
+                "nuclear chemistry",
+                "radioactivity",
+                "nuclear reactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

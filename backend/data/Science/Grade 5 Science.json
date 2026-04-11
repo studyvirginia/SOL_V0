@@ -1,0 +1,610 @@
+{
+  "subject": "Science",
+  "course": "Grade 5 Science",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "5.1.SEP.1",
+          "description": "Ask questions and define problems based on observations and patterns.",
+          "skills": [
+            {
+              "description": "Ask testable questions based on observations.",
+              "keywords": [
+                "testable questions",
+                "observations",
+                "patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict reasonable outcomes based on patterns.",
+              "keywords": [
+                "predictions",
+                "patterns",
+                "outcomes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop hypotheses as cause-and-effect relationships.",
+              "keywords": [
+                "hypotheses",
+                "cause-and-effect",
+                "relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define design problems solvable through objects, tools, processes, or systems.",
+              "keywords": [
+                "design problems",
+                "engineering design",
+                "solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.1.SEP.2",
+          "description": "Plan and conduct investigations to produce data.",
+          "skills": [
+            {
+              "description": "Collaboratively plan investigations to produce data.",
+              "keywords": [
+                "collaborative planning",
+                "investigations",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify independent variables, dependent variables, and constants.",
+              "keywords": [
+                "independent variables",
+                "dependent variables",
+                "constants",
+                "experimental design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine data to collect to answer a testable question.",
+              "keywords": [
+                "data collection",
+                "testable questions",
+                "measurements"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Take metric measurements using appropriate tools.",
+              "keywords": [
+                "metric measurements",
+                "tools",
+                "precision"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use tools and materials to design and build a device solving a specific problem.",
+              "keywords": [
+                "device design",
+                "engineering design",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.1.SEP.3",
+          "description": "Interpret, analyze, and evaluate data to reveal patterns and relationships.",
+          "skills": [
+            {
+              "description": "Represent and analyze data using tables and graphs.",
+              "keywords": [
+                "data representation",
+                "tables",
+                "graphs",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize simple data sets to reveal patterns suggesting relationships.",
+              "keywords": [
+                "data organization",
+                "patterns",
+                "relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast data collected by different groups.",
+              "keywords": [
+                "data comparison",
+                "group analysis",
+                "findings"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to evaluate and refine design solutions.",
+              "keywords": [
+                "data evaluation",
+                "design solutions",
+                "refinement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.1.SEP.4",
+          "description": "Construct and critique conclusions and explanations using evidence and models.",
+          "skills": [
+            {
+              "description": "Construct arguments with evidence, data, or models.",
+              "keywords": [
+                "arguments",
+                "evidence",
+                "data",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how scientific ideas apply to design solutions.",
+              "keywords": [
+                "scientific ideas",
+                "design solutions",
+                "application"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate and compare multiple solutions to problems based on criteria and constraints.",
+              "keywords": [
+                "solution generation",
+                "criteria",
+                "constraints",
+                "comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.1.SEP.5",
+          "description": "Develop and use models to describe scientific principles or design solutions.",
+          "skills": [
+            {
+              "description": "Develop models using analogies, examples, or abstract representations.",
+              "keywords": [
+                "models",
+                "analogies",
+                "abstract representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify limitations of models.",
+              "keywords": [
+                "model limitations",
+                "scientific models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.1.SEP.6",
+          "description": "Obtain, evaluate, and communicate scientific information and design ideas.",
+          "skills": [
+            {
+              "description": "Read and comprehend reading-level-appropriate texts or reliable media.",
+              "keywords": [
+                "text comprehension",
+                "reliable media",
+                "scientific literacy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific information, design ideas, or solutions with others.",
+              "keywords": [
+                "scientific communication",
+                "design ideas",
+                "solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Force, Motion, and Energy",
+      "standards": [
+        {
+          "code": "5.2.FME.1",
+          "description": "Understand that energy is the ability to do work or cause change.",
+          "skills": [
+            {
+              "description": "Recognize energy as the ability to do work or cause change.",
+              "keywords": [
+                "energy",
+                "work",
+                "change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.3.FME.2",
+          "description": "Investigate the relationship between force and energy of moving objects.",
+          "skills": [
+            {
+              "description": "Recognize that moving objects have kinetic energy.",
+              "keywords": [
+                "kinetic energy",
+                "moving objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe motion by an object’s direction and speed.",
+              "keywords": [
+                "motion",
+                "direction",
+                "speed"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that changes in motion are related to net force and mass.",
+              "keywords": [
+                "net force",
+                "mass",
+                "motion changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how contact forces transfer energy during collisions and change motion.",
+              "keywords": [
+                "contact forces",
+                "collisions",
+                "energy transfer",
+                "motion change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify friction as a force that opposes motion.",
+              "keywords": [
+                "friction",
+                "opposing force",
+                "motion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.4.FME.3",
+          "description": "Investigate the transmission and use of electricity in daily life.",
+          "skills": [
+            {
+              "description": "Recognize that electricity flows easily through conductors but not insulators.",
+              "keywords": [
+                "conductors",
+                "insulators",
+                "electricity flow"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain that electricity flows through closed circuits.",
+              "keywords": [
+                "closed circuits",
+                "electricity flow"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate static electricity by rubbing certain materials together.",
+              "keywords": [
+                "static electricity",
+                "material rubbing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Transform electrical energy into radiant, mechanical, and thermal energy.",
+              "keywords": [
+                "electrical energy",
+                "energy transformation",
+                "radiant energy",
+                "mechanical energy",
+                "thermal energy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate that a current flowing through a wire creates a magnetic field.",
+              "keywords": [
+                "electric current",
+                "magnetic field",
+                "electromagnetism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.5.FME.4",
+          "description": "Investigate how sound is produced and transmitted.",
+          "skills": [
+            {
+              "description": "Recognize that sound is produced when an object or substance vibrates.",
+              "keywords": [
+                "sound production",
+                "vibrations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain that sound is the transfer of energy.",
+              "keywords": [
+                "sound energy",
+                "energy transfer"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare how different media transmit sound.",
+              "keywords": [
+                "sound transmission",
+                "media comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify uses and applications of sound waves.",
+              "keywords": [
+                "sound waves",
+                "applications"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.6.FME.5",
+          "description": "Investigate characteristics and predictable behaviors of visible light.",
+          "skills": [
+            {
+              "description": "Recognize that visible light is radiant energy moving in transverse waves.",
+              "keywords": [
+                "visible light",
+                "radiant energy",
+                "transverse waves"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify light with different wavelengths in the visible spectrum.",
+              "keywords": [
+                "visible spectrum",
+                "wavelengths"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how matter influences the path of light.",
+              "keywords": [
+                "light path",
+                "matter interaction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Transform radiant energy into thermal, mechanical, and electrical energy.",
+              "keywords": [
+                "radiant energy",
+                "energy transformation",
+                "thermal energy",
+                "mechanical energy",
+                "electrical energy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matter",
+      "standards": [
+        {
+          "code": "5.7.MAT.1",
+          "description": "Investigate properties and interactions of matter.",
+          "skills": [
+            {
+              "description": "Recognize that matter is composed of atoms.",
+              "keywords": [
+                "matter composition",
+                "atoms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Mix substances without changing their physical properties.",
+              "keywords": [
+                "substance mixing",
+                "physical properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how energy affects phases of matter.",
+              "keywords": [
+                "energy",
+                "phases of matter",
+                "phase changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth and Space Systems",
+      "standards": [
+        {
+          "code": "5.8.ESS.1",
+          "description": "Investigate how Earth constantly changes.",
+          "skills": [
+            {
+              "description": "Explain how Earth’s internal energy causes movement of material within the Earth.",
+              "keywords": [
+                "Earth’s internal energy",
+                "material movement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe plate tectonics as movement of the crust.",
+              "keywords": [
+                "plate tectonics",
+                "crust movement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Model the transformation of rocks using the rock cycle.",
+              "keywords": [
+                "rock cycle",
+                "rock transformation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how weathering, erosion, and deposition change Earth’s surface.",
+              "keywords": [
+                "weathering",
+                "erosion",
+                "deposition",
+                "surface change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use fossils and geologic patterns as evidence of Earth’s change.",
+              "keywords": [
+                "fossils",
+                "geologic patterns",
+                "evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth Resources",
+      "standards": [
+        {
+          "code": "5.9.ER.1",
+          "description": "Investigate the conservation of energy resources.",
+          "skills": [
+            {
+              "description": "Classify energy sources as renewable or non-renewable.",
+              "keywords": [
+                "renewable energy",
+                "non-renewable energy",
+                "energy sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify means for individuals and communities to conserve energy and matter.",
+              "keywords": [
+                "energy conservation",
+                "matter conservation",
+                "community practices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how advances in technology improve energy transfer and transformation.",
+              "keywords": [
+                "technology",
+                "energy transfer",
+                "energy transformation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

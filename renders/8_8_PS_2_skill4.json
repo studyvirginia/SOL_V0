@@ -1,0 +1,80 @@
+{
+  "key": "8_8_PS_2_skill4",
+  "grade": "8",
+  "code": "8.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 8 Math",
+  "desc": "Apply the data cycle with a focus on boxplots.",
+  "skill_desc": "Organize and represent a numeric data set of no more than 20 items using boxplots, with or without technology.",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PS_2_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "col1",
+            "latex": "x_{1}",
+            "values": [
+              "10",
+              "12",
+              "15",
+              "18",
+              "20",
+              "22",
+              "25",
+              "28",
+              "30",
+              "32",
+              "35",
+              "38",
+              "40",
+              "42",
+              "45",
+              "48",
+              "50",
+              "52",
+              "55",
+              "58"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "boxplot(x_{1})",
+        "color": "#007AFF",
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 5,
+      "bottom": 5,
+      "right": 60,
+      "top": 60
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Boxplot of a Data Set"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

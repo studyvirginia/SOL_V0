@@ -1,0 +1,18 @@
+{
+  "key": "3_3_MG_3_skill2",
+  "grade": "3",
+  "code": "3.MG.3",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 3 Math",
+  "desc": "Tell and write time to the nearest minute and solve elapsed time problems within a 12-hour period.",
+  "skill_desc": "Match a written time to the time shown on analog and digital clocks to the nearest minute.",
+  "skill_idx": 1,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/3_3_MG_3_skill2.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

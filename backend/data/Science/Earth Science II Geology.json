@@ -1,0 +1,815 @@
+{
+  "subject": "Science",
+  "course": "Earth Science II Geology",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "GEO.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, data analysis, modeling, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from careful observation of phenomena, examination of a model or theory, or unexpected results.",
+              "keywords": [
+                "observation",
+                "phenomena",
+                "model",
+                "theory",
+                "scientific questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of the school laboratory or field.",
+              "keywords": [
+                "investigative scope",
+                "laboratory",
+                "field study",
+                "feasibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Formulate hypotheses specifying the relationship between independent and dependent variables.",
+              "keywords": [
+                "hypothesis",
+                "independent variable",
+                "dependent variable",
+                "manipulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "research",
+                "scientific principles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct observational and experimental investigations.",
+              "keywords": [
+                "investigation",
+                "observational study",
+                "experimental design",
+                "procedure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations in a safe and ethical manner, considering environmental, social, and personal effects.",
+              "keywords": [
+                "safety protocols",
+                "ethical considerations",
+                "environmental impact",
+                "risk assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine appropriate sample size and techniques for investigations.",
+              "keywords": [
+                "sample size",
+                "sampling techniques",
+                "data collection",
+                "statistical validity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect and record data.",
+              "keywords": [
+                "data collection",
+                "scientific instruments",
+                "topographic maps",
+                "geologic maps",
+                "digital tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variable",
+                "dependent variable",
+                "repeated trials",
+                "mean"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data, considering limitations of data analysis.",
+              "keywords": [
+                "graphical displays",
+                "data analysis",
+                "limitations",
+                "trends",
+                "patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, support explanations for phenomena, or test solutions to problems.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "phenomena explanation",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes in scientific contexts.",
+              "keywords": [
+                "mathematical concepts",
+                "statistical analysis",
+                "quantitative reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "validity",
+                "reliability",
+                "tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from multiple sources.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "peer review",
+                "model validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide an explanation of phenomena.",
+              "keywords": [
+                "scientific explanation",
+                "phenomena",
+                "principles",
+                "evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments in light of currently accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument evaluation",
+                "competing explanations",
+                "scientific evidence",
+                "peer review"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support a claim using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim support",
+                "empirical evidence",
+                "scientific reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate a claim by applying scientific reasoning, theory, and/or models to link evidence to conclusions.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theory",
+                "model validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "merits",
+                "limitations",
+                "scientific models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "evidence-based modeling",
+                "prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and/or interpret map scales, satellite imagery, diagrams, classification charts, graphs, tables, models, geologic cross-sections, and topographic profiles.",
+              "keywords": [
+                "map interpretation",
+                "satellite imagery",
+                "geologic cross-sections",
+                "topographic profiles",
+                "data visualization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and interpret topographic and basic geologic maps and globes, including location by latitude and longitude.",
+              "keywords": [
+                "topographic maps",
+                "geologic maps",
+                "latitude",
+                "longitude",
+                "map reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical and statistical concepts and processes in building and revising models.",
+              "keywords": [
+                "mathematical modeling",
+                "statistical analysis",
+                "model revision"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question.",
+              "keywords": [
+                "source evaluation",
+                "information integration",
+                "media literacy",
+                "scientific inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources.",
+              "keywords": [
+                "source gathering",
+                "scientific literature",
+                "credibility assessment",
+                "technical reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical writing",
+                "data presentation",
+                "multimedia"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Minerals",
+      "standards": [
+        {
+          "code": "GEO.2",
+          "description": "Investigate mineral formation, structure, properties, identification, distribution, and uses.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain mineral formation and resulting characteristics.",
+              "keywords": [
+                "mineral formation",
+                "crystal structure",
+                "modeling",
+                "geologic processes"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            },
+            {
+              "description": "Explain how the structure of a mineral results in specific mineral properties.",
+              "keywords": [
+                "mineral structure",
+                "crystal lattice",
+                "physical properties",
+                "chemical properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation to determine the physical and chemical characteristics of minerals.",
+              "keywords": [
+                "mineral identification",
+                "physical properties",
+                "chemical properties",
+                "investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            },
+            {
+              "description": "Explain how physical and chemical characteristics are used in mineral identification.",
+              "keywords": [
+                "mineral identification",
+                "hardness",
+                "streak",
+                "luster",
+                "cleavage",
+                "specific gravity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the cost and benefits of obtaining, refining, and utilizing mineral resources.",
+              "keywords": [
+                "mineral resources",
+                "economic geology",
+                "cost-benefit analysis",
+                "sustainability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the distribution of mineral resources of Virginia and compare to global distribution.",
+              "keywords": [
+                "mineral distribution",
+                "Virginia geology",
+                "global resources",
+                "economic geology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate how the properties of minerals determine their use.",
+              "keywords": [
+                "mineral properties",
+                "industrial uses",
+                "economic minerals",
+                "material science"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rocks",
+      "standards": [
+        {
+          "code": "GEO.3",
+          "description": "Investigate rock formation, transformation, properties, identification, and uses.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain how rock types form and transform through processes and geologic time.",
+              "keywords": [
+                "rock cycle",
+                "rock formation",
+                "geologic time",
+                "modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            },
+            {
+              "description": "Develop and use models (Bowen Reaction Series, crystal growth, weathering, erosion, lithification) to explain rock formations.",
+              "keywords": [
+                "Bowen Reaction Series",
+                "crystal growth",
+                "weathering",
+                "erosion",
+                "lithification",
+                "rock formation"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1",
+                "GEO.7"
+              ]
+            },
+            {
+              "description": "Plan and conduct an investigation to determine the physical and chemical characteristics of rocks.",
+              "keywords": [
+                "rock identification",
+                "physical properties",
+                "chemical properties",
+                "investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            },
+            {
+              "description": "Explain how characteristics are used to identify rocks.",
+              "keywords": [
+                "rock identification",
+                "texture",
+                "mineral composition",
+                "grain size",
+                "classification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the properties of rocks determine their use.",
+              "keywords": [
+                "rock properties",
+                "construction materials",
+                "industrial uses",
+                "economic geology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geological and Biological Events in Earth's History",
+      "standards": [
+        {
+          "code": "GEO.4",
+          "description": "Investigate major geological and biological events evident in rocks and fossils.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate a claim about the age of Earth.",
+              "keywords": [
+                "geologic time",
+                "radiometric dating",
+                "age of Earth",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about which radioactive isotope could be used to date a location.",
+              "keywords": [
+                "radiometric dating",
+                "isotope selection",
+                "half-life",
+                "geologic dating"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the significance of major geologic and biological events in Earth's history.",
+              "keywords": [
+                "geologic events",
+                "biological events",
+                "mass extinction",
+                "evolution",
+                "geologic time scale"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the coevolution of Earth's systems (hydrosphere, lithosphere, atmosphere, biosphere).",
+              "keywords": [
+                "Earth systems",
+                "coevolution",
+                "hydrosphere",
+                "lithosphere",
+                "atmosphere",
+                "biosphere"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how changes to ecosystem dynamics may have led to extinction.",
+              "keywords": [
+                "ecosystem dynamics",
+                "extinction",
+                "environmental change",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Infer geological events of a region based on correlating rock strata with and without fossils from different locations.",
+              "keywords": [
+                "stratigraphic correlation",
+                "fossil record",
+                "geologic events",
+                "relative dating"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about climate changes in Earth's history.",
+              "keywords": [
+                "paleoclimatology",
+                "climate change",
+                "geologic record",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the geologic history of Virginia and areas around the globe.",
+              "keywords": [
+                "Virginia geology",
+                "global geology",
+                "geologic history",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Volcanic Activity and Seismic Data",
+      "standards": [
+        {
+          "code": "GEO.5",
+          "description": "Investigate volcanic activity and seismic data to understand Earth's internal structure and geologic processes.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain volcanic processes, forces, and resulting surface and subsurface features.",
+              "keywords": [
+                "volcanic processes",
+                "magma composition",
+                "volcanic landforms",
+                "modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            },
+            {
+              "description": "Explain the relationship among magma composition, volcanic activity, and resulting landforms.",
+              "keywords": [
+                "magma composition",
+                "volcanic activity",
+                "landform formation",
+                "igneous processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the location of earthquake epicenters using seismic data.",
+              "keywords": [
+                "seismic data",
+                "earthquake epicenter",
+                "seismology",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            },
+            {
+              "description": "Infer Earth's internal structures and locate earthquake focus and epicenters using seismic wave velocities and travel paths.",
+              "keywords": [
+                "seismic waves",
+                "Earth's interior",
+                "earthquake focus",
+                "epicenter location",
+                "seismology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to explain effects of earthquake intensities and predict potential damage to communities.",
+              "keywords": [
+                "earthquake intensity",
+                "seismic hazard",
+                "community impact",
+                "modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            },
+            {
+              "description": "Debate advantages and disadvantages of solutions to reduce the effects of earthquakes or volcanoes on society.",
+              "keywords": [
+                "hazard mitigation",
+                "earthquake preparedness",
+                "volcanic hazard",
+                "risk assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plate Tectonics",
+      "standards": [
+        {
+          "code": "GEO.6",
+          "description": "Investigate the theory of plate tectonics to explain past and current movements of Earth's surface.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain how internal tectonic forces and processes result in plate movement.",
+              "keywords": [
+                "plate tectonics",
+                "tectonic forces",
+                "plate movement",
+                "modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how plate tectonics explains the age of rocks in different locations.",
+              "keywords": [
+                "plate tectonics",
+                "rock age",
+                "spreading centers",
+                "subduction zones",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the distribution of rocks and minerals reflects past tectonic activity.",
+              "keywords": [
+                "rock distribution",
+                "mineral distribution",
+                "tectonic activity",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim to explain the location and size of continents and oceans.",
+              "keywords": [
+                "continental drift",
+                "plate boundaries",
+                "ocean basins",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain tectonic events that created Virginia's physiographic provinces.",
+              "keywords": [
+                "Virginia geology",
+                "physiographic provinces",
+                "tectonic events",
+                "modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weathering, Erosion, and Deposition",
+      "standards": [
+        {
+          "code": "GEO.7",
+          "description": "Investigate how weathering, erosion, and deposition processes shape Earth's surface landforms.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain how agents of weathering, erosion, and deposition continually shape landforms.",
+              "keywords": [
+                "weathering",
+                "erosion",
+                "deposition",
+                "landform formation",
+                "modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            },
+            {
+              "description": "Plan and conduct an investigation about how variables influence rates of weathering, erosion, and deposition.",
+              "keywords": [
+                "weathering rates",
+                "erosion rates",
+                "deposition rates",
+                "investigation",
+                "variables"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "GEO.1"
+              ]
+            },
+            {
+              "description": "Identify a problem and propose a solution related to weathering, erosion, and/or deposition.",
+              "keywords": [
+                "problem identification",
+                "solution proposal",
+                "erosion control",
+                "land management"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how Virginia's landscape has changed over geologic history due to weathering, erosion, and deposition.",
+              "keywords": [
+                "Virginia geology",
+                "landscape evolution",
+                "geologic history",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how one change to Earth's surface can create feedback mechanisms affecting other Earth systems.",
+              "keywords": [
+                "Earth systems",
+                "feedback mechanisms",
+                "surface change",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

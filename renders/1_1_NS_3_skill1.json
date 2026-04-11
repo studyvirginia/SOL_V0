@@ -1,0 +1,79 @@
+{
+  "key": "1_1_NS_3_skill1",
+  "grade": "1",
+  "code": "1.NS.3",
+  "domain": "Number and Number Sense",
+  "course": "Grade 1 Math",
+  "desc": "Use mathematical reasoning and justification to solve contextual problems that involve partitioning models into two and four equal-sized parts.",
+  "skill_desc": "Represent equal shares of a whole with two or four sharers, when given a contextual problem.",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/1_1_NS_3_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{1}{2}",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=\\frac{1}{4}",
+        "color": "#FF3B30",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=\\frac{3}{4}",
+        "color": "#FF9500",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=1",
+        "color": "#34C759",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 1.2,
+      "top": 1.2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Representing Equal Shares"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

@@ -1,0 +1,700 @@
+{
+  "subject": "History",
+  "course": "Grade 3 History",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "3.SKILLS",
+          "description": "Apply history and social science skills to analyze information, think critically, and communicate understanding.",
+          "skills": [
+            {
+              "description": "Analyze and interpret information sources including artifacts, primary and secondary sources, charts, graphs, and diagrams.",
+              "keywords": [
+                "artifacts",
+                "primary sources",
+                "secondary sources",
+                "charts",
+                "graphs",
+                "diagrams",
+                "analysis",
+                "interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to identify and understand geographic features and connections.",
+              "keywords": [
+                "geographic skills",
+                "geographic features",
+                "geographic connections"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop questions and engage in critical thinking and analysis.",
+              "keywords": [
+                "question development",
+                "critical thinking",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use evidence to construct timelines, classify events, and distinguish fact from opinion.",
+              "keywords": [
+                "evidence",
+                "timelines",
+                "event classification",
+                "fact vs. opinion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast people, places, and events.",
+              "keywords": [
+                "comparison",
+                "contrast",
+                "people",
+                "places",
+                "events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify cause-and-effect relationships to clarify and explain content.",
+              "keywords": [
+                "cause-and-effect",
+                "relationships",
+                "explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use economic decision-making models to make informed economic decisions.",
+              "keywords": [
+                "economic decision-making",
+                "models",
+                "informed decisions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use content vocabulary to demonstrate learning through oral and written products.",
+              "keywords": [
+                "content vocabulary",
+                "oral communication",
+                "written communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civics",
+      "standards": [
+        {
+          "code": "3.1",
+          "description": "Define citizenship and explain the rights and responsibilities of United States citizenship.",
+          "skills": [
+            {
+              "description": "Recognize that Americans are people of diverse ethnic origins, customs, and traditions united by republican principles and respect for individual rights.",
+              "keywords": [
+                "diversity",
+                "republican government",
+                "individual rights",
+                "citizenship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the rights guaranteed to citizens in the First Amendment.",
+              "keywords": [
+                "First Amendment",
+                "citizen rights",
+                "freedom of speech",
+                "freedom of religion",
+                "freedom of the press"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand the importance of supporting and defending the Constitution of the United States and the Bill of Rights.",
+              "keywords": [
+                "Constitution",
+                "Bill of Rights",
+                "constitutional support",
+                "defense"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Respect and follow local, state, and federal laws.",
+              "keywords": [
+                "laws",
+                "legal compliance",
+                "civic responsibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Take part in the voting process when making classroom decisions.",
+              "keywords": [
+                "voting",
+                "classroom democracy",
+                "participation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand responsible digital citizenship.",
+              "keywords": [
+                "digital citizenship",
+                "online responsibility",
+                "ethical behavior"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "standards": [
+        {
+          "code": "3.2",
+          "description": "Locate and describe major geographic features of continents and oceans.",
+          "skills": [
+            {
+              "description": "Locate and describe the seven continents and the five oceans.",
+              "keywords": [
+                "continents",
+                "oceans",
+                "geographic location",
+                "description"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate and describe the equator, the Prime Meridian, and the four hemispheres.",
+              "keywords": [
+                "equator",
+                "Prime Meridian",
+                "hemispheres",
+                "geographic coordinates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.3",
+          "description": "Describe major geographic features of ancient societies on a world map.",
+          "skills": [
+            {
+              "description": "Identify and locate major bodies of water.",
+              "keywords": [
+                "bodies of water",
+                "geographic features",
+                "map location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and locate major mountain ranges.",
+              "keywords": [
+                "mountain ranges",
+                "geographic features",
+                "map location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how geographic features have impacted the lives of individuals.",
+              "keywords": [
+                "geographic impact",
+                "human settlement",
+                "environmental influence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Connect geography to major historical events.",
+              "keywords": [
+                "geography",
+                "historical events",
+                "cause-and-effect"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "standards": [
+        {
+          "code": "3.4",
+          "description": "Describe the geographic, political, economic, and social structures and innovations of ancient Egypt.",
+          "skills": [
+            {
+              "description": "Locate ancient Egypt on a map of the world.",
+              "keywords": [
+                "ancient Egypt",
+                "map location",
+                "geographic location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Connect the geography of ancient Egypt and its economy.",
+              "keywords": [
+                "ancient Egypt",
+                "geography",
+                "economy",
+                "resource utilization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain the government of ancient Egypt.",
+              "keywords": [
+                "ancient Egypt",
+                "government",
+                "pharaoh",
+                "bureaucracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the arts and innovations of ancient Egypt.",
+              "keywords": [
+                "ancient Egypt",
+                "arts",
+                "innovations",
+                "pyramids",
+                "hieroglyphics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain the architecture of ancient Egypt and its influence in the world today.",
+              "keywords": [
+                "ancient Egypt",
+                "architecture",
+                "pyramids",
+                "influence",
+                "monuments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.5",
+          "description": "Describe the geographic, political, economic, and social structures and innovations of ancient China.",
+          "skills": [
+            {
+              "description": "Locate ancient China on a map of the world.",
+              "keywords": [
+                "ancient China",
+                "map location",
+                "geographic location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Connect the geography of ancient China and its economy.",
+              "keywords": [
+                "ancient China",
+                "geography",
+                "economy",
+                "Silk Road",
+                "agriculture"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain the government of ancient China.",
+              "keywords": [
+                "ancient China",
+                "government",
+                "dynasties",
+                "mandate of heaven"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the arts and innovations of ancient China.",
+              "keywords": [
+                "ancient China",
+                "arts",
+                "innovations",
+                "paper",
+                "gunpowder",
+                "compass"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain the architecture of ancient China and its influence in the world today.",
+              "keywords": [
+                "ancient China",
+                "architecture",
+                "Great Wall",
+                "influence",
+                "pagodas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.6",
+          "description": "Describe the geographic, political, economic, and social structures and innovations of ancient Greece.",
+          "skills": [
+            {
+              "description": "Locate ancient Greece on a map of the world.",
+              "keywords": [
+                "ancient Greece",
+                "map location",
+                "geographic location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the unique geography of ancient Greece.",
+              "keywords": [
+                "ancient Greece",
+                "geography",
+                "city-states",
+                "mountains",
+                "seas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain direct democracy.",
+              "keywords": [
+                "direct democracy",
+                "Athens",
+                "citizen participation",
+                "assembly"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the arts and innovations of ancient Greece.",
+              "keywords": [
+                "ancient Greece",
+                "arts",
+                "innovations",
+                "philosophy",
+                "theater",
+                "sculpture"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain the architecture of ancient Greece and its influence in the world today.",
+              "keywords": [
+                "ancient Greece",
+                "architecture",
+                "columns",
+                "Parthenon",
+                "influence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.7",
+          "description": "Describe the geographic, political, economic, and social structures and innovations of ancient Rome.",
+          "skills": [
+            {
+              "description": "Locate ancient Rome on a map of the world.",
+              "keywords": [
+                "ancient Rome",
+                "map location",
+                "geographic location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Connect the geography of ancient Rome and its economy.",
+              "keywords": [
+                "ancient Rome",
+                "geography",
+                "economy",
+                "trade",
+                "agriculture"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain representative democracy.",
+              "keywords": [
+                "representative democracy",
+                "Roman Republic",
+                "Senate",
+                "consuls"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the arts and innovations of ancient Rome.",
+              "keywords": [
+                "ancient Rome",
+                "arts",
+                "innovations",
+                "roads",
+                "aqueducts",
+                "concrete"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain the architecture of ancient Rome and its influence in the world today.",
+              "keywords": [
+                "ancient Rome",
+                "architecture",
+                "Colosseum",
+                "arches",
+                "influence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.8",
+          "description": "Describe the geographic, political, economic, and social structures and innovations of the ancient empire of Mali.",
+          "skills": [
+            {
+              "description": "Locate the ancient empire of Mali on a map of the world.",
+              "keywords": [
+                "ancient Mali",
+                "map location",
+                "geographic location",
+                "West Africa"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Connect the geography of the ancient empire of Mali and its economy.",
+              "keywords": [
+                "ancient Mali",
+                "geography",
+                "economy",
+                "gold-salt trade",
+                "trans-Saharan trade"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain the government of the ancient empire of Mali.",
+              "keywords": [
+                "ancient Mali",
+                "government",
+                "Mansa Musa",
+                "empire",
+                "trade networks"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the arts and innovations of the ancient empire of Mali.",
+              "keywords": [
+                "ancient Mali",
+                "arts",
+                "innovations",
+                "Timbuktu",
+                "Islamic scholarship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain the architecture of the ancient empire of Mali and its influence in the world.",
+              "keywords": [
+                "ancient Mali",
+                "architecture",
+                "Great Mosque of Timbuktu",
+                "influence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.9",
+          "description": "Explain the basic structure of the United States government.",
+          "skills": [
+            {
+              "description": "Explain the purpose of governments and understand that other countries have governments similar to and different from that of the United States.",
+              "keywords": [
+                "government purpose",
+                "comparative government",
+                "United States",
+                "other nations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the Constitution supports the structure of the United States government.",
+              "keywords": [
+                "U.S. Constitution",
+                "government structure",
+                "separation of powers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe the three branches of government.",
+              "keywords": [
+                "branches of government",
+                "executive",
+                "legislative",
+                "judicial"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain what governments do at the national, state, and local levels.",
+              "keywords": [
+                "government levels",
+                "national",
+                "state",
+                "local",
+                "public services"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how local, state, and national governments are organized.",
+              "keywords": [
+                "government organization",
+                "federalism",
+                "local governance",
+                "state governance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economics",
+      "standards": [
+        {
+          "code": "3.10",
+          "description": "Explain basic economic principles.",
+          "skills": [
+            {
+              "description": "Define production, distribution, and consumption of goods and services.",
+              "keywords": [
+                "production",
+                "distribution",
+                "consumption",
+                "goods",
+                "services"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand different cultures and the natural, human, and capital resources they use in the production of goods and services.",
+              "keywords": [
+                "cultures",
+                "natural resources",
+                "human resources",
+                "capital resources",
+                "production"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that because people and regions cannot produce everything they want, they specialize in what they do best and trade for the rest.",
+              "keywords": [
+                "specialization",
+                "trade",
+                "economic interdependence",
+                "resource limitations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify examples of making an economic choice and explain the idea of opportunity cost.",
+              "keywords": [
+                "economic choice",
+                "opportunity cost",
+                "decision-making",
+                "trade-offs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

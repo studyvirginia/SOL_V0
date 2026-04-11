@@ -1,0 +1,150 @@
+{
+  "key": "3_3_MG_2_skill5",
+  "grade": "3",
+  "code": "3.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 3 Math",
+  "desc": "Estimate and solve problems involving area and perimeter using multiple representations.",
+  "skill_desc": "Determine the perimeter of a polygon with no more than six sides given the lengths of all sides.",
+  "skill_idx": 4,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/3_3_MG_2_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(4,3),(0,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "perimeter",
+        "latex": "4+3+4+3",
+        "color": "#34C759",
+        "label": "Perimeter = 14",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 5
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Perimeter of a Rectangle"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (5, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (5, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "D = (2, 3)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"D\")",
+      "SetLabelMode(D, 3)",
+      "E = (2, 1)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"E\")",
+      "SetLabelMode(E, 3)",
+      "F = (0, 1)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"F\")",
+      "SetLabelMode(F, 3)",
+      "poly = Polygon(A, B, C, D, E, F)",
+      "SetColor(poly, 0, 122, 255)",
+      "SetLabelVisible(poly, true)",
+      "SetCaption(poly, \"Perimeter = 18\")",
+      "SetLabelMode(poly, 3)"
+    ],
+    "view": [
+      -1,
+      6,
+      -1,
+      4
+    ],
+    "showGrid": true,
+    "title": "Perimeter of a polygon with 6 sides"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "B = (3, 0)",
+      "C = (4, 2)",
+      "D = (3, 4)",
+      "E = (0, 4)",
+      "F = (-1, 2)",
+      "Polygon(A, B, C, D, E, F)",
+      "perimeter = Length(Segment(A,B)) + Length(Segment(B,C)) + Length(Segment(C,D)) + Length(Segment(D,E)) + Length(Segment(E,F)) + Length(Segment(F,A))"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 t\u00ecm chu vi c\u1ee7a m\u1ed9t \u0111a gi\u00e1c, ta c\u1ea7n c\u1ed9ng \u0111\u1ed9 d\u00e0i c\u1ee7a t\u1ea5t c\u1ea3 c\u00e1c c\u1ea1nh c\u1ee7a n\u00f3. Tr"
+  }
+}

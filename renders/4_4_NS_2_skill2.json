@@ -1,0 +1,18 @@
+{
+  "key": "4_4_NS_2_skill2",
+  "grade": "4",
+  "code": "4.NS.2",
+  "domain": "Number and Number Sense",
+  "course": "Grade 4 Math",
+  "desc": "Compare and order whole numbers up to seven digits using the base 10 system.",
+  "skill_desc": "Order up to four whole numbers up to seven digits from least to greatest or greatest to least.",
+  "skill_idx": 1,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/4_4_NS_2_skill2.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

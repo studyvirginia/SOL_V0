@@ -1,0 +1,230 @@
+{
+  "key": "4_4_MG_5_skill6",
+  "grade": "4",
+  "code": "4.MG.5",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 4 Math",
+  "desc": "Classify and describe quadrilaterals using specific properties and attributes.",
+  "skill_desc": "Use symbolic notation to name line segments and angles in quadrilaterals.",
+  "skill_idx": 5,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/4_4_MG_5_skill6.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(4,3),(0,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "arc1",
+        "latex": "(0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1.5708"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel1",
+        "latex": "(0.55*\\cos(0.7854),0.55*\\sin(0.7854))",
+        "label": "90\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc2",
+        "latex": "(4+0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1.5708"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel2",
+        "latex": "(4+0.55*\\cos(0.7854),0.55*\\sin(0.7854))",
+        "label": "90\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc3",
+        "latex": "(4+0.4*\\cos(t),3+0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "3.1416",
+          "max": "4.7124"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel3",
+        "latex": "(4+0.55*\\cos(3.927),3+0.55*\\sin(3.927))",
+        "label": "90\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc4",
+        "latex": "(0+0.4*\\cos(t),3+0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "1.5708",
+          "max": "3.1416"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel4",
+        "latex": "(0+0.55*\\cos(2.3562),3+0.55*\\sin(2.3562))",
+        "label": "90\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": true,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": ""
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (4, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (4, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "D = (0, 3)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"D\")",
+      "SetLabelMode(D, 3)",
+      "quad = Polygon(A, B, C, D)",
+      "SetColor(quad, 0, 122, 255)",
+      "SetLabelVisible(quad, true)",
+      "SetCaption(quad, \"Quadrilateral ABCD\")",
+      "SetLabelMode(quad, 3)",
+      "Angle(A, B, C)",
+      "SetLabelVisible(Angle(A, B, C), true)",
+      "SetCaption(Angle(A, B, C), \"\u2220ABC\")",
+      "SetLabelMode(Angle(A, B, C), 3)",
+      "Angle(B, C, D)",
+      "SetLabelVisible(Angle(B, C, D), true)",
+      "SetCaption(Angle(B, C, D), \"\u2220BCD\")",
+      "SetLabelMode(Angle(B, C, D), 3)",
+      "Segment(A, B)",
+      "SetLabelVisible(Segment(A, B), true)",
+      "SetCaption(Segment(A, B), \"AB\")",
+      "SetLabelMode(Segment(A, B), 3)",
+      "Segment(B, C)",
+      "SetLabelVisible(Segment(B, C), true)",
+      "SetCaption(Segment(B, C), \"BC\")",
+      "SetLabelMode(Segment(B, C), 3)"
+    ],
+    "view": [
+      -1,
+      5,
+      -1,
+      4
+    ],
+    "showGrid": true,
+    "title": "Quadrilateral ABCD with labeled vertices, angles, and sides"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (3, 2)",
+      "C = (5, 1)",
+      "D = (4, 4)",
+      "Polygon(A, B, C, D)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 v\u1ebd m\u1ed9t t\u1ee9 gi\u00e1c v\u00e0 s\u1eed d\u1ee5ng k\u00fd hi\u1ec7u \u0111\u1ec3 \u0111\u1eb7t t\u00ean cho c\u00e1c \u0111o\u1ea1n th\u1eb3ng v\u00e0 g\u00f3c c\u1ee7a n\u00f3"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "key": "4_4_CE_3_skill4",
+  "grade": "4",
+  "code": "4.CE.3",
+  "domain": "Computation and Estimation",
+  "course": "Grade 4 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to single-step problems involving addition and subtraction of fractions and single-step problems involving multiplication of a whole number and a unit fraction.",
+  "skill_desc": "Apply the inverse property of multiplication in models (e.g., represent 4/4 or 1 as the product of 4 \u00d7 1/4).",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/4_4_CE_3_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "4\\cdot\\frac{1}{4}",
+        "color": "#007AFF",
+        "label": "4 x 1/4",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(1,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "label": "Solution",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 3
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "4 x 1/4 = 1"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

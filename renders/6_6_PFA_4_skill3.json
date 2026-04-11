@@ -1,0 +1,91 @@
+{
+  "key": "6_6_PFA_4_skill3",
+  "grade": "6",
+  "code": "6.PFA.4",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 6 Math",
+  "desc": "Represent a contextual situation using a linear inequality in one variable with symbols and graphs on a number line.",
+  "skill_desc": "Given a linear inequality in one variable, create a corresponding contextual situation or create a number line graph.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PFA_4_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "x+2\\ge 5",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "x=3",
+        "color": "#007AFF",
+        "lines": true,
+        "lineStyle": "SOLID",
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(3,0)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "Solution",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 8,
+      "top": 1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear Inequality on a Number Line"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x + 3",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = If(x >= 1, f(x), NaN)",
+      "SetColor(g, 0, 122, 255)",
+      "SetLineThickness(g, 3)",
+      "A = (1, 5)",
+      "SetPointStyle(A, 1)",
+      "SetPointSize(A, 7)",
+      "SetColor(A, 255, 0, 0)",
+      "SetCaption(A, \"(1, 5)\")",
+      "SetLabelMode(A, 3)"
+    ],
+    "view": [
+      -2,
+      5,
+      -1,
+      12
+    ],
+    "showGrid": true,
+    "title": "Linear Inequality: y >= 2x + 3"
+  },
+  "sketchmath_state": null
+}

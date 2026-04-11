@@ -1,0 +1,87 @@
+{
+  "key": "5_5_CE_3_skill1",
+  "grade": "5",
+  "code": "5.CE.3",
+  "domain": "Computation and Estimation",
+  "course": "Grade 5 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to problems using addition, subtraction, multiplication, and division with decimal numbers.",
+  "skill_desc": "Apply estimation strategies (rounding, compatible numbers, place value) to determine reasonable solutions for single-step and multistep contextual problems involving addition, subtraction, and multiplication of decimals.",
+  "skill_idx": 0,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/5_5_CE_3_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2.5x+1.25",
+        "color": "#007AFF",
+        "label": "Example Problem",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,1.25)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(-0.5,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -2,
+      "bottom": -1,
+      "right": 2,
+      "top": 3
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": ""
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2.5*x + 1.75",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 1.5*x + 4.25",
+      "SetColor(g, 255, 59, 48)",
+      "Intersect(f, g)",
+      "SetLabelVisible(Intersect(f, g), true)",
+      "SetCaption(Intersect(f, g), \"Intersection Point\")",
+      "SetLabelMode(Intersect(f, g), 3)"
+    ],
+    "view": [
+      -2,
+      5,
+      -1,
+      10
+    ],
+    "showGrid": true,
+    "title": "Estimating Solutions with Decimals"
+  },
+  "sketchmath_state": null
+}

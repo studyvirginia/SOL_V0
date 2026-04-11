@@ -1,0 +1,273 @@
+{
+  "key": "6_6_NS_3_skill3",
+  "grade": "6",
+  "code": "6.NS.3",
+  "domain": "Number and Number Sense",
+  "course": "Grade 6 Math",
+  "desc": "Recognize and represent patterns with whole number exponents and perfect squares.",
+  "skill_desc": "Justify if a number between 0 and 400 is a perfect square through modeling or mathematical reasoning.",
+  "skill_idx": 2,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_NS_3_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "L=\\left[0,1,4,9,16,25,36,49,64,81,100,121,144,169,196,225,256,289,324,361\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "L_{1}=\\left[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19\\right]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "P=\\operatorname{polygon}\\left(L_{1},L\\right)",
+        "color": "#34C759",
+        "fill": true,
+        "fillOpacity": 0.3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=x^{2}",
+        "color": "#FF3B30",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "0",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(1,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "1",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,4)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "4",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(3,9)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "9",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(4,16)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "16",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(5,25)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "25",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p7",
+        "latex": "(6,36)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "36",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p8",
+        "latex": "(7,49)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "49",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p9",
+        "latex": "(8,64)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "64",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p10",
+        "latex": "(9,81)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "81",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p11",
+        "latex": "(10,100)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "100",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p12",
+        "latex": "(11,121)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "121",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p13",
+        "latex": "(12,144)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "144",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p14",
+        "latex": "(13,169)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "169",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p15",
+        "latex": "(14,196)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "196",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p16",
+        "latex": "(15,225)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "225",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p17",
+        "latex": "(16,256)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "256",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p18",
+        "latex": "(17,289)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "289",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p19",
+        "latex": "(18,324)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "324",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p20",
+        "latex": "(19,361)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "361",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 20,
+      "top": 400
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Perfect Squares"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

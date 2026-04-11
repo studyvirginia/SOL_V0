@@ -1,0 +1,107 @@
+{
+  "key": "7_7_PFA_4_skill4",
+  "grade": "7",
+  "code": "7.PFA.4",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 7 Math",
+  "desc": "Write and solve one- and two-step linear inequalities in one variable, including contextual problems.",
+  "skill_desc": "Write one- or two-step linear inequalities in one variable to represent a verbal situation, including contextual problems.",
+  "skill_idx": 3,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_PFA_4_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "x+2\\geq 5",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "x+2<5",
+        "color": "#FF3B30",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "x\\geq 3",
+        "color": "#007AFF",
+        "lines": false,
+        "fill": true,
+        "fillOpacity": 0.3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "x=3",
+        "color": "#007AFF",
+        "lineStyle": "SOLID",
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(3,0)",
+        "color": "#FF3B30",
+        "label": "Solution",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "OPEN",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 7,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Solving x + 2 \u2265 5"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x + 3",
+      "g(x) = 7",
+      "Intersect(f, g)",
+      "SetColor(f, 0, 122, 255)",
+      "SetColor(g, 255, 0, 0)",
+      "A = (2, 7)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Solution: x = 2\")",
+      "SetLabelMode(A, 3)"
+    ],
+    "view": [
+      -2,
+      5,
+      -1,
+      10
+    ],
+    "showGrid": true,
+    "title": "2x + 3 < 7 (inequality)"
+  },
+  "sketchmath_state": null
+}

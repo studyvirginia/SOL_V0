@@ -1,0 +1,107 @@
+{
+  "key": "7_7_MG_2_skill3",
+  "grade": "7",
+  "code": "7.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 7 Math",
+  "desc": "Solve problems and justify relationships of similarity using proportional reasoning.",
+  "skill_desc": "Write similarity statements using symbols for two similar quadrilaterals or triangles.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_MG_2_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=2x",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=\\frac{1}{2}x",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -2,
+      "bottom": -2,
+      "right": 2,
+      "top": 2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Similar Linear Functions"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "B = (4, 0)",
+      "C = (2, 3)",
+      "tri1 = Polygon(A, B, C)",
+      "SetColor(tri1, 0, 122, 255)",
+      "D = (8, 0)",
+      "E = (12, 0)",
+      "F = (10, 6)",
+      "tri2 = Polygon(D, E, F)",
+      "SetColor(tri2, 255, 59, 48)",
+      "SetLabelMode(tri1, 3)",
+      "SetCaption(tri1, \"Triangle ABC\")",
+      "SetLabelMode(tri2, 3)",
+      "SetCaption(tri2, \"Triangle DEF\")",
+      "angA = Angle(B, A, C)",
+      "angD = Angle(E, D, F)",
+      "angB = Angle(A, B, C)",
+      "angE = Angle(D, E, F)",
+      "angC = Angle(B, C, A)",
+      "angF = Angle(E, F, D)",
+      "SetLabelVisible(angA, true)",
+      "SetLabelVisible(angB, true)",
+      "SetLabelVisible(angC, true)",
+      "SetLabelVisible(angD, true)",
+      "SetLabelVisible(angE, true)",
+      "SetLabelVisible(angF, true)",
+      "SetLabelMode(angA, 1)",
+      "SetLabelMode(angB, 1)",
+      "SetLabelMode(angC, 1)",
+      "SetLabelMode(angD, 1)",
+      "SetLabelMode(angE, 1)",
+      "SetLabelMode(angF, 1)"
+    ],
+    "view": [
+      -1,
+      13,
+      -1,
+      7
+    ],
+    "showGrid": true,
+    "title": "Similar Triangles"
+  },
+  "sketchmath_state": null
+}

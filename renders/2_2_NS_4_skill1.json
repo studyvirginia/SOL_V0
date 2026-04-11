@@ -1,0 +1,18 @@
+{
+  "key": "2_2_NS_4_skill1",
+  "grade": "2",
+  "code": "2.NS.4",
+  "domain": "Number and Number Sense",
+  "course": "Grade 2 Math",
+  "desc": "Solve problems involving counting and representing money amounts up to $2.00.",
+  "skill_desc": "Identify a quarter and its value and determine multiple ways to represent the value of a quarter using pennies, nickels, and/or dimes.",
+  "skill_idx": 0,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/2_2_NS_4_skill1.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

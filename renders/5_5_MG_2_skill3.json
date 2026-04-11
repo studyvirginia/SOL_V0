@@ -1,0 +1,185 @@
+{
+  "key": "5_5_MG_2_skill3",
+  "grade": "5",
+  "code": "5.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 5 Math",
+  "desc": "Solve problems involving perimeter, area, and volume using multiple representations.",
+  "skill_desc": "Describe volume as a measure of capacity and give examples in contextual situations.",
+  "skill_idx": 2,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/5_5_MG_2_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "A=(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "B=(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "C=(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "D=(0,3)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "\\operatorname{polygon}(A,B,C,D)",
+        "color": "#34C759",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "s=0.2",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e6",
+        "latex": "\\operatorname{polygon}((4,0),(4,s),(4-s,0))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e7",
+        "latex": "\\operatorname{polygon}((4,3),(4,3-s),(4-s,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e8",
+        "latex": "\\operatorname{polygon}((0,3),(0,3-s),(s,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e9",
+        "latex": "\\operatorname{polygon}((0,0),(0,s),(s,0))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 5
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Rectangle and Right Angles"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "cube = PolyhedronRegular(1, 1)",
+      "SetColor(cube, 0, 122, 255)",
+      "SetCaption(cube, \"Cube\")",
+      "SetLabelMode(cube, 3)",
+      "prism = PolyhedronRegular(2, 1)",
+      "SetColor(prism, 255, 0, 0)",
+      "SetCaption(prism, \"Triangular Prism\")",
+      "SetLabelMode(prism, 3)",
+      "cylinder = Cylinder(A, B, 1)",
+      "SetColor(cylinder, 0, 255, 0)",
+      "SetCaption(cylinder, \"Cylinder\")",
+      "SetLabelMode(cylinder, 3)",
+      "sphere = Sphere(A, 1)",
+      "SetColor(sphere, 255, 255, 0)",
+      "SetCaption(sphere, \"Sphere\")",
+      "SetLabelMode(sphere, 3)",
+      "cone = Cone(A, B, 1)",
+      "SetColor(cone, 142, 142, 147)",
+      "SetCaption(cone, \"Cone\")",
+      "SetLabelMode(cone, 3)",
+      "pyramid = PolyhedronRegular(5, 1)",
+      "SetColor(pyramid, 255, 128, 0)",
+      "SetCaption(pyramid, \"Square Pyramid\")",
+      "SetLabelMode(pyramid, 3)",
+      "A = (0, 0, 0)",
+      "B = (0, 0, 2)",
+      "SetVisible(A, false)",
+      "SetVisible(B, false)"
+    ],
+    "view": [
+      -2,
+      2,
+      -2,
+      2
+    ],
+    "showGrid": false,
+    "title": "Volume as Capacity: Cube, Prism, Cylinder, Sphere, Cone, Pyramid"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (2, 3)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "Xin l\u1ed7i v\u00ec l\u1ed7i tr\u01b0\u1edbc \u0111\u00f3. B\u00e2y gi\u1edd t\u00f4i s\u1ebd cung c\u1ea5p m\u1ed9t ph\u1ea3n h\u1ed3i JSON h\u1ee3p l\u1ec7 v\u1edbi \u00edt"
+  }
+}

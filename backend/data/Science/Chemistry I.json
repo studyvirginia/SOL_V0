@@ -1,0 +1,735 @@
+{
+  "subject": "Science",
+  "course": "Chemistry I",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "CH.1.AQ",
+          "description": "Ask questions and define problems based on observations, models, theories, or unexpected results.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from careful observation of phenomena, examination of a model or theory, unexpected results, or to seek additional information.",
+              "keywords": [
+                "phenomena observation",
+                "model analysis",
+                "theory evaluation",
+                "unexpected results",
+                "scientific questioning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of the school laboratory.",
+              "keywords": [
+                "laboratory investigation",
+                "feasibility assessment",
+                "experimental design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make hypotheses that specify what happens to a dependent variable when an independent variable is manipulated.",
+              "keywords": [
+                "hypothesis formulation",
+                "independent variable",
+                "dependent variable",
+                "cause-effect prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "research-based hypothesis",
+                "scientific principles",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define design problems that involve the development of a process or system with interacting components, criteria, and constraints.",
+              "keywords": [
+                "design problem",
+                "system development",
+                "criteria constraints",
+                "interacting components"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CH.1.PI",
+          "description": "Plan and carry out investigations or test design solutions safely and effectively.",
+          "skills": [
+            {
+              "description": "Individually and collaboratively plan and conduct observational and experimental investigations.",
+              "keywords": [
+                "investigation planning",
+                "collaborative research",
+                "observational study",
+                "experimental design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations or test design solutions in a safe manner, including planning for response to emergency situations.",
+              "keywords": [
+                "safety protocols",
+                "emergency response planning",
+                "risk assessment",
+                "laboratory safety"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect, record, analyze, and evaluate data.",
+              "keywords": [
+                "data collection tools",
+                "technology integration",
+                "data recording",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CH.1.IA",
+          "description": "Interpret, analyze, and evaluate data to make scientific claims or optimize designs.",
+          "skills": [
+            {
+              "description": "Record and present data in an organized format that communicates relationships and quantities in appropriate mathematical or algebraic forms.",
+              "keywords": [
+                "data organization",
+                "quantitative communication",
+                "mathematical representation",
+                "data presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data in building and revising models, supporting explanations for phenomena, or testing solutions to problems.",
+              "keywords": [
+                "model construction",
+                "phenomena explanation",
+                "solution testing",
+                "data-driven modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems using mathematical manipulations including the International System of Units (SI), scientific notation, derived units, significant digits, and dimensional analysis.",
+              "keywords": [
+                "SI units",
+                "scientific notation",
+                "dimensional analysis",
+                "significant figures",
+                "unit conversion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims or determine an optimal design solution.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "design optimization",
+                "reliability assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data graphically and use graphs to make predictions.",
+              "keywords": [
+                "graphical analysis",
+                "data visualization",
+                "trend prediction",
+                "graph interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between accuracy and precision of measurements.",
+              "keywords": [
+                "measurement accuracy",
+                "measurement precision",
+                "error analysis",
+                "uncertainty quantification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Consider limitations of data analysis when analyzing and interpreting data.",
+              "keywords": [
+                "data limitations",
+                "interpretation constraints",
+                "error sources",
+                "bias identification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data to optimize a design.",
+              "keywords": [
+                "design optimization",
+                "data-driven refinement",
+                "performance analysis",
+                "iterative improvement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CH.1.CC",
+          "description": "Construct and critique conclusions and explanations based on evidence.",
+          "skills": [
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence obtained from a variety of sources.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "source evaluation",
+                "revision process"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide an explanation of phenomena or design solutions.",
+              "keywords": [
+                "scientific application",
+                "phenomena explanation",
+                "design solution justification",
+                "principle application"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments in light of currently accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument comparison",
+                "scientific evidence",
+                "explanation evaluation",
+                "peer review"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct arguments or counterarguments based on data and evidence.",
+              "keywords": [
+                "argument construction",
+                "data-driven reasoning",
+                "counterargument development",
+                "evidence synthesis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between scientific hypothesis, theory, and law.",
+              "keywords": [
+                "hypothesis vs theory",
+                "scientific law",
+                "theoretical framework",
+                "empirical validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CH.1.MD",
+          "description": "Develop and use models to illustrate or predict relationships.",
+          "skills": [
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model limitations",
+                "scientific modeling",
+                "theoretical assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships.",
+              "keywords": [
+                "model development",
+                "evidence-based modeling",
+                "relationship prediction",
+                "model revision"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use models and simulations to visualize and explain the movement of particles, to represent chemical reactions, to formulate mathematical equations, and to interpret data sets.",
+              "keywords": [
+                "particle visualization",
+                "chemical reaction modeling",
+                "mathematical formulation",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CH.1.CI",
+          "description": "Obtain, evaluate, and communicate scientific and technical information.",
+          "skills": [
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question or solve a problem.",
+              "keywords": [
+                "source comparison",
+                "information integration",
+                "media evaluation",
+                "scientific communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing the evidence and credibility of each source.",
+              "keywords": [
+                "source credibility",
+                "evidence assessment",
+                "authoritative sources",
+                "information synthesis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena and/or a design process in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "multi-format presentation",
+                "phenomena explanation",
+                "design process documentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Atomic Structure and Periodic Table",
+      "standards": [
+        {
+          "code": "CH.2.AS",
+          "description": "Investigate and understand that elements have properties based on their atomic structure and that the periodic table is an organizational tool for elements based on these properties.",
+          "skills": [
+            {
+              "description": "Use average atomic mass, isotopes, mass number, and atomic number to describe and compare elements.",
+              "keywords": [
+                "atomic mass",
+                "isotopes",
+                "mass number",
+                "atomic number",
+                "element comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and analyze nuclear decay.",
+              "keywords": [
+                "nuclear decay",
+                "radioactive decay",
+                "half-life",
+                "decay series"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use trends within groups and periods including atomic radii, electronegativity, shielding effect, and ionization energy to predict element properties.",
+              "keywords": [
+                "periodic trends",
+                "atomic radii",
+                "electronegativity",
+                "shielding effect",
+                "ionization energy",
+                "element prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use electron configurations, valence electrons, excited electrons, and ions to explain chemical behavior.",
+              "keywords": [
+                "electron configuration",
+                "valence electrons",
+                "excited electrons",
+                "ions",
+                "chemical behavior"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe historical and quantum models of the atom.",
+              "keywords": [
+                "atomic models",
+                "historical models",
+                "quantum model",
+                "electron orbitals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemical Reactions and Bonding",
+      "standards": [
+        {
+          "code": "CH.3.CR",
+          "description": "Investigate and understand that atoms are conserved in chemical reactions and use chemical properties to describe and predict chemical interactions.",
+          "skills": [
+            {
+              "description": "Use chemical formulas as models to represent the number of each type of atom in a substance.",
+              "keywords": [
+                "chemical formula",
+                "subscript notation",
+                "atom representation",
+                "molecular composition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Name substances based on the number of atoms and the type of interactions between atoms.",
+              "keywords": [
+                "chemical nomenclature",
+                "atom count",
+                "bond type",
+                "substance naming"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and balance chemical equations to model rearrangement of atoms in chemical reactions.",
+              "keywords": [
+                "chemical equation",
+                "balancing equations",
+                "atom rearrangement",
+                "stoichiometry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how atoms bond based on electron interactions.",
+              "keywords": [
+                "chemical bonding",
+                "electron interactions",
+                "bond formation",
+                "valence electrons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use molecular geometry to predict physical and chemical properties.",
+              "keywords": [
+                "molecular geometry",
+                "VSEPR theory",
+                "physical properties",
+                "chemical properties",
+                "molecular shape"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict and classify reaction types.",
+              "keywords": [
+                "reaction classification",
+                "reaction prediction",
+                "synthesis",
+                "decomposition",
+                "single replacement",
+                "double replacement",
+                "combustion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Molar Relationships",
+      "standards": [
+        {
+          "code": "CH.4.MR",
+          "description": "Investigate and understand that molar relationships compare and predict chemical quantities.",
+          "skills": [
+            {
+              "description": "Apply Avogadro’s principle as the basis for molar relationships.",
+              "keywords": [
+                "Avogadro’s principle",
+                "molar volume",
+                "mole concept",
+                "particle count"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use stoichiometry to mathematically describe quantities in chemical composition and in chemical reactions.",
+              "keywords": [
+                "stoichiometry",
+                "mole ratios",
+                "limiting reactant",
+                "theoretical yield",
+                "chemical quantities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solutions",
+      "standards": [
+        {
+          "code": "CH.5.SO",
+          "description": "Investigate and understand that solutions behave in predictable and quantifiable ways.",
+          "skills": [
+            {
+              "description": "Use molar relationships to determine solution concentration.",
+              "keywords": [
+                "solution concentration",
+                "molarity",
+                "molality",
+                "mole fraction",
+                "solution preparation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how changes in temperature can affect solubility.",
+              "keywords": [
+                "solubility",
+                "temperature effects",
+                "solubility curves",
+                "Le Chatelier’s principle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish types of electrolytes based on extent of dissociation.",
+              "keywords": [
+                "electrolytes",
+                "dissociation",
+                "strong electrolytes",
+                "weak electrolytes",
+                "nonelectrolytes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use pH and pOH to quantify acid and base dissociation.",
+              "keywords": [
+                "pH",
+                "pOH",
+                "acid dissociation",
+                "base dissociation",
+                "ionization constant"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how colligative properties depend on the extent of dissociation.",
+              "keywords": [
+                "colligative properties",
+                "boiling point elevation",
+                "freezing point depression",
+                "osmotic pressure",
+                "dissociation extent"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Phases of Matter and Kinetic Molecular Theory",
+      "standards": [
+        {
+          "code": "CH.6.PM",
+          "description": "Investigate and understand that the phases of matter are explained by the kinetic molecular theory.",
+          "skills": [
+            {
+              "description": "Use pressure and temperature to define the phase of a substance.",
+              "keywords": [
+                "phase diagram",
+                "phase change",
+                "pressure-temperature relationship",
+                "phase definition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply gas laws to describe properties of ideal gases.",
+              "keywords": [
+                "ideal gas law",
+                "Boyle’s law",
+                "Charles’s law",
+                "Gay-Lussac’s law",
+                "combined gas law"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how intermolecular forces affect physical properties.",
+              "keywords": [
+                "intermolecular forces",
+                "hydrogen bonding",
+                "dipole-dipole forces",
+                "London dispersion forces",
+                "physical properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thermodynamics",
+      "standards": [
+        {
+          "code": "CH.7.TH",
+          "description": "Investigate and understand that thermodynamics explains the relationship between matter and energy.",
+          "skills": [
+            {
+              "description": "Explain how heat energy affects matter and interactions of matter.",
+              "keywords": [
+                "heat transfer",
+                "thermal energy",
+                "matter interaction",
+                "energy exchange"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret heating curves to obtain information about a substance.",
+              "keywords": [
+                "heating curve",
+                "phase change",
+                "temperature plateau",
+                "substance properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between endothermic and exothermic reactions.",
+              "keywords": [
+                "endothermic reactions",
+                "exothermic reactions",
+                "enthalpy change",
+                "energy absorption/release"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how energy changes in reactions occur as bonds are broken and formed.",
+              "keywords": [
+                "bond energy",
+                "bond breaking",
+                "bond formation",
+                "energy change",
+                "reaction energetics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use collision theory to predict the rate of reactions.",
+              "keywords": [
+                "collision theory",
+                "reaction rate",
+                "activation energy",
+                "collision frequency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how rates of reactions depend on catalysts and activation energy.",
+              "keywords": [
+                "reaction rate",
+                "catalysts",
+                "activation energy",
+                "reaction mechanism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how enthalpy and entropy determine the extent of a reaction.",
+              "keywords": [
+                "enthalpy",
+                "entropy",
+                "Gibbs free energy",
+                "reaction spontaneity",
+                "reaction extent"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

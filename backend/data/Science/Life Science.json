@@ -1,0 +1,694 @@
+{
+  "subject": "Science",
+  "course": "Life Science",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "LS.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, analysis, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions and develop hypotheses to determine relationships between independent and dependent variables.",
+              "keywords": [
+                "hypothesis",
+                "independent variable",
+                "dependent variable",
+                "relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Offer simple solutions to design problems.",
+              "keywords": [
+                "design solutions",
+                "engineering design",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Independently and collaboratively plan and conduct observational and experimental investigations; identify variables, constants, and controls where appropriate.",
+              "keywords": [
+                "investigations",
+                "variables",
+                "constants",
+                "controls",
+                "experimental design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Include the safe use of chemicals and equipment in investigations.",
+              "keywords": [
+                "safety",
+                "chemicals",
+                "equipment",
+                "laboratory safety"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the accuracy of various methods for collecting data.",
+              "keywords": [
+                "data collection",
+                "accuracy",
+                "methods",
+                "evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Take metric measurements using appropriate tools and technologies including microscopes.",
+              "keywords": [
+                "metric measurements",
+                "tools",
+                "microscopes",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify, interpret, and evaluate patterns in data.",
+              "keywords": [
+                "data patterns",
+                "interpretation",
+                "evaluation",
+                "trends"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data.",
+              "keywords": [
+                "graphical displays",
+                "data analysis",
+                "interpretation",
+                "graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast data collected by different groups and discuss similarities and differences in findings.",
+              "keywords": [
+                "data comparison",
+                "group analysis",
+                "findings",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Consider limitations of data analysis and/or seek to improve precision and accuracy of data.",
+              "keywords": [
+                "data limitations",
+                "precision",
+                "accuracy",
+                "improvement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to evaluate and refine design solutions.",
+              "keywords": [
+                "data evaluation",
+                "design refinement",
+                "solutions",
+                "engineering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct explanations that include qualitative or quantitative relationships between variables.",
+              "keywords": [
+                "explanations",
+                "qualitative relationships",
+                "quantitative relationships",
+                "variables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct scientific explanations based on valid and reliable evidence obtained from sources.",
+              "keywords": [
+                "scientific explanations",
+                "evidence",
+                "validity",
+                "reliability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between a scientific hypothesis and theory.",
+              "keywords": [
+                "hypothesis",
+                "theory",
+                "scientific method",
+                "differentiation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and use models and simulations to illustrate, predict, and/or explain phenomena, life processes, or mechanisms.",
+              "keywords": [
+                "models",
+                "simulations",
+                "phenomena",
+                "prediction",
+                "explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate limitations of models.",
+              "keywords": [
+                "model limitations",
+                "evaluation",
+                "simplification",
+                "accuracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read scientific texts to obtain scientific and/or technical information.",
+              "keywords": [
+                "scientific texts",
+                "information retrieval",
+                "technical reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and synthesize information from multiple sources and assess credibility, accuracy, and bias.",
+              "keywords": [
+                "information synthesis",
+                "credibility",
+                "accuracy",
+                "bias assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, use, and/or present an argument supported by empirical evidence and scientific reasoning.",
+              "keywords": [
+                "argument construction",
+                "empirical evidence",
+                "scientific reasoning",
+                "presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cells and Cell Theory",
+      "standards": [
+        {
+          "code": "LS.2",
+          "description": "Investigate and understand that all living things are composed of cells and the role of cell theory in supporting life processes.",
+          "skills": [
+            {
+              "description": "Recognize that all living things are composed of one or more cells.",
+              "keywords": [
+                "cells",
+                "living organisms",
+                "cell theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the development of the cell theory demonstrates the nature of science.",
+              "keywords": [
+                "cell theory",
+                "nature of science",
+                "historical development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how cell structure and organelles support life processes.",
+              "keywords": [
+                "cell structure",
+                "organelles",
+                "life processes",
+                "cell function"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast plant and animal cells and how they support life processes.",
+              "keywords": [
+                "plant cells",
+                "animal cells",
+                "comparison",
+                "life processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how cell division is the mechanism for growth and reproduction.",
+              "keywords": [
+                "cell division",
+                "mitosis",
+                "meiosis",
+                "growth",
+                "reproduction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how cellular transport (osmosis and diffusion) is important for life processes.",
+              "keywords": [
+                "cellular transport",
+                "osmosis",
+                "diffusion",
+                "membrane transport"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Levels of Structural Organization and Classification",
+      "standards": [
+        {
+          "code": "LS.3",
+          "description": "Investigate and understand levels of structural organization in living things and the classification of organisms.",
+          "skills": [
+            {
+              "description": "Describe how patterns of cellular organization support life processes.",
+              "keywords": [
+                "cellular organization",
+                "tissues",
+                "organs",
+                "organ systems",
+                "life processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare structures in unicellular and multicellular organisms.",
+              "keywords": [
+                "unicellular organisms",
+                "multicellular organisms",
+                "structural comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use similar characteristics to determine the classification of organisms.",
+              "keywords": [
+                "classification",
+                "taxonomy",
+                "characteristics",
+                "binomial nomenclature"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemical Processes and Energy Transfer",
+      "standards": [
+        {
+          "code": "LS.4",
+          "description": "Investigate and understand chemical processes of energy transfer important for life.",
+          "skills": [
+            {
+              "description": "Explain how photosynthesis is the foundation of virtually all food webs.",
+              "keywords": [
+                "photosynthesis",
+                "food webs",
+                "energy transfer",
+                "autotrophs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how photosynthesis and cellular respiration support life processes.",
+              "keywords": [
+                "photosynthesis",
+                "cellular respiration",
+                "ATP",
+                "energy transfer",
+                "metabolism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem Matter and Energy",
+      "standards": [
+        {
+          "code": "LS.5",
+          "description": "Investigate and understand how biotic and abiotic factors affect ecosystems.",
+          "skills": [
+            {
+              "description": "Describe how matter moves through ecosystems via the carbon, water, and nitrogen cycles.",
+              "keywords": [
+                "carbon cycle",
+                "water cycle",
+                "nitrogen cycle",
+                "matter cycling",
+                "ecosystems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use food webs and energy pyramids to represent energy flow in ecosystems.",
+              "keywords": [
+                "food webs",
+                "energy pyramids",
+                "trophic levels",
+                "energy flow"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe relationships among producers, consumers, and decomposers.",
+              "keywords": [
+                "producers",
+                "consumers",
+                "decomposers",
+                "trophic levels",
+                "energy transfer"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Population Interactions and Interdependence",
+      "standards": [
+        {
+          "code": "LS.6",
+          "description": "Investigate and understand interactions and interdependence among populations in biological communities.",
+          "skills": [
+            {
+              "description": "Describe relationships between predators and prey and how these relationships are modeled in food webs.",
+              "keywords": [
+                "predator-prey relationships",
+                "food webs",
+                "population dynamics",
+                "trophic interactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the availability and use of resources may lead to competition and cooperation.",
+              "keywords": [
+                "resource competition",
+                "cooperation",
+                "niche overlap",
+                "population interactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how symbiotic relationships support the survival of different species.",
+              "keywords": [
+                "symbiosis",
+                "mutualism",
+                "commensalism",
+                "parasitism",
+                "species interactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the niche of each organism supports survival.",
+              "keywords": [
+                "niche",
+                "habitat",
+                "species role",
+                "survival strategies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adaptations and Ecosystems",
+      "standards": [
+        {
+          "code": "LS.7",
+          "description": "Investigate and understand how adaptations support an organism’s survival in an ecosystem.",
+          "skills": [
+            {
+              "description": "Describe how biotic and abiotic factors define land, marine, and freshwater ecosystems.",
+              "keywords": [
+                "biotic factors",
+                "abiotic factors",
+                "ecosystems",
+                "biomes",
+                "habitat classification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how physical and behavioral characteristics enable organisms to survive within a specific ecosystem.",
+              "keywords": [
+                "physical adaptations",
+                "behavioral adaptations",
+                "survival strategies",
+                "ecological niche"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ecosystem Dynamics and Change",
+      "standards": [
+        {
+          "code": "LS.8",
+          "description": "Investigate and understand how ecosystems, communities, populations, and organisms change over time.",
+          "skills": [
+            {
+              "description": "Describe how organisms respond to daily, seasonal, and long-term changes.",
+              "keywords": [
+                "phenotypic plasticity",
+                "seasonal changes",
+                "long-term adaptation",
+                "environmental response"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how changes in the environment may increase or decrease population size.",
+              "keywords": [
+                "population dynamics",
+                "carrying capacity",
+                "environmental changes",
+                "population growth"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how large-scale changes such as eutrophication, climate change, and catastrophic disturbances affect ecosystems.",
+              "keywords": [
+                "eutrophication",
+                "climate change",
+                "catastrophic disturbances",
+                "ecosystem disruption"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human Activity and Ecosystems",
+      "standards": [
+        {
+          "code": "LS.9",
+          "description": "Investigate and understand relationships between ecosystem dynamics and human activity.",
+          "skills": [
+            {
+              "description": "Explain how changes in habitat can disturb populations.",
+              "keywords": [
+                "habitat alteration",
+                "population disturbance",
+                "human impact",
+                "conservation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how disruptions in ecosystems can change species competition.",
+              "keywords": [
+                "species competition",
+                "ecosystem disruption",
+                "resource availability",
+                "human impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how variations in biotic and abiotic factors can change ecosystems.",
+              "keywords": [
+                "biotic factors",
+                "abiotic factors",
+                "ecosystem change",
+                "environmental variation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Genetics and Heredity",
+      "standards": [
+        {
+          "code": "LS.10",
+          "description": "Investigate and understand how organisms reproduce and transmit genetic information to new generations.",
+          "skills": [
+            {
+              "description": "Explain that DNA has a role in making proteins that determine organism traits.",
+              "keywords": [
+                "DNA",
+                "protein synthesis",
+                "gene expression",
+                "traits",
+                "genetics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain that the role of meiosis is to transfer traits to the next generation.",
+              "keywords": [
+                "meiosis",
+                "genetic variation",
+                "trait transfer",
+                "gamete formation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use Punnett squares as mathematical models to predict the probability of traits in offspring.",
+              "keywords": [
+                "Punnett squares",
+                "probability",
+                "genetic prediction",
+                "Mendelian genetics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Populations and Evolution",
+      "standards": [
+        {
+          "code": "LS.11",
+          "description": "Investigate and understand how populations of organisms can change over time.",
+          "skills": [
+            {
+              "description": "Explain how mutation, adaptation, natural selection, and extinction change populations.",
+              "keywords": [
+                "mutation",
+                "adaptation",
+                "natural selection",
+                "extinction",
+                "population change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the fossil record, genetic information, and anatomical comparisons provide evidence for evolution.",
+              "keywords": [
+                "fossil record",
+                "genetic evidence",
+                "anatomical comparisons",
+                "evolutionary evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how environmental factors and genetic variation influence survivability and diversity of organisms.",
+              "keywords": [
+                "environmental factors",
+                "genetic variation",
+                "survivability",
+                "biodiversity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

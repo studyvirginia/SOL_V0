@@ -1,0 +1,135 @@
+{
+  "key": "7_7_NS_1_skill2",
+  "grade": "7",
+  "code": "7.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 7 Math",
+  "desc": "Investigate and describe exponents for powers of ten and compare/order numbers in scientific notation.",
+  "skill_desc": "Represent a power of 10 with a negative exponent in fraction and decimal form.",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_NS_1_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "10^{-1}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "\\frac{1}{10}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "0.1",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "10^{-2}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "\\frac{1}{100}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "0.01",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e7",
+        "latex": "10^{-3}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e8",
+        "latex": "\\frac{1}{1000}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e9",
+        "latex": "0.001",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -0.1,
+      "right": 1,
+      "top": 1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Powers of 10 with Negative Exponents"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 10^x",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 10^(-1)",
+      "SetColor(g, 255, 0, 0)",
+      "h(x) = 10^(-2)",
+      "SetColor(h, 0, 255, 0)",
+      "i(x) = 10^(-3)",
+      "SetColor(i, 255, 165, 0)",
+      "j(x) = 10^(-4)",
+      "SetColor(j, 128, 0, 128)",
+      "k(x) = 10^(-5)",
+      "SetColor(k, 0, 0, 0)"
+    ],
+    "view": [
+      -5,
+      1,
+      -0.1,
+      10
+    ],
+    "showGrid": true,
+    "title": "Powers of 10 with Negative Exponents"
+  },
+  "sketchmath_state": null
+}

@@ -1,0 +1,97 @@
+{
+  "key": "3_3_PS_1_skill4",
+  "grade": "3",
+  "code": "3.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 3 Math",
+  "desc": "Apply the data cycle to formulate questions, collect data, organize and represent data, and analyze results using pictographs and bar graphs.",
+  "skill_desc": "Organize and represent a data set using bar graphs with a title, labeled axes, and an appropriate scale (increments of 1, 2, 5, or 10).",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/3_3_PS_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "t1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y",
+            "values": [
+              "3",
+              "5",
+              "2",
+              "4",
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e1",
+        "latex": "BarGraph(t1.x,t1.y)",
+        "color": "#007AFF",
+        "lines": false,
+        "points": false,
+        "fill": true,
+        "fillOpacity": 0.7,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "l1",
+        "latex": "y=0",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "l2",
+        "latex": "x=0",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 6
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Bar Graph"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

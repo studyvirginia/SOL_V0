@@ -1,0 +1,102 @@
+{
+  "key": "5_5_MG_1_skill3",
+  "grade": "5",
+  "code": "5.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 5 Math",
+  "desc": "Solve problems involving length, mass, and liquid volume using metric units.",
+  "skill_desc": "Determine the most appropriate metric unit of measure for liquid volume (milliliters, liters) in a contextual problem.",
+  "skill_idx": 2,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/5_5_MG_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "1\\text{ liter} = 1000\\text{ milliliters}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "V = 2\\text{ liters}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "V = 2000\\text{ milliliters}",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 3
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Metric Volume Conversion"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "bottle = Polygon((0,0), (0,5), (1,5), (1,0))",
+      "SetColor(bottle, 0, 122, 255)",
+      "SetCaption(bottle, \"Bottle\")",
+      "SetLabelMode(bottle, 3)",
+      "literMark = Line((0, 4), (1, 4))",
+      "SetColor(literMark, 255, 0, 0)",
+      "SetLineThickness(literMark, 3)",
+      "SetCaption(literMark, \"1 Liter\")",
+      "SetLabelMode(literMark, 3)",
+      "halfLiterMark = Line((0, 2), (1, 2))",
+      "SetColor(halfLiterMark, 255, 0, 0)",
+      "SetLineThickness(halfLiterMark, 3)",
+      "SetCaption(halfLiterMark, \"0.5 Liter\")",
+      "SetLabelMode(halfLiterMark, 3)",
+      "milliliterMark = Line((0, 0.5), (1, 0.5))",
+      "SetColor(milliliterMark, 255, 0, 0)",
+      "SetLineThickness(milliliterMark, 3)",
+      "SetCaption(milliliterMark, \"100 mL\")",
+      "SetLabelMode(milliliterMark, 3)"
+    ],
+    "view": [
+      -0.5,
+      1.5,
+      -0.5,
+      5.5
+    ],
+    "showGrid": true,
+    "title": "Metric Liquid Volume: Liters and Milliliters"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (2, 3)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "Xin l\u1ed7i v\u00ec l\u1ed7i tr\u01b0\u1edbc \u0111\u00f3. B\u00e2y gi\u1edd t\u00f4i s\u1ebd cung c\u1ea5p m\u1ed9t ph\u1ea3n h\u1ed3i JSON h\u1ee3p l\u1ec7 v\u1edbi \u00edt"
+  }
+}

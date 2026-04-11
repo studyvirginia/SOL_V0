@@ -1,0 +1,903 @@
+{
+  "subject": "Math",
+  "course": "Grade 7 Math",
+  "domains": [
+    {
+      "name": "Number and Number Sense",
+      "standards": [
+        {
+          "code": "7.NS.1",
+          "description": "Investigate and describe exponents for powers of ten and compare/order numbers in scientific notation.",
+          "skills": [
+            {
+              "description": "Investigate and describe powers of 10 with negative exponents by examining patterns.",
+              "keywords": [
+                "exponents",
+                "powers of 10",
+                "negative exponents",
+                "patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent a power of 10 with a negative exponent in fraction and decimal form.",
+              "keywords": [
+                "negative exponents",
+                "fraction form",
+                "decimal form",
+                "scientific notation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Convert between numbers greater than 0 written in scientific notation and decimals.",
+              "keywords": [
+                "scientific notation",
+                "decimal conversion",
+                "positive numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and order no more than four numbers greater than 0 written in scientific notation.",
+              "keywords": [
+                "scientific notation",
+                "comparison",
+                "ordering",
+                "ascending",
+                "descending"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "7.NS.2",
+          "description": "Use multiple strategies to compare and order rational numbers.",
+          "skills": [
+            {
+              "description": "Use benchmarks, number lines, and equivalency to compare rational numbers using <, >, =.",
+              "keywords": [
+                "rational numbers",
+                "comparison",
+                "benchmarks",
+                "number line",
+                "equivalency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Order a set of no more than four rational numbers (integers, fractions, mixed numbers, decimals, percents) in ascending or descending order.",
+              "keywords": [
+                "rational numbers",
+                "ordering",
+                "ascending",
+                "descending",
+                "fractions",
+                "decimals",
+                "percents"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify solutions to comparisons and orderings orally, in writing, or with a model.",
+              "keywords": [
+                "justification",
+                "rational numbers",
+                "comparison",
+                "ordering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "7.NS.3",
+          "description": "Recognize and describe the relationship between square roots and perfect squares.",
+          "skills": [
+            {
+              "description": "Determine the positive square root of a perfect square from 0 to 400.",
+              "keywords": [
+                "square root",
+                "perfect square",
+                "0 to 400"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the relationship between square roots and perfect squares.",
+              "keywords": [
+                "square root",
+                "perfect square",
+                "relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computation and Estimation",
+      "standards": [
+        {
+          "code": "7.CE.1",
+          "description": "Estimate, solve, and justify solutions to multistep contextual problems involving operations with rational numbers.",
+          "skills": [
+            {
+              "description": "Estimate solutions to contextual problems involving addition, subtraction, multiplication, and division with rational numbers.",
+              "keywords": [
+                "estimation",
+                "rational numbers",
+                "contextual problems",
+                "operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve multistep contextual problems involving addition, subtraction, multiplication, and division with rational numbers.",
+              "keywords": [
+                "rational numbers",
+                "contextual problems",
+                "operations",
+                "multistep"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify solutions to multistep contextual problems involving operations with rational numbers.",
+              "keywords": [
+                "justification",
+                "rational numbers",
+                "contextual problems",
+                "operations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "7.CE.2",
+          "description": "Solve problems involving proportional relationships, including unit conversions and percentages.",
+          "skills": [
+            {
+              "description": "Create and use a ratio table to determine missing values in a proportional relationship.",
+              "keywords": [
+                "proportional relationship",
+                "ratio table",
+                "missing values"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write and solve a proportion to find a missing value in a proportional relationship, including contextual problems.",
+              "keywords": [
+                "proportion",
+                "proportional relationship",
+                "missing value",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply proportional reasoning to solve problems in context, including unit conversions.",
+              "keywords": [
+                "proportional reasoning",
+                "unit conversion",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and determine the percentage of a given whole number using benchmark percentages.",
+              "keywords": [
+                "percentage",
+                "benchmark percentages",
+                "whole number"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Measurement and Geometry",
+      "standards": [
+        {
+          "code": "7.MG.1",
+          "description": "Investigate and apply volume and surface area formulas for right cylinders and rectangular prisms.",
+          "skills": [
+            {
+              "description": "Develop the formula for the volume of right cylinders and solve contextual problems using the formula.",
+              "keywords": [
+                "volume",
+                "right cylinder",
+                "formula development",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop the formulas for surface area of rectangular prisms and right cylinders and solve contextual problems using the formulas.",
+              "keywords": [
+                "surface area",
+                "rectangular prism",
+                "right cylinder",
+                "formula development",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine if a contextual problem involving a rectangular prism or right cylinder represents volume or surface area.",
+              "keywords": [
+                "volume",
+                "surface area",
+                "rectangular prism",
+                "right cylinder",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the volume of a rectangular prism is affected when one measured attribute is multiplied by a factor of 1/2, 1/3, 1/4, 2, 3, or 4.",
+              "keywords": [
+                "volume",
+                "rectangular prism",
+                "scaling",
+                "factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the surface area of a rectangular prism is affected when one measured attribute is multiplied by a factor of 1/2 or 2.",
+              "keywords": [
+                "surface area",
+                "rectangular prism",
+                "scaling",
+                "factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "7.MG.2",
+          "description": "Solve problems and justify relationships of similarity using proportional reasoning.",
+          "skills": [
+            {
+              "description": "Identify corresponding congruent angles of similar quadrilaterals and triangles using geometric markings.",
+              "keywords": [
+                "similarity",
+                "congruent angles",
+                "quadrilaterals",
+                "triangles",
+                "geometric markings"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify corresponding sides of similar quadrilaterals and triangles.",
+              "keywords": [
+                "similarity",
+                "corresponding sides",
+                "quadrilaterals",
+                "triangles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write similarity statements using symbols for two similar quadrilaterals or triangles.",
+              "keywords": [
+                "similarity",
+                "similarity statements",
+                "quadrilaterals",
+                "triangles",
+                "symbols"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write proportions to express relationships between lengths of corresponding sides of similar quadrilaterals and triangles.",
+              "keywords": [
+                "proportions",
+                "similarity",
+                "corresponding sides",
+                "quadrilaterals",
+                "triangles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize and justify if two quadrilaterals or triangles are similar using ratios of corresponding side lengths.",
+              "keywords": [
+                "similarity",
+                "ratios",
+                "corresponding sides",
+                "quadrilaterals",
+                "triangles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve a proportion to determine a missing side length of similar quadrilaterals or triangles.",
+              "keywords": [
+                "proportion",
+                "similarity",
+                "missing side length",
+                "quadrilaterals",
+                "triangles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given angle measures in a quadrilateral or triangle, determine unknown angle measures in a similar quadrilateral or triangle.",
+              "keywords": [
+                "angle measures",
+                "similarity",
+                "quadrilaterals",
+                "triangles",
+                "unknown angles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply proportional reasoning to solve problems in context including scale drawings.",
+              "keywords": [
+                "proportional reasoning",
+                "scale drawings",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "7.MG.3",
+          "description": "Compare and contrast quadrilaterals based on properties and determine unknown side lengths and angle measures.",
+          "skills": [
+            {
+              "description": "Compare and contrast properties of parallelograms, rectangles, squares, rhombuses, and trapezoids: parallel/perpendicular sides and diagonals; congruence of angle measures, side, and diagonal lengths; and lines of symmetry.",
+              "keywords": [
+                "quadrilaterals",
+                "properties",
+                "parallelogram",
+                "rectangle",
+                "square",
+                "rhombus",
+                "trapezoid",
+                "parallel sides",
+                "perpendicular sides",
+                "diagonals",
+                "symmetry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sort and classify quadrilaterals as parallelograms, rectangles, trapezoids, rhombi, and/or squares based on their properties.",
+              "keywords": [
+                "quadrilaterals",
+                "classification",
+                "parallelogram",
+                "rectangle",
+                "trapezoid",
+                "rhombus",
+                "square",
+                "properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a diagram, determine an unknown angle measure in a quadrilateral using properties of quadrilaterals.",
+              "keywords": [
+                "angle measure",
+                "quadrilateral",
+                "properties",
+                "diagram"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a diagram, determine an unknown side length in a quadrilateral using properties of quadrilaterals.",
+              "keywords": [
+                "side length",
+                "quadrilateral",
+                "properties",
+                "diagram"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "7.MG.4",
+          "description": "Apply dilations of polygons in the coordinate plane.",
+          "skills": [
+            {
+              "description": "Given a preimage in the coordinate plane, identify the coordinates of the image of a polygon that has been dilated with scale factors of 1/2, 1/3, 2, 3, or 4 and center at the origin.",
+              "keywords": [
+                "dilation",
+                "coordinate plane",
+                "scale factor",
+                "preimage",
+                "image",
+                "polygon"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sketch the image of a dilation of a polygon with scale factors of 1/2, 1/3, 2, 3, or 4 and center at the origin.",
+              "keywords": [
+                "dilation",
+                "scale factor",
+                "coordinate plane",
+                "polygon",
+                "sketch"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe dilations in context including scale drawings and graphic design.",
+              "keywords": [
+                "dilation",
+                "scale drawings",
+                "graphic design",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability and Statistics",
+      "standards": [
+        {
+          "code": "7.PS.1",
+          "description": "Determine probability of an event and investigate differences between experimental and theoretical probability.",
+          "skills": [
+            {
+              "description": "Determine the theoretical probability of an event.",
+              "keywords": [
+                "theoretical probability",
+                "event"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given results of a statistical investigation, determine the experimental probability of an event.",
+              "keywords": [
+                "experimental probability",
+                "event",
+                "statistical investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe changes in experimental probability as the number of trials increases.",
+              "keywords": [
+                "experimental probability",
+                "trials",
+                "changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and describe the difference between experimental and theoretical probability of the same event.",
+              "keywords": [
+                "experimental probability",
+                "theoretical probability",
+                "event",
+                "difference"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "7.PS.2",
+          "description": "Apply the data cycle with a focus on histograms to collect, organize, represent, and analyze data.",
+          "skills": [
+            {
+              "description": "Formulate questions that require data collection with a focus on histograms.",
+              "keywords": [
+                "data collection",
+                "histograms",
+                "questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine data needed to answer a formulated question and collect data using observations, measurement, surveys, or experiments.",
+              "keywords": [
+                "data collection",
+                "observations",
+                "measurement",
+                "surveys",
+                "experiments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine how sample size and randomness ensure data is representative of a larger population.",
+              "keywords": [
+                "sample size",
+                "randomness",
+                "representative data",
+                "population"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent numerical data using histograms with and without technology.",
+              "keywords": [
+                "numerical data",
+                "histograms",
+                "data representation",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and explain how different intervals impact the representation of data in a histogram.",
+              "keywords": [
+                "histograms",
+                "intervals",
+                "data representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare data represented in histograms with other graphs (line plots, circle graphs, stem-and-leaf plots) and justify the best representation.",
+              "keywords": [
+                "histograms",
+                "data comparison",
+                "line plots",
+                "circle graphs",
+                "stem-and-leaf plots"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data in histograms to make observations and draw conclusions, identifying patterns not easily seen in raw data.",
+              "keywords": [
+                "histograms",
+                "data analysis",
+                "patterns",
+                "observations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patterns, Functions, and Algebra",
+      "standards": [
+        {
+          "code": "7.PFA.1",
+          "description": "Investigate and analyze proportional relationships using verbal descriptions, tables, equations, and graphs.",
+          "skills": [
+            {
+              "description": "Determine the slope (rate of change) in a proportional relationship given a table, graph, or contextual situation and write an equation in y = mx form.",
+              "keywords": [
+                "proportional relationship",
+                "slope",
+                "rate of change",
+                "table",
+                "graph",
+                "equation",
+                "y = mx"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe a line with a slope that is positive, negative, or zero given a graph.",
+              "keywords": [
+                "slope",
+                "positive slope",
+                "negative slope",
+                "zero slope",
+                "graph"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph a line representing a proportional relationship given an ordered pair and slope.",
+              "keywords": [
+                "proportional relationship",
+                "graph",
+                "ordered pair",
+                "slope"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph a line representing a proportional relationship given the equation y = mx.",
+              "keywords": [
+                "proportional relationship",
+                "graph",
+                "equation",
+                "y = mx"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make connections between representations of a proportional relationship using context, tables, equations, and graphs.",
+              "keywords": [
+                "proportional relationship",
+                "representations",
+                "context",
+                "tables",
+                "equations",
+                "graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "7.PFA.2",
+          "description": "Simplify numerical and algebraic expressions and evaluate algebraic expressions for given values.",
+          "skills": [
+            {
+              "description": "Simplify numerical expressions using order of operations and properties of real numbers. Exponents limited to 1-4, bases to positive integers.",
+              "keywords": [
+                "numerical expressions",
+                "order of operations",
+                "properties of real numbers",
+                "exponents"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent equivalent algebraic expressions in one variable using concrete manipulatives and pictorial representations.",
+              "keywords": [
+                "algebraic expressions",
+                "equivalent expressions",
+                "concrete manipulatives",
+                "pictorial representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Simplify and generate equivalent algebraic expressions in one variable by applying order of operations and properties of real numbers.",
+              "keywords": [
+                "algebraic expressions",
+                "equivalent expressions",
+                "order of operations",
+                "properties of real numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate algebraic expressions for given replacement values of variables. Exponents limited to 1-4, bases to positive integers.",
+              "keywords": [
+                "algebraic expressions",
+                "evaluation",
+                "replacement values",
+                "variables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "7.PFA.3",
+          "description": "Write and solve two-step linear equations in one variable, including contextual problems.",
+          "skills": [
+            {
+              "description": "Represent and solve two-step linear equations in one variable using concrete materials and pictorial representations.",
+              "keywords": [
+                "two-step linear equations",
+                "concrete materials",
+                "pictorial representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply properties of real numbers and equality to solve two-step linear equations in one variable.",
+              "keywords": [
+                "two-step linear equations",
+                "properties of real numbers",
+                "properties of equality"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Confirm algebraic solutions to linear equations in one variable.",
+              "keywords": [
+                "linear equations",
+                "algebraic solutions",
+                "confirmation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write a two-step linear equation in one variable to represent a verbal situation, including contextual problems.",
+              "keywords": [
+                "two-step linear equations",
+                "verbal situation",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a verbal situation in context given a two-step linear equation in one variable.",
+              "keywords": [
+                "two-step linear equations",
+                "verbal situation",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems in context that require the solution of a two-step linear equation.",
+              "keywords": [
+                "two-step linear equations",
+                "contextual problems",
+                "solution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "7.PFA.4",
+          "description": "Write and solve one- and two-step linear inequalities in one variable, including contextual problems.",
+          "skills": [
+            {
+              "description": "Apply properties of real numbers and inequality properties to solve one- and two-step inequalities in one variable.",
+              "keywords": [
+                "linear inequalities",
+                "properties of real numbers",
+                "inequality properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and explain how multiplying or dividing by a rational number less than zero affects the solution set of a linear inequality.",
+              "keywords": [
+                "linear inequalities",
+                "solution set",
+                "rational number",
+                "multiplication",
+                "division"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent solutions to one- or two-step linear inequalities algebraically and graphically using a number line.",
+              "keywords": [
+                "linear inequalities",
+                "algebraic representation",
+                "graphical representation",
+                "number line"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write one- or two-step linear inequalities in one variable to represent a verbal situation, including contextual problems.",
+              "keywords": [
+                "linear inequalities",
+                "verbal situation",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a verbal situation in context given a one- or two-step linear inequality in one variable.",
+              "keywords": [
+                "linear inequalities",
+                "verbal situation",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems in context that require the solution of a one- or two-step inequality.",
+              "keywords": [
+                "linear inequalities",
+                "contextual problems",
+                "solution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify numerical values that are part of the solution set of a given one- or two-step linear inequality in one variable.",
+              "keywords": [
+                "linear inequalities",
+                "solution set",
+                "numerical values"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe differences and similarities between solving linear inequalities and linear equations in one variable.",
+              "keywords": [
+                "linear inequalities",
+                "linear equations",
+                "differences",
+                "similarities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

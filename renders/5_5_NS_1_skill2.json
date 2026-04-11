@@ -1,0 +1,103 @@
+{
+  "key": "5_5_NS_1_skill2",
+  "grade": "5",
+  "code": "5.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 5 Math",
+  "desc": "Identify and represent equivalency between fractions (denominators: thirds, eighths, factors of 100) and decimals; compare and order fractions and decimals.",
+  "skill_desc": "Use concrete and pictorial models to represent decimals in their equivalent fraction form (thirds, eighths, and factors of 100).",
+  "skill_idx": 1,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/5_5_NS_1_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "0.125",
+        "color": "#007AFF",
+        "label": "0.125",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "\\frac{1}{8}",
+        "color": "#FF3B30",
+        "label": "\\frac{1}{8}",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "0.375",
+        "color": "#007AFF",
+        "label": "0.375",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "\\frac{3}{8}",
+        "color": "#FF3B30",
+        "label": "\\frac{3}{8}",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "0.625",
+        "color": "#007AFF",
+        "label": "0.625",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "\\frac{5}{8}",
+        "color": "#FF3B30",
+        "label": "\\frac{5}{8}",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e7",
+        "latex": "0.875",
+        "color": "#007AFF",
+        "label": "0.875",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e8",
+        "latex": "\\frac{7}{8}",
+        "color": "#FF3B30",
+        "label": "\\frac{7}{8}",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -0.2,
+      "bottom": -0.2,
+      "right": 1.2,
+      "top": 1.2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Decimal and Fraction Equivalents (Eighths)"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

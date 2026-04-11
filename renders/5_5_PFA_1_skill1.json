@@ -1,0 +1,121 @@
+{
+  "key": "5_5_PFA_1_skill1",
+  "grade": "5",
+  "code": "5.PFA.1",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 5 Math",
+  "desc": "Identify, describe, extend, and create increasing and decreasing patterns with whole numbers, fractions, and decimals.",
+  "skill_desc": "Identify, describe, extend, and create increasing and decreasing patterns using various representations (objects, pictures, numbers, number lines, input/output tables, function machines).",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/5_5_PFA_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y",
+            "values": [
+              2,
+              4,
+              6,
+              8,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "y=2x",
+        "color": "#007AFF",
+        "lines": false,
+        "points": true,
+        "pointStyle": "OPEN",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "type": "table",
+        "id": "e3",
+        "columns": [
+          {
+            "id": "c3",
+            "latex": "x",
+            "values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "id": "c4",
+            "latex": "y",
+            "values": [
+              5,
+              4,
+              3,
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e4",
+        "latex": "y=6-x",
+        "color": "#FF3B30",
+        "lines": false,
+        "points": true,
+        "pointStyle": "OPEN",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 6,
+      "top": 11
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Increasing and Decreasing Patterns"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

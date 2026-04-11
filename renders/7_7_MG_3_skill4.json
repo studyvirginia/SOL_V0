@@ -1,0 +1,181 @@
+{
+  "key": "7_7_MG_3_skill4",
+  "grade": "7",
+  "code": "7.MG.3",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 7 Math",
+  "desc": "Compare and contrast quadrilaterals based on properties and determine unknown side lengths and angle measures.",
+  "skill_desc": "Given a diagram, determine an unknown side length in a quadrilateral using properties of quadrilaterals.",
+  "skill_idx": 3,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/7_7_MG_3_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(8,0),(8,6),(0,6))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(8,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(8,6)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,6)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "AB=8",
+        "color": "#8E8E93",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "BC=6",
+        "color": "#8E8E93",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e4",
+        "latex": "CD=8",
+        "color": "#8E8E93",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e5",
+        "latex": "DA=6",
+        "color": "#8E8E93",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 9,
+      "top": 7
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Quadrilateral Side Lengths"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (8, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (12, 6)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "D = (4, 6)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"D\")",
+      "SetLabelMode(D, 3)",
+      "quad = Polygon(A, B, C, D)",
+      "SetColor(quad, 0, 122, 255)",
+      "SetLabelVisible(quad, true)",
+      "SetCaption(quad, \"Quadrilateral ABCD\")",
+      "SetLabelMode(quad, 3)",
+      "segAB = Segment(A, B)",
+      "SetLabelVisible(segAB, true)",
+      "SetCaption(segAB, \"AB = 8\")",
+      "SetLabelMode(segAB, 3)",
+      "segBC = Segment(B, C)",
+      "SetLabelVisible(segBC, true)",
+      "SetCaption(segBC, \"BC = 5\")",
+      "SetLabelMode(segBC, 3)",
+      "segCD = Segment(C, D)",
+      "SetLabelVisible(segCD, true)",
+      "SetCaption(segCD, \"CD = 8\")",
+      "SetLabelMode(segCD, 3)",
+      "segDA = Segment(D, A)",
+      "SetLabelVisible(segDA, true)",
+      "SetCaption(segDA, \"DA = 5\")",
+      "SetLabelMode(segDA, 3)"
+    ],
+    "view": [
+      -1,
+      13,
+      -1,
+      7
+    ],
+    "showGrid": true,
+    "title": "Quadrilateral with given side lengths"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "B = (6, 0)",
+      "C = (8, 3)",
+      "D = (2, 3)",
+      "Polygon(A, B, C, D)",
+      "SetVisible(d, false)",
+      "Length_d = Length(d)",
+      "Text(Length_d, (4, 1.5))"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "T\u00f4i s\u1ebd t\u1ea1o m\u1ed9t h\u00ecnh b\u00ecnh h\u00e0nh v\u00e0 s\u1eed d\u1ee5ng c\u00e1c thu\u1ed9c t\u00ednh c\u1ee7a n\u00f3 \u0111\u1ec3 x\u00e1c \u0111\u1ecbnh \u0111\u1ed9 d\u00e0"
+  }
+}

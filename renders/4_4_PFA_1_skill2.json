@@ -1,0 +1,75 @@
+{
+  "key": "4_4_PFA_1_skill2",
+  "grade": "4",
+  "code": "4.PFA.1",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 4 Math",
+  "desc": "Identify, describe, extend, and create increasing and decreasing patterns using various representations.",
+  "skill_desc": "Analyze a single-operation numerical pattern found in lists, input/output tables, or function machines to identify the rule, extend the pattern, or identify missing terms.",
+  "skill_idx": 1,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/4_4_PFA_1_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x+2",
+        "color": "#007AFF",
+        "label": "Rule: +2",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "type": "table",
+        "id": "t1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y",
+            "values": [
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          }
+        ]
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 6,
+      "top": 8
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Increasing Pattern: y = x + 2"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

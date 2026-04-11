@@ -1,0 +1,108 @@
+{
+  "key": "3_3_CE_2_skill1",
+  "grade": "3",
+  "code": "3.CE.2",
+  "domain": "Computation and Estimation",
+  "course": "Grade 3 Math",
+  "desc": "Recall multiplication and division facts through 10\u00d710 and solve single-step contextual problems.",
+  "skill_desc": "Represent multiplication and division of whole numbers through 10\u00d710 using models (e.g., arrays, repeated addition).",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/3_3_CE_2_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y=3x",
+            "values": [
+              3,
+              6,
+              9,
+              12,
+              15,
+              18,
+              21,
+              24,
+              27,
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "y=3x",
+        "color": "#007AFF",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=3\\cdot 4",
+        "color": "#FF3B30",
+        "label": "12",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "(4,12)",
+        "color": "#FF3B30",
+        "dragMode": "NONE",
+        "pointStyle": "OPEN",
+        "pointSize": 15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 11,
+      "top": 35
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Multiplication Model"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

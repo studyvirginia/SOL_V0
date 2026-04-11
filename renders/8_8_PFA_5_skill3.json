@@ -1,0 +1,97 @@
+{
+  "key": "8_8_PFA_5_skill3",
+  "grade": "8",
+  "code": "8.PFA.5",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 8 Math",
+  "desc": "Write and solve multistep linear inequalities in one variable, including contextual problems.",
+  "skill_desc": "Write multistep linear inequalities in one variable to represent a verbal situation, including those in context.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PFA_5_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "3x + 5 \\leq 20",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "x \\geq \\frac{15}{3}",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "x \\leq 5",
+        "color": "#007AFF",
+        "lines": false,
+        "fill": true,
+        "fillOpacity": 0.3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(5,0)",
+        "color": "#FF3B30",
+        "label": "Solution",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "OPEN",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 7,
+      "top": 1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Multistep Linear Inequality: 3x + 5 \u2264 20"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x + 3",
+      "g(x) = 5",
+      "Intersect(f, g)",
+      "SetColor(f, 0, 122, 255)",
+      "SetColor(g, 255, 0, 0)",
+      "solution = x(Intersect(f,g))",
+      "inequality = If(x < solution, 2*x + 3, 5)",
+      "SetColor(inequality, 0, 200, 0)",
+      "SetLineThickness(inequality, 3)"
+    ],
+    "view": [
+      -5,
+      5,
+      -2,
+      8
+    ],
+    "showGrid": true,
+    "title": "2x + 3 < 5 (linear inequality)"
+  },
+  "sketchmath_state": null
+}

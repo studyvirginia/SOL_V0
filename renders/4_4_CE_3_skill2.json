@@ -1,0 +1,75 @@
+{
+  "key": "4_4_CE_3_skill2",
+  "grade": "4",
+  "code": "4.CE.3",
+  "domain": "Computation and Estimation",
+  "course": "Grade 4 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to single-step problems involving addition and subtraction of fractions and single-step problems involving multiplication of a whole number and a unit fraction.",
+  "skill_desc": "Estimate, represent, solve, and justify solutions to single-step contextual problems using addition and subtraction with fractions and/or mixed numbers with like denominators.",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/4_4_CE_3_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{1}{4}+\\frac{2}{4}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=\\frac{3}{4}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -0.1,
+      "right": 2,
+      "top": 1.1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Adding Fractions with Like Denominators"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 1/4*x + 1/2",
+      "g(x) = 3/4*x - 1/2",
+      "SetColor(f, 0, 122, 255)",
+      "SetColor(g, 255, 59, 48)",
+      "Intersect(f, g)",
+      "SetLabelVisible(Intersect(f, g), true)",
+      "SetCaption(Intersect(f, g), \"Solution\")",
+      "SetLabelMode(Intersect(f, g), 3)"
+    ],
+    "view": [
+      -2,
+      4,
+      -1,
+      3
+    ],
+    "showGrid": true,
+    "title": "Adding and Subtracting Fractions"
+  },
+  "sketchmath_state": null
+}

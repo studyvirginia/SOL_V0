@@ -1,0 +1,137 @@
+{
+  "key": "4_4_NS_4_skill5",
+  "grade": "4",
+  "code": "4.NS.4",
+  "domain": "Number and Number Sense",
+  "course": "Grade 4 Math",
+  "desc": "Represent, compare, and order decimals through thousandths, with and without models.",
+  "skill_desc": "Compare and order up to four decimals expressed through thousandths using symbols and/or words, and justify comparisons with models.",
+  "skill_idx": 4,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/4_4_NS_4_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "0.345",
+        "color": "#007AFF",
+        "label": "Decimal 1",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "0.3",
+        "color": "#FF3B30",
+        "label": "Decimal 2",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "0.34",
+        "color": "#34C759",
+        "label": "Decimal 3",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "0.35",
+        "color": "#FF9500",
+        "label": "Decimal 4",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "type": "table",
+        "id": "t1",
+        "columns": [
+          {
+            "id": "col1",
+            "latex": "x",
+            "values": [
+              "0.3",
+              "0.34",
+              "0.345",
+              "0.35"
+            ]
+          },
+          {
+            "id": "col2",
+            "latex": "y",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p1",
+        "latex": "(0.3,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(0.34,2)",
+        "color": "#34C759",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(0.345,3)",
+        "color": "#007AFF",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0.35,4)",
+        "color": "#FF9500",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0.25,
+      "bottom": 0,
+      "right": 0.4,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Comparing Decimals"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

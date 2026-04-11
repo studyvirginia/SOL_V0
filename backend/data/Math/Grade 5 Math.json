@@ -1,0 +1,1081 @@
+{
+  "subject": "Math",
+  "course": "Grade 5 Math",
+  "domains": [
+    {
+      "name": "Number and Number Sense",
+      "standards": [
+        {
+          "code": "5.NS.1",
+          "description": "Identify and represent equivalency between fractions (denominators: thirds, eighths, factors of 100) and decimals; compare and order fractions and decimals.",
+          "skills": [
+            {
+              "description": "Use concrete and pictorial models to represent fractions with denominators that are thirds, eighths, and factors of 100 in their equivalent decimal form.",
+              "keywords": [
+                "fractions",
+                "denominators",
+                "thirds",
+                "eighths",
+                "factors of 100",
+                "decimal form",
+                "concrete models",
+                "pictorial models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use concrete and pictorial models to represent decimals in their equivalent fraction form (thirds, eighths, and factors of 100).",
+              "keywords": [
+                "decimals",
+                "fraction form",
+                "thirds",
+                "eighths",
+                "factors of 100",
+                "concrete models",
+                "pictorial models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify equivalent relationships between decimals and fractions with denominators that are thirds, eighths, and factors of 100, with and without models.",
+              "keywords": [
+                "equivalent relationships",
+                "decimals",
+                "fractions",
+                "thirds",
+                "eighths",
+                "factors of 100",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and order a set of no more than four decimals and fractions (proper, improper, and/or mixed numbers) using symbols (<, >, =) and strategies (benchmarks, place value, number lines).",
+              "keywords": [
+                "compare",
+                "order",
+                "decimals",
+                "fractions",
+                "proper fractions",
+                "improper fractions",
+                "mixed numbers",
+                "symbols",
+                "benchmarks",
+                "place value",
+                "number lines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify solutions for comparing and ordering decimals and fractions orally, in writing, or with a model.",
+              "keywords": [
+                "justify solutions",
+                "comparing",
+                "ordering",
+                "decimals",
+                "fractions",
+                "oral justification",
+                "written justification",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.NS.2",
+          "description": "Demonstrate understanding of prime and composite numbers and determine prime factorization of whole numbers up to 100.",
+          "skills": [
+            {
+              "description": "Create a concrete or pictorial representation to determine whether a whole number up to 100 is prime or composite and justify reasoning.",
+              "keywords": [
+                "prime numbers",
+                "composite numbers",
+                "concrete models",
+                "pictorial models",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify, compare, and contrast whole numbers up to 100 using the characteristics prime and composite.",
+              "keywords": [
+                "classify",
+                "compare",
+                "contrast",
+                "prime numbers",
+                "composite numbers",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the prime factorization for a whole number up to 100.",
+              "keywords": [
+                "prime factorization",
+                "whole numbers",
+                "up to 100"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computation and Estimation",
+      "standards": [
+        {
+          "code": "5.CE.1",
+          "description": "Estimate, represent, solve, and justify solutions to single-step and multistep contextual problems using whole number operations.",
+          "skills": [
+            {
+              "description": "Estimate the sum, difference, product, and quotient of whole numbers in contextual problems.",
+              "keywords": [
+                "estimate",
+                "sum",
+                "difference",
+                "product",
+                "quotient",
+                "whole numbers",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent, solve, and justify solutions to single-step and multistep contextual problems involving addition, subtraction, multiplication, and division of whole numbers with and without remainders.",
+              "keywords": [
+                "represent",
+                "solve",
+                "justify",
+                "single-step problems",
+                "multistep problems",
+                "addition",
+                "subtraction",
+                "multiplication",
+                "division",
+                "whole numbers",
+                "remainders"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply strategies (estimation, properties of addition and multiplication) and algorithms, including the standard algorithm, to solve whole number problems.",
+              "keywords": [
+                "strategies",
+                "estimation",
+                "properties of addition",
+                "properties of multiplication",
+                "standard algorithm",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret the quotient and remainder when solving a contextual problem.",
+              "keywords": [
+                "interpret",
+                "quotient",
+                "remainder",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.CE.2",
+          "description": "Estimate, represent, solve, and justify solutions to problems using addition and subtraction of fractions and multiplication of whole numbers and proper fractions.",
+          "skills": [
+            {
+              "description": "Determine the least common multiple of two numbers to find the least common denominator for two fractions.",
+              "keywords": [
+                "least common multiple",
+                "least common denominator",
+                "fractions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and determine the sum or difference of two fractions (proper or improper) and/or mixed numbers with like and unlike denominators (limited to 2, 3, 4, 5, 6, 8, 10, 12).",
+              "keywords": [
+                "estimate",
+                "sum",
+                "difference",
+                "fractions",
+                "proper fractions",
+                "improper fractions",
+                "mixed numbers",
+                "like denominators",
+                "unlike denominators",
+                "denominators"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Simplify the resulting fraction after addition or subtraction.",
+              "keywords": [
+                "simplify",
+                "fractions",
+                "addition",
+                "subtraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve single-step and multistep contextual problems involving addition and subtraction with fractions and/or mixed numbers with and without models.",
+              "keywords": [
+                "solve",
+                "contextual problems",
+                "addition",
+                "subtraction",
+                "fractions",
+                "mixed numbers",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve single-step contextual problems involving multiplication of a whole number (limited to 12 or less) and a proper fraction with models.",
+              "keywords": [
+                "solve",
+                "contextual problems",
+                "multiplication",
+                "whole numbers",
+                "proper fractions",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Express answers in simplest form.",
+              "keywords": [
+                "express",
+                "simplest form",
+                "answers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.CE.3",
+          "description": "Estimate, represent, solve, and justify solutions to problems using addition, subtraction, multiplication, and division with decimal numbers.",
+          "skills": [
+            {
+              "description": "Apply estimation strategies (rounding, compatible numbers, place value) to determine reasonable solutions for single-step and multistep contextual problems involving addition, subtraction, and multiplication of decimals.",
+              "keywords": [
+                "apply",
+                "estimation strategies",
+                "rounding",
+                "compatible numbers",
+                "place value",
+                "contextual problems",
+                "addition",
+                "subtraction",
+                "multiplication",
+                "decimals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and determine the product of two numbers using strategies and algorithms (standard algorithm) for given factor combinations.",
+              "keywords": [
+                "estimate",
+                "determine",
+                "product",
+                "strategies",
+                "algorithms",
+                "standard algorithm",
+                "factors",
+                "decimals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and determine the quotient of two numbers using strategies and algorithms (standard algorithm) with specified constraints.",
+              "keywords": [
+                "estimate",
+                "determine",
+                "quotient",
+                "strategies",
+                "algorithms",
+                "standard algorithm",
+                "divisors",
+                "dividends",
+                "decimals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve single-step and multistep contextual problems involving addition, subtraction, and multiplication of decimals using strategies and algorithms.",
+              "keywords": [
+                "solve",
+                "contextual problems",
+                "addition",
+                "subtraction",
+                "multiplication",
+                "decimals",
+                "strategies",
+                "algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve single-step contextual problems involving division with decimals using strategies and algorithms.",
+              "keywords": [
+                "solve",
+                "contextual problems",
+                "division",
+                "decimals",
+                "strategies",
+                "algorithms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.CE.4",
+          "description": "Simplify numerical expressions with whole numbers using the order of operations.",
+          "skills": [
+            {
+              "description": "Use order of operations to simplify numerical expressions with whole numbers limited to addition, subtraction, multiplication, and division.",
+              "keywords": [
+                "order of operations",
+                "simplify",
+                "numerical expressions",
+                "whole numbers",
+                "addition",
+                "subtraction",
+                "multiplication",
+                "division"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the order of operations for a given whole number numerical expression involving more than one operation.",
+              "keywords": [
+                "describe",
+                "order of operations",
+                "numerical expressions",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Measurement and Geometry",
+      "standards": [
+        {
+          "code": "5.MG.1",
+          "description": "Solve problems involving length, mass, and liquid volume using metric units.",
+          "skills": [
+            {
+              "description": "Determine the most appropriate metric unit of measure for length (millimeters, centimeters, meters, kilometers) in a contextual problem.",
+              "keywords": [
+                "determine",
+                "metric units",
+                "length",
+                "millimeters",
+                "centimeters",
+                "meters",
+                "kilometers",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the most appropriate metric unit of measure for mass (grams, kilograms) in a contextual problem.",
+              "keywords": [
+                "determine",
+                "metric units",
+                "mass",
+                "grams",
+                "kilograms",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the most appropriate metric unit of measure for liquid volume (milliliters, liters) in a contextual problem.",
+              "keywords": [
+                "determine",
+                "metric units",
+                "liquid volume",
+                "milliliters",
+                "liters",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure length (millimeters, centimeters, meters) to solve contextual problems.",
+              "keywords": [
+                "estimate",
+                "measure",
+                "length",
+                "millimeters",
+                "centimeters",
+                "meters",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure mass (grams, kilograms) to solve contextual problems.",
+              "keywords": [
+                "estimate",
+                "measure",
+                "mass",
+                "grams",
+                "kilograms",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure liquid volume (milliliters, liters) to solve contextual problems.",
+              "keywords": [
+                "estimate",
+                "measure",
+                "liquid volume",
+                "milliliters",
+                "liters",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine equivalent metric measurements within the metric system for length, mass, and liquid volume.",
+              "keywords": [
+                "determine",
+                "equivalent measurements",
+                "metric system",
+                "length",
+                "mass",
+                "liquid volume"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.MG.2",
+          "description": "Solve problems involving perimeter, area, and volume using multiple representations.",
+          "skills": [
+            {
+              "description": "Investigate and develop a formula for determining the area of a right triangle.",
+              "keywords": [
+                "investigate",
+                "develop",
+                "formula",
+                "area",
+                "right triangle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and determine the area of a right triangle when the base and height are given in whole number units.",
+              "keywords": [
+                "estimate",
+                "determine",
+                "area",
+                "right triangle",
+                "base",
+                "height",
+                "whole number units"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe volume as a measure of capacity and give examples in contextual situations.",
+              "keywords": [
+                "describe",
+                "volume",
+                "measure of capacity",
+                "contextual situations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and develop a formula for determining the volume of rectangular prisms using concrete objects.",
+              "keywords": [
+                "investigate",
+                "develop",
+                "formula",
+                "volume",
+                "rectangular prisms",
+                "concrete objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and determine the volume of a rectangular prism using concrete objects, diagrams, and formulas when length, width, and height are given in whole number units.",
+              "keywords": [
+                "estimate",
+                "determine",
+                "volume",
+                "rectangular prism",
+                "length",
+                "width",
+                "height",
+                "whole number units",
+                "concrete objects",
+                "diagrams",
+                "formulas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify whether the application of perimeter, area, or volume is appropriate for a given situation.",
+              "keywords": [
+                "identify",
+                "application",
+                "perimeter",
+                "area",
+                "volume",
+                "situation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve contextual problems involving perimeter, area, and volume in standard units of measure.",
+              "keywords": [
+                "solve",
+                "contextual problems",
+                "perimeter",
+                "area",
+                "volume",
+                "standard units of measure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.MG.3",
+          "description": "Classify and measure angles and triangles, and solve problems involving angles.",
+          "skills": [
+            {
+              "description": "Classify angles as right, acute, obtuse, or straight and justify reasoning.",
+              "keywords": [
+                "classify",
+                "angles",
+                "right angles",
+                "acute angles",
+                "obtuse angles",
+                "straight angles",
+                "justify reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify triangles as right, acute, or obtuse and equilateral, scalene, or isosceles and justify reasoning.",
+              "keywords": [
+                "classify",
+                "triangles",
+                "right triangles",
+                "acute triangles",
+                "obtuse triangles",
+                "equilateral triangles",
+                "scalene triangles",
+                "isosceles triangles",
+                "justify reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify congruent sides and right angles using geometric markings to denote properties of triangles.",
+              "keywords": [
+                "identify",
+                "congruent sides",
+                "right angles",
+                "geometric markings",
+                "properties of triangles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the properties of triangles.",
+              "keywords": [
+                "compare",
+                "contrast",
+                "properties of triangles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify appropriate tools (protractor, straightedge, angle ruler, technology) to measure and draw angles.",
+              "keywords": [
+                "identify",
+                "tools",
+                "measure",
+                "draw",
+                "angles",
+                "protractor",
+                "straightedge",
+                "angle ruler",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Measure right, acute, obtuse, and straight angles using appropriate tools and identify measures in degrees.",
+              "keywords": [
+                "measure",
+                "angles",
+                "right angles",
+                "acute angles",
+                "obtuse angles",
+                "straight angles",
+                "tools",
+                "degrees"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use models to prove that the sum of the interior angles of a triangle is 180 degrees and determine an unknown angle measure in a triangle.",
+              "keywords": [
+                "use models",
+                "prove",
+                "sum of interior angles",
+                "triangle",
+                "180 degrees",
+                "determine",
+                "unknown angle measure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve addition and subtraction contextual problems to determine unknown angle measures on a diagram.",
+              "keywords": [
+                "solve",
+                "addition",
+                "subtraction",
+                "contextual problems",
+                "unknown angle measures",
+                "diagram"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability and Statistics",
+      "standards": [
+        {
+          "code": "5.PS.1",
+          "description": "Apply the data cycle with a focus on line plots (dot plots) and stem-and-leaf plots.",
+          "skills": [
+            {
+              "description": "Formulate questions that require the collection or acquisition of data.",
+              "keywords": [
+                "formulate",
+                "questions",
+                "collection",
+                "acquisition",
+                "data"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the data needed to answer a formulated question and collect or acquire existing data (limited to 30 or fewer data points) using various methods.",
+              "keywords": [
+                "determine",
+                "data needed",
+                "formulated question",
+                "collect",
+                "acquire",
+                "existing data",
+                "methods"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent a data set using a line plot (dot plot) with a title, labeled axes, and a key, with and without technology.",
+              "keywords": [
+                "organize",
+                "represent",
+                "data set",
+                "line plot",
+                "dot plot",
+                "title",
+                "labeled axes",
+                "key",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent numerical data using a stem-and-leaf plot with a title and key, where stems and leaves are in ascending order.",
+              "keywords": [
+                "organize",
+                "represent",
+                "numerical data",
+                "stem-and-leaf plot",
+                "title",
+                "key",
+                "ascending order"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data represented in line plots (dot plots) and stem-and-leaf plots and communicate results orally and in writing.",
+              "keywords": [
+                "analyze",
+                "data",
+                "line plots",
+                "dot plots",
+                "stem-and-leaf plots",
+                "communicate results",
+                "oral",
+                "written"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the characteristics of the data represented in a line plot (dot plot) and stem-and-leaf plot as a whole (shape and spread).",
+              "keywords": [
+                "describe",
+                "characteristics",
+                "data",
+                "line plot",
+                "dot plot",
+                "stem-and-leaf plot",
+                "shape",
+                "spread"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make inferences about data represented in line plots (dot plots) and stem-and-leaf plots.",
+              "keywords": [
+                "make inferences",
+                "data",
+                "line plots",
+                "dot plots",
+                "stem-and-leaf plots"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify parts of the data that have special characteristics and explain the meaning of the greatest, least, or same.",
+              "keywords": [
+                "identify",
+                "parts of data",
+                "special characteristics",
+                "explain",
+                "greatest",
+                "least",
+                "same"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Draw conclusions about the data and make predictions based on the data to answer questions.",
+              "keywords": [
+                "draw conclusions",
+                "make predictions",
+                "data",
+                "answer questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve single-step and multistep addition and subtraction problems using data from line plots (dot plots) and stem-and-leaf plots.",
+              "keywords": [
+                "solve",
+                "addition",
+                "subtraction",
+                "problems",
+                "data",
+                "line plots",
+                "dot plots",
+                "stem-and-leaf plots"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.PS.2",
+          "description": "Solve contextual problems using measures of center and the range.",
+          "skills": [
+            {
+              "description": "Describe mean as fair share.",
+              "keywords": [
+                "describe",
+                "mean",
+                "fair share"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and determine the mean of a set of data values representing data from a given context as a measure of center.",
+              "keywords": [
+                "describe",
+                "determine",
+                "mean",
+                "data values",
+                "measure of center"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and determine the median of a set of data values representing data from a given context as a measure of center.",
+              "keywords": [
+                "describe",
+                "determine",
+                "median",
+                "data values",
+                "measure of center"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and determine the mode of a set of data values representing data from a given context as a measure of center.",
+              "keywords": [
+                "describe",
+                "determine",
+                "mode",
+                "data values",
+                "measure of center"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and determine the range of a set of data values representing data from a given context as a measure of spread.",
+              "keywords": [
+                "describe",
+                "determine",
+                "range",
+                "data values",
+                "measure of spread"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.PS.3",
+          "description": "Determine the probability of an outcome by constructing a model of a sample space and using the Fundamental (Basic) Counting Principle.",
+          "skills": [
+            {
+              "description": "Determine the probability of an outcome by constructing a sample space (with 24 or fewer equally likely possible outcomes) using a tree diagram, list, or chart.",
+              "keywords": [
+                "determine",
+                "probability",
+                "outcome",
+                "construct",
+                "sample space",
+                "tree diagram",
+                "list",
+                "chart",
+                "equally likely possible outcomes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the number of possible outcomes by using the Fundamental (Basic) Counting Principle.",
+              "keywords": [
+                "determine",
+                "number of possible outcomes",
+                "Fundamental Counting Principle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patterns, Functions, and Algebra",
+      "standards": [
+        {
+          "code": "5.PFA.1",
+          "description": "Identify, describe, extend, and create increasing and decreasing patterns with whole numbers, fractions, and decimals.",
+          "skills": [
+            {
+              "description": "Identify, describe, extend, and create increasing and decreasing patterns using various representations (objects, pictures, numbers, number lines, input/output tables, function machines).",
+              "keywords": [
+                "identify",
+                "describe",
+                "extend",
+                "create",
+                "increasing patterns",
+                "decreasing patterns",
+                "representations",
+                "objects",
+                "pictures",
+                "numbers",
+                "number lines",
+                "input/output tables",
+                "function machines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze a single-operation numerical pattern found in lists, input/output tables, and function machines to identify the rule, extend the pattern, or identify missing terms.",
+              "keywords": [
+                "analyze",
+                "numerical pattern",
+                "lists",
+                "input/output tables",
+                "function machines",
+                "identify rule",
+                "extend pattern",
+                "missing terms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve contextual problems involving identifying, describing, and extending increasing and decreasing patterns using single-operation input and output rules.",
+              "keywords": [
+                "solve",
+                "contextual problems",
+                "identifying patterns",
+                "describing patterns",
+                "extending patterns",
+                "input and output rules"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "5.PFA.2",
+          "description": "Investigate and use variables in contextual problems.",
+          "skills": [
+            {
+              "description": "Describe the concept of a variable (presented as a box, letter, or other symbol) as a representation of an unknown quantity.",
+              "keywords": [
+                "describe",
+                "concept of a variable",
+                "representation",
+                "unknown quantity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write an equation (with a single variable representing an unknown quantity and one operation) from a contextual situation using addition, subtraction, multiplication, or division.",
+              "keywords": [
+                "write",
+                "equation",
+                "single variable",
+                "unknown quantity",
+                "contextual situation",
+                "addition",
+                "subtraction",
+                "multiplication",
+                "division"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use an expression with a variable to represent a given verbal expression involving one operation.",
+              "keywords": [
+                "use",
+                "expression",
+                "variable",
+                "represent",
+                "verbal expression",
+                "one operation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create and write a word problem to match a given equation with a single variable and one operation.",
+              "keywords": [
+                "create",
+                "write",
+                "word problem",
+                "match",
+                "equation",
+                "single variable",
+                "one operation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

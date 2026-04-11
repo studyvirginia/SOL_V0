@@ -1,0 +1,63 @@
+{
+  "key": "4_4_NS_3_skill4",
+  "grade": "4",
+  "code": "4.NS.3",
+  "domain": "Number and Number Sense",
+  "course": "Grade 4 Math",
+  "desc": "Represent, compare, and order fractions and mixed numbers with denominators up to 12, with and without models.",
+  "skill_desc": "Compare fractions and mixed numbers using symbols >, <, and = (e.g., 2/3 > 1/2).",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/4_4_NS_3_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\frac{1}{2}",
+        "color": "#007AFF",
+        "label": "\\frac{1}{2}",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "\\frac{2}{3}",
+        "color": "#FF3B30",
+        "label": "\\frac{2}{3}",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "\\frac{1}{2} < \\frac{2}{3}",
+        "color": "#34C759",
+        "label": "\\frac{1}{2} < \\frac{2}{3}",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 3,
+      "top": 2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Comparing Fractions"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

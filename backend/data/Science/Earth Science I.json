@@ -1,0 +1,861 @@
+{
+  "subject": "Science",
+  "course": "Earth Science I",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "ES.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, data analysis, modeling, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from careful observation of phenomena, examination of a model or theory, or unexpected results.",
+              "keywords": [
+                "observation",
+                "phenomena",
+                "model",
+                "theory",
+                "scientific questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of the school laboratory or field experience.",
+              "keywords": [
+                "investigable questions",
+                "laboratory constraints",
+                "field experience"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "scientific principles",
+                "research-based hypotheses"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Specify what happens to a dependent variable when an independent variable is manipulated in a hypothesis.",
+              "keywords": [
+                "hypothesis formulation",
+                "independent variable",
+                "dependent variable",
+                "cause-effect relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define design problems that involve the development of a process or system with multiple components and criteria.",
+              "keywords": [
+                "design problems",
+                "system design",
+                "multiple criteria",
+                "engineering design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Individually and collaboratively plan and conduct observational and experimental investigations.",
+              "keywords": [
+                "investigation planning",
+                "collaborative research",
+                "observational study",
+                "experimental design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations to test design solutions in a safe and ethical manner, considering environmental, social, and personal effects.",
+              "keywords": [
+                "ethical investigation",
+                "safety protocols",
+                "environmental impact",
+                "design testing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect, record, analyze, and evaluate data.",
+              "keywords": [
+                "data collection",
+                "scientific tools",
+                "technology integration",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variable",
+                "dependent variable",
+                "repeated trials",
+                "mean calculation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data, considering limitations of data analysis.",
+              "keywords": [
+                "graphical displays",
+                "data interpretation",
+                "data limitations",
+                "trend analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes to scientific questions.",
+              "keywords": [
+                "mathematical modeling",
+                "scientific calculations",
+                "quantitative analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data in building and revising models, supporting explanations of phenomena, or testing solutions to problems.",
+              "keywords": [
+                "model building",
+                "data-driven models",
+                "phenomena explanation",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims or determine an optimal design solution.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "design optimization",
+                "reliability assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from investigations, models, theories, simulations, and peer review.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "peer review",
+                "scientific theories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide an explanation of phenomena or design solutions.",
+              "keywords": [
+                "scientific application",
+                "phenomena explanation",
+                "design solutions",
+                "principle application"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct arguments or counterarguments based on data and evidence.",
+              "keywords": [
+                "scientific argumentation",
+                "data-driven reasoning",
+                "counterarguments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between a scientific hypothesis, theory, and law.",
+              "keywords": [
+                "scientific hypothesis",
+                "scientific theory",
+                "scientific law",
+                "conceptual distinctions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model limitations",
+                "scientific models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships.",
+              "keywords": [
+                "model development",
+                "evidence-based models",
+                "relationship prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret scales, diagrams, classification charts, graphs, tables, imagery, models, including geologic cross sections and topographic profiles.",
+              "keywords": [
+                "scale interpretation",
+                "geologic cross sections",
+                "topographic profiles",
+                "data visualization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and interpret topographic and basic geologic maps and globes, including location by latitude and longitude.",
+              "keywords": [
+                "topographic maps",
+                "geologic maps",
+                "latitude-longitude",
+                "map interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question or solve a problem.",
+              "keywords": [
+                "source evaluation",
+                "information integration",
+                "media literacy",
+                "scientific inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple sources, assessing the evidence and credibility of each source.",
+              "keywords": [
+                "source credibility",
+                "scientific literature",
+                "technical information",
+                "evidence assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena and/or a design process in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical reporting",
+                "multimedia presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Origin and Evolution of the Universe",
+      "standards": [
+        {
+          "code": "ES.2",
+          "description": "Understand scientific concepts related to the origin and evolution of the universe.",
+          "skills": [
+            {
+              "description": "Explain that the big bang theory explains the origin of the universe.",
+              "keywords": [
+                "big bang theory",
+                "cosmology",
+                "universe origin"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how stars, star systems, and galaxies change over long periods of time.",
+              "keywords": [
+                "stellar evolution",
+                "galactic dynamics",
+                "cosmic timescales"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify characteristics of the sun, planets and their moons, comets, meteors, asteroids, and dwarf planets based on their composition.",
+              "keywords": [
+                "solar system bodies",
+                "planetary composition",
+                "celestial objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how evidence from space exploration has increased our understanding of the structure and nature of the universe.",
+              "keywords": [
+                "space exploration",
+                "astronomical evidence",
+                "cosmic structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth in the Solar System",
+      "standards": [
+        {
+          "code": "ES.3",
+          "description": "Investigate and understand that Earth is unique in our solar system.",
+          "skills": [
+            {
+              "description": "Explain why Earth supports life due to its relative proximity to the sun and other factors.",
+              "keywords": [
+                "habitability",
+                "solar proximity",
+                "Earth's biosphere"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the dynamics of the sun-Earth-moon system cause seasons, tides, and eclipses.",
+              "keywords": [
+                "orbital mechanics",
+                "seasons",
+                "tidal forces",
+                "eclipses"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Minerals",
+      "standards": [
+        {
+          "code": "ES.4",
+          "description": "Investigate and understand major rock-forming and ore minerals.",
+          "skills": [
+            {
+              "description": "Analyze physical and chemical properties to support mineral identification.",
+              "keywords": [
+                "mineral identification",
+                "physical properties",
+                "chemical properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how characteristics of minerals determine their uses.",
+              "keywords": [
+                "mineral properties",
+                "industrial uses",
+                "material science"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how minerals originate and are formed in specific ways.",
+              "keywords": [
+                "mineral formation",
+                "geological processes",
+                "crystallization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rocks and the Rock Cycle",
+      "standards": [
+        {
+          "code": "ES.5",
+          "description": "Investigate and understand the transformation of igneous, metamorphic, and sedimentary rocks.",
+          "skills": [
+            {
+              "description": "Explain that Earth materials are finite and are transformed over time.",
+              "keywords": [
+                "material transformation",
+                "geological timescales",
+                "Earth's finite resources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the rock cycle models the transformation of rocks.",
+              "keywords": [
+                "rock cycle",
+                "rock transformation",
+                "geological processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify layers of Earth with rocks of specific chemical and physical properties.",
+              "keywords": [
+                "Earth's layers",
+                "rock properties",
+                "geological stratification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how plate tectonic and surface processes transform Earth materials.",
+              "keywords": [
+                "plate tectonics",
+                "surface processes",
+                "material transformation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resource Use",
+      "standards": [
+        {
+          "code": "ES.6",
+          "description": "Investigate and understand the complexity of resource use.",
+          "skills": [
+            {
+              "description": "Analyze the environmental liabilities and benefits of global resource use.",
+              "keywords": [
+                "resource sustainability",
+                "environmental impact",
+                "global resource management"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate availability, renewal rates, and economic effects when using resources.",
+              "keywords": [
+                "resource availability",
+                "renewable resources",
+                "economic impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Assess the effect of using Virginia resources on the environment and the economy.",
+              "keywords": [
+                "Virginia resources",
+                "local economy",
+                "environmental regulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the environmental and economic effects of different energy sources.",
+              "keywords": [
+                "energy sources",
+                "fossil fuels",
+                "renewable energy",
+                "carbon footprint"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plate Tectonics",
+      "standards": [
+        {
+          "code": "ES.7",
+          "description": "Investigate and understand plate tectonic theory explaining Earth's internal and external geologic processes.",
+          "skills": [
+            {
+              "description": "Explain how convection currents in Earth's interior lead to the movement of plates and influence the distribution of materials in Earth's layers.",
+              "keywords": [
+                "convection currents",
+                "plate movement",
+                "Earth's interior",
+                "mantle convection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe features and processes that occur within plates and at plate boundaries.",
+              "keywords": [
+                "plate boundaries",
+                "tectonic features",
+                "geological processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how interaction between tectonic plates causes the development of mountain ranges and ocean basins.",
+              "keywords": [
+                "plate interaction",
+                "mountain formation",
+                "ocean basin development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify evidence of geologic processes found in Virginia's geologic landscape.",
+              "keywords": [
+                "Virginia geology",
+                "geological evidence",
+                "tectonic features"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Freshwater Resources",
+      "standards": [
+        {
+          "code": "ES.8",
+          "description": "Investigate and understand how freshwater resources influence and are influenced by geologic processes and human activity.",
+          "skills": [
+            {
+              "description": "Explain how water influences geologic processes including soil development and karst topography.",
+              "keywords": [
+                "water geology",
+                "soil development",
+                "karst topography",
+                "erosion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze how the nature of materials in the subsurface affects the water table and future availability of fresh water.",
+              "keywords": [
+                "water table",
+                "subsurface materials",
+                "aquifer properties",
+                "freshwater availability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate how weather and human usage affect freshwater resources, including water locations, quality, and supply.",
+              "keywords": [
+                "water quality",
+                "human water use",
+                "weather impact",
+                "water supply"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how stream processes and dynamics affect major watershed systems in Virginia, including the Chesapeake Bay and its tributaries.",
+              "keywords": [
+                "stream processes",
+                "watershed systems",
+                "Chesapeake Bay",
+                "fluvial geomorphology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History and Evolution of Earth and Life",
+      "standards": [
+        {
+          "code": "ES.9",
+          "description": "Investigate and understand aspects of Earth's history and evolution through rocks and fossils.",
+          "skills": [
+            {
+              "description": "Identify traces and remains of ancient, often extinct, life preserved in sedimentary rocks.",
+              "keywords": [
+                "fossilization",
+                "sedimentary rocks",
+                "paleontology",
+                "extinct life"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply superposition, cross-cutting relationships, index fossils, and radioactive decay as methods of dating rocks and Earth events.",
+              "keywords": [
+                "relative dating",
+                "absolute dating",
+                "radiometric dating",
+                "stratigraphy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare absolute (radiometric) and relative dating methods and their applications.",
+              "keywords": [
+                "radiometric dating",
+                "relative dating",
+                "geological time",
+                "dating methods"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify rocks and fossils from different geologic periods and epochs found in Virginia.",
+              "keywords": [
+                "Virginia geology",
+                "geological periods",
+                "fossil record",
+                "stratigraphic correlation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oceans",
+      "standards": [
+        {
+          "code": "ES.10",
+          "description": "Investigate and understand oceans as complex, dynamic systems subject to long- and short-term variations.",
+          "skills": [
+            {
+              "description": "Explain how chemical, biological, and physical changes affect the oceans.",
+              "keywords": [
+                "ocean chemistry",
+                "marine biology",
+                "physical oceanography",
+                "ocean dynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze how environmental and geologic occurrences affect ocean dynamics.",
+              "keywords": [
+                "ocean dynamics",
+                "geological events",
+                "environmental impact",
+                "marine processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how unevenly distributed heat in the oceans drives much of Earth's weather.",
+              "keywords": [
+                "ocean heat distribution",
+                "weather patterns",
+                "thermohaline circulation",
+                "climate drivers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how features of the sea floor reflect tectonic and other geological processes.",
+              "keywords": [
+                "seafloor features",
+                "tectonic processes",
+                "marine geology",
+                "ocean basins"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate how human actions, including economic and public policy issues, affect oceans and the coastal zone including the Chesapeake Bay.",
+              "keywords": [
+                "ocean policy",
+                "Chesapeake Bay",
+                "marine conservation",
+                "economic impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Atmosphere",
+      "standards": [
+        {
+          "code": "ES.11",
+          "description": "Investigate and understand the atmosphere as a complex, dynamic system subject to long- and short-term variations.",
+          "skills": [
+            {
+              "description": "Explain why the composition of the atmosphere is critical to most forms of life.",
+              "keywords": [
+                "atmospheric composition",
+                "life support",
+                "biogeochemical cycles",
+                "oxygen cycle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how biologic and geologic interactions over long and short time spans change the atmospheric composition.",
+              "keywords": [
+                "biogeochemical cycles",
+                "atmospheric change",
+                "geological interactions",
+                "carbon cycle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify natural events and human actions that may stress atmospheric regulation mechanisms.",
+              "keywords": [
+                "atmospheric stress",
+                "pollution",
+                "climate change",
+                "ozone depletion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate how human actions, including economic and policy decisions, affect the atmosphere.",
+              "keywords": [
+                "atmospheric policy",
+                "climate change mitigation",
+                "air quality regulation",
+                "economic impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weather and Climate",
+      "standards": [
+        {
+          "code": "ES.12",
+          "description": "Investigate and understand Earth's weather and climate as a result of the interaction of the sun's energy with the atmosphere, oceans, and land.",
+          "skills": [
+            {
+              "description": "Explain how weather involves the reflection, absorption, storage, and redistribution of energy over short to medium time spans.",
+              "keywords": [
+                "energy transfer",
+                "weather systems",
+                "heat redistribution",
+                "atmospheric energy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict weather patterns based on changes in current conditions.",
+              "keywords": [
+                "weather prediction",
+                "meteorology",
+                "atmospheric data",
+                "forecasting"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how extreme imbalances in energy distribution in the oceans, atmosphere, and land may lead to severe weather conditions.",
+              "keywords": [
+                "energy imbalance",
+                "severe weather",
+                "hurricanes",
+                "tornadoes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use models based on current conditions to predict weather phenomena.",
+              "keywords": [
+                "weather models",
+                "numerical weather prediction",
+                "atmospheric modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze how changes in the atmosphere and oceans due to natural and human activity affect global climate.",
+              "keywords": [
+                "climate change",
+                "global warming",
+                "anthropogenic impact",
+                "ocean-atmosphere interaction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

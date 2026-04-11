@@ -1,0 +1,132 @@
+{
+  "key": "3_3_MG_1_skill3",
+  "grade": "3",
+  "code": "3.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 3 Math",
+  "desc": "Estimate and measure length, weight/mass, and liquid volume using standard units.",
+  "skill_desc": "Estimate and measure length to the nearest metric unit (centimeter, meter).",
+  "skill_idx": 2,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/3_3_MG_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(4,3),(0,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Rectangle with vertices labeled"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Start Point\")",
+      "SetLabelMode(A, 3)",
+      "B = (10, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"End Point\")",
+      "SetLabelMode(B, 3)",
+      "seg = Segment(A, B)",
+      "SetColor(seg, 0, 122, 255)",
+      "SetLineThickness(seg, 3)",
+      "C = (5, 0)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"Midpoint\")",
+      "SetLabelMode(C, 3)",
+      "D = (2.5, 0)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"2.5 cm\")",
+      "SetLabelMode(D, 3)",
+      "E = (7.5, 0)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"7.5 cm\")",
+      "SetLabelMode(E, 3)"
+    ],
+    "view": [
+      -1,
+      11,
+      -1,
+      1
+    ],
+    "showGrid": true,
+    "title": "Estimating and measuring length in centimeters"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (5, 3)",
+      "s = Segment(A, B)",
+      "text1 = Text(\"\u0110\u1ed9 d\u00e0i (m\u00e9t): \" + Length(s) / 100)",
+      "text2 = Text(\"\u0110\u1ed9 d\u00e0i (centimet): \" + Length(s))"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "T\u00f4i s\u1ebd t\u1ea1o m\u1ed9t \u0111o\u1ea1n th\u1eb3ng v\u00e0 sau \u0111\u00f3 \u0111o chi\u1ec1u d\u00e0i c\u1ee7a n\u00f3 b\u1eb1ng \u0111\u01a1n v\u1ecb m\u00e9t v\u00e0 centi"
+  }
+}

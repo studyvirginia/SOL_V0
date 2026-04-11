@@ -1,0 +1,838 @@
+{
+  "subject": "Science",
+  "course": "Grade 6 Science",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "6.1.SEP.1",
+          "description": "Ask questions and define problems to determine relationships between variables and design solutions.",
+          "skills": [
+            {
+              "description": "Ask questions to determine relationships between independent and dependent variables.",
+              "keywords": [
+                "independent variables",
+                "dependent variables",
+                "relationships",
+                "questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop hypotheses and identify independent and dependent variables.",
+              "keywords": [
+                "hypotheses",
+                "independent variables",
+                "dependent variables",
+                "scientific method"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Offer simple solutions to design problems.",
+              "keywords": [
+                "design solutions",
+                "engineering design",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.1.SEP.2",
+          "description": "Plan and carry out investigations, including safe use of chemicals and equipment.",
+          "skills": [
+            {
+              "description": "Independently and collaboratively plan and conduct observational and experimental investigations.",
+              "keywords": [
+                "investigations",
+                "observational studies",
+                "experimental design",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify variables, constants, and controls where appropriate.",
+              "keywords": [
+                "variables",
+                "constants",
+                "controls",
+                "experimental design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Include the safe use of chemicals and equipment in investigations.",
+              "keywords": [
+                "safety protocols",
+                "chemical handling",
+                "equipment use",
+                "laboratory safety"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.1.SEP.3",
+          "description": "Evaluate data collection methods and take metric measurements.",
+          "skills": [
+            {
+              "description": "Evaluate the accuracy of various methods for collecting data.",
+              "keywords": [
+                "data collection",
+                "accuracy",
+                "methods",
+                "evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Take metric measurements using appropriate tools.",
+              "keywords": [
+                "metric measurements",
+                "tools",
+                "SI units",
+                "precision"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.1.SEP.4",
+          "description": "Design and build devices to solve specific problems.",
+          "skills": [
+            {
+              "description": "Use tools and materials to design and/or build a device to solve a specific problem.",
+              "keywords": [
+                "device design",
+                "engineering design",
+                "problem-solving",
+                "prototyping"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.1.SEP.5",
+          "description": "Organize, analyze, and interpret data to reveal patterns.",
+          "skills": [
+            {
+              "description": "Organize data sets to reveal patterns that suggest relationships.",
+              "keywords": [
+                "data organization",
+                "patterns",
+                "relationships",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data.",
+              "keywords": [
+                "graphs",
+                "data visualization",
+                "trends",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast data collected by different groups and discuss findings.",
+              "keywords": [
+                "data comparison",
+                "peer review",
+                "findings",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.1.SEP.6",
+          "description": "Use data to evaluate and refine design solutions.",
+          "skills": [
+            {
+              "description": "Use data to evaluate and refine design solutions.",
+              "keywords": [
+                "data evaluation",
+                "design refinement",
+                "iterative process",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.1.SEP.7",
+          "description": "Construct explanations and generate multiple solutions to problems.",
+          "skills": [
+            {
+              "description": "Construct explanations that include qualitative or quantitative relationships between variables.",
+              "keywords": [
+                "explanations",
+                "qualitative relationships",
+                "quantitative relationships",
+                "variables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct scientific explanations based on valid and reliable evidence.",
+              "keywords": [
+                "scientific explanations",
+                "evidence-based reasoning",
+                "validity",
+                "reliability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate and compare multiple solutions to problems based on criteria and constraints.",
+              "keywords": [
+                "multiple solutions",
+                "criteria",
+                "constraints",
+                "evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.1.SEP.8",
+          "description": "Develop and use models to predict and explain phenomena.",
+          "skills": [
+            {
+              "description": "Use scale models to represent and estimate distance.",
+              "keywords": [
+                "scale models",
+                "distance estimation",
+                "proportions",
+                "measurement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use, develop, and revise models to predict and explain phenomena.",
+              "keywords": [
+                "models",
+                "prediction",
+                "phenomena",
+                "model revision"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate limitations of models.",
+              "keywords": [
+                "model limitations",
+                "accuracy",
+                "validity",
+                "scientific models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.1.SEP.9",
+          "description": "Obtain, evaluate, and communicate scientific and technical information.",
+          "skills": [
+            {
+              "description": "Read scientific texts to obtain scientific and/or technical information.",
+              "keywords": [
+                "scientific texts",
+                "technical reading",
+                "information retrieval",
+                "comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and synthesize information from multiple sources and assess credibility, accuracy, and bias.",
+              "keywords": [
+                "information synthesis",
+                "source evaluation",
+                "credibility",
+                "bias assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, use, and/or present an argument supported by empirical evidence and scientific reasoning.",
+              "keywords": [
+                "arguments",
+                "empirical evidence",
+                "scientific reasoning",
+                "presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solar System and Earth-Sun-Moon Relationships / Energy",
+      "standards": [
+        {
+          "code": "6.2.SS",
+          "description": "Investigate the organization and interactions of the solar system.",
+          "skills": [
+            {
+              "description": "Recognize that matter is distributed throughout the solar system.",
+              "keywords": [
+                "matter distribution",
+                "solar system",
+                "cosmic composition",
+                "space science"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that planets have different sizes and orbit at different distances from the sun.",
+              "keywords": [
+                "planetary sizes",
+                "orbital distances",
+                "solar system structure",
+                "planetary motion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that gravity contributes to orbital motion.",
+              "keywords": [
+                "gravity",
+                "orbital motion",
+                "Newtonian physics",
+                "celestial mechanics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that the understanding of the solar system has developed over time.",
+              "keywords": [
+                "historical astronomy",
+                "solar system models",
+                "scientific progress",
+                "astronomical history"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.3.ESM",
+          "description": "Investigate the relationship between the sun, Earth, and the moon.",
+          "skills": [
+            {
+              "description": "Recognize that Earth has unique properties.",
+              "keywords": [
+                "Earth's properties",
+                "planetary uniqueness",
+                "geological features",
+                "Earth science"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that the rotation of Earth in relationship to the sun causes day and night.",
+              "keywords": [
+                "Earth's rotation",
+                "day and night",
+                "axial tilt",
+                "solar position"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that the movement of Earth and the moon in relationship to the sun causes phases of the moon.",
+              "keywords": [
+                "lunar phases",
+                "Earth-moon-sun system",
+                "celestial mechanics",
+                "orbital mechanics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that Earth’s tilt as it revolves around the sun causes the seasons.",
+              "keywords": [
+                "Earth's tilt",
+                "seasons",
+                "axial tilt",
+                "orbital mechanics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that the relationship between Earth and the moon is the primary cause of tides.",
+              "keywords": [
+                "tides",
+                "gravitational pull",
+                "Earth-moon interactions",
+                "oceanography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.4.ET",
+          "description": "Investigate basic sources of energy and energy transformations.",
+          "skills": [
+            {
+              "description": "Recognize that the sun is important in the formation of most energy sources on Earth.",
+              "keywords": [
+                "solar energy",
+                "energy sources",
+                "renewable energy",
+                "Earth's energy budget"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that Earth’s energy budget relates to living systems and Earth’s processes.",
+              "keywords": [
+                "energy budget",
+                "living systems",
+                "Earth's processes",
+                "thermodynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that radiation, conduction, and convection distribute energy.",
+              "keywords": [
+                "energy transfer",
+                "radiation",
+                "conduction",
+                "convection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that energy transformations are important in energy usage.",
+              "keywords": [
+                "energy transformations",
+                "energy conversion",
+                "thermodynamics",
+                "energy efficiency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matter and Atomic Structure",
+      "standards": [
+        {
+          "code": "6.5.MAS",
+          "description": "Investigate the composition of matter and atomic structure.",
+          "skills": [
+            {
+              "description": "Recognize that atoms consist of particles, including electrons, protons, and neutrons.",
+              "keywords": [
+                "atomic structure",
+                "subatomic particles",
+                "electrons",
+                "protons",
+                "neutrons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that atoms of a particular element are similar but differ from atoms of other elements.",
+              "keywords": [
+                "elements",
+                "atomic similarity",
+                "periodic table",
+                "chemical properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use chemical symbols to represent elements.",
+              "keywords": [
+                "chemical symbols",
+                "element representation",
+                "periodic table notation",
+                "chemistry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that two or more atoms interact to form new substances, which are held together by electrical forces (bonds).",
+              "keywords": [
+                "chemical bonds",
+                "molecular formation",
+                "electrical forces",
+                "compound formation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use chemical formulas to represent compounds.",
+              "keywords": [
+                "chemical formulas",
+                "compound representation",
+                "molecular notation",
+                "chemistry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use chemical equations to model chemical changes.",
+              "keywords": [
+                "chemical equations",
+                "chemical reactions",
+                "stoichiometry",
+                "reaction modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that a few elements comprise the largest portion of the solid Earth, living matter, the oceans, and the atmosphere.",
+              "keywords": [
+                "element abundance",
+                "Earth's composition",
+                "living matter",
+                "atmospheric composition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water, Atmosphere, and Watersheds",
+      "standards": [
+        {
+          "code": "6.6.WA",
+          "description": "Investigate the unique properties of water and its role in the environment.",
+          "skills": [
+            {
+              "description": "Recognize that water is referred to as the universal solvent.",
+              "keywords": [
+                "universal solvent",
+                "solubility",
+                "water properties",
+                "chemistry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that water has specific properties.",
+              "keywords": [
+                "water properties",
+                "physical properties",
+                "phase changes",
+                "thermodynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that thermal energy has a role in phase changes.",
+              "keywords": [
+                "thermal energy",
+                "phase changes",
+                "water states",
+                "thermodynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that water has a role in weathering.",
+              "keywords": [
+                "weathering",
+                "erosion",
+                "water action",
+                "geology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that large bodies of water moderate climate.",
+              "keywords": [
+                "climate moderation",
+                "large water bodies",
+                "thermal regulation",
+                "meteorology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that water is important for agriculture, power generation, and public health.",
+              "keywords": [
+                "water resources",
+                "agriculture",
+                "hydropower",
+                "public health"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.7.AS",
+          "description": "Investigate the properties and structure of Earth's atmosphere.",
+          "skills": [
+            {
+              "description": "Recognize that air is a mixture of gaseous elements and compounds.",
+              "keywords": [
+                "air composition",
+                "gaseous mixture",
+                "atmospheric gases",
+                "chemistry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that the atmosphere has physical characteristics.",
+              "keywords": [
+                "atmospheric characteristics",
+                "physical properties",
+                "meteorology",
+                "atmospheric science"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that properties of the atmosphere change with altitude.",
+              "keywords": [
+                "atmospheric layers",
+                "altitude effects",
+                "pressure changes",
+                "temperature gradients"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that there is a relationship between air movement, thermal energy, and weather conditions.",
+              "keywords": [
+                "air movement",
+                "thermal energy",
+                "weather patterns",
+                "meteorology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use atmospheric measures to predict weather conditions.",
+              "keywords": [
+                "atmospheric measures",
+                "weather prediction",
+                "meteorological data",
+                "forecasting"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use weather maps to interpret basic information about fronts, systems, and weather measurements.",
+              "keywords": [
+                "weather maps",
+                "fronts",
+                "weather systems",
+                "meteorological interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.8.WS",
+          "description": "Investigate the role of land and water in watershed systems.",
+          "skills": [
+            {
+              "description": "Recognize that a watershed is composed of the land that drains into a body of water.",
+              "keywords": [
+                "watershed",
+                "drainage basin",
+                "hydrology",
+                "geography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that Virginia is composed of multiple watershed systems which have specific features.",
+              "keywords": [
+                "Virginia watersheds",
+                "regional hydrology",
+                "watershed features",
+                "geography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that the Chesapeake Bay is an estuary that has many important functions.",
+              "keywords": [
+                "Chesapeake Bay",
+                "estuary",
+                "ecosystem functions",
+                "environmental science"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that natural processes, human activities, and biotic and abiotic factors influence the health of a watershed system.",
+              "keywords": [
+                "watershed health",
+                "natural processes",
+                "human impact",
+                "biotic factors",
+                "abiotic factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth Resources and Human Impact",
+      "standards": [
+        {
+          "code": "6.9.ERH",
+          "description": "Investigate human impact on the environment and resource management.",
+          "skills": [
+            {
+              "description": "Recognize that natural resources are important to protect and maintain.",
+              "keywords": [
+                "natural resources",
+                "resource conservation",
+                "sustainability",
+                "environmental science"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that renewable and nonrenewable resources can be managed.",
+              "keywords": [
+                "resource management",
+                "renewable resources",
+                "nonrenewable resources",
+                "sustainability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that major health and safety issues are associated with air and water quality.",
+              "keywords": [
+                "air quality",
+                "water quality",
+                "health risks",
+                "environmental hazards"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that major health and safety issues are related to different forms of energy.",
+              "keywords": [
+                "energy safety",
+                "health risks",
+                "energy sources",
+                "environmental hazards"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that preventive measures can protect land-use and reduce environmental hazards.",
+              "keywords": [
+                "preventive measures",
+                "land-use protection",
+                "environmental hazards",
+                "sustainability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that there are cost/benefit tradeoffs in conservation policies.",
+              "keywords": [
+                "cost-benefit analysis",
+                "conservation policies",
+                "economic tradeoffs",
+                "environmental policy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

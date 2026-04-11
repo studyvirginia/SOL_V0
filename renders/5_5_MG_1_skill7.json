@@ -1,0 +1,133 @@
+{
+  "key": "5_5_MG_1_skill7",
+  "grade": "5",
+  "code": "5.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 5 Math",
+  "desc": "Solve problems involving length, mass, and liquid volume using metric units.",
+  "skill_desc": "Determine equivalent metric measurements within the metric system for length, mass, and liquid volume.",
+  "skill_idx": 6,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/5_5_MG_1_skill7.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "1\\text{ m} = 100\\text{ cm}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "1\\text{ kg} = 1000\\text{ g}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "1\\text{ L} = 1000\\text{ mL}",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 10,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Metric Conversions"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"0 cm\")",
+      "SetLabelMode(A, 3)",
+      "B = (10, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"10 cm\")",
+      "SetLabelMode(B, 3)",
+      "C = (0, 10)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"10 cm\")",
+      "SetLabelMode(C, 3)",
+      "segAB = Segment(A, B)",
+      "SetColor(segAB, 0, 122, 255)",
+      "segBC = Segment(B, C)",
+      "SetColor(segBC, 0, 122, 255)",
+      "segCA = Segment(C, A)",
+      "SetColor(segCA, 0, 122, 255)",
+      "SetLabelVisible(segAB, true)",
+      "SetCaption(segAB, \"10 cm = 0.1 m\")",
+      "SetLabelMode(segAB, 3)",
+      "SetLabelVisible(segBC, true)",
+      "SetCaption(segBC, \"10 cm = 0.1 m\")",
+      "SetLabelMode(segBC, 3)",
+      "SetLabelVisible(segCA, true)",
+      "SetCaption(segCA, \"10 cm = 0.1 m\")",
+      "SetLabelMode(segCA, 3)",
+      "D = (1, 1)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"1 g\")",
+      "SetLabelMode(D, 3)",
+      "E = (1, 3)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"1000 g = 1 kg\")",
+      "SetLabelMode(E, 3)",
+      "F = (1, 5)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"1000 mL = 1 L\")",
+      "SetLabelMode(F, 3)",
+      "G = (1, 7)",
+      "SetLabelVisible(G, true)",
+      "SetCaption(G, \"1 L\")",
+      "SetLabelMode(G, 3)",
+      "H = (1, 9)",
+      "SetLabelVisible(H, true)",
+      "SetCaption(H, \"1000 mL\")",
+      "SetLabelMode(H, 3)"
+    ],
+    "view": [
+      -1,
+      11,
+      -1,
+      11
+    ],
+    "showGrid": true,
+    "title": "Metric Conversions: cm to m, g to kg, mL to L"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (2, 5)",
+      "B = (0, 0)",
+      "C = (6, 0)",
+      "Polygon(A, B, C)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "D\u1ef1ng m\u1ed9t tam gi\u00e1c ABC."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "key": "7_7_CE_1_skill3",
+  "grade": "7",
+  "code": "7.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 7 Math",
+  "desc": "Estimate, solve, and justify solutions to multistep contextual problems involving operations with rational numbers.",
+  "skill_desc": "Justify solutions to multistep contextual problems involving operations with rational numbers.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_CE_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{1}{2}x+3",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(-6,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -8,
+      "bottom": -2,
+      "right": 2,
+      "top": 6
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear Function"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 0.5*x + 2",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = -0.25*x + 5",
+      "SetColor(g, 255, 59, 48)",
+      "Intersect(f, g)",
+      "SetLabelVisible(Intersect(f, g), true)",
+      "SetCaption(Intersect(f, g), \"Solution\")",
+      "SetLabelMode(Intersect(f, g), 3)"
+    ],
+    "view": [
+      -5,
+      15,
+      -2,
+      8
+    ],
+    "showGrid": true,
+    "title": "Solving a system of linear equations (7.CE.1)"
+  },
+  "sketchmath_state": null
+}

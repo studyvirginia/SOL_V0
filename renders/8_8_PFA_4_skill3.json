@@ -1,0 +1,85 @@
+{
+  "key": "8_8_PFA_4_skill3",
+  "grade": "8",
+  "code": "8.PFA.4",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 8 Math",
+  "desc": "Write and solve multistep linear equations in one variable, including contextual problems.",
+  "skill_desc": "Write a multistep linear equation in one variable to represent a verbal situation, including those in context.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PFA_4_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2x+3",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "\\left(-\\frac{3}{2},0\\right)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -2,
+      "right": 5,
+      "top": 8
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear Equation: y = 2x + 3"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x + 3",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 5*x - 2",
+      "SetColor(g, 255, 0, 0)",
+      "Intersect(f, g)",
+      "SetLabelVisible(Intersect(f, g), true)",
+      "SetCaption(Intersect(f, g), \"Solution\")",
+      "SetLabelMode(Intersect(f, g), 3)"
+    ],
+    "view": [
+      -5,
+      5,
+      -5,
+      10
+    ],
+    "showGrid": true,
+    "title": "Solving 2x + 3 = 5x - 2 graphically"
+  },
+  "sketchmath_state": null
+}

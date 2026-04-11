@@ -1,0 +1,147 @@
+{
+  "key": "8_8_MG_4_skill5",
+  "grade": "8",
+  "code": "8.MG.4",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 8 Math",
+  "desc": "Apply the Pythagorean Theorem to solve problems involving right triangles.",
+  "skill_desc": "Apply the Pythagorean Theorem and its converse to solve problems involving right triangles in context.",
+  "skill_idx": 4,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/8_8_MG_4_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(8,0),(0,6))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(8,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(0,6)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "r1",
+        "latex": "\\operatorname{polygon}((0,0),(0,1),(1,0))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "arc1",
+        "latex": "(0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1.57"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel1",
+        "latex": "(0.55*\\cos(0.785),0.55*\\sin(0.785))",
+        "label": "90\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 9,
+      "top": 7
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": true,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Right Triangle Pythagorean Theorem"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (12, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (0, 5)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "tri = Polygon(A, B, C)",
+      "SetColor(tri, 0, 122, 255)",
+      "Angle(tri)",
+      "segAB = Segment(A, B)",
+      "SetLabelVisible(segAB, true)",
+      "SetCaption(segAB, \"12\")",
+      "SetLabelMode(segAB, 3)",
+      "segAC = Segment(A, C)",
+      "SetLabelVisible(segAC, true)",
+      "SetCaption(segAC, \"5\")",
+      "SetLabelMode(segAC, 3)",
+      "segBC = Segment(B, C)",
+      "SetLabelVisible(segBC, true)",
+      "SetCaption(segBC, \"13\")",
+      "SetLabelMode(segBC, 3)"
+    ],
+    "view": [
+      -1,
+      13,
+      -1,
+      6
+    ],
+    "showGrid": true,
+    "title": "Right triangle with sides 5, 12, and 13, illustrating the Pythagorean Theorem"
+  },
+  "sketchmath_state": null
+}

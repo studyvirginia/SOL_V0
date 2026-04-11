@@ -1,0 +1,498 @@
+{
+  "subject": "Science",
+  "course": "Grade 1 Science",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "1.1.AQ",
+          "description": "Ask questions and define problems based on observations and simple predictions.",
+          "skills": [
+            {
+              "description": "Ask questions about observations.",
+              "keywords": [
+                "observations",
+                "questions",
+                "inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make predictions based on observations.",
+              "keywords": [
+                "predictions",
+                "observations",
+                "inference"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a simple problem that can be solved by developing a new tool or improved object.",
+              "keywords": [
+                "problem-solving",
+                "engineering design",
+                "tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.1.PI",
+          "description": "Plan and carry out simple investigations to produce data.",
+          "skills": [
+            {
+              "description": "Conduct investigations with guidance to produce data.",
+              "keywords": [
+                "investigations",
+                "data collection",
+                "guided experiments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify characteristics and properties of objects through observations.",
+              "keywords": [
+                "observations",
+                "properties",
+                "characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use tools to measure relative length, weight, volume, and temperature of common objects.",
+              "keywords": [
+                "measurement",
+                "tools",
+                "length",
+                "weight",
+                "volume",
+                "temperature"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.1.IA",
+          "description": "Interpret, analyze, and evaluate data to identify patterns and relationships.",
+          "skills": [
+            {
+              "description": "Use pictures, drawings, and/or writings to share observations.",
+              "keywords": [
+                "data representation",
+                "observations",
+                "visual communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe patterns and relationships in data.",
+              "keywords": [
+                "patterns",
+                "relationships",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify and arrange objects based on a single physical characteristic or property.",
+              "keywords": [
+                "classification",
+                "properties",
+                "physical characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent data using tables, picture graphs, and object graphs.",
+              "keywords": [
+                "data organization",
+                "tables",
+                "picture graphs",
+                "object graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and interpret data displayed in tables, picture graphs, and object graphs using comparative vocabulary.",
+              "keywords": [
+                "data interpretation",
+                "comparative vocabulary",
+                "more",
+                "less",
+                "greater than",
+                "less than",
+                "equal to"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.1.CC",
+          "description": "Construct and critique conclusions and explanations based on data or observations.",
+          "skills": [
+            {
+              "description": "Make simple conclusions based on data or observations.",
+              "keywords": [
+                "conclusions",
+                "data analysis",
+                "observations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize unusual or unexpected results in investigations.",
+              "keywords": [
+                "anomalies",
+                "unexpected results",
+                "data evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.1.MD",
+          "description": "Develop and use models to demonstrate simple phenomena and natural processes.",
+          "skills": [
+            {
+              "description": "Use physical models to demonstrate simple phenomena and natural processes.",
+              "keywords": [
+                "models",
+                "physical models",
+                "phenomena",
+                "natural processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.1.OE",
+          "description": "Obtain, evaluate, and communicate information from observations and data.",
+          "skills": [
+            {
+              "description": "Communicate observations and data using graphs, pictures, drawings, numbers, speech, and/or writing.",
+              "keywords": [
+                "communication",
+                "data presentation",
+                "graphs",
+                "drawings",
+                "speech",
+                "writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Force, Motion, and Energy",
+      "standards": [
+        {
+          "code": "1.2",
+          "description": "Investigate and understand that objects can move in different ways.",
+          "skills": [
+            {
+              "description": "Recognize that objects may have straight, circular, spinning, and back-and-forth motions.",
+              "keywords": [
+                "motion types",
+                "straight motion",
+                "circular motion",
+                "spinning motion",
+                "back-and-forth motion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that objects may vibrate and produce sound.",
+              "keywords": [
+                "vibration",
+                "sound production",
+                "energy transfer"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matter",
+      "standards": [
+        {
+          "code": "1.3",
+          "description": "Investigate and understand that objects are made from materials with specific physical properties.",
+          "skills": [
+            {
+              "description": "Recognize that objects are made of one or more materials with different physical properties.",
+              "keywords": [
+                "materials",
+                "physical properties",
+                "composition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify that materials can be used for a variety of purposes based on their properties.",
+              "keywords": [
+                "material uses",
+                "properties",
+                "functionality"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Observe that changing the size of a material does not alter most physical properties.",
+              "keywords": [
+                "size change",
+                "physical properties",
+                "material transformation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine how the type and amount of material affect how much light can pass through an object.",
+              "keywords": [
+                "light transmission",
+                "material type",
+                "material amount",
+                "opacity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Living Systems and Processes",
+      "standards": [
+        {
+          "code": "1.4",
+          "description": "Investigate and understand that plants have basic life needs and functional parts.",
+          "skills": [
+            {
+              "description": "Identify that plants need nutrients, air, water, light, and a place to grow.",
+              "keywords": [
+                "plant needs",
+                "nutrients",
+                "air",
+                "water",
+                "light",
+                "growth environment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that structures of plants perform specific functions.",
+              "keywords": [
+                "plant structures",
+                "functions",
+                "roots",
+                "stems",
+                "leaves",
+                "flowers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify plants based on a variety of characteristics.",
+              "keywords": [
+                "plant classification",
+                "characteristics",
+                "taxonomy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.5",
+          "description": "Investigate and understand that animals, including humans, have basic life needs.",
+          "skills": [
+            {
+              "description": "Identify that animals need air, food, water, shelter, and space (habitat).",
+              "keywords": [
+                "animal needs",
+                "air",
+                "food",
+                "water",
+                "shelter",
+                "habitat"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that animals have different physical characteristics that perform specific functions.",
+              "keywords": [
+                "animal characteristics",
+                "physical traits",
+                "functions",
+                "adaptations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify animals based on a variety of characteristics.",
+              "keywords": [
+                "animal classification",
+                "characteristics",
+                "taxonomy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth and Space Systems",
+      "standards": [
+        {
+          "code": "1.6",
+          "description": "Investigate and understand the relationship between the sun and Earth.",
+          "skills": [
+            {
+              "description": "Recognize that the sun is the source of energy and light that warms the Earth’s land, air, and water.",
+              "keywords": [
+                "sun",
+                "energy source",
+                "light",
+                "Earth warming"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Observe that the sun’s relative position changes in the Earth’s sky throughout the day.",
+              "keywords": [
+                "sun position",
+                "Earth's rotation",
+                "daytime changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "1.7",
+          "description": "Investigate and understand weather and seasonal changes.",
+          "skills": [
+            {
+              "description": "Recognize that changes in temperature, light, and precipitation occur over time.",
+              "keywords": [
+                "weather changes",
+                "temperature",
+                "light",
+                "precipitation",
+                "time"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify relationships between daily weather and the season.",
+              "keywords": [
+                "weather-season relationship",
+                "seasons",
+                "daily weather"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how changes in temperature, light, and precipitation affect plants and animals, including humans.",
+              "keywords": [
+                "environmental impact",
+                "temperature",
+                "light",
+                "precipitation",
+                "plants",
+                "animals",
+                "humans"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth Resources",
+      "standards": [
+        {
+          "code": "1.8",
+          "description": "Investigate and understand responsible use of natural resources.",
+          "skills": [
+            {
+              "description": "Recognize that most natural resources are limited.",
+              "keywords": [
+                "natural resources",
+                "scarcity",
+                "limited resources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify how human actions can affect the availability of natural resources.",
+              "keywords": [
+                "human impact",
+                "resource availability",
+                "conservation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how reducing, reusing, and recycling conserve natural resources.",
+              "keywords": [
+                "conservation",
+                "reduce",
+                "reuse",
+                "recycle",
+                "resource management"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,873 @@
+{
+  "subject": "Math",
+  "course": "Grade 3 Math",
+  "domains": [
+    {
+      "name": "Number and Number Sense",
+      "standards": [
+        {
+          "code": "3.NS.1",
+          "description": "Use place value understanding to read, write, and determine the place and value of digits in whole numbers up to six digits.",
+          "skills": [
+            {
+              "description": "Read and write six-digit whole numbers in standard form.",
+              "keywords": [
+                "place value",
+                "standard form",
+                "whole numbers",
+                "six-digit"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and write six-digit whole numbers in expanded form.",
+              "keywords": [
+                "place value",
+                "expanded form",
+                "whole numbers",
+                "six-digit"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and write six-digit whole numbers in word form.",
+              "keywords": [
+                "place value",
+                "word form",
+                "whole numbers",
+                "six-digit"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the place and value of each digit in a six-digit whole number (e.g., in 165,724, the 5 represents 5 thousands and its value is 5,000).",
+              "keywords": [
+                "place value",
+                "digit value",
+                "whole numbers",
+                "six-digit"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compose numbers up to 9,999 in multiple ways using place value (e.g., 256 as 1 hundred, 14 tens, 16 ones).",
+              "keywords": [
+                "compose numbers",
+                "place value",
+                "whole numbers",
+                "9,999"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Decompose numbers up to 9,999 in multiple ways using place value.",
+              "keywords": [
+                "decompose numbers",
+                "place value",
+                "whole numbers",
+                "9,999"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.NS.2",
+          "description": "Compare and order whole numbers up to 9,999 using symbols and words.",
+          "skills": [
+            {
+              "description": "Compare two whole numbers (≤ 9,999) using symbols (>, <, =, ≠).",
+              "keywords": [
+                "compare numbers",
+                "whole numbers",
+                "symbols",
+                "9,999"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare two whole numbers (≤ 9,999) using words (greater than, less than, equal to, not equal to).",
+              "keywords": [
+                "compare numbers",
+                "whole numbers",
+                "words",
+                "9,999"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Order up to three whole numbers (≤ 9,999) from least to greatest.",
+              "keywords": [
+                "order numbers",
+                "whole numbers",
+                "least to greatest",
+                "9,999"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Order up to three whole numbers (≤ 9,999) from greatest to least.",
+              "keywords": [
+                "order numbers",
+                "whole numbers",
+                "greatest to least",
+                "9,999"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.NS.3",
+          "description": "Represent, compare, and justify fractions and mixed numbers with denominators of 2, 3, 4, 5, 6, 8, and 10.",
+          "skills": [
+            {
+              "description": "Represent a given fraction or mixed number using region/area models (e.g., pie pieces, pattern blocks).",
+              "keywords": [
+                "fractions",
+                "mixed numbers",
+                "region models",
+                "denominators 2-10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent a given fraction or mixed number using length models (e.g., fraction strips, number lines).",
+              "keywords": [
+                "fractions",
+                "mixed numbers",
+                "length models",
+                "denominators 2-10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent a given fraction or mixed number using set models (e.g., counters, cubes).",
+              "keywords": [
+                "fractions",
+                "mixed numbers",
+                "set models",
+                "denominators 2-10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a fraction represented by a model as the sum of unit fractions.",
+              "keywords": [
+                "unit fractions",
+                "fraction models",
+                "denominators 2-10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Convert a fraction greater than one to an improper fraction and a mixed number using models (e.g., 5/4 = 1 1/4).",
+              "keywords": [
+                "improper fractions",
+                "mixed numbers",
+                "fraction models",
+                "denominators 2-10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compose and decompose fractions (proper and improper) with denominators of 2, 3, 4, 5, 6, 8, and 10 using models.",
+              "keywords": [
+                "compose fractions",
+                "decompose fractions",
+                "denominators 2-10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare a fraction (≤ 1) to the benchmarks 0, 1/2, and 1 using models and without models.",
+              "keywords": [
+                "compare fractions",
+                "benchmarks",
+                "0",
+                "1/2",
+                "1"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare two fractions or mixed numbers with like numerators using words and symbols.",
+              "keywords": [
+                "compare fractions",
+                "like numerators",
+                "denominators 2-10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare two fractions or mixed numbers with like denominators using words and symbols.",
+              "keywords": [
+                "compare fractions",
+                "like denominators",
+                "denominators 2-10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent equivalent fractions with denominators of 2, 3, 4, 5, 6, 8, or 10 using region/area and length models.",
+              "keywords": [
+                "equivalent fractions",
+                "region models",
+                "length models",
+                "denominators 2-10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.NS.4",
+          "description": "Solve problems involving counting, comparing, representing, and making change for money amounts up to $5.00.",
+          "skills": [
+            {
+              "description": "Determine the value of a collection of bills and coins totaling $5.00 or less.",
+              "keywords": [
+                "money value",
+                "bills",
+                "coins",
+                "$5.00"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct a set of bills and coins to total a given amount up to $5.00.",
+              "keywords": [
+                "make change",
+                "bills",
+                "coins",
+                "$5.00"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the values of two sets of coins or bills and coins up to $5.00 using words and symbols.",
+              "keywords": [
+                "compare money",
+                "coins",
+                "bills",
+                "$5.00"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve contextual problems to make change from $5.00 or less using counting strategies.",
+              "keywords": [
+                "make change",
+                "contextual problems",
+                "counting strategies",
+                "$5.00"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computation and Estimation",
+      "standards": [
+        {
+          "code": "3.CE.1",
+          "description": "Estimate, represent, solve, and justify solutions to addition and subtraction problems with whole numbers up to 1,000.",
+          "skills": [
+            {
+              "description": "Determine whether an estimate or exact answer is appropriate for single-step or multistep addition or subtraction problems.",
+              "keywords": [
+                "estimate",
+                "exact answer",
+                "addition",
+                "subtraction",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate solutions for addition or subtraction problems using strategies like rounding or compatible numbers.",
+              "keywords": [
+                "estimate",
+                "rounding",
+                "compatible numbers",
+                "addition",
+                "subtraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply the standard algorithm to determine the sum or difference of two whole numbers up to 1,000.",
+              "keywords": [
+                "standard algorithm",
+                "addition",
+                "subtraction",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve single-step and multistep contextual problems involving addition and subtraction with whole numbers up to 1,000.",
+              "keywords": [
+                "solve problems",
+                "addition",
+                "subtraction",
+                "contextual problems",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.CE.2",
+          "description": "Recall multiplication and division facts through 10×10 and solve single-step contextual problems.",
+          "skills": [
+            {
+              "description": "Represent multiplication and division of whole numbers through 10×10 using models (e.g., arrays, repeated addition).",
+              "keywords": [
+                "multiplication",
+                "division",
+                "models",
+                "arrays",
+                "10×10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write related multiplication and division facts for a given model.",
+              "keywords": [
+                "inverse relationships",
+                "multiplication facts",
+                "division facts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply reasoning strategies (e.g., doubling, near squares) to recall multiplication facts through 10×10.",
+              "keywords": [
+                "multiplication facts",
+                "reasoning strategies",
+                "10×10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recall multiplication and division facts through 10×10 with automaticity.",
+              "keywords": [
+                "multiplication facts",
+                "division facts",
+                "automaticity",
+                "10×10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve single-step contextual problems involving multiplication and division through 10×10.",
+              "keywords": [
+                "solve problems",
+                "multiplication",
+                "division",
+                "contextual problems",
+                "10×10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create equations to represent relationships between equivalent expressions using multiplication and division facts.",
+              "keywords": [
+                "equations",
+                "equivalent expressions",
+                "multiplication",
+                "division"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Measurement and Geometry",
+      "standards": [
+        {
+          "code": "3.MG.1",
+          "description": "Estimate and measure length, weight/mass, and liquid volume using standard units.",
+          "skills": [
+            {
+              "description": "Justify whether an estimate or exact measurement is needed for a contextual situation.",
+              "keywords": [
+                "estimate",
+                "exact measurement",
+                "contextual situation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure length to the nearest U.S. Customary unit (1/2 inch, inch, foot, yard).",
+              "keywords": [
+                "measure length",
+                "U.S. Customary units",
+                "1/2 inch",
+                "inch",
+                "foot",
+                "yard"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure length to the nearest metric unit (centimeter, meter).",
+              "keywords": [
+                "measure length",
+                "metric units",
+                "centimeter",
+                "meter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure weight/mass to the nearest U.S. Customary unit (pound).",
+              "keywords": [
+                "measure weight",
+                "U.S. Customary units",
+                "pound"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure weight/mass to the nearest metric unit (kilogram).",
+              "keywords": [
+                "measure weight",
+                "metric units",
+                "kilogram"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure liquid volume to the nearest U.S. Customary unit (cup, pint, quart, gallon).",
+              "keywords": [
+                "measure volume",
+                "U.S. Customary units",
+                "cup",
+                "pint",
+                "quart",
+                "gallon"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure liquid volume to the nearest metric unit (liter).",
+              "keywords": [
+                "measure volume",
+                "metric units",
+                "liter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare estimates of length, weight/mass, or liquid volume with actual measurements.",
+              "keywords": [
+                "compare measurements",
+                "estimates",
+                "actual measurements"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.MG.2",
+          "description": "Estimate and solve problems involving area and perimeter using multiple representations.",
+          "skills": [
+            {
+              "description": "Describe and give examples of area as a measurement in contextual situations.",
+              "keywords": [
+                "area",
+                "measurement",
+                "contextual situations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and determine the area of a surface by counting square units.",
+              "keywords": [
+                "estimate area",
+                "count square units",
+                "measurement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and give examples of perimeter as a measurement in contextual situations.",
+              "keywords": [
+                "perimeter",
+                "measurement",
+                "contextual situations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate and measure the perimeter of a polygon with no more than six sides.",
+              "keywords": [
+                "estimate perimeter",
+                "measure perimeter",
+                "polygon",
+                "six sides"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the perimeter of a polygon with no more than six sides given the lengths of all sides.",
+              "keywords": [
+                "calculate perimeter",
+                "polygon",
+                "six sides"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.MG.3",
+          "description": "Tell and write time to the nearest minute and solve elapsed time problems within a 12-hour period.",
+          "skills": [
+            {
+              "description": "Tell and write time to the nearest minute using analog and digital clocks.",
+              "keywords": [
+                "tell time",
+                "write time",
+                "analog clock",
+                "digital clock",
+                "nearest minute"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Match a written time to the time shown on analog and digital clocks to the nearest minute.",
+              "keywords": [
+                "match time",
+                "analog clock",
+                "digital clock",
+                "nearest minute"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve single-step contextual problems involving elapsed time in one-hour increments within a 12-hour period.",
+              "keywords": [
+                "elapsed time",
+                "contextual problems",
+                "one-hour increments",
+                "12-hour period"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "3.MG.4",
+          "description": "Identify, describe, classify, compare, combine, and subdivide polygons.",
+          "skills": [
+            {
+              "description": "Describe a polygon as a closed plane figure composed of at least three line segments that do not cross.",
+              "keywords": [
+                "polygon",
+                "closed plane figure",
+                "line segments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify figures as polygons or not polygons and justify reasoning.",
+              "keywords": [
+                "classify polygons",
+                "justify reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe triangles, quadrilaterals, pentagons, hexagons, and octagons in various orientations.",
+              "keywords": [
+                "identify polygons",
+                "triangles",
+                "quadrilaterals",
+                "pentagons",
+                "hexagons",
+                "octagons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and name examples of polygons in the environment.",
+              "keywords": [
+                "identify polygons",
+                "environment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify and compare polygons (triangles, quadrilaterals, pentagons, hexagons, octagons).",
+              "keywords": [
+                "classify polygons",
+                "compare polygons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Combine no more than three polygons (each with three or four sides) and name the resulting polygon.",
+              "keywords": [
+                "combine polygons",
+                "resulting polygon"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Subdivide a three-sided or four-sided polygon into no more than three parts and name the resulting polygons.",
+              "keywords": [
+                "subdivide polygons",
+                "resulting polygons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability and Statistics",
+      "standards": [
+        {
+          "code": "3.PS.1",
+          "description": "Apply the data cycle to formulate questions, collect data, organize and represent data, and analyze results using pictographs and bar graphs.",
+          "skills": [
+            {
+              "description": "Formulate questions that require the collection or acquisition of data.",
+              "keywords": [
+                "formulate questions",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the data needed to answer a formulated question and collect or acquire existing data (≤ 30 data points, ≤ 8 categories).",
+              "keywords": [
+                "determine data",
+                "data collection",
+                "≤ 30 data points",
+                "≤ 8 categories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent a data set using pictographs with an appropriate title, labeled axes, and key (symbols represent 1, 2, 5, or 10 data points).",
+              "keywords": [
+                "pictographs",
+                "title",
+                "labeled axes",
+                "key",
+                "symbols represent 1, 2, 5, or 10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent a data set using bar graphs with a title, labeled axes, and an appropriate scale (increments of 1, 2, 5, or 10).",
+              "keywords": [
+                "bar graphs",
+                "title",
+                "labeled axes",
+                "scale",
+                "increments 1, 2, 5, or 10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data represented in pictographs and bar graphs to describe categories and the data as a whole.",
+              "keywords": [
+                "analyze data",
+                "pictographs",
+                "bar graphs",
+                "categories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify parts of the data with special characteristics (e.g., greatest, least, or same categories).",
+              "keywords": [
+                "identify special characteristics",
+                "greatest",
+                "least",
+                "same categories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make inferences about data represented in pictographs and bar graphs.",
+              "keywords": [
+                "make inferences",
+                "pictographs",
+                "bar graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Draw conclusions and make predictions based on data characteristics.",
+              "keywords": [
+                "draw conclusions",
+                "make predictions",
+                "data characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve one- and two-step addition and subtraction problems using data from pictographs and bar graphs.",
+              "keywords": [
+                "solve problems",
+                "addition",
+                "subtraction",
+                "pictographs",
+                "bar graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patterns, Functions, and Algebra",
+      "standards": [
+        {
+          "code": "3.PFA.1",
+          "description": "Identify, describe, extend, and create increasing and decreasing patterns using various representations.",
+          "skills": [
+            {
+              "description": "Identify and describe increasing and decreasing patterns using objects, pictures, numbers, or number lines.",
+              "keywords": [
+                "identify patterns",
+                "increasing patterns",
+                "decreasing patterns",
+                "objects",
+                "pictures",
+                "numbers",
+                "number lines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze an increasing or decreasing pattern to extend it or identify missing terms using various representations.",
+              "keywords": [
+                "analyze patterns",
+                "extend patterns",
+                "missing terms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve contextual problems involving identifying, describing, and extending patterns.",
+              "keywords": [
+                "solve problems",
+                "contextual problems",
+                "patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create increasing and decreasing patterns using objects, pictures, numbers, or number lines.",
+              "keywords": [
+                "create patterns",
+                "increasing patterns",
+                "decreasing patterns",
+                "objects",
+                "pictures",
+                "numbers",
+                "number lines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and explain the connection between two different representations of the same pattern.",
+              "keywords": [
+                "investigate patterns",
+                "explain connections",
+                "pattern representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

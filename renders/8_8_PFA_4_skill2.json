@@ -1,0 +1,101 @@
+{
+  "key": "8_8_PFA_4_skill2",
+  "grade": "8",
+  "code": "8.PFA.4",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 8 Math",
+  "desc": "Write and solve multistep linear equations in one variable, including contextual problems.",
+  "skill_desc": "Apply properties of real numbers and properties of equality to solve multistep linear equations in one variable (up to four steps).",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PFA_4_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "2(x+3)-5=9",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "2x+6-5=9",
+        "color": "#5856D6",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "2x+1=9",
+        "color": "#FF9500",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e4",
+        "latex": "2x=8",
+        "color": "#FF3B30",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e5",
+        "latex": "x=4",
+        "color": "#34C759",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Solving a multistep linear equation"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*(x + 3) - 5 = 7",
+      "g(x) = 2*x + 6 - 5",
+      "h(x) = 2*x + 1",
+      "Intersect(g, y = 7)",
+      "A = Intersect(h, y = 7)",
+      "SetColor(A, 255, 0, 0)",
+      "SetPointSize(A, 5)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Solution: x = 3\")",
+      "SetLabelMode(A, 3)"
+    ],
+    "view": [
+      -5,
+      5,
+      -1,
+      9
+    ],
+    "showGrid": true,
+    "title": "Solving 2(x+3) - 5 = 7"
+  },
+  "sketchmath_state": null
+}

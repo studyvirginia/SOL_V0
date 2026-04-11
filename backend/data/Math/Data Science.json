@@ -1,0 +1,852 @@
+{
+  "subject": "Math",
+  "course": "Data Science",
+  "domains": [
+    {
+      "name": "Data in Context",
+      "standards": [
+        {
+          "code": "DS.1",
+          "description": "Identify problems suitable for data-driven solutions and define the stages of the data science cycle.",
+          "skills": [
+            {
+              "description": "Identify characteristics of problems that benefit from a data-driven approach.",
+              "keywords": [
+                "data-driven problem solving",
+                "problem identification",
+                "data suitability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Formulate questions based on contextual information.",
+              "keywords": [
+                "question formulation",
+                "contextual analysis",
+                "hypothesis generation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine relevant data types for a given problem context.",
+              "keywords": [
+                "data relevance",
+                "contextual data",
+                "data types"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define relationships between variables and constants in a problem.",
+              "keywords": [
+                "variable relationships",
+                "constant relationships",
+                "data relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a measurable hypothesis for a data science problem.",
+              "keywords": [
+                "measurable hypothesis",
+                "data hypothesis",
+                "hypothesis formulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define the stages of the data science cycle and their interconnections.",
+              "keywords": [
+                "data cycle stages",
+                "data science process",
+                "data workflow"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify constraints of a data-driven approach to problem-solving.",
+              "keywords": [
+                "data constraints",
+                "limitations of data science",
+                "problem constraints"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DS.2",
+          "description": "Design a data project plan aligned with the data science cycle, including sampling methodology.",
+          "skills": [
+            {
+              "description": "Design a data project plan with components such as project goals, parameters, stakeholders, timeline, KPIs, resources, and limitations.",
+              "keywords": [
+                "data project plan",
+                "project design",
+                "KPIs",
+                "stakeholder analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and justify a sampling technique (simple random, systematic, stratified, cluster) for a data project.",
+              "keywords": [
+                "sampling techniques",
+                "simple random sampling",
+                "systematic sampling",
+                "stratified sampling",
+                "cluster sampling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify bias considerations in the sampling process of a data project.",
+              "keywords": [
+                "sampling bias",
+                "bias mitigation",
+                "data sampling considerations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Bias",
+      "standards": [
+        {
+          "code": "DS.3",
+          "description": "Recognize data literacy and identify biases in existing analyses and visualizations.",
+          "skills": [
+            {
+              "description": "Formulate questions to identify potential data biases in analyses or visualizations.",
+              "keywords": [
+                "bias identification",
+                "data literacy",
+                "bias questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read and explain data summaries and visualizations in nontechnical terms.",
+              "keywords": [
+                "data summarization",
+                "visualization interpretation",
+                "nontechnical communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify potential data biases and discuss their effects on analysis and decision-making.",
+              "keywords": [
+                "data bias effects",
+                "bias analysis",
+                "decision-making impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify privacy and consumer protection issues in data presentation.",
+              "keywords": [
+                "data privacy",
+                "consumer protection",
+                "data presentation issues"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe types of data collected by business, industry, and government entities and their uses.",
+              "keywords": [
+                "data collection types",
+                "business data",
+                "government data",
+                "data usage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DS.4",
+          "description": "Identify biases in data collection and understand implications and privacy issues.",
+          "skills": [
+            {
+              "description": "Identify data biases in the collection process (e.g., confirmation, selection, outliers, overfitting/underfitting, confounding) and describe mitigation strategies.",
+              "keywords": [
+                "data collection bias",
+                "confirmation bias",
+                "selection bias",
+                "outliers",
+                "overfitting",
+                "underfitting",
+                "confounding",
+                "bias mitigation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Provide examples of sampling biases and their potential effects.",
+              "keywords": [
+                "sampling bias examples",
+                "sampling effects",
+                "bias examples"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe data biases as both a producer and consumer of data.",
+              "keywords": [
+                "data bias roles",
+                "producer bias",
+                "consumer bias",
+                "bias awareness"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how data collection should be focused, relevant, and limited to the scope of the data project plan.",
+              "keywords": [
+                "data collection scope",
+                "relevant data collection",
+                "project scope"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe privacy considerations in data collection as both a consumer and producer.",
+              "keywords": [
+                "data privacy",
+                "consumer privacy",
+                "producer privacy",
+                "privacy considerations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data and Communication",
+      "standards": [
+        {
+          "code": "DS.5",
+          "description": "Use storytelling to communicate data science project results effectively.",
+          "skills": [
+            {
+              "description": "Define storytelling and explain its importance in data science communication.",
+              "keywords": [
+                "data storytelling",
+                "storytelling importance",
+                "communication strategy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the steps involved in data storytelling and its relation to the data cycle.",
+              "keywords": [
+                "storytelling steps",
+                "data cycle",
+                "storytelling process"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a story worth telling based on data trends, correlations, outliers, questions, or hypotheses.",
+              "keywords": [
+                "story identification",
+                "data trends",
+                "correlations",
+                "outliers",
+                "hypothesis formation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select visualizations that simplify information, highlight key data, and communicate points quickly.",
+              "keywords": [
+                "visualization selection",
+                "data simplification",
+                "key data highlighting",
+                "communication efficiency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Simplify information to focus audience attention on key parameters supporting a hypothesis.",
+              "keywords": [
+                "information simplification",
+                "audience focus",
+                "key parameters",
+                "hypothesis support"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Form a narrative based on data to provide context, insight, and interpretation for an audience.",
+              "keywords": [
+                "data narrative",
+                "context provision",
+                "insight generation",
+                "audience interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Ensure data storytelling includes complete, accurate information and consistent visuals.",
+              "keywords": [
+                "complete data",
+                "accurate information",
+                "consistent visuals",
+                "storytelling integrity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DS.6",
+          "description": "Justify the design, use, and effectiveness of different data visualizations.",
+          "skills": [
+            {
+              "description": "Conduct exploratory data analysis using visualization.",
+              "keywords": [
+                "exploratory data analysis",
+                "visualization",
+                "data exploration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Formulate questions from data exploration to guide visualization choices.",
+              "keywords": [
+                "question formulation",
+                "data exploration",
+                "visualization guidance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the effectiveness of different data visualization choices based on context.",
+              "keywords": [
+                "visualization effectiveness",
+                "data context",
+                "visualization selection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a visualization of a dataset and summarize its representation using context.",
+              "keywords": [
+                "dataset visualization",
+                "visualization creation",
+                "contextual summarization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare multiple visualizations to ensure design communicates features and behavior of datasets.",
+              "keywords": [
+                "visualization comparison",
+                "dataset features",
+                "behavior communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify visualization design choices based on dataset type, size, context, and audience.",
+              "keywords": [
+                "design justification",
+                "dataset type",
+                "audience analysis",
+                "visualization design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Modeling",
+      "standards": [
+        {
+          "code": "DS.7",
+          "description": "Assess the reliability of source data for mathematical modeling.",
+          "skills": [
+            {
+              "description": "Explain the importance of determining the reliability of big data sources for building data trust.",
+              "keywords": [
+                "data reliability",
+                "big data sources",
+                "data trust",
+                "source assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between reliability of a data source and statistical reliability/validity in research.",
+              "keywords": [
+                "data source reliability",
+                "statistical reliability",
+                "validity assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Assess source data for reliability based on validity, completeness, and uniqueness.",
+              "keywords": [
+                "data assessment",
+                "validity",
+                "completeness",
+                "uniqueness",
+                "source reliability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DS.8",
+          "description": "Acquire and prepare big datasets for modeling and analysis.",
+          "skills": [
+            {
+              "description": "Explain pros and cons of collecting data versus acquiring it from existing sources.",
+              "keywords": [
+                "data collection",
+                "data acquisition",
+                "pros and cons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply matrix operations (sort, select, filter, replace) to wrangle data using algebraic methods with technology tools.",
+              "keywords": [
+                "matrix operations",
+                "data wrangling",
+                "sorting",
+                "filtering",
+                "replacement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Clean data using technology tools.",
+              "keywords": [
+                "data cleaning",
+                "data preprocessing",
+                "data scrubbing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Format and enrich data for analysis.",
+              "keywords": [
+                "data formatting",
+                "data enrichment",
+                "data preparation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Combine and store data efficiently.",
+              "keywords": [
+                "data combination",
+                "data storage",
+                "data merging"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read data from different sources for preparation and analysis.",
+              "keywords": [
+                "data reading",
+                "data sources",
+                "data ingestion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify important parameters of a big dataset based on context.",
+              "keywords": [
+                "dataset parameters",
+                "big data analysis",
+                "contextual parameters"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Document the process of ingesting, formatting, and cleaning data for decision-making.",
+              "keywords": [
+                "data documentation",
+                "ingestion process",
+                "cleaning process",
+                "decision-making"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DS.9",
+          "description": "Select and analyze data models to make predictions while assessing accuracy and uncertainty.",
+          "skills": [
+            {
+              "description": "Identify factors contributing to dataset behavior (e.g., true values, bias, noise).",
+              "keywords": [
+                "dataset behavior",
+                "true values",
+                "bias",
+                "noise",
+                "data factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Fit models (e.g., univariate, bivariate) to data for prediction.",
+              "keywords": [
+                "model fitting",
+                "univariate models",
+                "bivariate models",
+                "prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between linear and nonlinear associations using visualizations.",
+              "keywords": [
+                "linear associations",
+                "nonlinear associations",
+                "visualization analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify overly complex models that fit random noise, reducing predictive accuracy.",
+              "keywords": [
+                "overfitting",
+                "model complexity",
+                "predictive accuracy",
+                "noise fitting"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use regression techniques to select optimal features.",
+              "keywords": [
+                "regression techniques",
+                "feature selection",
+                "optimal features"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize implications of removing features from a model.",
+              "keywords": [
+                "feature removal",
+                "model implications",
+                "feature impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select the optimal model for a dataset using technological tools.",
+              "keywords": [
+                "optimal model selection",
+                "model evaluation",
+                "technological tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DS.10",
+          "description": "Summarize and interpret data in conventional and emerging visualizations.",
+          "skills": [
+            {
+              "description": "Apply descriptive statistics to explain measures of central tendency and variability in visualizations.",
+              "keywords": [
+                "descriptive statistics",
+                "central tendency",
+                "variability",
+                "data visualization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define and describe emerging visualizations (e.g., heat maps, bubble charts) and their summarization characteristics.",
+              "keywords": [
+                "emerging visualizations",
+                "heat map",
+                "bubble chart",
+                "data summarization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret emerging visualizations by describing patterns, trends, and relationships between variables.",
+              "keywords": [
+                "visualization interpretation",
+                "data patterns",
+                "trend analysis",
+                "variable relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DS.11",
+          "description": "Select statistical models and tests to extract actionable knowledge from data.",
+          "skills": [
+            {
+              "description": "Calculate theoretical probability of random events and compare to observed frequencies.",
+              "keywords": [
+                "theoretical probability",
+                "observed frequencies",
+                "probability calculation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the normal curve based on mean and standard deviation of a univariate dataset.",
+              "keywords": [
+                "normal curve",
+                "mean",
+                "standard deviation",
+                "univariate data"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Fit nonlinear models to datasets and use them to predict unobserved data values.",
+              "keywords": [
+                "nonlinear models",
+                "data fitting",
+                "prediction",
+                "unobserved data"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select pairs of variables that identify meaningful clusters of data.",
+              "keywords": [
+                "variable clustering",
+                "data clusters",
+                "cluster identification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select an appropriate statistical distribution and test its goodness of fit based on context.",
+              "keywords": [
+                "statistical distribution",
+                "goodness of fit",
+                "distribution selection",
+                "contextual testing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data and Computing",
+      "standards": [
+        {
+          "code": "DS.12",
+          "description": "Select and utilize technological tools to process and prepare data for analysis.",
+          "skills": [
+            {
+              "description": "Access data effectively from multiple sources (tables, CSV, spreadsheets, documents, databases) using technology tools.",
+              "keywords": [
+                "data access",
+                "data sources",
+                "CSV",
+                "spreadsheets",
+                "databases"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explore data for issues and errors using tools before processing.",
+              "keywords": [
+                "data exploration",
+                "error detection",
+                "data validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define the process to optimally ingest and export data using technology.",
+              "keywords": [
+                "data ingestion",
+                "data export",
+                "process definition",
+                "technology tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Clean and validate data by removing incomplete, incorrect, or duplicated entries; removing outliers; and standardizing data.",
+              "keywords": [
+                "data cleaning",
+                "data validation",
+                "outlier removal",
+                "data standardization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Combine and store data by merging datasets and optimizing storage based on volume, velocity, and variety.",
+              "keywords": [
+                "data combination",
+                "data storage",
+                "dataset merging",
+                "storage optimization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Format and store data appropriately for effective analysis.",
+              "keywords": [
+                "data formatting",
+                "data storage",
+                "analysis preparation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "DS.13",
+          "description": "Select and utilize technological tools to analyze and communicate data effectively.",
+          "skills": [
+            {
+              "description": "Generate conventional and unconventional visualizations to explore patterns or analyze large datasets using technology tools.",
+              "keywords": [
+                "visualization generation",
+                "pattern exploration",
+                "large dataset analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Perform descriptive and inferential statistical analysis using specific functions in technology tools.",
+              "keywords": [
+                "descriptive analysis",
+                "inferential analysis",
+                "statistical functions",
+                "technology tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use coding to store and extract data more effectively for analysis.",
+              "keywords": [
+                "coding",
+                "data storage",
+                "data extraction",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize, summarize, and gain insight from data using features of technology tools.",
+              "keywords": [
+                "data organization",
+                "data summarization",
+                "insight generation",
+                "technology features"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and create the appropriate visualization based on context and audience to communicate an idea effectively.",
+              "keywords": [
+                "visualization selection",
+                "audience analysis",
+                "contextual visualization",
+                "communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

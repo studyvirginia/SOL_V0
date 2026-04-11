@@ -1,0 +1,95 @@
+{
+  "key": "2_2_NS_2_skill5",
+  "grade": "2",
+  "code": "2.NS.2",
+  "domain": "Number and Number Sense",
+  "course": "Grade 2 Math",
+  "desc": "Demonstrate understanding of the ten-to-one relationships of the base 10 number system to represent, compare, and order whole numbers up to 999.",
+  "skill_desc": "Compose and decompose whole numbers up to 200 by making connections between models and counting strategies.",
+  "skill_idx": 4,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/2_2_NS_2_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "100+50+20+3",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "173",
+        "color": "#FF3B30",
+        "label": "Total",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "100",
+        "color": "#34C759",
+        "label": "100",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "SQUARE",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "50",
+        "color": "#34C759",
+        "label": "50",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "SQUARE",
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "20",
+        "color": "#34C759",
+        "label": "20",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "SQUARE",
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "3",
+        "color": "#34C759",
+        "label": "3",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "SQUARE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -10,
+      "bottom": -10,
+      "right": 200,
+      "top": 200
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Compose and Decompose Numbers"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

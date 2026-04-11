@@ -1,0 +1,85 @@
+{
+  "key": "2_2_CE_1_skill4",
+  "grade": "2",
+  "code": "2.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 2 Math",
+  "desc": "Recall addition and subtraction facts within 20 and solve single-step and multistep problems using addition and subtraction with whole numbers up to 100.",
+  "skill_desc": "Demonstrate fluency with addition and subtraction within 20 by applying reasoning strategies (e.g., doubles, near doubles, make-a-ten).",
+  "skill_idx": 3,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/2_2_CE_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x+5",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,5)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(-5,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -8,
+      "bottom": -2,
+      "right": 2,
+      "top": 8
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear Function: y = x + 5"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = x + 5",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = x - 3",
+      "SetColor(g, 255, 0, 0)",
+      "Intersect(f, g)",
+      "SetLabelVisible(Intersect(f, g), true)",
+      "SetCaption(Intersect(f, g), \"Solution: (x, y)\")",
+      "SetLabelMode(Intersect(f, g), 3)"
+    ],
+    "view": [
+      -10,
+      10,
+      -10,
+      10
+    ],
+    "showGrid": true,
+    "title": "Solve x + 5 = x - 3 (Grade 2)"
+  },
+  "sketchmath_state": null
+}

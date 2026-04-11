@@ -1,0 +1,127 @@
+{
+  "key": "3_3_NS_4_skill4",
+  "grade": "3",
+  "code": "3.NS.4",
+  "domain": "Number and Number Sense",
+  "course": "Grade 3 Math",
+  "desc": "Solve problems involving counting, comparing, representing, and making change for money amounts up to $5.00.",
+  "skill_desc": "Solve contextual problems to make change from $5.00 or less using counting strategies.",
+  "skill_idx": 3,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/3_3_NS_4_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=5-x",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,5)",
+        "color": "#FF3B30",
+        "label": "Start",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(5,0)",
+        "color": "#FF3B30",
+        "label": "End",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "t1",
+        "latex": "x",
+        "color": "#34C759",
+        "label": "Change",
+        "showLabel": true,
+        "dragMode": "X",
+        "pointStyle": "POINT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 6
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Making Change from $5.00"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "B = (5, 0)",
+      "C = (2.5, 4.33)",
+      "tri = Polygon(A, B, C)",
+      "SetColor(tri, 0, 122, 255)",
+      "SetFilling(tri, true)",
+      "SetOpacity(tri, 0.5)",
+      "lineAB = Segment(A, B)",
+      "lineBC = Segment(B, C)",
+      "lineCA = Segment(C, A)",
+      "SetColor(lineAB, 255, 59, 48)",
+      "SetColor(lineBC, 255, 59, 48)",
+      "SetColor(lineCA, 255, 59, 48)",
+      "SetLineThickness(lineAB, 3)",
+      "SetLineThickness(lineBC, 3)",
+      "SetLineThickness(lineCA, 3)",
+      "M = MidPoint(A, B)",
+      "SetLabelVisible(M, true)",
+      "SetCaption(M, \"$2.50\")",
+      "SetLabelMode(M, 3)",
+      "N = MidPoint(B, C)",
+      "SetLabelVisible(N, true)",
+      "SetCaption(N, \"$4.00\")",
+      "SetLabelMode(N, 3)",
+      "P = MidPoint(C, A)",
+      "SetLabelVisible(P, true)",
+      "SetCaption(P, \"$1.00\")",
+      "SetLabelMode(P, 3)",
+      "Q = (1, 1)",
+      "SetLabelVisible(Q, true)",
+      "SetCaption(Q, \"$3.00\")",
+      "SetLabelMode(Q, 3)",
+      "R = (4, 2)",
+      "SetLabelVisible(R, true)",
+      "SetCaption(R, \"$0.50\")",
+      "SetLabelMode(R, 3)"
+    ],
+    "view": [
+      -1,
+      6,
+      -1,
+      5
+    ],
+    "showGrid": false,
+    "title": "Making Change with Money"
+  },
+  "sketchmath_state": null
+}

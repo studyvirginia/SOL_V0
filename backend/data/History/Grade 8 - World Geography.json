@@ -1,0 +1,882 @@
+{
+  "subject": "History",
+  "course": "Grade 8 - World Geography",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "WG.SKILLS",
+          "description": "Demonstrate skills for historical thinking, geographical analysis, economic decision making, and responsible citizenship.",
+          "skills": [
+            {
+              "description": "Select and synthesize evidence from artifacts, primary and secondary sources, charts, graphs, diagrams, and geospatial technologies (maps, GIS, GPS) to understand world regions.",
+              "keywords": [
+                "evidence synthesis",
+                "primary sources",
+                "secondary sources",
+                "geospatial technologies",
+                "GIS",
+                "GPS"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to determine and predict patterns and movement of people, places, and events.",
+              "keywords": [
+                "geographic patterns",
+                "movement prediction",
+                "spatial analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop questions and engage in critical thinking and analysis to investigate topics.",
+              "keywords": [
+                "question development",
+                "critical thinking",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and analyze evidence from multiple sources to construct arguments.",
+              "keywords": [
+                "evidence analysis",
+                "argument construction",
+                "source evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast historical, cultural, economic, and political perspectives.",
+              "keywords": [
+                "perspective comparison",
+                "historical analysis",
+                "cultural analysis",
+                "economic analysis",
+                "political analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine and explain cause-and-effect relationships in historical and geographical contexts.",
+              "keywords": [
+                "cause-and-effect",
+                "historical causation",
+                "geographical causation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use economic decision-making models to analyze incentives and consequences of specific choices.",
+              "keywords": [
+                "economic models",
+                "decision-making",
+                "incentives",
+                "consequences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Engage and communicate as a civil and informed individual with persons holding different perspectives.",
+              "keywords": [
+                "civil discourse",
+                "perspective-taking",
+                "communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop products reflecting understanding of research, content, and world geography concepts.",
+              "keywords": [
+                "product development",
+                "research synthesis",
+                "geography concepts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Contextualize, corroborate, and evaluate sources for credibility, propaganda, and bias to identify patterns and trends.",
+              "keywords": [
+                "source evaluation",
+                "credibility assessment",
+                "propaganda analysis",
+                "bias detection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Geography",
+      "standards": [
+        {
+          "code": "WG.1",
+          "description": "Apply geographic information and geospatial tools to explain how they are used in decision-making.",
+          "skills": [
+            {
+              "description": "Explain how characteristics of regions lead to regional labels.",
+              "keywords": [
+                "regional labels",
+                "geographic characteristics",
+                "regional identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how regional landscapes reflect the physical environment and cultural characteristics of inhabitants.",
+              "keywords": [
+                "regional landscapes",
+                "physical environment",
+                "cultural characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze how cultural characteristics, including major languages, ethnicities, and religions, link or divide regions.",
+              "keywords": [
+                "cultural characteristics",
+                "linguistic diversity",
+                "ethnic groups",
+                "religious diversity",
+                "regional division"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how cartography reflects regional perspectives, points of view, and perceptions of an area and the creation of mental maps.",
+              "keywords": [
+                "cartography",
+                "regional perspectives",
+                "mental maps",
+                "map interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resources and the Environment",
+      "standards": [
+        {
+          "code": "WG.2",
+          "description": "Evaluate the significance of natural, human, and capital resources and their influence on economic activity and land use.",
+          "skills": [
+            {
+              "description": "Compare the distribution of major natural resources across world regions.",
+              "keywords": [
+                "natural resources",
+                "resource distribution",
+                "world regions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Show the influence of resources on patterns of economic activity and land use.",
+              "keywords": [
+                "resource influence",
+                "economic patterns",
+                "land use",
+                "resource management"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate perspectives regarding the use of resources.",
+              "keywords": [
+                "resource perspectives",
+                "resource utilization",
+                "sustainability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Classifying and Identifying Regions",
+      "standards": [
+        {
+          "code": "WG.3",
+          "description": "Analyze the characteristics of the regions of the United States and Canada.",
+          "skills": [
+            {
+              "description": "Identify and analyze the location of major geographic regions and major cities on maps and globes.",
+              "keywords": [
+                "geographic regions",
+                "city locations",
+                "map analysis",
+                "globe analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major physical and environmental features and how geography may change over time.",
+              "keywords": [
+                "physical features",
+                "environmental features",
+                "geographic change",
+                "environmental change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze cultural influences and landscapes.",
+              "keywords": [
+                "cultural influences",
+                "cultural landscapes",
+                "regional identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain important economic characteristics, including the distribution of economic activities and global trade.",
+              "keywords": [
+                "economic characteristics",
+                "economic activities",
+                "global trade",
+                "trade distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WG.4",
+          "description": "Analyze the characteristics of the regions of Latin America and the Caribbean.",
+          "skills": [
+            {
+              "description": "Identify and analyze the location of major geographic regions and major cities on maps and globes.",
+              "keywords": [
+                "geographic regions",
+                "city locations",
+                "map analysis",
+                "globe analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major physical and environmental features and how geography may change over time.",
+              "keywords": [
+                "physical features",
+                "environmental features",
+                "geographic change",
+                "environmental change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze cultural influences and landscapes.",
+              "keywords": [
+                "cultural influences",
+                "cultural landscapes",
+                "regional identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain important economic characteristics, including the distribution of economic activities and global trade.",
+              "keywords": [
+                "economic characteristics",
+                "economic activities",
+                "global trade",
+                "trade distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WG.5",
+          "description": "Analyze the characteristics of the regions of Europe.",
+          "skills": [
+            {
+              "description": "Identify and analyze the location of major geographic regions and major cities on maps and globes.",
+              "keywords": [
+                "geographic regions",
+                "city locations",
+                "map analysis",
+                "globe analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major physical and environmental features and how geography may change over time.",
+              "keywords": [
+                "physical features",
+                "environmental features",
+                "geographic change",
+                "environmental change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze cultural influences and landscapes.",
+              "keywords": [
+                "cultural influences",
+                "cultural landscapes",
+                "regional identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain important economic characteristics, including the distribution of economic activities and global trade.",
+              "keywords": [
+                "economic characteristics",
+                "economic activities",
+                "global trade",
+                "trade distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WG.6",
+          "description": "Analyze the characteristics of the regions of Russia and Central Asia.",
+          "skills": [
+            {
+              "description": "Identify and analyze the location of major geographic regions and major cities on maps and globes.",
+              "keywords": [
+                "geographic regions",
+                "city locations",
+                "map analysis",
+                "globe analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major physical and environmental features and how geography may change over time.",
+              "keywords": [
+                "physical features",
+                "environmental features",
+                "geographic change",
+                "environmental change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze cultural influences and landscapes.",
+              "keywords": [
+                "cultural influences",
+                "cultural landscapes",
+                "regional identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain important economic characteristics, including the distribution of economic activities and global trade.",
+              "keywords": [
+                "economic characteristics",
+                "economic activities",
+                "global trade",
+                "trade distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WG.7",
+          "description": "Analyze the characteristics of the regions of sub-Saharan Africa.",
+          "skills": [
+            {
+              "description": "Identify and analyze the location of major geographic regions and major cities on maps and globes.",
+              "keywords": [
+                "geographic regions",
+                "city locations",
+                "map analysis",
+                "globe analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major physical and environmental features and how geography may change over time.",
+              "keywords": [
+                "physical features",
+                "environmental features",
+                "geographic change",
+                "environmental change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze cultural influences and landscapes.",
+              "keywords": [
+                "cultural influences",
+                "cultural landscapes",
+                "regional identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain important economic characteristics, including the distribution of economic activities and global trade.",
+              "keywords": [
+                "economic characteristics",
+                "economic activities",
+                "global trade",
+                "trade distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WG.8",
+          "description": "Analyze the characteristics of the regions of North Africa and Southwest Asia.",
+          "skills": [
+            {
+              "description": "Identify and analyze the location of major geographic regions and major cities on maps and globes.",
+              "keywords": [
+                "geographic regions",
+                "city locations",
+                "map analysis",
+                "globe analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major physical and environmental features and how geography may change over time.",
+              "keywords": [
+                "physical features",
+                "environmental features",
+                "geographic change",
+                "environmental change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze cultural influences and landscapes.",
+              "keywords": [
+                "cultural influences",
+                "cultural landscapes",
+                "regional identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain important economic characteristics, including the distribution of economic activities and global trade.",
+              "keywords": [
+                "economic characteristics",
+                "economic activities",
+                "global trade",
+                "trade distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WG.9",
+          "description": "Analyze the characteristics of the regions of South Asia and Southeast Asia.",
+          "skills": [
+            {
+              "description": "Identify and analyze the location of major geographic regions and major cities on maps and globes.",
+              "keywords": [
+                "geographic regions",
+                "city locations",
+                "map analysis",
+                "globe analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major physical and environmental features and how geography may change over time.",
+              "keywords": [
+                "physical features",
+                "environmental features",
+                "geographic change",
+                "environmental change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze cultural influences and landscapes.",
+              "keywords": [
+                "cultural influences",
+                "cultural landscapes",
+                "regional identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain important economic characteristics, including the distribution of economic activities and global trade.",
+              "keywords": [
+                "economic characteristics",
+                "economic activities",
+                "global trade",
+                "trade distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WG.10",
+          "description": "Analyze the characteristics of the East Asian region.",
+          "skills": [
+            {
+              "description": "Identify and analyze the location of major geographic regions and major cities on maps and globes.",
+              "keywords": [
+                "geographic regions",
+                "city locations",
+                "map analysis",
+                "globe analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major physical and environmental features and how geography may change over time.",
+              "keywords": [
+                "physical features",
+                "environmental features",
+                "geographic change",
+                "environmental change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze cultural influences and landscapes.",
+              "keywords": [
+                "cultural influences",
+                "cultural landscapes",
+                "regional identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain important economic characteristics, including the distribution of economic activities and global trade.",
+              "keywords": [
+                "economic characteristics",
+                "economic activities",
+                "global trade",
+                "trade distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WG.11",
+          "description": "Analyze the characteristics of the Australian and Pacific Islands regions.",
+          "skills": [
+            {
+              "description": "Identify and analyze the location of major geographic regions and major cities on maps and globes.",
+              "keywords": [
+                "geographic regions",
+                "city locations",
+                "map analysis",
+                "globe analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major physical and environmental features and how geography may change over time.",
+              "keywords": [
+                "physical features",
+                "environmental features",
+                "geographic change",
+                "environmental change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze cultural influences and landscapes.",
+              "keywords": [
+                "cultural influences",
+                "cultural landscapes",
+                "regional identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain important economic characteristics, including the distribution of economic activities and global trade.",
+              "keywords": [
+                "economic characteristics",
+                "economic activities",
+                "global trade",
+                "trade distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Population and Migration",
+      "standards": [
+        {
+          "code": "WG.12",
+          "description": "Understand the distribution, growth rates, and characteristics of human population and their relationship to economic development.",
+          "skills": [
+            {
+              "description": "Examine the relationship between demographic data and the level of economic development.",
+              "keywords": [
+                "demographic data",
+                "economic development",
+                "population analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between developed and developing countries based on demographic and economic indicators.",
+              "keywords": [
+                "developed countries",
+                "developing countries",
+                "demographic indicators",
+                "economic indicators"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the level of economic development to standard of living, quality of life, form of government, personal freedom, and economic opportunity.",
+              "keywords": [
+                "economic development",
+                "standard of living",
+                "quality of life",
+                "government systems",
+                "personal freedom",
+                "economic opportunity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "WG.13",
+          "description": "Understand population and migration patterns, causes, impacts, and responses.",
+          "skills": [
+            {
+              "description": "Explain how data is used to describe and compare populations.",
+              "keywords": [
+                "population data",
+                "population comparison",
+                "demographic analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the causes, impacts, and responses related to migration.",
+              "keywords": [
+                "migration causes",
+                "migration impacts",
+                "migration responses",
+                "population movement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Culture",
+      "standards": [
+        {
+          "code": "WG.14",
+          "description": "Determine cultural patterns and interactions across time and place.",
+          "skills": [
+            {
+              "description": "Identify and describe characteristics that contribute to cultural identity, cultural groups, and cultural landscapes.",
+              "keywords": [
+                "cultural identity",
+                "cultural groups",
+                "cultural landscapes",
+                "cultural characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain intellectual exchanges among cultures in science, geography, mathematics, philosophy, medicine, art, and literature.",
+              "keywords": [
+                "intellectual exchange",
+                "cultural diffusion",
+                "intercultural communication",
+                "science",
+                "geography",
+                "mathematics",
+                "philosophy",
+                "medicine",
+                "art",
+                "literature"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rural and Urban Migration and Development",
+      "standards": [
+        {
+          "code": "WG.15",
+          "description": "Analyze patterns of rural and urban migration and development.",
+          "skills": [
+            {
+              "description": "Apply the concepts of site and situation to major cities in each region.",
+              "keywords": [
+                "site and situation",
+                "urban geography",
+                "city location analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the functions of towns and cities have changed over time.",
+              "keywords": [
+                "urban functions",
+                "city evolution",
+                "urban development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Globalization",
+      "standards": [
+        {
+          "code": "WG.16",
+          "description": "Understand the impact of growing global interdependence.",
+          "skills": [
+            {
+              "description": "Examine factors that influence the distribution of economic activities and trade.",
+              "keywords": [
+                "economic distribution",
+                "global trade",
+                "trade factors",
+                "economic geography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze global trade and communication networks.",
+              "keywords": [
+                "global trade networks",
+                "communication networks",
+                "globalization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Political Geography",
+      "standards": [
+        {
+          "code": "WG.17",
+          "description": "Analyze strategic geographic features and resources and their role in conflicts and cooperation.",
+          "skills": [
+            {
+              "description": "Identify and describe examples of disputed borders and explain the reasons for the disputes.",
+              "keywords": [
+                "disputed borders",
+                "border conflicts",
+                "geopolitical disputes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and explain examples of different types of conflicts that may erupt between and among nations.",
+              "keywords": [
+                "international conflicts",
+                "geopolitical conflicts",
+                "conflict types"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze types of conflicts and cooperation over the use of rivers and bodies of water.",
+              "keywords": [
+                "water conflicts",
+                "resource conflicts",
+                "geopolitical cooperation",
+                "transboundary resources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

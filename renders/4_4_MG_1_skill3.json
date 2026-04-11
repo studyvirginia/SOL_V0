@@ -1,0 +1,208 @@
+{
+  "key": "4_4_MG_1_skill3",
+  "grade": "4",
+  "code": "4.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 4 Math",
+  "desc": "Solve problems involving length, weight/mass, and liquid volume using U.S. Customary and metric units.",
+  "skill_desc": "Compare estimates of length, weight/mass, or liquid volume with actual measurements.",
+  "skill_idx": 2,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/4_4_MG_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(2,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "arc1",
+        "latex": "(0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1.017"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel1",
+        "latex": "(0.55*\\cos(0.508),0.55*\\sin(0.508))",
+        "label": "42\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc2",
+        "latex": "(4+0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "3.14",
+          "max": "4.71"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel2",
+        "latex": "(4+0.55*\\cos(3.925),0.55*\\sin(3.925))",
+        "label": "90\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc3",
+        "latex": "(2+0.4*\\cos(t),3+0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "1.57",
+          "max": "3.14"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel3",
+        "latex": "(2+0.55*\\cos(2.355),3+0.55*\\sin(2.355))",
+        "label": "48\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": true,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Triangle Angle Measurement"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A: 1 inch\")",
+      "SetLabelMode(A, 3)",
+      "B = (1, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B: 2 inches\")",
+      "SetLabelMode(B, 3)",
+      "C = (2, 0)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C: 3 inches\")",
+      "SetLabelMode(C, 3)",
+      "D = (3, 0)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"D: 4 inches\")",
+      "SetLabelMode(D, 3)",
+      "E = (4, 0)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"E: 5 inches\")",
+      "SetLabelMode(E, 3)",
+      "F = (5, 0)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"F: 6 inches\")",
+      "SetLabelMode(F, 3)",
+      "G = (6, 0)",
+      "SetLabelVisible(G, true)",
+      "SetCaption(G, \"G: 7 inches\")",
+      "SetLabelMode(G, 3)",
+      "H = (7, 0)",
+      "SetLabelVisible(H, true)",
+      "SetCaption(H, \"H: 8 inches\")",
+      "SetLabelMode(H, 3)",
+      "I = (8, 0)",
+      "SetLabelVisible(I, true)",
+      "SetCaption(I, \"I: 9 inches\")",
+      "SetLabelMode(I, 3)",
+      "J = (9, 0)",
+      "SetLabelVisible(J, true)",
+      "SetCaption(J, \"J: 10 inches\")",
+      "SetLabelMode(J, 3)",
+      "segAB = Segment(A, B)",
+      "segBC = Segment(B, C)",
+      "segCD = Segment(C, D)",
+      "segDE = Segment(D, E)",
+      "segEF = Segment(E, F)",
+      "segFG = Segment(F, G)",
+      "segGH = Segment(G, H)",
+      "segHI = Segment(H, I)",
+      "segIJ = Segment(I, J)"
+    ],
+    "view": [
+      -0.5,
+      10.5,
+      -0.5,
+      0.5
+    ],
+    "showGrid": false,
+    "title": "Comparing Lengths in Inches"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (2, 3)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "Xin l\u1ed7i v\u00ec l\u1ed7i tr\u01b0\u1edbc \u0111\u00f3. B\u00e2y gi\u1edd t\u00f4i s\u1ebd cung c\u1ea5p m\u1ed9t ph\u1ea3n h\u1ed3i JSON h\u1ee3p l\u1ec7 v\u1edbi \u00edt"
+  }
+}

@@ -1,0 +1,882 @@
+{
+  "subject": "History",
+  "course": "Grade 6 - United States History: 1865 to the Present",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "USII.SKILLS",
+          "description": "Apply history and social science skills to analyze United States history from 1865 to the present.",
+          "skills": [
+            {
+              "description": "Synthesize evidence from artifacts, primary and secondary sources, charts, graphs, and diagrams to understand events in U.S. history.",
+              "keywords": [
+                "primary sources",
+                "secondary sources",
+                "artifacts",
+                "charts",
+                "graphs",
+                "diagrams",
+                "historical evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to determine and predict patterns and trends of people, places, and events.",
+              "keywords": [
+                "geographic skills",
+                "patterns",
+                "trends",
+                "population distribution",
+                "migration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop questions and engage in critical thinking and analysis to explore historical topics.",
+              "keywords": [
+                "critical thinking",
+                "historical inquiry",
+                "question formulation",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Integrate evidence to construct and analyze timelines, classify events, and distinguish fact from opinion.",
+              "keywords": [
+                "timelines",
+                "event classification",
+                "fact vs. opinion",
+                "chronological reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast people, places, events, and historical and political perspectives.",
+              "keywords": [
+                "comparative analysis",
+                "historical perspectives",
+                "contextual comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine and explain cause-and-effect relationships in historical events.",
+              "keywords": [
+                "cause and effect",
+                "historical causation",
+                "consequences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use an economic decision-making model to analyze costs, benefits, incentives, and consequences of historical choices.",
+              "keywords": [
+                "economic decision-making",
+                "cost-benefit analysis",
+                "incentives",
+                "consequences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Engage and communicate as a civil and informed individual with persons holding different perspectives.",
+              "keywords": [
+                "civil discourse",
+                "perspective-taking",
+                "historical empathy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop products that reflect an understanding of historical content.",
+              "keywords": [
+                "historical products",
+                "presentations",
+                "reports",
+                "projects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Westward Expansion and Its Impact on Indigenous People",
+      "standards": [
+        {
+          "code": "USII.1",
+          "description": "Examine westward expansion after the mid-19th century and its effects on Indigenous people.",
+          "skills": [
+            {
+              "description": "Explain how technology allowed settlers to adapt to the physical features and climate of the West.",
+              "keywords": [
+                "technology adaptation",
+                "settler migration",
+                "Western geography",
+                "climate adaptation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the motivations for westward expansion.",
+              "keywords": [
+                "manifest destiny",
+                "economic opportunities",
+                "land acquisition",
+                "railroad expansion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the impact of policies, legislation, and treaties associated with national growth.",
+              "keywords": [
+                "policies",
+                "legislation",
+                "treaties",
+                "Homestead Act",
+                "Dawes Act",
+                "national expansion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the effect of U.S. growth on Indigenous people.",
+              "keywords": [
+                "Indigenous displacement",
+                "reservation system",
+                "cultural impact",
+                "forced assimilation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Effects of Reconstruction",
+      "standards": [
+        {
+          "code": "USII.2",
+          "description": "Understand the ongoing effects of Reconstruction on American life after the mid-19th century.",
+          "skills": [
+            {
+              "description": "Describe the impact of Abraham Lincoln's assassination and the political aftermath of the Civil War.",
+              "keywords": [
+                "Lincoln assassination",
+                "Civil War aftermath",
+                "presidential succession",
+                "Reconstruction politics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the goals and effects of the Reconstruction Amendments, the Freedmen's Bureau, and civil rights policies.",
+              "keywords": [
+                "13th Amendment",
+                "14th Amendment",
+                "15th Amendment",
+                "Freedmen's Bureau",
+                "civil rights policies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the legacies of key figures such as Abraham Lincoln, Ulysses S. Grant, Robert E. Lee, Hiram Revels, and Frederick Douglass.",
+              "keywords": [
+                "historical legacies",
+                "Abraham Lincoln",
+                "Ulysses S. Grant",
+                "Robert E. Lee",
+                "Hiram Revels",
+                "Frederick Douglass"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the role of Congress and the Supreme Court in Reconstruction plans and policies.",
+              "keywords": [
+                "Congress",
+                "Supreme Court",
+                "Ten Percent Plan",
+                "Reconstruction policies",
+                "legislative role"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the role and motivations of individuals who sought to gain from Reconstruction.",
+              "keywords": [
+                "Reconstruction beneficiaries",
+                "formerly enslaved people",
+                "political participation",
+                "economic opportunities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the 1876 presidential election led to the end of Reconstruction.",
+              "keywords": [
+                "1876 election",
+                "Reconstruction end",
+                "Compromise of 1877",
+                "political compromise"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Industrialization and Growth",
+      "standards": [
+        {
+          "code": "USII.3",
+          "description": "Understand how industrialization changed life in rural and urban America after the Civil War.",
+          "skills": [
+            {
+              "description": "Explain relationships among natural resources, transportation, and industrial development from 1865.",
+              "keywords": [
+                "natural resources",
+                "transportation systems",
+                "industrial development",
+                "resource extraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the impact of new inventions, the rise of big business, and changes to life on American farms.",
+              "keywords": [
+                "inventions",
+                "big business",
+                "agricultural changes",
+                "mechanization",
+                "industrialization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the impact of the Progressive Movement on child labor, working conditions, organized labor, and social policies.",
+              "keywords": [
+                "Progressive Movement",
+                "child labor",
+                "working conditions",
+                "organized labor",
+                "eugenics",
+                "temperance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the events, factors, and motivations that caused migration to the United States in the late 19th century.",
+              "keywords": [
+                "immigration",
+                "push-pull factors",
+                "industrial labor demand",
+                "economic opportunities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the cause-and-effect relationship between rapid population growth and city government services and infrastructure.",
+              "keywords": [
+                "urbanization",
+                "population growth",
+                "city infrastructure",
+                "municipal services"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how governmental actions, such as the Chinese Exclusion Act of 1882, caused harm to Chinese Americans and other immigrants.",
+              "keywords": [
+                "Chinese Exclusion Act",
+                "immigration restrictions",
+                "discriminatory policies",
+                "xenophobia"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how various groups worked to alleviate issues facing new immigrants and how immigrants advocated for themselves.",
+              "keywords": [
+                "immigrant advocacy",
+                "settlement houses",
+                "labor unions",
+                "cultural preservation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the technological advances and the broader impact of the 1893 Chicago World's Fair on America's rise as a world leader.",
+              "keywords": [
+                "World's Fair",
+                "technological innovation",
+                "American global influence",
+                "exposition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Changing Role of the United States from the Late 19th Century through World War I",
+      "standards": [
+        {
+          "code": "USII.4",
+          "description": "Explain the changing role of the United States from the late 19th century through World War I.",
+          "skills": [
+            {
+              "description": "Explain the legacy of Theodore Roosevelt, including conservation, progressivism, the Panama Canal, and the Spanish-American War.",
+              "keywords": [
+                "Theodore Roosevelt",
+                "conservation",
+                "Progressive Era",
+                "Panama Canal",
+                "Spanish-American War"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the reasons for and results of the Spanish-American War, including the Roosevelt Corollary to the Monroe Doctrine.",
+              "keywords": [
+                "Spanish-American War",
+                "Monroe Doctrine",
+                "Roosevelt Corollary",
+                "imperialism",
+                "territorial expansion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the major causes and consequences of World War I and examine the roles of key leaders and groups.",
+              "keywords": [
+                "World War I",
+                "causes of war",
+                "Allied Powers",
+                "Central Powers",
+                "Woodrow Wilson"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the evolution of warfare tactics and technology, including cavalry, air, submarine, chemical, and trench warfare.",
+              "keywords": [
+                "military technology",
+                "cavalry",
+                "trench warfare",
+                "chemical weapons",
+                "submarine warfare"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how World War I was a catalyst for the United States gaining international power and expanding its sphere of influence.",
+              "keywords": [
+                "U.S. global influence",
+                "international power",
+                "sphere of influence",
+                "post-war diplomacy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine how post-war sanctions and the failure of the League of Nations set the stage for World War II.",
+              "keywords": [
+                "Treaty of Versailles",
+                "League of Nations",
+                "post-war sanctions",
+                "interwar period"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Social, Political, Economic, and Technological Changes of the Early 20th Century",
+      "standards": [
+        {
+          "code": "USII.5",
+          "description": "Understand the social, political, economic, and technological changes of the early 20th century.",
+          "skills": [
+            {
+              "description": "Explain how capitalism and free markets fostered developments in factory productivity, transportation, and communication.",
+              "keywords": [
+                "capitalism",
+                "free markets",
+                "factory productivity",
+                "transportation",
+                "communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine how the rise of communism affected America, including the first Red Scare.",
+              "keywords": [
+                "communism",
+                "Red Scare",
+                "anti-communism",
+                "political ideology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the reasons for and impact of the Great Migration.",
+              "keywords": [
+                "Great Migration",
+                "African American migration",
+                "racial segregation",
+                "economic opportunities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the events and leaders that led to prohibition, the Women's Suffrage Movement, and the passage of the Nineteenth Amendment.",
+              "keywords": [
+                "prohibition",
+                "Women's Suffrage Movement",
+                "19th Amendment",
+                "Susan B. Anthony",
+                "Elizabeth Cady Stanton"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the art, literature, and music of the 1920s and 1930s, including the Roaring Twenties and the Harlem Renaissance.",
+              "keywords": [
+                "Roaring Twenties",
+                "Harlem Renaissance",
+                "jazz age",
+                "cultural movements"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the causes of the Great Depression and the impact of the Dust Bowl on American lives.",
+              "keywords": [
+                "Great Depression",
+                "Dust Bowl",
+                "economic collapse",
+                "agricultural crisis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the features, effects, programs, and lasting institutions of Franklin D. Roosevelt's New Deal.",
+              "keywords": [
+                "New Deal",
+                "FDR",
+                "Social Security",
+                "Civilian Conservation Corps",
+                "public works"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe racial segregation, housing discrimination via redlining, and the rise of Jim Crow laws and Black Codes.",
+              "keywords": [
+                "Jim Crow laws",
+                "Black Codes",
+                "redlining",
+                "racial segregation",
+                "voting suppression"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze events and impacts of African American leaders in response to Jim Crow, including the NAACP and leaders like Booker T. Washington and W.E.B. DuBois.",
+              "keywords": [
+                "NAACP",
+                "Booker T. Washington",
+                "W.E.B. DuBois",
+                "civil rights activism",
+                "historically black colleges"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Second World War and America's Transformation",
+      "standards": [
+        {
+          "code": "USII.6",
+          "description": "Understand the major causes and events of World War II and the effects of America's role.",
+          "skills": [
+            {
+              "description": "Explain the rise and spread of fascism and totalitarianism internationally and the policy of appeasement towards Nazi Germany.",
+              "keywords": [
+                "fascism",
+                "totalitarianism",
+                "Nazi Germany",
+                "appeasement",
+                "international relations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the causes and events that led to American involvement in World War II, including the attack on Pearl Harbor.",
+              "keywords": [
+                "Pearl Harbor",
+                "U.S. entry into WWII",
+                "isolationism",
+                "military mobilization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate and describe the major events and turning points of the war in Europe, including D-Day and the Battle of the Bulge.",
+              "keywords": [
+                "D-Day",
+                "Battle of the Bulge",
+                "European theater",
+                "Allied strategy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate and describe the major events and turning points of the war in the Pacific, including Midway and Iwo Jima.",
+              "keywords": [
+                "Battle of Midway",
+                "Battle of Iwo Jima",
+                "Pacific theater",
+                "island hopping"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain and evaluate the role of key political and military leaders of the Allies and Axis powers.",
+              "keywords": [
+                "Allied leaders",
+                "Axis leaders",
+                "Franklin D. Roosevelt",
+                "Winston Churchill",
+                "Adolf Hitler"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the roles and sacrifices of U.S. armed forces, including women, segregated units, and notable groups like the Tuskegee Airmen.",
+              "keywords": [
+                "Tuskegee Airmen",
+                "442nd Regimental Combat Team",
+                "women in WWII",
+                "segregated units",
+                "POWs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the effects of the war on the home front, including women in the workforce and the incarceration of Japanese Americans.",
+              "keywords": [
+                "home front",
+                "women in workforce",
+                "Japanese American internment",
+                "rationing",
+                "war bonds"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the causes and consequences of the Holocaust, including the Nuremberg Trials.",
+              "keywords": [
+                "Holocaust",
+                "antisemitism",
+                "Nuremberg Laws",
+                "Nuremberg Trials",
+                "genocide"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the events that led to the surrender of the Axis powers and America's role in the Allied victory.",
+              "keywords": [
+                "Axis surrender",
+                "Manhattan Project",
+                "atomic bomb",
+                "post-war peace"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Cold War",
+      "standards": [
+        {
+          "code": "USII.7",
+          "description": "Understand the transformation of U.S. foreign policy between the end of World War II and the new millennium.",
+          "skills": [
+            {
+              "description": "Explain how key decisions and agreements, such as the Atlantic Charter and NATO, established international allies.",
+              "keywords": [
+                "Atlantic Charter",
+                "United Nations",
+                "NATO",
+                "international alliances",
+                "post-war diplomacy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the Marshall Plan's objectives for rebuilding Europe and the emergence of the U.S. and Soviet Union as superpowers.",
+              "keywords": [
+                "Marshall Plan",
+                "superpowers",
+                "Cold War origins",
+                "post-war reconstruction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the differences between communist and democratic nations, including self-governance and economic philosophy.",
+              "keywords": [
+                "communism",
+                "democracy",
+                "self-governance",
+                "economic systems",
+                "Cold War ideology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the role of the United States in fighting communism during the Cold War, including conflicts in Korea and Vietnam.",
+              "keywords": [
+                "Cold War conflicts",
+                "Korean War",
+                "Vietnam War",
+                "containment policy",
+                "domino theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the collapse of communism in the Soviet Union and Eastern Europe and the end of the Cold War.",
+              "keywords": [
+                "fall of communism",
+                "Soviet Union collapse",
+                "Berlin Wall",
+                "Mikhail Gorbachev",
+                "Ronald Reagan"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Late 20th to Early 21st Century",
+      "standards": [
+        {
+          "code": "USII.8",
+          "description": "Analyze key changing patterns of society during the second half of the 20th and early 21st centuries.",
+          "skills": [
+            {
+              "description": "Examine the contributions of key leaders and events during the Civil Rights Era.",
+              "keywords": [
+                "Civil Rights Movement",
+                "Martin Luther King Jr.",
+                "Rosa Parks",
+                "Malcolm X",
+                "Selma march"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the significance of urban renewal plans, such as Jackson Ward in Richmond and Vinegar Hill in Charlottesville.",
+              "keywords": [
+                "urban renewal",
+                "Jackson Ward",
+                "Vinegar Hill",
+                "community development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine key events of the 1960s and 1970s, including the Apollo missions, the moon landing, and the Watergate scandal.",
+              "keywords": [
+                "Apollo missions",
+                "moon landing",
+                "Watergate scandal",
+                "1960s events",
+                "1970s politics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the impact of the baby boom, changing demographics, and the ending of the military draft.",
+              "keywords": [
+                "baby boom",
+                "demographic changes",
+                "military draft",
+                "Vietnam War draft"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the protections and provisions of the Americans with Disabilities Act (ADA).",
+              "keywords": [
+                "Americans with Disabilities Act",
+                "ADA",
+                "disability rights",
+                "inclusion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the similarities and differences between the objectives of the women's movement of the early and mid-20th century.",
+              "keywords": [
+                "women's movement",
+                "suffrage",
+                "feminism",
+                "gender equality"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe expanded educational and economic opportunities for military veterans, women, and minorities.",
+              "keywords": [
+                "veteran benefits",
+                "educational opportunities",
+                "economic inclusion",
+                "minority rights"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the terrorist attacks of September 11, 2001, impacted domestic policies and American society.",
+              "keywords": [
+                "September 11 attacks",
+                "war on terror",
+                "domestic policy changes",
+                "Flight 93"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Science and Technology: Ongoing Advancement",
+      "standards": [
+        {
+          "code": "USII.9",
+          "description": "Apply history and social science skills by studying advancements in science and technology.",
+          "skills": [
+            {
+              "description": "Study iterative and ongoing advancements in science and technology.",
+              "keywords": [
+                "scientific advancements",
+                "technological innovation",
+                "iterative progress"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe changes in American culture related to music, art, media, and communication.",
+              "keywords": [
+                "cultural changes",
+                "music evolution",
+                "art movements",
+                "media advancements"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe advancements in American economics related to banking, business, and industry.",
+              "keywords": [
+                "economic advancements",
+                "banking systems",
+                "industrial growth",
+                "business evolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

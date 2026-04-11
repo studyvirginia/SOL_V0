@@ -1,0 +1,135 @@
+{
+  "key": "3_3_MG_2_skill4",
+  "grade": "3",
+  "code": "3.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 3 Math",
+  "desc": "Estimate and solve problems involving area and perimeter using multiple representations.",
+  "skill_desc": "Estimate and measure the perimeter of a polygon with no more than six sides.",
+  "skill_idx": 3,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/3_3_MG_2_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(2,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": ""
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (5, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (5, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "D = (2, 3)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"D\")",
+      "SetLabelMode(D, 3)",
+      "poly = Polygon(A, B, C, D)",
+      "SetColor(poly, 0, 122, 255)",
+      "SetFilling(poly, 0.75)",
+      "a = Distance(A, B)",
+      "SetCaption(a, \"AB\")",
+      "SetLabelMode(a, 3)",
+      "b = Distance(B, C)",
+      "SetCaption(b, \"BC\")",
+      "SetLabelMode(b, 3)",
+      "c = Distance(C, D)",
+      "SetCaption(c, \"CD\")",
+      "SetLabelMode(c, 3)",
+      "d = Distance(D, A)",
+      "SetCaption(d, \"DA\")",
+      "SetLabelMode(d, 3)",
+      "perimeter = a + b + c + d",
+      "SetCaption(perimeter, \"Perimeter\")",
+      "SetLabelMode(perimeter, 3)"
+    ],
+    "view": [
+      -1,
+      6,
+      -1,
+      4
+    ],
+    "showGrid": true,
+    "title": "Perimeter of a quadrilateral"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (3, 1)",
+      "C = (4, 3)",
+      "D = (2, 5)",
+      "E = (0, 3)",
+      "Polygon(A, B, C, D, E)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 \u01b0\u1edbc t\u00ednh v\u00e0 \u0111o chu vi c\u1ee7a m\u1ed9t \u0111a gi\u00e1c c\u00f3 kh\u00f4ng qu\u00e1 s\u00e1u c\u1ea1nh, ch\u00fang ta c\u00f3 th\u1ec3 "
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "key": "8_8_MG_4_skill1",
+  "grade": "8",
+  "code": "8.MG.4",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 8 Math",
+  "desc": "Apply the Pythagorean Theorem to solve problems involving right triangles.",
+  "skill_desc": "Verify the Pythagorean Theorem using diagrams, concrete materials, and measurement.",
+  "skill_idx": 0,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/8_8_MG_4_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(0,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "r1",
+        "latex": "\\operatorname{polygon}((0,0),(0,0.4),(0.4,0))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "arc1",
+        "latex": "(0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "\\arctan(3/4)"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel1",
+        "latex": "(0.55*\\cos(\\arctan(3/8)),0.55*\\sin(\\arctan(3/8)))",
+        "label": "37\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc2",
+        "latex": "(4+0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "180",
+          "max": "180+\\arctan(3/4)"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel2",
+        "latex": "(4+0.55*\\cos(180+\\arctan(3/8)),0.55*\\sin(180+\\arctan(3/8)))",
+        "label": "53\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc3",
+        "latex": "(0+0.4*\\cos(t),3+0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "90",
+          "max": "180"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel3",
+        "latex": "(0+0.55*\\cos(135),3+0.55*\\sin(135))",
+        "label": "90\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": true,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Pythagorean Theorem Verification"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (4, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (0, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "tri = Polygon(A, B, C)",
+      "SetColor(tri, 0, 122, 255)",
+      "Angle(tri)",
+      "seg1 = Segment(A, B)",
+      "SetColor(seg1, 255, 0, 0)",
+      "seg2 = Segment(B, C)",
+      "SetColor(seg2, 0, 255, 0)",
+      "seg3 = Segment(C, A)",
+      "SetColor(seg3, 0, 0, 255)",
+      "a = Distance(B, C)",
+      "b = Distance(A, C)",
+      "c = Distance(A, B)",
+      "SetCaption(seg1, \"c = \" + c)",
+      "SetLabelMode(seg1, 3)",
+      "SetCaption(seg2, \"a = \" + a)",
+      "SetLabelMode(seg2, 3)",
+      "SetCaption(seg3, \"b = \" + b)",
+      "SetLabelMode(seg3, 3)"
+    ],
+    "view": [
+      -0.5,
+      5,
+      -0.5,
+      4
+    ],
+    "showGrid": true,
+    "title": "Pythagorean Theorem Verification"
+  },
+  "sketchmath_state": null
+}

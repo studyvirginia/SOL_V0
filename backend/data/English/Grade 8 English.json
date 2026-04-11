@@ -1,0 +1,2422 @@
+{
+  "subject": "English",
+  "course": "Grade 8 English",
+  "domains": [
+    {
+      "name": "Developing Skilled Readers and Building Reading Stamina",
+      "standards": [
+        {
+          "code": "8.DSR",
+          "description": "Build knowledge and comprehension skills from reading a range of challenging, content-rich texts, including fluent reading, gathering evidence, reading widely, and using reading strategies.",
+          "skills": [
+            {
+              "description": "Reading with accuracy",
+              "keywords": [
+                "reading",
+                "accuracy",
+                "fluency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Reading with automaticity",
+              "keywords": [
+                "reading",
+                "automaticity",
+                "fluency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Reading with appropriate rate",
+              "keywords": [
+                "reading",
+                "rate",
+                "fluency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Reading with meaningful expression",
+              "keywords": [
+                "reading",
+                "expression",
+                "fluency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Monitoring while reading",
+              "keywords": [
+                "monitoring",
+                "reading",
+                "comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Self-correcting word recognition and understanding",
+              "keywords": [
+                "self-correction",
+                "word recognition",
+                "understanding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Proficiently read and comprehend a variety of literary and informational texts that exhibit complexity at the higher range of the grades 6-8 band",
+              "keywords": [
+                "proficient reading",
+                "comprehension",
+                "literary texts",
+                "informational texts",
+                "text complexity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Drawing evidence from grade-level complex texts",
+              "keywords": [
+                "textual evidence",
+                "drawing evidence",
+                "complex texts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Supporting claims, conclusions, and inferences",
+              "keywords": [
+                "claims",
+                "conclusions",
+                "inferences",
+                "support"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Quoting or paraphrasing from texts accurately",
+              "keywords": [
+                "quoting",
+                "paraphrasing",
+                "accuracy",
+                "textual evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Tracing where relevant evidence is located",
+              "keywords": [
+                "tracing evidence",
+                "relevant evidence",
+                "textual evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Regularly engage in reading a series of conceptually related texts organized around topics of study to build knowledge and vocabulary. Use this background knowledge as context for new learning",
+              "keywords": [
+                "deep reading",
+                "related texts",
+                "build knowledge",
+                "vocabulary",
+                "background knowledge"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using reading strategies to aid and monitor comprehension",
+              "keywords": [
+                "reading strategies",
+                "monitor comprehension",
+                "aid comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Attending to text structure",
+              "keywords": [
+                "text structure",
+                "reading strategies",
+                "comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Attending to common organizational structures",
+              "keywords": [
+                "organizational structures",
+                "reading strategies",
+                "comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Summarizing",
+              "keywords": [
+                "summarizing",
+                "reading strategies",
+                "comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Asking questions of the text",
+              "keywords": [
+                "asking questions",
+                "reading strategies",
+                "comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading and Vocabulary",
+      "standards": [
+        {
+          "code": "8.RV",
+          "description": "Systematically build vocabulary and word knowledge based on grade eight content and texts.",
+          "skills": []
+        },
+        {
+          "code": "8.RV.1",
+          "description": "Develop vocabulary and analyze words using various strategies.",
+          "skills": [
+            {
+              "description": "Developing and accurately using general and academic language",
+              "keywords": [
+                "general language",
+                "academic language",
+                "vocabulary development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Developing and accurately using content-specific vocabulary",
+              "keywords": [
+                "content vocabulary",
+                "vocabulary development",
+                "accuracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using context to determine meaning of words or phrases",
+              "keywords": [
+                "context clues",
+                "word meaning",
+                "phrase meaning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Applying knowledge of Greek and Latin roots and affixes to determine the meaning of unfamiliar words",
+              "keywords": [
+                "Greek roots",
+                "Latin roots",
+                "affixes",
+                "unfamiliar words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determining meaning of unfamiliar words",
+              "keywords": [
+                "unfamiliar words",
+                "word meaning",
+                "vocabulary"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using relationships between words including synonyms, antonyms, and analogies to better understand each word",
+              "keywords": [
+                "word relationships",
+                "synonyms",
+                "antonyms",
+                "analogies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing construction and meaning of author's use of symbols",
+              "keywords": [
+                "symbols",
+                "author's use",
+                "meaning analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing construction and meaning of author's use of analogy",
+              "keywords": [
+                "analogy",
+                "author's use",
+                "meaning analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing construction and meaning of author's use of figurative language",
+              "keywords": [
+                "figurative language",
+                "author's use",
+                "meaning analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding similes, metaphors, personification, hyperbole, and idioms",
+              "keywords": [
+                "similes",
+                "metaphors",
+                "personification",
+                "hyperbole",
+                "idioms",
+                "figurative language"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Discriminating between meanings of connotative words and their denotative meanings",
+              "keywords": [
+                "connotative meaning",
+                "denotative meaning",
+                "word discrimination"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using general and specialized word-reference materials",
+              "keywords": [
+                "word-reference materials",
+                "print resources",
+                "digital resources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determining pronunciation, etymology, derivations, and parts of speech",
+              "keywords": [
+                "pronunciation",
+                "etymology",
+                "derivations",
+                "parts of speech"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using newly learned words and phrases in multiple contexts",
+              "keywords": [
+                "apply vocabulary",
+                "multiple contexts",
+                "discussions",
+                "writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading Literary Text",
+      "standards": [
+        {
+          "code": "8.RL",
+          "description": "Use textual evidence to comprehend and build knowledge from diverse complex literary texts.",
+          "skills": []
+        },
+        {
+          "code": "8.RL.1",
+          "description": "Analyze key ideas and plot details, including theme, plot patterns, and character development.",
+          "skills": [
+            {
+              "description": "Analyzing and explaining development of theme(s) over course of texts",
+              "keywords": [
+                "theme development",
+                "analysis",
+                "literary text"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding relationship of themes to characters, settings, plots, and overall messages",
+              "keywords": [
+                "theme",
+                "characters",
+                "settings",
+                "plots",
+                "messages"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explaining how different plot patterns create meaning",
+              "keywords": [
+                "plot patterns",
+                "meaning",
+                "literary analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examining influence of plot patterns on characters, theme, pacing, and point of view",
+              "keywords": [
+                "plot patterns",
+                "characters",
+                "theme",
+                "pacing",
+                "point of view"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explaining how subplots create meaning",
+              "keywords": [
+                "subplots",
+                "meaning",
+                "literary analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justifying decisions and actions of dynamic versus static characters",
+              "keywords": [
+                "dynamic characters",
+                "static characters",
+                "character analysis",
+                "justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using dialogue or specific events from text",
+              "keywords": [
+                "dialogue",
+                "textual events",
+                "character analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.RL.2",
+          "description": "Analyze author's craft and style, including poetic elements, stylistic choices, point of view, and literary devices.",
+          "skills": [
+            {
+              "description": "Interpreting meaning and analyzing impact of poetic elements",
+              "keywords": [
+                "poetic elements",
+                "meaning",
+                "impact analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding impact of poetic elements on reader",
+              "keywords": [
+                "poetic elements",
+                "reader impact",
+                "interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how elements of author's style influence and develop tone and voice",
+              "keywords": [
+                "author's style",
+                "tone",
+                "voice",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how authors develop and contrast points of view",
+              "keywords": [
+                "point of view",
+                "character perspective",
+                "narrator perspective",
+                "contrast"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how authors use literary devices",
+              "keywords": [
+                "literary devices",
+                "author's use",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding how literary devices build mystery, suspense, or surprise",
+              "keywords": [
+                "literary devices",
+                "mystery",
+                "suspense",
+                "surprise"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.RL.3",
+          "description": "Integrate and compare concepts across literary texts.",
+          "skills": [
+            {
+              "description": "Comparing and contrasting structure of stories, poems, and plays",
+              "keywords": [
+                "text structure",
+                "stories",
+                "poems",
+                "plays",
+                "comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how differing structure contributes to meaning and style",
+              "keywords": [
+                "text structure",
+                "meaning",
+                "style",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Comparing and contrasting fictional portrayals with historical accounts",
+              "keywords": [
+                "fictional portrayals",
+                "historical accounts",
+                "comparison",
+                "contrast"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding how authors of fiction use or alter history",
+              "keywords": [
+                "author's use of history",
+                "altering history",
+                "fiction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Comparing and contrasting texts in different forms or genres",
+              "keywords": [
+                "text forms",
+                "genres",
+                "comparison",
+                "contrast"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding approaches to similar themes and topics",
+              "keywords": [
+                "themes",
+                "topics",
+                "approaches",
+                "understanding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading Informational Text",
+      "standards": [
+        {
+          "code": "8.RI",
+          "description": "Use textual evidence to comprehend and build knowledge from complex informational texts.",
+          "skills": []
+        },
+        {
+          "code": "8.RI.1",
+          "description": "Identify main ideas, summarize, analyze author's unfolding of ideas, and evaluate arguments in informational texts.",
+          "skills": [
+            {
+              "description": "Creating main idea statements",
+              "keywords": [
+                "main idea",
+                "informational text",
+                "creation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Providing accurate summaries",
+              "keywords": [
+                "summaries",
+                "accuracy",
+                "informational text"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Clarifying relationships among key details and ideas or events",
+              "keywords": [
+                "key details",
+                "ideas",
+                "events",
+                "relationships",
+                "clarification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how authors unfold perspectives or series of ideas or events",
+              "keywords": [
+                "author's perspective",
+                "ideas",
+                "events",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding order in which points are made",
+              "keywords": [
+                "order of points",
+                "author's structure",
+                "understanding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding how points are introduced and developed",
+              "keywords": [
+                "point introduction",
+                "point development",
+                "author's structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding connections drawn between points",
+              "keywords": [
+                "connections",
+                "ideas",
+                "understanding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Tracing and evaluating arguments and specific claims",
+              "keywords": [
+                "arguments",
+                "claims",
+                "tracing",
+                "evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Assessing whether reasoning and evidence are relevant and sufficient",
+              "keywords": [
+                "reasoning",
+                "evidence",
+                "relevance",
+                "sufficiency",
+                "assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.RI.2",
+          "description": "Evaluate author's use of text features, analyze impact of stylistic choices, and understand author's perspective/purpose in informational texts.",
+          "skills": [
+            {
+              "description": "Evaluating author's use of text features",
+              "keywords": [
+                "text features",
+                "author's use",
+                "evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding how text features enhance and support reader's comprehension",
+              "keywords": [
+                "text features",
+                "comprehension",
+                "enhancement",
+                "support"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how author's word choice impacts meaning and credibility",
+              "keywords": [
+                "word choice",
+                "meaning",
+                "credibility",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how author's organizational pattern impacts meaning and credibility",
+              "keywords": [
+                "organizational pattern",
+                "meaning",
+                "credibility",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how author's language structure impacts meaning and credibility",
+              "keywords": [
+                "language structure",
+                "meaning",
+                "credibility",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how author's viewpoints impact meaning and credibility",
+              "keywords": [
+                "viewpoints",
+                "meaning",
+                "credibility",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how author's qualifications impact meaning and credibility",
+              "keywords": [
+                "qualifications",
+                "meaning",
+                "credibility",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how authors establish and convey perspective or purpose",
+              "keywords": [
+                "author's perspective",
+                "author's purpose",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding how authors acknowledge and respond to conflicting evidence or viewpoints",
+              "keywords": [
+                "conflicting evidence",
+                "viewpoints",
+                "author's response",
+                "understanding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.RI.3",
+          "description": "Integrate and compare concepts across informational texts.",
+          "skills": [
+            {
+              "description": "Analyzing ideas within and between selections",
+              "keywords": [
+                "ideas",
+                "selections",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding how specific sentences, paragraphs, sections, and text features contribute to development and refinement",
+              "keywords": [
+                "sentences",
+                "paragraphs",
+                "sections",
+                "text features",
+                "development",
+                "refinement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Comparing and contrasting how authors present conflicting information",
+              "keywords": [
+                "conflicting information",
+                "authors",
+                "comparison",
+                "contrast"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Assessing where texts disagree in reasoning and evidence",
+              "keywords": [
+                "reasoning",
+                "evidence",
+                "disagreement",
+                "assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Writing",
+      "standards": [
+        {
+          "code": "8.W",
+          "description": "Compose various works for diverse audiences and purposes, linked to grade eight content and texts.",
+          "skills": []
+        },
+        {
+          "code": "8.W.1",
+          "description": "Write narratives, expository texts, persuasive texts, and reflective texts for specific purposes.",
+          "skills": [
+            {
+              "description": "Writing narratives to develop real or imagined experiences",
+              "keywords": [
+                "narrative writing",
+                "real experiences",
+                "imagined experiences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Writing narratives to alter existing texts",
+              "keywords": [
+                "narrative writing",
+                "alter text",
+                "creative writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using well-structured event sequences",
+              "keywords": [
+                "event sequences",
+                "narrative structure",
+                "writing craft"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using precise words and phrases",
+              "keywords": [
+                "precise language",
+                "word choice",
+                "writing craft"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using transitional words",
+              "keywords": [
+                "transitional words",
+                "cohesion",
+                "writing craft"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Developing characters",
+              "keywords": [
+                "character development",
+                "narrative writing",
+                "writing craft"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Conveying sequence",
+              "keywords": [
+                "sequence",
+                "narrative writing",
+                "organization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Capturing action",
+              "keywords": [
+                "capturing action",
+                "narrative writing",
+                "vivid language"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Writing expository texts",
+              "keywords": [
+                "expository writing",
+                "informational writing",
+                "explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examining topics or concepts",
+              "keywords": [
+                "examine topics",
+                "concepts",
+                "expository writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Conveying ideas and information",
+              "keywords": [
+                "convey ideas",
+                "information",
+                "expository writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Maintaining clear focus",
+              "keywords": [
+                "clear focus",
+                "writing organization",
+                "expository writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using relevant, well-chosen facts, definitions, concrete details, quotations, and examples",
+              "keywords": [
+                "facts",
+                "details",
+                "quotations",
+                "examples",
+                "evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using multiple credible sources",
+              "keywords": [
+                "credible sources",
+                "research",
+                "expository writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using structures and patterns to clarify relationships among ideas and concepts",
+              "keywords": [
+                "text structures",
+                "organizational patterns",
+                "clarify relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Writing persuasively",
+              "keywords": [
+                "persuasive writing",
+                "argumentation",
+                "convince"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Supporting well-defined points of view effectively",
+              "keywords": [
+                "points of view",
+                "support",
+                "persuasive writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using relevant evidence and clear reasoning",
+              "keywords": [
+                "relevant evidence",
+                "clear reasoning",
+                "persuasion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Logically advancing claims",
+              "keywords": [
+                "advancing claims",
+                "logic",
+                "persuasive writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Writing reflectively in response to reading",
+              "keywords": [
+                "reflective writing",
+                "response to reading",
+                "personal thinking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating thinking with details, examples, and evidence",
+              "keywords": [
+                "demonstrate thinking",
+                "details",
+                "examples",
+                "evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.W.2",
+          "description": "Generate, organize, and compose multi-paragraph texts using the writing process, focusing on thesis, central idea, evidence, transitions, voice, and conclusions.",
+          "skills": [
+            {
+              "description": "Generating and organizing ideas using writing process",
+              "keywords": [
+                "generate ideas",
+                "organize ideas",
+                "writing process"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Planning, drafting, revising, and editing",
+              "keywords": [
+                "planning",
+                "drafting",
+                "revising",
+                "editing",
+                "writing process"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Developing multi-paragraph texts",
+              "keywords": [
+                "multi-paragraph texts",
+                "writing development",
+                "structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Composing thesis statements",
+              "keywords": [
+                "thesis statement",
+                "composition",
+                "main idea"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Stating positions or explaining purposes",
+              "keywords": [
+                "state position",
+                "explain purpose",
+                "thesis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Establishing central ideas",
+              "keywords": [
+                "central idea",
+                "establishment",
+                "writing focus"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Aligning central ideas with thesis",
+              "keywords": [
+                "central idea",
+                "thesis",
+                "alignment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Maintaining organized structure and formal style",
+              "keywords": [
+                "organized structure",
+                "formal style",
+                "writing conventions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Fitting structure to form and topic",
+              "keywords": [
+                "structure",
+                "form",
+                "topic",
+                "writing adaptation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Providing elaboration and unity throughout writing",
+              "keywords": [
+                "elaboration",
+                "unity",
+                "writing coherence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Maintaining consistent point of view",
+              "keywords": [
+                "consistent point of view",
+                "writing coherence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Stating and defending conclusions or positions",
+              "keywords": [
+                "conclusions",
+                "positions",
+                "defending",
+                "argumentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using reasons and precise, relevant evidence",
+              "keywords": [
+                "reasons",
+                "evidence",
+                "precision",
+                "relevance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Providing complete explanation of how evidence and details support position",
+              "keywords": [
+                "evidence support",
+                "details",
+                "explanation",
+                "position"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Addressing counterclaims when appropriate",
+              "keywords": [
+                "counterclaims",
+                "argumentation",
+                "writing strategy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using appropriate and varied transitions",
+              "keywords": [
+                "transitions",
+                "variety",
+                "writing flow"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Signaling shifts in writing",
+              "keywords": [
+                "signaling shifts",
+                "transitions",
+                "writing coherence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Clarifying relationships among ideas and concepts",
+              "keywords": [
+                "clarify relationships",
+                "ideas",
+                "concepts",
+                "writing clarity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Developing voice and tone",
+              "keywords": [
+                "voice",
+                "tone",
+                "writing style",
+                "development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using vivid and precise vocabulary",
+              "keywords": [
+                "vivid vocabulary",
+                "precise vocabulary",
+                "word choice"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Enhancing meaning of writing",
+              "keywords": [
+                "enhance meaning",
+                "writing impact",
+                "vocabulary"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Expanding and embedding ideas",
+              "keywords": [
+                "expand ideas",
+                "embed ideas",
+                "writing development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Creating sentence variety",
+              "keywords": [
+                "sentence variety",
+                "writing style",
+                "syntax"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Providing concluding statements or sections",
+              "keywords": [
+                "concluding statements",
+                "concluding sections",
+                "writing structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.W.3",
+          "description": "Revise and edit writing for usage and mechanics.",
+          "skills": [
+            {
+              "description": "Revising writing for clarity of content, word choice, sentence variety, and transition among paragraphs",
+              "keywords": [
+                "revising",
+                "clarity",
+                "word choice",
+                "sentence variety",
+                "transitions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Self-and peer-editing writing",
+              "keywords": [
+                "self-editing",
+                "peer-editing",
+                "writing process"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Language Usage",
+      "standards": [
+        {
+          "code": "8.LU",
+          "description": "Use the conventions of Standard English when speaking and writing, differentiating between formal and informal contexts.",
+          "skills": []
+        },
+        {
+          "code": "8.LU.1",
+          "description": "Apply grammar rules in speaking and writing.",
+          "skills": [
+            {
+              "description": "Constructing simple sentences",
+              "keywords": [
+                "simple sentences",
+                "sentence construction",
+                "grammar"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Constructing compound sentences",
+              "keywords": [
+                "compound sentences",
+                "sentence construction",
+                "grammar"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Constructing complex sentences",
+              "keywords": [
+                "complex sentences",
+                "sentence construction",
+                "grammar"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Constructing compound-complex sentences",
+              "keywords": [
+                "compound-complex sentences",
+                "sentence construction",
+                "grammar"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicating ideas clearly",
+              "keywords": [
+                "clear communication",
+                "sentence structure",
+                "grammar"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Adding variety to writing",
+              "keywords": [
+                "sentence variety",
+                "writing style",
+                "grammar"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognizing and using pronoun-antecedent agreement",
+              "keywords": [
+                "pronoun-antecedent agreement",
+                "grammar",
+                "usage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using indefinite pronouns",
+              "keywords": [
+                "indefinite pronouns",
+                "grammar",
+                "usage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using reflexive pronouns",
+              "keywords": [
+                "reflexive pronouns",
+                "grammar",
+                "usage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using relative pronouns",
+              "keywords": [
+                "relative pronouns",
+                "grammar",
+                "usage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using specific adjectives to enhance speech and writing",
+              "keywords": [
+                "adjectives",
+                "enhance speech",
+                "enhance writing",
+                "grammar"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using specific adverbs to enhance speech and writing",
+              "keywords": [
+                "adverbs",
+                "enhance speech",
+                "enhance writing",
+                "grammar"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Arranging phrases and clauses within sentences",
+              "keywords": [
+                "phrases",
+                "clauses",
+                "sentence arrangement",
+                "grammar"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Improving meaning, reader/listener interest, and style",
+              "keywords": [
+                "meaning",
+                "reader interest",
+                "listener interest",
+                "style"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Maintaining consistent verb tense across paragraphs",
+              "keywords": [
+                "verb tense",
+                "consistency",
+                "grammar",
+                "writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.LU.2",
+          "description": "Apply mechanics conventions in writing.",
+          "skills": [
+            {
+              "description": "Constructing complete sentences with appropriate punctuation",
+              "keywords": [
+                "complete sentences",
+                "punctuation",
+                "mechanics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Avoiding comma splices",
+              "keywords": [
+                "comma splices",
+                "sentence errors",
+                "mechanics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Avoiding run-ons",
+              "keywords": [
+                "run-ons",
+                "sentence errors",
+                "mechanics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using and punctuating dialogue appropriately",
+              "keywords": [
+                "dialogue",
+                "punctuation",
+                "mechanics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using and punctuating direct quotations appropriately",
+              "keywords": [
+                "direct quotations",
+                "punctuation",
+                "mechanics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognizing and consistently spelling frequently used words accurately",
+              "keywords": [
+                "spelling",
+                "accuracy",
+                "frequently used words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Consulting reference materials to check and correct spelling",
+              "keywords": [
+                "reference materials",
+                "spelling check",
+                "spelling correction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Communication and Multimodal Literacies",
+      "standards": [
+        {
+          "code": "8.C",
+          "description": "Develop effective oral communication and collaboration skills to process, understand, and interpret content.",
+          "skills": []
+        },
+        {
+          "code": "8.C.1",
+          "description": "Facilitate and contribute to collaborative discussions, practicing active listening and respectful communication.",
+          "skills": [
+            {
+              "description": "Facilitating collaborative discussions",
+              "keywords": [
+                "collaborative discussions",
+                "facilitation",
+                "communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Contributing to collaborative discussions",
+              "keywords": [
+                "collaborative discussions",
+                "contribution",
+                "communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Participating in sustained collaborative discussions",
+              "keywords": [
+                "sustained discussions",
+                "collaboration",
+                "participation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Collaborating with diverse partners",
+              "keywords": [
+                "diverse partners",
+                "collaboration",
+                "teamwork"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Listening actively",
+              "keywords": [
+                "active listening",
+                "communication",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Offering and seeking ideas",
+              "keywords": [
+                "offering ideas",
+                "seeking ideas",
+                "discussion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Setting guidelines for presentations and discussions",
+              "keywords": [
+                "guidelines",
+                "presentations",
+                "discussions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Working effectively and respectfully",
+              "keywords": [
+                "effective work",
+                "respectful work",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Actively contributing relevant and well-supported ideas and opinions",
+              "keywords": [
+                "contributing ideas",
+                "supported opinions",
+                "active participation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sharing responsibility for collaborative work",
+              "keywords": [
+                "shared responsibility",
+                "collaborative work",
+                "teamwork"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Asking clarifying questions",
+              "keywords": [
+                "clarifying questions",
+                "discussion",
+                "understanding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Responding appropriately to others' questions",
+              "keywords": [
+                "appropriate responses",
+                "questions",
+                "discussion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Encouraging discussion",
+              "keywords": [
+                "encourage discussion",
+                "facilitation",
+                "communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Fostering understanding",
+              "keywords": [
+                "foster understanding",
+                "communication",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Maintaining focus on topic",
+              "keywords": [
+                "maintain focus",
+                "discussion management",
+                "topic relevance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicating agreement or tactful disagreement",
+              "keywords": [
+                "agreement",
+                "disagreement",
+                "tactful communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using carefully constructed responses",
+              "keywords": [
+                "constructed responses",
+                "communication",
+                "thoughtful expression"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Thoughtfully paraphrasing and summarizing ideas",
+              "keywords": [
+                "paraphrasing",
+                "summarizing",
+                "discussion ideas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Acknowledging new insights expressed by others",
+              "keywords": [
+                "acknowledge insights",
+                "open-mindedness",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Modifying own views when justified",
+              "keywords": [
+                "modify views",
+                "justification",
+                "critical thinking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Valuing contributions made by each group member",
+              "keywords": [
+                "value contributions",
+                "group members",
+                "respect"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Exhibiting willingness to make necessary concessions",
+              "keywords": [
+                "concessions",
+                "collaboration",
+                "flexibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Accomplishing common goals",
+              "keywords": [
+                "common goals",
+                "teamwork",
+                "achievement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using self-reflection to evaluate one's own role",
+              "keywords": [
+                "self-reflection",
+                "evaluate role",
+                "group participation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Preparing for small-group activities",
+              "keywords": [
+                "preparation",
+                "small-group activities",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Participating in small-group activities",
+              "keywords": [
+                "participation",
+                "small-group activities",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.C.2",
+          "description": "Deliver effective oral presentations, both collaborative and individual.",
+          "skills": [
+            {
+              "description": "Delivering collaborative presentations",
+              "keywords": [
+                "collaborative presentations",
+                "delivery",
+                "speaking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Delivering individual presentations",
+              "keywords": [
+                "individual presentations",
+                "delivery",
+                "speaking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Delivering formal presentations",
+              "keywords": [
+                "formal presentations",
+                "delivery",
+                "public speaking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Delivering informal interactive presentations",
+              "keywords": [
+                "informal presentations",
+                "interactive",
+                "speaking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Clearly communicating information in organized and succinct manner",
+              "keywords": [
+                "clear communication",
+                "organized information",
+                "succinctness"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Incorporating pertinent descriptions, facts, details, and examples",
+              "keywords": [
+                "descriptions",
+                "facts",
+                "details",
+                "examples",
+                "presentation content"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Supporting main ideas",
+              "keywords": [
+                "support main ideas",
+                "evidence",
+                "presentations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using language and vocabulary appropriate to audience, topic, and purpose",
+              "keywords": [
+                "appropriate language",
+                "vocabulary",
+                "audience",
+                "purpose"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Speaking clearly at understandable pace",
+              "keywords": [
+                "clear speaking",
+                "understandable pace",
+                "delivery"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using appropriate tone and volume",
+              "keywords": [
+                "appropriate tone",
+                "volume",
+                "vocal delivery"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Responding to audience questions and comments",
+              "keywords": [
+                "audience questions",
+                "comments",
+                "response",
+                "interaction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using relevant evidence, observations, and ideas",
+              "keywords": [
+                "relevant evidence",
+                "observations",
+                "ideas",
+                "response"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Referencing source material during presentations",
+              "keywords": [
+                "source material",
+                "referencing",
+                "presentations",
+                "citation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.C.3",
+          "description": "Plan and present multimodal presentations and craft media messages.",
+          "skills": [
+            {
+              "description": "Planning multimodal presentations",
+              "keywords": [
+                "multimodal presentations",
+                "planning",
+                "communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Presenting multimodal presentations",
+              "keywords": [
+                "multimodal presentations",
+                "presentation",
+                "delivery"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sequencing ideas logically",
+              "keywords": [
+                "logical sequencing",
+                "ideas",
+                "presentation organization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using pertinent descriptions, facts, and details",
+              "keywords": [
+                "descriptions",
+                "facts",
+                "details",
+                "presentation content"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using two or more communication modes to make meaning",
+              "keywords": [
+                "communication modes",
+                "multimodal",
+                "meaning-making"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Emphasizing different points of view",
+              "keywords": [
+                "points of view",
+                "emphasis",
+                "multimodal presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Crafting and publishing audience-specific media messages",
+              "keywords": [
+                "media messages",
+                "audience-specific",
+                "crafting",
+                "publishing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Presenting claims and findings with relevant evidence and reasoning",
+              "keywords": [
+                "claims",
+                "findings",
+                "evidence",
+                "reasoning",
+                "media messages"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "8.C.4",
+          "description": "Examine how media influences beliefs and behaviors, analyze information presentation in diverse media, and evaluate sources for motives and content.",
+          "skills": [
+            {
+              "description": "Examining how media can influence beliefs, behaviors, and interpretations",
+              "keywords": [
+                "media influence",
+                "beliefs",
+                "behaviors",
+                "interpretations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding persuasive techniques",
+              "keywords": [
+                "persuasive techniques",
+                "media literacy",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyzing how similar information is presented in diverse media formats",
+              "keywords": [
+                "diverse media formats",
+                "information presentation",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examining electronic, print, propaganda, and mass media",
+              "keywords": [
+                "electronic media",
+                "print media",
+                "propaganda",
+                "mass media"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluating sources for relationships, motives, intent, and content",
+              "keywords": [
+                "source evaluation",
+                "motives",
+                "intent",
+                "content",
+                "relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research",
+      "standards": [
+        {
+          "code": "8.R",
+          "description": "Conduct research and read related texts to build knowledge, solve problems, and support cross-curricular learning.",
+          "skills": []
+        },
+        {
+          "code": "8.R.1",
+          "description": "Formulate research questions, collect/organize/synthesize information, evaluate sources, quote/summarize/paraphrase findings, organize/share findings, cite sources, and use technology ethically.",
+          "skills": [
+            {
+              "description": "Formulating questions about research topics",
+              "keywords": [
+                "research questions",
+                "formulating",
+                "inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Revising questions about research topics",
+              "keywords": [
+                "research questions",
+                "revising",
+                "inquiry refinement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Broadening or narrowing inquiry as necessary",
+              "keywords": [
+                "broaden inquiry",
+                "narrow inquiry",
+                "research scope"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Collecting, organizing, and synthesizing information from multiple sources",
+              "keywords": [
+                "collect information",
+                "organize information",
+                "synthesize information",
+                "multiple sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using various notetaking formats",
+              "keywords": [
+                "notetaking formats",
+                "information organization",
+                "research skills"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluating and analyzing relevance, validity, and credibility of sources",
+              "keywords": [
+                "source evaluation",
+                "relevance",
+                "validity",
+                "credibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying main and supporting ideas",
+              "keywords": [
+                "main ideas",
+                "supporting ideas",
+                "source analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying conflicting information",
+              "keywords": [
+                "conflicting information",
+                "source analysis",
+                "critical evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying points of view",
+              "keywords": [
+                "points of view",
+                "source analysis",
+                "bias"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying biases",
+              "keywords": [
+                "biases",
+                "source analysis",
+                "critical evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Quoting research findings from primary and secondary sources",
+              "keywords": [
+                "quoting",
+                "research findings",
+                "primary sources",
+                "secondary sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Summarizing research findings from primary and secondary sources",
+              "keywords": [
+                "summarizing",
+                "research findings",
+                "primary sources",
+                "secondary sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Paraphrasing research findings from primary and secondary sources",
+              "keywords": [
+                "paraphrasing",
+                "research findings",
+                "primary sources",
+                "secondary sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Avoiding plagiarism by using own words",
+              "keywords": [
+                "plagiarism avoidance",
+                "originality",
+                "academic integrity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Following ethical and legal guidelines",
+              "keywords": [
+                "ethical guidelines",
+                "legal guidelines",
+                "research ethics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organizing and sharing findings in formal formats",
+              "keywords": [
+                "organize findings",
+                "share findings",
+                "formal formats"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organizing and sharing findings in informal formats",
+              "keywords": [
+                "organize findings",
+                "share findings",
+                "informal formats"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organizing and sharing findings orally",
+              "keywords": [
+                "organize findings",
+                "share findings",
+                "oral presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organizing and sharing findings in written formats",
+              "keywords": [
+                "organize findings",
+                "share findings",
+                "written report"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Citing primary and secondary sources using MLA or APA style",
+              "keywords": [
+                "cite sources",
+                "MLA style",
+                "APA style",
+                "citation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating ethical and responsible use of all sources",
+              "keywords": [
+                "ethical use",
+                "responsible use",
+                "sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using Internet, Artificial Intelligence (AI), and new technologies responsibly",
+              "keywords": [
+                "Internet",
+                "AI",
+                "new technologies",
+                "responsible use"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

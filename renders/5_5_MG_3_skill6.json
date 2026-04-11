@@ -1,0 +1,195 @@
+{
+  "key": "5_5_MG_3_skill6",
+  "grade": "5",
+  "code": "5.MG.3",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 5 Math",
+  "desc": "Classify and measure angles and triangles, and solve problems involving angles.",
+  "skill_desc": "Measure right, acute, obtuse, and straight angles using appropriate tools and identify measures in degrees.",
+  "skill_idx": 5,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/5_5_MG_3_skill6.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(2,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "arc1",
+        "latex": "(0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1.107"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel1",
+        "latex": "(0.55*\\cos(0.553),0.55*\\sin(0.553))",
+        "label": "42\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc2",
+        "latex": "(4+0.4*\\cos(t),0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "3.14159",
+          "max": "4.712"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel2",
+        "latex": "(4+0.55*\\cos(3.926),0.55*\\sin(3.926))",
+        "label": "90\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      },
+      {
+        "id": "arc3",
+        "latex": "(2+0.4*\\cos(t),3+0.4*\\sin(t))",
+        "parametricDomain": {
+          "min": "1.57",
+          "max": "2.677"
+        },
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "aLabel3",
+        "latex": "(2+0.55*\\cos(2.123),3+0.55*\\sin(2.123))",
+        "label": "48\u00b0",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#FF9500",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": true,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Triangle Angle Measures"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (4, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (0, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "tri = Polygon(A, B, C)",
+      "SetColor(tri, 0, 122, 255)",
+      "Angle(tri)",
+      "angA = Angle(B, A, C)",
+      "SetCaption(angA, \"Angle A\")",
+      "SetLabelMode(angA, 3)",
+      "angB = Angle(A, B, C)",
+      "SetCaption(angB, \"Angle B\")",
+      "SetLabelMode(angB, 3)",
+      "angC = Angle(B, C, A)",
+      "SetCaption(angC, \"Angle C\")",
+      "SetLabelMode(angC, 3)"
+    ],
+    "view": [
+      -0.5,
+      5,
+      -0.5,
+      4
+    ],
+    "showGrid": true,
+    "title": "Right triangle with labeled angles"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (3, 1)",
+      "C = (2, 3)",
+      "D = (5, 1)",
+      "E = (7, 3)",
+      "F = (9, 1)",
+      "G = (11, 3)",
+      "H = (13, 1)",
+      "Segment(B, A)",
+      "Segment(B, C)",
+      "Segment(D, E)",
+      "Segment(F, G)",
+      "Segment(H, G)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 minh h\u1ecda c\u00e1c lo\u1ea1i g\u00f3c, ch\u00fang ta s\u1ebd v\u1ebd m\u1ed9t s\u1ed1 g\u00f3c kh\u00e1c nhau: g\u00f3c nh\u1ecdn, g\u00f3c vu\u00f4"
+  }
+}

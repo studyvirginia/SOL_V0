@@ -1,0 +1,704 @@
+{
+  "subject": "Science",
+  "course": "Physics I",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "PH.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through inquiry, investigation, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions arising from observation of phenomena, examination of models/theories, or unexpected results.",
+              "keywords": [
+                "phenomena observation",
+                "model analysis",
+                "theory examination",
+                "unexpected results"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of a school laboratory.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "feasibility assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Formulate hypotheses specifying the relationship between dependent and independent variables.",
+              "keywords": [
+                "hypothesis formation",
+                "dependent variable",
+                "independent variable",
+                "variable manipulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "research-based",
+                "scientific principles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define design problems involving interacting components, criteria, and constraints.",
+              "keywords": [
+                "design problem",
+                "system components",
+                "criteria",
+                "constraints"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct observational and experimental investigations individually or collaboratively.",
+              "keywords": [
+                "investigation planning",
+                "observational study",
+                "experimental design",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Conduct investigations or test design solutions safely.",
+              "keywords": [
+                "safe investigation",
+                "design testing",
+                "safety protocols"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect, record, analyze, and evaluate data.",
+              "keywords": [
+                "data collection",
+                "technology selection",
+                "data analysis",
+                "data evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Record and present data in organized formats communicating relationships and quantities mathematically.",
+              "keywords": [
+                "data recording",
+                "data presentation",
+                "mathematical communication",
+                "quantitative relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build, revise, or test models, explanations, or solutions.",
+              "keywords": [
+                "model building",
+                "data-driven revision",
+                "explanation testing",
+                "solution validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using computational, mathematical, statistical tools to make valid scientific claims or optimize designs.",
+              "keywords": [
+                "data analysis",
+                "computational tools",
+                "mathematical modeling",
+                "statistical analysis",
+                "claim validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data graphically and use graphs to make predictions.",
+              "keywords": [
+                "graphical analysis",
+                "data visualization",
+                "prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Consider limitations of data analysis when interpreting results.",
+              "keywords": [
+                "data limitations",
+                "analysis constraints",
+                "interpretation caution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the effects of new data on existing explanations or models.",
+              "keywords": [
+                "model revision",
+                "explanation update",
+                "data impact assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data to optimize a design solution.",
+              "keywords": [
+                "design optimization",
+                "data-driven improvement",
+                "solution refinement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "explanation revision"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, or evidence to explain phenomena or design solutions.",
+              "keywords": [
+                "scientific application",
+                "phenomena explanation",
+                "design solution explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments in light of accepted explanations and new evidence.",
+              "keywords": [
+                "argument comparison",
+                "evidence evaluation",
+                "explanation critique"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct arguments or counterarguments based on data and evidence.",
+              "keywords": [
+                "argument construction",
+                "data-based reasoning",
+                "evidence-based argumentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between scientific hypothesis, theory, and law.",
+              "keywords": [
+                "hypothesis vs theory vs law",
+                "scientific terminology",
+                "conceptual differentiation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model limitations",
+                "model merit assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and communicate components of a system in multiple formats (oral, graphical, textual, mathematical).",
+              "keywords": [
+                "system identification",
+                "system communication",
+                "multi-format representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and/or use models (including mathematical and computational) and simulations to visualize, explain, and predict phenomena.",
+              "keywords": [
+                "model development",
+                "mathematical modeling",
+                "computational modeling",
+                "simulation",
+                "phenomena prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of scientific or technical information in different media or formats.",
+              "keywords": [
+                "source comparison",
+                "information integration",
+                "media evaluation",
+                "credibility assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources.",
+              "keywords": [
+                "information gathering",
+                "source evaluation",
+                "authoritative sources",
+                "technical reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena or design processes in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical communication",
+                "multi-format presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Position and Time Relationships",
+      "standards": [
+        {
+          "code": "PH.2",
+          "description": "Investigate relationships between position and time through mathematical and experimental processes.",
+          "skills": [
+            {
+              "description": "Describe displacement, velocity, and uniform acceleration.",
+              "keywords": [
+                "displacement",
+                "velocity",
+                "acceleration",
+                "kinematic quantities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze linear motion.",
+              "keywords": [
+                "linear motion",
+                "one-dimensional motion",
+                "kinematic analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze uniform circular motion.",
+              "keywords": [
+                "uniform circular motion",
+                "centripetal acceleration",
+                "angular velocity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze projectile motion.",
+              "keywords": [
+                "projectile motion",
+                "trajectory analysis",
+                "parabolic motion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Force, Mass, and Acceleration Relationships",
+      "standards": [
+        {
+          "code": "PH.3",
+          "description": "Investigate relationships among force, mass, and acceleration through mathematical and experimental processes.",
+          "skills": [
+            {
+              "description": "Apply Newton's laws of motion.",
+              "keywords": [
+                "Newton's first law",
+                "Newton's second law",
+                "Newton's third law",
+                "inertia",
+                "F=ma"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply Newton's law of universal gravitation.",
+              "keywords": [
+                "universal gravitation",
+                "gravitational force",
+                "inverse-square law",
+                "F=G(m1m2)/r^2"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conservation Laws",
+      "standards": [
+        {
+          "code": "PH.4",
+          "description": "Investigate conservation laws governing interactions through mathematical and experimental processes.",
+          "skills": [
+            {
+              "description": "Recognize that momentum is conserved unless an impulse acts on the system.",
+              "keywords": [
+                "momentum conservation",
+                "impulse",
+                "collision analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that mechanical energy is conserved unless work is done on, by, or within the system.",
+              "keywords": [
+                "mechanical energy conservation",
+                "work-energy theorem",
+                "energy transfer"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Waves and Energy Transmission",
+      "standards": [
+        {
+          "code": "PH.5",
+          "description": "Investigate how waves transmit energy and move in predictable patterns through mathematical and experimental processes.",
+          "skills": [
+            {
+              "description": "Describe specific characteristics of waves.",
+              "keywords": [
+                "wave characteristics",
+                "amplitude",
+                "wavelength",
+                "frequency",
+                "wave speed"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that wave interactions are part of everyday experiences.",
+              "keywords": [
+                "wave interactions",
+                "superposition",
+                "interference",
+                "diffraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how light and sound transmit energy as waves.",
+              "keywords": [
+                "light waves",
+                "sound waves",
+                "energy transmission",
+                "electromagnetic spectrum"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Optical Systems",
+      "standards": [
+        {
+          "code": "PH.6",
+          "description": "Investigate how optical systems form images through mathematical and experimental processes.",
+          "skills": [
+            {
+              "description": "Apply the laws of reflection and refraction to describe light behavior.",
+              "keywords": [
+                "law of reflection",
+                "law of refraction",
+                "Snell's law",
+                "index of refraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use ray diagrams to model light as it travels through different media.",
+              "keywords": [
+                "ray diagrams",
+                "light propagation",
+                "media transition",
+                "geometric optics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fields and Force at a Distance",
+      "standards": [
+        {
+          "code": "PH.7",
+          "description": "Investigate how fields provide a unifying description of force at a distance through mathematical and experimental processes.",
+          "skills": [
+            {
+              "description": "Describe gravitational, electric, and magnetic forces using the field concept.",
+              "keywords": [
+                "gravitational field",
+                "electric field",
+                "magnetic field",
+                "field lines"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how field strength diminishes with increased distance from the source.",
+              "keywords": [
+                "field strength",
+                "inverse-square law",
+                "distance dependence",
+                "field decay"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electrical Circuits",
+      "standards": [
+        {
+          "code": "PH.8",
+          "description": "Investigate how electrical circuits transfer energy through mathematical and experimental processes.",
+          "skills": [
+            {
+              "description": "Describe how circuit components have different functions within the system.",
+              "keywords": [
+                "circuit components",
+                "resistor",
+                "capacitor",
+                "inductor",
+                "function analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply Ohm's law to relate voltage, current, and resistance.",
+              "keywords": [
+                "Ohm's law",
+                "voltage",
+                "current",
+                "resistance",
+                "V=IR"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare different types of circuits and their characteristics and uses.",
+              "keywords": [
+                "series circuit",
+                "parallel circuit",
+                "circuit types",
+                "circuit applications"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how electrical power is related to the elements in a circuit.",
+              "keywords": [
+                "electrical power",
+                "power calculation",
+                "P=IV",
+                "energy transfer"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe everyday applications of electrical circuits.",
+              "keywords": [
+                "circuit applications",
+                "real-world circuits",
+                "electrical devices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Non-Newtonian Physics",
+      "standards": [
+        {
+          "code": "PH.9",
+          "description": "Investigate phenomena not described by Newtonian physics, including quantum mechanics, relativity, and other advanced topics.",
+          "skills": [
+            {
+              "description": "Explain wave/particle duality.",
+              "keywords": [
+                "wave-particle duality",
+                "quantum behavior",
+                "de Broglie wavelength"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe principles of quantum mechanics and uncertainty.",
+              "keywords": [
+                "quantum mechanics",
+                "Heisenberg uncertainty principle",
+                "quantum states"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain concepts of relativity.",
+              "keywords": [
+                "special relativity",
+                "general relativity",
+                "time dilation",
+                "spacetime"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe nuclear physics principles.",
+              "keywords": [
+                "nuclear physics",
+                "radioactivity",
+                "nuclear reactions",
+                "binding energy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain solid state physics concepts.",
+              "keywords": [
+                "solid state physics",
+                "crystal structure",
+                "band theory",
+                "semiconductors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe nanotechnology applications.",
+              "keywords": [
+                "nanotechnology",
+                "nanoscale",
+                "quantum dots",
+                "nanomaterials"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain superconductivity principles.",
+              "keywords": [
+                "superconductivity",
+                "zero resistance",
+                "Meissner effect",
+                "BCS theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the standard model of particle physics.",
+              "keywords": [
+                "standard model",
+                "elementary particles",
+                "fundamental forces",
+                "quarks",
+                "leptons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain concepts of dark matter and dark energy.",
+              "keywords": [
+                "dark matter",
+                "dark energy",
+                "cosmology",
+                "expanding universe"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

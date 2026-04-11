@@ -1,0 +1,182 @@
+{
+  "key": "6_6_MG_1_skill2",
+  "grade": "6",
+  "code": "6.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 6 Math",
+  "desc": "Identify characteristics of circles and solve problems involving circumference and area.",
+  "skill_desc": "Investigate and describe the relationship between diameter and radius.",
+  "skill_idx": 1,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/6_6_MG_1_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "C",
+        "color": "#007AFF",
+        "label": "Circle",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "r=2",
+        "color": "#FF3B30",
+        "label": "Radius",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "d=2r",
+        "color": "#FF3B30",
+        "label": "Diameter",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "C: \\left(x-h\\right)^{2}+\\left(y-k\\right)^{2}=r^{2}",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e5",
+        "latex": "\\left(h,k\\right)=\\left(0,0\\right)",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e6",
+        "latex": "r=2",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "Center",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(2,0)",
+        "color": "#FF3B30",
+        "label": "Point on Circle",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "l1",
+        "latex": "y=0",
+        "color": "#FF3B30",
+        "label": "Diameter",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "l2",
+        "latex": "x=0",
+        "color": "#FF9500",
+        "label": "Radius",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -3,
+      "bottom": -3,
+      "right": 3,
+      "top": 3
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Circle: Radius and Diameter"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "O = (0, 0)",
+      "SetLabelVisible(O, true)",
+      "SetCaption(O, \"Center\")",
+      "SetLabelMode(O, 3)",
+      "r = 2",
+      "c = Circle(O, r)",
+      "SetColor(c, 0, 122, 255)",
+      "A = (r, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (-r, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "seg = Segment(A, B)",
+      "SetColor(seg, 220, 53, 69)",
+      "SetLineThickness(seg, 3)",
+      "SetCaption(seg, \"Diameter\")",
+      "SetLabelMode(seg, 3)",
+      "C = (0, r)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "seg2 = Segment(O, C)",
+      "SetColor(seg2, 40, 167, 69)",
+      "SetLineThickness(seg2, 3)",
+      "SetCaption(seg2, \"Radius\")",
+      "SetLabelMode(seg2, 3)"
+    ],
+    "view": [
+      -3,
+      3,
+      -3,
+      3
+    ],
+    "showGrid": true,
+    "title": "Circle with Diameter and Radius"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "O = (2, 2)",
+      "A = (5, 2)",
+      "circleO = Circle(O, A)",
+      "B = Reflect(A, O)",
+      "Segment(A, B)",
+      "Segment(O, A)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "Ch\u00fang ta s\u1ebd v\u1ebd m\u1ed9t \u0111\u01b0\u1eddng tr\u00f2n v\u00e0 hi\u1ec3n th\u1ecb \u0111\u01b0\u1eddng k\u00ednh v\u00e0 b\u00e1n k\u00ednh c\u1ee7a n\u00f3 \u0111\u1ec3 minh "
+  }
+}

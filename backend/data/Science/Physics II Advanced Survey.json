@@ -1,0 +1,915 @@
+{
+  "subject": "Science",
+  "course": "Physics II Advanced Survey",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "PHII.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through questioning, investigation, data analysis, modeling, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from observation of phenomena, examination of models/theories, or unexpected results.",
+              "keywords": [
+                "phenomena observation",
+                "model analysis",
+                "theory examination",
+                "unexpected results"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of a school laboratory or field setting.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "field investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Formulate hypotheses specifying the relationship between independent and dependent variables.",
+              "keywords": [
+                "hypothesis formation",
+                "independent variable",
+                "dependent variable",
+                "variable manipulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "research-based hypotheses",
+                "scientific principles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define design problems involving processes/systems with interacting components, criteria, and constraints.",
+              "keywords": [
+                "design problem definition",
+                "system components",
+                "criteria and constraints"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct observational and experimental investigations; identify variables, constants, and controls.",
+              "keywords": [
+                "investigation planning",
+                "variable identification",
+                "constants",
+                "controls"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Conduct investigations or test design solutions safely and ethically, considering environmental, social, and personal effects.",
+              "keywords": [
+                "safe investigation",
+                "ethical considerations",
+                "environmental impact",
+                "social impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine appropriate sample size and techniques for investigations.",
+              "keywords": [
+                "sample size determination",
+                "sampling techniques",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect and record data.",
+              "keywords": [
+                "data collection tools",
+                "technology selection",
+                "measurement tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent/dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variables",
+                "dependent variables",
+                "repeated trials",
+                "means"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data, including slope, intercept, and area under the curve.",
+              "keywords": [
+                "graphical data analysis",
+                "slope",
+                "intercept",
+                "area under curve",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, support explanations, or test solutions.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "explanatory models",
+                "solution testing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems using mathematical manipulations including SI units, scientific notation, derived units, significant digits, and dimensional analysis.",
+              "keywords": [
+                "mathematical manipulations",
+                "SI units",
+                "scientific notation",
+                "derived units",
+                "significant digits",
+                "dimensional analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims or determine optimal design solutions.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "design optimization",
+                "reliability assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Consider limitations of data analysis including instrument limitations, sampling selection, and measurement error.",
+              "keywords": [
+                "data limitations",
+                "instrument limitations",
+                "sampling selection",
+                "measurement error"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between accuracy and precision of measurements.",
+              "keywords": [
+                "accuracy",
+                "precision",
+                "measurement error",
+                "instrument calibration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data to optimize a design.",
+              "keywords": [
+                "data optimization",
+                "design refinement",
+                "performance analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from models, theories, simulations, peer review, or investigations.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "peer review",
+                "model validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to explain phenomena or design solutions.",
+              "keywords": [
+                "scientific application",
+                "phenomena explanation",
+                "design solution justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments or design solutions in light of accepted explanations and new evidence.",
+              "keywords": [
+                "argument comparison",
+                "design evaluation",
+                "evidence-based assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support a claim using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim formulation",
+                "empirical evidence",
+                "scientific reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate a claim by applying scientific reasoning, theory, and/or models to link evidence to explanations.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theoretical models",
+                "evidence linking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model limitations",
+                "predictive accuracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships, support explanations, or solve problems.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "predictive modeling",
+                "explanatory models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical and statistical concepts and processes in building and revising models.",
+              "keywords": [
+                "mathematical modeling",
+                "statistical analysis",
+                "model refinement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Derive mathematical models (equations) from experimental data.",
+              "keywords": [
+                "mathematical derivation",
+                "experimental data",
+                "equation formulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question.",
+              "keywords": [
+                "source comparison",
+                "information integration",
+                "media literacy",
+                "scientific inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing evidence and credibility.",
+              "keywords": [
+                "source evaluation",
+                "authoritative sources",
+                "evidence assessment",
+                "credibility analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena or a design process in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical reporting",
+                "multi-format presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fields and Interactions at a Distance",
+      "standards": [
+        {
+          "code": "PHII.2",
+          "description": "Investigate fields generated by mass and charge, and their role in governing object motion and enabling interactions at a distance.",
+          "skills": [
+            {
+              "description": "Compare motions of charged objects in electric fields to motions of objects in gravitational fields.",
+              "keywords": [
+                "electric fields",
+                "gravitational fields",
+                "charged object motion",
+                "object trajectories"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "PHII.1"
+              ]
+            },
+            {
+              "description": "Plan and conduct an investigation to determine the relationship between force strength, distance, and/or orientation of magnetic materials.",
+              "keywords": [
+                "magnetic force investigation",
+                "force-distance relationship",
+                "magnetic orientation",
+                "experimental design"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation to determine the relationship between a current-carrying wire and the resulting magnetic field.",
+              "keywords": [
+                "current-carrying wire",
+                "magnetic field generation",
+                "electromagnetic investigation",
+                "experimental setup"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to visualize, explain, and predict interactions involving electromagnetic and gravitational fields.",
+              "keywords": [
+                "field interaction models",
+                "electromagnetic visualization",
+                "gravitational field prediction",
+                "model development"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Propose a solution to a problem using knowledge of magnetic induction.",
+              "keywords": [
+                "magnetic induction",
+                "problem-solving",
+                "electromagnetic solutions",
+                "applied physics"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Propose a solution to a problem involving an induced current.",
+              "keywords": [
+                "induced current",
+                "problem-solving",
+                "electromagnetic induction",
+                "applied physics"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the properties of magnets define their application in different systems.",
+              "keywords": [
+                "magnet properties",
+                "system applications",
+                "magnetic materials",
+                "technological design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Momentum Conservation",
+      "standards": [
+        {
+          "code": "PHII.3",
+          "description": "Investigate momentum conservation laws and their application to real-world systems.",
+          "skills": [
+            {
+              "description": "Explain the relationship between impulse and momentum in real-world systems.",
+              "keywords": [
+                "impulse-momentum relationship",
+                "real-world systems",
+                "force application",
+                "momentum change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to predict pre-collision and post-collision scenarios of elastic and inelastic collisions.",
+              "keywords": [
+                "collision modeling",
+                "elastic collisions",
+                "inelastic collisions",
+                "pre/post-collision prediction"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim that linear and angular momentum can be used to analyze revolving objects, whereas angular momentum must be used to describe rotating objects.",
+              "keywords": [
+                "linear momentum",
+                "angular momentum",
+                "revolving objects",
+                "rotating objects",
+                "claim formulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems involving the angular momentum of rotating objects in real-world systems.",
+              "keywords": [
+                "angular momentum problems",
+                "rotating objects",
+                "real-world applications",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation related to conservation of angular momentum.",
+              "keywords": [
+                "angular momentum investigation",
+                "conservation laws",
+                "experimental design",
+                "rotational dynamics"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy Conservation",
+      "standards": [
+        {
+          "code": "PHII.4",
+          "description": "Investigate energy conservation laws and their application to real-world systems.",
+          "skills": [
+            {
+              "description": "Analyze a real-world system to determine energy transfers and transformations.",
+              "keywords": [
+                "energy transfer analysis",
+                "energy transformation",
+                "real-world systems",
+                "system dynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation to determine the relationship between work, power, and efficiency.",
+              "keywords": [
+                "work-power-efficiency investigation",
+                "energy relationships",
+                "experimental design",
+                "efficiency measurement"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Design, build, test, and refine an apparatus that maximizes the efficiency of a closed system.",
+              "keywords": [
+                "apparatus design",
+                "efficiency maximization",
+                "closed system",
+                "testing and refinement"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the efficiency of simple real-world systems and justify improvements to efficiency.",
+              "keywords": [
+                "efficiency evaluation",
+                "system optimization",
+                "justification of improvements",
+                "real-world applications"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation to confirm that energy is conserved in translational and rotational systems.",
+              "keywords": [
+                "energy conservation investigation",
+                "translational systems",
+                "rotational systems",
+                "experimental confirmation"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models to visualize, explain, and predict interactions involving angular displacement, angular velocity, angular acceleration, and moment of inertia.",
+              "keywords": [
+                "rotational dynamics models",
+                "angular displacement",
+                "angular velocity",
+                "moment of inertia",
+                "model development"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Apply principles of torque to industrial tools and real-world scenarios.",
+              "keywords": [
+                "torque principles",
+                "industrial tools",
+                "real-world applications",
+                "mechanical advantage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thermal Energy Processes",
+      "standards": [
+        {
+          "code": "PHII.5",
+          "description": "Investigate thermal energy processes and their impact on energy transformations.",
+          "skills": [
+            {
+              "description": "Plan and conduct an investigation to determine relationships among thermal energy, work, and temperature.",
+              "keywords": [
+                "thermal energy investigation",
+                "work-temperature relationships",
+                "experimental design",
+                "thermodynamic relationships"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use models and mathematical representations to explain relationships between thermal energy and work.",
+              "keywords": [
+                "thermal energy models",
+                "work relationships",
+                "mathematical representations",
+                "thermodynamic modeling"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Make predictions of entropy and thermal energy changes in systems and processes when energy is transferred.",
+              "keywords": [
+                "entropy prediction",
+                "thermal energy changes",
+                "energy transfer",
+                "system processes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create, evaluate, and refine solutions to problems related to thermal conductivity.",
+              "keywords": [
+                "thermal conductivity solutions",
+                "problem-solving",
+                "solution evaluation",
+                "solution refinement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fluid Behavior",
+      "standards": [
+        {
+          "code": "PHII.6",
+          "description": "Investigate fluid behavior and its relationship to system constraints.",
+          "skills": [
+            {
+              "description": "Develop and use models and mathematical representations to describe energy, pressure, temperature, and volume in real-world systems.",
+              "keywords": [
+                "fluid system models",
+                "energy-pressure relationships",
+                "mathematical representations",
+                "thermodynamic properties"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation to predict relationships between fluid pressure, velocity, and elevation.",
+              "keywords": [
+                "fluid pressure investigation",
+                "velocity-elevation relationships",
+                "experimental design",
+                "fluid dynamics"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Apply concepts of laminar fluid flow to real-world systems.",
+              "keywords": [
+                "laminar flow",
+                "real-world applications",
+                "fluid dynamics",
+                "flow analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain how mechanical advantage can be made by confined fluids.",
+              "keywords": [
+                "mechanical advantage models",
+                "confined fluids",
+                "fluid mechanics",
+                "model development"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Use data and evidence to explain fluid movement through a system by applying principles of conservation laws.",
+              "keywords": [
+                "fluid movement explanation",
+                "conservation laws",
+                "data analysis",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a simple problem in a system of fluid flow and justify a solution through the application of Bernoulli's principle.",
+              "keywords": [
+                "fluid flow problems",
+                "Bernoulli's principle",
+                "problem identification",
+                "solution justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electromagnetic Radiation",
+      "standards": [
+        {
+          "code": "PHII.7",
+          "description": "Investigate the dual nature of electromagnetic radiation as both particles and waves.",
+          "skills": [
+            {
+              "description": "Explain the relationship among energy, frequency, and wavelength of electromagnetic waves emitted by objects at various temperatures.",
+              "keywords": [
+                "electromagnetic wave properties",
+                "energy-frequency relationship",
+                "wavelength-temperature relationship",
+                "blackbody radiation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations to demonstrate the nature of light as both a transverse wave and a particle.",
+              "keywords": [
+                "light duality investigation",
+                "transverse waves",
+                "particle nature",
+                "experimental demonstration"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about whether the particle model or wave model is more useful for a given scenario.",
+              "keywords": [
+                "model comparison",
+                "particle model",
+                "wave model",
+                "claim formulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how technological devices work based on electromagnetic radiation principles.",
+              "keywords": [
+                "technological device explanation",
+                "electromagnetic principles",
+                "device functionality",
+                "applied physics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quantum Mechanics and Relativity",
+      "standards": [
+        {
+          "code": "PHII.8",
+          "description": "Investigate quantum mechanics, general relativity, and special relativity and their implications for space and time.",
+          "skills": [
+            {
+              "description": "Compare classical and quantum models in explaining the photoelectric effect.",
+              "keywords": [
+                "photoelectric effect",
+                "classical models",
+                "quantum models",
+                "model comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the effect of gravitational fields on how light travels.",
+              "keywords": [
+                "gravitational lensing",
+                "light propagation",
+                "gravitational fields",
+                "relativistic effects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare how very large and very small systems are approached in classical physics and modern physics.",
+              "keywords": [
+                "system scale comparison",
+                "classical physics",
+                "modern physics",
+                "scale-dependent approaches"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research and communicate technological advancements that use the properties of the Doppler Effect, gravitational wave variation, relativity, or quantum mechanics.",
+              "keywords": [
+                "technological advancements",
+                "Doppler Effect",
+                "gravitational waves",
+                "relativity applications",
+                "quantum mechanics applications",
+                "research communication"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technological Advancements and Research",
+      "standards": [
+        {
+          "code": "PHII.9",
+          "description": "Explore technological advancements and innovative research in physics fields.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain how modern electric power systems operate.",
+              "keywords": [
+                "electric power systems",
+                "model development",
+                "system operation explanation",
+                "energy systems"
+              ],
+              "prerequisites": [
+                "PHII.1"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Explore topics in modern physics including nuclear, solid state, nanotechnology, superconductivity, the standard model, and dark matter/dark energy and their effects on current technologies.",
+              "keywords": [
+                "modern physics topics",
+                "nuclear physics",
+                "solid state physics",
+                "nanotechnology",
+                "superconductivity",
+                "standard model",
+                "dark matter",
+                "dark energy",
+                "technological impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Debate the merits of the pursuit of pure science versus applied science.",
+              "keywords": [
+                "science debate",
+                "pure science",
+                "applied science",
+                "scientific merit",
+                "ethical considerations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

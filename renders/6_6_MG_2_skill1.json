@@ -1,0 +1,193 @@
+{
+  "key": "6_6_MG_2_skill1",
+  "grade": "6",
+  "code": "6.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 6 Math",
+  "desc": "Solve problems involving the area and perimeter of triangles and parallelograms.",
+  "skill_desc": "Develop the formula for determining the area of parallelograms and triangles using pictorial representations and concrete manipulatives.",
+  "skill_idx": 0,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/6_6_MG_2_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "A=(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "B=(6,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "C=(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "\\operatorname{polygon}(A,B,C)",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "h=3",
+        "color": "#5856D6",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e6",
+        "latex": "b=6",
+        "color": "#5856D6",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e7",
+        "latex": "Area=\\frac{1}{2}\\cdot b\\cdot h",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e8",
+        "latex": "Area=\\frac{1}{2}\\cdot 6\\cdot 3",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e9",
+        "latex": "Area=9",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 8,
+      "top": 5
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Area of a Triangle"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (6, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (6, 4)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "D = (0, 4)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"D\")",
+      "SetLabelMode(D, 3)",
+      "parallelogram = Polygon(A, B, C, D)",
+      "SetColor(parallelogram, 0, 122, 255)",
+      "SetFilling(parallelogram, 0.75)",
+      "lineAB = Segment(A, B)",
+      "SetColor(lineAB, 0, 0, 0)",
+      "lineBC = Segment(B, C)",
+      "SetColor(lineBC, 0, 0, 0)",
+      "lineCD = Segment(C, D)",
+      "SetColor(lineCD, 0, 0, 0)",
+      "lineDA = Segment(D, A)",
+      "SetColor(lineDA, 0, 0, 0)",
+      "H = (6, 0)",
+      "SetLabelVisible(H, true)",
+      "SetCaption(H, \"H\")",
+      "SetLabelMode(H, 3)",
+      "altitude = Segment(C, H)",
+      "SetLineStyle(altitude, 1)",
+      "SetColor(altitude, 142, 142, 147)",
+      "SetLabelVisible(altitude, false)",
+      "angleA = Angle(D, A, B)",
+      "SetColor(angleA, 220, 20, 60)",
+      "angleB = Angle(A, B, C)",
+      "SetColor(angleB, 220, 20, 60)",
+      "angleC = Angle(B, C, D)",
+      "SetColor(angleC, 220, 20, 60)",
+      "angleD = Angle(C, D, A)",
+      "SetColor(angleD, 220, 20, 60)"
+    ],
+    "view": [
+      -1,
+      8,
+      -1,
+      6
+    ],
+    "showGrid": true,
+    "title": "Area and Perimeter of Parallelogram"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (7, 1)",
+      "C = (9, 5)",
+      "D = (3, 5)",
+      "parallelogram = Polygon(A, B, C, D)",
+      "h = PerpendicularLine(D, Line(A, B))",
+      "E = Intersect(h, Line(A, B))",
+      "SetVisible(h, false)",
+      "F = Translate(D, Vector(B, A))",
+      "rectangle = Polygon(A, B, C, F)",
+      "SetVisible(rectangle, false)",
+      "triangleA = (2, 2)",
+      "triangleB = (8, 2)",
+      "triangleC = (5, 6)",
+      "triangle = Polygon(triangleA, triangleB, triangleC)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 ph\u00e1t tri\u1ec3n c\u00f4ng th\u1ee9c t\u00ednh di\u1ec7n t\u00edch h\u00ecnh b\u00ecnh h\u00e0nh v\u00e0 tam gi\u00e1c, ch\u00fang ta s\u1ebd x"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "key": "6_6_CE_2_skill2",
+  "grade": "6",
+  "code": "6.CE.2",
+  "domain": "Computation and Estimation",
+  "course": "Grade 6 Math",
+  "desc": "Estimate, solve, and justify solutions to problems using operations with integers, including contextual problems.",
+  "skill_desc": "Add, subtract, multiply, and divide two integers.",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_CE_2_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x+2",
+        "color": "#007AFF",
+        "lines": true,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=x-3",
+        "color": "#FF3B30",
+        "lines": true,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=2x+1",
+        "color": "#34C759",
+        "lines": true,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=-x+4",
+        "color": "#FF9500",
+        "lines": true,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -5,
+      "right": 5,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Integer Operations: Addition, Subtraction, Multiplication, and Division"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x + 3",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = -x + 1",
+      "SetColor(g, 255, 0, 0)",
+      "Intersect(f, g)",
+      "SetLabelVisible(Intersect(f, g), true)",
+      "SetCaption(Intersect(f, g), \"Solution\")",
+      "SetLabelMode(Intersect(f, g), 3)"
+    ],
+    "view": [
+      -5,
+      5,
+      -5,
+      5
+    ],
+    "showGrid": true,
+    "title": "Adding and Subtracting Integers: 2x + 3 = -x + 1"
+  },
+  "sketchmath_state": null
+}

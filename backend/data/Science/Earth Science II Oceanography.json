@@ -1,0 +1,891 @@
+{
+  "subject": "Science",
+  "course": "Earth Science II Oceanography",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "OC.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, data analysis, modeling, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from careful observation of phenomena, models, theories, or additional information.",
+              "keywords": [
+                "question formulation",
+                "observation",
+                "phenomena",
+                "models",
+                "theories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of a school laboratory or field study.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "field study"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make hypotheses specifying the effect of manipulating an independent variable on a dependent variable.",
+              "keywords": [
+                "hypothesis formation",
+                "independent variable",
+                "dependent variable",
+                "manipulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "research",
+                "scientific principles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define design problems involving processes or systems with interacting components, criteria, and constraints.",
+              "keywords": [
+                "design problems",
+                "systems",
+                "criteria",
+                "constraints"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct observational and experimental investigations; identify variables, constants, and controls.",
+              "keywords": [
+                "investigation planning",
+                "variables",
+                "constants",
+                "controls"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations or test design solutions safely and ethically, considering environmental, social, and personal effects.",
+              "keywords": [
+                "safe investigation",
+                "ethical considerations",
+                "environmental impact",
+                "social impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine appropriate sample size and techniques for investigations.",
+              "keywords": [
+                "sample size",
+                "sampling techniques",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect and record data.",
+              "keywords": [
+                "data collection tools",
+                "technology",
+                "measurement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "variables",
+                "repeated trials",
+                "means"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data; consider limitations of data analysis.",
+              "keywords": [
+                "graphical displays",
+                "data analysis",
+                "limitations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, support explanations for phenomena, or test solutions to problems.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "phenomena explanation",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes in scientific contexts.",
+              "keywords": [
+                "mathematical application",
+                "quantitative analysis",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims or determine optimal design solutions.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "design optimization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data to optimize a design.",
+              "keywords": [
+                "data optimization",
+                "design refinement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from models, theories, simulations, peer review, or investigations.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "peer review"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide explanations of phenomena and design solutions.",
+              "keywords": [
+                "scientific application",
+                "phenomena explanation",
+                "design solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments or design solutions in light of accepted explanations and new evidence.",
+              "keywords": [
+                "argument comparison",
+                "design evaluation",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support a claim using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim formulation",
+                "empirical evidence",
+                "scientific reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate a claim by applying scientific reasoning, theory, and/or models to link evidence to conclusions.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theory application"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model limitations",
+                "scientific models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships, support explanations, or solve problems.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "evidence-based modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical and statistical concepts and processes in building and revising models, supporting explanations, or testing solutions.",
+              "keywords": [
+                "mathematical modeling",
+                "statistical analysis",
+                "model testing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address scientific questions.",
+              "keywords": [
+                "source evaluation",
+                "information integration",
+                "media literacy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing evidence and credibility.",
+              "keywords": [
+                "information gathering",
+                "source credibility",
+                "scientific literature"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena or design processes in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical writing",
+                "data presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ocean Ecosystems",
+      "standards": [
+        {
+          "code": "OC.2",
+          "description": "Investigate and understand that ocean ecosystems support a great diversity of life and the factors influencing biodiversity.",
+          "skills": [
+            {
+              "description": "Explain how biotic and abiotic factors affect biodiversity within marine ecosystems.",
+              "keywords": [
+                "biotic factors",
+                "abiotic factors",
+                "biodiversity",
+                "marine ecosystems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about factors that promote and control the locations of primary productivity and its effect on ocean ecosystems.",
+              "keywords": [
+                "primary productivity",
+                "claim evaluation",
+                "ocean ecosystems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify characteristics of major groups (kingdom, phylum, and class) of marine organisms.",
+              "keywords": [
+                "marine organisms",
+                "taxonomy",
+                "kingdom",
+                "phylum",
+                "class"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how unique morphological features of marine organisms help them survive and thrive in their respective marine niches.",
+              "keywords": [
+                "morphological features",
+                "niche adaptation",
+                "survival mechanisms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the benefit of daily vertical migration for zooplankton and its effects on ocean ecosystems.",
+              "keywords": [
+                "vertical migration",
+                "zooplankton",
+                "ecosystem effects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to predict the transfer of energy within ocean ecosystems and predict the effects of natural and anthropogenic events on ecosystem health.",
+              "keywords": [
+                "energy transfer",
+                "ecosystem modeling",
+                "anthropogenic events",
+                "ecosystem health"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the relative roles of chemosynthesis and photosynthesis in biological productivity of ocean ecosystems.",
+              "keywords": [
+                "chemosynthesis",
+                "photosynthesis",
+                "biological productivity",
+                "ocean ecosystems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Debate advantages and disadvantages of a solution to a natural or anthropogenic threat to a marine organism.",
+              "keywords": [
+                "debate",
+                "threat mitigation",
+                "marine organisms",
+                "anthropogenic threats"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Properties of Seawater",
+      "standards": [
+        {
+          "code": "OC.3",
+          "description": "Investigate and understand that the properties of seawater enable distinct biological and physical characteristics within the ocean and ecosystems.",
+          "skills": [
+            {
+              "description": "Explain how the properties of seawater (pH, dissolved oxygen, turbidity, density, and salinity) affect biodiversity in ocean ecosystems.",
+              "keywords": [
+                "seawater properties",
+                "pH",
+                "dissolved oxygen",
+                "turbidity",
+                "density",
+                "salinity",
+                "biodiversity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation to determine how salinity affects density of water.",
+              "keywords": [
+                "salinity investigation",
+                "density measurement",
+                "experimental design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the relationship between the density and depth of seawater.",
+              "keywords": [
+                "density-depth relationship",
+                "claim evaluation",
+                "seawater properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the relationships among temperature, density, depth, and salinity can be used to predict effects on ocean currents.",
+              "keywords": [
+                "temperature",
+                "density",
+                "depth",
+                "salinity",
+                "ocean currents",
+                "prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the properties of the thermocline, halocline, and pycnocline create distinct ecosystems.",
+              "keywords": [
+                "thermocline",
+                "halocline",
+                "pycnocline",
+                "ecosystem formation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the variation of the transmission of light through zones of the ocean and determine biological adaptations that allow organisms to survive within each zone.",
+              "keywords": [
+                "light transmission",
+                "ocean zones",
+                "biological adaptations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data to understand the relationship among dissolved gases, temperature, and pressure with increasing depth and effects on marine life.",
+              "keywords": [
+                "dissolved gases",
+                "temperature",
+                "pressure",
+                "depth",
+                "marine life"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain thermohaline circulation and the effect on ecosystems.",
+              "keywords": [
+                "thermohaline circulation",
+                "model development",
+                "ecosystem effects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an investigation that demonstrates the ocean's capacity to serve as a buffer and predict the effects of changing pH levels on marine ecosystems.",
+              "keywords": [
+                "ocean buffering",
+                "pH change",
+                "investigation",
+                "marine ecosystems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ocean-Atmosphere Interactions",
+      "standards": [
+        {
+          "code": "OC.4",
+          "description": "Investigate and understand interactions between the ocean and the atmosphere that influence weather, climate, and ocean systems.",
+          "skills": [
+            {
+              "description": "Explain how water moderates regional climate and local weather conditions.",
+              "keywords": [
+                "water moderation",
+                "regional climate",
+                "local weather"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain why the Coriolis Effect occurs and how it influences global wind patterns and oceanic surface currents.",
+              "keywords": [
+                "Coriolis Effect",
+                "model development",
+                "wind patterns",
+                "ocean currents"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify major surface currents, their characteristics (temperature, origin, and direction of motion) and explain how they affect local climates.",
+              "keywords": [
+                "surface currents",
+                "temperature",
+                "climate effects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict the formation and severity of low-pressure tropical systems over the ocean and describe potential hazards when they reach land.",
+              "keywords": [
+                "tropical systems",
+                "prediction",
+                "hazards",
+                "landfall"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain interrelationships among wind, ocean current, and climate patterns.",
+              "keywords": [
+                "wind-ocean-current-climate model",
+                "interrelationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the atmospheric causes of Ekman transport and its effect on marine and climate systems.",
+              "keywords": [
+                "Ekman transport",
+                "atmospheric causes",
+                "marine systems",
+                "climate systems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how climate variability and change influence ocean currents and stratification.",
+              "keywords": [
+                "climate variability",
+                "ocean currents",
+                "stratification",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how atmospheric changes affect ocean systems.",
+              "keywords": [
+                "atmospheric changes",
+                "ocean systems",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geologic, Atmospheric, and Astronomical Processes",
+      "standards": [
+        {
+          "code": "OC.5",
+          "description": "Investigate and understand that Earth's geologic, atmospheric, and astronomical processes interact with the ocean to shape its physical features, movement, and coastal environments.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate a claim about the role of plate tectonics in shaping the physical features of the ocean and continents.",
+              "keywords": [
+                "plate tectonics",
+                "physical features",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how dynamic events at plate boundaries (earthquakes, volcanoes, seafloor spreading, and hot spots) influence oceans and continents.",
+              "keywords": [
+                "plate boundaries",
+                "earthquakes",
+                "volcanoes",
+                "seafloor spreading",
+                "hot spots"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain the relative position of the sun, moon, and Earth to predict spring and neap tides.",
+              "keywords": [
+                "sun-moon-Earth model",
+                "spring tides",
+                "neap tides",
+                "prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role of gravitational forces among Earth, moon, and sun and resulting tides.",
+              "keywords": [
+                "gravitational forces",
+                "tides",
+                "Earth-moon-sun system"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret a tide table to determine tidal range and the type of daily tides (diurnal, semi-diurnal, mixed, and continental interference).",
+              "keywords": [
+                "tide table",
+                "tidal range",
+                "diurnal tides",
+                "semi-diurnal tides",
+                "mixed tides"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain how factors (wind duration, fetch, and wind speed) lead to the formation of ocean waves.",
+              "keywords": [
+                "wave formation",
+                "wind duration",
+                "fetch",
+                "wind speed",
+                "model development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare different types of waves and how coastal shorelines change the dynamic of the waves.",
+              "keywords": [
+                "wave types",
+                "coastal shorelines",
+                "wave dynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain the formation of barrier islands and how they form a defense against rising sea level and storm waves.",
+              "keywords": [
+                "barrier islands",
+                "model development",
+                "sea level rise",
+                "storm waves"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research and describe events of how waves, tides, and/or sea level change affected the physical structure of a local coastline.",
+              "keywords": [
+                "coastline structure",
+                "waves",
+                "tides",
+                "sea level change",
+                "research"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the advantages and disadvantages of hard and soft stabilization methods on coastline stabilization.",
+              "keywords": [
+                "coastline stabilization",
+                "hard stabilization",
+                "soft stabilization",
+                "comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research and describe the origin, composition, particle size, thickness, and distribution of oceanic sediments, including their classification.",
+              "keywords": [
+                "oceanic sediments",
+                "sediment classification",
+                "origin",
+                "composition",
+                "research"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oceanic Explorations",
+      "standards": [
+        {
+          "code": "OC.6",
+          "description": "Investigate and understand that historic and on-going oceanic explorations contribute to the understanding of ocean systems.",
+          "skills": [
+            {
+              "description": "Research past and modern explorations to explain how exploration contributes to understanding the ocean.",
+              "keywords": [
+                "ocean exploration",
+                "historical research",
+                "modern exploration",
+                "understanding ocean systems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how historical and current tools, mapping technologies (lead-line, echo sounding, multi-beam sonar, seismic profiling, side-scan sonar, and sea surface altimetry), and the contributions of research vessels have expanded human understanding of ocean ecosystems.",
+              "keywords": [
+                "mapping technologies",
+                "lead-line",
+                "echo sounding",
+                "multi-beam sonar",
+                "seismic profiling",
+                "side-scan sonar",
+                "sea surface altimetry",
+                "research vessels"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research major developments in the understanding of ocean systems and processes.",
+              "keywords": [
+                "ocean systems",
+                "processes",
+                "research",
+                "scientific developments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the effect of natural and anthropogenic events on ocean ecosystems using modern satellite imagery and data sets.",
+              "keywords": [
+                "natural events",
+                "anthropogenic events",
+                "ocean ecosystems",
+                "satellite imagery",
+                "data sets",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a current global problem and propose a solution based on understanding ocean systems.",
+              "keywords": [
+                "global problem",
+                "solution proposal",
+                "ocean systems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Social and Economic Value of Oceans",
+      "standards": [
+        {
+          "code": "OC.7",
+          "description": "Investigate and understand that the ocean is of important social and economic value globally and in Virginia.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate a claim about how the extraction of physical and biological resources from the ocean affects marine ecosystems.",
+              "keywords": [
+                "resource extraction",
+                "marine ecosystems",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare global consumerism to national and local trends and explain these effects on Virginia, local coastal, and offshore environments.",
+              "keywords": [
+                "global consumerism",
+                "national trends",
+                "local trends",
+                "Virginia environments",
+                "coastal environments",
+                "offshore environments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the benefits and drawbacks of various uses of the ocean.",
+              "keywords": [
+                "ocean uses",
+                "benefits",
+                "drawbacks",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research local and global issues, policies, and laws that promote responsible stewardship of the oceans.",
+              "keywords": [
+                "ocean stewardship",
+                "policies",
+                "laws",
+                "research"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Debate advantages and disadvantages of the law of the sea.",
+              "keywords": [
+                "law of the sea",
+                "debate",
+                "advantages",
+                "disadvantages"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Design, evaluate, and refine a solution for reducing the effects of a natural event or a human activity on Virginia's ocean systems, shorelines, local communities, and ecosystem biodiversity.",
+              "keywords": [
+                "solution design",
+                "natural events",
+                "human activities",
+                "Virginia environments",
+                "ecosystem biodiversity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how continued coastal population growth in Virginia affects sustainability.",
+              "keywords": [
+                "coastal population growth",
+                "sustainability",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "key": "5_5_PS_1_skill4",
+  "grade": "5",
+  "code": "5.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 5 Math",
+  "desc": "Apply the data cycle with a focus on line plots (dot plots) and stem-and-leaf plots.",
+  "skill_desc": "Organize and represent numerical data using a stem-and-leaf plot with a title and key, where stems and leaves are in ascending order.",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/5_5_PS_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "values": [
+              "1",
+              "1",
+              "2",
+              "2",
+              "2",
+              "3",
+              "3",
+              "3",
+              "3",
+              "4",
+              "4",
+              "4",
+              "5",
+              "5",
+              "6",
+              "6",
+              "7",
+              "7",
+              "8",
+              "8"
+            ],
+            "color": "#007AFF"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "x=1",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "x=2",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e4",
+        "latex": "x=3",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e5",
+        "latex": "x=4",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e6",
+        "latex": "x=5",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e7",
+        "latex": "x=6",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e8",
+        "latex": "x=7",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e9",
+        "latex": "(8,1)",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e11",
+        "latex": "y=2",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e12",
+        "latex": "y=3",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e13",
+        "latex": "y=4",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e14",
+        "latex": "y=5",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e15",
+        "latex": "y=6",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e16",
+        "latex": "y=7",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e17",
+        "latex": "y=8",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "p1",
+        "latex": "(1,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(1,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(2,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(2,3)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(3,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p7",
+        "latex": "(3,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p8",
+        "latex": "(3,3)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p9",
+        "latex": "(3,4)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p10",
+        "latex": "(4,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p11",
+        "latex": "(4,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p12",
+        "latex": "(4,3)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p13",
+        "latex": "(5,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p14",
+        "latex": "(5,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p15",
+        "latex": "(6,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p16",
+        "latex": "(6,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p17",
+        "latex": "(7,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p18",
+        "latex": "(7,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p19",
+        "latex": "(8,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p20",
+        "latex": "(8,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 9,
+      "top": 9
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Stem-and-Leaf Plot"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

@@ -1,0 +1,105 @@
+{
+  "key": "8_8_PS_2_skill9",
+  "grade": "8",
+  "code": "8.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 8 Math",
+  "desc": "Apply the data cycle with a focus on boxplots.",
+  "skill_desc": "Given a contextual situation, justify which graphical representation (e.g., pictographs, bar graphs, line graphs, line plots/dot plots, stem-and-leaf plots, circle graphs, histograms, boxplots) best represents the data.",
+  "skill_idx": 8,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PS_2_skill9.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "L=[10,12,15,18,20,22,25,28,30,32]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "boxplot(L)",
+        "color": "#007AFF",
+        "label": "Boxplot",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(1,10)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "label": "Min",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(1,18)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "label": "Q1",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(1,23.5)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "label": "Median",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(1,29)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "label": "Q3",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(1,32)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "label": "Max",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": 5,
+      "right": 3,
+      "top": 35
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Boxplot of Data"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

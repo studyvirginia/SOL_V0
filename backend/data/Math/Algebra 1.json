@@ -1,0 +1,708 @@
+{
+  "subject": "Math",
+  "course": "Algebra 1",
+  "domains": [
+    {
+      "name": "Expressions and Operations",
+      "standards": [
+        {
+          "code": "A.EO.1",
+          "description": "Translate verbal quantitative situations into algebraic expressions and evaluate them for given variable values.",
+          "skills": [
+            {
+              "description": "Translate between verbal quantitative situations and algebraic expressions, including contextual situations.",
+              "keywords": [
+                "algebraic expressions",
+                "verbal translation",
+                "contextual situations",
+                "quantitative situations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate algebraic expressions that include absolute value, square roots, and cube roots for given replacement values of variables.",
+              "keywords": [
+                "evaluate expressions",
+                "absolute value",
+                "square roots",
+                "cube roots",
+                "rational numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A.EO.2",
+          "description": "Perform operations on and factor polynomial expressions in one variable.",
+          "skills": [
+            {
+              "description": "Determine sums and differences of polynomial expressions in one variable using strategies like concrete objects, pictorial models, and symbolic models.",
+              "keywords": [
+                "polynomial addition",
+                "polynomial subtraction",
+                "concrete models",
+                "pictorial models",
+                "symbolic models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the product of polynomial expressions in one variable using the distributive property, area models, and concrete/pictorial/symbolic strategies.",
+              "keywords": [
+                "polynomial multiplication",
+                "distributive property",
+                "area models",
+                "concrete models",
+                "pictorial models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Factor completely first- and second-degree polynomials in one variable with integral coefficients, including factoring out the greatest common factor (GCF).",
+              "keywords": [
+                "factoring polynomials",
+                "greatest common factor",
+                "first-degree polynomials",
+                "second-degree polynomials",
+                "integral coefficients"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the quotient of polynomials using a monomial, binomial, or completely factored divisor.",
+              "keywords": [
+                "polynomial division",
+                "monomial divisor",
+                "binomial divisor",
+                "factored divisor"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and demonstrate equality of quadratic expressions in different forms (concrete, verbal, symbolic, graphical).",
+              "keywords": [
+                "quadratic expressions",
+                "equality representation",
+                "concrete forms",
+                "symbolic forms",
+                "graphical forms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A.EO.3",
+          "description": "Derive and apply the laws of exponents to simplify expressions.",
+          "skills": [
+            {
+              "description": "Derive the laws of exponents through exploration of patterns for products, quotients, and powers of bases.",
+              "keywords": [
+                "laws of exponents",
+                "exponent patterns",
+                "product of powers",
+                "quotient of powers",
+                "power of a power"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Simplify multivariable expressions and ratios of monomial expressions with integer exponents using the laws of exponents.",
+              "keywords": [
+                "simplify exponents",
+                "multivariable expressions",
+                "monomial ratios",
+                "integer exponents",
+                "exponent laws"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A.EO.4",
+          "description": "Simplify and determine equivalent radical expressions involving square roots and cube roots.",
+          "skills": [
+            {
+              "description": "Simplify and determine equivalent radical expressions involving the square root of a whole number in simplest form.",
+              "keywords": [
+                "simplify square roots",
+                "equivalent radicals",
+                "whole numbers",
+                "simplest radical form"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Simplify and determine equivalent radical expressions involving the cube root of an integer.",
+              "keywords": [
+                "simplify cube roots",
+                "equivalent radicals",
+                "integers",
+                "simplest radical form"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Add, subtract, and multiply radicals limited to numeric square and cube root expressions.",
+              "keywords": [
+                "add radicals",
+                "subtract radicals",
+                "multiply radicals",
+                "numeric radicals",
+                "square roots",
+                "cube roots"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate equivalent numerical expressions for radicals using rational exponents (1/2 and 1/3) and justify equivalency.",
+              "keywords": [
+                "rational exponents",
+                "radical equivalency",
+                "square root exponent",
+                "cube root exponent",
+                "justify equivalency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Equations and Inequalities",
+      "standards": [
+        {
+          "code": "A.EI.1",
+          "description": "Represent, solve, explain, and interpret solutions to multistep linear equations, inequalities, and literal equations.",
+          "skills": [
+            {
+              "description": "Write a linear equation or inequality in one variable to represent a contextual situation.",
+              "keywords": [
+                "linear equation",
+                "linear inequality",
+                "one variable",
+                "contextual representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve multistep linear equations in one variable, including contextual situations, using properties of real numbers and equality.",
+              "keywords": [
+                "solve linear equations",
+                "multistep equations",
+                "properties of equality",
+                "contextual solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve multistep linear inequalities in one variable algebraically and graph the solution set on a number line, including contextual situations.",
+              "keywords": [
+                "solve linear inequalities",
+                "multistep inequalities",
+                "number line graphing",
+                "properties of inequality"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Rearrange a formula or literal equation to solve for a specified variable using properties of equality.",
+              "keywords": [
+                "rearrange formulas",
+                "literal equations",
+                "solve for variable",
+                "properties of equality"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine if a linear equation in one variable has one solution, no solution, or an infinite number of solutions.",
+              "keywords": [
+                "linear equation solutions",
+                "one solution",
+                "no solution",
+                "infinite solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify possible solutions to multistep linear equations and inequalities algebraically, graphically, and with technology.",
+              "keywords": [
+                "verify solutions",
+                "algebraic verification",
+                "graphical verification",
+                "technology verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A.EI.2",
+          "description": "Represent, solve, explain, and interpret solutions to systems of linear equations, inequalities, and linear inequalities in two variables.",
+          "skills": [
+            {
+              "description": "Create a system of two linear equations in two variables to represent a contextual situation.",
+              "keywords": [
+                "system of equations",
+                "two variables",
+                "contextual representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve a system of two linear equations in two variables algebraically and graphically using properties of real numbers and equality.",
+              "keywords": [
+                "solve system of equations",
+                "algebraic solution",
+                "graphical solution",
+                "properties of equality"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine whether a system of two linear equations has one solution, no solution, or an infinite number of solutions.",
+              "keywords": [
+                "system solutions",
+                "one solution",
+                "no solution",
+                "infinite solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a linear inequality in two variables to represent a contextual situation.",
+              "keywords": [
+                "linear inequality",
+                "two variables",
+                "contextual representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent the solution of a linear inequality in two variables graphically on a coordinate plane.",
+              "keywords": [
+                "graph linear inequality",
+                "coordinate plane",
+                "solution set"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a system of two linear inequalities in two variables to represent a contextual situation.",
+              "keywords": [
+                "system of inequalities",
+                "two variables",
+                "contextual representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent the solution set of a system of two linear inequalities in two variables graphically on a coordinate plane.",
+              "keywords": [
+                "graph system of inequalities",
+                "coordinate plane",
+                "solution set"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify possible solutions to a system of two linear equations, a linear inequality in two variables, or a system of two linear inequalities algebraically, graphically, and with technology.",
+              "keywords": [
+                "verify system solutions",
+                "algebraic verification",
+                "graphical verification",
+                "technology verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A.EI.3",
+          "description": "Represent, solve, and interpret solutions to quadratic equations in one variable.",
+          "skills": [
+            {
+              "description": "Solve a quadratic equation in one variable over the set of real numbers with rational or irrational solutions, including contextual problems.",
+              "keywords": [
+                "solve quadratic equations",
+                "real solutions",
+                "rational solutions",
+                "irrational solutions",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine and justify if a quadratic equation in one variable has no real solutions, one real solution, or two real solutions.",
+              "keywords": [
+                "quadratic solutions",
+                "no real solutions",
+                "one real solution",
+                "two real solutions",
+                "justify solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Verify possible solutions to a quadratic equation in one variable algebraically, graphically, and with technology.",
+              "keywords": [
+                "verify quadratic solutions",
+                "algebraic verification",
+                "graphical verification",
+                "technology verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Functions",
+      "standards": [
+        {
+          "code": "A.F.1",
+          "description": "Investigate, analyze, and compare linear functions algebraically and graphically, and model linear relationships.",
+          "skills": [
+            {
+              "description": "Determine and identify the domain, range, zeros, slope, and intercepts of a linear function presented algebraically or graphically.",
+              "keywords": [
+                "linear function characteristics",
+                "domain",
+                "range",
+                "zeros",
+                "slope",
+                "intercepts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and explain how transformations to the parent function y = x affect the rate of change (slope) and the y-intercept of a linear function.",
+              "keywords": [
+                "linear function transformations",
+                "parent function",
+                "rate of change",
+                "slope",
+                "y-intercept"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write equivalent algebraic forms of linear functions, including slope-intercept, standard, and point-slope forms, and analyze the information revealed by each form.",
+              "keywords": [
+                "linear function forms",
+                "slope-intercept form",
+                "standard form",
+                "point-slope form",
+                "algebraic equivalence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write the equation of a linear function to model a linear relationship between two quantities, including contextual situations.",
+              "keywords": [
+                "linear function modeling",
+                "contextual relationships",
+                "equation writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write the equation of a line parallel or perpendicular to a given line through a given point.",
+              "keywords": [
+                "parallel lines",
+                "perpendicular lines",
+                "line equations",
+                "given point"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph a linear function in two variables with and without technology, including contextual situations.",
+              "keywords": [
+                "graph linear functions",
+                "two variables",
+                "technology use",
+                "contextual graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "For any value x in the domain of f, determine f(x), and determine x given any value f(x) in the range of f, given an algebraic or graphical representation of a linear function.",
+              "keywords": [
+                "evaluate linear functions",
+                "domain",
+                "range",
+                "algebraic representation",
+                "graphical representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the characteristics of linear functions represented algebraically, graphically, in tables, and in contextual situations.",
+              "keywords": [
+                "compare linear functions",
+                "algebraic representation",
+                "graphical representation",
+                "tabular representation",
+                "contextual comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "A.F.2",
+          "description": "Investigate, analyze, and compare characteristics of functions, including quadratic and exponential functions, and model relationships.",
+          "skills": [
+            {
+              "description": "Determine whether a relation represented by ordered pairs, tables, mappings, or graphs is a function and, if so, determine the domain and range.",
+              "keywords": [
+                "function determination",
+                "domain",
+                "range",
+                "ordered pairs",
+                "tables",
+                "mappings",
+                "graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given an equation or graph, determine key characteristics of a quadratic function including x-intercepts (zeros), y-intercept, vertex, and domain and range.",
+              "keywords": [
+                "quadratic function characteristics",
+                "x-intercepts",
+                "y-intercept",
+                "vertex",
+                "domain",
+                "range"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph a quadratic function in two variables using transformations and other strategies.",
+              "keywords": [
+                "graph quadratic functions",
+                "transformations",
+                "two variables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make connections between the algebraic (standard and factored forms) and graphical representation of a quadratic function.",
+              "keywords": [
+                "quadratic function connections",
+                "algebraic forms",
+                "graphical representation",
+                "standard form",
+                "factored form"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given an equation or graph of an exponential function in the form y = ab^x, interpret key characteristics including y-intercepts and domain and range.",
+              "keywords": [
+                "exponential function characteristics",
+                "y-intercepts",
+                "domain",
+                "range",
+                "exponential form"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph an exponential function in two variables using transformations and other strategies.",
+              "keywords": [
+                "graph exponential functions",
+                "transformations",
+                "two variables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "For any value x in the domain of f, determine f(x) of a quadratic or exponential function and determine x given any value f(x) in the range of a quadratic function.",
+              "keywords": [
+                "evaluate quadratic functions",
+                "evaluate exponential functions",
+                "domain",
+                "range"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the key characteristics of linear, quadratic, and exponential functions using tables and graphs.",
+              "keywords": [
+                "compare functions",
+                "linear functions",
+                "quadratic functions",
+                "exponential functions",
+                "tables",
+                "graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Statistics",
+      "standards": [
+        {
+          "code": "A.ST.1",
+          "description": "Apply the data cycle to represent bivariate data in scatterplots and determine the curve of best fit using linear and quadratic functions.",
+          "skills": [
+            {
+              "description": "Formulate investigative questions that require the collection or acquisition of bivariate data.",
+              "keywords": [
+                "formulate questions",
+                "investigative questions",
+                "bivariate data"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine what variables could be used to explain a given contextual problem or situation or answer investigative questions.",
+              "keywords": [
+                "determine variables",
+                "contextual problems",
+                "investigative questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine an appropriate method to collect a representative sample, which could include a simple random sample, to answer an investigative question.",
+              "keywords": [
+                "collect data",
+                "representative sample",
+                "simple random sample",
+                "investigative questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a table of ordered pairs or a scatterplot representing no more than 30 data points, use technology to determine whether a linear or quadratic function represents the relationship and find the equation of the curve of best fit.",
+              "keywords": [
+                "scatterplot analysis",
+                "curve of best fit",
+                "linear regression",
+                "quadratic regression",
+                "technology use"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use linear and quadratic regression methods to write a function representing the data and describe the strengths and weaknesses of the model.",
+              "keywords": [
+                "linear regression",
+                "quadratic regression",
+                "model strengths",
+                "model weaknesses"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use a linear model to predict outcomes and evaluate the strength and validity of these predictions using technology.",
+              "keywords": [
+                "linear model prediction",
+                "outcome prediction",
+                "model validation",
+                "technology use"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and explain the meaning of the rate of change (slope) and y-intercept (constant term) of a linear model in context.",
+              "keywords": [
+                "rate of change",
+                "slope",
+                "y-intercept",
+                "linear model interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze relationships between two quantitative variables revealed in a scatterplot.",
+              "keywords": [
+                "scatterplot analysis",
+                "quantitative variables",
+                "relationship analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make conclusions based on the analysis of a set of bivariate data and communicate the results.",
+              "keywords": [
+                "data analysis",
+                "conclusions",
+                "bivariate data",
+                "communication of results"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

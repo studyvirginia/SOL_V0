@@ -1,0 +1,77 @@
+{
+  "key": "2_2_PS_1_skill1",
+  "grade": "2",
+  "code": "2.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 2 Math",
+  "desc": "Apply the data cycle to pose questions, collect data, organize and represent data, and analyze data with a focus on pictographs and bar graphs.",
+  "skill_desc": "Pose questions, given a predetermined context, that require the collection of data (limited to 25 or fewer data points for no more than six categories).",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/2_2_PS_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x_{1}",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y_{1}",
+            "values": [
+              "5",
+              "8",
+              "3",
+              "6",
+              "4",
+              "7"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "y=x",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 7,
+      "top": 10
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Pictograph and Bar Graph Data"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

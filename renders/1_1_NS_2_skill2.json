@@ -1,0 +1,18 @@
+{
+  "key": "1_1_NS_2_skill2",
+  "grade": "1",
+  "code": "1.NS.2",
+  "domain": "Number and Number Sense",
+  "course": "Grade 1 Math",
+  "desc": "Represent, compare, and order quantities up to 120.",
+  "skill_desc": "Estimate the number of objects (up to 120) in a given collection and justify the reasonableness of an answer.",
+  "skill_idx": 1,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/1_1_NS_2_skill2.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

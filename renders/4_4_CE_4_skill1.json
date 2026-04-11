@@ -1,0 +1,86 @@
+{
+  "key": "4_4_CE_4_skill1",
+  "grade": "4",
+  "code": "4.CE.4",
+  "domain": "Computation and Estimation",
+  "course": "Grade 4 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to single-step and multistep problems involving addition and subtraction of decimals through the thousandths.",
+  "skill_desc": "Apply strategies and algorithms to estimate and determine the sum or difference of two decimals through the thousandths.",
+  "skill_idx": 0,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/4_4_CE_4_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2.345+1.234",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=3.579",
+        "color": "#FF3B30",
+        "label": "Sum",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": 3,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Adding Decimals"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2.345 + x",
+      "g(x) = 1.234 + x",
+      "h(x) = f(x) - g(x)",
+      "SetColor(f, 255, 0, 0)",
+      "SetColor(g, 0, 128, 0)",
+      "SetColor(h, 0, 0, 255)",
+      "SetLineThickness(f, 2)",
+      "SetLineThickness(g, 2)",
+      "SetLineThickness(h, 3)",
+      "SetLabelVisible(f, true)",
+      "SetLabelVisible(g, true)",
+      "SetLabelVisible(h, true)",
+      "SetCaption(f, \"2.345 + x\")",
+      "SetCaption(g, \"1.234 + x\")",
+      "SetCaption(h, \"Difference\")",
+      "SetLabelMode(f, 3)",
+      "SetLabelMode(g, 3)",
+      "SetLabelMode(h, 3)"
+    ],
+    "view": [
+      -5,
+      5,
+      -1,
+      5
+    ],
+    "showGrid": true,
+    "title": "Decimal Addition and Subtraction"
+  },
+  "sketchmath_state": null
+}

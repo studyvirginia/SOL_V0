@@ -1,0 +1,79 @@
+{
+  "key": "7_7_PFA_3_skill4",
+  "grade": "7",
+  "code": "7.PFA.3",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 7 Math",
+  "desc": "Write and solve two-step linear equations in one variable, including contextual problems.",
+  "skill_desc": "Write a two-step linear equation in one variable to represent a verbal situation, including contextual problems.",
+  "skill_idx": 3,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_PFA_3_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "2x+3=7",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "x=2",
+        "color": "#FF3B30",
+        "label": "Solution: x=2",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 8
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Solving 2-step linear equation: 2x + 3 = 7"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x + 3",
+      "SetColor(f, 0, 122, 255)",
+      "A = (0, 3)",
+      "SetColor(A, 255, 59, 48)",
+      "SetLabelVisible(A, true)",
+      "SetLabelMode(A, 0)",
+      "B = (-1.5, 0)",
+      "SetColor(B, 255, 59, 48)",
+      "SetLabelVisible(B, true)",
+      "SetLabelMode(B, 0)",
+      "Root(f)"
+    ],
+    "view": [
+      -5,
+      5,
+      -2,
+      10
+    ],
+    "showGrid": true,
+    "title": "y = 2x + 3 (linear equation)"
+  },
+  "sketchmath_state": null
+}

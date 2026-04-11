@@ -1,0 +1,532 @@
+{
+  "subject": "Science",
+  "course": "Grade 4 Science",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "4.1.AQDP",
+          "description": "Ask questions and define problems by distinguishing scientific from non-scientific questions and developing testable hypotheses.",
+          "skills": [
+            {
+              "description": "Distinguish between scientific and non-scientific questions.",
+              "keywords": [
+                "scientific questions",
+                "non-scientific questions",
+                "question types"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop hypotheses as cause-and-effect relationships.",
+              "keywords": [
+                "hypothesis",
+                "cause-and-effect",
+                "testable prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define a simple design problem solvable through an object, tool, process, or system.",
+              "keywords": [
+                "design problem",
+                "engineering design",
+                "problem definition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.1.PCI",
+          "description": "Plan and carry out investigations by identifying variables, collaborating, and using tools to design solutions.",
+          "skills": [
+            {
+              "description": "Identify variables when planning an investigation.",
+              "keywords": [
+                "variables",
+                "independent variable",
+                "dependent variable",
+                "controlled variable"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Collaboratively plan and conduct investigations.",
+              "keywords": [
+                "collaboration",
+                "investigation planning",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use tools and/or materials to design and/or build a device that solves a specific problem.",
+              "keywords": [
+                "device design",
+                "engineering design process",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Take metric measurements using appropriate tools.",
+              "keywords": [
+                "metric measurements",
+                "measurement tools",
+                "SI units"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Measure elapsed time.",
+              "keywords": [
+                "elapsed time",
+                "time measurement",
+                "stopwatch"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.1.IAED",
+          "description": "Interpret, analyze, and evaluate data by organizing, representing, and comparing data representations.",
+          "skills": [
+            {
+              "description": "Organize and represent data in bar graphs and line graphs.",
+              "keywords": [
+                "data organization",
+                "bar graphs",
+                "line graphs",
+                "data representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret and analyze data represented in bar graphs and line graphs.",
+              "keywords": [
+                "data interpretation",
+                "graph analysis",
+                "trends"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare two different representations of the same data (e.g., chart and graph).",
+              "keywords": [
+                "data comparison",
+                "data representation",
+                "graph vs. chart"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data from tests of an object or tool to determine whether it works as intended.",
+              "keywords": [
+                "data analysis",
+                "test results",
+                "evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.1.CCCE",
+          "description": "Construct and critique conclusions and explanations using evidence and patterns.",
+          "skills": [
+            {
+              "description": "Use evidence (measurements, observations, patterns) to construct or support explanations and make inferences.",
+              "keywords": [
+                "evidence-based reasoning",
+                "inference",
+                "scientific explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.1.DUM",
+          "description": "Develop and use models to explain natural phenomena and identify their limitations.",
+          "skills": [
+            {
+              "description": "Develop and/or use models to explain natural phenomena.",
+              "keywords": [
+                "modeling",
+                "scientific model",
+                "phenomenon explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify limitations of models.",
+              "keywords": [
+                "model limitations",
+                "scientific model critique",
+                "abstraction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.1.OECI",
+          "description": "Obtain, evaluate, and communicate information through reading and scientific communication.",
+          "skills": [
+            {
+              "description": "Read and comprehend reading-level-appropriate texts and/or other reliable media.",
+              "keywords": [
+                "scientific reading",
+                "text comprehension",
+                "reliable sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific information, design ideas, and/or solutions with others.",
+              "keywords": [
+                "scientific communication",
+                "oral presentation",
+                "written report"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Living Systems and Processes",
+      "standards": [
+        {
+          "code": "4.2.PAS",
+          "description": "Investigate plant and animal structures and their roles in survival, energy processes, and reproduction.",
+          "skills": [
+            {
+              "description": "Recognize that the survival of plants and animals depends on photosynthesis.",
+              "keywords": [
+                "photosynthesis",
+                "plant survival",
+                "energy production"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify structures in plants and animals that support survival.",
+              "keywords": [
+                "plant structures",
+                "animal structures",
+                "adaptations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare structures and processes for obtaining energy in plants and animals.",
+              "keywords": [
+                "energy acquisition",
+                "plant nutrition",
+                "animal nutrition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare structures and processes for creating offspring in plants and animals.",
+              "keywords": [
+                "reproduction",
+                "plant reproduction",
+                "animal reproduction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.3.EI",
+          "description": "Investigate interactions between organisms and their ecosystems, including food webs and classification.",
+          "skills": [
+            {
+              "description": "Recognize interrelationships in populations, communities, and ecosystems.",
+              "keywords": [
+                "ecosystem",
+                "population",
+                "community",
+                "interrelationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and analyze food webs to show energy flow within an ecosystem.",
+              "keywords": [
+                "food web",
+                "energy flow",
+                "trophic levels"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how changes in an organism’s niche and habitat may occur at various life cycle stages.",
+              "keywords": [
+                "niche",
+                "habitat",
+                "life cycle",
+                "ecological change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use classification to identify organisms.",
+              "keywords": [
+                "classification",
+                "taxonomy",
+                "organism identification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth and Space Systems",
+      "standards": [
+        {
+          "code": "4.4.WP",
+          "description": "Investigate weather conditions, phenomena, and their effects on ecosystems and climate prediction.",
+          "skills": [
+            {
+              "description": "Use weather measurements to create records for making weather predictions.",
+              "keywords": [
+                "weather measurement",
+                "data recording",
+                "weather prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify common and extreme weather events and their effects on ecosystems.",
+              "keywords": [
+                "weather events",
+                "extreme weather",
+                "ecosystem impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze long-term seasonal weather trends to determine regional climate.",
+              "keywords": [
+                "climate",
+                "seasonal trends",
+                "weather data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.5.PS",
+          "description": "Investigate planets, their characteristics, and their place in the solar system.",
+          "skills": [
+            {
+              "description": "Describe how planets rotate on their axes and revolve around the sun.",
+              "keywords": [
+                "planetary motion",
+                "rotation",
+                "revolution",
+                "orbital mechanics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare characteristics of planets and their specific order in the solar system.",
+              "keywords": [
+                "planet characteristics",
+                "solar system order",
+                "planetary comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the sizes of the sun and planets.",
+              "keywords": [
+                "solar system scale",
+                "planet size",
+                "sun size"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.6.EMS",
+          "description": "Investigate relationships among Earth, the moon, and the sun, including seasons, moon phases, and tides.",
+          "skills": [
+            {
+              "description": "Describe the motions of Earth, the moon, and the sun.",
+              "keywords": [
+                "celestial motion",
+                "Earth's rotation",
+                "Earth's revolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the causes for Earth’s seasons.",
+              "keywords": [
+                "seasons",
+                "Earth's tilt",
+                "axial tilt"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the causes for the four major phases of the moon and their relationship to tide cycles.",
+              "keywords": [
+                "moon phases",
+                "tides",
+                "lunar cycle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the relative size, position, age, and makeup of Earth, the moon, and the sun.",
+              "keywords": [
+                "celestial bodies",
+                "solar system scale",
+                "planetary composition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "4.7.OE",
+          "description": "Investigate the ocean environment, including geology, water properties, and marine organisms.",
+          "skills": [
+            {
+              "description": "Recognize the geology of the ocean floor.",
+              "keywords": [
+                "ocean floor",
+                "geology",
+                "seafloor features"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the physical properties and movement of ocean water.",
+              "keywords": [
+                "ocean water",
+                "water properties",
+                "currents",
+                "waves"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify interactions of organisms in the ocean.",
+              "keywords": [
+                "marine organisms",
+                "ocean ecosystems",
+                "symbiosis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth Resources",
+      "standards": [
+        {
+          "code": "4.8.VNR",
+          "description": "Investigate Virginia’s natural resources, including watersheds, plants, animals, minerals, and land.",
+          "skills": [
+            {
+              "description": "Recognize and describe watersheds and water as natural resources.",
+              "keywords": [
+                "watershed",
+                "water resources",
+                "hydrology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize and describe plants and animals as natural resources.",
+              "keywords": [
+                "biological resources",
+                "plant resources",
+                "animal resources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize and describe minerals, rocks, and ores as natural resources.",
+              "keywords": [
+                "minerals",
+                "rocks",
+                "ores",
+                "geological resources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize and describe forests, soil, and land as natural resources.",
+              "keywords": [
+                "forests",
+                "soil",
+                "land resources",
+                "ecosystem services"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

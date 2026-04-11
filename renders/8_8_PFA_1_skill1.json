@@ -1,0 +1,97 @@
+{
+  "key": "8_8_PFA_1_skill1",
+  "grade": "8",
+  "code": "8.PFA.1",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 8 Math",
+  "desc": "Represent, simplify, and generate equivalent algebraic expressions in one variable.",
+  "skill_desc": "Represent algebraic expressions using concrete manipulatives or pictorial representations, including expressions that apply the distributive property.",
+  "skill_idx": 0,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PFA_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2(x+1)",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(-1,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(0,2)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -3,
+      "bottom": -1,
+      "right": 3,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear function: y = 2(x+1)"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*(x + 1)",
+      "SetColor(f, 0, 122, 255)",
+      "A = (-1, 0)",
+      "SetPointStyle(A, 2)",
+      "SetPointSize(A, 7)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"(-1, 0)\")",
+      "SetLabelMode(A, 3)",
+      "B = (0, 2)",
+      "SetPointStyle(B, 2)",
+      "SetPointSize(B, 7)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"(0, 2)\")",
+      "SetLabelMode(B, 3)",
+      "C = (1, 4)",
+      "SetPointStyle(C, 2)",
+      "SetPointSize(C, 7)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"(1, 4)\")",
+      "SetLabelMode(C, 3)"
+    ],
+    "view": [
+      -3,
+      3,
+      -1,
+      5
+    ],
+    "showGrid": true,
+    "title": "y = 2(x + 1) (Distributive Property)"
+  },
+  "sketchmath_state": null
+}

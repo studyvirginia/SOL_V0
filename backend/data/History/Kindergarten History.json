@@ -1,0 +1,439 @@
+{
+  "subject": "History",
+  "course": "Kindergarten History",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "K.SK.1",
+          "description": "Apply history and social science skills to analyze information sources and organize information.",
+          "skills": [
+            {
+              "description": "View and explore information sources including artifacts, primary and secondary sources, charts, graphs, and diagrams.",
+              "keywords": [
+                "artifacts",
+                "primary sources",
+                "secondary sources",
+                "charts",
+                "graphs",
+                "diagrams"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to identify and understand geographic features.",
+              "keywords": [
+                "geographic features",
+                "geography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate curiosity and critical thinking through questioning.",
+              "keywords": [
+                "curiosity",
+                "critical thinking",
+                "questioning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Sequence and organize information.",
+              "keywords": [
+                "sequencing",
+                "organizing information"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify similarities and differences to explain content.",
+              "keywords": [
+                "similarities",
+                "differences",
+                "comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize cause-and-effect relationships.",
+              "keywords": [
+                "cause-and-effect",
+                "relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use economic decision-making models to make informed economic decisions.",
+              "keywords": [
+                "economic decision-making",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Practice civility, respect, hard work, and responsible citizenship skills.",
+              "keywords": [
+                "civility",
+                "respect",
+                "citizenship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use content vocabulary to demonstrate comprehension.",
+              "keywords": [
+                "content vocabulary",
+                "comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civics",
+      "standards": [
+        {
+          "code": "K.CV.1",
+          "description": "Practice citizenship in the classroom by demonstrating responsibility and respect.",
+          "skills": [
+            {
+              "description": "Take responsibility for one's actions.",
+              "keywords": [
+                "responsibility",
+                "accountability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Practice honesty and show kindness to oneself and others.",
+              "keywords": [
+                "honesty",
+                "kindness"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize the purpose of rules and practice self-control.",
+              "keywords": [
+                "rules",
+                "self-control"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Care for one's personal property and respect other students' property.",
+              "keywords": [
+                "property",
+                "respect"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Take turns, share, and work well with others for the good of everyone.",
+              "keywords": [
+                "turn-taking",
+                "sharing",
+                "teamwork"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.CV.2",
+          "description": "Explain how communities honor state and national traditions and recognize designated holidays.",
+          "skills": [
+            {
+              "description": "Recognize and explain designated Virginia holidays including Labor Day, Columbus Day (Indigenous Peoples' Day), Yorktown Victory Day, Election Day, Veterans Day, Thanksgiving Day, Christmas Day, New Year's Day, Martin Luther King Jr. Day, George Washington Day (Presidents' Day), Memorial Day, Juneteenth, and Independence Day.",
+              "keywords": [
+                "holidays",
+                "traditions",
+                "Virginia",
+                "Labor Day",
+                "Columbus Day",
+                "Indigenous Peoples' Day",
+                "Election Day",
+                "Veterans Day",
+                "Thanksgiving",
+                "Christmas",
+                "New Year's Day",
+                "Martin Luther King Jr. Day",
+                "Presidents' Day",
+                "Memorial Day",
+                "Juneteenth",
+                "Independence Day"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.CV.3",
+          "description": "Define patriotism and explain how communities express it.",
+          "skills": [
+            {
+              "description": "Identify the American and Virginia flags.",
+              "keywords": [
+                "American flag",
+                "Virginia flag"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify national and state symbols including the bald eagle, dogwood, and cardinal.",
+              "keywords": [
+                "national symbols",
+                "state symbols",
+                "bald eagle",
+                "dogwood",
+                "cardinal"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize the Pledge of Allegiance and the national anthem.",
+              "keywords": [
+                "Pledge of Allegiance",
+                "national anthem"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the current president and explain that the president is the leader of the United States and is elected by voters.",
+              "keywords": [
+                "president",
+                "leader",
+                "election"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "standards": [
+        {
+          "code": "K.HI.1",
+          "description": "Recognize Virginia's earliest communities and their contributions.",
+          "skills": [
+            {
+              "description": "Identify examples of historic events, stories, and legends.",
+              "keywords": [
+                "historic events",
+                "stories",
+                "legends"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify early communities, changemakers, and contributions of leaders including Indigenous tribes, farmers, traders, early settlers, minorities, women, and children.",
+              "keywords": [
+                "early communities",
+                "changemakers",
+                "Indigenous tribes",
+                "farmers",
+                "traders",
+                "early settlers",
+                "minorities",
+                "women",
+                "children"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that places change over time.",
+              "keywords": [
+                "change over time",
+                "historical change"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify people who helped establish and lead the local community over time.",
+              "keywords": [
+                "community leaders",
+                "local history"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.HI.2",
+          "description": "Understand and explain what makes communities unique.",
+          "skills": [
+            {
+              "description": "Explain the roles of important local community members such as medical personnel, first responders, teachers, and business leaders.",
+              "keywords": [
+                "community members",
+                "medical personnel",
+                "first responders",
+                "teachers",
+                "business leaders"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify historic events.",
+              "keywords": [
+                "historic events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Tell the stories of the people that developed their local communities.",
+              "keywords": [
+                "local history",
+                "storytelling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "standards": [
+        {
+          "code": "K.GE.1",
+          "description": "Describe the relative location of people, places, and objects using positional words.",
+          "skills": [
+            {
+              "description": "Describe the relative location of people, places, and objects using positional words including near/far, over/under, above/below, left/right, behind/in front, next to, and between.",
+              "keywords": [
+                "relative location",
+                "positional words",
+                "near/far",
+                "over/under",
+                "above/below",
+                "left/right",
+                "behind/in front",
+                "next to",
+                "between"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.GE.2",
+          "description": "Demonstrate an understanding of maps and globes.",
+          "skills": [
+            {
+              "description": "Identify the similarities and differences between a map and a globe.",
+              "keywords": [
+                "map",
+                "globe",
+                "similarities",
+                "differences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify basic map symbols.",
+              "keywords": [
+                "map symbols"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify land and bodies of water in the local community.",
+              "keywords": [
+                "land",
+                "bodies of water",
+                "local geography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the geographic location of the United States and Virginia on a map and globe.",
+              "keywords": [
+                "United States",
+                "Virginia",
+                "geographic location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economics",
+      "standards": [
+        {
+          "code": "K.EC.1",
+          "description": "Demonstrate an understanding of primary economic principles.",
+          "skills": [
+            {
+              "description": "Describe ways people work to earn and save money to buy the things they need and want.",
+              "keywords": [
+                "earn money",
+                "save money",
+                "needs",
+                "wants"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that Americans are free to make choices about what to buy.",
+              "keywords": [
+                "economic choices",
+                "consumer freedom"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that people must make choices because they cannot have everything they want.",
+              "keywords": [
+                "scarcity",
+                "economic choices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

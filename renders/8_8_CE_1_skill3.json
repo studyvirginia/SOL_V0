@@ -1,0 +1,81 @@
+{
+  "key": "8_8_CE_1_skill3",
+  "grade": "8",
+  "code": "8.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 8 Math",
+  "desc": "Estimate and apply proportional reasoning to solve contextual problems involving discounts, taxes, tips, and percent changes.",
+  "skill_desc": "Estimate and solve contextual problems requiring computation of percent increase or decrease.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_CE_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x^{2}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "Vertex",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -2,
+      "bottom": -1,
+      "right": 2,
+      "top": 4
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Basic Parabola"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 100*x",
+      "SetColor(f, 0, 122, 255)",
+      "A = (1, 100)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Original Price\")",
+      "SetLabelMode(A, 3)",
+      "B = (1, 75)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"Discounted Price\")",
+      "SetLabelMode(B, 3)",
+      "seg = Segment(A, B)",
+      "SetColor(seg, 255, 0, 0)",
+      "SetLineThickness(seg, 3)"
+    ],
+    "view": [
+      0,
+      1.5,
+      0,
+      160
+    ],
+    "showGrid": true,
+    "title": "Percent Decrease: Discount Example"
+  },
+  "sketchmath_state": null
+}

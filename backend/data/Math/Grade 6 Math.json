@@ -1,0 +1,1055 @@
+{
+  "subject": "Math",
+  "course": "Grade 6 Math",
+  "domains": [
+    {
+      "name": "Number and Number Sense",
+      "standards": [
+        {
+          "code": "6.NS.1",
+          "description": "Express equivalency, compare, and order numbers written as fractions, mixed numbers, decimals, and percents using multiple strategies.",
+          "skills": [
+            {
+              "description": "Estimate and determine the percent represented by a given model (e.g., number line, picture, verbal description), including percents greater than 100% and less than 1%.",
+              "keywords": [
+                "percent",
+                "model",
+                "number line",
+                "picture",
+                "verbal description"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and determine equivalencies among decimals (through the thousandths place) and percents using number lines, concrete models, and pictorial models.",
+              "keywords": [
+                "decimals",
+                "percents",
+                "equivalencies",
+                "number line",
+                "concrete models",
+                "pictorial models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and determine equivalencies among fractions (proper or improper) and mixed numbers with denominators ≤12 or factors of 100 and percents using number lines, concrete models, and pictorial models.",
+              "keywords": [
+                "fractions",
+                "mixed numbers",
+                "percents",
+                "equivalencies",
+                "denominators",
+                "number line",
+                "concrete models",
+                "pictorial models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and determine equivalencies among decimals, percents, fractions (proper or improper), and mixed numbers with denominators ≤12 or factors of 100 using number lines, concrete models, and pictorial models.",
+              "keywords": [
+                "decimals",
+                "percents",
+                "fractions",
+                "mixed numbers",
+                "equivalencies",
+                "denominators",
+                "number line",
+                "concrete models",
+                "pictorial models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and order up to four positive rational numbers (fractions, mixed numbers, decimals, percents) using multiple strategies (benchmarks, number line, equivalency) with and without models.",
+              "keywords": [
+                "compare",
+                "order",
+                "rational numbers",
+                "fractions",
+                "mixed numbers",
+                "decimals",
+                "percents",
+                "benchmarks",
+                "number line",
+                "equivalency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify solutions for comparing and ordering rational numbers orally, in writing, or with a model.",
+              "keywords": [
+                "justify",
+                "solutions",
+                "comparing",
+                "ordering",
+                "rational numbers",
+                "oral",
+                "written",
+                "model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.NS.2",
+          "description": "Represent, compare, and order integers using multiple strategies.",
+          "skills": [
+            {
+              "description": "Represent integers using number lines, concrete materials, pictorial models, and contextual situations.",
+              "keywords": [
+                "integers",
+                "number line",
+                "concrete materials",
+                "pictorial models",
+                "contextual situations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify an integer represented by a point on a number line.",
+              "keywords": [
+                "integer",
+                "number line",
+                "point"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and order integers using a number line.",
+              "keywords": [
+                "compare",
+                "order",
+                "integers",
+                "number line"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare integers using mathematical symbols (<, >, =).",
+              "keywords": [
+                "compare",
+                "integers",
+                "mathematical symbols",
+                "<",
+                ">",
+                "="
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe the absolute value of an integer as the distance from zero on the number line.",
+              "keywords": [
+                "absolute value",
+                "integer",
+                "distance",
+                "zero",
+                "number line"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.NS.3",
+          "description": "Recognize and represent patterns with whole number exponents and perfect squares.",
+          "skills": [
+            {
+              "description": "Recognize and represent patterns with bases and exponents that are whole numbers.",
+              "keywords": [
+                "patterns",
+                "bases",
+                "exponents",
+                "whole numbers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize and represent patterns of perfect squares not exceeding 400 using concrete and pictorial models.",
+              "keywords": [
+                "perfect squares",
+                "patterns",
+                "concrete models",
+                "pictorial models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify if a number between 0 and 400 is a perfect square through modeling or mathematical reasoning.",
+              "keywords": [
+                "perfect square",
+                "justify",
+                "modeling",
+                "mathematical reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize and represent powers of 10 with whole number exponents by examining patterns in place value.",
+              "keywords": [
+                "powers of 10",
+                "whole number exponents",
+                "place value",
+                "patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computation and Estimation",
+      "standards": [
+        {
+          "code": "6.CE.1",
+          "description": "Estimate, solve, and justify solutions to problems using operations with fractions and mixed numbers, including contextual problems.",
+          "skills": [
+            {
+              "description": "Demonstrate and model multiplication and division of fractions (proper or improper) and mixed numbers using multiple representations.",
+              "keywords": [
+                "multiplication",
+                "division",
+                "fractions",
+                "mixed numbers",
+                "multiple representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Multiply and divide fractions (proper or improper) and mixed numbers with denominators ≤12. Express answers in simplest form.",
+              "keywords": [
+                "multiply",
+                "divide",
+                "fractions",
+                "mixed numbers",
+                "denominators",
+                "simplest form"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and explain the effect of multiplying or dividing a fraction, whole number, or mixed number by a number between zero and one.",
+              "keywords": [
+                "multiply",
+                "divide",
+                "fraction",
+                "whole number",
+                "mixed number",
+                "effect",
+                "zero to one"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate, determine, and justify solutions to single-step and multistep contextual problems involving addition and subtraction of fractions and mixed numbers with like and unlike denominators ≤12. Express answers in simplest form.",
+              "keywords": [
+                "estimate",
+                "addition",
+                "subtraction",
+                "fractions",
+                "mixed numbers",
+                "denominators",
+                "contextual problems",
+                "simplest form"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate, determine, and justify solutions to single-step and multistep contextual problems involving multiplication and division of fractions and mixed numbers with denominators ≤12. Express answers in simplest form.",
+              "keywords": [
+                "estimate",
+                "multiplication",
+                "division",
+                "fractions",
+                "mixed numbers",
+                "denominators",
+                "contextual problems",
+                "simplest form"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.CE.2",
+          "description": "Estimate, solve, and justify solutions to problems using operations with integers, including contextual problems.",
+          "skills": [
+            {
+              "description": "Demonstrate and model addition, subtraction, multiplication, and division of integers using pictorial representations or concrete manipulatives.",
+              "keywords": [
+                "addition",
+                "subtraction",
+                "multiplication",
+                "division",
+                "integers",
+                "pictorial representations",
+                "concrete manipulatives"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Add, subtract, multiply, and divide two integers.",
+              "keywords": [
+                "add",
+                "subtract",
+                "multiply",
+                "divide",
+                "integers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Simplify an expression containing absolute value bars and an operation with two integers (e.g., –|5 – 8| or |–3| + |–4|) and represent the result on a number line.",
+              "keywords": [
+                "simplify",
+                "expression",
+                "absolute value",
+                "integers",
+                "number line"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Estimate, determine, and justify solutions to one- and two-step contextual problems involving addition, subtraction, multiplication, and division with integers.",
+              "keywords": [
+                "estimate",
+                "addition",
+                "subtraction",
+                "multiplication",
+                "division",
+                "integers",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Measurement and Geometry",
+      "standards": [
+        {
+          "code": "6.MG.1",
+          "description": "Identify characteristics of circles and solve problems involving circumference and area.",
+          "skills": [
+            {
+              "description": "Identify and describe chord, diameter, radius, circumference, and area of a circle.",
+              "keywords": [
+                "chord",
+                "diameter",
+                "radius",
+                "circumference",
+                "area",
+                "circle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and describe the relationship between diameter and radius.",
+              "keywords": [
+                "diameter",
+                "radius",
+                "relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and describe the relationship between radius and circumference.",
+              "keywords": [
+                "radius",
+                "circumference",
+                "relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and describe the relationship between diameter and circumference.",
+              "keywords": [
+                "diameter",
+                "circumference",
+                "relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop an approximation for pi (3.14) by gathering data and comparing the circumference to the diameter of various circles using concrete manipulatives or technological models.",
+              "keywords": [
+                "pi",
+                "circumference",
+                "diameter",
+                "concrete manipulatives",
+                "technological models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop the formula for circumference using the relationship between diameter, radius, and pi.",
+              "keywords": [
+                "formula",
+                "circumference",
+                "diameter",
+                "radius",
+                "pi"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems involving circumference and area of a circle when given the length of the diameter or radius.",
+              "keywords": [
+                "solve",
+                "circumference",
+                "area",
+                "circle",
+                "diameter",
+                "radius"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.MG.2",
+          "description": "Solve problems involving the area and perimeter of triangles and parallelograms.",
+          "skills": [
+            {
+              "description": "Develop the formula for determining the area of parallelograms and triangles using pictorial representations and concrete manipulatives.",
+              "keywords": [
+                "formula",
+                "area",
+                "parallelograms",
+                "triangles",
+                "pictorial representations",
+                "concrete manipulatives"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems involving the perimeter and area of triangles and parallelograms.",
+              "keywords": [
+                "solve",
+                "perimeter",
+                "area",
+                "triangles",
+                "parallelograms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.MG.3",
+          "description": "Describe characteristics of the coordinate plane and graph ordered pairs.",
+          "skills": [
+            {
+              "description": "Identify and label the axes, origin, and quadrants of a coordinate plane.",
+              "keywords": [
+                "axes",
+                "origin",
+                "quadrants",
+                "coordinate plane"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe the location (quadrant or axis) of a point given as an ordered pair with integer coordinates.",
+              "keywords": [
+                "location",
+                "point",
+                "ordered pair",
+                "quadrant",
+                "axis",
+                "integer coordinates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph ordered pairs in the four quadrants and on the axes of a coordinate plane with integer coordinates.",
+              "keywords": [
+                "graph",
+                "ordered pairs",
+                "quadrants",
+                "axes",
+                "coordinate plane",
+                "integer coordinates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify ordered pairs represented by points in the four quadrants and on the axes of the coordinate plane with integer coordinates.",
+              "keywords": [
+                "identify",
+                "ordered pairs",
+                "points",
+                "quadrants",
+                "axes",
+                "coordinate plane",
+                "integer coordinates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Relate the coordinates of a point to the distance from each axis and relate the coordinates of a single point to another point on the same horizontal or vertical line with integer coordinates.",
+              "keywords": [
+                "coordinates",
+                "distance",
+                "axis",
+                "horizontal line",
+                "vertical line",
+                "integer coordinates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Draw polygons in the coordinate plane given coordinates for the vertices; use coordinates to determine the length of a side joining points with the same first or second coordinate with integer coordinates.",
+              "keywords": [
+                "draw",
+                "polygons",
+                "coordinate plane",
+                "vertices",
+                "length",
+                "side",
+                "integer coordinates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.MG.4",
+          "description": "Determine congruence of segments, angles, and polygons.",
+          "skills": [
+            {
+              "description": "Identify regular polygons.",
+              "keywords": [
+                "identify",
+                "regular polygons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Draw lines of symmetry to divide regular polygons into two congruent parts.",
+              "keywords": [
+                "draw",
+                "lines of symmetry",
+                "regular polygons",
+                "congruent parts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the congruence of segments, angles, and polygons given their properties.",
+              "keywords": [
+                "determine",
+                "congruence",
+                "segments",
+                "angles",
+                "polygons",
+                "properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine whether polygons are congruent or noncongruent according to the measures of their sides and angles.",
+              "keywords": [
+                "determine",
+                "congruent",
+                "noncongruent",
+                "polygons",
+                "sides",
+                "angles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability and Statistics",
+      "standards": [
+        {
+          "code": "6.PS.1",
+          "description": "Apply the data cycle with a focus on circle graphs.",
+          "skills": [
+            {
+              "description": "Formulate questions that require the collection or acquisition of data with a focus on circle graphs.",
+              "keywords": [
+                "formulate",
+                "questions",
+                "data collection",
+                "circle graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the data needed to answer a formulated question and collect the data using observations, measurement, surveys, or experiments.",
+              "keywords": [
+                "determine",
+                "data",
+                "collection",
+                "observations",
+                "measurement",
+                "surveys",
+                "experiments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine factors that ensure collected data is a representative sample of a larger population.",
+              "keywords": [
+                "determine",
+                "factors",
+                "data",
+                "representative sample",
+                "population"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent data using circle graphs with and without technology tools. Limit data values to allow comparisons with denominators ≤12 or factors of 100.",
+              "keywords": [
+                "organize",
+                "represent",
+                "data",
+                "circle graphs",
+                "technology tools",
+                "denominators",
+                "factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data represented in a circle graph by making observations and drawing conclusions.",
+              "keywords": [
+                "analyze",
+                "data",
+                "circle graphs",
+                "observations",
+                "conclusions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare data represented in a circle graph with the same data represented in other graphs (bar graphs, pictographs, line plots) and justify the best representation.",
+              "keywords": [
+                "compare",
+                "data",
+                "circle graphs",
+                "bar graphs",
+                "pictographs",
+                "line plots",
+                "justify"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.PS.2",
+          "description": "Represent the mean as a balance point and determine the effect on statistical measures when a data point is added, removed, or changed.",
+          "skills": [
+            {
+              "description": "Represent the mean of a data set graphically as the balance point in a line plot (dot plot).",
+              "keywords": [
+                "represent",
+                "mean",
+                "balance point",
+                "line plot",
+                "dot plot"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the effect on measures of center when a single value of a data set is added, removed, or changed.",
+              "keywords": [
+                "determine",
+                "effect",
+                "measures of center",
+                "data set",
+                "added",
+                "removed",
+                "changed"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Observe patterns in data to identify outliers and determine their effect on mean, median, mode, or range.",
+              "keywords": [
+                "observe",
+                "patterns",
+                "data",
+                "outliers",
+                "mean",
+                "median",
+                "mode",
+                "range"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patterns, Functions, and Algebra",
+      "standards": [
+        {
+          "code": "6.PFA.1",
+          "description": "Use ratios to represent relationships between quantities, including contextual problems.",
+          "skills": [
+            {
+              "description": "Represent a relationship between two quantities using ratios.",
+              "keywords": [
+                "represent",
+                "relationship",
+                "quantities",
+                "ratios"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent a relationship in context using the notations a/b, a:b, and a to b.",
+              "keywords": [
+                "represent",
+                "relationship",
+                "context",
+                "notations",
+                "a/b",
+                "a:b",
+                "a to b"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent different comparisons within the same quantity or between different quantities (part to part, part to whole, whole to whole).",
+              "keywords": [
+                "represent",
+                "comparisons",
+                "part to part",
+                "part to whole",
+                "whole to whole"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a relationship in words for a given ratio expressed symbolically.",
+              "keywords": [
+                "create",
+                "relationship",
+                "words",
+                "ratio",
+                "symbolically"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a table of equivalent ratios to represent a proportional relationship between two quantities when given a ratio or contextual situation.",
+              "keywords": [
+                "create",
+                "table",
+                "equivalent ratios",
+                "proportional relationship",
+                "quantities",
+                "ratio",
+                "contextual situation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.PFA.2",
+          "description": "Identify and represent proportional relationships between two quantities, including contextual problems.",
+          "skills": [
+            {
+              "description": "Identify the unit rate of a proportional relationship represented by a table of values, contextual situation, or graph.",
+              "keywords": [
+                "identify",
+                "unit rate",
+                "proportional relationship",
+                "table of values",
+                "contextual situation",
+                "graph"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine a missing value in a ratio table representing a proportional relationship using a unit rate.",
+              "keywords": [
+                "determine",
+                "missing value",
+                "ratio table",
+                "proportional relationship",
+                "unit rate"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine whether a proportional relationship exists between two quantities when given a table of values, context, or graph.",
+              "keywords": [
+                "determine",
+                "proportional relationship",
+                "table of values",
+                "context",
+                "graph"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a contextual situation representing a proportional relationship, find the unit rate and create a table of values or a graph.",
+              "keywords": [
+                "find",
+                "unit rate",
+                "contextual situation",
+                "proportional relationship",
+                "table of values",
+                "graph"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make connections between multiple representations of the same proportional relationship using verbal descriptions, ratio tables, and graphs.",
+              "keywords": [
+                "make connections",
+                "representations",
+                "proportional relationship",
+                "verbal descriptions",
+                "ratio tables",
+                "graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.PFA.3",
+          "description": "Write and solve one-step linear equations in one variable, including contextual problems.",
+          "skills": [
+            {
+              "description": "Identify and develop examples of algebraic vocabulary: equation, variable, expression, term, and coefficient.",
+              "keywords": [
+                "identify",
+                "develop",
+                "algebraic vocabulary",
+                "equation",
+                "variable",
+                "expression",
+                "term",
+                "coefficient"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and solve one-step linear equations in one variable using concrete manipulatives and pictorial representations.",
+              "keywords": [
+                "represent",
+                "solve",
+                "one-step linear equations",
+                "one variable",
+                "concrete manipulatives",
+                "pictorial representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply properties of real numbers and properties of equality to solve a one-step equation in one variable. Coefficients are limited to integers and unit fractions; numeric terms are limited to integers.",
+              "keywords": [
+                "apply",
+                "properties",
+                "real numbers",
+                "properties of equality",
+                "solve",
+                "one-step equation",
+                "one variable",
+                "coefficients",
+                "integers",
+                "unit fractions",
+                "numeric terms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Confirm solutions to one-step linear equations in one variable using concrete manipulatives and pictorial representations.",
+              "keywords": [
+                "confirm",
+                "solutions",
+                "one-step linear equations",
+                "one variable",
+                "concrete manipulatives",
+                "pictorial representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write a one-step linear equation in one variable to represent a verbal situation, including contextual problems.",
+              "keywords": [
+                "write",
+                "one-step linear equation",
+                "one variable",
+                "verbal situation",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create a verbal situation in context given a one-step linear equation in one variable.",
+              "keywords": [
+                "create",
+                "verbal situation",
+                "context",
+                "one-step linear equation",
+                "one variable"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "6.PFA.4",
+          "description": "Represent a contextual situation using a linear inequality in one variable with symbols and graphs on a number line.",
+          "skills": [
+            {
+              "description": "Given the graph of a linear inequality in one variable on a number line, represent the inequality in two equivalent ways using symbols (<, >, ≤, ≥).",
+              "keywords": [
+                "represent",
+                "graph",
+                "linear inequality",
+                "one variable",
+                "number line",
+                "equivalent ways",
+                "symbols"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write a linear inequality in one variable to represent a given constraint or condition in context or given a graph on a number line.",
+              "keywords": [
+                "write",
+                "linear inequality",
+                "one variable",
+                "constraint",
+                "condition",
+                "context",
+                "graph",
+                "number line"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a linear inequality in one variable, create a corresponding contextual situation or create a number line graph.",
+              "keywords": [
+                "create",
+                "contextual situation",
+                "number line graph",
+                "linear inequality",
+                "one variable"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use substitution or a number line graph to justify whether a given number in a specified set makes a linear inequality in one variable true.",
+              "keywords": [
+                "use",
+                "substitution",
+                "number line graph",
+                "justify",
+                "number",
+                "linear inequality",
+                "one variable"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a numerical value(s) that is part of the solution set of a given inequality in one variable.",
+              "keywords": [
+                "identify",
+                "numerical value",
+                "solution set",
+                "inequality",
+                "one variable"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

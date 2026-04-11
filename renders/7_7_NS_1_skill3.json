@@ -1,0 +1,73 @@
+{
+  "key": "7_7_NS_1_skill3",
+  "grade": "7",
+  "code": "7.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 7 Math",
+  "desc": "Investigate and describe exponents for powers of ten and compare/order numbers in scientific notation.",
+  "skill_desc": "Convert between numbers greater than 0 written in scientific notation and decimals.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_NS_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=3.2\\cdot 10^{4}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=32000",
+        "color": "#FF3B30",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      }
+    ],
+    "viewport": {
+      "left": -1000,
+      "bottom": -1000,
+      "right": 35000,
+      "top": 1000
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Converting Scientific Notation to Decimal"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 10^x",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 10^(x+1)",
+      "SetColor(g, 255, 0, 0)",
+      "h(x) = 10^(x-1)",
+      "SetColor(h, 0, 255, 0)"
+    ],
+    "view": [
+      -3,
+      3,
+      -1,
+      1000
+    ],
+    "showGrid": true,
+    "title": "Scientific Notation: Powers of 10"
+  },
+  "sketchmath_state": null
+}

@@ -1,0 +1,701 @@
+{
+  "subject": "History",
+  "course": "Grade 5 - United States History to 1865",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "USI.SKILLS",
+          "description": "Apply history and social science skills to analyze and synthesize information from various sources.",
+          "skills": [
+            {
+              "description": "Synthesize evidence from artifacts, primary and secondary sources, charts, graphs, and diagrams to understand events in U.S. history.",
+              "keywords": [
+                "evidence synthesis",
+                "primary sources",
+                "secondary sources",
+                "artifacts",
+                "charts",
+                "graphs",
+                "diagrams",
+                "historical events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to determine patterns and trends of people, places, or events.",
+              "keywords": [
+                "geographic analysis",
+                "patterns",
+                "trends",
+                "spatial relationships",
+                "geographic regions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop questions and engage in critical thinking and analysis to explore historical topics.",
+              "keywords": [
+                "question development",
+                "critical thinking",
+                "historical analysis",
+                "inquiry"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Integrate evidence to construct and analyze timelines, classify events, and distinguish fact from opinion.",
+              "keywords": [
+                "timeline construction",
+                "event classification",
+                "fact vs. opinion",
+                "evidence integration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast historical, cultural, economic, and political perspectives.",
+              "keywords": [
+                "perspective comparison",
+                "historical analysis",
+                "cultural perspectives",
+                "economic perspectives",
+                "political perspectives"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine and explain cause-and-effect relationships in historical events.",
+              "keywords": [
+                "cause-and-effect",
+                "historical causation",
+                "consequences",
+                "historical impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use economic decision-making models to make decisions and explain incentives and consequences.",
+              "keywords": [
+                "economic models",
+                "decision-making",
+                "incentives",
+                "consequences",
+                "economic analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Engage and communicate as a civil and informed individual with persons holding different perspectives.",
+              "keywords": [
+                "civil discourse",
+                "perspective-taking",
+                "communication",
+                "informed discussion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop products that reflect an understanding of historical content.",
+              "keywords": [
+                "product development",
+                "historical understanding",
+                "creative expression",
+                "historical synthesis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography of North America",
+      "standards": [
+        {
+          "code": "USI.1",
+          "description": "Apply geography skills to understand the location and impact of North America and its regions.",
+          "skills": [
+            {
+              "description": "Locate North America in relation to other continents and oceans.",
+              "keywords": [
+                "continent location",
+                "ocean location",
+                "North America",
+                "geographic positioning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate and describe major geographic regions and bodies of water of North America.",
+              "keywords": [
+                "geographic regions",
+                "bodies of water",
+                "North America",
+                "physical geography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the impact of major geographic regions and bodies of water on early U.S. history.",
+              "keywords": [
+                "geographic impact",
+                "early U.S. history",
+                "settlement patterns",
+                "natural resources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate the 50 states of the United States.",
+              "keywords": [
+                "state location",
+                "U.S. geography",
+                "political map",
+                "state capitals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Early Cultures of North America",
+      "standards": [
+        {
+          "code": "USI.2",
+          "description": "Describe how early cultures developed in North America and the role of archaeology.",
+          "skills": [
+            {
+              "description": "Describe how archaeologists recover artifacts from ancient settlements, including Cactus Hill in Virginia.",
+              "keywords": [
+                "archaeology",
+                "artifact recovery",
+                "Cactus Hill",
+                "ancient settlements"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate where Indigenous people lived prior to European arrival.",
+              "keywords": [
+                "Indigenous peoples",
+                "pre-Columbian settlements",
+                "geographic regions",
+                "cultural regions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how geographic regions influenced the daily lives of Indigenous people.",
+              "keywords": [
+                "geographic influence",
+                "Indigenous daily life",
+                "cultural adaptation",
+                "environmental interaction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "USI.3",
+          "description": "Explain European exploration and colonization in North America.",
+          "skills": [
+            {
+              "description": "Describe motivations, obstacles, and accomplishments of Dutch, English, French, Portuguese, and Spanish explorations.",
+              "keywords": [
+                "exploration motivations",
+                "exploration obstacles",
+                "exploration accomplishments",
+                "European explorers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe cultural and economic interactions between Indigenous people and Europeans that led to cooperation and conflict.",
+              "keywords": [
+                "cultural interactions",
+                "economic interactions",
+                "Indigenous-European relations",
+                "cooperation",
+                "conflict"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Africa and the Transatlantic Slave Trade",
+      "standards": [
+        {
+          "code": "USI.4",
+          "description": "Understand the impact of the Western Hemisphere on West Africa and the Transatlantic Slave Trade.",
+          "skills": [
+            {
+              "description": "Identify the location and characteristics of West African societies of Ghana, Mali, and Songhai before European exploration.",
+              "keywords": [
+                "West African societies",
+                "Ghana",
+                "Mali",
+                "Songhai",
+                "pre-colonial Africa"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the arrival of the first Africans to colonial America at Old Point Comfort (Fort Monroe).",
+              "keywords": [
+                "first Africans",
+                "colonial America",
+                "Old Point Comfort",
+                "Fort Monroe",
+                "slavery origins"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the Transatlantic Slave Trade and its impact on the African coast and the Western Hemisphere.",
+              "keywords": [
+                "Transatlantic Slave Trade",
+                "African coast impact",
+                "Western Hemisphere impact",
+                "slavery",
+                "historical consequences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify cultural connections, conflicts, and common values of enslaved people in the Western Hemisphere.",
+              "keywords": [
+                "enslaved people",
+                "cultural connections",
+                "conflicts",
+                "common values",
+                "African diaspora"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand challenges and hardships endured by enslaved people brought to colonial America.",
+              "keywords": [
+                "enslaved people",
+                "hardships",
+                "colonial America",
+                "slavery conditions",
+                "historical suffering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colonial America and the American Revolution",
+      "standards": [
+        {
+          "code": "USI.5",
+          "description": "Explain social, political, religious, economic, and geographic factors that shaped colonial America.",
+          "skills": [
+            {
+              "description": "Describe characteristics and differences among the New England, Mid-Atlantic, and Southern colonies.",
+              "keywords": [
+                "New England colonies",
+                "Mid-Atlantic colonies",
+                "Southern colonies",
+                "colonial regions",
+                "regional differences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain Virginia's importance as one of the most populous and wealthiest colonies.",
+              "keywords": [
+                "Virginia colony",
+                "colonial wealth",
+                "colonial population",
+                "economic importance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare life from the perspectives of large landowners, farmers, artisans, clergy, merchants, women, indentured servants, and enslaved and free Blacks.",
+              "keywords": [
+                "social classes",
+                "colonial life",
+                "indentured servitude",
+                "enslaved people",
+                "free Blacks",
+                "perspective comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the specialization and interdependence of the colonial regions.",
+              "keywords": [
+                "regional specialization",
+                "colonial interdependence",
+                "trade networks",
+                "economic roles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain changing political and economic relationships between the colonies and Great Britain, including representative government and self-rule.",
+              "keywords": [
+                "colonial-British relations",
+                "representative government",
+                "self-rule",
+                "political autonomy",
+                "economic policies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "USI.6",
+          "description": "Explain the causes, events, and consequences of the American Revolution.",
+          "skills": [
+            {
+              "description": "Identify causes and effects of the French and Indian War.",
+              "keywords": [
+                "French and Indian War",
+                "causes",
+                "effects",
+                "colonial-British tensions",
+                "territorial disputes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify issues of dissatisfaction that led to the American Revolution, including the \"injuries and usurpations\" outlined in the Declaration of Independence.",
+              "keywords": [
+                "American Revolution causes",
+                "Declaration of Independence",
+                "grievances",
+                "political dissatisfaction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast political ideas and principles that shaped the revolutionary movement.",
+              "keywords": [
+                "revolutionary principles",
+                "political ideologies",
+                "comparative analysis",
+                "Enlightenment ideas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe leadership roles of individuals including George Washington, Benjamin Franklin, Thomas Jefferson, Patrick Henry, Thomas Paine, John Adams, and the Marquis de Lafayette.",
+              "keywords": [
+                "revolutionary leaders",
+                "George Washington",
+                "Benjamin Franklin",
+                "Thomas Jefferson",
+                "Patrick Henry",
+                "Thomas Paine",
+                "John Adams",
+                "Marquis de Lafayette"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine causes, course, and consequences of key events and battles of the American Revolution.",
+              "keywords": [
+                "revolutionary events",
+                "key battles",
+                "war course",
+                "historical consequences",
+                "military history"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A New Nation and its Expansion",
+      "standards": [
+        {
+          "code": "USI.7",
+          "description": "Describe challenges faced by the new nation and the development of the U.S. Constitution.",
+          "skills": [
+            {
+              "description": "Explain strengths, weaknesses, and outcomes of the government established by the Articles of Confederation.",
+              "keywords": [
+                "Articles of Confederation",
+                "government weaknesses",
+                "government strengths",
+                "constitutional outcomes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the Constitutional Convention and the development of the U.S. Constitution, emphasizing the role of James Madison.",
+              "keywords": [
+                "Constitutional Convention",
+                "U.S. Constitution",
+                "James Madison",
+                "constitutional development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine constitutional issues debated, including the role of the national government, ratification debates, Federalist Papers, and the addition of the Bill of Rights.",
+              "keywords": [
+                "constitutional debates",
+                "national government role",
+                "ratification debates",
+                "Federalist Papers",
+                "Bill of Rights"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the Three-Fifths Compromise.",
+              "keywords": [
+                "Three-Fifths Compromise",
+                "slavery representation",
+                "constitutional compromises"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the three branches of the U.S. government.",
+              "keywords": [
+                "three branches of government",
+                "executive branch",
+                "legislative branch",
+                "judicial branch",
+                "separation of powers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "USI.8",
+          "description": "Explain westward expansion and reform in America from 1801 to 1861.",
+          "skills": [
+            {
+              "description": "Describe how territorial expansion affected the political map of the U.S., including the Louisiana Purchase, Lewis and Clark Expedition, acquisitions of Florida, Texas, Oregon, and California, and results of the Mexican-American War.",
+              "keywords": [
+                "territorial expansion",
+                "Louisiana Purchase",
+                "Lewis and Clark Expedition",
+                "Mexican-American War",
+                "political map changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe causes, course, and effects of the War of 1812, the role of Andrew Jackson, and the development of the Monroe Doctrine.",
+              "keywords": [
+                "War of 1812",
+                "Andrew Jackson",
+                "Monroe Doctrine",
+                "causes",
+                "effects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify geographic, economic, and religious motivations that influenced the movement of settlers.",
+              "keywords": [
+                "settler motivations",
+                "geographic factors",
+                "economic factors",
+                "religious factors",
+                "westward migration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the impact of westward expansion on Indigenous people, including the Indian Removal Act, Trail of Tears, and Seminole Wars.",
+              "keywords": [
+                "Indigenous impact",
+                "Indian Removal Act",
+                "Trail of Tears",
+                "Seminole Wars",
+                "forced relocation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain technological advancements and innovations and their effects on life in America, including the cotton gin, reaper, steam engine, and steam locomotive.",
+              "keywords": [
+                "technological advancements",
+                "cotton gin",
+                "reaper",
+                "steam engine",
+                "steam locomotive",
+                "industrialization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major developments in the abolitionist and women's suffrage movements.",
+              "keywords": [
+                "abolitionist movement",
+                "women's suffrage movement",
+                "social reform",
+                "civil rights"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the expansion of U.S. territory led to increased momentum for the abolitionist and women's suffrage movements.",
+              "keywords": [
+                "territorial expansion impact",
+                "abolitionist momentum",
+                "women's suffrage momentum",
+                "social movements"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Civil War",
+      "standards": [
+        {
+          "code": "USI.9",
+          "description": "Understand the causes, major events, and effects of the Civil War.",
+          "skills": [
+            {
+              "description": "Describe how slavery and its expansion was the primary cause of cultural, economic, and constitutional issues that divided the nation and led to the secession of southern states.",
+              "keywords": [
+                "slavery expansion",
+                "Civil War causes",
+                "sectional division",
+                "secession",
+                "constitutional issues"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe differences in the economies of the North and South, growth of agriculture and industry, and how those economies impacted the outcome of the war.",
+              "keywords": [
+                "Northern economy",
+                "Southern economy",
+                "agriculture",
+                "industrialization",
+                "war outcome"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the leadership and impact of Abraham Lincoln during the Civil War.",
+              "keywords": [
+                "Abraham Lincoln",
+                "Civil War leadership",
+                "presidential impact",
+                "Union leadership"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how individuals influenced the course of the Civil War, including Jefferson Davis, Ulysses S. Grant, Robert E. Lee, William Tecumseh Sherman, Thomas \"Stonewall\" Jackson, and Frederick Douglass.",
+              "keywords": [
+                "Civil War leaders",
+                "Jefferson Davis",
+                "Ulysses S. Grant",
+                "Robert E. Lee",
+                "William Tecumseh Sherman",
+                "Thomas \"Stonewall\" Jackson",
+                "Frederick Douglass"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major political texts during the war, including Lincoln's Inaugural Address, the Emancipation Proclamation, the Gettysburg Address, and Lincoln's Second Inaugural Address.",
+              "keywords": [
+                "political texts",
+                "Lincoln's Inaugural Address",
+                "Emancipation Proclamation",
+                "Gettysburg Address",
+                "Lincoln's Second Inaugural Address"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the effects of the war from various perspectives, including Union and Confederate soldiers, Indigenous people, women, European Americans, and enslaved and free Blacks.",
+              "keywords": [
+                "war effects",
+                "Union soldiers",
+                "Confederate soldiers",
+                "Indigenous people",
+                "women",
+                "enslaved people",
+                "free Blacks"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "key": "6_6_MG_1_skill5",
+  "grade": "6",
+  "code": "6.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 6 Math",
+  "desc": "Identify characteristics of circles and solve problems involving circumference and area.",
+  "skill_desc": "Develop an approximation for pi (3.14) by gathering data and comparing the circumference to the diameter of various circles using concrete manipulatives or technological models.",
+  "skill_idx": 4,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/6_6_MG_1_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(2,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "s=0.2",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e5",
+        "latex": "\\operatorname{polygon}((0,0),(s,0),(s,s))",
+        "color": "#FF9500",
+        "hidden": false,
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e6",
+        "latex": "\\operatorname{polygon}((4,0),(4-s,0),(4-s,s))",
+        "color": "#FF9500",
+        "hidden": false,
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e7",
+        "latex": "\\operatorname{polygon}((2,3),(2,3-s),(2-s,3-s))",
+        "color": "#FF9500",
+        "hidden": false,
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Triangle with Right Angle Markers"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "c1 = Circle((0, 0), 2)",
+      "SetColor(c1, 0, 122, 255)",
+      "c2 = Circle((5, 0), 1)",
+      "SetColor(c2, 0, 122, 255)",
+      "c3 = Circle((10, 0), 3)",
+      "SetColor(c3, 0, 122, 255)",
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Center\")",
+      "SetLabelMode(A, 3)",
+      "B = (5, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"Center\")",
+      "SetLabelMode(B, 3)",
+      "C = (10, 0)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"Center\")",
+      "SetLabelMode(C, 3)",
+      "seg1 = Segment((0,0), (4,0))",
+      "SetColor(seg1, 220, 53, 69)",
+      "seg2 = Segment((5,0), (6,0))",
+      "SetColor(seg2, 220, 53, 69)",
+      "seg3 = Segment((10,0), (16,0))",
+      "SetColor(seg3, 220, 53, 69)",
+      "D = (4,0)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"Diameter\")",
+      "SetLabelMode(D, 3)",
+      "E = (6,0)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"Diameter\")",
+      "SetLabelMode(E, 3)",
+      "F = (16,0)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"Diameter\")",
+      "SetLabelMode(F, 3)"
+    ],
+    "view": [
+      -1,
+      17,
+      -3.5,
+      3.5
+    ],
+    "showGrid": true,
+    "title": "Circles with different diameters"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "O1 = (2, 2)",
+      "A1 = (4, 2)",
+      "circle1 = Circle(O1, A1)",
+      "O2 = (6, 5)",
+      "A2 = (8, 5)",
+      "circle2 = Circle(O2, A2)",
+      "O3 = (3, 7)",
+      "A3 = (5, 7)",
+      "circle3 = Circle(O3, A3)",
+      "d1 = Segment(O1, A1)",
+      "d2 = Segment(O2, A2)",
+      "d3 = Segment(O3, A3)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 t\u1ea1o ra m\u1ed9t m\u00f4 h\u00ecnh h\u00ecnh h\u1ecdc \u0111\u1ec3 x\u1ea5p x\u1ec9 s\u1ed1 pi, ch\u00fang ta c\u00f3 th\u1ec3 v\u1ebd m\u1ed9t s\u1ed1 \u0111\u01b0\u1eddng "
+  }
+}

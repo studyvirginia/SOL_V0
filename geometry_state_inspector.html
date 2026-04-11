@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Desmos Geometry State Inspector</title>
+  <script src="https://www.desmos.com/api/v1.10/calculator.js?apiKey=9299ac9714cd4f159e4a6a40b9c8e4a2"></script>
+  <style>
+    body { font-family: monospace; margin: 0; display: flex; flex-direction: column; height: 100vh; }
+    #toolbar { padding: 8px 12px; background: #1e1e1e; color: #ccc; display: flex; gap: 8px; align-items: center; }
+    #toolbar button {
+      padding: 6px 14px; background: #007AFF; color: white; border: none;
+      border-radius: 4px; cursor: pointer; font-size: 13px;
+    }
+    #toolbar button:hover { background: #005ecb; }
+    #toolbar button.secondary { background: #3a3a3a; }
+    #toolbar button.secondary:hover { background: #555; }
+    #label { color: #aaa; font-size: 12px; margin-left: 8px; }
+    #main { display: flex; flex: 1; overflow: hidden; }
+    #calculator { flex: 1; }
+    #output-panel {
+      width: 420px; background: #1e1e1e; color: #d4d4d4;
+      display: flex; flex-direction: column; border-left: 1px solid #333;
+    }
+    #output-panel h3 { margin: 0; padding: 10px 12px; background: #252525; font-size: 13px; color: #aaa; }
+    #output {
+      flex: 1; overflow: auto; padding: 12px;
+      font-size: 11px; line-height: 1.5; white-space: pre-wrap; word-break: break-all;
+    }
+    #status { color: #888; font-size: 11px; }
+  </style>
+</head>
+<body>
+
+<div id="toolbar">
+  <button onclick="dumpState()">📋 Dump getState()</button>
+  <button onclick="dumpBlank()" class="secondary">Blank state</button>
+  <button onclick="copyOutput()" class="secondary">Copy JSON</button>
+  <button onclick="loadFromOutput()" class="secondary">Load JSON ↑</button>
+  <span id="label">Draw something in the Geometry tool, then hit Dump getState()</span>
+  <span id="status"></span>
+</div>
+
+<div id="main">
+  <div id="calculator"></div>
+  <div id="output-panel">
+    <h3>getState() output</h3>
+    <div id="output">// Hit "Dump getState()" after drawing something</div>
+  </div>
+</div>
+
+<script>
+  const elt = document.getElementById('calculator');
+  let calc;
+
+  window.addEventListener('load', () => {
+    if (!Desmos.GeometryCalculator) {
+      document.getElementById('output').textContent =
+        '❌ GeometryCalculator not enabled for this API key.\n\n' +
+        'The demo key (dcb31709b452b1cf9dc26972add0fda6) may not have Geometry access.\n\n' +
+        'Falling back to GraphingCalculator so you can still inspect Graphing state format.\n\n' +
+        'To enable Geometry: contact partnerships@desmos.com for a key with GeometryCalculator: true';
+      calc = Desmos.GraphingCalculator(elt, { border: false });
+      document.getElementById('label').textContent = 'Geometry not available — showing GraphingCalculator state';
+    } else {
+      calc = Desmos.GeometryCalculator(elt);
+      document.getElementById('label').textContent = 'Draw in the Geometry tool, then Dump getState()';
+    }
+  });
+
+  function dumpState() {
+    if (!calc) return;
+    const state = calc.getState();
+    const json = JSON.stringify(state, null, 2);
+    document.getElementById('output').textContent = json;
+    document.getElementById('status').textContent = `✓ ${json.length} chars, ${countKeys(state)} top-level keys`;
+  }
+
+  function dumpBlank() {
+    if (!calc) return;
+    calc.setBlank();
+    setTimeout(() => {
+      const state = calc.getState();
+      document.getElementById('output').textContent =
+        '// BLANK STATE (nothing drawn)\n' + JSON.stringify(state, null, 2);
+    }, 100);
+  }
+
+  function copyOutput() {
+    const text = document.getElementById('output').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      document.getElementById('status').textContent = '✓ Copied!';
+      setTimeout(() => { document.getElementById('status').textContent = ''; }, 2000);
+    });
+  }
+
+  function loadFromOutput() {
+    const text = document.getElementById('output').textContent.replace(/^\/\/.*\n/, '');
+    try {
+      const state = JSON.parse(text);
+      calc.setState(state);
+      document.getElementById('status').textContent = '✓ State loaded';
+    } catch (e) {
+      document.getElementById('status').textContent = '❌ Invalid JSON: ' + e.message;
+    }
+  }
+
+  function countKeys(obj) {
+    return obj && typeof obj === 'object' ? Object.keys(obj).length : 0;
+  }
+</script>
+
+</body>
+</html>

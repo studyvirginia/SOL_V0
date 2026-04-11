@@ -1,0 +1,117 @@
+{
+  "key": "7_7_PFA_4_skill2",
+  "grade": "7",
+  "code": "7.PFA.4",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 7 Math",
+  "desc": "Write and solve one- and two-step linear inequalities in one variable, including contextual problems.",
+  "skill_desc": "Investigate and explain how multiplying or dividing by a rational number less than zero affects the solution set of a linear inequality.",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_PFA_4_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "x+3>5",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "x>2",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=0",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(2,0)",
+        "color": "#FF3B30",
+        "pointStyle": "OPEN",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "x=2",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "x>2",
+        "color": "#007AFF",
+        "lines": false,
+        "points": false,
+        "fill": true,
+        "fillOpacity": 0.3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Solving x+3>5"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x + 3",
+      "g(x) = -2*x + 3",
+      "SetColor(f, 0, 122, 255)",
+      "SetColor(g, 255, 0, 0)",
+      "A = Intersect(f, g)",
+      "SetColor(A, 0, 0, 0)",
+      "SetPointSize(A, 5)",
+      "SetLabelVisible(A, true)",
+      "SetLabelMode(A, 1)",
+      "h(x) = 2*x + 3 > 0",
+      "i(x) = -2*x + 3 > 0",
+      "SetColor(h, 0, 122, 255)",
+      "SetColor(i, 255, 0, 0)",
+      "SetLineThickness(h, 3)",
+      "SetLineThickness(i, 3)",
+      "SetLineStyle(h, 1)",
+      "SetLineStyle(i, 1)"
+    ],
+    "view": [
+      -5,
+      5,
+      -2,
+      8
+    ],
+    "showGrid": true,
+    "title": "Linear Inequalities: Multiplying by a Negative Number"
+  },
+  "sketchmath_state": null
+}

@@ -1,0 +1,71 @@
+{
+  "key": "5_5_PS_3_skill2",
+  "grade": "5",
+  "code": "5.PS.3",
+  "domain": "Probability and Statistics",
+  "course": "Grade 5 Math",
+  "desc": "Determine the probability of an outcome by constructing a model of a sample space and using the Fundamental (Basic) Counting Principle.",
+  "skill_desc": "Determine the number of possible outcomes by using the Fundamental (Basic) Counting Principle.",
+  "skill_idx": 1,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/5_5_PS_3_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "A=2",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "B=3",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "C=4",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "D=A\\cdot B\\cdot C",
+        "color": "#FF3B30",
+        "label": "Total Outcomes",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 15,
+      "top": 10
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Fundamental Counting Principle"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

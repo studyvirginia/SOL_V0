@@ -1,0 +1,155 @@
+{
+  "key": "6_6_MG_3_skill3",
+  "grade": "6",
+  "code": "6.MG.3",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 6 Math",
+  "desc": "Describe characteristics of the coordinate plane and graph ordered pairs.",
+  "skill_desc": "Graph ordered pairs in the four quadrants and on the axes of a coordinate plane with integer coordinates.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_MG_3_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 2,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=-x",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 2,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "(0,0)",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "lineWidth": 1,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(1,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(-1,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(-1,-1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(1,-1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 7,
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -2,
+      "bottom": -2,
+      "right": 2,
+      "top": 2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Graphing Ordered Pairs in Four Quadrants"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (-3, 2)",
+      "SetPointStyle(A, 7)",
+      "SetPointSize(A, 7)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"(-3, 2)\")",
+      "SetLabelMode(A, 3)",
+      "B = (4, -1)",
+      "SetPointStyle(B, 7)",
+      "SetPointSize(B, 7)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"(4, -1)\")",
+      "SetLabelMode(B, 3)",
+      "C = (0, 5)",
+      "SetPointStyle(C, 7)",
+      "SetPointSize(C, 7)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"(0, 5)\")",
+      "SetLabelMode(C, 3)",
+      "D = (-2, -4)",
+      "SetPointStyle(D, 7)",
+      "SetPointSize(D, 7)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"(-2, -4)\")",
+      "SetLabelMode(D, 3)",
+      "E = (5, 0)",
+      "SetPointStyle(E, 7)",
+      "SetPointSize(E, 7)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"(5, 0)\")",
+      "SetLabelMode(E, 3)"
+    ],
+    "view": [
+      -6,
+      6,
+      -6,
+      6
+    ],
+    "showGrid": true,
+    "title": "Graphing Ordered Pairs"
+  },
+  "sketchmath_state": null
+}

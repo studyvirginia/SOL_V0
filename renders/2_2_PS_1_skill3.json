@@ -1,0 +1,270 @@
+{
+  "key": "2_2_PS_1_skill3",
+  "grade": "2",
+  "code": "2.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 2 Math",
+  "desc": "Apply the data cycle to pose questions, collect data, organize and represent data, and analyze data with a focus on pictographs and bar graphs.",
+  "skill_desc": "Organize and represent a data set using a pictograph where each symbol represents up to 2 data points. Determine and use a key to assist in the analysis.",
+  "skill_idx": 2,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/2_2_PS_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y",
+            "values": [
+              "4",
+              "6",
+              "2",
+              "8"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "expression",
+        "latex": "y=4\\cdot\\operatorname{polygon}\\left(\\left(1,0\\right),\\left(1,1\\right),\\left(2,1\\right),\\left(2,0\\right)\\right)",
+        "color": "#007AFF",
+        "hidden": false,
+        "lines": false,
+        "points": false,
+        "fill": true,
+        "fillOpacity": 0.5,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=6\\cdot\\operatorname{polygon}\\left(\\left(2,0\\right),\\left(2,1\\right),\\left(3,1\\right),\\left(3,0\\right)\\right)",
+        "color": "#007AFF",
+        "hidden": false,
+        "lines": false,
+        "points": false,
+        "fill": true,
+        "fillOpacity": 0.5,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=2\\cdot\\operatorname{polygon}\\left(\\left(3,0\\right),\\left(3,1\\right),\\left(4,1\\right),\\left(4,0\\right)\\right)",
+        "color": "#007AFF",
+        "hidden": false,
+        "lines": false,
+        "points": false,
+        "fill": true,
+        "fillOpacity": 0.5,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e5",
+        "latex": "y=8\\cdot\\operatorname{polygon}\\left(\\left(4,0\\right),\\left(4,1\\right),\\left(5,1\\right),\\left(5,0\\right)\\right)",
+        "color": "#007AFF",
+        "hidden": false,
+        "lines": false,
+        "points": false,
+        "fill": true,
+        "fillOpacity": 0.5,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e6",
+        "latex": "y=1",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e7",
+        "latex": "x=1",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e8",
+        "latex": "x=2",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e9",
+        "latex": "x=3",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e10",
+        "latex": "x=4",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e11",
+        "latex": "(5,0)",
+        "color": "#8E8E93",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e13",
+        "latex": "y=2",
+        "color": "#000000",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e14",
+        "latex": "y=4",
+        "color": "#000000",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e15",
+        "latex": "y=6",
+        "color": "#000000",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e16",
+        "latex": "y=8",
+        "color": "#000000",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e17",
+        "latex": "y=10",
+        "color": "#000000",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e18",
+        "latex": "x",
+        "label": "Category",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "color": "#007AFF",
+        "hidden": false
+      },
+      {
+        "id": "e19",
+        "latex": "y",
+        "label": "Frequency",
+        "showLabel": true,
+        "labelOrientation": "LEFT",
+        "color": "#007AFF",
+        "hidden": false
+      },
+      {
+        "id": "e20",
+        "latex": "1",
+        "label": "A",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "color": "#007AFF",
+        "hidden": false
+      },
+      {
+        "id": "e21",
+        "latex": "2",
+        "label": "B",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "color": "#007AFF",
+        "hidden": false
+      },
+      {
+        "id": "e22",
+        "latex": "3",
+        "label": "C",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "color": "#007AFF",
+        "hidden": false
+      },
+      {
+        "id": "e23",
+        "latex": "4",
+        "label": "D",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "color": "#007AFF",
+        "hidden": false
+      },
+      {
+        "id": "e24",
+        "latex": "Key: One symbol represents 1 data point.",
+        "color": "#000000",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 6,
+      "top": 11
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Pictograph"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

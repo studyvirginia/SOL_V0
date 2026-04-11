@@ -1,0 +1,75 @@
+{
+  "key": "6_6_PFA_2_skill1",
+  "grade": "6",
+  "code": "6.PFA.2",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 6 Math",
+  "desc": "Identify and represent proportional relationships between two quantities, including contextual problems.",
+  "skill_desc": "Identify the unit rate of a proportional relationship represented by a table of values, contextual situation, or graph.",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PFA_2_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y",
+            "values": [
+              "3",
+              "6",
+              "9",
+              "12",
+              "15"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "y=3x",
+        "color": "#FF3B30",
+        "label": "Unit Rate = 3",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 16
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Proportional Relationships: Unit Rate"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

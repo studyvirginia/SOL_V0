@@ -1,0 +1,668 @@
+{
+  "subject": "Math",
+  "course": "Trigonometry",
+  "domains": [
+    {
+      "name": "Triangle Trigonometry",
+      "standards": [
+        {
+          "code": "T.TT.1",
+          "description": "Determine trigonometric ratios in right triangles and solve for missing sides and angles, including contextual problems.",
+          "skills": [
+            {
+              "description": "Define and represent the six trigonometric ratios (sine, cosine, tangent, cosecant, secant, cotangent) for an acute angle in a right triangle.",
+              "keywords": [
+                "sine",
+                "cosine",
+                "tangent",
+                "cosecant",
+                "secant",
+                "cotangent",
+                "right triangle",
+                "trigonometric ratios"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the relationships between side lengths in 30°-60°-90° and 45°-45°-90° special right triangles.",
+              "keywords": [
+                "30-60-90 triangle",
+                "45-45-90 triangle",
+                "side ratios",
+                "special right triangles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate missing sides of a right triangle using trigonometric ratios and the Pythagorean Theorem.",
+              "keywords": [
+                "Pythagorean Theorem",
+                "trigonometric ratios",
+                "missing side",
+                "right triangle"
+              ],
+              "prerequisites": [
+                "Pythagorean Theorem",
+                "trigonometric ratios"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Solve for missing angles in a right triangle using inverse trigonometric functions.",
+              "keywords": [
+                "inverse trigonometric functions",
+                "missing angle",
+                "right triangle"
+              ],
+              "prerequisites": [
+                "inverse trigonometric functions"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Apply trigonometric ratios to solve contextual problems involving right triangles, including angles of elevation and depression.",
+              "keywords": [
+                "angles of elevation",
+                "angles of depression",
+                "contextual problems",
+                "right triangle"
+              ],
+              "prerequisites": [
+                "trigonometric ratios",
+                "contextual problem-solving"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Use the Law of Sines to solve for missing sides and angles in right triangles.",
+              "keywords": [
+                "Law of Sines",
+                "missing side",
+                "missing angle",
+                "right triangle"
+              ],
+              "prerequisites": [
+                "Law of Sines"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Use the Law of Cosines to solve for missing sides and angles in right triangles.",
+              "keywords": [
+                "Law of Cosines",
+                "missing side",
+                "missing angle",
+                "right triangle"
+              ],
+              "prerequisites": [
+                "Law of Cosines"
+              ],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "T.TT.2",
+          "description": "Find areas and solve for sides/angles in non-right triangles using the Law of Sines and Law of Cosines.",
+          "skills": [
+            {
+              "description": "Apply the Law of Sines to find missing sides and angles in non-right triangles.",
+              "keywords": [
+                "Law of Sines",
+                "non-right triangle",
+                "missing side",
+                "missing angle"
+              ],
+              "prerequisites": [
+                "Law of Sines"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Apply the Law of Cosines to find missing sides and angles in non-right triangles.",
+              "keywords": [
+                "Law of Cosines",
+                "non-right triangle",
+                "missing side",
+                "missing angle"
+              ],
+              "prerequisites": [
+                "Law of Cosines"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize the ambiguous case when applying the Law of Sines and determine potential two-solution scenarios.",
+              "keywords": [
+                "ambiguous case",
+                "Law of Sines",
+                "two solutions"
+              ],
+              "prerequisites": [
+                "Law of Sines"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate the area of any triangle using the formula Area = 1/2absinC, where a and b are sides and C is the included angle.",
+              "keywords": [
+                "triangle area",
+                "1/2absinC",
+                "included angle"
+              ],
+              "prerequisites": [
+                "trigonometric ratios",
+                "included angle"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Solve contextual problems involving non-right triangles using the Law of Sines, Law of Cosines, and area formula.",
+              "keywords": [
+                "contextual problems",
+                "non-right triangle",
+                "Law of Sines",
+                "Law of Cosines"
+              ],
+              "prerequisites": [
+                "Law of Sines",
+                "Law of Cosines",
+                "triangle area"
+              ],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Circular Trigonometry",
+      "standards": [
+        {
+          "code": "T.CT.1",
+          "description": "Determine angle measures, sketch angles, and find trigonometric values using circular trigonometry.",
+          "skills": [
+            {
+              "description": "Define a radian as a unit of angle measure and relate radian measure to arc length in a circle.",
+              "keywords": [
+                "radian",
+                "arc length",
+                "angle measure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Convert between degree and radian measures for angles, including negative and positive rotations.",
+              "keywords": [
+                "degree measure",
+                "radian measure",
+                "angle conversion"
+              ],
+              "prerequisites": [
+                "degree measure",
+                "radian measure"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Find positive and negative coterminal angles for a given angle.",
+              "keywords": [
+                "coterminal angles",
+                "positive rotation",
+                "negative rotation"
+              ],
+              "prerequisites": [
+                "angle measure"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the quadrant or axis on which the terminal side of an angle lies.",
+              "keywords": [
+                "terminal side",
+                "quadrant",
+                "axis"
+              ],
+              "prerequisites": [
+                "angle measure"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Draw a reference right triangle given a point on the terminal side of an angle in standard position.",
+              "keywords": [
+                "reference triangle",
+                "terminal side",
+                "standard position"
+              ],
+              "prerequisites": [
+                "standard position",
+                "reference triangle"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Draw a reference right triangle given a trigonometric function value of an angle.",
+              "keywords": [
+                "reference triangle",
+                "trigonometric function value"
+              ],
+              "prerequisites": [
+                "trigonometric function values"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the value of any trigonometric function (sine, cosine, tangent, cosecant, secant, cotangent) given a point on the terminal side of an angle in standard position.",
+              "keywords": [
+                "trigonometric function values",
+                "terminal side",
+                "standard position"
+              ],
+              "prerequisites": [
+                "trigonometric ratios"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Given one trigonometric function value, determine the other five trigonometric function values.",
+              "keywords": [
+                "trigonometric function values",
+                "reciprocal identities"
+              ],
+              "prerequisites": [
+                "trigonometric ratios",
+                "reciprocal identities"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate the length of an arc of a circle in radians.",
+              "keywords": [
+                "arc length",
+                "radians"
+              ],
+              "prerequisites": [
+                "radian measure"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate the area of a sector of a circle.",
+              "keywords": [
+                "sector area",
+                "circle"
+              ],
+              "prerequisites": [
+                "radian measure"
+              ],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "T.CT.2",
+          "description": "Develop and apply properties of the unit circle to determine trigonometric function values.",
+          "skills": [
+            {
+              "description": "Convert between radian and degree measures of special angles of the unit circle without technology.",
+              "keywords": [
+                "unit circle",
+                "special angles",
+                "degree measure",
+                "radian measure"
+              ],
+              "prerequisites": [
+                "unit circle",
+                "degree measure",
+                "radian measure"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Define the six circular trigonometric functions of an angle in standard position on the unit circle.",
+              "keywords": [
+                "unit circle",
+                "circular trigonometric functions",
+                "standard position"
+              ],
+              "prerequisites": [
+                "unit circle"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Determine trigonometric function values of special angles (0°, 30°, 45°, 60°, 90°) and their related angles in degrees and radians without technology.",
+              "keywords": [
+                "special angles",
+                "unit circle",
+                "trigonometric function values"
+              ],
+              "prerequisites": [
+                "unit circle",
+                "special angles"
+              ],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graphs of Trigonometric Functions",
+      "standards": [
+        {
+          "code": "T.GT.1",
+          "description": "Graph and analyze trigonometric functions and apply them to represent periodic phenomena.",
+          "skills": [
+            {
+              "description": "Sketch the graph of the six parent trigonometric functions (sine, cosine, tangent, cosecant, secant, cotangent) for at least a two-period interval.",
+              "keywords": [
+                "parent trigonometric functions",
+                "graph",
+                "two-period interval"
+              ],
+              "prerequisites": [
+                "trigonometric functions"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the domain, range, amplitude, period, and asymptote locations for a trigonometric function given a graph or equation.",
+              "keywords": [
+                "domain",
+                "range",
+                "amplitude",
+                "period",
+                "asymptotes",
+                "trigonometric function"
+              ],
+              "prerequisites": [
+                "trigonometric functions"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the effects of changing parameters (A, B, C, D) in the standard form of a trigonometric equation on the graph of the function using graphing technology.",
+              "keywords": [
+                "parameter effects",
+                "standard form",
+                "graphing technology"
+              ],
+              "prerequisites": [
+                "trigonometric functions",
+                "graphing technology"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Sketch the graph of a transformed sine, cosine, or tangent function written in standard form for at least a two-period interval.",
+              "keywords": [
+                "transformed trigonometric function",
+                "standard form",
+                "graph"
+              ],
+              "prerequisites": [
+                "trigonometric functions",
+                "transformations"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Apply trigonometric functions and their graphs to represent periodic phenomena.",
+              "keywords": [
+                "periodic phenomena",
+                "trigonometric graphs"
+              ],
+              "prerequisites": [
+                "trigonometric functions",
+                "graphing"
+              ],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "T.GT.2",
+          "description": "Graph the six inverse trigonometric functions.",
+          "skills": [
+            {
+              "description": "Determine the domain and range of the inverse trigonometric functions.",
+              "keywords": [
+                "domain",
+                "range",
+                "inverse trigonometric functions"
+              ],
+              "prerequisites": [
+                "inverse trigonometric functions"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Use the restrictions on the domain of an inverse trigonometric function to determine a value of the inverse trigonometric function.",
+              "keywords": [
+                "domain restrictions",
+                "inverse trigonometric function values"
+              ],
+              "prerequisites": [
+                "inverse trigonometric functions"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Graph inverse trigonometric functions.",
+              "keywords": [
+                "graph",
+                "inverse trigonometric functions"
+              ],
+              "prerequisites": [
+                "inverse trigonometric functions"
+              ],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Identities and Equations",
+      "standards": [
+        {
+          "code": "T.IE.1",
+          "description": "Evaluate expressions involving trigonometric and inverse trigonometric functions.",
+          "skills": [
+            {
+              "description": "Determine the values of trigonometric functions with and without graphing technology.",
+              "keywords": [
+                "trigonometric function values",
+                "graphing technology"
+              ],
+              "prerequisites": [
+                "trigonometric functions"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Determine angle measures using inverse trigonometric functions with and without graphing technology.",
+              "keywords": [
+                "inverse trigonometric functions",
+                "angle measures",
+                "graphing technology"
+              ],
+              "prerequisites": [
+                "inverse trigonometric functions"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate composite functions involving trigonometric and inverse trigonometric functions.",
+              "keywords": [
+                "composite functions",
+                "trigonometric functions",
+                "inverse trigonometric functions"
+              ],
+              "prerequisites": [
+                "trigonometric functions",
+                "inverse trigonometric functions"
+              ],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "T.IE.2",
+          "description": "Simplify and verify trigonometric identities using basic identities.",
+          "skills": [
+            {
+              "description": "Use reciprocal identities to simplify trigonometric expressions.",
+              "keywords": [
+                "reciprocal identities",
+                "simplification"
+              ],
+              "prerequisites": [
+                "reciprocal identities"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Use Pythagorean identities to simplify and verify trigonometric identities.",
+              "keywords": [
+                "Pythagorean identities",
+                "simplification",
+                "verification"
+              ],
+              "prerequisites": [
+                "Pythagorean identities"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Use sum and difference identities to simplify and verify trigonometric identities.",
+              "keywords": [
+                "sum identities",
+                "difference identities",
+                "simplification",
+                "verification"
+              ],
+              "prerequisites": [
+                "sum identities",
+                "difference identities"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Use double-angle identities to simplify and verify trigonometric identities.",
+              "keywords": [
+                "double-angle identities",
+                "simplification",
+                "verification"
+              ],
+              "prerequisites": [
+                "double-angle identities"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Use half-angle identities to simplify and verify trigonometric identities.",
+              "keywords": [
+                "half-angle identities",
+                "simplification",
+                "verification"
+              ],
+              "prerequisites": [
+                "half-angle identities"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Apply sum, difference, and half-angle identities to evaluate trigonometric function values of non-special angles.",
+              "keywords": [
+                "sum identities",
+                "difference identities",
+                "half-angle identities",
+                "non-special angles"
+              ],
+              "prerequisites": [
+                "sum identities",
+                "difference identities",
+                "half-angle identities"
+              ],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "T.IE.3",
+          "description": "Solve trigonometric equations and inequalities algebraically and graphically.",
+          "skills": [
+            {
+              "description": "Solve trigonometric equations with restricted domains algebraically.",
+              "keywords": [
+                "trigonometric equations",
+                "restricted domains",
+                "algebraic solution"
+              ],
+              "prerequisites": [
+                "trigonometric equations"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Solve trigonometric equations without restricted domains algebraically.",
+              "keywords": [
+                "trigonometric equations",
+                "algebraic solution"
+              ],
+              "prerequisites": [
+                "trigonometric equations"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Solve trigonometric inequalities algebraically.",
+              "keywords": [
+                "trigonometric inequalities",
+                "algebraic solution"
+              ],
+              "prerequisites": [
+                "trigonometric inequalities"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Solve trigonometric equations and inequalities graphically.",
+              "keywords": [
+                "trigonometric equations",
+                "trigonometric inequalities",
+                "graphical solution"
+              ],
+              "prerequisites": [
+                "trigonometric equations",
+                "trigonometric inequalities",
+                "graphing technology"
+              ],
+              "cross_links": []
+            },
+            {
+              "description": "Verify and justify algebraic solutions to trigonometric equations and inequalities using graphing technology.",
+              "keywords": [
+                "verification",
+                "justification",
+                "graphing technology"
+              ],
+              "prerequisites": [
+                "trigonometric equations",
+                "trigonometric inequalities",
+                "graphing technology"
+              ],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

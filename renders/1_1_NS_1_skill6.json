@@ -1,0 +1,112 @@
+{
+  "key": "1_1_NS_1_skill6",
+  "grade": "1",
+  "code": "1.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 1 Math",
+  "desc": "Utilize flexible counting strategies to determine and describe quantities up to 120.",
+  "skill_desc": "Identify a penny, nickel, and dime by their attributes and describe the number of pennies equivalent to a nickel and a dime.",
+  "skill_idx": 5,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/1_1_NS_1_skill6.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "1\\text{ penny} = 1\\text{ cent}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "1\\text{ nickel} = 5\\text{ cents}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "1\\text{ dime} = 10\\text{ cents}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "1\\text{ nickel} = 5\\text{ pennies}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "1\\text{ dime} = 10\\text{ pennies}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 11,
+      "top": 6
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Penny, Nickel, and Dime Equivalencies"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "penny = 1",
+      "nickel = 5",
+      "dime = 10",
+      "f(x) = If(x == penny, 1, If(x == nickel, 5, If(x == dime, 10, 0)))",
+      "SetColor(f, 0, 122, 255)",
+      "SetLineThickness(f, 3)",
+      "A = (penny, f(penny))",
+      "B = (nickel, f(nickel))",
+      "C = (dime, f(dime))",
+      "SetPointStyle(A, 1)",
+      "SetPointSize(A, 7)",
+      "SetPointStyle(B, 1)",
+      "SetPointSize(B, 7)",
+      "SetPointStyle(C, 1)",
+      "SetPointSize(C, 7)",
+      "SetCaption(A, \"Penny\")",
+      "SetLabelMode(A, 3)",
+      "SetCaption(B, \"Nickel\")",
+      "SetLabelMode(B, 3)",
+      "SetCaption(C, \"Dime\")",
+      "SetLabelMode(C, 3)"
+    ],
+    "view": [
+      -1,
+      12,
+      -1,
+      11
+    ],
+    "showGrid": true,
+    "title": "Penny, Nickel, Dime Values"
+  },
+  "sketchmath_state": null
+}

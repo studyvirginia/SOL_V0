@@ -1,0 +1,89 @@
+{
+  "key": "8_8_PS_3_skill1",
+  "grade": "8",
+  "code": "8.PS.3",
+  "domain": "Probability and Statistics",
+  "course": "Grade 8 Math",
+  "desc": "Apply the data cycle with a focus on scatterplots.",
+  "skill_desc": "Formulate questions that require the collection or acquisition of data with a focus on scatterplots.",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PS_3_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 2,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=2x",
+        "color": "#FF3B30",
+        "lines": true,
+        "lineWidth": 2,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=3x",
+        "color": "#34C759",
+        "lines": true,
+        "lineWidth": 2,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=4x",
+        "color": "#FF9500",
+        "lines": true,
+        "lineWidth": 2,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "y=5x",
+        "color": "#5856D6",
+        "lines": true,
+        "lineWidth": 2,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 6
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Scatterplot Lines"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

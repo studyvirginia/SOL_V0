@@ -1,0 +1,636 @@
+{
+  "subject": "Math",
+  "course": "Kindergarten Math",
+  "domains": [
+    {
+      "name": "Number and Number Sense",
+      "standards": [
+        {
+          "code": "K.NS.1",
+          "description": "Utilize flexible counting strategies to determine and describe quantities up to 100.",
+          "skills": [
+            {
+              "description": "Use one-to-one correspondence to count objects in a set of 30 or fewer and identify the total number.",
+              "keywords": [
+                "one-to-one correspondence",
+                "counting",
+                "total number",
+                "concrete objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that the number of objects remains the same regardless of arrangement or order.",
+              "keywords": [
+                "conservation of number",
+                "arrangement",
+                "order"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent forward counting by ones using tools like five-frames, ten-frames, and number paths.",
+              "keywords": [
+                "forward counting",
+                "five-frames",
+                "ten-frames",
+                "number paths"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Count forward orally by ones from 0 to 100.",
+              "keywords": [
+                "oral counting",
+                "forward counting",
+                "0 to 100"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Count forward orally by ones within 100 starting at any given number.",
+              "keywords": [
+                "oral counting",
+                "forward counting",
+                "starting point"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Count backward orally by ones from a number between 1 and 20.",
+              "keywords": [
+                "oral counting",
+                "backward counting",
+                "1 to 20"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "State the number after a given number between 0 and 30 without counting.",
+              "keywords": [
+                "number after",
+                "successor",
+                "0 to 30"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "State the number before a given number between 1 and 20 without counting.",
+              "keywords": [
+                "number before",
+                "predecessor",
+                "1 to 20"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compose and decompose numbers 11-19 into a ten and some ones using objects, drawings, words, or numbers.",
+              "keywords": [
+                "compose",
+                "decompose",
+                "ten and ones",
+                "11-19"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Group up to 100 objects into sets of ten and count by tens to determine the total.",
+              "keywords": [
+                "grouping",
+                "sets of ten",
+                "count by tens",
+                "total"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.NS.2",
+          "description": "Identify, represent, and compare quantities up to 30.",
+          "skills": [
+            {
+              "description": "Read, write, and identify numerals 0 through 30.",
+              "keywords": [
+                "numerals",
+                "0 to 30",
+                "read",
+                "write"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct a set of objects corresponding to a given numeral within 30, including an empty set.",
+              "keywords": [
+                "construct set",
+                "numeral correspondence",
+                "empty set"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine and write the numeral for the total number of objects in a set of 30 or fewer.",
+              "keywords": [
+                "numeral determination",
+                "total objects",
+                "30 or fewer"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct a set with more, fewer, or the same number of objects as a given set of up to 30 objects.",
+              "keywords": [
+                "construct set",
+                "more",
+                "fewer",
+                "same number",
+                "30 objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct a set with more, fewer, or the same number of objects as a given numeral up to 30.",
+              "keywords": [
+                "construct set",
+                "numeral comparison",
+                "more",
+                "fewer",
+                "same number"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare two sets of up to 30 objects using terms more, fewer, or the same as.",
+              "keywords": [
+                "set comparison",
+                "more",
+                "fewer",
+                "same as",
+                "30 objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare numbers up to 30 to benchmarks of 5 and 10 using models and terms greater than, less than, or equal to.",
+              "keywords": [
+                "number comparison",
+                "benchmarks",
+                "5 and 10",
+                "greater than",
+                "less than",
+                "equal to"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computation and Estimation",
+      "standards": [
+        {
+          "code": "K.CE.1",
+          "description": "Model and solve single-step contextual problems using addition and subtraction with whole numbers within 10.",
+          "skills": [
+            {
+              "description": "Compose and decompose numbers less than or equal to 5 in multiple ways using objects, drawings, words, or numbers.",
+              "keywords": [
+                "compose",
+                "decompose",
+                "numbers ≤5",
+                "part-part-whole"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize and describe part-part-whole relationships for numbers up to 5 in various configurations.",
+              "keywords": [
+                "part-part-whole",
+                "numbers ≤5",
+                "configurations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the number that makes 5 when added to a given number less than or equal to 5.",
+              "keywords": [
+                "make 5",
+                "addition",
+                "numbers ≤5"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compose and decompose numbers less than or equal to 10 in multiple ways using objects, drawings, words, or numbers.",
+              "keywords": [
+                "compose",
+                "decompose",
+                "numbers ≤10",
+                "part-part-whole"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the number that makes 10 when added to a given number less than or equal to 10.",
+              "keywords": [
+                "make 10",
+                "addition",
+                "numbers ≤10"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Model and solve single-step contextual problems (join, separate, part-part-whole) using 10 or fewer concrete objects.",
+              "keywords": [
+                "single-step problems",
+                "join",
+                "separate",
+                "part-part-whole",
+                "10 objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Measurement and Geometry",
+      "standards": [
+        {
+          "code": "K.MG.1",
+          "description": "Reason mathematically by making direct comparisons between two objects or events using attributes of length, height, weight, volume, and time.",
+          "skills": [
+            {
+              "description": "Compare lengths of two objects using terms longer or shorter.",
+              "keywords": [
+                "length",
+                "longer",
+                "shorter",
+                "direct comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare heights of two objects using terms taller or shorter.",
+              "keywords": [
+                "height",
+                "taller",
+                "shorter",
+                "direct comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare weights of two objects using terms heavier or lighter.",
+              "keywords": [
+                "weight",
+                "heavier",
+                "lighter",
+                "direct comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare volumes of two containers using terms more or less.",
+              "keywords": [
+                "volume",
+                "more",
+                "less",
+                "direct comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare amounts of time spent on two events using terms longer or shorter.",
+              "keywords": [
+                "time",
+                "longer",
+                "shorter",
+                "direct comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.MG.2",
+          "description": "Identify, describe, name, compare, and construct plane figures (circles, triangles, squares, and rectangles).",
+          "skills": [
+            {
+              "description": "Identify and name circles, triangles, squares, and rectangles in concrete and pictorial representations.",
+              "keywords": [
+                "identify",
+                "name",
+                "circles",
+                "triangles",
+                "squares",
+                "rectangles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe triangles, squares, and rectangles by number of sides and vertices.",
+              "keywords": [
+                "describe",
+                "sides",
+                "vertices",
+                "triangles",
+                "squares",
+                "rectangles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe a circle using terms round and curved.",
+              "keywords": [
+                "describe",
+                "circle",
+                "round",
+                "curved"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between examples and nonexamples of circles, triangles, squares, and rectangles.",
+              "keywords": [
+                "distinguish",
+                "examples",
+                "nonexamples",
+                "circles",
+                "triangles",
+                "squares",
+                "rectangles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast two plane figures using characteristics to describe similarities and differences.",
+              "keywords": [
+                "compare",
+                "contrast",
+                "plane figures",
+                "characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct circles, triangles, squares, and rectangles using materials like straws, sticks, or pipe cleaners.",
+              "keywords": [
+                "construct",
+                "plane figures",
+                "straws",
+                "sticks",
+                "pipe cleaners"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.MG.3",
+          "description": "Describe the units of time represented in a calendar.",
+          "skills": [
+            {
+              "description": "Identify a calendar as a tool used to measure time.",
+              "keywords": [
+                "calendar",
+                "tool",
+                "measure time"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Name the days of the week and state there are seven days in one week.",
+              "keywords": [
+                "days of the week",
+                "seven days"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the day before and after a given day (e.g., yesterday, today, tomorrow).",
+              "keywords": [
+                "day before",
+                "day after",
+                "yesterday",
+                "today",
+                "tomorrow"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Name the twelve months of the year and state there are twelve months in one year.",
+              "keywords": [
+                "months of the year",
+                "twelve months"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between days of the week and months of the year.",
+              "keywords": [
+                "distinguish",
+                "days of the week",
+                "months of the year"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability and Statistics",
+      "standards": [
+        {
+          "code": "K.PS.1",
+          "description": "Apply the data cycle with a focus on object graphs and picture graphs.",
+          "skills": [
+            {
+              "description": "Sort and classify concrete objects into subsets based on one attribute (e.g., size, shape, color, thickness).",
+              "keywords": [
+                "sort",
+                "classify",
+                "subsets",
+                "attribute",
+                "size",
+                "shape",
+                "color",
+                "thickness"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and label attributes of a sorted set of objects (e.g., size, color, shape).",
+              "keywords": [
+                "describe",
+                "label",
+                "attributes",
+                "sorted set"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Pose questions requiring data collection limited to 25 or fewer data points for no more than four categories.",
+              "keywords": [
+                "pose questions",
+                "data collection",
+                "25 data points",
+                "four categories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine data needed to answer a posed question and collect data using methods like counting objects or drawing pictures.",
+              "keywords": [
+                "determine data",
+                "collect data",
+                "counting objects",
+                "drawing pictures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent a data set as an object graph by sorting concrete objects into organized groups.",
+              "keywords": [
+                "organize",
+                "represent",
+                "object graph",
+                "sorted groups"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize and represent a data set as a picture graph using pictures to form a simple graph.",
+              "keywords": [
+                "organize",
+                "represent",
+                "picture graph",
+                "pictures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data in object graphs and picture graphs by asking and answering questions about the data.",
+              "keywords": [
+                "analyze",
+                "object graphs",
+                "picture graphs",
+                "ask questions",
+                "answer questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Draw conclusions and make predictions based on data in object graphs and picture graphs.",
+              "keywords": [
+                "draw conclusions",
+                "make predictions",
+                "object graphs",
+                "picture graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Patterns, Functions, and Algebra",
+      "standards": [
+        {
+          "code": "K.PFA.1",
+          "description": "Identify, describe, extend, and create simple repeating patterns using various representations.",
+          "skills": [
+            {
+              "description": "Identify and describe the core found in repeating patterns.",
+              "keywords": [
+                "identify",
+                "describe",
+                "core",
+                "repeating patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Extend a repeating pattern by adding at least two complete repetitions of the core.",
+              "keywords": [
+                "extend",
+                "repeating pattern",
+                "core",
+                "repetitions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create and describe a repeating pattern using objects, colors, sounds, movements, or pictures.",
+              "keywords": [
+                "create",
+                "describe",
+                "repeating pattern",
+                "objects",
+                "colors",
+                "sounds",
+                "movements",
+                "pictures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

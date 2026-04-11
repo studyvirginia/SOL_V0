@@ -1,0 +1,88 @@
+{
+  "key": "2_2_CE_1_skill1",
+  "grade": "2",
+  "code": "2.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 2 Math",
+  "desc": "Recall addition and subtraction facts within 20 and solve single-step and multistep problems using addition and subtraction with whole numbers up to 100.",
+  "skill_desc": "Apply strategies (e.g., rounding, compatible numbers) to estimate solutions for single-step addition or subtraction problems.",
+  "skill_idx": 0,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/2_2_CE_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x+5",
+        "color": "#007AFF",
+        "label": "Estimate: 10 + 5",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=x-3",
+        "color": "#FF3B30",
+        "label": "Estimate: 8 - 3",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 16,
+      "top": 16
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Estimating Addition and Subtraction"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 10 + x",
+      "g(x) = 20 - x",
+      "SetColor(f, 0, 122, 255)",
+      "SetColor(g, 255, 59, 48)",
+      "Intersect(f, g)",
+      "A = (0, 10)",
+      "B = (20, 0)",
+      "C = (0, 20)",
+      "D = (20, 10)",
+      "SetLabelVisible(A, true)",
+      "SetLabelVisible(B, true)",
+      "SetLabelVisible(C, true)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(A, \"(0, 10)\")",
+      "SetCaption(B, \"(20, 0)\")",
+      "SetCaption(C, \"(0, 20)\")",
+      "SetCaption(D, \"(20, 10)\")",
+      "SetLabelMode(A, 3)",
+      "SetLabelMode(B, 3)",
+      "SetLabelMode(C, 3)",
+      "SetLabelMode(D, 3)"
+    ],
+    "view": [
+      -1,
+      21,
+      -1,
+      21
+    ],
+    "showGrid": true,
+    "title": "Estimating Addition and Subtraction"
+  },
+  "sketchmath_state": null
+}

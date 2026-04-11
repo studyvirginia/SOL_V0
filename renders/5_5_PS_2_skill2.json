@@ -1,0 +1,65 @@
+{
+  "key": "5_5_PS_2_skill2",
+  "grade": "5",
+  "code": "5.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 5 Math",
+  "desc": "Solve contextual problems using measures of center and the range.",
+  "skill_desc": "Describe and determine the mean of a set of data values representing data from a given context as a measure of center.",
+  "skill_idx": 1,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/5_5_PS_2_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "L=[1, 3, 5, 7, 9]",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "\\operatorname{mean}(L)",
+        "color": "#FF3B30",
+        "label": "Mean",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(3, 0)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 10,
+      "top": 10
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Mean of a Data Set"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

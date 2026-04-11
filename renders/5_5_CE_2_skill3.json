@@ -1,0 +1,77 @@
+{
+  "key": "5_5_CE_2_skill3",
+  "grade": "5",
+  "code": "5.CE.2",
+  "domain": "Computation and Estimation",
+  "course": "Grade 5 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to problems using addition and subtraction of fractions and multiplication of whole numbers and proper fractions.",
+  "skill_desc": "Simplify the resulting fraction after addition or subtraction.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/5_5_CE_2_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{1}{2}+\\frac{1}{4}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=\\frac{3}{4}",
+        "color": "#FF3B30",
+        "label": "\\frac{3}{4}",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -0.1,
+      "right": 2,
+      "top": 1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Adding Fractions"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = (1/2)*x + 1/3",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = (1/4)*x - 1/6",
+      "SetColor(g, 255, 0, 0)",
+      "h(x) = f(x) + g(x)",
+      "SetColor(h, 0, 255, 0)",
+      "Root(h)",
+      "SetLabelVisible(Root(h), true)",
+      "SetLabelMode(Root(h), 1)"
+    ],
+    "view": [
+      -5,
+      5,
+      -2,
+      2
+    ],
+    "showGrid": true,
+    "title": "Adding and Subtracting Fractions: (1/2)x + 1/3 + (1/4)x - 1/6"
+  },
+  "sketchmath_state": null
+}

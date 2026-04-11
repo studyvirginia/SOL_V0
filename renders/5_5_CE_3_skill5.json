@@ -1,0 +1,95 @@
+{
+  "key": "5_5_CE_3_skill5",
+  "grade": "5",
+  "code": "5.CE.3",
+  "domain": "Computation and Estimation",
+  "course": "Grade 5 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to problems using addition, subtraction, multiplication, and division with decimal numbers.",
+  "skill_desc": "Solve single-step contextual problems involving division with decimals using strategies and algorithms.",
+  "skill_idx": 4,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/5_5_CE_3_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{12.5}{2.5}x",
+        "color": "#007AFF",
+        "label": "Cost of items",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "Origin",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(2.5,12.5)",
+        "color": "#FF3B30",
+        "label": "Point on line",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 15
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Division with Decimals"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 12.5 / x",
+      "SetColor(f, 0, 122, 255)",
+      "A = (2.5, 5)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"(2.5, 5)\")",
+      "SetLabelMode(A, 3)",
+      "B = (5, 2.5)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"(5, 2.5)\")",
+      "SetLabelMode(B, 3)",
+      "C = (1, 12.5)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"(1, 12.5)\")",
+      "SetLabelMode(C, 3)",
+      "D = (10, 1.25)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"(10, 1.25)\")",
+      "SetLabelMode(D, 3)"
+    ],
+    "view": [
+      0,
+      12,
+      0,
+      13
+    ],
+    "showGrid": true,
+    "title": "Division with Decimals: y = 12.5 / x"
+  },
+  "sketchmath_state": null
+}

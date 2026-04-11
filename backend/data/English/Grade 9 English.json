@@ -1,0 +1,1301 @@
+{
+  "subject": "English",
+  "course": "Grade 9 English",
+  "domains": [
+    {
+      "name": "Developing Skilled Readers and Building Reading Stamina",
+      "standards": [
+        {
+          "code": "9.DSR",
+          "description": "Build knowledge and comprehension skills from reading a range of challenging, content-rich texts with fluency, comprehension strategies, and evidence-based responses.",
+          "skills": [
+            {
+              "description": "Read grade-level complex texts with accuracy, automaticity, appropriate rate, and meaningful expression in successive readings.",
+              "keywords": [
+                "reading fluency",
+                "accuracy",
+                "automaticity",
+                "rate",
+                "expression"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Monitor reading to confirm or self-correct word recognition and understanding.",
+              "keywords": [
+                "self-correction",
+                "word recognition",
+                "comprehension monitoring"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Proficiently read and comprehend literary and informational texts at the lower range of grades 9-10 complexity.",
+              "keywords": [
+                "text complexity",
+                "literary texts",
+                "informational texts",
+                "comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Draw evidence from grade-level complex texts to support claims, conclusions, and inferences.",
+              "keywords": [
+                "textual evidence",
+                "claims",
+                "inferences",
+                "quoting",
+                "paraphrasing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Trace the location of relevant evidence in texts to support analysis.",
+              "keywords": [
+                "evidence location",
+                "textual analysis",
+                "source citation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read conceptually related texts organized around topics to build knowledge and vocabulary.",
+              "keywords": [
+                "deep reading",
+                "topic study",
+                "vocabulary building"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use reading strategies to aid and monitor comprehension when encountering challenging sections of text.",
+              "keywords": [
+                "reading strategies",
+                "text structure",
+                "summarizing",
+                "questioning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading and Vocabulary",
+      "standards": [
+        {
+          "code": "9.RV.1",
+          "description": "Develop and use grade-level academic and content-specific vocabulary through reading, discussion, and writing.",
+          "skills": [
+            {
+              "description": "Develop and accurately use general academic and content-specific vocabulary.",
+              "keywords": [
+                "vocabulary development",
+                "academic vocabulary",
+                "content-specific vocabulary"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use context and sentence structure to clarify the literal and figurative meanings of words and phrases.",
+              "keywords": [
+                "context clues",
+                "literal meaning",
+                "figurative meaning",
+                "sentence structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use structural analysis of roots, affixes, and etymology to explain the meanings of unfamiliar and complex words.",
+              "keywords": [
+                "roots",
+                "affixes",
+                "etymology",
+                "word analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Discriminate between connotative and denotative meanings and interpret connotations.",
+              "keywords": [
+                "connotation",
+                "denotation",
+                "word meaning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain idiomatic language in context.",
+              "keywords": [
+                "idioms",
+                "figurative language",
+                "contextual meaning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the meaning of literary and classical allusions and figurative language in context.",
+              "keywords": [
+                "allusions",
+                "figurative language",
+                "literary devices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the roles of allusions and figurative language in texts.",
+              "keywords": [
+                "textual analysis",
+                "literary devices",
+                "theme"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use newly learned words and phrases in multiple contexts, including discussions and writing.",
+              "keywords": [
+                "vocabulary application",
+                "contextual usage",
+                "word integration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading Literary Text",
+      "standards": [
+        {
+          "code": "9.RL.1",
+          "description": "Analyze themes, literary forms, and character types in literary texts using textual evidence.",
+          "skills": [
+            {
+              "description": "Explain stated or implied themes and analyze their development over the course of texts.",
+              "keywords": [
+                "theme analysis",
+                "textual evidence",
+                "theme development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand the relationship of characters, setting, and plot to themes.",
+              "keywords": [
+                "character analysis",
+                "setting",
+                "plot",
+                "theme"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine and analyze the characteristics that distinguish literary forms.",
+              "keywords": [
+                "literary forms",
+                "fiction",
+                "nonfiction",
+                "poetry",
+                "drama",
+                "prose"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze how the differing structure of each literary form contributes to its meaning and style.",
+              "keywords": [
+                "text structure",
+                "literary analysis",
+                "meaning",
+                "style"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between character types in literary texts.",
+              "keywords": [
+                "character types",
+                "dynamic characters",
+                "static characters",
+                "stereotypes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand the impact of character types on the theme.",
+              "keywords": [
+                "character impact",
+                "theme development",
+                "literary analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and describe how dramatic conventions contribute to the theme and effect of plays.",
+              "keywords": [
+                "dramatic conventions",
+                "soliloquy",
+                "aside",
+                "narration",
+                "direct address"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "9.RL.2",
+          "description": "Analyze craft and style in literary texts, including poetic devices and authorial choices.",
+          "skills": [
+            {
+              "description": "Analyze the use of rhyme, rhythm, sound, imagery, and other literary devices in poetry.",
+              "keywords": [
+                "poetic devices",
+                "rhyme",
+                "rhythm",
+                "imagery",
+                "literary devices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand how literary devices convey messages and elicit reader emotions.",
+              "keywords": [
+                "message conveyance",
+                "reader response",
+                "emotional impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how an author's specific word choices shape the meaning of the text.",
+              "keywords": [
+                "word choice",
+                "authorial style",
+                "textual meaning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how an author's syntax shapes the meaning of the text.",
+              "keywords": [
+                "syntax",
+                "sentence structure",
+                "textual meaning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how an author's tone shapes the meaning of the text.",
+              "keywords": [
+                "tone",
+                "authorial voice",
+                "textual meaning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how an author's voice shapes the meaning of the text.",
+              "keywords": [
+                "voice",
+                "authorial style",
+                "textual meaning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the point of view and distinguish between what is implied or intended.",
+              "keywords": [
+                "point of view",
+                "implied meaning",
+                "intended meaning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand the use of hyperbole, irony, sarcasm, and understatement.",
+              "keywords": [
+                "figurative language",
+                "hyperbole",
+                "irony",
+                "sarcasm",
+                "understatement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "9.RL.3",
+          "description": "Analyze the historical, social, and literary context of texts and their elements.",
+          "skills": [
+            {
+              "description": "Describe how the historical or social function of a text depends on its context.",
+              "keywords": [
+                "textual context",
+                "historical context",
+                "social context",
+                "cultural context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the relationships between and among literary elements of a story or play.",
+              "keywords": [
+                "literary elements",
+                "plot",
+                "character",
+                "setting",
+                "theme"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand how the setting shapes the plot and characters.",
+              "keywords": [
+                "setting",
+                "plot development",
+                "character development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading Informational Text",
+      "standards": [
+        {
+          "code": "9.RI.1",
+          "description": "Analyze the development of main ideas and use of evidence in informational texts.",
+          "skills": [
+            {
+              "description": "Analyze the development of main ideas over the course of texts.",
+              "keywords": [
+                "main idea",
+                "text analysis",
+                "idea development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand how main ideas emerge, are shaped, and are refined by specific details.",
+              "keywords": [
+                "idea refinement",
+                "textual details",
+                "authorial purpose"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand how specific details reveal the author's intended purpose for writing.",
+              "keywords": [
+                "authorial purpose",
+                "textual evidence",
+                "writing purpose"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the purpose and interpret the use of data and information in visual formats.",
+              "keywords": [
+                "data interpretation",
+                "visual aids",
+                "charts",
+                "graphs",
+                "tables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish among facts, reasoned judgments, and/or speculation in texts.",
+              "keywords": [
+                "fact vs. opinion",
+                "reasoned judgment",
+                "speculation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine where a position or argument is to be confirmed, disproved, or modified.",
+              "keywords": [
+                "argument analysis",
+                "position evaluation",
+                "textual evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "9.RI.2",
+          "description": "Analyze craft and style in informational texts, including rhetorical devices and authorial choices.",
+          "skills": [
+            {
+              "description": "Compare characteristics of expository, technical, and persuasive texts.",
+              "keywords": [
+                "text types",
+                "expository",
+                "technical",
+                "persuasive"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand differences in purpose, format, and text structure among text types.",
+              "keywords": [
+                "text structure",
+                "text format",
+                "authorial purpose"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze an author's word choice and use of rhetorical devices.",
+              "keywords": [
+                "word choice",
+                "rhetorical devices",
+                "authorial style"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand how rhetorical devices persuade or convince an audience.",
+              "keywords": [
+                "persuasion",
+                "rhetorical devices",
+                "audience engagement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze how authors use rhetorical devices to create ethos, logos, and pathos.",
+              "keywords": [
+                "ethos",
+                "logos",
+                "pathos",
+                "rhetorical appeals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand the impact of rhetorical devices on the reader.",
+              "keywords": [
+                "reader response",
+                "persuasive techniques",
+                "textual impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "9.RI.3",
+          "description": "Compare perspectives and evaluate the clarity and accuracy of informational texts.",
+          "skills": [
+            {
+              "description": "Compare the perspectives and viewpoints of two or more authors regarding the same or similar topics.",
+              "keywords": [
+                "author comparison",
+                "perspective analysis",
+                "textual viewpoint"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand the details authors include and emphasize in their respective accounts.",
+              "keywords": [
+                "textual emphasis",
+                "authorial perspective",
+                "textual details"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understand the impact of each author's qualifications on their writing.",
+              "keywords": [
+                "authorial credibility",
+                "qualifications",
+                "textual authority"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the clarity and accuracy of information found in informational texts.",
+              "keywords": [
+                "textual accuracy",
+                "clarity evaluation",
+                "information verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Corroborate or challenge conclusions with other sources of information.",
+              "keywords": [
+                "source corroboration",
+                "information verification",
+                "counterarguments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Writing",
+      "standards": [
+        {
+          "code": "9.W.1",
+          "description": "Write extended pieces for diverse audiences and purposes with clear organization and evidence.",
+          "skills": [
+            {
+              "description": "Write extended pieces that introduce a topic clearly by providing context and previewing what follows.",
+              "keywords": [
+                "topic introduction",
+                "contextual framing",
+                "writing structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Present well-defined theses in writing.",
+              "keywords": [
+                "thesis statement",
+                "central claim",
+                "writing purpose"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Adopt an organizational structure that clarifies relationships among ideas and concepts.",
+              "keywords": [
+                "organizational structure",
+                "idea relationships",
+                "writing coherence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop the topic through sustained use of significant and relevant facts, concrete details, quotations, or other information.",
+              "keywords": [
+                "topic development",
+                "textual evidence",
+                "concrete details"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use multiple authoritative sources appropriate to the audience's knowledge.",
+              "keywords": [
+                "source integration",
+                "authoritative sources",
+                "audience adaptation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Provide a concluding section that follows from the information or explanation presented.",
+              "keywords": [
+                "conclusion",
+                "textual synthesis",
+                "writing closure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write reflectively in response to readings, comparing two or more texts with details and examples.",
+              "keywords": [
+                "reflective writing",
+                "text comparison",
+                "textual evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop flexibility in writing by producing shorter and longer pieces for a range of tasks, purposes, and audiences.",
+              "keywords": [
+                "writing flexibility",
+                "task adaptation",
+                "audience adaptation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "9.W.2",
+          "description": "Plan, organize, and revise writing to address specific audiences and purposes using the writing process.",
+          "skills": [
+            {
+              "description": "Plan and organize writing to address a specific audience and purpose using the writing process.",
+              "keywords": [
+                "writing process",
+                "audience adaptation",
+                "writing planning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compose a thesis statement that clearly communicates the writer's position or assertion.",
+              "keywords": [
+                "thesis composition",
+                "central claim",
+                "writing clarity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Establish, support, and maintain a central idea with evidence throughout a piece of writing.",
+              "keywords": [
+                "central idea",
+                "evidence integration",
+                "writing unity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Organize ideas in a logical sequence to exhibit unity.",
+              "keywords": [
+                "logical organization",
+                "writing coherence",
+                "idea sequencing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use transitions, precise vocabulary, and sentence variety to create a cohesive structure.",
+              "keywords": [
+                "transitions",
+                "vocabulary precision",
+                "sentence variety",
+                "cohesive writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Show relationships between arguments, evidence, and ideas.",
+              "keywords": [
+                "argumentation",
+                "evidence integration",
+                "idea relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use background knowledge to expand ideas and add depth.",
+              "keywords": [
+                "idea expansion",
+                "background knowledge",
+                "textual depth"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Utilize reference materials when necessary.",
+              "keywords": [
+                "reference materials",
+                "research support",
+                "writing accuracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and address counterarguments and provide a rebuttal where appropriate.",
+              "keywords": [
+                "counterarguments",
+                "rebuttal",
+                "argumentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "9.W.3",
+          "description": "Revise and edit writing for clarity, accuracy, and conventions.",
+          "skills": [
+            {
+              "description": "Revise writing for clarity of content, accuracy, and adequate elaboration.",
+              "keywords": [
+                "writing revision",
+                "content clarity",
+                "textual accuracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use peer- and self-evaluation to edit writing for clarity and quality of information.",
+              "keywords": [
+                "peer evaluation",
+                "self-evaluation",
+                "writing editing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Address strengths and make suggestions regarding how writing might be improved.",
+              "keywords": [
+                "writing feedback",
+                "strengths identification",
+                "improvement suggestions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Edit writing for appropriate conventions, style, and language.",
+              "keywords": [
+                "writing conventions",
+                "style editing",
+                "language precision"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Language Usage",
+      "standards": [
+        {
+          "code": "9.LU.1",
+          "description": "Use conventions of Standard English grammar and sentence structure in speaking and writing.",
+          "skills": [
+            {
+              "description": "Use parallel structure across sentences and paragraphs to link and compare/contrast ideas.",
+              "keywords": [
+                "parallel structure",
+                "sentence variety",
+                "idea comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Craft and apply a variety of sentence structures to infuse sentence variety in writing.",
+              "keywords": [
+                "sentence variety",
+                "sentence structure",
+                "writing craft"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use and apply the active and passive voice as appropriate when speaking and writing.",
+              "keywords": [
+                "active voice",
+                "passive voice",
+                "grammatical voice"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use appositives and main and subordinate clauses to convey and clarify a message.",
+              "keywords": [
+                "appositives",
+                "clause structure",
+                "message clarity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Maintain consistent verb tense when speaking and writing.",
+              "keywords": [
+                "verb tense consistency",
+                "grammatical accuracy",
+                "tense agreement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "9.LU.2",
+          "description": "Apply conventions of Standard English mechanics and citation in writing.",
+          "skills": [
+            {
+              "description": "Use commas and semicolons to distinguish and divide main and subordinate clauses.",
+              "keywords": [
+                "comma usage",
+                "semicolon usage",
+                "clause division"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Link two or more closely related independent clauses using punctuation.",
+              "keywords": [
+                "clause linking",
+                "independent clauses",
+                "punctuation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply a style manual, such as MLA or APA, to apply rules for citing sources.",
+              "keywords": [
+                "MLA",
+                "APA",
+                "source citation",
+                "style manual"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Spell correctly, consulting reference materials to check as needed.",
+              "keywords": [
+                "spelling accuracy",
+                "reference materials",
+                "proofreading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Communication and Multimodal Literacies",
+      "standards": [
+        {
+          "code": "9.C.1",
+          "description": "Facilitate and contribute to collaborative discussions with diverse partners.",
+          "skills": [
+            {
+              "description": "Facilitate and contribute to sustained collaborative discussions with diverse partners on grade nine topics and texts.",
+              "keywords": [
+                "collaborative discussion",
+                "diverse partners",
+                "sustained dialogue"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply a variety of strategies to listen actively and speak purposefully and respectfully.",
+              "keywords": [
+                "active listening",
+                "purposeful speaking",
+                "respectful communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Set guidelines for group presentations and discussions.",
+              "keywords": [
+                "group guidelines",
+                "discussion norms",
+                "presentation rules"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Incorporate all group members in the development of new understandings, making decisions, and solving problems.",
+              "keywords": [
+                "group inclusion",
+                "collaborative decision-making",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Set clear goals and deadlines and define individual roles as needed.",
+              "keywords": [
+                "goal setting",
+                "deadline management",
+                "role definition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Respond thoughtfully and tactfully with evidence to diverse perspectives.",
+              "keywords": [
+                "perspective response",
+                "evidence-based argument",
+                "tactful communication"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Summarize points of agreement and disagreement.",
+              "keywords": [
+                "summary",
+                "agreement points",
+                "disagreement points"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use reflection to evaluate one's own role and the process in paired or small-group activities.",
+              "keywords": [
+                "self-reflection",
+                "group process evaluation",
+                "collaborative reflection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "9.C.2",
+          "description": "Present ideas orally with appropriate vocabulary, tone, and structure.",
+          "skills": [
+            {
+              "description": "Report orally on a topic or text or present an opinion.",
+              "keywords": [
+                "oral presentation",
+                "topic reporting",
+                "opinion presentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Choose vocabulary, language, and tone appropriate to the topic, audience, and purpose.",
+              "keywords": [
+                "vocabulary selection",
+                "audience adaptation",
+                "tone appropriateness"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use listening and speaking strategies effectively with awareness of verbal and nonverbal cues.",
+              "keywords": [
+                "listening strategies",
+                "speaking strategies",
+                "nonverbal cues"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the effectiveness of one's presentation, including introduction, central idea, organization, and conclusion.",
+              "keywords": [
+                "presentation analysis",
+                "introduction",
+                "central idea",
+                "organization",
+                "conclusion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Memorize and accurately recite a short selection from a longer text demonstrating inflection and meaningful expression.",
+              "keywords": [
+                "text recitation",
+                "inflection",
+                "meaningful expression"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "9.C.3",
+          "description": "Create and analyze multimodal messages for diverse audiences and purposes.",
+          "skills": [
+            {
+              "description": "Make strategic use of multimodal tools.",
+              "keywords": [
+                "multimodal tools",
+                "strategic use",
+                "media integration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Monitor, analyze, and use multiple streams of simultaneous information.",
+              "keywords": [
+                "multimodal analysis",
+                "simultaneous information",
+                "media literacy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create media messages for diverse audiences and purposes.",
+              "keywords": [
+                "media creation",
+                "audience adaptation",
+                "message design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "9.C.4",
+          "description": "Analyze media messages for purpose, techniques, and impact.",
+          "skills": [
+            {
+              "description": "Determine the purpose of the media message and its effect on the audience.",
+              "keywords": [
+                "media purpose",
+                "audience effect",
+                "message analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the persuasive techniques used in diverse media formats.",
+              "keywords": [
+                "persuasive techniques",
+                "media analysis",
+                "advertising techniques"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the credibility, word choice, viewpoints, and bias in media presentations.",
+              "keywords": [
+                "media credibility",
+                "word choice",
+                "bias evaluation",
+                "viewpoint analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine how values and viewpoints are included or excluded in media messages.",
+              "keywords": [
+                "media values",
+                "viewpoint inclusion",
+                "message framing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate sources including advertisements, editorials, political cartoons, and feature stories for relationships between intent and factual content.",
+              "keywords": [
+                "source evaluation",
+                "media intent",
+                "factual content",
+                "editorials",
+                "political cartoons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify possible cause and effect relationships between mass media coverage and public opinion trends.",
+              "keywords": [
+                "media influence",
+                "public opinion",
+                "cause and effect"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research",
+      "standards": [
+        {
+          "code": "9.R.1",
+          "description": "Conduct research and synthesize information from multiple sources to build knowledge.",
+          "skills": [
+            {
+              "description": "Formulate and revise questions about a research topic, broadening or narrowing the inquiry as necessary.",
+              "keywords": [
+                "research questions",
+                "topic refinement",
+                "inquiry development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather and organize information from various sources, including internet resources and electronic databases.",
+              "keywords": [
+                "information gathering",
+                "source organization",
+                "digital research"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze and evaluate primary and secondary sources for credibility, reliability, accuracy, and usefulness.",
+              "keywords": [
+                "source evaluation",
+                "credibility assessment",
+                "reliability analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify main and supporting ideas, points of view, conflicting information, and misconceptions or biases in sources.",
+              "keywords": [
+                "textual analysis",
+                "source bias",
+                "conflicting information",
+                "misconceptions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Synthesize multiple streams of information to support claims and introduce counterclaims.",
+              "keywords": [
+                "information synthesis",
+                "claim support",
+                "counterclaims"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create research products aligned with the demands of the reading and writing standards.",
+              "keywords": [
+                "research products",
+                "writing alignment",
+                "textual demands"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Cite sources for quoted and paraphrased ideas using a standard method of documentation, such as MLA or APA.",
+              "keywords": [
+                "source citation",
+                "MLA",
+                "APA",
+                "documentation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define plagiarism's meaning and legal consequences and follow ethical and legal guidelines for gathering and using information.",
+              "keywords": [
+                "plagiarism",
+                "ethical guidelines",
+                "legal consequences",
+                "source ethics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate ethical and responsible use of all sources, including the Internet, AI, and new technologies.",
+              "keywords": [
+                "ethical research",
+                "source responsibility",
+                "digital ethics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

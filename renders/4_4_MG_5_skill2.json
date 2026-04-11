@@ -1,0 +1,176 @@
+{
+  "key": "4_4_MG_5_skill2",
+  "grade": "4",
+  "code": "4.MG.5",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 4 Math",
+  "desc": "Classify and describe quadrilaterals using specific properties and attributes.",
+  "skill_desc": "Identify and describe points, line segments, angles, and vertices in quadrilaterals.",
+  "skill_idx": 1,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/4_4_MG_5_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(4,3),(0,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "r1",
+        "latex": "\\operatorname{polygon}((0,0),(0,0.4),(0.4,0))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "r2",
+        "latex": "\\operatorname{polygon}((4,0),(4,0.4),(3.6,0))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "r3",
+        "latex": "\\operatorname{polygon}((4,3),(4,2.6),(3.6,3))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "r4",
+        "latex": "\\operatorname{polygon}((0,3),(0,2.6),(0.4,3))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Quadrilateral"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Vertex A\")",
+      "SetLabelMode(A, 3)",
+      "B = (4, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"Vertex B\")",
+      "SetLabelMode(B, 3)",
+      "C = (4, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"Vertex C\")",
+      "SetLabelMode(C, 3)",
+      "D = (0, 3)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"Vertex D\")",
+      "SetLabelMode(D, 3)",
+      "quad = Polygon(A, B, C, D)",
+      "SetColor(quad, 0, 122, 255)",
+      "Angle(quad)",
+      "segAB = Segment(A, B)",
+      "SetColor(segAB, 255, 0, 0)",
+      "segBC = Segment(B, C)",
+      "SetColor(segBC, 0, 255, 0)",
+      "segCD = Segment(C, D)",
+      "SetColor(segCD, 0, 0, 255)",
+      "segDA = Segment(D, A)",
+      "SetColor(segDA, 255, 255, 0)"
+    ],
+    "view": [
+      -1,
+      5,
+      -1,
+      4
+    ],
+    "showGrid": true,
+    "title": "Quadrilateral with labeled vertices and sides"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (3, 2)",
+      "C = (5, 1)",
+      "D = (4, 3)",
+      "Polygon(A, B, C, D)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 x\u00e1c \u0111\u1ecbnh v\u00e0 m\u00f4 t\u1ea3 c\u00e1c \u0111i\u1ec3m, \u0111o\u1ea1n th\u1eb3ng, g\u00f3c v\u00e0 \u0111\u1ec9nh trong t\u1ee9 gi\u00e1c, ch\u00fang ta s"
+  }
+}

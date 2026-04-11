@@ -1,0 +1,133 @@
+{
+  "key": "2_2_NS_2_skill4",
+  "grade": "2",
+  "code": "2.NS.2",
+  "domain": "Number and Number Sense",
+  "course": "Grade 2 Math",
+  "desc": "Demonstrate understanding of the ten-to-one relationships of the base 10 number system to represent, compare, and order whole numbers up to 999.",
+  "skill_desc": "Investigate and explain the ten-to-one relationships among ones, tens, and hundreds using models.",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/2_2_NS_2_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "col1",
+            "latex": "x",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          },
+          {
+            "id": "col2",
+            "latex": "y",
+            "values": [
+              "10",
+              "20",
+              "30",
+              "40",
+              "50",
+              "60",
+              "70",
+              "80",
+              "90",
+              "100"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "y=10x",
+        "color": "#FF3B30",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "type": "table",
+        "id": "e3",
+        "columns": [
+          {
+            "id": "col1",
+            "latex": "x",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          },
+          {
+            "id": "col2",
+            "latex": "y",
+            "values": [
+              "100",
+              "200",
+              "300",
+              "400",
+              "500",
+              "600",
+              "700",
+              "800",
+              "900",
+              "1000"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e4",
+        "latex": "y=100x",
+        "color": "#FF9500",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -10,
+      "right": 11,
+      "top": 1100
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Base 10 Relationships"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

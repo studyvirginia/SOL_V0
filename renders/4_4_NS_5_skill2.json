@@ -1,0 +1,139 @@
+{
+  "key": "4_4_NS_5_skill2",
+  "grade": "4",
+  "code": "4.NS.5",
+  "domain": "Number and Number Sense",
+  "course": "Grade 4 Math",
+  "desc": "Identify and represent equivalencies between fractions and decimals limited to halves, fourths, fifths, tenths, and hundredths.",
+  "skill_desc": "Identify and model equivalent relationships between fractions and decimals using halves, fourths, fifths, tenths, and hundredths.",
+  "skill_idx": 1,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/4_4_NS_5_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{1}{2}",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0.5, 0.5)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "label": "0.5",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=\\frac{1}{4}",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(0.25, 0.25)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "label": "0.25",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=\\frac{1}{5}",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(0.2, 0.2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "label": "0.2",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=\\frac{1}{10}",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0.1, 0.1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "label": "0.1",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "y=\\frac{1}{100}",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(0.01, 0.01)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "label": "0.01",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 1,
+      "top": 1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Fraction-Decimal Equivalencies"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

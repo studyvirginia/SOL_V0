@@ -1,0 +1,176 @@
+{
+  "key": "7_7_MG_1_skill3",
+  "grade": "7",
+  "code": "7.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 7 Math",
+  "desc": "Investigate and apply volume and surface area formulas for right cylinders and rectangular prisms.",
+  "skill_desc": "Determine if a contextual problem involving a rectangular prism or right cylinder represents volume or surface area.",
+  "skill_idx": 2,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/7_7_MG_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(4,3),(0,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "\\operatorname{polygon}((3.6,0),(4,0),(4,0.4))",
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "\\operatorname{polygon}((4,2.6),(4,3),(3.6,3))",
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Rectangular Prism"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "prismBase = Polygon((0,0), (4,0), (4,3), (0,3))",
+      "SetColor(prismBase, 0, 122, 255)",
+      "SetOpacity(prismBase, 0.5)",
+      "prismTop = Translate(prismBase, (0, 5))",
+      "SetColor(prismTop, 0, 122, 255)",
+      "SetOpacity(prismTop, 0.5)",
+      "side1 = Polygon((0,0), (0,3), (0,8), (0,5))",
+      "SetColor(side1, 0, 122, 255)",
+      "SetOpacity(side1, 0.5)",
+      "side2 = Polygon((4,0), (4,3), (4,8), (4,5))",
+      "SetColor(side2, 0, 122, 255)",
+      "SetOpacity(side2, 0.5)",
+      "side3 = Polygon((0,3), (4,3), (4,8), (0,8))",
+      "SetColor(side3, 0, 122, 255)",
+      "SetOpacity(side3, 0.5)",
+      "side4 = Polygon((0,0), (4,0), (4,5), (0,5))",
+      "SetColor(side4, 0, 122, 255)",
+      "SetOpacity(side4, 0.5)",
+      "A = (1, 1.5)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Area of Base\")",
+      "SetLabelMode(A, 3)",
+      "B = (2, 6.5)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"Height\")",
+      "SetLabelMode(B, 3)",
+      "C = (2, 2.5)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"Volume\")",
+      "SetLabelMode(C, 3)"
+    ],
+    "view": [
+      -1,
+      5,
+      -1,
+      9
+    ],
+    "showGrid": true,
+    "title": "Rectangular Prism Volume vs. Surface Area"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "B = (4, 0)",
+      "C = (4, 3)",
+      "D = (0, 3)",
+      "E = (0, -2)",
+      "F = (4, -2)",
+      "G = (4, 1)",
+      "H = (0, 1)",
+      "Polygon(A, B, C, D)",
+      "Polygon(E, F, G, H)",
+      "Segment(A, E)",
+      "Segment(B, F)",
+      "Segment(C, G)",
+      "Segment(D, H)",
+      "O = (6, 0)",
+      "r = 2",
+      "Circle(O, r)",
+      "h = 5",
+      "P = (8, 0)",
+      "Q = (8, h)",
+      "Segment(P, Q)",
+      "R = (12, 0)",
+      "S = (12, h)",
+      "Segment(R, S)",
+      "Segment(O, P)",
+      "Translate(Circle(O, r), Vector(P, Q))"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "I can create a rectangular prism and a right cylinder. However, I cannot determi"
+  }
+}

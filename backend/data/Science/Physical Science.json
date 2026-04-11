@@ -1,0 +1,563 @@
+{
+  "subject": "Science",
+  "course": "Physical Science",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "PS.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, analysis, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions that require empirical evidence to answer.",
+              "keywords": [
+                "empirical evidence",
+                "scientific questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop hypotheses indicating relationships between independent and dependent variables.",
+              "keywords": [
+                "hypothesis",
+                "independent variable",
+                "dependent variable"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Offer simple solutions to design problems.",
+              "keywords": [
+                "design solutions",
+                "engineering design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Independently and collaboratively plan and conduct observational and experimental investigations; identify variables, constants, and controls where appropriate.",
+              "keywords": [
+                "investigations",
+                "variables",
+                "constants",
+                "controls"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the accuracy of various methods for collecting data.",
+              "keywords": [
+                "data collection methods",
+                "accuracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Take metric measurements using appropriate tools and technologies.",
+              "keywords": [
+                "metric measurements",
+                "tools",
+                "technologies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas or principles to design, construct, and/or test a design of an object, tool, process, or system.",
+              "keywords": [
+                "scientific principles",
+                "design",
+                "testing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variable",
+                "dependent variable",
+                "repeated trials",
+                "means"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data and consider limitations of data analysis.",
+              "keywords": [
+                "graphical displays",
+                "data analysis",
+                "limitations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes to scientific questions.",
+              "keywords": [
+                "mathematical concepts",
+                "scientific questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to evaluate and refine design solutions to best meet criteria.",
+              "keywords": [
+                "data evaluation",
+                "design solutions",
+                "criteria"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct scientific explanations based on valid and reliable evidence obtained from sources.",
+              "keywords": [
+                "scientific explanations",
+                "evidence",
+                "sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct arguments supported by empirical evidence and scientific reasoning.",
+              "keywords": [
+                "arguments",
+                "empirical evidence",
+                "scientific reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate and compare multiple solutions to problems based on how well they meet the criteria and constraints.",
+              "keywords": [
+                "solutions",
+                "criteria",
+                "constraints"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between a scientific hypothesis, theory, and law.",
+              "keywords": [
+                "hypothesis",
+                "theory",
+                "law"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, develop, and use models and simulations to illustrate and/or explain observable and unobservable phenomena.",
+              "keywords": [
+                "models",
+                "simulations",
+                "phenomena"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate limitations of models.",
+              "keywords": [
+                "model limitations",
+                "evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read scientific texts to determine the central idea and/or obtain scientific and/or technical information.",
+              "keywords": [
+                "scientific texts",
+                "central idea",
+                "technical information"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and synthesize information from multiple appropriate sources and assess the credibility, accuracy, and possible bias of each publication.",
+              "keywords": [
+                "information synthesis",
+                "credibility",
+                "accuracy",
+                "bias"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, use, and/or present an oral and written argument supported by empirical evidence and scientific reasoning.",
+              "keywords": [
+                "oral argument",
+                "written argument",
+                "empirical evidence",
+                "scientific reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Atomic Structure and Matter",
+      "standards": [
+        {
+          "code": "PS.2",
+          "description": "Investigate and understand that matter is composed of atoms and how atomic understanding has evolved.",
+          "skills": [
+            {
+              "description": "Investigate and understand that matter is composed of atoms.",
+              "keywords": [
+                "matter",
+                "atoms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that our understanding of atoms has developed over time.",
+              "keywords": [
+                "atomic theory",
+                "historical development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use the periodic table to predict the chemical and physical properties of matter.",
+              "keywords": [
+                "periodic table",
+                "chemical properties",
+                "physical properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use the kinetic molecular theory to predict and explain matter interactions.",
+              "keywords": [
+                "kinetic molecular theory",
+                "matter interactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Properties of Matter and Conservation",
+      "standards": [
+        {
+          "code": "PS.3",
+          "description": "Investigate and understand that matter has properties and is conserved in chemical and physical processes.",
+          "skills": [
+            {
+              "description": "Identify pure substances based on their chemical and physical properties.",
+              "keywords": [
+                "pure substances",
+                "chemical properties",
+                "physical properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe physical and chemical changes that may result in a change of properties.",
+              "keywords": [
+                "physical changes",
+                "chemical changes",
+                "property changes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how compounds form through ionic and covalent bonding.",
+              "keywords": [
+                "compounds",
+                "ionic bonding",
+                "covalent bonding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use balanced chemical equations to model the conservation of matter.",
+              "keywords": [
+                "balanced chemical equations",
+                "conservation of matter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Periodic Table as a Model",
+      "standards": [
+        {
+          "code": "PS.4",
+          "description": "Investigate and understand the periodic table as a model for organizing elements based on atomic structure.",
+          "skills": [
+            {
+              "description": "Identify symbols, atomic numbers, atomic mass, chemical groups (families), and periods on the periodic table.",
+              "keywords": [
+                "periodic table",
+                "symbols",
+                "atomic numbers",
+                "atomic mass",
+                "chemical groups",
+                "periods"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Classify elements as metals, metalloids, and nonmetals.",
+              "keywords": [
+                "element classification",
+                "metals",
+                "metalloids",
+                "nonmetals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy and Conservation",
+      "standards": [
+        {
+          "code": "PS.5",
+          "description": "Investigate and understand that energy is conserved and can be stored, transferred, and transformed.",
+          "skills": [
+            {
+              "description": "Describe ways energy can be stored.",
+              "keywords": [
+                "energy storage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how energy is transferred and transformed.",
+              "keywords": [
+                "energy transfer",
+                "energy transformation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how energy can be transformed to meet societal needs.",
+              "keywords": [
+                "energy transformation",
+                "societal needs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Waves and Energy Transfer",
+      "standards": [
+        {
+          "code": "PS.6",
+          "description": "Investigate and understand that waves are important in the movement of energy.",
+          "skills": [
+            {
+              "description": "Describe how energy may be transferred in the form of longitudinal and transverse waves.",
+              "keywords": [
+                "longitudinal waves",
+                "transverse waves",
+                "energy transfer"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain that mechanical waves need a medium to transfer energy.",
+              "keywords": [
+                "mechanical waves",
+                "medium",
+                "energy transfer"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how waves can interact.",
+              "keywords": [
+                "wave interactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain applications of energy associated with waves.",
+              "keywords": [
+                "wave energy",
+                "applications"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electromagnetic Radiation",
+      "standards": [
+        {
+          "code": "PS.7",
+          "description": "Investigate and understand the characteristics of electromagnetic radiation.",
+          "skills": [
+            {
+              "description": "Describe how electromagnetic radiation, including visible light, has wave characteristics and behavior.",
+              "keywords": [
+                "electromagnetic radiation",
+                "visible light",
+                "wave characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how regions of the electromagnetic spectrum have specific characteristics and uses.",
+              "keywords": [
+                "electromagnetic spectrum",
+                "spectrum regions",
+                "characteristics",
+                "uses"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Work, Force, and Motion",
+      "standards": [
+        {
+          "code": "PS.8",
+          "description": "Investigate and understand the relationship between work, force, and motion.",
+          "skills": [
+            {
+              "description": "Describe motion using position and time.",
+              "keywords": [
+                "motion",
+                "position",
+                "time"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain motion using Newton’s laws.",
+              "keywords": [
+                "Newton’s laws",
+                "motion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electricity and Magnetism",
+      "standards": [
+        {
+          "code": "PS.9",
+          "description": "Investigate and understand basic principles of electricity and magnetism.",
+          "skills": [
+            {
+              "description": "Explain how an imbalance of charge generates static electricity.",
+              "keywords": [
+                "static electricity",
+                "charge imbalance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how materials have different conductive properties.",
+              "keywords": [
+                "conductive properties",
+                "materials"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how electric circuits transfer energy.",
+              "keywords": [
+                "electric circuits",
+                "energy transfer"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how magnetic fields cause the magnetic effects of certain materials.",
+              "keywords": [
+                "magnetic fields",
+                "magnetic effects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the relationship between electric current and magnetic fields.",
+              "keywords": [
+                "electric current",
+                "magnetic fields"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe technologies that use electricity and magnetism.",
+              "keywords": [
+                "technologies",
+                "electricity",
+                "magnetism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

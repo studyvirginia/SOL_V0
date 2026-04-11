@@ -1,0 +1,815 @@
+{
+  "subject": "Math",
+  "course": "Probability and Statistics",
+  "domains": [
+    {
+      "name": "Data in Context",
+      "standards": [
+        {
+          "code": "PS.DC.1",
+          "description": "Use a statistical cycle to formulate questions, describe data types, sources, and constraints within a problem context.",
+          "skills": [
+            {
+              "description": "Define the stages of the statistical cycle and explain their relationships.",
+              "keywords": [
+                "statistical cycle",
+                "stages",
+                "formulate questions",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Formulate questions and conclusions based on contextual data.",
+              "keywords": [
+                "contextual questions",
+                "conclusions",
+                "data context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between quantitative and categorical data types.",
+              "keywords": [
+                "quantitative data",
+                "categorical data",
+                "data types"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast population vs. sample, and parameter vs. statistic.",
+              "keywords": [
+                "population",
+                "sample",
+                "parameter",
+                "statistic"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain constraints of a statistical approach.",
+              "keywords": [
+                "statistical constraints",
+                "limitations",
+                "contextual constraints"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "PS.DC.2",
+          "description": "Compare and contrast data collection methods to plan and conduct an observational study.",
+          "skills": [
+            {
+              "description": "Investigate and describe sampling techniques (e.g., simple random, stratified, systematic, cluster sampling).",
+              "keywords": [
+                "sampling techniques",
+                "simple random sampling",
+                "stratified sampling",
+                "systematic sampling",
+                "cluster sampling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the most appropriate sampling technique for a given context.",
+              "keywords": [
+                "sampling technique selection",
+                "contextual appropriateness"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain biases inherent in sampling methods and response bias.",
+              "keywords": [
+                "sampling bias",
+                "response bias",
+                "biased influences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an observational study using the statistical cycle.",
+              "keywords": [
+                "observational study",
+                "statistical cycle",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "PS.DC.3",
+          "description": "Utilize principles of experimental design to plan and conduct a well-designed experiment.",
+          "skills": [
+            {
+              "description": "Describe principles of experimental design: treatment/control groups, blinding/placebo effects, experimental units/subjects, blocking/matched pairs, and completely randomized designs.",
+              "keywords": [
+                "experimental design",
+                "treatment groups",
+                "control groups",
+                "blinding",
+                "placebo effects",
+                "experimental units",
+                "blocking",
+                "matched pairs",
+                "randomized design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate experimental design principles for comparison, randomization, replication, and control within a problem context.",
+              "keywords": [
+                "comparison",
+                "randomization",
+                "replication",
+                "control",
+                "experimental design evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare controlled experiments and observational studies and the conclusions they support.",
+              "keywords": [
+                "controlled experiments",
+                "observational studies",
+                "conclusions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct a well-designed experiment using the statistical cycle.",
+              "keywords": [
+                "experiment design",
+                "statistical cycle",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select an appropriate data collection method for a given context.",
+              "keywords": [
+                "data collection method",
+                "contextual selection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Descriptive Statistics",
+      "standards": [
+        {
+          "code": "PS.DS.1",
+          "description": "Represent and analyze univariate quantitative data visualizations to identify patterns and departures.",
+          "skills": [
+            {
+              "description": "Create and interpret graphical displays of univariate quantitative data (dot plots, stemplots, boxplots, cumulative frequency graphs, histograms) using technology.",
+              "keywords": [
+                "graphical displays",
+                "univariate data",
+                "dot plots",
+                "stemplots",
+                "boxplots",
+                "cumulative frequency graphs",
+                "histograms",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze graphs by identifying shape, measures of center, spread, and unusual features (outliers, clusters, gaps).",
+              "keywords": [
+                "graph analysis",
+                "shape",
+                "measures of center",
+                "spread",
+                "outliers",
+                "clusters",
+                "gaps"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "PS.DS.2",
+          "description": "Represent and analyze numerical characteristics of univariate quantitative data sets.",
+          "skills": [
+            {
+              "description": "Interpret measures of central tendency: mean, median, and mode.",
+              "keywords": [
+                "central tendency",
+                "mean",
+                "median",
+                "mode"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret measures of spread: range, interquartile range, variance, and standard deviation.",
+              "keywords": [
+                "spread",
+                "range",
+                "interquartile range",
+                "variance",
+                "standard deviation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify possible outliers using an algorithm.",
+              "keywords": [
+                "outliers",
+                "outlier detection",
+                "algorithm"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and explain the influence of outliers on a univariate data set.",
+              "keywords": [
+                "outlier influence",
+                "univariate data"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how standard deviation addresses variability by examining its formula.",
+              "keywords": [
+                "standard deviation",
+                "variability",
+                "formula"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "PS.DS.3",
+          "description": "Represent, compare, and analyze distributions of two or more univariate quantitative data sets.",
+          "skills": [
+            {
+              "description": "Create graphical displays of data (back-to-back stemplots, parallel dot plots, parallel boxplots, histograms) using technology.",
+              "keywords": [
+                "graphical displays",
+                "back-to-back stemplots",
+                "parallel dot plots",
+                "parallel boxplots",
+                "histograms",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast two or more univariate data sets by analyzing shape, measures of center, spread, and unusual features.",
+              "keywords": [
+                "data comparison",
+                "shape",
+                "measures of center",
+                "spread",
+                "unusual features"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "PS.DS.4",
+          "description": "Represent and analyze categorical data using two-way tables and graphical displays.",
+          "skills": [
+            {
+              "description": "Create and interpret graphical displays of univariate categorical data (bar graphs) using technology.",
+              "keywords": [
+                "categorical data",
+                "bar graphs",
+                "univariate data",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create and interpret graphical displays comparing distributions of two or more univariate categorical data sets (segmented and side-by-side bar graphs) using technology.",
+              "keywords": [
+                "categorical data comparison",
+                "segmented bar graphs",
+                "side-by-side bar graphs",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate and interpret a two-way table summarizing information from two categorical variables.",
+              "keywords": [
+                "two-way table",
+                "categorical variables",
+                "data summary"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret marginal, relative, and conditional frequencies from a two-way table.",
+              "keywords": [
+                "marginal frequencies",
+                "relative frequencies",
+                "conditional frequencies",
+                "two-way table"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "PS.DS.5",
+          "description": "Represent and analyze quantitative bivariate data with scatterplots to identify relationships.",
+          "skills": [
+            {
+              "description": "Create scatterplots using technology.",
+              "keywords": [
+                "scatterplots",
+                "bivariate data",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine scatterplots by analyzing form (linear/nonlinear), direction (positive/negative/no association), strength (strong/moderate/weak), and unusual features (clusters, gaps, influential points, outliers).",
+              "keywords": [
+                "scatterplot analysis",
+                "form",
+                "direction",
+                "strength",
+                "unusual features",
+                "clusters",
+                "gaps",
+                "influential points",
+                "outliers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "PS.DS.6",
+          "description": "Create and interpret a linear model using the least squares regression method to assess relationships.",
+          "skills": [
+            {
+              "description": "Create a least squares regression model using technology and interpret the contextual meaning of slope and y-intercept.",
+              "keywords": [
+                "least squares regression",
+                "slope",
+                "y-intercept",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret the correlation coefficient (r) using technology.",
+              "keywords": [
+                "correlation coefficient",
+                "r",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret the coefficient of determination (r²) using technology.",
+              "keywords": [
+                "coefficient of determination",
+                "r²",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use regression lines to make predictions and identify limitations (e.g., extrapolation).",
+              "keywords": [
+                "regression predictions",
+                "extrapolation",
+                "limitations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret a residual to understand prediction error.",
+              "keywords": [
+                "residuals",
+                "prediction error"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret the standard deviation of the residuals (s) using technology.",
+              "keywords": [
+                "standard deviation of residuals",
+                "s",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability",
+      "standards": [
+        {
+          "code": "PS.P.1",
+          "description": "Organize information and apply probability rules to compute event probabilities.",
+          "skills": [
+            {
+              "description": "Determine whether events are complementary, dependent, independent, and/or mutually exclusive, and compute their probabilities.",
+              "keywords": [
+                "complementary events",
+                "dependent events",
+                "independent events",
+                "mutually exclusive events",
+                "probability computation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and calculate probabilities using Venn diagrams, tree diagrams, and two-way tables.",
+              "keywords": [
+                "Venn diagrams",
+                "tree diagrams",
+                "two-way tables",
+                "probability representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply the addition rule, multiplication rule, and complementary rule to calculate probabilities.",
+              "keywords": [
+                "addition rule",
+                "multiplication rule",
+                "complementary rule",
+                "probability rules"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate conditional probabilities to determine event association or independence.",
+              "keywords": [
+                "conditional probability",
+                "event association",
+                "event independence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "PS.P.2",
+          "description": "Represent and interpret situations using discrete random distributions, including binomial distributions.",
+          "skills": [
+            {
+              "description": "Identify discrete random variables and create a table representing valid discrete probability distributions.",
+              "keywords": [
+                "discrete random variables",
+                "probability distributions",
+                "probability tables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret the mean (expected value) and standard deviation for a discrete random variable.",
+              "keywords": [
+                "mean",
+                "expected value",
+                "standard deviation",
+                "discrete random variable"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine if a discrete random variable satisfies binomial distribution conditions.",
+              "keywords": [
+                "binomial distribution",
+                "conditions",
+                "discrete random variable"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Design and conduct a simulation of a binomial distribution.",
+              "keywords": [
+                "binomial distribution simulation",
+                "simulation design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret probabilities from a binomial distribution.",
+              "keywords": [
+                "binomial probabilities",
+                "probability interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate the mean and standard deviation for binomial distributions.",
+              "keywords": [
+                "binomial mean",
+                "binomial standard deviation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the center, shape, and spread of a discrete random variable.",
+              "keywords": [
+                "center",
+                "shape",
+                "spread",
+                "discrete random variable"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "PS.P.3",
+          "description": "Represent and interpret situations using normal distributions.",
+          "skills": [
+            {
+              "description": "Compare and contrast discrete and continuous distributions.",
+              "keywords": [
+                "discrete distributions",
+                "continuous distributions",
+                "distribution comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent probability as the area under the curve of a normal distribution using the Empirical Rule and graphing technology.",
+              "keywords": [
+                "normal distribution",
+                "Empirical Rule",
+                "area under curve",
+                "graphing technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the center, shape, and spread of normal distributions.",
+              "keywords": [
+                "center",
+                "shape",
+                "spread",
+                "normal distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare two or more sets of normally distributed data using z-scores, percentiles, or probabilities.",
+              "keywords": [
+                "z-scores",
+                "percentiles",
+                "probabilities",
+                "normal distribution comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Standardize a data value from a normal distribution and interpret the z-score.",
+              "keywords": [
+                "z-score",
+                "standardization",
+                "normal distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret probabilities of a normal distribution using technology.",
+              "keywords": [
+                "normal distribution probabilities",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inferential Statistics",
+      "standards": [
+        {
+          "code": "PS.IS.1",
+          "description": "Apply properties of sampling distributions and inference procedures to make decisions about population proportions.",
+          "skills": [
+            {
+              "description": "Describe the shape, center, and spread of the sampling distribution of a proportion.",
+              "keywords": [
+                "sampling distribution",
+                "proportion",
+                "shape",
+                "center",
+                "spread"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct a one-sample z confidence interval: identify conditions (random sample, independence, normality), calculate using technology, and interpret the interval.",
+              "keywords": [
+                "one-sample z confidence interval",
+                "conditions",
+                "random sample",
+                "independence",
+                "normality",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how changes in confidence level and sample size affect interval width and margin of error.",
+              "keywords": [
+                "confidence level",
+                "sample size",
+                "interval width",
+                "margin of error"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret a point estimate and margin of error for a proportion confidence interval.",
+              "keywords": [
+                "point estimate",
+                "margin of error",
+                "proportion confidence interval"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how and why hypothesis testing allows statistical decision-making.",
+              "keywords": [
+                "hypothesis testing",
+                "statistical decision-making"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply one-sample z hypothesis testing: construct null and alternate hypotheses, identify conditions, calculate and interpret p-value, determine whether to reject the null hypothesis, and interpret results.",
+              "keywords": [
+                "one-sample z hypothesis testing",
+                "null hypothesis",
+                "alternate hypothesis",
+                "p-value",
+                "reject null hypothesis",
+                "interpret results"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct a statistical study about a proportion using the statistical cycle.",
+              "keywords": [
+                "statistical study",
+                "proportion",
+                "statistical cycle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "PS.IS.2",
+          "description": "Apply properties of sampling distributions and inference procedures to make decisions about populations.",
+          "skills": [
+            {
+              "description": "Describe the shape, center, and spread of the sampling distribution of a mean.",
+              "keywords": [
+                "sampling distribution",
+                "mean",
+                "shape",
+                "center",
+                "spread"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret a point estimate and margin of error for a mean confidence interval.",
+              "keywords": [
+                "point estimate",
+                "margin of error",
+                "mean confidence interval"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the use of the Central Limit Theorem in satisfying inference assumptions for a mean.",
+              "keywords": [
+                "Central Limit Theorem",
+                "inference assumptions",
+                "mean"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the properties of a t distribution.",
+              "keywords": [
+                "t distribution",
+                "properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct a one-sample t confidence interval: identify conditions (random sample, independence, approximate normality), calculate using technology, and interpret the interval.",
+              "keywords": [
+                "one-sample t confidence interval",
+                "conditions",
+                "random sample",
+                "independence",
+                "approximate normality",
+                "technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply one-sample t hypothesis testing: construct null and alternate hypotheses, identify conditions, calculate and interpret p-value, determine whether to reject the null hypothesis, and interpret results.",
+              "keywords": [
+                "one-sample t hypothesis testing",
+                "null hypothesis",
+                "alternate hypothesis",
+                "p-value",
+                "reject null hypothesis",
+                "interpret results"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

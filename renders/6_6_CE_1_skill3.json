@@ -1,0 +1,104 @@
+{
+  "key": "6_6_CE_1_skill3",
+  "grade": "6",
+  "code": "6.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 6 Math",
+  "desc": "Estimate, solve, and justify solutions to problems using operations with fractions and mixed numbers, including contextual problems.",
+  "skill_desc": "Investigate and explain the effect of multiplying or dividing a fraction, whole number, or mixed number by a number between zero and one.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_CE_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{1}{2}x",
+        "color": "#007AFF",
+        "label": "y = (1/2)x",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=x",
+        "color": "#FF3B30",
+        "label": "y = x",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=2x",
+        "color": "#34C759",
+        "label": "y = 2x",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "dragMode": "NONE",
+        "label": "Origin",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -2,
+      "bottom": -1,
+      "right": 4,
+      "top": 3
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Multiplying Fractions: y = (1/2)x, y = x, y = 2x"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = (1/2)*x",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = x",
+      "SetColor(g, 255, 0, 0)",
+      "h(x) = 2*x",
+      "SetColor(h, 0, 255, 0)",
+      "A = (2, 1)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"(2, 1)\")",
+      "SetLabelMode(A, 3)",
+      "B = (2, 2)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"(2, 2)\")",
+      "SetLabelMode(B, 3)",
+      "C = (2, 4)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"(2, 4)\")",
+      "SetLabelMode(C, 3)"
+    ],
+    "view": [
+      -1,
+      5,
+      -1,
+      5
+    ],
+    "showGrid": true,
+    "title": "Multiplying fractions and whole numbers"
+  },
+  "sketchmath_state": null
+}

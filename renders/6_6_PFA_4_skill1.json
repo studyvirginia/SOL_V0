@@ -1,0 +1,61 @@
+{
+  "key": "6_6_PFA_4_skill1",
+  "grade": "6",
+  "code": "6.PFA.4",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 6 Math",
+  "desc": "Represent a contextual situation using a linear inequality in one variable with symbols and graphs on a number line.",
+  "skill_desc": "Given the graph of a linear inequality in one variable on a number line, represent the inequality in two equivalent ways using symbols (<, >, \u2264, \u2265).",
+  "skill_idx": 0,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PFA_4_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "x\\geq 2",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(2,0)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "2",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear Inequality on a Number Line"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

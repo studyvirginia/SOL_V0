@@ -1,0 +1,1023 @@
+{
+  "subject": "English",
+  "course": "Grade 2 English",
+  "domains": [
+    {
+      "name": "Foundations for Reading",
+      "standards": [
+        {
+          "code": "2.FFR.2",
+          "description": "Phonological and Phonemic Awareness: The student will orally identify and produce various phonemes (individual sounds) within words to develop phonemic awareness in support of decoding (reading) and encoding (spelling).",
+          "skills": [
+            {
+              "description": "Isolate sounds in four and five phoneme words.",
+              "keywords": [
+                "isolate",
+                "sounds",
+                "phoneme",
+                "words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate the ability to blend words with four and five phonemes, including words with consonant digraphs (e.g., th, sh, ch) and consonant blends (e.g., fr, st, bl).",
+              "keywords": [
+                "blend",
+                "phonemes",
+                "digraphs",
+                "blends"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrate the ability to segment words with four and five phonemes, including words with consonant digraphs (e.g., th, sh, ch) and consonant blends (e.g., fr, st, bl).",
+              "keywords": [
+                "segment",
+                "phonemes",
+                "digraphs",
+                "blends"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.FFR.3",
+          "description": "Phonics and Word Analysis: The student will apply phonetic principles to read and spell words.",
+          "skills": [
+            {
+              "description": "Decode and encode words with short vowels to include blends, digraphs, and trigraphs in closed syllables (CVCC, CCVC, CVCC, CCVCC, and CCVCCC) and open syllables (CV, CCV).",
+              "keywords": [
+                "decode",
+                "encode",
+                "vowels",
+                "syllables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Decode and encode words with vowel teams and r-controlled vowels.",
+              "keywords": [
+                "decode",
+                "encode",
+                "vowel",
+                "r-controlled"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use knowledge of syllabication and syllable types to decode words.",
+              "keywords": [
+                "syllabication",
+                "syllable",
+                "types",
+                "decode"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use knowledge of affixes (e.g., suffixes, prefixes) to decode words.",
+              "keywords": [
+                "affixes",
+                "suffixes",
+                "prefixes",
+                "decode"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Read grade-level high frequency words, including decodable and irregular words, with automaticity and accuracy.",
+              "keywords": [
+                "high-frequency",
+                "decodable",
+                "irregular",
+                "automaticity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developing Skilled Readers and Building Reading Stamina",
+      "standards": [
+        {
+          "code": "2.DSR",
+          "description": "The student will build knowledge and comprehension skills from reading and listening to a range of challenging, content-rich texts. This includes fluently reading and gathering evidence from grade-level complex texts and reading widely (through read alouds) on topics to gain purposeful knowledge and vocabulary.",
+          "skills": [
+            {
+              "description": "Read a variety of grade-level text with accuracy, automaticity, appropriate rate, and meaningful expression in successive readings to support comprehension. Monitor while reading to confirm or self-correct word recognition and understanding as necessary (Reading Fluency, K-12).",
+              "keywords": [
+                "accuracy",
+                "automaticity",
+                "rate",
+                "fluency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Proficiently read and comprehend texts from a variety of literary forms that exhibit complexity at the lower range of the grades 2-3 band (See the Quantitative and Qualitative Analysis charts for determining complexity in the Appendix.) (Text Complexity, 2-12).",
+              "keywords": [
+                "comprehend",
+                "literary",
+                "complexity",
+                "text"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "When responding to text through discussion and/or writing, draw several pieces of evidence from read-alouds and grade-level texts to support claims, conclusions, and inferences, including quoting or paraphrasing from texts accurately and tracing where relevant evidence is located (Textual Evidence, K-12).",
+              "keywords": [
+                "evidence",
+                "claims",
+                "inferences",
+                "quoting"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Regularly engage in listening to a series of conceptually related texts organized around topics of study to build knowledge and vocabulary. Use this background knowledge as context for new learning (Deep Reading on Topics to Build Knowledge and Vocabulary, K-12).",
+              "keywords": [
+                "listening",
+                "knowledge",
+                "vocabulary",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading and Vocabulary",
+      "standards": [
+        {
+          "code": "2.RV.1",
+          "description": "Vocabulary Development and Word Analysis",
+          "skills": [
+            {
+              "description": "Discuss meanings of new words or phrases acquired through conversations and literature.",
+              "keywords": [
+                "discuss",
+                "words",
+                "phrases",
+                "literature"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use vocabulary across content areas.",
+              "keywords": [
+                "vocabulary",
+                "content",
+                "areas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the meaning of an unknown word using frequently occurring root words and inflectional affixes (e.g. -s, -ing, - ed).",
+              "keywords": [
+                "unknown",
+                "root",
+                "inflectional",
+                "affixes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use the context of a sentence to apply knowledge of homophones.",
+              "keywords": [
+                "context",
+                "sentence",
+                "homophones"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply knowledge of morphology (e.g., common grade appropriate suffixes, prefixes), synonyms, and antonyms to determine the meaning of new words.",
+              "keywords": [
+                "morphology",
+                "suffixes",
+                "prefixes",
+                "synonyms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish shades of meaning among verbs and adjectives.",
+              "keywords": [
+                "shades",
+                "verbs",
+                "adjectives"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop breadth of vocabulary knowledge by listening to and reading high quality, complex text.",
+              "keywords": [
+                "breadth",
+                "vocabulary",
+                "listening",
+                "reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use newly learned words and phrases in discussions and speaking activities.",
+              "keywords": [
+                "learned",
+                "words",
+                "discussions",
+                "speaking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading Literary Text",
+      "standards": [
+        {
+          "code": "2.RL.1",
+          "description": "Key Ideas and Plot Details",
+          "skills": [
+            {
+              "description": "Retell stories sequentially, including their overall structure, essential story events, and the central message, lesson, or moral.",
+              "keywords": [
+                "retell",
+                "stories",
+                "structure",
+                "events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify a story's central conflict using events from the plot as evidence.",
+              "keywords": [
+                "conflict",
+                "plot",
+                "evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe character's attributes (e.g., traits, motivations, or feelings) and how they respond to major events and challenges.",
+              "keywords": [
+                "character",
+                "attributes",
+                "motivations",
+                "feelings"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate predictions about story characters and events using the text.",
+              "keywords": [
+                "predictions",
+                "characters",
+                "events",
+                "text"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.RL.3",
+          "description": "Integration of Concepts",
+          "skills": [
+            {
+              "description": "Set a purpose for reading by providing guiding questions, activating prior (experience) and background (content) knowledge.",
+              "keywords": [
+                "purpose",
+                "questions",
+                "prior",
+                "knowledge"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize dialogue in text and explain how it can reveal characters' thoughts and perspectives.",
+              "keywords": [
+                "dialogue",
+                "characters",
+                "thoughts",
+                "perspectives"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast characters, settings, and plots in two versions of the same story from different cultures (e.g., Cinderella stories).",
+              "keywords": [
+                "compare",
+                "contrast",
+                "characters",
+                "settings"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading Informational Text",
+      "standards": [
+        {
+          "code": "2.RI.1",
+          "description": "Key Ideas and Confirming Details",
+          "skills": [
+            {
+              "description": "Ask and answer literal and inferential questions (who, what, where, when, how, and why) about key details in a text.",
+              "keywords": [
+                "literal",
+                "inferential",
+                "questions",
+                "details"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Retell key details of texts that demonstrate an understanding of the main topics of texts.",
+              "keywords": [
+                "retell",
+                "details",
+                "topics",
+                "understanding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate facts from opinions within a text.",
+              "keywords": [
+                "facts",
+                "opinions",
+                "text"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.RI.2",
+          "description": "Craft and Style",
+          "skills": [
+            {
+              "description": "Use text features (table of contents, headings, pictures, captions, maps, and charts) to preview, set a purpose for reading and gain information.",
+              "keywords": [
+                "text",
+                "features",
+                "preview",
+                "information"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the main purpose of a text, including what the author wants to answer, explain, or describe.",
+              "keywords": [
+                "purpose",
+                "author",
+                "explain",
+                "describe"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.RI.3",
+          "description": "Integration of Concepts",
+          "skills": [
+            {
+              "description": "Use prior (experience) and background (content) knowledge as context for new learning.",
+              "keywords": [
+                "prior",
+                "background",
+                "knowledge",
+                "context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast the most important points presented by two texts on the same topic.",
+              "keywords": [
+                "compare",
+                "contrast",
+                "points",
+                "topic"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the interactions between two individuals, events, ideas, or pieces of information in texts.",
+              "keywords": [
+                "interactions",
+                "individuals",
+                "events",
+                "ideas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Foundations for Writing",
+      "standards": [
+        {
+          "code": "2.FFW.1",
+          "description": "Handwriting",
+          "skills": [
+            {
+              "description": "Maintain legible printing and begin to make the transition to cursive.",
+              "keywords": [
+                "legible",
+                "printing",
+                "cursive",
+                "transition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Begin to write capital and lowercase letters of the alphabet in cursive.",
+              "keywords": [
+                "capital",
+                "lowercase",
+                "letters",
+                "cursive"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Begin to sign his/her first and last names.",
+              "keywords": [
+                "sign",
+                "first",
+                "last",
+                "names"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.FFW.2",
+          "description": "Spelling",
+          "skills": [
+            {
+              "description": "Use phoneme-grapheme (sound/symbol correspondence to encode (spell) single-syllable words containing closed syllables (cvc, ccvc, cvcc, and ccvcc), open syllables (cv, ccv), vowel-consonant-e (cvce, ccvce), vowel teams, and r-controlled vowels.",
+              "keywords": [
+                "phoneme-grapheme",
+                "encode",
+                "syllables",
+                "vowels"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use phoneme-grapheme (sound/symbol) correspondence to encode (spell) multisyllabic words.",
+              "keywords": [
+                "phoneme-grapheme",
+                "encode",
+                "multisyllabic"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use phoneme/grapheme (sound/symbol) correspondences to encode (spell) grade-level high-frequency words with automaticity and accuracy.",
+              "keywords": [
+                "phoneme/grapheme",
+                "encode",
+                "high-frequency",
+                "automaticity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Writing",
+      "standards": [
+        {
+          "code": "2.W.1",
+          "description": "Modes and Purposes for Writing",
+          "skills": [
+            {
+              "description": "Write narratives that recount a well-elaborated event or short sequence of events and include details about the events and characters and use of time-related words to signal the event sequence.",
+              "keywords": [
+                "narratives",
+                "recount",
+                "events",
+                "characters"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write informative/explanatory texts that introduce a topic and develop the ideas with facts and examples.",
+              "keywords": [
+                "informative",
+                "explanatory",
+                "topic",
+                "facts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write opinion pieces on topics or texts that support a point of view with reasons.",
+              "keywords": [
+                "opinion",
+                "point",
+                "view",
+                "reasons"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write in response to text(s) read or heard to share thinking with a couple supporting details from the text.",
+              "keywords": [
+                "response",
+                "text",
+                "thinking",
+                "details"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.W.2",
+          "description": "Organization and Composition",
+          "skills": [
+            {
+              "description": "Engage in writing as a process to plan writing based on purpose and genre. This includes:",
+              "keywords": [
+                "writing",
+                "process",
+                "plan",
+                "genre"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Writing a clear topic sentence focusing on the main idea.",
+              "keywords": [
+                "topic",
+                "sentence",
+                "main",
+                "idea"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying the audience and purpose of the writing.",
+              "keywords": [
+                "audience",
+                "purpose",
+                "writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Developing, selecting, and organizing ideas and details relevant to the topic, purpose, and genre.",
+              "keywords": [
+                "organizing",
+                "ideas",
+                "details",
+                "topic"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Providing a concluding statement or section.",
+              "keywords": [
+                "concluding",
+                "statement",
+                "section"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.W.3",
+          "description": "Usage and Mechanics",
+          "skills": [
+            {
+              "description": "With guidance and support from adults, develop and strengthen writing as needed by revising for quality of ideas, organization, sentence fluency, and word choice.",
+              "keywords": [
+                "revising",
+                "ideas",
+                "organization",
+                "fluency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "With guidance and support from adults, edit writing for conventions (e.g., spelling, capitalization, usage, punctuation). (See Language Usage for grade level expectations).",
+              "keywords": [
+                "edit",
+                "conventions",
+                "spelling",
+                "punctuation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Language Usage",
+      "standards": [
+        {
+          "code": "2.LU.1",
+          "description": "Grammar",
+          "skills": [
+            {
+              "description": "Produce and expand complete sentences, both simple and compound.",
+              "keywords": [
+                "complete",
+                "sentences",
+                "simple",
+                "compound"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use indefinite (e.g., anybody, anything) reflexive (e.g., yourself, herself) pronouns.",
+              "keywords": [
+                "indefinite",
+                "reflexive",
+                "pronouns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Form and use regular and frequently occurring irregular plural nouns (e.g., men, teeth).",
+              "keywords": [
+                "regular",
+                "irregular",
+                "plural",
+                "nouns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use frequently occurring conjunctions to signal simple relationships (e.g., and, but, or, so, because).",
+              "keywords": [
+                "conjunctions",
+                "relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use proper verb tense, including for frequently occurring irregular verbs (e.g., ran, told, went).",
+              "keywords": [
+                "verb",
+                "tense",
+                "irregular",
+                "verbs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use subject-verb agreement in simple sentences.",
+              "keywords": [
+                "subject-verb",
+                "agreement",
+                "sentences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use common abbreviations.",
+              "keywords": [
+                "common",
+                "abbreviations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use contractions and singular possessives.",
+              "keywords": [
+                "contractions",
+                "singular",
+                "possessives"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Eliminate double negatives when speaking.",
+              "keywords": [
+                "double",
+                "negatives",
+                "speaking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.LU.2",
+          "description": "Mechanics",
+          "skills": [
+            {
+              "description": "Identify statements, questions, and commands and use correct ending punctuation (e.g., period, question mark, and exclamation points).",
+              "keywords": [
+                "statements",
+                "questions",
+                "commands",
+                "punctuation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use commas in salutation and closing of a letter.",
+              "keywords": [
+                "commas",
+                "salutation",
+                "closing",
+                "letter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generalize learned spelling patterns when writing words.",
+              "keywords": [
+                "generalize",
+                "spelling",
+                "patterns",
+                "writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Communication and Multimodal Literacies",
+      "standards": [
+        {
+          "code": "2.C.1",
+          "description": "Communication, Listening, and Collaboration",
+          "skills": [
+            {
+              "description": "Participate in a range of collaborative discussions (one-on-one, in groups, and teacher-led) on grade two topics and texts. This includes:",
+              "keywords": [
+                "collaborative",
+                "discussions",
+                "topics",
+                "texts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Listening actively and following agreed upon rules for participating in discussions.",
+              "keywords": [
+                "listening",
+                "actively",
+                "rules",
+                "discussions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Respectfully building on others' ideas and expressing their own clearly.",
+              "keywords": [
+                "building",
+                "ideas",
+                "expressing",
+                "clearly"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Asking and responding to questions that acquire or confirm information on a topic.",
+              "keywords": [
+                "asking",
+                "responding",
+                "questions",
+                "information"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating active engagement when listening to a speaker and asking for clarification to ensure understanding.",
+              "keywords": [
+                "engagement",
+                "listening",
+                "speaker",
+                "clarification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "2.C.2",
+          "description": "Speaking and Presentation of Ideas",
+          "skills": [
+            {
+              "description": "Use topic specific language and vocabulary to communicate ideas.",
+              "keywords": [
+                "topic",
+                "language",
+                "vocabulary",
+                "ideas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Speak audibly with appropriate pacing, prosody, and voice level.",
+              "keywords": [
+                "speak",
+                "audibly",
+                "pacing",
+                "prosody"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Engage the audience by asking and/or responding to questions.",
+              "keywords": [
+                "engage",
+                "audience",
+                "asking",
+                "responding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create and participate in oral language activities that include oral storytelling and dramatics.",
+              "keywords": [
+                "oral",
+                "language",
+                "storytelling",
+                "dramatics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Retell information in an organized manner, focused on a key topic or experience.",
+              "keywords": [
+                "retell",
+                "information",
+                "organized",
+                "topic"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research",
+      "standards": [
+        {
+          "code": "2.R.1",
+          "description": "Evaluation and Synthesis of Information",
+          "skills": [
+            {
+              "description": "Identify a topic and generate questions to explore the topic.",
+              "keywords": [
+                "topic",
+                "generate",
+                "questions",
+                "explore"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate information in reference texts, electronic resources, interviews, or provided sources.",
+              "keywords": [
+                "locate",
+                "information",
+                "reference",
+                "resources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use templates to organize the information collected (e.g., charts, graphs).",
+              "keywords": [
+                "templates",
+                "organize",
+                "charts",
+                "graphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Record information on sources using own words, organizing evidence into provided categories.",
+              "keywords": [
+                "record",
+                "sources",
+                "organizing",
+                "evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Share information orally in writing, or through visual display, avoiding plagiarism and using own words.",
+              "keywords": [
+                "share",
+                "information",
+                "orally",
+                "plagiarism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

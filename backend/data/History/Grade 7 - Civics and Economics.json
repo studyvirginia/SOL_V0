@@ -1,0 +1,1077 @@
+{
+  "subject": "History",
+  "course": "Grade 7 - Civics and Economics",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "CE.SKILLS",
+          "description": "Apply history and social science skills to analyze civics and economics content.",
+          "skills": [
+            {
+              "description": "Select and synthesize evidence from artifacts, primary and secondary sources, charts, graphs, and diagrams to understand civics and economics.",
+              "keywords": [
+                "evidence synthesis",
+                "primary sources",
+                "secondary sources",
+                "data interpretation",
+                "civics analysis",
+                "economic analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to determine and predict patterns and trends of people, places, or events.",
+              "keywords": [
+                "geographic analysis",
+                "spatial patterns",
+                "trend prediction",
+                "population distribution",
+                "economic geography"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop questions and engage in critical thinking and analysis.",
+              "keywords": [
+                "question formulation",
+                "critical thinking",
+                "inquiry-based learning",
+                "analytical reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Integrate evidence to construct and analyze timelines, classify events, and distinguish fact from opinion.",
+              "keywords": [
+                "timeline construction",
+                "event classification",
+                "fact vs. opinion",
+                "historical chronology",
+                "evidence integration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast historical, cultural, economic, and political perspectives.",
+              "keywords": [
+                "perspective analysis",
+                "historical comparison",
+                "cultural comparison",
+                "economic comparison",
+                "political comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine and explain cause and effect relationships.",
+              "keywords": [
+                "causal reasoning",
+                "cause and effect",
+                "historical causation",
+                "economic causation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the costs, benefits, incentives, and consequences of economic choices using decision-making models.",
+              "keywords": [
+                "cost-benefit analysis",
+                "economic decision-making",
+                "incentive analysis",
+                "consequence evaluation",
+                "scarcity analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Engage and communicate as a civil and informed individual with persons holding different perspectives.",
+              "keywords": [
+                "civic discourse",
+                "perspective-taking",
+                "respectful communication",
+                "informed citizenship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop products that reflect understanding of research, content, and civics and economic concepts.",
+              "keywords": [
+                "product development",
+                "research synthesis",
+                "civic product creation",
+                "economic product creation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "American Constitutional Government",
+      "standards": [
+        {
+          "code": "CE.1",
+          "description": "Explain the foundations of American constitutional democracy.",
+          "skills": [
+            {
+              "description": "Explain the fundamental principles of limited government, republicanism, federalism, checks and balances, separation of powers, and popular sovereignty.",
+              "keywords": [
+                "limited government",
+                "republicanism",
+                "federalism",
+                "checks and balances",
+                "separation of powers",
+                "popular sovereignty"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the Magna Carta, English common law, the charters of the Virginia Company of London, the Virginia Declaration of Rights, the Declaration of Independence, the Articles of Confederation, and the Virginia Statute for Religious Freedom and their influence on the U.S. and Virginia Constitutions.",
+              "keywords": [
+                "Magna Carta",
+                "English common law",
+                "Virginia Company charters",
+                "Virginia Declaration of Rights",
+                "Declaration of Independence",
+                "Articles of Confederation",
+                "Virginia Statute for Religious Freedom",
+                "constitutional influence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast debates, compromises, and plans surrounding the drafting and ratification of the U.S. Constitution and the Bill of Rights.",
+              "keywords": [
+                "constitutional debates",
+                "ratification process",
+                "Great Compromise",
+                "Three-Fifths Compromise",
+                "Federalist vs. Anti-Federalist",
+                "Bill of Rights ratification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the purpose of the U.S. Constitution as stated in its preamble.",
+              "keywords": [
+                "preamble analysis",
+                "constitutional purpose",
+                "We the People",
+                "form a more perfect union",
+                "establish justice"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain fundamental concepts of the U.S. government including due process, equal justice under the law, equal protection, elections, representative government, limited government, right to private property, rule of law, Supremacy Clause, and separation of powers.",
+              "keywords": [
+                "due process",
+                "equal protection",
+                "Supremacy Clause",
+                "rule of law",
+                "private property rights",
+                "representative government",
+                "elections"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the procedures for amending the U.S. and Virginia Constitutions.",
+              "keywords": [
+                "constitutional amendment",
+                "amendment process",
+                "Article V",
+                "Virginia Constitution amendment",
+                "proposal and ratification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CE.2",
+          "description": "Analyze how American constitutional government functions at the national level.",
+          "skills": [
+            {
+              "description": "Describe the structure and powers of the national government (three branches).",
+              "keywords": [
+                "three branches of government",
+                "executive branch",
+                "legislative branch",
+                "judicial branch",
+                "government structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the legislative branch and the lawmaking process as outlined in Article I of the U.S. Constitution.",
+              "keywords": [
+                "Article I",
+                "legislative process",
+                "bill to law",
+                "Congress",
+                "lawmaking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role and powers of the executive branch as outlined in Article II of the U.S. Constitution.",
+              "keywords": [
+                "Article II",
+                "executive branch",
+                "presidential powers",
+                "executive orders",
+                "federal bureaucracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role and powers of the judicial branch as outlined in Article III of the U.S. Constitution.",
+              "keywords": [
+                "Article III",
+                "judicial branch",
+                "Supreme Court",
+                "judicial review",
+                "court jurisdiction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the principle of separation of powers and the operation of checks and balances.",
+              "keywords": [
+                "separation of powers",
+                "checks and balances",
+                "constitutional safeguards",
+                "power distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CE.3",
+          "description": "Analyze how constitutional government functions at the state level.",
+          "skills": [
+            {
+              "description": "Describe the structure and powers of state government (three branches).",
+              "keywords": [
+                "state government",
+                "three branches",
+                "governor",
+                "state legislature",
+                "state courts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the state lawmaking process.",
+              "keywords": [
+                "state legislation",
+                "bill to law",
+                "state assembly",
+                "state senate",
+                "governor's role"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the roles and powers of the state executive branch and regulatory boards.",
+              "keywords": [
+                "state executive branch",
+                "governor",
+                "regulatory boards",
+                "state agencies",
+                "administrative powers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the relationship between state and national governments in the federal system, referencing Federalist No. 10 and Federalist No. 51.",
+              "keywords": [
+                "federalism",
+                "Federalist No. 10",
+                "Federalist No. 51",
+                "state-federal relations",
+                "Madisonian democracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the principle of separation of powers and checks and balances at the state level.",
+              "keywords": [
+                "state separation of powers",
+                "state checks and balances",
+                "constitutional safeguards",
+                "power distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CE.4",
+          "description": "Analyze American constitutional government at the local level.",
+          "skills": [
+            {
+              "description": "Describe the structure and powers of local government and explain the local lawmaking process.",
+              "keywords": [
+                "local government",
+                "city council",
+                "county board",
+                "local legislation",
+                "municipal governance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how state, national, and international issues and events impact local decision-making.",
+              "keywords": [
+                "local impact analysis",
+                "state policy influence",
+                "national policy influence",
+                "global events",
+                "local governance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast powers and responsibilities of local, state, federal, and tribal governments including citizen engagement, financing, and intergovernmental relationships.",
+              "keywords": [
+                "intergovernmental relations",
+                "tribal sovereignty",
+                "government financing",
+                "citizen engagement",
+                "federalism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CE.5",
+          "description": "Explain the judicial systems established by the U.S. and Virginia Constitutions.",
+          "skills": [
+            {
+              "description": "Describe the system of state and federal courts including jurisdiction and judicial review.",
+              "keywords": [
+                "judicial review",
+                "court jurisdiction",
+                "federal courts",
+                "state courts",
+                "judicial hierarchy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how due-process protections seek to ensure justice.",
+              "keywords": [
+                "due process",
+                "procedural justice",
+                "substantive justice",
+                "legal protections",
+                "fair trial"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast civil and criminal cases.",
+              "keywords": [
+                "civil law",
+                "criminal law",
+                "legal procedures",
+                "burden of proof",
+                "case types"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the effects of Supreme Court cases affecting the judiciary including Marbury v. Madison.",
+              "keywords": [
+                "Marbury v. Madison",
+                "judicial review",
+                "landmark cases",
+                "Supreme Court decisions",
+                "constitutional interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Citizenship and Civic Life",
+      "standards": [
+        {
+          "code": "CE.6",
+          "description": "Define citizenship and analyze civic participation.",
+          "skills": [
+            {
+              "description": "Describe the processes by which an individual becomes a citizen of the United States.",
+              "keywords": [
+                "naturalization",
+                "citizenship process",
+                "legal immigration",
+                "citizenship requirements",
+                "oath of allegiance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the rights and privileges guaranteed by the First Amendment and due process protections.",
+              "keywords": [
+                "First Amendment",
+                "freedom of religion",
+                "freedom of speech",
+                "freedom of press",
+                "due process",
+                "equal protection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine ways to peacefully work for change in communities or the nation by participating in political campaigns and petitioning the government.",
+              "keywords": [
+                "civic activism",
+                "political campaigning",
+                "petitioning government",
+                "grassroots organizing",
+                "peaceful protest"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine how civic participation can address community needs and serve the public good, including volunteering and respecting diverse beliefs.",
+              "keywords": [
+                "civic engagement",
+                "volunteerism",
+                "public service",
+                "community needs",
+                "diversity respect"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the process and importance of immigration policies at different points in U.S. history.",
+              "keywords": [
+                "immigration policy",
+                "historical immigration",
+                "naturalization laws",
+                "policy evolution",
+                "immigration reform"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Review the criteria and exam for naturalizing U.S. citizens.",
+              "keywords": [
+                "naturalization exam",
+                "citizenship test",
+                "English proficiency",
+                "civics knowledge",
+                "application process"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CE.7",
+          "description": "Exhibit effective and respectful participation in civic life.",
+          "skills": [
+            {
+              "description": "Demonstrate civility, trustworthiness, honesty, courtesy, respect for others' rights, personal responsibility, and patriotism in civic life.",
+              "keywords": [
+                "civic virtue",
+                "civility",
+                "trustworthiness",
+                "patriotism",
+                "civic responsibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Engage in community service and self-reliance as part of civic participation.",
+              "keywords": [
+                "community service",
+                "self-reliance",
+                "civic duty",
+                "volunteerism",
+                "public service"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Political Process",
+      "standards": [
+        {
+          "code": "CE.8",
+          "description": "Examine the political process at local, state, and national levels.",
+          "skills": [
+            {
+              "description": "Describe the origins, history, and functions of political parties.",
+              "keywords": [
+                "political parties",
+                "party systems",
+                "party functions",
+                "political history",
+                "two-party system"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze campaigns for elective office, including roles of candidates, volunteers, media, voters, and poll watchers.",
+              "keywords": [
+                "political campaigns",
+                "campaign strategy",
+                "media role",
+                "voter behavior",
+                "polling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role of campaign contributions and the cost of campaigns.",
+              "keywords": [
+                "campaign finance",
+                "political donations",
+                "campaign costs",
+                "PACs",
+                "election funding"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the history of and requirements for voter registration.",
+              "keywords": [
+                "voter registration",
+                "voting eligibility",
+                "registration history",
+                "voter ID laws",
+                "election laws"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the role of the Electoral College in the election of the president and vice president.",
+              "keywords": [
+                "Electoral College",
+                "presidential elections",
+                "electoral votes",
+                "winner-takes-all",
+                "faithless electors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CE.9",
+          "description": "Explain the role of media and social media in politics and civic discourse.",
+          "skills": [
+            {
+              "description": "Explain the role and rights of the press in reporting events.",
+              "keywords": [
+                "freedom of the press",
+                "journalistic ethics",
+                "media role",
+                "press freedoms",
+                "investigative journalism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the effect of biased reporting on public opinion.",
+              "keywords": [
+                "media bias",
+                "public opinion",
+                "propaganda analysis",
+                "news framing",
+                "cognitive bias"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role individuals play in the political policy-making process through various media.",
+              "keywords": [
+                "political expression",
+                "media influence",
+                "policy advocacy",
+                "public opinion formation",
+                "digital activism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the effect of social media on political campaigns, politics, and civic discourse.",
+              "keywords": [
+                "social media politics",
+                "digital campaigning",
+                "echo chambers",
+                "misinformation",
+                "viral politics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the source of information and consider possible motivations or biases of its creator.",
+              "keywords": [
+                "source evaluation",
+                "media literacy",
+                "bias detection",
+                "fact-checking",
+                "information credibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate multiple sources describing the same event or idea and reflect on discrepancies.",
+              "keywords": [
+                "source comparison",
+                "historical analysis",
+                "perspective analysis",
+                "evidence evaluation",
+                "discrepancy resolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CE.10",
+          "description": "Analyze the role of public participation in American civic life.",
+          "skills": [
+            {
+              "description": "Describe duties of citizens including paying taxes, serving on a jury, following the law, and registering for selective service.",
+              "keywords": [
+                "civic duties",
+                "jury duty",
+                "tax compliance",
+                "selective service",
+                "legal obligations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate voting responsibilities, voting dates, and voting processes in Virginia.",
+              "keywords": [
+                "voting process",
+                "election dates",
+                "voter turnout",
+                "ballot casting",
+                "election integrity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain voter eligibility and requirements for registration.",
+              "keywords": [
+                "voter eligibility",
+                "registration requirements",
+                "ID laws",
+                "citizenship verification",
+                "voter suppression"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economic Decisions",
+      "standards": [
+        {
+          "code": "CE.11",
+          "description": "Analyze how economic decisions are made in the marketplace and daily life.",
+          "skills": [
+            {
+              "description": "Explain that due to scarcity, consumers, producers, and governments must make economic choices with opportunity costs.",
+              "keywords": [
+                "scarcity",
+                "opportunity cost",
+                "economic choice",
+                "resource allocation",
+                "trade-offs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the importance of innovation and productivity including freedom to choose occupations, technology's role, and human capital development.",
+              "keywords": [
+                "innovation",
+                "productivity",
+                "human capital",
+                "occupational choice",
+                "technological advancement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast free-market, command, and mixed economies and their effects on resource allocation.",
+              "keywords": [
+                "free-market economy",
+                "command economy",
+                "mixed economy",
+                "resource allocation",
+                "economic systems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CE.12",
+          "description": "Describe the United States economy and its critical components.",
+          "skills": [
+            {
+              "description": "Evaluate the shared fundamental principles and connection of free enterprise and democracy.",
+              "keywords": [
+                "free enterprise",
+                "democratic capitalism",
+                "economic freedom",
+                "market economy",
+                "political economy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the critical components of the U.S. economy including limited government, private property, markets, consumer sovereignty, and competition.",
+              "keywords": [
+                "limited government",
+                "private property rights",
+                "market economy",
+                "consumer sovereignty",
+                "competition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the concept of inflation and the effect of supply and demand on consumer prices in a market economy.",
+              "keywords": [
+                "inflation",
+                "supply and demand",
+                "price determination",
+                "market equilibrium",
+                "consumer prices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the types of business organizations and the role of entrepreneurship.",
+              "keywords": [
+                "business organizations",
+                "sole proprietorship",
+                "partnership",
+                "corporation",
+                "entrepreneurship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role of consumers, producers, and government interactions in the economy.",
+              "keywords": [
+                "consumer role",
+                "producer role",
+                "government intervention",
+                "market regulation",
+                "economic actors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how financial institutions fuel economic growth by channeling funds from savers to borrowers.",
+              "keywords": [
+                "financial institutions",
+                "capital formation",
+                "lending",
+                "savings",
+                "investment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the role of Virginia in the U.S. and global economies with emphasis on technological innovations.",
+              "keywords": [
+                "Virginia economy",
+                "technological innovation",
+                "global trade",
+                "economic sectors",
+                "state economy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "CE.13",
+          "description": "Analyze the role of government in the U.S. economy.",
+          "skills": [
+            {
+              "description": "Examine the effect of competition in the marketplace.",
+              "keywords": [
+                "market competition",
+                "antitrust laws",
+                "monopoly prevention",
+                "price competition",
+                "market efficiency"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how and why government provides public goods and services.",
+              "keywords": [
+                "public goods",
+                "government services",
+                "market failure",
+                "taxation",
+                "public sector"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how local, state, and federal governments allocate budgets and collect taxes to fund goods and services.",
+              "keywords": [
+                "government budgeting",
+                "tax collection",
+                "fiscal policy",
+                "budget allocation",
+                "public finance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the structure and main function of the Federal Reserve System as the nation's central bank.",
+              "keywords": [
+                "Federal Reserve",
+                "monetary policy",
+                "central banking",
+                "interest rates",
+                "money supply"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role of government currency and analyze the purpose of a money economy.",
+              "keywords": [
+                "government currency",
+                "money supply",
+                "monetary system",
+                "exchange medium",
+                "inflation control"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how governments regulate commerce to protect consumers, the environment, competition, and property rights.",
+              "keywords": [
+                "government regulation",
+                "consumer protection",
+                "environmental regulation",
+                "competition policy",
+                "property rights"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate how and why governments regulate industry, labor, competition, and monopolies.",
+              "keywords": [
+                "industry regulation",
+                "labor regulation",
+                "antitrust policy",
+                "monopoly regulation",
+                "government oversight"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Career Opportunities and Personal Finance",
+      "standards": [
+        {
+          "code": "CE.14",
+          "description": "Explain career opportunities and understand fundamentals of personal finance.",
+          "skills": [
+            {
+              "description": "Identify talents, interests, and aspirations that influence career choice.",
+              "keywords": [
+                "career planning",
+                "self-assessment",
+                "talent identification",
+                "interest inventory",
+                "career goals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify attitudes and behaviors that strengthen individual work ethic and promote career success.",
+              "keywords": [
+                "work ethic",
+                "professional behavior",
+                "career success",
+                "soft skills",
+                "professionalism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify human capital, abilities, intellectual and physical skills, work habits, education, and changing supply and demand in the economy.",
+              "keywords": [
+                "human capital",
+                "skills development",
+                "education investment",
+                "labor market trends",
+                "career adaptability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the effect of technological change and globalization on career opportunities.",
+              "keywords": [
+                "technological change",
+                "globalization",
+                "job market trends",
+                "automation",
+                "remote work"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the importance of education to intellectual life, lifelong learning, and personal goals.",
+              "keywords": [
+                "lifelong learning",
+                "educational attainment",
+                "intellectual development",
+                "personal growth",
+                "career advancement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the role of financial responsibility in good citizenship including evaluating credit, savings, and investments.",
+              "keywords": [
+                "financial responsibility",
+                "credit management",
+                "savings plans",
+                "investment strategies",
+                "personal finance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the importance of equal opportunities for access to education and training.",
+              "keywords": [
+                "educational equity",
+                "access to education",
+                "training opportunities",
+                "equal opportunity",
+                "education policy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research jobs and careers in public and private sectors and understand career pathways.",
+              "keywords": [
+                "career research",
+                "job market analysis",
+                "career pathways",
+                "public sector jobs",
+                "private sector jobs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "key": "5_5_PS_2_skill5",
+  "grade": "5",
+  "code": "5.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 5 Math",
+  "desc": "Solve contextual problems using measures of center and the range.",
+  "skill_desc": "Describe and determine the range of a set of data values representing data from a given context as a measure of spread.",
+  "skill_idx": 4,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/5_5_PS_2_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "col1",
+            "values": [
+              "10",
+              "12",
+              "15",
+              "18",
+              "20",
+              "22",
+              "25"
+            ],
+            "color": "#007AFF"
+          },
+          {
+            "id": "col2",
+            "values": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "color": "#007AFF"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "L=\\left[10,12,15,18,20,22,25\\right]",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "Range = \\max(L) - \\min(L)",
+        "color": "#FF3B30",
+        "label": "Range",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "Range = 25 - 10",
+        "color": "#FF3B30",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e5",
+        "latex": "Range = 15",
+        "color": "#FF3B30",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      }
+    ],
+    "viewport": {
+      "left": 8,
+      "bottom": -1,
+      "right": 27,
+      "top": 2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Range of a Data Set"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

@@ -1,0 +1,293 @@
+{
+  "key": "5_5_MG_2_skill5",
+  "grade": "5",
+  "code": "5.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 5 Math",
+  "desc": "Solve problems involving perimeter, area, and volume using multiple representations.",
+  "skill_desc": "Estimate and determine the volume of a rectangular prism using concrete objects, diagrams, and formulas when length, width, and height are given in whole number units.",
+  "skill_idx": 4,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/5_5_MG_2_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "l=4",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e2",
+        "latex": "w=3",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e3",
+        "latex": "h=2",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(l,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(l,w)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,w)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(0,0,h)",
+        "color": "#FF3B30",
+        "label": "E",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(l,0,h)",
+        "color": "#FF3B30",
+        "label": "F",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p7",
+        "latex": "(l,w,h)",
+        "color": "#FF3B30",
+        "label": "G",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p8",
+        "latex": "(0,w,h)",
+        "color": "#FF3B30",
+        "label": "H",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "poly1",
+        "latex": "\\operatorname{polygon}((0,0),(l,0),(l,w),(0,w))",
+        "color": "#34C759",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "poly2",
+        "latex": "\\operatorname{polygon}((0,0,h),(l,0,h),(l,w,h),(0,w,h))",
+        "color": "#34C759",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "poly3",
+        "latex": "\\operatorname{polygon}((0,0),(0,w),(0,w,h),(0,0,h))",
+        "color": "#34C759",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "poly4",
+        "latex": "\\operatorname{polygon}((l,0),(l,w),(l,w,h),(l,0,h))",
+        "color": "#34C759",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "poly5",
+        "latex": "\\operatorname{polygon}((0,0),(l,0),(l,0,h),(0,0,h))",
+        "color": "#34C759",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "poly6",
+        "latex": "\\operatorname{polygon}((0,w),(l,w),(l,w,h),(0,w,h))",
+        "color": "#34C759",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "v",
+        "latex": "V=l\\cdot w\\cdot h",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Volume of a Rectangular Prism"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (5, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (5, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "D = (0, 3)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"D\")",
+      "SetLabelMode(D, 3)",
+      "prism = Polygon(A, B, C, D)",
+      "SetColor(prism, 0, 122, 255)",
+      "SetFilling(prism, 0.75)",
+      "SetCaption(prism, \"Volume = 5 * 3 * 2 = 30 cubic units\")",
+      "SetLabelMode(prism, 3)",
+      "E = (0, 2)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"E\")",
+      "SetLabelMode(E, 3)",
+      "F = (5, 2)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"F\")",
+      "SetLabelMode(F, 3)",
+      "G = (5, 5)",
+      "SetLabelVisible(G, true)",
+      "SetCaption(G, \"G\")",
+      "SetLabelMode(G, 3)",
+      "H = (0, 5)",
+      "SetLabelVisible(H, true)",
+      "SetCaption(H, \"H\")",
+      "SetLabelMode(H, 3)",
+      "prism2 = Polygon(E, F, G, H)",
+      "SetColor(prism2, 0, 122, 255)",
+      "SetFilling(prism2, 0.75)",
+      "SetCaption(prism2, \"Volume = 5 * 3 * 2 = 30 cubic units\")",
+      "SetLabelMode(prism2, 3)",
+      "SetViewDirection(1, 1, 1)"
+    ],
+    "view": [
+      -1,
+      6,
+      -1,
+      6
+    ],
+    "showGrid": true,
+    "title": "Rectangular Prism Volume"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "B = (5, 0)",
+      "C = (5, 3)",
+      "D = (0, 3)",
+      "E = (0, 0)",
+      "F = (5, 0)",
+      "G = (5, 3)",
+      "H = (0, 3)",
+      "cube1 = Polygon(A, B, C, D)",
+      "I = Translate(A, Vector(2, 2))",
+      "J = Translate(B, Vector(2, 2))",
+      "K = Translate(C, Vector(2, 2))",
+      "L = Translate(D, Vector(2, 2))",
+      "cube2 = Polygon(I, J, K, L)",
+      "Segment(A, I)",
+      "Segment(B, J)",
+      "Segment(C, K)",
+      "Segment(D, L)",
+      "volume = 5 * 3 * 2",
+      "text = Text(\"Volume = \" + volume, (2, 5))"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 minh h\u1ecda th\u1ec3 t\u00edch c\u1ee7a h\u00ecnh h\u1ed9p ch\u1eef nh\u1eadt, ch\u00fang ta s\u1ebd t\u1ea1o m\u1ed9t h\u00ecnh h\u1ed9p ch\u1eef nh\u1ead"
+  }
+}

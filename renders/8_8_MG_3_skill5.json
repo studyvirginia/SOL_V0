@@ -1,0 +1,84 @@
+{
+  "key": "8_8_MG_3_skill5",
+  "grade": "8",
+  "code": "8.MG.3",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 8 Math",
+  "desc": "Apply translations and reflections to polygons in the coordinate plane.",
+  "skill_desc": "Sketch the image of a polygon after reflection over the x- or y-axis.",
+  "skill_idx": 4,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_MG_3_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x^{2}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=-x^{2}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "Vertex",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -5,
+      "right": 5,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Reflection of y=x^2 over the x-axis"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (4, 1)",
+      "C = (4, 3)",
+      "D = (1, 3)",
+      "poly = Polygon(A, B, C, D)",
+      "SetColor(poly, 0, 122, 255)",
+      "Reflect(poly, yAxis)",
+      "SetColor(Reflect(poly, yAxis), 255, 0, 0)"
+    ],
+    "view": [
+      -5,
+      5,
+      -1,
+      4
+    ],
+    "showGrid": true,
+    "title": "Reflecting a rectangle over the y-axis"
+  },
+  "sketchmath_state": null
+}

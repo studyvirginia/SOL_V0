@@ -1,0 +1,18 @@
+{
+  "key": "4_4_NS_1_skill2",
+  "grade": "4",
+  "code": "4.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 4 Math",
+  "desc": "Read, write, and identify the place and value of each digit in a nine-digit whole number using place value understanding.",
+  "skill_desc": "Write nine-digit whole numbers in standard form when presented orally or in written form.",
+  "skill_idx": 1,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/4_4_NS_1_skill2.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

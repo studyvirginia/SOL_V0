@@ -1,0 +1,18 @@
+{
+  "key": "4_4_MG_2_skill2",
+  "grade": "4",
+  "code": "4.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 4 Math",
+  "desc": "Solve single-step and multistep contextual problems involving elapsed time within a 12-hour period.",
+  "skill_desc": "Solve contextual problems involving elapsed time in hours and minutes within a 12-hour period given starting time and amount of elapsed time.",
+  "skill_idx": 1,
+  "graph_type": "concept",
+  "engines": [
+    "matplotlib"
+  ],
+  "matplotlib_img": "matplotlib/4_4_MG_2_skill2.png",
+  "desmos_state": null,
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

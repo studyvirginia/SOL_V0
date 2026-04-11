@@ -1,0 +1,81 @@
+{
+  "key": "6_6_PFA_3_skill4",
+  "grade": "6",
+  "code": "6.PFA.3",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 6 Math",
+  "desc": "Write and solve one-step linear equations in one variable, including contextual problems.",
+  "skill_desc": "Confirm solutions to one-step linear equations in one variable using concrete manipulatives and pictorial representations.",
+  "skill_idx": 3,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PFA_3_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "x+3=5",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "x=2",
+        "color": "#FF3B30",
+        "label": "Solution",
+        "showLabel": true,
+        "lines": true,
+        "lineStyle": "DASHED",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Solving x + 3 = 5"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x + 3",
+      "SetColor(f, 0, 122, 255)",
+      "A = (2, 7)",
+      "SetColor(A, 255, 59, 48)",
+      "SetLabelVisible(A, true)",
+      "SetLabelMode(A, 3)",
+      "SetCaption(A, \"Solution: x = 2\")",
+      "B = (0, 3)",
+      "SetColor(B, 0, 122, 255)",
+      "SetLabelVisible(B, true)",
+      "SetLabelMode(B, 3)",
+      "SetCaption(B, \"y-intercept\")"
+    ],
+    "view": [
+      -1,
+      5,
+      -1,
+      10
+    ],
+    "showGrid": true,
+    "title": "2x + 3 = 7 (solving one-step linear equation)"
+  },
+  "sketchmath_state": null
+}

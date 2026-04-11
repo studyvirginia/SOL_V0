@@ -1,0 +1,666 @@
+{
+  "subject": "Science",
+  "course": "Biology II Genetics",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "GEN.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation and analysis.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from careful observation of phenomena, models, theories, or to seek additional information.",
+              "keywords": [
+                "question formulation",
+                "observation",
+                "phenomena",
+                "models",
+                "theories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of a school laboratory or field setting.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "field investigation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make hypotheses specifying the effect of manipulating an independent variable on a dependent variable.",
+              "keywords": [
+                "hypothesis formation",
+                "independent variable",
+                "dependent variable",
+                "manipulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "research",
+                "scientific principles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct observational and experimental investigations; identify variables, constants, and controls.",
+              "keywords": [
+                "investigation planning",
+                "variables",
+                "constants",
+                "controls",
+                "observational study",
+                "experimental study"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations in a safe and ethical manner, considering environmental, social, and personal effects.",
+              "keywords": [
+                "safety protocols",
+                "ethical considerations",
+                "environmental impact",
+                "social impact",
+                "personal safety"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine appropriate sample size and techniques for investigations.",
+              "keywords": [
+                "sample size",
+                "sampling techniques",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect and record data.",
+              "keywords": [
+                "data collection tools",
+                "technology",
+                "recording data",
+                "measurement tools"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variable",
+                "dependent variable",
+                "repeated trials",
+                "means"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data; consider limitations of data analysis.",
+              "keywords": [
+                "graphical displays",
+                "data analysis",
+                "limitations",
+                "trends",
+                "patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, support explanations for phenomena, or test solutions to problems.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "phenomena explanation",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes, including statistics and probability, to scientific data.",
+              "keywords": [
+                "mathematical concepts",
+                "statistics",
+                "probability",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "validity",
+                "reliability",
+                "tools",
+                "models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from models, theories, simulations, peer review, or investigations.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "models",
+                "theories",
+                "peer review"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide an explanation of phenomena.",
+              "keywords": [
+                "scientific explanation",
+                "phenomena",
+                "principles",
+                "evidence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments in light of currently accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument evaluation",
+                "competing explanations",
+                "scientific evidence",
+                "peer review"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support a claim using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim formulation",
+                "empirical evidence",
+                "scientific reasoning",
+                "support"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate a claim by applying scientific reasoning, theory, and/or models to link evidence to assess the extent to which reasoning and data support the explanation or conclusion.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theory",
+                "models",
+                "evidence linkage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "merits",
+                "limitations",
+                "scientific models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships, support explanations, predict phenomena, analyze systems, or solve problems.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "evidence-based modeling",
+                "phenomena prediction",
+                "system analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical and statistical concepts and processes in building and revising models, and supporting explanations of phenomena.",
+              "keywords": [
+                "mathematical modeling",
+                "statistical concepts",
+                "model revision",
+                "phenomena explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question or solve a problem.",
+              "keywords": [
+                "source evaluation",
+                "information integration",
+                "media literacy",
+                "scientific problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing the evidence and credibility of each source.",
+              "keywords": [
+                "source gathering",
+                "source evaluation",
+                "scientific literature",
+                "credibility assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical communication",
+                "multiple formats",
+                "phenomena explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Genome and Protein Synthesis",
+      "standards": [
+        {
+          "code": "GEN.2",
+          "description": "Investigate how an organism’s genome encodes instructions for protein synthesis and evolution.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate a claim about how DNA allows for the preservation of the genome while still allowing evolution to occur.",
+              "keywords": [
+                "DNA preservation",
+                "genome stability",
+                "evolutionary mechanisms",
+                "genetic variation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain how transcription and translation convert a DNA sequence into a polypeptide chain.",
+              "keywords": [
+                "transcription",
+                "translation",
+                "DNA sequence",
+                "polypeptide chain",
+                "gene expression model"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to predict the effect of a mutation in DNA.",
+              "keywords": [
+                "DNA mutation",
+                "mutation effect prediction",
+                "genetic model",
+                "polypeptide alteration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain how amino acid interactions give rise to the three-dimensional shape and function of a protein.",
+              "keywords": [
+                "amino acid interactions",
+                "protein folding",
+                "protein function",
+                "three-dimensional structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the universal genetic code is the result of common ancestry.",
+              "keywords": [
+                "universal genetic code",
+                "common ancestry",
+                "genetic code conservation",
+                "evolutionary biology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gene Expression",
+      "standards": [
+        {
+          "code": "GEN.3",
+          "description": "Investigate mechanisms of gene expression regulation in organisms.",
+          "skills": [
+            {
+              "description": "Describe the mechanisms for regulation of gene expression in prokaryotes and eukaryotes at the transcription and translation levels.",
+              "keywords": [
+                "gene regulation",
+                "prokaryotes",
+                "eukaryotes",
+                "transcription regulation",
+                "translation regulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the role of introns and exons in gene expression.",
+              "keywords": [
+                "introns",
+                "exons",
+                "gene expression",
+                "splicing",
+                "alternative splicing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the effect of different environmental conditions on phenotypic expression resulting from the same genotype.",
+              "keywords": [
+                "environmental conditions",
+                "phenotypic expression",
+                "genotype",
+                "epigenetics",
+                "phenotypic plasticity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the benefits of exercise, diet, and other lifestyle factors or family history on epigenetic gene expression.",
+              "keywords": [
+                "epigenetic gene expression",
+                "exercise benefits",
+                "diet effects",
+                "lifestyle factors",
+                "family history"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transmission of Heritable Information",
+      "standards": [
+        {
+          "code": "GEN.4",
+          "description": "Investigate how heritable information is transmitted and contributes to genetic diversity.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain how processes during sexual reproduction (crossing over, independent assortment, and random gamete combinations) increase genetic diversity.",
+              "keywords": [
+                "sexual reproduction",
+                "crossing over",
+                "independent assortment",
+                "gamete combination",
+                "genetic diversity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use models to identify abnormalities in chromosome number and/or structure and hypothesize what meiotic events would result in those changes.",
+              "keywords": [
+                "chromosome abnormalities",
+                "chromosome structure",
+                "meiosis",
+                "karyotype analysis",
+                "nondisjunction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain how nondisjunction can affect chromosome number in gametes.",
+              "keywords": [
+                "nondisjunction",
+                "chromosome number",
+                "gamete formation",
+                "meiosis errors",
+                "aneuploidy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare sources of diversity in prokaryotes and eukaryotes.",
+              "keywords": [
+                "genetic diversity",
+                "prokaryotes",
+                "eukaryotes",
+                "horizontal gene transfer",
+                "sexual reproduction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about causes of inheritable genetic variations, including genetic disorders.",
+              "keywords": [
+                "inheritable genetic variation",
+                "genetic disorders",
+                "mutation",
+                "genetic recombination",
+                "inheritance patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Complex Inheritance",
+      "standards": [
+        {
+          "code": "GEN.5",
+          "description": "Investigate inheritance patterns beyond Mendelian genetics.",
+          "skills": [
+            {
+              "description": "Apply rules of probability and statistics to determine if the actual results of a genetic cross fit the predicted results.",
+              "keywords": [
+                "probability rules",
+                "statistical analysis",
+                "genetic cross",
+                "predicted vs. actual results",
+                "chi-square test"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain Mendelian and non-Mendelian patterns of inheritance, gene linkage, and chromosome mapping (polygenic inheritance, incomplete dominance, sex-linked inheritance, and codominance).",
+              "keywords": [
+                "Mendelian inheritance",
+                "non-Mendelian inheritance",
+                "gene linkage",
+                "chromosome mapping",
+                "polygenic inheritance",
+                "incomplete dominance",
+                "sex-linked inheritance",
+                "codominance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the importance of mitochondrial DNA.",
+              "keywords": [
+                "mitochondrial DNA",
+                "maternal inheritance",
+                "cellular energy",
+                "genetic disorders",
+                "evolutionary significance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Genetic Makeup of Populations",
+      "standards": [
+        {
+          "code": "GEN.6",
+          "description": "Investigate how the genetic makeup of populations changes over time.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate a claim about the effect of evolutionary factors that lead to genetic variation within and among populations.",
+              "keywords": [
+                "evolutionary factors",
+                "genetic variation",
+                "population genetics",
+                "natural selection",
+                "genetic drift",
+                "gene flow",
+                "mutation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Predict genotypes in a population from observed phenotypes using the Hardy-Weinberg principle.",
+              "keywords": [
+                "Hardy-Weinberg principle",
+                "genotype prediction",
+                "phenotype observation",
+                "allele frequency",
+                "population genetics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about why Hardy-Weinberg equilibrium rarely occurs.",
+              "keywords": [
+                "Hardy-Weinberg equilibrium",
+                "evolutionary forces",
+                "population genetics",
+                "real-world deviations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the genetic composition of populations is the result of natural processes.",
+              "keywords": [
+                "genetic composition",
+                "natural processes",
+                "population evolution",
+                "adaptation",
+                "speciation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how genetic makeup can be used to classify organisms.",
+              "keywords": [
+                "genetic classification",
+                "taxonomy",
+                "phylogenetics",
+                "genetic markers",
+                "evolutionary relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Genetics and Genetic Engineering Applications",
+      "standards": [
+        {
+          "code": "GEN.7",
+          "description": "Investigate practical applications of genetics and genetic engineering.",
+          "skills": [
+            {
+              "description": "Research how genetics and genetic engineering are being used in different fields.",
+              "keywords": [
+                "genetic engineering applications",
+                "medicine",
+                "agriculture",
+                "environmental science",
+                "biotechnology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how genetic engineering could be used to address a medical, health, agricultural, or environmental issue.",
+              "keywords": [
+                "genetic engineering solutions",
+                "medical applications",
+                "agricultural applications",
+                "environmental applications",
+                "ethical considerations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate information from the popular media about genetic engineering for accuracy, credibility, and bias and compare it with current scientific literature.",
+              "keywords": [
+                "media literacy",
+                "genetic engineering information",
+                "accuracy assessment",
+                "credibility evaluation",
+                "bias detection",
+                "scientific literature comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

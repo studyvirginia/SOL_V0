@@ -1,0 +1,214 @@
+{
+  "key": "2_2_MG_4_skill3",
+  "grade": "2",
+  "code": "2.MG.4",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 2 Math",
+  "desc": "Describe, name, compare, and contrast plane and solid figures.",
+  "skill_desc": "Given a concrete or pictorial model, name and describe the solid figure (sphere, cube, rectangular prism) by its characteristics.",
+  "skill_idx": 2,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/2_2_MG_4_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(4,4),(0,4))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,4)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,4)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "\\operatorname{polygon}((6,0),(10,0),(8,2))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(6,0)",
+        "color": "#FF3B30",
+        "label": "E",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(10,0)",
+        "color": "#FF3B30",
+        "label": "F",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p7",
+        "latex": "(8,2)",
+        "color": "#FF3B30",
+        "label": "G",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "\\operatorname{polygon}((0,-6),(4,-6),(2,-2))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p8",
+        "latex": "(0,-6)",
+        "color": "#FF3B30",
+        "label": "H",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p9",
+        "latex": "(4,-6)",
+        "color": "#FF3B30",
+        "label": "I",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p10",
+        "latex": "(2,-2)",
+        "color": "#FF3B30",
+        "label": "J",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -7,
+      "right": 11,
+      "top": 5
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Plane Figures"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "cube = PolyhedronRegular(4, 1)",
+      "SetColor(cube, 0, 122, 255)",
+      "SetViewDirection(cube, 1, 1, 1)",
+      "sphere = Sphere((0, 0, 0), 1)",
+      "SetColor(sphere, 255, 0, 0)",
+      "prism = PolyhedronRegular(3, 1)",
+      "Translate(prism, (0, 0, 1))",
+      "SetColor(prism, 0, 255, 0)"
+    ],
+    "view": [
+      -2,
+      2,
+      -2,
+      2
+    ],
+    "showGrid": false,
+    "title": "Sphere, Cube, and Rectangular Prism"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "B = (2, 0)",
+      "C = (2, 2)",
+      "D = (0, 2)",
+      "E = (0.5, 0.5)",
+      "F = (2.5, 0.5)",
+      "G = (2.5, 2.5)",
+      "H = (0.5, 2.5)",
+      "cube = Polygon(A, B, C, D)",
+      "cubeTop = Polygon(E, F, G, H)",
+      "Segment(A, E)",
+      "Segment(B, F)",
+      "Segment(C, G)",
+      "Segment(D, H)",
+      "I = (4, 0)",
+      "J = (7, 0)",
+      "K = (7, 2)",
+      "L = (4, 2)",
+      "M = (4.5, 1)",
+      "N = (7.5, 1)",
+      "O = (7.5, 3)",
+      "P = (4.5, 3)",
+      "prism = Polygon(I, J, K, L)",
+      "prismTop = Polygon(M, N, O, P)",
+      "Segment(I, M)",
+      "Segment(J, N)",
+      "Segment(K, O)",
+      "Segment(L, P)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 minh h\u1ecda c\u00e1c h\u00ecnh kh\u1ed1i, ch\u00fang ta s\u1ebd t\u1ea1o ra m\u1ed9t h\u00ecnh l\u1eadp ph\u01b0\u01a1ng v\u00e0 m\u1ed9t h\u00ecnh h\u1ed9"
+  }
+}

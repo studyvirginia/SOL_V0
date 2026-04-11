@@ -1,0 +1,894 @@
+{
+  "subject": "History",
+  "course": "Grade 4 - Virginia Studies",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "VS.1",
+          "description": "Apply history and social science skills to explain the relationship between physical geography and the lives of Virginia's peoples, past and present.",
+          "skills": [
+            {
+              "description": "Analyze and interpret information sources including artifacts, primary and secondary sources, charts, graphs, and diagrams.",
+              "keywords": [
+                "artifact analysis",
+                "primary sources",
+                "secondary sources",
+                "data interpretation",
+                "graph analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to identify and understand geographic features and connections.",
+              "keywords": [
+                "geographic analysis",
+                "map skills",
+                "spatial relationships",
+                "landform identification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop questions and engage in critical thinking and analysis.",
+              "keywords": [
+                "question formulation",
+                "critical thinking",
+                "historical inquiry",
+                "analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use evidence to construct timelines, classify events, and distinguish fact from opinion.",
+              "keywords": [
+                "timeline construction",
+                "event classification",
+                "fact vs. opinion",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast people, places, and events.",
+              "keywords": [
+                "comparative analysis",
+                "historical comparison",
+                "contrast evaluation",
+                "geographic comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify cause-and-effect relationships to clarify and explain content.",
+              "keywords": [
+                "causal analysis",
+                "cause and effect",
+                "historical causation",
+                "impact assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use economic decision-making models to make informed economic decisions and explain incentives and consequences.",
+              "keywords": [
+                "economic modeling",
+                "decision-making",
+                "incentive analysis",
+                "consequence evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop products that reflect an understanding of content.",
+              "keywords": [
+                "product creation",
+                "content synthesis",
+                "historical presentation",
+                "creative expression"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physical Geography",
+      "standards": [
+        {
+          "code": "VS.2",
+          "description": "Locate Virginia and its bordering states on maps of the United States and North America.",
+          "skills": [
+            {
+              "description": "Locate Virginia and its bordering states on maps of the United States.",
+              "keywords": [
+                "state location",
+                "border identification",
+                "map reading",
+                "geographic positioning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Locate Virginia and its bordering states on maps of North America.",
+              "keywords": [
+                "continental mapping",
+                "regional geography",
+                "cartographic skills",
+                "spatial awareness"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VS.3",
+          "description": "Locate and describe the relative location and physical characteristics of Virginia's five geographic regions on a map.",
+          "skills": [
+            {
+              "description": "Locate Virginia's five geographic regions on a map.",
+              "keywords": [
+                "region identification",
+                "geographic regions",
+                "map labeling",
+                "spatial mapping"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the relative location of Virginia's five geographic regions.",
+              "keywords": [
+                "relative positioning",
+                "geographic placement",
+                "spatial relationships",
+                "regional context"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the physical characteristics of Virginia's five geographic regions.",
+              "keywords": [
+                "physical geography",
+                "landform description",
+                "climate features",
+                "ecological characteristics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VS.4",
+          "description": "Locate, identify, and describe the impact of Virginia's bodies of water on its history, economy, and culture.",
+          "skills": [
+            {
+              "description": "Locate Virginia's major bodies of water on a map.",
+              "keywords": [
+                "water body identification",
+                "hydrography",
+                "map features",
+                "geographic landmarks"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify Virginia's major bodies of water.",
+              "keywords": [
+                "river identification",
+                "bay identification",
+                "lake identification",
+                "coastal features"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the impact of Virginia's bodies of water on its history.",
+              "keywords": [
+                "historical impact",
+                "economic influence",
+                "cultural significance",
+                "transportation routes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the impact of Virginia's bodies of water on its economy.",
+              "keywords": [
+                "economic development",
+                "trade routes",
+                "fishing industry",
+                "tourism impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the impact of Virginia's bodies of water on its culture.",
+              "keywords": [
+                "cultural heritage",
+                "traditional practices",
+                "folklore",
+                "community identity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Virginia's Indigenous People",
+      "standards": [
+        {
+          "code": "VS.5",
+          "description": "Describe the Indigenous nations of Virginia past and present.",
+          "skills": [
+            {
+              "description": "Describe how archaeologists have recovered artifacts from important places in the history of Indigenous people, including Werowocomoco.",
+              "keywords": [
+                "archaeological methods",
+                "artifact recovery",
+                "historical sites",
+                "cultural preservation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe Virginia's three most prominent Indigenous language groups (Algonquian, Siouan, and Iroquoian).",
+              "keywords": [
+                "language groups",
+                "linguistic diversity",
+                "tribal classification",
+                "cultural heritage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the diversity among the Indigenous nations.",
+              "keywords": [
+                "cultural diversity",
+                "tribal variations",
+                "social structures",
+                "traditional practices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the relationships and interactions of Virginia's Indigenous People and their environment, circa 1600.",
+              "keywords": [
+                "environmental adaptation",
+                "subsistence strategies",
+                "ecological relationships",
+                "historical interactions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the lives and cultures of Virginia's Indigenous People leading to the present day.",
+              "keywords": [
+                "cultural continuity",
+                "modern adaptations",
+                "heritage preservation",
+                "contemporary practices"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1607 through the American Revolution",
+      "standards": [
+        {
+          "code": "VS.6",
+          "description": "Explain the causes and effects of events associated with the first permanent English settlement in North America.",
+          "skills": [
+            {
+              "description": "Explain the reasons for English colonization.",
+              "keywords": [
+                "colonial motives",
+                "economic incentives",
+                "religious freedom",
+                "territorial expansion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the economic and geographic influences on the decision to settle at Jamestown.",
+              "keywords": [
+                "economic factors",
+                "geographic suitability",
+                "settlement criteria",
+                "resource availability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the importance of the Virginia Company of London Charter (April 10, 1606) in establishing the Jamestown colony.",
+              "keywords": [
+                "charter significance",
+                "corporate colonization",
+                "legal foundations",
+                "historical documents"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the interactions between the English colonists and the Indigenous people, including the role of the Powhatan in the survival of the colonists.",
+              "keywords": [
+                "intercultural relations",
+                "Powhatan Confederacy",
+                "survival strategies",
+                "trade negotiations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the hardships faced by settlers at Jamestown and the changes that took place to ensure survival.",
+              "keywords": [
+                "survival challenges",
+                "adaptation strategies",
+                "leadership changes",
+                "agricultural innovations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the impact of the arrival of Africans and women to the Jamestown settlement.",
+              "keywords": [
+                "demographic changes",
+                "labor systems",
+                "social dynamics",
+                "historical impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the significance of establishing the General Assembly (1619), the first representative legislative body in English America.",
+              "keywords": [
+                "legislative history",
+                "representative government",
+                "political institutions",
+                "colonial governance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VS.7",
+          "description": "Understand life in the Virginia colony.",
+          "skills": [
+            {
+              "description": "Explain the importance and influence of agriculture.",
+              "keywords": [
+                "agricultural economy",
+                "crop cultivation",
+                "plantation systems",
+                "economic dependence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine how colonial Virginia reflected the culture of Virginia's Indigenous People, European immigrants, and Africans.",
+              "keywords": [
+                "cultural synthesis",
+                "multicultural society",
+                "traditional practices",
+                "social integration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Distinguish between indentured servants and enslaved people, including how European countries traded for, transported, and sold Africans to be enslaved in British North America beginning in the 17th century.",
+              "keywords": [
+                "labor systems",
+                "indentured servitude",
+                "transatlantic slave trade",
+                "racial classification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the laws that established race-based enslavement.",
+              "keywords": [
+                "slavery laws",
+                "racial legislation",
+                "legal codification",
+                "institutional racism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the reasons for the relocation of Virginia's capital from Jamestown to Williamsburg.",
+              "keywords": [
+                "capital relocation",
+                "urban development",
+                "political decisions",
+                "geographic factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe ways people exchanged goods and services in colonial Virginia.",
+              "keywords": [
+                "barter systems",
+                "trade networks",
+                "economic transactions",
+                "local markets"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VS.8",
+          "description": "Explain Virginia and Virginians' role during the American Revolution.",
+          "skills": [
+            {
+              "description": "Explain the principles and events that convinced the colonists to declare independence and go to war with Great Britain, as expressed in the Declaration of Independence.",
+              "keywords": [
+                "independence principles",
+                "revolutionary causes",
+                "political philosophy",
+                "historical documents"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the important contributions, leadership, and experiences of Virginians during the war, including George Washington, Thomas Jefferson, George Mason, James Madison, James Armistead Lafayette, Indigenous people, women, and free and enslaved Blacks.",
+              "keywords": [
+                "revolutionary leaders",
+                "military contributions",
+                "civilian roles",
+                "diverse participation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the reasons for the relocation of Virginia's capital from Williamsburg to Richmond.",
+              "keywords": [
+                "capital relocation",
+                "strategic positioning",
+                "political decisions",
+                "geographic factors"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the importance of the American victory at Yorktown.",
+              "keywords": [
+                "military victory",
+                "strategic significance",
+                "war outcomes",
+                "historical turning point"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Political Growth and Western Expansion: 1775 to the Mid-1800s",
+      "standards": [
+        {
+          "code": "VS.9",
+          "description": "Explain the establishment and growth of the new American nation with emphasis on the role of Virginians and events in Virginia during the 18th and 19th centuries.",
+          "skills": [
+            {
+              "description": "Explain the roles of George Washington, James Madison, and Patrick Henry in early American governance.",
+              "keywords": [
+                "founding fathers",
+                "political leadership",
+                "constitutional roles",
+                "revolutionary figures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the development of founding Virginia documents, including the Virginia Declaration of Rights and the Virginia Statute for Religious Freedom.",
+              "keywords": [
+                "foundational documents",
+                "constitutional principles",
+                "legal frameworks",
+                "historical texts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how principles of founding Virginia documents inspired the Declaration of Independence, the Constitution of Virginia, the Constitution of the United States, and the Bill of Rights.",
+              "keywords": [
+                "document influence",
+                "constitutional principles",
+                "legal heritage",
+                "political philosophy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how geographical features and technological advances impacted the western movement in the first half of the 1800s.",
+              "keywords": [
+                "westward expansion",
+                "geographic barriers",
+                "technological innovations",
+                "migration patterns"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the causes and events of Nat Turner's Rebellion and how it impacted the institution of slavery.",
+              "keywords": [
+                "slave rebellion",
+                "institutional impact",
+                "social unrest",
+                "historical consequences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civil War and Postwar Eras",
+      "standards": [
+        {
+          "code": "VS.10",
+          "description": "Understand the key people, events, and issues of the Civil War and Virginia's role.",
+          "skills": [
+            {
+              "description": "Explain the role of John Brown and the impact of the raid at Harper's Ferry.",
+              "keywords": [
+                "abolitionist movement",
+                "radical actions",
+                "pre-war tensions",
+                "historical events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the institution of slavery was the cause of the Civil War, and secondary factors that contributed to the secession of the southern states.",
+              "keywords": [
+                "slavery as cause",
+                "secession factors",
+                "regional divisions",
+                "political tensions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the significance of the Underground Railroad and the contributions of Harriet Tubman.",
+              "keywords": [
+                "abolitionist networks",
+                "escape routes",
+                "Tubman's role",
+                "freedom seekers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain major events and issues that divided Virginians and led to secession, war, and the creation of West Virginia.",
+              "keywords": [
+                "state division",
+                "secession debates",
+                "war impacts",
+                "political conflicts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify major battles that took place in Virginia.",
+              "keywords": [
+                "military engagements",
+                "battle sites",
+                "war history",
+                "strategic locations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and explain the leadership roles of Virginians during the Civil War, including Thomas \"Stonewall\" Jackson, Robert E. Lee, William Harvey Carney, Winfield Scott, and Powhatan Beaty.",
+              "keywords": [
+                "military leadership",
+                "Confederate figures",
+                "Union contributions",
+                "heroic actions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the experiences and contributions of Indigenous people and enslaved and free Blacks and their allies during the war, including Elizabeth Van Lew and Mary Bowser.",
+              "keywords": [
+                "African American contributions",
+                "Union espionage",
+                "civil rights advocacy",
+                "underground networks"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VS.11",
+          "description": "Explain the reconstruction of Virginia following the Civil War.",
+          "skills": [
+            {
+              "description": "Describe what the Thirteenth, Fourteenth, and Fifteenth Amendments to the Constitution accomplished.",
+              "keywords": [
+                "constitutional amendments",
+                "abolition of slavery",
+                "citizenship rights",
+                "voting rights"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the effects of Reconstruction on life in Virginia.",
+              "keywords": [
+                "post-war changes",
+                "social reconstruction",
+                "economic shifts",
+                "political reforms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the role that the Freedmen's Schools played in the lives of African Americans in Virginia after the Civil War.",
+              "keywords": [
+                "educational access",
+                "post-emancipation schools",
+                "literacy programs",
+                "community development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Discuss the election of African American leader John Mercer Langston to Congress in 1890.",
+              "keywords": [
+                "political representation",
+                "African American leadership",
+                "Reconstruction politics",
+                "historical milestones"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the effect of the Supreme Court's decision in Plessy v. Ferguson.",
+              "keywords": [
+                "separate but equal",
+                "legal segregation",
+                "Jim Crow laws",
+                "court precedent"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the effects of segregation and \"Jim Crow\" laws on life in Virginia.",
+              "keywords": [
+                "racial segregation",
+                "legal discrimination",
+                "social inequality",
+                "historical impacts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VS.12",
+          "description": "Recognize why Virginia is known as the \"Mother of Presidents.\"",
+          "skills": [
+            {
+              "description": "Identify U.S. Presidents from Virginia and explain their contributions.",
+              "keywords": [
+                "presidential legacy",
+                "Virginia's political influence",
+                "historical leadership",
+                "national impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Virginia: 1900 to Present",
+      "standards": [
+        {
+          "code": "VS.13",
+          "description": "Understand the ways in which Virginia became interconnected and diverse.",
+          "skills": [
+            {
+              "description": "Explain the importance of railroads, waterways, new industries, and the growth of cities to Virginia's economic development in the late 1800s.",
+              "keywords": [
+                "industrialization",
+                "transportation networks",
+                "urban growth",
+                "economic development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the economic and social transition from a rural society to a more urban society.",
+              "keywords": [
+                "rural to urban shift",
+                "economic transformation",
+                "social changes",
+                "industrial growth"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VS.14",
+          "description": "Understand the role Virginians played in American history during World War I and World War II.",
+          "skills": [
+            {
+              "description": "Examine how key leaders and citizens prepared for wartime.",
+              "keywords": [
+                "wartime mobilization",
+                "military preparation",
+                "home front efforts",
+                "logistical planning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the contributions made by military veterans and Medal of Honor recipients.",
+              "keywords": [
+                "military service",
+                "heroic actions",
+                "national recognition",
+                "veteran contributions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VS.15",
+          "description": "Understand the Civil Rights Movement in Virginia.",
+          "skills": [
+            {
+              "description": "Explain the social and political events connected to disenfranchisement of African American voters in Virginia in the early 20th century, desegregation, court decisions, and Massive Resistance, with emphasis on the role of Virginians in the Supreme Court cases including Brown v. Board of Education.",
+              "keywords": [
+                "voter suppression",
+                "desegregation",
+                "legal challenges",
+                "Massive Resistance",
+                "Brown v. Board"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate the political, social, and economic effects of choices made during the Civil Rights Era by Virginians including Maggie Walker, Robert Russa Moton, Barbara Johns, Samuel Wilbert Tucker, Oliver W. Hill, Sr., Irene Morgan, Arthur R. Ashe, A. Linwood Holton, Jr., and L. Douglas Wilder.",
+              "keywords": [
+                "civil rights leaders",
+                "legal advocacy",
+                "social change",
+                "political reforms",
+                "economic impacts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VS.16",
+          "description": "Use history and social science skills to recognize why Virginia is known as the \"Mother of Presidents.\"",
+          "skills": [
+            {
+              "description": "Identify U.S. Presidents from Virginia and explain their contributions to American governance and history.",
+              "keywords": [
+                "presidential legacy",
+                "Virginia's political influence",
+                "constitutional leadership",
+                "national impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VS.17",
+          "description": "Explain Virginia's role in the global economy in the 21st century.",
+          "skills": [
+            {
+              "description": "Examine major products and industries important to Virginia.",
+              "keywords": [
+                "economic sectors",
+                "industrial output",
+                "agricultural products",
+                "manufacturing base"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the impact of the ideas, innovations, and advancements of Virginians on a global market.",
+              "keywords": [
+                "global influence",
+                "technological innovations",
+                "entrepreneurial ventures",
+                "economic contributions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

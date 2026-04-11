@@ -1,0 +1,219 @@
+{
+  "key": "6_6_NS_1_skill1",
+  "grade": "6",
+  "code": "6.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 6 Math",
+  "desc": "Express equivalency, compare, and order numbers written as fractions, mixed numbers, decimals, and percents using multiple strategies.",
+  "skill_desc": "Estimate and determine the percent represented by a given model (e.g., number line, picture, verbal description), including percents greater than 100% and less than 1%.",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_NS_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "0\\%",
+        "color": "#007AFF",
+        "label": "0%",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "25\\%",
+        "color": "#007AFF",
+        "label": "25%",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "50\\%",
+        "color": "#007AFF",
+        "label": "50%",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "75\\%",
+        "color": "#007AFF",
+        "label": "75%",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "100\\%",
+        "color": "#007AFF",
+        "label": "100%",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "125\\%",
+        "color": "#007AFF",
+        "label": "125%",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e7",
+        "latex": "150\\%",
+        "color": "#007AFF",
+        "label": "150%",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e8",
+        "latex": "175\\%",
+        "color": "#007AFF",
+        "label": "175%",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e9",
+        "latex": "200\\%",
+        "color": "#007AFF",
+        "label": "200%",
+        "showLabel": true,
+        "labelOrientation": "BELOW",
+        "hidden": false
+      },
+      {
+        "id": "e10",
+        "latex": "0",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e11",
+        "latex": "0.25",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e12",
+        "latex": "0.5",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e13",
+        "latex": "0.75",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e14",
+        "latex": "1",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e15",
+        "latex": "1.25",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e16",
+        "latex": "1.5",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e17",
+        "latex": "1.75",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e18",
+        "latex": "2",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e19",
+        "latex": "y=0",
+        "color": "#007AFF",
+        "lines": true,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -0.1,
+      "bottom": -0.1,
+      "right": 2.1,
+      "top": 0.1
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Percent Number Line"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

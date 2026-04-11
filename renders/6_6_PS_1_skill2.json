@@ -1,0 +1,97 @@
+{
+  "key": "6_6_PS_1_skill2",
+  "grade": "6",
+  "code": "6.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 6 Math",
+  "desc": "Apply the data cycle with a focus on circle graphs.",
+  "skill_desc": "Determine the data needed to answer a formulated question and collect the data using observations, measurement, surveys, or experiments.",
+  "skill_idx": 1,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PS_1_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x_{1}",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y_{1}",
+            "values": [
+              "15",
+              "20",
+              "25",
+              "30",
+              "35",
+              "40",
+              "45",
+              "50"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "y=5x+10",
+        "color": "#007AFF",
+        "label": "Line of Best Fit",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "\\operatorname{mean}(y_{1})",
+        "color": "#FF3B30",
+        "label": "Mean",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "\\operatorname{total}(y_{1})",
+        "color": "#34C759",
+        "label": "Total",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 10,
+      "top": 60
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Data Cycle: Circle Graph"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

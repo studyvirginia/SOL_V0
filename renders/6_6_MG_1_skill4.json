@@ -1,0 +1,153 @@
+{
+  "key": "6_6_MG_1_skill4",
+  "grade": "6",
+  "code": "6.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 6 Math",
+  "desc": "Identify characteristics of circles and solve problems involving circumference and area.",
+  "skill_desc": "Investigate and describe the relationship between diameter and circumference.",
+  "skill_idx": 3,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/6_6_MG_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "C=\\pi d",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "d=1",
+        "color": "#FF3B30",
+        "label": "Diameter",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "C=\\pi",
+        "color": "#34C759",
+        "label": "Circumference",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "d=2",
+        "color": "#FF3B30",
+        "label": "Diameter",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "C=2\\pi",
+        "color": "#34C759",
+        "label": "Circumference",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "d=3",
+        "color": "#FF3B30",
+        "label": "Diameter",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e7",
+        "latex": "C=3\\pi",
+        "color": "#34C759",
+        "label": "Circumference",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 10,
+      "top": 10
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Circumference vs. Diameter"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "O = (0, 0)",
+      "SetLabelVisible(O, true)",
+      "SetCaption(O, \"Center\")",
+      "SetLabelMode(O, 3)",
+      "r = 2",
+      "c = Circle(O, r)",
+      "A = (r, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (-r, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "seg = Segment(A, B)",
+      "SetColor(seg, 255, 0, 0)",
+      "SetLineThickness(seg, 3)",
+      "SetCaption(seg, \"Diameter\")",
+      "SetLabelMode(seg, 3)",
+      "circumference = 2 * pi * r",
+      "SetCaption(circumference, \"Circumference\")",
+      "SetLabelMode(circumference, 1)",
+      "SetColor(circumference, 0, 122, 255)",
+      "SetPointSize(A, 5)",
+      "SetPointStyle(A, 0)",
+      "SetPointSize(B, 5)",
+      "SetPointStyle(B, 0)"
+    ],
+    "view": [
+      -3,
+      3,
+      -2.5,
+      2.5
+    ],
+    "showGrid": true,
+    "title": "Circle with diameter and circumference"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "O = (2, 2)",
+      "A = (5, 2)",
+      "circleO = Circle(O, A)",
+      "B = Reflect(A, O)",
+      "Segment(A, B)",
+      "circumference = 2 * pi * Distance(O, A)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 minh h\u1ecda m\u1ed1i quan h\u1ec7 gi\u1eefa \u0111\u01b0\u1eddng k\u00ednh v\u00e0 chu vi c\u1ee7a m\u1ed9t \u0111\u01b0\u1eddng tr\u00f2n, ch\u00fang ta c"
+  }
+}

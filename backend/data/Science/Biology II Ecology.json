@@ -1,0 +1,719 @@
+{
+  "subject": "Science",
+  "course": "Biology II Ecology",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "EC.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through investigation, data analysis, modeling, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions that arise from careful observation of phenomena, organisms, models, theories, or unexpected results to seek additional information.",
+              "keywords": [
+                "question formulation",
+                "observation-based inquiry",
+                "phenomena analysis",
+                "model evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of a school laboratory or field study.",
+              "keywords": [
+                "investigable questions",
+                "laboratory scope",
+                "field study feasibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Formulate hypotheses specifying the effect of manipulating an independent variable on a dependent variable.",
+              "keywords": [
+                "hypothesis formation",
+                "independent variable",
+                "dependent variable",
+                "cause-effect prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "scientific principles",
+                "research-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct observational and experimental investigations, identifying variables, constants, and controls.",
+              "keywords": [
+                "investigation design",
+                "variable identification",
+                "control setup",
+                "experimental planning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations in a safe and ethical manner, considering environmental, social, and personal effects.",
+              "keywords": [
+                "safe investigation",
+                "ethical considerations",
+                "environmental impact",
+                "social responsibility"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine appropriate sample size and techniques for investigations.",
+              "keywords": [
+                "sample size determination",
+                "sampling techniques",
+                "data collection methodology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect and record data.",
+              "keywords": [
+                "data collection tools",
+                "technology integration",
+                "measurement instruments",
+                "data recording"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data table construction",
+                "variable representation",
+                "repeated trials",
+                "mean calculation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data, considering limitations of data analysis.",
+              "keywords": [
+                "graphical data representation",
+                "data interpretation",
+                "data limitations",
+                "trend analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, support explanations for phenomena, or test solutions to problems.",
+              "keywords": [
+                "model construction",
+                "data-driven modeling",
+                "phenomena explanation",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical concepts and processes in scientific investigations.",
+              "keywords": [
+                "mathematical application",
+                "quantitative analysis",
+                "statistical methods",
+                "data modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "validity assessment",
+                "reliability evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from models, theories, simulations, peer review, or investigations.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "peer review",
+                "theory application"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims based on data.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative analysis",
+                "data interpretation",
+                "evidence-based conclusions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide explanations of phenomena.",
+              "keywords": [
+                "scientific explanation",
+                "phenomena analysis",
+                "principle application",
+                "evidence integration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments in light of currently accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument evaluation",
+                "competing explanations",
+                "scientific evidence",
+                "theory comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make and support a claim using empirical evidence and scientific reasoning.",
+              "keywords": [
+                "claim formulation",
+                "empirical evidence",
+                "scientific reasoning",
+                "argument support"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate a claim by applying scientific reasoning, theory, and/or models to link evidence to assess the extent to which the reasoning and data support the explanation or conclusion.",
+              "keywords": [
+                "claim evaluation",
+                "scientific reasoning",
+                "theory application",
+                "evidence linkage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model limitations",
+                "model validity",
+                "predictive accuracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships, support explanations, predict phenomena, analyze systems, or solve problems.",
+              "keywords": [
+                "model development",
+                "evidence-based modeling",
+                "system analysis",
+                "phenomena prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply mathematical and statistical concepts and processes in building and revising models, and supporting explanations of phenomena.",
+              "keywords": [
+                "mathematical modeling",
+                "statistical analysis",
+                "model revision",
+                "phenomena explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question or solve a problem.",
+              "keywords": [
+                "source evaluation",
+                "information integration",
+                "media literacy",
+                "scientific problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing the evidence and credibility of each source.",
+              "keywords": [
+                "source credibility",
+                "scientific literature review",
+                "evidence assessment",
+                "authoritative sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical reporting",
+                "multi-format presentation",
+                "phenomena explanation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biotic and Abiotic Factors",
+      "standards": [
+        {
+          "code": "EC.2",
+          "description": "Investigate how biotic and abiotic factors affect species distribution and biodiversity.",
+          "skills": [
+            {
+              "description": "Compare the biotic and abiotic characteristics of Earth's principal terrestrial and aquatic biomes.",
+              "keywords": [
+                "biome comparison",
+                "biotic factors",
+                "abiotic factors",
+                "terrestrial ecosystems",
+                "aquatic ecosystems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how characteristics of biomes affect biodiversity.",
+              "keywords": [
+                "biodiversity claim",
+                "biome characteristics",
+                "evidence-based reasoning",
+                "claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct a biosurvey to assess the health and condition of a circumscribed natural area.",
+              "keywords": [
+                "biosurvey planning",
+                "ecosystem health assessment",
+                "field investigation",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research a natural or anthropogenic threat, the issues causing the threat, and describe potential remediation strategies.",
+              "keywords": [
+                "threat research",
+                "anthropogenic impact",
+                "remediation strategies",
+                "ecosystem threat analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how the level of biodiversity influences ecosystem resilience and sustainability.",
+              "keywords": [
+                "biodiversity claim",
+                "ecosystem resilience",
+                "sustainability assessment",
+                "evidence-based evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research ways legislation and/or global agreements provide biodiversity protections.",
+              "keywords": [
+                "biodiversity legislation",
+                "global agreements",
+                "policy research",
+                "conservation strategies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare benefits and limitations of methods used to increase resilience and sustainability in a local ecosystem.",
+              "keywords": [
+                "resilience methods",
+                "sustainability techniques",
+                "method comparison",
+                "ecosystem management"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy Transfer Through Ecosystems",
+      "standards": [
+        {
+          "code": "EC.3",
+          "description": "Investigate how energy is transferred through ecosystems and the role of thermodynamics.",
+          "skills": [
+            {
+              "description": "Explain how the laws of thermodynamics govern energy transfers through ecosystems.",
+              "keywords": [
+                "thermodynamics laws",
+                "energy transfer",
+                "ecosystem energy flow",
+                "energy conservation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how changes in ecosystem factors affect energy transfer and ecological efficiency in a local ecosystem.",
+              "keywords": [
+                "ecosystem factor changes",
+                "energy transfer",
+                "ecological efficiency",
+                "local ecosystem analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how strategies organisms use to acquire energy lead to biodiversity within ecosystems.",
+              "keywords": [
+                "energy acquisition strategies",
+                "biodiversity claim",
+                "organism adaptation",
+                "ecosystem diversity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how nutrient cycling by decomposers affects energy transfer in ecosystems.",
+              "keywords": [
+                "nutrient cycling",
+                "decomposer role",
+                "energy transfer",
+                "ecosystem claim evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matter Flow Through Ecosystems",
+      "standards": [
+        {
+          "code": "EC.4",
+          "description": "Investigate how matter flows through ecosystems via biogeochemical cycles.",
+          "skills": [
+            {
+              "description": "Develop and use a model to explain the cycling of matter in ecosystems through biogeochemical cycles (carbon, nitrogen, water, and phosphorus).",
+              "keywords": [
+                "biogeochemical cycles",
+                "matter cycling model",
+                "ecosystem modeling",
+                "nutrient flow"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain how the movement of one nutrient affects an ecosystem.",
+              "keywords": [
+                "nutrient movement model",
+                "ecosystem impact",
+                "nutrient cycling",
+                "model development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze and interpret data to predict how changes in the availability of resources will affect species' success in ecosystems.",
+              "keywords": [
+                "resource availability",
+                "species success prediction",
+                "data analysis",
+                "ecosystem impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how a disruption in a biogeochemical cycle affects an ecosystem.",
+              "keywords": [
+                "biogeochemical disruption",
+                "ecosystem claim",
+                "cycle disruption impact",
+                "evidence-based evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how changes in resource availability affect the biodiversity of an ecosystem.",
+              "keywords": [
+                "resource availability changes",
+                "biodiversity claim",
+                "ecosystem impact",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Population Growth",
+      "standards": [
+        {
+          "code": "EC.5",
+          "description": "Investigate how biotic and abiotic factors influence population growth and dynamics.",
+          "skills": [
+            {
+              "description": "Explain how population growth and resource availability affect population dispersion.",
+              "keywords": [
+                "population growth",
+                "resource availability",
+                "population dispersion",
+                "ecological distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data to determine the relationship between population density and resource availability.",
+              "keywords": [
+                "population density",
+                "resource availability",
+                "data analysis",
+                "ecological relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data (age structure, r/K strategy, and survivorship curves) to evaluate the viability of a population.",
+              "keywords": [
+                "age structure analysis",
+                "r/K strategy",
+                "survivorship curves",
+                "population viability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze a local ecosystem and categorize limiting factors.",
+              "keywords": [
+                "limiting factor analysis",
+                "local ecosystem assessment",
+                "ecological constraints",
+                "factor categorization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze population growth curves to determine growth trends, identify limiting factors, and make predictions about future population behavior.",
+              "keywords": [
+                "population growth curves",
+                "growth trend analysis",
+                "limiting factor identification",
+                "population prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ecological Relationships and Biodiversity",
+      "standards": [
+        {
+          "code": "EC.6",
+          "description": "Investigate how ecological relationships and driving forces support biodiversity.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate a claim about how natural selection leads to adaptations in species and increases ecosystem biodiversity.",
+              "keywords": [
+                "natural selection",
+                "species adaptation",
+                "biodiversity claim",
+                "evolutionary process"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the behavioral and physiological adaptations that plants and animals have developed to survive in diverse ecosystems.",
+              "keywords": [
+                "behavioral adaptations",
+                "physiological adaptations",
+                "survival strategies",
+                "ecosystem diversity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the roles of adaptive and non-adaptive forces in speciation and biodiversity.",
+              "keywords": [
+                "adaptive forces",
+                "non-adaptive forces",
+                "speciation claim",
+                "biodiversity mechanisms"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research a real-world example of an organism's adaptation to an evolving environment.",
+              "keywords": [
+                "organism adaptation",
+                "evolving environment",
+                "real-world example",
+                "research-based analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how species interactions and adaptations are a response to selective pressures.",
+              "keywords": [
+                "species interactions",
+                "selective pressures",
+                "adaptation claim",
+                "ecological response"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Research real-world structural and behavioral adaptations used by predators and prey for survival.",
+              "keywords": [
+                "predator adaptations",
+                "prey adaptations",
+                "structural adaptations",
+                "behavioral adaptations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how ecological niches and resource partitioning affect interactions within communities.",
+              "keywords": [
+                "ecological niches",
+                "resource partitioning",
+                "community interaction claim",
+                "niche differentiation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role predation plays in population size within an ecosystem and differentiate forms of predation.",
+              "keywords": [
+                "predation role",
+                "population size",
+                "predation forms",
+                "ecosystem dynamics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Natural and Anthropogenic Events",
+      "standards": [
+        {
+          "code": "EC.7",
+          "description": "Investigate how natural and anthropogenic events affect ecosystems and ecological succession.",
+          "skills": [
+            {
+              "description": "Make, support, and evaluate a claim about the ecological evolution of an ecosystem that is currently experiencing disruption.",
+              "keywords": [
+                "ecological evolution",
+                "ecosystem disruption",
+                "claim evaluation",
+                "disruption impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and use a model to explain ecological succession for a local ecosystem and predict the effect of natural and anthropogenic events on natural succession processes.",
+              "keywords": [
+                "ecological succession model",
+                "local ecosystem",
+                "succession prediction",
+                "event impact modeling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about the effect of an invasive species on the stability of a local ecosystem.",
+              "keywords": [
+                "invasive species impact",
+                "ecosystem stability",
+                "claim evaluation",
+                "local ecosystem analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make, support, and evaluate a claim about how natural and anthropogenic events affect ecosystem resilience.",
+              "keywords": [
+                "natural event impact",
+                "anthropogenic event impact",
+                "ecosystem resilience claim",
+                "event effect evaluation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

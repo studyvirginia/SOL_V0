@@ -1,0 +1,127 @@
+{
+  "key": "1_1_NS_1_skill5",
+  "grade": "1",
+  "code": "1.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 1 Math",
+  "desc": "Utilize flexible counting strategies to determine and describe quantities up to 120.",
+  "skill_desc": "Group a collection of up to 120 objects into tens and ones, and count to determine the total.",
+  "skill_idx": 4,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/1_1_NS_1_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=10x+3",
+        "color": "#007AFF",
+        "label": "Example: 13 objects",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(1,13)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "type": "table",
+        "id": "t1",
+        "columns": [
+          {
+            "id": "col1",
+            "latex": "x",
+            "values": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12"
+            ]
+          },
+          {
+            "id": "col2",
+            "latex": "10x+3",
+            "values": [
+              "3",
+              "13",
+              "23",
+              "33",
+              "43",
+              "53",
+              "63",
+              "73",
+              "83",
+              "93",
+              "103",
+              "113",
+              "123"
+            ]
+          }
+        ]
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 13,
+      "top": 130
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Grouping Objects into Tens and Ones"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "pts = {(1,10),(2,20),(3,30),(4,40),(5,50),(6,60),(7,70),(8,80),(9,90),(10,100)}",
+      "FitLine(pts)",
+      "SetColor(FitLine1, 0, 122, 255)",
+      "SetLineThickness(FitLine1, 3)"
+    ],
+    "view": [
+      0,
+      11,
+      0,
+      110
+    ],
+    "showGrid": true,
+    "title": "Grouping Objects into Tens and Ones"
+  },
+  "sketchmath_state": null
+}

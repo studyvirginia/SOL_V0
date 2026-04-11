@@ -1,0 +1,805 @@
+{
+  "subject": "Math",
+  "course": "Geometry",
+  "domains": [
+    {
+      "name": "Reasoning, Lines and Transformations",
+      "standards": [
+        {
+          "code": "G.RLT.1",
+          "description": "Translate logic statements into symbolic form and analyze conditional statements using Venn diagrams.",
+          "skills": [
+            {
+              "description": "Translate propositional statements and compound statements into symbolic form, including negations, conjunctions, disjunctions, conditionals, and biconditionals.",
+              "keywords": [
+                "propositional logic",
+                "symbolic form",
+                "negation",
+                "conjunction",
+                "disjunction",
+                "conditional",
+                "biconditional",
+                "geometric relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify and determine the validity of the converse, inverse, and contrapositive of a conditional statement.",
+              "keywords": [
+                "converse",
+                "inverse",
+                "contrapositive",
+                "conditional statement",
+                "validity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use Venn diagrams to represent set relationships, including union, intersection, subset, and negation.",
+              "keywords": [
+                "Venn diagrams",
+                "set relationships",
+                "union",
+                "intersection",
+                "subset",
+                "negation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret Venn diagrams, including those representing contextual situations.",
+              "keywords": [
+                "interpret Venn diagrams",
+                "contextual situations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "G.RLT.2",
+          "description": "Analyze and prove relationships of parallel lines cut by a transversal.",
+          "skills": [
+            {
+              "description": "Prove and justify angle pair relationships formed by two parallel lines and a transversal, including corresponding angles, alternate interior angles, alternate exterior angles, same-side interior angles, and same-side exterior angles.",
+              "keywords": [
+                "parallel lines",
+                "transversal",
+                "corresponding angles",
+                "alternate interior angles",
+                "alternate exterior angles",
+                "same-side interior angles",
+                "same-side exterior angles",
+                "angle relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Prove two or more lines are parallel given angle measurements expressed numerically or algebraically.",
+              "keywords": [
+                "prove parallel lines",
+                "angle measurements",
+                "algebraic methods"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems using the relationships between pairs of angles formed by the intersection of two parallel lines and a transversal.",
+              "keywords": [
+                "solve problems",
+                "angle relationships",
+                "parallel lines",
+                "transversal"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "G.RLT.3",
+          "description": "Solve problems involving symmetry and transformations.",
+          "skills": [
+            {
+              "description": "Locate, count, and draw lines of symmetry given a figure, including figures in context.",
+              "keywords": [
+                "lines of symmetry",
+                "figure symmetry",
+                "contextual figures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine whether a figure has point symmetry, line symmetry, both, or neither, including figures in context.",
+              "keywords": [
+                "point symmetry",
+                "line symmetry",
+                "figure symmetry",
+                "contextual figures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the transformation or combination of transformations that has occurred, including translations, reflections, rotations, and dilations.",
+              "keywords": [
+                "transformations",
+                "translations",
+                "reflections",
+                "rotations",
+                "dilations",
+                "coordinate grid"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Triangles",
+      "standards": [
+        {
+          "code": "G.TR.1",
+          "description": "Determine relationships between angles and sides in triangles and solve related problems.",
+          "skills": [
+            {
+              "description": "Determine whether a triangle could be formed given the lengths of three segments.",
+              "keywords": [
+                "triangle inequality",
+                "triangle formation",
+                "segment lengths"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the range in which the length of the third side must lie given the lengths of two sides of a triangle.",
+              "keywords": [
+                "triangle side lengths",
+                "range of third side"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Order the sides of a triangle by their lengths when given information about the measures of the angles.",
+              "keywords": [
+                "triangle sides",
+                "angle measures",
+                "side ordering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Order the angles of a triangle by their measures when given information about the lengths of the sides.",
+              "keywords": [
+                "triangle angles",
+                "side lengths",
+                "angle ordering"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve for interior and exterior angles of a triangle when given two angles.",
+              "keywords": [
+                "interior angles",
+                "exterior angles",
+                "triangle angle measures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "G.TR.2",
+          "description": "Prove and justify triangle congruence using direct and indirect proofs.",
+          "skills": [
+            {
+              "description": "Use definitions, postulates, and theorems (SSS, SAS, ASA, AAS, HL) to prove and justify two triangles are congruent.",
+              "keywords": [
+                "triangle congruence",
+                "SSS",
+                "SAS",
+                "ASA",
+                "AAS",
+                "HL",
+                "proofs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use algebraic methods to prove that two triangles are congruent.",
+              "keywords": [
+                "algebraic methods",
+                "triangle congruence",
+                "proofs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use coordinate methods, such as the slope formula and the distance formula, to prove two triangles are congruent.",
+              "keywords": [
+                "coordinate methods",
+                "slope formula",
+                "distance formula",
+                "triangle congruence",
+                "proofs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a triangle, use congruent segment, congruent angle, and/or perpendicular line constructions to create a congruent triangle (SSS, SAS, ASA, AAS, HL).",
+              "keywords": [
+                "geometric constructions",
+                "congruent segments",
+                "congruent angles",
+                "perpendicular lines",
+                "triangle congruence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "G.TR.3",
+          "description": "Prove and justify triangle similarity and solve related problems.",
+          "skills": [
+            {
+              "description": "Use definitions, postulates, and theorems (SAS, SSS, AA) to prove and justify that triangles are similar.",
+              "keywords": [
+                "triangle similarity",
+                "SAS",
+                "SSS",
+                "AA",
+                "proofs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use algebraic methods to prove that triangles are similar.",
+              "keywords": [
+                "algebraic methods",
+                "triangle similarity",
+                "proofs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use coordinate methods, such as the slope formula and the distance formula, to prove two triangles are similar.",
+              "keywords": [
+                "coordinate methods",
+                "slope formula",
+                "distance formula",
+                "triangle similarity",
+                "proofs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe a sequence of transformations that can be used to verify similarity of triangles located in the same plane.",
+              "keywords": [
+                "transformations",
+                "triangle similarity",
+                "verification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems, including those in context, involving attributes of similar triangles.",
+              "keywords": [
+                "similar triangles",
+                "problem-solving",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "G.TR.4",
+          "description": "Model and solve problems involving right triangle trigonometry and the Pythagorean Theorem.",
+          "skills": [
+            {
+              "description": "Determine whether a triangle formed with three given lengths is a right triangle.",
+              "keywords": [
+                "right triangle",
+                "Pythagorean Theorem",
+                "triangle formation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Find and verify trigonometric ratios using right triangles.",
+              "keywords": [
+                "trigonometric ratios",
+                "right triangles",
+                "sine",
+                "cosine",
+                "tangent"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Model and solve problems, including those in context, involving right triangle trigonometry (sine, cosine, and tangent ratios).",
+              "keywords": [
+                "right triangle trigonometry",
+                "sine",
+                "cosine",
+                "tangent",
+                "problem-solving",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems using the properties of special right triangles (45°-45°-90° and 30°-60°-90°).",
+              "keywords": [
+                "special right triangles",
+                "45°-45°-90°",
+                "30°-60°-90°",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve for missing lengths in geometric figures using properties of 45°-45°-90° and 30°-60°-90° triangles, including rationalizing denominators.",
+              "keywords": [
+                "missing lengths",
+                "45°-45°-90°",
+                "30°-60°-90°",
+                "rationalizing denominators"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems, including those in context, involving right triangles using the Pythagorean Theorem and its converse, including recognizing Pythagorean Triples.",
+              "keywords": [
+                "Pythagorean Theorem",
+                "converse",
+                "Pythagorean Triples",
+                "right triangles",
+                "problem-solving",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Polygons and Circles",
+      "standards": [
+        {
+          "code": "G.PC.1",
+          "description": "Prove and justify theorems and properties of quadrilaterals and solve related problems.",
+          "skills": [
+            {
+              "description": "Solve problems using the properties specific to parallelograms, rectangles, rhombi, squares, isosceles trapezoids, and trapezoids.",
+              "keywords": [
+                "quadrilaterals",
+                "parallelograms",
+                "rectangles",
+                "rhombi",
+                "squares",
+                "isosceles trapezoids",
+                "trapezoids",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Prove and justify that quadrilaterals have specific properties using coordinate and algebraic methods, such as the slope formula, the distance formula, and the midpoint formula.",
+              "keywords": [
+                "quadrilateral properties",
+                "coordinate methods",
+                "slope formula",
+                "distance formula",
+                "midpoint formula",
+                "proofs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Prove and justify theorems and properties of quadrilaterals using deductive reasoning.",
+              "keywords": [
+                "quadrilateral theorems",
+                "deductive reasoning",
+                "proofs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use congruent segment, congruent angle, angle bisector, perpendicular line, and/or parallel line constructions to verify properties of quadrilaterals.",
+              "keywords": [
+                "geometric constructions",
+                "congruent segments",
+                "congruent angles",
+                "angle bisectors",
+                "perpendicular lines",
+                "parallel lines",
+                "quadrilateral properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "G.PC.2",
+          "description": "Verify relationships and solve problems involving the number of sides and measures of angles of convex polygons.",
+          "skills": [
+            {
+              "description": "Solve problems involving the number of sides of a regular polygon given the measures of the interior and exterior angles of the polygon.",
+              "keywords": [
+                "regular polygons",
+                "interior angles",
+                "exterior angles",
+                "number of sides"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify the relationship between the sum of the measures of the interior and exterior angles of a convex polygon and solve problems involving the sum of the measures of the angles.",
+              "keywords": [
+                "convex polygons",
+                "interior angles",
+                "exterior angles",
+                "angle sum"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Justify the relationship between the measure of each interior and exterior angle of a regular polygon and solve problems involving the measures of the angles.",
+              "keywords": [
+                "regular polygons",
+                "interior angles",
+                "exterior angles",
+                "angle measures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "G.PC.3",
+          "description": "Solve problems involving properties of circles.",
+          "skills": [
+            {
+              "description": "Determine the proportional relationship between the arc length or area of a sector and other parts of a circle.",
+              "keywords": [
+                "arc length",
+                "sector area",
+                "circle proportions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve for arc measures and angles in a circle formed by central angles.",
+              "keywords": [
+                "central angles",
+                "arc measures",
+                "circle angles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve for arc measures and angles in a circle involving inscribed angles.",
+              "keywords": [
+                "inscribed angles",
+                "arc measures",
+                "circle angles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate the length of an arc of a circle.",
+              "keywords": [
+                "arc length",
+                "circle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate the area of a sector of a circle.",
+              "keywords": [
+                "sector area",
+                "circle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply arc length or sector area to solve for an unknown measurement of the circle, including the radius, diameter, arc measure, central angle, arc length, or sector area.",
+              "keywords": [
+                "arc length",
+                "sector area",
+                "unknown measurements",
+                "circle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "G.PC.4",
+          "description": "Solve problems in the coordinate plane involving equations of circles.",
+          "skills": [
+            {
+              "description": "Derive the equation of a circle given the center and radius using the Pythagorean Theorem.",
+              "keywords": [
+                "equation of a circle",
+                "center",
+                "radius",
+                "Pythagorean Theorem"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a graph or the equation of a circle in standard form, identify the coordinates of the center of the circle.",
+              "keywords": [
+                "standard form",
+                "circle equation",
+                "center coordinates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given the coordinates of the endpoints of a diameter of a circle, determine the coordinates of the center of the circle.",
+              "keywords": [
+                "diameter endpoints",
+                "center coordinates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a graph or the equation of a circle in standard form, identify the length of the radius or diameter of the circle.",
+              "keywords": [
+                "standard form",
+                "circle equation",
+                "radius",
+                "diameter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given the coordinates of the endpoints of the diameter of a circle, determine the length of the radius or diameter of the circle.",
+              "keywords": [
+                "diameter endpoints",
+                "radius",
+                "diameter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given the coordinates of the center and the coordinates of a point on the circle, determine the length of the radius or diameter of the circle.",
+              "keywords": [
+                "center coordinates",
+                "point on circle",
+                "radius",
+                "diameter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given the coordinates of the center and length of the radius of a circle, identify the coordinates of a point(s) on the circle.",
+              "keywords": [
+                "center coordinates",
+                "radius",
+                "point on circle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the equation of a circle given a graph of a circle with a center with coordinates that are integers.",
+              "keywords": [
+                "circle graph",
+                "center coordinates",
+                "circle equation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the equation of a circle given coordinates of the center and a point on the circle.",
+              "keywords": [
+                "center coordinates",
+                "point on circle",
+                "circle equation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the equation of a circle given coordinates of the center and the length of the radius or diameter.",
+              "keywords": [
+                "center coordinates",
+                "radius",
+                "diameter",
+                "circle equation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the equation of a circle given coordinates of the endpoints of a diameter.",
+              "keywords": [
+                "diameter endpoints",
+                "circle equation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two- and Three-Dimensional Figures",
+      "standards": [
+        {
+          "code": "G.DF.1",
+          "description": "Create models and solve problems involving surface area and volume of three-dimensional figures.",
+          "skills": [
+            {
+              "description": "Identify the shape of a two-dimensional cross section of a three-dimensional figure.",
+              "keywords": [
+                "cross section",
+                "three-dimensional figure",
+                "two-dimensional shape"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Create models and solve problems, including those in context, involving surface area of three-dimensional figures, as well as composite three-dimensional figures.",
+              "keywords": [
+                "surface area",
+                "three-dimensional figures",
+                "composite figures",
+                "problem-solving",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve multistep problems, including those in context, involving volume of three-dimensional figures, as well as composite three-dimensional figures.",
+              "keywords": [
+                "volume",
+                "three-dimensional figures",
+                "composite figures",
+                "multistep problems",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine unknown measurements of three-dimensional figures using information such as length of a side, area of a face, or volume.",
+              "keywords": [
+                "unknown measurements",
+                "three-dimensional figures",
+                "side length",
+                "face area",
+                "volume"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "G.DF.2",
+          "description": "Determine the effect of changing dimensions on three-dimensional figures and describe relationships between original and changed figures.",
+          "skills": [
+            {
+              "description": "Describe how changes in one or more dimensions of a figure affect other derived measures (perimeter, area, total surface area, and volume) of the figure.",
+              "keywords": [
+                "dimensional changes",
+                "perimeter",
+                "area",
+                "surface area",
+                "volume"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how changes in surface area and/or volume of a figure affect the measures of one or more dimensions of the figure.",
+              "keywords": [
+                "surface area changes",
+                "volume changes",
+                "dimensional measures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems, including those in context, involving changing the dimensions or derived measures of a three-dimensional figure.",
+              "keywords": [
+                "dimensional changes",
+                "derived measures",
+                "three-dimensional figures",
+                "problem-solving",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare ratios between side lengths, perimeters, areas, and volumes of similar figures.",
+              "keywords": [
+                "similar figures",
+                "side lengths",
+                "perimeters",
+                "areas",
+                "volumes",
+                "ratios"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize when two- and three-dimensional figures are similar and solve problems, including those in context, involving attributes of similar geometric figures.",
+              "keywords": [
+                "similar figures",
+                "two-dimensional figures",
+                "three-dimensional figures",
+                "problem-solving",
+                "contextual problems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

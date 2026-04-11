@@ -1,0 +1,97 @@
+{
+  "key": "4_4_PS_1_skill6",
+  "grade": "4",
+  "code": "4.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 4 Math",
+  "desc": "Apply the data cycle with a focus on line graphs to formulate questions, collect data, organize and represent data, and analyze data and communicate results.",
+  "skill_desc": "Analyze data represented in line graphs and communicate results: make inferences about the data.",
+  "skill_idx": 5,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/4_4_PS_1_skill6.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "col1",
+            "values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "color": "#007AFF"
+          },
+          {
+            "id": "col2",
+            "values": [
+              "2",
+              "4",
+              "5",
+              "7",
+              "9",
+              "10",
+              "12",
+              "14",
+              "15",
+              "17"
+            ],
+            "color": "#007AFF"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "y=1.6x+0.5",
+        "color": "#FF3B30",
+        "lines": true,
+        "lineWidth": 2,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0.5)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 11,
+      "top": 18
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Line Graph Analysis"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

@@ -1,0 +1,116 @@
+{
+  "key": "5_5_MG_1_skill2",
+  "grade": "5",
+  "code": "5.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 5 Math",
+  "desc": "Solve problems involving length, mass, and liquid volume using metric units.",
+  "skill_desc": "Determine the most appropriate metric unit of measure for mass (grams, kilograms) in a contextual problem.",
+  "skill_idx": 1,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/5_5_MG_1_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "A=(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "B=(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "C=(2,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "\\operatorname{polygon}(A,B,C)",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": ""
+  },
+  "geogebra_state": {
+    "cmds": [
+      "kg = 1",
+      "g = 0.001",
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"1 kg\")",
+      "SetLabelMode(A, 3)",
+      "B = (2, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"1000 g\")",
+      "SetLabelMode(B, 3)",
+      "C = (0, 2)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"1 g\")",
+      "SetLabelMode(C, 3)",
+      "D = (2, 2)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"0.001 kg\")",
+      "SetLabelMode(D, 3)",
+      "seg1 = Segment(A, B)",
+      "seg2 = Segment(C, D)"
+    ],
+    "view": [
+      -0.5,
+      2.5,
+      -0.5,
+      2.5
+    ],
+    "showGrid": true,
+    "title": "Metric Units of Mass: grams and kilograms"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (2, 3)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "Xin l\u1ed7i v\u00ec l\u1ed7i tr\u01b0\u1edbc \u0111\u00f3. B\u00e2y gi\u1edd t\u00f4i s\u1ebd cung c\u1ea5p m\u1ed9t ph\u1ea3n h\u1ed3i JSON h\u1ee3p l\u1ec7 v\u1edbi \u00edt"
+  }
+}

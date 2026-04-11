@@ -1,0 +1,133 @@
+{
+  "key": "8_8_PS_2_skill8",
+  "grade": "8",
+  "code": "8.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 8 Math",
+  "desc": "Apply the data cycle with a focus on boxplots.",
+  "skill_desc": "Compare and analyze two data sets represented in boxplots.",
+  "skill_idx": 7,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PS_2_skill8.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "col1",
+            "latex": "x_{1}",
+            "values": [
+              10,
+              12,
+              15,
+              18,
+              20,
+              22,
+              25,
+              28,
+              30,
+              32
+            ]
+          },
+          {
+            "id": "col2",
+            "latex": "y_{1}",
+            "values": [
+              15,
+              18,
+              22,
+              25,
+              28,
+              30,
+              33,
+              36,
+              38,
+              40
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "boxplot(y_{1})",
+        "color": "#007AFF",
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "type": "table",
+        "id": "e3",
+        "columns": [
+          {
+            "id": "col3",
+            "latex": "x_{2}",
+            "values": [
+              14,
+              16,
+              19,
+              21,
+              23,
+              26,
+              29,
+              31,
+              34,
+              36
+            ]
+          },
+          {
+            "id": "col4",
+            "latex": "y_{2}",
+            "values": [
+              17,
+              20,
+              24,
+              27,
+              31,
+              34,
+              37,
+              40,
+              43,
+              45
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e4",
+        "latex": "boxplot(y_{2})",
+        "color": "#FF3B30",
+        "lineWidth": 3,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 5,
+      "bottom": 10,
+      "right": 40,
+      "top": 50
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Comparing Boxplots"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

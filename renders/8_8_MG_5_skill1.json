@@ -1,0 +1,157 @@
+{
+  "key": "8_8_MG_5_skill1",
+  "grade": "8",
+  "code": "8.MG.5",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 8 Math",
+  "desc": "Solve area and perimeter problems involving composite plane figures.",
+  "skill_desc": "Subdivide a plane figure into triangles, rectangles, squares, trapezoids, parallelograms, circles, and semicircles to determine the area of subdivisions and combine to find the composite area.",
+  "skill_idx": 0,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/8_8_MG_5_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(2,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "\\operatorname{polygon}((4,0),(4,1),(5,1),(5,0))",
+        "color": "#34C759",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(4,1)",
+        "color": "#FF3B30",
+        "label": "E",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(5,1)",
+        "color": "#FF3B30",
+        "label": "F",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p7",
+        "latex": "(5,0)",
+        "color": "#FF3B30",
+        "label": "G",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Composite Area"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "B = (6, 0)",
+      "C = (6, 4)",
+      "D = (0, 4)",
+      "rect = Polygon(A, B, C, D)",
+      "SetColor(rect, 0, 122, 255)",
+      "SetOpacity(rect, 0.3)",
+      "E = (2, 4)",
+      "F = (4, 4)",
+      "G = (4, 6)",
+      "H = (2, 6)",
+      "rect2 = Polygon(E, F, G, H)",
+      "SetColor(rect2, 255, 0, 0)",
+      "SetOpacity(rect2, 0.3)",
+      "seg1 = Segment(A, B)",
+      "seg2 = Segment(B, C)",
+      "seg3 = Segment(C, D)",
+      "seg4 = Segment(D, A)",
+      "seg5 = Segment(E, F)",
+      "seg6 = Segment(F, G)",
+      "seg7 = Segment(G, H)",
+      "seg8 = Segment(H, E)"
+    ],
+    "view": [
+      -0.5,
+      6.5,
+      -0.5,
+      6.5
+    ],
+    "showGrid": true,
+    "title": "Composite Area: Rectangle with a Rectangle"
+  },
+  "sketchmath_state": null
+}

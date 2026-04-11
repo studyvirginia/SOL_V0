@@ -1,0 +1,55 @@
+{
+  "key": "7_7_PS_1_skill4",
+  "grade": "7",
+  "code": "7.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 7 Math",
+  "desc": "Determine probability of an event and investigate differences between experimental and theoretical probability.",
+  "skill_desc": "Investigate and describe the difference between experimental and theoretical probability of the same event.",
+  "skill_idx": 3,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/7_7_PS_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "P(E)=\\frac{\\text{Number of favorable outcomes}}{\\text{Total number of outcomes}}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "P(E)=\\frac{\\text{Number of times event occurs}}{\\text{Total number of trials}}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -2,
+      "right": 5,
+      "top": 2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Experimental vs. Theoretical Probability"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

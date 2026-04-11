@@ -1,0 +1,63 @@
+{
+  "key": "3_3_CE_2_skill2",
+  "grade": "3",
+  "code": "3.CE.2",
+  "domain": "Computation and Estimation",
+  "course": "Grade 3 Math",
+  "desc": "Recall multiplication and division facts through 10\u00d710 and solve single-step contextual problems.",
+  "skill_desc": "Write related multiplication and division facts for a given model.",
+  "skill_idx": 1,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/3_3_CE_2_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "4\\cdot 5 = 20",
+        "color": "#007AFF",
+        "label": "Multiplication Fact",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "20 \\div 5 = 4",
+        "color": "#FF3B30",
+        "label": "Division Fact 1",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "20 \\div 4 = 5",
+        "color": "#34C759",
+        "label": "Division Fact 2",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 21,
+      "top": 21
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Multiplication and Division Facts"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

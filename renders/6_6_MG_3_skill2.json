@@ -1,0 +1,147 @@
+{
+  "key": "6_6_MG_3_skill2",
+  "grade": "6",
+  "code": "6.MG.3",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 6 Math",
+  "desc": "Describe characteristics of the coordinate plane and graph ordered pairs.",
+  "skill_desc": "Identify and describe the location (quadrant or axis) of a point given as an ordered pair with integer coordinates.",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/6_6_MG_3_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "A=(2,3)",
+        "color": "#FF3B30",
+        "label": "Point A (Quadrant I)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "B=(-3,1)",
+        "color": "#FF3B30",
+        "label": "Point B (Quadrant II)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "C=(-2,-4)",
+        "color": "#FF3B30",
+        "label": "Point C (Quadrant III)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "D=(4,-1)",
+        "color": "#FF3B30",
+        "label": "Point D (Quadrant IV)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "E=(0,3)",
+        "color": "#FF3B30",
+        "label": "Point E (y-axis)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "F=(-2,0)",
+        "color": "#FF3B30",
+        "label": "Point F (x-axis)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -5,
+      "right": 5,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Coordinate Plane Points"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (2, 3)",
+      "SetColor(A, 255, 0, 0)",
+      "SetPointSize(A, 7)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"(2, 3) - Quadrant I\")",
+      "SetLabelMode(A, 3)",
+      "B = (-4, 1)",
+      "SetColor(B, 0, 128, 0)",
+      "SetPointSize(B, 7)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"(-4, 1) - Quadrant II\")",
+      "SetLabelMode(B, 3)",
+      "C = (-3, -2)",
+      "SetColor(C, 0, 0, 255)",
+      "SetPointSize(C, 7)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"(-3, -2) - Quadrant III\")",
+      "SetLabelMode(C, 3)",
+      "D = (1, -4)",
+      "SetColor(D, 255, 165, 0)",
+      "SetPointSize(D, 7)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"(1, -4) - Quadrant IV\")",
+      "SetLabelMode(D, 3)",
+      "E = (0, 5)",
+      "SetColor(E, 128, 0, 128)",
+      "SetPointSize(E, 7)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"(0, 5) - y-axis\")",
+      "SetLabelMode(E, 3)",
+      "F = (-2, 0)",
+      "SetColor(F, 128, 0, 128)",
+      "SetPointSize(F, 7)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"(-2, 0) - x-axis\")",
+      "SetLabelMode(F, 3)"
+    ],
+    "view": [
+      -6,
+      6,
+      -6,
+      6
+    ],
+    "showGrid": true,
+    "title": "Coordinate Plane and Ordered Pairs"
+  },
+  "sketchmath_state": null
+}

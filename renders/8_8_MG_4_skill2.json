@@ -1,0 +1,201 @@
+{
+  "key": "8_8_MG_4_skill2",
+  "grade": "8",
+  "code": "8.MG.4",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 8 Math",
+  "desc": "Apply the Pythagorean Theorem to solve problems involving right triangles.",
+  "skill_desc": "Determine whether a triangle is a right triangle given the measures of its three sides.",
+  "skill_idx": 1,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/8_8_MG_4_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "a^{2}+b^{2}=c^{2}",
+        "color": "#007AFF",
+        "hidden": true,
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(a,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(0,b)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "XY",
+        "hidden": false
+      },
+      {
+        "id": "poly1",
+        "latex": "\\operatorname{polygon}((0,0),(a,0),(0,b))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "s",
+        "latex": "s=0.15\\cdot\\max(a,b)",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "rightAngle",
+        "latex": "\\operatorname{polygon}((0,0),(0,s),(s,0))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "a",
+        "latex": "a=3",
+        "slider": {
+          "min": 1,
+          "max": 8,
+          "step": 1
+        },
+        "color": "#5856D6",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "b",
+        "latex": "b=4",
+        "slider": {
+          "min": 1,
+          "max": 8,
+          "step": 1
+        },
+        "color": "#5856D6",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "c",
+        "latex": "c=\\sqrt{a^{2}+b^{2}}",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "label1",
+        "latex": "(a/2,-0.5)",
+        "label": "a",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#007AFF",
+        "hidden": false
+      },
+      {
+        "id": "label2",
+        "latex": "(-0.5,b/2)",
+        "label": "b",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "color": "#007AFF",
+        "hidden": false
+      },
+      {
+        "id": "label3",
+        "latex": "(a/2,b/2)",
+        "label": "c",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "labelOrientation": "ABOVE",
+        "color": "#007AFF",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 9,
+      "top": 6
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Pythagorean Theorem"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (3, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (0, 4)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "tri = Polygon(A, B, C)",
+      "SetColor(tri, 0, 122, 255)",
+      "Angle(tri)",
+      "a = Distance(B, C)",
+      "SetCaption(a, \"a = 5\")",
+      "SetLabelMode(a, 3)",
+      "b = Distance(A, C)",
+      "SetCaption(b, \"b = 4\")",
+      "SetLabelMode(b, 3)",
+      "c = Distance(A, B)",
+      "SetCaption(c, \"c = 3\")",
+      "SetLabelMode(c, 3)"
+    ],
+    "view": [
+      -0.5,
+      4,
+      -0.5,
+      5
+    ],
+    "showGrid": true,
+    "title": "Right triangle with sides 3, 4, and 5"
+  },
+  "sketchmath_state": null
+}

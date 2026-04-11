@@ -1,0 +1,79 @@
+{
+  "key": "2_2_MG_2_skill1",
+  "grade": "2",
+  "code": "2.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 2 Math",
+  "desc": "Demonstrate understanding of the concept of time to the nearest five minutes using analog and digital clocks.",
+  "skill_desc": "Identify the number of minutes in an hour (60 minutes) and the number of hours in a day (24 hours).",
+  "skill_idx": 0,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/2_2_MG_2_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "60",
+        "color": "#007AFF",
+        "label": "Minutes in an hour",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "24",
+        "color": "#FF3B30",
+        "label": "Hours in a day",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 65,
+      "top": 25
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Minutes in an hour and hours in a day"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 60",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 24",
+      "SetColor(g, 255, 59, 48)",
+      "A = (0, 60)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Minutes in an hour\")",
+      "SetLabelMode(A, 3)",
+      "B = (0, 24)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"Hours in a day\")",
+      "SetLabelMode(B, 3)"
+    ],
+    "view": [
+      -1,
+      10,
+      -5,
+      70
+    ],
+    "showGrid": true,
+    "title": "Minutes in an hour and hours in a day"
+  },
+  "sketchmath_state": null
+}

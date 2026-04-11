@@ -1,0 +1,82 @@
+{
+  "key": "7_7_MG_4_skill3",
+  "grade": "7",
+  "code": "7.MG.4",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 7 Math",
+  "desc": "Apply dilations of polygons in the coordinate plane.",
+  "skill_desc": "Identify and describe dilations in context including scale drawings and graphic design.",
+  "skill_idx": 2,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_MG_4_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2x",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=4x",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=x",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -1,
+      "right": 5,
+      "top": 10
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Dilations of y=x"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (1, 2)",
+      "B = (3, 2)",
+      "C = (3, 4)",
+      "poly = Polygon(A, B, C)",
+      "SetColor(poly, 0, 122, 255)",
+      "D = Dilate(poly, 2, (0, 0))",
+      "SetColor(D, 255, 59, 48)"
+    ],
+    "view": [
+      -1,
+      8,
+      -1,
+      8
+    ],
+    "showGrid": true,
+    "title": "Dilations of a triangle"
+  },
+  "sketchmath_state": null
+}

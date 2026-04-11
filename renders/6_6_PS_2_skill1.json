@@ -1,0 +1,102 @@
+{
+  "key": "6_6_PS_2_skill1",
+  "grade": "6",
+  "code": "6.PS.2",
+  "domain": "Probability and Statistics",
+  "course": "Grade 6 Math",
+  "desc": "Represent the mean as a balance point and determine the effect on statistical measures when a data point is added, removed, or changed.",
+  "skill_desc": "Represent the mean of a data set graphically as the balance point in a line plot (dot plot).",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/6_6_PS_2_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x_{1}",
+            "values": [
+              "1",
+              "2",
+              "2",
+              "3",
+              "3",
+              "3",
+              "4",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y_{1}=1",
+            "values": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "latex": "\\operatorname{mean}(x_{1})",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(\\operatorname{mean}(x_{1}),1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "dragMode": "NONE",
+        "label": "Mean",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "x= \\operatorname{mean}(x_{1})",
+        "color": "#FF3B30",
+        "lineStyle": "DASHED",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": 0,
+      "bottom": 0,
+      "right": 6,
+      "top": 2
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Mean as Balance Point"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

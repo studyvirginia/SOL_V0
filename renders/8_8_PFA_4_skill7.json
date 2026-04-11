@@ -1,0 +1,104 @@
+{
+  "key": "8_8_PFA_4_skill7",
+  "grade": "8",
+  "code": "8.PFA.4",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 8 Math",
+  "desc": "Write and solve multistep linear equations in one variable, including contextual problems.",
+  "skill_desc": "Confirm algebraic solutions to linear equations in one variable.",
+  "skill_idx": 6,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PFA_4_skill7.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2x+3",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(-1.5,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -5,
+      "bottom": -2,
+      "right": 5,
+      "top": 6
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear Equation: y = 2x + 3"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "eq1 = 2*x + 3 = 7",
+      "sol1 = Solve(eq1, x)",
+      "xVal1 = x(sol1)",
+      "A = (xVal1, 0)",
+      "SetColor(A, 255, 0, 0)",
+      "SetPointSize(A, 5)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Solution\")",
+      "SetLabelMode(A, 3)",
+      "eq2 = 3*(x - 2) = 9",
+      "sol2 = Solve(eq2, x)",
+      "xVal2 = x(sol2)",
+      "B = (xVal2, 0)",
+      "SetColor(B, 0, 255, 0)",
+      "SetPointSize(B, 5)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"Solution\")",
+      "SetLabelMode(B, 3)",
+      "eq3 = (x/2) + 1 = 4",
+      "sol3 = Solve(eq3, x)",
+      "xVal3 = x(sol3)",
+      "C = (xVal3, 0)",
+      "SetColor(C, 0, 0, 255)",
+      "SetPointSize(C, 5)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"Solution\")",
+      "SetLabelMode(C, 3)"
+    ],
+    "view": [
+      -1,
+      10,
+      -1,
+      1
+    ],
+    "showGrid": true,
+    "title": "Solving and confirming solutions to linear equations"
+  },
+  "sketchmath_state": null
+}

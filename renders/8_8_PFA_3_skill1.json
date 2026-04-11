@@ -1,0 +1,91 @@
+{
+  "key": "8_8_PFA_3_skill1",
+  "grade": "8",
+  "code": "8.PFA.3",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 8 Math",
+  "desc": "Represent and solve problems using linear functions and analyze their key characteristics.",
+  "skill_desc": "Determine how adding a constant (b) to the equation of a proportional relationship y = mx will translate the line on a graph.",
+  "skill_idx": 0,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_PFA_3_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2x",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=2x+3",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#007AFF",
+        "label": "Original Line",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "Translated Line",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -2,
+      "bottom": -1,
+      "right": 2,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Translating Linear Functions"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 2*x",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 2*x + 3",
+      "SetColor(g, 255, 0, 0)"
+    ],
+    "view": [
+      -5,
+      5,
+      -2,
+      12
+    ],
+    "showGrid": true,
+    "title": "y = mx + b: Vertical Translation"
+  },
+  "sketchmath_state": null
+}

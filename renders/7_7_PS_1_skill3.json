@@ -1,0 +1,63 @@
+{
+  "key": "7_7_PS_1_skill3",
+  "grade": "7",
+  "code": "7.PS.1",
+  "domain": "Probability and Statistics",
+  "course": "Grade 7 Math",
+  "desc": "Determine probability of an event and investigate differences between experimental and theoretical probability.",
+  "skill_desc": "Describe changes in experimental probability as the number of trials increases.",
+  "skill_idx": 2,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/7_7_PS_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "P(A)=\\frac{n(A)}{n(S)}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "P(A) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of outcomes}}",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "P(A) \\approx \\frac{\\text{Number of times event A occurs}}{\\text{Total number of trials}}",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -2,
+      "bottom": -1,
+      "right": 10,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Probability Concepts"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

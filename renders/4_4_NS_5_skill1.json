@@ -1,0 +1,219 @@
+{
+  "key": "4_4_NS_5_skill1",
+  "grade": "4",
+  "code": "4.NS.5",
+  "domain": "Number and Number Sense",
+  "course": "Grade 4 Math",
+  "desc": "Identify and represent equivalencies between fractions and decimals limited to halves, fourths, fifths, tenths, and hundredths.",
+  "skill_desc": "Represent fractions and mixed numbers as decimals through hundredths using multiple representations.",
+  "skill_idx": 0,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/4_4_NS_5_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{1}{2}",
+        "color": "#007AFF",
+        "label": "\\frac{1}{2} = 0.5",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=\\frac{1}{4}",
+        "color": "#FF3B30",
+        "label": "\\frac{1}{4} = 0.25",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=\\frac{3}{4}",
+        "color": "#FF3B30",
+        "label": "\\frac{3}{4} = 0.75",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=\\frac{1}{5}",
+        "color": "#34C759",
+        "label": "\\frac{1}{5} = 0.2",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "y=\\frac{2}{5}",
+        "color": "#34C759",
+        "label": "\\frac{2}{5} = 0.4",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "y=\\frac{3}{5}",
+        "color": "#34C759",
+        "label": "\\frac{3}{5} = 0.6",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e7",
+        "latex": "y=\\frac{4}{5}",
+        "color": "#34C759",
+        "label": "\\frac{4}{5} = 0.8",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e8",
+        "latex": "y=\\frac{1}{10}",
+        "color": "#FF9500",
+        "label": "\\frac{1}{10} = 0.1",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e9",
+        "latex": "y=\\frac{3}{10}",
+        "color": "#FF9500",
+        "label": "\\frac{3}{10} = 0.3",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e10",
+        "latex": "y=\\frac{7}{10}",
+        "color": "#FF9500",
+        "label": "\\frac{7}{10} = 0.7",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e11",
+        "latex": "y=\\frac{9}{10}",
+        "color": "#FF9500",
+        "label": "\\frac{9}{10} = 0.9",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e12",
+        "latex": "y=\\frac{1}{100}",
+        "color": "#5856D6",
+        "label": "\\frac{1}{100} = 0.01",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e13",
+        "latex": "y=\\frac{10}{100}",
+        "color": "#5856D6",
+        "label": "\\frac{10}{100} = 0.1",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e14",
+        "latex": "y=\\frac{25}{100}",
+        "color": "#5856D6",
+        "label": "\\frac{25}{100} = 0.25",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e15",
+        "latex": "y=\\frac{50}{100}",
+        "color": "#5856D6",
+        "label": "\\frac{50}{100} = 0.5",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e16",
+        "latex": "y=\\frac{75}{100}",
+        "color": "#5856D6",
+        "label": "\\frac{75}{100} = 0.75",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -0.1,
+      "bottom": -0.1,
+      "right": 1.1,
+      "top": 1.1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Fraction-Decimal Equivalencies"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 1/2",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 0.5",
+      "SetColor(g, 255, 0, 0)",
+      "h(x) = 1/4",
+      "SetColor(h, 0, 255, 0)",
+      "i(x) = 0.25",
+      "SetColor(i, 255, 165, 0)",
+      "j(x) = 1/5",
+      "SetColor(j, 128, 0, 128)",
+      "k(x) = 0.2",
+      "SetColor(k, 0, 0, 0)",
+      "l(x) = 1/10",
+      "SetColor(l, 128, 128, 0)",
+      "m(x) = 0.1",
+      "SetColor(m, 0, 128, 128)",
+      "n(x) = 3/4",
+      "SetColor(n, 128, 0, 0)",
+      "o(x) = 0.75",
+      "SetColor(o, 0, 0, 255)",
+      "p(x) = 2/5",
+      "SetColor(p, 128, 128, 128)",
+      "q(x) = 0.4",
+      "SetColor(q, 192, 192, 192)",
+      "r(x) = 7/10",
+      "SetColor(r, 192, 0, 0)",
+      "s(x) = 0.7",
+      "SetColor(s, 0, 192, 0)",
+      "t(x) = 1/100",
+      "SetColor(t, 192, 192, 0)",
+      "u(x) = 0.01",
+      "SetColor(u, 192, 0, 192)",
+      "v(x) = 3/10",
+      "SetColor(v, 0, 192, 192)",
+      "w(x) = 0.3",
+      "SetColor(w, 192, 192, 192)",
+      "x(x) = 9/10",
+      "SetColor(x, 192, 192, 0)",
+      "y(x) = 0.9",
+      "SetColor(y, 192, 0, 192)"
+    ],
+    "view": [
+      -1,
+      1,
+      0,
+      1
+    ],
+    "showGrid": true,
+    "title": "Fractions and Decimals"
+  },
+  "sketchmath_state": null
+}

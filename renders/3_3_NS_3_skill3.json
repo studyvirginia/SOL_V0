@@ -1,0 +1,129 @@
+{
+  "key": "3_3_NS_3_skill3",
+  "grade": "3",
+  "code": "3.NS.3",
+  "domain": "Number and Number Sense",
+  "course": "Grade 3 Math",
+  "desc": "Represent, compare, and justify fractions and mixed numbers with denominators of 2, 3, 4, 5, 6, 8, and 10.",
+  "skill_desc": "Represent a given fraction or mixed number using set models (e.g., counters, cubes).",
+  "skill_idx": 2,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/3_3_NS_3_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "type": "table",
+        "id": "e1",
+        "columns": [
+          {
+            "id": "col1",
+            "latex": "x",
+            "values": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "id": "col2",
+            "latex": "y",
+            "values": [
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "id": "e2",
+        "columns": [
+          {
+            "id": "col3",
+            "latex": "x",
+            "values": [
+              3,
+              3,
+              3,
+              3,
+              3
+            ]
+          },
+          {
+            "id": "col4",
+            "latex": "y",
+            "values": [
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "id": "e3",
+        "columns": [
+          {
+            "id": "col5",
+            "latex": "x",
+            "values": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "col6",
+            "latex": "y",
+            "values": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 7,
+      "top": 3
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Fraction Representation with Set Models"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

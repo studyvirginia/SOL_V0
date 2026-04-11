@@ -1,0 +1,94 @@
+{
+  "key": "5_5_CE_1_skill4",
+  "grade": "5",
+  "code": "5.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 5 Math",
+  "desc": "Estimate, represent, solve, and justify solutions to single-step and multistep contextual problems using whole number operations.",
+  "skill_desc": "Interpret the quotient and remainder when solving a contextual problem.",
+  "skill_idx": 3,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/5_5_CE_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{15}{2}",
+        "color": "#007AFF",
+        "label": "Quotient",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=7",
+        "color": "#FF3B30",
+        "label": "Remainder",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": 6,
+      "right": 9,
+      "top": 9
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Interpreting Quotient and Remainder"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 13 / x",
+      "SetColor(f, 0, 122, 255)",
+      "A = (1, 13)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"(1, 13) - 13 items\")",
+      "SetLabelMode(A, 3)",
+      "B = (2, 6.5)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"(2, 6.5) - 6 items each\")",
+      "SetLabelMode(B, 3)",
+      "C = (3, 4.33)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"(3, 4.33) - 4 items each\")",
+      "SetLabelMode(C, 3)",
+      "D = (4, 3.25)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"(4, 3.25) - 3 items each\")",
+      "SetLabelMode(D, 3)",
+      "E = (5, 2.6)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"(5, 2.6) - 2 items each\")",
+      "SetLabelMode(E, 3)",
+      "Root(f, 0, 10)",
+      "SetColor(Root1, 255, 59, 48)",
+      "SetLabelVisible(Root1, true)",
+      "SetCaption(Root1, \"Quotient\")",
+      "SetLabelMode(Root1, 3)"
+    ],
+    "view": [
+      0,
+      6,
+      0,
+      14
+    ],
+    "showGrid": true,
+    "title": "Interpreting Quotient and Remainder"
+  },
+  "sketchmath_state": null
+}

@@ -1,0 +1,105 @@
+{
+  "key": "8_8_CE_1_skill2",
+  "grade": "8",
+  "code": "8.CE.1",
+  "domain": "Computation and Estimation",
+  "course": "Grade 8 Math",
+  "desc": "Estimate and apply proportional reasoning to solve contextual problems involving discounts, taxes, tips, and percent changes.",
+  "skill_desc": "Estimate and solve contextual problems requiring computation of sales tax, tip, and resulting total.",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_CE_1_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x",
+        "color": "#007AFF",
+        "label": "Original Price",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=0.9x",
+        "color": "#FF3B30",
+        "label": "Price with 10% Discount",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=1.06x",
+        "color": "#34C759",
+        "label": "Price with 6% Sales Tax",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "y=1.15x",
+        "color": "#FF9500",
+        "label": "Price with 15% Tip",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 10,
+      "top": 12
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Sales Tax, Tip, and Discount"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "price = 50",
+      "taxRate = 0.06",
+      "tipRate = 0.15",
+      "tax = price * taxRate",
+      "tip = (price + tax) * tipRate",
+      "total = price + tax + tip",
+      "SetCaption(price, \"Original Price: $\" + price)",
+      "SetCaption(tax, \"Sales Tax: $\" + tax)",
+      "SetCaption(tip, \"Tip: $\" + tip)",
+      "SetCaption(total, \"Total Cost: $\" + total)",
+      "A = (0,0)",
+      "SetLabelMode(A, 3)",
+      "SetCaption(A, \"Original Price\")",
+      "B = (0, price)",
+      "SetLabelMode(B, 3)",
+      "SetCaption(B, \"Price + Tax\")",
+      "C = (0, price + tax)",
+      "SetLabelMode(C, 3)",
+      "SetCaption(C, \"Total Cost\")",
+      "D = (0, total)",
+      "SetLabelMode(D, 3)",
+      "SetCaption(D, \"Total Cost\")"
+    ],
+    "view": [
+      -1,
+      1,
+      0,
+      70
+    ],
+    "showGrid": false,
+    "title": "Sales Tax and Tip Calculation"
+  },
+  "sketchmath_state": null
+}

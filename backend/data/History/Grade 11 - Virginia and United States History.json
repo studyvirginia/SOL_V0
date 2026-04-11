@@ -1,0 +1,1359 @@
+{
+  "subject": "History",
+  "course": "Grade 11 - Virginia and United States History",
+  "domains": [
+    {
+      "name": "History and Social Science Skills",
+      "standards": [
+        {
+          "code": "VUS.SKILLS",
+          "description": "Apply history and social science skills to analyze and synthesize information about events in Virginia and United States history.",
+          "skills": [
+            {
+              "description": "Select and synthesize evidence from artifacts, primary and secondary sources, charts, graphs, and diagrams to understand historical events.",
+              "keywords": [
+                "evidence synthesis",
+                "primary sources",
+                "secondary sources",
+                "artifacts",
+                "historical analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply geographic skills to determine and predict patterns and trends of people, places, and events.",
+              "keywords": [
+                "geographic analysis",
+                "spatial patterns",
+                "historical trends"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct arguments using evidence from multiple sources to question and understand historical information.",
+              "keywords": [
+                "argument construction",
+                "historical evidence",
+                "source analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate and analyze evidence from multiple sources to draw conclusions about historical events.",
+              "keywords": [
+                "source investigation",
+                "historical conclusions",
+                "evidence-based reasoning"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast historical, cultural, economic, and political perspectives.",
+              "keywords": [
+                "historical comparison",
+                "cultural analysis",
+                "economic perspectives",
+                "political perspectives"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine cause and effect to analyze connections between historical events.",
+              "keywords": [
+                "cause and effect",
+                "historical causation",
+                "event connections"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use economic decision-making models to analyze incentives and consequences of historical choices.",
+              "keywords": [
+                "economic models",
+                "historical incentives",
+                "consequence analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Engage and communicate as an informed individual with different historical perspectives.",
+              "keywords": [
+                "historical communication",
+                "perspective engagement",
+                "informed discourse"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop products that reflect understanding of research and content to make real-life historical connections.",
+              "keywords": [
+                "historical products",
+                "research synthesis",
+                "real-life applications"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Contextualize, corroborate, and evaluate sources for credibility, propaganda, and bias to determine historical patterns.",
+              "keywords": [
+                "source evaluation",
+                "historical bias",
+                "propaganda analysis",
+                "credibility assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Early America through the Founding of the New Nation",
+      "standards": [
+        {
+          "code": "VUS.1",
+          "description": "Describe early North America, including Indigenous cultures, exploration, and transatlantic trade.",
+          "skills": [
+            {
+              "description": "Distinguish how different Indigenous peoples of North America used available resources to develop their culture, language, skills, and perspectives.",
+              "keywords": [
+                "Indigenous cultures",
+                "resource utilization",
+                "cultural development",
+                "North American nations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the entrepreneurial characteristics of early explorers and the technological developments that enabled nautical exploration.",
+              "keywords": [
+                "explorers",
+                "nautical technology",
+                "entrepreneurial characteristics",
+                "exploration technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Connect the aims, obstacles, and accomplishments of key expeditions to the Spanish Reconquista, Protestant Reformation, and Counter-Reformation.",
+              "keywords": [
+                "Spanish Reconquista",
+                "Protestant Reformation",
+                "Counter-Reformation",
+                "expedition analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine trade routes, resources, and products that linked Africa, the West Indies, the American colonies, and Europe.",
+              "keywords": [
+                "transatlantic trade",
+                "trade routes",
+                "colonial economy",
+                "resource exchange"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.2",
+          "description": "Describe the political, religious, social, and economic characteristics of the first thirteen colonies.",
+          "skills": [
+            {
+              "description": "Describe the reasons for establishing colonies in North America and the individuals and groups involved.",
+              "keywords": [
+                "colonial establishment",
+                "settler motivations",
+                "colonial founders",
+                "North American colonies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe European settlement in the Americas, the Great Awakening, and the growth of religious toleration.",
+              "keywords": [
+                "European settlement",
+                "Great Awakening",
+                "religious toleration",
+                "colonial religion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the development of political self-government and a free-market economic system, including differences among British, Spanish, and French colonial systems.",
+              "keywords": [
+                "political self-government",
+                "free-market economy",
+                "colonial systems",
+                "economic development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain early democratic ideas and practices that emerged during the colonial period, including representative assemblies and town councils.",
+              "keywords": [
+                "democratic ideas",
+                "representative assemblies",
+                "town councils",
+                "colonial governance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.3",
+          "description": "Explain the development of African American culture and the impact of the institution of slavery.",
+          "skills": [
+            {
+              "description": "Describe the diverse cultures, languages, skills, and perspectives of Africans enslaved in the Americas.",
+              "keywords": [
+                "African cultures",
+                "enslaved Africans",
+                "cultural diversity",
+                "enslaved perspectives"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the Middle Passage, the Transatlantic Slave Trade, chattel slavery, indentured servitude, and forced labor.",
+              "keywords": [
+                "Middle Passage",
+                "Transatlantic Slave Trade",
+                "chattel slavery",
+                "indentured servitude"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the slave trade in the U.S., Virginia, and Richmond.",
+              "keywords": [
+                "U.S. slave trade",
+                "Virginia slave trade",
+                "Richmond slave trade",
+                "domestic slave trade"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the growth of the colonial economy that maximized profits through indentured servitude and race-based enslavement of Africans.",
+              "keywords": [
+                "colonial economy",
+                "indentured servitude",
+                "race-based enslavement",
+                "economic maximization"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the cultures of enslaved Africans and identify the various ways they persisted toward freedom.",
+              "keywords": [
+                "enslaved culture",
+                "persistence toward freedom",
+                "African American resilience",
+                "freedom-seeking"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.4",
+          "description": "Analyze cooperation and conflict between Indigenous peoples and new settlers.",
+          "skills": [
+            {
+              "description": "Describe the competition among the English, French, Spanish, Dutch, and Indigenous peoples for control of North America.",
+              "keywords": [
+                "colonial competition",
+                "Indigenous nations",
+                "North American control",
+                "European empires"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe cooperation between colonists and Indigenous peoples during the 1600s and 1700s in agriculture, fur trade, military alliances, treaties, and cultural exchanges.",
+              "keywords": [
+                "colonial-Indigenous cooperation",
+                "fur trade",
+                "military alliances",
+                "treaties",
+                "cultural exchange"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the significance of Bacon's Rebellion.",
+              "keywords": [
+                "Bacon's Rebellion",
+                "colonial unrest",
+                "Indigenous-colonial conflict",
+                "Virginia history"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain conflicts before the Revolutionary War.",
+              "keywords": [
+                "pre-Revolutionary conflicts",
+                "colonial grievances",
+                "Indigenous conflicts",
+                "land disputes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe violent conflicts among Indigenous nations, including competing claims for control of lands.",
+              "keywords": [
+                "Indigenous conflicts",
+                "land disputes",
+                "tribal warfare",
+                "territorial claims"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.5",
+          "description": "Understand issues and events leading to and during the Revolutionary period.",
+          "skills": [
+            {
+              "description": "Describe the results of the French and Indian War.",
+              "keywords": [
+                "French and Indian War",
+                "Seven Years' War",
+                "colonial expansion",
+                "British debt"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how political, religious, and economic ideas and interests contributed to the start of the American Revolution.",
+              "keywords": [
+                "American Revolution causes",
+                "political ideas",
+                "religious influences",
+                "economic interests"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe efforts by individuals and groups to mobilize support for the American Revolution.",
+              "keywords": [
+                "Revolutionary mobilization",
+                "Sons of Liberty",
+                "Minutemen",
+                "Committees of Correspondence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the contributions of those involved in drafting and signing the Declaration of Independence and the lasting legacy of the document.",
+              "keywords": [
+                "Declaration of Independence",
+                "Founding Fathers",
+                "document drafting",
+                "historical legacy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the intervention of France and other factors that led to colonial victory in the Revolutionary War.",
+              "keywords": [
+                "Revolutionary War victory",
+                "French intervention",
+                "allied support",
+                "military strategy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate how key principles in the Declaration of Independence became unifying ideas of American political philosophy.",
+              "keywords": [
+                "Declaration principles",
+                "American political philosophy",
+                "unalienable rights",
+                "self-government"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the contributions of future U.S. presidents significant during this era.",
+              "keywords": [
+                "presidential contributions",
+                "Revolutionary Era",
+                "Founding Fathers",
+                "early leadership"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.6",
+          "description": "Describe the development and significance of the American political system.",
+          "skills": [
+            {
+              "description": "Examine founding documents to explore the development of American constitutional government, emphasizing the Virginia Declaration of Rights and the Virginia Statute for Religious Freedom.",
+              "keywords": [
+                "founding documents",
+                "constitutional government",
+                "Virginia Declaration of Rights",
+                "Virginia Statute for Religious Freedom"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the strengths and weaknesses of the Articles of Confederation.",
+              "keywords": [
+                "Articles of Confederation",
+                "constitutional weaknesses",
+                "federal government limitations",
+                "state sovereignty"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the major compromises necessary to produce the U.S. Constitution, including ratification struggles, the Bill of Rights, and key figures.",
+              "keywords": [
+                "Constitutional Convention",
+                "ratification struggles",
+                "Bill of Rights",
+                "Founding Fathers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the powers granted to citizens, Congress, the president, and the Supreme Court with those reserved to the states.",
+              "keywords": [
+                "constitutional powers",
+                "federalism",
+                "separation of powers",
+                "state vs. federal authority"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the issues and debates over the role of the federal government and the formation of political parties during the early National Era.",
+              "keywords": [
+                "federal government role",
+                "political parties",
+                "early National Era",
+                "constitutional debates"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the significance of Chief Justice John Marshall and the Marbury v. Madison decision.",
+              "keywords": [
+                "John Marshall",
+                "Marbury v. Madison",
+                "judicial review",
+                "Supreme Court significance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expansion, Civil War, and Reconstruction",
+      "standards": [
+        {
+          "code": "VUS.7",
+          "description": "Analyze major events in Virginia and U.S. history during the first half of the 19th century.",
+          "skills": [
+            {
+              "description": "Assess political and economic changes during this period, emphasizing James Madison and the War of 1812.",
+              "keywords": [
+                "War of 1812",
+                "political changes",
+                "economic changes",
+                "James Madison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role of broken treaties and factors leading to the military defeat of Indigenous peoples.",
+              "keywords": [
+                "broken treaties",
+                "Indigenous military defeat",
+                "treaty violations",
+                "assimilation policies"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the influence and achievements of significant leaders of the time.",
+              "keywords": [
+                "19th-century leaders",
+                "influence and achievements",
+                "John Marshall",
+                "Andrew Jackson",
+                "Chief Tecumseh"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze U.S. actions regarding Indigenous peoples, including the Indian Reorganization Acts and McGirt v. Oklahoma.",
+              "keywords": [
+                "Indigenous policies",
+                "Indian Reorganization Acts",
+                "McGirt v. Oklahoma",
+                "federal-Indigenous relations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe political results of territorial expansion and its impact on Indigenous peoples.",
+              "keywords": [
+                "territorial expansion",
+                "Indigenous impact",
+                "land acquisition",
+                "Manifest Destiny"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze social and cultural changes during the period, including immigration and the Jacksonian Era.",
+              "keywords": [
+                "Jacksonian Era",
+                "immigration",
+                "social changes",
+                "cultural shifts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the Texas Revolution and the Mexican-American War.",
+              "keywords": [
+                "Texas Revolution",
+                "Mexican-American War",
+                "territorial expansion",
+                "U.S.-Mexico relations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate cultural, economic, and political issues dividing the nation, including slavery, abolitionist movements, and tariffs.",
+              "keywords": [
+                "sectional divisions",
+                "slavery",
+                "abolitionist movements",
+                "tariffs",
+                "antebellum conflicts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.8",
+          "description": "Analyze the development and abolition of slavery in the United States.",
+          "skills": [
+            {
+              "description": "Explain how slavery is the antithesis of freedom.",
+              "keywords": [
+                "slavery",
+                "freedom",
+                "human rights",
+                "antithesis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the impacts of abolitionists including Sojourner Truth, William Lloyd Garrison, Frederick Douglass, and Harriet Beecher Stowe.",
+              "keywords": [
+                "abolitionists",
+                "Sojourner Truth",
+                "William Lloyd Garrison",
+                "Frederick Douglass",
+                "Harriet Beecher Stowe"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze key policies and actions including the Missouri Compromise, Compromise of 1850, Kansas-Nebraska Act, Dred Scott v. Sandford, and the Emancipation Proclamation.",
+              "keywords": [
+                "Missouri Compromise",
+                "Compromise of 1850",
+                "Kansas-Nebraska Act",
+                "Dred Scott v. Sandford",
+                "Emancipation Proclamation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the extension of rights provided in the Thirteenth, Fourteenth, and Fifteenth Amendments.",
+              "keywords": [
+                "Thirteenth Amendment",
+                "Fourteenth Amendment",
+                "Fifteenth Amendment",
+                "civil rights",
+                "Reconstruction Amendments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.9",
+          "description": "Analyze major turning points of the Civil War and Reconstruction eras.",
+          "skills": [
+            {
+              "description": "Describe major events and the roles of key leaders of the Civil War Era.",
+              "keywords": [
+                "Civil War events",
+                "key leaders",
+                "Abraham Lincoln",
+                "Jefferson Davis",
+                "Ulysses S. Grant",
+                "Robert E. Lee"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate and explain the significance and development of Abraham Lincoln's leadership and political statements.",
+              "keywords": [
+                "Abraham Lincoln",
+                "leadership significance",
+                "political statements",
+                "Emancipation Proclamation",
+                "Gettysburg Address"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate and explain the impact of the war on Americans, emphasizing Virginians, enslaved and free Blacks, the common soldier, and the home front.",
+              "keywords": [
+                "Civil War impact",
+                "Virginia impact",
+                "enslaved Blacks",
+                "free Blacks",
+                "home front",
+                "common soldier"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate postwar Reconstruction plans presented by key leaders of the Civil War.",
+              "keywords": [
+                "Reconstruction plans",
+                "key leaders",
+                "postwar policies",
+                "Lincoln's Reconstruction",
+                "Johnson's Reconstruction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate and explain the political and economic impact of the war and Reconstruction, including sharecropping, the Freedmen's Bureau, and the rise of white supremacist groups.",
+              "keywords": [
+                "Reconstruction impact",
+                "sharecropping",
+                "Freedmen's Bureau",
+                "white supremacist groups",
+                "political impact",
+                "economic impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate Virginia's stance on the Fourteenth Amendment, Virginia's 1870 Constitution, and readmittance to Congress.",
+              "keywords": [
+                "Virginia Reconstruction",
+                "Fourteenth Amendment",
+                "1870 Constitution",
+                "Congress readmittance"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the role of the biracial Readjuster party in Virginia during Reconstruction in providing funds for public schools and expanding employment opportunities for African Americans.",
+              "keywords": [
+                "Readjuster party",
+                "Reconstruction Virginia",
+                "public schools",
+                "African American employment",
+                "biracial politics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Industrialization, Emergence of Modern America, and World Conflicts",
+      "standards": [
+        {
+          "code": "VUS.10",
+          "description": "Analyze how the nation grew and changed from the end of Reconstruction through the early 20th century.",
+          "skills": [
+            {
+              "description": "Analyze the effects of westward movement and the admission of new states on Indigenous peoples and conflicts with the U.S. government.",
+              "keywords": [
+                "westward movement",
+                "Indigenous conflicts",
+                "new states",
+                "U.S. government conflicts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine and evaluate the motivations, contributions, and challenges immigrants to the United States faced before, during, and upon arrival.",
+              "keywords": [
+                "immigration",
+                "immigrant motivations",
+                "immigrant contributions",
+                "immigrant challenges"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the transformation of the American economy from agrarian to industrial, including the role of railroads, communication systems, and industrial leaders.",
+              "keywords": [
+                "industrialization",
+                "agrarian to industrial",
+                "railroads",
+                "communication systems",
+                "industrial leaders"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the social and cultural impact of industrialization, including rapid urbanization, living and working conditions, labor unions, and leisure time.",
+              "keywords": [
+                "industrialization impact",
+                "urbanization",
+                "living conditions",
+                "working conditions",
+                "labor unions",
+                "leisure time"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate and explain the Progressive Movement and the impact of its legislation on pollution, child labor, and food safety.",
+              "keywords": [
+                "Progressive Movement",
+                "legislation impact",
+                "pollution regulation",
+                "child labor laws",
+                "food safety"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the \"Byrd machine\" and its dominance in Virginia government in the first half of the 20th century.",
+              "keywords": [
+                "Byrd machine",
+                "Virginia politics",
+                "political dominance",
+                "20th-century Virginia"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the effects of prejudice, discrimination, and \"Jim Crow\" laws, including responses of Booker T. Washington and W.E.B. DuBois.",
+              "keywords": [
+                "Jim Crow laws",
+                "prejudice",
+                "discrimination",
+                "Booker T. Washington",
+                "W.E.B. DuBois"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the emergence of public colleges, historically black colleges and universities (HBCUs), and land-grant institutions in Virginia and the United States.",
+              "keywords": [
+                "public colleges",
+                "HBCUs",
+                "land-grant institutions",
+                "educational expansion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.11",
+          "description": "Analyze the emerging role of the United States in world affairs during the end of the 19th and early 20th centuries.",
+          "skills": [
+            {
+              "description": "Explain changes in U.S. foreign policy toward Latin America and Asia and the growing influence of the United States.",
+              "keywords": [
+                "U.S. foreign policy",
+                "Latin America",
+                "Asia",
+                "U.S. influence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the international significance of U.S. decisions and actions, including the Roosevelt Corollary, Spanish-American War, acquisition of Alaska and Hawaii, and Panama Canal construction.",
+              "keywords": [
+                "Roosevelt Corollary",
+                "Spanish-American War",
+                "Alaska acquisition",
+                "Hawaii acquisition",
+                "Panama Canal"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the events, leaders, and changes that brought America out of isolationism to enter World War I.",
+              "keywords": [
+                "World War I entry",
+                "isolationism",
+                "U.S. foreign policy",
+                "WWI causes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate U.S. involvement in World War I, including Woodrow Wilson's Fourteen Points and the establishment of the League of Nations.",
+              "keywords": [
+                "World War I involvement",
+                "Woodrow Wilson",
+                "Fourteen Points",
+                "League of Nations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate and explain the terms of the Treaty of Versailles and the national debate over the League of Nations.",
+              "keywords": [
+                "Treaty of Versailles",
+                "League of Nations debate",
+                "post-WWI settlement",
+                "U.S. foreign policy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.12",
+          "description": "Understand key international and domestic events, interests, and philosophies of the 1920s and 1930s.",
+          "skills": [
+            {
+              "description": "Analyze attacks on civil liberties, including the reemergence of the Ku Klux Klan, the Chicago riot of 1919, the Tulsa Race Massacre, redlining, and racial wealth gaps.",
+              "keywords": [
+                "civil liberties attacks",
+                "Ku Klux Klan",
+                "Chicago riot 1919",
+                "Tulsa Race Massacre",
+                "redlining",
+                "racial wealth gaps"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the connections between the Bolshevik Revolution and the First Red Scare, anarchist bombings, and the Palmer Raids.",
+              "keywords": [
+                "Bolshevik Revolution",
+                "First Red Scare",
+                "anarchist bombings",
+                "Palmer Raids"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the effects of changes in immigration to the United States, including the Immigration Act of 1918 and the Immigration Act of 1924.",
+              "keywords": [
+                "immigration changes",
+                "Immigration Act 1918",
+                "Immigration Act 1924",
+                "immigration policy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the purposes of Marcus Garvey's Back-to-Africa movement, the ACLU, the NAACP, and the Anti-Defamation League.",
+              "keywords": [
+                "Back-to-Africa movement",
+                "Marcus Garvey",
+                "ACLU",
+                "NAACP",
+                "Anti-Defamation League"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the Roaring 20s, post-wartime effects on the U.S. economy, innovation, inventions, and the diffusion of American popular culture.",
+              "keywords": [
+                "Roaring 20s",
+                "post-wartime economy",
+                "innovation",
+                "American popular culture"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the changing role of women in society and the passage of the Eighteenth and Nineteenth Amendments.",
+              "keywords": [
+                "women's role",
+                "Eighteenth Amendment",
+                "Nineteenth Amendment",
+                "women's suffrage"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Examine the Great Migration and its influence on the Harlem Renaissance, including literature, music, and art.",
+              "keywords": [
+                "Great Migration",
+                "Harlem Renaissance",
+                "Zora Neale Hurston",
+                "Langston Hughes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.13",
+          "description": "Describe the effects of the Great Depression and New Deal policies on the United States.",
+          "skills": [
+            {
+              "description": "Explain the causes of the Great Depression, including bank failures, stock purchases on margin, credit, overproduction, high tariffs, and the 1929 stock market crash.",
+              "keywords": [
+                "Great Depression causes",
+                "bank failures",
+                "stock market crash",
+                "overproduction",
+                "high tariffs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate and explain how Franklin D. Roosevelt's New Deal measures addressed the Great Depression and expanded the government's role in the economy.",
+              "keywords": [
+                "New Deal",
+                "Franklin D. Roosevelt",
+                "government economic role",
+                "Great Depression recovery"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.14",
+          "description": "Analyze the United States' involvement in World War II.",
+          "skills": [
+            {
+              "description": "Compare and contrast totalitarianism in Imperial Japan, communist Soviet Union, fascist Italy, and Nazi Germany.",
+              "keywords": [
+                "totalitarianism",
+                "Imperial Japan",
+                "communist Soviet Union",
+                "fascist Italy",
+                "Nazi Germany"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the causes and events leading to America's involvement, including the attack on Pearl Harbor, Executive Order 9066, and Korematsu v. United States.",
+              "keywords": [
+                "World War II causes",
+                "Pearl Harbor",
+                "Executive Order 9066",
+                "Korematsu v. United States"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify similarities and differences in strategy, major battles, and impacts of key leaders of the Axis and Allied powers.",
+              "keywords": [
+                "Axis vs. Allied powers",
+                "World War II strategy",
+                "major battles",
+                "key leaders"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the contributions of heroic military units, including segregated minority units, women, and Virginia units.",
+              "keywords": [
+                "heroic military units",
+                "segregated units",
+                "women in military",
+                "Virginia military units"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe major battles of World War II, including Midway, Normandy, Iwo Jima, Okinawa, and the Battle of the Bulge.",
+              "keywords": [
+                "World War II battles",
+                "Midway",
+                "Normandy",
+                "Iwo Jima",
+                "Okinawa",
+                "Battle of the Bulge"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the Holocaust, including antisemitism, persecutions, Hitler's \"Final Solution,\" liberation, postwar trials, and the creation of Israel.",
+              "keywords": [
+                "Holocaust",
+                "antisemitism",
+                "Final Solution",
+                "liberation",
+                "postwar trials",
+                "modern state of Israel"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain U.S. military intelligence and technology, including island hopping, the Manhattan Project, and bombings of Hiroshima and Nagasaki.",
+              "keywords": [
+                "island hopping",
+                "Manhattan Project",
+                "Hiroshima",
+                "Nagasaki",
+                "military technology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the significance of the U.S. role in the Allied victory, the Marshall Plan, and the United Nations.",
+              "keywords": [
+                "Allied victory",
+                "Marshall Plan",
+                "United Nations",
+                "U.S. post-WWII role"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The United States since World War II",
+      "standards": [
+        {
+          "code": "VUS.15",
+          "description": "Analyze the United States' foreign policy during the Cold War era.",
+          "skills": [
+            {
+              "description": "Explain the origins and early development of the Cold War and how it changed U.S. foreign policy, including the Truman Doctrine and policy of containment.",
+              "keywords": [
+                "Cold War origins",
+                "Truman Doctrine",
+                "policy of containment",
+                "U.S. foreign policy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the long-term impact of the Marshall Plan, NATO, the Warsaw Pact, and U.S. efforts to protect Western Europe.",
+              "keywords": [
+                "Marshall Plan",
+                "NATO",
+                "Warsaw Pact",
+                "Western Europe protection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe events and leaders of the Cold War, including the Bay of Pigs, Cuban Missile Crisis, John F. Kennedy, and Nikita Khrushchev.",
+              "keywords": [
+                "Cold War events",
+                "Bay of Pigs",
+                "Cuban Missile Crisis",
+                "John F. Kennedy",
+                "Nikita Khrushchev"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the changing role of the United States in Asia, including Korea, Vietnam, and China, and the experiences of refugees from those nations.",
+              "keywords": [
+                "U.S. role in Asia",
+                "Korean War",
+                "Vietnam War",
+                "China relations",
+                "refugee experiences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how U.S. foreign policy pressure, economic power, defense policy, and assertion of American values led to the end of the Cold War.",
+              "keywords": [
+                "Cold War end",
+                "U.S. foreign policy",
+                "economic power",
+                "defense policy",
+                "American values"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.16",
+          "description": "Analyze the causes and effects of the Civil Rights Movement.",
+          "skills": [
+            {
+              "description": "Analyze the origins of the Civil Rights Movement, the effects of segregation, and efforts to desegregate schools, transportation, and public areas.",
+              "keywords": [
+                "Civil Rights Movement origins",
+                "segregation effects",
+                "school desegregation",
+                "transportation desegregation",
+                "public area desegregation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate and explain the impact of the Brown v. Board of Education decision and Virginia's response of Massive Resistance.",
+              "keywords": [
+                "Brown v. Board of Education",
+                "Massive Resistance",
+                "Virginia response",
+                "school desegregation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the legacy of Dr. Martin Luther King, Jr., including \"A Letter from a Birmingham Jail,\" civil disobedience, the SCLC, the \"I Have a Dream\" speech, and his assassination.",
+              "keywords": [
+                "Martin Luther King Jr.",
+                "Letter from Birmingham Jail",
+                "civil disobedience",
+                "SCLC",
+                "I Have a Dream",
+                "King's assassination"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze key events of the Civil Rights Movement, including the murder of Emmett Till, bus boycotts, Little Rock Central High School desegregation, Greensboro sit-ins, Freedom Rides, Birmingham demonstrations, the 1963 March on Washington, Freedom Summer, and Selma to Montgomery Marches.",
+              "keywords": [
+                "Emmett Till murder",
+                "bus boycotts",
+                "Little Rock desegregation",
+                "Greensboro sit-ins",
+                "Freedom Rides",
+                "Birmingham demonstrations",
+                "1963 March on Washington",
+                "Freedom Summer",
+                "Selma marches"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the tenets of the NAACP, the 1963 March on Washington, the Civil Rights Act of 1964, and the Voting Rights Act of 1965 had an effect on all Americans.",
+              "keywords": [
+                "NAACP tenets",
+                "1963 March on Washington",
+                "Civil Rights Act 1964",
+                "Voting Rights Act 1965"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze the effect of the Black Power Movement.",
+              "keywords": [
+                "Black Power Movement",
+                "Black nationalism",
+                "civil rights evolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "VUS.17",
+          "description": "Analyze political and social conditions in the United States during the second half of the 20th century and early 21st century.",
+          "skills": [
+            {
+              "description": "Assess the development of and changes in domestic policies due to Supreme Court decisions and acts of Congress, including Brown v. Board of Education, Federal Highway Act of 1956, AIM, Indian Self-Determination Act, Equal Pay Act, Americans with Disabilities Act, Title IX, Marriage Equality Act, Obergefell v. Hodges, Gideon v. Wainwright, Miranda v. Arizona, and Roe v. Wade leading to Dobbs v. Jackson Women's Health Organization.",
+              "keywords": [
+                "domestic policy changes",
+                "Supreme Court decisions",
+                "Congressional acts",
+                "Brown v. Board",
+                "Federal Highway Act",
+                "AIM",
+                "Indian Self-Determination Act",
+                "Equal Pay Act",
+                "Americans with Disabilities Act",
+                "Title IX",
+                "Obergefell v. Hodges",
+                "Gideon v. Wainwright",
+                "Miranda v. Arizona",
+                "Roe v. Wade",
+                "Dobbs v. Jackson"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze key events and conditions that have given rise to terrorism as an attack on democracy and the U.S. role in defending democracy.",
+              "keywords": [
+                "terrorism rise",
+                "democracy defense",
+                "U.S. counterterrorism",
+                "terrorist attacks"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain social movements, including the Vietnam War and anti-war movement, Woodstock, the rise of the conservative movement and election of Ronald Reagan, Women's Movement, Gay Rights Movement, Pro-life Movement, HIV/AIDS focus, antisemitism, hate crimes, and domestic terrorism.",
+              "keywords": [
+                "social movements",
+                "Vietnam War",
+                "anti-war movement",
+                "Woodstock",
+                "conservative movement",
+                "Ronald Reagan",
+                "Women's Movement",
+                "Gay Rights Movement",
+                "Pro-life Movement",
+                "HIV/AIDS",
+                "antisemitism",
+                "hate crimes",
+                "domestic terrorism"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Connect the legacy of the Civil Rights Movement to the election of Barack Obama.",
+              "keywords": [
+                "Civil Rights Movement legacy",
+                "Barack Obama election",
+                "political progress"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain scientific and technological changes and evaluate their impact on American culture, including media.",
+              "keywords": [
+                "scientific changes",
+                "technological changes",
+                "American culture impact",
+                "media evolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

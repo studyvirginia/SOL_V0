@@ -1,0 +1,99 @@
+{
+  "key": "2_2_PFA_1_skill4",
+  "grade": "2",
+  "code": "2.PFA.1",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 2 Math",
+  "desc": "Describe, extend, create, and transfer repeating and increasing patterns using various representations.",
+  "skill_desc": "Transfer a given repeating or increasing pattern from one form to another (e.g., objects, pictures, numbers) and explain the connection.",
+  "skill_idx": 3,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/2_2_PFA_1_skill4.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=x+1",
+        "color": "#007AFF",
+        "label": "Pattern 1",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=2x+1",
+        "color": "#FF3B30",
+        "label": "Pattern 2",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "y=3x+1",
+        "color": "#34C759",
+        "label": "Pattern 3",
+        "showLabel": true,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 6
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Linear Patterns"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = x + 1",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 2*x + 1",
+      "SetColor(g, 255, 59, 48)",
+      "h(x) = 3*x + 1",
+      "SetColor(h, 0, 200, 0)",
+      "A = (1, f(1))",
+      "SetPointStyle(A, 1)",
+      "SetPointSize(A, 7)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"(1,2)\")",
+      "SetLabelMode(A, 3)",
+      "B = (2, g(2))",
+      "SetPointStyle(B, 1)",
+      "SetPointSize(B, 7)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"(2,5)\")",
+      "SetLabelMode(B, 3)",
+      "C = (3, h(3))",
+      "SetPointStyle(C, 1)",
+      "SetPointSize(C, 7)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"(3,10)\")",
+      "SetLabelMode(C, 3)"
+    ],
+    "view": [
+      -1,
+      5,
+      -1,
+      11
+    ],
+    "showGrid": true,
+    "title": "Linear Patterns: f(x) = x+1, g(x) = 2x+1, h(x) = 3x+1"
+  },
+  "sketchmath_state": null
+}

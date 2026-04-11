@@ -1,0 +1,149 @@
+{
+  "key": "2_2_MG_1_skill3",
+  "grade": "2",
+  "code": "2.MG.1",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 2 Math",
+  "desc": "Reason mathematically using standard U.S. Customary units to estimate, measure, and compare objects by length, weight, and liquid volume.",
+  "skill_desc": "Use U.S. Customary units to estimate, measure, and compare the weight of an object to the nearest pound using a scale.",
+  "skill_idx": 2,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/2_2_MG_1_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(2,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(2,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Triangle ABC"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "scale = 2",
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"0 pounds\")",
+      "SetLabelMode(A, 3)",
+      "B = (scale, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"1 pound\")",
+      "SetLabelMode(B, 3)",
+      "C = (2*scale, 0)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"2 pounds\")",
+      "SetLabelMode(C, 3)",
+      "D = (3*scale, 0)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"3 pounds\")",
+      "SetLabelMode(D, 3)",
+      "E = (4*scale, 0)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"4 pounds\")",
+      "SetLabelMode(E, 3)",
+      "F = (5*scale, 0)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"5 pounds\")",
+      "SetLabelMode(F, 3)",
+      "line = Line(A, F)",
+      "SetColor(line, 142, 142, 147)",
+      "SetLineThickness(line, 3)",
+      "seg1 = Segment(A, B)",
+      "SetColor(seg1, 0, 122, 255)",
+      "SetLineThickness(seg1, 3)",
+      "seg2 = Segment(B, C)",
+      "SetColor(seg2, 0, 122, 255)",
+      "SetLineThickness(seg2, 3)",
+      "seg3 = Segment(C, D)",
+      "SetColor(seg3, 0, 122, 255)",
+      "SetLineThickness(seg3, 3)",
+      "seg4 = Segment(D, E)",
+      "SetColor(seg4, 0, 122, 255)",
+      "SetLineThickness(seg4, 3)",
+      "seg5 = Segment(E, F)",
+      "SetColor(seg5, 0, 122, 255)",
+      "SetLineThickness(seg5, 3)",
+      "weight = (scale * 2.5, 0)",
+      "SetPointStyle(weight, 2)",
+      "SetPointSize(weight, 7)",
+      "SetLabelVisible(weight, true)",
+      "SetCaption(weight, \"Object\")",
+      "SetLabelMode(weight, 3)",
+      "weightLine = PerpendicularLine(weight, line)",
+      "SetColor(weightLine, 220, 53, 69)",
+      "SetLineThickness(weightLine, 3)",
+      "SetLineStyle(weightLine, 1)"
+    ],
+    "view": [
+      -1,
+      11,
+      -1,
+      1
+    ],
+    "showGrid": false,
+    "title": "Estimating Weight on a Scale"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (2, 3)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "Xin l\u1ed7i v\u00ec l\u1ed7i tr\u01b0\u1edbc \u0111\u00f3. B\u00e2y gi\u1edd t\u00f4i s\u1ebd cung c\u1ea5p m\u1ed9t ph\u1ea3n h\u1ed3i JSON h\u1ee3p l\u1ec7 v\u1edbi \u00edt"
+  }
+}

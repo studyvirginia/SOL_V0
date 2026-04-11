@@ -1,0 +1,79 @@
+{
+  "key": "2_2_NS_3_skill3",
+  "grade": "2",
+  "code": "2.NS.3",
+  "domain": "Number and Number Sense",
+  "course": "Grade 2 Math",
+  "desc": "Use mathematical reasoning and justification to solve contextual problems involving partitioning models into equal-sized parts.",
+  "skill_desc": "Compose the whole for a given fractional part and its value for halves, fourths, eighths, thirds, and sixths.",
+  "skill_idx": 2,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/2_2_NS_3_skill3.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "1/2=0.5",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "1/4=0.25",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "1/8=0.125",
+        "color": "#34C759",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "1/3=0.333",
+        "color": "#FF9500",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e5",
+        "latex": "1/6=0.166",
+        "color": "#5856D6",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -0.1,
+      "bottom": -0.1,
+      "right": 1.1,
+      "top": 1.1
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Fractional Parts"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

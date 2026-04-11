@@ -1,0 +1,765 @@
+{
+  "subject": "Science",
+  "course": "Biology I",
+  "domains": [
+    {
+      "name": "Scientific and Engineering Practices",
+      "standards": [
+        {
+          "code": "BIO.1",
+          "description": "Demonstrate understanding of scientific and engineering practices through inquiry, investigation, and communication.",
+          "skills": [
+            {
+              "description": "Ask questions arising from observation of phenomena, models, theories, or to seek additional information.",
+              "keywords": [
+                "question formulation",
+                "observation",
+                "phenomena",
+                "models",
+                "theories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine which questions can be investigated within the scope of a school laboratory or field study to identify relationships between independent and dependent variables.",
+              "keywords": [
+                "investigable questions",
+                "independent variable",
+                "dependent variable",
+                "laboratory investigation",
+                "field study"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generate hypotheses based on research and scientific principles.",
+              "keywords": [
+                "hypothesis generation",
+                "scientific principles",
+                "research-based hypotheses"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Specify what happens to a dependent variable when an independent variable is manipulated in a hypothesis.",
+              "keywords": [
+                "hypothesis formulation",
+                "independent variable manipulation",
+                "dependent variable prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Individually and collaboratively plan and conduct observational and experimental investigations.",
+              "keywords": [
+                "investigation planning",
+                "observational study",
+                "experimental design",
+                "collaboration"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct investigations or test design solutions in a safe and ethical manner, considering environmental, social, and personal effects.",
+              "keywords": [
+                "safe investigation",
+                "ethical considerations",
+                "environmental impact",
+                "social impact"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine appropriate sample size and techniques for investigations.",
+              "keywords": [
+                "sample size determination",
+                "sampling techniques",
+                "data collection"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select and use appropriate tools and technology to collect, record, analyze, and evaluate data.",
+              "keywords": [
+                "data collection tools",
+                "technology use",
+                "data recording",
+                "data analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and interpret data tables showing independent and dependent variables, repeated trials, and means.",
+              "keywords": [
+                "data tables",
+                "independent variable",
+                "dependent variable",
+                "repeated trials",
+                "means"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct, analyze, and interpret graphical displays of data.",
+              "keywords": [
+                "graphical data representation",
+                "data analysis",
+                "data interpretation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use data to build and revise models, support explanations for phenomena, or test solutions to problems.",
+              "keywords": [
+                "data modeling",
+                "model revision",
+                "phenomena explanation",
+                "problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Analyze data using tools, technologies, and/or models to make valid and reliable scientific claims or determine an optimal design solution.",
+              "keywords": [
+                "data analysis",
+                "scientific claims",
+                "design optimization",
+                "reliability"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make quantitative and/or qualitative claims regarding the relationship between dependent and independent variables.",
+              "keywords": [
+                "quantitative claims",
+                "qualitative claims",
+                "variable relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct and revise explanations based on valid and reliable evidence from investigations, models, theories, simulations, and peer review.",
+              "keywords": [
+                "explanation construction",
+                "evidence-based reasoning",
+                "peer review",
+                "model validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Apply scientific ideas, principles, and/or evidence to provide explanations of phenomena and design solutions.",
+              "keywords": [
+                "scientific application",
+                "phenomena explanation",
+                "design solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and evaluate competing arguments or design solutions in light of currently accepted explanations and new scientific evidence.",
+              "keywords": [
+                "argument comparison",
+                "design evaluation",
+                "scientific evidence",
+                "peer review"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Construct arguments or counterarguments based on data and evidence.",
+              "keywords": [
+                "argument construction",
+                "data-driven reasoning",
+                "evidence-based arguments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Differentiate between a scientific hypothesis and theory.",
+              "keywords": [
+                "hypothesis vs theory",
+                "scientific terminology",
+                "theory validation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Evaluate the merits and limitations of models.",
+              "keywords": [
+                "model evaluation",
+                "model limitations",
+                "scientific models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop, revise, and/or use models based on evidence to illustrate or predict relationships.",
+              "keywords": [
+                "model development",
+                "model revision",
+                "evidence-based modeling",
+                "relationship prediction"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Develop and/or use models to generate data to support explanations, predict phenomena, analyze systems, and/or solve problems.",
+              "keywords": [
+                "model application",
+                "data generation",
+                "phenomena prediction",
+                "system analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare, integrate, and evaluate sources of information presented in different media or formats to address a scientific question or solve a problem.",
+              "keywords": [
+                "source evaluation",
+                "information integration",
+                "media literacy",
+                "scientific problem-solving"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Gather, read, and evaluate scientific and/or technical information from multiple authoritative sources, assessing the evidence and credibility of each source.",
+              "keywords": [
+                "source credibility",
+                "scientific literature review",
+                "evidence assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate scientific and/or technical information about phenomena in multiple formats.",
+              "keywords": [
+                "scientific communication",
+                "technical writing",
+                "data presentation",
+                "multimedia formats"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemical and Biochemical Processes",
+      "standards": [
+        {
+          "code": "BIO.2",
+          "description": "Investigate the role of chemical and biochemical processes in maintaining life.",
+          "skills": [
+            {
+              "description": "Explain how water chemistry influences life processes.",
+              "keywords": [
+                "water chemistry",
+                "life processes",
+                "hydrogen bonding",
+                "polarity"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "BIO.3"
+              ]
+            },
+            {
+              "description": "Identify the roles of macromolecules (carbohydrates, lipids, proteins, nucleic acids) in maintaining life processes.",
+              "keywords": [
+                "macromolecules",
+                "carbohydrates",
+                "lipids",
+                "proteins",
+                "nucleic acids",
+                "metabolism"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "BIO.3",
+                "BIO.5"
+              ]
+            },
+            {
+              "description": "Explain the role of enzymes in biochemical processes, including factors affecting enzyme activity.",
+              "keywords": [
+                "enzymes",
+                "biochemical catalysis",
+                "enzyme activity",
+                "substrate specificity",
+                "activation energy"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "BIO.3"
+              ]
+            },
+            {
+              "description": "Describe the process of protein synthesis and its role in inheritance and evolution.",
+              "keywords": [
+                "protein synthesis",
+                "transcription",
+                "translation",
+                "genetic code",
+                "inheritance",
+                "evolution"
+              ],
+              "prerequisites": [
+                "BIO.5"
+              ],
+              "cross_links": [
+                "BIO.5"
+              ]
+            },
+            {
+              "description": "Explain the processes of photosynthesis and respiration, including the capture, storage, transformation, and flow of energy.",
+              "keywords": [
+                "photosynthesis",
+                "respiration",
+                "ATP",
+                "energy transformation",
+                "chloroplasts",
+                "mitochondria"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "BIO.3"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cell Structure and Function",
+      "standards": [
+        {
+          "code": "BIO.3",
+          "description": "Investigate the structure and function of cells and their role in life processes.",
+          "skills": [
+            {
+              "description": "Explain the cell theory and its supporting evidence.",
+              "keywords": [
+                "cell theory",
+                "cell structure",
+                "cell function",
+                "evidence-based theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare structures in unicellular and multicellular organisms and their interdependent roles in carrying out life processes.",
+              "keywords": [
+                "unicellular organisms",
+                "multicellular organisms",
+                "cell specialization",
+                "interdependence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe cell structures and processes involved in cell growth and division, including mitosis and cytokinesis.",
+              "keywords": [
+                "cell growth",
+                "cell division",
+                "mitosis",
+                "cytokinesis",
+                "cell cycle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the structure and function of the cell membrane support cell transport, including passive and active transport mechanisms.",
+              "keywords": [
+                "cell membrane",
+                "transport mechanisms",
+                "passive transport",
+                "active transport",
+                "osmosis",
+                "diffusion"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how cell specialization leads to the development of different types of cells.",
+              "keywords": [
+                "cell specialization",
+                "differentiation",
+                "tissue formation",
+                "organ development"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bacteria and Viruses",
+      "standards": [
+        {
+          "code": "BIO.4",
+          "description": "Investigate the effects of bacteria and viruses on living systems.",
+          "skills": [
+            {
+              "description": "Explain how viruses depend on a host for metabolic processes.",
+              "keywords": [
+                "viruses",
+                "host dependency",
+                "metabolic processes",
+                "obligate parasites"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare modes of reproduction and replication between bacteria and viruses.",
+              "keywords": [
+                "bacterial reproduction",
+                "viral replication",
+                "binary fission",
+                "lytic cycle",
+                "lysogenic cycle"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare the structures and functions of bacteria and viruses.",
+              "keywords": [
+                "bacterial structure",
+                "viral structure",
+                "capsid",
+                "cell wall",
+                "genetic material"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role of bacteria and viruses in other organisms and the environment.",
+              "keywords": [
+                "bacteria in environment",
+                "viruses in environment",
+                "symbiosis",
+                "pathogens",
+                "decomposers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the germ theory of infectious disease is supported by evidence.",
+              "keywords": [
+                "germ theory",
+                "infectious disease",
+                "Koch's postulates",
+                "evidence-based theory"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mechanisms for Inheritance",
+      "standards": [
+        {
+          "code": "BIO.5",
+          "description": "Investigate common mechanisms for inheritance and genetic variation.",
+          "skills": [
+            {
+              "description": "Describe the structure of DNA and its role as the foundation for protein synthesis.",
+              "keywords": [
+                "DNA structure",
+                "double helix",
+                "nucleotides",
+                "genetic code",
+                "protein synthesis"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "BIO.2"
+              ]
+            },
+            {
+              "description": "Explain how the structural model of DNA has developed over time.",
+              "keywords": [
+                "DNA history",
+                "Watson-Crick model",
+                "scientific discovery",
+                "model refinement"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how the variety of traits in an organism results from the expression of various combinations of alleles.",
+              "keywords": [
+                "genetic traits",
+                "alleles",
+                "genotype",
+                "phenotype",
+                "Mendelian genetics"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain the role of meiosis in genetic variation between generations.",
+              "keywords": [
+                "meiosis",
+                "genetic variation",
+                "crossing over",
+                "independent assortment",
+                "gamete formation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Discuss the biological and ethical implications of synthetic biology.",
+              "keywords": [
+                "synthetic biology",
+                "genetic engineering",
+                "ethical considerations",
+                "biotechnology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Classification Systems",
+      "standards": [
+        {
+          "code": "BIO.6",
+          "description": "Use modern classification systems to organize and study organisms.",
+          "skills": [
+            {
+              "description": "Compare structural and biochemical similarities and differences among organisms.",
+              "keywords": [
+                "structural comparison",
+                "biochemical comparison",
+                "taxonomy",
+                "morphology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use fossil record interpretation to classify organisms.",
+              "keywords": [
+                "fossil record",
+                "paleontology",
+                "relative dating",
+                "absolute dating"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "BIO.7"
+              ]
+            },
+            {
+              "description": "Use developmental stages in different organisms to classify organisms.",
+              "keywords": [
+                "developmental stages",
+                "embryology",
+                "ontogeny",
+                "comparative embryology"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the three domains (Archaea, Bacteria, Eukarya) based on characteristics of organisms.",
+              "keywords": [
+                "domains",
+                "Archaea",
+                "Bacteria",
+                "Eukarya",
+                "taxonomic hierarchy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and differentiate the functions and processes of protists, fungi, plants, and animals within the Eukarya kingdoms.",
+              "keywords": [
+                "protists",
+                "fungi",
+                "plants",
+                "animals",
+                "kingdom comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how systems of classification adapt to new scientific discoveries.",
+              "keywords": [
+                "classification systems",
+                "taxonomic revision",
+                "phylogenetics",
+                "molecular phylogeny"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Populations Change Through Time",
+      "standards": [
+        {
+          "code": "BIO.7",
+          "description": "Investigate how populations change over time through evolution.",
+          "skills": [
+            {
+              "description": "Use fossil records and DNA analysis to provide evidence for evolutionary change.",
+              "keywords": [
+                "fossil evidence",
+                "DNA analysis",
+                "evolutionary evidence",
+                "molecular evolution"
+              ],
+              "prerequisites": [],
+              "cross_links": [
+                "BIO.6"
+              ]
+            },
+            {
+              "description": "Explain how genetic variation, reproductive strategies, and environmental pressures affect the survival of populations.",
+              "keywords": [
+                "genetic variation",
+                "reproductive strategies",
+                "environmental pressures",
+                "population survival"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how natural selection is a mechanism that leads to adaptations and may result in the emergence of new species.",
+              "keywords": [
+                "natural selection",
+                "adaptation",
+                "speciation",
+                "Darwinian evolution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how biological evolution is supported by scientific evidence and explanations.",
+              "keywords": [
+                "evolutionary theory",
+                "scientific evidence",
+                "evolutionary mechanisms",
+                "adaptive radiation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dynamic Equilibria in Ecosystems",
+      "standards": [
+        {
+          "code": "BIO.8",
+          "description": "Investigate dynamic equilibria within populations, communities, and ecosystems.",
+          "skills": [
+            {
+              "description": "Explain interactions within and among populations, including carrying capacities, limiting factors, and growth curves.",
+              "keywords": [
+                "carrying capacity",
+                "limiting factors",
+                "population growth",
+                "logistic growth",
+                "exponential growth"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how nutrients cycle and energy flows through ecosystems.",
+              "keywords": [
+                "nutrient cycling",
+                "energy flow",
+                "food chains",
+                "trophic levels",
+                "biogeochemical cycles"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe ecosystem succession patterns, including primary and secondary succession.",
+              "keywords": [
+                "ecosystem succession",
+                "primary succession",
+                "secondary succession",
+                "climax community"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Explain how natural events and human activities influence local and global ecosystems and may affect flora and fauna.",
+              "keywords": [
+                "ecosystem impact",
+                "human activities",
+                "climate change",
+                "habitat destruction",
+                "conservation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

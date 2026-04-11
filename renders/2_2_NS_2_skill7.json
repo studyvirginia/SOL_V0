@@ -1,0 +1,121 @@
+{
+  "key": "2_2_NS_2_skill7",
+  "grade": "2",
+  "code": "2.NS.2",
+  "domain": "Number and Number Sense",
+  "course": "Grade 2 Math",
+  "desc": "Demonstrate understanding of the ten-to-one relationships of the base 10 number system to represent, compare, and order whole numbers up to 999.",
+  "skill_desc": "Compare two whole numbers, each 999 or less, represented concretely, pictorially, or symbolically using words and symbols.",
+  "skill_idx": 6,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/2_2_NS_2_skill7.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=100x+50",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,50)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(-0.5,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -10,
+      "right": 1,
+      "top": 100
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Comparing Whole Numbers"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 100*x",
+      "g(x) = 50*x",
+      "SetColor(f, 0, 122, 255)",
+      "SetColor(g, 255, 59, 48)",
+      "A = (1, 100)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"100\")",
+      "SetLabelMode(A, 3)",
+      "B = (1, 50)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"50\")",
+      "SetLabelMode(B, 3)",
+      "C = (2, 200)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"200\")",
+      "SetLabelMode(C, 3)",
+      "D = (2, 100)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"100\")",
+      "SetLabelMode(D, 3)",
+      "E = (3, 300)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"300\")",
+      "SetLabelMode(E, 3)",
+      "F = (3, 150)",
+      "SetLabelVisible(F, true)",
+      "SetCaption(F, \"150\")",
+      "SetLabelMode(F, 3)",
+      "G = (4, 400)",
+      "SetLabelVisible(G, true)",
+      "SetCaption(G, \"400\")",
+      "SetLabelMode(G, 3)",
+      "H = (4, 200)",
+      "SetLabelVisible(H, true)",
+      "SetCaption(H, \"200\")",
+      "SetLabelMode(H, 3)",
+      "I = (5, 500)",
+      "SetLabelVisible(I, true)",
+      "SetCaption(I, \"500\")",
+      "SetLabelMode(I, 3)",
+      "J = (5, 250)",
+      "SetLabelVisible(J, true)",
+      "SetCaption(J, \"250\")",
+      "SetLabelMode(J, 3)"
+    ],
+    "view": [
+      0,
+      6,
+      0,
+      600
+    ],
+    "showGrid": true,
+    "title": "Comparing Whole Numbers up to 999"
+  },
+  "sketchmath_state": null
+}

@@ -1,0 +1,1356 @@
+{
+  "subject": "English",
+  "course": "Kindergarten English",
+  "domains": [
+    {
+      "name": "Foundations for Reading",
+      "standards": [
+        {
+          "code": "K.FFR.1",
+          "description": "Print Concepts: The student will apply knowledge of how print is organized and read.",
+          "skills": [
+            {
+              "description": "Following words from left to right and from top to bottom on a printed page",
+              "keywords": [
+                "following",
+                "words",
+                "left",
+                "right"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Following return sweep from line to line",
+              "keywords": [
+                "return sweep",
+                "line",
+                "reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating knowledge of a sentence, word, and letter",
+              "keywords": [
+                "knowledge",
+                "sentence",
+                "word",
+                "letter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating knowledge that spoken words are represented in print and separated by spaces",
+              "keywords": [
+                "spoken words",
+                "print",
+                "spaces"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying the author and illustrator of a text",
+              "keywords": [
+                "identifying",
+                "author",
+                "illustrator",
+                "text"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Defining the role of author and illustrator",
+              "keywords": [
+                "defining",
+                "role",
+                "author",
+                "illustrator"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying the front cover, back cover, and title of a text",
+              "keywords": [
+                "identifying",
+                "cover",
+                "title",
+                "text"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognizing distinguishing features of a sentence",
+              "keywords": [
+                "recognizing",
+                "features",
+                "sentence"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.FFR.2",
+          "description": "Phonological and Phonemic Awareness: The student will orally identify and produce various phonemes (individual sounds) within words to develop phonemic awareness in support of decoding (reading) and encoding (spelling).",
+          "skills": [
+            {
+              "description": "Orally identifying and producing various phonemes (individual sounds) within words",
+              "keywords": [
+                "orally",
+                "identifying",
+                "producing",
+                "phonemes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating ability to segment spoken words in sentences",
+              "keywords": [
+                "segment",
+                "spoken words",
+                "sentences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating ability to segment syllables in words",
+              "keywords": [
+                "segment",
+                "syllables",
+                "words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Blending one syllable words by onset and rime",
+              "keywords": [
+                "blending",
+                "syllable words",
+                "onset",
+                "rime"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Segmenting one syllable words by onset and rime",
+              "keywords": [
+                "segmenting",
+                "syllable words",
+                "onset",
+                "rime"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Isolating initial sounds in three phoneme words",
+              "keywords": [
+                "isolating",
+                "initial sounds",
+                "phoneme words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Isolating medial sounds in three phoneme words",
+              "keywords": [
+                "isolating",
+                "medial sounds",
+                "phoneme words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Isolating final sounds in three phoneme words",
+              "keywords": [
+                "isolating",
+                "final sounds",
+                "phoneme words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating ability to segment one syllable words with two, three, and four phonemes",
+              "keywords": [
+                "segment",
+                "syllable words",
+                "phonemes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating ability to blend one syllable words with two, three, and four phonemes",
+              "keywords": [
+                "blend",
+                "syllable words",
+                "phonemes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Working with words with consonant digraphs (th, sh, ch, wh)",
+              "keywords": [
+                "consonant digraphs",
+                "words",
+                "phonemes"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.FFR.3",
+          "description": "Phonics and Word Analysis: The student will apply phonetic principles to read and spell words.",
+          "skills": [
+            {
+              "description": "Applying phonetic principles to read and spell words",
+              "keywords": [
+                "phonetic principles",
+                "read",
+                "spell",
+                "words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying capital and lowercase letters of the alphabet",
+              "keywords": [
+                "identifying",
+                "capital letters",
+                "lowercase letters",
+                "alphabet"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying common letter-sound correspondences",
+              "keywords": [
+                "identifying",
+                "letter-sound",
+                "correspondences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Discriminating between long and short sounds with common spellings for the five major vowels",
+              "keywords": [
+                "discriminating",
+                "long sounds",
+                "short sounds",
+                "vowels"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Understanding open and closed syllables",
+              "keywords": [
+                "understanding",
+                "open syllables",
+                "closed syllables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating knowledge that every word has a vowel sound",
+              "keywords": [
+                "knowledge",
+                "word",
+                "vowel sound"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying letter-sound correspondences for consonant digraphs",
+              "keywords": [
+                "identifying",
+                "letter-sound",
+                "consonant digraphs"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating knowledge of letter-sound correspondences to blend CV, CVC, VC words",
+              "keywords": [
+                "knowledge",
+                "letter-sound",
+                "blend",
+                "words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Decoding (reading) words with short vowels",
+              "keywords": [
+                "decoding",
+                "reading",
+                "short vowels",
+                "words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Decoding words beginning or ending in a digraph",
+              "keywords": [
+                "decoding",
+                "words",
+                "digraph"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Encoding (spelling) words with short vowels",
+              "keywords": [
+                "encoding",
+                "spelling",
+                "short vowels",
+                "words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Encoding words beginning or ending in a digraph",
+              "keywords": [
+                "encoding",
+                "words",
+                "digraph"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using letter-sound correspondences to read grade-level high frequency words",
+              "keywords": [
+                "letter-sound",
+                "read",
+                "high frequency words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Reading decodable and irregular words with automaticity and accuracy",
+              "keywords": [
+                "reading",
+                "decodable words",
+                "irregular words",
+                "automaticity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developing Skilled Readers and Building Reading Stamina",
+      "standards": [
+        {
+          "code": "K.DSR",
+          "description": "The student will build knowledge and comprehension skills from reading and listening to a range of texts. This includes fluently reading decodable sentences and gathering evidence from content-rich texts (through read alouds) on topics to gain purposeful knowledge and vocabulary.",
+          "skills": [
+            {
+              "description": "Using knowledge of letter-sound correspondences to read controlled decodable sentences and texts",
+              "keywords": [
+                "letter-sound",
+                "read",
+                "decodable sentences",
+                "texts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Reading texts that include phonic elements and irregular words",
+              "keywords": [
+                "reading",
+                "texts",
+                "phonic elements",
+                "irregular words"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Rereading controlled decodable sentences and texts",
+              "keywords": [
+                "rereading",
+                "decodable sentences",
+                "texts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Drawing several pieces of evidence from read-alouds to support claims, conclusions, and inferences",
+              "keywords": [
+                "drawing evidence",
+                "read-alouds",
+                "claims",
+                "conclusions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Quoting or paraphrasing from texts accurately",
+              "keywords": [
+                "quoting",
+                "paraphrasing",
+                "texts",
+                "accuracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Tracing where relevant evidence is located",
+              "keywords": [
+                "tracing",
+                "relevant evidence",
+                "location"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading and Vocabulary",
+      "standards": [
+        {
+          "code": "K.RV",
+          "description": "The student will systematically build vocabulary and word knowledge based on kindergarten content and texts heard.",
+          "skills": []
+        },
+        {
+          "code": "K.RV.1",
+          "description": "Vocabulary Development and Word Analysis",
+          "skills": [
+            {
+              "description": "Systematically building vocabulary and word knowledge",
+              "keywords": [
+                "building",
+                "vocabulary",
+                "word knowledge"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Discussing meanings of words from a variety of texts and experiences",
+              "keywords": [
+                "discussing",
+                "meanings",
+                "words",
+                "texts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Asking questions about words not understood",
+              "keywords": [
+                "asking questions",
+                "words",
+                "understood"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using vocabulary from across content areas",
+              "keywords": [
+                "using",
+                "vocabulary",
+                "content areas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying the purpose of simple reference materials",
+              "keywords": [
+                "identifying",
+                "purpose",
+                "reference materials"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Increasing and developing breadth of vocabulary knowledge by listening to high quality, complex text",
+              "keywords": [
+                "increasing",
+                "vocabulary knowledge",
+                "listening",
+                "complex text"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using newly learned words and phrases in discussions and speaking activities",
+              "keywords": [
+                "using",
+                "new words",
+                "phrases",
+                "discussions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading Literary Text",
+      "standards": [
+        {
+          "code": "K.RL",
+          "description": "The student will use textual evidence to demonstrate comprehension and build knowledge from a variety of literary texts heard, to include fantasy, humor, fable/fairy tale, realistic fiction, historical fiction, and folklore/tall tale.",
+          "skills": []
+        },
+        {
+          "code": "K.RL.1",
+          "description": "Key Ideas and Plot Details",
+          "skills": [
+            {
+              "description": "Activating prior (experience) and background (content) knowledge",
+              "keywords": [
+                "activating",
+                "prior knowledge",
+                "background knowledge"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Making connections to what is read",
+              "keywords": [
+                "making connections",
+                "reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Demonstrating knowledge of story structure",
+              "keywords": [
+                "knowledge",
+                "story structure"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Orally identifying characters, setting, important events, and details",
+              "keywords": [
+                "orally",
+                "identifying",
+                "characters",
+                "setting"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Orally re-telling a familiar story in sequential order",
+              "keywords": [
+                "orally",
+                "re-telling",
+                "story",
+                "sequential order"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Generating predictions about story characters and events using the text",
+              "keywords": [
+                "generating",
+                "predictions",
+                "story characters",
+                "events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.RL.3",
+          "description": "Integration of Concepts",
+          "skills": [
+            {
+              "description": "Describing the relationship between illustrations and the story",
+              "keywords": [
+                "describing",
+                "relationship",
+                "illustrations",
+                "story"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Comparing and contrasting characters, plot events, or settings between two familiar stories",
+              "keywords": [
+                "comparing",
+                "contrasting",
+                "characters",
+                "plot events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Monitoring listening comprehension",
+              "keywords": [
+                "monitoring",
+                "listening",
+                "comprehension"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading Informational Text",
+      "standards": [
+        {
+          "code": "K.RI",
+          "description": "The student will use textual evidence to demonstrate comprehension and build knowledge from a variety of informational texts heard.",
+          "skills": []
+        },
+        {
+          "code": "K.RI.1",
+          "description": "Key Ideas and Confirming Details",
+          "skills": [
+            {
+              "description": "Asking and answering literal (who, what, when, where) questions about what is read",
+              "keywords": [
+                "asking",
+                "answering",
+                "literal questions",
+                "reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Asking and answering inferential (why, how) questions about what is read",
+              "keywords": [
+                "asking",
+                "answering",
+                "inferential questions",
+                "reading"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying the main topic and key details of a text",
+              "keywords": [
+                "identifying",
+                "main topic",
+                "key details",
+                "text"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.RI.2",
+          "description": "Craft and Style",
+          "skills": [
+            {
+              "description": "Identifying the purpose of common text features",
+              "keywords": [
+                "identifying",
+                "purpose",
+                "text features"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.RI.3",
+          "description": "Integration of Concepts",
+          "skills": [
+            {
+              "description": "Identifying basic similarities in and differences between two texts on the same topic",
+              "keywords": [
+                "identifying",
+                "similarities",
+                "differences",
+                "texts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describing the connection between two individuals, events, ideas, or pieces of information in a text",
+              "keywords": [
+                "describing",
+                "connection",
+                "individuals",
+                "events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Foundations for Writing",
+      "standards": [
+        {
+          "code": "K.FFW",
+          "description": "The student will print legibly in manuscript.",
+          "skills": []
+        },
+        {
+          "code": "K.FFW.1",
+          "description": "Handwriting",
+          "skills": [
+            {
+              "description": "Printing legibly in manuscript",
+              "keywords": [
+                "printing",
+                "legibly",
+                "manuscript"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using functional pencil grasp for letter formation",
+              "keywords": [
+                "functional",
+                "pencil grasp",
+                "letter formation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Accurately and automatically printing capital and lowercase letters of the alphabet independently",
+              "keywords": [
+                "accurately",
+                "printing",
+                "capital letters",
+                "lowercase letters"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Writing left to right and top to bottom",
+              "keywords": [
+                "writing",
+                "left",
+                "right",
+                "top",
+                "bottom"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Accurately printing first and last names, beginning each with a capital letter",
+              "keywords": [
+                "accurately",
+                "printing",
+                "names",
+                "capital letter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Applying spaces between written words in phrase or sentence level writing",
+              "keywords": [
+                "applying",
+                "spaces",
+                "written words",
+                "writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.FFW.2",
+          "description": "Spelling",
+          "skills": [
+            {
+              "description": "Encoding (spelling) one syllable words with short vowels",
+              "keywords": [
+                "encoding",
+                "spelling",
+                "syllable words",
+                "short vowels"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Encoding one syllable words beginning or ending in a digraph",
+              "keywords": [
+                "encoding",
+                "syllable words",
+                "digraph"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Encoding unknown words using logical invented spelling",
+              "keywords": [
+                "encoding",
+                "unknown words",
+                "invented spelling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using phoneme/grapheme (sound/symbol) correspondences to spell grade-level high-frequency words with accuracy",
+              "keywords": [
+                "phoneme/grapheme",
+                "spell",
+                "high-frequency words",
+                "accuracy"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Writing",
+      "standards": [
+        {
+          "code": "K.W",
+          "description": "The student will write in a variety of forms, linked to kindergarten content and texts.",
+          "skills": []
+        },
+        {
+          "code": "K.W.1",
+          "description": "Modes and Purposes for Writing",
+          "skills": [
+            {
+              "description": "Using a combination of drawing, dictating, and writing to compose narrative stories in sequential order",
+              "keywords": [
+                "drawing",
+                "dictating",
+                "writing",
+                "narrative stories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using a combination of drawing, dictating, and writing to compose descriptive writing",
+              "keywords": [
+                "drawing",
+                "dictating",
+                "writing",
+                "descriptive writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying a topic and providing one or more relevant details",
+              "keywords": [
+                "identifying",
+                "topic",
+                "relevant details"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using a combination of drawing, dictating, and writing to write in response to texts heard",
+              "keywords": [
+                "drawing",
+                "dictating",
+                "writing",
+                "response to texts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.W.2",
+          "description": "Organization and Composition",
+          "skills": [
+            {
+              "description": "Using prewriting activities to generate ideas and plan writing or dictation",
+              "keywords": [
+                "prewriting activities",
+                "generate ideas",
+                "plan writing",
+                "dictation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using drawing and suggestions from peers",
+              "keywords": [
+                "drawing",
+                "suggestions",
+                "peers"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying the audience and purpose of the writing",
+              "keywords": [
+                "identifying",
+                "audience",
+                "purpose",
+                "writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Composing or dictating simple sentences",
+              "keywords": [
+                "composing",
+                "dictating",
+                "simple sentences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Including a subject (noun) and predicate(verb) focused on the topic",
+              "keywords": [
+                "including",
+                "subject",
+                "predicate",
+                "topic"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Language Usage",
+      "standards": [
+        {
+          "code": "K.LU",
+          "description": "The student will use the conventions of Standard English when speaking and writing, differentiating between contexts that call for formal English and situations where informal discourse is more appropriate.",
+          "skills": []
+        },
+        {
+          "code": "K.LU.1",
+          "description": "Grammar",
+          "skills": [
+            {
+              "description": "Using conventions of Standard English when speaking and writing",
+              "keywords": [
+                "conventions",
+                "standard english",
+                "speaking",
+                "writing"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Producing and expanding complete sentences in shared language activities",
+              "keywords": [
+                "producing",
+                "expanding",
+                "complete sentences",
+                "language activities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using nouns to identify and name people, places, and things",
+              "keywords": [
+                "using",
+                "nouns",
+                "identify",
+                "name"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using pronouns to identify individuals and groups",
+              "keywords": [
+                "using",
+                "pronouns",
+                "identify",
+                "individuals"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using adjectives to describe specific objects",
+              "keywords": [
+                "using",
+                "adjectives",
+                "describe",
+                "objects"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using verbs to locate specific actions",
+              "keywords": [
+                "using",
+                "verbs",
+                "locate",
+                "actions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.LU.2",
+          "description": "Mechanics",
+          "skills": [
+            {
+              "description": "Beginning each sentence with a capital letter",
+              "keywords": [
+                "beginning",
+                "sentence",
+                "capital letter"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Capitalizing the pronoun I",
+              "keywords": [
+                "capitalizing",
+                "pronoun"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identifying statements and questions",
+              "keywords": [
+                "identifying",
+                "statements",
+                "questions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using ending punctuation (period and question mark)",
+              "keywords": [
+                "using",
+                "ending punctuation",
+                "period",
+                "question mark"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Phonetically spelling words containing unknown letter-sound correspondences",
+              "keywords": [
+                "phonetically",
+                "spelling",
+                "words",
+                "letter-sound"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Communication and Multimodal Literacies",
+      "standards": [
+        {
+          "code": "K.C",
+          "description": "The student will develop effective oral communication and collaboration skills to build a community of learners that process, understand, and interpret content together.",
+          "skills": []
+        },
+        {
+          "code": "K.C.1",
+          "description": "Communication, Listening, and Collaboration",
+          "skills": [
+            {
+              "description": "Participating in a range of collaborative discussions",
+              "keywords": [
+                "participating",
+                "collaborative discussions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Listening actively",
+              "keywords": [
+                "listening",
+                "actively"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Following agreed-upon rules for participating in discussions",
+              "keywords": [
+                "following rules",
+                "discussions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Respectfully building on others' ideas",
+              "keywords": [
+                "respectfully",
+                "building",
+                "ideas"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Expressing own ideas clearly",
+              "keywords": [
+                "expressing",
+                "ideas",
+                "clearly"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Asking questions to seek help, get information, or clarify information",
+              "keywords": [
+                "asking questions",
+                "seek help",
+                "clarify information"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Expressing ideas and needs in complete sentences",
+              "keywords": [
+                "expressing",
+                "ideas",
+                "needs",
+                "complete sentences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "K.C.2",
+          "description": "Speaking and Presentation of Ideas",
+          "skills": [
+            {
+              "description": "Describing personal experiences using complete sentences",
+              "keywords": [
+                "describing",
+                "personal experiences",
+                "complete sentences"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Speaking audibly with appropriate pacing, prosody, and voice level",
+              "keywords": [
+                "speaking",
+                "audibly",
+                "pacing",
+                "prosody"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Participating in a variety of oral language activities",
+              "keywords": [
+                "participating",
+                "oral language activities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Participating in choral speaking and recitation of short poems, rhymes, songs, and stories",
+              "keywords": [
+                "participating",
+                "choral speaking",
+                "recitation",
+                "poems"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Retelling, creating, and dictating stories, rhymes, poems, and events in sequential order",
+              "keywords": [
+                "retelling",
+                "creating",
+                "dictating",
+                "stories"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using drama, props, and/or pictures",
+              "keywords": [
+                "using",
+                "drama",
+                "props",
+                "pictures"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Indicating first, next and last events in a story",
+              "keywords": [
+                "indicating",
+                "first",
+                "next",
+                "last events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research",
+      "standards": [
+        {
+          "code": "K.R",
+          "description": "The student will conduct research and listen to a series of conceptually related texts on selected topics to build knowledge on grade-level topics or solve problems using available resources.",
+          "skills": []
+        },
+        {
+          "code": "K.R.1",
+          "description": "Evaluation and Synthesis of Information",
+          "skills": [
+            {
+              "description": "Generating a topic of interest and question to explore a given topic",
+              "keywords": [
+                "generating",
+                "topic",
+                "question",
+                "explore"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Finding information on the topic from pictures, texts, people or provided sources",
+              "keywords": [
+                "finding information",
+                "pictures",
+                "texts",
+                "sources"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Using drawing, writing, or dictation to record facts and information collected from research",
+              "keywords": [
+                "using",
+                "drawing",
+                "writing",
+                "record facts"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Informally sharing recorded information collected from research in small or large group settings",
+              "keywords": [
+                "informally",
+                "sharing",
+                "recorded information",
+                "research"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

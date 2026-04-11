@@ -1,0 +1,164 @@
+{
+  "key": "3_3_MG_2_skill2",
+  "grade": "3",
+  "code": "3.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 3 Math",
+  "desc": "Estimate and solve problems involving area and perimeter using multiple representations.",
+  "skill_desc": "Estimate and determine the area of a surface by counting square units.",
+  "skill_idx": 1,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/3_3_MG_2_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "A=\\operatorname{polygon}((0,0),(4,0),(4,3),(0,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(4,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(0,3)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "Area = 12 \\text{ square units}",
+        "color": "#34C759",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "label": "",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 6,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Area of a Rectangle"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"A\")",
+      "SetLabelMode(A, 3)",
+      "B = (0, 4)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"B\")",
+      "SetLabelMode(B, 3)",
+      "C = (4, 4)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"C\")",
+      "SetLabelMode(C, 3)",
+      "D = (4, 0)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"D\")",
+      "SetLabelMode(D, 3)",
+      "rect = Polygon(A, B, C, D)",
+      "SetColor(rect, 0, 122, 255)",
+      "SetFilling(rect, 0.75)",
+      "grid = Polygon((0,0), (1,0), (1,1), (0,1))",
+      "SetColor(grid, 220, 220, 220)",
+      "SetFilling(grid, 0.5)",
+      "Translate(grid, (0,0))",
+      "Translate(grid, (1,0))",
+      "Translate(grid, (2,0))",
+      "Translate(grid, (3,0))",
+      "Translate(grid, (0,1))",
+      "Translate(grid, (1,1))",
+      "Translate(grid, (2,1))",
+      "Translate(grid, (3,1))",
+      "Translate(grid, (0,2))",
+      "Translate(grid, (1,2))",
+      "Translate(grid, (2,2))",
+      "Translate(grid, (3,2))",
+      "Translate(grid, (0,3))",
+      "Translate(grid, (1,3))",
+      "Translate(grid, (2,3))",
+      "Translate(grid, (3,3))"
+    ],
+    "view": [
+      -0.5,
+      4.5,
+      -0.5,
+      4.5
+    ],
+    "showGrid": true,
+    "title": "Area of a rectangle by counting square units"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (7, 1)",
+      "C = (7, 5)",
+      "D = (1, 5)",
+      "Polygon(A, B, C, D)",
+      "xStep = 1",
+      "yStep = 1",
+      "Sequence(Sequence(Segment((i, j), (i + xStep, j)), i, 1, 6, xStep), j, 1, 4, yStep)",
+      "Sequence(Sequence(Segment((i, j), (i, j + yStep)), i, 1, 7, xStep), j, 1, 4, yStep)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "\u0110\u1ec3 \u01b0\u1edbc t\u00ednh v\u00e0 x\u00e1c \u0111\u1ecbnh di\u1ec7n t\u00edch c\u1ee7a m\u1ed9t b\u1ec1 m\u1eb7t b\u1eb1ng c\u00e1ch \u0111\u1ebfm c\u00e1c \u0111\u01a1n v\u1ecb vu\u00f4ng,"
+  }
+}

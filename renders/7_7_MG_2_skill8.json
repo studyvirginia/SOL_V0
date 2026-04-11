@@ -1,0 +1,161 @@
+{
+  "key": "7_7_MG_2_skill8",
+  "grade": "7",
+  "code": "7.MG.2",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 7 Math",
+  "desc": "Solve problems and justify relationships of similarity using proportional reasoning.",
+  "skill_desc": "Apply proportional reasoning to solve problems in context including scale drawings.",
+  "skill_idx": 7,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/7_7_MG_2_skill8.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\frac{1}{2}x+3",
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "y=2x-2",
+        "color": "#FF3B30",
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "\\operatorname{midpoint}((0,3),(1,0))",
+        "color": "#FF3B30",
+        "label": "Midpoint",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(0,3)",
+        "color": "#007AFF",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(1,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(1,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p5",
+        "latex": "(0,-2)",
+        "color": "#FF3B30",
+        "label": "y-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      },
+      {
+        "id": "p6",
+        "latex": "(1,0)",
+        "color": "#FF3B30",
+        "label": "x-intercept",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "pointStyle": "POINT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -2,
+      "bottom": -3,
+      "right": 4,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Proportional Reasoning with Lines"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = 0.5*x + 2",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 2*x - 4",
+      "SetColor(g, 255, 59, 48)",
+      "A = Intersect(f, g)",
+      "SetPointStyle(A, 7)",
+      "SetPointSize(A, 7)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Intersection Point\")",
+      "SetLabelMode(A, 3)",
+      "B = (0, 2)",
+      "SetPointStyle(B, 7)",
+      "SetPointSize(B, 7)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"y-intercept of f(x)\")",
+      "SetLabelMode(B, 3)",
+      "C = (0, -4)",
+      "SetPointStyle(C, 7)",
+      "SetPointSize(C, 7)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"y-intercept of g(x)\")",
+      "SetLabelMode(C, 3)",
+      "D = (4, 4)",
+      "SetPointStyle(D, 7)",
+      "SetPointSize(D, 7)",
+      "SetLabelVisible(D, true)",
+      "SetCaption(D, \"Point on f(x)\")",
+      "SetLabelMode(D, 3)",
+      "E = (3, 2)",
+      "SetPointStyle(E, 7)",
+      "SetPointSize(E, 7)",
+      "SetLabelVisible(E, true)",
+      "SetCaption(E, \"Point on g(x)\")",
+      "SetLabelMode(E, 3)"
+    ],
+    "view": [
+      -2,
+      6,
+      -6,
+      6
+    ],
+    "showGrid": true,
+    "title": "Scale Drawing: Intersecting Lines"
+  },
+  "sketchmath_state": null
+}

@@ -1,0 +1,117 @@
+{
+  "key": "8_8_NS_1_skill2",
+  "grade": "8",
+  "code": "8.NS.1",
+  "domain": "Number and Number Sense",
+  "course": "Grade 8 Math",
+  "desc": "Compare and order real numbers, including irrational numbers, using rational approximations and multiple strategies.",
+  "skill_desc": "Use rational approximations (to the nearest hundredth) of irrational numbers to compare, order, and locate values on a number line.",
+  "skill_idx": 1,
+  "graph_type": "function",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra"
+  ],
+  "matplotlib_img": "matplotlib/8_8_NS_1_skill2.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=\\sqrt{x}",
+        "color": "#007AFF",
+        "lines": true,
+        "lineWidth": 2,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "(4,2)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "label": "(4, 2)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p2",
+        "latex": "(2.25,1.5)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "label": "(2.25, 1.5)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p3",
+        "latex": "(3, \\sqrt{3})",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "label": "(3, \\sqrt{3})",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p4",
+        "latex": "(1,1)",
+        "color": "#FF3B30",
+        "pointStyle": "POINT",
+        "pointSize": 15,
+        "label": "(1, 1)",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 3
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Approximating Irrational Numbers"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "f(x) = sqrt(2)",
+      "SetColor(f, 0, 122, 255)",
+      "g(x) = 1.41",
+      "SetColor(g, 255, 0, 0)",
+      "A = (sqrt(2), 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"\u221a2\")",
+      "SetLabelMode(A, 3)",
+      "B = (1.41, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"1.41\")",
+      "SetLabelMode(B, 3)"
+    ],
+    "view": [
+      0,
+      2,
+      -0.5,
+      0.5
+    ],
+    "showGrid": true,
+    "title": "Comparing \u221a2 and 1.41 on a number line"
+  },
+  "sketchmath_state": null
+}

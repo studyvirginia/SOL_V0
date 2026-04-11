@@ -1,0 +1,629 @@
+{
+  "subject": "Math",
+  "course": "Algebra Functions Data Analysis",
+  "domains": [
+    {
+      "name": "Algebra and Functions",
+      "standards": [
+        {
+          "code": "AFDA.AF.1",
+          "description": "Investigate, analyze, and compare linear, quadratic, and exponential function families using transformations, algebraically and graphically.",
+          "skills": [
+            {
+              "description": "Identify graphs and equations of parent functions for linear, quadratic, and exponential function families.",
+              "keywords": [
+                "parent functions",
+                "linear functions",
+                "quadratic functions",
+                "exponential functions",
+                "graph identification",
+                "equation identification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the transformation from the parent function given the equation or the graph of the function.",
+              "keywords": [
+                "function transformations",
+                "parent function",
+                "horizontal shift",
+                "vertical shift",
+                "reflection",
+                "dilation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine whether a linear, quadratic, or exponential function best models a given representation, including contextual scenarios.",
+              "keywords": [
+                "function modeling",
+                "linear models",
+                "quadratic models",
+                "exponential models",
+                "contextual analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Write the equation of a linear, quadratic, or exponential function, given a graph, using transformations of the parent function.",
+              "keywords": [
+                "equation writing",
+                "function transformations",
+                "parent function",
+                "graph to equation",
+                "algebraic representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve problems within a context using graphical or algebraic representations of a function.",
+              "keywords": [
+                "contextual problem solving",
+                "graphical solutions",
+                "algebraic solutions",
+                "function applications"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Graph a function given its equation using transformations of the parent function and verify transformations using technology.",
+              "keywords": [
+                "graphing functions",
+                "function transformations",
+                "parent function",
+                "technology verification",
+                "graphical representation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast linear, quadratic, and exponential functions using multiple representations (graphs, tables, equations, verbal descriptions).",
+              "keywords": [
+                "function comparison",
+                "linear functions",
+                "quadratic functions",
+                "exponential functions",
+                "multiple representations"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "AFDA.AF.2",
+          "description": "Investigate and analyze characteristics of the graphs of linear, quadratic, exponential, and piecewise-defined functions.",
+          "skills": [
+            {
+              "description": "Determine the domain and range of a function given a graphical representation, including contextual limitations.",
+              "keywords": [
+                "domain and range",
+                "graphical analysis",
+                "contextual domain",
+                "contextual range"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify intervals on a graph where a function is increasing, decreasing, or constant.",
+              "keywords": [
+                "intervals of increase",
+                "intervals of decrease",
+                "constant intervals",
+                "graph analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the location and value of the absolute maximum and absolute minimum of a function over its domain from a graph.",
+              "keywords": [
+                "absolute maximum",
+                "absolute minimum",
+                "graph analysis",
+                "function extrema"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine the zeros and intercepts of a function from its graph.",
+              "keywords": [
+                "zeros of a function",
+                "x-intercepts",
+                "y-intercepts",
+                "graph analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the connection between points on the graph and the value of a function.",
+              "keywords": [
+                "function values",
+                "graph points",
+                "input-output relationship"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe the end behavior of a function given its graph.",
+              "keywords": [
+                "end behavior",
+                "graph analysis",
+                "function behavior"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify horizontal and/or vertical asymptotes from the graph of a function, if they exist.",
+              "keywords": [
+                "horizontal asymptotes",
+                "vertical asymptotes",
+                "graph analysis",
+                "function behavior"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe and relate the characteristics of the graphs of linear, quadratic, exponential, and piecewise-defined functions, including contextual situations.",
+              "keywords": [
+                "graph characteristics",
+                "linear functions",
+                "quadratic functions",
+                "exponential functions",
+                "piecewise functions",
+                "contextual analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "AFDA.AF.3",
+          "description": "Represent and interpret contextual situations with constraints that require optimization using linear programming techniques.",
+          "skills": [
+            {
+              "description": "Represent and interpret contextual problems requiring optimization with systems of linear equations or inequalities.",
+              "keywords": [
+                "contextual optimization",
+                "linear programming",
+                "systems of equations",
+                "systems of inequalities"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Solve systems of no more than four equations or inequalities graphically and, when appropriate, algebraically.",
+              "keywords": [
+                "systems of equations",
+                "systems of inequalities",
+                "graphical solutions",
+                "algebraic solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the feasible region of a system of linear inequalities.",
+              "keywords": [
+                "feasible region",
+                "systems of inequalities",
+                "graphical analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify the coordinates of the vertices of a feasible region.",
+              "keywords": [
+                "vertices of feasible region",
+                "linear programming",
+                "graphical analysis"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine and describe the maximum or minimum value for the function defined over a feasible region.",
+              "keywords": [
+                "optimization",
+                "maximum value",
+                "minimum value",
+                "feasible region"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret the validity of possible solution(s) algebraically, graphically, using technology, and in context, and justify the reasonableness of the answer(s) or the solution method.",
+              "keywords": [
+                "solution validation",
+                "algebraic validation",
+                "graphical validation",
+                "contextual validation",
+                "solution justification"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Analysis",
+      "standards": [
+        {
+          "code": "AFDA.DA.1",
+          "description": "Apply the data cycle to represent bivariate data in scatterplots and determine the curve of best fit using linear, quadratic, and exponential functions.",
+          "skills": [
+            {
+              "description": "Formulate investigative questions that require the collection or acquisition of bivariate data, where exactly two of the variables are quantitative.",
+              "keywords": [
+                "investigative questions",
+                "bivariate data",
+                "quantitative variables",
+                "data formulation"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Collect or acquire bivariate data from a representative sample to answer an investigative question.",
+              "keywords": [
+                "data collection",
+                "bivariate data",
+                "representative sample",
+                "data acquisition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent bivariate data with a scatterplot using technology and describe how the variables are related in context.",
+              "keywords": [
+                "scatterplot",
+                "bivariate data",
+                "variable relationships",
+                "contextual description",
+                "technology use"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Make predictions, decisions, and critical judgments using data, scatterplots, or the equation(s) of the mathematical model.",
+              "keywords": [
+                "data-based predictions",
+                "scatterplot analysis",
+                "mathematical modeling",
+                "critical judgments"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "AFDA.DA.2",
+          "description": "Apply the data cycle to design and implement an experiment and/or observational study.",
+          "skills": [
+            {
+              "description": "Formulate questions that can be addressed with data and assess the type of data relevant to the question (e.g., quantitative versus categorical).",
+              "keywords": [
+                "data formulation",
+                "quantitative data",
+                "categorical data",
+                "question assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate, describe, and determine best sampling techniques, such as simple random sampling, stratified sampling, and cluster sampling.",
+              "keywords": [
+                "sampling techniques",
+                "simple random sampling",
+                "stratified sampling",
+                "cluster sampling"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Plan and conduct an experiment and/or observational study addressing control, randomization, and minimization of experimental error.",
+              "keywords": [
+                "experimental design",
+                "control",
+                "randomization",
+                "experimental error",
+                "observational study"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Collect or acquire data to answer a statistical question.",
+              "keywords": [
+                "data collection",
+                "statistical questions",
+                "data acquisition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Recognize that data may contain errors, have missing values, or may be biased, and make decisions about how to account for these issues.",
+              "keywords": [
+                "data errors",
+                "missing data",
+                "biased data",
+                "data quality assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Identify biased sampling methods.",
+              "keywords": [
+                "biased sampling",
+                "sampling bias",
+                "sampling methods"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given a plan for an observational study, identify possible sources of bias and describe ways to reduce bias.",
+              "keywords": [
+                "observational study bias",
+                "bias reduction",
+                "study design"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Select, create, and use appropriate visual representations of data to brainstorm solutions.",
+              "keywords": [
+                "data visualization",
+                "visual representations",
+                "brainstorming solutions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Use appropriate statistical methods to analyze data.",
+              "keywords": [
+                "statistical analysis",
+                "data analysis methods",
+                "statistical techniques"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Communicate the description of an experiment and/or observational study, the resulting data, analysis, and the validity of the conclusions.",
+              "keywords": [
+                "study communication",
+                "data communication",
+                "analysis communication",
+                "conclusion validity"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "AFDA.DA.3",
+          "description": "Calculate and interpret probabilities, including those in contextual situations.",
+          "skills": [
+            {
+              "description": "Analyze, interpret, and make predictions based on theoretical probability.",
+              "keywords": [
+                "theoretical probability",
+                "probability analysis",
+                "probability predictions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate conditional probabilities for dependent, independent, and mutually exclusive events.",
+              "keywords": [
+                "conditional probability",
+                "dependent events",
+                "independent events",
+                "mutually exclusive events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent and calculate probabilities using Venn diagrams, probability trees, organized lists, two-way tables, simulations, or other probability models.",
+              "keywords": [
+                "probability representation",
+                "Venn diagrams",
+                "probability trees",
+                "two-way tables",
+                "simulations",
+                "probability models"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Interpret probabilities from simulations or experiments to make informed decisions and justify the rationale.",
+              "keywords": [
+                "probability interpretation",
+                "simulation analysis",
+                "experimental probability",
+                "informed decisions"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Define and give contextual examples of complementary, dependent, independent, and mutually exclusive events.",
+              "keywords": [
+                "complementary events",
+                "dependent events",
+                "independent events",
+                "mutually exclusive events",
+                "contextual examples"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Given two or more events in a problem setting, determine whether the events are complementary, dependent, independent, and/or mutually exclusive.",
+              "keywords": [
+                "event classification",
+                "complementary events",
+                "dependent events",
+                "independent events",
+                "mutually exclusive events"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare and contrast permutations and combinations, including those in contextual situations.",
+              "keywords": [
+                "permutations",
+                "combinations",
+                "contextual comparison"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate the number of permutations of n objects taken r at a time, without repetition.",
+              "keywords": [
+                "permutations calculation",
+                "nPr",
+                "without repetition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate the number of combinations of n objects taken r at a time, without repetition.",
+              "keywords": [
+                "combinations calculation",
+                "nCr",
+                "without repetition"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        },
+        {
+          "code": "AFDA.DA.4",
+          "description": "Describe and apply the properties of normal distribution, including those in contextual situations.",
+          "skills": [
+            {
+              "description": "Identify and describe the properties of a normal distribution.",
+              "keywords": [
+                "normal distribution",
+                "bell curve",
+                "distribution properties"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine when the normal distribution is a reasonable representation of the data.",
+              "keywords": [
+                "normal distribution applicability",
+                "data representation",
+                "normality assessment"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Describe how the mean and the standard deviation affect the graph of the normal distribution.",
+              "keywords": [
+                "mean",
+                "standard deviation",
+                "normal curve",
+                "distribution shape"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Calculate and interpret the z-score for a data point, given the mean and the standard deviation.",
+              "keywords": [
+                "z-score calculation",
+                "z-score interpretation",
+                "standard normal distribution"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Compare two sets of normally distributed data using a standard normal distribution and z-scores, given the mean and the standard deviation.",
+              "keywords": [
+                "data comparison",
+                "standard normal distribution",
+                "z-scores",
+                "normally distributed data"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Represent probability as the area under the curve of a standard normal distribution.",
+              "keywords": [
+                "probability representation",
+                "standard normal curve",
+                "area under curve"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Determine probabilities associated with areas under the standard normal curve, using technology or a table of Standard Normal Probabilities.",
+              "keywords": [
+                "probability determination",
+                "standard normal curve",
+                "technology use",
+                "probability tables"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            },
+            {
+              "description": "Investigate, represent, and determine relationships between a normally distributed data set and its descriptive statistics.",
+              "keywords": [
+                "normal distribution analysis",
+                "descriptive statistics",
+                "data relationships"
+              ],
+              "prerequisites": [],
+              "cross_links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

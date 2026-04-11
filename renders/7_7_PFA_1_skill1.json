@@ -1,0 +1,115 @@
+{
+  "key": "7_7_PFA_1_skill1",
+  "grade": "7",
+  "code": "7.PFA.1",
+  "domain": "Patterns, Functions, and Algebra",
+  "course": "Grade 7 Math",
+  "desc": "Investigate and analyze proportional relationships using verbal descriptions, tables, equations, and graphs.",
+  "skill_desc": "Determine the slope (rate of change) in a proportional relationship given a table, graph, or contextual situation and write an equation in y = mx form.",
+  "skill_idx": 0,
+  "graph_type": "statistics",
+  "engines": [
+    "matplotlib",
+    "desmos"
+  ],
+  "matplotlib_img": "matplotlib/7_7_PFA_1_skill1.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "y=2x",
+        "color": "#007AFF",
+        "label": "Proportional Relationship",
+        "showLabel": true,
+        "hidden": false
+      },
+      {
+        "type": "table",
+        "id": "t1",
+        "columns": [
+          {
+            "id": "c1",
+            "latex": "x",
+            "values": [
+              {
+                "id": "v1",
+                "value": -2
+              },
+              {
+                "id": "v2",
+                "value": -1
+              },
+              {
+                "id": "v3",
+                "value": 0
+              },
+              {
+                "id": "v4",
+                "value": 1
+              },
+              {
+                "id": "v5",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "latex": "y",
+            "values": [
+              {
+                "id": "v6",
+                "value": -4
+              },
+              {
+                "id": "v7",
+                "value": -2
+              },
+              {
+                "id": "v8",
+                "value": 0
+              },
+              {
+                "id": "v9",
+                "value": 2
+              },
+              {
+                "id": "v10",
+                "value": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p1",
+        "latex": "(1,2)",
+        "color": "#FF3B30",
+        "label": "Point on Line",
+        "showLabel": true,
+        "dragMode": "XY",
+        "pointStyle": "POINT",
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -3,
+      "bottom": -1,
+      "right": 3,
+      "top": 5
+    },
+    "showGrid": true,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Proportional Relationships: Slope and Equation"
+  },
+  "geogebra_state": null,
+  "sketchmath_state": null
+}

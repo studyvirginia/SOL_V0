@@ -1,0 +1,216 @@
+{
+  "key": "4_4_MG_4_skill5",
+  "grade": "4",
+  "code": "4.MG.4",
+  "domain": "Measurement and Geometry",
+  "course": "Grade 4 Math",
+  "desc": "Identify, describe, and draw points, rays, line segments, angles, and lines, including intersecting, parallel, and perpendicular lines.",
+  "skill_desc": "Use symbolic notation to name points, lines, line segments, rays, angles, and to describe parallel and perpendicular lines.",
+  "skill_idx": 4,
+  "graph_type": "geometry",
+  "engines": [
+    "matplotlib",
+    "desmos",
+    "geogebra",
+    "sketchmath"
+  ],
+  "matplotlib_img": "matplotlib/4_4_MG_4_skill5.png",
+  "desmos_state": {
+    "expressions": [
+      {
+        "id": "e1",
+        "latex": "A=(0,0)",
+        "color": "#FF3B30",
+        "label": "A",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e2",
+        "latex": "B=(4,0)",
+        "color": "#FF3B30",
+        "label": "B",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e3",
+        "latex": "C=(2,3)",
+        "color": "#FF3B30",
+        "label": "C",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "p1",
+        "latex": "\\operatorname{polygon}((0,0),(4,0),(2,3))",
+        "color": "#007AFF",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e4",
+        "latex": "s=0.2",
+        "hidden": true,
+        "color": "#007AFF",
+        "label": "",
+        "showLabel": false
+      },
+      {
+        "id": "e5",
+        "latex": "D=(0,s)",
+        "color": "#FF3B30",
+        "label": "D",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e6",
+        "latex": "E=(s,s)",
+        "color": "#FF3B30",
+        "label": "E",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e7",
+        "latex": "\\operatorname{polygon}((0,0),(0,s),(s,s))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      },
+      {
+        "id": "e8",
+        "latex": "F=(4,s)",
+        "color": "#FF3B30",
+        "label": "F",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e9",
+        "latex": "G=(4,0)",
+        "color": "#FF3B30",
+        "label": "G",
+        "showLabel": true,
+        "dragMode": "NONE",
+        "hidden": false
+      },
+      {
+        "id": "e10",
+        "latex": "\\operatorname{polygon}((4,0),(4,s),(4-s,s))",
+        "color": "#FF9500",
+        "fill": true,
+        "fillOpacity": 0.15,
+        "label": "",
+        "showLabel": false,
+        "hidden": false
+      }
+    ],
+    "viewport": {
+      "left": -1,
+      "bottom": -1,
+      "right": 5,
+      "top": 4
+    },
+    "showGrid": false,
+    "showAxes": true,
+    "degreeMode": false,
+    "polarMode": false,
+    "xAxisStep": null,
+    "yAxisStep": null,
+    "xAxisNumbers": null,
+    "yAxisNumbers": null,
+    "xAxisLabel": null,
+    "yAxisLabel": null,
+    "title": "Triangle with Right Angle"
+  },
+  "geogebra_state": {
+    "cmds": [
+      "A = (0, 0)",
+      "SetLabelVisible(A, true)",
+      "SetCaption(A, \"Point A\")",
+      "SetLabelMode(A, 3)",
+      "B = (4, 0)",
+      "SetLabelVisible(B, true)",
+      "SetCaption(B, \"Point B\")",
+      "SetLabelMode(B, 3)",
+      "segAB = Segment(A, B)",
+      "SetColor(segAB, 0, 0, 0)",
+      "C = (2, 3)",
+      "SetLabelVisible(C, true)",
+      "SetCaption(C, \"Point C\")",
+      "SetLabelMode(C, 3)",
+      "segAC = Segment(A, C)",
+      "SetColor(segAC, 0, 0, 0)",
+      "segBC = Segment(B, C)",
+      "SetColor(segBC, 0, 0, 0)",
+      "lineAB = Line(A, B)",
+      "SetColor(lineAB, 255, 0, 0)",
+      "SetLabelVisible(lineAB, true)",
+      "SetCaption(lineAB, \"Line AB\")",
+      "SetLabelMode(lineAB, 3)",
+      "rayAC = Ray(A, C)",
+      "SetColor(rayAC, 0, 0, 255)",
+      "SetLabelVisible(rayAC, true)",
+      "SetCaption(rayAC, \"Ray AC\")",
+      "SetLabelMode(rayAC, 3)",
+      "linePerp = PerpendicularLine(C, lineAB)",
+      "SetColor(linePerp, 0, 128, 0)",
+      "SetLabelVisible(linePerp, true)",
+      "SetCaption(linePerp, \"Line perpendicular to AB\")",
+      "SetLabelMode(linePerp, 3)"
+    ],
+    "view": [
+      -1,
+      5,
+      -1,
+      4
+    ],
+    "showGrid": true,
+    "title": "Points, lines, segments, rays, and perpendicular lines"
+  },
+  "sketchmath_state": {
+    "cmds": [
+      "A = (1, 1)",
+      "B = (3, 2)",
+      "C = (5, 1)",
+      "D = (2, 4)",
+      "E = (4, 4)",
+      "Segment(A, B)",
+      "Segment(C, D)",
+      "Line(A, C)",
+      "SetVisible(Line(A, C), false)",
+      "Line(B, E)",
+      "SetVisible(Line(B, E), false)",
+      "Intersect(Line(A, C), Line(B, E))",
+      "Ray(A, B)",
+      "Angle(D, A, B)",
+      "PerpendicularLine(D, Segment(A, B))",
+      "SetVisible(PerpendicularLine(D, Segment(A, B)), false)",
+      "F = Intersect(PerpendicularLine(D, Segment(A, B)), Segment(A, B))",
+      "Segment(D, F)",
+      "Line(D, E)",
+      "SetVisible(Line(D, E), false)",
+      "Line(A, B)",
+      "SetVisible(Line(A, B), false)",
+      "ParallelLine(D, Line(A, B))",
+      "SetVisible(ParallelLine(D, Line(A, B)), false)"
+    ],
+    "view": null,
+    "showGrid": false,
+    "title": "Ch\u00fang ta s\u1ebd v\u1ebd c\u00e1c \u0111i\u1ec3m, tia, \u0111o\u1ea1n th\u1eb3ng, g\u00f3c v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng, bao g\u1ed3m c\u00e1c \u0111\u01b0\u1eddng "
+  }
+}
