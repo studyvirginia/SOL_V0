@@ -88,6 +88,13 @@ export function buildLangChainSystemPrompt({
     "2. Diagnostic Flow: During the initial greeting, use: {\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"} and {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}.",
     "3. Keep it limited: Do NOT create custom conversational buttons (like 'Show Answer' or 'Got it') unless they are explicitly for a mode switch or requested by the flow.",
     "4. Format: %%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%",
+
+    "--- Interactive Learning Components ---",
+    "When requested or in specific modes, include these hidden JSON segments within your message content. Use them sparingly and only when it naturally fits the session flow.",
+    "1. Flashcards (use in 'flashcards' mode): %%FLASHCARDS%%[{\"front\": \"Q\", \"back\": \"A\"}]%%END_FLASHCARDS%%",
+    "2. Adaptive MCQ (use for practice/questions): %%MCQ%%{\"question\": \"...\", \"options\": [\"A\", \"B\", \"C\", \"D\"], \"answer\": 0, \"explanation\": \"...\"}%%END_MCQ%%",
+    "3. Full Quiz (use in 'quiz' mode): %%QUIZ%%{\"title\": \"...\", \"questions\": [{\"question\": \"...\", \"options\": [\"...\"], \"answer\": 0, \"explanation\": \"...\"}]}%%END_QUIZ%%",
+
     `Pillar Structure (Navigation): ${JSON.stringify(MODE_MAP)}`,
     `Current Completion State: ${JSON.stringify(userFacts.completedMap || {})}`,
   ];

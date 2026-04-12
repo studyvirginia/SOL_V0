@@ -9,6 +9,11 @@ import { buildMediumTermSummary, buildShortTermMemory } from "../lib/sessionMemo
 import { MODE_MAP } from "../lib/modeMap";
 import ErrorBoundary from "./ErrorBoundary";
 
+const FlashcardDeck = dynamic(() => import("./learning/FlashcardDeck"), { ssr: false });
+const AdaptiveMCQ = dynamic(() => import("./learning/AdaptiveMCQ"), { ssr: false });
+const QuizRunner = dynamic(() => import("./learning/QuizRunner"), { ssr: false });
+
+
 // Advanced formatting utilities for proper display capitalization
 export const formatName = (str) => {
   if (!str) return "";
@@ -119,11 +124,18 @@ function splitMessageSegments(content) {
   const segments = [];
   const ACTION_TOKEN_RE = /%%ACTIONS%%([\s\S]*?)%%END_ACTIONS%%/g;
   const GRAPH_RE = /%%GRAPH%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_GRAPH%%/g;
+  const FLASHCARDS_RE = /%%FLASHCARDS%%([\s\S]*?)%%END_FLASHCARDS%%/g;
+  const MCQ_RE = /%%MCQ%%([\s\S]*?)%%END_MCQ%%/g;
+  const QUIZ_RE = /%%QUIZ%%([\s\S]*?)%%END_QUIZ%%/g;
+
 
   let lastIndex = 0;
   const matches = [
     ...content.matchAll(ACTION_TOKEN_RE),
-    ...content.matchAll(GRAPH_RE)
+    ...content.matchAll(GRAPH_RE),
+    ...content.matchAll(FLASHCARDS_RE),
+    ...content.matchAll(MCQ_RE),
+    ...content.matchAll(QUIZ_RE)
   ].sort((a, b) => a.index - b.index);
 
   let graphCounter = 0;
@@ -133,8 +145,14 @@ function splitMessageSegments(content) {
     }
     if (m[0].startsWith('%%ACTIONS%%')) {
       segments.push({ type: 'actions', data: m[1] });
-    } else {
+    } else if (m[0].startsWith('%%GRAPH%%')) {
       segments.push({ type: 'graph', data: m[1], graphIndex: graphCounter++ });
+    } else if (m[0].startsWith('%%FLASHCARDS%%')) {
+      segments.push({ type: 'flashcards', data: m[1] });
+    } else if (m[0].startsWith('%%MCQ%%')) {
+      segments.push({ type: 'mcq', data: m[1] });
+    } else if (m[0].startsWith('%%QUIZ%%')) {
+      segments.push({ type: 'quiz', data: m[1] });
     }
     lastIndex = m.index + m[0].length;
   });
@@ -170,7 +188,7 @@ const MarkdownMessage = ({ content, isUser }) => (
 const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
   if (!actions || actions.length === 0) return null;
   return (
-    <div className="flex flex-wrap gap-2 mt-4 animate-in fade-in slide-in-from-bottom-2 duration-500 w-full max-w-[700px]">
+    <div className="flex flex-wrap gap-1.5 mt-4 animate-in fade-in slide-in-from-bottom-2 duration-500 w-full max-w-[700px]">
       {actions.map((act, i) => {
         const isObject = typeof act === "object" && act !== null;
         if (isObject) {
@@ -181,7 +199,7 @@ const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
                 if (act.targetMode) onSwitch(act.targetMode, false);
                 onSend(act.prompt);
               }}
-              className="group flex items-center gap-2 rounded-full px-4 py-2 text-[0.75rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 bg-amber-500 text-white ring-amber-400 hover:bg-amber-600 hover:shadow-md"
+              className="group flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 bg-slate-800 text-white ring-slate-700 hover:bg-slate-900 hover:shadow-md dark:bg-slate-700 dark:ring-slate-600 dark:hover:bg-slate-600"
             >
               {act.label}
             </button>
@@ -197,7 +215,7 @@ const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
           <button
             key={act}
             onClick={() => onSwitch(subModeId, true)}
-            className={`group flex items-center gap-2 rounded-full px-4 py-2 text-[0.75rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 ${
+            className={`group flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 ${
               isRecommended 
                 ? "bg-blue-600 text-white ring-blue-500 hover:bg-blue-700 hover:shadow-md" 
                 : "bg-white text-gray-700 ring-gray-200 hover:bg-gray-50 dark:bg-gray-800 dark:text-gray-200 dark:ring-gray-700"
@@ -452,6 +470,17 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                      {splitMessageSegments(String(m.content || "")).map((seg, segIdx) => {
                        if (seg.type === 'text') return <MarkdownMessage key={segIdx} content={seg.content} isUser={false} isMinimalMode={isMinimalMode} />;
                        if (seg.type === 'actions') return <QuickActions key={segIdx} actions={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} onSwitch={switchSubMode} onSend={sendMessage} currentSubMode={currentMode} />;
+                       if (seg.type === 'flashcards') return <FlashcardDeck key={segIdx} cards={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} />;
+                       if (seg.type === 'mcq') {
+                         const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
+                         if (!data) return null;
+                         return <AdaptiveMCQ key={segIdx} {...data} />;
+                       }
+                       if (seg.type === 'quiz') {
+                         const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
+                         if (!data) return null;
+                         return <QuizRunner key={segIdx} {...data} />;
+                       }
                        const g = (graphs[m.id] || [])[seg.graphIndex];
                        if (!g || isMinimalMode) return null;
                        return (
