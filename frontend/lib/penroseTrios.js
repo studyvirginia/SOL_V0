@@ -1685,15 +1685,27 @@ Label Q "2"
   variation: "number_line",
 };
 
-// 53. Function mapping: f: {a, b, c} → {p, q, r} as directed bipartite graph
+// 65. Function mapping diagram: directed bipartite graph f: {a,b,c} → {p,q,r} for domain/range discussion
 export const TRIO_FUNCTION_MAPPING = {
   domain: DIRECTED_GRAPH_DOMAIN,
-  style: DIRECTED_GRAPH_STYLE,
+  style: DIRECTED_GRAPH_STYLE + `
+    forall Node n; Node target
+    where n.label in {"a", "b", "c"} 
+    where target.label in {"p", "q", "r"} {
+      ensure lessThan(n.icon.center[0] + 180, target.icon.center[0])
+    }
+  `,
   substance: `
 Node a, b, c, p, q, r
 DEdge e1 := MkDEdge(a, p)
 DEdge e2 := MkDEdge(b, q)
 DEdge e3 := MkDEdge(c, r)
+SameColumn(a, b, c)
+SameColumn(p, q, r)
+IsAbove(a, b)
+IsAbove(b, c)
+IsAbove(p, q)
+IsAbove(q, r)
 Label a "a"
 Label b "b"
 Label c "c"
@@ -1701,7 +1713,7 @@ Label p "p"
 Label q "q"
 Label r "r"
 `,
-  variation: "function_map",
+  variation: "func_map",
 };
 
 // 54. Triangle with its incircle (circle inscribed, touching all three sides)
@@ -2335,7 +2347,10 @@ Label W "h"
 // 74. Slope triangle: horizontal "run" and vertical "rise" from P up to R
 export const TRIO_SLOPE_TRIANGLE = {
   domain: GEOMETRY_DOMAIN,
-  style: GEOMETRY_STYLE,
+  style: GEOMETRY_STYLE + `
+    override U.lbl.center = U.dot.center + (0, -20)
+    override V.lbl.center = V.dot.center + (24, 0)
+  `,
   substance: `
 Point P, Q, R, U, V
 Segment pq := MkSeg(P, Q)
@@ -2626,6 +2641,30 @@ Label p "p"
 Label q "q"
 `,
   variation: "biconditional",
+};
+
+// 84. Geometric sequence diagram: showing multiplicative ratio r between consecutive terms
+export const TRIO_GEOMETRIC_SERIES = {
+  domain: DIRECTED_GRAPH_DOMAIN,
+  style: DIRECTED_GRAPH_STYLE,
+  substance: `
+Node g1, g2, g3, g4
+DEdge e1 := MkDEdge(g1, g2)
+DEdge e2 := MkDEdge(g2, g3)
+DEdge e3 := MkDEdge(g3, g4)
+SameRow(g1, g2, g3, g4)
+IsLeftOf(g1, g2)
+IsLeftOf(g2, g3)
+IsLeftOf(g3, g4)
+Label g1 "a"
+Label g2 "ar"
+Label g3 "ar²"
+Label g4 "ar³"
+Label e1 "×r"
+Label e2 "×r"
+Label e3 "×r"
+`,
+  variation: "geom_series",
 };
 
 // ─── Chunk 10: Three parallels, polygon exterior, geometric series, tangent-secant, alternate interior, scale factor ──
