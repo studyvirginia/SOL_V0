@@ -5,6 +5,6 @@
   "/api/test-prompt": "pages/api/test-prompt.js",
   "/standards-coverage": "pages/standards-coverage.js",
   "/penrose-standards-dashboard": "pages/penrose-standards-dashboard.js",
-  "/api/image-search": "pages/api/image-search.js",
-  "/api/all-standards": "pages/api/all-standards.js"
+  "/api/penrose-render": "pages/api/penrose-render.js",
+  "/api/image-search": "pages/api/image-search.js"
 }

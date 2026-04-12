@@ -1819,6 +1819,10 @@ DEdge e1 := MkDEdge(a1, a2)
 DEdge e2 := MkDEdge(a2, a3)
 DEdge e3 := MkDEdge(a3, a4)
 DEdge e4 := MkDEdge(a4, a5)
+IsAbove(a1, a2)
+IsAbove(a2, a3)
+IsAbove(a3, a4)
+IsAbove(a4, a5)
 Label a1 "a₁"
 Label a2 "a₂"
 Label a3 "a₃"
@@ -2184,7 +2188,11 @@ Label B "B"
 // 69. Distance formula: right triangle on a grid with horizontal leg Δx, vertical leg Δy, hypotenuse d
 export const TRIO_DISTANCE_FORMULA = {
   domain: GEOMETRY_DOMAIN,
-  style: GEOMETRY_STYLE,
+  style: GEOMETRY_STYLE + `
+    override U.lbl.center = U.dot.center + (18, 0)
+    override V.lbl.center = V.dot.center + (0, 18)
+    override W.lbl.center = W.dot.center + (16, 12)
+  `,
   substance: `
 Point P, Q, R, U, V, W
 Segment pq := MkSeg(P, Q)
@@ -2203,9 +2211,6 @@ Hidden(W)
 Label U "Δx"
 Label V "Δy"
 Label W "d"
-override U.lbl.center := U.dot.center + (18, 0)
-override V.lbl.center := V.dot.center + (0, 18)
-override W.lbl.center := W.dot.center + (16, 12)
 `,
   variation: "distance_formula",
 };
@@ -2219,6 +2224,7 @@ Point O, R1, R2, R3, R4, Tx, Ty
 Segment ox := MkSeg(O, Tx)
 Segment oy := MkSeg(O, Ty)
 IsCentered(O)
+SameRow(O, Tx)
 IsLeftOf(O, Tx)
 IsAbove(Ty, O)
 IsAbove(R1, O)
@@ -2248,7 +2254,9 @@ Label R4 "Q IV"
 // 71. Number-line inequality: ray from point A going right (x > a)
 export const TRIO_INEQUALITY_RAY = {
   domain: GEOMETRY_DOMAIN,
-  style: GEOMETRY_STYLE,
+  style: GEOMETRY_STYLE + `
+    override A.lbl.center = A.dot.center + (0, 30)
+  `,
   substance: `
 Point L, A, B, R
 Segment la := MkSeg(L, A)
