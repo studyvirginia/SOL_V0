@@ -18,6 +18,8 @@ export function buildUserFactsText(userFacts = {}) {
   if (!userFacts || typeof userFacts !== "object") return "";
   const facts = [];
   if (userFacts.gradeLevel) facts.push(`Grade level: ${userFacts.gradeLevel}`);
+  if (userFacts.areaOfFocus) facts.push(`Session focus: ${userFacts.areaOfFocus}`);
+  if (userFacts.focusTopic) facts.push(`Focus topic: ${userFacts.focusTopic}`);
   if (userFacts.preferences) facts.push(`Learning preferences: ${userFacts.preferences}`);
   if (userFacts.needs) facts.push(`Learning needs: ${userFacts.needs}`);
   if (userFacts.languageSupport) facts.push(`Language support: ${userFacts.languageSupport}`);

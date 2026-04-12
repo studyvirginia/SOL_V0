@@ -24,17 +24,48 @@ import { readSession, writeSession } from "../../lib/sessionStore";
 
 function loadOpenRouterKey() {
   if (process.env.OPENROUTER_API_KEY) return process.env.OPENROUTER_API_KEY.trim();
+
+  const candidatePaths = [
+    path.resolve(process.cwd(), ".env.local"),
+    path.resolve(process.cwd(), "frontend", ".env.local"),
+    path.resolve(process.cwd(), "..", ".env.local"),
+  ];
+
+  const uniquePaths = [...new Set(candidatePaths)];
+
+  const parseValue = (rawValue = "") => {
+    const trimmed = String(rawValue).trim();
+    if (!trimmed) return "";
+    if (
+      (trimmed.startsWith('"') && trimmed.endsWith('"')) ||
+      (trimmed.startsWith("'") && trimmed.endsWith("'"))
+    ) {
+      return trimmed.slice(1, -1).trim();
+    }
+    return trimmed;
+  };
+
   try {
-    const envPath = path.resolve(process.cwd(), ".env.local");
-    if (!fs.existsSync(envPath)) return undefined;
-    const contents = fs.readFileSync(envPath, "utf8");
-    for (const line of contents.split(/\r?\n/)) {
-      const [k, ...rest] = line.split("=");
-      if (k?.trim() === "OPENROUTER_API_KEY") return rest.join("=").trim();
+    for (const envPath of uniquePaths) {
+      const exists = fs.existsSync(envPath);
+      if (!exists) continue;
+
+      const contents = fs.readFileSync(envPath, "utf8");
+      for (const line of contents.split(/\r?\n/)) {
+        const trimmedLine = line.trim();
+        if (!trimmedLine || trimmedLine.startsWith("#")) continue;
+
+        const [k, ...rest] = trimmedLine.split("=");
+        if (k?.trim() === "OPENROUTER_API_KEY") {
+          const parsed = parseValue(rest.join("="));
+          if (parsed) return parsed;
+        }
+      }
     }
   } catch (err) {
     console.error("Error loading .env.local for API key", err);
   }
+
   return undefined;
 }
 

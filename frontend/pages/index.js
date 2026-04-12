@@ -1,6 +1,45 @@
 import { useState, useEffect } from "react";
 import ChatWindow, { formatName } from "../components/ChatWindow";
 
+const DEFAULT_SUBMODES = [
+  "placement",
+  "concept",
+  "notes",
+  "study-guide",
+  "mnemonics",
+  "map",
+  "analogies",
+  "deep-dive",
+  "flashcards",
+  "quiz",
+  "worksheet",
+  "stats",
+  "achievements",
+];
+
+function createDefaultJourney(currentSubMode = "notes") {
+  return {
+    currentSubMode,
+    completed: DEFAULT_SUBMODES.reduce((acc, subModeId) => {
+      acc[subModeId] = false;
+      return acc;
+    }, {}),
+    completedAt: {},
+  };
+}
+
+const FOCUS_OPTIONS = [
+  "SOL exam",
+  "Unit test",
+  "Concept quiz",
+  "Final/Midterm",
+  "Other",
+];
+
+const INITIAL_SUBMODE = "placement";
+const INITIAL_ASSISTANT_MESSAGE =
+  "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic.";
+
 // Modern UI Icons
 const PlusIcon = (props) => <svg viewBox="0 0 24 24" width="20" height="20" fill="none" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v14M5 12h14" /></svg>;
 const MaximizeIcon = (props) => <svg viewBox="0 0 24 24" width="20" height="20" fill="none" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3" /></svg>;
@@ -48,6 +87,8 @@ export default function Home() {
   const [modalSubject, setModalSubject] = useState("");
   const [modalCourse, setModalCourse] = useState("");
   const [modalGrade, setModalGrade] = useState("");
+  const [modalSessionFocus, setModalSessionFocus] = useState("Concept quiz");
+  const [modalFocusTopic, setModalFocusTopic] = useState("");
   const [modalPreferences, setModalPreferences] = useState("");
   const [modalNeeds, setModalNeeds] = useState("");
 
@@ -138,6 +179,8 @@ export default function Home() {
        
        const personalization = {
          gradeLevel: modalGrade || "",
+         areaOfFocus: modalSessionFocus || "",
+         focusTopic: modalFocusTopic || "",
          preferences: modalPreferences || "",
          needs: modalNeeds || "",
        };
@@ -148,10 +191,12 @@ export default function Home() {
          name: formatName(modalCourse) || formatName(modalSubject) || "Start Session",
          subject: modalSubject,
          course: modalCourse,
-         retrievalMode: "notes",
+         retrievalMode: INITIAL_SUBMODE,
+         journey: createDefaultJourney(INITIAL_SUBMODE),
+         sessionFocus: modalSessionFocus || "",
          userFacts: personalization,
          sessionSummary: "",
-         messages: [{ role: "assistant", content: "Type to start learning." }],
+         messages: [{ role: "assistant", content: INITIAL_ASSISTANT_MESSAGE }],
        };
        
        setSessions([newSession]);
@@ -198,6 +243,8 @@ export default function Home() {
 
     const personalization = {
       gradeLevel: modalGrade || "",
+      areaOfFocus: modalSessionFocus || "",
+      focusTopic: modalFocusTopic || "",
       preferences: modalPreferences || "",
       needs: modalNeeds || "",
     };
@@ -206,16 +253,20 @@ export default function Home() {
       name: formatName(modalCourse),
       subject: modalSubject,
       course: modalCourse,
-      retrievalMode: "notes",
+      retrievalMode: INITIAL_SUBMODE,
+      journey: createDefaultJourney(INITIAL_SUBMODE),
+      sessionFocus: modalSessionFocus || "",
       userFacts: personalization,
       sessionSummary: "",
-      messages: [{ role: "assistant", content: "Type to start learning." }],
+      messages: [{ role: "assistant", content: INITIAL_ASSISTANT_MESSAGE }],
     };
     
     setSessions(prev => [newSession, ...prev]);
     setActiveSessionId(newSession.id);
     setIsModalOpen(false);
     setModalGrade("");
+    setModalSessionFocus("Concept quiz");
+    setModalFocusTopic("");
     setModalPreferences("");
     setModalNeeds("");
   };
@@ -300,6 +351,30 @@ export default function Home() {
                       placeholder="e.g. 9th grade, Algebra 1"
                     />
                  </div>
+                 <div className="space-y-2">
+                    <label className="text-[0.65rem] font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400">Session Focus</label>
+                    <div className="relative">
+                      <select
+                        className="w-full appearance-none rounded-xl border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 py-3 pl-4 pr-10 text-sm font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/10"
+                        value={modalSessionFocus}
+                        onChange={(e) => setModalSessionFocus(e.target.value)}
+                      >
+                        {FOCUS_OPTIONS.map((option) => (
+                          <option key={option} value={option}>{option}</option>
+                        ))}
+                      </select>
+                      <ChevronDownIcon className="pointer-events-none absolute right-3 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400" />
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    <label className="text-[0.65rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Focus Topic (Optional)</label>
+                    <input
+                      className="w-full rounded-xl border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-900 py-3 px-4 text-sm text-gray-800 dark:text-gray-100 transition-all focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/10"
+                      value={modalFocusTopic || ""}
+                      onChange={(e) => setModalFocusTopic(e.target.value)}
+                      placeholder="e.g. quadratic equations, writing prompts"
+                    />
+                  </div>
                  <div className="space-y-2">
                     <label className="text-[0.65rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Learning Preferences</label>
                     <input
@@ -413,6 +488,14 @@ export default function Home() {
                         <span>•</span>
                         <span className="truncate">{session.course || "General"}</span>
                       </p>
+                      <p className="mt-2 flex items-center gap-2 text-[0.72rem] font-semibold text-gray-500 dark:text-gray-400">
+                        <span className="rounded-full bg-indigo-50 dark:bg-indigo-900/30 px-2 py-0.5 text-indigo-600 dark:text-indigo-300">
+                          {(session.userFacts?.areaOfFocus || session.sessionFocus || "Concept quiz")}
+                        </span>
+                        {session.userFacts?.focusTopic && (
+                          <span className="truncate">{session.userFacts.focusTopic}</span>
+                        )}
+                      </p>
                     </div>
                     <button
                       onClick={(e) => deleteSession(e, session.id)}
@@ -462,6 +545,8 @@ export default function Home() {
 
                 {/* Right controls */}
                 <div className="flex items-center gap-2">
+                  {/* Focus indicator moved to sidebar above Learning Path */}
+
                   {/* Engine toggle pill */}
                   <div className="flex items-center rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-0.5 text-xs font-bold">
                     <button
@@ -564,6 +649,30 @@ export default function Home() {
                     value={modalGrade || ""}
                     onChange={(e) => setModalGrade(e.target.value)}
                     placeholder="e.g. 9th grade, Algebra 1"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <label className="text-[0.6rem] font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400">Session Focus</label>
+                  <div className="relative">
+                    <select
+                      className="w-full appearance-none rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-10 text-sm font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-indigo-500 dark:focus:border-indigo-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-indigo-500/10"
+                      value={modalSessionFocus}
+                      onChange={(e) => setModalSessionFocus(e.target.value)}
+                    >
+                      {FOCUS_OPTIONS.map((option) => (
+                        <option key={option} value={option}>{option}</option>
+                      ))}
+                    </select>
+                    <ChevronDownIcon className="pointer-events-none absolute right-4 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400" />
+                  </div>
+                </div>
+                <div className="space-y-2">
+                  <label className="text-[0.6rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Focus Topic (Optional)</label>
+                  <input
+                    className="w-full rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-4 text-sm text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
+                    value={modalFocusTopic || ""}
+                    onChange={(e) => setModalFocusTopic(e.target.value)}
+                    placeholder="e.g. linear equations"
                   />
                 </div>
                 <div className="space-y-2">
