@@ -229,7 +229,7 @@ const CORE_RULES = `CRITICAL RULES:
 9. "view" = [xmin, xmax, ymin, ymax] — fit tightly with ~15% padding.
 10. Geometry: keep view width ≈ view height (equal aspect). Set showGrid:false and showAxes:false.
 11. Trig: always use radians, view = [-6.28, 6.28, -2.5, 2.5] unless different amplitude.
-12. "showAxes" field: true for functions/trig/polar/scatter/number_line. FALSE for geometry.`;`
+12. "showAxes" field: true for functions/trig/polar/scatter/number_line. FALSE for geometry.`;
 
 // ─── Main prompt builder ───────────────────────────────────────────────────────
 /**

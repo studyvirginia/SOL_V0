@@ -102,6 +102,31 @@ export async function getCourseOptions() {
   return options;
 }
 
+export async function getCourseBreakdown(subject, course) {
+  try {
+    const courseJson = await loadCourseJson(subject, course);
+    if (!courseJson || !courseJson.domains) return [];
+
+    const breakdown = [];
+    courseJson.domains.forEach(domain => {
+      // Add domain as a high-level unit
+      breakdown.push({ label: domain.name, value: `domain:${domain.name}`, type: 'domain' });
+      
+      // Optionally add standards as specific topics
+      if (domain.standards) {
+        domain.standards.forEach(std => {
+          breakdown.push({ label: `↳ ${std.code}: ${std.description.slice(0, 50)}${std.description.length > 50 ? '...' : ''}`, value: `standard:${std.code}`, type: 'standard' });
+        });
+      }
+    });
+
+    return breakdown;
+  } catch (e) {
+    console.error("Error breaking down course:", e);
+    return [];
+  }
+}
+
 export async function searchCurriculum(query, subject, course) {
   const normalizedQuery = normalizeSearchText(query);
   if (!normalizedQuery) return [];

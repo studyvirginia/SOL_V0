@@ -2,22 +2,20 @@ import { useState, useEffect } from "react";
 import ChatWindow, { formatName } from "../components/ChatWindow";
 
 const DEFAULT_SUBMODES = [
-  "placement",
-  "concept",
+  "diagnostic",
   "notes",
   "study-guide",
-  "mnemonics",
-  "map",
-  "analogies",
-  "deep-dive",
   "flashcards",
+  "mnemonics",
+  "tips",
+  "analogies",
+  "questions",
+  "practice",
   "quiz",
-  "worksheet",
-  "stats",
-  "achievements",
+  "progress",
 ];
 
-function createDefaultJourney(currentSubMode = "notes") {
+function createDefaultJourney(currentSubMode = "diagnostic") {
   return {
     currentSubMode,
     completed: DEFAULT_SUBMODES.reduce((acc, subModeId) => {
@@ -36,9 +34,9 @@ const FOCUS_OPTIONS = [
   "Other",
 ];
 
-const INITIAL_SUBMODE = "placement";
+const INITIAL_SUBMODE = "diagnostic";
 const INITIAL_ASSISTANT_MESSAGE =
-  "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic.";
+  "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%";
 
 // Modern UI Icons
 const PlusIcon = (props) => <svg viewBox="0 0 24 24" width="20" height="20" fill="none" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v14M5 12h14" /></svg>;
@@ -89,8 +87,48 @@ export default function Home() {
   const [modalGrade, setModalGrade] = useState("");
   const [modalSessionFocus, setModalSessionFocus] = useState("Concept quiz");
   const [modalFocusTopic, setModalFocusTopic] = useState("");
+  const [modalFocusDetail, setModalFocusDetail] = useState("");
+  const [modalUnitOptions, setModalUnitOptions] = useState([]);
+  const [modalTopicSuggestions, setModalTopicSuggestions] = useState([]);
+  const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
   const [modalPreferences, setModalPreferences] = useState("");
   const [modalNeeds, setModalNeeds] = useState("");
+
+  // Effect to fetch dynamic Units or AI Suggestions
+  useEffect(() => {
+    if (!modalCourse || !modalSubject) return;
+
+    if (modalSessionFocus === "Unit test") {
+      setModalTopicSuggestions([]);
+      fetch("/api/course-breakdown", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ subject: modalSubject, course: modalCourse })
+      })
+      .then(res => res.json())
+      .then(data => setModalUnitOptions(data.breakdown || []))
+      .catch(console.error);
+    } else if (modalSessionFocus === "Concept quiz") {
+      setModalUnitOptions([]);
+      setIsLoadingSuggestions(true);
+      fetch("/api/suggest-topics", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ subject: modalSubject, course: modalCourse })
+      })
+      .then(res => res.json())
+      .then(data => {
+        setModalTopicSuggestions(data.topics || []);
+        setIsLoadingSuggestions(false);
+      })
+      .catch(() => setIsLoadingSuggestions(false));
+    } else {
+      setModalUnitOptions([]);
+      setModalTopicSuggestions([]);
+    }
+    // Reset selection when focus changes
+    setModalFocusDetail("");
+  }, [modalSessionFocus, modalCourse, modalSubject]);
 
   useEffect(() => {
     if (!isLoggedIn) {
@@ -244,7 +282,7 @@ export default function Home() {
     const personalization = {
       gradeLevel: modalGrade || "",
       areaOfFocus: modalSessionFocus || "",
-      focusTopic: modalFocusTopic || "",
+      focusTopic: modalFocusDetail || "",
       preferences: modalPreferences || "",
       needs: modalNeeds || "",
     };
@@ -256,6 +294,7 @@ export default function Home() {
       retrievalMode: INITIAL_SUBMODE,
       journey: createDefaultJourney(INITIAL_SUBMODE),
       sessionFocus: modalSessionFocus || "",
+      focusDetail: modalFocusDetail || "",
       userFacts: personalization,
       sessionSummary: "",
       messages: [{ role: "assistant", content: INITIAL_ASSISTANT_MESSAGE }],
@@ -666,6 +705,59 @@ export default function Home() {
                     <ChevronDownIcon className="pointer-events-none absolute right-4 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400" />
                   </div>
                 </div>
+
+                {/* DYNAMIC SURGICAL FOCUS FIELD */}
+                {(modalSessionFocus === "Unit test" || modalSessionFocus === "Concept quiz") && (
+                  <div className="space-y-2 animate-in slide-in-from-top-2 duration-300">
+                    <label className="text-[0.6rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">
+                      {modalSessionFocus === "Unit test" ? "Select Unit/Standard" : "What concept should we quiz?"}
+                    </label>
+                    
+                    {modalSessionFocus === "Unit test" ? (
+                      <div className="relative">
+                        <select
+                          className="w-full appearance-none rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-10 text-xs font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
+                          value={modalFocusDetail}
+                          onChange={(e) => setModalFocusDetail(e.target.value)}
+                        >
+                          <option value="">Select a unit...</option>
+                          {modalUnitOptions.map((opt, i) => (
+                            <option key={i} value={opt.value} className={opt.type === 'domain' ? 'font-bold' : 'italic text-gray-500'}>
+                              {opt.label}
+                            </option>
+                          ))}
+                        </select>
+                        <ChevronDownIcon className="pointer-events-none absolute right-4 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
+                      </div>
+                    ) : (
+                      <div className="space-y-3">
+                        {isLoadingSuggestions ? (
+                          <div className="text-[0.65rem] text-gray-400 animate-pulse italic">Brewing topic suggestions...</div>
+                        ) : (
+                          <div className="flex flex-wrap gap-1.5">
+                            {modalTopicSuggestions.map((topic, i) => (
+                              <button
+                                key={i}
+                                type="button"
+                                onClick={() => setModalFocusDetail(topic)}
+                                className={`rounded-full px-3 py-1 text-[0.65rem] font-bold transition-all border ${modalFocusDetail === topic ? "bg-blue-600 text-white border-blue-500" : "bg-gray-50 dark:bg-gray-800 text-gray-600 dark:text-gray-400 border-gray-100 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700"}`}
+                              >
+                                {topic}
+                              </button>
+                            ))}
+                          </div>
+                        )}
+                        <input
+                          className="w-full rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-4 text-xs text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
+                          value={modalFocusDetail}
+                          onChange={(e) => setModalFocusDetail(e.target.value)}
+                          placeholder="Or type a custom topic..."
+                        />
+                      </div>
+                    )}
+                  </div>
+                )}
+
                 <div className="space-y-2">
                   <label className="text-[0.6rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Focus Topic (Optional)</label>
                   <input

@@ -167,11 +167,27 @@ const MarkdownMessage = ({ content, isUser }) => (
   </div>
 );
 
-const QuickActions = ({ actions, onSwitch, currentSubMode }) => {
+const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
   if (!actions || actions.length === 0) return null;
   return (
     <div className="flex flex-wrap gap-2 mt-4 animate-in fade-in slide-in-from-bottom-2 duration-500 w-full max-w-[700px]">
-      {actions.map((act) => {
+      {actions.map((act, i) => {
+        const isObject = typeof act === "object" && act !== null;
+        if (isObject) {
+          return (
+            <button
+              key={i}
+              onClick={() => {
+                if (act.targetMode) onSwitch(act.targetMode, false);
+                onSend(act.prompt);
+              }}
+              className="group flex items-center gap-2 rounded-full px-4 py-2 text-[0.75rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 bg-amber-500 text-white ring-amber-400 hover:bg-amber-600 hover:shadow-md"
+            >
+              {act.label}
+            </button>
+          );
+        }
+
         const isPillar = MODE_MAP[act];
         const label = isPillar ? `Next: ${isPillar.label}` : getSubModeLabel(act);
         const subModeId = isPillar ? isPillar.subModes[0].id : act;
@@ -389,16 +405,20 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
          {Object.entries(MODE_MAP).map(([pillarKey, pillarData]) => {
            const active = getModeKeyFromSubMode(currentMode) === pillarKey;
            const stat = completionStats.find(s => s.modeKey === pillarKey);
+           const showSubModes = pillarData.subModes.length > 1;
+           const showStat = pillarKey !== "progress";
+
            return (
              <div key={pillarKey} className="flex flex-col">
+               {pillarKey === "progress" && <div className="h-px bg-gray-200 dark:bg-gray-700/60 mt-4 mb-2 mx-1" />}
                <div 
                  className={`flex items-center justify-between py-1.5 px-1 border-b border-gray-100 dark:border-gray-800/50 mb-1 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800/50 rounded-md transition-colors`}
                  onClick={() => { if (!active && pillarData.subModes.length > 0) switchSubMode(pillarData.subModes[0].id, false); }}
                >
                  <span className={`text-[0.65rem] font-black uppercase tracking-widest ${active ? "text-blue-600 dark:text-blue-400" : "text-gray-400 dark:text-gray-500 opacity-60"}`}>{pillarData.label}</span>
-                 {stat && <span className="text-[0.62rem] font-bold opacity-80">{stat.done}/{stat.total}</span>}
+                 {stat && showStat && <span className="text-[0.62rem] font-bold opacity-80">{stat.done}/{stat.total}</span>}
                </div>
-               {active && (
+               {active && showSubModes && (
                  <div className="flex flex-col space-y-0.5 mb-2 animate-in slide-in-from-top-1 duration-300">
                    {pillarData.subModes.map((sub) => (
                      <button key={sub.id} onClick={() => switchSubMode(sub.id, true)} className={`group relative flex items-center justify-between rounded-md px-2 py-1.5 text-[0.7rem] transition-all ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800/50"}`}>
@@ -415,7 +435,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
 
       <div className="relative flex h-full flex-col flex-1 overflow-hidden bg-transparent">
         <div className="custom-scrollbar flex-1 space-y-6 overflow-y-auto px-4 pt-16 pb-8 sm:px-6 lg:px-8 flex flex-col items-center">
-          {messages.filter(m => m.subMode === currentMode || (!m.subMode && (m.role === 'user' || currentMode === 'notes'))).map((m, idx, filteredMsgs) => {
+          {messages.filter(m => m.subMode === currentMode || (!m.subMode && (m.role === 'user' || currentMode === 'diagnostic' || currentMode === 'notes'))).map((m, idx, filteredMsgs) => {
             const isUser = m.role === "user";
             const isStreaming = isLoading && idx === filteredMsgs.length - 1 && !isUser;
             return (
@@ -431,7 +451,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                      )}
                      {splitMessageSegments(String(m.content || "")).map((seg, segIdx) => {
                        if (seg.type === 'text') return <MarkdownMessage key={segIdx} content={seg.content} isUser={false} isMinimalMode={isMinimalMode} />;
-                       if (seg.type === 'actions') return <QuickActions key={segIdx} actions={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} onSwitch={switchSubMode} currentSubMode={currentMode} />;
+                       if (seg.type === 'actions') return <QuickActions key={segIdx} actions={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} onSwitch={switchSubMode} onSend={sendMessage} currentSubMode={currentMode} />;
                        const g = (graphs[m.id] || [])[seg.graphIndex];
                        if (!g || isMinimalMode) return null;
                        return (
@@ -458,17 +478,10 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
               const pks = Object.keys(MODE_MAP);
               const nk = pks[pks.indexOf(pk) + 1];
               return [...lat, nk].filter(Boolean);
-            })()} currentSubMode={currentMode} onSwitch={switchSubMode} />
+            })()} currentSubMode={currentMode} onSwitch={switchSubMode} onSend={sendMessage} />
           )}
           <div className="h-24" />
         </div>
-
-        {messages && messages.length === 1 && currentMode === "placement" && (
-          <div className="absolute left-1/2 -translate-x-1/2 bottom-28 z-20 flex gap-3 p-4 bg-white/90 dark:bg-gray-800/90 rounded-2xl shadow-xl border border-blue-200 dark:border-blue-700 animate-in fade-in zoom-in-95 pointer-events-auto">
-             <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-bold text-white shadow hover:bg-blue-700 transition-colors" onClick={() => { switchSubMode("placement", true); }}>Begin Diagnostic</button>
-             <button className="rounded-lg bg-gray-200 dark:bg-gray-700 px-4 py-2 text-sm font-bold text-gray-700 dark:text-gray-200 hover:bg-gray-300 transition-colors" onClick={() => switchSubMode("concept")}>Skip</button>
-          </div>
-        )}
 
         <form onSubmit={(e) => { e.preventDefault(); sendMessage(draftInput.trim()); }} className="absolute bottom-4 inset-x-0 flex justify-center px-4 pointer-events-none w-full">
           <div className="w-full max-w-[850px] pointer-events-auto flex items-center gap-2 rounded-xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.08)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/10">
