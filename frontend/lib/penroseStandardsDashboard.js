@@ -993,6 +993,7 @@ function collectStandardMatches(course, domain, standard) {
 
 export function buildPenroseStandardsEntries(courses) {
   const entries = [];
+  const seenArchetypeIds = new Set();
 
   for (const course of courses) {
     for (const domain of course.domains || []) {
@@ -1003,19 +1004,31 @@ export function buildPenroseStandardsEntries(courses) {
         }
 
         const topicIds = unique(matches.map((rule) => rule.id));
-        const noteArchetypeIds = unique(matches.flatMap((rule) => rule.noteArchetypeIds));
-        const practiceArchetypeIds = unique(matches.flatMap((rule) => rule.practiceArchetypeIds));
-
-        entries.push({
-          code: standard.code,
-          description: standard.description,
-          course: course.course,
-          domain: domain.name,
-          topicIds,
-          noteArchetypeIds,
-          practiceArchetypeIds,
-          skillCount: (standard.skills || []).length,
+        // Filter note/practice archetypes to only include those not already seen
+        const noteArchetypeIds = unique(matches.flatMap((rule) => rule.noteArchetypeIds)).filter(id => {
+          if (seenArchetypeIds.has(id)) return false;
+          seenArchetypeIds.add(id);
+          return true;
         });
+        const practiceArchetypeIds = unique(matches.flatMap((rule) => rule.practiceArchetypeIds)).filter(id => {
+          if (seenArchetypeIds.has(id)) return false;
+          seenArchetypeIds.add(id);
+          return true;
+        });
+
+        // Only add entry if it has at least one unique archetype
+        if (noteArchetypeIds.length > 0 || practiceArchetypeIds.length > 0) {
+          entries.push({
+            code: standard.code,
+            description: standard.description,
+            course: course.course,
+            domain: domain.name,
+            topicIds,
+            noteArchetypeIds,
+            practiceArchetypeIds,
+            skillCount: (standard.skills || []).length,
+          });
+        }
       }
     }
   }

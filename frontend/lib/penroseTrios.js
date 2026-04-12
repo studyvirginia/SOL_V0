@@ -450,11 +450,11 @@ forall Point p {
     strokeWidth : 0
   }
   shape p.lbl = Text {
-    string : p.label
-    fontSize : "20px"
-    fontWeight : "bold"
-    fillColor : rgba(20, 30, 80, 1.0)
-    center : p.dot.center + 36 * normalize(p.dot.center + (0.001, 0.001))
+     string : p.label
+     fontSize : "20px"
+     fontWeight : "bold"
+     fillColor : rgba(20, 30, 80, 1.0)
+     center : p.dot.center + 36 * normalize(p.dot.center + (0.001, 0.001))
   }
   layer p.lbl above p.dot
   encourage lessThan(norm(p.dot.center), 190)
@@ -464,7 +464,7 @@ forall Point p
 where Hidden(p) {
   override p.dot.r = 0
   override p.lbl.fontSize = "18px"
-  override p.lbl.fontWeight = "600"
+  override p.lbl.fontWeight = "bold"
 }
 
 forall Segment s; Point a; Point b
@@ -618,10 +618,9 @@ const NUMBER_LINE_STYLE = `
 ${GEOMETRY_STYLE}
 
 forall Point p {
-  // Keep integer labels visually consistent under each tick on the number line.
   override p.lbl.center = p.dot.center + (0, -28)
   override p.lbl.fontSize = "18px"
-  override p.lbl.fontWeight = "700"
+  override p.lbl.fontWeight = "bold"
 }
 `;
 
@@ -2201,13 +2200,13 @@ MidpointOf(W, P, R)
 Hidden(U)
 Hidden(V)
 Hidden(W)
-Label P "P"
-Label Q "Q"
-Label R "R"
 Label U "Δx"
 Label V "Δy"
 Label W "d"
-`,
+override U.lbl.center := U.dot.center + (18, 0)
+override V.lbl.center := V.dot.center + (0, 18)
+override W.lbl.center := W.dot.center + (16, 12)
+`
   variation: "distance_formula",
 };
 
