@@ -1,0 +1,150 @@
+{
+  "id": "1776015480330",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "flashcards",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Concept quiz",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "diagnostic": false,
+      "notes": true,
+      "study-guide": true,
+      "flashcards": true,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "progress": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: flashcards \nStudent personalization facts: Session focus: Concept quiz \nRecent questions: show me a flashcard | Start Flashcards mode | Start Study Guide mode | Start Flashcards mode \nRecent assistant focus: Alright, let's get back to those flashcards!\n\n**Question:** What is the slope of the line represented by the equation $y = 2x + 3$?\n\nWhat is the slope?\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%% | Okay, let's begin with the Study Guide for Algebra 1. We'll cover the main topics: [b]Expressions and Operations[/b], [b]Equations and Inequalities[/b], [b]Functions[/b], and [b]Statistics[/b].\n\nLet's start with [b]Expressions and Operations[/b]. This includes simplifying expressions, working with exponents, and understanding the order of operations.\n\nHere's a breakdown:\n\n1.  **Simplifying Expressions**: This involves combining like terms and using the distributive property. For example, simplify $3x + 2y - x + 4y$.\n\n2.  **Exponents**: Understanding the rules of exponents, such as $x^m * x^n = x^{m+n}$ and $(x^m)^n = x^{m*n}$.\n\n3.  **Order of Operations**: Remember PEMDAS (Parentheses, Exponents, Multiplication and Division, Addition and Sub...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Skip diagnostic and go to notes"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's dive into some notes to review the key concepts in Algebra 1. We'll cover the main topics, including [b]expressions and operations[/b], [b]equations and inequalities[/b], [b]functions[/b], and [b]statistics[/b].\n\nHere's a quick overview:\n\n*   **Expressions and Operations**: This includes simplifying expressions, working with exponents, and understanding the order of operations.\n*   **Equations and Inequalities**: We'll look at solving linear equations and inequalities, as well as graphing them.\n*   **Functions**: This covers function notation, linear functions, and their graphs.\n*   **Statistics**: We'll touch on data analysis, measures of central tendency, and data representation.\n\nLet's start with a visual example. Consider the graph of a simple parabola.\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"function\",\"equations\":[\"y=x^2-4\"],\"label_points\":[{\"x\":0,\"y\":-4,\"label\":\"vertex\"}],\"find\":[{\"x\":2,\"y\":0},{\"x\":-2,\"y\":0}],\"course\":\"algebra_1\",\"mode\":\"question\",\"question\":\"What are the x-intercepts of this parabola?\",\"notes\":\"parabola y=x²−4 with roots at x=±2 and vertex labeled\"}%%END_GRAPH%%\n\nWhat are the x-intercepts of this parabola?\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "assistant",
+      "content": "You completed **Guided Notes**. Recommended next: **Study Guide**. Use the navigation buttons below to continue."
+    },
+    {
+      "role": "user",
+      "content": "Start Study Guide mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's begin with the Study Guide for Algebra 1. We'll cover the main topics: [b]Expressions and Operations[/b], [b]Equations and Inequalities[/b], [b]Functions[/b], and [b]Statistics[/b].\n\nLet's start with [b]Expressions and Operations[/b]. This includes simplifying expressions, working with exponents, and understanding the order of operations.\n\nHere's a breakdown:\n\n1.  **Simplifying Expressions**: This involves combining like terms and using the distributive property. For example, simplify $3x + 2y - x + 4y$.\n\n2.  **Exponents**: Understanding the rules of exponents, such as $x^m * x^n = x^{m+n}$ and $(x^m)^n = x^{m*n}$.\n\n3.  **Order of Operations**: Remember PEMDAS (Parentheses, Exponents, Multiplication and Division, Addition and Subtraction) to evaluate expressions correctly.\n\nLet's move on to [b]Equations and Inequalities[/b].\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "assistant",
+      "content": "You completed **Study Guide**. Recommended next: **Flashcards**. Use the navigation buttons below to continue."
+    },
+    {
+      "role": "user",
+      "content": "Start Mnemonics & Patterns mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's explore some mnemonics and patterns to help you remember key concepts in Algebra 1. We'll focus on the four main domains: [b]Expressions and Operations[/b], [b]Equations and Inequalities[/b], [b]Functions[/b], and [b]Statistics[/b].\n\nLet's start with [b]Expressions and Operations[/b]. A helpful mnemonic for remembering the order of operations (PEMDAS) is:\n\n*   **P**lease\n*   **E**xcuse\n*   **M**y\n*   **D**ear\n*   **A**unt\n*   **S**ally\n\nThis helps you remember the order: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).\n\nFor [b]Equations and Inequalities[/b], remember that when you multiply or divide both sides of an inequality by a negative number, you must [u]flip the inequality sign[/u].\n\nLet's move on to [b]Functions[/b]. A key pattern to recognize is the slope-intercept form of a linear equation: $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept.\n\nFinally, for [b]Statistics[/b], remember the acronym MAD (Mean Absolute Deviation) to help you calculate the average distance between each data point and the mean.\n\nWould you like to dive deeper into any of these topics, or shall we move on to flashcards?\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Alright, let's begin with some flashcards!\n\nHere's your first flashcard:\n\n**Question:** Simplify: $\\sqrt{16}$\n\nWhat is the simplified form of the square root of 16?\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Mnemonics & Patterns mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's explore some mnemonics and patterns to help you remember key concepts in Algebra 1. We'll focus on the four main domains: [b]Expressions and Operations[/b], [b]Equations and Inequalities[/b], [b]Functions[/b], and [b]Statistics[/b].\n\nLet's start with [b]Expressions and Operations[/b]. A helpful mnemonic for remembering the order of operations (PEMDAS) is:\n\n*   **P**lease\n*   **E**xcuse\n*   **M**y\n*   **D**ear\n*   **A**unt\n*   **S**ally\n\nThis helps you remember the order: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).\n\nFor [b]Equations and Inequalities[/b], remember that when you multiply or divide both sides of an inequality by a negative number, you must [u]flip the inequality sign[/u].\n\nLet's move on to [b]Functions[/b]. A key pattern to recognize is the slope-intercept form of a linear equation: $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept.\n\nFinally, for [b]Statistics[/b], remember the acronym MAD (Mean Absolute Deviation) to help you calculate the average distance between each data point and the mean.\n\nWould you like to dive deeper into any of these topics, or shall we move on to flashcards?\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Tips, Tricks, Shortcuts mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's explore some tips, tricks, and shortcuts to help you master Algebra 1. We'll cover the four main domains: [b]Expressions and Operations[/b], [b]Equations and Inequalities[/b], [b]Functions[/b], and [b]Statistics[/b].\n\nLet's start with [b]Expressions and Operations[/b].\n\n*   **Tip**: When simplifying expressions with parentheses, always remember to distribute first. For example, in the expression $2(x + 3)$, distribute the 2 to get $2x + 6$.\n*   **Trick**: When dealing with exponents, remember that any number raised to the power of 0 is 1 (except for 0 itself).\n*   **Shortcut**: Use the order of operations (PEMDAS) to break down complex expressions step by step.\n\nNow, let's move on to [b]Equations and Inequalities[/b].\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "give me some progress stats on this session"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a summary of your progress in this session:\n\n*   You've reviewed the key concepts in Algebra 1, including [b]Expressions and Operations[/b], [b]Equations and Inequalities[/b], [b]Functions[/b], and [b]Statistics[/b].\n*   You've explored mnemonics and patterns to help you remember key concepts, such as PEMDAS for the order of operations and the slope-intercept form ($y = mx + b$) for linear equations.\n*   You've also looked at some tips, tricks, and shortcuts to help you master Algebra 1.\n\nYou've completed the following modes:\n\n*   Guided Notes\n*   Study Guide\n*   Mnemonics & Patterns\n*   Tips, Tricks, Shortcuts\n\nYou have not yet completed Flashcards.\n\nWould you like to continue with flashcards or move on to another mode?\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start diagnostic"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's begin with a quick diagnostic to assess your understanding.\n\n**Question 1:** Simplify the expression: $2(x + 3) - x$\n\nWhat is the simplified form of the expression?\n\n%%MCQ%%{\"question\": \"Simplify the expression: $2(x + 3) - x$\", \"options\": [\"x + 6\", \"x + 3\", \"3x + 6\", \"3x + 3\"], \"answer\": 0, \"explanation\": \"Distribute the 2: $2x + 6 - x$. Combine like terms: $x + 6$.\"}%%END_MCQ%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Alright, let's get back to those flashcards!\n\n**Question:** What is the slope of the line represented by the equation $y = 2x + 3$?\n\nWhat is the slope?\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "assistant",
+      "content": "You completed **Flashcards**. Recommended next: **Mnemonics & Patterns**. Use the navigation buttons below to continue."
+    },
+    {
+      "role": "user",
+      "content": "show me a flashcard"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's your next flashcard:\n\n**Question:** What is the solution to the equation: $x + 5 = 12$?\n\nWhat is the value of x?\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Alright, let's get back to those flashcards!\n\n**Question:** What is the slope of the line represented by the equation $y = 2x + 3$?\n\nWhat is the slope?\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Study Guide mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's begin with the Study Guide for Algebra 1. We'll cover the main topics: [b]Expressions and Operations[/b], [b]Equations and Inequalities[/b], [b]Functions[/b], and [b]Statistics[/b].\n\nLet's start with [b]Expressions and Operations[/b]. This includes simplifying expressions, working with exponents, and understanding the order of operations.\n\nHere's a breakdown:\n\n1.  **Simplifying Expressions**: This involves combining like terms and using the distributive property. For example, simplify $3x + 2y - x + 4y$.\n\n2.  **Exponents**: Understanding the rules of exponents, such as $x^m * x^n = x^{m+n}$ and $(x^m)^n = x^{m*n}$.\n\n3.  **Order of Operations**: Remember PEMDAS (Parentheses, Exponents, Multiplication and Division, Addition and Subtraction) to evaluate expressions correctly.\n\nLet's move on to [b]Equations and Inequalities[/b].\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%\nYou completed **Study Guide**. Recommended next: **Flashcards**. Use the navigation buttons below to continue."
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Alright, let's get back to those flashcards!\n\n**Question:** What is the solution to the equation: $x + 5 = 12$?\n\nWhat is the value of x?\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    }
+  ],
+  "updatedAt": "2026-04-12T18:07:47.163Z"
+}

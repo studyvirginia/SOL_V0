@@ -1,0 +1,133 @@
+{
+  "id": "1776004673416",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Concept quiz",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "diagnostic": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "progress": false,
+      "placement": false,
+      "concept": false,
+      "stats": false,
+      "achievements": false,
+      "map": false,
+      "deep-dive": false,
+      "worksheet": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: notes \nStudent personalization facts: Session focus: Concept quiz \nRecent questions: Start Questions mode | Start Placement Quiz mode | Start Flashcards mode | Start Guided Notes mode \nRecent assistant focus: Okay, let's start with a quick diagnostic to pinpoint your strengths and areas where we can focus our efforts. When you're ready, just say: \"Start diagnostic.\"\n\nSince you've expressed interest in guided notes, we can definitely explore that option after the diagnostic.\n\n%%ACTIONS%%[\"placement\", \"diagnostic\", \"concept\", \"diagnostic\"]%%END_ACTIONS%% | Let's get started with some flashcards! This is a great way to review key concepts.\n\n%%ACTIONS%%[\"flashcards\", \"review\"]%%END_ACTIONS%% | Okay, let's dive into some guided notes! We'll cover the key concepts of cellular respiration.\n\nCellular respiration is the process by which [b]cells[/b] convert [u]glucose[/u] (sugar) into [b]energy[/b] in the form of [u]ATP[/u] (adenosine triphosphate). This process is essential for all living organisms.\n\nHere's a breakdown of the key steps:\n\n1.  **Glycolysis:** This occurs in the [b]cytoplasm[/b] and breaks down glucose into [u]pyruvate[/u]. A small amount of ...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "I want to do guided notes"
+    },
+    {
+      "role": "user",
+      "content": "Give me notes on cellular respiration"
+    },
+    {
+      "role": "user",
+      "content": "Start Placement Quiz mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Concept Check mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Placement Quiz mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Concept Check mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Placement Quiz mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Concept Check mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Concept Check mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Placement Quiz mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Placement Quiz mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Concept Check mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Mnemonics mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's start with a quick diagnostic to pinpoint your strengths and areas where we can focus our efforts. When you're ready, just say: \"Start diagnostic.\"\n\nSince you've expressed interest in guided notes, we can definitely explore that option after the diagnostic.\n\n%%ACTIONS%%[\"placement\", \"diagnostic\", \"concept\", \"diagnostic\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Concept Check mode"
+    },
+    {
+      "role": "user",
+      "content": "Start Questions mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Let's begin with a concept check. This will help us identify areas where you might need a little more review.\n\n%%ACTIONS%%[\"concept\", \"questions\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Placement Quiz mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's start with a quick diagnostic to pinpoint your strengths and areas where we can focus our efforts. When you're ready, just say: \"Start diagnostic.\"\n\nSince you've expressed interest in guided notes, we can definitely explore that option after the diagnostic.\n\n%%ACTIONS%%[\"placement\", \"diagnostic\", \"concept\", \"diagnostic\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's get started with some flashcards! This is a great way to review key concepts.\n\n%%ACTIONS%%[\"flashcards\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Guided Notes mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's dive into some guided notes! We'll cover the key concepts of cellular respiration.\n\nCellular respiration is the process by which [b]cells[/b] convert [u]glucose[/u] (sugar) into [b]energy[/b] in the form of [u]ATP[/u] (adenosine triphosphate). This process is essential for all living organisms.\n\nHere's a breakdown of the key steps:\n\n1.  **Glycolysis:** This occurs in the [b]cytoplasm[/b] and breaks down glucose into [u]pyruvate[/u]. A small amount of ATP is produced.\n2.  **Krebs Cycle (Citric Acid Cycle):** This takes place in the [b]mitochondria[/b]. Pyruvate is converted, and more ATP, along with [u]NADH[/u] and [u]FADH2[/u] (electron carriers), are produced.\n3.  **Electron Transport Chain (ETC):** Also in the [b]mitochondria[/b], the ETC uses the electron carriers to generate a large amount of ATP. [u]Oxygen[/u] is the final electron acceptor.\n\nHere's a simple diagram to help visualize the process:\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"geometry\",\"equations\":[\"polygon((0,0),(4,0),(2,3))\"],\"label_points\":[{\"x\":2,\"y\":1.5,\"label\":\"Cell\"}],\"find\":[],\"course\":\"k_5\",\"mode\":\"illustration\",\"question\":\"\",\"notes\":\"Simple diagram of a cell with a triangle representing the process of cellular respiration.\"}%%END_GRAPH%%\n\nWould you like to explore any of these steps in more detail?\n\n%%ACTIONS%%[\"study-guide\", \"flashcards\"]%%END_ACTIONS%%"
+    }
+  ],
+  "updatedAt": "2026-04-12T16:33:52.153Z"
+}

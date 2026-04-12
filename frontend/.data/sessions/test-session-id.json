@@ -1,0 +1,19 @@
+{
+  "id": "test-session-id",
+  "subject": "Math",
+  "course": "Algebra 1",
+  "retrievalMode": "placement",
+  "userFacts": {},
+  "sessionSummary": "Session retrieval mode: placement \nRecent questions: 3(x + 2) - 4x = ? \nRecent assistant focus: Let's simplify the expression `3(x + 2) - 4x`.\n\nFirst, distribute the 3 across the terms inside the parentheses:\n\n$3 * x + 3 * 2 - 4x$\n\nThis simplifies to:\n\n$3x + 6 - 4x$\n\nNext, combine the like terms (the terms with 'x'):\n\n$(3x - 4x) + 6$\n\nThis simplifies to:\n\n$-x + 6$\n\nSo, the simplified expression is $-x + 6$.\n\nThis falls under the [b]Expressions and Operations[/b] domain in Algebra 1, specifically addressing the skill of simplifying algebraic expressions.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "3(x + 2) - 4x = ?"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's simplify the expression `3(x + 2) - 4x`.\n\nFirst, distribute the 3 across the terms inside the parentheses:\n\n$3 * x + 3 * 2 - 4x$\n\nThis simplifies to:\n\n$3x + 6 - 4x$\n\nNext, combine the like terms (the terms with 'x'):\n\n$(3x - 4x) + 6$\n\nThis simplifies to:\n\n$-x + 6$\n\nSo, the simplified expression is $-x + 6$.\n\nThis falls under the [b]Expressions and Operations[/b] domain in Algebra 1, specifically addressing the skill of simplifying algebraic expressions.\n"
+    }
+  ],
+  "updatedAt": "2026-04-12T03:45:45.515Z"
+}

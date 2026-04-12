@@ -1,0 +1,138 @@
+{
+  "id": "1776012871259",
+  "subject": "science",
+  "course": "Chemistry I",
+  "retrievalMode": "diagnostic",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Concept quiz",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "diagnostic": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "progress": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: diagnostic \nStudent personalization facts: Session focus: Concept quiz \nRecent questions: a | yes | d | are we done \nRecent assistant focus: Okay, let's continue with the diagnostic.\n\nWhich of the following is a characteristic property of [b]bases[/b]?\n\nA) They taste sour.\nB) They turn litmus paper red.\nC) They react with acids to form salts and water.\nD) They have a pH less than 7.\n\nTake your time and choose the best answer.\n%%ACTIONS%%[]%%END_ACTIONS%% | That's not quite right. Bases have a pH greater than 7.\n\nThe correct answer is **C) They react with acids to form salts and water.**\n\nWould you like to continue with the diagnostic?\n%%ACTIONS%%[]%%END_ACTIONS%% | It looks like we've finished the diagnostic. Based on your responses, we can now identify areas where you excel and areas where you might benefit from additional review.\n\nWould you like to review the concepts we covered, or would you like to move on to another activity?\n%%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start diagnostic"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Let's start with a quick diagnostic to assess your understanding of Chemistry I. This will help us identify your strengths and areas where we can focus our learning.\n\nHere's the first question:\n\nWhich of the following is a [b]fundamental unit[/b] of the International System of Units (SI) for measuring the [u]amount of substance[/u]?\n\nA) Gram (g)\nB) Liter (L)\nC) Mole (mol)\nD) Kilogram (kg)\n\nTake your time, and choose the best answer.\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "n"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you're not ready to answer the question yet. Take your time, and let me know when you're ready to proceed.\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "b"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's move on to the next question.\n\nWhich of the following statements best describes the [b]law of conservation of mass[/b]?\n\nA) Mass is created during chemical reactions.\nB) Mass is destroyed during chemical reactions.\nC) The total mass of the reactants in a chemical reaction is equal to the total mass of the products.\nD) The total mass of the reactants in a chemical reaction is less than the total mass of the products.\n\nTake your time and choose the best answer.\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "a"
+    },
+    {
+      "role": "assistant",
+      "content": "The correct answer is **C) The total mass of the reactants in a chemical reaction is equal to the total mass of the products.**\n\nThe [b]law of conservation of mass[/b] states that in a closed system, the mass of the reactants before a chemical reaction must equal the mass of the products after the reaction. This means that mass is neither created nor destroyed during a chemical reaction; it is simply transformed.\n\nWould you like to continue with the diagnostic?\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "yes"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's continue with the diagnostic.\n\nWhat is the [b]atomic number[/b] of an element that has 7 protons?\n\nA) 6\nB) 7\nC) 8\nD) 14\n\nTake your time and choose the best answer.\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "b"
+    },
+    {
+      "role": "assistant",
+      "content": "That's correct! The atomic number of an element is defined by the number of protons it has.\n\nThe correct answer is **B) 7**.\n\nWould you like to continue with the diagnostic?\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "yes"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Here's the next question:\n\nWhat type of bond is formed by the [u]sharing of electrons[/u] between two nonmetal atoms?\n\nA) Ionic bond\nB) Metallic bond\nC) Covalent bond\nD) Hydrogen bond\n\nTake your time and choose the best answer.\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "d"
+    },
+    {
+      "role": "assistant",
+      "content": "That's not quite right. A hydrogen bond is a special type of dipole-dipole attraction between molecules, not a bond that forms between atoms.\n\nThe correct answer is **C) Covalent bond**. Covalent bonds are formed when nonmetal atoms share electrons.\n\nWould you like to continue with the diagnostic?\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "yes"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's proceed with the diagnostic.\n\nWhich of the following is a characteristic property of [b]acids[/b]?\n\nA) They taste bitter.\nB) They turn litmus paper blue.\nC) They react with bases to form salts and water.\nD) They have a pH greater than 7.\n\nTake your time and choose the best answer.\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "a"
+    },
+    {
+      "role": "assistant",
+      "content": "That's not quite right. Acids do not taste bitter.\n\nThe correct answer is **C) They react with bases to form salts and water.**\n\nWould you like to continue with the diagnostic?\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "yes"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's continue with the diagnostic.\n\nWhich of the following is a characteristic property of [b]bases[/b]?\n\nA) They taste sour.\nB) They turn litmus paper red.\nC) They react with acids to form salts and water.\nD) They have a pH less than 7.\n\nTake your time and choose the best answer.\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "d"
+    },
+    {
+      "role": "assistant",
+      "content": "That's not quite right. Bases have a pH greater than 7.\n\nThe correct answer is **C) They react with acids to form salts and water.**\n\nWould you like to continue with the diagnostic?\n%%ACTIONS%%[]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "are we done"
+    },
+    {
+      "role": "assistant",
+      "content": "It looks like we've finished the diagnostic. Based on your responses, we can now identify areas where you excel and areas where you might benefit from additional review.\n\nWould you like to review the concepts we covered, or would you like to move on to another activity?\n%%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    }
+  ],
+  "updatedAt": "2026-04-12T16:57:13.349Z"
+}

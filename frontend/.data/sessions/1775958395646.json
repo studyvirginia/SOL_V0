@@ -1,0 +1,29 @@
+{
+  "id": "1775958395646",
+  "subject": "science",
+  "course": "Chemistry I",
+  "retrievalMode": "placement",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "SOL exam",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: placement \nStudent personalization facts: Session focus: SOL exam \nRecent questions: [DIAGNOSTIC_START] \nRecent assistant focus: Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. | Okay, let's start with a quick diagnostic to assess your understanding of Chemistry I. When you're ready, just say: \"Start diagnostic.\"",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "[DIAGNOSTIC_START]"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's start with a quick diagnostic to assess your understanding of Chemistry I. When you're ready, just say: \"Start diagnostic.\"\n"
+    }
+  ],
+  "updatedAt": "2026-04-12T01:48:22.320Z"
+}

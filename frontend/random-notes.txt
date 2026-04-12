@@ -1,0 +1,17 @@
+# SOL AI Implementation Notes
+
+## Intelligent Action Buttons (April 2026)
+- **Status**: Currently restricted to Navigation (Mode Switching) and initial Diagnostic flow.
+- **Previous Capability**: The system was expanded to support "Conversational Buttons" where the AI could return button objects: `{"label": "Button Text", "prompt": "Actual message to send AI", "targetMode": "optional_mode_id"}`.
+- **Components**: 
+    - `QuickActions` (ChatWindow.js) is fully compatible with this object format.
+    - `sessionMemoryService.js` system prompt was tuned to generate these via `%%ACTIONS%%` tokens.
+- **Design Decision**: User requested to limit buttons to purely navigation to avoid over-simplifying the chat interaction (e.g., avoid "Show Answer" buttons), keeping the focus on the "Journey" navigation.
+
+## Sidebar Pillar Flattening
+- **Diagnostic**: Converted from multiple sub-modes to a single clickable pillar. Stat count `[0/1]` is visible.
+- **Progress**: Converted to a single clickable pillar. Stat count is hidden. Separated by a distinct horizontal line (mt-4, dark grayish color).
+
+## Session Initialization
+- **Initial Mode**: Sessions now start in `diagnostic` mode.
+- **Initial Message**: The starting greeting includes `%%ACTIONS%%` for "Begin" and "Skip", ensuring immediate interaction.

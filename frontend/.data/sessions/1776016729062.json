@@ -1,0 +1,50 @@
+{
+  "id": "1776016729062",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "diagnostic",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Concept quiz",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "diagnostic": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "progress": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: diagnostic \nStudent personalization facts: Session focus: Concept quiz \nRecent questions: Give me 3 flashcards for linear equations. | Give me an MCQ on linear equations. \nRecent assistant focus: Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%% | Okay, let's get started with some flashcards on linear equations! Here are three flashcards to help you review the basics:\n\n%%FLASHCARDS%%[{\"front\": \"What is the standard form of a linear equation?\", \"back\": \"Ax + By = C, where A, B, and C are constants.\"}, {\"front\": \"What does the slope of a line represent?\", \"back\": \"The rate of change of the dependent variable (y) with respect to the independent variable (x).\"}, {\"front\": \"How do you find the slope of a line given two points (x1, y1) and (x2, y2)?\", \"back\": \"Slope (m) = (y2 - y1) / (x2 - x1)\"}]%%END_FLASHCARDS%%\n\nWould you like to continue with the diagnostic, or would you like to m...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Give me 3 flashcards for linear equations."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's get started with some flashcards on linear equations! Here are three flashcards to help you review the basics:\n\n%%FLASHCARDS%%[{\"front\": \"What is the standard form of a linear equation?\", \"back\": \"Ax + By = C, where A, B, and C are constants.\"}, {\"front\": \"What does the slope of a line represent?\", \"back\": \"The rate of change of the dependent variable (y) with respect to the independent variable (x).\"}, {\"front\": \"How do you find the slope of a line given two points (x1, y1) and (x2, y2)?\", \"back\": \"Slope (m) = (y2 - y1) / (x2 - x1)\"}]%%END_FLASHCARDS%%\n\nWould you like to continue with the diagnostic, or would you like to move on to the notes? %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Give me an MCQ on linear equations."
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a multiple-choice question on linear equations:\n\n%%MCQ%%{\"question\": \"What is the slope of the line represented by the equation 2x + 3y = 6?\", \"options\": [\"2/3\", \"-2/3\", \"3/2\", \"-3/2\"], \"answer\": 1, \"explanation\": \"To find the slope, rewrite the equation in slope-intercept form (y = mx + b).  2x + 3y = 6  =>  3y = -2x + 6  =>  y = (-2/3)x + 2. The slope (m) is -2/3.\"}%%END_MCQ%%\n\nWould you like to continue with the diagnostic, or would you like to move on to the notes? %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    }
+  ],
+  "updatedAt": "2026-04-12T17:59:32.831Z"
+}

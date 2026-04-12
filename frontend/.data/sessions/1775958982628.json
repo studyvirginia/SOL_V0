@@ -1,0 +1,61 @@
+{
+  "id": "1775958982628",
+  "subject": "science",
+  "course": "Chemistry I",
+  "retrievalMode": "study-guide",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Unit test",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: study-guide \nStudent personalization facts: Session focus: Unit test \nRecent questions: yo | hello | yo | yo \nRecent assistant focus: I see you're ready to move on. Let's get back to the diagnostic test.\n\nA student is investigating the effect of temperature on the solubility of a solid in a liquid. They prepare several solutions at different temperatures and measure the amount of solid that dissolves in each. Which of the following is the [u]independent variable[/u] in this experiment?\n\nA) The amount of solid dissolved.\nB) The temperature of the solution.\nC) The type of solid used.\nD) The volume of the liquid.\n\nTake your time, and choose the best answer. | I see you're ready to move on. Let's get back to the diagnostic test.\n\nA student is investigating the effect of temperature on the solubility of a solid in a liquid. They prepare several solutions at different temperatures and measure the amount of solid that dissolves in each. Which of the following is the [u]independent variable[/u] in this experiment?\n\nA) The amount of solid dissolved.\nB) The temperature of the solution.\nC) The type of solid used.\nD) The volume of the liquid.\n\nTake your time, ...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "Start diagnostic"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay! Let's begin your diagnostic test for Chemistry I. This will help us identify your strengths and areas where we can focus our learning.\n\nWe'll start with questions related to the first domain: [b]Scientific and Engineering Practices[/b]. This domain covers important skills like asking questions, planning and carrying out investigations, analyzing and interpreting data, and constructing explanations.\n\nHere's your first question:\n\nA student is investigating the effect of temperature on the solubility of a solid in a liquid. They prepare several solutions at different temperatures and measure the amount of solid that dissolves in each. Which of the following is the [u]independent variable[/u] in this experiment?\n\nA) The amount of solid dissolved.\nB) The temperature of the solution.\nC) The type of solid used.\nD) The volume of the liquid.\n\nTake your time, and choose the best answer."
+    },
+    {
+      "role": "user",
+      "content": "yo"
+    },
+    {
+      "role": "assistant",
+      "content": "I see you're ready to move on. Let's get back to the diagnostic test.\n\nA student is investigating the effect of temperature on the solubility of a solid in a liquid. They prepare several solutions at different temperatures and measure the amount of solid that dissolves in each. Which of the following is the [u]independent variable[/u] in this experiment?\n\nA) The amount of solid dissolved.\nB) The temperature of the solution.\nC) The type of solid used.\nD) The volume of the liquid.\n\nTake your time, and choose the best answer."
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "I see you're ready to move on. Let's get back to the diagnostic test.\n\nA student is investigating the effect of temperature on the solubility of a solid in a liquid. They prepare several solutions at different temperatures and measure the amount of solid that dissolves in each. Which of the following is the [u]independent variable[/u] in this experiment?\n\nA) The amount of solid dissolved.\nB) The temperature of the solution.\nC) The type of solid used.\nD) The volume of the liquid.\n\nTake your time, and choose the best answer."
+    },
+    {
+      "role": "user",
+      "content": "yo"
+    },
+    {
+      "role": "assistant",
+      "content": "I see you're ready to move on. Let's get back to the diagnostic test.\n\nA student is investigating the effect of temperature on the solubility of a solid in a liquid. They prepare several solutions at different temperatures and measure the amount of solid that dissolves in each. Which of the following is the [u]independent variable[/u] in this experiment?\n\nA) The amount of solid dissolved.\nB) The temperature of the solution.\nC) The type of solid used.\nD) The volume of the liquid.\n\nTake your time, and choose the best answer."
+    },
+    {
+      "role": "user",
+      "content": "yo"
+    },
+    {
+      "role": "assistant",
+      "content": "I see you're ready to move on. Let's get back to the diagnostic test.\n\nA student is investigating the effect of temperature on the solubility of a solid in a liquid. They prepare several solutions at different temperatures and measure the amount of solid that dissolves in each. Which of the following is the [u]independent variable[/u] in this experiment?\n\nA) The amount of solid dissolved.\nB) The temperature of the solution.\nC) The type of solid used.\nD) The volume of the liquid.\n\nTake your time, and choose the best answer.\n"
+    }
+  ],
+  "updatedAt": "2026-04-12T01:56:53.599Z"
+}

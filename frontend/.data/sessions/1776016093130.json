@@ -1,0 +1,58 @@
+{
+  "id": "1776016093130",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "diagnostic",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Concept quiz",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "diagnostic": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "progress": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: diagnostic \nStudent personalization facts: Session focus: Concept quiz \nRecent questions: Give me 3 flashcards for linear equations. | Please use the %%FLASHCARDS%% token for the flashcards. | Give me a multiple choice question on linear equations. \nRecent assistant focus: Okay, let's get you started with some flashcards on linear equations! Here are three flashcards to help you review the basics:\n\n**Flashcard 1:**\n\n*   **Front:** What is the slope-intercept form of a linear equation?\n*   **Back:** $y = mx + b$, where *m* is the slope and *b* is the y-intercept.\n\n**Flashcard 2:**\n\n*   **Front:** What does the slope of a line represent?\n*   **Back:** The slope represents the rate of change of *y* with respect to *x*. It tells you how much *y* changes for every one unit change in *x*.\n\n**Flashcard 3:**\n\n*   **Front:** How do you find the slope of a line given two points $(x_1, y_1)$ and $(x_2, y_2)$?\n*   **Back:** Use the formula: $m = \\frac{y_2 - y_1}{x_2 - x_1}$.\n\nWould you like to start the diagnostic to assess your understanding of linear equations and other Algebra 1 topics, or would you like to skip the diagnostic and go to the notes?\n\n%%ACTION...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Give me 3 flashcards for linear equations."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's get you started with some flashcards on linear equations! Here are three flashcards to help you review the basics:\n\n**Flashcard 1:**\n\n*   **Front:** What is the slope-intercept form of a linear equation?\n*   **Back:** $y = mx + b$, where *m* is the slope and *b* is the y-intercept.\n\n**Flashcard 2:**\n\n*   **Front:** What does the slope of a line represent?\n*   **Back:** The slope represents the rate of change of *y* with respect to *x*. It tells you how much *y* changes for every one unit change in *x*.\n\n**Flashcard 3:**\n\n*   **Front:** How do you find the slope of a line given two points $(x_1, y_1)$ and $(x_2, y_2)$?\n*   **Back:** Use the formula: $m = \\frac{y_2 - y_1}{x_2 - x_1}$.\n\nWould you like to start the diagnostic to assess your understanding of linear equations and other Algebra 1 topics, or would you like to skip the diagnostic and go to the notes?\n\n%%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Please use the %%FLASHCARDS%% token for the flashcards."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I am unable to use the %%FLASHCARDS%% token. I can provide flashcards, but I cannot use that specific token.\n\nWould you like to start the diagnostic to assess your understanding of linear equations and other Algebra 1 topics, or would you like to skip the diagnostic and go to the notes?\n\n%%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Give me a multiple choice question on linear equations."
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a multiple-choice question on linear equations:\n\nWhich of the following equations represents a line with a slope of 2 and a y-intercept of -3?\n\nA) $y = -3x + 2$\nB) $y = 2x - 3$\nC) $y = 2x + 3$\nD) $y = -2x - 3$\n\n%%MCQ%%{\"question\": \"Which of the following equations represents a line with a slope of 2 and a y-intercept of -3?\", \"options\": [\"$y = -3x + 2$\", \"$y = 2x - 3$\", \"$y = 2x + 3$\", \"$y = -2x - 3$\"], \"answer\": 1, \"explanation\": \"The slope-intercept form of a linear equation is $y = mx + b$, where *m* is the slope and *b* is the y-intercept. In this case, the slope (m) is 2 and the y-intercept (b) is -3. Therefore, the correct equation is $y = 2x - 3$.\"}%%END_MCQ%%\n"
+    }
+  ],
+  "updatedAt": "2026-04-12T17:50:11.670Z"
+}

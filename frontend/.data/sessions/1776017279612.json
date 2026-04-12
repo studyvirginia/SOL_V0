@@ -1,0 +1,42 @@
+{
+  "id": "1776017279612",
+  "subject": "math",
+  "course": "Grade 1 Math",
+  "retrievalMode": "flashcards",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Final/Midterm",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "diagnostic": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "progress": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: flashcards \nStudent personalization facts: Session focus: Final/Midterm \nRecent questions: Start Flashcards mode \nRecent assistant focus: Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%% | Great! Let's start with some flashcards to review the concepts.\n\nHere are your cards!\n%%FLASHCARDS%%[{\"front\": \"What are the different ways to count?\", \"back\": \"You can count by ones, twos, fives, and tens.\"}, {\"front\": \"What is place value?\", \"back\": \"Place value is the value of a digit based on its position in a number. For example, in the number 25, the 2 is in the tens place and the 5 is in the ones place.\"}, {\"front\": \"What is the value of a penny, nickel, and dime?\", \"back\": \"A penny is worth 1 cent, a nickel is worth 5 cents, and a dime is worth 10 cents.\"}]%%END_FLASHCARDS%%\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Let's start with some flashcards to review the concepts.\n\nHere are your cards!\n%%FLASHCARDS%%[{\"front\": \"What are the different ways to count?\", \"back\": \"You can count by ones, twos, fives, and tens.\"}, {\"front\": \"What is place value?\", \"back\": \"Place value is the value of a digit based on its position in a number. For example, in the number 25, the 2 is in the tens place and the 5 is in the ones place.\"}, {\"front\": \"What is the value of a penny, nickel, and dime?\", \"back\": \"A penny is worth 1 cent, a nickel is worth 5 cents, and a dime is worth 10 cents.\"}]%%END_FLASHCARDS%%\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    }
+  ],
+  "updatedAt": "2026-04-12T18:08:05.177Z"
+}

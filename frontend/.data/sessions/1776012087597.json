@@ -1,0 +1,42 @@
+{
+  "id": "1776012087597",
+  "subject": "math",
+  "course": "Mathematical Analysis",
+  "retrievalMode": "diagnostic",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Unit test",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "diagnostic": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "progress": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: diagnostic \nStudent personalization facts: Session focus: Unit test \nRecent questions: Start diagnostic \nRecent assistant focus: Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%% | Great! Let's start with the diagnostic quiz. This will help us understand your current understanding of the material.\n\nHere's your first question:\n\nWhat are the [h]x-intercepts[/h] of the parabola defined by the equation $y = x^2 - 4$?\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"function\",\"equations\":[\"y=x^2-4\"],\"label_points\":[{\"x\":0,\"y\":-4,\"label\":\"vertex\"}],\"find\":[{\"x\":2,\"y\":0},{\"x\":-2,\"y\":0}],\"course\":\"algebra_1\",\"mode\":\"question\",\"question\":\"What are the x-intercepts of this parabola?\",\"notes\":\"parabola y=x²−4 with roots at x=±2 and vertex labeled\"}%%END_GRAPH%%\n\nWhat are the coordinates of the x-intercepts?\n%%ACTIONS%%[{\"label\": \"Show Answer\", \"prompt\": \"Show Answer\"}]%%END_ACTIONS%%",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start diagnostic"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Let's start with the diagnostic quiz. This will help us understand your current understanding of the material.\n\nHere's your first question:\n\nWhat are the [h]x-intercepts[/h] of the parabola defined by the equation $y = x^2 - 4$?\n\n%%GRAPH%%{\"engine\":\"geogebra\",\"type\":\"function\",\"equations\":[\"y=x^2-4\"],\"label_points\":[{\"x\":0,\"y\":-4,\"label\":\"vertex\"}],\"find\":[{\"x\":2,\"y\":0},{\"x\":-2,\"y\":0}],\"course\":\"algebra_1\",\"mode\":\"question\",\"question\":\"What are the x-intercepts of this parabola?\",\"notes\":\"parabola y=x²−4 with roots at x=±2 and vertex labeled\"}%%END_GRAPH%%\n\nWhat are the coordinates of the x-intercepts?\n%%ACTIONS%%[{\"label\": \"Show Answer\", \"prompt\": \"Show Answer\"}]%%END_ACTIONS%%"
+    }
+  ],
+  "updatedAt": "2026-04-12T16:46:22.355Z"
+}

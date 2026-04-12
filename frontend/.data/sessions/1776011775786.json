@@ -1,0 +1,42 @@
+{
+  "id": "1776011775786",
+  "subject": "math",
+  "course": "Discrete Mathematics",
+  "retrievalMode": "diagnostic",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Concept quiz",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "diagnostic": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "progress": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: diagnostic \nStudent personalization facts: Session focus: Concept quiz \nRecent questions: Start Diagnostic Quiz mode \nRecent assistant focus: Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. | Okay, let's start with a diagnostic quiz to assess your understanding of Discrete Mathematics. This will help us identify areas where you excel and areas where we can focus our efforts.\n\nAre you ready to begin?\n\n%%ACTIONS%%[\"diagnostic\", \"review\"]%%END_ACTIONS%%",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "Start Diagnostic Quiz mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's start with a diagnostic quiz to assess your understanding of Discrete Mathematics. This will help us identify areas where you excel and areas where we can focus our efforts.\n\nAre you ready to begin?\n\n%%ACTIONS%%[\"diagnostic\", \"review\"]%%END_ACTIONS%%"
+    }
+  ],
+  "updatedAt": "2026-04-12T16:36:18.265Z"
+}

@@ -1,0 +1,160 @@
+{
+  "id": "1775996080587",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "flashcards",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Concept quiz",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "placement": true,
+      "concept": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "stats": false,
+      "achievements": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: flashcards \nStudent personalization facts: Session focus: Concept quiz \nRecent questions: Give me notes on biology | Start Flashcards mode | Start Study Guide mode | Start Flashcards mode \nRecent assistant focus: Okay, let's continue with flashcards!\n\n**Question:** What is the vertex of a parabola, and what is its significance?\n\nTake a moment to think about it. Let me know when you're ready for the answer!\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%% | Okay, let's continue with the study guide. We were just discussing functions.\n\nLet's start with the example: Consider the function $f(x) = 2x + 1$. What is the value of $f(3)$?\n\nTo find $f(3)$, substitute $x = 3$ into the function:\n\n$f(3) = 2(3) + 1 = 6 + 1 = 7$\n\nSo, $f(3) = 7$.\n\nNow, let's move on to [b]Linear Functions[/b].\n\nAs we discussed earlier, linear functions have the form $f(x) = mx + b$.\n\n*   **Slope ($m$):** Represents the rate of change of the function. It can be calculated as the \"rise over run\" or $\\frac{\\text{change in } y}{\\text{change in } x}$.\n*   **Y-intercept ($b$):** The point where the line crosses the y-axis (when $x = 0$).\n\n**Graphing Linear Functions:**\n\n1.  Identify...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "Start Guided Notes mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's start with a review of the key concepts in Algebra 1. We'll begin with [b]Expressions and Operations[/b]. This domain covers how to work with mathematical expressions, including simplifying them, performing operations, and understanding the order of operations.\n\nHere's a breakdown of what we'll cover:\n\n*   **Simplifying Expressions:** Combining like terms, using the distributive property.\n*   **Order of Operations:** Following the rules (PEMDAS/BODMAS) to evaluate expressions correctly.\n*   **Operations with Polynomials:** Adding, subtracting, multiplying, and dividing polynomials.\n*   **Factoring:** Finding factors of expressions.\n\nLet's dive in!\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Guided Notes mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Let's start with [b]Simplifying Expressions[/b]. This involves combining like terms and using the distributive property.\n\n**Combining Like Terms:**\n\nLike terms are terms that have the same variables raised to the same powers. For example, in the expression $3x + 2y + 5x$, the terms $3x$ and $5x$ are like terms because they both have the variable $x$ raised to the power of 1. To simplify, we combine the coefficients of the like terms:\n\n$3x + 5x = (3 + 5)x = 8x$\n\nSo, the simplified expression is $8x + 2y$.\n\n**Distributive Property:**\n\nThe distributive property states that $a(b + c) = ab + ac$. This means you multiply the term outside the parentheses by each term inside the parentheses.\n\nFor example:\n\n$2(x + 3) = 2*x + 2*3 = 2x + 6$\n\nLet's try an example together. Simplify the following expression: $4(x + 2) + 3x$\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Guided Notes mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's simplify the expression $4(x + 2) + 3x$ step-by-step:\n\n1.  **Distribute:** Apply the distributive property to $4(x + 2)$. Multiply 4 by both terms inside the parentheses:\n\n    $4 * x + 4 * 2 = 4x + 8$\n2.  **Rewrite the expression:** Now the expression becomes:\n\n    $4x + 8 + 3x$\n3.  **Combine like terms:** Identify and combine the like terms, which are $4x$ and $3x$:\n\n    $(4x + 3x) + 8 = 7x + 8$\n\nSo, the simplified expression is $7x + 8$.\n\nNow, let's move on to the [b]Order of Operations[/b]. This is a set of rules that tells us the correct sequence to perform calculations in an expression. The acronym PEMDAS (or BODMAS) helps us remember the order:\n\n*   **P**arentheses (or **B**rackets)\n*   **E**xponents (or **O**rders)\n*   **M**ultiplication and **D**ivision (from left to right)\n*   **A**ddition and **S**ubtraction (from left to right)\n\nFor example, let's evaluate the expression: $2 + 3 * 4^2$\n\n1.  **Exponents:** First, calculate the exponent: $4^2 = 16$\n2.  **Multiplication:** Next, perform the multiplication: $3 * 16 = 48$\n3.  **Addition:** Finally, perform the addition: $2 + 48 = 50$\n\nSo, the answer is 50.\n\nLet's try another example. Evaluate: $(5 + 3) * 2 - 6 / 3$\n\n1.  **Parentheses:** $(5 + 3) = 8$\n2.  **Multiplication:** $8 * 2 = 16$\n3.  **Division:** $6 / 3 = 2$\n4.  **Subtraction:** $16 - 2 = 14$\n\nThe answer is 14.\n\nReady to move on to [b]Operations with Polynomials[/b]?\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Give me notes on chemistry"
+    },
+    {
+      "role": "assistant",
+      "content": "I am designed to help with Algebra 1. Would you like to continue with the Algebra 1 review, or would you like to switch to a different subject?\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "assistant",
+      "content": "You completed **Placement Quiz**. Recommended next: **Concept Check**. Use the navigation buttons below to continue."
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's begin with some flashcards to test your knowledge of Algebra 1 concepts.\n\nHere's your first flashcard:\n\n**Question:** What is the slope-intercept form of a linear equation?\n\nThink about it, and then let me know when you're ready for the answer!\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Study Guide mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's continue with the study guide. We were just discussing the order of operations.\n\nNow, let's move on to [b]Operations with Polynomials[/b]. Polynomials are expressions that consist of variables and coefficients, combined using addition, subtraction, and multiplication, but not division by a variable.\n\nHere's a breakdown:\n\n*   **Adding and Subtracting Polynomials:** Combine like terms.\n*   **Multiplying Polynomials:** Use the distributive property (or the FOIL method for binomials).\n*   **Dividing Polynomials:** Can be done using long division or synthetic division.\n\n**Adding and Subtracting Polynomials:**\n\nTo add or subtract polynomials, you combine like terms. Remember, like terms have the same variables raised to the same powers.\n\nExample:\n\n$(2x^2 + 3x - 1) + (x^2 - 2x + 5)$\n\nCombine like terms:\n\n$(2x^2 + x^2) + (3x - 2x) + (-1 + 5) = 3x^2 + x + 4$\n\n**Multiplying Polynomials:**\n\nWhen multiplying polynomials, you use the distributive property. For binomials (polynomials with two terms), the FOIL method (First, Outer, Inner, Last) is a helpful mnemonic.\n\nExample:\n\n$(x + 2)(x + 3)$\n\n*   **F**irst: $x * x = x^2$\n*   **O**uter: $x * 3 = 3x$\n*   **I**nner: $2 * x = 2x$\n*   **L**ast: $2 * 3 = 6$\n\nCombine like terms: $x^2 + 3x + 2x + 6 = x^2 + 5x + 6$\n\nReady to move on to [b]Factoring[/b]?\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's continue with flashcards!\n\n**Question:** What is the standard form of a quadratic equation?\n\nTake a moment to think about it. Let me know when you're ready for the answer!\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Study Guide mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Alright, let's continue with the study guide. We were just discussing operations with polynomials. Now, let's move on to [b]Factoring[/b]. Factoring is the process of breaking down an expression into its factors (expressions that multiply together to give the original expression).\n\nHere's a breakdown of common factoring techniques:\n\n*   **Greatest Common Factor (GCF):** Finding the largest factor that divides all terms in the expression.\n*   **Factoring by Grouping:** Used for expressions with four terms.\n*   **Factoring Trinomials:** Factoring quadratic expressions in the form $ax^2 + bx + c$.\n\n**Greatest Common Factor (GCF):**\n\nFind the GCF of the terms in the expression and factor it out.\n\nExample:\n\nFactor $6x^2 + 9x$\n\nThe GCF of $6x^2$ and $9x$ is $3x$.\n\nSo, $6x^2 + 9x = 3x(2x + 3)$\n\n**Factoring by Grouping:**\n\nGroup terms, factor out the GCF from each group, and then factor out the common binomial factor.\n\nExample:\n\nFactor $x^3 + 2x^2 + 3x + 6$\n\n1.  Group terms: $(x^3 + 2x^2) + (3x + 6)$\n2.  Factor out GCF from each group: $x^2(x + 2) + 3(x + 2)$\n3.  Factor out the common binomial: $(x + 2)(x^2 + 3)$\n\n**Factoring Trinomials:**\n\nFind two numbers that multiply to give the constant term ($c$) and add up to the coefficient of the linear term ($b$).\n\nExample:\n\nFactor $x^2 + 5x + 6$\n\nWe need two numbers that multiply to 6 and add to 5. Those numbers are 2 and 3.\n\nSo, $x^2 + 5x + 6 = (x + 2)(x + 3)$\n\nReady to move on to [b]Equations and Inequalities[/b]?\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Guided Notes mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's move on to [b]Equations and Inequalities[/b]. This section covers solving linear equations and inequalities, as well as graphing them.\n\nHere's what we'll cover:\n\n*   **Solving Linear Equations:** Using inverse operations to isolate the variable.\n*   **Solving Linear Inequalities:** Similar to equations, but with a few extra rules.\n*   **Graphing Linear Equations and Inequalities:** Understanding slope, intercepts, and how to represent solutions graphically.\n\n**Solving Linear Equations:**\n\nThe goal is to isolate the variable on one side of the equation. You do this by performing inverse operations in the reverse order of the order of operations (PEMDAS/BODMAS).\n\nExample:\n\nSolve for $x$: $2x + 3 = 7$\n\n1.  **Subtract 3 from both sides:** $2x + 3 - 3 = 7 - 3$, which simplifies to $2x = 4$\n2.  **Divide both sides by 2:** $2x / 2 = 4 / 2$, which simplifies to $x = 2$\n\nSo, the solution is $x = 2$.\n\n**Solving Linear Inequalities:**\n\nSolving inequalities is similar to solving equations, but there's one important rule:\n\n*   If you multiply or divide both sides of an inequality by a negative number, you must reverse the inequality sign.\n\nExample:\n\nSolve for $x$: $-3x + 2 > 8$\n\n1.  **Subtract 2 from both sides:** $-3x + 2 - 2 > 8 - 2$, which simplifies to $-3x > 6$\n2.  **Divide both sides by -3 (and reverse the inequality sign):** $-3x / -3 < 6 / -3$, which simplifies to $x < -2$\n\nSo, the solution is $x < -2$.\n\nLet's try an example together. Solve for $x$: $4x - 1 \\le 7$\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Study Guide mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's solve the inequality $4x - 1 \\le 7$ step-by-step:\n\n1.  **Add 1 to both sides:** $4x - 1 + 1 \\le 7 + 1$, which simplifies to $4x \\le 8$\n2.  **Divide both sides by 4:** $4x / 4 \\le 8 / 4$, which simplifies to $x \\le 2$\n\nSo, the solution is $x \\le 2$.\n\nNow, let's move on to [b]Graphing Linear Equations and Inequalities[/b].\n\n**Graphing Linear Equations:**\n\nLinear equations can be graphed in the form $y = mx + b$, where:\n\n*   $m$ is the slope (rise over run).\n*   $b$ is the y-intercept (the point where the line crosses the y-axis).\n\nTo graph a linear equation:\n\n1.  Identify the slope and y-intercept.\n2.  Plot the y-intercept on the y-axis.\n3.  Use the slope to find another point on the line (rise over run).\n4.  Draw a straight line through the points.\n\nExample:\n\nGraph $y = 2x + 1$\n\n*   Slope ($m$) = 2\n*   y-intercept ($b$) = 1\n\n1.  Plot the point (0, 1) on the y-axis.\n2.  From (0, 1), go up 2 units and right 1 unit to find another point (1, 3).\n3.  Draw a straight line through these points.\n\n**Graphing Linear Inequalities:**\n\nGraphing linear inequalities is similar to graphing linear equations, but with a few extra steps:\n\n1.  Graph the boundary line (as if it were an equation).\n    *   Use a solid line if the inequality includes \"≤\" or \"≥\".\n    *   Use a dashed line if the inequality includes \"<\" or \">\".\n2.  Shade the region that represents the solution.\n    *   Choose a test point (a point not on the line) and substitute its coordinates into the inequality.\n    *   If the inequality is true, shade the region containing the test point.\n    *   If the inequality is false, shade the other region.\n\nExample:\n\nGraph $y > x - 2$\n\n1.  Graph the boundary line $y = x - 2$ (dashed line because of \">\").\n    *   Slope = 1\n    *   y-intercept = -2\n2.  Choose a test point, such as (0, 0).\n3.  Substitute (0, 0) into the inequality: $0 > 0 - 2$, which simplifies to $0 > -2$. This is true.\n4.  Shade the region containing (0, 0).\n\nReady to move on to the next section?\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Guided Notes mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Alright, let's move on to the next section: [b]Functions[/b]. This domain covers the concept of functions, including their different representations (equations, graphs, tables), and how to analyze them.\n\nHere's what we'll cover:\n\n*   **Understanding Functions:** Defining functions, domain, and range.\n*   **Linear Functions:** Analyzing and graphing linear functions.\n*   **Quadratic Functions:** Analyzing and graphing quadratic functions.\n\n**Understanding Functions:**\n\nA function is a relationship between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output. We often represent functions using the notation $f(x)$, where $x$ is the input, and $f(x)$ is the output.\n\n*   **Domain:** The set of all possible input values (x-values).\n*   **Range:** The set of all possible output values (y-values).\n\n**Linear Functions:**\n\nLinear functions have the form $f(x) = mx + b$, where $m$ is the slope and $b$ is the y-intercept.\n\n*   The graph of a linear function is a straight line.\n*   The slope represents the rate of change of the function.\n*   The y-intercept is the point where the line crosses the y-axis.\n\n**Quadratic Functions:**\n\nQuadratic functions have the form $f(x) = ax^2 + bx + c$, where $a$, $b$, and $c$ are constants and $a \\ne 0$.\n\n*   The graph of a quadratic function is a parabola.\n*   The vertex is the highest or lowest point on the parabola.\n*   The axis of symmetry is a vertical line that divides the parabola into two symmetrical halves.\n\nLet's try an example. Consider the function $f(x) = 2x + 1$. What is the value of $f(3)$?\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Give me notes on biology"
+    },
+    {
+      "role": "assistant",
+      "content": "I am designed to help with Algebra 1. Would you like to continue with the Algebra 1 review, or would you like to switch to a different subject?\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%\nYou completed **Placement Quiz**. Recommended next: **Concept Check**. Use the navigation buttons below to continue."
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's continue with flashcards!\n\n**Question:** What is the vertex of a parabola, and what is its significance?\n\nTake a moment to think about it. Let me know when you're ready for the answer!\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Study Guide mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's continue with the study guide. We were just discussing functions.\n\nLet's start with the example: Consider the function $f(x) = 2x + 1$. What is the value of $f(3)$?\n\nTo find $f(3)$, substitute $x = 3$ into the function:\n\n$f(3) = 2(3) + 1 = 6 + 1 = 7$\n\nSo, $f(3) = 7$.\n\nNow, let's move on to [b]Linear Functions[/b].\n\nAs we discussed earlier, linear functions have the form $f(x) = mx + b$.\n\n*   **Slope ($m$):** Represents the rate of change of the function. It can be calculated as the \"rise over run\" or $\\frac{\\text{change in } y}{\\text{change in } x}$.\n*   **Y-intercept ($b$):** The point where the line crosses the y-axis (when $x = 0$).\n\n**Graphing Linear Functions:**\n\n1.  Identify the slope ($m$) and y-intercept ($b$).\n2.  Plot the y-intercept on the y-axis.\n3.  Use the slope to find another point on the line (rise over run).\n4.  Draw a straight line through the points.\n\nExample:\n\nGraph $f(x) = 3x - 2$\n\n*   Slope ($m$) = 3\n*   Y-intercept ($b$) = -2\n\n1.  Plot the point (0, -2) on the y-axis.\n2.  From (0, -2), go up 3 units and right 1 unit to find another point (1, 1).\n3.  Draw a straight line through these points.\n\nReady to move on to [b]Quadratic Functions[/b]?\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's continue with flashcards!\n\n**Question:** What is the vertex of a parabola, and what is its significance?\n\nTake a moment to think about it. Let me know when you're ready for the answer!\n\n%%ACTIONS%%[\"study-guide\", \"review\"]%%END_ACTIONS%%"
+    }
+  ],
+  "updatedAt": "2026-04-12T12:21:39.929Z"
+}

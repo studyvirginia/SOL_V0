@@ -1,0 +1,75 @@
+{
+  "id": "1775968051184",
+  "subject": "math",
+  "course": "Grade 4 Math",
+  "retrievalMode": "placement",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Final/Midterm",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "placement": false,
+      "concept": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "stats": false,
+      "achievements": false,
+      "map": false,
+      "deep-dive": false,
+      "worksheet": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: placement \nStudent personalization facts: Session focus: Final/Midterm \nRecent questions: yo | Start Achievements mode | Start Guided Notes mode | Start Placement Quiz mode \nRecent assistant focus: Great! You've chosen to enter Achievements mode. This mode allows you to track your progress and see what you've accomplished in Grade 4 Math.\n\nLet's get started!\n\nFirst, let's go back to the question: What is the value of the digit 7 in the number 3,725?\n\nThink about the place value of each digit. The 7 is in the [h]hundreds[/h] place.\n\nSo, the value of the digit 7 in the number 3,725 is 700.\n\nNow, let's move on to the next question.\n\nWhat is the value of the digit 7 in the number 3,725?\n\n%%ACTIONS%%[\"placement\", \"review\"]%%END_ACTIONS%% | Okay, let's start with Guided Notes mode. This mode will help you review the key concepts in Grade 4 Math.\n\nWe'll be covering topics from the following domains:\n\n*   [b]Number and Number Sense[/b]\n*   [b]Computation and Estimation[/b]\n*   [b]Measurement and Geometry[/b]\n*   [b]Probability and Statistics[/b]\n*   [b]Patterns, Functions, and Algebra[/b]\n\nLet's begin!\n\nFirst, let's review [b]Number and Number Sense[/b].\n\n...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "Start diagnostic"
+    },
+    {
+      "role": "user",
+      "content": "yo"
+    },
+    {
+      "role": "assistant",
+      "content": "Alright! Let's get started with a quick diagnostic to see what you already know and where we might need to focus our attention. Since you're in Grade 4 Math, we'll be covering topics from the following domains:\n\n*   [b]Number and Number Sense[/b]\n*   [b]Computation and Estimation[/b]\n*   [b]Measurement and Geometry[/b]\n*   [b]Probability and Statistics[/b]\n*   [b]Patterns, Functions, and Algebra[/b]\n\nLet's begin! Here's your first question:\n\nWhat is the value of the digit 7 in the number 3,725?"
+    },
+    {
+      "role": "user",
+      "content": "Start Achievements mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! You've chosen to enter Achievements mode. This mode allows you to track your progress and see what you've accomplished in Grade 4 Math.\n\nLet's get started!\n\nFirst, let's go back to the question: What is the value of the digit 7 in the number 3,725?\n\nThink about the place value of each digit. The 7 is in the [h]hundreds[/h] place.\n\nSo, the value of the digit 7 in the number 3,725 is 700.\n\nNow, let's move on to the next question.\n\nWhat is the value of the digit 7 in the number 3,725?\n\n%%ACTIONS%%[\"placement\", \"review\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Guided Notes mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's start with Guided Notes mode. This mode will help you review the key concepts in Grade 4 Math.\n\nWe'll be covering topics from the following domains:\n\n*   [b]Number and Number Sense[/b]\n*   [b]Computation and Estimation[/b]\n*   [b]Measurement and Geometry[/b]\n*   [b]Probability and Statistics[/b]\n*   [b]Patterns, Functions, and Algebra[/b]\n\nLet's begin!\n\nFirst, let's review [b]Number and Number Sense[/b].\n\nA key concept in this domain is [u]place value[/u]. Remember that each digit in a number has a specific value based on its position. For example, in the number 3,725, the 3 is in the thousands place, the 7 is in the hundreds place, the 2 is in the tens place, and the 5 is in the ones place.\n\nDo you have any questions about place value?\n\n%%ACTIONS%%[\"study-guide\", \"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Placement Quiz mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's begin the Placement Quiz. This will help us understand your current understanding of Grade 4 Math concepts.\n\nHere's your first question:\n\nWhich of the following numbers is the smallest: 4,521; 4,512; 4,251; 4,152?\n\n%%ACTIONS%%[\"review\"]%%END_ACTIONS%%"
+    }
+  ],
+  "updatedAt": "2026-04-12T12:14:33.165Z"
+}

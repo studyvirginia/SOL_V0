@@ -1,0 +1,77 @@
+{
+  "id": "1775968141491",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "concept",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Concept quiz",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: concept \nStudent personalization facts: Session focus: Concept quiz \nRecent questions: Are you there? | Test message | yo | Hello \nRecent assistant focus: I'm ready to help you with your Algebra 1 concepts. To begin the diagnostic, just say: Start diagnostic. | I'm ready to help you with your Algebra 1 concepts. To begin the diagnostic, just say: Start diagnostic. | I'm ready to help you with your Algebra 1 concepts. To begin the diagnostic, just say: Start diagnostic.",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! I'm ready when you are. To begin the diagnostic, just say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "test"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you're testing the system. I'm ready to help you with your Algebra 1 concepts. To begin the diagnostic, just say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "test"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm ready to help you with your Algebra 1 concepts. To begin the diagnostic, just say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "Are you there?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm here and ready to help you with your Algebra 1 concepts. To begin the diagnostic, just say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "Test message"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm ready to help you with your Algebra 1 concepts. To begin the diagnostic, just say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "yo"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm ready to help you with your Algebra 1 concepts. To begin the diagnostic, just say: Start diagnostic."
+    },
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm ready to help you with your Algebra 1 concepts. To begin the diagnostic, just say: Start diagnostic.\n"
+    }
+  ],
+  "updatedAt": "2026-04-12T05:06:46.614Z"
+}

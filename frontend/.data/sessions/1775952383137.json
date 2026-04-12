@@ -1,0 +1,43 @@
+{
+  "id": "1775952383137",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "notes",
+  "userFacts": {
+    "gradeLevel": "",
+    "preferences": "",
+    "needs": ""
+  },
+  "sessionSummary": "Session retrieval mode: notes \nRecent questions: create notes | hi | hi | yo \nRecent assistant focus: Type to start learning. | Hello! I'm ready to help you with your Algebra 1 review. Let's get started! What topics are you interested in reviewing today?",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Type to start learning."
+    },
+    {
+      "role": "user",
+      "content": "create notes"
+    },
+    {
+      "role": "user",
+      "content": "create notes"
+    },
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "user",
+      "content": "yo"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! I'm ready to help you with your Algebra 1 review. Let's get started! What topics are you interested in reviewing today?\n"
+    }
+  ],
+  "updatedAt": "2026-04-12T00:12:19.829Z"
+}
