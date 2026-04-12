@@ -85,7 +85,7 @@ export default function Home() {
   const [modalSubject, setModalSubject] = useState("");
   const [modalCourse, setModalCourse] = useState("");
   const [modalGrade, setModalGrade] = useState("");
-  const [modalSessionFocus, setModalSessionFocus] = useState("Concept quiz");
+  const [modalSessionFocus, setModalSessionFocus] = useState("");
   const [modalFocusTopic, setModalFocusTopic] = useState("");
   const [modalFocusDetail, setModalFocusDetail] = useState("");
   const [modalUnitOptions, setModalUnitOptions] = useState([]);
@@ -277,7 +277,10 @@ export default function Home() {
 
   const createSessionFromModal = (e) => {
     e.preventDefault();
-    if (!modalSubject || !modalCourse) return;
+    if (!modalSubject || !modalCourse || !modalSessionFocus || !modalFocusDetail) {
+      alert("Please fill in all required fields: Subject, Course, Focus, and Topic/Unit.");
+      return;
+    }
 
     const personalization = {
       gradeLevel: modalGrade || "",
@@ -527,12 +530,14 @@ export default function Home() {
                         <span>•</span>
                         <span className="truncate">{session.course || "General"}</span>
                       </p>
-                      <p className="mt-2 flex items-center gap-2 text-[0.72rem] font-semibold text-gray-500 dark:text-gray-400">
-                        <span className="rounded-full bg-indigo-50 dark:bg-indigo-900/30 px-2 py-0.5 text-indigo-600 dark:text-indigo-300">
-                          {(session.userFacts?.areaOfFocus || session.sessionFocus || "Concept quiz")}
+                      <p className="mt-2 text-[0.72rem] font-bold text-indigo-600 dark:text-indigo-400 flex items-center gap-1">
+                        <span className="rounded-full bg-indigo-50 dark:bg-indigo-900/30 px-2 py-0.5 whitespace-nowrap">
+                          {session.sessionFocus || session.userFacts?.areaOfFocus || "Concept quiz"}
                         </span>
-                        {session.userFacts?.focusTopic && (
-                          <span className="truncate">{session.userFacts.focusTopic}</span>
+                        {(session.focusDetail || session.userFacts?.focusTopic) && (
+                          <span className="truncate opacity-80">
+                            : {session.focusDetail || session.userFacts?.focusTopic} Prep
+                          </span>
                         )}
                       </p>
                     </div>
@@ -546,6 +551,10 @@ export default function Home() {
                   </div>
                   
                   <div className="mt-6 flex-1 text-sm text-gray-600 dark:text-gray-300 line-clamp-4 leading-relaxed">
+                     <span className="font-bold text-gray-400 dark:text-gray-500 text-[0.7rem] uppercase block mb-1">
+                       {session.sessionFocus || "General Review"} 
+                       {(session.focusDetail || session.userFacts?.focusTopic) ? `: ${session.focusDetail || session.userFacts?.focusTopic}` : ""}
+                     </span>
                      {session.sessionSummary || "No learning summary available yet. Jump in to get started!"}
                   </div>
                   
@@ -799,8 +808,8 @@ export default function Home() {
                   </button>
                   <button 
                     type="submit" 
-                    disabled={!modalSubject || !modalCourse}
-                    className="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 py-2.5 font-bold text-white shadow-sm transition-transform hover:scale-[1.02] active:scale-95 disabled:opacity-50 disabled:pointer-events-none text-xs"
+                    disabled={!modalSubject || !modalCourse || !modalSessionFocus || !modalFocusDetail}
+                    className="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 py-2.5 font-bold text-white shadow-sm transition-transform hover:scale-[1.02] active:scale-95 disabled:opacity-30 disabled:grayscale disabled:pointer-events-none text-xs"
                   >
                     Start Learning
                   </button>

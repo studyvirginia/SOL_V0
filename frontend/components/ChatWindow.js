@@ -180,10 +180,50 @@ const MarkdownMessage = ({ content, isUser }) => (
         }
       }}
     >
-      {content}
+      {processNotationTags(content)}
     </ReactMarkdown>
   </div>
 );
+
+const processNotationTags = (text) => {
+  if (!text) return "";
+  const parts = [];
+  let lastIdx = 0;
+  const regex = /\[([hcub])\]([\s\S]*?)\[\/\1\]/g;
+  let match;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIdx) {
+      parts.push(text.slice(lastIdx, match.index));
+    }
+    const type = match[1];
+    const content = match[2];
+    const notationType = type === 'h' ? 'highlight' : type === 'c' ? 'circle' : type === 'u' ? 'underline' : 'box';
+    const color = type === 'h' ? '#fef08a' : type === 'c' ? '#f87171' : type === 'u' ? '#60a5fa' : '#4ade80';
+
+    parts.push(
+      <RoughNotation 
+        key={match.index} 
+        type={notationType} 
+        show={true} 
+        color={color} 
+        strokeWidth={2}
+        animationDuration={1500}
+        multiline={true}
+      >
+        {content}
+      </RoughNotation>
+    );
+    lastIdx = regex.lastIndex;
+  }
+
+  if (lastIdx < text.length) {
+    parts.push(text.slice(lastIdx));
+  }
+
+  return parts.length > 0 ? parts : text;
+};
+
 
 const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
   if (!actions || actions.length === 0) return null;
@@ -199,7 +239,7 @@ const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
                 if (act.targetMode) onSwitch(act.targetMode, false);
                 onSend(act.prompt);
               }}
-              className="group flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 bg-slate-800 text-white ring-slate-700 hover:bg-slate-900 hover:shadow-md dark:bg-slate-700 dark:ring-slate-600 dark:hover:bg-slate-600"
+              className="group flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 bg-indigo-600 text-white ring-indigo-500 hover:bg-indigo-700 hover:shadow-md dark:bg-indigo-700 dark:ring-indigo-600 dark:hover:bg-indigo-600"
             >
               {act.label}
             </button>
