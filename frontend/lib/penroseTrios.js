@@ -2206,7 +2206,7 @@ Label W "d"
 override U.lbl.center := U.dot.center + (18, 0)
 override V.lbl.center := V.dot.center + (0, 18)
 override W.lbl.center := W.dot.center + (16, 12)
-`
+`,
   variation: "distance_formula",
 };
 
