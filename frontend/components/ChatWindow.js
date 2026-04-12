@@ -68,7 +68,6 @@ function buildEmptyCompletionMap() {
   });
   return completed;
 }
-// End of ChatWindow component
 
 function normalizeJourney(session, fallbackSubMode) {
   const existing = session?.journey || {};
@@ -449,34 +448,44 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  const modeMap = {
-    diagnostic: { label: "Diagnostic", subModes: [ { id: "placement", label: "Placement Quiz" }, { id: "concept", label: "Concept Check" } ] },
-    review: { label: "Review", subModes: [ { id: "notes", label: "Guided Notes" }, { id: "study-guide", label: "Study Guide" }, { id: "mnemonics", label: "Mnemonics" } ] },
-    mastery: { label: "Mastery", subModes: [ { id: "map", label: "Knowledge Map" }, { id: "analogies", label: "Analogies" }, { id: "deep-dive", label: "Deep Dive" } ] },
-    practice: { label: "Practice", subModes: [ { id: "flashcards", label: "Flashcards" }, { id: "quiz", label: "Interactive Quiz" }, { id: "worksheet", label: "Worksheet" } ] },
-    progress: { label: "Progress", subModes: [ { id: "stats", label: "Statistics" }, { id: "achievements", label: "Achievements" } ] }
-  };
-
-  const activePillar = Object.entries(modeMap).find(([key, pillar]) => pillar.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
+  const activePillar = getModeKeyFromSubMode(currentMode);
+  const currentSubModeCompleted = Boolean(journey.completed[currentMode]);
+  const activePillarSubModes = MODE_MAP[activePillar]?.subModes || [];
 
   return (
     <div className="flex h-full w-full gap-4 md:gap-6">
       <div className="w-[140px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-4 text-gray-800 dark:text-gray-300 gap-0.5">
+         <div className="mb-2 px-1">
+           <div className="text-[0.9rem] font-extrabold text-blue-700 dark:text-blue-300 truncate">
+             {[formatName(course) || formatName(subject) || "Course", sessionFocus].filter(Boolean).join(" ")} Prep
+           </div>
+         </div>
          <h2 className="text-[0.6rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4 px-1">Learning Path</h2>
-         {Object.entries(modeMap).map(([pillarKey, pillarData]) => {
+         {Object.entries(MODE_MAP).map(([pillarKey, pillarData]) => {
            const isActivePillar = activePillar === pillarKey;
+           const stat = completionStats.find((item) => item.modeKey === pillarKey);
            return (
              <div key={pillarKey} className="flex flex-col">
                 {pillarKey === "progress" && <hr className="my-2 border-gray-100 dark:border-gray-800" />}
                 <div 
-                  className={`flex items-center justify-between px-2 py-2 rounded-lg cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
-                  onClick={() => { if (!isActivePillar && pillarData.subModes.length > 0) onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id }); }}
+                  className={`flex items-center justify-between px-2 py-2 rounded-lg cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold bg-blue-50/70 dark:bg-blue-900/20" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
+                  onClick={() => { if (!isActivePillar && pillarData.subModes.length > 0) switchSubMode(pillarData.subModes[0].id); }}
                 >
                   <span className="text-[0.8rem] tracking-tight">{pillarData.label}</span>
+                  <span className="text-[0.62rem] font-bold opacity-80">{stat?.done || 0}/{stat?.total || 0}</span>
                 </div>
                 <div className={`flex flex-col pl-3 border-l-2 border-gray-100 dark:border-gray-800/60 ml-2 space-y-0.5 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-0.5 mb-2 opacity-100" : "max-h-0 opacity-0"}`}>
                    {isActivePillar && pillarData.subModes.map((sub) => (
-                      <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`text-left px-2 py-1.5 rounded-lg text-[0.75rem] transition-colors ${currentMode === sub.id ? "font-bold text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-800 shadow-sm border border-gray-200/60 dark:border-gray-700/60" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>{sub.label}</button>
+                      <button
+                        key={sub.id}
+                        onClick={() => switchSubMode(sub.id)}
+                        className={`text-left px-2 py-1.5 rounded-lg text-[0.75rem] transition-colors flex items-center justify-between gap-1 ${currentMode === sub.id ? "font-bold text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-800 shadow-sm border border-gray-200/60 dark:border-gray-700/60" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}
+                      >
+                        <span className="truncate">{sub.label}</span>
+                        <span className="shrink-0 text-[0.68rem]">
+                          {journey.completed[sub.id] ? "✓" : recommended?.subModeId === sub.id ? "★" : ""}
+                        </span>
+                      </button>
                    ))}
                 </div>
              </div>
@@ -570,6 +579,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                         body: JSON.stringify({
                           messages: newMessages,
                           sessionId: session.id,
+                          subject,
+                          course,
                           retrievalMode: "placement",
                           shortTermMemory: buildShortTermMemory(newMessages),
                           sessionSummary: session.sessionSummary || "",
