@@ -357,154 +357,138 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
         // This implements the Axiom-Canvas "visual working memory" pattern:
         // pass what was already graphed so the LLM avoids duplicate objects/IDs.
         const currentGraphs = graphs; // snapshot of state at submission time
-        e.preventDefault();
-        if (isLoading || !draftInput.trim()) return;
-        setIsLoading(true);
-        setError(null);
-        const userMsg = { id: Date.now().toString(), role: "user", content: draftInput };
-        const newMessages = [...messages, userMsg];
-        setMessages(newMessages);
-        setDraftInput("");
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 60000);
-        let didError = false;
-        try {
-          const res = await fetch("/api/chat", {
+        let boardExpressions = [];
+        let boardCmds = [];
+        const allGraphEntries = Object.values(currentGraphs).flat();
+        const lastDone = [...allGraphEntries].reverse().find(g => g.status === "done");
+        if (lastDone?.engine === "desmos" && lastDone.desmosState?.expressions) {
+          boardExpressions = lastDone.desmosState.expressions
+            .filter(e => e.latex && !e.hidden)
+            .map(e => ({ id: e.id, latex: e.latex }))
+            .slice(0, 12); // cap at 12 to avoid bloating the prompt
+        } else if (lastDone?.engine === "geogebra" && lastDone.ggbState?.cmds) {
+          boardCmds = lastDone.ggbState.cmds.slice(0, 15);
+        }
+
+        graphMatches.forEach((m, idx) => {
+          let graphRequest;
+          try { graphRequest = JSON.parse(m[1]); } catch { return; }
+
+          // Capture question/mode from Phase 1 token so we can render them with the graph
+          const graphQuestion = graphRequest.question || "";
+          const graphMode = graphRequest.mode || "illustration";
+
+          const endpoint = graphEngine === "desmos"
+            ? "/api/desmos-generate"
+            : "/api/geogebra-generate";
+
+          const body = graphEngine === "desmos"
+            ? { ...graphRequest, boardExpressions }
+            : { ...graphRequest, boardCmds };
+
+          fetch(endpoint, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            signal: controller.signal,
-            body: JSON.stringify({
-              messages: newMessages,
-              sessionId: session.id,
-              subject,
-              course,
-              retrievalMode: currentMode,
-              shortTermMemory: buildShortTermMemory(newMessages),
-              sessionSummary: session.sessionSummary || "",
-              userFacts: session.userFacts || {},
-            })
-          });
-          clearTimeout(timeoutId);
-          if (!res.ok) {
-            const errorData = await res.json().catch(() => ({}));
-            didError = true;
-            throw new Error(errorData.error || `API Error: ${res.statusText}`);
-          }
-          if (!res.body) {
-            didError = true;
-            throw new Error("The server responded without a message body.");
-          }
-          const reader = res.body.getReader();
-          const decoder = new TextDecoder();
-          let aiContent = "";
-          const aiId = Date.now().toString() + "_ai";
-          setMessages(prev => [...prev, { id: aiId, role: "assistant", content: "" }]);
-          try {
-            while (true) {
-              const { value, done } = await reader.read();
-              if (done) break;
-              const chunk = decoder.decode(value, { stream: true });
-              aiContent += chunk;
-              setMessages(prev => {
-                 const updated = [...prev];
-                 const lastIdx = updated.length - 1;
-                 if (lastIdx >= 0 && updated[lastIdx].role === "assistant") {
-                    updated[lastIdx] = { ...updated[lastIdx], content: aiContent };
-                 }
-                 return updated;
+            body: JSON.stringify(body),
+          })
+            .then(r => r.json())
+            .then(data => {
+              setGraphs(prev => {
+                const arr = [...(prev[aiId] || [])];
+                if (graphEngine === "desmos") {
+                  arr[idx] = data.desmosState
+                    ? { status: "done", engine: "desmos", desmosState: data.desmosState, question: graphQuestion, mode: graphMode }
+                    : { status: "error" };
+                } else {
+                  arr[idx] = data.ggbState
+                    ? { status: "done", engine: "geogebra", ggbState: data.ggbState, question: graphQuestion, mode: graphMode }
+                    : { status: "error" };
+                }
+                return { ...prev, [aiId]: arr };
               });
-            }
-          } catch (readErr) {
-            didError = true;
-            if (readErr.name === "AbortError") {
-              setError({ message: "The connection timed out while receiving the response." });
-            } else {
-              setError({ message: readErr.message });
-            }
-          }
-        } catch (err) {
-          didError = true;
-          e.preventDefault();
-          if (isLoading || !draftInput.trim()) return;
-          setIsLoading(true);
-          setError(null);
-          const userMsg = { id: Date.now().toString(), role: "user", content: draftInput };
-          const newMessages = [...messages, userMsg];
-          setMessages(newMessages);
-          setDraftInput("");
-          const controller = new AbortController();
-          const timeoutId = setTimeout(() => controller.abort(), 60000);
-          let didError = false;
-          try {
-            const res = await fetch("/api/chat", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              signal: controller.signal,
-              body: JSON.stringify({
-                messages: newMessages,
-                sessionId: session.id,
-                subject,
-                course,
-                retrievalMode: currentMode,
-                shortTermMemory: buildShortTermMemory(newMessages),
-                sessionSummary: session.sessionSummary || "",
-                userFacts: session.userFacts || {},
-              })
+            })
+            .catch(() => {
+              setGraphs(prev => {
+                const arr = [...(prev[aiId] || [])];
+                arr[idx] = { status: "error" };
+                return { ...prev, [aiId]: arr };
+              });
             });
-            clearTimeout(timeoutId);
-            if (!res.ok) {
-              const errorData = await res.json().catch(() => ({}));
-              didError = true;
-              throw new Error(errorData.error || `API Error: ${res.statusText}`);
-            }
-            if (!res.body) {
-              didError = true;
-              throw new Error("The server responded without a message body.");
-            }
-            const reader = res.body.getReader();
-            const decoder = new TextDecoder();
-            let aiContent = "";
-            const aiId = Date.now().toString() + "_ai";
-            setMessages(prev => [...prev, { id: aiId, role: "assistant", content: "" }]);
-            try {
-              while (true) {
-                const { value, done } = await reader.read();
-                if (done) break;
-                const chunk = decoder.decode(value, { stream: true });
-                aiContent += chunk;
-                setMessages(prev => {
-                   const updated = [...prev];
-                   const lastIdx = updated.length - 1;
-                   if (lastIdx >= 0 && updated[lastIdx].role === "assistant") {
-                      updated[lastIdx] = { ...updated[lastIdx], content: aiContent };
-                   }
-                   return updated;
-                });
-              }
-            } catch (readErr) {
-              didError = true;
-              if (readErr.name === "AbortError") {
-                setError({ message: "The connection timed out while receiving the response." });
-              } else {
-                setError({ message: readErr.message });
-              }
-            }
-          } catch (err) {
-            didError = true;
-            setError({ message: err.message });
-          } finally {
-            setIsLoading(false);
-            if (didError) {
-              // Optionally, focus the input or take other recovery actions here
-            }
-          }
-        };
+        });
+      }
+    } catch (err) {
+      console.error("Chat fetch failure:", err);
+      // Simplify "TypeError: Load failed" into something more user-friendly
+      const friendlyMessage = err.message === "Load failed" || err.name === "TypeError"
+        ? "Connection to the SOL server was interrupted. Please check your network or try again."
+        : err.message;
+      setError({ message: friendlyMessage });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    if (messages && messages.length > 0) {
+      const lastMsg = messages[messages.length - 1];
+      const sessLast = session.messages?.[session.messages?.length - 1];
+      if (!sessLast || lastMsg.id !== sessLast.id || lastMsg.content !== sessLast.content) {
+         onUpdateSession({ ...session, messages });
+      }
+    }
+  }, [messages, session.id]);
+
+  useEffect(() => {
+    if (session.name === "New Session" || session.name === "Start Session") {
+       const updatedName = formatName(course) || formatName(subject) || "Session";
+       onUpdateSession({ ...session, name: updatedName });
+    }
+  }, []);
+
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+
+  const modeMap = {
+    diagnostic: { label: "Diagnostic", subModes: [ { id: "placement", label: "Placement Quiz" }, { id: "concept", label: "Concept Check" } ] },
+    review: { label: "Review", subModes: [ { id: "notes", label: "Guided Notes" }, { id: "study-guide", label: "Study Guide" }, { id: "mnemonics", label: "Mnemonics" } ] },
+    mastery: { label: "Mastery", subModes: [ { id: "map", label: "Knowledge Map" }, { id: "analogies", label: "Analogies" }, { id: "deep-dive", label: "Deep Dive" } ] },
+    practice: { label: "Practice", subModes: [ { id: "flashcards", label: "Flashcards" }, { id: "quiz", label: "Interactive Quiz" }, { id: "worksheet", label: "Worksheet" } ] },
+    progress: { label: "Progress", subModes: [ { id: "stats", label: "Statistics" }, { id: "achievements", label: "Achievements" } ] }
+  };
+
+  const activePillar = Object.entries(modeMap).find(([key, pillar]) => pillar.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
+
+  return (
+    <div className="flex h-full w-full gap-4 md:gap-6">
+      <div className="w-[140px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-4 text-gray-800 dark:text-gray-300 gap-0.5">
+         <h2 className="text-[0.6rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4 px-1">Learning Path</h2>
+         {Object.entries(modeMap).map(([pillarKey, pillarData]) => {
+           const isActivePillar = activePillar === pillarKey;
+           return (
+             <div key={pillarKey} className="flex flex-col">
+                {pillarKey === "progress" && <hr className="my-2 border-gray-100 dark:border-gray-800" />}
+                <div 
+                  className={`flex items-center justify-between px-2 py-2 rounded-lg cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
+                  onClick={() => { if (!isActivePillar && pillarData.subModes.length > 0) onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id }); }}
+                >
+                  <span className="text-[0.8rem] tracking-tight">{pillarData.label}</span>
+                </div>
+                <div className={`flex flex-col pl-3 border-l-2 border-gray-100 dark:border-gray-800/60 ml-2 space-y-0.5 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-0.5 mb-2 opacity-100" : "max-h-0 opacity-0"}`}>
+                   {isActivePillar && pillarData.subModes.map((sub) => (
+                      <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`text-left px-2 py-1.5 rounded-lg text-[0.75rem] transition-colors ${currentMode === sub.id ? "font-bold text-gray-900 dark:text-gray-100 bg-gray-100 dark:bg-gray-800 shadow-sm border border-gray-200/60 dark:border-gray-700/60" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>{sub.label}</button>
+                   ))}
+                </div>
+             </div>
+           );
+         })}
+      </div>
+
+      <div className="relative flex h-full flex-col flex-1 overflow-hidden bg-transparent">
         <div className="custom-scrollbar flex-1 space-y-6 overflow-y-auto px-4 pt-16 pb-8 sm:px-6 lg:px-8 flex flex-col items-center">
           {messages.map((m, idx) => {
             const isUser = m.role === "user";
-            const isStreaming = isLoading && idx === messages.length - 1 && !isUser; 
-          </div>
-          <div className="relative flex h-full flex-col flex-1 overflow-hidden bg-transparent">
+            const isStreaming = isLoading && idx === messages.length - 1 && !isUser;
             return (
               <div key={idx} className={`w-full max-w-[800px] animate-in fade-in flex ${isUser ? "justify-end" : "justify-center"}`}>
                  {isUser ? (
