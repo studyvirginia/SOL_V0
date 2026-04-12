@@ -20,22 +20,20 @@ function loadOpenRouterKey() {
 }
 
 const SYSTEM_PROMPT = `You are an expert Virginia SOL educational tutor and "Search Architect."
-Your task is to review a specific curriculum standard, provide a very brief 1-2 sentence explanation of the concept for a student, and then generate a highly structured Openverse search object.
+Your task is to review a specific curriculum standard, provide a very brief 1-2 sentence explanation of the concept for a student, and then generate a highly structured Openverse search strategy.
 
 Format (must be on its own line, valid JSON, no surrounding markdown):
-%%IMAGE%%{"visual_search_term": "<search terms>", "preferred_extension": "svg|jpg|png", "source_priority": "museum|science|general"}%%END_IMAGE%%
+%%IMAGE%%{"title_match_query": "<exact museum title>", "descriptive_keywords": "<long keyword list>", "preferred_extension": "svg|jpg|png", "source_priority": "museum|science|general"}%%END_IMAGE%%
 
 FIELDS:
-- visual_search_term: Clean, broad, and highly reliable search terms. Focus on famous or foundational examples.
+- title_match_query: PREDICT what a professional museum or library would title this image (e.g., "Medical illustration of the human digestive system"). Use "double quotes" for exact academic terms (e.g., "Mitosis").
+- descriptive_keywords: A detailed list of 4-6 descriptive keywords to use if the title search fails.
 - preferred_extension: Use "svg" for diagrams/geometry, "jpg" for photography/artifacts.
-- source_priority: 
-    - "museum" (History/Art)
-    - "science" (Biology/Earth Science)
-    - "general" (Generic educational topics)
+- source_priority: "museum" | "science" | "general".
 
 RULES:
 - Emit ONE image token per response. Place it after your brief explanation.
-- BE CONSERVATIVE: If the curriculum standard is niche, search for a broad foundational concept.
+- BE CONSERVATIVE: Focus on foundational concepts that are guaranteed to have high-quality institutional images.
 - Do NOT wrap it in a code fence.`;
 
 export default async function handler(req, res) {

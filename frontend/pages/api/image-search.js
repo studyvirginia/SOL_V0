@@ -21,18 +21,25 @@ function loadOpenRouterKey() {
 
 const STAGE_2_MODEL = "google/gemini-2.0-flash-lite-001";
 
-// Elite Source Slugs for Openverse
 const SOURCE_MAP = {
   museum: "met,clevelandmuseum,brooklynmuseum,smithsonian_institution,smithsonian_national_museum_of_natural_history,smithsonian_american_art_museum,smithsonian_air_and_space_museum",
   science: "nasa,inaturalist,phylopic",
   general: "wikimedia,flickr"
 };
 
-async function fetchAndVerify(searchTerms, preferredExtension, sourcePriority, standardContext, openrouter, apiKey) {
-  // 1. Construct Openverse URL
-  // We use license_type=commercial,modification for better academic freedom
-  let url = `https://api.openverse.engineering/v1/images/?q=${encodeURIComponent(searchTerms)}&license_type=commercial,modification&include_sensitive_results=false&page_size=1`;
+async function fetchAndVerify(query, searchType, preferredExtension, sourcePriority, standardContext, openrouter, apiKey) {
+  // Constructed Openverse URL
+  // searchType can be 'title' (exact field search) or 'general' (q parameter)
+  let url = `https://api.openverse.engineering/v1/images/?license_type=commercial,modification&include_sensitive_results=false&page_size=1`;
   
+  if (searchType === 'title') {
+    // Advanced: Search specifically in the Title field for highest relevance
+    url += `&title=${encodeURIComponent(query)}`;
+  } else {
+    // Broad: Use general query across all fields (tags, description, etc.)
+    url += `&q=${encodeURIComponent(query)}`;
+  }
+
   if (preferredExtension) {
     url += `&extension=${preferredExtension}`;
   }
@@ -41,14 +48,16 @@ async function fetchAndVerify(searchTerms, preferredExtension, sourcePriority, s
     url += `&source=${SOURCE_MAP[sourcePriority]}`;
   }
 
+  console.log(`[Shield Fetch] Type: ${searchType}, URL: ${url}`);
+
   const response = await fetch(url, {
-    headers: { "User-Agent": "SOLAssistant/3.0 (lincoln@studyvirginia.org) Bot" }
+    headers: { "User-Agent": "SOLAssistant/4.0 (lincoln@studyvirginia.org) Bot" }
   });
 
   const data = await response.json();
 
   if (!data.results || data.results.length === 0) {
-    return { success: false, reason: "No quality images found in Openverse elite sources.", fallback_query: searchTerms };
+    return { success: false, reason: "No high-precision title matches found.", fallback_needed: searchType === 'title' };
   }
 
   const image = data.results[0];
@@ -56,29 +65,30 @@ async function fetchAndVerify(searchTerms, preferredExtension, sourcePriority, s
   // Layer 3 Safety: Manual Sensitivity Scan
   if (image.sensitivity && image.sensitivity.length > 0) {
     console.warn(`[Shield Reject] Sensitive content flagged: ${image.sensitivity.join(', ')}`);
-    return { success: false, reason: "Sensitive content blocked by shield.", fallback_query: "" };
+    return { success: false, reason: "Educational Meta-Match Rejected: Sensitive Content.", fallback_needed: false };
   }
 
-  // Stage 3: The AI Verifier (Hardcoded Flash Lite)
+  // Stage 3: The AI Verifier (Meta-Match)
   if (standardContext && apiKey && openrouter) {
     const tagsStr = (image.tags || []).map(t => t.name).join(', ');
-    const prompt = `You are an educational relevance verifier for Openverse media.
-Determine if the provided candidate image EXACTLY matches the original visual search term AND supports the standard concept.
+    const prompt = `You are an Educational Meta-Match Verifier. 
+Verify if the image text-metadata (Title/Tags) matches the curriculum standard. **NOTE: You are only scanning text, NOT the image itself.**
 
-Original Search Term: ${searchTerms}
-Standard Concept: ${standardContext}
+Original Search: ${query}
+Standard Context: ${standardContext}
 
-Candidate Title: ${image.title}
-Candidate Provider: ${image.provider}
-Candidate Tags: ${tagsStr}
+Image Metadata to Verify:
+- Title: ${image.title}
+- Provider: ${image.provider}
+- Tags/Topics: ${tagsStr}
 
 CRITICAL RULES:
-1. The title and tags MUST be primarily in English. Reject foreign languages.
-2. The image MUST be an EXACT match for the searched topic.
-3. If it fails, output {"approved": false, "fallback_query": "<simplified English search term>"}.
+1. Reject if Title/Tags are in a non-English language.
+2. Reject if the metadata indicates this is an unrelated object.
+3. If it fails, output {"approved": false, "fallback_query": "<alternative search query>"}.
 
-OUTPUT FORMAT (Strict JSON, no markdown):
-{"approved": true|false, "fallback_query": "<string if false>"}`;
+OUTPUT FORMAT (JSON ONLY):
+{"approved": true|false, "fallback_query": "<string>"}`;
 
     const { text } = await generateText({
       model: openrouter(STAGE_2_MODEL),
@@ -95,11 +105,15 @@ OUTPUT FORMAT (Strict JSON, no markdown):
       const verifierResponse = JSON.parse(cleanText);
       
       if (!verifierResponse.approved) {
-        console.warn(`[Shield Reject] Openverse Verifier rejected: ${image.title}. Fallback: ${verifierResponse.fallback_query}`);
-        return { success: false, reason: "Visual match rejected by AI verifier.", fallback_query: verifierResponse.fallback_query };
+        console.warn(`[Shield Reject] Educational Meta-Match Rejected for: ${image.title}. Fallback suggested: ${verifierResponse.fallback_query}`);
+        return { 
+          success: false, 
+          reason: "Educational Meta-Match Rejected by AI Verifier.", 
+          fallback_query: verifierResponse.fallback_query 
+        };
       }
     } catch (e) {
-      return { success: false, reason: "Verifier format error", fallback_query: "" };
+      return { success: false, reason: "Verifier Output Format Error", fallback_needed: false };
     }
   }
 
@@ -109,7 +123,7 @@ OUTPUT FORMAT (Strict JSON, no markdown):
       url: image.url,
       thumbnail: image.thumbnail,
       sourceUrl: image.foreign_landing_url,
-      attribution: `${image.title} by ${image.creator || 'Unknown'} via ${image.provider.toUpperCase()} (License: ${image.license.toUpperCase()})`,
+      attribution: `${image.title} via ${image.provider.toUpperCase()}`,
       license: image.license,
       provider: image.provider,
       title: image.title
@@ -119,22 +133,27 @@ OUTPUT FORMAT (Strict JSON, no markdown):
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({error: 'Method not allowed'});
-  const { visual_search_term, preferred_extension, source_priority, standardContext } = req.body;
+  const { title_match_query, descriptive_keywords, preferred_extension, source_priority, standardContext } = req.body;
   
-  if (!visual_search_term) return res.status(400).json({error: 'Missing visual_search_term'});
+  if (!title_match_query) return res.status(400).json({error: 'Missing search terms'});
 
   try {
     const apiKey = loadOpenRouterKey();
     const openrouter = apiKey ? createOpenAICompatible({ name: "openrouter", baseURL: "https://openrouter.ai/api/v1", apiKey }) : null;
 
-    // Attempt 1
-    let result = await fetchAndVerify(visual_search_term, preferred_extension, source_priority, standardContext, openrouter, apiKey);
+    // STEP 1: High-Precision "Title Match" Search
+    let result = await fetchAndVerify(title_match_query, 'title', preferred_extension, source_priority, standardContext, openrouter, apiKey);
 
-    // One-Shot Retry
+    // STEP 2: Fallback to "Descriptive Keywords" Search
+    if (!result.success && result.fallback_needed) {
+      console.log(`[Shield Fallback] No Title match. Trying descriptive keywords: "${descriptive_keywords}"`);
+      result = await fetchAndVerify(descriptive_keywords, 'general', preferred_extension, source_priority, standardContext, openrouter, apiKey);
+    }
+
+    // STEP 3: Final Intelligent Check Retry
     if (!result.success && result.fallback_query) {
-      console.log(`[Shield Retry] Openverse Retrying with: "${result.fallback_query}"`);
-      // For retry, we drop the source priority and extension to be as broad as possible
-      result = await fetchAndVerify(result.fallback_query, null, null, standardContext, openrouter, apiKey);
+       console.log(`[Shield Retry] Final attempt with Verifier-suggested term: "${result.fallback_query}"`);
+       result = await fetchAndVerify(result.fallback_query, 'general', null, null, standardContext, openrouter, apiKey);
     }
 
     if (!result.success) {
@@ -144,7 +163,7 @@ export default async function handler(req, res) {
     return res.status(200).json(result.data);
 
   } catch (error) {
-    console.error("Openverse Proxy Error:", error.message);
+    console.error("Openverse Engine Reliability Error:", error.message);
     return res.status(500).json({ error: error.message });
   }
 }

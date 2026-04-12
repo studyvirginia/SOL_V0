@@ -89,10 +89,10 @@ function StandardCard({ standard, result, loading, onTest }) {
       {/* Footer */}
       <div className="px-3 py-2 flex items-center justify-between border-t border-gray-100 dark:border-gray-800 bg-gray-50/80 dark:bg-gray-900/80">
         <div className="flex-1 min-w-0 mr-2 flex flex-col justify-center">
-          {status !== "idle" && result?.query ? (
+          {status !== "idle" && (result?.title_match_query || result?.query) ? (
             <>
               <span className="text-[0.6rem] font-bold text-gray-800 dark:text-gray-100 truncate font-mono bg-blue-100/50 dark:bg-blue-900/30 px-1 py-0.5 rounded inline-block w-fit mb-0.5 uppercase tracking-wide">
-                AI Q: {result.query}
+                AI Q: {result.title_match_query || result.query}
               </span>
               {status === "done" && result?.sourceUrl && (
                 <a
