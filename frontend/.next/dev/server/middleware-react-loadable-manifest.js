@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"pages/penrose-standards-dashboard.js -> ../components/PenroseRenderer\":{\"id\":\"pages/penrose-standards-dashboard.js -> ../components/PenroseRenderer\",\"files\":[\"static/chunks/_pages-dir-browser_components_PenroseRenderer_js.js\"]}}"
