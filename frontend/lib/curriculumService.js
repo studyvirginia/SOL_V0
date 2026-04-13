@@ -107,22 +107,36 @@ export async function getCourseBreakdown(subject, course) {
     const courseJson = await loadCourseJson(subject, course);
     if (!courseJson || !courseJson.domains) return [];
 
-    const breakdown = [];
-    courseJson.domains.forEach(domain => {
-      // Add domain as a high-level unit
-      breakdown.push({ label: domain.name, value: `domain:${domain.name}`, type: 'domain' });
-      
-      // Optionally add standards as specific topics
-      if (domain.standards) {
-        domain.standards.forEach(std => {
-          breakdown.push({ label: `↳ ${std.code}: ${std.description.slice(0, 50)}${std.description.length > 50 ? '...' : ''}`, value: `standard:${std.code}`, type: 'standard' });
-        });
-      }
+    return courseJson.domains.map(domain => {
+      const firstCode = domain.standards?.[0]?.code || "";
+      const parts = firstCode.split(".");
+      const abbrev = parts.length >= 2 ? `${parts[0]}. ${parts[1]}` : firstCode;
+      const label = abbrev ? `${domain.name} (${abbrev})` : domain.name;
+      return { label, value: `domain:${domain.name}`, type: "domain" };
     });
-
-    return breakdown;
   } catch (e) {
     console.error("Error breaking down course:", e);
+    return [];
+  }
+}
+
+export async function getCourseStandards(subject, course) {
+  try {
+    const courseJson = await loadCourseJson(subject, course);
+    if (!courseJson || !courseJson.domains) return [];
+
+    const standards = [];
+    courseJson.domains.forEach(domain => {
+      (domain.standards || []).forEach(std => {
+        const desc = std.description.length > 60
+          ? `${std.description.slice(0, 60)}...`
+          : std.description;
+        standards.push({ label: `${std.code}: ${desc}`, value: std.code, type: "standard" });
+      });
+    });
+    return standards;
+  } catch (err) {
+    console.error("getCourseStandards error:", err);
     return [];
   }
 }
