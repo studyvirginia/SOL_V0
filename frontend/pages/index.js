@@ -1,5 +1,8 @@
 import { useState, useEffect } from "react";
 import ChatWindow, { formatName } from "../components/ChatWindow";
+import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
+import Link from "next/link";
+import { BarChart3, LayoutDashboard } from "lucide-react";
 
 const DEFAULT_SUBMODES = [
   "diagnostic",
@@ -511,17 +514,35 @@ export default function Home() {
                   <div className="h-8 w-8 flex items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-md text-sm">
                     S
                   </div> 
-                  My Study Sessions
                 </h1>
                 <p className="mt-1 text-xs text-gray-500 dark:text-gray-400 font-medium">Select a study session or create a new curriculum thread.</p>
               </div>
-              <button
-                onClick={() => setIsModalOpen(true)}
-                className="flex items-center gap-2 rounded-lg bg-blue-600 px-5 py-2.5 text-xs font-bold text-white shadow-sm transition-all hover:bg-blue-700 active:scale-95 shrink-0"
-              >
-                <PlusIcon className="h-4 w-4" />
-                <span>New Session</span>
-              </button>
+
+              <div className="flex items-center gap-3">
+                <Link
+                  href="/standards-coverage"
+                  className="hidden md:flex items-center gap-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-[0.7rem] font-bold text-gray-600 dark:text-gray-300 shadow-sm transition-all hover:bg-gray-50 dark:hover:bg-gray-700 active:scale-95"
+                  title="Coverage Analytics"
+                >
+                  <BarChart3 className="h-3.5 w-3.5" />
+                  <span>Coverage</span>
+                </Link>
+                <Link
+                  href="/penrose-standards-dashboard"
+                  className="hidden md:flex items-center gap-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-[0.7rem] font-bold text-gray-600 dark:text-gray-300 shadow-sm transition-all hover:bg-gray-50 dark:hover:bg-gray-700 active:scale-95"
+                  title="Visual Standards"
+                >
+                  <LayoutDashboard className="h-3.5 w-3.5" />
+                  <span>Visuals</span>
+                </Link>
+                <button
+                  onClick={() => setIsModalOpen(true)}
+                  className="flex items-center gap-2 rounded-lg bg-blue-600 px-5 py-2.5 text-xs font-bold text-white shadow-sm transition-all hover:bg-blue-700 active:scale-95 shrink-0"
+                >
+                  <PlusIcon className="h-4 w-4" />
+                  <span>New Session</span>
+                </button>
+              </div>
             </header>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

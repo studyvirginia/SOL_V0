@@ -44,3 +44,4 @@ coverage/
 # frontend/ was ignored, removing ignore to track code
 
 **/node_modules/
+**/frontend/.data/

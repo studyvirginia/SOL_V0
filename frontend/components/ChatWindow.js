@@ -49,10 +49,18 @@ const DesmosRenderer = dynamic(() => import("./DesmosRenderer"), {
   loading: () => <div className="text-sm text-gray-500 italic p-4">Loading graph...</div>,
 });
 
+const OpenverseRenderer = dynamic(() => import("./OpenverseRenderer"), {
+  ssr: false,
+  loading: () => <div className="text-sm text-gray-500 italic p-4 opacity-50 font-bold uppercase tracking-widest text-[0.6rem]">Loading media...</div>,
+});
+
 // Complete token — both delimiters present
 const GRAPH_TOKEN_RE = /%%GRAPH%%[\s\S]*?%%END_GRAPH%%/g;
+const IMAGE_TOKEN_RE = /%%IMAGE%%[\s\S]*?%%END_IMAGE%%/g;
+
 // Partial token — opening delimiter present but closing not yet arrived (strips during streaming)
 const GRAPH_PARTIAL_RE = /%%GRAPH%%[\s\S]*$/;
+const IMAGE_PARTIAL_RE = /%%IMAGE%%[\s\S]*$/;
 
 /**
  * Split a message string into alternating text/graph segments so graphs
@@ -73,10 +81,12 @@ function splitMessageSegments(content) {
     ...content.matchAll(GRAPH_RE),
     ...content.matchAll(FLASHCARDS_RE),
     ...content.matchAll(MCQ_RE),
-    ...content.matchAll(QUIZ_RE)
+    ...content.matchAll(QUIZ_RE),
+    ...content.matchAll(IMAGE_TOKEN_RE)
   ].sort((a, b) => a.index - b.index);
 
   let graphCounter = 0;
+  let imageCounter = 0;
   matches.forEach((m) => {
     if (m.index > lastIndex) {
       segments.push({ type: 'text', content: content.slice(lastIndex, m.index) });
@@ -91,6 +101,8 @@ function splitMessageSegments(content) {
       segments.push({ type: 'mcq', data: m[1] });
     } else if (m[0].startsWith('%%QUIZ%%')) {
       segments.push({ type: 'quiz', data: m[1] });
+    } else if (m[0].startsWith('%%IMAGE%%')) {
+      segments.push({ type: 'image', data: m[0], imageIndex: imageCounter++ });
     }
     lastIndex = m.index + m[0].length;
   });
@@ -157,6 +169,8 @@ const MarkdownMessage = ({ content, isUser }) => {
   const formattedContent = String(content || "")
     .replace(new RegExp(GRAPH_TOKEN_RE.source, 'g'), "")  // complete tokens
     .replace(GRAPH_PARTIAL_RE, "")                        // partial tokens (streaming)
+    .replace(IMAGE_TOKEN_RE, "")
+    .replace(IMAGE_PARTIAL_RE, "")
     .replace(/\[h\](.*?)\[\/h\]/g, "[$1](#highlight)")
     .replace(/\[c\](.*?)\[\/c\]/g, "[$1](#circle)")
     .replace(/\[u\](.*?)\[\/u\]/g, "[$1](#underline)")
@@ -262,12 +276,67 @@ const MarkdownMessage = ({ content, isUser }) => {
   );
 }
 
+function buildEmptyCompletionMap() {
+  const completed = {};
+  Object.values(MODE_MAP).forEach((mode) => {
+    mode.subModes.forEach((sub) => {
+      completed[sub.id] = false;
+    });
+  });
+  return completed;
+}
+
+function normalizeJourney(session, fallbackSubMode) {
+  const existing = session?.journey || {};
+  const completed = { ...buildEmptyCompletionMap(), ...(existing.completed || {}) };
+  return {
+    completed,
+    currentSubMode: fallbackSubMode || existing.currentSubMode || "notes",
+    completedAt: existing.completedAt || {},
+  };
+}
+
+function getModeCompletionStats(completedMap = {}) {
+  return Object.entries(MODE_MAP).map(([modeKey, mode]) => {
+    const total = mode.subModes.length;
+    const done = mode.subModes.filter((sub) => Boolean(completedMap[sub.id])).length;
+    return {
+      modeKey,
+      done,
+      total,
+      isDone: done === total,
+    };
+  });
+}
+
+function getRecommendedSubMode(currentSubMode, completedMap = {}) {
+  const modeKeyPairs = Object.entries(MODE_MAP);
+  const currentModeKey = modeKeyPairs.find(([, mode]) => mode.subModes.some(sub => sub.id === currentSubMode))?.[0] || "review";
+  const modeOrder = Object.keys(MODE_MAP);
+  const currentMode = MODE_MAP[currentModeKey];
+
+  const inCurrentMode = currentMode.subModes.find((sub) => !completedMap[sub.id] && sub.id !== currentSubMode);
+  if (inCurrentMode) return { subModeId: inCurrentMode.id, modeKey: currentModeKey };
+
+  const currentIndex = modeOrder.indexOf(currentModeKey);
+  for (let offset = 1; offset <= modeOrder.length; offset++) {
+    const modeKey = modeOrder[(currentIndex + offset) % modeOrder.length];
+    const mode = MODE_MAP[modeKey];
+    const nextIncomplete = mode.subModes.find((sub) => !completedMap[sub.id]);
+    if (nextIncomplete) return { subModeId: nextIncomplete.id, modeKey };
+  }
+  return null;
+}
+
 export default function ChatWindow({ session, onUpdateSession, graphEngine = "geogebra" }) {
   const bottomRef = useRef(null);
 
   const subject = session.subject || "";
   const course = session.course || "";
-  const currentMode = session.retrievalMode || "notes";
+  const journey = normalizeJourney(session, session.retrievalMode || "notes");
+  const currentMode = journey.currentSubMode || "notes";
+  const completionStats = getModeCompletionStats(journey.completed);
+  const recommended = getRecommendedSubMode(currentMode, journey.completed);
 
   const [messages, setMessages] = useState(session.messages || []);
   const [draftInput, setDraftInput] = useState("");
@@ -276,6 +345,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   // graphs: { [messageId]: [{ status: 'pending'|'done'|'error', ggbState?, desmosState? }] }
   // Seeded from session.graphs so graphs survive reload and session switches.
   const [graphs, setGraphs] = useState(session.graphs || {});
+  const [images, setImages] = useState({});
 
   // Refs so the persistence effect below can read latest values without
   // being a dependency (which would cause an infinite loop).
@@ -464,6 +534,46 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
             });
         });
       }
+      // Step 2: Extract Image Tokens (Openverse)
+      const imageMatches = [...rawText.matchAll(IMAGE_TOKEN_RE)];
+      if (imageMatches.length > 0) {
+        const pending = imageMatches.map(() => ({ status: "pending", url: null }));
+        setImages(prev => ({ ...prev, [aiId]: pending }));
+
+        imageMatches.forEach((m, idx) => {
+          let imageRequest;
+          try {
+            const rawJson = m[0].replace('%%IMAGE%%', '').replace('%%END_IMAGE%%', '').trim();
+            imageRequest = JSON.parse(rawJson);
+          } catch (e) { return; }
+
+          fetch("/api/image-search", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ 
+              visual_search_term: imageRequest.visual_search_term || imageRequest.query,
+              preferred_extension: imageRequest.extension,
+              source_priority: imageRequest.source,
+              standardContext: session.userFacts?.focusTopic || session.course
+            }),
+          })
+            .then(r => r.json())
+            .then(data => {
+               setImages(prev => {
+                  const arr = [...(prev[aiId] || [])];
+                  arr[idx] = { status: "done", ...data, caption: imageRequest.caption };
+                  return { ...prev, [aiId]: arr };
+               });
+            })
+            .catch(() => {
+               setImages(prev => {
+                  const arr = [...(prev[aiId] || [])];
+                  arr[idx] = { status: "error" };
+                  return { ...prev, [aiId]: arr };
+               });
+            });
+        });
+      }
     } catch (err) {
       console.error("Chat fetch failure:", err);
       // Simplify "TypeError: Load failed" into something more user-friendly
@@ -475,6 +585,58 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
       setIsLoading(false);
     }
   };
+
+  const switchSubMode = (newSubMode, shouldPrompt = false) => {
+    onUpdateSession({
+      ...sessionRef.current,
+      retrievalMode: newSubMode,
+      journey: { ...journey, currentSubMode: newSubMode },
+    });
+    if (shouldPrompt) {
+      setTimeout(() => {
+         handleFormSubmit(null, `Start ${getSubModeLabel(newSubMode)} mode`);
+      }, 50);
+    }
+  };
+
+  const markCurrentSubModeComplete = () => {
+    const now = new Date().toISOString();
+    const subModeLabel = getSubModeLabel(currentMode);
+    const nextRecommended = getRecommendedSubMode(currentMode, { ...journey.completed, [currentMode]: true });
+
+    setMessages((prev) => [
+      ...prev,
+      {
+        id: `${Date.now()}_nav_complete`,
+        role: "assistant",
+        content: nextRecommended
+          ? `You completed **${subModeLabel}**. Recommended next: **${getSubModeLabel(nextRecommended.subModeId)}**. Use the navigation buttons below to continue.`
+          : `You completed **${subModeLabel}**. Nice work. You can review any mode or continue practicing.`,
+      },
+    ]);
+
+    onUpdateSession({
+      ...sessionRef.current,
+      journey: {
+        ...journey,
+        completed: { ...journey.completed, [currentMode]: true },
+        completedAt: { ...(journey.completedAt || {}), [currentMode]: now },
+      }
+    });
+  };
+
+  useEffect(() => {
+    if (isLoading || messages.length < 2) return;
+    const lastMsg = messages[messages.length - 1];
+    if (lastMsg.role !== "assistant" || !lastMsg.content || journey.completed[currentMode]) return;
+    
+    let shouldComplete = false;
+    if ((currentMode === "notes" || currentMode === "study-guide") && lastMsg.content.length > 500) shouldComplete = true;
+    if (currentMode === "map" && lastMsg.content.includes("%%GRAPH%%")) shouldComplete = true;
+    if (currentMode === "flashcards" && messages.filter(m => m.role === 'user' || typeof m.subMode === 'string').length >= 4) shouldComplete = true;
+
+    if (shouldComplete) markCurrentSubModeComplete();
+  }, [messages, isLoading]);
 
   useEffect(() => {
     if (messages && messages.length > 0) {
@@ -497,33 +659,32 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  const modeMap = {
-    diagnostic: { label: "Diagnostic", subModes: [{ id: "placement", label: "Placement Quiz" }, { id: "concept", label: "Concept Check" }] },
-    review: { label: "Review", subModes: [{ id: "notes", label: "Guided Notes" }, { id: "study-guide", label: "Study Guide" }, { id: "mnemonics", label: "Mnemonics" }] },
-    mastery: { label: "Mastery", subModes: [{ id: "map", label: "Knowledge Map" }, { id: "analogies", label: "Analogies" }, { id: "deep-dive", label: "Deep Dive" }] },
-    practice: { label: "Practice", subModes: [{ id: "flashcards", label: "Flashcards" }, { id: "quiz", label: "Interactive Quiz" }, { id: "worksheet", label: "Worksheet" }] },
-    progress: { label: "Progress", subModes: [{ id: "stats", label: "Statistics" }, { id: "achievements", label: "Achievements" }] }
-  };
 
-  const activePillar = Object.entries(modeMap).find(([key, pillar]) => pillar.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
+
+  const activePillar = Object.entries(MODE_MAP).find(([key, pillar]) => pillar.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
 
   return (
     <div className="flex h-full w-full gap-4 md:gap-8">
-      <div className="w-[200px] hidden lg:flex flex-col shrink-0 space-y-2 h-full py-8 text-gray-800 dark:text-gray-300 gap-1">
-        <h2 className="text-[0.65rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-6 px-1">Learning Path</h2>
-        {Object.entries(modeMap).map(([pillarKey, pillarData]) => {
+      <div className="w-[140px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-6 text-gray-800 dark:text-gray-300">
+        <h2 className="text-[0.65rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4 px-1">Learning Path</h2>
+        {Object.entries(MODE_MAP).map(([pillarKey, pillarData]) => {
           const isActivePillar = activePillar === pillarKey;
+          const stat = completionStats.find(s => s.modeKey === pillarKey);
           return (
             <div key={pillarKey} className="flex flex-col">
               <div
-                className={`flex items-center justify-between px-3 py-2.5 rounded-xl cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
+                className={`flex items-center justify-between px-2 py-2 rounded-xl cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
                 onClick={() => { if (!isActivePillar && pillarData.subModes.length > 0) onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id }); }}
               >
-                <span className="tracking-tight">{pillarData.label}</span>
+                <span className={`text-[0.65rem] uppercase tracking-widest ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-black" : "text-gray-400 dark:text-gray-500 font-bold opacity-70"}`}>{pillarData.label}</span>
+                {stat && pillarKey !== "progress" && <span className="text-[0.62rem] font-bold opacity-80">{stat.done}/{stat.total}</span>}
               </div>
-              <div className={`flex flex-col pl-4 border-l-2 border-gray-100 dark:border-gray-800/60 ml-3 space-y-1 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-4 opacity-100" : "max-h-0 opacity-0"}`}>
+              <div className={`flex flex-col space-y-0.5 ml-2 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-3 opacity-100" : "max-h-0 opacity-0"}`}>
                 {isActivePillar && pillarData.subModes.map((sub) => (
-                  <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`text-left px-3 py-2 rounded-lg text-[0.85rem] transition-colors ${currentMode === sub.id ? "font-bold text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-800 shadow-sm border border-gray-200/60 dark:border-gray-700/60" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>{sub.label}</button>
+                  <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`group relative flex items-center justify-between px-2 py-1.5 rounded-lg text-[0.7rem] transition-colors ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>
+                    <span className="truncate pr-2">{sub.label}</span>
+                    <span className="flex-shrink-0 text-[0.65rem] font-black">{journey.completed[sub.id] ? "✓" : recommended?.subModeId === sub.id ? "★" : ""}</span>
+                  </button>
                 ))}
               </div>
             </div>
@@ -578,15 +739,20 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                         return <FlashcardDeck key={segIdx} cards={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} />;
                       }
                       if (seg.type === 'mcq') {
-                        return <AdaptiveMCQ key={segIdx} questionData={(() => { try { return JSON.parse(seg.data); } catch { return null; } })()} />;
+                        const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
+                        if (!data) return null;
+                        return <AdaptiveMCQ key={segIdx} {...data} />;
                       }
                       if (seg.type === 'quiz') {
-                        return <QuizRunner key={segIdx} quizData={(() => { try { return JSON.parse(seg.data); } catch { return null; } })()} />;
+                        const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
+                        if (!data) return null;
+                        return <QuizRunner key={segIdx} {...data} />;
                       }
                       
-                      const g = (graphs[m.id] || [])[seg.graphIndex];
-                      if (!g) return null;
-                      return (
+                      if (seg.type === 'graph') {
+                        const g = (graphs[m.id] || [])[seg.graphIndex];
+                        if (!g) return null;
+                        return (
                         <div key={segIdx}>
                           {g.status === "pending" && (
                             <div className="flex items-center gap-2 my-6 text-xs font-semibold text-blue-500 uppercase tracking-widest opacity-60">
@@ -607,17 +773,59 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                           )}
                         </div>
                       );
-                    })}
-                  </div>
-                )}
-              </div>
-            );
-          })}
-          <div ref={bottomRef} className="h-8" />
+                    }
+
+                    if (seg.type === 'image') {
+                      const img = (images[m.id] || [])[seg.imageIndex];
+                      if (!img) return null;
+                      return (
+                        <div key={segIdx}>
+                          {img.status === "pending" && (
+                            <div className="flex items-center gap-3 my-8 text-[0.65rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-50">
+                               <div className="relative h-4 w-4">
+                                 <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                   <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                   <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                 </svg>
+                               </div>
+                               <span>Retrieving Educational Media</span>
+                            </div>
+                          )}
+                          {img.status === "done" && (
+                            <OpenverseRenderer image={img} caption={img.caption} />
+                          )}
+                          {img.status === "error" && (
+                            <p className="text-xs text-red-400 italic my-4 opacity-50">Contextual search returned no results.</p>
+                          )}
+                        </div>
+                      );
+                    }
+
+                    return null;
+                  })}
+                </div>
+              )}
+            </div>
+          );
+        })}
+          <div ref={bottomRef} className="h-4" />
+          {!isLoading && journey.completed[currentMode] && messages.length > 0 && messages[messages.length-1].role === "assistant" && (
+            <QuickActions actions={(() => {
+              const lastMsg = messages[messages.length - 1];
+              const actionsSeg = splitMessageSegments(lastMsg.content).find(s => s.type === 'actions');
+              if (actionsSeg) { try { return JSON.parse(actionsSeg.data); } catch { return []; } }
+              const pk = Object.entries(MODE_MAP).find(([, mode]) => mode.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
+              const lat = MODE_MAP[pk].subModes.filter(s => s.id !== currentMode && !journey.completed[s.id]).map(s => s.id);
+              const pks = Object.keys(MODE_MAP);
+              const nk = pks[pks.indexOf(pk) + 1];
+              return [...lat, nk].filter(Boolean);
+            })()} currentSubMode={currentMode} onSwitch={switchSubMode} onSend={(prompt) => handleFormSubmit(null, prompt)} />
+          )}
+          <div className="h-24" />
         </div>
 
-        <div className="absolute bottom-4 inset-x-0 flex justify-center px-4 pointer-events-none">
-          <form onSubmit={handleFormSubmit} className="w-full max-w-[750px] relative flex items-center gap-3 pointer-events-auto rounded-3xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.1)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1.5 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/20">
+        <form onSubmit={handleFormSubmit} className="absolute bottom-4 inset-x-0 flex justify-center px-4 pointer-events-none w-full">
+          <div className="w-full max-w-[850px] pointer-events-auto flex items-center gap-2 rounded-xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.08)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/10">
             <input
               className="flex-1 bg-transparent py-3.5 pl-6 pr-16 text-[1.05rem] font-medium text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none"
               value={draftInput}
@@ -627,8 +835,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
             <button type="submit" className="absolute right-2 top-2 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isLoading || !draftInput.trim()}>
               <SendIcon className="h-5 w-5" />
             </button>
-          </form>
-        </div>
+          </div>
+        </form>
 
         {error && (
           <div className="absolute top-12 inset-x-0 flex justify-center">
