@@ -43,3 +43,4 @@ coverage/
 # Submodules
 # frontend/ was ignored, removing ignore to track code
 
+**/node_modules/

@@ -29,6 +29,7 @@ function createDefaultJourney(currentSubMode = "diagnostic") {
 const FOCUS_OPTIONS = [
   "SOL exam",
   "Unit test",
+  "Standard",
   "Concept quiz",
   "Final/Midterm",
   "Other",
@@ -107,6 +108,16 @@ export default function Home() {
       })
       .then(res => res.json())
       .then(data => setModalUnitOptions(data.breakdown || []))
+      .catch(console.error);
+    } else if (modalSessionFocus === "Standard") {
+      setModalTopicSuggestions([]);
+      fetch("/api/course-standards", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ subject: modalSubject, course: modalCourse })
+      })
+      .then(res => res.json())
+      .then(data => setModalUnitOptions(data.standards || []))
       .catch(console.error);
     } else if (modalSessionFocus === "Concept quiz") {
       setModalUnitOptions([]);

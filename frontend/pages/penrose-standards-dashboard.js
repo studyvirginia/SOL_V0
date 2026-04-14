@@ -27,6 +27,14 @@ function PenroseArchetypeCard({ archetypeId, renderAllToken }) {
   const [active, setActive] = useState(false);
   const triggeredRef = useRef(false);
 
+  if (!archetype || !archetype.trio) {
+    return (
+      <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-xs text-amber-900">
+        Missing archetype configuration: <span className="font-semibold">{archetypeId}</span>
+      </div>
+    );
+  }
+
   useEffect(() => {
     if (renderAllToken > 0 && !triggeredRef.current) {
       triggeredRef.current = true;
