@@ -1,0 +1,42 @@
+{
+  "id": "1776133474477",
+  "subject": "math",
+  "course": "Algebra 1",
+  "retrievalMode": "diagnostic",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "",
+    "focusTopic": "",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "diagnostic": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "progress": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: diagnostic \nRecent questions: Start diagnostic \nRecent assistant focus: Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%% | Okay, let's start with a diagnostic quiz to assess your understanding of Algebra 1 concepts. This will help us identify areas where you excel and areas where we can focus our learning.\n\nHere's your first question:\n\n%%MCQ%%{\"question\": \"Simplify the expression: 3(x + 2) - 4x\", \"options\": [\"-x + 6\", \"7x + 6\", \"-x - 6\", \"7x - 6\"], \"answer\": 0, \"explanation\": \"Distribute the 3: 3x + 6. Combine like terms: 3x - 4x + 6 = -x + 6\"}%%END_MCQ%%",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start diagnostic"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's start with a diagnostic quiz to assess your understanding of Algebra 1 concepts. This will help us identify areas where you excel and areas where we can focus our learning.\n\nHere's your first question:\n\n%%MCQ%%{\"question\": \"Simplify the expression: 3(x + 2) - 4x\", \"options\": [\"-x + 6\", \"7x + 6\", \"-x - 6\", \"7x - 6\"], \"answer\": 0, \"explanation\": \"Distribute the 3: 3x + 6. Combine like terms: 3x - 4x + 6 = -x + 6\"}%%END_MCQ%%\n"
+    }
+  ],
+  "updatedAt": "2026-04-14T02:24:41.748Z"
+}

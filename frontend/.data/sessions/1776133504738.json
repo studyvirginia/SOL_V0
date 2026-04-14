@@ -1,0 +1,50 @@
+{
+  "id": "1776133504738",
+  "subject": "math",
+  "course": "Mathematical Analysis",
+  "retrievalMode": "flashcards",
+  "userFacts": {
+    "gradeLevel": "",
+    "areaOfFocus": "Concept quiz",
+    "focusTopic": "Distance and Midpoint Formulas",
+    "preferences": "",
+    "needs": "",
+    "completedMap": {
+      "diagnostic": false,
+      "notes": false,
+      "study-guide": false,
+      "flashcards": false,
+      "mnemonics": false,
+      "tips": false,
+      "analogies": false,
+      "questions": false,
+      "practice": false,
+      "quiz": false,
+      "progress": false
+    }
+  },
+  "sessionSummary": "Session retrieval mode: flashcards \nStudent personalization facts: Session focus: Concept quiz; Focus topic: Distance and Midpoint Formulas \nRecent questions: Start diagnostic | Start Flashcards mode \nRecent assistant focus: Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%% | Great! Let's start with a diagnostic quiz on the Distance and Midpoint Formulas.\n\nHere's your first question:\n\n%%MCQ%%{\"question\": \"What is the distance between the points (1, 2) and (4, 6)?\", \"options\": [\"3\", \"4\", \"5\", \"7\"], \"answer\": 2, \"explanation\": \"The distance formula is $\\\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. Plugging in the points (1, 2) and (4, 6), we get $\\\\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\\\sqrt{3^2 + 4^2} = \\\\sqrt{9 + 16} = \\\\sqrt{25} = 5$.\"}%%END_MCQ%% | Okay! Let's move on to flashcards to help you memorize the Distance and Midpoint Formulas.\n\nHere are your cards!\n%%FLASHCARDS%%[{\"front\": \"What is the Distance Formula...",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%"
+    },
+    {
+      "role": "user",
+      "content": "Start diagnostic"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Let's start with a diagnostic quiz on the Distance and Midpoint Formulas.\n\nHere's your first question:\n\n%%MCQ%%{\"question\": \"What is the distance between the points (1, 2) and (4, 6)?\", \"options\": [\"3\", \"4\", \"5\", \"7\"], \"answer\": 2, \"explanation\": \"The distance formula is $\\\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. Plugging in the points (1, 2) and (4, 6), we get $\\\\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\\\sqrt{3^2 + 4^2} = \\\\sqrt{9 + 16} = \\\\sqrt{25} = 5$.\"}%%END_MCQ%%"
+    },
+    {
+      "role": "user",
+      "content": "Start Flashcards mode"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay! Let's move on to flashcards to help you memorize the Distance and Midpoint Formulas.\n\nHere are your cards!\n%%FLASHCARDS%%[{\"front\": \"What is the Distance Formula?\", \"back\": \"$\\\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$\"}, {\"front\": \"What is the Midpoint Formula?\", \"back\": \"$\\\\left(\\\\frac{x_1 + x_2}{2}, \\\\frac{y_1 + y_2}{2}\\\\right)$\"}]%%END_FLASHCARDS%%\n\n%%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%"
+    }
+  ],
+  "updatedAt": "2026-04-14T02:25:16.145Z"
+}

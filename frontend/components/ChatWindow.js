@@ -164,6 +164,15 @@ function splitMessageSegments(content) {
   return segments;
 }
 
+const preprocessMarkdown = (text) => {
+  if (!text) return "";
+  return text
+    .replace(/\[h\]([\s\S]*?)\[\/h\]/g, '[$1](#annotation-h)')
+    .replace(/\[c\]([\s\S]*?)\[\/c\]/g, '[$1](#annotation-c)')
+    .replace(/\[u\]([\s\S]*?)\[\/u\]/g, '[$1](#annotation-u)')
+    .replace(/\[b\]([\s\S]*?)\[\/b\]/g, '[$1](#annotation-b)');
+};
+
 const MarkdownMessage = ({ content, isUser }) => (
   <div className={`prose prose-sm dark:prose-invert max-w-none ${isUser ? "text-white" : "text-gray-800 dark:text-gray-200"}`}>
     <ReactMarkdown
@@ -177,52 +186,33 @@ const MarkdownMessage = ({ content, isUser }) => (
         code: ({ inline, className, children }) => {
           if (inline) return <code className="bg-gray-100 dark:bg-gray-800 px-1 rounded text-blue-600 dark:text-blue-400">{children}</code>;
           return <pre className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg overflow-x-auto my-4">{children}</pre>;
+        },
+        a: ({ href, children }) => {
+          if (href?.startsWith('#annotation-')) {
+            const type = href.split('-')[1];
+            const notationType = type === 'h' ? 'highlight' : type === 'c' ? 'circle' : type === 'u' ? 'underline' : 'box';
+            const color = type === 'h' ? '#fef08a' : type === 'c' ? '#f87171' : type === 'u' ? '#60a5fa' : '#4ade80';
+            return (
+              <RoughNotation 
+                type={notationType} 
+                show={true} 
+                color={color} 
+                strokeWidth={2}
+                animationDuration={1500}
+                multiline={true}
+              >
+                <span>{children}</span>
+              </RoughNotation>
+            );
+          }
+          return <a href={href} className="text-blue-500 hover:text-blue-600 underline font-semibold" target="_blank" rel="noopener noreferrer">{children}</a>;
         }
       }}
     >
-      {processNotationTags(content)}
+      {preprocessMarkdown(content)}
     </ReactMarkdown>
   </div>
 );
-
-const processNotationTags = (text) => {
-  if (!text) return "";
-  const parts = [];
-  let lastIdx = 0;
-  const regex = /\[([hcub])\]([\s\S]*?)\[\/\1\]/g;
-  let match;
-
-  while ((match = regex.exec(text)) !== null) {
-    if (match.index > lastIdx) {
-      parts.push(text.slice(lastIdx, match.index));
-    }
-    const type = match[1];
-    const content = match[2];
-    const notationType = type === 'h' ? 'highlight' : type === 'c' ? 'circle' : type === 'u' ? 'underline' : 'box';
-    const color = type === 'h' ? '#fef08a' : type === 'c' ? '#f87171' : type === 'u' ? '#60a5fa' : '#4ade80';
-
-    parts.push(
-      <RoughNotation 
-        key={match.index} 
-        type={notationType} 
-        show={true} 
-        color={color} 
-        strokeWidth={2}
-        animationDuration={1500}
-        multiline={true}
-      >
-        {content}
-      </RoughNotation>
-    );
-    lastIdx = regex.lastIndex;
-  }
-
-  if (lastIdx < text.length) {
-    parts.push(text.slice(lastIdx));
-  }
-
-  return parts.length > 0 ? parts : text;
-};
 
 
 const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
