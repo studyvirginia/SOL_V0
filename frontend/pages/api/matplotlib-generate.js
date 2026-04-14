@@ -12,7 +12,8 @@
 import fs from "fs";
 import path from "path";
 import { spawn } from "child_process";
-import { generateText } from "ai";
+import { generateObject } from "ai";
+import { MatplotlibSchema } from "../../lib/matplotlibSchema";
 import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
 import { createMistral } from "@ai-sdk/mistral";
 
@@ -56,36 +57,43 @@ REQUIREMENTS:
 - Grid: ax.grid(True, alpha=0.3, linestyle='--')
 - Import numpy as np (already available as np)
 - Import matplotlib.patches as mpatches (already available)
+- Import matplotlib.lines as mlines (already available)
 - All text labels: fontsize=10
-- Labeled points: ax.annotate(label, xy=(x,y), xytext=(x+offset, y+offset), fontsize=10, ...)
-- Question/find points (listed below): plot as open hollow circles, NO label — ax.plot(x, y, 'o', mfc='white', mec='#e11d48', ms=10, zorder=5)
+- Labeled points: ax.annotate(label, xy=(x,y), xytext=(p1, p2), textcoords='offset points', fontsize=10, arrowprops=dict(arrowstyle="->", alpha=0.5))
+- Question/find points (listed below): plot as open hollow circles, NO label — ax.plot(x,y,'o',mfc='white',mec='#e11d48',ms=10,zorder=5)
 - For function plots: use np.linspace, handle vertical asymptotes by splitting at discontinuities
-- Color palette: primary curve: '#2563eb', secondary: '#16a34a', tertiary: '#d97706', accent: '#7c3aed'
+- GEOMETRY & SCIENCE: Use mpatches (Circle, Rectangle, Polygon, Arc) for shapes. Use mlines.Line2D or ax.annotate with arrows for vectors/forces.
+- COLOR PALETTE: primary: '#2563eb' (blue), secondary: '#16a34a' (green), tertiary: '#d97706' (orange), accent: '#e11d48' (red).
 - End the code WITHOUT plt.savefig() or plt.close() — the executor handles that
 
 === GRAPH SPEC ===
 Type: ${type}
 ${equations && equations.length > 0 ? `Equations: ${equations.join("  |  ")}` : ""}
-${description ? `Description: ${description}` : ""}
+${description ? `Visual Requirements: ${description}` : ""}
 ${pts ? `Label points: ${pts}` : ""}
 ${findPts ? `Question points (hollow dot, no label): ${findPts}` : ""}
-${course ? `Course: ${course}` : ""}
-${notes ? `Notes: ${notes}` : ""}
+${course ? `Course context: ${course}` : ""}
+${notes ? `Additional Notes: ${notes}` : ""}
 
 Output the Python code block now:`;
 }
 
-function runPython(code, dpi = 150) {
+function runRenderer(spec) {
   return new Promise((resolve, reject) => {
-    const scriptPath = path.resolve(process.cwd(), "lib/matplotlib_gen.py");
-    const proc = spawn("python3", [scriptPath], {
+    const scriptPath = path.resolve(process.cwd(), "lib/matplotlib_data_renderer.py");
+    const proc = spawn("/usr/local/bin/python3", [scriptPath], {
       timeout: 20000,
     });
 
     let stdout = "";
     let stderr = "";
 
-    proc.stdin.write(JSON.stringify({ code, dpi }));
+    proc.stdin.on('error', (err) => {
+      console.error('[matplotlib-generate] stdin error:', err);
+      // Don't reject yet, wait for 'close' to get the full stderr
+    });
+
+    proc.stdin.write(JSON.stringify(spec));
     proc.stdin.end();
 
     proc.stdout.on("data", d => { stdout += d.toString(); });
@@ -93,13 +101,21 @@ function runPython(code, dpi = 150) {
 
     proc.on("close", code => {
       if (code !== 0) {
-        reject(new Error(`Python exit ${code}: ${stderr.slice(0, 500)}`));
+        console.error(`[matplotlib-generate] Python failed with code ${code}. Stderr: ${stderr}`);
+        reject(new Error(`Python exit ${code}: ${stderr || 'No stderr output'}`));
       } else {
-        resolve(stdout.trim());
+        if (!stdout.trim()) {
+          reject(new Error("Python renderer produced no output"));
+        } else {
+          resolve(stdout.trim());
+        }
       }
     });
 
-    proc.on("error", err => reject(new Error(`Spawn error: ${err.message}`)));
+    proc.on("error", err => {
+      console.error('[matplotlib-generate] spawn error:', err);
+      reject(new Error(`Spawn error: ${err.message}`));
+    });
   });
 }
 
@@ -130,10 +146,17 @@ export default async function handler(req, res) {
   const config = loadApiConfig();
   if (!config) return res.status(500).json({ error: "No API key configured" });
 
-  const systemPrompt = buildMatplotlibPrompt({ type, equations, label_points, find, course, notes, description });
+  const systemPrompt = `You are an educational diagram generator. 
+Generate a SINGLE structured JSON visual spec for the Virginia SOL standard provided.
+Return EXACTLY ONE diagram object. Do NOT return an array.
+Focus on mathematical accuracy, physical correctness, and clear labeling.
+The student is learning ${course}.`;
+
+  const userPrompt = `VA SOL ${type}: ${description}`;
 
   let model;
   try {
+    console.log("[matplotlib-generate] Loading config for provider:", config?.provider);
     if (config.provider === "openrouter") {
       model = createOpenAICompatible({
         name: "openrouter",
@@ -143,53 +166,36 @@ export default async function handler(req, res) {
     } else {
       model = createMistral({ apiKey: config.apiKey })(config.model);
     }
+    console.log("[matplotlib-generate] Model initialized:", config?.model);
   } catch (err) {
+    console.error("[matplotlib-generate] Model init error:", err);
     return res.status(500).json({ error: `Model init error: ${err.message}` });
   }
 
-  let pythonCode;
   try {
-    const { text } = await generateText({
+    console.log("[matplotlib-generate] Starting generateObject call...");
+    const { object: diagramSpec } = await generateObject({
       model,
+      schema: MatplotlibSchema,
       system: systemPrompt,
-      prompt: "Generate the matplotlib Python code for the spec above.",
-      maxTokens: 1500,
-      temperature: 0.05,
+      prompt: userPrompt,
+      temperature: 0.1,
     });
-    pythonCode = extractCode(text);
+    console.log("[matplotlib-generate] generateObject success. Spec:", JSON.stringify(diagramSpec).slice(0, 100));
+
+    console.log("[matplotlib-generate] Starting runRenderer...");
+    const pngBase64 = await runRenderer(diagramSpec);
+    console.log("[matplotlib-generate] runRenderer success. Base64 length:", pngBase64.length);
+    
+    return res.status(200).json({ 
+      pngBase64, 
+      title: diagramSpec.title, 
+      spec: diagramSpec,
+      promptUsed: { system: systemPrompt, user: userPrompt }
+    });
+
   } catch (err) {
-    return res.status(500).json({ error: `LLM error: ${err.message}` });
+    console.error("[matplotlib-generate] generation or rendering error:", err);
+    return res.status(500).json({ error: err.message });
   }
-
-  if (!pythonCode) {
-    return res.status(500).json({ error: "LLM returned empty code" });
-  }
-
-  let pngBase64;
-  try {
-    pngBase64 = await runPython(pythonCode, dpi);
-  } catch (err) {
-    // One retry with a simpler fallback prompt
-    console.warn("[matplotlib-generate] first attempt failed, retrying:", err.message);
-    try {
-      const { text: text2 } = await generateText({
-        model,
-        system: systemPrompt,
-        prompt: "The previous code had an error. Generate a simpler, correct matplotlib Python code block for the same spec. Output ONLY the code, no explanation.",
-        maxTokens: 1500,
-        temperature: 0.0,
-      });
-      pythonCode = extractCode(text2);
-      pngBase64 = await runPython(pythonCode, dpi);
-    } catch (err2) {
-      console.error("[matplotlib-generate] retry failed:", err2.message);
-      return res.status(500).json({ error: err2.message, code: pythonCode });
-    }
-  }
-
-  const title = equations.length > 0
-    ? equations[0].replace(/^y\s*=\s*/, "").slice(0, 40)
-    : description.slice(0, 40);
-
-  return res.status(200).json({ pngBase64, title, pythonCode });
 }
