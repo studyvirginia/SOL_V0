@@ -818,8 +818,6 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                           </div>
                         );
                       }
-                      );
-                    }
 
                     return null;
                   })}
