@@ -527,14 +527,7 @@ export default function Home() {
                   <BarChart3 className="h-3.5 w-3.5" />
                   <span>Coverage</span>
                 </Link>
-                <Link
-                  href="/penrose-standards-dashboard"
-                  className="hidden md:flex items-center gap-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-[0.7rem] font-bold text-gray-600 dark:text-gray-300 shadow-sm transition-all hover:bg-gray-50 dark:hover:bg-gray-700 active:scale-95"
-                  title="Visual Standards"
-                >
-                  <LayoutDashboard className="h-3.5 w-3.5" />
-                  <span>Visuals</span>
-                </Link>
+                {/* Visuals link removed as Penrose is archived */}
                 <button
                   onClick={() => setIsModalOpen(true)}
                   className="flex items-center gap-2 rounded-lg bg-blue-600 px-5 py-2.5 text-xs font-bold text-white shadow-sm transition-all hover:bg-blue-700 active:scale-95 shrink-0"
@@ -627,21 +620,7 @@ export default function Home() {
                 <div className="flex items-center gap-2">
                   {/* Focus indicator moved to sidebar above Learning Path */}
 
-                  {/* Engine toggle pill */}
-                  <div className="flex items-center rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-0.5 text-xs font-bold">
-                    <button
-                      onClick={() => setGraphEngine("desmos")}
-                      className={`px-3 py-1.5 rounded-md transition-all ${graphEngine === "desmos" ? "bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm" : "text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200"}`}
-                    >
-                      Desmos
-                    </button>
-                    <button
-                      onClick={() => setGraphEngine("geogebra")}
-                      className={`px-3 py-1.5 rounded-md transition-all ${graphEngine === "geogebra" ? "bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm" : "text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200"}`}
-                    >
-                      GeoGebra
-                    </button>
-                  </div>
+                  {/* Engine toggle pill removed as per request */}
  
                   <button
                     onClick={() => setIsMinimalResponseMode(!isMinimalResponseMode)}

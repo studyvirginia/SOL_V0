@@ -39,20 +39,41 @@ const SendIcon = (props) => (
   </svg>
 );
 
-const GeoGebraRenderer = dynamic(() => import("./GeoGebraRenderer"), {
-  ssr: false,
-  loading: () => <div className="text-sm text-gray-500 italic p-4">Loading graph...</div>,
-});
-
-const DesmosRenderer = dynamic(() => import("./DesmosRenderer"), {
-  ssr: false,
-  loading: () => <div className="text-sm text-gray-500 italic p-4">Loading graph...</div>,
-});
-
 const OpenverseRenderer = dynamic(() => import("./OpenverseRenderer"), {
   ssr: false,
   loading: () => <div className="text-sm text-gray-500 italic p-4 opacity-50 font-bold uppercase tracking-widest text-[0.6rem]">Loading media...</div>,
 });
+
+// Modern Placeholders
+const MatplotlibPlaceholder = ({ query }) => (
+  <div className="my-6 rounded-2xl border border-blue-100 dark:border-blue-900/30 bg-blue-50/30 dark:bg-blue-900/10 p-6 shadow-sm ring-1 ring-inset ring-blue-500/20">
+    <div className="flex items-center gap-3 mb-3">
+      <div className="h-2 w-2 rounded-full bg-blue-500 animate-pulse" />
+      <span className="text-[0.65rem] font-black uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">Matplotlib Visual Engine</span>
+    </div>
+    <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 italic">"Processing visual request: {query}"</p>
+    <div className="mt-4 flex items-center gap-2 text-[0.6rem] font-bold text-gray-400 uppercase tracking-widest">
+      <span>Render Slot Available</span>
+      <span className="opacity-30">•</span>
+      <span className="text-blue-500/60">Stage: Architecture обсуждение</span>
+    </div>
+  </div>
+);
+
+const OpenversePlaceholder = ({ image }) => (
+  <div className="my-6 group relative overflow-hidden rounded-[2rem] border border-indigo-100 dark:border-indigo-900/30 bg-white dark:bg-gray-800 shadow-xl transition-all hover:shadow-2xl">
+    <div className="flex items-center justify-between border-b border-indigo-50 dark:border-indigo-900/20 px-6 py-4">
+      <div className="flex items-center gap-3">
+        <div className="h-2 w-2 rounded-full bg-indigo-500" />
+        <span className="text-[0.65rem] font-black uppercase tracking-[0.2em] text-indigo-600 dark:text-indigo-400">Openverse Visual Insight</span>
+      </div>
+      <span className="rounded-full bg-indigo-50 dark:bg-indigo-900/40 px-3 py-1 text-[0.6rem] font-black text-indigo-600 dark:text-indigo-300">Active Pipeline</span>
+    </div>
+    <div className="p-2">
+      <OpenverseRenderer image={image} caption={image.caption} />
+    </div>
+  </div>
+);
 
 // Complete token — both delimiters present
 const GRAPH_TOKEN_RE = /%%GRAPH%%[\s\S]*?%%END_GRAPH%%/g;
@@ -147,7 +168,14 @@ const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
         return (
           <button
             key={act}
-            onClick={() => onSwitch(subModeId, true)}
+            onClick={() => {
+              if (isPillar) {
+                // Return to AI to ask for specific submode choice
+                onSend(`Switch to ${isPillar.label} mode. Show me my options.`);
+              } else {
+                onSwitch(subModeId, true);
+              }
+            }}
             className={`group flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 ${
               isRecommended 
                 ? "bg-blue-600 text-white ring-blue-500 hover:bg-blue-700 hover:shadow-md" 
@@ -670,23 +698,34 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
         {Object.entries(MODE_MAP).map(([pillarKey, pillarData]) => {
           const isActivePillar = activePillar === pillarKey;
           const stat = completionStats.find(s => s.modeKey === pillarKey);
+          // Show submodes only if NOT diagnostic or progress pillar
+          const hasSubModes = pillarKey !== 'diagnostic' && pillarKey !== 'progress';
+
           return (
             <div key={pillarKey} className="flex flex-col">
+              {pillarKey === 'progress' && <hr className="my-2 border-gray-100 dark:border-gray-800" />}
               <div
                 className={`flex items-center justify-between px-2 py-2 rounded-xl cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
-                onClick={() => { if (!isActivePillar && pillarData.subModes.length > 0) onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id }); }}
+                onClick={() => { 
+                   if (!isActivePillar && pillarData.subModes.length > 0) {
+                      onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id });
+                   } 
+                }}
               >
                 <span className={`text-[0.65rem] uppercase tracking-widest ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-black" : "text-gray-400 dark:text-gray-500 font-bold opacity-70"}`}>{pillarData.label}</span>
-                {stat && pillarKey !== "progress" && <span className="text-[0.62rem] font-bold opacity-80">{stat.done}/{stat.total}</span>}
+                {stat && pillarKey !== "progress" && pillarKey !== 'diagnostic' && <span className="text-[0.62rem] font-bold opacity-80">{stat.done}/{stat.total}</span>}
               </div>
-              <div className={`flex flex-col space-y-0.5 ml-2 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-3 opacity-100" : "max-h-0 opacity-0"}`}>
-                {isActivePillar && pillarData.subModes.map((sub) => (
-                  <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`group relative flex items-center justify-between px-2 py-1.5 rounded-lg text-[0.7rem] transition-colors ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>
-                    <span className="truncate pr-2">{sub.label}</span>
-                    <span className="flex-shrink-0 text-[0.65rem] font-black">{journey.completed[sub.id] ? "✓" : recommended?.subModeId === sub.id ? "★" : ""}</span>
-                  </button>
-                ))}
-              </div>
+              
+              {hasSubModes && (
+                <div className={`flex flex-col space-y-0.5 ml-2 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-3 opacity-100" : "max-h-0 opacity-0"}`}>
+                  {isActivePillar && pillarData.subModes.map((sub) => (
+                    <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`group relative flex items-center justify-between px-2 py-1.5 rounded-lg text-[0.7rem] transition-colors ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>
+                      <span className="truncate pr-2">{sub.label}</span>
+                      <span className="flex-shrink-0 text-[0.65rem] font-black">{journey.completed[sub.id] ? "✓" : recommended?.subModeId === sub.id ? "★" : ""}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           );
         })}
@@ -751,53 +790,34 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                       
                       if (seg.type === 'graph') {
                         const g = (graphs[m.id] || [])[seg.graphIndex];
-                        if (!g) return null;
-                        return (
-                        <div key={segIdx}>
-                          {g.status === "pending" && (
-                            <div className="flex items-center gap-2 my-6 text-xs font-semibold text-blue-500 uppercase tracking-widest opacity-60">
-                              <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" /><path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" /></svg>
-                              Generating diagram…
-                            </div>
-                          )}
-                          {g.status === "done" && g.engine === "desmos" && <DesmosRenderer state={g.desmosState} />}
-                          {g.status === "done" && g.engine !== "desmos" && <GeoGebraRenderer state={g.ggbState} />}
-                          {g.status === "done" && g.mode === "question" && g.question && (
-                            <div className="mt-3 flex items-start gap-3 rounded-2xl border border-amber-200 dark:border-amber-700/50 bg-amber-50 dark:bg-amber-900/20 px-4 py-3 text-sm font-semibold text-amber-800 dark:text-amber-300 shadow-sm">
-                              <span className="mt-0.5 text-base leading-none">❓</span>
-                              <span>{g.question}</span>
-                            </div>
-                          )}
-                          {g.status === "error" && (
-                            <p className="text-xs text-red-400 italic my-4">Diagram could not be generated.</p>
-                          )}
-                        </div>
-                      );
-                    }
+                        // Extract query/prompt if available, or use the raw data
+                        const query = g?.question || "Visual Data Model";
+                        return <MatplotlibPlaceholder key={segIdx} query={query} />;
+                      }
 
-                    if (seg.type === 'image') {
-                      const img = (images[m.id] || [])[seg.imageIndex];
-                      if (!img) return null;
-                      return (
-                        <div key={segIdx}>
-                          {img.status === "pending" && (
-                            <div className="flex items-center gap-3 my-8 text-[0.65rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-50">
-                               <div className="relative h-4 w-4">
-                                 <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                   <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                                   <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                                 </svg>
-                               </div>
-                               <span>Retrieving Educational Media</span>
-                            </div>
-                          )}
-                          {img.status === "done" && (
-                            <OpenverseRenderer image={img} caption={img.caption} />
-                          )}
-                          {img.status === "error" && (
-                            <p className="text-xs text-red-400 italic my-4 opacity-50">Contextual search returned no results.</p>
-                          )}
-                        </div>
+                      if (seg.type === 'image') {
+                        const img = (images[m.id] || [])[seg.imageIndex];
+                        if (!img) return null;
+                        return (
+                          <div key={segIdx}>
+                            {img.status === "pending" && (
+                              <div className="flex items-center gap-3 my-8 text-[0.65rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-50">
+                                 <div className="relative h-4 w-4">
+                                   <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                     <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                     <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                   </svg>
+                                 </div>
+                                 <span>Retrieving Contextual Media</span>
+                              </div>
+                            )}
+                            {img.status === "done" && <OpenversePlaceholder image={img} />}
+                            {img.status === "error" && (
+                              <p className="text-xs text-red-400 italic my-4 opacity-50">Visual validation returned no results.</p>
+                            )}
+                          </div>
+                        );
+                      }
                       );
                     }
 
