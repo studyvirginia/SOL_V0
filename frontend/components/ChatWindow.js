@@ -190,7 +190,7 @@ const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
   );
 };
 
-const MarkdownMessage = ({ content, isUser }) => {
+const MarkdownMessage = ({ content, isUser, isStreaming = false }) => {
   // Strip TIKZ_GRAPH tokens — handled outside this component.
   // Also strip partial tokens (incomplete during streaming) so they never reach
   // the KaTeX / remarkMath pipeline and cause parse interference.
@@ -256,19 +256,19 @@ const MarkdownMessage = ({ content, isUser }) => {
     },
     a({ children, href, ...props }) {
       if (href === "#highlight") {
-        return <RoughNotation type="highlight" show={true} color="rgba(253, 224, 71, 0.4)" animationDuration={700} padding={3} {...props}>{children}</RoughNotation>;
+        return <RoughNotation type="highlight" show={!isStreaming} color="rgba(253, 224, 71, 0.4)" animationDuration={700} padding={3} {...props}>{children}</RoughNotation>;
       }
       if (href === "#circle") {
-        return <RoughNotation type="circle" show={true} color="rgba(239, 68, 68, 0.7)" animationDuration={900} padding={5} strokeWidth={2} {...props}>{children}</RoughNotation>;
+        return <RoughNotation type="circle" show={!isStreaming} color="rgba(239, 68, 68, 0.7)" animationDuration={900} padding={5} strokeWidth={2} {...props}>{children}</RoughNotation>;
       }
       if (href === "#underline") {
-        return <RoughNotation type="underline" show={true} color="rgba(59, 130, 246, 0.8)" animationDuration={600} strokeWidth={2} {...props}>{children}</RoughNotation>;
+        return <RoughNotation type="underline" show={!isStreaming} color="rgba(59, 130, 246, 0.8)" animationDuration={600} strokeWidth={2} {...props}>{children}</RoughNotation>;
       }
       if (href === "#box") {
-        return <RoughNotation type="box" show={true} color="rgba(16, 185, 129, 0.7)" animationDuration={800} strokeWidth={2} {...props}>{children}</RoughNotation>;
+        return <RoughNotation type="box" show={!isStreaming} color="rgba(16, 185, 129, 0.7)" animationDuration={800} strokeWidth={2} {...props}>{children}</RoughNotation>;
       }
       if (href === "#strike") {
-        return <RoughNotation type="strike-through" show={true} color="rgba(239, 68, 68, 0.6)" animationDuration={500} strokeWidth={2} {...props}>{children}</RoughNotation>;
+        return <RoughNotation type="strike-through" show={!isStreaming} color="rgba(239, 68, 68, 0.6)" animationDuration={500} strokeWidth={2} {...props}>{children}</RoughNotation>;
       }
       return (
         <a href={href} target="_blank" rel="noreferrer" className="text-blue-500 hover:text-blue-600 underline underline-offset-4 decoration-2 decoration-blue-500/30" {...props}>
@@ -281,11 +281,11 @@ const MarkdownMessage = ({ content, isUser }) => {
   return (
     <div className={`prose max-w-none break-words ${isUser ? "prose-sm text-gray-800 dark:text-gray-200" : "prose-base dark:prose-invert font-sans selection:bg-blue-100 selection:text-blue-900"} 
       prose-headings:font-display prose-headings:font-extrabold prose-headings:tracking-tight prose-headings:text-slate-900 dark:prose-headings:text-white
-      prose-h1:text-5xl prose-h1:mt-16 prose-h1:mb-10 prose-h1:leading-tight
-      prose-h2:text-3xl prose-h2:mt-14 prose-h2:mb-8 prose-h2:border-b-2 prose-h2:border-slate-100 dark:prose-h2:border-slate-800 prose-h2:pb-3
-      prose-h3:text-2xl prose-h3:mt-10 prose-h3:mb-5 prose-h3:font-bold
-      prose-p:text-[1.1rem] prose-p:leading-relaxed prose-p:mb-8 prose-p:text-slate-700 dark:prose-p:text-slate-300
-      prose-li:text-[1.1rem] prose-li:leading-relaxed prose-li:mb-3
+      prose-h1:text-2xl prose-h1:mt-8 prose-h1:mb-4 prose-h1:leading-tight
+      prose-h2:text-xl prose-h2:mt-6 prose-h2:mb-3 prose-h2:border-b prose-h2:border-slate-100 dark:prose-h2:border-slate-800 prose-h2:pb-2
+      prose-h3:text-lg prose-h3:mt-5 prose-h3:mb-2 prose-h3:font-bold
+      prose-p:text-[1rem] prose-p:leading-relaxed prose-p:mb-4 prose-p:text-slate-700 dark:prose-p:text-slate-300
+      prose-li:text-[1rem] prose-li:leading-relaxed prose-li:mb-2
       prose-strong:text-blue-700 dark:prose-strong:text-blue-400 prose-strong:font-black
       prose-code:text-pink-600 prose-code:bg-pink-50/80 dark:prose-code:bg-pink-900/40 prose-code:px-2 prose-code:py-0.5 prose-code:rounded-lg prose-code:font-semibold prose-code:before:content-none prose-code:after:content-none
       prose-blockquote:border-l-8 prose-blockquote:border-blue-600 prose-blockquote:bg-blue-50/40 dark:prose-blockquote:bg-blue-900/10 prose-blockquote:py-6 prose-blockquote:px-10 prose-blockquote:rounded-r-[2.5rem] prose-blockquote:italic prose-blockquote:text-blue-950 dark:prose-blockquote:text-blue-100
@@ -356,7 +356,7 @@ function getRecommendedSubMode(currentSubMode, completedMap = {}) {
   return null;
 }
 
-export default function ChatWindow({ session, onUpdateSession, graphEngine = "geogebra" }) {
+export default function ChatWindow({ session, onUpdateSession }) {
   const bottomRef = useRef(null);
 
   const subject = session.subject || "";
@@ -520,36 +520,30 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
           let graphRequest;
           try { graphRequest = JSON.parse(m[1]); } catch { return; }
 
-          // Capture question/mode from Phase 1 token so we can render them with the graph
           const graphQuestion = graphRequest.question || "";
-          const graphMode = graphRequest.mode || "illustration";
+          const graphNotes = graphRequest.notes || "";
 
-          const endpoint = graphEngine === "desmos"
-            ? "/api/desmos-generate"
-            : "/api/geogebra-generate";
-
-          const body = graphEngine === "desmos"
-            ? { ...graphRequest, boardExpressions }
-            : { ...graphRequest, boardCmds };
-
-          fetch(endpoint, {
+          // --- Matplotlib template-based generation ---
+          fetch("/api/matplotlib-generate", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(body),
+            body: JSON.stringify({
+              type: graphRequest.type || "function",
+              equations: graphRequest.equations || [],
+              label_points: graphRequest.label_points || [],
+              find: graphRequest.find || [],
+              course: graphRequest.course || course,
+              notes: graphNotes,
+              description: graphRequest.description || "",
+            }),
           })
             .then(r => r.json())
             .then(data => {
               setGraphs(prev => {
                 const arr = [...(prev[aiId] || [])];
-                if (graphEngine === "desmos") {
-                  arr[idx] = data.desmosState
-                    ? { status: "done", engine: "desmos", desmosState: data.desmosState, question: graphQuestion, mode: graphMode }
-                    : { status: "error" };
-                } else {
-                  arr[idx] = data.ggbState
-                    ? { status: "done", engine: "geogebra", ggbState: data.ggbState, question: graphQuestion, mode: graphMode }
-                    : { status: "error" };
-                }
+                arr[idx] = data.pngBase64
+                  ? { status: "done", engine: "matplotlib", pngBase64: data.pngBase64, title: data.title || graphNotes, question: graphQuestion }
+                  : { status: "error" };
                 return { ...prev, [aiId]: arr };
               });
             })
@@ -562,8 +556,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
             });
         });
       }
-      // Step 2: Extract Image Tokens (Openverse)
-      const imageMatches = [...rawText.matchAll(IMAGE_TOKEN_RE)];
+      // Step 2: Extract Image Tokens (Openverse) — use sanitizedContent, not rawText
+      const imageMatches = [...sanitizedContent.matchAll(IMAGE_TOKEN_RE)];
       if (imageMatches.length > 0) {
         const pending = imageMatches.map(() => ({ status: "pending", url: null }));
         setImages(prev => ({ ...prev, [aiId]: pending }));
@@ -759,7 +753,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                     {splitMessageSegments(String(m.content || "")).map((seg, segIdx) => {
                       if (seg.type === 'text') {
                         return seg.content.trim()
-                          ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} />
+                          ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} isStreaming={isStreaming} />
                           : null;
                       }
                       if (seg.type === 'actions') {

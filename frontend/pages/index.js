@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import ChatWindow, { formatName } from "../components/ChatWindow";
 import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
 import Link from "next/link";
-import { BarChart3, LayoutDashboard } from "lucide-react";
+import { BarChart3 } from "lucide-react";
 
 const DEFAULT_SUBMODES = [
   "diagnostic",
