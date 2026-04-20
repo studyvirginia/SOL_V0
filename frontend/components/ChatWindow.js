@@ -3,8 +3,10 @@ import dynamic from "next/dynamic";
 import { RoughNotation } from "react-rough-notation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+import rehypeRaw from "rehype-raw";
 import { buildMediumTermSummary, buildShortTermMemory } from "../lib/sessionMemoryService";
-import { markdownProps } from "../lib/markdownConfig";
 import ErrorBoundary from "./ErrorBoundary";
 import { Renderer, StateProvider, VisibilityProvider, ActionProvider } from "@json-render/react";
 import { registry } from "./ComponentRegistry";
@@ -325,7 +327,11 @@ const MarkdownMessage = ({ content, isUser }) => {
         : "text-[1rem] text-gray-800 dark:text-gray-200"
     }`}>
       <ReactMarkdown
-        {...markdownProps}
+        remarkPlugins={[remarkGfm, [remarkMath, { singleDollarTextMath: true }]]}
+        rehypePlugins={[
+          rehypeRaw,
+          [rehypeKatex, { strict: false, throwOnError: false, errorColor: "#cc0000" }],
+        ]}
         components={renderers}
       >
         {formattedContent}
