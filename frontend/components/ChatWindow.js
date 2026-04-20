@@ -301,7 +301,7 @@ const MarkdownMessage = ({ content, isUser }) => {
 
     // ── Paragraphs — open, breathable ───────────────────────────────────────
     p({ children, ...props }) {
-      return <p className="mb-5 last:mb-0 leading-[1.85] text-gray-700 dark:text-gray-300 text-[1.02rem]" {...props}>{children}</p>;
+      return <p className="mb-6 last:mb-0 leading-[1.85] text-gray-700 dark:text-gray-300 text-[1.02rem]" {...props}>{children}</p>;
     },
 
     // ── Lists — more gap, easier to scan ─────────────────────────────────────
