@@ -79,6 +79,12 @@ export function buildLangChainSystemPrompt({
     "Use **bold** for key terms, vocabulary words, or critical values only — not for general emphasis. Keep it selective.",
     "Use *italics* for subtle emphasis, notation names, or when introducing a term for the first time.",
     "Do NOT use blockquotes (>) unless quoting an actual external source. Avoid them entirely for emphasis or callouts.",
+    
+    "--- MATHEMATICAL NOTATION (MANDATORY) ---",
+    "1. Always use LaTeX for mathematical notation.",
+    "2. Use $...$ for inline math (e.g. $x^2 + y^2 = r^2$).",
+    "3. Use $$...$$ for block math on its own line.",
+    "4. CURRENCY: Always escape dollar signs for currency using \\$ (e.g. \\$50.00). Failure to do so will break the math renderer.",
 
     "--- ROUGH NOTATION ANNOTATIONS (use very sparingly) ---",
     "You may annotate key terms using the following inline tags. These draw animated sketched marks on-screen. Use them sparingly and proportionally — a short answer might have none or one, a long structured response might use a small handful spread across sections. Never cluster them; each annotation should feel deliberate and earn its place:",

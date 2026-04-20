@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
+import { markdownProps as commonMarkdownProps } from '../../lib/markdownConfig';
 
 export default function FlashcardDeck({ cards = [] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -44,10 +43,9 @@ export default function FlashcardDeck({ cards = [] }) {
   }, [currentIndex, isFlipped, cards.length]); // Re-bind when state changes to have fresh closures
 
   const markdownProps = {
-    remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeKatex],
+    ...commonMarkdownProps,
     components: {
-      p: ({node, ...props}) => <p className="m-0" {...props} />
+      p: ({node, ...props}) => <span {...props} />
     }
   };
 

@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
+import { markdownProps as commonMarkdownProps } from '../../lib/markdownConfig';
 
 export default function QuizRunner({ title, questions = [] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,8 +50,7 @@ export default function QuizRunner({ title, questions = [] }) {
   }, 0);
 
   const markdownProps = {
-    remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeKatex],
+    ...commonMarkdownProps,
     components: {
       p: ({node, ...props}) => <span {...props} />
     }
