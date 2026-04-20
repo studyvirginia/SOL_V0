@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useMemo } from "react";
 import dynamic from "next/dynamic";
 import { RoughNotation } from "react-rough-notation";
 import ReactMarkdown from "react-markdown";
@@ -8,6 +8,9 @@ import rehypeKatex from "rehype-katex";
 import rehypeRaw from "rehype-raw";
 import { buildMediumTermSummary, buildShortTermMemory } from "../lib/sessionMemoryService";
 import ErrorBoundary from "./ErrorBoundary";
+import { Renderer, StateProvider, VisibilityProvider, ActionProvider } from "@json-render/react";
+import { registry } from "./ComponentRegistry";
+import { QuickActions } from "./QuickActions";
 import FlashcardDeck from "./learning/FlashcardDeck";
 import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
@@ -53,16 +56,27 @@ const GRAPH_PARTIAL_RE = /%%GRAPH%%[\s\S]*$/;
  * can be rendered inline at the exact position the token appeared.
  * Returns an array of { type: 'text'|'graph', content: string, graphIndex: number }
  */
+/**
+ * Split a message string into alternating text/component segments.
+ * Now handles both old %%TOKEN%% format and new json-render specs.
+ */
 function splitMessageSegments(content) {
   const segments = [];
+  
+  // Regex for json-render specs (expecting valid JSON objects that look like specs)
+  // We look for { "root": ... "elements": ... } or similar patterns if the AI outputs them directly.
+  // Alternatively, we can just look for any JSON block.
+  const JSON_BLOCK_RE = /```json\n([\s\S]*?)\n```|({[\s\s]*?"root"[\s\s]*?"elements"[\s\S]*?})/g;
+
   const ACTION_TOKEN_RE = /%%ACTIONS%%([\s\S]*?)%%END_ACTIONS%%/g;
-  const GRAPH_RE = new RegExp(GRAPH_TOKEN_RE.source, 'g');
+  const GRAPH_RE = /%%GRAPH%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_GRAPH%%/g;
   const FLASHCARDS_RE = /%%FLASHCARDS%%([\s\S]*?)%%END_FLASHCARDS%%/g;
   const MCQ_RE = /%%MCQ%%([\s\S]*?)%%END_MCQ%%/g;
   const QUIZ_RE = /%%QUIZ%%([\s\S]*?)%%END_QUIZ%%/g;
 
   let lastIndex = 0;
   const matches = [
+    ...content.matchAll(JSON_BLOCK_RE),
     ...content.matchAll(ACTION_TOKEN_RE),
     ...content.matchAll(GRAPH_RE),
     ...content.matchAll(FLASHCARDS_RE),
@@ -70,22 +84,35 @@ function splitMessageSegments(content) {
     ...content.matchAll(QUIZ_RE),
   ].sort((a, b) => a.index - b.index);
 
-  let graphCounter = 0;
-  let imageCounter = 0;
   matches.forEach((m) => {
     if (m.index > lastIndex) {
       segments.push({ type: 'text', content: content.slice(lastIndex, m.index) });
     }
+    
     if (m[0].startsWith('%%ACTIONS%%')) {
       segments.push({ type: 'actions', data: m[1] });
     } else if (m[0].startsWith('%%GRAPH%%')) {
-      segments.push({ type: 'graph', data: m[1] || m[0], graphIndex: graphCounter++ });
+      segments.push({ type: 'graph', data: m[1] || m[0] });
     } else if (m[0].startsWith('%%FLASHCARDS%%')) {
       segments.push({ type: 'flashcards', data: m[1] });
     } else if (m[0].startsWith('%%MCQ%%')) {
       segments.push({ type: 'mcq', data: m[1] });
     } else if (m[0].startsWith('%%QUIZ%%')) {
       segments.push({ type: 'quiz', data: m[1] });
+    } else {
+      // It's a json-render spec
+      try {
+        const spec = JSON.parse(m[1] || m[0]);
+        if (spec.root && spec.elements) {
+          segments.push({ type: 'json-render', spec });
+        } else {
+          // If it's just a component data object (like the AI might output), 
+          // we can wrap it into a spec here or handle it as text.
+          segments.push({ type: 'text', content: m[0] });
+        }
+      } catch (e) {
+        segments.push({ type: 'text', content: m[0] });
+      }
     }
 
     lastIndex = m.index + m[0].length;
@@ -102,56 +129,6 @@ function splitMessageSegments(content) {
   return segments;
 }
 
-const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
-  if (!actions || actions.length === 0) return null;
-  return (
-    <div className="flex flex-wrap gap-1.5 mt-4 animate-in fade-in slide-in-from-bottom-2 duration-500 w-full max-w-[700px]">
-      {actions.map((act, i) => {
-        const isObject = typeof act === "object" && act !== null;
-        if (isObject) {
-          return (
-            <button
-              key={i}
-              onClick={() => {
-                if (act.targetMode) onSwitch(act.targetMode, false);
-                onSend(act.prompt);
-              }}
-              className="group flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 bg-indigo-600 text-white ring-indigo-500 hover:bg-indigo-700 hover:shadow-md dark:bg-indigo-700 dark:ring-indigo-600 dark:hover:bg-indigo-600"
-            >
-              {act.label}
-            </button>
-          );
-        }
-
-        const isPillar = MODE_MAP[act];
-        const label = isPillar ? `Next: ${isPillar.label}` : getSubModeLabel(act);
-        const subModeId = isPillar ? isPillar.subModes[0].id : act;
-        const isRecommended = !isPillar;
-
-        return (
-          <button
-            key={act}
-            onClick={() => {
-              if (isPillar) {
-                // Return to AI to ask for specific submode choice
-                onSend(`Switch to ${isPillar.label} mode. Show me my options.`);
-              } else {
-                onSwitch(subModeId, true);
-              }
-            }}
-            className={`group flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 ${
-              isRecommended 
-                ? "bg-blue-600 text-white ring-blue-500 hover:bg-blue-700 hover:shadow-md" 
-                : "bg-white text-gray-700 ring-gray-200 hover:bg-gray-50 dark:bg-gray-800 dark:text-gray-200 dark:ring-gray-700"
-            }`}
-          >
-            {label} {isRecommended && "★"}
-          </button>
-        );
-      })}
-    </div>
-  );
-};
 
 // ── Annotation colour palette the AI can pick from ──────────────────────────
 const ANNOTATION_COLORS = {
@@ -701,148 +678,167 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   const activePillar = Object.entries(MODE_MAP).find(([key, pillar]) => pillar.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
 
   return (
-    <div className="flex h-full w-full gap-4 md:gap-8">
-      <div className="w-[140px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-6 text-gray-800 dark:text-gray-300">
-        <h2 className="text-[0.65rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4 px-1">Learning Path</h2>
-        {Object.entries(MODE_MAP).map(([pillarKey, pillarData]) => {
-          const isActivePillar = activePillar === pillarKey;
-          const stat = completionStats.find(s => s.modeKey === pillarKey);
-          // Show submodes only if NOT diagnostic or progress pillar
-          const hasSubModes = pillarKey !== 'diagnostic' && pillarKey !== 'progress';
+    <StateProvider initialState={{}}>
+      <VisibilityProvider>
+        <ActionProvider>
+          <div className="flex h-full w-full gap-4 md:gap-8">
+            <div className="w-[140px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-6 text-gray-800 dark:text-gray-300">
+              <h2 className="text-[0.65rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4 px-1">Learning Path</h2>
+              {Object.entries(MODE_MAP).map(([pillarKey, pillarData]) => {
+                const isActivePillar = activePillar === pillarKey;
+                const stat = completionStats.find(s => s.modeKey === pillarKey);
+                // Show submodes only if NOT diagnostic or progress pillar
+                const hasSubModes = pillarKey !== 'diagnostic' && pillarKey !== 'progress';
 
-          return (
-            <div key={pillarKey} className="flex flex-col">
-              {pillarKey === 'progress' && <hr className="my-2 border-gray-100 dark:border-gray-800" />}
-              <div
-                className={`flex items-center justify-between px-2 py-2 rounded-xl cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
-                onClick={() => { 
-                   if (!isActivePillar && pillarData.subModes.length > 0) {
-                      onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id });
-                   } 
-                }}
-              >
-                <span className={`text-[0.65rem] uppercase tracking-widest ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-black" : "text-gray-400 dark:text-gray-500 font-bold opacity-70"}`}>{pillarData.label}</span>
-                {stat && pillarKey !== "progress" && pillarKey !== 'diagnostic' && <span className="text-[0.62rem] font-bold opacity-80">{stat.done}/{stat.total}</span>}
-              </div>
-              
-              {hasSubModes && (
-                <div className={`flex flex-col space-y-0.5 ml-2 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-3 opacity-100" : "max-h-0 opacity-0"}`}>
-                  {isActivePillar && pillarData.subModes.map((sub) => (
-                    <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`group relative flex items-center justify-between px-2 py-1.5 rounded-lg text-[0.7rem] transition-colors ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>
-                      <span className="truncate pr-2">{sub.label}</span>
-                      <span className="flex-shrink-0 text-[0.65rem] font-black">{journey.completed[sub.id] ? "✓" : recommended?.subModeId === sub.id ? "★" : ""}</span>
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-          );
-        })}
-      </div>
-
-      <div className="relative flex h-full flex-col flex-1 overflow-hidden bg-transparent">
-        <div className="custom-scrollbar flex-1 space-y-12 overflow-y-auto px-4 pt-24 pb-12 sm:px-6 lg:px-12 flex flex-col items-center">
-          {messages.map((m, idx) => {
-            const isUser = m.role === "user";
-            const isStreaming = isLoading && idx === messages.length - 1 && !isUser;
-            return (
-              <div key={idx} className={`w-full max-w-[900px] animate-in fade-in flex ${isUser ? "justify-end" : "justify-center"}`}>
-                {isUser ? (
-                  <div className="max-w-[75%] rounded-[2rem] rounded-br-[0.5rem] border border-gray-200/60 dark:border-gray-700/60 bg-white dark:bg-gray-800 px-8 py-5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] dark:shadow-black/20">
-                    <div className="whitespace-pre-wrap text-[1.05rem] font-medium leading-relaxed text-gray-800 dark:text-gray-100">{String(m.content || "")}</div>
-                  </div>
-                ) : (
-                  <div className={`w-full max-w-[850px] px-8 md:px-12 py-10 transition-all duration-500 relative ${isStreaming ? "rounded-[3rem] border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
-                    {isStreaming && (
-                      <div className="flex items-center gap-3 mb-8 text-[0.75rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
-                        <div className="relative h-5 w-5">
-                          <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                            <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                            <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                          </svg>
-                          <div className="absolute inset-0 m-auto h-1.5 w-1.5 rounded-full bg-blue-600 animate-pulse"></div>
-                        </div>
-                        <span>SOL Synchronizing Stream</span>
+                return (
+                  <div key={pillarKey} className="flex flex-col">
+                    {pillarKey === 'progress' && <hr className="my-2 border-gray-100 dark:border-gray-800" />}
+                    <div
+                      className={`flex items-center justify-between px-2 py-2 rounded-xl cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
+                      onClick={() => { 
+                         if (!isActivePillar && pillarData.subModes.length > 0) {
+                            onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id });
+                         } 
+                      }}
+                    >
+                      <span className={`text-[0.65rem] uppercase tracking-widest ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-black" : "text-gray-400 dark:text-gray-500 font-bold opacity-70"}`}>{pillarData.label}</span>
+                      {stat && pillarKey !== "progress" && pillarKey !== 'diagnostic' && <span className="text-[0.62rem] font-bold opacity-80">{stat.done}/{stat.total}</span>}
+                    </div>
+                    
+                    {hasSubModes && (
+                      <div className={`flex flex-col space-y-0.5 ml-2 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-3 opacity-100" : "max-h-0 opacity-0"}`}>
+                        {isActivePillar && pillarData.subModes.map((sub) => (
+                          <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`group relative flex items-center justify-between px-2 py-1.5 rounded-lg text-[0.7rem] transition-colors ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>
+                            <span className="truncate pr-2">{sub.label}</span>
+                            <span className="flex-shrink-0 text-[0.65rem] font-black">{journey.completed[sub.id] ? "✓" : recommended?.subModeId === sub.id ? "★" : ""}</span>
+                          </button>
+                        ))}
                       </div>
                     )}
-                    {splitMessageSegments(String(m.content || "")).map((seg, segIdx) => {
-                      if (seg.type === 'text') {
-                        return seg.content.trim()
-                          ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} />
-                          : null;
-                      }
-                      if (seg.type === 'actions') {
-                        return <QuickActions 
-                          key={segIdx} 
-                          actions={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} 
-                          onSwitch={(target) => onUpdateSession({ ...session, retrievalMode: target })} 
-                          onSend={(prompt) => {
-                            const handlerFormSubmit = handleFormSubmit; // using closure
-                            handlerFormSubmit(null, prompt);
-                          }} 
-                          currentSubMode={currentMode} 
-                        />;
-                      }
-                      if (seg.type === 'flashcards') {
-                        return <FlashcardDeck key={segIdx} cards={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} />;
-                      }
-                      if (seg.type === 'mcq') {
-                        const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
-                        if (!data) return null;
-                        return <AdaptiveMCQ key={segIdx} {...data} />;
-                      }
-                      if (seg.type === 'quiz') {
-                        const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
-                        if (!data) return null;
-                        return <QuizRunner key={segIdx} {...data} />;
-                      }
-                      if (seg.type === 'graph') {
-                        return null;
-                      }
+                  </div>
+                );
+              })}
+            </div>
 
-                    return null;
-                  })}
+            <div className="relative flex h-full flex-col flex-1 overflow-hidden bg-transparent">
+              <div className="custom-scrollbar flex-1 space-y-12 overflow-y-auto px-4 pt-24 pb-12 sm:px-6 lg:px-12 flex flex-col items-center">
+                {messages.map((m, idx) => {
+                  const isUser = m.role === "user";
+                  const isStreaming = isLoading && idx === messages.length - 1 && !isUser;
+                  return (
+                    <div key={idx} className={`w-full max-w-[900px] animate-in fade-in flex ${isUser ? "justify-end" : "justify-center"}`}>
+                      {isUser ? (
+                        <div className="max-w-[75%] rounded-[2rem] rounded-br-[0.5rem] border border-gray-200/60 dark:border-gray-700/60 bg-white dark:bg-gray-800 px-8 py-5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] dark:shadow-black/20">
+                          <div className="whitespace-pre-wrap text-[1.05rem] font-medium leading-relaxed text-gray-800 dark:text-gray-100">{String(m.content || "")}</div>
+                        </div>
+                      ) : (
+                        <div className={`w-full max-w-[850px] px-8 md:px-12 py-10 transition-all duration-500 relative ${isStreaming ? "rounded-[3rem] border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
+                          {isStreaming && (
+                            <div className="flex items-center gap-3 mb-8 text-[0.75rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
+                              <div className="relative h-5 w-5">
+                                <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                  <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                  <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                                <div className="absolute inset-0 m-auto h-1.5 w-1.5 rounded-full bg-blue-600 animate-pulse"></div>
+                              </div>
+                              <span>SOL Synchronizing Stream</span>
+                            </div>
+                          )}
+                          {splitMessageSegments(String(m.content || "")).map((seg, segIdx) => {
+                            if (seg.type === 'text') {
+                              return seg.content.trim()
+                                ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} />
+                                : null;
+                            }
+                            if (seg.type === 'actions') {
+                              return <QuickActions 
+                                key={segIdx} 
+                                actions={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} 
+                                onSwitch={(target) => onUpdateSession({ ...session, retrievalMode: target })} 
+                                onSend={(prompt) => {
+                                  const handlerFormSubmit = handleFormSubmit; // using closure
+                                  handlerFormSubmit(null, prompt);
+                                }} 
+                                currentSubMode={currentMode} 
+                              />;
+                            }
+                            if (seg.type === 'flashcards') {
+                              return <FlashcardDeck key={segIdx} cards={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} />;
+                            }
+                            if (seg.type === 'mcq') {
+                              const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
+                              if (!data) return null;
+                              return <AdaptiveMCQ key={segIdx} {...data} />;
+                            }
+                            if (seg.type === 'quiz') {
+                              const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
+                              if (!data) return null;
+                              return <QuizRunner key={segIdx} {...data} />;
+                            }
+                            if (seg.type === 'json-render') {
+                              return (
+                                <div key={segIdx} className="w-full my-4">
+                                  <Renderer 
+                                    spec={seg.spec} 
+                                    registry={registry} 
+                                    onSwitch={switchSubMode}
+                                    onSend={(prompt) => handleFormSubmit(null, prompt)}
+                                    currentSubMode={currentMode}
+                                  />
+                                </div>
+                              );
+                            }
+                            if (seg.type === 'graph') {
+                              return null;
+                            }
+
+                          return null;
+                        })}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+                <div ref={bottomRef} className="h-4" />
+                {!isLoading && journey.completed[currentMode] && messages.length > 0 && messages[messages.length-1].role === "assistant" && (
+                  <QuickActions actions={(() => {
+                    const lastMsg = messages[messages.length - 1];
+                    const actionsSeg = splitMessageSegments(lastMsg.content).find(s => s.type === 'actions');
+                    if (actionsSeg) { try { return JSON.parse(actionsSeg.data); } catch { return []; } }
+                    const pk = Object.entries(MODE_MAP).find(([, mode]) => mode.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
+                    const lat = MODE_MAP[pk].subModes.filter(s => s.id !== currentMode && !journey.completed[s.id]).map(s => s.id);
+                    const pks = Object.keys(MODE_MAP);
+                    const nk = pks[pks.indexOf(pk) + 1];
+                    return [...lat, nk].filter(Boolean);
+                  })()} currentSubMode={currentMode} onSwitch={switchSubMode} onSend={(prompt) => handleFormSubmit(null, prompt)} />
+                )}
+                <div className="h-24" />
+              </div>
+
+              <form onSubmit={handleFormSubmit} className="absolute bottom-4 inset-x-0 flex justify-center px-4 pointer-events-none w-full">
+                <div className="w-full max-w-[850px] pointer-events-auto flex items-center gap-2 rounded-xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.08)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/10">
+                  <input
+                    className="flex-1 bg-transparent py-3.5 pl-6 pr-16 text-[1.05rem] font-medium text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none"
+                    value={draftInput}
+                    onChange={handleInput}
+                    placeholder="Ask a mathematical question..."
+                  />
+                  <button type="submit" className="absolute right-2 top-2 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isLoading || !draftInput.trim()}>
+                    <SendIcon className="h-5 w-5" />
+                  </button>
+                </div>
+              </form>
+
+              {error && (
+                <div className="absolute top-12 inset-x-0 flex justify-center">
+                  <p className="rounded-full bg-red-100 dark:bg-red-900/50 px-4 py-2 text-xs font-semibold text-red-600 dark:text-red-400 backdrop-blur-md shadow-lg">{error.message || "Connection lost"}</p>
                 </div>
               )}
             </div>
-          );
-        })}
-          <div ref={bottomRef} className="h-4" />
-          {!isLoading && journey.completed[currentMode] && messages.length > 0 && messages[messages.length-1].role === "assistant" && (
-            <QuickActions actions={(() => {
-              const lastMsg = messages[messages.length - 1];
-              const actionsSeg = splitMessageSegments(lastMsg.content).find(s => s.type === 'actions');
-              if (actionsSeg) { try { return JSON.parse(actionsSeg.data); } catch { return []; } }
-              const pk = Object.entries(MODE_MAP).find(([, mode]) => mode.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
-              const lat = MODE_MAP[pk].subModes.filter(s => s.id !== currentMode && !journey.completed[s.id]).map(s => s.id);
-              const pks = Object.keys(MODE_MAP);
-              const nk = pks[pks.indexOf(pk) + 1];
-              return [...lat, nk].filter(Boolean);
-            })()} currentSubMode={currentMode} onSwitch={switchSubMode} onSend={(prompt) => handleFormSubmit(null, prompt)} />
-          )}
-          <div className="h-24" />
-        </div>
-
-        <form onSubmit={handleFormSubmit} className="absolute bottom-4 inset-x-0 flex justify-center px-4 pointer-events-none w-full">
-          <div className="w-full max-w-[850px] pointer-events-auto flex items-center gap-2 rounded-xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.08)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/10">
-            <input
-              className="flex-1 bg-transparent py-3.5 pl-6 pr-16 text-[1.05rem] font-medium text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none"
-              value={draftInput}
-              onChange={handleInput}
-              placeholder="Ask a mathematical question..."
-            />
-            <button type="submit" className="absolute right-2 top-2 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isLoading || !draftInput.trim()}>
-              <SendIcon className="h-5 w-5" />
-            </button>
           </div>
-        </form>
-
-        {error && (
-          <div className="absolute top-12 inset-x-0 flex justify-center">
-            <p className="rounded-full bg-red-100 dark:bg-red-900/50 px-4 py-2 text-xs font-semibold text-red-600 dark:text-red-400 backdrop-blur-md shadow-lg">{error.message || "Connection lost"}</p>
-          </div>
-        )}
-      </div>
-    </div>
+        </ActionProvider>
+      </VisibilityProvider>
+    </StateProvider>
   );
 }

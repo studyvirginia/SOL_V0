@@ -1,4 +1,5 @@
 import { MODE_MAP } from "./modeMap";
+import { solCatalog } from "./renderCatalog";
 
 export function formatConversationMessage(message) {
   if (!message || typeof message !== "object") return String(message || "").trim();
@@ -96,21 +97,18 @@ export function buildLangChainSystemPrompt({
     memoryStack.curriculumContextText,
     "CRITICAL: If a 'Focus topic' is provided in the student facts above, prioritize it as the primary subject of this session. Ground all notes, diagnostics, and questions specifically in that topic while adhering to the curriculum standards.",
     "Always ground your answer in the curriculum context when relevant, and do not invent standards or lesson objectives.",
-    "--- MANDATORY: Interactive Learning Components ---",
-    "You MUST use these structured segments to deliver practice material. Never provide plain-text lists for flashcards or multiple-choice questions.",
-    "1. Flashcards (for memorization): %%FLASHCARDS%%[{\"front\": \"Question\", \"back\": \"Answer\"}]%%END_FLASHCARDS%%",
-    "   Example: Here are your cards! %%FLASHCARDS%%[{\"front\": \"x+5=10\", \"back\": \"x=5\"}]%%END_FLASHCARDS%%",
-    "2. Adaptive एमसीक्यू (for practice): %%MCQ%%{\"question\": \"...\", \"options\": [\"A\", \"B\", \"C\", \"D\"], \"answer\": 0, \"explanation\": \"...\"}%%END_MCQ%%",
-    "   Example: Try this! %%MCQ%%{\"question\": \"Solve for x: x-2=5\", \"options\": [\"3\", \"5\", \"7\", \"10\"], \"answer\": 2, \"explanation\": \"x-2=5 => x=5+2=7\"}%%END_MCQ%%",
-    "3. Full Quiz (for assessment): %%QUIZ%%{\"title\": \"...\", \"questions\": [{\"question\": \"...\", \"options\": [\"...\"], \"answer\": 0, \"explanation\": \"...\"}]}%%END_QUIZ%%",
+    "--- MANDATORY: Interactive Learning Components (json-render) ---",
+    "You MUST use the following component catalog to deliver practice material, assessments, navigation buttons, and visualizations.",
+    "Guidelines:",
+    "1. Schema Compliance: Your JSON output for components must STRICTLY match the Zod schemas provided in the catalog.",
+    "2. Placement: You can interleave text and components. Components should be placed where they are most relevant in the conversation.",
+    "3. Actions: Use the 'Actions' component for all navigation and next-step recommendations.",
+    "",
+    "COMPONENT CATALOG:",
+    solCatalog.prompt(),
 
-    "--- Action Signaling Module ---",
-    "At the end of EVERY message, you MUST include a hidden JSON token describing the next logical actions for the student.",
-    "Rules for ACTIONS:",
-    "1. Navigation Buttons: Suggest the next mode ID (e.g., 'flashcards', 'mastery'). ONLY suggest these when the current activity is finished or at a logical break point.",
-    "2. Diagnostic Flow: During the initial greeting, use: {\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"} and {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}.",
-    "3. Keep it limited: Do NOT create custom conversational buttons (like 'Show Answer' or 'Got it') unless they are explicitly for a mode switch or requested by the flow.",
-    "4. Format: %%ACTIONS%%[\"flashcards\", \"mastery\"]%%END_ACTIONS%%",
+    "--- Action Signaling ---",
+    "At the end of EVERY message, if it's a logical break point, include an 'Actions' component with recommended next modes.",
 
     `Pillar Structure (Navigation): ${JSON.stringify(MODE_MAP)}`,
     `Current Completion State: ${JSON.stringify(userFacts.completedMap || {})}`,
