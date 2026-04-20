@@ -4,6 +4,7 @@ import FlashcardDeck from "./learning/FlashcardDeck";
 import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
 import { QuickActions } from "./QuickActions";
+import { useChatContext } from "../context/ChatContext";
 
 /**
  * Component Registry for SOL Study Assistant
@@ -19,27 +20,29 @@ export const { registry, handlers } = defineRegistry(solCatalog, {
     ),
 
     // 2. MCQ
-    MCQ: ({ props, emit }) => (
-      <AdaptiveMCQ {...props} onAction={(type, data) => emit(type, data)} />
-    ),
+    MCQ: ({ props, emit }) => {
+      const { onSwitch, onSend } = useChatContext();
+      return <AdaptiveMCQ {...props} onAction={(type, data) => emit(type, data)} onSwitch={onSwitch} onSend={onSend} />;
+    },
 
     // 3. Quiz
-    Quiz: ({ props, emit }) => (
-      <QuizRunner {...props} onAction={(type, data) => emit(type, data)} />
-    ),
+    Quiz: ({ props, emit }) => {
+      const { onSwitch, onSend } = useChatContext();
+      return <QuizRunner {...props} onAction={(type, data) => emit(type, data)} onSwitch={onSwitch} onSend={onSend} />;
+    },
 
     // 4. Actions
-    // These need access to ChatWindow's callbacks.
-    // In json-render, we can pass these via standard React props if the Renderer is wrapped,
-    // or use the 'emit' system. For now, we'll assume they'll be passed as extra props.
-    Actions: ({ props, ...rest }) => (
-      <QuickActions 
-        actions={props.actions} 
-        onSwitch={rest.onSwitch} 
-        onSend={rest.onSend} 
-        currentSubMode={rest.currentSubMode} 
-      />
-    ),
+    Actions: ({ props, ...rest }) => {
+      const { onSwitch, onSend } = useChatContext();
+      return (
+        <QuickActions 
+          actions={props.actions} 
+          onSwitch={onSwitch || rest.onSwitch} 
+          onSend={onSend || rest.onSend} 
+          currentSubMode={rest.currentSubMode} 
+        />
+      );
+    },
 
     // 5. Graph
     // Placeholder for now, will integrate the dynamic logic soon.

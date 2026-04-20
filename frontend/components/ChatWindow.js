@@ -11,6 +11,7 @@ import ErrorBoundary from "./ErrorBoundary";
 import { Renderer, StateProvider, VisibilityProvider, ActionProvider } from "@json-render/react";
 import { registry } from "./ComponentRegistry";
 import { QuickActions } from "./QuickActions";
+import { ChatProvider } from "../context/ChatContext";
 import FlashcardDeck from "./learning/FlashcardDeck";
 import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
@@ -407,7 +408,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [graphs, setGraphs] = useState(session.graphs || {});
-  const [interactionLogs, setInteractionLogs] = useState([]);
+  const [interactionLogs, setInteractionLogs] = useState(session.interactionLogs || []);
 
   // Refs so the persistence effect below can read latest values without
   // being a dependency (which would cause an infinite loop).
@@ -419,6 +420,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   useEffect(() => {
     if (session.id && session.messages) {
       setMessages(session.messages);
+      setInteractionLogs(session.interactionLogs || []);
       // Restore persisted graph states for this session
       setGraphs(session.graphs || {});
       setError(null);
@@ -443,12 +445,15 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
 
   const handleInput = (e) => setDraftInput(e.target.value);
 
-  /**
-   * Captures results from interactive components to ensure continuity with the AI.
-   */
   const handleAction = (type, data) => {
     if (type === 'FINISH_QUIZ' || type === 'LOG_INTERACTION') {
-      setInteractionLogs(prev => [...prev, { timestamp: new Date().toISOString(), ...data }]);
+      const newLog = { timestamp: new Date().toISOString(), ...data };
+      setInteractionLogs(prev => {
+        const next = [...prev, newLog];
+        // Persist immediately so it survives refresh
+        onUpdateSession({ ...sessionRef.current, interactionLogs: next });
+        return next;
+      });
     }
   };
 
@@ -468,7 +473,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
     const userMessage = { id: Date.now().toString(), role: "user", content: (promptValue + interactionContext).trim() };
     const newMessages = [...messages, userMessage];
     setMessages(newMessages);
-    setInteractionLogs([]); // Clear logs after sending them to the AI to prevent bloat
+    setInteractionLogs([]); 
+    onUpdateSession({ ...sessionRef.current, messages: newMessages, interactionLogs: [] }); // Clear logs after they are "consumed" into a message
 
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 60000); // 60s safety timeout
@@ -756,7 +762,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                         </div>
                       ) : (
                         <div className={`w-full max-w-[850px] px-8 md:px-12 py-10 transition-all duration-500 relative ${isStreaming ? "rounded-[3rem] border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
-                          {isStreaming && (
+                          <ChatProvider value={{ onSwitch: switchSubMode, onSend: (p) => handleFormSubmit(null, p) }}>
+                            {isStreaming && (
                             <div className="flex items-center gap-3 mb-8 text-[0.75rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
                               <div className="relative h-5 w-5">
                                 <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -778,11 +785,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                               return <QuickActions 
                                 key={segIdx} 
                                 actions={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} 
-                                onSwitch={(target) => onUpdateSession({ ...session, retrievalMode: target })} 
-                                onSend={(prompt) => {
-                                  const handlerFormSubmit = handleFormSubmit; // using closure
-                                  handlerFormSubmit(null, prompt);
-                                }} 
+                                onSwitch={switchSubMode} 
+                                onSend={(prompt) => handleFormSubmit(null, prompt)} 
                                 currentSubMode={currentMode} 
                               />;
                             }
@@ -844,6 +848,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
 
                           return null;
                         })}
+                        </ChatProvider>
                       </div>
                     )}
                   </div>
