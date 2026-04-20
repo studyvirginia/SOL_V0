@@ -15,6 +15,7 @@ import FlashcardDeck from "./learning/FlashcardDeck";
 import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
 import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
+import { compilePatchesToSpec, isJSONLPatch } from "../lib/specCompiler";
 // Advanced formatting utilities for proper display capitalization
 export const formatName = (str) => {
   if (!str) return "";
@@ -100,18 +101,27 @@ function splitMessageSegments(content) {
     } else if (m[0].startsWith('%%QUIZ%%')) {
       segments.push({ type: 'quiz', data: m[1] });
     } else {
-      // It's a json-render spec
-      try {
-        const spec = JSON.parse(m[1] || m[0]);
-        if (spec.root && spec.elements) {
+      // It's a json-render spec or a sequence of JSONL patches
+      const raw = m[1] || m[0];
+      if (isJSONLPatch(raw)) {
+        const lines = raw.split('\n').filter(l => l.trim().startsWith('{"op":'));
+        const spec = compilePatchesToSpec(lines);
+        if (spec.root) {
           segments.push({ type: 'json-render', spec });
         } else {
-          // If it's just a component data object (like the AI might output), 
-          // we can wrap it into a spec here or handle it as text.
-          segments.push({ type: 'text', content: m[0] });
+          segments.push({ type: 'text', content: raw });
         }
-      } catch (e) {
-        segments.push({ type: 'text', content: m[0] });
+      } else {
+        try {
+          const spec = JSON.parse(raw);
+          if (spec.root && spec.elements) {
+            segments.push({ type: 'json-render', spec });
+          } else {
+            segments.push({ type: 'text', content: raw });
+          }
+        } catch (e) {
+          segments.push({ type: 'text', content: raw });
+        }
       }
     }
 
