@@ -406,9 +406,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   const [draftInput, setDraftInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  // graphs: { [messageId]: [{ status: 'pending'|'done'|'error', ggbState?, desmosState? }] }
-  // Seeded from session.graphs so graphs survive reload and session switches.
   const [graphs, setGraphs] = useState(session.graphs || {});
+  const [interactionLogs, setInteractionLogs] = useState([]);
 
   // Refs so the persistence effect below can read latest values without
   // being a dependency (which would cause an infinite loop).
@@ -444,18 +443,32 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
 
   const handleInput = (e) => setDraftInput(e.target.value);
 
+  /**
+   * Captures results from interactive components to ensure continuity with the AI.
+   */
+  const handleAction = (type, data) => {
+    if (type === 'FINISH_QUIZ' || type === 'LOG_INTERACTION') {
+      setInteractionLogs(prev => [...prev, { timestamp: new Date().toISOString(), ...data }]);
+    }
+  };
+
   const handleFormSubmit = async (e, overrideText = null) => {
     e?.preventDefault?.();
-    const text = typeof overrideText === "string" ? overrideText.trim() : draftInput.trim();
-    if (!text || isLoading) return;
+    const promptValue = typeof overrideText === "string" ? overrideText.trim() : draftInput.trim();
+    if (!promptValue || isLoading) return;
 
     setDraftInput("");
     setIsLoading(true);
     setError(null);
 
-    const userMsg = { id: Date.now().toString(), role: "user", content: text };
-    const newMessages = [...messages, userMsg];
+    const interactionContext = interactionLogs.length > 0 
+      ? `\n\n[USER_INTERACTION_HISTORY]:\n${JSON.stringify(interactionLogs, null, 2)}\n(End of interaction history. Use this context to personalize your next response.)`
+      : "";
+
+    const userMessage = { id: Date.now().toString(), role: "user", content: (promptValue + interactionContext).trim() };
+    const newMessages = [...messages, userMessage];
     setMessages(newMessages);
+    setInteractionLogs([]); // Clear logs after sending them to the AI to prevent bloat
 
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 60000); // 60s safety timeout
@@ -773,29 +786,55 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                                 currentSubMode={currentMode} 
                               />;
                             }
-                            if (seg.type === 'flashcards') {
-                              return <FlashcardDeck key={segIdx} cards={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} />;
-                            }
+                             if (seg.type === 'flashcards') {
+                               return <FlashcardDeck 
+                                 key={segIdx} 
+                                 cards={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} 
+                                 onAction={handleAction}
+                               />;
+                             }
                             if (seg.type === 'mcq') {
                               const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
                               if (!data) return null;
-                              return <AdaptiveMCQ key={segIdx} {...data} />;
+                              return (
+                                <AdaptiveMCQ 
+                                  key={segIdx}
+                                  mode={(currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice'}
+                                  {...data} 
+                                  onAction={handleAction}
+                                />
+                              );
                             }
                             if (seg.type === 'quiz') {
                               const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
                               if (!data) return null;
-                              return <QuizRunner key={segIdx} {...data} />;
+                              return (
+                                <QuizRunner 
+                                  key={segIdx}
+                                  mode={(currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice'}
+                                  {...data} 
+                                  onAction={handleAction}
+                                />
+                              );
                             }
                             if (seg.type === 'json-render') {
                               return (
                                 <div key={segIdx} className="w-full my-4">
-                                  <Renderer 
-                                    spec={seg.spec} 
-                                    registry={registry} 
-                                    onSwitch={switchSubMode}
-                                    onSend={(prompt) => handleFormSubmit(null, prompt)}
-                                    currentSubMode={currentMode}
-                                  />
+                                  <ActionProvider onAction={handleAction}>
+                                    <Renderer 
+                                      spec={{
+                                        ...seg.spec,
+                                        state: {
+                                          ...seg.spec.state,
+                                          mode: (currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice'
+                                        }
+                                      }} 
+                                      registry={registry} 
+                                      onSwitch={switchSubMode}
+                                      onSend={(prompt) => handleFormSubmit(null, prompt)}
+                                      currentSubMode={currentMode}
+                                    />
+                                  </ActionProvider>
                                 </div>
                               );
                             }

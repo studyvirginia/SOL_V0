@@ -27,7 +27,8 @@ export const solCatalog = defineCatalog(schema, {
         question: z.string().describe("The question text"),
         options: z.array(z.string()).describe("List of possible answers"),
         answer: z.number().int().describe("The 0-indexed position of the correct answer"),
-        explanation: z.string().describe("Explanation shown after the student answers")
+        explanation: z.string().describe("Explanation shown after the student answers"),
+        mode: z.enum(['diagnostic', 'practice']).optional().default('practice').describe("Feedback mode")
       }),
       description: "A single multiple-choice practice question with immediate feedback and explanation."
     },
@@ -36,6 +37,7 @@ export const solCatalog = defineCatalog(schema, {
     Quiz: {
       props: z.object({
         title: z.string().describe("The title of the quiz"),
+        mode: z.enum(['diagnostic', 'practice']).optional().default('practice').describe("Feedback mode"),
         questions: z.array(z.object({
           question: z.string(),
           options: z.array(z.string()),

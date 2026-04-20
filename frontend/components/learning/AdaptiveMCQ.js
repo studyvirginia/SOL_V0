@@ -3,15 +3,28 @@ import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
-export default function AdaptiveMCQ({ question, options, answer, explanation }) {
+export default function AdaptiveMCQ({ question, options, answer, explanation, mode = 'practice', onAction }) {
   const [selected, setSelected] = useState(null);
   const [showExplanation, setShowExplanation] = useState(false);
-
+  
   const isAnswered = selected !== null;
 
   const handleSelect = (idx) => {
     if (isAnswered || idx < 0 || idx >= options.length) return;
     setSelected(idx);
+    
+    // Continuity: Log the interaction for the AI
+    if (onAction) {
+      onAction('LOG_INTERACTION', {
+        type: 'MCQ',
+        question,
+        selectedOption: options[idx],
+        correctOption: options[answer],
+        isCorrect: idx === answer,
+        explanation,
+        mode
+      });
+    }
   };
 
   // Keyboard Shortcuts
@@ -20,7 +33,7 @@ export default function AdaptiveMCQ({ question, options, answer, explanation }) 
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || isAnswered) return;
       
       const num = parseInt(e.key);
-      if (!isNaN(num) && num > 0 && num <= options.length) {
+      if (!isNaN(num) && num > 0 && num <= Math.min(options.length, 4)) {
         handleSelect(num - 1);
       }
     };
@@ -37,10 +50,17 @@ export default function AdaptiveMCQ({ question, options, answer, explanation }) 
     }
   };
 
+  const showCorrectness = mode === 'practice' && isAnswered;
+
   return (
     <div className="w-full max-w-[600px] my-4 p-8 bg-white dark:bg-gray-800 rounded-3xl border border-gray-100 dark:border-gray-700 shadow-[0_10px_40px_rgba(0,0,0,0.04)] dark:shadow-black/20 animate-in fade-in slide-in-from-bottom-2 duration-500">
       <div className="mb-8">
-        <span className="text-[0.65rem] font-black uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400 opacity-60 mb-3 block">Conceptual Check</span>
+        <div className="flex items-center gap-3 mb-3">
+           <span className={`px-2 py-0.5 rounded text-[0.55rem] font-black uppercase tracking-widest ${mode === 'diagnostic' ? 'bg-amber-100 text-amber-700' : 'bg-green-100 text-green-700'}`}>
+              {mode}
+            </span>
+           <span className="text-[0.65rem] font-black uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400 opacity-60">Conceptual Check</span>
+        </div>
         <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 leading-relaxed">
           <ReactMarkdown {...markdownProps}>{question}</ReactMarkdown>
         </h3>
@@ -51,8 +71,9 @@ export default function AdaptiveMCQ({ question, options, answer, explanation }) 
           const isCorrect = i === answer;
           const isSelected = selected === i;
 
-          let btnClass = "border-gray-100 dark:border-gray-800 hover:border-blue-400 dark:hover:border-blue-500 hover:bg-blue-50/30 dark:hover:bg-blue-900/10";
-          if (isAnswered) {
+          let btnClass = "border-gray-100 dark:border-gray-800 hover:border-blue-400 bg-gray-50/50 dark:bg-gray-900/10";
+          
+          if (showCorrectness) {
             if (isCorrect) {
               btnClass = "border-green-500 bg-green-50/50 dark:bg-green-900/20 text-green-700 dark:text-green-400 ring-1 ring-green-500/50";
             } else if (isSelected) {
@@ -60,6 +81,8 @@ export default function AdaptiveMCQ({ question, options, answer, explanation }) 
             } else {
               btnClass = "opacity-40 border-gray-100 dark:border-gray-800 cursor-default";
             }
+          } else if (isSelected) {
+            btnClass = "border-blue-600 bg-blue-50/50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-400 shadow-md";
           }
 
           return (
@@ -70,12 +93,12 @@ export default function AdaptiveMCQ({ question, options, answer, explanation }) 
               className={`w-full text-left px-6 py-4 rounded-xl border-2 transition-all font-semibold flex items-center justify-between text-sm group ${btnClass}`}
             >
               <div className="flex items-center gap-4">
-                <span className={`flex h-6 w-6 items-center justify-center rounded-lg border text-[0.65rem] font-black transition-colors ${isSelected ? "bg-white dark:bg-gray-800" : "bg-gray-50 dark:bg-gray-900"}`}>
+                <span className={`flex h-6 w-6 items-center justify-center rounded-lg border text-[0.6rem] font-black transition-colors ${isSelected ? "bg-white dark:bg-gray-800" : "bg-gray-50 dark:bg-gray-900"}`}>
                   {String.fromCharCode(65 + i)}
                 </span>
                 <ReactMarkdown {...markdownProps}>{opt}</ReactMarkdown>
               </div>
-              {isAnswered && isCorrect && (
+              {showCorrectness && isCorrect && (
                 <svg viewBox="0 0 24 24" width="18" height="18" className="text-green-600 dark:text-green-400" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
               )}
             </button>

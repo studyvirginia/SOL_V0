@@ -14,18 +14,18 @@ import { QuickActions } from "./QuickActions";
 export const { registry, handlers } = defineRegistry(solCatalog, {
   components: {
     // 1. Flashcards
-    Flashcards: ({ props }) => (
-      <FlashcardDeck cards={props.cards} />
+    Flashcards: ({ props, emit }) => (
+      <FlashcardDeck cards={props.cards} onAction={(type, data) => emit(type, data)} />
     ),
 
     // 2. MCQ
-    MCQ: ({ props }) => (
-      <AdaptiveMCQ {...props} />
+    MCQ: ({ props, emit }) => (
+      <AdaptiveMCQ {...props} onAction={(type, data) => emit(type, data)} />
     ),
 
     // 3. Quiz
-    Quiz: ({ props }) => (
-      <QuizRunner {...props} />
+    Quiz: ({ props, emit }) => (
+      <QuizRunner {...props} onAction={(type, data) => emit(type, data)} />
     ),
 
     // 4. Actions
