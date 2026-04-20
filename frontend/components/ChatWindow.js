@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
+import rehypeRaw from "rehype-raw";
 import { buildMediumTermSummary, buildShortTermMemory } from "../lib/sessionMemoryService";
 import ErrorBoundary from "./ErrorBoundary";
 import FlashcardDeck from "./learning/FlashcardDeck";
@@ -39,49 +40,13 @@ const SendIcon = (props) => (
   </svg>
 );
 
-const OpenverseRenderer = dynamic(() => import("./OpenverseRenderer"), {
-  ssr: false,
-  loading: () => <div className="text-sm text-gray-500 italic p-4 opacity-50 font-bold uppercase tracking-widest text-[0.6rem]">Loading media...</div>,
-});
 
-// Modern Placeholders
-const MatplotlibPlaceholder = ({ query }) => (
-  <div className="my-6 rounded-2xl border border-blue-100 dark:border-blue-900/30 bg-blue-50/30 dark:bg-blue-900/10 p-6 shadow-sm ring-1 ring-inset ring-blue-500/20">
-    <div className="flex items-center gap-3 mb-3">
-      <div className="h-2 w-2 rounded-full bg-blue-500 animate-pulse" />
-      <span className="text-[0.65rem] font-black uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">Matplotlib Visual Engine</span>
-    </div>
-    <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 italic">"Processing visual request: {query}"</p>
-    <div className="mt-4 flex items-center gap-2 text-[0.6rem] font-bold text-gray-400 uppercase tracking-widest">
-      <span>Render Slot Available</span>
-      <span className="opacity-30">•</span>
-      <span className="text-blue-500/60">Stage: Architecture обсуждение</span>
-    </div>
-  </div>
-);
-
-const OpenversePlaceholder = ({ image }) => (
-  <div className="my-6 group relative overflow-hidden rounded-[2rem] border border-indigo-100 dark:border-indigo-900/30 bg-white dark:bg-gray-800 shadow-xl transition-all hover:shadow-2xl">
-    <div className="flex items-center justify-between border-b border-indigo-50 dark:border-indigo-900/20 px-6 py-4">
-      <div className="flex items-center gap-3">
-        <div className="h-2 w-2 rounded-full bg-indigo-500" />
-        <span className="text-[0.65rem] font-black uppercase tracking-[0.2em] text-indigo-600 dark:text-indigo-400">Openverse Visual Insight</span>
-      </div>
-      <span className="rounded-full bg-indigo-50 dark:bg-indigo-900/40 px-3 py-1 text-[0.6rem] font-black text-indigo-600 dark:text-indigo-300">Active Pipeline</span>
-    </div>
-    <div className="p-2">
-      <OpenverseRenderer image={image} caption={image.caption} />
-    </div>
-  </div>
-);
 
 // Complete token — both delimiters present
 const GRAPH_TOKEN_RE = /%%GRAPH%%[\s\S]*?%%END_GRAPH%%/g;
-const IMAGE_TOKEN_RE = /%%IMAGE%%[\s\S]*?%%END_IMAGE%%/g;
 
 // Partial token — opening delimiter present but closing not yet arrived (strips during streaming)
 const GRAPH_PARTIAL_RE = /%%GRAPH%%[\s\S]*$/;
-const IMAGE_PARTIAL_RE = /%%IMAGE%%[\s\S]*$/;
 
 /**
  * Split a message string into alternating text/graph segments so graphs
@@ -103,7 +68,6 @@ function splitMessageSegments(content) {
     ...content.matchAll(FLASHCARDS_RE),
     ...content.matchAll(MCQ_RE),
     ...content.matchAll(QUIZ_RE),
-    ...content.matchAll(IMAGE_TOKEN_RE)
   ].sort((a, b) => a.index - b.index);
 
   let graphCounter = 0;
@@ -122,9 +86,8 @@ function splitMessageSegments(content) {
       segments.push({ type: 'mcq', data: m[1] });
     } else if (m[0].startsWith('%%QUIZ%%')) {
       segments.push({ type: 'quiz', data: m[1] });
-    } else if (m[0].startsWith('%%IMAGE%%')) {
-      segments.push({ type: 'image', data: m[0], imageIndex: imageCounter++ });
     }
+
     lastIndex = m.index + m[0].length;
   });
 
@@ -190,113 +153,199 @@ const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
   );
 };
 
+// ── Annotation colour palette the AI can pick from ──────────────────────────
+const ANNOTATION_COLORS = {
+  yellow:  "rgba(251, 191, 36, 0.45)",
+  amber:   "rgba(245, 158, 11, 0.45)",
+  green:   "rgba(34, 197, 94, 0.4)",
+  teal:    "rgba(20, 184, 166, 0.45)",
+  blue:    "rgba(59, 130, 246, 0.5)",
+  indigo:  "rgba(99, 102, 241, 0.45)",
+  purple:  "rgba(168, 85, 247, 0.4)",
+  rose:    "rgba(244, 63, 94, 0.45)",
+  red:     "rgba(239, 68, 68, 0.5)",
+  gray:    "rgba(107, 114, 128, 0.4)",
+};
+
+const DEFAULT_ANNOTATION_COLORS = {
+  highlight:       ANNOTATION_COLORS.yellow,
+  circle:          ANNOTATION_COLORS.rose,
+  underline:       ANNOTATION_COLORS.blue,
+  box:             ANNOTATION_COLORS.teal,
+  "strike-through": ANNOTATION_COLORS.gray,
+};
+
+// ── Text colour palette for [t:color]text[/t] tags ───────────────────────
+const TEXT_COLORS = {
+  blue:    "text-blue-600 dark:text-blue-400",
+  indigo:  "text-indigo-600 dark:text-indigo-400",
+  purple:  "text-purple-600 dark:text-purple-400",
+  rose:    "text-rose-600 dark:text-rose-400",
+  red:     "text-red-600 dark:text-red-400",
+  amber:   "text-amber-600 dark:text-amber-400",
+  green:   "text-emerald-600 dark:text-emerald-400",
+  teal:    "text-teal-600 dark:text-teal-400",
+  gray:    "text-gray-500 dark:text-gray-400",
+  muted:   "text-gray-400 dark:text-gray-500",
+};
+
+/**
+ * Convert [h]text[/h], [h:blue]text[/h], and [t:blue]text[/t] into safe HTML span tags
+ * so react-markdown's AST stays intact.
+ */
+function preprocessAnnotations(text) {
+  if (!text) return "";
+  return text
+    .replace(/\[h(?::([a-z]+))?\](.*?)\[\/h\]/gs, (_, col, t) => `<span data-rough="highlight"${col ? ` data-rough-color="${col}"` : ""}>${t}</span>`)
+    .replace(/\[c(?::([a-z]+))?\](.*?)\[\/c\]/gs, (_, col, t) => `<span data-rough="circle"${col ? ` data-rough-color="${col}"` : ""}>${t}</span>`)
+    .replace(/\[u(?::([a-z]+))?\](.*?)\[\/u\]/gs, (_, col, t) => `<span data-rough="underline"${col ? ` data-rough-color="${col}"` : ""}>${t}</span>`)
+    .replace(/\[b(?::([a-z]+))?\](.*?)\[\/b\]/gs, (_, col, t) => `<span data-rough="box"${col ? ` data-rough-color="${col}"` : ""}>${t}</span>`)
+    .replace(/\[t:([a-z]+)\](.*?)\[\/t\]/gs,      (_, col, t) => `<span data-text-color="${col}">${t}</span>`);
+}
+
 const MarkdownMessage = ({ content, isUser }) => {
-  // Strip TIKZ_GRAPH tokens — handled outside this component.
-  // Also strip partial tokens (incomplete during streaming) so they never reach
-  // the KaTeX / remarkMath pipeline and cause parse interference.
-  const formattedContent = String(content || "")
-    .replace(new RegExp(GRAPH_TOKEN_RE.source, 'g'), "")  // complete tokens
-    .replace(GRAPH_PARTIAL_RE, "")                        // partial tokens (streaming)
-    .replace(IMAGE_TOKEN_RE, "")
-    .replace(IMAGE_PARTIAL_RE, "")
-    .replace(/\[h\](.*?)\[\/h\]/g, "[$1](#highlight)")
-    .replace(/\[c\](.*?)\[\/c\]/g, "[$1](#circle)")
-    .replace(/\[u\](.*?)\[\/u\]/g, "[$1](#underline)")
-    .replace(/\[b\](.*?)\[\/b\]/g, "[$1](#box)")
-    .replace(/\[s\](.*?)\[\/s\]/g, "[$1](#strike)");
+  const formattedContent = preprocessAnnotations(
+    String(content || "")
+      .replace(new RegExp(GRAPH_TOKEN_RE.source, 'g'), "")
+      .replace(GRAPH_PARTIAL_RE, "")
+  );
 
   const renderers = {
-    code({ node, inline, className, children, ...props }) {
-      const text = String(children).replace(/\n$/, "");
-      const match = /language-(\w+)/.exec(className || "");
-      const language = match?.[1]?.toLowerCase() || "";
+    // ── RoughNotation span renderer ──────────────────────────────────────
+    span({ node, children, ...props }) {
+      const roughType  = node?.properties?.dataRough;
+      const textColor  = node?.properties?.dataTextColor;
 
-      if (inline) {
-        return (
-          <code className={className} {...props}>
-            {text}
-          </code>
-        );
+      // ── Text colour tag: [t:blue]text[/t] ───────────────────────────
+      if (textColor) {
+        const cls = TEXT_COLORS[textColor] || "";
+        return <span className={`${cls} font-medium`}>{children}</span>;
       }
 
+      // ── RoughNotation annotation tag ─────────────────────────────────
+      if (roughType) {
+        const colorKey = node?.properties?.dataRoughColor;
+        const color = (colorKey && ANNOTATION_COLORS[colorKey])
+          ? ANNOTATION_COLORS[colorKey]
+          : DEFAULT_ANNOTATION_COLORS[roughType] || ANNOTATION_COLORS.yellow;
+        return (
+          <RoughNotation
+            type={roughType}
+            show={true}
+            color={color}
+            animationDuration={roughType === "circle" ? 800 : 600}
+            strokeWidth={1.5}
+            padding={roughType === "highlight" ? 2 : 4}
+          >
+            {children}
+          </RoughNotation>
+        );
+      }
+      return <span {...props}>{children}</span>;
+    },
+
+    // ── Normal hyperlinks ─────────────────────────────────────────────────
+    a({ children, href, ...props }) {
       return (
-        <div className="rounded-md bg-black/10 dark:bg-white/10 px-1.5 py-1 font-mono text-[0.85em] overflow-x-auto" {...props}>
+        <a href={href} target="_blank" rel="noreferrer"
+          className="text-blue-500 hover:text-blue-600 underline underline-offset-2 decoration-blue-400/40 transition-colors"
+          {...props}
+        >
+          {children}
+        </a>
+      );
+    },
+
+    // ── Code ──────────────────────────────────────────────────────────────
+    code({ node, inline, className, children, ...props }) {
+      const text = String(children).replace(/\n$/, "");
+      if (inline) {
+        return <code className="text-pink-600 dark:text-pink-400 bg-pink-50/80 dark:bg-pink-900/30 px-1.5 py-0.5 rounded text-[0.88em] font-mono font-medium" {...props}>{text}</code>;
+      }
+      return (
+        <div className="rounded-lg bg-gray-900/5 dark:bg-white/5 border border-gray-200/50 dark:border-white/10 px-4 py-3 font-mono text-[0.85em] overflow-x-auto my-4" {...props}>
           <code className={className}>{text}</code>
         </div>
       );
     },
     pre({ children }) { return <>{children}</>; },
+
+    // ── Tables ───────────────────────────────────────────────────────────
     table({ children, ...props }) {
       return (
-        <div className="my-4 overflow-x-auto rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm">
+        <div className="my-5 overflow-x-auto rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm">
           <table className="w-full text-left text-sm" {...props}>{children}</table>
         </div>
       );
     },
     th({ children, ...props }) {
-      return (
-        <th className="bg-gray-50 dark:bg-gray-800/50 px-4 py-3 font-semibold border-b border-gray-200 dark:border-gray-700" {...props}>
-          {children}
-        </th>
-      );
+      return <th className="bg-gray-50 dark:bg-gray-800/60 px-4 py-2.5 font-semibold text-[0.78rem] uppercase tracking-wide text-gray-500 dark:text-gray-400 border-b border-gray-200 dark:border-gray-700" {...props}>{children}</th>;
     },
     td({ children, ...props }) {
-      return (
-        <td className="px-4 py-3 border-b border-gray-100 dark:border-gray-800/50" {...props}>
-          {children}
-        </td>
-      );
+      return <td className="px-4 py-2.5 border-b border-gray-100 dark:border-gray-800/60 text-[0.95rem] text-gray-700 dark:text-gray-300" {...props}>{children}</td>;
     },
+
+    // ── Headings — tasteful, well-breathed ───────────────────────────────────────
+    h1({ children, ...props }) {
+      return <h1 className="text-[1.45rem] font-bold tracking-tight text-gray-900 dark:text-white mt-10 mb-4" {...props}>{children}</h1>;
+    },
+    h2({ children, ...props }) {
+      return <h2 className="text-[1.2rem] font-semibold text-gray-800 dark:text-gray-100 mt-9 mb-3 pb-2 border-b border-gray-100 dark:border-gray-800" {...props}>{children}</h2>;
+    },
+    h3({ children, ...props }) {
+      return <h3 className="text-[1.05rem] font-semibold text-gray-700 dark:text-gray-200 mt-7 mb-2" {...props}>{children}</h3>;
+    },
+    h4({ children, ...props }) {
+      return <h4 className="text-[0.82rem] font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500 mt-6 mb-1.5" {...props}>{children}</h4>;
+    },
+
+    // ── Paragraphs — open, breathable ───────────────────────────────────────
     p({ children, ...props }) {
-      return (
-        <p className="mb-5 last:mb-0 leading-relaxed" {...props}>
-          {children}
-        </p>
-      );
+      return <p className="mb-5 last:mb-0 leading-[1.85] text-gray-700 dark:text-gray-300 text-[1.02rem]" {...props}>{children}</p>;
     },
-    a({ children, href, ...props }) {
-      if (href === "#highlight") {
-        return <RoughNotation type="highlight" show={true} color="rgba(253, 224, 71, 0.4)" animationDuration={700} padding={3} {...props}>{children}</RoughNotation>;
-      }
-      if (href === "#circle") {
-        return <RoughNotation type="circle" show={true} color="rgba(239, 68, 68, 0.7)" animationDuration={900} padding={5} strokeWidth={2} {...props}>{children}</RoughNotation>;
-      }
-      if (href === "#underline") {
-        return <RoughNotation type="underline" show={true} color="rgba(59, 130, 246, 0.8)" animationDuration={600} strokeWidth={2} {...props}>{children}</RoughNotation>;
-      }
-      if (href === "#box") {
-        return <RoughNotation type="box" show={true} color="rgba(16, 185, 129, 0.7)" animationDuration={800} strokeWidth={2} {...props}>{children}</RoughNotation>;
-      }
-      if (href === "#strike") {
-        return <RoughNotation type="strike-through" show={true} color="rgba(239, 68, 68, 0.6)" animationDuration={500} strokeWidth={2} {...props}>{children}</RoughNotation>;
-      }
+
+    // ── Lists — more gap, easier to scan ─────────────────────────────────────
+    ul({ children, ...props }) {
+      return <ul className="my-4 space-y-2 pl-6 list-disc" {...props}>{children}</ul>;
+    },
+    ol({ children, ...props }) {
+      return <ol className="my-4 space-y-2 pl-6 list-decimal" {...props}>{children}</ol>;
+    },
+    li({ children, ...props }) {
+      return <li className="leading-[1.75] text-[1rem] text-gray-700 dark:text-gray-300 marker:text-gray-400 dark:marker:text-gray-600 pl-1" {...props}>{children}</li>;
+    },
+
+    // ── Strong / em ───────────────────────────────────────────────────────
+    strong({ children, ...props }) {
+      return <strong className="font-semibold text-gray-900 dark:text-gray-100" {...props}>{children}</strong>;
+    },
+    em({ children, ...props }) {
+      return <em className="italic text-gray-600 dark:text-gray-400" {...props}>{children}</em>;
+    },
+
+    // ── Blockquote — minimal, barely-there ────────────────────────────────
+    blockquote({ children, ...props }) {
       return (
-        <a href={href} target="_blank" rel="noreferrer" className="text-blue-500 hover:text-blue-600 underline underline-offset-4 decoration-2 decoration-blue-500/30" {...props}>
+        <blockquote className="my-3 pl-3.5 border-l-2 border-gray-200 dark:border-gray-700 text-gray-500 dark:text-gray-400 italic text-[0.95rem]" {...props}>
           {children}
-        </a>
+        </blockquote>
       );
     },
   };
 
   return (
-    <div className={`prose max-w-none break-words ${isUser ? "prose-sm text-gray-800 dark:text-gray-200" : "prose-base dark:prose-invert font-sans selection:bg-blue-100 selection:text-blue-900"} 
-      prose-headings:font-display prose-headings:font-extrabold prose-headings:tracking-tight prose-headings:text-slate-900 dark:prose-headings:text-white
-      prose-h1:text-5xl prose-h1:mt-16 prose-h1:mb-10 prose-h1:leading-tight
-      prose-h2:text-3xl prose-h2:mt-14 prose-h2:mb-8 prose-h2:border-b-2 prose-h2:border-slate-100 dark:prose-h2:border-slate-800 prose-h2:pb-3
-      prose-h3:text-2xl prose-h3:mt-10 prose-h3:mb-5 prose-h3:font-bold
-      prose-p:text-[1.1rem] prose-p:leading-relaxed prose-p:mb-8 prose-p:text-slate-700 dark:prose-p:text-slate-300
-      prose-li:text-[1.1rem] prose-li:leading-relaxed prose-li:mb-3
-      prose-strong:text-blue-700 dark:prose-strong:text-blue-400 prose-strong:font-black
-      prose-code:text-pink-600 prose-code:bg-pink-50/80 dark:prose-code:bg-pink-900/40 prose-code:px-2 prose-code:py-0.5 prose-code:rounded-lg prose-code:font-semibold prose-code:before:content-none prose-code:after:content-none
-      prose-blockquote:border-l-8 prose-blockquote:border-blue-600 prose-blockquote:bg-blue-50/40 dark:prose-blockquote:bg-blue-900/10 prose-blockquote:py-6 prose-blockquote:px-10 prose-blockquote:rounded-r-[2.5rem] prose-blockquote:italic prose-blockquote:text-blue-950 dark:prose-blockquote:text-blue-100
-      prose-img:rounded-[2.5rem] prose-img:shadow-2xl
-      prose-hr:my-16 prose-hr:border-slate-100 dark:prose-hr:border-slate-800
-    `}>
+    <div className={`max-w-none break-words font-sans ${
+      isUser
+        ? "text-sm text-gray-800 dark:text-gray-200"
+        : "text-[1rem] text-gray-800 dark:text-gray-200"
+    }`}>
       <ReactMarkdown
         remarkPlugins={[remarkGfm, [remarkMath, { singleDollarTextMath: true }]]}
-        rehypePlugins={[[rehypeKatex, { strict: false, throwOnError: false, errorColor: "#cc0000" }]]}
+        rehypePlugins={[
+          rehypeRaw,
+          [rehypeKatex, { strict: false, throwOnError: false, errorColor: "#cc0000" }],
+        ]}
         components={renderers}
-        skipHtml
       >
         {formattedContent}
       </ReactMarkdown>
@@ -373,7 +422,6 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   // graphs: { [messageId]: [{ status: 'pending'|'done'|'error', ggbState?, desmosState? }] }
   // Seeded from session.graphs so graphs survive reload and session switches.
   const [graphs, setGraphs] = useState(session.graphs || {});
-  const [images, setImages] = useState({});
 
   // Refs so the persistence effect below can read latest values without
   // being a dependency (which would cause an infinite loop).
@@ -562,46 +610,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
             });
         });
       }
-      // Step 2: Extract Image Tokens (Openverse)
-      const imageMatches = [...rawText.matchAll(IMAGE_TOKEN_RE)];
-      if (imageMatches.length > 0) {
-        const pending = imageMatches.map(() => ({ status: "pending", url: null }));
-        setImages(prev => ({ ...prev, [aiId]: pending }));
 
-        imageMatches.forEach((m, idx) => {
-          let imageRequest;
-          try {
-            const rawJson = m[0].replace('%%IMAGE%%', '').replace('%%END_IMAGE%%', '').trim();
-            imageRequest = JSON.parse(rawJson);
-          } catch (e) { return; }
-
-          fetch("/api/image-search", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ 
-              visual_search_term: imageRequest.visual_search_term || imageRequest.query,
-              preferred_extension: imageRequest.extension,
-              source_priority: imageRequest.source,
-              standardContext: session.userFacts?.focusTopic || session.course
-            }),
-          })
-            .then(r => r.json())
-            .then(data => {
-               setImages(prev => {
-                  const arr = [...(prev[aiId] || [])];
-                  arr[idx] = { status: "done", ...data, caption: imageRequest.caption };
-                  return { ...prev, [aiId]: arr };
-               });
-            })
-            .catch(() => {
-               setImages(prev => {
-                  const arr = [...(prev[aiId] || [])];
-                  arr[idx] = { status: "error" };
-                  return { ...prev, [aiId]: arr };
-               });
-            });
-        });
-      }
     } catch (err) {
       console.error("Chat fetch failure:", err);
       // Simplify "TypeError: Load failed" into something more user-friendly
@@ -787,36 +796,8 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                         if (!data) return null;
                         return <QuizRunner key={segIdx} {...data} />;
                       }
-                      
                       if (seg.type === 'graph') {
-                        const g = (graphs[m.id] || [])[seg.graphIndex];
-                        // Extract query/prompt if available, or use the raw data
-                        const query = g?.question || "Visual Data Model";
-                        return <MatplotlibPlaceholder key={segIdx} query={query} />;
-                      }
-
-                      if (seg.type === 'image') {
-                        const img = (images[m.id] || [])[seg.imageIndex];
-                        if (!img) return null;
-                        return (
-                          <div key={segIdx}>
-                            {img.status === "pending" && (
-                              <div className="flex items-center gap-3 my-8 text-[0.65rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-50">
-                                 <div className="relative h-4 w-4">
-                                   <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                     <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                                     <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                                   </svg>
-                                 </div>
-                                 <span>Retrieving Contextual Media</span>
-                              </div>
-                            )}
-                            {img.status === "done" && <OpenversePlaceholder image={img} />}
-                            {img.status === "error" && (
-                              <p className="text-xs text-red-400 italic my-4 opacity-50">Visual validation returned no results.</p>
-                            )}
-                          </div>
-                        );
+                        return null;
                       }
 
                     return null;

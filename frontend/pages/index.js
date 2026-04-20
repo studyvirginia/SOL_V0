@@ -397,14 +397,7 @@ export default function Home() {
               </div>
 
               <div className="flex items-center gap-3">
-                <Link
-                  href="/standards-coverage"
-                  className="hidden md:flex items-center gap-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-[0.7rem] font-bold text-gray-600 dark:text-gray-300 shadow-sm transition-all hover:bg-gray-50 dark:hover:bg-gray-700 active:scale-95"
-                  title="Coverage Analytics"
-                >
-                  <BarChart3 className="h-3.5 w-3.5" />
-                  <span>Coverage</span>
-                </Link>
+
                 {/* Visuals link removed as Penrose is archived */}
                 <button
                   onClick={() => setIsModalOpen(true)}
