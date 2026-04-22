@@ -1,4 +1,57 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&family=Lexend:wght@300;400;500;600;700&display=swap");
+
+/* Dyslexia Mode Utility */
+.dyslexia-mode {
+  font-family: 'Lexend', sans-serif !important;
+  letter-spacing: 0.15ch !important;
+  word-spacing: 0.3ch !important;
+  line-height: 1.6 !important;
+}
+
+/* Focus Mode Utility */
+.focus-mode .hide-in-focus,
+.focus-mode .sidebar,
+.focus-mode .journey-view {
+  display: none !important;
+}
+
+.focus-mode .simplify-in-focus {
+  background: none !important;
+  box-shadow: none !important;
+  border-color: rgba(0,0,0,0.1) !important;
+}
+
+.dark.focus-mode .simplify-in-focus {
+  border-color: rgba(255,255,255,0.1) !important;
+}
+
+/* Phase 16: Interactive Math SVG Styles (Theme-Aware) */
+.plt-stroke {
+  stroke: #1e293b; /* base axis color */
+}
+.plt-fill {
+  fill: #1e293b;
+}
+
+.dark .plt-stroke {
+  stroke: #f8fafc !important; /* slate-50 axis in dark mode */
+}
+.dark .plt-fill {
+  fill: #f8fafc !important;
+}
+
+/* Ensure colored lines (blue/red) retain their identity */
+.plt-stroke:not([stroke="currentColor"]) {
+  stroke: inherit;
+}
+
+svg.math-svg {
+  filter: drop-shadow(0 0 1px rgba(0,0,0,0.05));
+}
+
+.dark svg.math-svg {
+  filter: drop-shadow(0 0 8px rgba(37,99,235,0.1));
+}
 
 @import "tailwindcss";
 @config "../tailwind.config.js";
@@ -112,6 +165,51 @@
   background-color: white !important;
 }
 
+/* Phase 18: Print & Export Optimization */
+@media print {
+  .sidebar, .input-area, button, .settings-toolbar, .no-print, #back-btn {
+    display: none !important;
+  }
+  
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  body, .flex, .flex-col {
+    background: white !important;
+    color: black !important;
+    display: block !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  .main-canvas {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .prose {
+    font-size: 12pt !important;
+    line-height: 1.6 !important;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  .plt-stroke {
+    stroke: black !important;
+  }
+  
+  .plt-fill {
+    fill: black !important;
+  }
+}
+
 /* Ensure coordinate labels are dark and crisp */
 .mafs-forced-light text {
   fill: #0f172a !important;
@@ -177,4 +275,69 @@
 
 .tikz-renderer-container:hover {
   box-shadow: 0 25px 30px -5px rgba(0, 0, 0, 0.08), 0 12px 20px -8px rgba(0, 0, 0, 0.04);
+}
+
+/* Textbook Prose Emulator */
+.prose {
+  --tw-prose-body: #475569;
+  --tw-prose-headings: #111827;
+  --tw-prose-links: #2563eb;
+  --tw-prose-bold: #0f172a;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.dark .prose {
+  --tw-prose-body: #94a3b8;
+  --tw-prose-headings: #f8fafc;
+  --tw-prose-links: #3b82f6;
+  --tw-prose-bold: #f1f5f9;
+}
+.prose p {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  color: var(--tw-prose-body);
+}
+.prose h1, .prose h2, .prose h3 {
+  color: var(--tw-prose-headings);
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+.prose h1 { font-size: 2.25em; margin-top: 0; margin-bottom: 0.888em; line-height: 1.1; }
+.prose h2 { font-size: 1.5em; margin-top: 2em; margin-bottom: 1em; line-height: 1.3; }
+.prose h3 { font-size: 1.25em; margin-top: 1.6em; margin-bottom: 0.6em; line-height: 1.6; }
+.prose ul { list-style-type: disc; padding-left: 1.625em; margin-top: 1.25em; margin-bottom: 1.25em; }
+.prose ol { list-style-type: decimal; padding-left: 1.625em; margin-top: 1.25em; margin-bottom: 1.25em; }
+.prose li { margin-top: 0.5em; margin-bottom: 0.5em; }
+.prose strong { color: var(--tw-prose-bold); font-weight: 600; }
+.prose hr { border-color: #e2e8f0; margin-top: 3em; margin-bottom: 3em; }
+.dark .prose hr { border-color: #334155; }
+
+/* 
+ * Phase 11: Dyslexia Support
+ * Uses Lexend for maximum readability and increased letter spacing.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+
+.dyslexia-mode {
+  font-family: 'Lexend', sans-serif !important;
+}
+
+.dyslexia-mode .prose, 
+.dyslexia-mode h1, 
+.dyslexia-mode h2, 
+.dyslexia-mode h3, 
+.dyslexia-mode p, 
+.dyslexia-mode li, 
+.dyslexia-mode span, 
+.dyslexia-mode button, 
+.dyslexia-mode div {
+  font-family: 'Lexend', sans-serif !important;
+  letter-spacing: 0.03em !important;
+  line-height: 1.8 !important;
+}
+
+.dyslexia-mode .prose h1,
+.dyslexia-mode .prose h2,
+.dyslexia-mode .prose h3 {
+  letter-spacing: -0.01em !important;
 }

@@ -1,0 +1,216 @@
+continue testing openverse os it actually works and look at updated euature set ideas:1. switch to. Sector db with flattened json 
+2. Add references to graph archetypes with formatting and perfect example? (Generalized or only one per by category 
+3. Style guide?
+4. Feedback loop, sandbox to png?
+5. Numpy validation? 
+6. -zod and gen ui 
+7. -vercel stream object
+8. More personalization and gimmicks later, focus on core stuff now 
+9. Do basic nav and functions for now but later can add stuff like linking notes to diagnostic topics 
+10. 11. Fix immeidaly
+12. Maybe sectional, also token limit
+13. Sympy validation, num py drawing (not trusting ai for math)
+   * Integrate into question gen 
+14. Label overlap and sizing
+15. How to mirror OpenAI advanced data analysis and Gemini data analysis and also use mage retrieval (maybe it uses google idk- and what lessons to learn
+16. Svg instead of pbf?
+17. Web search tool or nah
+18. Bolster pipelines for non math
+   * Ah, understood. Scrapping the short-answer rubrics entirely. If all of your non-math assessments are Multiple Choice Questions (MCQs), your grading architecture just became infinitely faster, cheaper, and 100% deterministic. You do not need AI to grade an MCQ; your Next.js frontend simply checks if student_selection === correct_answer. The entire hallucination risk now shifts to the **generation phase**. When an LLM generates non-math MCQs (like for Biology or Earth Science), it loves to make three specific mistakes:  1. **The "Two Right Answers" trap:** It generates a distractor that is technically also correct.  2. **The "Joke Distractor" trap:** It generates distractors so obviously wrong that it ruins the rigor of the question.  3. **The "Out of Scope" trap:** It tests a concept that isn't actually in the Virginia SOL. Here is the exact Zod-driven architecture to guarantee high-rigor, hallucination-free non-math MCQs. ### 1. The "Evidence-Forced" Zod Schema To stop the AI from hall
+
+
+1. State objects for graphs
+   1. The "State Object" Workflow To keep the Al from forgetting what it just drew, you store a "Summary" of the conversation in your database (or session storage) and feed it back to the Al with every new prompt. The Workflow: 1. User: "Draw an isosceles triangle." 2. App: Sends prompt to Gemini + any previous "State." 3. Gemini: Returns JSON with explanation and substance (Penrose code). 4. App: Stores a "Keyword Summary" in your DB: "last_shape": "isosceles_triangle", "vertices": "A,B,C"}. 5. User: "Now rotate it 12 degrees." 6. App: Injects that summary into the next prompt.
+2. Mode fixes 
+   1. Based on prompts and usage 
+   2. Tone, outputs, real changes 
+   3. Also navigation - fix so it actually works )completion, repossess etc
+3. Formatting 
+   1. Fix rough notation, headers, text style and stuff 
+4. Polish and functionality
+   1. Later need human examination of little things with buttons 
+5. Databases
+   1. Login 
+   2. Session memory storage
+   3. Also track prompts and usage extensively for diagnostics
+   4. Authentication and Row-Level Security (RLS) You need to know who is talking to the bot, what their subscription level is, and what their past scores are. • The Missing Piece: An Auth/Database provider like Supabase, Firebase, or Clerk. • Why it matters: You need Row-Level Security (RLS) in your database. This ensures that when your AI triggers a database tool to fetch "User's Past Quiz Scores," it is mathematically impossible for the API to accidentally fetch a different student's scores.
+6. Design
+   1. Potentially make more professional/academic
+   2. number modes        
+   3. 0-100 exam prep tagline  
+   4. Continue with ui mixed with ai (dynamic)
+      1. What is Generative UI? Right now, basic AI bots just return streams of markdown text. If you ask a standard bot a math question, it spits out a block of LaTeX code, and your frontend has to awkwardly catch that text and try to render it. With Generative UI (powered by libraries like the Vercel AI SDK), the AI doesn't just stream text—it streams actual React components. • The Old Way: The AI generates a text string like, "Here is your practice question: x^2 + 5x + 6 = 0. A) -2, -3. B) 2, 3." • The Modern Way: You build a beautiful, interactive <QuizCard /> component in React. You give the AI an MCP tool called show_quiz_card. When the student asks for a question, the AI triggers the tool, and a polished, interactive, click-able React component seamlessly appears right inside the chat win
+7. Documentation 
+   1. thesis and white paper/pitch
+   2. autonomy and jack of all trades argument?
+   3. Not now
+   4. Also promote heavy later
+   5. Deploy on diff section of url, on platform, document 
+8. Better memory
+   1. langchain/vector db across session
+   2. User profile/databases/mem0 personalization (potential feature
+   3. State awareness??
+   4. Need adaptive and feedback loop 
+9. Security
+   1. COPPA/FERPA
+Supabase or clerk - secure logins, encryption, storage, management
+   10. Safety
+   1. Guidelines and prevent misuse
+   2. Llmops (oversee and track all usage ofr safety and more) 
+   11. Accesibility
+   1. True disability support (dyslexia, adhd and stuff actually built in with those libraries or whatever)  - also tts 
+   2. Adjust tones and content to different ages
+   3. Attach aria labels and metada so everything is readable and map question choices to keyboard
+   12. Architecture
+   1. Skeleton loaders, manage slow wifi 
+   2. Reliability and load tests too
+   3. Streaming and Specialized Rendering The user experience of an AI app lives and dies by latency and how the output looks on the screen. • Streaming: Mainstream apps don't wait for the LLM to finish thinking to show the answer. They use Server-Sent Events (SSE) to stream the text to the React frontend token-by-token. • Rendering Engines: If the bot is teaching math, raw text output isn't enough. The AI's response needs to be structured so your frontend can intercept the mathematical notations and seamlessly pass them through KaTeX, Matplotlib, or TikZ to render beautiful, properly formatted equations on the screen instead of raw code chunks
+   4. Vercel AI SDK (or similar UI/UX bridges)
+   5. Zustand for statemanagement across ui elements and stuff
+   13. Method overall
+   1. No agentic/mcp
+   2. simple/structured/tailored is more efficient and reliable but still use other modern stuf 
+   14. Graphs and images
+   1. Playlab lessons
+   1. Sandbox feedback loop
+   2.    3. No pure string generation
+   4. Constrained generation (zod)
+   5. Use numoy to validate? And other matplotlib patches or whatever what to do
+   6. How to guide and implement?
+   7. Utilize data libraries maybe (aggregate and use)
+   1. If you want to skip reading documentation and just want a massive repository of copy-pasteable examples to hand to your developer, you are in luck. There are dedicated galleries built exactly for this. Here are the best places to find pre-written, high-quality Matplotlib and Python graphing code that your developer can rip, adapt, and plug directly into your backend sandbox. ### 1. The Python Graph Gallery (Best Overall)  * **Link:** python-graph-gallery.com  * **Why it’s perfect:** This is arguably the best independent resource for Python data visualization. It features hundreds of charts categorized by type.  * **The setup:** Every single example comes with the exact, reproducible Python code right next to it. They heavily feature Matplotlib and Seaborn, and they specifically focus on *beautiful* aesthetics, not just functional code. Your developer can just go to the "Density" or "Scatter" sections, grab the code, and drop it into your sandbox. ### 2. The Official Matplotlib Gallery (The Holy Grail)  * **Link:** matplotlib.org/stable/gallery/index.html  * **Why it’s perfect:** This is the official source. It contains literally hundreds of scripts.  * **What to look for:** Tell your developer to specifically look at the **"Shapes and Collections"** section (for drawing geometric patches like circles, polygons, and angles) and the **"Text, Labels and Annotations"** section (which shows exactly how to format math equations using LaTeX-style rendering *inside* the Matplotlib graphs). ### 3. Sebastian Raschka’s Matplotlib Gallery (GitHub)  * **Link:** github.com/rasbt/matplotlib-gallery  * **Why it’s perfect:** Sebastian Raschka is a legendary machine learning educator. He compiled a massive GitHub repository of Jupyter Notebooks containing the code for every type of graph he needed for his data visualizations and publications.  * **The setup:** Because it is designed for academic publication, the code examples here naturally look highly professional and "educational"—exactly the aesthetic you want for the Virginia SOL prep material. ### 4. The SymPy Documentation Gallery (For Pure Geometry)  * **Link:** docs.sympy.org/latest/modules/plotting.html  * **Why it’s perfect:** If you take my advice to use SymPy for the strict mathematical geometry (triangles, intersecting planes, vectors), this is where you go.  * **The setup:** The documentation is packed with exact Python snippets showing how to plot algebraic functions, 2D geometry, and 3D intersections perfectly without having to write the clunky Matplotlib drawing logic from scratch. ### How to use these with your AI prompt: Instead of asking the AI to "write code to draw a graph," your developer can grab a perfect example from one of these galleries, strip out the specific data points, and turn it into a template on your server. Then, the AI just outputs a JSON dictionary like {"radius": 5, "x_center": 0, "y_center": 0}, and your template handles the rest! This guarantees top-tier quality every single time. 
+   8. Convo
+   1. Here's a summary of everything we covered: --- ## 🗂️ Conversation Summary ### Started With Graphs You asked for a normal distribution graph, then full matplotlib scripts for **precalculus** and **high school geometry** — covering every graph, diagram, and figure needed for each subject across multiple figures with consistent styling. ### Prompts for Other AIs You asked for minimal prompts for another AI to recreate all 36 precalc diagrams and all 36 geometry diagrams — one prompt per diagram. ### How I Work as an AI Agent We went deep on my architecture — how I'm a configured Claude deployment, why my responses are longer than Gemini/ChatGPT apps, how `max_tokens` is set by developers not users, and why output tokens cost significantly more than input tokens. ### Architecture Discussion — The Big One This was the core of the conversation. We progressively refined what you were actually describing: - Started with agentic tool calling (what I do) - Moved to keyword injection + JSON retrieval - Landed on: **curriculum context injected via structured keyword-based JSON retrieval, AI generates long-form notes with embedded JSON graph requests, a separate stateless service either hits Wikipedia Commons API or executes Python for the graph, result stitched back into notes** ### Efficiency & Quality - Your architecture is more efficient due to parallel rendering and caching - Main AI call cost is similar or higher due to long output - Best way to match graph quality is passing notes context to the stateless renderer plus a hardcoded style example in its system prompt ### The Other Bot You have a separate Claude instance with Python MCP. We crafted a prompt to ask it about its formatting consistency, style conventions, in-context learning, and one-shot reliability. It revealed the `setup_ax()` helper pattern, fixed palette, and `plt.subplots()` skeleton as the core of its consistency. ### How It's Actually Not That Deep We concluded the graph quality isn't sophisticated architecture — Python matplotlib is just the most over-represented thing in AI training data so good output is almost automatic. ### Getting Consistent Styled Graphs Best approach is: 1. One perfect example script in the system prompt 2. Short hardcoded style block injected every request 3. Pass notes context with every graph request 4. No need for a modifier library — overkill for marginal gain
+   9. Methods
+   1. Stateless API: The raw, forgetful engine. • Memory Injection: Taping notes to the engine so it knows what is happening. • Structured Output: Forcing the engine to hand you clean data (JSON) instead of messy text.   • Tool Calling: Giving the engine a remote control to trigger your Python code. • Agents: Putting the engine in a loop and letting it push the buttons on the remote control by itself until it finishes a job.
+   2. Or The architecture you just described—a stateless API, custom memory injection (RAG), structured tool calls, and Generative UI objects—is exactly how enterprise platforms are built to
+   3. Sandboxed execution
+   4. Invisible retry (self healing) - automatic when erorrs, is there any other way to validate o- 
+   5. 3. Tool Calling & UI Components (No Loops) • We are using standard Tool Calling (via MCP or native API tools) to trigger UI renders, not to trigger backend reasoning loops. • Coder Task: Build three core React components that can accept JSON props from the LLM: • <FlashcardObject /> (Front/Back text) • <QuizCard /> (Question, 4 options, Correct Answer logic) • <GraphContainer /> (
+   6. Accepts coordinates or equations to render via KaTeX/Matplo
+   10. Style libraries is lowk bad idea
+   11. Images
+   1. Validate images to be live/display or retry/ping trest  - also check copyright 
+   2. How to do reliable searches? Descriptive yes, mature filter yes
+   15. Features
+   1. ability to add custom course (upload your materials the either parse into json or plan tag 
+   2. mobile support and adaptive viewports
+   3. Show standards codes somwehere for alignment 
+   4. User profiles with preferences (at least in server
+   5. Fix Annotations animations while typing and scrolling, etc
+   16. bad ideas 
+   1. Remove text box when in mode?
+   2. History Timeline and other subject specific stuff
+   3. Crosslinks/prereqs for json
+   4. Allow ai to switch modoes if instructed
+   5. Below message
+   1. Save to library 
+   2. Copy text
+   3. Report (issues)
+   4. Fact check/validate (avoid hallucinations) 
+   1. Probably separate feature too
+   5. Discrete disclaimer about AI accuracy in left corner
+   6. teacher dashboard per person
+   7. Modified design and age grouping
+   8. Progress goals/gamfication 
+   17. Failure points
+   1. Make usage smooth, dynamic, and useful (make a good app) and test it to the bone 
+   2. Lots of errors currently so test fix na dmake useful
+   3. Fix all with vision 
+   18. Old test questions
+   1. Add later for immediate retrieval (no ai orooabbly) 
+   2. Parse with Llamaparse
+   3. Host image links in server?
+   19. Dynamic ideas 
+   1. Graphs – interactive math/science graphs
+   2. Equations – LaTeX math rendering with step-by-step breakdowns
+   3. Annotations – highlights, inline notes, hover explanations
+   4. TTS – text-to-speech with optional word highlighting
+   5. Images – relevant images, historical photos, diagrams
+   6. PrimarySources – quotes, documents, historical excerpts
+   7. BookMode – “mockup textbook” layout with collapsible sections
+   8. ClickableQuestions – interactive, expandable question cards
+   9. MediaBlocks – flexible blocks for images, diagrams, and captions
+   10. Tables – dynamically generated tables and structured data
+   11. HoverExplain – mini pop-up explanations on key terms
+   12. GraphSync – graphs that highlight or animate along with explanations
+   13. SimplifyClick – click text to get a simpler explanation
+   14. Sliders – adjustable parameters for graphs (lightweight interactivity)
+   15. Colored words/text/font changes - handwritten? 
+   20. Model choice
+   1. 2.5 flash lite for convos, 2.5 flash for coding/high precision
+   2. Maybe get fallbacks for outages
+   21. Tracking
+   1. How to do adaptive practice
+   22. Json curriculum retrieval
+   1. Ensure efficient usage, retrieval, tracking
+   2. Pteontial switch to vector db or rag 
+   23. Token extend
+   1. Either use chaining for larger size or work in sections (maybe dynamic arrow) -  esesentail 
+   1. Instead of fighting the model's message cap, you should use Sequential Generation to deliver notes and deep answers. • The "Wait & Fetch" Pattern: If a student asks a complex question (e.g., "Explain all types of triangle congruence proofs"), the backend should break the response into logical sections (SAS, ASA, SSS, etc.) based on your JSON curriculum. • Parallel API Calls: For long resources like notes, trigger parallel calls for each sub-topic. Your Next.js frontend stitches these together in real-time. • UX Implementation: Use a "Load Next Section" button or an auto-loading "Ghost Text" stream. This prevents "message cutoff" and ensures the student isn't overwhelmed by = all of text.
+   2.    24. Feasibility and research 
+   1. Look at these for features, engineering, and orgisnality (this is still probably reliable good idea tho)
+   2. https://github.com/EvanGks/ai-math-chatbot
+   3. https://github.com/HKUDS/DeepTutor
+   25. Validation
+   1. Oprevent hallucaions 
+   2. Multi-agent check?
+   1. 2. The "Validation" Stage (The Multi-Agent Check) Since you aren't using a math engine for these text-based questions, you use a Critic-Agent pass to catch hallucinations. @ +1 • Step A (The Solver): A separate "Solver" instance of the Al (using a different temperature or "Thinking Level") receives only the generated question— without the answer key. @ • Step B (The Comparison): Your backend compares the "Solver's" answer to the "Generator's" answer key. • Step C (The Logic): If the Solver and Generator disagree, or if the Solver identifies more than one "correct" answer, the question is discarded or sent back for a "Feedback -> Revision" loop. @ +1 • The Pitch: "Every question undergoes a real-time 'Peer Review' by a secondary Al agent to ensure there is only one clearly correct answer and no factual errors". @ +1
+   3. Better ways?
+   4. 4. RAG Evals (Automated Evaluation) You can't fix what you can't measure. In standard code, you write unit tests (e.g., assert 2+2 == 4). In AI, the outputs are non-deterministic, meaning you can't write standard unit tests. • The Missing Piece: Frameworks like RAGAS (RAG Assessment) or TruLens. • Why it matters: Before you deploy an update to your bot, these frameworks use a separate AI to grade your bot's answers based on context precision and recall. It ensures that your bot is actually citing the Virginia Standards of Learning curriculum accurately and isn't slowly degrading in quality as you add more documents to the vector database.
+   5. Liarbies to help?
+   1. instructor/pydantic for structured - is this different than the other structured stuff?
+   26. Stupid
+   1. xkcd-style plots
+   27. flashcards/mcq ui
+   1. Build out, make functional
+   28. Progress ui 
+   1. Also build out, decide on graph libraries or just plain summary
+   2. Allow printable or export (print buttons?
+   29. Markdown
+   1. how can we increase relaibility and functionality in our markdown - i want to support bullet points, italics, bolding, and different sizing of text (like headings that chat gpt uses): another ai told me this(also relates to a later goal of chaining for longer responses which are highly neccesary for this field - dont implement yet just dicsuss : To handle varied formatting (headings, bold, italics) and "infinite" length, you need to move away from treating AI output as a single string and start treating it as a **Structured Document Pipeline**. For a platform like **https://www.google.com/search?q=solprep.com**, where you want "textbook-clean" layouts, here is how you engineer the margins, styling, and chaining. ### 1. The Styling Fix: Tailwind Typography Don't manually style every h1 or p tag the AI returns. Instead, use the **Tailwind CSS Typography Plugin** (@tailwindcss/typography). * **The Container:** Wrap your AI response component in a prose class. * **The Margin Fix:** Use the prose-slate and max-w-none classes. This automatically handles margins, line heights, and spacing between headings and paragraphs. * **Tailored for Academic Look:** ```html <div className="prose prose-slate dark:prose-invert prose-headings:font-serif prose-p:text-slate-600 max-w-none"> <ReactMarkdown>{aiResponse}</ReactMarkdown> </div> ``` * **Why this works:** It ensures that even if the AI returns a giant ### Heading, the margins around it are perfectly balanced, preventing that "cluttered AI" look. ### 2. Allowing Varied Formatting To ensure the AI uses bolding, italics, and different heading sizes correctly, you must define **Markdown Constraints** in your system prompt. * **Instruction:** "Use hierarchical Markdown. Use ## for major sections and ### for sub-sections. Use **bold** for key SOL terms and *italics* for conceptual analogies." * **Validation:** Your **Critic-Agent** should check that the AI didn't just return a wall of text. If a section is over 200 words without a heading or bolding, the Critic triggers a "Re-format" request. ### 3. Chaining for Longer Resources (Recursive Assembly) To create 5,000-word study guides without hitting limits or getting cut off, use **Sectional Chaining**. **The "Packets" Workflow:** 1. **Plan:** The AI first generates a "Table of Contents" JSON based on your SOL standards (e.g., 5 sections). 2. **Execute (The Chain):** Your backend loops through that TOC. * **Call 1:** "Generate Section 1: Intro to G.6." * **Call 2:** "Generate Section 2: Triangle Congruence. Reference Section 1 context but do not repeat it." 3. **The Assembly:** Each response is saved as a separate entry in your database. 4. **The UI:** Your Next.js frontend fetches all entries and renders them sequentially. The student sees one continuous, perfectly formatted document. ### 4. Avoiding "AI Drifting" in Long Responses When you chain messages, the AI can sometimes lose its "voice" or get repetitive. * **Context Snippets:** In Call 2, pass the last 3 sentences of Call 1 as a "Prompt Prefix." This ensures the transition between sections is seamless. * **The "Drafting" Mode:** Tell the AI: "You are in **Drafting Mode**. Do not include introductory phrases like 'In this section...' or 'Now let's look at...' Go straight to the content." ### Implementation Summary | Problem | Technical Fix | Result | |---|---|---| | **Messy Margins** | Tailwind @tailwindcss/typography (prose). | Textbook-quality spacing and flow. | | **Boring Text** | Markdown-enforced system prompts. | Semantic use of bold, italics, and headers. | | **Truncation** | Sectional Chaining (TOC -> Packets). | "Infinite" length study guides. | | **Drift/Repeat** | Last-sentence context passing. | Seamless sectional transitions. | **The Bottom Line:** By using **Next.js** to stitch together these "Packets" and **Tailwind Prose** to style them, you get a resource that looks like a professionally published textbook rather than a chat log. How many sections are you planning to break your average study guide into—maybe 3 to 5 based on the SOL sub-standards?
+
+
+   1.Here is the master architectural blueprint for your developer. This summarizes the entire pivot away from a generic AI chatbot wrapper into a structured, highly rigorous Learning OS for https://www.google.com/search?q=solprep.com.
+Hand them this exact breakdown to map out the next development sprints.
+## 🏗️ Phase 1: Frontend & Generative UI (Next.js + Vercel AI SDK)
+**The Goal:** The UI must dictate the structure, not the AI. We are building a "batch size 1" application using hard-coded navigation and component streaming.
+ * **Implement Generative UI with Zod:** Stop streaming raw markdown for complex interactions. Use the Vercel AI SDK’s streamObject and tool-calling to lock the AI into strict Zod schemas. The frontend should natively catch these JSON payloads to render interactive React components (<FlashcardObject />, <QuizCard />, <GraphContainer />).
+ * **Token Expansion & Sectional Chaining (Lazy Loading):** Update the AI SDK maxTokens configuration to the latest ceiling (e.g., 65536 for Gemini 2.5 Flash) to physically prevent mid-sentence cutoffs. However, **do not** generate an entire course at once. For "Mega-Reviews," have the AI generate a lightweight JSON Table of Contents first, then use lazy-loading so the student clicks to expand and generate individual units on demand.
+ * **Frontend MCQ Shuffling:** The AI has a bias toward making "C" the correct answer. The Zod schema must return the correct_answer and an array of 3 distractors separately. The Next.js frontend must handle the randomized shuffling before rendering the choices.
+## 📐 Phase 2: The Math & Graphics Pipeline (Python Sandbox)
+**The Goal:** Zero visual or mathematical hallucinations. We are using the "Constrained Blueprint" method. The AI acts as the architect (drafting JSON), and the backend acts as the builder.
+ * **The AI "Blueprint" (JSON Output):** Instruct the AI to stop writing raw Matplotlib code. Instead, it must output a Zod-validated JSON blueprint defining the mathematical reality (e.g., equations to plot, exact points of interest, geometric shapes).
+ * **The SymPy/NumPy Universal Renderer (Stateless Backend):** Build a dedicated Python execution environment that receives the JSON blueprint.
+   * Use **SymPy** to mathematically validate roots, find exact line intersections, and evaluate equivalent algebraic expressions.
+   * Use **NumPy** to generate the data arrays for the curves.
+ * **Global Style Injection:** Before Matplotlib draws anything, run a hard-coded apply_global_style(ax) function. This enforces the exact brand hex colors, sans-serif fonts, and sets patch.facecolor. Also, strictly enforce bbox (white backgrounds) on all ax.text labels to prevent overlap with gridlines.
+ * **SVG Handoff:** Matplotlib must save the final image to an in-memory buffer as an SVG and return the Base64 string to the Next.js frontend for crisp, infinitely scalable rendering.
+## 🧠 Phase 3: Curriculum Grounding & Routing (RAG)
+**The Goal:** Strict adherence to the Virginia SOLs with a graceful fallback for general knowledge.
+ * **Semantic Flattening + Vector DB:** Do not upload raw PDFs. Flatten the Virginia SOL curriculum into strict JSON objects, embed them, and store them in a Vector DB with robust metadata tagging (Course, Unit, Standard).
+ * **Threshold Routing ("Open Verse"):** When a user queries the database, evaluate the similarity_score.
+   * If **> 0.80**, inject the exact SOL chunk into the system prompt.
+   * If **< 0.80**, route the query to the "Open Verse" mode. Provide the AI with the **Openverse API** (api.openverse.org) as a tool to fetch legally compliant, public domain real-world images.
+ * **The UI Warning Badge:** If a generation triggers the Open Verse fallback, the frontend must render a visual indicator (💡 *General Knowledge - Not explicitly tested*) so students know the material is supplementary.
+## 📝 Phase 4: Assessment & "Crazy Rigor"
+**The Goal:** Questions must be challenging, deterministic, and strictly aligned with the curriculum standard.
+ * **Evidence-Forced Zod Schemas:** For non-math MCQs, the Zod schema must require the AI to fill an evidence_quote key (pulled directly from the RAG context) *before* it writes the question. This physically anchors the generation to the facts.
+ * **No Leading Hints:** Hard-code directives into the MCQ generation system prompt forbidding obvious distractors, joke answers, or conversational "leading hints" that soften the rigor of the question.
+ * **Deterministic Math Grading:** Do not use the LLM to grade math inputs. Send the student's raw input and the correct answer to the backend. Use sympy.simplify(student_input - correct_answer) == 0 to perfectly grade equivalent expressions without AI hallucination.
+Yes, there are a few critical operational and infrastructure pieces we covered in your broader brain dump that need to be handed to your developer.
+These are the final pieces of the puzzle that ensure the app doesn't just work in theory, but scales securely and looks professional without burning your API budget.
+Here is **Phase 5** and the **"Do Not Build"** list to append to that developer summary:
+## 🗄️ Phase 5: Infrastructure, State, & Styling
+**The Goal:** Manage the app's memory efficiently, secure user data, and fix formatting bugs with zero manual effort.
+ * **The "State Object" Memory Workflow:** Do not pass the entire conversation history back to the LLM for every prompt (this burns tokens and slows latency). Instead, maintain a lightweight JSON "State Object" in your database or session storage (e.g., {"last_shape": "isosceles_triangle", "vertices": "A,B,C"}). Inject only this targeted summary into the next prompt so the AI remembers the context without the bloat.
+ * **The Invisible Retry Loop (Self-Healing):** When the Python sandbox executes code (or when SymPy evaluates an expression), wrap it in a try/except block. If it throws a ValueError or SyntaxError, the backend must automatically send the traceback to the LLM for a silent fix (capped at 3 retries). The user should never see a raw backend crash.
+ * **Tailwind Typography for Markdown:** Do not manually write CSS to style the AI's markdown output. Install @tailwindcss/typography and wrap all AI text responses in the prose prose-slate max-w-none classes. This automatically forces textbook-quality margins, line heights, and header scaling.
+ * **Auth & Row-Level Security (RLS):** Before launching, integrate Supabase or Clerk. You must implement Row-Level Security (RLS) so that when the AI triggers a tool to "fetch past quiz scores" or "save notes to library," it is mathematically impossible for it to fetch or overwrite another student's data.
+## 🧊 The "Icebox" (What the Coder Should NOT Build Yet)
+**The Goal:** Prevent developer burnout and feature creep. Tell your coder to completely ignore the following items until the core platform is live and stable.
+ * **Skip Multi-Agent Validation:** Do not build a "Critic Agent" to double-check the "Generator Agent." It doubles latency and API costs. Rely on your Zod schemas and SymPy deterministic grading instead.
+ * **Skip Dashboards & Gamification:** Do not build progress bars, teacher dashboards, or usage graphs yet. Focus entirely on the generation pipelines.
+ * **Skip Complex Accessibility/TTS:** While crucial for the future, integrating deep Text-to-Speech and custom dyslexia toggles will distract from getting the core math and curriculum routing to work. Leave it for Version 2.
+ * **Skip Custom User Uploads:** Do not let users upload their own PDFs or course materials yet. Lock the system strictly to your pre-flattened Virginia SOL JSONs to guarantee zero hallucinations.
+If you hand your coder the previous four phases plus this final operational block, they will have the exact, comprehensive blueprint to build https://www.google.com/url?sa=E&source=gmail&q=solprep.com the right way from day one.

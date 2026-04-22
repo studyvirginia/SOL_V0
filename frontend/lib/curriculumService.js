@@ -257,8 +257,7 @@ export function extractFocusedCurriculum(courseJson, query) {
 
   return focused.domains.length > 0 ? focused : null;
 }
-
-export function extractRandomStandards(courseJson, count = 3) {
+export function extractRandomStandards(courseJson, count, options = {}) {
   const allStandards = [];
   for (const domain of courseJson.domains || []) {
     for (const standard of domain.standards || []) {
@@ -266,13 +265,33 @@ export function extractRandomStandards(courseJson, count = 3) {
     }
   }
 
-  const selected = [];
-  const copy = [...allStandards];
+  const scores = options?.scores || {};
 
-  while (copy.length > 0 && selected.length < count) {
-    const index = Math.floor(Math.random() * copy.length);
-    selected.push(copy.splice(index, 1)[0]);
-  }
+  // Rank standards by weakness:
+  // 1. Never seen (total === 0)
+  // 2. Lowest accuracy (correct / total)
+  // 3. Least practiced (total)
+  const ranked = allStandards.sort((a, b) => {
+    const scA = scores[a.standard.code] || { correct: 0, total: 0 };
+    const scB = scores[b.standard.code] || { correct: 0, total: 0 };
+
+    // Priority 1: Zero practice
+    if (scA.total === 0 && scB.total > 0) return -1;
+    if (scB.total === 0 && scA.total > 0) return 1;
+
+    // Priority 2: Accuracy
+    if (scA.total > 0 && scB.total > 0) {
+      const accA = scA.correct / scA.total;
+      const accB = scB.correct / scB.total;
+      if (accA !== accB) return accA - accB;
+    }
+
+    // Priority 3: Quantity of practice (least practiced first)
+    return scA.total - scB.total;
+  });
+
+  // Pick top N from the ranked list
+  const selected = ranked.slice(0, count);
 
   return {
     subject: courseJson.subject,
@@ -286,10 +305,10 @@ export function extractRandomStandards(courseJson, count = 3) {
   };
 }
 
-export function buildCurriculumModeContext(courseJson, mode, message) {
+export function buildCurriculumModeContext(courseJson, mode, message, options = {}) {
   const summary = buildCurriculumSummary(courseJson);
   const focused = extractFocusedCurriculum(courseJson, message);
-  const randomStandards = extractRandomStandards(courseJson, 4);
+  const practiceStandards = extractRandomStandards(courseJson, 4, options);
 
   const common = {
     subject: courseJson.subject,
@@ -336,9 +355,9 @@ export function buildCurriculumModeContext(courseJson, mode, message) {
     case "practice":
       return {
         ...common,
-        purpose: "Randomized practice questions or mini tests built from selected standards.",
-        focus: "Random selected standards for practice",
-        data: randomStandards,
+        purpose: "Focused practice questions built from standards where the student is weakest.",
+        focus: "Adaptive selection based on performance history",
+        data: practiceStandards,
       };
     default:
       return {

@@ -1,0 +1,18 @@
+{
+  "density": {
+    "description": "Professional density and distribution plots with overlapping transparency and horizontal baselines.",
+    "example": "import seaborn as sns\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# Ridgeline Style\npal = sns.color_palette(palette='coolwarm', n_colors=12)\ng = sns.FacetGrid(df, row='group', hue='val', aspect=15, height=0.75, palette=pal)\ng.map(sns.kdeplot, 'x', bw_adjust=1, clip_on=False, fill=True, alpha=1, linewidth=1.5)\ng.map(sns.kdeplot, 'x', bw_adjust=1, clip_on=False, color='w', lw=2)\ng.map(plt.axhline, y=0, lw=2, clip_on=False)\ng.set_titles('')\ng.set(yticks=[])\ng.despine(bottom=True, left=True)\nplt.subplots_adjust(hspace=-0.25)"
+  },
+  "geometry": {
+    "description": "Mathematical geometry shapes using optimized Patches and PatchCollection.",
+    "example": "import matplotlib.patches as mpatches\nimport matplotlib.pyplot as plt\nfig, ax = plt.subplots()\n\n# Efficiently adding multiple shapes\ncircle = mpatches.Circle((0.5, 0.5), radius=0.2, color='blue', alpha=0.5)\nrect = mpatches.Rectangle((0.1, 0.1), 0.3, 0.2, color='red', alpha=0.5)\npoly = mpatches.RegularPolygon((0.8, 0.8), 5, radius=0.1, color='green')\n\nax.add_patch(circle)\nax.add_patch(rect)\nax.add_patch(poly)\nax.set_aspect('equal')"
+  },
+  "math_text": {
+    "description": "Professional academic notation using Mathtext (not requiring external LaTeX).",
+    "example": "import matplotlib.pyplot as plt\nfig, ax = plt.subplots()\nax.text(0.1, 0.8, r'$W^{3\\beta}_{\\delta_1 \\rho_1 \\sigma_2} = U^{3\\beta}_{\\delta_1 \\rho_1}$', fontsize=14)\nax.text(0.1, 0.6, r'$\\frac{3}{4}, \\binom{3}{4}, \\sqrt{2}, \\sqrt[3]{x}$', fontsize=14)\nax.set_title(r'$\\sigma_{i=1}^{n} x_i$', fontsize=16)"
+  },
+  "implicit_inequality": {
+    "description": "Plotting non-functional relations (circles, ellipses) and regional inequalities using SymPy.",
+    "example": "from sympy import symbols\nfrom sympy.plotting import plot_implicit\nx, y = symbols('x y')\n\n# Implicit Circle and Region Inequality\np1 = plot_implicit(x**2 + y**2 - 25, (x, -7, 7), (y, -7, 7), show=False)\np2 = plot_implicit(y > x**2, (x, -5, 5), (y, -10, 25), show=False)\np1.extend(p2)\np1.show()"
+  }
+}

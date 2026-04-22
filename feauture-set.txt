@@ -1,0 +1,145 @@
+-add web searoch for current events connection 
+
+State objects for graphs
+The "State Object" Workflow To keep the Al from forgetting what it just drew, you store a "Summary" of the conversation in your database (or session storage) and feed it back to the Al with every new prompt. The Workflow: 1. User: "Draw an isosceles triangle." 2. App: Sends prompt to Gemini + any previous "State." 3. Gemini: Returns JSON with explanation and substance (Penrose code). 4. App: Stores a "Keyword Summary" in your DB: "last_shape": "isosceles_triangle", "vertices": "A,B,C"}. 5. User: "Now rotate it 12 degrees." 6. App: Injects that summary into the next prompt.
+Mode fixes 
+Based on prompts and usage 
+Tone, outputs, real changes 
+Also navigation - fix so it actually works )completion, repossess etc
+Formatting 
+Fix rough notation, headers, text style and stuff 
+Polish and functionality
+Later need human examination of little things with buttons 
+Databases
+Login 
+Session memory storage
+Also track prompts and usage extensively for diagnostics
+Authentication and Row-Level Security (RLS) You need to know who is talking to the bot, what their subscription level is, and what their past scores are. • The Missing Piece: An Auth/Database provider like Supabase, Firebase, or Clerk. • Why it matters: You need Row-Level Security (RLS) in your database. This ensures that when your AI triggers a database tool to fetch "User's Past Quiz Scores," it is mathematically impossible for the API to accidentally fetch a different student's scores.
+Design
+Potentially make more professional/academic
+number modes	
+0-100 exam prep tagline  
+Continue with ui mixed with ai (dynamic)
+What is Generative UI? Right now, basic AI bots just return streams of markdown text. If you ask a standard bot a math question, it spits out a block of LaTeX code, and your frontend has to awkwardly catch that text and try to render it. With Generative UI (powered by libraries like the Vercel AI SDK), the AI doesn't just stream text—it streams actual React components. • The Old Way: The AI generates a text string like, "Here is your practice question: x^2 + 5x + 6 = 0. A) -2, -3. B) 2, 3." • The Modern Way: You build a beautiful, interactive <QuizCard /> component in React. You give the AI an MCP tool called show_quiz_card. When the student asks for a question, the AI triggers the tool, and a polished, interactive, click-able React component seamlessly appears right inside the chat win
+Documentation 
+thesis and white paper/pitch
+autonomy and jack of all trades argument?
+Not now
+Also promote heavy later
+Deploy on diff section of url, on platform, document 
+Better memory
+langchain/vector db across session
+User profile/databases/mem0 personalization (potential feature
+State awareness??
+Need adaptive and feedback loop 
+Security
+COPPA/FERPA
+Supabase or clerk - secure logins, encryption, storage, management
+Safety
+Guidelines and prevent misuse
+Llmops (oversee and track all usage ofr safety and more) 
+Accesibility
+True disability support (dyslexia, adhd and stuff actually built in with those libraries or whatever)  - also tts 
+Adjust tones and content to different ages
+Attach aria labels and metada so everything is readable and map question choices to keyboard
+Architecture
+Skeleton loaders, manage slow wifi 
+Reliability and load tests too
+Streaming and Specialized Rendering The user experience of an AI app lives and dies by latency and how the output looks on the screen. • Streaming: Mainstream apps don't wait for the LLM to finish thinking to show the answer. They use Server-Sent Events (SSE) to stream the text to the React frontend token-by-token. • Rendering Engines: If the bot is teaching math, raw text output isn't enough. The AI's response needs to be structured so your frontend can intercept the mathematical notations and seamlessly pass them through KaTeX, Matplotlib, or TikZ to render beautiful, properly formatted equations on the screen instead of raw code chunks
+Vercel AI SDK (or similar UI/UX bridges)
+Zustand for statemanagement across ui elements and stuff
+Method overall
+No agentic/mcp
+simple/structured/tailored is more efficient and reliable but still use other modern stuf 
+Graphs and images
+No pure string generation
+Constrained generation (zod)
+Use numoy to validate? And other matplotlib patches or whatever what to do
+How to guide and implement?
+Utilize data libraries maybe (aggregate and use)
+If you want to skip reading documentation and just want a massive repository of copy-pasteable examples to hand to your developer, you are in luck. There are dedicated galleries built exactly for this. Here are the best places to find pre-written, high-quality Matplotlib and Python graphing code that your developer can rip, adapt, and plug directly into your backend sandbox. ### 1. The Python Graph Gallery (Best Overall)  * **Link:** python-graph-gallery.com  * **Why it’s perfect:** This is arguably the best independent resource for Python data visualization. It features hundreds of charts categorized by type.  * **The setup:** Every single example comes with the exact, reproducible Python code right next to it. They heavily feature Matplotlib and Seaborn, and they specifically focus on *beautiful* aesthetics, not just functional code. Your developer can just go to the "Density" or "Scatter" sections, grab the code, and drop it into your sandbox. ### 2. The Official Matplotlib Gallery (The Holy Grail)  * **Link:** matplotlib.org/stable/gallery/index.html  * **Why it’s perfect:** This is the official source. It contains literally hundreds of scripts.  * **What to look for:** Tell your developer to specifically look at the **"Shapes and Collections"** section (for drawing geometric patches like circles, polygons, and angles) and the **"Text, Labels and Annotations"** section (which shows exactly how to format math equations using LaTeX-style rendering *inside* the Matplotlib graphs). ### 3. Sebastian Raschka’s Matplotlib Gallery (GitHub)  * **Link:** github.com/rasbt/matplotlib-gallery  * **Why it’s perfect:** Sebastian Raschka is a legendary machine learning educator. He compiled a massive GitHub repository of Jupyter Notebooks containing the code for every type of graph he needed for his data visualizations and publications.  * **The setup:** Because it is designed for academic publication, the code examples here naturally look highly professional and "educational"—exactly the aesthetic you want for the Virginia SOL prep material. ### 4. The SymPy Documentation Gallery (For Pure Geometry)  * **Link:** docs.sympy.org/latest/modules/plotting.html  * **Why it’s perfect:** If you take my advice to use SymPy for the strict mathematical geometry (triangles, intersecting planes, vectors), this is where you go.  * **The setup:** The documentation is packed with exact Python snippets showing how to plot algebraic functions, 2D geometry, and 3D intersections perfectly without having to write the clunky Matplotlib drawing logic from scratch. ### How to use these with your AI prompt: Instead of asking the AI to "write code to draw a graph," your developer can grab a perfect example from one of these galleries, strip out the specific data points, and turn it into a template on your server. Then, the AI just outputs a JSON dictionary like {"radius": 5, "x_center": 0, "y_center": 0}, and your template handles the rest! This guarantees top-tier quality every single time. 
+Methods
+Stateless API: The raw, forgetful engine. • Memory Injection: Taping notes to the engine so it knows what is happening. • Structured Output: Forcing the engine to hand you clean data (JSON) instead of messy text.   • Tool Calling: Giving the engine a remote control to trigger your Python code. • Agents: Putting the engine in a loop and letting it push the buttons on the remote control by itself until it finishes a job.
+Or The architecture you just described—a stateless API, custom memory injection (RAG), structured tool calls, and Generative UI objects—is exactly how enterprise platforms are built to
+Sandboxed execution
+Invisible retry (self healing) - automatic when erorrs, is there any other way to validate o- 
+3. Tool Calling & UI Components (No Loops) • We are using standard Tool Calling (via MCP or native API tools) to trigger UI renders, not to trigger backend reasoning loops. • Coder Task: Build three core React components that can accept JSON props from the LLM: • <FlashcardObject /> (Front/Back text) • <QuizCard /> (Question, 4 options, Correct Answer logic) • <GraphContainer /> (
+Accepts coordinates or equations to render via KaTeX/Matplo
+Style libraries is lowk bad idea
+Images
+Validate images to be live/display or retry/ping trest  - also check copyright 
+How to do reliable searches? Descriptive yes, mature filter yes
+Features
+ability to add custom course (upload your materials the either parse into json or plan tag 
+mobile support and adaptive viewports
+Show standards codes somwehere for alignment 
+User profiles with preferences (at least in server
+Fix Annotations animations while typing and scrolling, etc
+bad ideas 
+Remove text box when in mode?
+History Timeline and other subject specific stuff
+Crosslinks/prereqs for json
+Allow ai to switch modoes if instructed
+Below message
+Save to library 
+Copy text
+Report (issues)
+Fact check/validate (avoid hallucinations) 
+Probably separate feature too
+Discrete disclaimer about AI accuracy in left corner
+teacher dashboard per person
+Modified design and age grouping
+Progress goals/gamfication 
+
+
+Old test questions
+Add later for immediate retrieval (no ai orooabbly) 
+Parse with Llamaparse
+Host image links in server?
+Dynamic ideas 
+Graphs – interactive math/science graphs
+Equations – LaTeX math rendering with step-by-step breakdowns
+Annotations – highlights, inline notes, hover explanations
+TTS – text-to-speech with optional word highlighting
+Images – relevant images, historical photos, diagrams
+PrimarySources – quotes, documents, historical excerpts
+BookMode – “mockup textbook” layout with collapsible sections
+ClickableQuestions – interactive, expandable question cards
+MediaBlocks – flexible blocks for images, diagrams, and captions
+Tables – dynamically generated tables and structured data
+HoverExplain – mini pop-up explanations on key terms
+GraphSync – graphs that highlight or animate along with explanations
+SimplifyClick – click text to get a simpler explanation
+Sliders – adjustable parameters for graphs (lightweight interactivity)
+Colored words/text/font changes - handwritten? 
+Model choice
+2.5 flash lite for convos, 2.5 flash for coding/high precision
+Tracking
+How to do adaptive practice
+Json curriculum retrieval
+Ensure efficient usage, retrieval, tracking
+Pteontial switch to vector db or rag 
+Token extend
+Either use chaining for larger size or work in sections (maybe dynamic arrow) -  esesentail 
+Instead of fighting the model's message cap, you should use Sequential Generation to deliver notes and deep answers. • The "Wait & Fetch" Pattern: If a student asks a complex question (e.g., "Explain all types of triangle congruence proofs"), the backend should break the response into logical sections (SAS, ASA, SSS, etc.) based on your JSON curriculum. • Parallel API Calls: For long resources like notes, trigger parallel calls for each sub-topic. Your Next.js frontend stitches these together in real-time. • UX Implementation: Use a "Load Next Section" button or an auto-loading "Ghost Text" stream. This prevents "message cutoff" and ensures the student isn't overwhelmed by = all of text.
+
+
+Feasibility and research 
+Look at these for features, engineering, and orgisnality (this is still probably reliable good idea tho)
+https://github.com/EvanGks/ai-math-chatbot
+https://github.com/HKUDS/DeepTutor
+Validation
+Oprevent hallucaions 
+Multi-agent check?
+2. The "Validation" Stage (The Multi-Agent Check) Since you aren't using a math engine for these text-based questions, you use a Critic-Agent pass to catch hallucinations. @ +1 • Step A (The Solver): A separate "Solver" instance of the Al (using a different temperature or "Thinking Level") receives only the generated question— without the answer key. @ • Step B (The Comparison): Your backend compares the "Solver's" answer to the "Generator's" answer key. • Step C (The Logic): If the Solver and Generator disagree, or if the Solver identifies more than one "correct" answer, the question is discarded or sent back for a "Feedback -> Revision" loop. @ +1 • The Pitch: "Every question undergoes a real-time 'Peer Review' by a secondary Al agent to ensure there is only one clearly correct answer and no factual errors". @ +1
+Better ways?
+4. RAG Evals (Automated Evaluation) You can't fix what you can't measure. In standard code, you write unit tests (e.g., assert 2+2 == 4). In AI, the outputs are non-deterministic, meaning you can't write standard unit tests. • The Missing Piece: Frameworks like RAGAS (RAG Assessment) or TruLens. • Why it matters: Before you deploy an update to your bot, these frameworks use a separate AI to grade your bot's answers based on context precision and recall. It ensures that your bot is actually citing the Virginia Standards of Learning curriculum accurately and isn't slowly degrading in quality as you add more documents to the vector database.
+Liarbies to help?
+instructor/pydantic for structured - is this different than the other structured stuff?
+flashcards/mcq ui
+Build out, make functional
+Progress ui 
+Also build out, decide on graph libraries or just plain summary
+Allow printable or export (print buttons?
+
+

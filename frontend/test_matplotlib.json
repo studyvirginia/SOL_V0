@@ -1,0 +1,6 @@
+{
+  "type": "function",
+  "equations": ["y = x^2"],
+  "description": "A simple parabola",
+  "dpi": 150
+}

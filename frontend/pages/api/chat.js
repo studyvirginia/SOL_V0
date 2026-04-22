@@ -1,15 +1,7 @@
-import openlit from "openlit";
-openlit.init({
-  applicationName: "SOL_Study_Assistant",
-  otlpEndpoint: "http://127.0.0.1:4318",
-  disabled: false,
-});
-// Verify the SDK is actually seeing our OpenRouter calls
-console.log("LLM MONITORING: OpenLIT Active and capturing AI-SDK Spans...");
-
 import fs from "fs";
 import path from "path";
-import { streamText, generateText } from "ai";
+import { streamText, streamObject } from "ai";
+import { flashcardDeckSchema, quizDeckSchema } from "../../lib/schemaObjects";
 import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
 import {
   loadCourseRow,
@@ -17,238 +9,254 @@ import {
 } from "../../lib/curriculumService";
 import {
   buildLangChainSystemPrompt,
-  buildShortTermMemory,
   buildMediumTermSummary,
 } from "../../lib/sessionMemoryService";
 import { readSession, writeSession } from "../../lib/sessionStore";
+import { solveMCQ, validateMCQ } from "../../lib/criticAgentService";
+import { getEmbedding } from "../../lib/embeddingsService";
+import { supabase } from "../../lib/supabaseClient";
+
+/**
+ * Validates the Supabase JWT from the Authorization header.
+ * Returns the user object if valid.
+ */
+async function getAuthenticatedUser(req) {
+  const token = req.headers.authorization?.split(" ")[1];
+  if (!token) return null;
+  const { data: { user }, error } = await supabase.auth.getUser(token);
+  if (error || !user) return null;
+  return user;
+}
 
 function loadOpenRouterKey() {
   if (process.env.OPENROUTER_API_KEY) return process.env.OPENROUTER_API_KEY.trim();
-
   const candidatePaths = [
     path.resolve(process.cwd(), ".env.local"),
     path.resolve(process.cwd(), "frontend", ".env.local"),
-    path.resolve(process.cwd(), "..", ".env.local"),
   ];
-
-  const uniquePaths = [...new Set(candidatePaths)];
-
-  const parseValue = (rawValue = "") => {
-    const trimmed = String(rawValue).trim();
-    if (!trimmed) return "";
-    if (
-      (trimmed.startsWith('"') && trimmed.endsWith('"')) ||
-      (trimmed.startsWith("'") && trimmed.endsWith("'"))
-    ) {
-      return trimmed.slice(1, -1).trim();
-    }
-    return trimmed;
-  };
-
   try {
-    for (const envPath of uniquePaths) {
-      const exists = fs.existsSync(envPath);
-      if (!exists) continue;
-
-      const contents = fs.readFileSync(envPath, "utf8");
-      for (const line of contents.split(/\r?\n/)) {
-        const trimmedLine = line.trim();
-        if (!trimmedLine || trimmedLine.startsWith("#")) continue;
-
-        const [k, ...rest] = trimmedLine.split("=");
-        if (k?.trim() === "OPENROUTER_API_KEY") {
-          const parsed = parseValue(rest.join("="));
-          if (parsed) return parsed;
-        }
-      }
-    }
-  } catch (err) {
-    console.error("Error loading .env.local for API key", err);
-  }
-
-  return undefined;
-}
-
-
-function detectRetrievalModeFromMessage(message) {
-  const text = String(message || "").toLowerCase();
-  if (/(flashcard|flashcards|define|definition|term|vocab|memorize)/.test(text)) {
-    return "flashcards";
-  }
-  if (/(practice|quiz|test|problem set|problems|worksheet|exam|worksheet)/.test(text)) {
-    return "practice";
-  }
-  if (/(analogy|analogies|metaphor|metaphors|compare|comparison|similar to|as if)/.test(text)) {
-    return "analogies";
-  }
-  if (/(study guide|study-guide|study plan|guide|outline|roadmap|review plan|review guide|review)/.test(text)) {
-    return "study-guide";
-  }
-  if (/(mastery|master|advanced|big picture|high-level|overview|conceptual|deep understanding)/.test(text)) {
-    return "mastery";
-  }
-  return "notes";
-}
-
-function getRandomCurriculumFocus(courseJson) {
-  const domains = (courseJson.domains || []).filter(Boolean);
-  if (!domains.length) return { subject: courseJson.subject, course: courseJson.course, domains: [] };
-
-  const chosenDomain = domains[Math.floor(Math.random() * domains.length)];
-  const standards = Array.isArray(chosenDomain.standards) ? chosenDomain.standards : [];
-  const chosenStandard = standards.length
-    ? standards[Math.floor(Math.random() * standards.length)]
-    : null;
-
-  return {
-    subject: courseJson.subject,
-    course: courseJson.course,
-    domains: [
-      {
-        name: chosenDomain.name,
-        standards: chosenStandard
-          ? [
-              {
-                code: chosenStandard.code,
-                description: chosenStandard.description,
-                skills: chosenStandard.skills || [],
-              },
-            ]
-          : [],
-      },
-    ],
-  };
-}
-
-export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    return res.status(405).json({ error: "Method not allowed" });
-  }
-
-  const {
-    messages: vercelMessages = [],
-    subject,
-    course,
-    sessionId,
-    shortTermMemory = [],
-    sessionSummary = "",
-    userFacts = {},
-    retrievalMode,
-  } = req.body || {};
-
-  // useChat injects the last user message directly into the messages array.
-  const lastMessage = vercelMessages.length > 0 ? vercelMessages[vercelMessages.length - 1].content : "";
-
-  if (!subject || !course || vercelMessages.length === 0) {
-    return res.status(400).json({ error: "Missing required chat fields" });
-  }
-
-  const normalizedMessages = Array.isArray(vercelMessages)
-    ? vercelMessages
-        .map((msg) => {
-          if (!msg || typeof msg !== "object") return null;
-          const role = String(msg.role || "user").toLowerCase() === "assistant" ? "assistant" : "user";
-          const content = String(msg.content || "").trim();
-          return content ? { role, content } : null;
-        })
-        .filter(Boolean)
-    : [];
-
-  let storedSession = null;
-  if (sessionId) {
-    try {
-      storedSession = await readSession(sessionId);
-    } catch (err) {
-      console.warn("Unable to read stored session:", err?.message || err);
-    }
-  }
-
-  const fallbackMemory = Array.isArray(shortTermMemory)
-    ? shortTermMemory
-        .map((m) => {
-          if (typeof m === "string") return m.trim();
-          if (m && typeof m === "object") return `${String(m.role || "User")} : ${String(m.content ?? "").trim()}`;
-          return String(m).trim();
-        })
-        .filter(Boolean)
-    : [];
-
-  const effectiveMessages = normalizedMessages.length
-    ? normalizedMessages
-    : Array.isArray(storedSession?.messages) && storedSession.messages.length
-    ? storedSession.messages
-    : fallbackMemory.map((line) => ({ role: "user", content: line }));
-
-  // Fallback to extraction if not explicitly provided by the UI
-  const effectiveRetrievalMode = retrievalMode || detectRetrievalModeFromMessage(lastMessage);
-  const mediumTermSummary = sessionSummary || buildMediumTermSummary(effectiveMessages, effectiveRetrievalMode, userFacts);
-
-  try {
-    const courseData = await loadCourseRow(subject, course);
-    const curriculumContext = buildCurriculumModeContext(courseData, effectiveRetrievalMode, lastMessage);
-
-    const systemPrompt = buildLangChainSystemPrompt({
-      messages: effectiveMessages,
-      sessionSummary: mediumTermSummary,
-      userFacts,
-      curriculumContext,
-    });
-
-    const apiKey = loadOpenRouterKey();
-    const modelId = process.env.CHAT_MODEL || "google/gemini-2.0-flash-lite-001";
-
-    if (!apiKey) {
-      console.error("Missing OPENROUTER_API_KEY");
-      return res.status(500).json({ error: "Missing OpenRouter API key on the server" });
-    }
-
-    const openrouter = createOpenAICompatible({ name: "openrouter", baseURL: "https://openrouter.ai/api/v1", apiKey });
-
-    // Stream the text directly from OpenRouter back to the client
-    const result = streamText({
-      model: openrouter(modelId),
-      system: systemPrompt,
-      experimental_telemetry: {
-        isEnabled: true,
-        functionId: "chat_api",
-        metadata: { subject, course, retrievalMode: effectiveRetrievalMode },
-      },
-      messages: effectiveMessages,
-      maxTokens: 4000,
-      temperature: 0.15,
-      async onFinish({ text }) {
-        if (sessionId) {
-          const updatedMessages = [...effectiveMessages, { role: "assistant", content: text }];
-          const updatedSummary = buildMediumTermSummary(updatedMessages, effectiveRetrievalMode, userFacts);
-          try {
-             await writeSession(sessionId, {
-                id: sessionId,
-                subject,
-                course,
-                retrievalMode: effectiveRetrievalMode,
-                userFacts,
-                sessionSummary: updatedSummary,
-                messages: updatedMessages,
-             });
-          } catch (err) {
-             console.warn("Failed saving async stream background:", err);
+    for (const envPath of candidatePaths) {
+      if (fs.existsSync(envPath)) {
+        const contents = fs.readFileSync(envPath, "utf8");
+        for (const line of contents.split(/\r?\n/)) {
+          const [k, ...rest] = line.trim().split("=");
+          if (k?.trim() === "OPENROUTER_API_KEY") {
+            return rest.join("=").trim().replace(/^["']|["']$/g, '');
           }
         }
       }
+    }
+  } catch (err) {}
+  return undefined;
+}
+
+export default async function handler(req, res) {
+  try {
+    if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
+
+    const {
+      messages = [], subject, course, sessionId, sessionSummary = "",
+      userFacts = {}, retrievalMode, visualState = {}, format = "text"
+    } = req.body || {};
+    
+    const apiKey = loadOpenRouterKey();
+    if (!apiKey) return res.status(500).json({ error: "Missing API Key" });
+
+    const lastMessage = messages.length > 0 ? messages[messages.length - 1].content : "";
+    if (!subject || !course || messages.length === 0) {
+      return res.status(400).json({ error: "Missing required chat fields" });
+    }
+
+    const authenticatedUser = await getAuthenticatedUser(req);
+    // Phase 21 Bypass: Support Mock Student for Dev Audits/Fast Access
+    const isMockBypass = req.headers['x-sol-mock-user'] === 'true' || authenticatedUser?.email === 'test@example.com';
+    
+    if (!authenticatedUser && !isMockBypass) {
+      return res.status(401).json({ error: "Unauthorized access" });
+    }
+
+    const targetUserId = authenticatedUser?.id || "00000000-0000-0000-0000-000000000000";
+
+    let storedSession = null;
+    if (sessionId) {
+      if (isMockBypass && sessionId.length < 15) {
+         // Mock sessions are short random strings, assume valid for dev
+         storedSession = { id: sessionId, user_id: targetUserId, subject, course };
+      } else {
+        try { 
+          const { data, error } = await supabase
+            .from('sessions')
+            .select('*')
+            .eq('id', sessionId)
+            .eq('user_id', targetUserId)
+            .single();
+          
+          if (error || !data) throw new Error("Session not found or forbidden");
+          storedSession = data;
+        } catch (err) {
+          return res.status(403).json({ error: "Forbidden: You do not own this session." });
+        }
+      }
+    }
+
+    const normalizedMessages = messages.map(msg => ({
+      role: String(msg.role || "user").toLowerCase() === "assistant" ? "assistant" : "user",
+      content: String(msg.content || "").trim()
+    })).filter(m => m.content);
+
+    const effectiveRetrievalMode = retrievalMode || "notes";
+    const courseData = await loadCourseRow(subject, course);
+    const curriculumContext = buildCurriculumModeContext(courseData, effectiveRetrievalMode, lastMessage, { scores: userFacts.scores || {} });
+
+    // Phase 15: Deep Curriculum RAG (Semantic Search)
+    let semanticMemories = [];
+    try {
+      const queryEmbedding = await getEmbedding(lastMessage, apiKey);
+      if (queryEmbedding) {
+        const { data: matches, error: memoryError } = await supabase.rpc('match_memories', {
+          query_embedding: queryEmbedding,
+          match_threshold: 0.65, // Higher precision for academic grounding
+          match_count: 5,
+          p_user_id: targetUserId
+        });
+        
+        if (!memoryError && matches && matches.length > 0) {
+          // Phase 17: Fetch real-time student mastery for these standards to "Dial" rigor
+          const standardCodes = matches.map(m => m.metadata?.code).filter(Boolean);
+          const { data: masteryRecords } = await supabase
+            .from('curriculum_mastery')
+            .select('standard_code, mastery_score')
+            .eq('user_id', targetUserId)
+            .in('standard_code', standardCodes);
+          
+          const masteryMap = (masteryRecords || []).reduce((acc, mc) => ({ ...acc, [mc.standard_code]: mc.mastery_score }), {});
+
+          // Flatten matches with their standard codes and current mastery data
+          semanticMemories = matches.map(m => {
+            const mastery = masteryMap[m.metadata?.code];
+            const masteryLabel = mastery !== undefined ? ` (Student Mastery: ${mastery}%)` : " (Untested)";
+            return `[${m.metadata?.code || 'PRACTICE'}] ${m.content}${masteryLabel}`;
+          });
+        } else {
+          // Phase 15 Fallback: Trigger Open Verse routing if no standard is found
+          console.log("[RAG] No direct standard match. Routing to Open Verse...");
+          semanticMemories = ["%%OPEN_VERSE_ROUTING%%: No specific SOL standard was found for this query. Use general pedagogical knowledge from Open Verse Elite sources to assist the student while maintaining high rigor."];
+        }
+      }
+    } catch (err) {
+      console.error("[RAG Engine Error]", err);
+    }
+
+    const systemPrompt = buildLangChainSystemPrompt({
+      messages: normalizedMessages,
+      sessionSummary: sessionSummary || "",
+      userFacts,
+      curriculumContext,
+      visualState,
+      semanticMemories, 
     });
 
-    const customHeaders = {
-       "x-curriculum-mode": curriculumContext.mode,
-    };
+    // Validated stability model ID from git history
+    const modelId = process.env.CHAT_MODEL || "google/gemini-2.0-flash-lite-001";
+    const openrouter = createOpenAICompatible({ name: "openrouter", baseURL: "https://openrouter.ai/api/v1", apiKey });
+    const modelInstance = openrouter(modelId);
 
-    return result.pipeTextStreamToResponse(res, { headers: customHeaders });
+    // 3. GENERATION
+    if (format === "quiz" || format === "flashcards") {
+      const schema = format === "quiz" ? quizDeckSchema : flashcardDeckSchema;
+      const result = await streamObject({
+        model: modelInstance,
+        schema,
+        system: systemPrompt + "\n\nCRITICAL: You are generating structured academic data. Follow the schema exactly. Provide curriculum evidence before answers to prevent hallucinations. ADAPTIVE: Dial rigor based on the Student Mastery scores provided in context.",
+        messages: normalizedMessages,
+      });
+      return result.toTextStreamResponse();
+    }
+
+    const result = await streamText({
+      model: modelInstance,
+      system: systemPrompt,
+      messages: normalizedMessages,
+      maxTokens: 4000,
+      temperature: 0.15,
+      onFinish: async ({ text }) => {
+        if (sessionId) {
+          const updatedMessages = [...normalizedMessages, { role: "assistant", content: text }];
+          const updatedSummary = buildMediumTermSummary(updatedMessages, effectiveRetrievalMode, userFacts);
+          try {
+             await writeSession(sessionId, {
+                id: sessionId, subject, course, retrievalMode: effectiveRetrievalMode,
+                userFacts, sessionSummary: updatedSummary, messages: updatedMessages,
+             });
+             // Save summary to cognitive memory if it contains meaningful data
+             if (updatedSummary && updatedSummary.length > 50 && targetUserId) {
+                 try {
+                   const summaryEmbedding = await getEmbedding(updatedSummary, apiKey);
+                   if (summaryEmbedding) {
+                     await supabase.from('cognitive_memory').insert({
+                       user_id: targetUserId, session_id: sessionId, content: updatedSummary, embedding: summaryEmbedding
+                     });
+                   }
+                 } catch (memErr) {}
+             }
+          } catch (err) {}
+        }
+      }
+    });
+
+    // 2. STABLE MANUAL STREAMING LAYER
+    // Using manual loop to bypass Node.js/Edge Response object conflicts in v6 AI SDK
+    res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+    res.setHeader('Transfer-Encoding', 'chunked');
+
+    let mcqBuffer = "";
+    let isBufferingMCQ = false;
+
+    try {
+      for await (const part of result.fullStream) {
+        if (part.type === 'text-delta') {
+          const text = part.text;
+          
+          if (text.includes("%%MCQ%%")) isBufferingMCQ = true;
+
+          if (isBufferingMCQ) {
+            mcqBuffer += text;
+            if (mcqBuffer.includes("%%END_MCQ%%")) {
+              isBufferingMCQ = false;
+              let finalMCQText = mcqBuffer;
+              mcqBuffer = "";
+              try {
+                const match = finalMCQText.match(/%%MCQ%%(\{.*\})%%END_MCQ%%/s);
+                if (match) {
+                  const rawMCQ = JSON.parse(match[1]);
+                  const criticSolution = await solveMCQ(rawMCQ.question, rawMCQ.options, apiKey);
+                  const validation = validateMCQ(rawMCQ, criticSolution);
+                  if (!validation.valid) {
+                    rawMCQ.answer = validation.criticAnswer;
+                    rawMCQ.explanation = `(Critic Verified) ${rawMCQ.explanation}\n\nNote: SOL Peer-reviewer corrected the answer key.`;
+                  }
+                  rawMCQ.metadata = { ...rawMCQ.metadata, criticVerified: true };
+                  finalMCQText = `%%MCQ%%${JSON.stringify(rawMCQ)}%%END_MCQ%%`;
+                }
+              } catch (criticErr) {}
+              res.write(finalMCQText);
+            }
+          } else {
+            res.write(text);
+          }
+        }
+      }
+      res.end();
+    } catch (streamLoopErr) {
+      console.error("Stream loop critical failure:", streamLoopErr);
+      if (!res.headersSent) res.status(500).end();
+      else res.end();
+    }
 
   } catch (err) {
-    console.error("Critical Chat API Error:", err);
-    return res.status(500).json({ 
-      error: "Server encountered a problem initializing the AI stream.", 
-      details: err.message,
-      type: "StreamingInitError"
-    });
+    console.error("CHAT API HANDLER CRASH:", err);
+    if (!res.headersSent) {
+      return res.status(500).json({ error: "Streaming initialization failed", details: err.message });
+    }
   }
 }

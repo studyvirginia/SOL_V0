@@ -2,6 +2,15 @@ import fs from "fs";
 import path from "path";
 import { generateText } from "ai";
 import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
+import { supabase } from "../../lib/supabaseClient";
+
+async function getAuthenticatedUser(req) {
+  const token = req.headers.authorization?.split(" ")[1];
+  if (!token) return null;
+  const { data: { user }, error } = await supabase.auth.getUser(token);
+  if (error || !user) return null;
+  return user;
+}
 
 function loadOpenRouterKey() {
   if (process.env.OPENROUTER_API_KEY) return process.env.OPENROUTER_API_KEY.trim();
@@ -117,6 +126,10 @@ OUTPUT FORMAT (Strict JSON, no markdown):
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({error: 'Method not allowed'});
+  
+  const authenticatedUser = await getAuthenticatedUser(req);
+  if (!authenticatedUser) return res.status(401).json({ error: "Unauthorized" });
+
   const { visual_search_term, preferred_extension, source_priority, standardContext } = req.body;
   
   if (!visual_search_term) return res.status(400).json({error: 'Missing visual_search_term'});
