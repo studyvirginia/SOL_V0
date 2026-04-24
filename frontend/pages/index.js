@@ -40,7 +40,7 @@ const FOCUS_OPTIONS = [
 
 const INITIAL_SUBMODE = "diagnostic";
 const INITIAL_ASSISTANT_MESSAGE =
-  "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas.\n\n" +
+  "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas.\n\n```json\n" +
   JSON.stringify({
     root: "welcome-actions",
     elements: {
@@ -54,7 +54,8 @@ const INITIAL_ASSISTANT_MESSAGE =
         }
       }
     }
-  });
+  }) +
+  "\n```";
 
 // Modern UI Icons
 const PlusIcon = (props) => <svg viewBox="0 0 24 24" width="20" height="20" fill="none" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v14M5 12h14" /></svg>;

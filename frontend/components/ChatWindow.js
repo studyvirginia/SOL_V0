@@ -65,7 +65,7 @@ function splitMessageSegments(content) {
   // Regex for json-render specs (expecting valid JSON objects that look like specs)
   // We look for { "root": ... "elements": ... } or similar patterns if the AI outputs them directly.
   // Alternatively, we can just look for any JSON block.
-  const JSON_BLOCK_RE = /```json\n([\s\S]*?)\n```|({[\s\s]*?"root"[\s\s]*?"elements"[\s\S]*?})|({[\s\s]*?"op"[\s\s]*?":?[\s\s]*?"add"[\s\S]*?})/g;
+  const JSON_BLOCK_RE = /```json\n([\s\S]*?)\n```|({[\s\S]*?"root"[\s\S]*?"elements"[\s\S]*?})|({[\s\S]*?"op"[\s\S]*?":?[\s\S]*?"add"[\s\S]*?})/g;
 
 
   const GRAPH_RE = /%%GRAPH%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_GRAPH%%/g;
