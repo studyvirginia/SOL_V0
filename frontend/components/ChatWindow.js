@@ -10,7 +10,6 @@ import { buildMediumTermSummary, buildShortTermMemory } from "../lib/sessionMemo
 import ErrorBoundary from "./ErrorBoundary";
 import { Renderer, StateProvider, VisibilityProvider, ActionProvider } from "@json-render/react";
 import { registry } from "./ComponentRegistry";
-import { QuickActions } from "./QuickActions";
 import { ChatProvider } from "../context/ChatContext";
 import QuizRunner from "./learning/QuizRunner";
 import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
@@ -68,13 +67,12 @@ function splitMessageSegments(content) {
   // Alternatively, we can just look for any JSON block.
   const JSON_BLOCK_RE = /```json\n([\s\S]*?)\n```|({[\s\s]*?"root"[\s\s]*?"elements"[\s\S]*?})|({[\s\s]*?"op"[\s\s]*?":?[\s\s]*?"add"[\s\S]*?})/g;
 
-  const ACTION_TOKEN_RE = /%%ACTIONS%%([\s\S]*?)%%END_ACTIONS%%/g;
+
   const GRAPH_RE = /%%GRAPH%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_GRAPH%%/g;
 
   let lastIndex = 0;
   const matches = [
     ...content.matchAll(JSON_BLOCK_RE),
-    ...content.matchAll(ACTION_TOKEN_RE),
     ...content.matchAll(GRAPH_RE),
   ].sort((a, b) => a.index - b.index);
 
@@ -92,9 +90,7 @@ function splitMessageSegments(content) {
     
     const raw = m[1] || m[0];
     
-    if (m[0].startsWith('%%ACTIONS%%')) {
-      segments.push({ type: 'actions', data: m[1] });
-    } else if (m[0].startsWith('%%GRAPH%%')) {
+    if (m[0].startsWith('%%GRAPH%%')) {
       segments.push({ type: 'graph', data: m[1] || m[0] });
     } else {
       // It's a json-render spec or a sequence of JSONL patches
@@ -780,15 +776,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                                 ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} />
                                 : null;
                             }
-                            if (seg.type === 'actions') {
-                              return <QuickActions 
-                                key={segIdx} 
-                                actions={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} 
-                                onSwitch={switchSubMode} 
-                                onSend={(prompt) => handleFormSubmit(null, prompt)} 
-                                currentSubMode={currentMode} 
-                              />;
-                            }
+
 
 
                             if (seg.type === 'json-render') {
