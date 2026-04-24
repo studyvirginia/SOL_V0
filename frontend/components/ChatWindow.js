@@ -12,8 +12,6 @@ import { Renderer, StateProvider, VisibilityProvider, ActionProvider } from "@js
 import { registry } from "./ComponentRegistry";
 import { QuickActions } from "./QuickActions";
 import { ChatProvider } from "../context/ChatContext";
-import FlashcardDeck from "./learning/FlashcardDeck";
-import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
 import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
 import { compilePatchesToSpec, isJSONLPatch } from "../lib/specCompiler";
@@ -68,12 +66,10 @@ function splitMessageSegments(content) {
   // Regex for json-render specs (expecting valid JSON objects that look like specs)
   // We look for { "root": ... "elements": ... } or similar patterns if the AI outputs them directly.
   // Alternatively, we can just look for any JSON block.
-  const JSON_BLOCK_RE = /```json\n([\s\S]*?)\n```|({[\s\s]*?"root"[\s\s]*?"elements"[\s\S]*?})/g;
+  const JSON_BLOCK_RE = /```json\n([\s\S]*?)\n```|({[\s\s]*?"root"[\s\s]*?"elements"[\s\S]*?})|({[\s\s]*?"op"[\s\s]*?":?[\s\s]*?"add"[\s\S]*?})/g;
 
   const ACTION_TOKEN_RE = /%%ACTIONS%%([\s\S]*?)%%END_ACTIONS%%/g;
   const GRAPH_RE = /%%GRAPH%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_GRAPH%%/g;
-  const FLASHCARDS_RE = /%%FLASHCARDS%%([\s\S]*?)%%END_FLASHCARDS%%/g;
-  const MCQ_RE = /%%MCQ%%([\s\S]*?)%%END_MCQ%%/g;
   const QUIZ_RE = /%%QUIZ%%([\s\S]*?)%%END_QUIZ%%/g;
 
   let lastIndex = 0;
@@ -81,46 +77,53 @@ function splitMessageSegments(content) {
     ...content.matchAll(JSON_BLOCK_RE),
     ...content.matchAll(ACTION_TOKEN_RE),
     ...content.matchAll(GRAPH_RE),
-    ...content.matchAll(FLASHCARDS_RE),
-    ...content.matchAll(MCQ_RE),
     ...content.matchAll(QUIZ_RE),
   ].sort((a, b) => a.index - b.index);
 
   matches.forEach((m) => {
+    // If there's text between the last match and this one
     if (m.index > lastIndex) {
-      segments.push({ type: 'text', content: content.slice(lastIndex, m.index) });
+      const textBetween = content.slice(lastIndex, m.index);
+      // If it's just whitespace and we are merging JSON blocks, we don't push a text segment yet
+      if (textBetween.trim() === "" && segments.length > 0 && segments[segments.length - 1].type === 'json-render' && (m[0].startsWith('{') || m[0].startsWith('```json'))) {
+        // We will append this match to the previous json-render segment below
+      } else {
+        segments.push({ type: 'text', content: textBetween });
+      }
     }
+    
+    const raw = m[1] || m[0];
     
     if (m[0].startsWith('%%ACTIONS%%')) {
       segments.push({ type: 'actions', data: m[1] });
     } else if (m[0].startsWith('%%GRAPH%%')) {
       segments.push({ type: 'graph', data: m[1] || m[0] });
-    } else if (m[0].startsWith('%%FLASHCARDS%%')) {
-      segments.push({ type: 'flashcards', data: m[1] });
-    } else if (m[0].startsWith('%%MCQ%%')) {
-      segments.push({ type: 'mcq', data: m[1] });
     } else if (m[0].startsWith('%%QUIZ%%')) {
       segments.push({ type: 'quiz', data: m[1] });
     } else {
       // It's a json-render spec or a sequence of JSONL patches
-      const raw = m[1] || m[0];
-      if (isJSONLPatch(raw)) {
-        const lines = raw.split('\n').filter(l => l.trim().startsWith('{"op":'));
-        const spec = compilePatchesToSpec(lines);
-        if (spec.root) {
-          segments.push({ type: 'json-render', spec });
-        } else {
-          segments.push({ type: 'text', content: raw });
-        }
+      const prevSeg = segments[segments.length - 1];
+      if (prevSeg && prevSeg.type === 'json-render') {
+        // Merge with existing json-render segment
+        const combinedRaw = prevSeg.rawContent + "\n" + raw;
+        const lines = combinedRaw.split('\n').filter(l => l.trim().startsWith('{'));
+        const spec = isJSONLPatch(combinedRaw) ? compilePatchesToSpec(lines) : (() => { try { return JSON.parse(raw); } catch { return {}; } })();
+        
+        prevSeg.rawContent = combinedRaw;
+        prevSeg.spec = spec;
       } else {
-        try {
-          const spec = JSON.parse(raw);
-          if (spec.root && spec.elements) {
-            segments.push({ type: 'json-render', spec });
-          } else {
-            segments.push({ type: 'text', content: raw });
-          }
-        } catch (e) {
+        // Start new json-render segment
+        let spec = {};
+        if (isJSONLPatch(raw)) {
+          const lines = raw.split('\n').filter(l => l.trim().startsWith('{'));
+          spec = compilePatchesToSpec(lines);
+        } else {
+          try { spec = JSON.parse(raw); } catch (e) { spec = {}; }
+        }
+
+        if (spec.root || isJSONLPatch(raw)) {
+          segments.push({ type: 'json-render', spec, rawContent: raw });
+        } else {
           segments.push({ type: 'text', content: raw });
         }
       }
@@ -790,25 +793,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                                 currentSubMode={currentMode} 
                               />;
                             }
-                             if (seg.type === 'flashcards') {
-                               return <FlashcardDeck 
-                                 key={segIdx} 
-                                 cards={(() => { try { return JSON.parse(seg.data); } catch { return []; } })()} 
-                                 onAction={handleAction}
-                               />;
-                             }
-                            if (seg.type === 'mcq') {
-                              const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
-                              if (!data) return null;
-                              return (
-                                <AdaptiveMCQ 
-                                  key={segIdx}
-                                  mode={(currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice'}
-                                  {...data} 
-                                  onAction={handleAction}
-                                />
-                              );
-                            }
+
                             if (seg.type === 'quiz') {
                               const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
                               if (!data) return null;
