@@ -70,14 +70,12 @@ function splitMessageSegments(content) {
 
   const ACTION_TOKEN_RE = /%%ACTIONS%%([\s\S]*?)%%END_ACTIONS%%/g;
   const GRAPH_RE = /%%GRAPH%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_GRAPH%%/g;
-  const QUIZ_RE = /%%QUIZ%%([\s\S]*?)%%END_QUIZ%%/g;
 
   let lastIndex = 0;
   const matches = [
     ...content.matchAll(JSON_BLOCK_RE),
     ...content.matchAll(ACTION_TOKEN_RE),
     ...content.matchAll(GRAPH_RE),
-    ...content.matchAll(QUIZ_RE),
   ].sort((a, b) => a.index - b.index);
 
   matches.forEach((m) => {
@@ -98,8 +96,6 @@ function splitMessageSegments(content) {
       segments.push({ type: 'actions', data: m[1] });
     } else if (m[0].startsWith('%%GRAPH%%')) {
       segments.push({ type: 'graph', data: m[1] || m[0] });
-    } else if (m[0].startsWith('%%QUIZ%%')) {
-      segments.push({ type: 'quiz', data: m[1] });
     } else {
       // It's a json-render spec or a sequence of JSONL patches
       const prevSeg = segments[segments.length - 1];
@@ -794,18 +790,7 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                               />;
                             }
 
-                            if (seg.type === 'quiz') {
-                              const data = (() => { try { return JSON.parse(seg.data); } catch { return null; } })();
-                              if (!data) return null;
-                              return (
-                                <QuizRunner 
-                                  key={segIdx}
-                                  mode={(currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice'}
-                                  {...data} 
-                                  onAction={handleAction}
-                                />
-                              );
-                            }
+
                             if (seg.type === 'json-render') {
                               return (
                                 <div key={segIdx} className="w-full my-4">
