@@ -40,7 +40,21 @@ const FOCUS_OPTIONS = [
 
 const INITIAL_SUBMODE = "diagnostic";
 const INITIAL_ASSISTANT_MESSAGE =
-  "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas. When you're ready, say: Start diagnostic. %%ACTIONS%%[{\"label\": \"Begin\", \"prompt\": \"Start diagnostic\", \"targetMode\": \"diagnostic\"}, {\"label\": \"Skip\", \"prompt\": \"Skip diagnostic and go to notes\", \"targetMode\": \"notes\"}]%%END_ACTIONS%%";
+  "Welcome. Let's begin with a quick diagnostic to identify your strongest and weakest areas.\n\n" +
+  JSON.stringify({
+    root: "welcome-actions",
+    elements: {
+      "welcome-actions": {
+        type: "Actions",
+        props: {
+          actions: [
+            { label: "Begin", prompt: "Start diagnostic", targetMode: "diagnostic" },
+            { label: "Skip", prompt: "Skip diagnostic and go to notes", targetMode: "notes" }
+          ]
+        }
+      }
+    }
+  });
 
 // Modern UI Icons
 const PlusIcon = (props) => <svg viewBox="0 0 24 24" width="20" height="20" fill="none" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v14M5 12h14" /></svg>;
