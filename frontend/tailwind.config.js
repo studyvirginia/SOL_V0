@@ -74,8 +74,4 @@ module.exports = {
       },
     },
   },
-  // The user's environment does not have npm or yarn, so I cannot install this plugin.
-  // Once the package manager is available, you can uncomment the following line
-  // and run `npm install tailwindcss-animate`.
-  // plugins: [require("tailwindcss-animate")],
 }
