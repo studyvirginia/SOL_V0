@@ -44,20 +44,10 @@ const SendIcon = (props) => (
 
 
 
-// Complete token — both delimiters present
-const GRAPH_TOKEN_RE = /%%GRAPH%%[\s\S]*?%%END_GRAPH%%/g;
 
-// Partial token — opening delimiter present but closing not yet arrived (strips during streaming)
-const GRAPH_PARTIAL_RE = /%%GRAPH%%[\s\S]*$/;
-
-/**
- * Split a message string into alternating text/graph segments so graphs
- * can be rendered inline at the exact position the token appeared.
- * Returns an array of { type: 'text'|'graph', content: string, graphIndex: number }
- */
 /**
  * Split a message string into alternating text/component segments.
- * Now handles both old %%TOKEN%% format and new json-render specs.
+ * Now handles json-render specs.
  */
 function splitMessageSegments(content) {
   const segments = [];
@@ -68,21 +58,19 @@ function splitMessageSegments(content) {
   const JSON_BLOCK_RE = /```json\n([\s\S]*?)\n```|({[\s\S]*?"root"[\s\S]*?"elements"[\s\S]*?})|({[\s\S]*?"op"[\s\S]*?":?[\s\S]*?"add"[\s\S]*?})/g;
 
 
-  const GRAPH_RE = /%%GRAPH%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_GRAPH%%/g;
 
   let lastIndex = 0;
   const matches = [
     ...content.matchAll(JSON_BLOCK_RE),
-    ...content.matchAll(GRAPH_RE),
   ].sort((a, b) => a.index - b.index);
 
   matches.forEach((m) => {
     // If there's text between the last match and this one
     if (m.index > lastIndex) {
       const textBetween = content.slice(lastIndex, m.index);
-      // If it's just whitespace and we are merging JSON blocks, we don't push a text segment yet
-      if (textBetween.trim() === "" && segments.length > 0 && segments[segments.length - 1].type === 'json-render' && (m[0].startsWith('{') || m[0].startsWith('```json'))) {
-        // We will append this match to the previous json-render segment below
+      // If it's just whitespace and we are merging blocks, we can skip text segment
+      if (textBetween.trim() === "" && segments.length > 0 && segments[segments.length - 1].type === 'json-render') {
+        // Skip
       } else {
         segments.push({ type: 'text', content: textBetween });
       }
@@ -90,37 +78,33 @@ function splitMessageSegments(content) {
     
     const raw = m[1] || m[0];
     
-    if (m[0].startsWith('%%GRAPH%%')) {
-      segments.push({ type: 'graph', data: m[1] || m[0] });
+    // It's a json-render spec or a sequence of JSONL patches
+    const prevSeg = segments[segments.length - 1];
+    if (prevSeg && prevSeg.type === 'json-render') {
+      // Merge with existing json-render segment
+      const combinedRaw = prevSeg.rawContent + "\n" + raw;
+      const lines = combinedRaw.split('\n').filter(l => l.trim().startsWith('{'));
+      const spec = isJSONLPatch(combinedRaw) ? compilePatchesToSpec(lines) : (() => { try { return JSON.parse(raw); } catch { return {}; } })();
+      
+      prevSeg.rawContent = combinedRaw;
+      prevSeg.spec = spec;
     } else {
-      // It's a json-render spec or a sequence of JSONL patches
-      const prevSeg = segments[segments.length - 1];
-      if (prevSeg && prevSeg.type === 'json-render') {
-        // Merge with existing json-render segment
-        const combinedRaw = prevSeg.rawContent + "\n" + raw;
-        const lines = combinedRaw.split('\n').filter(l => l.trim().startsWith('{'));
-        const spec = isJSONLPatch(combinedRaw) ? compilePatchesToSpec(lines) : (() => { try { return JSON.parse(raw); } catch { return {}; } })();
-        
-        prevSeg.rawContent = combinedRaw;
-        prevSeg.spec = spec;
+      // Start new json-render segment
+      let spec = {};
+      if (isJSONLPatch(raw)) {
+        const lines = raw.split('\n').filter(l => l.trim().startsWith('{'));
+        spec = compilePatchesToSpec(lines);
       } else {
-        // Start new json-render segment
-        let spec = {};
-        if (isJSONLPatch(raw)) {
-          const lines = raw.split('\n').filter(l => l.trim().startsWith('{'));
-          spec = compilePatchesToSpec(lines);
-        } else {
-          try { spec = JSON.parse(raw); } catch (e) { spec = {}; }
-        }
+        try { spec = JSON.parse(raw); } catch (e) { spec = {}; }
+      }
 
-        if (spec.root || isJSONLPatch(raw)) {
-          segments.push({ type: 'json-render', spec, rawContent: raw });
-        } else {
-          segments.push({ type: 'text', content: raw });
-        }
+      if (spec.root || isJSONLPatch(raw)) {
+        segments.push({ type: 'json-render', spec, rawContent: raw });
+      } else {
+        segments.push({ type: 'text', content: raw });
       }
     }
-
+    
     lastIndex = m.index + m[0].length;
   });
 
@@ -189,8 +173,6 @@ function preprocessAnnotations(text) {
 const MarkdownMessage = ({ content, isUser }) => {
   const formattedContent = preprocessAnnotations(
     String(content || "")
-      .replace(new RegExp(GRAPH_TOKEN_RE.source, 'g'), "")
-      .replace(GRAPH_PARTIAL_RE, "")
   );
 
   const renderers = {
@@ -388,7 +370,7 @@ function getRecommendedSubMode(currentSubMode, completedMap = {}) {
   return null;
 }
 
-export default function ChatWindow({ session, onUpdateSession, graphEngine = "geogebra" }) {
+export default function ChatWindow({ session, onUpdateSession }) {
   const bottomRef = useRef(null);
 
   const subject = session.subject || "";
@@ -402,7 +384,6 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
   const [draftInput, setDraftInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [graphs, setGraphs] = useState(session.graphs || {});
   const [interactionLogs, setInteractionLogs] = useState(session.interactionLogs || []);
 
   // Refs so the persistence effect below can read latest values without
@@ -416,27 +397,10 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
     if (session.id && session.messages) {
       setMessages(session.messages);
       setInteractionLogs(session.interactionLogs || []);
-      // Restore persisted graph states for this session
-      setGraphs(session.graphs || {});
       setError(null);
     }
   }, [session.id]);
 
-  // Persist completed graphs back into the session so they survive reload.
-  // Only writes when there is at least one 'done' graph and the serialized
-  // state has actually changed (avoids spurious re-renders).
-  useEffect(() => {
-    const doneGraphs = {};
-    let hasDone = false;
-    for (const [msgId, arr] of Object.entries(graphs)) {
-      const done = (arr || []).filter(g => g.status === "done");
-      if (done.length) { doneGraphs[msgId] = done; hasDone = true; }
-    }
-    if (!hasDone) return;
-    const s = sessionRef.current;
-    if (JSON.stringify(doneGraphs) === JSON.stringify(s.graphs || {})) return;
-    onUpdateSession({ ...s, messages: messagesRef.current, graphs: doneGraphs });
-  }, [graphs]); // intentionally omitting session/messages to break the loop
 
   const handleInput = (e) => setDraftInput(e.target.value);
 
@@ -533,84 +497,6 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
         throw readErr;
       }
 
-      // --- Phase 2: detect embedded GRAPH tokens and generate GeoGebra diagrams ---
-      // Sanitise first: strip any markdown code-fence wrappers the LLM may have
-      // added around the token (e.g. ```%%GRAPH%%...%%END_GRAPH%%```).
-      const sanitizedContent = aiContent
-        .replace(/```[^\n]*\n(%%GRAPH%%[\s\S]*?%%END_GRAPH%%)\n?```/g, "$1")
-        .replace(/`(%%GRAPH%%[\s\S]*?%%END_GRAPH%%)`/g, "$1");
-
-      // Tolerate optional whitespace and newlines between %%GRAPH%% and the JSON.
-      const GRAPH_RE = /%%GRAPH%%[\s\n]*({[\s\S]*?})[\s\n]*%%END_GRAPH%%/g;
-      const graphMatches = [...sanitizedContent.matchAll(GRAPH_RE)];
-      if (graphMatches.length > 0) {
-        // Initialise all entries as pending
-        const pending = graphMatches.map(() => ({ status: "pending", ggbState: null }));
-        setGraphs(prev => ({ ...prev, [aiId]: pending }));
-
-        // ── Board state: find the most recent completed graph in this session ──
-        // This implements the Axiom-Canvas "visual working memory" pattern:
-        // pass what was already graphed so the LLM avoids duplicate objects/IDs.
-        const currentGraphs = graphs; // snapshot of state at submission time
-        let boardExpressions = [];
-        let boardCmds = [];
-        const allGraphEntries = Object.values(currentGraphs).flat();
-        const lastDone = [...allGraphEntries].reverse().find(g => g.status === "done");
-        if (lastDone?.engine === "desmos" && lastDone.desmosState?.expressions) {
-          boardExpressions = lastDone.desmosState.expressions
-            .filter(e => e.latex && !e.hidden)
-            .map(e => ({ id: e.id, latex: e.latex }))
-            .slice(0, 12); // cap at 12 to avoid bloating the prompt
-        } else if (lastDone?.engine === "geogebra" && lastDone.ggbState?.cmds) {
-          boardCmds = lastDone.ggbState.cmds.slice(0, 15);
-        }
-
-        graphMatches.forEach((m, idx) => {
-          let graphRequest;
-          try { graphRequest = JSON.parse(m[1]); } catch { return; }
-
-          // Capture question/mode from Phase 1 token so we can render them with the graph
-          const graphQuestion = graphRequest.question || "";
-          const graphMode = graphRequest.mode || "illustration";
-
-          const endpoint = graphEngine === "desmos"
-            ? "/api/desmos-generate"
-            : "/api/geogebra-generate";
-
-          const body = graphEngine === "desmos"
-            ? { ...graphRequest, boardExpressions }
-            : { ...graphRequest, boardCmds };
-
-          fetch(endpoint, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(body),
-          })
-            .then(r => r.json())
-            .then(data => {
-              setGraphs(prev => {
-                const arr = [...(prev[aiId] || [])];
-                if (graphEngine === "desmos") {
-                  arr[idx] = data.desmosState
-                    ? { status: "done", engine: "desmos", desmosState: data.desmosState, question: graphQuestion, mode: graphMode }
-                    : { status: "error" };
-                } else {
-                  arr[idx] = data.ggbState
-                    ? { status: "done", engine: "geogebra", ggbState: data.ggbState, question: graphQuestion, mode: graphMode }
-                    : { status: "error" };
-                }
-                return { ...prev, [aiId]: arr };
-              });
-            })
-            .catch(() => {
-              setGraphs(prev => {
-                const arr = [...(prev[aiId] || [])];
-                arr[idx] = { status: "error" };
-                return { ...prev, [aiId]: arr };
-              });
-            });
-        });
-      }
 
     } catch (err) {
       console.error("Chat fetch failure:", err);
@@ -669,8 +555,6 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
     if (lastMsg.role !== "assistant" || !lastMsg.content || journey.completed[currentMode]) return;
     
     let shouldComplete = false;
-    if ((currentMode === "notes" || currentMode === "study-guide") && lastMsg.content.length > 500) shouldComplete = true;
-    if (currentMode === "map" && lastMsg.content.includes("%%GRAPH%%")) shouldComplete = true;
     if (currentMode === "flashcards" && messages.filter(m => m.role === 'user' || typeof m.subMode === 'string').length >= 4) shouldComplete = true;
 
     if (shouldComplete) markCurrentSubModeComplete();
@@ -799,9 +683,6 @@ export default function ChatWindow({ session, onUpdateSession, graphEngine = "ge
                                   </ActionProvider>
                                 </div>
                               );
-                            }
-                            if (seg.type === 'graph') {
-                              return null;
                             }
 
                           return null;

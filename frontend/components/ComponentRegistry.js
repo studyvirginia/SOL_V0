@@ -44,12 +44,5 @@ export const { registry, handlers } = defineRegistry(solCatalog, {
       );
     },
 
-    // 5. Graph
-    // Placeholder for now, will integrate the dynamic logic soon.
-    Graph: ({ props }) => (
-      <div className="p-4 border border-dashed border-gray-300 rounded-lg text-center text-gray-500">
-        Graph Component: {props.type}
-      </div>
-    )
   }
 });

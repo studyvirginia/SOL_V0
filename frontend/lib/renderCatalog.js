@@ -63,15 +63,6 @@ export const solCatalog = defineCatalog(schema, {
       description: "Recommended next steps or navigation buttons for the student."
     },
 
-    // 5. Educational Graphs
-    Graph: {
-      props: z.object({
-        type: z.enum(["illustration", "investigation", "construction"]).default("illustration"),
-        question: z.string().optional().describe("Question associated with the graph"),
-        config: z.record(z.any()).describe("Dynamic graph configuration (GeoGebra/Desmos specific data)")
-      }),
-      description: "Dynamic interactive mathematical diagrams or illustrations."
-    }
   },
   actions: {
     // We can define custom actions here if needed
