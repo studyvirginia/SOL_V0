@@ -490,6 +490,10 @@ export default function ChatWindow({ session, onUpdateSession }) {
             return updated;
           });
         }
+        
+        // Finalize the AI message in the parent session once streaming is complete
+        const finalMessages = [...newMessages, { id: aiId, role: "assistant", content: aiContent }];
+        onUpdateSession({ ...sessionRef.current, messages: finalMessages });
       } catch (readErr) {
         if (readErr.name === "AbortError") {
           throw new Error("The connection timed out while receiving the response.");
@@ -560,15 +564,6 @@ export default function ChatWindow({ session, onUpdateSession }) {
     if (shouldComplete) markCurrentSubModeComplete();
   }, [messages, isLoading]);
 
-  useEffect(() => {
-    if (messages && messages.length > 0) {
-      const lastMsg = messages[messages.length - 1];
-      const sessLast = session.messages?.[session.messages?.length - 1];
-      if (!sessLast || lastMsg.id !== sessLast.id || lastMsg.content !== sessLast.content) {
-        onUpdateSession({ ...session, messages });
-      }
-    }
-  }, [messages, session.id]);
 
   useEffect(() => {
     if (session.name === "New Session" || session.name === "Start Session") {
