@@ -94,22 +94,44 @@ export default async function handler(req, res) {
   } = req.body || {};
 
   // useChat injects the last user message directly into the messages array.
-  const lastMessage = vercelMessages.length > 0 ? vercelMessages[vercelMessages.length - 1].content : "";
+  const rawLastMsg = vercelMessages.length > 0 ? vercelMessages[vercelMessages.length - 1] : null;
+  let lastMessage = "";
+  if (rawLastMsg) {
+    if (typeof rawLastMsg.content === "string") lastMessage = rawLastMsg.content;
+    else if (Array.isArray(rawLastMsg.content)) lastMessage = rawLastMsg.content.map(p => p.text || "").join("");
+    else if (typeof rawLastMsg.text === "string") lastMessage = rawLastMsg.text;
+    else if (typeof rawLastMsg.value === "string") lastMessage = rawLastMsg.value;
+    else if (rawLastMsg.parts && Array.isArray(rawLastMsg.parts)) lastMessage = rawLastMsg.parts.map(p => p.text || "").join("");
+  }
+  lastMessage = lastMessage.trim();
 
-  if (!subject || !course || vercelMessages.length === 0) {
-    return res.status(400).json({ error: "Missing required chat fields" });
+  console.log("FULL REQ BODY:", JSON.stringify(req.body, null, 2));
+
+  if (!subject || !course || !req.body?.messages) {
+    return res.status(400).json({ error: "Missing required chat fields (subject, course, or messages)" });
   }
 
-  const normalizedMessages = Array.isArray(vercelMessages)
-    ? vercelMessages
-        .map((msg) => {
-          if (!msg || typeof msg !== "object") return null;
-          const role = String(msg.role || "user").toLowerCase() === "assistant" ? "assistant" : "user";
-          const content = String(msg.content || "").trim();
-          return content ? { role, content } : null;
-        })
-        .filter(Boolean)
-    : [];
+  console.log("DEBUG [api/chat]: Received vercelMessages:", JSON.stringify(vercelMessages.slice(-1)));
+
+  const normalizedMessages = (Array.isArray(vercelMessages) ? vercelMessages : [])
+    .map((msg) => {
+      if (!msg) return null;
+      const role = String(msg.role || "user").toLowerCase() === "assistant" ? "assistant" : "user";
+      
+      // Super-aggressive content extraction
+      let content = "";
+      if (typeof msg.content === "string") content = msg.content;
+      else if (Array.isArray(msg.content)) content = msg.content.map(p => p.text || "").join("");
+      else if (typeof msg.text === "string") content = msg.text;
+      else if (typeof msg.value === "string") content = msg.value;
+      else if (msg.parts && Array.isArray(msg.parts)) content = msg.parts.map(p => p.text || "").join("");
+      
+      content = content.trim();
+      return content ? { role, content } : null;
+    })
+    .filter(Boolean);
+
+  console.log("DEBUG [api/chat]: Normalized Count:", normalizedMessages.length);
 
   let storedSession = null;
   if (sessionId) {
@@ -130,11 +152,20 @@ export default async function handler(req, res) {
         .filter(Boolean)
     : [];
 
-  const effectiveMessages = normalizedMessages.length
+  let effectiveMessages = normalizedMessages.length
     ? normalizedMessages
     : Array.isArray(storedSession?.messages) && storedSession.messages.length
     ? storedSession.messages
     : fallbackMemory.map((line) => ({ role: "user", content: line }));
+
+  if (effectiveMessages.length === 0 && lastMessage) {
+    effectiveMessages = [{ role: "user", content: lastMessage }];
+  }
+
+  if (effectiveMessages.length === 0) {
+    console.error("Critical Error: effectiveMessages is empty despite validation.");
+    return res.status(400).json({ error: "Conversation history is empty." });
+  }
 
   // Fallback to extraction if not explicitly provided by the UI
   const effectiveRetrievalMode = retrievalMode || detectRetrievalModeFromMessage(lastMessage);
@@ -161,51 +192,46 @@ export default async function handler(req, res) {
 
     const openrouter = createOpenAICompatible({ name: "openrouter", baseURL: "https://openrouter.ai/api/v1", apiKey });
 
-    // Stream the text directly from OpenRouter back to the client
+    // Use pipeTextStreamToResponse for Pages Router compatibility
     const result = streamText({
       model: openrouter(modelId),
       system: systemPrompt,
-      experimental_telemetry: {
-        isEnabled: true,
-        functionId: "chat_api",
-        metadata: { subject, course, retrievalMode: effectiveRetrievalMode },
-      },
       messages: effectiveMessages,
       maxTokens: 4000,
       temperature: 0.15,
-      async onFinish({ text }) {
+      onFinish: async ({ text }) => {
         if (sessionId) {
           const updatedMessages = [...effectiveMessages, { role: "assistant", content: text }];
           const updatedSummary = buildMediumTermSummary(updatedMessages, effectiveRetrievalMode, userFacts);
           try {
-             await writeSession(sessionId, {
-                id: sessionId,
-                subject,
-                course,
-                retrievalMode: effectiveRetrievalMode,
-                userFacts,
-                sessionSummary: updatedSummary,
-                messages: updatedMessages,
-             });
+            await writeSession(sessionId, {
+              id: sessionId,
+              subject,
+              course,
+              retrievalMode: effectiveRetrievalMode,
+              userFacts,
+              sessionSummary: updatedSummary,
+              messages: updatedMessages,
+            });
           } catch (err) {
-             console.warn("Failed saving async stream background:", err);
+            console.warn("Failed saving async stream background:", err);
           }
         }
-      }
+      },
     });
 
-    const customHeaders = {
-       "x-curriculum-mode": curriculumContext.mode,
-    };
-
-    return result.pipeTextStreamToResponse(res, { headers: customHeaders });
+    // Use pipeUIMessageStreamToResponse for native v6 compatibility
+    return result.pipeUIMessageStreamToResponse(res, {
+      headers: {
+        "x-curriculum-mode": curriculumContext.mode,
+      },
+    });
 
   } catch (err) {
     console.error("Critical Chat API Error:", err);
     return res.status(500).json({ 
-      error: "Server encountered a problem initializing the AI stream.", 
-      details: err.message,
-      type: "StreamingInitError"
+      error: err.message || "An unexpected error occurred in the chat pipeline.",
+      type: err.name || "UnknownError"
     });
   }
 }

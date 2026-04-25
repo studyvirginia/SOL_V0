@@ -11,7 +11,7 @@ import ErrorBoundary from "./ErrorBoundary";
 import { Renderer, StateProvider, VisibilityProvider, ActionProvider } from "@json-render/react";
 import { registry } from "./ComponentRegistry";
 import { ChatProvider } from "../context/ChatContext";
-import QuizRunner from "./learning/QuizRunner";
+import { useChat } from "@ai-sdk/react";
 import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
 import { compilePatchesToSpec, isJSONLPatch } from "../lib/specCompiler";
 // Advanced formatting utilities for proper display capitalization
@@ -380,27 +380,48 @@ export default function ChatWindow({ session, onUpdateSession }) {
   const completionStats = getModeCompletionStats(journey.completed);
   const recommended = getRecommendedSubMode(currentMode, journey.completed);
 
-  const [messages, setMessages] = useState(session.messages || []);
   const [draftInput, setDraftInput] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [localError, setLocalError] = useState(null);
   const [interactionLogs, setInteractionLogs] = useState(session.interactionLogs || []);
 
-  // Refs so the persistence effect below can read latest values without
-  // being a dependency (which would cause an infinite loop).
   const sessionRef = useRef(session);
-  const messagesRef = useRef(messages);
   useEffect(() => { sessionRef.current = session; }, [session]);
-  useEffect(() => { messagesRef.current = messages; }, [messages]);
 
-  useEffect(() => {
-    if (session.id && session.messages) {
-      setMessages(session.messages);
-      setInteractionLogs(session.interactionLogs || []);
-      setError(null);
+  const { 
+    messages, 
+    setMessages, 
+    sendMessage, 
+    status, 
+    error: sdkError 
+  } = useChat({
+    api: "/api/chat",
+    id: session.id,
+    initialMessages: session.messages || [],
+    body: {
+      sessionId: session.id,
+      subject,
+      course,
+      retrievalMode: currentMode,
+      sessionSummary: session.sessionSummary || "",
+      userFacts: session.userFacts || {},
+    },
+    onFinish: (message) => {
+      const normalizedMessage = {
+        ...message,
+        content: getMessageContent(message)
+      };
+      onUpdateSession({ 
+        ...sessionRef.current, 
+        messages: [...messages, normalizedMessage],
+        interactionLogs: []
+      });
+    },
+    onError: (err) => {
+      setLocalError(err.message);
     }
-  }, [session.id]);
+  });
 
+  const isChatLoading = status === 'submitted' || status === 'streaming';
 
   const handleInput = (e) => setDraftInput(e.target.value);
 
@@ -409,109 +430,48 @@ export default function ChatWindow({ session, onUpdateSession }) {
       const newLog = { timestamp: new Date().toISOString(), ...data };
       setInteractionLogs(prev => {
         const next = [...prev, newLog];
-        // Persist immediately so it survives refresh
         onUpdateSession({ ...sessionRef.current, interactionLogs: next });
         return next;
       });
     }
   };
 
+  const getMessageContent = (m) => {
+    if (typeof m.content === "string") return m.content;
+    if (Array.isArray(m.parts)) {
+      return m.parts
+        .map((part) => (part.type === "text" ? part.text : ""))
+        .join("");
+    }
+    return "";
+  };
+
   const handleFormSubmit = async (e, overrideText = null) => {
     e?.preventDefault?.();
     const promptValue = typeof overrideText === "string" ? overrideText.trim() : draftInput.trim();
-    if (!promptValue || isLoading) return;
+    if (!promptValue || isChatLoading) return;
 
-    setDraftInput("");
-    setIsLoading(true);
-    setError(null);
+    setLocalError(null);
+    if (!overrideText) setDraftInput("");
 
     const interactionContext = interactionLogs.length > 0 
-      ? `\n\n[USER_INTERACTION_HISTORY]:\n${JSON.stringify(interactionLogs, null, 2)}\n(End of interaction history. Use this context to personalize your next response.)`
+      ? `\n\n[USER_INTERACTION_HISTORY]:\n${JSON.stringify(interactionLogs, null, 2)}\n(End of interaction history.)`
       : "";
 
-    const userMessage = { id: Date.now().toString(), role: "user", content: (promptValue + interactionContext).trim() };
-    const newMessages = [...messages, userMessage];
-    setMessages(newMessages);
     setInteractionLogs([]); 
-    onUpdateSession({ ...sessionRef.current, messages: newMessages, interactionLogs: [] }); // Clear logs after they are "consumed" into a message
 
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 60000); // 60s safety timeout
-
-    try {
-      const res = await fetch("/api/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        signal: controller.signal,
-        body: JSON.stringify({
-          messages: newMessages,
-          sessionId: session.id,
-          subject,
-          course,
-          retrievalMode: currentMode,
-          shortTermMemory: buildShortTermMemory(newMessages),
-          sessionSummary: session.sessionSummary || "",
-          userFacts: session.userFacts || {},
-        })
-      });
-
-      clearTimeout(timeoutId);
-
-      if (!res.ok) {
-        const errorData = await res.json().catch(() => ({}));
-        throw new Error(errorData.error || `API Error: ${res.statusText}`);
+    sendMessage({ 
+      text: (promptValue + interactionContext).trim()
+    }, {
+      body: {
+        sessionId: session.id,
+        subject,
+        course,
+        retrievalMode: currentMode,
+        sessionSummary: session.sessionSummary || "",
+        userFacts: session.userFacts || {},
       }
-
-      if (!res.body) {
-        throw new Error("The server responded without a message body.");
-      }
-
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-
-      let aiContent = "";
-      const aiId = Date.now().toString() + "_ai";
-      setMessages(prev => [...prev, { id: aiId, role: "assistant", content: "" }]);
-
-      try {
-        while (true) {
-          const { value, done } = await reader.read();
-          if (done) break;
-
-          const chunk = decoder.decode(value, { stream: true });
-          aiContent += chunk;
-
-          setMessages(prev => {
-            const updated = [...prev];
-            const lastIdx = updated.length - 1;
-            if (lastIdx >= 0 && updated[lastIdx].role === "assistant") {
-              updated[lastIdx] = { ...updated[lastIdx], content: aiContent };
-            }
-            return updated;
-          });
-        }
-        
-        // Finalize the AI message in the parent session once streaming is complete
-        const finalMessages = [...newMessages, { id: aiId, role: "assistant", content: aiContent }];
-        onUpdateSession({ ...sessionRef.current, messages: finalMessages });
-      } catch (readErr) {
-        if (readErr.name === "AbortError") {
-          throw new Error("The connection timed out while receiving the response.");
-        }
-        throw readErr;
-      }
-
-
-    } catch (err) {
-      console.error("Chat fetch failure:", err);
-      // Simplify "TypeError: Load failed" into something more user-friendly
-      const friendlyMessage = err.message === "Load failed" || err.name === "TypeError"
-        ? "Connection to the SOL server was interrupted. Please check your network or try again."
-        : err.message;
-      setError({ message: friendlyMessage });
-    } finally {
-      setIsLoading(false);
-    }
+    });
   };
 
   const switchSubMode = (newSubMode, shouldPrompt = false) => {
@@ -554,7 +514,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
   };
 
   useEffect(() => {
-    if (isLoading || messages.length < 2) return;
+    if (isChatLoading || messages.length < 2) return;
     const lastMsg = messages[messages.length - 1];
     if (lastMsg.role !== "assistant" || !lastMsg.content || journey.completed[currentMode]) return;
     
@@ -562,7 +522,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
     if (currentMode === "flashcards" && messages.filter(m => m.role === 'user' || typeof m.subMode === 'string').length >= 4) shouldComplete = true;
 
     if (shouldComplete) markCurrentSubModeComplete();
-  }, [messages, isLoading]);
+  }, [messages, isChatLoading]);
 
 
   useEffect(() => {
@@ -627,12 +587,13 @@ export default function ChatWindow({ session, onUpdateSession }) {
               <div className="custom-scrollbar flex-1 space-y-12 overflow-y-auto px-4 pt-24 pb-12 sm:px-6 lg:px-12 flex flex-col items-center">
                 {messages.map((m, idx) => {
                   const isUser = m.role === "user";
-                  const isStreaming = isLoading && idx === messages.length - 1 && !isUser;
+                  const isStreaming = isChatLoading && idx === messages.length - 1 && !isUser;
+                  const content = getMessageContent(m);
                   return (
                     <div key={idx} className={`w-full max-w-[900px] animate-in fade-in flex ${isUser ? "justify-end" : "justify-center"}`}>
                       {isUser ? (
                         <div className="max-w-[75%] rounded-[2rem] rounded-br-[0.5rem] border border-gray-200/60 dark:border-gray-700/60 bg-white dark:bg-gray-800 px-8 py-5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] dark:shadow-black/20">
-                          <div className="whitespace-pre-wrap text-[1.05rem] font-medium leading-relaxed text-gray-800 dark:text-gray-100">{String(m.content || "")}</div>
+                          <div className="whitespace-pre-wrap text-[1.05rem] font-medium leading-relaxed text-gray-800 dark:text-gray-100">{content}</div>
                         </div>
                       ) : (
                         <div className={`w-full max-w-[850px] px-8 md:px-12 py-10 transition-all duration-500 relative ${isStreaming ? "rounded-[3rem] border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
@@ -649,7 +610,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                               <span>SOL Synchronizing Stream</span>
                             </div>
                           )}
-                          {splitMessageSegments(String(m.content || "")).map((seg, segIdx) => {
+                          {splitMessageSegments(content).map((seg, segIdx) => {
                             if (seg.type === 'text') {
                               return seg.content.trim()
                                 ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} />
@@ -689,7 +650,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                 );
               })}
                 <div ref={bottomRef} className="h-4" />
-                {!isLoading && journey.completed[currentMode] && messages.length > 0 && messages[messages.length-1].role === "assistant" && (
+                {!isChatLoading && journey.completed[currentMode] && messages.length > 0 && messages[messages.length-1].role === "assistant" && (
                   <QuickActions actions={(() => {
                     const lastMsg = messages[messages.length - 1];
                     const actionsSeg = splitMessageSegments(lastMsg.content).find(s => s.type === 'actions');
@@ -712,15 +673,15 @@ export default function ChatWindow({ session, onUpdateSession }) {
                     onChange={handleInput}
                     placeholder="Ask a mathematical question..."
                   />
-                  <button type="submit" className="absolute right-2 top-2 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isLoading || !draftInput.trim()}>
+                  <button type="submit" className="absolute right-2 top-2 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isChatLoading || !draftInput.trim()}>
                     <SendIcon className="h-5 w-5" />
                   </button>
                 </div>
               </form>
 
-              {error && (
+              {localError && (
                 <div className="absolute top-12 inset-x-0 flex justify-center">
-                  <p className="rounded-full bg-red-100 dark:bg-red-900/50 px-4 py-2 text-xs font-semibold text-red-600 dark:text-red-400 backdrop-blur-md shadow-lg">{error.message || "Connection lost"}</p>
+                  <p className="rounded-full bg-red-100 dark:bg-red-900/50 px-4 py-2 text-xs font-semibold text-red-600 dark:text-red-400 backdrop-blur-md shadow-lg">{localError || "Connection lost"}</p>
                 </div>
               )}
             </div>
