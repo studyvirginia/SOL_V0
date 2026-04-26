@@ -6,10 +6,15 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { query, contextSnippet } = req.body;
+  let { query, contextSnippet, broaden = false } = req.body;
 
   if (!query || !contextSnippet) {
     return res.status(400).json({ error: 'Missing query or contextSnippet' });
+  }
+
+  // If broadening is requested, simplify the query to increase hit chance
+  if (broaden) {
+    query = query.replace(/diagram|illustration|original|labeled|modern|schematic|scientific/gi, '').trim();
   }
 
   try {
