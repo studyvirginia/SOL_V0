@@ -136,11 +136,13 @@ const ANNOTATION_COLORS = {
 };
 
 const DEFAULT_ANNOTATION_COLORS = {
-  highlight:       ANNOTATION_COLORS.yellow,
-  circle:          ANNOTATION_COLORS.rose,
-  underline:       ANNOTATION_COLORS.blue,
-  box:             ANNOTATION_COLORS.teal,
-  "strike-through": ANNOTATION_COLORS.gray,
+  highlight:         ANNOTATION_COLORS.yellow,
+  circle:            ANNOTATION_COLORS.rose,
+  underline:         ANNOTATION_COLORS.blue,
+  box:               ANNOTATION_COLORS.teal,
+  "strike-through":  ANNOTATION_COLORS.gray,
+  "crossed-off":     ANNOTATION_COLORS.red,
+  bracket:           ANNOTATION_COLORS.indigo,
 };
 
 // ── Text colour palette for [t:color]text[/t] tags ───────────────────────
@@ -168,7 +170,29 @@ function preprocessAnnotations(text) {
     .replace(/\[c(?::([a-z]+))?\](.*?)\[\/c\]/gs, (_, col, t) => `<span data-rough="circle"${col ? ` data-rough-color="${col}"` : ""}>${t}</span>`)
     .replace(/\[u(?::([a-z]+))?\](.*?)\[\/u\]/gs, (_, col, t) => `<span data-rough="underline"${col ? ` data-rough-color="${col}"` : ""}>${t}</span>`)
     .replace(/\[b(?::([a-z]+))?\](.*?)\[\/b\]/gs, (_, col, t) => `<span data-rough="box"${col ? ` data-rough-color="${col}"` : ""}>${t}</span>`)
+    .replace(/\[s(?::([a-z]+))?\](.*?)\[\/s\]/gs, (_, col, t) => `<span data-rough="strike-through"${col ? ` data-rough-color="${col}"` : ""}>${t}</span>`)
+    .replace(/\[x(?::([a-z]+))?\](.*?)\[\/x\]/gs, (_, col, t) => `<span data-rough="crossed-off"${col ? ` data-rough-color="${col}"` : ""}>${t}</span>`)
+    .replace(/\[br(?::([a-z]+))?\](.*?)\[\/br\]/gs,(_, col, t) => `<span data-rough="bracket"${col ? ` data-rough-color="${col}"` : ""}>${t}</span>`)
+    .replace(/\[blur\](.*?)\[\/blur\]/gs,          (_,      t) => `<span data-blur="true">${t}</span>`)
     .replace(/\[t:([a-z]+)\](.*?)\[\/t\]/gs,      (_, col, t) => `<span data-text-color="${col}">${t}</span>`);
+}
+
+// ── Blur / reveal component for [blur]...[/blur] tags ────────────────────────
+function BlurReveal({ children }) {
+  const [revealed, setRevealed] = useState(false);
+  return (
+    <span
+      onClick={() => setRevealed((v) => !v)}
+      title={revealed ? "Click to hide" : "Click to reveal"}
+      className={`cursor-pointer select-none transition-all duration-300 inline-block rounded px-0.5
+        ${revealed
+          ? "blur-none opacity-100"
+          : "blur-sm opacity-70 hover:opacity-90 bg-gray-200/40 dark:bg-gray-700/40"
+        }`}
+    >
+      {children}
+    </span>
+  );
 }
 
 const MarkdownMessage = ({ content, isUser }) => {
@@ -181,6 +205,11 @@ const MarkdownMessage = ({ content, isUser }) => {
     span({ node, children, ...props }) {
       const roughType  = node?.properties?.dataRough;
       const textColor  = node?.properties?.dataTextColor;
+
+      // ── Blur / reveal tag: [blur]spoiler[/blur] ──────────────────────
+      if (node?.properties?.dataBlur) {
+        return <BlurReveal>{children}</BlurReveal>;
+      }
 
       // ── Text colour tag: [t:blue]text[/t] ───────────────────────────
       if (textColor) {
@@ -200,8 +229,9 @@ const MarkdownMessage = ({ content, isUser }) => {
             show={true}
             color={color}
             animationDuration={roughType === "circle" ? 800 : 600}
-            strokeWidth={1.5}
-            padding={roughType === "highlight" ? 2 : 4}
+            strokeWidth={roughType === "bracket" ? 2 : 1.5}
+            padding={roughType === "highlight" ? 2 : roughType === "bracket" ? 8 : 4}
+            multiline={true}
           >
             {children}
           </RoughNotation>
