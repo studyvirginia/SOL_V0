@@ -619,16 +619,38 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                     <ValidatedImage key={`tool-${partIdx}`} toolInvocation={part} />
                                   );
 
-                                  if (toolName === "showMath") return (
-                                    <MathVisual 
-                                      key={`tool-${partIdx}`} 
-                                      layers={args.layers || args.elements || []} 
-                                      viewBox={args.viewBox}
-                                      labels={args.labels}
-                                      title={args.title}
-                                      gridType={args.gridType}
-                                    />
-                                  );
+                                  if (toolName === "showMath") {
+                                    if (!args.layers || args.layers.length === 0) {
+                                      return (
+                                        <div key={`tool-${partIdx}`} className="my-8 w-full max-w-4xl mx-auto">
+                                          <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-blue-400/20 p-10 flex items-center gap-5 shadow-xl">
+                                            <div className="w-12 h-12 rounded-2xl bg-blue-500 flex items-center justify-center flex-shrink-0 shadow-lg shadow-blue-500/20 animate-pulse">
+                                              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="white" strokeWidth="3"><path d="m3 3 18 18M3 21l18-18"/></svg>
+                                            </div>
+                                            <div>
+                                              <p className="text-xs font-black text-blue-600 uppercase tracking-widest mb-1">Mafs Engine</p>
+                                              <p className="text-sm text-slate-500">Plotting coordinates · Rendering layers...</p>
+                                            </div>
+                                            <div className="ml-auto flex gap-1">
+                                              {[0, 150, 300].map(d => (
+                                                <div key={d} className="w-2 h-2 rounded-full bg-blue-500 animate-bounce" style={{ animationDelay: `${d}ms` }} />
+                                              ))}
+                                            </div>
+                                          </div>
+                                        </div>
+                                      );
+                                    }
+                                    return (
+                                      <MathVisual 
+                                        key={`tool-${partIdx}`} 
+                                        layers={args.layers || args.elements || []} 
+                                        viewBox={args.viewBox}
+                                        labels={args.labels}
+                                        title={args.title}
+                                        gridType={args.gridType}
+                                      />
+                                    );
+                                  }
 
                                   if (toolName === "showPython") {
                                     // result/output is set after server-side E2B execution
@@ -677,35 +699,90 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                     );
                                   }
 
-                                  if (toolName === "showFlashcards") return (
-                                    <div key={`tool-${partIdx}`} className="w-full my-4">
-                                      <FlashcardDeck cards={args.cards || []} onAction={handleAction} />
-                                    </div>
-                                  );
+                                  if (toolName === "showFlashcards") {
+                                    if (!args.cards || args.cards.length === 0) {
+                                      return (
+                                        <div key={`tool-${partIdx}`} className="my-6 w-full max-w-2xl mx-auto">
+                                          <div className="bg-white/40 dark:bg-slate-900/40 backdrop-blur-xl rounded-[2rem] border border-indigo-400/20 p-8 flex items-center gap-5 shadow-xl animate-pulse">
+                                            <div className="w-10 h-10 rounded-xl bg-indigo-500/20 flex items-center justify-center">
+                                              <div className="w-5 h-5 bg-indigo-500 rounded-sm"></div>
+                                            </div>
+                                            <div className="flex-1 space-y-2">
+                                              <div className="h-2 w-24 bg-indigo-400/30 rounded"></div>
+                                              <div className="h-3 w-48 bg-slate-200 dark:bg-slate-700 rounded"></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      );
+                                    }
+                                    return (
+                                      <div key={`tool-${partIdx}`} className="w-full my-4">
+                                        <FlashcardDeck cards={args.cards || []} onAction={handleAction} />
+                                      </div>
+                                    );
+                                  }
 
-                                  if (toolName === "showMCQ" && args.options && args.options.length > 0) return (
-                                    <div key={`tool-${partIdx}`} className="w-full my-4">
-                                      <AdaptiveMCQ
-                                        question={args.question}
-                                        options={args.options}
-                                        answer={args.answer}
-                                        explanation={args.explanation}
-                                        mode={args.mode || ((currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice')}
-                                        onAction={handleAction}
-                                      />
-                                    </div>
-                                  );
+                                  if (toolName === "showMCQ") {
+                                    if (!args.options || args.options.length === 0) {
+                                      return (
+                                        <div key={`tool-${partIdx}`} className="my-6 w-full max-w-2xl mx-auto">
+                                          <div className="bg-white/40 dark:bg-slate-900/40 backdrop-blur-xl rounded-[2.5rem] border border-emerald-400/20 p-8 flex items-center gap-5 shadow-xl animate-pulse">
+                                            <div className="w-12 h-12 rounded-full border-4 border-emerald-500/30 flex items-center justify-center">
+                                              <div className="w-4 h-4 bg-emerald-500 rounded-full"></div>
+                                            </div>
+                                            <div className="flex-1 space-y-3">
+                                              <div className="h-2 w-32 bg-emerald-400/30 rounded"></div>
+                                              <div className="h-4 w-full bg-slate-200 dark:bg-slate-700 rounded-full"></div>
+                                              <div className="h-3 w-3/4 bg-slate-100 dark:bg-slate-800 rounded-full"></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      );
+                                    }
+                                    return (
+                                      <div key={`tool-${partIdx}`} className="w-full my-4">
+                                        <AdaptiveMCQ
+                                          question={args.question}
+                                          options={args.options}
+                                          answer={args.answer}
+                                          explanation={args.explanation}
+                                          mode={args.mode || ((currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice')}
+                                          onAction={handleAction}
+                                        />
+                                      </div>
+                                    );
+                                  }
 
-                                  if (toolName === "showQuiz") return (
-                                    <div key={`tool-${partIdx}`} className="w-full my-4">
-                                      <QuizRunner
-                                        title={args.title}
-                                        questions={args.questions || []}
-                                        mode={args.mode || ((currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice')}
-                                        onAction={handleAction}
-                                      />
-                                    </div>
-                                  );
+                                  if (toolName === "showQuiz") {
+                                    if (!args.questions || args.questions.length === 0) {
+                                      return (
+                                        <div key={`tool-${partIdx}`} className="my-8 w-full max-w-3xl mx-auto">
+                                          <div className="bg-white dark:bg-slate-900 rounded-[3rem] border border-violet-400/20 p-10 flex flex-col gap-6 shadow-2xl animate-pulse">
+                                            <div className="flex items-center gap-4">
+                                              <div className="w-10 h-10 rounded-xl bg-violet-500 flex items-center justify-center">
+                                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="white" strokeWidth="3"><path d="M12 2v20M2 12h20"/></svg>
+                                              </div>
+                                              <div className="h-4 w-48 bg-violet-500/20 rounded"></div>
+                                            </div>
+                                            <div className="space-y-4">
+                                              <div className="h-3 w-full bg-slate-100 dark:bg-slate-800 rounded"></div>
+                                              <div className="h-3 w-5/6 bg-slate-100 dark:bg-slate-800 rounded"></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      );
+                                    }
+                                    return (
+                                      <div key={`tool-${partIdx}`} className="w-full my-4">
+                                        <QuizRunner
+                                          title={args.title}
+                                          questions={args.questions || []}
+                                          mode={args.mode || ((currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice')}
+                                          onAction={handleAction}
+                                        />
+                                      </div>
+                                    );
+                                  }
 
                                   if (toolName === "showActions" && args.actions) return (
                                     <div key={`tool-${partIdx}`} className="w-full my-2">
