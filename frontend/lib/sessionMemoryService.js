@@ -106,6 +106,7 @@ export function buildLangChainSystemPrompt({
     "",
     "COMPONENT CATALOG:",
     solCatalog.prompt(),
+    "TOOL OVERRIDE — FLASHCARDS: When the student asks for flashcards or vocabulary cards, do NOT use the json-render Flashcards component. Instead, call the 'showFlashcards' tool with { cards: [{ front: string, back: string }] }. Minimum 3 cards, maximum 20 cards. Continue using json-render for all other components: MCQ, Quiz, and Actions.",
 
     "--- Action Signaling ---",
     "At the end of EVERY message, if it's a logical break point, include an 'Actions' component with recommended next modes.",

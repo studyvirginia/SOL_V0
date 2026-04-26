@@ -14,6 +14,7 @@ import { ChatProvider } from "../context/ChatContext";
 import { useChat } from "@ai-sdk/react";
 import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
 import { compilePatchesToSpec, isJSONLPatch } from "../lib/specCompiler";
+import FlashcardDeck from "./learning/FlashcardDeck";
 // Advanced formatting utilities for proper display capitalization
 export const formatName = (str) => {
   if (!str) return "";
@@ -610,40 +611,104 @@ export default function ChatWindow({ session, onUpdateSession }) {
                               <span>SOL Synchronizing Stream</span>
                             </div>
                           )}
-                          {splitMessageSegments(content).map((seg, segIdx) => {
-                            if (seg.type === 'text') {
-                              return seg.content.trim()
-                                ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} />
-                                : null;
+                          {(() => {
+                            // ── SDK parts path: handles tool-invocations + text ────────────
+                            // Activated when the message has typed SDK stream parts
+                            // (i.e. messages produced via native tool calling).
+                            const sdkParts = Array.isArray(m.parts) ? m.parts : [];
+                            const hasToolInvocations = sdkParts.some(p => p.type === "tool-invocation");
+
+                            if (hasToolInvocations) {
+                              return sdkParts.map((part, partIdx) => {
+                                // Text parts: still run through splitMessageSegments so
+                                // json-render blocks (MCQ, Quiz, Actions) continue to work.
+                                if (part.type === "text") {
+                                  return splitMessageSegments(part.text || "").map((seg, segIdx) => {
+                                    if (seg.type === 'text') {
+                                      return seg.content.trim()
+                                        ? <MarkdownMessage key={`${partIdx}-${segIdx}`} content={seg.content} isUser={false} />
+                                        : null;
+                                    }
+                                    if (seg.type === 'json-render') {
+                                      return (
+                                        <div key={`${partIdx}-${segIdx}`} className="w-full my-4">
+                                          <ActionProvider onAction={handleAction}>
+                                            <Renderer
+                                              spec={{
+                                                ...seg.spec,
+                                                state: {
+                                                  ...seg.spec.state,
+                                                  mode: (currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice'
+                                                }
+                                              }}
+                                              registry={registry}
+                                              onSwitch={switchSubMode}
+                                              onSend={(prompt) => handleFormSubmit(null, prompt)}
+                                              currentSubMode={currentMode}
+                                            />
+                                          </ActionProvider>
+                                        </div>
+                                      );
+                                    }
+                                    return null;
+                                  });
+                                }
+
+                                // ── Native tool: showFlashcards ───────────────────────
+                                // state === "call"   → args fully streamed, awaiting result
+                                // state === "result" → tool has been executed (future-proofing)
+                                if (
+                                  part.type === "tool-invocation" &&
+                                  part.toolName === "showFlashcards" &&
+                                  (part.state === "call" || part.state === "result")
+                                ) {
+                                  return (
+                                    <div key={`tool-fc-${partIdx}`} className="w-full my-4">
+                                      <FlashcardDeck
+                                        cards={part.args?.cards || []}
+                                        onAction={handleAction}
+                                      />
+                                    </div>
+                                  );
+                                }
+
+                                return null;
+                              });
                             }
 
-
-
-                            if (seg.type === 'json-render') {
-                              return (
-                                <div key={segIdx} className="w-full my-4">
-                                  <ActionProvider onAction={handleAction}>
-                                    <Renderer 
-                                      spec={{
-                                        ...seg.spec,
-                                        state: {
-                                          ...seg.spec.state,
-                                          mode: (currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice'
-                                        }
-                                      }} 
-                                      registry={registry} 
-                                      onSwitch={switchSubMode}
-                                      onSend={(prompt) => handleFormSubmit(null, prompt)}
-                                      currentSubMode={currentMode}
-                                    />
-                                  </ActionProvider>
-                                </div>
-                              );
-                            }
-
-                          return null;
-                        })}
-                        </ChatProvider>
+                            // ── Fallback: stored messages without SDK parts ───────────
+                            // Preserves full backward compatibility for messages
+                            // loaded from sessionStore (no parts array).
+                            return splitMessageSegments(content).map((seg, segIdx) => {
+                              if (seg.type === 'text') {
+                                return seg.content.trim()
+                                  ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} />
+                                  : null;
+                              }
+                              if (seg.type === 'json-render') {
+                                return (
+                                  <div key={segIdx} className="w-full my-4">
+                                    <ActionProvider onAction={handleAction}>
+                                      <Renderer
+                                        spec={{
+                                          ...seg.spec,
+                                          state: {
+                                            ...seg.spec.state,
+                                            mode: (currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice'
+                                          }
+                                        }}
+                                        registry={registry}
+                                        onSwitch={switchSubMode}
+                                        onSend={(prompt) => handleFormSubmit(null, prompt)}
+                                        currentSubMode={currentMode}
+                                      />
+                                    </ActionProvider>
+                                  </div>
+                                );
+                              }
+                              return null;
+                            });
+                          })()}</ChatProvider>
                       </div>
                     )}
                   </div>

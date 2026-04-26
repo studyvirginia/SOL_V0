@@ -9,7 +9,7 @@ console.log("LLM MONITORING: OpenLIT Active and capturing AI-SDK Spans...");
 
 import fs from "fs";
 import path from "path";
-import { streamText, generateText } from "ai";
+import { streamText, generateText, tool, jsonSchema } from "ai";
 import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
 import {
   loadCourseRow,
@@ -76,6 +76,31 @@ function getRandomCurriculumFocus(courseJson) {
     ],
   };
 }
+
+const showFlashcardsTool = tool({
+  description: "Render an interactive flashcard deck for vocabulary or concept memorization. Use this tool instead of a json-render Flashcards block.",
+  parameters: jsonSchema({
+    type: "object",
+    properties: {
+      cards: {
+        type: "array",
+        description: "Array of flashcard objects, minimum 3, maximum 20",
+        minItems: 3,
+        maxItems: 20,
+        items: {
+          type: "object",
+          properties: {
+            front: { type: "string", description: "The term or question on the front of the card" },
+            back:  { type: "string", description: "The definition or answer on the back of the card" },
+          },
+          required: ["front", "back"],
+        },
+      },
+    },
+    required: ["cards"],
+  }),
+  // No execute() — client-side (UI) tool.
+});
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -197,6 +222,8 @@ export default async function handler(req, res) {
       model: openrouter(modelId),
       system: systemPrompt,
       messages: effectiveMessages,
+      tools: { showFlashcards: showFlashcardsTool },
+      maxSteps: 3,
       maxTokens: 4000,
       temperature: 0.15,
       onFinish: async ({ text }) => {
