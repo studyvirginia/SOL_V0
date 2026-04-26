@@ -1,5 +1,4 @@
 import { MODE_MAP } from "./modeMap";
-import { solCatalog } from "./renderCatalog";
 
 export function formatConversationMessage(message) {
   if (!message || typeof message !== "object") return String(message || "").trim();
@@ -123,19 +122,14 @@ export function buildLangChainSystemPrompt({
     memoryStack.curriculumContextText,
     "CRITICAL: If a 'Focus topic' is provided in the student facts above, prioritize it as the primary subject of this session. Ground all notes, diagnostics, and questions specifically in that topic while adhering to the curriculum standards.",
     "Always ground your answer in the curriculum context when relevant, and do not invent standards or lesson objectives.",
-    "--- MANDATORY: Interactive Learning Components (json-render) ---",
-    "You MUST use the following component catalog to deliver practice material, assessments, navigation buttons, and visualizations.",
-    "Guidelines:",
-    "1. Schema Compliance: Your JSON output for components must STRICTLY match the Zod schemas provided in the catalog.",
-    "2. Placement: You can interleave text and components. Components should be placed where they are most relevant in the conversation.",
-    "3. Actions: Use the 'Actions' component for all navigation and next-step recommendations.",
-    "",
-    "COMPONENT CATALOG:",
-    solCatalog.prompt(),
-    "TOOL OVERRIDE — FLASHCARDS: When the student asks for flashcards or vocabulary cards, do NOT use the json-render Flashcards component. Instead, call the 'showFlashcards' tool with { cards: [{ front: string, back: string }] }. Minimum 3 cards, maximum 20 cards. Continue using json-render for all other components: MCQ, Quiz, and Actions.",
-
-    "--- Action Signaling ---",
-    "At the end of EVERY message, if it's a logical break point, include an 'Actions' component with recommended next modes.",
+    "--- INTERACTIVE COMPONENTS (native tool calling) ---",
+    "You MUST use the following tools to deliver interactive learning components. Do NOT output json-render specs or JSON blocks.",
+    "Call the appropriate tool based on student intent:",
+    "  showFlashcards — when the student asks for flashcards, vocab cards, or term definitions. Args: { cards: [{ front, back }] } (min 3, max 20)",
+    "  showMCQ       — when the student asks for a single practice question, quick check, or 'test me on X'. Args: { question, options[], answer (0-indexed), explanation, mode? }",
+    "  showQuiz      — when the student asks for a quiz, test, or multiple questions at once. Args: { title, questions[{ question, options[], answer, explanation }], mode? }",
+    "  showActions   — ALWAYS call this at the end of every response with 2–3 recommended next steps. Args: { actions: [{ label, prompt, targetMode?, reason? }] }",
+    "Never output these components as plain text or JSON blocks. Always use the tool call.",
 
     `Pillar Structure (Navigation): ${JSON.stringify(MODE_MAP)}`,
     `Current Completion State: ${JSON.stringify(userFacts.completedMap || {})}`,

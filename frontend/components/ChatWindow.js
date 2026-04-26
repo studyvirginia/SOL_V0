@@ -8,13 +8,9 @@ import rehypeKatex from "rehype-katex";
 import rehypeRaw from "rehype-raw";
 import { buildMediumTermSummary, buildShortTermMemory } from "../lib/sessionMemoryService";
 import ErrorBoundary from "./ErrorBoundary";
-import { Renderer, StateProvider, VisibilityProvider, ActionProvider } from "@json-render/react";
-import { registry } from "./ComponentRegistry";
-import { ChatProvider } from "../context/ChatContext";
 import { useChat } from "@ai-sdk/react";
 import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
 import { QuickActions } from "./QuickActions";
-import { compilePatchesToSpec, isJSONLPatch } from "../lib/specCompiler";
 import FlashcardDeck from "./learning/FlashcardDeck";
 import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
@@ -49,79 +45,6 @@ const SendIcon = (props) => (
 
 
 
-/**
- * Split a message string into alternating text/component segments.
- * Now handles json-render specs.
- */
-function splitMessageSegments(content) {
-  const segments = [];
-  
-  // Regex for json-render specs (expecting valid JSON objects that look like specs)
-  // We look for { "root": ... "elements": ... } or similar patterns if the AI outputs them directly.
-  // Alternatively, we can just look for any JSON block.
-  const JSON_BLOCK_RE = /```json\n([\s\S]*?)\n```|({[\s\S]*?"root"[\s\S]*?"elements"[\s\S]*?})|({[\s\S]*?"op"[\s\S]*?":?[\s\S]*?"add"[\s\S]*?})/g;
-
-
-
-  let lastIndex = 0;
-  const matches = [
-    ...content.matchAll(JSON_BLOCK_RE),
-  ].sort((a, b) => a.index - b.index);
-
-  matches.forEach((m) => {
-    // If there's text between the last match and this one
-    if (m.index > lastIndex) {
-      const textBetween = content.slice(lastIndex, m.index);
-      // If it's just whitespace and we are merging blocks, we can skip text segment
-      if (textBetween.trim() === "" && segments.length > 0 && segments[segments.length - 1].type === 'json-render') {
-        // Skip
-      } else {
-        segments.push({ type: 'text', content: textBetween });
-      }
-    }
-    
-    const raw = m[1] || m[0];
-    
-    // It's a json-render spec or a sequence of JSONL patches
-    const prevSeg = segments[segments.length - 1];
-    if (prevSeg && prevSeg.type === 'json-render') {
-      // Merge with existing json-render segment
-      const combinedRaw = prevSeg.rawContent + "\n" + raw;
-      const lines = combinedRaw.split('\n').filter(l => l.trim().startsWith('{'));
-      const spec = isJSONLPatch(combinedRaw) ? compilePatchesToSpec(lines) : (() => { try { return JSON.parse(raw); } catch { return {}; } })();
-      
-      prevSeg.rawContent = combinedRaw;
-      prevSeg.spec = spec;
-    } else {
-      // Start new json-render segment
-      let spec = {};
-      if (isJSONLPatch(raw)) {
-        const lines = raw.split('\n').filter(l => l.trim().startsWith('{'));
-        spec = compilePatchesToSpec(lines);
-      } else {
-        try { spec = JSON.parse(raw); } catch (e) { spec = {}; }
-      }
-
-      if (spec.root || isJSONLPatch(raw)) {
-        segments.push({ type: 'json-render', spec, rawContent: raw });
-      } else {
-        segments.push({ type: 'text', content: raw });
-      }
-    }
-    
-    lastIndex = m.index + m[0].length;
-  });
-
-  if (lastIndex < content.length) {
-    segments.push({ type: 'text', content: content.slice(lastIndex) });
-  }
-
-  if (segments.length === 0) {
-    segments.push({ type: 'text', content });
-  }
-
-  return segments;
-}
 
 
 // ── Annotation colour palette the AI can pick from ──────────────────────────
@@ -575,10 +498,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
   const activePillar = Object.entries(MODE_MAP).find(([key, pillar]) => pillar.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
 
   return (
-    <StateProvider initialState={{}}>
-      <VisibilityProvider>
-        <ActionProvider>
-          <div className="flex h-full w-full gap-4 md:gap-8">
+    <div className="flex h-full w-full gap-4 md:gap-8">
             <div className="w-[140px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-6 text-gray-800 dark:text-gray-300">
               <h2 className="text-[0.65rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4 px-1">Learning Path</h2>
               {Object.entries(MODE_MAP).map(([pillarKey, pillarData]) => {
@@ -631,7 +551,6 @@ export default function ChatWindow({ session, onUpdateSession }) {
                         </div>
                       ) : (
                         <div className={`w-full max-w-[850px] px-8 md:px-12 py-10 transition-all duration-500 relative ${isStreaming ? "rounded-[3rem] border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
-                          <ChatProvider value={{ onSwitch: switchSubMode, onSend: (p) => handleFormSubmit(null, p) }}>
                             {isStreaming && (
                             <div className="flex items-center gap-3 mb-8 text-[0.75rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
                               <div className="relative h-5 w-5">
@@ -660,35 +579,9 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                 // Text parts: still run through splitMessageSegments so
                                 // json-render blocks (MCQ, Quiz, Actions) continue to work.
                                 if (part.type === "text") {
-                                  return splitMessageSegments(part.text || "").map((seg, segIdx) => {
-                                    if (seg.type === 'text') {
-                                      return seg.content.trim()
-                                        ? <MarkdownMessage key={`${partIdx}-${segIdx}`} content={seg.content} isUser={false} />
-                                        : null;
-                                    }
-                                    if (seg.type === 'json-render') {
-                                      return (
-                                        <div key={`${partIdx}-${segIdx}`} className="w-full my-4">
-                                          <ActionProvider onAction={handleAction}>
-                                            <Renderer
-                                              spec={{
-                                                ...seg.spec,
-                                                state: {
-                                                  ...seg.spec.state,
-                                                  mode: (currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice'
-                                                }
-                                              }}
-                                              registry={registry}
-                                              onSwitch={switchSubMode}
-                                              onSend={(prompt) => handleFormSubmit(null, prompt)}
-                                              currentSubMode={currentMode}
-                                            />
-                                          </ActionProvider>
-                                        </div>
-                                      );
-                                    }
-                                    return null;
-                                  });
+                                  return part.text?.trim()
+                                    ? <MarkdownMessage key={`text-${partIdx}`} content={part.text} isUser={false} />
+                                    : null;
                                 }
 
                                 // ── Native tool dispatch (AI SDK v6 UI stream format) ─────────
@@ -729,7 +622,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                     </div>
                                   );
 
-                                  if (toolName === "showActions" && args.actions?.length) return (
+                                  if (toolName === "showActions" && args.actions) return (
                                     <div key={`tool-${partIdx}`} className="w-full my-2">
                                       <QuickActions
                                         actions={args.actions}
@@ -745,39 +638,10 @@ export default function ChatWindow({ session, onUpdateSession }) {
                               });
                             }
 
-                            // ── Fallback: stored messages without SDK parts ───────────
-                            // Preserves full backward compatibility for messages
-                            // loaded from sessionStore (no parts array).
-                            return splitMessageSegments(content).map((seg, segIdx) => {
-                              if (seg.type === 'text') {
-                                return seg.content.trim()
-                                  ? <MarkdownMessage key={segIdx} content={seg.content} isUser={false} />
-                                  : null;
-                              }
-                              if (seg.type === 'json-render') {
-                                return (
-                                  <div key={segIdx} className="w-full my-4">
-                                    <ActionProvider onAction={handleAction}>
-                                      <Renderer
-                                        spec={{
-                                          ...seg.spec,
-                                          state: {
-                                            ...seg.spec.state,
-                                            mode: (currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice'
-                                          }
-                                        }}
-                                        registry={registry}
-                                        onSwitch={switchSubMode}
-                                        onSend={(prompt) => handleFormSubmit(null, prompt)}
-                                        currentSubMode={currentMode}
-                                      />
-                                    </ActionProvider>
-                                  </div>
-                                );
-                              }
-                              return null;
-                            });
-                          })()}</ChatProvider>
+                            return content?.trim()
+                              ? <MarkdownMessage key="fallback" content={content} isUser={false} />
+                              : null;
+                          })()}
                       </div>
                     )}
                   </div>
@@ -785,16 +649,13 @@ export default function ChatWindow({ session, onUpdateSession }) {
               })}
                 <div ref={bottomRef} className="h-4" />
                 {!isChatLoading && journey.completed[currentMode] && messages.length > 0 && messages[messages.length-1].role === "assistant" && (
-                  <QuickActions actions={(() => {
-                    const lastMsg = messages[messages.length - 1];
-                    const actionsSeg = splitMessageSegments(lastMsg.content).find(s => s.type === 'actions');
-                    if (actionsSeg) { try { return JSON.parse(actionsSeg.data); } catch { return []; } }
-                    const pk = Object.entries(MODE_MAP).find(([, mode]) => mode.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
-                    const lat = MODE_MAP[pk].subModes.filter(s => s.id !== currentMode && !journey.completed[s.id]).map(s => s.id);
-                    const pks = Object.keys(MODE_MAP);
-                    const nk = pks[pks.indexOf(pk) + 1];
-                    return [...lat, nk].filter(Boolean);
-                  })()} currentSubMode={currentMode} onSwitch={switchSubMode} onSend={(prompt) => handleFormSubmit(null, prompt)} />
+                   <QuickActions actions={(() => {
+                     const pk = Object.entries(MODE_MAP).find(([, mode]) => mode.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
+                     const lat = MODE_MAP[pk].subModes.filter(s => s.id !== currentMode && !journey.completed[s.id]).map(s => s.id);
+                     const pks = Object.keys(MODE_MAP);
+                     const nk = pks[pks.indexOf(pk) + 1];
+                     return [...lat, nk].filter(Boolean);
+                   })()} currentSubMode={currentMode} onSwitch={switchSubMode} onSend={(prompt) => handleFormSubmit(null, prompt)} />
                 )}
                 <div className="h-24" />
               </div>
@@ -819,9 +680,5 @@ export default function ChatWindow({ session, onUpdateSession }) {
                 </div>
               )}
             </div>
-          </div>
-        </ActionProvider>
-      </VisibilityProvider>
-    </StateProvider>
   );
 }
