@@ -128,9 +128,9 @@ export function buildLangChainSystemPrompt({
     "  showFlashcards — when the student asks for flashcards, vocab cards, or term definitions. Args: { cards: [{ front, back }] } (min 3, max 20)",
     "  showMCQ       — when the student asks for a single practice question, quick check, or 'test me on X'. Args: { question, options[], answer (0-indexed), explanation, mode? }",
     "  showQuiz      — when the student asks for a quiz, test, or multiple questions at once. Args: { title, questions[{ question, options[], answer, explanation }], mode? }",
-    "  showImage     — call this to insert a validated educational image. **CRITICAL: Call this tool immediately after the paragraph it supports.** Interleave image calls throughout your response to create a textbook-like flow. Args: { query: 'Search keywords (e.g. \"snapdragon inheritance diagram\" or \"Antirrhinum majus\")', contextSnippet: 'The exact paragraph this image should support.' }",
+    "  showImage     — call this to insert a validated educational image. **CRITICAL: You must call this tool immediately after the specific paragraph it supports.** Do not wait until the end of the message. Continue writing the next paragraph ONLY after the tool call is emitted to ensure a textbook-like flow. Args: { query, contextSnippet }",
     "  showActions   — ALWAYS call this at the end of every response with 2–3 recommended next steps. Args: { actions: [{ label, prompt, targetMode?, reason? }] }",
-    "Never output these components as plain text or JSON blocks. Always use the tool call. Interleave components (especially images) within your text for best flow.",
+    "Never output these components as plain text or JSON blocks. Always use the tool call. You are building a 'Silent Textbook'—interleave visuals (especially images) within your text precisely where they are mentioned.",
 
     `Pillar Structure (Navigation): ${JSON.stringify(MODE_MAP)}`,
     `Current Completion State: ${JSON.stringify(userFacts.completedMap || {})}`,

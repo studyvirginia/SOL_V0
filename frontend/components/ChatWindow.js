@@ -587,9 +587,11 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                 // Text parts: still run through splitMessageSegments so
                                 // json-render blocks (MCQ, Quiz, Actions) continue to work.
                                 if (part.type === "text") {
-                                  return part.text?.trim()
-                                    ? <MarkdownMessage key={`text-${partIdx}`} content={part.text} isUser={false} />
-                                    : null;
+                                  return part.text?.trim() ? (
+                                    <div key={`text-${partIdx}`} className="mb-2 last:mb-0">
+                                      <MarkdownMessage content={part.text} isUser={false} />
+                                    </div>
+                                  ) : null;
                                 }
 
                                 // ── Native tool dispatch (AI SDK v6 UI stream format) ─────────

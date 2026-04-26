@@ -183,7 +183,7 @@ const OPENROUTER_TOOLS = [
     type: "function",
     function: {
       name: "showImage",
-      description: "Search for and display a single validated educational image to support the text.",
+      description: "Display a validated educational image. CALL IMMEDIATELY after the paragraph it supports for a textbook flow.",
       parameters: {
         type: "object",
         properties: {

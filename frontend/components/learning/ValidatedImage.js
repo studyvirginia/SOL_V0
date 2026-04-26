@@ -9,6 +9,8 @@ export default function ValidatedImage({ toolInvocation }) {
   const [localResult, setLocalResult] = useState(null);
   const [localError, setLocalError] = useState(null);
   const [isRetrying, setIsRetrying] = useState(false);
+  const [isMaximized, setIsMaximized] = useState(false);
+  const [showCitation, setShowCitation] = useState(false);
 
   // Synchronize with tool output when it arrives
   useEffect(() => {
@@ -44,10 +46,20 @@ export default function ValidatedImage({ toolInvocation }) {
   const error = localError || (state === 'output-available' && !result ? 'Visual unavailable for this segment' : result?.error);
 
   return (
-    <div className="my-4 w-full max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-700">
-      <Card className="overflow-hidden border-none shadow-2xl bg-white/40 dark:bg-slate-900/40 backdrop-blur-xl ring-1 ring-black/5 dark:ring-white/10">
+    <div className={`my-6 w-full mx-auto animate-in fade-in slide-in-from-bottom-4 duration-700 ${isMaximized ? 'fixed inset-0 z-[100] p-4 md:p-10 bg-black/90 backdrop-blur-xl flex items-center justify-center' : 'max-w-2xl'}`}>
+      
+      {isMaximized && (
+        <button 
+          onClick={() => setIsMaximized(false)}
+          className="absolute top-6 right-6 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all z-[110]"
+        >
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      )}
+
+      <Card className={`overflow-hidden border-none shadow-2xl bg-white/40 dark:bg-slate-900/40 backdrop-blur-xl ring-1 ring-black/5 dark:ring-white/10 transition-all duration-500 ${isMaximized ? 'w-full max-w-5xl max-h-full overflow-y-auto' : ''}`}>
         <CardContent className="p-0">
-          <div className="relative aspect-video w-full flex items-center justify-center bg-slate-100/50 dark:bg-slate-800/50">
+          <div className={`relative w-full flex items-center justify-center bg-slate-100/50 dark:bg-slate-800/50 ${isMaximized ? 'aspect-auto' : 'aspect-video'}`}>
             
             {isLoading && (
               <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 bg-white/20 dark:bg-black/20 backdrop-blur-md">
@@ -71,11 +83,32 @@ export default function ValidatedImage({ toolInvocation }) {
                 <img 
                   src={result.url} 
                   alt={result.title}
-                  className="w-full h-full object-cover transition-opacity duration-1000"
+                  className={`w-full h-full object-contain transition-opacity duration-1000 ${isMaximized ? '' : 'object-cover'}`}
                   onLoad={(e) => e.target.style.opacity = 1}
                   style={{ opacity: 0 }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                
+                <div className="absolute top-4 right-4 flex gap-2">
+                  <button 
+                    onClick={() => setIsMaximized(!isMaximized)}
+                    className="p-2 rounded-full bg-black/40 hover:bg-black/60 text-white backdrop-blur-md transition-all shadow-lg"
+                    title="Toggle Fullscreen"
+                  >
+                    {isMaximized ? (
+                      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>
+                    ) : (
+                      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                    )}
+                  </button>
+                  
+                  <button 
+                    onClick={() => setShowCitation(!showCitation)}
+                    className={`p-2 rounded-full backdrop-blur-md transition-all shadow-lg ${showCitation ? 'bg-blue-500 text-white' : 'bg-black/40 hover:bg-black/60 text-white'}`}
+                    title="View Citation"
+                  >
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                  </button>
+                </div>
               </>
             )}
 
@@ -108,40 +141,39 @@ export default function ValidatedImage({ toolInvocation }) {
             )}
           </div>
 
-          {result && !error && result.caption && (
-            <div className="p-6 bg-white/60 dark:bg-slate-900/60 border-t border-black/5 dark:border-white/5">
-              <div className="flex items-center gap-2 mb-2">
-                <div className="w-1 h-3 bg-blue-500 rounded-full"></div>
-                <span className="text-[0.6rem] font-black text-slate-400 uppercase tracking-widest">Visual Rationale</span>
-              </div>
-              <p className="text-[0.95rem] font-medium leading-relaxed text-slate-700 dark:text-slate-300 italic">
-                {result.caption}
-              </p>
-              
-              <div className="mt-6 pt-4 border-t border-black/5 dark:border-white/5 flex flex-col gap-2">
-                <div className="flex items-center justify-between">
-                  <a 
-                    href={result.foreign_landing_url} 
-                    target="_blank" 
-                    rel="noreferrer"
-                    className="group flex items-center gap-1.5 text-[0.6rem] font-bold text-blue-500 hover:text-blue-600 transition-colors uppercase tracking-widest"
-                  >
-                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                    Source: Openverse
-                  </a>
-                  <a 
-                    href={result.license_url} 
-                    target="_blank" 
-                    rel="noreferrer"
-                    className="text-[0.6rem] font-bold text-slate-400 hover:text-slate-500 transition-colors uppercase tracking-widest"
-                  >
-                    License: {result.license?.toUpperCase()} {result.license_version}
-                  </a>
+          {result && !error && (
+            <div className="p-6 bg-white/60 dark:bg-slate-900/60 border-t border-black/5 dark:border-white/5 animate-in slide-in-from-top-2 duration-500">
+              {showCitation ? (
+                <div className="flex flex-col gap-3 animate-in fade-in duration-300">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[0.6rem] font-black text-blue-500 uppercase tracking-widest">Metadata & Citation</span>
+                    <button onClick={() => setShowCitation(false)} className="text-[0.55rem] font-bold text-slate-400 hover:text-slate-600 uppercase">Close</button>
+                  </div>
+                  <div className="flex flex-col gap-2 p-3 rounded-lg bg-slate-100/50 dark:bg-slate-800/50 border border-black/5">
+                    <div className="flex items-center justify-between">
+                      <a href={result.foreign_landing_url} target="_blank" rel="noreferrer" className="text-[0.65rem] font-bold text-slate-700 dark:text-slate-300 hover:underline">
+                        Source: Openverse ({result.provider?.toUpperCase()})
+                      </a>
+                      <a href={result.license_url} target="_blank" rel="noreferrer" className="text-[0.55rem] font-black text-blue-500 uppercase">
+                        {result.license?.toUpperCase()} {result.license_version}
+                      </a>
+                    </div>
+                    <p className="text-[0.55rem] font-medium text-slate-500 leading-tight italic">
+                      {result.attribution || `"${result.title}" by ${result.creator || 'Unknown Creator'}`}
+                    </p>
+                  </div>
                 </div>
-                <div className="text-[0.55rem] font-medium text-slate-400 leading-tight opacity-60">
-                  {result.attribution || `"${result.title}" by ${result.creator || 'Unknown Creator'}`}
+              ) : (
+                <div className="animate-in fade-in duration-300">
+                  <div className="flex items-center gap-2 mb-2">
+                    <div className="w-1 h-3 bg-blue-500 rounded-full"></div>
+                    <span className="text-[0.6rem] font-black text-slate-400 uppercase tracking-widest">Visual Rationale</span>
+                  </div>
+                  <p className="text-[0.95rem] font-medium leading-relaxed text-slate-700 dark:text-slate-300 italic">
+                    {result.caption}
+                  </p>
                 </div>
-              </div>
+              )}
             </div>
           )}
         </CardContent>
