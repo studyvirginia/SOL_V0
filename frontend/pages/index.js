@@ -108,6 +108,7 @@ export default function Home() {
   const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
   const [modalPreferences, setModalPreferences] = useState("");
   const [modalNeeds, setModalNeeds] = useState("");
+  const [modalMathEngine, setModalMathEngine] = useState("both");
 
   // Effect to fetch dynamic Units or AI Suggestions
   useEffect(() => {
@@ -280,6 +281,7 @@ export default function Home() {
       focusTopic: detailValue || "",
       preferences: modalPreferences || "",
       needs: modalNeeds || "",
+      mathEngine: modalMathEngine,
     };
     const newSession = {
       id: Date.now().toString(),
@@ -303,6 +305,7 @@ export default function Home() {
     setModalFocusTopic("");
     setModalPreferences("");
     setModalNeeds("");
+    setModalMathEngine("both");
   };
 
   const updateSession = (updatedSession) => {
@@ -673,6 +676,22 @@ export default function Home() {
                     onChange={(e) => setModalNeeds(e.target.value)}
                     placeholder="e.g. dyslexia support, ELL"
                   />
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-[0.6rem] font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400">Math Visualization Engine</label>
+                  <div className="flex bg-slate-50/50 dark:bg-slate-800/50 p-1 rounded-xl border border-slate-100 dark:border-slate-700">
+                    {["mafs", "matplotlib", "both"].map((eng) => (
+                      <button
+                        key={eng}
+                        type="button"
+                        onClick={() => setModalMathEngine(eng)}
+                        className={`flex-1 py-1.5 text-[0.6rem] font-black uppercase tracking-wider rounded-lg transition-all ${modalMathEngine === eng ? "bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm" : "text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-400"}`}
+                      >
+                        {eng}
+                      </button>
+                    ))}
+                  </div>
                 </div>
 
                 <div className="mt-6 flex gap-3 pt-1">

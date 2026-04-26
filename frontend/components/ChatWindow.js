@@ -523,7 +523,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                       className={`flex items-center justify-between px-2 py-2 rounded-xl cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
                       onClick={() => { 
                          if (!isActivePillar && pillarData.subModes.length > 0) {
-                            onUpdateSession({ ...session, retrievalMode: pillarData.subModes[0].id });
+                            switchSubMode(pillarData.subModes[0].id, true);
                          } 
                       }}
                     >
@@ -534,7 +534,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                     {hasSubModes && (
                       <div className={`flex flex-col space-y-0.5 ml-2 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-3 opacity-100" : "max-h-0 opacity-0"}`}>
                         {isActivePillar && pillarData.subModes.map((sub) => (
-                          <button key={sub.id} onClick={() => onUpdateSession({ ...session, retrievalMode: sub.id })} className={`group relative flex items-center justify-between px-2 py-1.5 rounded-lg text-[0.7rem] transition-colors ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>
+                          <button key={sub.id} onClick={() => switchSubMode(sub.id, true)} className={`group relative flex items-center justify-between px-2 py-1.5 rounded-lg text-[0.7rem] transition-colors ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>
                             <span className="truncate pr-2">{sub.label}</span>
                             <span className="flex-shrink-0 text-[0.65rem] font-black">{journey.completed[sub.id] ? "✓" : recommended?.subModeId === sub.id ? "★" : ""}</span>
                           </button>
