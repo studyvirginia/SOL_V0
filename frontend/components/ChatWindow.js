@@ -680,5 +680,6 @@ export default function ChatWindow({ session, onUpdateSession }) {
                 </div>
               )}
             </div>
+        </div>
   );
 }
