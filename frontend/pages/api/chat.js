@@ -478,7 +478,7 @@ export default async function handler(req, res) {
     // ── Provider with schema-fix fetch interceptor ───────────────────────────
     // Replaces the SDK-mangled tool schemas (properties:{}) with correct ones.
     // Also forces tool_choice=required for visual prompts to prevent code blocks.
-    const VISUAL_KEYWORDS = /matplotlib|use python|plot|visualize|draw a graph|draw the graph|show me a graph|scatter|histogram|3d surface|use mafs|show the (function|curve|equation|parabola|circle|triangle|vector|sine|cosine)/i;
+    const VISUAL_KEYWORDS = /matplotlib|use python|plot|visualize|draw a graph|draw the graph|show me a graph|scatter|histogram|3d surface|use mafs|show the (function|curve|equation|parabola|circle|triangle|vector|sine|cosine)|openverse|image|photo|diagram/i;
     const forceToolUse = VISUAL_KEYWORDS.test(lastMessage);
 
     const openrouter = createOpenAICompatible({
