@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useMemo } from "react";
+import React, { useEffect, useRef, useState, useMemo, memo } from "react";
 import dynamic from "next/dynamic";
 import { RoughNotation } from "react-rough-notation";
 import ReactMarkdown from "react-markdown";
@@ -134,12 +134,12 @@ function BlurReveal({ children }) {
   );
 }
 
-const MarkdownMessage = ({ content, isUser }) => {
-  const formattedContent = preprocessAnnotations(
+const MarkdownMessage = memo(({ content, isUser }) => {
+  const formattedContent = useMemo(() => preprocessAnnotations(
     String(content || "")
-  );
+  ), [content]);
 
-  const renderers = {
+  const renderers = useMemo(() => ({
     // ── RoughNotation span renderer ──────────────────────────────────────
     span({ node, children, ...props }) {
       const roughType  = node?.properties?.dataRough;
@@ -249,16 +249,12 @@ const MarkdownMessage = ({ content, isUser }) => {
     li({ children, ...props }) {
       return <li className="leading-[1.75] text-[1rem] text-gray-700 dark:text-gray-300 marker:text-gray-400 dark:marker:text-gray-600 pl-1" {...props}>{children}</li>;
     },
-
-    // ── Strong / em ───────────────────────────────────────────────────────
     strong({ children, ...props }) {
       return <strong className="font-semibold text-gray-900 dark:text-gray-100" {...props}>{children}</strong>;
     },
     em({ children, ...props }) {
       return <em className="italic text-gray-600 dark:text-gray-400" {...props}>{children}</em>;
     },
-
-    // ── Blockquote — minimal, barely-there ────────────────────────────────
     blockquote({ children, ...props }) {
       return (
         <blockquote className="my-3 pl-3.5 border-l-2 border-gray-200 dark:border-gray-700 text-gray-500 dark:text-gray-400 italic text-[0.95rem]" {...props}>
@@ -266,7 +262,7 @@ const MarkdownMessage = ({ content, isUser }) => {
         </blockquote>
       );
     },
-  };
+  }), []);
 
   return (
     <div className={`max-w-none break-words font-sans ${
@@ -286,7 +282,7 @@ const MarkdownMessage = ({ content, isUser }) => {
       </ReactMarkdown>
     </div>
   );
-}
+});
 
 function buildEmptyCompletionMap() {
   const completed = {};
