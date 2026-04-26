@@ -15,6 +15,10 @@ import FlashcardDeck from "./learning/FlashcardDeck";
 import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
 import ValidatedImage from "./learning/ValidatedImage";
+import MathVisual from "./learning/MathVisual";
+import PythonExecutor from "./learning/PythonExecutor";
+import PythonVisual from "./learning/PythonVisual";
+
 // Advanced formatting utilities for proper display capitalization
 export const formatName = (str) => {
   if (!str) return "";
@@ -602,13 +606,72 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                     part.type !== "tool-invocation") {
                                   const toolName = part.type.slice(5); // strip "tool-" prefix
                                   const args = part.input || {};
-                                  const isAvailable = part.state === "input-available" || part.state === "output-available";
+                                  // Be permissive with states (call, result, input-available, output-available)
+                                  const isAvailable = part.state !== "partial-call";
 
                                   if (!isAvailable) return null;
 
                                   if (toolName === "showImage") return (
                                     <ValidatedImage key={`tool-${partIdx}`} toolInvocation={part} />
                                   );
+
+                                  if (toolName === "showMath") return (
+                                    <MathVisual 
+                                      key={`tool-${partIdx}`} 
+                                      layers={args.layers || args.elements || []} 
+                                      viewBox={args.viewBox}
+                                      labels={args.labels}
+                                      title={args.title}
+                                      gridType={args.gridType}
+                                    />
+                                  );
+
+                                  if (toolName === "showPython") {
+                                    // result/output is set after server-side E2B execution
+                                    const pyResult = part.output || part.result || {};
+                                    const { chartData, title: pyTitle, caption, code } = pyResult;
+
+                                    // Still loading (call state, no result yet)
+                                    if (!chartData && !pyResult.error) {
+                                      return (
+                                        <div key={`tool-${partIdx}`} className="my-8 w-full max-w-4xl mx-auto">
+                                          <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-amber-400/20 p-10 flex items-center gap-5 shadow-xl">
+                                            <div className="w-12 h-12 rounded-2xl bg-amber-400 flex items-center justify-center flex-shrink-0 shadow-lg shadow-amber-400/20 animate-pulse">
+                                              <span className="text-white text-xs font-black">PY</span>
+                                            </div>
+                                            <div>
+                                              <p className="text-xs font-black text-amber-600 uppercase tracking-widest mb-1">E2B Sandbox</p>
+                                              <p className="text-sm text-slate-500">Executing Python · Generating chart...</p>
+                                            </div>
+                                            <div className="ml-auto flex gap-1">
+                                              {[0, 150, 300].map(d => (
+                                                <div key={d} className="w-2 h-2 rounded-full bg-amber-400 animate-bounce" style={{ animationDelay: `${d}ms` }} />
+                                              ))}
+                                            </div>
+                                          </div>
+                                        </div>
+                                      );
+                                    }
+
+                                    if (pyResult.error) {
+                                      return (
+                                        <div key={`tool-${partIdx}`} className="my-8 w-full max-w-4xl mx-auto p-6 bg-rose-50 dark:bg-rose-950/20 rounded-3xl border border-rose-500/30">
+                                          <p className="text-xs font-black text-rose-600 uppercase tracking-widest mb-2">Python Error</p>
+                                          <pre className="text-xs font-mono text-rose-500 whitespace-pre-wrap">{pyResult.error}</pre>
+                                        </div>
+                                      );
+                                    }
+
+                                    return (
+                                      <PythonVisual
+                                        key={`tool-${partIdx}`}
+                                        chartData={chartData}
+                                        title={pyTitle || args.title}
+                                        caption={caption || args.caption}
+                                        code={code || args.code}
+                                      />
+                                    );
+                                  }
 
                                   if (toolName === "showFlashcards") return (
                                     <div key={`tool-${partIdx}`} className="w-full my-4">

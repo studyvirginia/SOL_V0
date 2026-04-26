@@ -14,7 +14,8 @@ function getRepoRootFromFrontend() {
 }
 
 function getDataDirectory() {
-  return path.join(getRepoRootFromFrontend(), "backend", "data");
+  // In both local dev (cwd=frontend) and Vercel, data/ lives inside the project root
+  return path.join(process.cwd(), "data");
 }
 
 function normalizeSubject(subject) {

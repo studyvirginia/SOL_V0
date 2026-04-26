@@ -194,6 +194,56 @@ const OPENROUTER_TOOLS = [
       },
     },
   },
+  {
+    type: "function",
+    function: {
+      name: "showMath",
+      description: "Render a high-fidelity interactive coordinate plane for math/geometry. Use this for Algebra, Geometry, Trigonometry, and Calculus visualizations.",
+      parameters: {
+        type: "object",
+        properties: {
+          title: { type: "string", description: "Title of the graph (e.g. 'Quadratic Transformation')" },
+          labels: { type: "string", enum: ["integers", "pi"], description: "Axis labeling strategy." },
+          gridType: { type: "string", enum: ["cartesian", "polar"], description: "The type of coordinate plane to render." },
+          viewBox: {
+            type: "object",
+            properties: {
+              x: { type: "array", items: { type: "number" }, minItems: 2, maxItems: 2 },
+              y: { type: "array", items: { type: "number" }, minItems: 2, maxItems: 2 },
+              padding: { type: "number" }
+            }
+          },
+          layers: {
+            type: "array",
+            items: {
+              type: "object",
+              properties: {
+                type: { type: "string", enum: ["function", "polar", "parametric", "point", "line", "text", "vector", "polygon"] },
+                props: { type: "object" }
+              }
+            }
+          }
+        },
+        required: ["layers"]
+      },
+    },
+  },
+  {
+    type: "function",
+    function: {
+      name: "showPython",
+      description: "Execute Python code to generate a scientific chart (Matplotlib). Use for complex statistics, 3D plots, science simulations, or when Mafs is insufficient.",
+      parameters: {
+        type: "object",
+        properties: {
+          title: { type: "string" },
+          code: { type: "string", description: "Python code. Must call plt.show() to generate output." },
+          caption: { type: "string" }
+        },
+        required: ["code", "title"]
+      }
+    }
+  },
 ];
 
 // ── SDK tool() stubs ─────────────────────────────────────────────────────────
@@ -224,6 +274,58 @@ const SDK_TOOLS = {
         if (validated) return validated;
       }
       return { error: "No suitable image found" };
+    }
+  }),
+  showMath: tool({
+    description: "Render an interactive math visualization using Mafs. Specify layers (functions, points, etc.) and viewbox.",
+    parameters: jsonSchema({
+      type: "object",
+      properties: {
+        title: { type: "string" },
+        labels: { type: "string", enum: ["integers", "pi"] },
+        viewBox: { type: "object" },
+        layers: { type: "array" }
+      },
+      required: ["layers"]
+    }),
+    execute: async (args) => args // Pass through to frontend
+  }),
+  showPython: tool({
+    description: "Execute Python code to generate a scientific chart (Matplotlib).",
+    parameters: jsonSchema({
+      type: "object",
+      properties: {
+        title: { type: "string" },
+        code: { type: "string" },
+        caption: { type: "string" }
+      },
+      required: ["code", "title"]
+    }),
+    execute: async ({ code, title, caption }) => {
+      try {
+        const { Sandbox } = await import('@e2b/code-interpreter');
+        const sb = await Sandbox.create({
+          apiKey: process.env.E2B_API_KEY
+        });
+        
+        const execution = await sb.runCode(code);
+        await sb.kill();
+
+        const imageResult = execution.results.find(r => r.png || r.jpeg || r.svg);
+        if (!imageResult) {
+          return { error: "No visualization generated. Ensure your code calls plt.show().", logs: execution.logs };
+        }
+
+        return { 
+          chartData: imageResult.png || imageResult.jpeg || imageResult.svg,
+          logs: execution.logs,
+          title,
+          code,
+          caption
+        };
+      } catch (error) {
+        return { error: error.message };
+      }
     }
   }),
 };
@@ -335,7 +437,26 @@ export default async function handler(req, res) {
   const effectiveRetrievalMode = retrievalMode || detectRetrievalModeFromMessage(lastMessage);
   const mediumTermSummary = sessionSummary || buildMediumTermSummary(effectiveMessages, effectiveRetrievalMode, userFacts);
 
+  // ── Self-healing: detect if last assistant msg has a raw python code block ──
+  // If so, and user says "graph it" / "run it" / "show it", inject a directive
+  const lastAssistantMsg = effectiveMessages.slice().reverse().find(m => m.role === 'assistant');
+  const lastUserMsg = lastMessage.toLowerCase();
+  const isGraphItRequest = /(graph it|run it|show it|plot it|visualize it|draw it|execute it|use matplotlib|use python)/.test(lastUserMsg);
+  
+  if (isGraphItRequest && lastAssistantMsg) {
+    const assistantText = typeof lastAssistantMsg.content === 'string' ? lastAssistantMsg.content : '';
+    const codeBlockMatch = assistantText.match(/```python\n([\s\S]+?)```/);
+    if (codeBlockMatch) {
+      const extractedCode = codeBlockMatch[1].trim();
+      console.log("🔧 Self-healing: detected python code block in prior response, injecting showPython directive");
+      // Replace the last user message to make intent crystal clear
+      const injectedInstruction = `The student wants you to render the following Python code using the showPython tool. Call showPython immediately with this exact code (add plt.show() if missing). Do not write any code blocks. Just call showPython now:\n\n\`\`\`python\n${extractedCode}\n\`\`\``;
+      effectiveMessages = [...effectiveMessages.slice(0, -1), { role: 'user', content: injectedInstruction }];
+    }
+  }
+
   try {
+
     const courseData = await loadCourseRow(subject, course);
     const curriculumContext = buildCurriculumModeContext(courseData, effectiveRetrievalMode, lastMessage);
 
@@ -356,6 +477,10 @@ export default async function handler(req, res) {
 
     // ── Provider with schema-fix fetch interceptor ───────────────────────────
     // Replaces the SDK-mangled tool schemas (properties:{}) with correct ones.
+    // Also forces tool_choice=required for visual prompts to prevent code blocks.
+    const VISUAL_KEYWORDS = /matplotlib|use python|plot|visualize|draw a graph|draw the graph|show me a graph|scatter|histogram|3d surface|use mafs|show the (function|curve|equation|parabola|circle|triangle|vector|sine|cosine)/i;
+    const forceToolUse = VISUAL_KEYWORDS.test(lastMessage);
+
     const openrouter = createOpenAICompatible({
       name: "openrouter",
       baseURL: "https://openrouter.ai/api/v1",
@@ -363,7 +488,13 @@ export default async function handler(req, res) {
       fetch: async (url, init) => {
         try {
           const body = JSON.parse(init.body);
-          if (body.tools?.length) body.tools = OPENROUTER_TOOLS;
+          if (body.tools?.length) {
+            body.tools = OPENROUTER_TOOLS;
+            // Force tool usage for visual prompts (prevents markdown code blocks)
+            if (forceToolUse && !body.tool_choice) {
+              body.tool_choice = "required";
+            }
+          }
           return await globalThis.fetch(url, { ...init, body: JSON.stringify(body) });
         } catch {
           return await globalThis.fetch(url, init);
@@ -377,9 +508,10 @@ export default async function handler(req, res) {
       system: systemPrompt,
       messages: effectiveMessages,
       tools: SDK_TOOLS,
-      maxSteps: 3,
-      maxTokens: 4000,
-      temperature: 0.15,
+      maxSteps: 10,
+      maxTokens: 8000,
+      temperature: 0.4,
+      experimental_continueSteps: true,
       onFinish: async ({ text }) => {
         if (sessionId) {
           const updatedMessages = [...effectiveMessages, { role: "assistant", content: text }];
