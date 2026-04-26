@@ -166,10 +166,10 @@ const OPENROUTER_TOOLS = [
             items: {
               type: "object",
               properties: {
-                label:      { type: "string", description: "Short button label (3-5 words)" },
-                prompt:     { type: "string", description: "Message to send when clicked" },
-                targetMode: { type: "string", description: "Learning mode to switch to" },
-                reason:     { type: "string", description: "Why this is recommended" },
+                label:      { type: "string", description: "Short button label (3-5 words max)" },
+                prompt:     { type: "string", description: "The message to send when the student clicks this button" },
+                targetMode: { type: "string", description: "Optional: the learning mode to switch to (e.g. 'flashcards', 'quiz', 'practice', 'notes')" },
+                reason:     { type: "string", description: "One sentence explaining why this is recommended" },
               },
               required: ["label", "prompt"],
             },
