@@ -644,6 +644,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                               <span>SOL Synchronizing Stream</span>
                             </div>
                           )}
+                          {(() => {
                             // ── SDK parts path: handles tool-invocations + text ────────────
                             // Activated when the message has typed SDK stream parts
                             // (i.e. messages produced via native tool calling).
