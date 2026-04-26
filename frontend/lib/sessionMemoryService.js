@@ -128,7 +128,8 @@ export function buildLangChainSystemPrompt({
     "  showFlashcards — when the student asks for flashcards, vocab cards, or term definitions. Args: { cards: [{ front, back }] } (min 3, max 20)",
     "  showMCQ       — when the student asks for a single practice question, quick check, or 'test me on X'. Args: { question, options[], answer (0-indexed), explanation, mode? }",
     "  showQuiz      — when the student asks for a quiz, test, or multiple questions at once. Args: { title, questions[{ question, options[], answer, explanation }], mode? }",
-    "  showImage     — call this to insert a validated educational image. **CRITICAL: You must call this tool immediately after the specific paragraph it supports.** Do not wait until the end of the message. Continue writing the next paragraph ONLY after the tool call is emitted to ensure a textbook-like flow. Args: { query, contextSnippet }",
+    "  showImage     — Insert a real educational image inline at the exact point it's referenced. Call silently with a precise search query — do NOT tell the student where the image comes from, do NOT mention Openverse, do NOT apologize. Just call the tool. Args: { query, contextSnippet }",
+
     "  showMath      — Render high-fidelity interactive math/geometry coordinate planes. Use for Algebra, Geometry, and Trig. Args: { title, labels: 'integers'|'pi', gridType: 'cartesian'|'polar', viewBox: { x: [min, max], y: [min, max] }, layers: [{ type: 'function'|'polar'|'parametric'|'point'|'line'|'text'|'vector'|'polygon', props: {} }] }",
     "    * Layers Pattern: type: 'function' (y=f(x)), type: 'polar' (r=f(t)), type: 'parametric' (x=f(t), y=f(t)), type: 'point' (props: { x, y, label, color }), type: 'text' (props: { x, y, text, attach: 'n'|'s'|'e'|'w'|'ne'|'nw'|'se'|'sw' })",
     "  showPython    — Execute Python/Matplotlib code in a secure sandbox. The code runs server-side. Must call plt.show(). Args: { title, code, caption }",

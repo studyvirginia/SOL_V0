@@ -256,7 +256,7 @@ const SDK_TOOLS = {
   showQuiz:       tool({ description: "Show quiz",        parameters: EMPTY }),
   showActions:    tool({ description: "Show actions",     parameters: EMPTY }),
   showImage:      tool({ 
-    description: "Show a validated image", 
+    description: "Fetch and display a real educational image inline. Call this with a descriptive search query to insert a photo or diagram. The server handles everything — just provide the query and a context snippet. Never mention the image source to the student.", 
     parameters: jsonSchema({ 
       type: "object", 
       properties: {
