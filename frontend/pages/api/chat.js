@@ -183,20 +183,14 @@ const OPENROUTER_TOOLS = [
     type: "function",
     function: {
       name: "showImage",
-      description: "Search for a contextual, openly-licensed image to visually support the current notes. Use sparingly — MAXIMUM ONE call per response. Only call during Notes mode. Only search for concrete physical objects or real places (e.g. 'Roman aqueduct', 'plant cell diagram'). Do NOT use for abstract concepts, emotions, or historical themes.",
+      description: "Search for and display a single validated educational image to support the text.",
       parameters: {
         type: "object",
         properties: {
-          query: {
-            type: "string",
-            description: "1-3 concrete keywords for image search — physical nouns only. Short noun phrases perform best. Examples: 'brass microscope', 'civil war cannon', 'roman aqueduct bridge'.",
-          },
-          lessonContext: {
-            type: "string",
-            description: "One sentence describing what the student is currently learning, used to validate image relevance.",
-          },
+          query: { type: "string", description: "Specific search term (e.g. 'Roman Aqueduct')" },
+          contextSnippet: { type: "string", description: "The exact paragraph this image should support." },
         },
-        required: ["query", "lessonContext"],
+        required: ["query", "contextSnippet"],
       },
     },
   },
@@ -211,7 +205,27 @@ const SDK_TOOLS = {
   showMCQ:        tool({ description: "Show MCQ",         parameters: EMPTY }),
   showQuiz:       tool({ description: "Show quiz",        parameters: EMPTY }),
   showActions:    tool({ description: "Show actions",     parameters: EMPTY }),
-  showImage:      tool({ description: "Show inline image", parameters: EMPTY }),
+  showImage:      tool({ 
+    description: "Show a validated image", 
+    parameters: jsonSchema({ 
+      type: "object", 
+      properties: {
+        query: { type: "string" },
+        contextSnippet: { type: "string" }
+      },
+      required: ["query", "contextSnippet"]
+    }),
+    execute: async ({ query, contextSnippet }) => {
+      const { searchOpenverse } = await import('../../lib/openverseService');
+      const { validateImage } = await import('../../lib/imageValidationService');
+      const results = await searchOpenverse(query);
+      for (let i = 0; i < Math.min(results.length, 3); i++) {
+        const validated = await validateImage(results[i], contextSnippet);
+        if (validated) return validated;
+      }
+      return { error: "No suitable image found" };
+    }
+  }),
 };
 
 export default async function handler(req, res) {
@@ -248,8 +262,6 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Missing required chat fields (subject, course, or messages)" });
   }
 
-  console.log("DEBUG [api/chat]: Received vercelMessages:", JSON.stringify(vercelMessages.slice(-1)));
-
   const normalizedMessages = (Array.isArray(vercelMessages) ? vercelMessages : [])
     .map((msg) => {
       if (!msg) return null;
@@ -264,7 +276,22 @@ export default async function handler(req, res) {
       else if (msg.parts && Array.isArray(msg.parts)) content = msg.parts.map(p => p.text || "").join("");
       
       content = content.trim();
-      return content ? { role, content } : null;
+
+      // Preserve native tool parts for history to prevent regeneration loops
+      if (msg.role === "assistant" && Array.isArray(msg.toolInvocations)) {
+        return {
+          role: "assistant",
+          content: content || "",
+          toolInvocations: msg.toolInvocations
+        };
+      }
+      
+      // Also handle tool-result role if it exists in the incoming history
+      if (msg.role === "tool") {
+        return msg;
+      }
+
+      return content ? { role, content } : (msg.toolInvocations ? { role, content: "", toolInvocations: msg.toolInvocations } : null);
     })
     .filter(Boolean);
 

@@ -14,7 +14,7 @@ import { QuickActions } from "./QuickActions";
 import FlashcardDeck from "./learning/FlashcardDeck";
 import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
-import OpenverseImage from "./learning/OpenverseImage";
+import ValidatedImage from "./learning/ValidatedImage";
 // Advanced formatting utilities for proper display capitalization
 export const formatName = (str) => {
   if (!str) return "";
@@ -552,16 +552,23 @@ export default function ChatWindow({ session, onUpdateSession }) {
                         </div>
                       ) : (
                         <div className={`w-full max-w-[850px] px-8 md:px-12 py-10 transition-all duration-500 relative ${isStreaming ? "rounded-[3rem] border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
-                            {isStreaming && (
-                            <div className="flex items-center gap-3 mb-8 text-[0.75rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] opacity-70">
+                          {isStreaming && (
+                            <div className="flex items-center gap-3 mb-8 text-[0.75rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.25em] animate-in fade-in slide-in-from-left-2 duration-500">
                               <div className="relative h-5 w-5">
+                                <div className="absolute inset-0 rounded-full border-2 border-blue-500/20 animate-ping"></div>
                                 <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                                   <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                                   <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                                 </svg>
-                                <div className="absolute inset-0 m-auto h-1.5 w-1.5 rounded-full bg-blue-600 animate-pulse"></div>
                               </div>
-                              <span>SOL Synchronizing Stream</span>
+                              <span className="flex items-center gap-1.5">
+                                SOL Curating Intelligence
+                                <span className="flex gap-0.5">
+                                  <span className="w-0.5 h-0.5 bg-current rounded-full animate-bounce [animation-delay:-0.3s]"></span>
+                                  <span className="w-0.5 h-0.5 bg-current rounded-full animate-bounce [animation-delay:-0.15s]"></span>
+                                  <span className="w-0.5 h-0.5 bg-current rounded-full animate-bounce"></span>
+                                </span>
+                              </span>
                             </div>
                           )}
                           {(() => {
@@ -590,10 +597,16 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                 //     args are at part.input (not part.args)
                                 if (typeof part.type === "string" &&
                                     part.type.startsWith("tool-") &&
-                                    part.type !== "tool-invocation" && // exclude legacy step markers
-                                    part.state === "input-available") {
+                                    part.type !== "tool-invocation") {
                                   const toolName = part.type.slice(5); // strip "tool-" prefix
                                   const args = part.input || {};
+                                  const isAvailable = part.state === "input-available" || part.state === "output-available";
+
+                                  if (!isAvailable) return null;
+
+                                  if (toolName === "showImage") return (
+                                    <ValidatedImage key={`tool-${partIdx}`} toolInvocation={part} />
+                                  );
 
                                   if (toolName === "showFlashcards") return (
                                     <div key={`tool-${partIdx}`} className="w-full my-4">
@@ -633,20 +646,6 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                       />
                                     </div>
                                   );
-
-                                  // ── showImage: notes mode only, inline between paragraphs ──
-                                  if (toolName === "showImage" && currentMode === "notes") return (
-                                    <div key={`tool-${partIdx}`} className="w-full my-8">
-                                      <OpenverseImage
-                                        query={args.query}
-                                        lessonContext={args.lessonContext}
-                                        subject={subject}
-                                        course={course}
-                                      />
-                                    </div>
-                                  );
-                                  // Guard: silently drop if not in notes mode
-                                  if (toolName === "showImage") return null;
                                 }
 
                                 return null;
