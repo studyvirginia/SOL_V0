@@ -644,12 +644,15 @@ export default function ChatWindow({ session, onUpdateSession }) {
                               <span>SOL Synchronizing Stream</span>
                             </div>
                           )}
-                          {(() => {
                             // ── SDK parts path: handles tool-invocations + text ────────────
                             // Activated when the message has typed SDK stream parts
                             // (i.e. messages produced via native tool calling).
                             const sdkParts = Array.isArray(m.parts) ? m.parts : [];
-                            const hasToolInvocations = sdkParts.some(p => p.type === "tool-invocation");
+                            // AI SDK v6 UI stream: tool parts use type "tool-{toolName}"
+                            // (not "tool-invocation" which was the v4/v5 format)
+                            const hasToolInvocations = sdkParts.some(p =>
+                              typeof p.type === "string" && p.type.startsWith("tool-")
+                            );
 
                             if (hasToolInvocations) {
                               return sdkParts.map((part, partIdx) => {
@@ -687,18 +690,23 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                   });
                                 }
 
-                                // ── Native tool dispatch ─────────────────────────────────────────
-                                if (part.type === "tool-invocation" &&
-                                    (part.state === "call" || part.state === "result")) {
-                                  const args = part.args || {};
+                                // ── Native tool dispatch (AI SDK v6 UI stream format) ─────────
+                                // v6: part.type === "tool-{toolName}", state === "input-available"
+                                //     args are at part.input (not part.args)
+                                if (typeof part.type === "string" &&
+                                    part.type.startsWith("tool-") &&
+                                    part.type !== "tool-invocation" && // exclude legacy step markers
+                                    part.state === "input-available") {
+                                  const toolName = part.type.slice(5); // strip "tool-" prefix
+                                  const args = part.input || {};
 
-                                  if (part.toolName === "showFlashcards") return (
+                                  if (toolName === "showFlashcards") return (
                                     <div key={`tool-${partIdx}`} className="w-full my-4">
                                       <FlashcardDeck cards={args.cards || []} onAction={handleAction} />
                                     </div>
                                   );
 
-                                  if (part.toolName === "showMCQ") return (
+                                  if (toolName === "showMCQ") return (
                                     <div key={`tool-${partIdx}`} className="w-full my-4">
                                       <AdaptiveMCQ
                                         question={args.question}
@@ -710,7 +718,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                     </div>
                                   );
 
-                                  if (part.toolName === "showQuiz") return (
+                                  if (toolName === "showQuiz") return (
                                     <div key={`tool-${partIdx}`} className="w-full my-4">
                                       <QuizRunner
                                         title={args.title}
@@ -720,7 +728,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                     </div>
                                   );
 
-                                  if (part.toolName === "showActions" && args.actions?.length) return (
+                                  if (toolName === "showActions" && args.actions?.length) return (
                                     <div key={`tool-${partIdx}`} className="w-full my-2">
                                       <QuickActions
                                         actions={args.actions}
