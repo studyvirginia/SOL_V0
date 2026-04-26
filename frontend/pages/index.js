@@ -596,13 +596,13 @@ export default function Home() {
                 </div>
 
                 {/* DYNAMIC SURGICAL FOCUS FIELD */}
-                {(modalSessionFocus === "Unit test" || modalSessionFocus === "Concept quiz") && (
+                {(modalSessionFocus === "Unit test" || modalSessionFocus === "Concept quiz" || modalSessionFocus === "Standard") && (
                   <div className="space-y-2 animate-in slide-in-from-top-2 duration-300">
                     <label className="text-[0.6rem] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">
-                      {modalSessionFocus === "Unit test" ? "Select Unit/Standard" : "What concept should we quiz?"}
+                      {(modalSessionFocus === "Unit test" || modalSessionFocus === "Standard") ? "Select Unit/Standard" : "What concept should we quiz?"}
                     </label>
                     
-                    {modalSessionFocus === "Unit test" ? (
+                    {(modalSessionFocus === "Unit test" || modalSessionFocus === "Standard") ? (
                       <div className="relative">
                         <select
                           className="w-full appearance-none rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-10 text-xs font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-blue-500 dark:focus:border-blue-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-500/10"
