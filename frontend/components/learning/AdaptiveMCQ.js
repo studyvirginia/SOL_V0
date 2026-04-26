@@ -3,14 +3,16 @@ import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
-export default function AdaptiveMCQ({ question, options, answer, explanation, mode = 'practice', onAction }) {
+export default function AdaptiveMCQ({ question, options = [], answer, explanation, mode = 'practice', onAction }) {
   const [selected, setSelected] = useState(null);
   const [showExplanation, setShowExplanation] = useState(false);
   
+  if (!options || options.length === 0) return null;
+
   const isAnswered = selected !== null;
 
   const handleSelect = (idx) => {
-    if (isAnswered || idx < 0 || idx >= options.length) return;
+    if (isAnswered || !options || idx < 0 || idx >= options.length) return;
     setSelected(idx);
     
     // Continuity: Log the interaction for the AI

@@ -476,7 +476,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
   };
 
   useEffect(() => {
-    if (isChatLoading || messages.length < 2) return;
+    if (isChatLoading || !Array.isArray(messages) || messages.length < 2) return;
     const lastMsg = messages[messages.length - 1];
     if (lastMsg.role !== "assistant" || !lastMsg.content || journey.completed[currentMode]) return;
     
@@ -679,7 +679,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                     </div>
                                   );
 
-                                  if (toolName === "showMCQ") return (
+                                  if (toolName === "showMCQ" && args.options && args.options.length > 0) return (
                                     <div key={`tool-${partIdx}`} className="w-full my-4">
                                       <AdaptiveMCQ
                                         question={args.question}
@@ -687,6 +687,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                         answer={args.answer}
                                         explanation={args.explanation}
                                         mode={args.mode || ((currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice')}
+                                        onAction={handleAction}
                                       />
                                     </div>
                                   );
@@ -697,6 +698,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                         title={args.title}
                                         questions={args.questions || []}
                                         mode={args.mode || ((currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice')}
+                                        onAction={handleAction}
                                       />
                                     </div>
                                   );
@@ -727,7 +729,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                 );
               })}
                 <div ref={bottomRef} className="h-4" />
-                {!isChatLoading && journey.completed[currentMode] && messages.length > 0 && messages[messages.length-1].role === "assistant" && (
+                {!isChatLoading && journey.completed[currentMode] && Array.isArray(messages) && messages.length > 0 && messages[messages.length-1]?.role === "assistant" && (
                    <QuickActions actions={(() => {
                      const pk = Object.entries(MODE_MAP).find(([, mode]) => mode.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
                      const lat = MODE_MAP[pk].subModes.filter(s => s.id !== currentMode && !journey.completed[s.id]).map(s => s.id);
