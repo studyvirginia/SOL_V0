@@ -56,11 +56,15 @@ const SendIcon = (props) => (
 const ANNOTATION_COLORS = {
   yellow:  "rgba(251, 191, 36, 0.45)",
   amber:   "rgba(245, 158, 11, 0.45)",
+  orange:  "rgba(249, 115, 22, 0.45)",
   green:   "rgba(34, 197, 94, 0.4)",
   teal:    "rgba(20, 184, 166, 0.45)",
+  cyan:    "rgba(6, 182, 212, 0.45)",
   blue:    "rgba(59, 130, 246, 0.5)",
   indigo:  "rgba(99, 102, 241, 0.45)",
+  violet:  "rgba(139, 92, 246, 0.45)",
   purple:  "rgba(168, 85, 247, 0.4)",
+  pink:    "rgba(236, 72, 153, 0.45)",
   rose:    "rgba(244, 63, 94, 0.45)",
   red:     "rgba(239, 68, 68, 0.5)",
   gray:    "rgba(107, 114, 128, 0.4)",
@@ -79,13 +83,17 @@ const DEFAULT_ANNOTATION_COLORS = {
 // ── Text colour palette for [t:color]text[/t] tags ───────────────────────
 const TEXT_COLORS = {
   blue:    "text-blue-600 dark:text-blue-400",
-  indigo:  "text-indigo-600 dark:text-indigo-400",
-  purple:  "text-purple-600 dark:text-purple-400",
-  rose:    "text-rose-600 dark:text-rose-400",
-  red:     "text-red-600 dark:text-red-400",
-  amber:   "text-amber-600 dark:text-amber-400",
-  green:   "text-emerald-600 dark:text-emerald-400",
+  cyan:    "text-cyan-600 dark:text-cyan-400",
   teal:    "text-teal-600 dark:text-teal-400",
+  green:   "text-emerald-600 dark:text-emerald-400",
+  amber:   "text-amber-600 dark:text-amber-400",
+  orange:  "text-orange-600 dark:text-orange-400",
+  red:     "text-red-600 dark:text-red-400",
+  rose:    "text-rose-600 dark:text-rose-400",
+  pink:    "text-pink-600 dark:text-pink-400",
+  purple:  "text-purple-600 dark:text-purple-400",
+  violet:  "text-violet-600 dark:text-violet-400",
+  indigo:  "text-indigo-600 dark:text-indigo-400",
   gray:    "text-gray-500 dark:text-gray-400",
   muted:   "text-gray-400 dark:text-gray-500",
 };
@@ -160,8 +168,8 @@ const MarkdownMessage = ({ content, isUser }) => {
             show={true}
             color={color}
             animationDuration={roughType === "circle" ? 800 : 600}
-            strokeWidth={roughType === "bracket" ? 2 : 1.5}
-            padding={roughType === "highlight" ? 2 : roughType === "bracket" ? 8 : 4}
+            strokeWidth={roughType === "bracket" ? 2.5 : 1.7}
+            padding={roughType === "highlight" ? 3 : roughType === "bracket" ? 8 : 4}
             multiline={true}
           >
             {children}
