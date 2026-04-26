@@ -2,9 +2,6 @@ import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
-import { Button } from '../ui/button';
-import { Card, CardHeader, CardContent, CardFooter } from '../ui/card';
-import { Badge } from '../ui/badge';
 
 export default function AdaptiveMCQ({ question, options, answer, explanation, mode = 'practice', onAction }) {
   const [selected, setSelected] = useState(null);
@@ -56,20 +53,20 @@ export default function AdaptiveMCQ({ question, options, answer, explanation, mo
   const showCorrectness = mode === 'practice' && isAnswered;
 
   return (
-    <Card className="w-full max-w-[600px] my-4 p-2 bg-white dark:bg-gray-800 rounded-3xl border-none shadow-[0_10px_40px_rgba(0,0,0,0.04)] dark:shadow-black/20 animate-in fade-in slide-in-from-bottom-2 duration-500">
-      <CardHeader className="p-6">
+    <div className="w-full max-w-[600px] my-4 p-8 bg-white dark:bg-gray-800 rounded-3xl border border-gray-100 dark:border-gray-700 shadow-[0_10px_40px_rgba(0,0,0,0.04)] dark:shadow-black/20 animate-in fade-in slide-in-from-bottom-2 duration-500">
+      <div className="mb-8">
         <div className="flex items-center gap-3 mb-3">
-          <Badge variant={mode === 'diagnostic' ? 'secondary' : 'default'} className="uppercase tracking-widest text-[0.55rem] px-2 py-0">
-            {mode}
-          </Badge>
-          <span className="text-[0.65rem] font-black uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400 opacity-60">Conceptual Check</span>
+           <span className={`px-2 py-0.5 rounded text-[0.55rem] font-black uppercase tracking-widest ${mode === 'diagnostic' ? 'bg-amber-100 text-amber-700' : 'bg-green-100 text-green-700'}`}>
+              {mode}
+            </span>
+           <span className="text-[0.65rem] font-black uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400 opacity-60">Conceptual Check</span>
         </div>
         <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 leading-relaxed">
           <ReactMarkdown {...markdownProps}>{question}</ReactMarkdown>
         </h3>
-      </CardHeader>
+      </div>
 
-      <CardContent className="p-6 pt-0 space-y-3">
+      <div className="space-y-3">
         {options.map((opt, i) => {
           const isCorrect = i === answer;
           const isSelected = selected === i;
@@ -107,31 +104,36 @@ export default function AdaptiveMCQ({ question, options, answer, explanation, mo
             </button>
           );
         })}
-      </CardContent>
+      </div>
+
+      {!isAnswered && (
+        <p className="mt-6 text-center text-[0.6rem] font-bold text-gray-300 dark:text-gray-600 uppercase tracking-widest">
+          Press 1-{options.length} to select
+        </p>
+      )}
 
       {isAnswered && (
-        <CardFooter className="flex flex-col p-6 pt-0 border-t border-gray-100 dark:border-gray-700 mt-8 pt-8">
+        <div className="mt-8 pt-8 border-t border-gray-100 dark:border-gray-700 animate-in fade-in slide-in-from-top-2 duration-700">
           {!showExplanation ? (
-            <Button 
-              variant="ghost"
+            <button 
               onClick={() => setShowExplanation(true)}
-              className="group flex items-center gap-3 text-[0.65rem] font-black text-blue-500 hover:text-blue-600 transition-colors uppercase tracking-[0.15em] mx-auto h-auto p-4"
+              className="group flex items-center gap-3 text-[0.65rem] font-black text-blue-500 hover:text-blue-600 transition-colors uppercase tracking-[0.15em] mx-auto"
             >
               <div className="p-1.5 rounded-lg bg-blue-50 dark:bg-blue-900/30 group-hover:scale-110 transition-transform">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
               </div>
               Analyze result
-            </Button>
+            </button>
           ) : (
-            <div className="w-full p-6 bg-slate-50 dark:bg-slate-900/40 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-inner">
+            <div className="p-6 bg-slate-50 dark:bg-slate-900/40 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-inner">
                <div className="text-[0.65rem] font-black text-slate-400 uppercase tracking-widest mb-3">Rationale</div>
                <div className="text-[0.95rem] font-medium leading-relaxed text-slate-700 dark:text-slate-300">
                  <ReactMarkdown {...markdownProps}>{explanation}</ReactMarkdown>
                </div>
             </div>
           )}
-        </CardFooter>
+        </div>
       )}
-    </Card>
+    </div>
   );
 }

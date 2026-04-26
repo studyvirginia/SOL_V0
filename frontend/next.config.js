@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: [],
+  turbopack: {},
   webpack: (config, { isServer }) => {
     // CRITICAL: target es2022 on the client so webpack emits native async/await
     // instead of a require()-based polyfill, which breaks in the browser.

@@ -1,5 +1,4 @@
 import { MODE_MAP, getSubModeLabel } from '../lib/modeMap';
-import { Button } from "./ui/button";
 
 export const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
   if (!actions || actions.length === 0) return null;
@@ -9,17 +8,16 @@ export const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
         const isObject = typeof act === "object" && act !== null;
         if (isObject) {
           return (
-            <Button
+            <button
               key={i}
-              size="sm"
               onClick={() => {
                 if (act.targetMode) onSwitch(act.targetMode, false);
                 onSend(act.prompt);
               }}
-              className="bg-indigo-600 hover:bg-indigo-700 text-white dark:bg-indigo-700 dark:hover:bg-indigo-600"
+              className="group flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 bg-indigo-600 text-white ring-indigo-500 hover:bg-indigo-700 hover:shadow-md dark:bg-indigo-700 dark:ring-indigo-600 dark:hover:bg-indigo-600"
             >
               {act.label}
-            </Button>
+            </button>
           );
         }
 
@@ -29,10 +27,8 @@ export const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
         const isRecommended = !isPillar;
 
         return (
-          <Button
+          <button
             key={act}
-            size="sm"
-            variant={isRecommended ? "default" : "outline"}
             onClick={() => {
               if (isPillar) {
                 // Return to AI to ask for specific submode choice
@@ -41,10 +37,14 @@ export const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
                 onSwitch(subModeId, true);
               }
             }}
-            className={isRecommended ? "bg-blue-600 hover:bg-blue-700 text-white" : ""}
+            className={`group flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 ${
+              isRecommended 
+                ? "bg-blue-600 text-white ring-blue-500 hover:bg-blue-700 hover:shadow-md" 
+                : "bg-white text-gray-700 ring-gray-200 hover:bg-gray-50 dark:bg-gray-800 dark:text-gray-200 dark:ring-gray-700"
+            }`}
           >
             {label} {isRecommended && "★"}
-          </Button>
+          </button>
         );
       })}
     </div>
