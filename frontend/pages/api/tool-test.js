@@ -3,7 +3,7 @@
  *
  * Calls OpenRouter directly (no AI SDK provider) so tool schemas
  * are never mangled by @ai-sdk/openai-compatible's broken serializer.
- * Supports: showFlashcards | showMCQ | showQuiz
+ * Supports: showFlashcards | showMCQ | showQuiz | showActions
  */
 
 const TOOLS = [
@@ -85,6 +85,36 @@ const TOOLS = [
       },
     },
   },
+  {
+    type: "function",
+    function: {
+      name: "showActions",
+      description:
+        "Render a row of recommended next-step navigation buttons for the student. Call this at the end of every response to suggest what to do next.",
+      parameters: {
+        type: "object",
+        properties: {
+          actions: {
+            type: "array",
+            description: "2–4 recommended next steps",
+            minItems: 1,
+            maxItems: 4,
+            items: {
+              type: "object",
+              properties: {
+                label:      { type: "string", description: "Short button label (3–5 words max)" },
+                prompt:     { type: "string", description: "The message to send when the student clicks this button" },
+                targetMode: { type: "string", description: "Optional: the learning mode to switch to (e.g. 'flashcards', 'quiz', 'practice', 'notes')" },
+                reason:     { type: "string", description: "One sentence explaining why this is recommended" },
+              },
+              required: ["label", "prompt"],
+            },
+          },
+        },
+        required: ["actions"],
+      },
+    },
+  },
 ];
 
 const SYSTEM_PROMPT = `You are a helpful study assistant.
@@ -92,8 +122,9 @@ Use the available tools to deliver interactive learning components:
 - showFlashcards: when the user asks for flashcards, vocab, or term definitions
 - showMCQ: when the user asks for a single practice question or quick check
 - showQuiz: when the user asks for a quiz, test, or multiple questions
+- showActions: always call this at the end of your response with 2-3 recommended next steps
 
-Always call a tool when the user's request matches one of these. Do not write the content as plain text.`;
+Always call a tool when the user's request matches one of these. Do not write plain text components.`;
 
 function sse(res, data) {
   res.write(`data: ${JSON.stringify(data)}\n\n`);

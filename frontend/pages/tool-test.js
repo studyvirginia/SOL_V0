@@ -16,12 +16,15 @@ const PRESETS = [
   { label: "MCQ — Newton's Laws",       prompt: "Give me one MCQ question about Newton's three laws of motion",      tool: "showMCQ" },
   { label: "Quiz — Photosynthesis",     prompt: "Create a 5-question quiz on photosynthesis",             tool: "showQuiz" },
   { label: "Quiz — US History",         prompt: "Create a 4-question quiz on the American Civil War",     tool: "showQuiz" },
+  { label: "Actions — After lesson",    prompt: "I just finished learning about the water cycle. What should I do next?", tool: "showActions" },
+  { label: "Actions — After quiz",      prompt: "I scored 3 out of 5 on a photosynthesis quiz. Recommend my next steps.", tool: "showActions" },
 ];
 
 const TOOL_COLORS = {
   showFlashcards: { badge: "bg-blue-600",   label: "Flashcards",  border: "border-blue-800" },
   showMCQ:        { badge: "bg-violet-600", label: "MCQ",         border: "border-violet-800" },
   showQuiz:       { badge: "bg-emerald-600",label: "Quiz",        border: "border-emerald-800" },
+  showActions:    { badge: "bg-amber-600",  label: "Actions",     border: "border-amber-800" },
 };
 
 function EventBadge({ entry }) {
@@ -47,11 +50,16 @@ function EventBadge({ entry }) {
 export default function ToolTestPage() {
   const [input, setInput] = useState("");
   const [log, setLog] = useState([]);
-  const [toolResult, setToolResult] = useState(null); // { toolName, args }
+  const [toolResults, setToolResults] = useState({}); // { toolName: args } — supports multiple per response
   const [status, setStatus] = useState("idle");
   const [errorMsg, setErrorMsg] = useState("");
   const [activePreset, setActivePreset] = useState(null);
   const bottomRef = useRef(null);
+
+  // Backwards compat: single toolResult still works
+  const toolResult = Object.keys(toolResults).length > 0
+    ? { toolName: Object.keys(toolResults)[0], args: Object.values(toolResults)[0] }
+    : null;
 
   const appendLog = (entry) => {
     setLog((prev) => [...prev, entry]);
@@ -61,7 +69,7 @@ export default function ToolTestPage() {
   const send = async (text) => {
     if (!text.trim() || status === "loading") return;
     setLog([]);
-    setToolResult(null);
+    setToolResults({});
     setErrorMsg("");
     setStatus("loading");
 
@@ -105,7 +113,7 @@ export default function ToolTestPage() {
           appendLog({ type: parsed.type, text: raw });
 
           if (parsed.type === "tool-input-available" && parsed.input && parsed.toolName) {
-            setToolResult({ toolName: parsed.toolName, args: parsed.input });
+            setToolResults(prev => ({ ...prev, [parsed.toolName]: parsed.input }));
           }
         }
       }
@@ -223,38 +231,71 @@ export default function ToolTestPage() {
         <div className="flex-1 flex flex-col overflow-hidden">
           <div className="px-4 py-2 border-b border-gray-800 flex items-center justify-between shrink-0 bg-gray-900/40">
             <span className="text-[0.58rem] font-black uppercase tracking-widest text-emerald-400">
-              Rendered Component
+              Rendered Components
             </span>
-            {toolResult ? (
-              <span className={`text-[0.58rem] font-black uppercase tracking-widest text-white px-2 py-0.5 rounded ${TOOL_COLORS[toolResult.toolName]?.badge}`}>
-                {toolResult.toolName}
-              </span>
-            ) : (
-              <span className="text-[0.58rem] text-gray-700">awaiting tool-input-available...</span>
-            )}
+            <div className="flex items-center gap-1.5">
+              {Object.keys(toolResults).map(name => (
+                <span key={name} className={`text-[0.58rem] font-black uppercase tracking-widest text-white px-2 py-0.5 rounded ${TOOL_COLORS[name]?.badge || 'bg-gray-600'}`}>
+                  {name}
+                </span>
+              ))}
+              {Object.keys(toolResults).length === 0 && (
+                <span className="text-[0.58rem] text-gray-700">awaiting tool-input-available...</span>
+              )}
+            </div>
           </div>
 
-          <div className="flex-1 overflow-y-auto p-6 flex flex-col items-center">
-            {toolResult ? (
+          <div className="flex-1 overflow-y-auto p-6 flex flex-col items-center gap-6">
+            {Object.keys(toolResults).length > 0 ? (
               <>
-                {toolResult.toolName === "showFlashcards" && toolResult.args.cards && (
-                  <FlashcardDeck cards={toolResult.args.cards} />
+                {/* Primary components */}
+                {toolResults.showFlashcards?.cards && (
+                  <FlashcardDeck cards={toolResults.showFlashcards.cards} />
                 )}
-                {toolResult.toolName === "showMCQ" && (
+                {toolResults.showMCQ && (
                   <AdaptiveMCQ
-                    question={toolResult.args.question}
-                    options={toolResult.args.options}
-                    answer={toolResult.args.answer}
-                    explanation={toolResult.args.explanation}
-                    mode={toolResult.args.mode || "practice"}
+                    question={toolResults.showMCQ.question}
+                    options={toolResults.showMCQ.options}
+                    answer={toolResults.showMCQ.answer}
+                    explanation={toolResults.showMCQ.explanation}
+                    mode={toolResults.showMCQ.mode || "practice"}
                   />
                 )}
-                {toolResult.toolName === "showQuiz" && (
+                {toolResults.showQuiz && (
                   <QuizRunner
-                    title={toolResult.args.title}
-                    questions={toolResult.args.questions}
-                    mode={toolResult.args.mode || "practice"}
+                    title={toolResults.showQuiz.title}
+                    questions={toolResults.showQuiz.questions}
+                    mode={toolResults.showQuiz.mode || "practice"}
                   />
+                )}
+
+                {/* Actions row — renders below any primary component, or standalone */}
+                {toolResults.showActions?.actions && (
+                  <div className="w-full max-w-lg">
+                    <div className="text-[0.58rem] font-black uppercase tracking-widest text-amber-500 mb-3">
+                      showActions — {toolResults.showActions.actions.length} buttons
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {toolResults.showActions.actions.map((act, i) => (
+                        <div key={i} className="group relative">
+                          <button
+                            className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 bg-indigo-600 text-white ring-indigo-500 hover:bg-indigo-700"
+                            onClick={() => alert(`Would send: "${act.prompt}"${act.targetMode ? `\nMode: ${act.targetMode}` : ''}`)}
+                          >
+                            {act.label}
+                          </button>
+                          {act.reason && (
+                            <div className="absolute bottom-full left-0 mb-1.5 hidden group-hover:block w-48 text-[0.6rem] bg-gray-800 border border-gray-700 text-gray-300 rounded-lg px-2 py-1.5 z-10 leading-relaxed">
+                              {act.reason}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                    {toolResults.showActions.actions[0]?.reason && (
+                      <p className="text-[0.58rem] text-gray-600 mt-2">Hover a button to see its reason</p>
+                    )}
+                  </div>
                 )}
               </>
             ) : status === "done" ? (
@@ -285,10 +326,10 @@ export default function ToolTestPage() {
           {/* Stats footer */}
           <div className="border-t border-gray-800 px-4 py-2.5 grid grid-cols-4 gap-2 shrink-0 bg-gray-900/30">
             {[
-              { label: "Events",      value: log.length },
-              { label: "Tool events", value: toolEvents, hi: toolEvents > 0 },
-              { label: "Tool name",   value: toolResult?.toolName || "—", hi: !!toolResult },
-              { label: "Status",      value: status },
+              { label: "Events",       value: log.length },
+              { label: "Tool events",  value: toolEvents, hi: toolEvents > 0 },
+              { label: "Tools fired",  value: Object.keys(toolResults).length, hi: Object.keys(toolResults).length > 0 },
+              { label: "Status",       value: status },
             ].map((s, i) => (
               <div key={i} className="rounded bg-gray-800/50 px-2 py-1.5 text-[0.58rem]">
                 <div className="text-gray-600 mb-0.5 uppercase tracking-widest font-bold">{s.label}</div>
