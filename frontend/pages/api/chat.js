@@ -179,6 +179,27 @@ const OPENROUTER_TOOLS = [
       },
     },
   },
+  {
+    type: "function",
+    function: {
+      name: "showImage",
+      description: "Search for a contextual, openly-licensed image to visually support the current notes. Use sparingly — MAXIMUM ONE call per response. Only call during Notes mode. Only search for concrete physical objects or real places (e.g. 'Roman aqueduct', 'plant cell diagram'). Do NOT use for abstract concepts, emotions, or historical themes.",
+      parameters: {
+        type: "object",
+        properties: {
+          query: {
+            type: "string",
+            description: "1-3 concrete keywords for image search — physical nouns only. Short noun phrases perform best. Examples: 'brass microscope', 'civil war cannon', 'roman aqueduct bridge'.",
+          },
+          lessonContext: {
+            type: "string",
+            description: "One sentence describing what the student is currently learning, used to validate image relevance.",
+          },
+        },
+        required: ["query", "lessonContext"],
+      },
+    },
+  },
 ];
 
 // ── SDK tool() stubs ─────────────────────────────────────────────────────────
@@ -190,6 +211,7 @@ const SDK_TOOLS = {
   showMCQ:        tool({ description: "Show MCQ",         parameters: EMPTY }),
   showQuiz:       tool({ description: "Show quiz",        parameters: EMPTY }),
   showActions:    tool({ description: "Show actions",     parameters: EMPTY }),
+  showImage:      tool({ description: "Show inline image", parameters: EMPTY }),
 };
 
 export default async function handler(req, res) {

@@ -14,6 +14,7 @@ import { QuickActions } from "./QuickActions";
 import FlashcardDeck from "./learning/FlashcardDeck";
 import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
+import OpenverseImage from "./learning/OpenverseImage";
 // Advanced formatting utilities for proper display capitalization
 export const formatName = (str) => {
   if (!str) return "";
@@ -632,6 +633,20 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                       />
                                     </div>
                                   );
+
+                                  // ── showImage: notes mode only, inline between paragraphs ──
+                                  if (toolName === "showImage" && currentMode === "notes") return (
+                                    <div key={`tool-${partIdx}`} className="w-full my-8">
+                                      <OpenverseImage
+                                        query={args.query}
+                                        lessonContext={args.lessonContext}
+                                        subject={subject}
+                                        course={course}
+                                      />
+                                    </div>
+                                  );
+                                  // Guard: silently drop if not in notes mode
+                                  if (toolName === "showImage") return null;
                                 }
 
                                 return null;
