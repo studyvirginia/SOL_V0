@@ -197,13 +197,6 @@ export default function Home() {
       }).catch(console.error);
     }
 
-    // Only prompt modal later if they explicitly delete all sessions to 0 inside the app
-    if (!hasLoadedSessions && sessions.length === 0) {
-      // It shouldn't get here typically because login forces you to make a session,
-      // but just to be safe if local logic breaks
-      setIsModalOpen(true);
-    }
-    
     setIsReady(true);
   }, [isLoggedIn]);
 
@@ -274,15 +267,18 @@ export default function Home() {
 
   const createSessionFromModal = (e) => {
     e.preventDefault();
-    if (!modalSubject || !modalCourse || !modalSessionFocus || !modalFocusDetail) {
-      alert("Please fill in all required fields: Subject, Course, Focus, and Topic/Unit.");
+    const needsDetail = modalSessionFocus === "Unit test" || modalSessionFocus === "Concept quiz" || modalSessionFocus === "Standard";
+    if (!modalSubject || !modalCourse || !modalSessionFocus || (needsDetail && !modalFocusDetail)) {
+      alert("Please fill in all required fields: Subject, Course, and Focus.");
       return;
     }
+
+    const detailValue = modalFocusDetail || modalSessionFocus;
 
     const personalization = {
       gradeLevel: modalGrade || "",
       areaOfFocus: modalSessionFocus || "",
-      focusTopic: modalFocusDetail || "",
+      focusTopic: detailValue || "",
       preferences: modalPreferences || "",
       needs: modalNeeds || "",
     };
@@ -294,7 +290,7 @@ export default function Home() {
       retrievalMode: INITIAL_SUBMODE,
       journey: createDefaultJourney(INITIAL_SUBMODE),
       sessionFocus: modalSessionFocus || "",
-      focusDetail: modalFocusDetail || "",
+      focusDetail: detailValue || "",
       userFacts: personalization,
       sessionSummary: "",
       messages: [{ role: "assistant", content: INITIAL_ASSISTANT_MESSAGE }],
@@ -693,7 +689,7 @@ export default function Home() {
                   </button>
                   <button 
                     type="submit" 
-                    disabled={!modalSubject || !modalCourse || !modalSessionFocus || !modalFocusDetail}
+                    disabled={!modalSubject || !modalCourse || !modalSessionFocus || ((modalSessionFocus === "Unit test" || modalSessionFocus === "Concept quiz" || modalSessionFocus === "Standard") && !modalFocusDetail)}
                     className="flex-1 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 py-2.5 font-bold text-white shadow-sm transition-transform hover:scale-[1.02] active:scale-95 disabled:opacity-30 disabled:grayscale disabled:pointer-events-none text-xs"
                   >
                     Start Learning
