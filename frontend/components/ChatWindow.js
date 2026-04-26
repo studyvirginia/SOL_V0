@@ -11,6 +11,8 @@ import ErrorBoundary from "./ErrorBoundary";
 import { useChat } from "@ai-sdk/react";
 import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
 import { QuickActions } from "./QuickActions";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
 import FlashcardDeck from "./learning/FlashcardDeck";
 import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
@@ -662,15 +664,20 @@ export default function ChatWindow({ session, onUpdateSession }) {
 
               <form onSubmit={handleFormSubmit} className="absolute bottom-4 inset-x-0 flex justify-center px-4 pointer-events-none w-full">
                 <div className="w-full max-w-[850px] pointer-events-auto flex items-center gap-2 rounded-xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.08)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/10">
-                  <input
-                    className="flex-1 bg-transparent py-3.5 pl-6 pr-16 text-[1.05rem] font-medium text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none"
+                  <Input
+                    className="flex-1 border-none bg-transparent py-7 pl-6 pr-16 text-[1.05rem] font-medium shadow-none focus-visible:ring-0"
                     value={draftInput}
                     onChange={handleInput}
                     placeholder="Ask a mathematical question..."
                   />
-                  <button type="submit" className="absolute right-2 top-2 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isChatLoading || !draftInput.trim()}>
+                  <Button 
+                    type="submit" 
+                    size="icon"
+                    className="absolute right-2 top-2 h-[3rem] w-[3rem] rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95" 
+                    disabled={isChatLoading || !draftInput.trim()}
+                  >
                     <SendIcon className="h-5 w-5" />
-                  </button>
+                  </Button>
                 </div>
               </form>
 

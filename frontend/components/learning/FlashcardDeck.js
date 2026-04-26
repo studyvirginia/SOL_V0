@@ -2,6 +2,8 @@ import { useState, useEffect, useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import { Button } from '../ui/button';
+import { Card, CardHeader, CardContent, CardFooter } from '../ui/card';
 
 export default function FlashcardDeck({ cards = [], onAction }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -92,7 +94,7 @@ export default function FlashcardDeck({ cards = [], onAction }) {
     const percentage = Math.round((count / cards.length) * 100);
     
     return (
-      <div className="w-full max-w-[500px] my-6 p-10 bg-white dark:bg-gray-800 rounded-3xl border border-gray-100 dark:border-gray-700 shadow-2xl text-center animate-in zoom-in-95 duration-500">
+      <Card className="w-full max-w-[500px] my-6 p-10 bg-white dark:bg-gray-800 rounded-3xl border-none shadow-2xl text-center animate-in zoom-in-95 duration-500">
         <div className="mb-6 inline-flex items-center justify-center p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-2xl text-indigo-600 dark:text-indigo-400">
            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
         </div>
@@ -105,14 +107,14 @@ export default function FlashcardDeck({ cards = [], onAction }) {
         <div className="text-sm font-bold text-gray-400 mb-10">Percent Reviewed (flipped)</div>
 
         <div className="flex flex-col gap-3">
-          <button 
+          <Button 
             onClick={resetDeck}
-            className="w-full py-4.5 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-2xl font-black text-sm shadow-xl transition-all active:scale-95 hover:bg-gray-800 dark:hover:bg-gray-100"
+            className="w-full h-auto py-4.5 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-2xl font-black text-sm shadow-xl transition-all active:scale-95 hover:bg-gray-800 dark:hover:bg-gray-100"
           >
             Study Again
-          </button>
+          </Button>
         </div>
-      </div>
+      </Card>
     );
   }
 
@@ -149,13 +151,15 @@ export default function FlashcardDeck({ cards = [], onAction }) {
 
       {/* Navigation & Progress */}
       <div className="flex items-center gap-8 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md px-6 py-3 rounded-2xl border border-gray-100 dark:border-gray-700 shadow-xl shadow-black/5">
-        <button 
+        <Button 
+          variant="ghost"
+          size="icon"
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-700 transition-all text-gray-400 hover:text-blue-600 disabled:opacity-0"
+          className="p-2 rounded-xl text-gray-400 hover:text-blue-600 disabled:opacity-0"
         >
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-        </button>
+        </Button>
         
         <div className="flex flex-col items-center gap-1 min-w-[80px]">
           <span className="text-[0.65rem] font-black text-gray-900 dark:text-gray-100 tracking-[0.2em] uppercase">
@@ -169,16 +173,18 @@ export default function FlashcardDeck({ cards = [], onAction }) {
           </div>
         </div>
 
-        <button 
+        <Button 
+          variant="ghost"
+          size="icon"
           onClick={handleNext}
-          className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-700 transition-all text-gray-400 hover:text-blue-600 active:scale-95"
+          className="p-2 rounded-xl text-gray-400 hover:text-blue-600 active:scale-95"
         >
           {isLast ? (
              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
           ) : (
              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
           )}
-        </button>
+        </Button>
       </div>
 
       <style jsx>{`
