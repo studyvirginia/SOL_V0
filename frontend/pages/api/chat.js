@@ -77,30 +77,120 @@ function getRandomCurriculumFocus(courseJson) {
   };
 }
 
-const showFlashcardsTool = tool({
-  description: "Render an interactive flashcard deck for vocabulary or concept memorization. Use this tool instead of a json-render Flashcards block.",
-  parameters: jsonSchema({
-    type: "object",
-    properties: {
-      cards: {
-        type: "array",
-        description: "Array of flashcard objects, minimum 3, maximum 20",
-        minItems: 3,
-        maxItems: 20,
-        items: {
-          type: "object",
-          properties: {
-            front: { type: "string", description: "The term or question on the front of the card" },
-            back:  { type: "string", description: "The definition or answer on the back of the card" },
+// ── Correct tool schemas sent directly to OpenRouter ────────────────────────
+// The AI SDK providers (@ai-sdk/openai-compatible, @ai-sdk/openai) strip
+// tool parameter properties to {} due to a schema serialization bug.
+// We inject a custom fetch interceptor on the provider to replace the
+// mangled schemas with correct ones before the request leaves the server.
+const OPENROUTER_TOOLS = [
+  {
+    type: "function",
+    function: {
+      name: "showFlashcards",
+      description: "Render an interactive flashcard deck for vocabulary or concept memorization.",
+      parameters: {
+        type: "object",
+        properties: {
+          cards: {
+            type: "array", minItems: 3, maxItems: 20,
+            items: {
+              type: "object",
+              properties: {
+                front: { type: "string", description: "Term or question on the front" },
+                back:  { type: "string", description: "Definition or answer on the back" },
+              },
+              required: ["front", "back"],
+            },
           },
-          required: ["front", "back"],
         },
+        required: ["cards"],
       },
     },
-    required: ["cards"],
-  }),
-  // No execute() — client-side (UI) tool.
-});
+  },
+  {
+    type: "function",
+    function: {
+      name: "showMCQ",
+      description: "Render a single multiple-choice practice question with answer feedback.",
+      parameters: {
+        type: "object",
+        properties: {
+          question:    { type: "string", description: "The question text" },
+          options:     { type: "array", items: { type: "string" }, minItems: 2, maxItems: 5, description: "Answer choices" },
+          answer:      { type: "integer", minimum: 0, description: "0-indexed correct answer" },
+          explanation: { type: "string", description: "Explanation shown after the student answers" },
+          mode:        { type: "string", enum: ["diagnostic", "practice"] },
+        },
+        required: ["question", "options", "answer", "explanation"],
+      },
+    },
+  },
+  {
+    type: "function",
+    function: {
+      name: "showQuiz",
+      description: "Render a multi-question quiz for assessment or practice.",
+      parameters: {
+        type: "object",
+        properties: {
+          title: { type: "string" },
+          mode:  { type: "string", enum: ["diagnostic", "practice"] },
+          questions: {
+            type: "array", minItems: 3, maxItems: 15,
+            items: {
+              type: "object",
+              properties: {
+                question:    { type: "string" },
+                options:     { type: "array", items: { type: "string" }, minItems: 2, maxItems: 5 },
+                answer:      { type: "integer", minimum: 0 },
+                explanation: { type: "string" },
+              },
+              required: ["question", "options", "answer", "explanation"],
+            },
+          },
+        },
+        required: ["title", "questions"],
+      },
+    },
+  },
+  {
+    type: "function",
+    function: {
+      name: "showActions",
+      description: "Render recommended next-step navigation buttons. Call at the end of every response.",
+      parameters: {
+        type: "object",
+        properties: {
+          actions: {
+            type: "array", minItems: 1, maxItems: 4,
+            items: {
+              type: "object",
+              properties: {
+                label:      { type: "string", description: "Short button label (3-5 words)" },
+                prompt:     { type: "string", description: "Message to send when clicked" },
+                targetMode: { type: "string", description: "Learning mode to switch to" },
+                reason:     { type: "string", description: "Why this is recommended" },
+              },
+              required: ["label", "prompt"],
+            },
+          },
+        },
+        required: ["actions"],
+      },
+    },
+  },
+];
+
+// ── SDK tool() stubs ─────────────────────────────────────────────────────────
+// streamText needs tool() definitions for its response type inference.
+// The actual schemas are injected via the fetch interceptor above.
+const EMPTY = jsonSchema({ type: "object", properties: {} });
+const SDK_TOOLS = {
+  showFlashcards: tool({ description: "Show flashcards",  parameters: EMPTY }),
+  showMCQ:        tool({ description: "Show MCQ",         parameters: EMPTY }),
+  showQuiz:       tool({ description: "Show quiz",        parameters: EMPTY }),
+  showActions:    tool({ description: "Show actions",     parameters: EMPTY }),
+};
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -215,14 +305,29 @@ export default async function handler(req, res) {
       return res.status(500).json({ error: "Missing OpenRouter API key on the server" });
     }
 
-    const openrouter = createOpenAICompatible({ name: "openrouter", baseURL: "https://openrouter.ai/api/v1", apiKey });
+    // ── Provider with schema-fix fetch interceptor ───────────────────────────
+    // Replaces the SDK-mangled tool schemas (properties:{}) with correct ones.
+    const openrouter = createOpenAICompatible({
+      name: "openrouter",
+      baseURL: "https://openrouter.ai/api/v1",
+      apiKey,
+      fetch: async (url, init) => {
+        try {
+          const body = JSON.parse(init.body);
+          if (body.tools?.length) body.tools = OPENROUTER_TOOLS;
+          return await globalThis.fetch(url, { ...init, body: JSON.stringify(body) });
+        } catch {
+          return await globalThis.fetch(url, init);
+        }
+      },
+    });
 
     // Use pipeTextStreamToResponse for Pages Router compatibility
     const result = streamText({
       model: openrouter(modelId),
       system: systemPrompt,
       messages: effectiveMessages,
-      tools: { showFlashcards: showFlashcardsTool },
+      tools: SDK_TOOLS,
       maxSteps: 3,
       maxTokens: 4000,
       temperature: 0.15,

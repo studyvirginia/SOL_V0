@@ -13,8 +13,11 @@ import { registry } from "./ComponentRegistry";
 import { ChatProvider } from "../context/ChatContext";
 import { useChat } from "@ai-sdk/react";
 import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
+import { QuickActions } from "./QuickActions";
 import { compilePatchesToSpec, isJSONLPatch } from "../lib/specCompiler";
 import FlashcardDeck from "./learning/FlashcardDeck";
+import AdaptiveMCQ from "./learning/AdaptiveMCQ";
+import QuizRunner from "./learning/QuizRunner";
 // Advanced formatting utilities for proper display capitalization
 export const formatName = (str) => {
   if (!str) return "";
@@ -684,19 +687,46 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                   });
                                 }
 
-                                // ── Native tool: showFlashcards ───────────────────────
-                                // state === "call"   → args fully streamed, awaiting result
-                                // state === "result" → tool has been executed (future-proofing)
-                                if (
-                                  part.type === "tool-invocation" &&
-                                  part.toolName === "showFlashcards" &&
-                                  (part.state === "call" || part.state === "result")
-                                ) {
-                                  return (
-                                    <div key={`tool-fc-${partIdx}`} className="w-full my-4">
-                                      <FlashcardDeck
-                                        cards={part.args?.cards || []}
-                                        onAction={handleAction}
+                                // ── Native tool dispatch ─────────────────────────────────────────
+                                if (part.type === "tool-invocation" &&
+                                    (part.state === "call" || part.state === "result")) {
+                                  const args = part.args || {};
+
+                                  if (part.toolName === "showFlashcards") return (
+                                    <div key={`tool-${partIdx}`} className="w-full my-4">
+                                      <FlashcardDeck cards={args.cards || []} onAction={handleAction} />
+                                    </div>
+                                  );
+
+                                  if (part.toolName === "showMCQ") return (
+                                    <div key={`tool-${partIdx}`} className="w-full my-4">
+                                      <AdaptiveMCQ
+                                        question={args.question}
+                                        options={args.options}
+                                        answer={args.answer}
+                                        explanation={args.explanation}
+                                        mode={args.mode || ((currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice')}
+                                      />
+                                    </div>
+                                  );
+
+                                  if (part.toolName === "showQuiz") return (
+                                    <div key={`tool-${partIdx}`} className="w-full my-4">
+                                      <QuizRunner
+                                        title={args.title}
+                                        questions={args.questions || []}
+                                        mode={args.mode || ((currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice')}
+                                      />
+                                    </div>
+                                  );
+
+                                  if (part.toolName === "showActions" && args.actions?.length) return (
+                                    <div key={`tool-${partIdx}`} className="w-full my-2">
+                                      <QuickActions
+                                        actions={args.actions}
+                                        onSwitch={switchSubMode}
+                                        onSend={(p) => handleFormSubmit(null, p)}
+                                        currentSubMode={currentMode}
                                       />
                                     </div>
                                   );
