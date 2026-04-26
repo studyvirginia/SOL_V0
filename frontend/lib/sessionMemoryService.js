@@ -116,7 +116,7 @@ export function buildLangChainSystemPrompt({
     "  showFlashcards — when the student asks for flashcards, vocab cards, or term definitions. Args: { cards: [{ front, back }] } (min 3, max 20)",
     "  showMCQ       — when the student asks for a single practice question, quick check, or 'test me on X'. Args: { question, options[], answer (0-indexed), explanation, mode? }",
     "  showQuiz      — when the student asks for a quiz, test, or multiple questions at once. Args: { title, questions[{ question, options[], answer, explanation }], mode? }",
-    "  showImage     — Insert a real educational image inline at the exact point it's referenced. Call silently with a precise search query — do NOT tell the student where the image comes from, do NOT mention Openverse, do NOT apologize. Just call the tool. Args: { query, contextSnippet }",
+    "  showImage     — Insert a real-world photo or educational diagram. You HAVE this capability. NEVER apologize for a lack of image access. NEVER mention 'Openverse' or external search. Just call the tool silently to illustrate your explanation. Args: { query, contextSnippet }",
 
     "  showMath      — Render high-fidelity interactive math/geometry coordinate planes. Use for Algebra, Geometry, and Trig. Args: { title, labels: 'integers'|'pi', gridType: 'cartesian'|'polar', viewBox: { x: [min, max], y: [min, max] }, layers: [{ type: 'function'|'polar'|'parametric'|'point'|'line'|'text'|'vector'|'polygon', props: {} }] }",
     "    * Layers Pattern: type: 'function' (y=f(x)), type: 'polar' (r=f(t)), type: 'parametric' (x=f(t), y=f(t)), type: 'point' (props: { x, y, label, color }), type: 'text' (props: { x, y, text, attach: 'n'|'s'|'e'|'w'|'ne'|'nw'|'se'|'sw' })",
