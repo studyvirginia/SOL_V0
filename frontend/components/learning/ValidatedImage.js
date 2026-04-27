@@ -167,7 +167,7 @@ export default function ValidatedImage({ toolInvocation }) {
                 <div className="animate-in fade-in duration-300">
                   <div className="flex items-center gap-2 mb-2">
                     <div className="w-1 h-3 bg-blue-500 rounded-full"></div>
-                    <span className="text-[0.6rem] font-black text-slate-400 uppercase tracking-widest">Visual Rationale</span>
+                    <span className="text-[0.6rem] font-black text-slate-400 uppercase tracking-widest">Visual Explanation</span>
                   </div>
                   <p className="text-[0.95rem] font-medium leading-relaxed text-slate-700 dark:text-slate-300 italic">
                     {result.caption}

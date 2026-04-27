@@ -243,7 +243,7 @@ export default function QuizRunner({ title, questions = [], mode = 'practice', o
       {/* Rationale / Explanation */}
       {showExplanation && (
         <div className="mb-10 p-6 bg-slate-50 dark:bg-slate-900/40 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-inner animate-in slide-in-from-top-4 duration-500">
-           <div className="text-[0.65rem] font-black text-slate-400 uppercase tracking-widest mb-3">Rationale</div>
+           <div className="text-[0.65rem] font-black text-slate-400 uppercase tracking-widest mb-3">Explanation</div>
            <div className="text-[0.95rem] font-medium leading-relaxed text-slate-700 dark:text-slate-300">
              <ReactMarkdown {...markdownProps}>{currentQ.explanation}</ReactMarkdown>
            </div>
@@ -296,7 +296,7 @@ export default function QuizRunner({ title, questions = [], mode = 'practice', o
             onClick={() => setShowExplanation(true)}
             className="text-[0.65rem] font-black text-blue-500 hover:text-blue-600 uppercase tracking-[0.1em] flex items-center gap-2"
           >
-            View Rationale
+            View Explanation
             <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
           </button>
         )}

@@ -128,7 +128,7 @@ export default function AdaptiveMCQ({ question, options = [], answer, explanatio
             </button>
           ) : (
             <div className="p-6 bg-slate-50 dark:bg-slate-900/40 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-inner">
-               <div className="text-[0.65rem] font-black text-slate-400 uppercase tracking-widest mb-3">Rationale</div>
+               <div className="text-[0.65rem] font-black text-slate-400 uppercase tracking-widest mb-3">Explanation</div>
                <div className="text-[0.95rem] font-medium leading-relaxed text-slate-700 dark:text-slate-300">
                  <ReactMarkdown {...markdownProps}>{explanation}</ReactMarkdown>
                </div>
