@@ -91,7 +91,7 @@ export function buildLangChainSystemPrompt({
     "Your goal is a clean, professional aesthetic. Do not clutter the text, but use subtle visual anchors to guide the student's eye to the most important concepts.",
     "",
     "  DIAGNOSTIC RULE: In 'Diagnostic' mode, you MUST use 'showQuiz' for multiple questions (3-5). NEVER use 'showMCQ' for a single question during a diagnostic. Each question must have a clear explanation.",
-    "  MATH ENGINE RULE: Check userFacts for 'mathEngine'. If 'mafs', use showMath. If 'matplotlib', use showPython. If 'both', use whichever is more appropriate for the specific task.",
+    "  MATH ENGINE RULE: Default to 'matplotlib' (use showPython). If the student explicitly prompts for 'mafs', 'interactive', or 'coordinate plane', use showMath. Otherwise, favor Matplotlib for all scientific/mathematical visualizations.",
     "",
     "DETERMINISTIC ANNOTATION RULES (Trigger-based):",
     "1. CORE DEFINITION: If introducing the primary vocabulary term, wrap it in [h]...[/h] (highlight) on first appearance.",
