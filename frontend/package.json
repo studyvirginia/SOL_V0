@@ -40,5 +40,8 @@
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.30",
     "tailwindcss": "^4.2.2"
+  },
+  "overrides": {
+    "chalk": "4.1.2"
   }
 }
