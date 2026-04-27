@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: [],
-  turbopack: {},
   experimental: {
-    serverExternalPackages: ['@e2b/code-interpreter', 'e2b', 'chalk'],
+    serverExternalPackages: ['@e2b/code-interpreter', 'e2b'],
     esmExternals: 'loose',
   },
   webpack: (config, { isServer }) => {
@@ -22,6 +21,10 @@ const nextConfig = {
       util: false,
       path: false,
       fs: false,
+    };
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      chalk: require.resolve('./lib/chalk-polyfill.js'),
     };
     return config;
   },
