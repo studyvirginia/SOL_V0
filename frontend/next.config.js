@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['@e2b/code-interpreter', 'e2b', 'chalk'],
+  transpilePackages: [],
   turbopack: {},
   experimental: {
     serverExternalPackages: ['@e2b/code-interpreter', 'e2b', 'chalk'],
+    esmExternals: 'loose',
   },
   webpack: (config, { isServer }) => {
     // CRITICAL: target es2022 on the client so webpack emits native async/await
