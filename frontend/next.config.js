@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: [],
-  experimental: {
-    serverExternalPackages: ['@e2b/code-interpreter', 'e2b'],
-    esmExternals: 'loose',
-  },
+  serverExternalPackages: ['@e2b/code-interpreter', 'e2b'],
+  experimental: {},
   webpack: (config, { isServer }) => {
     // CRITICAL: target es2022 on the client so webpack emits native async/await
     // instead of a require()-based polyfill, which breaks in the browser.

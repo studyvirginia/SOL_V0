@@ -2,8 +2,10 @@ import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
+import { QuickActions } from '../QuickActions';
 
-export default function AdaptiveMCQ({ question, options = [], answer, explanation, mode = 'practice', onAction }) {
+export default function AdaptiveMCQ({ question, options = [], answer, explanation, mode = 'practice', actions, onSwitch, onSend, currentSubMode, onAction }) {
   const [selected, setSelected] = useState(null);
   const [showExplanation, setShowExplanation] = useState(false);
   
@@ -45,8 +47,8 @@ export default function AdaptiveMCQ({ question, options = [], answer, explanatio
   }, [isAnswered, options.length]);
 
   const markdownProps = {
-    remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeKatex],
+    remarkPlugins: [[remarkMath, { singleDollarTextMath: true }]],
+    rehypePlugins: [[rehypeKatex, { strict: false, throwOnError: false }]],
     components: {
       p: ({node, ...props}) => <p className="m-0" {...props} />
     }

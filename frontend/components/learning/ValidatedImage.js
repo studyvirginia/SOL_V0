@@ -11,6 +11,7 @@ export default function ValidatedImage({ toolInvocation }) {
   const [isRetrying, setIsRetrying] = useState(false);
   const [isMaximized, setIsMaximized] = useState(false);
   const [showCitation, setShowCitation] = useState(false);
+  const [showDebug, setShowDebug] = useState(false);
 
   // Synchronize with tool output when it arrives
   useEffect(() => {
@@ -45,6 +46,29 @@ export default function ValidatedImage({ toolInvocation }) {
   const isLoading = (state === 'input-available' || (state === 'output-available' && !result && !localError)) || isRetrying;
   const error = localError || (state === 'output-available' && !result ? 'Visual unavailable for this segment' : result?.error);
 
+  const RenderSkeleton = () => (
+    <div className="absolute inset-0 z-10 flex flex-col p-8 bg-slate-50 dark:bg-slate-900/50 animate-pulse">
+      <div className="flex items-center justify-between mb-4">
+        <div className="h-4 w-1/4 bg-slate-200 dark:bg-slate-800 rounded"></div>
+        <div className="flex gap-2">
+          <div className="h-8 w-8 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
+          <div className="h-8 w-8 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
+        </div>
+      </div>
+      <div className="flex-1 flex flex-col items-center justify-center gap-4">
+        <div className="relative w-16 h-16">
+          <div className="absolute inset-0 rounded-full border-4 border-blue-500/10 animate-ping"></div>
+          <div className="absolute inset-0 rounded-full border-t-4 border-blue-500 animate-spin"></div>
+        </div>
+        <div className="flex flex-col items-center gap-1 text-center">
+          <span className="text-[0.65rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.2em]">SOL Intelligence</span>
+          <span className="text-[0.6rem] font-bold text-slate-400 uppercase tracking-widest">Sourcing academic visual...</span>
+        </div>
+      </div>
+      <div className="mt-4 h-4 w-full bg-slate-200 dark:bg-slate-800 rounded"></div>
+    </div>
+  );
+
   return (
     <div className={`my-6 w-full mx-auto animate-in fade-in slide-in-from-bottom-4 duration-700 ${isMaximized ? 'fixed inset-0 z-[100] p-4 md:p-10 bg-black/90 backdrop-blur-xl flex items-center justify-center' : 'max-w-2xl'}`}>
       
@@ -61,22 +85,7 @@ export default function ValidatedImage({ toolInvocation }) {
         <CardContent className="p-0">
           <div className={`relative w-full flex items-center justify-center bg-slate-100/50 dark:bg-slate-800/50 ${isMaximized ? 'aspect-auto' : 'aspect-video'}`}>
             
-            {isLoading && (
-              <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 bg-white/20 dark:bg-black/20 backdrop-blur-md">
-                <div className="relative w-16 h-16">
-                  <div className="absolute inset-0 rounded-full border-4 border-blue-500/20 animate-ping"></div>
-                  <div className="absolute inset-0 rounded-full border-t-4 border-blue-500 animate-spin"></div>
-                </div>
-                <div className="flex flex-col items-center gap-1">
-                  <span className="text-[0.65rem] font-black text-blue-600 dark:text-blue-400 uppercase tracking-[0.2em] animate-pulse">
-                    SOL Intelligence
-                  </span>
-                  <span className="text-[0.6rem] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-widest">
-                    Sourcing educational visual...
-                  </span>
-                </div>
-              </div>
-            )}
+            {isLoading && <RenderSkeleton />}
 
             {result && !error && (
               <>
@@ -113,30 +122,46 @@ export default function ValidatedImage({ toolInvocation }) {
             )}
 
             {error && (
-              <div className="flex flex-col items-center gap-4 p-10 text-center animate-in zoom-in-95 duration-500">
-                <div className="p-4 rounded-full bg-rose-50 dark:bg-rose-900/20 text-rose-500 shadow-inner">
-                  <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <div className="flex flex-col items-center gap-6 p-10 text-center animate-in zoom-in-95 duration-500 w-full">
+                <div className="p-5 rounded-3xl bg-rose-50 dark:bg-rose-900/10 text-rose-500 shadow-inner">
+                  <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
                 </div>
-                <div className="flex flex-col gap-1">
-                  <p className="text-[0.65rem] font-black text-slate-400 uppercase tracking-[0.2em]">{error}</p>
-                  <p className="text-[0.6rem] font-medium text-slate-400 opacity-60">Academic sources may be limited for this specific term</p>
+                <div className="flex flex-col gap-2 max-w-sm">
+                  <p className="text-[0.75rem] font-black text-slate-800 dark:text-slate-200 uppercase tracking-widest">{error}</p>
+                  <p className="text-[0.65rem] font-medium text-slate-500 dark:text-slate-400 leading-relaxed">
+                    Openverse could not find a high-threshold match for this concept.
+                  </p>
                 </div>
                 
-                <button 
-                  onClick={handleRetry}
-                  disabled={isRetrying}
-                  className="mt-2 px-6 py-2.5 rounded-full bg-blue-500 hover:bg-blue-600 disabled:bg-slate-300 text-white text-[0.65rem] font-black uppercase tracking-widest transition-all hover:scale-105 active:scale-95 shadow-lg shadow-blue-500/20 flex items-center gap-2"
-                >
-                  {isRetrying ? (
-                    <svg className="animate-spin h-3 w-3 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                    </svg>
-                  ) : (
-                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M23 4v6h-6"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
-                  )}
-                  Try Again
-                </button>
+                <div className="flex flex-wrap items-center justify-center gap-3 mt-2">
+                  <button 
+                    onClick={handleRetry}
+                    disabled={isRetrying}
+                    className="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 disabled:bg-slate-300 text-white text-[0.65rem] font-black uppercase tracking-widest transition-all hover:scale-105 active:scale-95 shadow-lg shadow-blue-600/20 flex items-center gap-2"
+                  >
+                    {isRetrying ? "Retrying..." : "Try Broaden Search"}
+                  </button>
+                  <button 
+                    onClick={() => setShowDebug(!showDebug)}
+                    className="px-6 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 text-[0.65rem] font-black uppercase tracking-widest transition-all"
+                  >
+                    {showDebug ? "Hide Debug" : "Show Debug"}
+                  </button>
+                </div>
+
+                {showDebug && (
+                  <div className="mt-4 w-full text-left animate-in slide-in-from-top-4 duration-500">
+                    <div className="bg-slate-900 rounded-2xl p-5 border border-white/5 font-mono text-[0.65rem] text-slate-400 overflow-x-auto">
+                      <div className="text-blue-400 mb-2 font-bold uppercase tracking-widest opacity-80">Diagnostics</div>
+                      <div className="space-y-1">
+                        <p><span className="text-slate-500">Query:</span> "{query}"</p>
+                        <p><span className="text-slate-500">Context:</span> "{contextSnippet?.slice(0, 100)}..."</p>
+                        <p><span className="text-slate-500">API:</span> /api/openverse</p>
+                        <p><span className="text-slate-500">Error:</span> {error}</p>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             )}
           </div>

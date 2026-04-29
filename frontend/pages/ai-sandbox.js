@@ -1,34 +1,18 @@
 import React, { useState, useRef, useEffect } from 'react';
-import MathVisual from '../components/learning/MathVisual';
 import PythonVisual from '../components/learning/PythonVisual';
 
 const QUICK_PROMPTS = [
-  { label: "Sine Wave", prompt: "Draw y = sin(x) from -2π to 2π", engine: "mafs" },
-  { label: "Unit Circle", prompt: "Plot the unit circle with points at 0°, 90°, 180°, 270°", engine: "mafs" },
-  { label: "Quadratic", prompt: "Graph y = x² - 4x + 3 and label the roots and vertex", engine: "mafs" },
-  { label: "System of Eq.", prompt: "Show the intersection of y = 2x + 1 and y = -x + 4", engine: "mafs" },
-  { label: "Vectors", prompt: "Draw vectors F1=(3,0) and F2=(0,4) and their resultant", engine: "mafs" },
+  { label: "Sine Wave", prompt: "Draw y = sin(x) from -2π to 2π using matplotlib", engine: "python" },
+  { label: "Unit Circle", prompt: "Plot the unit circle with points at 0°, 90°, 180°, 270° using matplotlib", engine: "python" },
+  { label: "Quadratic", prompt: "Graph y = x² - 4x + 3 and label the roots and vertex using matplotlib", engine: "python" },
+  { label: "System of Eq.", prompt: "Show the intersection of y = 2x + 1 and y = -x + 4 using matplotlib", engine: "python" },
+  { label: "Vectors", prompt: "Draw vectors F1=(3,0) and F2=(0,4) and their resultant using matplotlib", engine: "python" },
   { label: "Normal Dist.", prompt: "Use matplotlib to plot a normal distribution with mean 0 and std dev 1", engine: "python" },
   { label: "3D Saddle", prompt: "Use matplotlib to render a 3D surface plot of f(x,y) = x² - y²", engine: "python" },
   { label: "Box Plot", prompt: "Use matplotlib to show a box plot comparing 3 groups of test scores", engine: "python" },
   { label: "Histogram", prompt: "Use matplotlib to plot a histogram of 1000 random normal samples", engine: "python" },
   { label: "Scatter + Line", prompt: "Use matplotlib to create a scatter plot with a linear regression line", engine: "python" },
 ];
-
-function EngineTag({ engine }) {
-  if (engine === 'python') {
-    return (
-      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-amber-400/15 text-amber-600 text-[10px] font-black uppercase tracking-widest">
-        <span>🐍</span> Matplotlib
-      </span>
-    );
-  }
-  return (
-    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-blue-500/15 text-blue-600 text-[10px] font-black uppercase tracking-widest">
-      <span>∑</span> Mafs
-    </span>
-  );
-}
 
 function MessageBubble({ msg }) {
   if (msg.role === 'user') {
@@ -61,25 +45,15 @@ function MessageBubble({ msg }) {
       {/* Tool results — rendered inline after text */}
       {msg.toolResults && msg.toolResults.length > 0 && msg.toolResults.map((tr, j) => (
         <div key={j} className="ml-11">
-          {/* Mafs: showMath tool returns layers + viewBox */}
-          {tr.layers && (
-            <div className="rounded-3xl overflow-hidden border border-blue-500/10 shadow-xl shadow-blue-500/5">
-              <MathVisual
-                layers={tr.layers}
-                viewBox={tr.viewBox}
-                title={tr.title}
-                labels={tr.labels}
-                gridType={tr.gridType}
-              />
-            </div>
-          )}
-          {/* Python: showPython tool returns chartData (base64) pre-executed by E2B */}
+          {/* Python: showPython tool returns chartData (base64 or SVG) pre-executed by E2B */}
           {tr.chartData && (
             <PythonVisual
               chartData={tr.chartData}
               title={tr.title}
               caption={tr.caption}
               code={tr.code}
+              error={tr.error}
+              logs={tr.logs}
             />
           )}
         </div>
@@ -194,16 +168,12 @@ export default function AiSandbox() {
         <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-violet-500 to-blue-500 flex items-center justify-center shadow-lg shadow-violet-500/30">
-              <span className="text-white font-black text-sm">∑</span>
+              <span className="text-white font-black text-sm">🐍</span>
             </div>
             <div>
               <h1 className="font-black text-sm tracking-tight">SOL AI Sandbox</h1>
-              <p className="text-[0.6rem] font-bold text-slate-400 uppercase tracking-widest">Mafs + Matplotlib · Dual Engine</p>
+              <p className="text-[0.6rem] font-bold text-slate-400 uppercase tracking-widest">Matplotlib Scientific Engine</p>
             </div>
-          </div>
-          <div className="flex items-center gap-2">
-            <EngineTag engine="mafs" />
-            <EngineTag engine="python" />
           </div>
         </div>
       </header>
@@ -215,12 +185,12 @@ export default function AiSandbox() {
         {messages.length === 0 && (
           <div className="flex-1 flex flex-col items-center justify-center text-center py-16 gap-6">
             <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-violet-500/20 to-blue-500/20 flex items-center justify-center">
-              <span className="text-4xl">🧮</span>
+              <span className="text-4xl">📊</span>
             </div>
             <div>
               <h2 className="text-2xl font-black tracking-tight mb-2">What should we visualize?</h2>
               <p className="text-slate-500 text-sm max-w-md">
-                Describe any math or science concept. The AI will choose between Mafs (interactive) and Matplotlib (scientific).
+                Describe any math or science concept. The AI will generate a high-fidelity scientific visualization using Matplotlib.
               </p>
             </div>
 
@@ -234,7 +204,6 @@ export default function AiSandbox() {
                 >
                   <div className="flex items-center justify-between mb-2">
                     <span className="font-black text-xs text-slate-700 dark:text-slate-200">{qp.label}</span>
-                    <EngineTag engine={qp.engine} />
                   </div>
                   <p className="text-[11px] text-slate-400 leading-relaxed line-clamp-2">{qp.prompt}</p>
                 </button>

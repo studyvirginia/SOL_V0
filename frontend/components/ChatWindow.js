@@ -15,7 +15,7 @@ import FlashcardDeck from "./learning/FlashcardDeck";
 import AdaptiveMCQ from "./learning/AdaptiveMCQ";
 import QuizRunner from "./learning/QuizRunner";
 import ValidatedImage from "./learning/ValidatedImage";
-import MathVisual from "./learning/MathVisual";
+
 import PythonExecutor from "./learning/PythonExecutor";
 import PythonVisual from "./learning/PythonVisual";
 
@@ -353,6 +353,14 @@ export default function ChatWindow({ session, onUpdateSession }) {
   const sessionRef = useRef(session);
   useEffect(() => { sessionRef.current = session; }, [session]);
 
+  const initialMessages = useMemo(() => {
+    return (session.messages || []).map((msg, idx) => ({
+      ...msg,
+      id: msg.id || `stable-id-${idx}`,
+      content: typeof msg.content === 'string' ? msg.content : getMessageContent(msg)
+    }));
+  }, [session.id, session.messages?.length]); // Re-run if ID or count changes
+
   const { 
     messages, 
     setMessages, 
@@ -362,7 +370,8 @@ export default function ChatWindow({ session, onUpdateSession }) {
   } = useChat({
     api: "/api/chat",
     id: session.id,
-    initialMessages: session.messages || [],
+    initialMessages: initialMessages,
+    maxSteps: 10,
     body: {
       sessionId: session.id,
       subject,
@@ -371,14 +380,9 @@ export default function ChatWindow({ session, onUpdateSession }) {
       sessionSummary: session.sessionSummary || "",
       userFacts: session.userFacts || {},
     },
-    onFinish: (message) => {
-      const normalizedMessage = {
-        ...message,
-        content: getMessageContent(message)
-      };
+    onFinish: () => {
       onUpdateSession({ 
         ...sessionRef.current, 
-        messages: [...messages, normalizedMessage],
         interactionLogs: []
       });
     },
@@ -394,25 +398,32 @@ export default function ChatWindow({ session, onUpdateSession }) {
   const handleAction = (type, data) => {
     if (type === 'FINISH_QUIZ' || type === 'LOG_INTERACTION') {
       const newLog = { timestamp: new Date().toISOString(), ...data };
-      setInteractionLogs(prev => {
-        const next = [...prev, newLog];
-        onUpdateSession({ ...sessionRef.current, interactionLogs: next });
-        return next;
-      });
+      const nextLogs = [...interactionLogs, newLog];
+      
+      setInteractionLogs(nextLogs);
+      onUpdateSession({ ...sessionRef.current, interactionLogs: nextLogs });
+
+      if (type === 'FINISH_QUIZ') {
+        const prompt = `I have finished the ${data.title || 'quiz'} (Score: ${data.score}/${data.total}). Here are my results. Please review them and recommend the next step.`;
+        setTimeout(() => handleFormSubmit(null, prompt, nextLogs), 50);
+      } else if (type === 'LOG_INTERACTION' && data.type === 'Flashcards' && data.percentReviewed !== undefined) {
+        const prompt = `I have finished reviewing the flashcards. Please review my progress and recommend the next step.`;
+        setTimeout(() => handleFormSubmit(null, prompt, nextLogs), 50);
+      }
     }
   };
 
   const getMessageContent = (m) => {
-    if (typeof m.content === "string") return m.content;
-    if (Array.isArray(m.parts)) {
+    if (typeof m.content === "string" && m.content.length > 0) return m.content;
+    if (Array.isArray(m.parts) && m.parts.length > 0) {
       return m.parts
         .map((part) => (part.type === "text" ? part.text : ""))
         .join("");
     }
-    return "";
+    return typeof m.content === "string" ? m.content : "";
   };
 
-  const handleFormSubmit = async (e, overrideText = null) => {
+  const handleFormSubmit = async (e, overrideText = null, overrideLogs = null) => {
     e?.preventDefault?.();
     const promptValue = typeof overrideText === "string" ? overrideText.trim() : draftInput.trim();
     if (!promptValue || isChatLoading) return;
@@ -420,8 +431,9 @@ export default function ChatWindow({ session, onUpdateSession }) {
     setLocalError(null);
     if (!overrideText) setDraftInput("");
 
-    const interactionContext = interactionLogs.length > 0 
-      ? `\n\n[USER_INTERACTION_HISTORY]:\n${JSON.stringify(interactionLogs, null, 2)}\n(End of interaction history.)`
+    const logsToUse = overrideLogs || interactionLogs;
+    const interactionContext = logsToUse.length > 0 
+      ? `\n\n[USER_INTERACTION_HISTORY]:\n${JSON.stringify(logsToUse, null, 2)}\n(End of interaction history.)`
       : "";
 
     setInteractionLogs([]); 
@@ -498,6 +510,26 @@ export default function ChatWindow({ session, onUpdateSession }) {
     }
   }, []);
 
+  // Ensure streaming messages and state are continually saved to local storage
+  useEffect(() => {
+    if (messages && messages.length > 0) {
+      const safeMessages = messages.map((msg, idx) => ({
+        ...msg,
+        id: msg.id || `msg-${idx}`,
+        content: typeof msg.content === 'string' ? msg.content : getMessageContent(msg)
+      }));
+      
+      const stringifiedCurrent = JSON.stringify(session.messages || []);
+      const stringifiedNew = JSON.stringify(safeMessages);
+      if (stringifiedCurrent !== stringifiedNew) {
+         onUpdateSession({
+           ...sessionRef.current,
+           messages: safeMessages
+         });
+      }
+    }
+  }, [messages, onUpdateSession, session]);
+
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
@@ -508,8 +540,17 @@ export default function ChatWindow({ session, onUpdateSession }) {
 
   return (
     <div className="flex h-full w-full gap-4 md:gap-8">
-            <div className="w-[140px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-6 text-gray-800 dark:text-gray-300">
-              <h2 className="text-[0.65rem] font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4 px-1">Learning Path</h2>
+            <div className="w-[200px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-6 text-gray-800 dark:text-gray-300">
+              <div className="mb-8">
+                <div className="inline-flex flex-col w-full rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 border border-blue-100/50 dark:border-blue-800/50 px-4 py-3 shadow-sm">
+                  <div className="text-[0.55rem] font-black uppercase tracking-widest text-blue-600 dark:text-blue-400 opacity-80 mb-0.5 truncate">
+                    {course || subject || "Course"}
+                  </div>
+                  <div className="text-[0.75rem] font-extrabold text-slate-800 dark:text-slate-200 leading-tight line-clamp-2">
+                    {session.focusDetail || session.userFacts?.focusTopic || session.sessionFocus || session.userFacts?.areaOfFocus || "General Review"} Prep
+                  </div>
+                </div>
+              </div>
               {Object.entries(MODE_MAP).map(([pillarKey, pillarData]) => {
                 const isActivePillar = activePillar === pillarKey;
                 const stat = completionStats.find(s => s.modeKey === pillarKey);
@@ -527,16 +568,16 @@ export default function ChatWindow({ session, onUpdateSession }) {
                          } 
                       }}
                     >
-                      <span className={`text-[0.65rem] uppercase tracking-widest ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-black" : "text-gray-400 dark:text-gray-500 font-bold opacity-70"}`}>{pillarData.label}</span>
-                      {stat && pillarKey !== "progress" && pillarKey !== 'diagnostic' && <span className="text-[0.62rem] font-bold opacity-80">{stat.done}/{stat.total}</span>}
+                      <span className={`text-[0.75rem] uppercase tracking-widest ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-black" : "text-gray-400 dark:text-gray-500 font-bold opacity-70"}`}>{pillarData.label}</span>
+                      {stat && pillarKey !== "progress" && pillarKey !== 'diagnostic' && <span className="text-[0.7rem] font-bold opacity-80">{stat.done}/{stat.total}</span>}
                     </div>
                     
                     {hasSubModes && (
                       <div className={`flex flex-col space-y-0.5 ml-2 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-3 opacity-100" : "max-h-0 opacity-0"}`}>
                         {isActivePillar && pillarData.subModes.map((sub) => (
-                          <button key={sub.id} onClick={() => switchSubMode(sub.id, true)} className={`group relative flex items-center justify-between px-2 py-1.5 rounded-lg text-[0.7rem] transition-colors ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>
+                          <button key={sub.id} onClick={() => switchSubMode(sub.id, true)} className={`group relative flex items-center justify-between px-2 py-1.5 rounded-lg text-[0.8rem] transition-colors ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>
                             <span className="truncate pr-2">{sub.label}</span>
-                            <span className="flex-shrink-0 text-[0.65rem] font-black">{journey.completed[sub.id] ? "✓" : recommended?.subModeId === sub.id ? "★" : ""}</span>
+                            <span className="flex-shrink-0 text-[0.75rem] font-black">{journey.completed[sub.id] ? "✓" : recommended?.subModeId === sub.id ? "★" : ""}</span>
                           </button>
                         ))}
                       </div>
@@ -544,10 +585,43 @@ export default function ChatWindow({ session, onUpdateSession }) {
                   </div>
                 );
               })}
+
+              <div className="mt-4 pt-2 px-2 border-t border-gray-50 dark:border-gray-800/20">
+                <div className="flex items-center gap-1.5 text-[0.55rem] font-bold text-slate-400 uppercase tracking-widest opacity-50">
+                   <span className="text-blue-500 text-xs leading-none">★</span>
+                   <span>= Recommended Next</span>
+                </div>
+              </div>
             </div>
 
             <div className="relative flex h-full flex-col flex-1 overflow-hidden bg-transparent">
               <div className="custom-scrollbar flex-1 space-y-12 overflow-y-auto px-4 pt-24 pb-12 sm:px-6 lg:px-12 flex flex-col items-center">
+                {messages.length === 0 && currentMode === 'diagnostic' && (
+                  <div className="flex flex-col items-center justify-center min-h-[60vh] w-full max-w-2xl text-center space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
+                    <div className="p-6 bg-amber-50 dark:bg-amber-900/10 rounded-3xl text-amber-600 dark:text-amber-400 shadow-inner">
+                      <svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <div>
+                      <h2 className="text-4xl font-black text-gray-900 dark:text-white mb-4 tracking-tight">Ready for your Diagnostic?</h2>
+                      <p className="text-[1.05rem] leading-relaxed text-gray-500 dark:text-gray-400 mb-10 max-w-xl mx-auto">We'll ask a few questions to evaluate your baseline mastery and tailor the rest of the curriculum specifically to your needs.</p>
+                      
+                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <button 
+                          onClick={() => handleFormSubmit(null, "Begin Diagnostic")}
+                          className="px-10 py-5 bg-amber-500 text-white rounded-2xl font-black text-[1.1rem] shadow-xl shadow-amber-500/20 transition-all hover:scale-105 active:scale-95"
+                        >
+                          Start Diagnostic
+                        </button>
+                        <button 
+                          onClick={() => switchSubMode('notes', true)}
+                          className="px-10 py-5 bg-gray-100 dark:bg-gray-800/50 text-gray-600 dark:text-gray-400 rounded-2xl font-bold text-[1.1rem] border border-gray-200 dark:border-gray-700 transition-all hover:bg-gray-200 dark:hover:bg-gray-800 active:scale-95"
+                        >
+                          Skip for now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
                 {messages.map((m, idx) => {
                   const isUser = m.role === "user";
                   const isStreaming = isChatLoading && idx === messages.length - 1 && !isUser;
@@ -556,7 +630,15 @@ export default function ChatWindow({ session, onUpdateSession }) {
                     <div key={idx} className={`w-full max-w-[900px] animate-in fade-in flex ${isUser ? "justify-end" : "justify-center"}`}>
                       {isUser ? (
                         <div className="max-w-[75%] rounded-[2rem] rounded-br-[0.5rem] border border-gray-200/60 dark:border-gray-700/60 bg-white dark:bg-gray-800 px-8 py-5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] dark:shadow-black/20">
-                          <div className="whitespace-pre-wrap text-[1.05rem] font-medium leading-relaxed text-gray-800 dark:text-gray-100">{content}</div>
+                          <div className="whitespace-pre-wrap text-[1.05rem] font-medium leading-relaxed text-gray-800 dark:text-gray-100">
+                            {(() => {
+                              const historyTag = "[USER_INTERACTION_HISTORY]";
+                              if (content.includes(historyTag)) {
+                                return content.split(historyTag)[0].trim();
+                              }
+                              return content;
+                            })()}
+                          </div>
                         </div>
                       ) : (
                         <div className={`w-full max-w-[850px] px-8 md:px-12 py-10 transition-all duration-500 relative ${isStreaming ? "rounded-[3rem] border border-blue-200/60 dark:border-blue-900/40 shadow-[0_15px_50px_rgba(59,130,246,0.05)] bg-white/80 dark:bg-gray-800/80 backdrop-blur-2xl" : "bg-transparent"}`}>
@@ -619,38 +701,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                     <ValidatedImage key={`tool-${partIdx}`} toolInvocation={part} />
                                   );
 
-                                  if (toolName === "showMath") {
-                                    if (!args.layers || args.layers.length === 0) {
-                                      return (
-                                        <div key={`tool-${partIdx}`} className="my-8 w-full max-w-4xl mx-auto">
-                                          <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-blue-400/20 p-10 flex items-center gap-5 shadow-xl">
-                                            <div className="w-12 h-12 rounded-2xl bg-blue-500 flex items-center justify-center flex-shrink-0 shadow-lg shadow-blue-500/20 animate-pulse">
-                                              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="white" strokeWidth="3"><path d="m3 3 18 18M3 21l18-18"/></svg>
-                                            </div>
-                                            <div>
-                                              <p className="text-xs font-black text-blue-600 uppercase tracking-widest mb-1">Mafs Engine</p>
-                                              <p className="text-sm text-slate-500">Plotting coordinates · Rendering layers...</p>
-                                            </div>
-                                            <div className="ml-auto flex gap-1">
-                                              {[0, 150, 300].map(d => (
-                                                <div key={d} className="w-2 h-2 rounded-full bg-blue-500 animate-bounce" style={{ animationDelay: `${d}ms` }} />
-                                              ))}
-                                            </div>
-                                          </div>
-                                        </div>
-                                      );
-                                    }
-                                    return (
-                                      <MathVisual 
-                                        key={`tool-${partIdx}`} 
-                                        layers={args.layers || args.elements || []} 
-                                        viewBox={args.viewBox}
-                                        labels={args.labels}
-                                        title={args.title}
-                                        gridType={args.gridType}
-                                      />
-                                    );
-                                  }
+
 
                                   if (toolName === "showPython") {
                                     // result/output is set after server-side E2B execution
@@ -658,7 +709,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                     const { chartData, title: pyTitle, caption, code } = pyResult;
 
                                     // Still loading (call state, no result yet)
-                                    if (!chartData && !pyResult.error) {
+                                    if (part.state !== "result" && !chartData && !pyResult.error) {
                                       return (
                                         <div key={`tool-${partIdx}`} className="my-8 w-full max-w-4xl mx-auto">
                                           <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-amber-400/20 p-10 flex items-center gap-5 shadow-xl">
@@ -679,11 +730,11 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                       );
                                     }
 
-                                    if (pyResult.error) {
+                                    if (pyResult.error || (part.state === "result" && !chartData)) {
                                       return (
                                         <div key={`tool-${partIdx}`} className="my-8 w-full max-w-4xl mx-auto p-6 bg-rose-50 dark:bg-rose-950/20 rounded-3xl border border-rose-500/30">
                                           <p className="text-xs font-black text-rose-600 uppercase tracking-widest mb-2">Python Error</p>
-                                          <pre className="text-xs font-mono text-rose-500 whitespace-pre-wrap">{pyResult.error}</pre>
+                                          <pre className="text-xs font-mono text-rose-500 whitespace-pre-wrap">{pyResult.error || "Execution finished, but no visual was generated. The Python code may have timed out or failed silently without calling plt.show()."}</pre>
                                         </div>
                                       );
                                     }
@@ -717,7 +768,14 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                     }
                                     return (
                                       <div key={`tool-${partIdx}`} className="w-full my-4">
-                                        <FlashcardDeck cards={args.cards || []} onAction={handleAction} />
+                                        <FlashcardDeck 
+                                          cards={args.cards || []} 
+                                          actions={args.actions}
+                                          onSwitch={switchSubMode}
+                                          onSend={(p) => handleFormSubmit(null, p)}
+                                          currentSubMode={currentMode}
+                                          onAction={handleAction} 
+                                        />
                                       </div>
                                     );
                                   }
@@ -747,6 +805,10 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                           answer={args.answer}
                                           explanation={args.explanation}
                                           mode={args.mode || ((currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice')}
+                                          actions={args.actions}
+                                          onSwitch={switchSubMode}
+                                          onSend={(p) => handleFormSubmit(null, p)}
+                                          currentSubMode={currentMode}
                                           onAction={handleAction}
                                         />
                                       </div>
@@ -778,6 +840,10 @@ export default function ChatWindow({ session, onUpdateSession }) {
                                           title={args.title}
                                           questions={args.questions || []}
                                           mode={args.mode || ((currentMode === 'diagnostic' || currentMode === 'quiz') ? 'diagnostic' : 'practice')}
+                                          actions={args.actions}
+                                          onSwitch={switchSubMode}
+                                          onSend={(p) => handleFormSubmit(null, p)}
+                                          currentSubMode={currentMode}
                                           onAction={handleAction}
                                         />
                                       </div>
@@ -809,6 +875,26 @@ export default function ChatWindow({ session, onUpdateSession }) {
                   </div>
                 );
               })}
+              {isChatLoading && messages.length > 0 && (messages[messages.length - 1].role === "user" || (messages[messages.length - 1].role === "assistant" && !messages[messages.length - 1].content && (!messages[messages.length - 1].toolInvocations || messages[messages.length - 1].toolInvocations.length === 0))) && (
+                <div className="w-full max-w-[900px] animate-in fade-in flex justify-center mt-4">
+                  <div className="w-full max-w-[850px] px-8 md:px-12 py-8 flex flex-col gap-5">
+                    <div className="flex items-center gap-4">
+                      <div className="relative flex h-8 w-8 items-center justify-center rounded-full bg-purple-100 dark:bg-purple-900/30">
+                        <svg className="h-5 w-5 animate-spin text-purple-600 dark:text-purple-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                      </div>
+                      <div className="h-3.5 w-32 rounded bg-gray-200 dark:bg-gray-700 animate-pulse"></div>
+                    </div>
+                    <div className="pl-12 space-y-3">
+                      <div className="h-3 w-full rounded bg-gray-100 dark:bg-gray-800 animate-pulse"></div>
+                      <div className="h-3 w-5/6 rounded bg-gray-100 dark:bg-gray-800 animate-pulse"></div>
+                      <div className="h-3 w-4/6 rounded bg-gray-100 dark:bg-gray-800 animate-pulse"></div>
+                    </div>
+                  </div>
+                </div>
+              )}
                 <div ref={bottomRef} className="h-4" />
                 {!isChatLoading && journey.completed[currentMode] && Array.isArray(messages) && messages.length > 0 && messages[messages.length-1]?.role === "assistant" && (
                    <QuickActions actions={(() => {

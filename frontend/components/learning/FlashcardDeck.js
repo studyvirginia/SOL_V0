@@ -2,8 +2,10 @@ import { useState, useEffect, useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
+import { QuickActions } from '../QuickActions';
 
-export default function FlashcardDeck({ cards = [], onAction }) {
+export default function FlashcardDeck({ cards = [], actions, onSwitch, onSend, currentSubMode, onAction }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [flippedIndices, setFlippedIndices] = useState(new Set());
@@ -80,8 +82,8 @@ export default function FlashcardDeck({ cards = [], onAction }) {
   }, [currentIndex, isFlipped, showRecap, cards.length, flippedIndices]);
 
   const markdownProps = {
-    remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeKatex],
+    remarkPlugins: [[remarkMath, { singleDollarTextMath: true }]],
+    rehypePlugins: [[rehypeKatex, { strict: false, throwOnError: false }]],
     components: {
       p: ({node, ...props}) => <p className="m-0" {...props} />
     }

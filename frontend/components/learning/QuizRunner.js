@@ -2,8 +2,10 @@ import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
+import { QuickActions } from '../QuickActions';
 
-export default function QuizRunner({ title, questions = [], mode = 'practice', onAction }) {
+export default function QuizRunner({ title, questions = [], mode = 'practice', actions, onSwitch, onSend, currentSubMode, onAction }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState({});
   const [showRecap, setShowRecap] = useState(false);
@@ -96,8 +98,8 @@ export default function QuizRunner({ title, questions = [], mode = 'practice', o
   }, 0);
 
   const markdownProps = {
-    remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeKatex],
+    remarkPlugins: [[remarkMath, { singleDollarTextMath: true }]],
+    rehypePlugins: [[rehypeKatex, { strict: false, throwOnError: false }]],
     components: {
       p: ({node, ...props}) => <span {...props} />
     }

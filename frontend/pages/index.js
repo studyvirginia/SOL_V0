@@ -3,6 +3,8 @@ import ChatWindow, { formatName } from "../components/ChatWindow";
 import { MODE_MAP, getSubModeLabel } from "../lib/modeMap";
 import Link from "next/link";
 import { BarChart3, LayoutDashboard } from "lucide-react";
+import { db } from "../lib/db";
+import { runSessionJanitor } from "../lib/janitor";
 
 const DEFAULT_SUBMODES = [
   "diagnostic",
@@ -91,6 +93,17 @@ export default function Home() {
   // Application State
   const [sessions, setSessions] = useState([]);
   const [activeSessionId, setActiveSessionId] = useState(null);
+
+  // Persistence Sync: Save active session ID to sessionStorage
+  useEffect(() => {
+    if (activeSessionId) {
+      sessionStorage.setItem('sol_active_session_id', activeSessionId);
+    } else {
+      sessionStorage.removeItem('sol_active_session_id');
+    }
+  }, [activeSessionId]);
+
+  const activeSession = sessions.find((s) => s.id === activeSessionId);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
@@ -157,55 +170,45 @@ export default function Home() {
   }, [modalSessionFocus, modalCourse, modalSubject]);
 
   useEffect(() => {
-    if (!isLoggedIn) {
-       // Make sure we load the courses even if logged out so we can populate the dropdown on login
-       fetch("/api/courses").then(res => res.json()).then(data => {
-          if (data?.options && !courseOptions[modalSubject]) {
-             setCourseOptions(data.options);
-             const firstSub = Object.keys(data.options)[0] || "";
-             setModalSubject(firstSub);
-             setModalCourse(data.options[firstSub]?.[0] || "");
-          }
-       }).catch(console.error);
+    const initStorage = async () => {
+      // 1. Run janitor to check if we should wipe old local DB
+      await runSessionJanitor();
 
-       setIsReady(true);
-       return;
-    }
-
-    const savedSessions = localStorage.getItem("sol_sessions");
-    let hasLoadedSessions = false;
-    if (savedSessions) {
+      // 2. Load sessions from IndexedDB
       try {
-        const parsed = JSON.parse(savedSessions);
-        if (parsed.length > 0) {
-          setSessions(parsed);
-          setActiveSessionId(parsed[0].id);
-          hasLoadedSessions = true;
+        const allSessions = await db.sessions.orderBy('createdAt').reverse().toArray();
+        if (allSessions.length > 0) {
+          setSessions(allSessions);
+          
+          // Restore active session from sessionStorage if it exists (for refreshes)
+          const savedActiveId = sessionStorage.getItem('sol_active_session_id');
+          if (savedActiveId && allSessions.some(s => s.id === savedActiveId)) {
+            setActiveSessionId(savedActiveId);
+          }
         }
-      } catch (e) { }
-    }
-    
-    // Fallback load courses if wasn't loaded
-    if (Object.keys(courseOptions).length === 0) {
-      fetch("/api/courses").then(res => res.json()).then(data => {
-         if (data?.options) {
-             setCourseOptions(data.options);
-             const firstSub = Object.keys(data.options)[0] || "";
-             setModalSubject(firstSub);
-             setModalCourse(data.options[firstSub]?.[0] || "");
-         }
-      }).catch(console.error);
-    }
+      } catch (err) {
+        console.error("Failed to load sessions from IndexedDB:", err);
+      }
 
-    setIsReady(true);
+      // 3. Fallback load courses
+      if (Object.keys(courseOptions).length === 0) {
+        fetch("/api/courses")
+          .then(res => res.json())
+          .then(data => {
+            if (data?.options) setCourseOptions(data.options);
+          })
+          .catch(console.error);
+      }
+
+      setIsReady(true);
+    };
+
+    initStorage();
   }, [isLoggedIn]);
 
   useEffect(() => {
-    if (isReady && sessions.length > 0) {
-      localStorage.setItem("sol_sessions", JSON.stringify(sessions));
-    } else if (isReady && sessions.length === 0 && isLoggedIn) {
-      localStorage.removeItem("sol_sessions");
-    }
+    // IndexedDB is handled atomically in updateSession, deleteSession, etc.
+    // We no longer need a massive global effect to sync the entire array to localStorage.
   }, [sessions, isReady, isLoggedIn]);
 
   // Fullscreen UI handler
@@ -294,14 +297,20 @@ export default function Home() {
       focusDetail: detailValue || "",
       userFacts: personalization,
       sessionSummary: "",
-      messages: [{ role: "assistant", parts: INITIAL_MESSAGE_PARTS }],
+      messages: [{ id: `init-${Date.now()}`, role: "assistant", content: INITIAL_MESSAGE_PARTS[0].text, parts: INITIAL_MESSAGE_PARTS }],
+      createdAt: Date.now()
     };
+    
+    // Save to IndexedDB
+    db.sessions.put(newSession).catch(err => console.error("DB Save Error:", err));
     
     setSessions(prev => [newSession, ...prev]);
     setActiveSessionId(newSession.id);
     setIsModalOpen(false);
     setModalGrade("");
-    setModalSessionFocus("Concept quiz");
+    setModalSessionFocus("");
+    setModalSubject("");
+    setModalCourse("");
     setModalFocusTopic("");
     setModalPreferences("");
     setModalNeeds("");
@@ -309,6 +318,9 @@ export default function Home() {
   };
 
   const updateSession = (updatedSession) => {
+    // Atomic save to IndexedDB
+    db.sessions.put(updatedSession).catch(err => console.error("DB Update Error:", err));
+    
     setSessions((prev) =>
       prev.map((s) => (s.id === updatedSession.id ? updatedSession : s))
     );
@@ -316,6 +328,10 @@ export default function Home() {
 
   const deleteSession = (e, id) => {
     e.stopPropagation();
+    
+    // Delete from IndexedDB
+    db.sessions.delete(id).catch(err => console.error("DB Delete Error:", err));
+    
     const filtered = sessions.filter((s) => s.id !== id);
     setSessions(filtered);
     if (activeSessionId === id && filtered.length > 0) {
@@ -326,7 +342,6 @@ export default function Home() {
     }
   };
 
-  const activeSession = sessions.find((s) => s.id === activeSessionId) || null;
 
   if (!isReady) return <div className="h-screen w-screen bg-gray-50 dark:bg-gray-900" />;
 
@@ -420,6 +435,16 @@ export default function Home() {
             </header>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {sessions.length === 0 && (
+                <div className="col-span-full py-12 flex flex-col items-center justify-center text-center opacity-40">
+                  <div className="w-16 h-16 rounded-3xl bg-gray-100 dark:bg-gray-800 flex items-center justify-center mb-4">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  </div>
+                  <p className="text-sm font-bold uppercase tracking-widest">No recent sessions found</p>
+                  <p className="text-xs font-medium text-gray-500 mt-1">Configure your first session above to begin learning.</p>
+                </div>
+              )}
+
               {sessions.map((session) => (
                 <div
                   key={session.id}
@@ -525,6 +550,7 @@ export default function Home() {
             <div className={`mx-auto flex h-full w-full flex-col p-2 pt-16 sm:p-4 sm:pt-20 lg:p-6 lg:pt-20 transition-all duration-300 max-w-[1600px] gap-6 flex-row`}>
                 {activeSession ? (
                   <ChatWindow 
+                    key={activeSession.id}
                     session={activeSession} 
                     onUpdateSession={updateSession}
                   />
@@ -548,7 +574,8 @@ export default function Home() {
                       value={modalSubject}
                       onChange={handleModalSubjectChange}
                     >
-                      {Object.keys(courseOptions).length === 0 ? <option>Loading...</option> : Object.keys(courseOptions).map((s) => (
+                      <option value="" disabled>Select a Subject...</option>
+                      {Object.keys(courseOptions).length === 0 ? <option disabled>Loading...</option> : Object.keys(courseOptions).map((s) => (
                         <option key={s} value={s}>{formatName(s)}</option>
                       ))}
                     </select>
@@ -563,9 +590,10 @@ export default function Home() {
                       className="w-full appearance-none rounded-lg border-2 border-slate-50 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 py-2 pl-3 pr-10 text-sm font-semibold text-gray-800 dark:text-gray-200 transition-all focus:border-indigo-500 dark:focus:border-indigo-500 focus:bg-white dark:focus:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-indigo-500/10"
                       value={modalCourse}
                       onChange={(e) => setModalCourse(e.target.value)}
-                      disabled={!(courseOptions[modalSubject]?.length)}
+                      disabled={!modalSubject || !(courseOptions[modalSubject]?.length)}
                     >
-                      {(courseOptions[modalSubject] || []).length === 0 ? <option>Loading...</option> : (courseOptions[modalSubject] || []).map((c) => (
+                      <option value="" disabled>Select a Course...</option>
+                      {(!modalSubject || (courseOptions[modalSubject] || []).length === 0) ? <option disabled>Loading...</option> : (courseOptions[modalSubject] || []).map((c) => (
                         <option key={c} value={c}>{formatName(c)}</option>
                       ))}
                     </select>
@@ -590,6 +618,7 @@ export default function Home() {
                       value={modalSessionFocus}
                       onChange={(e) => setModalSessionFocus(e.target.value)}
                     >
+                      <option value="" disabled>Select a Focus...</option>
                       {FOCUS_OPTIONS.map((option) => (
                         <option key={option} value={option}>{option}</option>
                       ))}

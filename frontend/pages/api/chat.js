@@ -7,6 +7,8 @@ openlit.init({
 // Verify the SDK is actually seeing our OpenRouter calls
 console.log("LLM MONITORING: OpenLIT Active and capturing AI-SDK Spans...");
 
+export const maxDuration = 60;
+
 import fs from "fs";
 import path from "path";
 import { streamText, generateText, tool, jsonSchema } from "ai";
@@ -102,6 +104,19 @@ const OPENROUTER_TOOLS = [
               required: ["front", "back"],
             },
           },
+          actions: {
+            type: "array", maxItems: 4,
+            items: {
+              type: "object",
+              properties: {
+                label:      { type: "string" },
+                prompt:     { type: "string" },
+                targetMode: { type: "string" },
+                reason:     { type: "string" }
+              },
+              required: ["label", "prompt"],
+            },
+          },
         },
         required: ["cards"],
       },
@@ -120,6 +135,19 @@ const OPENROUTER_TOOLS = [
           answer:      { type: "integer", minimum: 0, description: "0-indexed correct answer" },
           explanation: { type: "string", description: "Explanation shown after the student answers" },
           mode:        { type: "string", enum: ["diagnostic", "practice"] },
+          actions: {
+            type: "array", maxItems: 4,
+            items: {
+              type: "object",
+              properties: {
+                label:      { type: "string" },
+                prompt:     { type: "string" },
+                targetMode: { type: "string" },
+                reason:     { type: "string" }
+              },
+              required: ["label", "prompt"],
+            },
+          },
         },
         required: ["question", "options", "answer", "explanation"],
       },
@@ -146,6 +174,19 @@ const OPENROUTER_TOOLS = [
                 explanation: { type: "string" },
               },
               required: ["question", "options", "answer", "explanation"],
+            },
+          },
+          actions: {
+            type: "array", maxItems: 4,
+            items: {
+              type: "object",
+              properties: {
+                label:      { type: "string" },
+                prompt:     { type: "string" },
+                targetMode: { type: "string" },
+                reason:     { type: "string" }
+              },
+              required: ["label", "prompt"],
             },
           },
         },
@@ -232,7 +273,7 @@ const OPENROUTER_TOOLS = [
     type: "function",
     function: {
       name: "showPython",
-      description: "Execute Python code to generate a scientific chart (Matplotlib). Use for complex statistics, 3D plots, science simulations, or when Mafs is insufficient.",
+      description: "Execute Python code to generate a scientific chart (Matplotlib). Use LaTeX mathtext (e.g., r'$x^2$') for all titles, labels, and annotations to ensure academic consistency.",
       parameters: {
         type: "object",
         properties: {
@@ -276,20 +317,7 @@ const SDK_TOOLS = {
       return { error: "No suitable image found" };
     }
   }),
-  showMath: tool({
-    description: "Render an interactive math visualization using Mafs. Specify layers (functions, points, etc.) and viewbox.",
-    parameters: jsonSchema({
-      type: "object",
-      properties: {
-        title: { type: "string" },
-        labels: { type: "string", enum: ["integers", "pi"] },
-        viewBox: { type: "object" },
-        layers: { type: "array" }
-      },
-      required: ["layers"]
-    }),
-    execute: async (args) => args // Pass through to frontend
-  }),
+
   showPython: tool({
     description: "Execute Python code to generate a scientific chart (Matplotlib).",
     parameters: jsonSchema({
@@ -381,10 +409,18 @@ export default async function handler(req, res) {
 
       // Preserve native tool parts for history to prevent regeneration loops
       if (msg.role === "assistant" && Array.isArray(msg.toolInvocations)) {
+        // Strip heavy base64 chartData from previous history so we don't blow up OpenRouter payload limits
+        const safeToolInvocations = msg.toolInvocations.map(inv => {
+          if (inv.result?.chartData) {
+            return { ...inv, result: { ...inv.result, chartData: "[Base64 Image Omitted]" } };
+          }
+          return inv;
+        });
+
         return {
           role: "assistant",
           content: content || "",
-          toolInvocations: msg.toolInvocations
+          toolInvocations: safeToolInvocations
         };
       }
       
@@ -393,7 +429,7 @@ export default async function handler(req, res) {
         return msg;
       }
 
-      return content ? { role, content } : (msg.toolInvocations ? { role, content: "", toolInvocations: msg.toolInvocations } : null);
+      return content ? { role, content } : (msg.toolInvocations ? { role, content: "", toolInvocations: msg.toolInvocations.map(inv => inv.result?.chartData ? { ...inv, result: { ...inv.result, chartData: "[Base64 Image Omitted]" } } : inv) } : null);
     })
     .filter(Boolean);
 
@@ -490,10 +526,6 @@ export default async function handler(req, res) {
           const body = JSON.parse(init.body);
           if (body.tools?.length) {
             body.tools = OPENROUTER_TOOLS;
-            // Force tool usage for visual prompts (prevents markdown code blocks)
-            if (forceToolUse && !body.tool_choice) {
-              body.tool_choice = "required";
-            }
           }
           return await globalThis.fetch(url, { ...init, body: JSON.stringify(body) });
         } catch {
@@ -508,6 +540,7 @@ export default async function handler(req, res) {
       system: systemPrompt,
       messages: effectiveMessages,
       tools: SDK_TOOLS,
+      toolChoice: forceToolUse ? "required" : "auto",
       maxSteps: 10,
       maxTokens: 8000,
       temperature: 0.4,
