@@ -6,6 +6,9 @@ import 'katex/dist/katex.min.css';
 import { QuickActions } from '../QuickActions';
 
 export default function QuizRunner({ title, questions = [], mode = 'practice', actions, onSwitch, onSend, currentSubMode, onAction }) {
+  // practice mode: show explanation after each answer
+  // diagnostic / quiz mode: hide explanation until review phase
+  const allowImmediateExplanation = mode === 'practice';
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState({});
   const [showRecap, setShowRecap] = useState(false);
@@ -293,7 +296,10 @@ export default function QuizRunner({ title, questions = [], mode = 'practice', a
           1-4: Options <span className="mx-2 opacity-30">|</span> Arr: Move
         </p>
         
-        {hasAnsweredCurrent && !showExplanation && (
+        {/* Show explanation button: 
+            - practice mode: show immediately after answering
+            - diagnostic/quiz mode: only show during review phase (after recap) */}
+        {hasAnsweredCurrent && !showExplanation && (allowImmediateExplanation || isReviewing) && (
           <button 
             onClick={() => setShowExplanation(true)}
             className="text-[0.65rem] font-black text-blue-500 hover:text-blue-600 uppercase tracking-[0.1em] flex items-center gap-2"
