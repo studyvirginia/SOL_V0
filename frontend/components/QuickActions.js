@@ -11,8 +11,11 @@ export const QuickActions = ({ actions, onSwitch, onSend, currentSubMode }) => {
             <button
               key={i}
               onClick={() => {
-                if (act.targetMode) onSwitch(act.targetMode, false);
-                onSend(act.prompt);
+                if (act.targetMode) {
+                  onSwitch(act.targetMode, true);
+                } else {
+                  onSend(act.prompt);
+                }
               }}
               className="group flex items-center gap-2 rounded-lg px-3 py-1.5 text-[0.7rem] font-bold transition-all shadow-sm ring-1 ring-inset active:scale-95 bg-indigo-600 text-white ring-indigo-500 hover:bg-indigo-700 hover:shadow-md dark:bg-indigo-700 dark:ring-indigo-600 dark:hover:bg-indigo-600"
             >

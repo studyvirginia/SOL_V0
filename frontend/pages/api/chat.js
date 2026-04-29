@@ -372,6 +372,7 @@ export default async function handler(req, res) {
     sessionSummary = "",
     userFacts = {},
     retrievalMode,
+    allSubModeMessages = {},
   } = req.body || {};
 
   // useChat injects the last user message directly into the messages array.
@@ -496,11 +497,26 @@ export default async function handler(req, res) {
     const courseData = await loadCourseRow(subject, course);
     const curriculumContext = buildCurriculumModeContext(courseData, effectiveRetrievalMode, lastMessage);
 
+    // Build cross-tab context: summarize other tabs' recent messages for AI awareness
+    const crossTabContext = Object.entries(allSubModeMessages)
+      .filter(([tabId, msgs]) => tabId !== effectiveRetrievalMode && Array.isArray(msgs) && msgs.length > 0)
+      .map(([tabId, msgs]) => {
+        const recent = msgs
+          .filter(m => m.role === 'user' || m.role === 'assistant')
+          .slice(-3)
+          .map(m => `  [${m.role}]: ${String(m.content || '').slice(0, 200)}`)
+          .join('\n');
+        return recent ? `[${tabId} tab]:\n${recent}` : null;
+      })
+      .filter(Boolean)
+      .join('\n\n');
+
     const systemPrompt = buildLangChainSystemPrompt({
       messages: effectiveMessages,
       sessionSummary: mediumTermSummary,
       userFacts,
       curriculumContext,
+      crossTabContext,
     });
 
     const apiKey = loadOpenRouterKey();

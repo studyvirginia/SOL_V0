@@ -5,7 +5,7 @@ export const MODE_MAP = {
     { id: "mnemonics", label: "Mnemonics & Patterns" }, 
     { id: "tips", label: "Tips, Tricks, Shortcuts" }, 
     { id: "analogies", label: "Analogies & Connections" }, 
-    { id: "questions", label: "Questions" }
+    { id: "questions", label: "Q & A" }
   ] },
   practice: { label: "Practice", subModes: [
     { id: "practice", label: "Adaptive Learning" }, 

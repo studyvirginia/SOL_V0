@@ -363,13 +363,16 @@ export default function ChatWindow({ session, onUpdateSession }) {
   const sessionRef = useRef(session);
   useEffect(() => { sessionRef.current = session; }, [session]);
 
+  // Per-tab message isolation: load only this sub-mode's messages
   const initialMessages = useMemo(() => {
-    return (session.messages || []).map((msg, idx) => ({
+    // Prefer per-tab store; fall back to legacy flat messages for old sessions
+    const tabMessages = session.subModeMessages?.[currentMode] || session.messages || [];
+    return tabMessages.map((msg, idx) => ({
       ...msg,
-      id: msg.id || `stable-id-${idx}`,
+      id: msg.id || `stable-id-${currentMode}-${idx}`,
       content: typeof msg.content === 'string' ? msg.content : getMessageContent(msg)
     }));
-  }, [session.id, session.messages?.length]); // Re-run if ID or count changes
+  }, [session.id, currentMode, (session.subModeMessages?.[currentMode] || session.messages)?.length]);
 
   const { 
     messages, 
@@ -379,7 +382,8 @@ export default function ChatWindow({ session, onUpdateSession }) {
     error: sdkError 
   } = useChat({
     api: "/api/chat",
-    id: session.id,
+    // Keyed per tab so each sub-mode gets its own stream state
+    id: `${session.id}-${currentMode}`,
     initialMessages: initialMessages,
     maxSteps: 10,
     body: {
@@ -446,7 +450,10 @@ export default function ChatWindow({ session, onUpdateSession }) {
       ? `\n\n[USER_INTERACTION_HISTORY]:\n${JSON.stringify(logsToUse, null, 2)}\n(End of interaction history.)`
       : "";
 
-    setInteractionLogs([]); 
+    setInteractionLogs([]);
+
+    // Build cross-tab context summary for the API
+    const allSubModeMessages = session.subModeMessages || {};
 
     sendMessage({ 
       text: (promptValue + interactionContext).trim()
@@ -458,6 +465,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
         retrievalMode: currentMode,
         sessionSummary: session.sessionSummary || "",
         userFacts: session.userFacts || {},
+        allSubModeMessages,
       }
     });
   };
@@ -469,8 +477,13 @@ export default function ChatWindow({ session, onUpdateSession }) {
       journey: { ...journey, currentSubMode: newSubMode },
     });
     if (shouldPrompt) {
+      // Only auto-send the start prompt if the tab has no messages yet
+      const tabMessages = session.subModeMessages?.[newSubMode] || [];
+      const isEmpty = tabMessages.length === 0;
       setTimeout(() => {
-         handleFormSubmit(null, `Start ${getSubModeLabel(newSubMode)} mode`);
+        if (isEmpty) {
+          handleFormSubmit(null, `Start ${getSubModeLabel(newSubMode)} mode`);
+        }
       }, 50);
     }
   };
@@ -520,7 +533,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
     }
   }, []);
 
-  // Ensure streaming messages and state are continually saved to local storage
+  // Ensure streaming messages are saved to the correct sub-mode tab
   useEffect(() => {
     if (messages && messages.length > 0) {
       const safeMessages = messages.map((msg, idx) => ({
@@ -529,13 +542,20 @@ export default function ChatWindow({ session, onUpdateSession }) {
         content: typeof msg.content === 'string' ? msg.content : getMessageContent(msg)
       }));
       
-      const stringifiedCurrent = JSON.stringify(session.messages || []);
+      const currentTabMessages = session.subModeMessages?.[currentMode] || session.messages || [];
+      const stringifiedCurrent = JSON.stringify(currentTabMessages);
       const stringifiedNew = JSON.stringify(safeMessages);
       if (stringifiedCurrent !== stringifiedNew) {
-         onUpdateSession({
-           ...sessionRef.current,
-           messages: safeMessages
-         });
+        onUpdateSession({
+          ...sessionRef.current,
+          // Write to the correct sub-mode tab
+          subModeMessages: {
+            ...(sessionRef.current.subModeMessages || {}),
+            [currentMode]: safeMessages,
+          },
+          // Also keep flat messages as the current tab's messages for backward compat
+          messages: safeMessages,
+        });
       }
     }
   }, [messages, onUpdateSession, session]);

@@ -286,6 +286,7 @@ export default function Home() {
       needs: modalNeeds || "",
       mathEngine: modalMathEngine,
     };
+    const welcomeMsg = { id: `init-${Date.now()}`, role: "assistant", content: INITIAL_MESSAGE_PARTS[0].text, parts: INITIAL_MESSAGE_PARTS };
     const newSession = {
       id: Date.now().toString(),
       name: formatName(modalCourse),
@@ -297,9 +298,16 @@ export default function Home() {
       focusDetail: detailValue || "",
       userFacts: personalization,
       sessionSummary: "",
-      messages: [{ id: `init-${Date.now()}`, role: "assistant", content: INITIAL_MESSAGE_PARTS[0].text, parts: INITIAL_MESSAGE_PARTS }],
+      // Per-tab message isolation: each sub-mode has its own thread
+      subModeMessages: DEFAULT_SUBMODES.reduce((acc, id) => {
+        acc[id] = id === INITIAL_SUBMODE ? [welcomeMsg] : [];
+        return acc;
+      }, {}),
+      // Legacy flat messages kept for backward compatibility
+      messages: [welcomeMsg],
       createdAt: Date.now()
     };
+
     
     // Save to IndexedDB
     db.sessions.put(newSession).catch(err => console.error("DB Save Error:", err));
