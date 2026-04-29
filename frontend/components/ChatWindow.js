@@ -875,26 +875,6 @@ export default function ChatWindow({ session, onUpdateSession }) {
                   </div>
                 );
               })}
-              {isChatLoading && messages.length > 0 && (messages[messages.length - 1].role === "user" || (messages[messages.length - 1].role === "assistant" && !messages[messages.length - 1].content && (!messages[messages.length - 1].toolInvocations || messages[messages.length - 1].toolInvocations.length === 0))) && (
-                <div className="w-full max-w-[900px] animate-in fade-in flex justify-center mt-4">
-                  <div className="w-full max-w-[850px] px-8 md:px-12 py-8 flex flex-col gap-5">
-                    <div className="flex items-center gap-4">
-                      <div className="relative flex h-8 w-8 items-center justify-center rounded-full bg-purple-100 dark:bg-purple-900/30">
-                        <svg className="h-5 w-5 animate-spin text-purple-600 dark:text-purple-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                        </svg>
-                      </div>
-                      <div className="h-3.5 w-32 rounded bg-gray-200 dark:bg-gray-700 animate-pulse"></div>
-                    </div>
-                    <div className="pl-12 space-y-3">
-                      <div className="h-3 w-full rounded bg-gray-100 dark:bg-gray-800 animate-pulse"></div>
-                      <div className="h-3 w-5/6 rounded bg-gray-100 dark:bg-gray-800 animate-pulse"></div>
-                      <div className="h-3 w-4/6 rounded bg-gray-100 dark:bg-gray-800 animate-pulse"></div>
-                    </div>
-                  </div>
-                </div>
-              )}
                 <div ref={bottomRef} className="h-4" />
                 {!isChatLoading && journey.completed[currentMode] && Array.isArray(messages) && messages.length > 0 && messages[messages.length-1]?.role === "assistant" && (
                    <QuickActions actions={(() => {
