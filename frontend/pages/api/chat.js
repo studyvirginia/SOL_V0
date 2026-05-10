@@ -12,6 +12,7 @@ export const maxDuration = 60;
 import fs from "fs";
 import path from "path";
 import { streamText, generateText, tool, jsonSchema } from "ai";
+import { z } from "zod";
 import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
 import {
   loadCourseRow,
@@ -291,10 +292,57 @@ const OPENROUTER_TOOLS = [
 // streamText needs tool() definitions for its response type inference.
 // The actual schemas are injected via the fetch interceptor above.
 const EMPTY = jsonSchema({ type: "object", properties: {} });
+
+const actionsSchema = z.array(z.object({
+  label: z.string(),
+  prompt: z.string(),
+  targetMode: z.string().optional(),
+  reason: z.string().optional()
+})).optional();
+
+const mcqZodSchema = z.object({
+  question: z.string(),
+  options: z.array(z.string()).min(2).max(5),
+  answer: z.number().int().min(0),
+  explanation: z.string(),
+  mode: z.enum(["diagnostic", "practice"]).optional(),
+  actions: actionsSchema
+}).superRefine((data, ctx) => {
+  if (data.answer >= data.options.length) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      message: `Answer index ${data.answer} is out of bounds for options array of length ${data.options.length}. MUST be between 0 and ${data.options.length - 1}.`,
+      path: ["answer"]
+    });
+  }
+});
+
+const quizZodSchema = z.object({
+  title: z.string(),
+  mode: z.enum(["diagnostic", "practice"]).optional(),
+  questions: z.array(z.object({
+    question: z.string(),
+    options: z.array(z.string()).min(2).max(5),
+    answer: z.number().int().min(0),
+    explanation: z.string()
+  })).min(1).max(15).superRefine((questions, ctx) => {
+    questions.forEach((q, idx) => {
+      if (q.answer >= q.options.length) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: `Question ${idx}: Answer index ${q.answer} is out of bounds for options array of length ${q.options.length}.`,
+          path: [idx, "answer"]
+        });
+      }
+    });
+  }),
+  actions: actionsSchema
+});
+
 const SDK_TOOLS = {
   showFlashcards: tool({ description: "Show flashcards",  parameters: EMPTY }),
-  showMCQ:        tool({ description: "Show MCQ",         parameters: EMPTY }),
-  showQuiz:       tool({ description: "Show quiz",        parameters: EMPTY }),
+  showMCQ:        tool({ description: "Show MCQ",         parameters: mcqZodSchema }),
+  showQuiz:       tool({ description: "Show quiz",        parameters: quizZodSchema }),
   showActions:    tool({ description: "Show actions",     parameters: EMPTY }),
   showImage:      tool({ 
     description: "Insert a real-world photo or educational diagram. You HAVE this capability. NEVER apologize for image access. Provide a descriptive search query and context snippet.", 
@@ -542,6 +590,7 @@ export default async function handler(req, res) {
       tools: SDK_TOOLS,
       toolChoice: forceToolUse ? "required" : "auto",
       maxSteps: 10,
+      maxRetries: 3,
       maxTokens: 8000,
       temperature: 0.4,
       experimental_continueSteps: true,
