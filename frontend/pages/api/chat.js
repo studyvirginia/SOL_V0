@@ -569,8 +569,15 @@ export default async function handler(req, res) {
 
   try {
 
-    const courseData = await loadCourseRow(subject, course);
-    const curriculumContext = buildCurriculumModeContext(courseData, effectiveRetrievalMode, lastMessage);
+    let courseData = null;
+    let curriculumContext = "";
+    try {
+      courseData = await loadCourseRow(subject, course);
+      curriculumContext = buildCurriculumModeContext(courseData, effectiveRetrievalMode, lastMessage);
+    } catch (err) {
+      console.warn(`Could not load static course data for ${subject}/${course}. Proceeding with custom context.`);
+      curriculumContext = `The student is studying a custom course: ${course} (${subject}). Focus entirely on adapting to their specific requests and the provided area of focus.`;
+    }
 
     let systemPrompt = buildLangChainSystemPrompt({
       messages: effectiveMessages,
