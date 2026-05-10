@@ -427,7 +427,7 @@ export default function ChatWindow({ session, onUpdateSession, onAwardPoints }) 
     }
   };
 
-  const getMessageContent = (m) => {
+  function getMessageContent(m) {
     if (typeof m.content === "string" && m.content.length > 0) return m.content;
     if (Array.isArray(m.parts) && m.parts.length > 0) {
       return m.parts
@@ -435,7 +435,7 @@ export default function ChatWindow({ session, onUpdateSession, onAwardPoints }) 
         .join("");
     }
     return typeof m.content === "string" ? m.content : "";
-  };
+  }
 
   const handleFormSubmit = async (e, overrideText = null, overrideLogs = null) => {
     e?.preventDefault?.();
