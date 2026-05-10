@@ -447,6 +447,7 @@ export default async function handler(req, res) {
     sessionSummary = "",
     userFacts = {},
     retrievalMode,
+    journey = {},
   } = req.body || {};
 
   // useChat injects the last user message directly into the messages array.
@@ -578,6 +579,18 @@ export default async function handler(req, res) {
       curriculumContext,
     });
     
+    // Inject Session Journey Context
+    if (journey.blocks && journey.blocks.length > 0) {
+      const currentBlockIndex = journey.currentIndex || 0;
+      const plannedSequence = journey.blocks.join(" -> ");
+      const nextBlock = currentBlockIndex < journey.blocks.length - 1 ? journey.blocks[currentBlockIndex + 1] : "None (Session Complete)";
+      systemPrompt += `\n\n--- SESSION NAVIGATION ---
+The student has constructed a custom study session consisting of these blocks: [${plannedSequence}].
+They are currently in the '${effectiveRetrievalMode}' block.
+CRITICAL INSTRUCTION: When you believe the student has sufficiently completed the mission for the '${effectiveRetrievalMode}' mode, you MUST use the showActions tool to offer them a button to transition to the next block.
+The next planned block is: ${nextBlock}. Set the action button's 'targetMode' to '${nextBlock}'.`;
+    }
+
     // Inject a random seed to prevent identical generated questions when temperature is low
     systemPrompt += `\n[Internal Randomization Seed: ${Math.random()}]\nCRITICAL: Use this random seed to ensure that your generated examples, numbers, and scenarios are completely unique from previous interactions.`;
 

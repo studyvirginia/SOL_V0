@@ -336,7 +336,7 @@ function getRecommendedSubMode(currentSubMode, completedMap = {}) {
   return null;
 }
 
-export default function ChatWindow({ session, onUpdateSession }) {
+export default function ChatWindow({ session, onUpdateSession, onAwardPoints }) {
   const bottomRef = useRef(null);
 
   const subject = session.subject || "";
@@ -379,6 +379,7 @@ export default function ChatWindow({ session, onUpdateSession }) {
       retrievalMode: currentMode,
       sessionSummary: session.sessionSummary || "",
       userFacts: session.userFacts || {},
+      journey: session.journey || {},
     },
     onFinish: () => {
       onUpdateSession({ 
@@ -453,10 +454,17 @@ export default function ChatWindow({ session, onUpdateSession }) {
   };
 
   const switchSubMode = (newSubMode, shouldPrompt = false) => {
+    const blocks = sessionRef.current.journey?.blocks || [];
+    const newIndex = blocks.indexOf(newSubMode);
+
     onUpdateSession({
       ...sessionRef.current,
       retrievalMode: newSubMode,
-      journey: { ...journey, currentSubMode: newSubMode },
+      journey: { 
+        ...journey, 
+        currentSubMode: newSubMode,
+        currentIndex: newIndex >= 0 ? newIndex : journey.currentIndex
+      },
     });
     if (shouldPrompt) {
       setTimeout(() => {
@@ -470,14 +478,14 @@ export default function ChatWindow({ session, onUpdateSession }) {
     const subModeLabel = getSubModeLabel(currentMode);
     const nextRecommended = getRecommendedSubMode(currentMode, { ...journey.completed, [currentMode]: true });
 
+    if (onAwardPoints) onAwardPoints(50); // Award points!
+
     setMessages((prev) => [
       ...prev,
       {
         id: `${Date.now()}_nav_complete`,
         role: "assistant",
-        content: nextRecommended
-          ? `You completed **${subModeLabel}**. Recommended next: **${getSubModeLabel(nextRecommended.subModeId)}**. Use the navigation buttons below to continue.`
-          : `You completed **${subModeLabel}**. Nice work. You can review any mode or continue practicing.`,
+        content: `You completed **${subModeLabel}**. Great job! +50 Mastery Points.`,
       },
     ]);
 
@@ -538,90 +546,69 @@ export default function ChatWindow({ session, onUpdateSession }) {
 
   const activePillar = Object.entries(MODE_MAP).find(([key, pillar]) => pillar.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
 
+  const journeyBlocks = session.journey?.blocks || [];
+  const currentBlockIndex = session.journey?.currentIndex || 0;
+  const isPauseScreen = session.journey?.completed?.[currentMode] === true;
+
+  const handleNextBlock = () => {
+    const nextIndex = currentBlockIndex + 1;
+    if (nextIndex < journeyBlocks.length) {
+      const nextMode = journeyBlocks[nextIndex];
+      onUpdateSession({
+        ...sessionRef.current,
+        retrievalMode: nextMode,
+        journey: {
+          ...journey,
+          currentIndex: nextIndex,
+          currentSubMode: nextMode
+        }
+      });
+      setTimeout(() => {
+        handleFormSubmit(null, `Start ${getSubModeLabel(nextMode)} mode`);
+      }, 50);
+    } else {
+      if (onAwardPoints) onAwardPoints(100);
+      alert("Session fully completed! +100 Bonus Points");
+    }
+  };
+
   return (
-    <div className="flex h-full w-full gap-4 md:gap-8">
-            <div className="w-[200px] hidden lg:flex flex-col shrink-0 space-y-1 h-full py-6 text-gray-800 dark:text-gray-300">
-              <div className="mb-8">
-                <div className="inline-flex flex-col w-full rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 border border-blue-100/50 dark:border-blue-800/50 px-4 py-3 shadow-sm">
-                  <div className="text-[0.55rem] font-black uppercase tracking-widest text-blue-600 dark:text-blue-400 opacity-80 mb-0.5 truncate">
-                    {course || subject || "Course"}
-                  </div>
-                  <div className="text-[0.75rem] font-extrabold text-slate-800 dark:text-slate-200 leading-tight line-clamp-2">
-                    {session.focusDetail || session.userFacts?.focusTopic || session.sessionFocus || session.userFacts?.areaOfFocus || "General Review"} Prep
-                  </div>
+    <div className="flex flex-col h-full w-full">
+      {/* Top Journey Bar */}
+      {journeyBlocks.length > 0 && (
+        <div className="w-full flex items-center justify-center gap-2 py-4 px-6 border-b border-gray-100 dark:border-gray-800/60 bg-white/50 dark:bg-gray-900/50 backdrop-blur-md">
+          {journeyBlocks.map((block, idx) => {
+            const isCompleted = session.journey?.completed?.[block];
+            const isActive = currentMode === block;
+            return (
+              <React.Fragment key={idx}>
+                <div 
+                  onClick={() => switchSubMode(block, false)}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer hover:opacity-80 ${isActive ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30' : isCompleted ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' : 'bg-gray-100 text-gray-400 dark:bg-gray-800 dark:text-gray-500'}`}>
+                   {isCompleted ? <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg> : <span className="w-3.5 h-3.5 flex items-center justify-center rounded-full bg-current opacity-20">{idx + 1}</span>}
+                   {getSubModeLabel(block)}
                 </div>
-              </div>
-              {Object.entries(MODE_MAP).map(([pillarKey, pillarData]) => {
-                const isActivePillar = activePillar === pillarKey;
-                const stat = completionStats.find(s => s.modeKey === pillarKey);
-                // Show submodes only if NOT diagnostic or progress pillar
-                const hasSubModes = pillarKey !== 'diagnostic' && pillarKey !== 'progress';
+                {idx < journeyBlocks.length - 1 && <div className={`w-6 h-0.5 rounded-full ${isCompleted ? 'bg-green-400/50' : 'bg-gray-200 dark:bg-gray-700'}`}></div>}
+              </React.Fragment>
+            );
+          })}
+        </div>
+      )}
 
-                return (
-                  <div key={pillarKey} className="flex flex-col">
-                    {pillarKey === 'progress' && <hr className="my-2 border-gray-100 dark:border-gray-800" />}
-                    <div
-                      className={`flex items-center justify-between px-2 py-2 rounded-xl cursor-pointer transition-colors ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-extrabold" : "font-semibold hover:bg-gray-100 dark:hover:bg-gray-800/50"}`}
-                      onClick={() => { 
-                         if (!isActivePillar && pillarData.subModes.length > 0) {
-                            switchSubMode(pillarData.subModes[0].id, true);
-                         } 
-                      }}
-                    >
-                      <span className={`text-[0.75rem] uppercase tracking-widest ${isActivePillar ? "text-blue-600 dark:text-blue-400 font-black" : "text-gray-400 dark:text-gray-500 font-bold opacity-70"}`}>{pillarData.label}</span>
-                      {stat && pillarKey !== "progress" && pillarKey !== 'diagnostic' && <span className="text-[0.7rem] font-bold opacity-80">{stat.done}/{stat.total}</span>}
-                    </div>
-                    
-                    {hasSubModes && (
-                      <div className={`flex flex-col space-y-0.5 ml-2 transition-all overflow-hidden ${isActivePillar ? "max-h-[500px] mt-1 mb-3 opacity-100" : "max-h-0 opacity-0"}`}>
-                        {isActivePillar && pillarData.subModes.map((sub) => (
-                          <button key={sub.id} onClick={() => switchSubMode(sub.id, true)} className={`group relative flex items-center justify-between px-2 py-1.5 rounded-lg text-[0.8rem] transition-colors ${currentMode === sub.id ? "bg-blue-600 font-bold text-white shadow-md shadow-blue-500/20" : "font-medium text-gray-500 hover:text-gray-800 dark:hover:text-gray-300 hover:bg-gray-100/50 dark:hover:bg-gray-800/50"}`}>
-                            <span className="truncate pr-2">{sub.label}</span>
-                            <span className="flex-shrink-0 text-[0.75rem] font-black">{journey.completed[sub.id] ? "✓" : recommended?.subModeId === sub.id ? "★" : ""}</span>
-                          </button>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-
-              <div className="mt-4 pt-2 px-2 border-t border-gray-50 dark:border-gray-800/20">
-                <div className="flex items-center gap-1.5 text-[0.55rem] font-bold text-slate-400 uppercase tracking-widest opacity-50">
-                   <span className="text-blue-500 text-xs leading-none">★</span>
-                   <span>= Recommended Next</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative flex h-full flex-col flex-1 overflow-hidden bg-transparent">
-              <div className="custom-scrollbar flex-1 space-y-12 overflow-y-auto px-4 pt-24 pb-12 sm:px-6 lg:px-12 flex flex-col items-center">
-                {messages.length === 0 && currentMode === 'diagnostic' && (
-                  <div className="flex flex-col items-center justify-center min-h-[60vh] w-full max-w-2xl text-center space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
-                    <div className="p-6 bg-amber-50 dark:bg-amber-900/10 rounded-3xl text-amber-600 dark:text-amber-400 shadow-inner">
-                      <svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-                    </div>
-                    <div>
-                      <h2 className="text-4xl font-black text-gray-900 dark:text-white mb-4 tracking-tight">Ready for your Diagnostic?</h2>
-                      <p className="text-[1.05rem] leading-relaxed text-gray-500 dark:text-gray-400 mb-10 max-w-xl mx-auto">We'll ask a few questions to evaluate your baseline mastery and tailor the rest of the curriculum specifically to your needs.</p>
-                      
-                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <button 
-                          onClick={() => handleFormSubmit(null, "Begin Diagnostic")}
-                          className="px-10 py-5 bg-amber-500 text-white rounded-2xl font-black text-[1.1rem] shadow-xl shadow-amber-500/20 transition-all hover:scale-105 active:scale-95"
-                        >
-                          Start Diagnostic
-                        </button>
-                        <button 
-                          onClick={() => switchSubMode('notes', true)}
-                          className="px-10 py-5 bg-gray-100 dark:bg-gray-800/50 text-gray-600 dark:text-gray-400 rounded-2xl font-bold text-[1.1rem] border border-gray-200 dark:border-gray-700 transition-all hover:bg-gray-200 dark:hover:bg-gray-800 active:scale-95"
-                        >
-                          Skip for now
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                )}
+      <div className="relative flex h-full flex-col flex-1 overflow-hidden bg-transparent">
+        <div className="custom-scrollbar flex-1 space-y-12 overflow-y-auto px-4 pt-12 pb-12 sm:px-6 lg:px-12 flex flex-col items-center">
+          
+          {messages.length === 0 ? (
+             <div className="flex flex-col items-center justify-center min-h-[50vh] w-full text-center animate-in fade-in slide-in-from-bottom-4 duration-700">
+                <button 
+                  onClick={() => handleFormSubmit(null, `Start ${getSubModeLabel(currentMode)} mode`)}
+                  className="px-10 py-5 bg-blue-600 text-white rounded-2xl font-black text-[1.1rem] shadow-xl shadow-blue-500/20 transition-all hover:scale-105 active:scale-95"
+                >
+                  Start {getSubModeLabel(currentMode)}
+                </button>
+             </div>
+          ) : (
+             <>
                 {messages.map((m, idx) => {
                   const isUser = m.role === "user";
                   const isStreaming = isChatLoading && idx === messages.length - 1 && !isUser;
@@ -875,39 +862,63 @@ export default function ChatWindow({ session, onUpdateSession }) {
                   </div>
                 );
               })}
-                <div ref={bottomRef} className="h-4" />
-                {!isChatLoading && journey.completed[currentMode] && Array.isArray(messages) && messages.length > 0 && messages[messages.length-1]?.role === "assistant" && (
-                   <QuickActions actions={(() => {
+              {isPauseScreen && (
+                <div className="w-full max-w-3xl flex flex-col items-center justify-center py-12 animate-in zoom-in-95 duration-500 bg-green-50/50 dark:bg-green-900/10 rounded-3xl border border-green-100 dark:border-green-900/30 mt-8 shadow-sm">
+                   <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-emerald-600 rounded-full flex items-center justify-center shadow-lg shadow-green-500/30 text-white mb-3">
+                      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg>
+                   </div>
+                   <h2 className="text-2xl font-extrabold text-gray-900 dark:text-white">Block Completed!</h2>
+                   <p className="text-gray-500 dark:text-gray-400 font-medium">+50 Mastery Points added to your course score.</p>
+                   <button 
+                      onClick={handleNextBlock}
+                      className="mt-6 px-8 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-xl font-bold shadow-xl transition-all hover:scale-105 active:scale-95"
+                   >
+                      {currentBlockIndex < journeyBlocks.length - 1 ? `Start ${getSubModeLabel(journeyBlocks[currentBlockIndex + 1])}` : "Finish Session"}
+                   </button>
+                </div>
+              )}
+              {!isChatLoading && isPauseScreen && Array.isArray(messages) && messages.length > 0 && messages[messages.length-1]?.role === "assistant" && (
+                <QuickActions 
+                  actions={(() => {
                      const pk = Object.entries(MODE_MAP).find(([, mode]) => mode.subModes.some(sub => sub.id === currentMode))?.[0] || "review";
                      const lat = MODE_MAP[pk].subModes.filter(s => s.id !== currentMode && !journey.completed[s.id]).map(s => s.id);
                      const pks = Object.keys(MODE_MAP);
                      const nk = pks[pks.indexOf(pk) + 1];
                      return [...lat, nk].filter(Boolean);
-                   })()} currentSubMode={currentMode} onSwitch={switchSubMode} onSend={(prompt) => handleFormSubmit(null, prompt)} />
-                )}
-                <div className="h-24" />
-              </div>
-
-              <form onSubmit={handleFormSubmit} className="absolute bottom-4 inset-x-0 flex justify-center px-4 pointer-events-none w-full">
-                <div className="w-full max-w-[850px] pointer-events-auto flex items-center gap-2 rounded-xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.08)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/10">
-                  <input
-                    className="flex-1 bg-transparent py-3.5 pl-6 pr-16 text-[1.05rem] font-medium text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none"
-                    value={draftInput}
-                    onChange={handleInput}
-                    placeholder="Ask a mathematical question..."
-                  />
-                  <button type="submit" className="absolute right-2 top-2 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isChatLoading || !draftInput.trim()}>
-                    <SendIcon className="h-5 w-5" />
-                  </button>
-                </div>
-              </form>
-
-              {localError && (
-                <div className="absolute top-12 inset-x-0 flex justify-center">
-                  <p className="rounded-full bg-red-100 dark:bg-red-900/50 px-4 py-2 text-xs font-semibold text-red-600 dark:text-red-400 backdrop-blur-md shadow-lg">{localError || "Connection lost"}</p>
-                </div>
+                  })()} 
+                  currentSubMode={currentMode} 
+                  onSwitch={switchSubMode} 
+                  onSend={(prompt) => handleFormSubmit(null, prompt)} 
+                />
               )}
+              </>
+            )}
+            <div ref={bottomRef} className="h-4" />
+            <div className="h-24" />
+          </div>
+
+          {messages.length > 0 && (
+            <form onSubmit={handleFormSubmit} className="absolute bottom-4 inset-x-0 flex justify-center px-4 pointer-events-none w-full">
+              <div className="w-full max-w-[850px] pointer-events-auto flex items-center gap-2 rounded-xl bg-white/90 dark:bg-gray-800/90 shadow-[0_8px_30px_rgba(0,0,0,0.08)] dark:shadow-black/40 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 p-1 transition-shadow focus-within:ring-4 focus-within:ring-blue-500/10">
+                <input
+                  className="flex-1 bg-transparent py-3.5 pl-6 pr-16 text-[1.05rem] font-medium text-gray-800 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none"
+                  value={draftInput}
+                  onChange={handleInput}
+                  placeholder="Ask a mathematical question..."
+                />
+                <button type="submit" className="absolute right-2 top-2 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-blue-600 text-white shadow-md transition-all hover:scale-105 active:scale-95 disabled:opacity-50" disabled={isChatLoading || !draftInput.trim()}>
+                  <SendIcon className="h-5 w-5" />
+                </button>
+              </div>
+            </form>
+          )}
+
+          {localError && (
+            <div className="absolute top-12 inset-x-0 flex justify-center">
+              <p className="rounded-full bg-red-100 dark:bg-red-900/50 px-4 py-2 text-xs font-semibold text-red-600 dark:text-red-400 backdrop-blur-md shadow-lg">{localError || "Connection lost"}</p>
             </div>
+          )}
         </div>
+    </div>
   );
 }
