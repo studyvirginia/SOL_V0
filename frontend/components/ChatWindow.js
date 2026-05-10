@@ -394,6 +394,19 @@ export default function ChatWindow({ session, onUpdateSession, onAwardPoints }) 
 
   const isChatLoading = status === 'submitted' || status === 'streaming';
 
+  useEffect(() => {
+    // Persist messages to IndexedDB (via onUpdateSession) when the chat finishes loading
+    if (!isChatLoading && messages && messages.length > 0) {
+      if (sessionRef.current.messages?.length !== messages.length || 
+          JSON.stringify(sessionRef.current.messages) !== JSON.stringify(messages)) {
+        onUpdateSession({
+          ...sessionRef.current,
+          messages: messages
+        });
+      }
+    }
+  }, [messages, isChatLoading, onUpdateSession]);
+
   const handleInput = (e) => setDraftInput(e.target.value);
 
   const handleAction = (type, data) => {
