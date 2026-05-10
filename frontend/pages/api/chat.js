@@ -544,12 +544,15 @@ export default async function handler(req, res) {
     const courseData = await loadCourseRow(subject, course);
     const curriculumContext = buildCurriculumModeContext(courseData, effectiveRetrievalMode, lastMessage);
 
-    const systemPrompt = buildLangChainSystemPrompt({
+    let systemPrompt = buildLangChainSystemPrompt({
       messages: effectiveMessages,
       sessionSummary: mediumTermSummary,
       userFacts,
       curriculumContext,
     });
+    
+    // Inject a random seed to prevent identical generated questions when temperature is low
+    systemPrompt += `\n[Internal Randomization Seed: ${Math.random()}]\nCRITICAL: Use this random seed to ensure that your generated examples, numbers, and scenarios are completely unique from previous interactions.`;
 
     const apiKey = loadOpenRouterKey();
     const modelId = process.env.CHAT_MODEL || "google/gemini-2.0-flash-lite-001";
