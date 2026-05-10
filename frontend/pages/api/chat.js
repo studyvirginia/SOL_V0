@@ -314,6 +314,20 @@ const mcqZodSchema = z.object({
       message: `Answer index ${data.answer} is out of bounds for options array of length ${data.options.length}. MUST be between 0 and ${data.options.length - 1}.`,
       path: ["answer"]
     });
+  } else {
+    // Cross-check that the correct answer is actually mentioned in the explanation
+    const correctAnswerText = data.options[data.answer].trim();
+    const normalize = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const normAns = normalize(correctAnswerText);
+    const normExp = normalize(data.explanation);
+    
+    if (normAns.length > 0 && !normExp.includes(normAns) && !data.explanation.toLowerCase().includes("option")) {
+       ctx.addIssue({
+         code: z.ZodIssueCode.custom,
+         message: `CRITICAL MATH/LOGIC ERROR: Your explanation DOES NOT contain the exact correct answer text ("${correctAnswerText}"). You either hallucinated an option or miscalculated. Re-evaluate step-by-step and regenerate valid options.`,
+         path: ["explanation"]
+       });
+    }
   }
 });
 
@@ -333,6 +347,19 @@ const quizZodSchema = z.object({
           message: `Question ${idx}: Answer index ${q.answer} is out of bounds for options array of length ${q.options.length}.`,
           path: [idx, "answer"]
         });
+      } else {
+        const correctAnswerText = q.options[q.answer].trim();
+        const normalize = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+        const normAns = normalize(correctAnswerText);
+        const normExp = normalize(q.explanation);
+        
+        if (normAns.length > 0 && !normExp.includes(normAns) && !q.explanation.toLowerCase().includes("option")) {
+           ctx.addIssue({
+             code: z.ZodIssueCode.custom,
+             message: `CRITICAL ERROR on Q${idx}: Your explanation DOES NOT contain the correct answer text ("${correctAnswerText}"). You likely made a calculation error. Regenerate the question.`,
+             path: [idx, "explanation"]
+           });
+        }
       }
     });
   }),
