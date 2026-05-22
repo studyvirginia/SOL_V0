@@ -1,6 +1,5 @@
-import { generateObject } from 'ai';
+import { generateText } from 'ai';
 import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
-import { z } from 'zod';
 
 const openrouter = createOpenAICompatible({
   name: "openrouter",
@@ -21,22 +20,31 @@ export default async function handler(req, res) {
   try {
     const model = openrouter('google/gemini-2.5-pro');
 
-    const result = await generateObject({
+    const result = await generateText({
       model,
-      schema: z.object({
-        curriculum: z.array(
-          z.object({
-            type: z.enum(["domain", "standard"]).describe("Whether this is a broad 'domain' or a specific 'standard'"),
-            title: z.string().describe("The title of the domain or standard"),
-            description: z.string().optional().describe("A brief description (required for standards, optional for domains)")
-          })
-        ).describe("The sequence of domains and standards synthesized from the provided text. A domain should group subsequent standards until the next domain.")
-      }),
-      system: `You are an expert curriculum designer. You will be provided with raw text (such as a textbook index, syllabus, or course outline). Your task is to synthesize this text into a structured, chronological curriculum outline consisting of 'domains' (broad units) and 'standards' (specific topics). Output ONLY valid JSON matching the schema.`,
-      prompt: `Synthesize the following text into a curriculum outline:\n\n${text}`,
+      system: `You are an expert curriculum designer. You will be provided with raw text (such as a textbook index, syllabus, or course outline). 
+Your task is to synthesize this text into a structured, chronological curriculum outline consisting of 'domains' (broad units) and 'standards' (specific topics).
+You MUST output ONLY a valid JSON array and NOTHING ELSE. No markdown formatting, no backticks, no explanations.
+The JSON array must contain objects with this structure:
+{
+  "type": "domain" or "standard",
+  "title": "Name of the domain or standard",
+  "description": "Brief description (optional for domains, required for standards)"
+}`,
+      prompt: `Synthesize the following text into a JSON curriculum outline:\n\n${text}`,
     });
 
-    return res.status(200).json({ curriculum: result.object.curriculum });
+    let rawJson = result.text.trim();
+    // Sometimes LLMs still add markdown backticks despite instructions
+    if (rawJson.startsWith('```json')) {
+      rawJson = rawJson.replace(/^```json\n?/, '').replace(/\n?```$/, '');
+    } else if (rawJson.startsWith('```')) {
+      rawJson = rawJson.replace(/^```\n?/, '').replace(/\n?```$/, '');
+    }
+
+    const curriculum = JSON.parse(rawJson);
+
+    return res.status(200).json({ curriculum });
   } catch (error) {
     console.error("Error generating curriculum:", error);
     return res.status(500).json({ error: error.message });
