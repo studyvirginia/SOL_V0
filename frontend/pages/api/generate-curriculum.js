@@ -1,4 +1,4 @@
-import { generateObject } from 'ai';
+import { generateText } from 'ai';
 import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
 import { z } from 'zod';
 
