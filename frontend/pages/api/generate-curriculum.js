@@ -19,30 +19,39 @@ export default async function handler(req, res) {
   }
 
   try {
-    const model = openrouter('google/gemini-2.5-pro');
+    const result = await generateText({
+      model: openrouter('openai/gpt-4o-mini'),
+      maxTokens: 4000,
+      system: `You are an expert curriculum designer. You will be provided with raw text (such as a textbook index, syllabus, or course outline). Your task is to synthesize this text into a structured, chronological curriculum outline consisting of 'domains' (broad units) and 'standards' (specific topics). Output ONLY valid JSON matching this exact structure:
 
-    const result = await generateObject({
-      model,
-      schema: z.object({
-        domains: z.array(
-          z.object({
-            title: z.string().describe("The name of the broad domain or unit (e.g., 'Unit 1: Fundamentals')"),
-            standards: z.array(
-              z.object({
-                title: z.string().describe("The specific topic or standard title (e.g., 'Introduction to Limits')"),
-                description: z.string().describe("A brief description of what the standard entails")
-              })
-            ).describe("The specific topics/standards within this domain.")
-          })
-        ).describe("The sequence of domains synthesized from the provided text.")
-      }),
-      system: `You are an expert curriculum designer. You will be provided with raw text (such as a textbook index, syllabus, or course outline). Your task is to synthesize this text into a structured, chronological curriculum outline consisting of 'domains' (broad units) and 'standards' (specific topics). Output ONLY valid JSON matching the schema.`,
+{
+  "domains": [
+    {
+      "title": "Unit 1: Fundamentals",
+      "standards": [
+        {
+          "title": "Introduction to Limits",
+          "description": "A brief description of what the standard entails"
+        }
+      ]
+    }
+  ]
+}
+
+DO NOT wrap the output in markdown code blocks. Output raw JSON only.`,
       prompt: `Synthesize the following text into a curriculum outline:\n\n${text}`,
     });
 
+    let parsed;
+    try {
+      parsed = JSON.parse(result.text.replace(/```json/g, '').replace(/```/g, '').trim());
+    } catch (e) {
+      throw new Error("Failed to parse AI output as JSON: " + result.text);
+    }
+
     const flatCurriculum = [];
-    if (result.object.domains) {
-      for (const domain of result.object.domains) {
+    if (parsed.domains) {
+      for (const domain of parsed.domains) {
         flatCurriculum.push({ type: 'domain', title: domain.title });
         if (domain.standards) {
           for (const standard of domain.standards) {
