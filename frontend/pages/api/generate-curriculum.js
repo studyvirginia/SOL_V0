@@ -1,9 +1,11 @@
 import { generateObject } from 'ai';
-import { createGoogleGenerativeAI } from '@ai-sdk/google';
+import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
 import { z } from 'zod';
 
-const google = createGoogleGenerativeAI({
-  apiKey: process.env.GEMINI_API_KEY,
+const openrouter = createOpenAICompatible({
+  name: "openrouter",
+  apiKey: process.env.OPENROUTER_API_KEY,
+  baseURL: "https://openrouter.ai/api/v1",
 });
 
 export default async function handler(req, res) {
@@ -17,7 +19,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const model = google('gemini-2.5-pro');
+    const model = openrouter('google/gemini-2.5-pro');
 
     const result = await generateObject({
       model,
