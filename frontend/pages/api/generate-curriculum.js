@@ -23,23 +23,23 @@ export default async function handler(req, res) {
   try {
     const result = await generateText({
       model: openrouter('openai/gpt-4o-mini'),
-      maxTokens: 4000,
       system: `You are an expert curriculum designer. You will be provided with raw text (such as a textbook index, syllabus, or course outline). Your task is to synthesize this text into a structured, chronological curriculum outline consisting of 'domains' (broad units) and 'standards' (specific topics). Output ONLY valid JSON matching this exact structure:
 
 {
   "domains": [
     {
-      "title": "Unit 1: Fundamentals",
+      "title": "Unit 1: [Name of Unit based on text]",
       "standards": [
         {
-          "title": "Introduction to Limits",
-          "description": "A brief description of what the standard entails"
+          "title": "[Specific Topic based on text]",
+          "description": "A brief description of what this topic entails based on the provided text"
         }
       ]
     }
   ]
 }
 
+CRITICAL: DO NOT copy the placeholder text from the example above. You MUST generate the curriculum based entirely on the user's provided text.
 DO NOT wrap the output in markdown code blocks. Output raw JSON only.`,
       prompt: `Synthesize the following text into a curriculum outline:\n\n${text}`,
     });
