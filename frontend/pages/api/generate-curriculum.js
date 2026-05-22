@@ -8,6 +8,8 @@ const openrouter = createOpenAICompatible({
   baseURL: "https://openrouter.ai/api/v1",
 });
 
+export const maxDuration = 60;
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
@@ -44,18 +46,20 @@ DO NOT wrap the output in markdown code blocks. Output raw JSON only.`,
 
     let parsed;
     try {
-      parsed = JSON.parse(result.text.replace(/```json/g, '').replace(/```/g, '').trim());
+      parsed = JSON.parse(result.text.replace(/```json/gi, '').replace(/```/g, '').trim());
     } catch (e) {
       throw new Error("Failed to parse AI output as JSON: " + result.text);
     }
 
     const flatCurriculum = [];
-    if (parsed.domains) {
-      for (const domain of parsed.domains) {
-        flatCurriculum.push({ type: 'domain', title: domain.title });
-        if (domain.standards) {
+    const domains = parsed.domains || parsed.curriculum?.domains || (Array.isArray(parsed) ? parsed : []);
+    
+    if (domains && Array.isArray(domains)) {
+      for (const domain of domains) {
+        flatCurriculum.push({ type: 'domain', title: domain.title || "Untitled Domain" });
+        if (domain.standards && Array.isArray(domain.standards)) {
           for (const standard of domain.standards) {
-            flatCurriculum.push({ type: 'standard', title: standard.title, description: standard.description });
+            flatCurriculum.push({ type: 'standard', title: standard.title, description: standard.description || "" });
           }
         }
       }

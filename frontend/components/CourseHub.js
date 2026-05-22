@@ -92,27 +92,36 @@ export default function CourseHub({ courses, onCreateCourse, onSelectCourse, onD
   const handleCreate = async (e) => {
     e.preventDefault();
     if (isCustom) {
-      if (!customCourseName || !customSyllabusText) return;
+      if (!customCourseName || !customSyllabusText) {
+        alert("Please provide both a course name and the syllabus/outline text.");
+        return;
+      }
       setIsGenerating(true);
       try {
+        console.log("Submitting custom curriculum to API...");
         const res = await fetch("/api/generate-curriculum", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ text: customSyllabusText })
         });
+        
         const data = await res.json();
-        if (data.curriculum) {
+        console.log("API Response Data:", data);
+        
+        if (data.curriculum && data.curriculum.length > 0) {
+          console.log("Successfully received curriculum, calling onCreateCourse...");
           onCreateCourse({ subject: "Custom", course: customCourseName, curriculum: data.curriculum });
           setIsModalOpen(false);
           setCustomCourseName('');
           setCustomSyllabusText('');
           setIsCustom(false);
         } else {
-          alert("Failed to generate curriculum: " + (data.error || "Unknown error"));
+          console.error("Failed to generate curriculum. No curriculum array returned.", data);
+          alert("Failed to generate curriculum: " + (data.error || "The AI didn't return a valid outline. Try modifying your text."));
         }
       } catch (err) {
-        console.error(err);
-        alert("Failed to generate curriculum.");
+        console.error("Network or parsing error generating curriculum:", err);
+        alert("Failed to generate curriculum. Please check your console.");
       }
       setIsGenerating(false);
     } else {
