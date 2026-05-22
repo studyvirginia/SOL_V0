@@ -462,6 +462,7 @@ export default function ChatWindow({ session, onUpdateSession, onAwardPoints }) 
         retrievalMode: currentMode,
         sessionSummary: session.sessionSummary || "",
         userFacts: session.userFacts || {},
+        ...(session.curriculum ? { curriculum: session.curriculum } : {})
       }
     });
   };

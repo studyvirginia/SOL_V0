@@ -448,6 +448,7 @@ export default async function handler(req, res) {
     userFacts = {},
     retrievalMode,
     journey = {},
+    curriculum,
   } = req.body || {};
 
   // useChat injects the last user message directly into the messages array.
@@ -571,12 +572,22 @@ export default async function handler(req, res) {
 
     let courseData = null;
     let curriculumContext = "";
-    try {
-      courseData = await loadCourseRow(subject, course);
-      curriculumContext = buildCurriculumModeContext(courseData, effectiveRetrievalMode, lastMessage);
-    } catch (err) {
-      console.warn(`Could not load static course data for ${subject}/${course}. Proceeding with custom context.`);
-      curriculumContext = `The student is studying a custom course: ${course} (${subject}). Focus entirely on adapting to their specific requests and the provided area of focus.`;
+    if (curriculum && Array.isArray(curriculum)) {
+      console.log(`Using custom curriculum for ${subject}/${course}`);
+      const curriculumStr = curriculum.map(c => 
+        c.type === 'domain' ? `\nDomain: ${c.title}` : `- Standard: ${c.title} (${c.description})`
+      ).join('\n');
+      curriculumContext = `The student is studying a custom course: ${course} (${subject}). Focus entirely on adapting to their specific requests and the provided area of focus. 
+      Here is the overall curriculum outline for this course:
+      ${curriculumStr}`;
+    } else {
+      try {
+        courseData = await loadCourseRow(subject, course);
+        curriculumContext = buildCurriculumModeContext(courseData, effectiveRetrievalMode, lastMessage);
+      } catch (err) {
+        console.warn(`Could not load static course data for ${subject}/${course}. Proceeding with custom context.`);
+        curriculumContext = `The student is studying a custom course: ${course} (${subject}). Focus entirely on adapting to their specific requests and the provided area of focus.`;
+      }
     }
 
     let systemPrompt = buildLangChainSystemPrompt({
