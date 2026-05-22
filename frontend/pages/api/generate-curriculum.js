@@ -25,17 +25,11 @@ export default async function handler(req, res) {
       model,
       schema: z.object({
         curriculum: z.array(
-          z.union([
-            z.object({
-              type: z.literal("domain"),
-              title: z.string().describe("The name of the broad domain or unit (e.g., 'Unit 1: Fundamentals')")
-            }),
-            z.object({
-              type: z.literal("standard"),
-              title: z.string().describe("The specific topic or standard title (e.g., 'Introduction to Limits')"),
-              description: z.string().describe("A brief description of what the standard entails")
-            })
-          ])
+          z.object({
+            type: z.enum(["domain", "standard"]).describe("Whether this is a broad 'domain' or a specific 'standard'"),
+            title: z.string().describe("The title of the domain or standard"),
+            description: z.string().optional().describe("A brief description (required for standards, optional for domains)")
+          })
         ).describe("The sequence of domains and standards synthesized from the provided text. A domain should group subsequent standards until the next domain.")
       }),
       system: `You are an expert curriculum designer. You will be provided with raw text (such as a textbook index, syllabus, or course outline). Your task is to synthesize this text into a structured, chronological curriculum outline consisting of 'domains' (broad units) and 'standards' (specific topics). Output ONLY valid JSON matching the schema.`,
