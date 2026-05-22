@@ -75,6 +75,8 @@ export default function CourseHub({ courses, onCreateCourse, onSelectCourse, onD
   const [customCourseName, setCustomCourseName] = useState('');
   const [customSyllabusText, setCustomSyllabusText] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
+  const [generationStatus, setGenerationStatus] = useState('');
+  const [generationError, setGenerationError] = useState('');
 
   useEffect(() => {
     setOrderedCourses(courses);
@@ -91,24 +93,33 @@ export default function CourseHub({ courses, onCreateCourse, onSelectCourse, onD
 
   const handleCreate = async (e) => {
     e.preventDefault();
+    setGenerationError('');
+    setGenerationStatus('');
+
     if (isCustom) {
       if (!customCourseName || !customSyllabusText) {
-        alert("Please provide both a course name and the syllabus/outline text.");
+        setGenerationError("Please provide both a course name and the syllabus/outline text.");
         return;
       }
       setIsGenerating(true);
+      setGenerationStatus("Connecting to AI service...");
+      
       try {
         console.log("Submitting custom curriculum to API...");
+        setGenerationStatus("Synthesizing curriculum (this may take up to 30 seconds)...");
+        
         const res = await fetch("/api/generate-curriculum", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ text: customSyllabusText })
         });
         
+        setGenerationStatus("Parsing AI response...");
         const data = await res.json();
         console.log("API Response Data:", data);
         
-        if (data.curriculum && data.curriculum.length > 0) {
+        if (res.ok && data.curriculum && data.curriculum.length > 0) {
+          setGenerationStatus("Finalizing course creation...");
           console.log("Successfully received curriculum, calling onCreateCourse...");
           onCreateCourse({ subject: "Custom", course: customCourseName, curriculum: data.curriculum });
           setIsModalOpen(false);
@@ -116,14 +127,15 @@ export default function CourseHub({ courses, onCreateCourse, onSelectCourse, onD
           setCustomSyllabusText('');
           setIsCustom(false);
         } else {
-          console.error("Failed to generate curriculum. No curriculum array returned.", data);
-          alert("Failed to generate curriculum: " + (data.error || "The AI didn't return a valid outline. Try modifying your text."));
+          console.error("Failed to generate curriculum. Data:", data);
+          setGenerationError("Failed: " + (data.error || "The AI didn't return a valid outline. Try modifying your text."));
         }
       } catch (err) {
         console.error("Network or parsing error generating curriculum:", err);
-        alert("Failed to generate curriculum. Please check your console.");
+        setGenerationError("Network error: Failed to reach the generation API. Check your internet or server logs.");
       }
       setIsGenerating(false);
+      setGenerationStatus('');
     } else {
       if (!subject || !course) return;
       onCreateCourse({ subject, course });
@@ -258,12 +270,28 @@ export default function CourseHub({ courses, onCreateCourse, onSelectCourse, onD
                       className="w-full rounded-xl border-2 border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50 p-3 text-sm font-semibold text-gray-800 dark:text-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all resize-none"
                     />
                   </div>
+                  
+                  {generationError && (
+                    <div className="p-3 bg-red-100 dark:bg-red-900/30 border border-red-300 dark:border-red-800 rounded-xl text-red-700 dark:text-red-400 text-sm font-medium">
+                      {generationError}
+                    </div>
+                  )}
+
+                  {generationStatus && (
+                    <div className="flex items-center gap-3 p-3 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-xl text-blue-700 dark:text-blue-400 text-sm font-medium">
+                      <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                      {generationStatus}
+                    </div>
+                  )}
                 </>
               )}
               <div className="flex gap-3 pt-4">
                 <button type="button" onClick={() => setIsModalOpen(false)} className="flex-1 rounded-xl bg-gray-100 dark:bg-gray-800 p-3 font-bold text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">Cancel</button>
-                <button type="submit" disabled={isCustom ? (!customCourseName || !customSyllabusText || isGenerating) : (!subject || !course)} className="flex-1 rounded-xl bg-blue-600 p-3 font-bold text-white hover:bg-blue-700 disabled:opacity-50 transition-colors">
-                  {isGenerating ? "Synthesizing..." : (isCustom ? "Generate Curriculum" : "Fetch Curriculum")}
+                <button type="submit" disabled={isCustom ? (isGenerating) : (!subject || !course)} className="flex-1 rounded-xl bg-blue-600 p-3 font-bold text-white hover:bg-blue-700 disabled:opacity-50 transition-colors">
+                  {isGenerating ? "Processing..." : (isCustom ? "Generate Curriculum" : "Fetch Curriculum")}
                 </button>
               </div>
             </form>
