@@ -173,15 +173,24 @@ export default function CourseDashboard({ course, sessions, onBack, onCreateSess
                            <svg className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${isExpanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
                          </button>
                          {isExpanded && domain.standards.length > 0 && (
-                           <div className="bg-gray-50/50 dark:bg-gray-900/50 px-4 pb-3 pt-1 border-t border-gray-100 dark:border-gray-700/50">
-                             <ul className="space-y-2 mt-2">
-                               {domain.standards.map((std, i) => (
-                                 <li key={i} className="text-[0.8rem] text-gray-600 dark:text-gray-400 pl-4 relative before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-blue-400 dark:before:bg-blue-500">
-                                   {std.label}
-                                 </li>
-                               ))}
-                             </ul>
-                           </div>
+                            <div className="bg-gray-50/50 dark:bg-gray-900/50 px-4 pb-3 pt-1 border-t border-gray-100 dark:border-gray-700/50">
+                              <ul className="space-y-3 mt-2">
+                                {domain.standards.map((std, i) => (
+                                  <li key={i} className="text-[0.8rem] pl-4 relative before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-blue-400 dark:before:bg-blue-500">
+                                    <div className="text-gray-800 dark:text-gray-200 font-medium mb-1">{std.label}</div>
+                                    {std.key_concepts && std.key_concepts.length > 0 && (
+                                      <div className="flex flex-wrap gap-1.5 mt-1">
+                                        {std.key_concepts.map((concept, cIdx) => (
+                                          <span key={cIdx} className="px-2 py-0.5 rounded bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 text-[0.65rem] font-bold">
+                                            {concept}
+                                          </span>
+                                        ))}
+                                      </div>
+                                    )}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
                          )}
                        </div>
                      );
@@ -261,108 +270,148 @@ export default function CourseDashboard({ course, sessions, onBack, onCreateSess
               
               <div className="mb-8 border-b border-gray-100 dark:border-gray-800 pb-6">
                  <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">Plan Your Session</h2>
-                 <p className="text-sm text-gray-500 mt-2">Select what you want to focus on and build your study flow.</p>
+                 <p className="text-sm text-gray-500 mt-2">
+                   {course.subject === "Custom" 
+                     ? "Launch an AI-guided mastery journey through your custom course." 
+                     : "Select what you want to focus on and build your study flow."}
+                 </p>
               </div>
 
               <form onSubmit={handleCreate} className="space-y-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-2 block">Focus Scope</label>
-                    <select
-                      value={focus}
-                      onChange={(e) => setFocus(e.target.value)}
-                      className="w-full rounded-xl border-2 border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800/50 p-3.5 text-sm font-semibold text-gray-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
-                    >
-                      <option value="Unit test">Specific Unit</option>
-                      <option value="Standard">Specific Standard</option>
-                      <option value="Concept quiz">Specific Concept</option>
-                      <option value="SOL exam">Full Course Review (Midterm/Final)</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-2 block">
-                      {(focus === "Unit test" || focus === "Standard") ? "Select Unit/Standard" : "What concept should we quiz?"}
-                    </label>
-                    
-                    {(focus === "Unit test" || focus === "Standard") ? (
-                      <select
-                        value={focusDetail}
-                        onChange={(e) => setFocusDetail(e.target.value)}
-                        className="w-full rounded-xl border-2 border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800/50 p-3.5 text-sm font-semibold text-gray-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
-                      >
-                        <option value="">Select a unit/standard...</option>
-                        {modalUnitOptions.map((opt, i) => (
-                          <option key={i} value={opt.value} className={opt.type === 'domain' ? 'font-bold' : 'italic text-gray-500'}>
-                            {opt.label}
-                          </option>
-                        ))}
-                      </select>
-                    ) : (
-                      <div className="space-y-3">
-                        {isLoadingSuggestions ? (
-                          <div className="text-[0.65rem] text-gray-400 animate-pulse italic">Brewing topic suggestions...</div>
-                        ) : (
-                          <div className="flex flex-wrap gap-1.5">
-                            {modalTopicSuggestions.map((topic, i) => (
-                              <button
-                                key={i}
-                                type="button"
-                                onClick={() => setFocusDetail(topic)}
-                                className={`rounded-full px-3 py-1 text-[0.65rem] font-bold transition-all border ${focusDetail === topic ? "bg-blue-600 text-white border-blue-500" : "bg-gray-50 dark:bg-gray-800 text-gray-600 dark:text-gray-400 border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700"}`}
-                              >
-                                {topic}
-                              </button>
+                {course.subject !== "Custom" ? (
+                  <>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                      <div>
+                        <label className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-2 block">Focus Scope</label>
+                        <select
+                          value={focus}
+                          onChange={(e) => setFocus(e.target.value)}
+                          className="w-full rounded-xl border-2 border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800/50 p-3.5 text-sm font-semibold text-gray-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
+                        >
+                          <option value="Unit test">Specific Unit</option>
+                          <option value="Standard">Specific Standard</option>
+                          <option value="Concept quiz">Specific Concept</option>
+                          <option value="SOL exam">Full Course Review (Midterm/Final)</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-2 block">
+                          {(focus === "Unit test" || focus === "Standard") ? "Select Unit/Standard" : "What concept should we quiz?"}
+                        </label>
+                        
+                        {(focus === "Unit test" || focus === "Standard") ? (
+                          <select
+                            value={focusDetail}
+                            onChange={(e) => setFocusDetail(e.target.value)}
+                            className="w-full rounded-xl border-2 border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800/50 p-3.5 text-sm font-semibold text-gray-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
+                          >
+                            <option value="">Select a unit/standard...</option>
+                            {modalUnitOptions.map((opt, i) => (
+                              <option key={i} value={opt.value} className={opt.type === 'domain' ? 'font-bold' : 'italic text-gray-500'}>
+                                {opt.label}
+                              </option>
                             ))}
+                          </select>
+                        ) : (
+                          <div className="space-y-3">
+                            {isLoadingSuggestions ? (
+                              <div className="text-[0.65rem] text-gray-400 animate-pulse italic">Brewing topic suggestions...</div>
+                            ) : (
+                              <div className="flex flex-wrap gap-1.5">
+                                {modalTopicSuggestions.map((topic, i) => (
+                                  <button
+                                    key={i}
+                                    type="button"
+                                    onClick={() => setFocusDetail(topic)}
+                                    className={`rounded-full px-3 py-1 text-[0.65rem] font-bold transition-all border ${focusDetail === topic ? "bg-blue-600 text-white border-blue-500" : "bg-gray-50 dark:bg-gray-800 text-gray-600 dark:text-gray-400 border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700"}`}
+                                  >
+                                    {topic}
+                                  </button>
+                                ))}
+                              </div>
+                            )}
+                            <input
+                              value={focusDetail}
+                              onChange={(e) => setFocusDetail(e.target.value)}
+                              placeholder="Or type a custom topic..."
+                              className="w-full rounded-xl border-2 border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800/50 p-3.5 text-sm font-semibold text-gray-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
+                            />
                           </div>
                         )}
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-gray-100 dark:border-gray-800">
+                      <div>
+                        <label className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-2 block">Learning Preferences</label>
                         <input
-                          value={focusDetail}
-                          onChange={(e) => setFocusDetail(e.target.value)}
-                          placeholder="Or type a custom topic..."
                           className="w-full rounded-xl border-2 border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800/50 p-3.5 text-sm font-semibold text-gray-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
+                          value={preferences}
+                          onChange={(e) => setPreferences(e.target.value)}
+                          placeholder="e.g. visual, step-by-step"
                         />
                       </div>
-                    )}
-                  </div>
-                </div>
+                      <div>
+                        <label className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-2 block">Learning Needs</label>
+                        <input
+                          className="w-full rounded-xl border-2 border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800/50 p-3.5 text-sm font-semibold text-gray-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
+                          value={needs}
+                          onChange={(e) => setNeeds(e.target.value)}
+                          placeholder="e.g. dyslexia support, ELL"
+                        />
+                      </div>
+                    </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-gray-100 dark:border-gray-800">
-                  <div>
-                    <label className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-2 block">Learning Preferences</label>
-                    <input
-                      className="w-full rounded-xl border-2 border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800/50 p-3.5 text-sm font-semibold text-gray-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
-                      value={preferences}
-                      onChange={(e) => setPreferences(e.target.value)}
-                      placeholder="e.g. visual, step-by-step"
-                    />
+                    <div className="pt-4 border-t border-gray-100 dark:border-gray-800">
+                       <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Study Flow Builder</h3>
+                       <SessionBuilder 
+                          selectedBlocks={selectedBlocks} 
+                          setSelectedBlocks={setSelectedBlocks} 
+                       />
+                    </div>
+                  </>
+                ) : (
+                  <div className="py-6 px-4 bg-blue-50 dark:bg-blue-900/10 rounded-2xl border border-blue-100 dark:border-blue-800/50 flex flex-col items-center text-center">
+                    <div className="w-16 h-16 bg-blue-100 dark:bg-blue-800/50 rounded-full flex items-center justify-center mb-4">
+                      <svg className="w-8 h-8 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 className="text-xl font-extrabold text-gray-900 dark:text-white mb-2">Linear Mastery Journey</h3>
+                    <p className="text-gray-600 dark:text-gray-300 max-w-md text-sm leading-relaxed">
+                      This custom course is designed for end-to-end learning. You will be guided topic-by-topic through the curriculum, concluding with a final comprehensive review.
+                    </p>
                   </div>
-                  <div>
-                    <label className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-2 block">Learning Needs</label>
-                    <input
-                      className="w-full rounded-xl border-2 border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800/50 p-3.5 text-sm font-semibold text-gray-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all"
-                      value={needs}
-                      onChange={(e) => setNeeds(e.target.value)}
-                      placeholder="e.g. dyslexia support, ELL"
-                    />
-                  </div>
-                </div>
-
-                <div className="pt-4 border-t border-gray-100 dark:border-gray-800">
-                   <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Study Flow Builder</h3>
-                   <SessionBuilder 
-                      selectedBlocks={selectedBlocks} 
-                      setSelectedBlocks={setSelectedBlocks} 
-                   />
-                </div>
+                )}
 
                 <div className="pt-6 flex justify-end">
-                   <button 
-                     type="submit" 
-                     disabled={!focus || !focusDetail || selectedBlocks.length === 0}
-                     className="rounded-xl bg-blue-600 px-8 py-3.5 font-bold text-white shadow-lg hover:bg-blue-700 hover:shadow-blue-500/30 transition-all active:scale-95 disabled:opacity-50 disabled:pointer-events-none flex items-center gap-2"
-                   >
-                     Launch Study Mode <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                   </button>
+                   {course.subject === "Custom" ? (
+                     <button 
+                       type="button"
+                       onClick={(e) => {
+                         e.preventDefault();
+                         onCreateSession({
+                           courseId: course.id,
+                           focus: "Custom Course Journey",
+                           focusDetail: course.course,
+                           preferences,
+                           needs,
+                           blocks: ["custom_linear"],
+                           retrievalMode: "custom_linear"
+                         });
+                         setIsModalOpen(false);
+                       }}
+                       className="rounded-xl bg-blue-600 px-8 py-3.5 font-bold text-white shadow-lg hover:bg-blue-700 hover:shadow-blue-500/30 transition-all active:scale-95 flex items-center gap-2"
+                     >
+                       Start Linear Journey <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                     </button>
+                   ) : (
+                     <button 
+                       type="submit" 
+                       disabled={!focus || !focusDetail || selectedBlocks.length === 0}
+                       className="rounded-xl bg-blue-600 px-8 py-3.5 font-bold text-white shadow-lg hover:bg-blue-700 hover:shadow-blue-500/30 transition-all active:scale-95 disabled:opacity-50 disabled:pointer-events-none flex items-center gap-2"
+                     >
+                       Launch Study Mode <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                     </button>
+                   )}
                 </div>
               </form>
            </div>

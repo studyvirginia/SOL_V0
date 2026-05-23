@@ -32,14 +32,18 @@ export default async function handler(req, res) {
       "standards": [
         {
           "title": "[Specific Topic based on text]",
-          "description": "A brief description of what this topic entails based on the provided text"
+          "description": "A brief description of what this topic entails based on the provided text",
+          "key_concepts": [
+            "Important concept or term 1",
+            "Crucial formula or equation 2"
+          ]
         }
       ]
     }
   ]
 }
 
-CRITICAL: DO NOT copy the placeholder text from the example above. You MUST generate the curriculum based entirely on the user's provided text.
+CRITICAL: DO NOT copy the placeholder text from the example above. You MUST generate the curriculum based entirely on the user's provided text. Extract any relevant key concepts, terms, or formulas into the key_concepts array for each standard.
 DO NOT wrap the output in markdown code blocks. Output raw JSON only.`,
       prompt: `Synthesize the following text into a curriculum outline:\n\n${text}`,
     });
@@ -65,7 +69,12 @@ DO NOT wrap the output in markdown code blocks. Output raw JSON only.`,
         flatCurriculum.push({ type: 'domain', title: domain.title || "Untitled Domain" });
         if (domain.standards && Array.isArray(domain.standards)) {
           for (const standard of domain.standards) {
-            flatCurriculum.push({ type: 'standard', title: standard.title, description: standard.description || "" });
+            flatCurriculum.push({ 
+              type: 'standard', 
+              title: standard.title, 
+              description: standard.description || "",
+              key_concepts: Array.isArray(standard.key_concepts) ? standard.key_concepts : []
+            });
           }
         }
       }

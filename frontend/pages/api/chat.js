@@ -598,7 +598,16 @@ export default async function handler(req, res) {
     });
     
     // Inject Session Journey Context
-    if (journey.blocks && journey.blocks.length > 0) {
+    if (effectiveRetrievalMode === 'custom_linear') {
+      systemPrompt += `\n\n--- LINEAR MASTERY JOURNEY ---
+You are conducting a strict, linear, topic-by-topic guided journey through this custom course. 
+Your instructions:
+1. Start at the very first topic (Standard) of the curriculum. Teach it, provide an example, and ask a concept check question.
+2. YOU must track progression. When the student demonstrates understanding of the current topic, you MUST transition to the next topic.
+3. Do NOT jump around. Go sequentially.
+4. When all topics are complete, declare a Final Review and summarize the entire course.
+Always keep your responses highly focused and bite-sized so the student isn't overwhelmed. Keep them moving forward.`;
+    } else if (journey.blocks && journey.blocks.length > 0) {
       const currentBlockIndex = journey.currentIndex || 0;
       const plannedSequence = journey.blocks.join(" -> ");
       const nextBlock = currentBlockIndex < journey.blocks.length - 1 ? journey.blocks[currentBlockIndex + 1] : "None (Session Complete)";
