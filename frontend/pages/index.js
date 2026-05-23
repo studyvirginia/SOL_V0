@@ -271,6 +271,9 @@ export default function Home() {
               <ChatWindow 
                 key={activeSession.id}
                 session={activeSession} 
+                subject={activeCourse?.subject}
+                course={activeCourse?.course}
+                curriculum={activeCourse?.curriculum}
                 onUpdateSession={updateSession}
                 onAwardPoints={(pts) => updateCoursePoints(activeSession.courseId, pts)}
               />

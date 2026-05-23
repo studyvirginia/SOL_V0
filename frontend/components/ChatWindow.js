@@ -376,6 +376,7 @@ export default function ChatWindow({ session, onUpdateSession, onAwardPoints }) 
       sessionId: session.id,
       subject,
       course,
+      curriculum,
       retrievalMode: currentMode,
       sessionSummary: session.sessionSummary || "",
       userFacts: session.userFacts || {},
