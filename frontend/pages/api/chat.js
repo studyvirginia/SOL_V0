@@ -504,7 +504,7 @@ export default async function handler(req, res) {
     });
 
     const apiKey = loadOpenRouterKey();
-    const modelId = process.env.CHAT_MODEL || "google/gemini-2.0-flash-lite-001";
+    const modelId = process.env.CHAT_MODEL || "google/gemini-2.5-flash-lite";
 
     if (!apiKey) {
       console.error("Missing OPENROUTER_API_KEY");
