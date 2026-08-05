@@ -12,6 +12,9 @@ export default function GuideArticle({ slug, title, description, faqs = [], chil
     headline: title,
     description,
     url: `${SITE_URL}${path}`,
+    image: `${SITE_URL}/api/og?title=${encodeURIComponent(title)}`,
+    datePublished: "2026-08-05",
+    dateModified: "2026-08-05",
     publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
   };
 

@@ -29,10 +29,13 @@ export default function MarketingLayout({ children }) {
         <div className="container mx-auto max-w-5xl px-4 py-8 text-sm text-muted-foreground">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <p>&copy; {new Date().getFullYear()} SOL Prep. Built for Virginia SOL exam prep.</p>
-            <nav className="flex gap-4">
+            <nav className="flex flex-wrap gap-4">
               <Link href="/" className="hover:text-foreground">Home</Link>
               <Link href="/sol" className="hover:text-foreground">All subjects</Link>
               <Link href="/guides" className="hover:text-foreground">Guides</Link>
+              <Link href="/about" className="hover:text-foreground">About</Link>
+              <Link href="/privacy" className="hover:text-foreground">Privacy</Link>
+              <Link href="/terms" className="hover:text-foreground">Terms</Link>
               <a href="mailto:hello@solprep.com" className="hover:text-foreground">Contact</a>
             </nav>
           </div>
