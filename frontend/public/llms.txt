@@ -1,0 +1,18 @@
+# SOL Prep
+
+> AI-powered study assistant for Virginia Standards of Learning (SOL) exams. Diagnoses weak spots, then generates guided notes, flashcards, mnemonics, analogies, and SOL-style practice questions mapped to the real Virginia SOL standards for a student's subject and grade.
+
+SOL Prep is currently in pre-launch. The site at solprep.com is a growing reference of Virginia SOL standards by subject and grade; the study app itself lives at app.solprep.com.
+
+## Subjects covered
+
+- Math (Kindergarten through Algebra II, Geometry, Trigonometry, and electives)
+- English (Kindergarten through Grade 12)
+- Science (Kindergarten through Biology, Chemistry, Physics, and Earth Science electives)
+- History & Social Science (Kindergarten through Virginia/US Government)
+
+## Key pages
+
+- /sol — index of all subjects
+- /sol/{subject} — all courses and grade levels within a subject
+- /sol/{subject}/{course} — the full list of Virginia SOL standards for one course, and how SOL Prep helps study it
