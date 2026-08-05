@@ -111,7 +111,7 @@ export default function MarketingHome({ subjects }) {
             </p>
             <div className="mt-8 flex items-center justify-center gap-3">
               <Button asChild size="lg">
-                <a href="mailto:hello@solprep.com?subject=Early%20access">
+                <a href="mailto:lincolnljmarine@gmail.com?subject=Early%20access">
                   Get early access
                 </a>
               </Button>

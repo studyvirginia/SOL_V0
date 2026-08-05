@@ -56,8 +56,8 @@ export default function About() {
             <h2>Get in touch</h2>
             <p>
               Questions, feedback, or press inquiries:{" "}
-              <a href="mailto:hello@solprep.com" className="text-primary underline underline-offset-4">
-                hello@solprep.com
+              <a href="mailto:lincolnljmarine@gmail.com" className="text-primary underline underline-offset-4">
+                lincolnljmarine@gmail.com
               </a>
               .
             </p>

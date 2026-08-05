@@ -60,8 +60,8 @@ export default function Terms() {
             <h2>Contact</h2>
             <p>
               Questions about these terms:{" "}
-              <a href="mailto:hello@solprep.com" className="text-primary underline underline-offset-4">
-                hello@solprep.com
+              <a href="mailto:lincolnljmarine@gmail.com" className="text-primary underline underline-offset-4">
+                lincolnljmarine@gmail.com
               </a>
               .
             </p>

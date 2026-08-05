@@ -36,7 +36,7 @@ export default function MarketingLayout({ children }) {
               <Link href="/about" className="hover:text-foreground">About</Link>
               <Link href="/privacy" className="hover:text-foreground">Privacy</Link>
               <Link href="/terms" className="hover:text-foreground">Terms</Link>
-              <a href="mailto:hello@solprep.com" className="hover:text-foreground">Contact</a>
+              <a href="mailto:lincolnljmarine@gmail.com" className="hover:text-foreground">Contact</a>
             </nav>
           </div>
         </div>

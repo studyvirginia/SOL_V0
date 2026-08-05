@@ -61,8 +61,8 @@ export default function Privacy() {
             <h2>Questions</h2>
             <p>
               If you have questions about data handling, email{" "}
-              <a href="mailto:hello@solprep.com" className="text-primary underline underline-offset-4">
-                hello@solprep.com
+              <a href="mailto:lincolnljmarine@gmail.com" className="text-primary underline underline-offset-4">
+                lincolnljmarine@gmail.com
               </a>
               .
             </p>
