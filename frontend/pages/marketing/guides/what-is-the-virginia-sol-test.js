@@ -17,6 +17,14 @@ const faqs = [
     q: "Are SOL tests the same as final exams?",
     a: "No. SOL tests are statewide assessments set by the Virginia Department of Education, separate from a teacher's own classroom tests or final exams, though some divisions weight SOL results into course grades.",
   },
+  {
+    q: "How many questions are on an SOL test?",
+    a: "Most SOL tests have between 35 and 50 questions, mostly multiple-choice (four answer options), plus technology-enhanced items and, for some subjects, constructed-response or essay questions.",
+  },
+  {
+    q: "What happens if my child doesn't pass an SOL test?",
+    a: "It depends on grade and subject. Most grades don't carry automatic consequences for a single test, but Grade 3 Reading is the exception — Virginia law requires students to show reading proficiency by the end of third grade, through the SOL test, an alternate assessment, or a reading portfolio, or they may be retained. In high school, passing certain end-of-course SOL tests is required to earn the five verified credits needed to graduate.",
+  },
 ];
 
 export default function Guide() {
@@ -63,6 +71,56 @@ export default function Guide() {
         like Algebra I, Algebra II, and Geometry as they complete them, rather
         than waiting for a single grade-level test.
       </p>
+
+      <h2>What the test actually looks like</h2>
+      <p>
+        SOL tests are taken on a computer through{" "}
+        <Link href="/guides/testnav-virginia-sol" className="text-primary underline underline-offset-4">
+          TestNav
+        </Link>
+        , Virginia's secure testing application. Most tests have{" "}
+        <strong>35 to 50 questions</strong> — mostly multiple-choice with four
+        answer options, plus technology-enhanced items (drag-and-drop,
+        hot-spot, multi-select), and for some subjects, constructed-response
+        or essay questions. Math SOL tests are split into a{" "}
+        <strong>calculator-inactive section</strong> (number sense, mental
+        math, estimation) and a <strong>calculator-active section</strong>,
+        which uses an online Desmos calculator built into the test itself.
+      </p>
+
+      <h2>When SOL tests happen</h2>
+      <p>
+        The main SOL testing window generally runs from late spring through
+        early summer each year, with high school end-of-course tests given
+        as students finish the relevant course rather than on one fixed
+        date. Exact testing dates are set by each school division within
+        state guidelines — check with your child's school for the specific
+        window that applies to them.
+      </p>
+
+      <h2>What happens if a student doesn't pass</h2>
+      <p>
+        For most grades and subjects, a single non-passing SOL score doesn't
+        carry an automatic consequence — but there are two real exceptions
+        worth knowing:
+      </p>
+      <ul>
+        <li>
+          <strong>Grade 3 Reading</strong> is the one grade level where
+          reading performance has a direct retention implication under
+          Virginia law: students must demonstrate reading proficiency by the
+          end of third grade — through the SOL test, an alternate
+          assessment, or a reading portfolio — or they may be retained.
+          Divisions are required to provide reading intervention services
+          before making that call.
+        </li>
+        <li>
+          <strong>High school graduation</strong> requires five{" "}
+          <em>verified credits</em>, earned by passing specific end-of-course
+          SOL tests: two in English, and one each in math, science, and
+          history/social science.
+        </li>
+      </ul>
 
       <h2>Why SOL tests exist</h2>
       <p>

@@ -16,6 +16,10 @@ const faqs = [
     q: "Is a 400 still a passing SOL score?",
     a: "It depends on the school year and subject. Historically 400 was the proficient/passing threshold. Virginia is raising the bar for reading and math starting 2026–27, with an 'approaching' level bridging the transition — the Class of 2026 is exempted from the new thresholds. Confirm the current cut score with your school division or the Virginia Department of Education.",
   },
+  {
+    q: "What is the reporting category breakdown on an SOL score report?",
+    a: "Alongside the overall scaled score, most SOL score reports break performance down by reporting category — the broad content strands within that subject (for example, Number and Number Sense vs. Measurement and Geometry in math). It shows which strands a student handled well and which need work, without needing to see individual questions.",
+  },
 ];
 
 export default function Guide() {
@@ -80,14 +84,27 @@ export default function Guide() {
         test.
       </p>
 
+      <h2>The reporting category breakdown</h2>
+      <p>
+        A single scaled score doesn't tell you <em>which</em> standards your
+        child struggled with — but most SOL score reports include a second
+        layer: a <strong>reporting category breakdown</strong>, showing
+        performance across the broad content strands within that subject
+        (for example, Number and Number Sense vs. Computation and Estimation
+        in a Math SOL). If your child scored well overall but weak in one
+        category, that's the strand to focus on first.
+      </p>
+
       <h2>What to actually do with a score report</h2>
       <p>
-        A single scaled score is useful, but it doesn't tell you{" "}
-        <em>which</em> standards your child struggled with — only the overall
-        result. The more actionable view is a standard-by-standard
-        breakdown: which specific skills, within which strand, need more
-        work. That's the level SOL Prep is built around, rather than a single
-        pass/fail number.
+        The category breakdown gets you to the strand level. The more
+        actionable view goes one level deeper: which specific standards,
+        within that strand, need work. That's the level SOL Prep is built
+        around, rather than stopping at a category label.{" "}
+        <a href="https://app.solprep.com" className="text-primary underline underline-offset-4">
+          Try the diagnostic
+        </a>{" "}
+        to find exactly which standards to focus on next.
       </p>
     </GuideArticle>
   );

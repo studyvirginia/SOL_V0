@@ -17,6 +17,10 @@ const faqs = [
     q: "What's the difference between a released test and SOL Prep's practice questions?",
     a: "VDOE's released items show real retired test questions. SOL Prep's practice questions are generated per standard to target exactly what a student is weak on, based on a diagnostic — the two are complementary, not competing.",
   },
+  {
+    q: "What is the JLab SOL practice test?",
+    a: "JLab refers to Jefferson Lab, a Newport News research facility that hosts a long-running free Virginia SOL practice test tool at education.jlab.org, covering Math (grades 2-8, Algebra I & II, Geometry) and Science (grades 3, 5, 8, Biology, Chemistry, Earth Science) using real retired VDOE questions.",
+  },
 ];
 
 export default function Guide() {
@@ -58,6 +62,24 @@ export default function Guide() {
         (TEI), the interactive question types (drag-and-drop, hot-spot,
         multi-select) that appear on the real online test. If a student has
         never seen a TEI question before test day, that's worth fixing first.
+      </p>
+
+      <h2>JLab: Jefferson Lab's free SOL practice tests</h2>
+      <p>
+        "JLab" — Jefferson Lab, the Newport News research facility — hosts
+        one of the longest-running free Virginia SOL practice tools on the
+        web at{" "}
+        <a
+          href="https://education.jlab.org/solquiz/"
+          className="text-primary underline underline-offset-4"
+        >
+          education.jlab.org
+        </a>
+        . It covers Math (grades 2–8, Algebra I &amp; II, Geometry) and
+        Science (grades 3, 5, 8, Biology, Chemistry, Earth Science), pulling
+        from real, retired VDOE questions going back years. You can request
+        a quick 5, 10, 20, or 40-question quiz from any category — no
+        account needed.
       </p>
 
       <h2>What released tests won't tell you</h2>
