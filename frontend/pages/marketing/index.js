@@ -44,6 +44,14 @@ const FAQS = [
     a: "SOL Prep is an AI study assistant built specifically around Virginia's SOL standards. It diagnoses weak spots, builds guided notes and flashcards, and gives you SOL-style practice questions for the standard you're actually being tested on.",
   },
   {
+    q: "Where can I find real Virginia SOL practice tests?",
+    a: "The Virginia Department of Education publishes official released tests and practice items for every SOL subject at doe.virginia.gov. Our practice tests guide has direct links by subject, plus how official released items differ from standard-by-standard practice.",
+  },
+  {
+    q: "What is a passing SOL score?",
+    a: "SOL scores are reported on a 0–600 scale. A scaled score of 400+ is Pass/Proficient and 500+ is Pass/Advanced, though Virginia is phasing in higher cut scores for reading and math starting 2026–27. See our SOL score chart for the full breakdown.",
+  },
+  {
     q: "Is SOL Prep available now?",
     a: "SOL Prep is in active development. This page will grow into the full site as we get closer to launch — check back for updates.",
   },

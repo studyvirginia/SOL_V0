@@ -26,28 +26,46 @@ export default function Guide() {
         their child brings one home. Here's what the numbers actually mean.
       </p>
 
-      <h2>The 0–600 scaled score</h2>
+      <h2>Virginia SOL score chart</h2>
       <p>
         Every SOL test score is converted onto a common <strong>0–600 scale</strong>,
         regardless of how many raw questions a student got right. That
         scaled score is what determines the performance level on the report:
       </p>
-      <ul>
-        <li>
-          <strong>Fail</strong> — historically, a scaled score below 400.
-        </li>
-        <li>
-          <strong>Pass / Proficient</strong> — historically, a scaled score of
-          400–499.
-        </li>
-        <li>
-          <strong>Pass / Advanced</strong> — a scaled score of 500 or higher.
-        </li>
-      </ul>
-      <p>
-        Reading and math results in grades 3–8 sometimes report additional
-        detail (such as a "basic" tier below proficient) to give a more
-        granular picture of where a student landed.
+      <div className="overflow-x-auto rounded-lg border border-border">
+        <table className="w-full border-collapse text-sm">
+          <thead>
+            <tr className="border-b border-border bg-muted/50 text-left">
+              <th className="px-4 py-2 font-semibold text-foreground">Scaled score</th>
+              <th className="px-4 py-2 font-semibold text-foreground">Performance level</th>
+              <th className="px-4 py-2 font-semibold text-foreground">Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b border-border">
+              <td className="px-4 py-2">0–399</td>
+              <td className="px-4 py-2">Fail</td>
+              <td className="px-4 py-2">Did not pass</td>
+            </tr>
+            <tr className="border-b border-border">
+              <td className="px-4 py-2">400–499</td>
+              <td className="px-4 py-2">Pass / Proficient</td>
+              <td className="px-4 py-2">Passed</td>
+            </tr>
+            <tr>
+              <td className="px-4 py-2">500–600</td>
+              <td className="px-4 py-2">Pass / Advanced</td>
+              <td className="px-4 py-2">Passed, highest tier</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p className="text-sm">
+        This is the historical scoring chart used across recent school
+        years. Reading and math results in grades 3–8 sometimes report an
+        additional "basic" tier below proficient for a more granular
+        picture, and — as covered below — the cut scores themselves are
+        changing starting 2026–27.
       </p>
 
       <h2>Cut scores are changing starting 2026–27</h2>
