@@ -46,11 +46,11 @@ export default function About() {
                 solprep.com
               </a>
               , is our public reference for every Virginia SOL standard by
-              subject and grade. The study assistant itself lives at{" "}
-              <a href="https://app.solprep.com" className="text-primary underline underline-offset-4">
-                app.solprep.com
-              </a>
-              .
+              subject and grade. You can{" "}
+              <a href="/#demo" className="text-primary underline underline-offset-4">
+                try a live demo of the AI study assistant
+              </a>{" "}
+              right on the homepage while the full app is being rebuilt.
             </p>
 
             <h2>Get in touch</h2>

@@ -72,7 +72,7 @@ export default function StandardPage({
 
           <div className="mt-6 flex gap-3">
             <Button asChild>
-              <a href="https://app.solprep.com">Study {standard.code} with SOL Prep</a>
+              <a href="/#demo">Try the demo</a>
             </Button>
             <Button asChild variant="outline">
               <Link href={`/sol/${subject.slug}/${course.slug}`}>Back to {course.name}</Link>

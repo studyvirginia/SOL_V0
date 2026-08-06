@@ -101,8 +101,8 @@ export default function Guide() {
         actionable view goes one level deeper: which specific standards,
         within that strand, need work. That's the level SOL Prep is built
         around, rather than stopping at a category label.{" "}
-        <a href="https://app.solprep.com" className="text-primary underline underline-offset-4">
-          Try the diagnostic
+        <a href="/#demo" className="text-primary underline underline-offset-4">
+          Try the demo
         </a>{" "}
         to find exactly which standards to focus on next.
       </p>

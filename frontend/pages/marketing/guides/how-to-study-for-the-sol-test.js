@@ -79,10 +79,10 @@ export default function Guide() {
         </Link>{" "}
         to see what your child's course actually covers, or{" "}
         <a
-          href="https://app.solprep.com"
+          href="/#demo"
           className="text-primary underline underline-offset-4"
         >
-          try the diagnostic
+          try the demo
         </a>
         .
       </p>

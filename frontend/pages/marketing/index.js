@@ -124,10 +124,29 @@ export default function MarketingHome({ subjects }) {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <a href="https://app.solprep.com">Try the app</a>
+                <a href="#demo">Try the demo</a>
               </Button>
             </div>
           </header>
+
+          <section id="demo" aria-labelledby="demo-heading" className="mt-20">
+            <h2 id="demo-heading" className="text-center text-2xl font-semibold">
+              Try the AI study assistant right now
+            </h2>
+            <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-muted-foreground">
+              A live, working demo — no signup required.
+            </p>
+            <div className="mx-auto mt-8 max-w-3xl overflow-hidden rounded-lg border border-secondary/30 shadow-lg shadow-secondary/10">
+              <iframe
+                src="https://www.playlab.ai/embedded/cmklr3bry6c6jnb0t5968zi8e"
+                title="Virginia SOL Study Assistant - AI Powered SOL Test Prep"
+                height="700"
+                loading="lazy"
+                allow="clipboard-write"
+                className="block w-full border-0"
+              />
+            </div>
+          </section>
 
           <section aria-labelledby="features-heading" className="mt-24">
             <h2 id="features-heading" className="text-center text-2xl font-semibold">

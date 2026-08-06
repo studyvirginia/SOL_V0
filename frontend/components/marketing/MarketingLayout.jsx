@@ -17,7 +17,7 @@ export default function MarketingLayout({ children }) {
               Guides
             </Link>
             <Button asChild size="sm">
-              <a href="https://app.solprep.com">Try the app</a>
+              <a href="/#demo">Try the demo</a>
             </Button>
           </nav>
         </div>

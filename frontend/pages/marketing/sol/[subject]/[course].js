@@ -111,7 +111,7 @@ export default function CoursePage({ subject, course, prevCourse, nextCourse }) 
 
           <div className="mt-6 flex gap-3">
             <Button asChild>
-              <a href="https://app.solprep.com">Start studying {course.name}</a>
+              <a href="/#demo">Try the demo</a>
             </Button>
             <Button asChild variant="outline">
               <Link href={`/sol/${subject.slug}`}>All {subject.name} courses</Link>
