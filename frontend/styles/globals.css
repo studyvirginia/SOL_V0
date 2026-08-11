@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap");
 
 @import "tailwindcss";
 @config "../tailwind.config.js";
@@ -12,27 +12,35 @@
 
 @layer base {
   :root {
-    /* Define the color palette using CSS variables for easy theming. */
-    --background: 240 10% 99%; /* hsl(240, 10%, 99%) */
-    --foreground: 240 10% 3.9%; /* hsl(240, 10%, 3.9%) */
-    --card: 0 0% 100%; /* hsl(0, 0%, 100%) */
-    --card-foreground: 240 10% 3.9%;
+    /* SOLPrep "Cool Pop" — cool paper canvas, deep navy ink, blue primary, warm
+       accent pops. Mirrors the app's design system (renders, Aug 2026) for brand
+       continuity between solprep.com and the app. */
+    --background: 224 43% 95%; /* paper #EDF0F8 */
+    --foreground: 224 46% 16%; /* ink #16203B */
+    --card: 0 0% 100%;
+    --card-foreground: 224 46% 16%;
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: 222.2 47.4% 11.2%; /* Blue */
-    --primary-foreground: 210 40% 98%;
-    --secondary: 270 60% 60%; /* Purple */
+    --popover-foreground: 224 46% 16%;
+    --primary: 228 69% 39%; /* blue #1F3AA8 */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 228 73% 30%; /* blue-deep #152A82 */
     --secondary-foreground: 0 0% 100%;
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
+    --muted: 223 43% 97%; /* surface-2 #F6F8FC */
+    --muted-foreground: 222 16% 35%; /* ink-2 #4B5468 */
+    --accent: 223 30% 93%; /* gray-soft #EBEEF4 */
+    --accent-foreground: 224 46% 16%;
+    --destructive: 14 75% 40%; /* coral #B23A18 */
     --destructive-foreground: 0 0% 100%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 222.2 84% 4.9%;
-    --radius: 0.75rem;
+    --border: 224 33% 90%; /* line #DDE3EF */
+    --input: 224 33% 90%;
+    --ring: 228 69% 39%; /* blue focus */
+    --radius: 0.9rem;
+
+    /* Accent pops (from the app's Cool Pop system) */
+    --success: 162 76% 27%;      /* green #12855C — "live/available/correct" */
+    --success-soft: 152 52% 89%; /* green-soft #D7F0E2 */
+    --highlight: 45 100% 70%;    /* yellow #FFD968 — energy/emphasis */
+    --warning: 14 75% 40%;       /* coral #B23A18 — attention */
   }
 
   .dark {
@@ -77,6 +85,40 @@
   h6 {
     @apply font-display;
   }
+}
+
+/* ------------------------------------------------------------------ *
+ * Soft Pop "Cool Pop" tactile treatment — brand continuity with the app.
+ * Un-layered (higher priority than Tailwind utilities) so it wins without
+ * !important. 2px navy outline + hard block shadow + press-to-sink physics.
+ * ------------------------------------------------------------------ */
+[data-slot="card"] {
+  border: 2px solid hsl(var(--foreground));
+  box-shadow: 3px 4px 0 0 hsl(var(--foreground));
+  border-radius: 1rem;
+}
+[data-slot="button"] {
+  border: 2px solid hsl(var(--foreground));
+  box-shadow: 3px 3px 0 0 hsl(var(--foreground));
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: transform 0.06s ease, box-shadow 0.06s ease, background-color 0.15s ease;
+}
+[data-slot="button"]:hover {
+  box-shadow: 4px 4px 0 0 hsl(var(--foreground));
+}
+[data-slot="button"]:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 0 hsl(var(--foreground));
+}
+[data-slot="button"][data-variant="ghost"],
+[data-slot="button"][data-variant="link"] {
+  border-color: transparent;
+  box-shadow: none;
+}
+[data-slot="button"][data-variant="ghost"]:hover,
+[data-slot="button"][data-variant="link"]:hover {
+  box-shadow: none;
 }
 
 /* Custom Scrollbar */
