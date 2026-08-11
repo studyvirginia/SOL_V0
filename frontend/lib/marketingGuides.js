@@ -47,6 +47,18 @@ export const GUIDES = [
     description:
       "Where Virginia parents actually go to check SOL test scores — ParentVUE and other division parent portals — and what to do if you can't find them.",
   },
+  {
+    slug: "when-are-the-sol-tests",
+    title: "When Are the Virginia SOL Tests? Testing Windows & Dates",
+    description:
+      "When Virginia SOL tests are given — the spring testing window, high school end-of-course dates, and fall and summer retake windows — and how to find your division's exact dates.",
+  },
+  {
+    slug: "sol-test-format",
+    title: "How Many Questions Are on the SOL Test? Format & Length by Subject",
+    description:
+      "How the Virginia SOL tests are built — how many questions, the multiple-choice and technology-enhanced item types, timing, and what the format looks like by subject and grade.",
+  },
 ];
 
 export function getGuideBySlug(slug) {

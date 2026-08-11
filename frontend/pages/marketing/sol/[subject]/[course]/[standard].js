@@ -6,6 +6,7 @@ import Breadcrumbs from "@/components/marketing/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { getAllStandardParams, getStandardBySlugs } from "@/lib/solCatalog";
 import { buildStandardContent } from "@/lib/standardContent";
+import { hasPractice } from "@/lib/practiceCatalog";
 
 export async function getStaticPaths() {
   return {
@@ -17,7 +18,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const result = getStandardBySlugs(params.subject, params.course, params.standard);
   if (!result) return { notFound: true };
-  return { props: result };
+  return { props: { ...result, coursePractice: hasPractice(params.subject, params.course) } };
 }
 
 export default function StandardPage({
@@ -26,6 +27,7 @@ export default function StandardPage({
   domain,
   standard,
   relatedStandards = [],
+  coursePractice = false,
   prevStandard,
   nextStandard,
 }) {
@@ -144,6 +146,16 @@ export default function StandardPage({
               </Link>
               .
             </p>
+            {coursePractice && (
+              <p className="mt-4 text-sm">
+                <Link
+                  href={`/sol/${subject.slug}/${course.slug}/practice`}
+                  className="font-medium text-foreground hover:underline"
+                >
+                  → Take the free {course.name} SOL practice test
+                </Link>
+              </p>
+            )}
           </section>
 
           {relatedStandards.length > 0 && (

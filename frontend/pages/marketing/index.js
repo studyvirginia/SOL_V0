@@ -5,6 +5,7 @@ import MarketingLayout from "@/components/marketing/MarketingLayout";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { getSolCatalog } from "@/lib/solCatalog";
+import { listPracticeCourses } from "@/lib/practiceCatalog";
 import { GUIDES } from "@/lib/marketingGuides";
 
 const FEATURES = [
@@ -59,6 +60,10 @@ const FAQS = [
 
 export async function getStaticProps() {
   const catalog = getSolCatalog();
+  const topPractice = listPracticeCourses()
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 8)
+    .map((c) => ({ subject: c.subject, course: c.course, courseName: c.courseName, count: c.count }));
   return {
     props: {
       subjects: catalog.map((s) => ({
@@ -66,11 +71,12 @@ export async function getStaticProps() {
         name: s.name,
         courseCount: s.courses.length,
       })),
+      topPractice,
     },
   };
 }
 
-export default function MarketingHome({ subjects }) {
+export default function MarketingHome({ subjects, topPractice = [] }) {
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -151,6 +157,33 @@ export default function MarketingHome({ subjects }) {
               />
             </div>
           </section>
+
+          {topPractice.length > 0 && (
+            <section aria-labelledby="practice-heading" className="mt-24">
+              <h2 id="practice-heading" className="text-center text-2xl font-semibold">
+                Free Virginia SOL practice tests
+              </h2>
+              <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-muted-foreground">
+                Real questions from official VDOE released tests — answer and check
+                instantly, no signup.
+              </p>
+              <div className="mx-auto mt-8 grid max-w-3xl gap-3 sm:grid-cols-2">
+                {topPractice.map((c) => (
+                  <Link key={`${c.subject}-${c.course}`} href={`/sol/${c.subject}/${c.course}/practice`}>
+                    <Card className="flex items-center justify-between p-4 text-sm transition-colors hover:bg-muted">
+                      <span className="font-semibold">{c.courseName} SOL practice test</span>
+                      <span className="text-xs text-muted-foreground">{c.count} Q</span>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+              <p className="mt-6 text-center text-sm">
+                <Link href="/practice" className="font-medium text-foreground hover:underline">
+                  See all SOL practice tests →
+                </Link>
+              </p>
+            </section>
+          )}
 
           <section aria-labelledby="features-heading" className="mt-24">
             <h2 id="features-heading" className="text-center text-2xl font-semibold">

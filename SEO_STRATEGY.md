@@ -97,5 +97,26 @@ Everything below is sequenced to hit the winnable classes before the **spring 20
 ## Not done here (needs you / separate work)
 - **Manual "Request indexing"** in GSC for priority URLs (you, in browser).
 - **Backlink outreach** (Pillar 4) — the real authority unlock.
-- **Validated practice-content pipeline** (Pillar 5) — the money-keyword unlock; must not be faked.
 - **Deploy:** changes are local; review and `git push` (auto-deploys via Vercel) when ready.
+
+---
+
+## v2 — Practice-test system + expansion (shipped)
+
+Pillar 5 (practice content) is now built and live, plus a rigorous on-page expansion.
+
+**Practice tests (the money-keyword engine):**
+- Parsed **5,860 questions** from official VDOE released tests (`COMPLETE_SOL_BOT/*Test Database.csv`) into per-course banks under `frontend/data/practice/`. Rights-clear (VDOE released items), attributed, with a non-affiliation disclaimer. Voided/visual-only items skipped; answer keys mapped; LaTeX cleaned.
+- **30 practice-test pages** at `/sol/{subject}/{course}/practice` (up to 50 real questions each) with interactive check/reveal, **Quiz + FAQPage schema**, targeting `[course] sol practice test`.
+- **`/practice` hub** targeting `virginia sol practice tests`; linked from site nav + footer + homepage.
+- Internal linking: homepage "popular practice tests", course-hub CTAs, and **every standard page links to its course practice test**.
+
+**On-page/technical expansion:**
+- 2 new guides: **When are the SOL tests** (dates/windows) and **SOL test format** (how many questions / item types) — money-keyword gaps + authority assets. Guides now number 10.
+- **`/llms.txt`** added for AEO/GEO (AI-crawler citation).
+- De-cannibalized course vs practice titles (course → "Study Guide", practice → "Practice Test").
+
+**Deliberate decision — NOT spawning per-set / per-standard practice pages yet.**
+With ~427 pages still "Discovered – not indexed," Google is already rationing crawl on this new domain. Adding a few hundred more thin-ish set pages now would spread crawl budget thinner and read as scale-without-substance (the exact pSEO failure mode). So we concentrated value on the 30 money pages and fed all questions there (capped for weight). **Phase 2 (post-authority):** once backlinks lift crawl budget and the 30 pages are indexed + ranking, expand to per-released-test set pages (`/practice/{n}`) to use the full 5,860-question corpus.
+
+**The bottleneck is unchanged and it is not on-page:** authority/backlinks. On-page + technical are maxed; rankings now move on links + time toward the spring 2027 window.

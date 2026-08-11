@@ -1,18 +1,26 @@
 # SOL Prep
 
-> AI-powered study assistant for Virginia Standards of Learning (SOL) exams. Diagnoses weak spots, then generates guided notes, flashcards, mnemonics, analogies, and SOL-style practice questions mapped to the real Virginia SOL standards for a student's subject and grade.
+> SOL Prep (https://solprep.com) is a free study resource for Virginia's Standards of Learning (SOL) exams — practice tests, standards guides, and an AI study assistant for students in grades 3–12 across Math, English/Reading, Science, and History & Social Science.
 
-SOL Prep is currently in pre-launch. The site at solprep.com is a growing reference of Virginia SOL standards by subject and grade; the study app itself lives at app.solprep.com.
+Practice questions are drawn from official Virginia Department of Education (VDOE) released SOL tests. SOL Prep is an independent study aid and is not affiliated with or endorsed by the Virginia Department of Education.
 
-## Subjects covered
+## Practice tests
+- [All SOL practice tests](https://solprep.com/practice): Free Virginia SOL practice questions by course, with instant answer checking.
+- [Math SOL practice](https://solprep.com/sol/math): Algebra 1, Geometry, Algebra 2, and grades 3–8.
+- [English/Reading SOL practice](https://solprep.com/sol/english): Reading practice by grade, 3–12.
+- [Science SOL practice](https://solprep.com/sol/science): Biology, Chemistry, Earth Science, and grades 3–8.
+- [History SOL practice](https://solprep.com/sol/history): Civics & Economics, World History/Geography, US History.
 
-- Math (Kindergarten through Algebra II, Geometry, Trigonometry, and electives)
-- English (Kindergarten through Grade 12)
-- Science (Kindergarten through Biology, Chemistry, Physics, and Earth Science electives)
-- History & Social Science (Kindergarten through Virginia/US Government)
+## Guides
+- [What is the Virginia SOL test?](https://solprep.com/guides/what-is-the-virginia-sol-test)
+- [Virginia SOL score chart (pass/proficient/advanced)](https://solprep.com/guides/how-sol-scores-are-reported)
+- [When are the SOL tests? Testing windows & dates](https://solprep.com/guides/when-are-the-sol-tests)
+- [SOL test format: how many questions & item types](https://solprep.com/guides/sol-test-format)
+- [How to study for the SOL test](https://solprep.com/guides/how-to-study-for-the-sol-test)
+- [Virginia SOL practice tests (official released items)](https://solprep.com/guides/virginia-sol-practice-tests)
+- [SOL retake policy](https://solprep.com/guides/sol-retake-policy)
+- [SOL testing accommodations (IEP/504)](https://solprep.com/guides/sol-testing-accommodations)
+- [What is TestNav?](https://solprep.com/guides/testnav-virginia-sol)
 
-## Key pages
-
-- /sol — index of all subjects
-- /sol/{subject} — all courses and grade levels within a subject
-- /sol/{subject}/{course} — the full list of Virginia SOL standards for one course, and how SOL Prep helps study it
+## Standards
+- [All SOL standards by subject & course](https://solprep.com/sol): Every Virginia SOL standard with its skills and related standards.

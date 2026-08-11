@@ -37,6 +37,30 @@ export default function PracticePage({ bank, subjectName }) {
   const description = `Free ${courseName} Virginia SOL practice test with ${total} questions from official VDOE released tests. Answer, check instantly, and review — no signup.`;
   const path = `/sol/${subject}/${course}/practice`;
 
+  const faqs = [
+    {
+      q: `Are these ${courseName} SOL practice questions free?`,
+      a: `Yes — this ${courseName} SOL practice test is completely free with no signup. Answer each question to check it instantly, or open "Show answer" to review.`,
+    },
+    {
+      q: `How many ${courseName} SOL practice questions are there?`,
+      a: `This page has ${questions.length} ${courseName} practice questions${total > questions.length ? `, part of a ${total}-question ${courseName} bank` : ""}, drawn from official Virginia Department of Education released SOL tests.`,
+    },
+    {
+      q: `Are these real Virginia SOL questions?`,
+      a: `The questions are adapted from official VDOE released SOL tests for ${courseName}. SOL Prep is an independent study aid and is not affiliated with or endorsed by the Virginia Department of Education.`,
+    },
+  ];
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   // Quiz structured data (capped set) — helps search + answer engines read the
   // page as a real assessment rather than boilerplate.
   const quizJsonLd = {
@@ -63,6 +87,7 @@ export default function PracticePage({ bank, subjectName }) {
     <>
       <SeoHead title={title} description={description} path={path} />
       <JsonLd data={quizJsonLd} />
+      <JsonLd data={faqJsonLd} />
       <MarketingLayout>
         <div className="container mx-auto max-w-3xl px-4 py-16">
           <Breadcrumbs
@@ -94,6 +119,20 @@ export default function PracticePage({ bank, subjectName }) {
           </div>
 
           <PracticeQuiz questions={questions} />
+
+          <section aria-labelledby="faq-heading" className="mt-14">
+            <h2 id="faq-heading" className="text-xl font-semibold">
+              {courseName} SOL practice test — FAQ
+            </h2>
+            <div className="mt-6 space-y-6">
+              {faqs.map((f) => (
+                <div key={f.q}>
+                  <h3 className="font-semibold">{f.q}</h3>
+                  <p className="mt-1 text-sm text-muted-foreground">{f.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
           <p className="mt-10 border-t border-border pt-6 text-xs text-muted-foreground">
             {attribution} Practice items are provided for study purposes and are not affiliated with

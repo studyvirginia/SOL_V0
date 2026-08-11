@@ -6,7 +6,7 @@ import path from "path";
 // A course only gets a public practice page if it clears MIN_QUESTIONS, so no
 // thin practice pages ship (pSEO discipline: noindex/skip below the threshold).
 const MIN_QUESTIONS = 8;
-const MAX_ON_PAGE = 40; // questions rendered per practice page (weight + focus)
+const MAX_ON_PAGE = 50; // questions rendered per practice page (weight + focus)
 
 function practiceDir() {
   return path.join(process.cwd(), "data", "practice");
