@@ -38,10 +38,10 @@ export function buildStandardContent({ subject, course, domain, standard }) {
   // Keyword-targeted title/description. Leads with the exact "Virginia SOL {code}"
   // phrasing people search, plus course + "practice & study guide" intent.
   const title = `Virginia SOL ${standard.code}: ${course.name} — Practice & Study Guide`;
-  const shortDesc = desc.length > 105 ? desc.slice(0, 102).replace(/\s+\S*$/, "") + "…" : desc;
+  const shortDesc = desc.length > 90 ? desc.slice(0, 88).replace(/\s+\S*$/, "") + "…" : desc;
   const description =
     `Virginia SOL ${standard.code} (${course.name}): ${shortDesc}. ` +
-    `Skills, key concepts, and practice for the ${course.name} SOL test.`;
+    `Skills, key concepts, and practice questions.`;
 
   const intro =
     `Virginia SOL ${standard.code} is part of the ${domain.name} strand in ${course.name} ` +

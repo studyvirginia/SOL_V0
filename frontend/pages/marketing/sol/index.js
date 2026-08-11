@@ -25,7 +25,7 @@ export default function SolIndex({ subjects }) {
     <>
       <SeoHead
         title="Virginia SOL Practice Tests by Subject & Grade | SOL Prep"
-        description={`Virginia SOL practice by subject and grade across ${subjects.length} subjects and ${totalCourses} courses — Math, English, Science, and History. Standard-by-standard practice plus links to official VDOE released tests.`}
+        description={`Virginia SOL practice tests by subject and grade — ${subjects.length} subjects, ${totalCourses} courses (Math, English, Science, History), with free questions from official VDOE released tests.`}
         path="/sol"
       />
       <MarketingLayout>
