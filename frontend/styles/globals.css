@@ -21,9 +21,9 @@
     --card-foreground: 224 46% 16%;
     --popover: 0 0% 100%;
     --popover-foreground: 224 46% 16%;
-    --primary: 228 69% 39%; /* blue #1F3AA8 */
+    --primary: 214 70% 36%; /* navy blue #1B4C93 (was indigo — reads clean blue) */
     --primary-foreground: 0 0% 100%;
-    --secondary: 228 73% 30%; /* blue-deep #152A82 */
+    --secondary: 215 72% 25%; /* deep navy #123361 */
     --secondary-foreground: 0 0% 100%;
     --muted: 223 43% 97%; /* surface-2 #F6F8FC */
     --muted-foreground: 222 16% 35%; /* ink-2 #4B5468 */
@@ -33,7 +33,7 @@
     --destructive-foreground: 0 0% 100%;
     --border: 224 33% 90%; /* line #DDE3EF */
     --input: 224 33% 90%;
-    --ring: 228 69% 39%; /* blue focus */
+    --ring: 214 70% 36%; /* navy blue focus */
     --radius: 0.9rem;
 
     /* Accent pops (from the app's Cool Pop system) */

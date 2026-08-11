@@ -1,26 +1,29 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Logo from "@/components/marketing/Logo";
 
 export default function MarketingLayout({ children }) {
   return (
     <div className="flex min-h-screen flex-col bg-background text-foreground">
       <header className="border-b border-border">
         <div className="container mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
-          <Link href="/" className="font-display text-lg font-bold">
-            SOL Prep
+          <Link href="/" aria-label="SOL Prep home">
+            <Logo />
           </Link>
-          <nav className="flex items-center gap-4 text-sm">
-            <Link href="/practice" className="text-muted-foreground hover:text-foreground">
-              Practice tests
-            </Link>
-            <Link href="/sol" className="text-muted-foreground hover:text-foreground">
-              Subjects
-            </Link>
-            <Link href="/guides" className="text-muted-foreground hover:text-foreground">
-              Guides
-            </Link>
+          <nav className="flex items-center gap-3 text-sm sm:gap-5">
+            <div className="hidden items-center gap-5 sm:flex">
+              <Link href="/practice" className="text-muted-foreground hover:text-foreground">
+                Practice tests
+              </Link>
+              <Link href="/sol" className="text-muted-foreground hover:text-foreground">
+                Subjects
+              </Link>
+              <Link href="/guides" className="text-muted-foreground hover:text-foreground">
+                Guides
+              </Link>
+            </div>
             <Button asChild size="sm">
-              <a href="/#demo">Try the demo</a>
+              <a href="/practice">Practice free</a>
             </Button>
           </nav>
         </div>
