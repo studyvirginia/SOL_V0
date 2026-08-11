@@ -5,37 +5,24 @@ import MarketingLayout from "@/components/marketing/MarketingLayout";
 import Breadcrumbs from "@/components/marketing/Breadcrumbs";
 import PracticeQuiz from "@/components/marketing/PracticeQuiz";
 import { Button } from "@/components/ui/button";
-import { getSubjectBySlug } from "@/lib/solCatalog";
-import { listPracticeCourses, getPractice } from "@/lib/practiceCatalog";
 
 const YEAR = new Date().getFullYear();
 
-export async function getStaticPaths() {
-  return {
-    paths: listPracticeCourses().map((c) => ({
-      params: { subject: c.subject, course: c.course },
-    })),
-    fallback: false,
-  };
-}
+// Renders one practice-test page (a "set" of questions for a course). Set 1 lives
+// at /sol/{s}/{c}/practice; sets 2..N at /sol/{s}/{c}/practice/{n}. Shared by both
+// so every set carries the same schema, interactivity, FAQ, and cross-linking.
+export default function PracticeTest({ bank, subjectName }) {
+  const { subject, course, courseName, total, setNumber, totalSets, questions, attribution } = bank;
 
-export async function getStaticProps({ params }) {
-  const bank = getPractice(params.subject, params.course);
-  if (!bank) return { notFound: true };
-  const subject = getSubjectBySlug(params.subject);
-  return {
-    props: {
-      bank,
-      subjectName: subject ? subject.name : params.subject,
-    },
-  };
-}
+  const basePath = `/sol/${subject}/${course}/practice`;
+  const path = setNumber === 1 ? basePath : `${basePath}/${setNumber}`;
+  const setLabel = totalSets > 1 ? ` — Set ${setNumber} of ${totalSets}` : "";
 
-export default function PracticePage({ bank, subjectName }) {
-  const { subject, course, courseName, total, questions, attribution } = bank;
-  const title = `${courseName} SOL Practice Test — ${total} Questions (${YEAR}) | SOL Prep`;
-  const description = `Free ${courseName} Virginia SOL practice test with ${total} questions from official VDOE released tests. Answer, check instantly, and review — no signup.`;
-  const path = `/sol/${subject}/${course}/practice`;
+  const title = `${courseName} SOL Practice Test${setLabel} (${YEAR}) | SOL Prep`;
+  const description =
+    setNumber === 1
+      ? `Free ${courseName} Virginia SOL practice test with ${total} questions from official VDOE released tests. Answer, check instantly, and review — no signup.`
+      : `${courseName} SOL practice test, set ${setNumber} of ${totalSets} — ${questions.length} more free questions from official VDOE released tests. No signup.`;
 
   const faqs = [
     {
@@ -44,7 +31,7 @@ export default function PracticePage({ bank, subjectName }) {
     },
     {
       q: `How many ${courseName} SOL practice questions are there?`,
-      a: `This page has ${questions.length} ${courseName} practice questions${total > questions.length ? `, part of a ${total}-question ${courseName} bank` : ""}, drawn from official Virginia Department of Education released SOL tests.`,
+      a: `Across all sets, there are ${total} ${courseName} practice questions drawn from official Virginia Department of Education released SOL tests. This set has ${questions.length}.`,
     },
     {
       q: `Are these real Virginia SOL questions?`,
@@ -61,12 +48,10 @@ export default function PracticePage({ bank, subjectName }) {
     })),
   };
 
-  // Quiz structured data (capped set) — helps search + answer engines read the
-  // page as a real assessment rather than boilerplate.
   const quizJsonLd = {
     "@context": "https://schema.org",
     "@type": "Quiz",
-    name: `${courseName} SOL Practice Test`,
+    name: `${courseName} SOL Practice Test${setLabel}`,
     about: { "@type": "Thing", name: `${courseName} Virginia Standards of Learning` },
     educationalLevel: courseName,
     hasPart: questions.slice(0, 25).map((q) => {
@@ -83,6 +68,8 @@ export default function PracticePage({ bank, subjectName }) {
     }),
   };
 
+  const setHref = (n) => (n === 1 ? basePath : `${basePath}/${n}`);
+
   return (
     <>
       <SeoHead title={title} description={description} path={path} />
@@ -96,17 +83,17 @@ export default function PracticePage({ bank, subjectName }) {
               { label: "Subjects", href: "/sol" },
               { label: subjectName, href: `/sol/${subject}` },
               { label: courseName, href: `/sol/${subject}/${course}` },
-              { label: "Practice test", href: path },
+              { label: setNumber === 1 ? "Practice test" : `Practice test (set ${setNumber})`, href: path },
             ]}
           />
 
           <h1 className="font-display mt-4 text-3xl font-bold tracking-tight">
-            {courseName} SOL Practice Test
+            {courseName} SOL Practice Test{setLabel}
           </h1>
           <p className="mt-4 text-muted-foreground">
-            {total} free {courseName} Virginia SOL practice questions drawn from official Virginia
-            Department of Education released tests. Pick an answer to check it instantly, or open
-            &ldquo;Show answer&rdquo; to review. No signup required.
+            {setNumber === 1
+              ? `${total} free ${courseName} Virginia SOL practice questions drawn from official Virginia Department of Education released tests. Pick an answer to check it instantly, or open “Show answer” to review. No signup required.`
+              : `Set ${setNumber} of ${totalSets} — ${questions.length} more free ${courseName} SOL practice questions from official VDOE released tests.`}
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
@@ -118,7 +105,44 @@ export default function PracticePage({ bank, subjectName }) {
             </Button>
           </div>
 
+          {totalSets > 1 && (
+            <nav aria-label="Practice test sets" className="mt-6 flex flex-wrap gap-2">
+              {Array.from({ length: totalSets }, (_, i) => i + 1).map((n) => (
+                <Link
+                  key={n}
+                  href={setHref(n)}
+                  aria-current={n === setNumber ? "page" : undefined}
+                  className={
+                    "rounded-md border px-3 py-1 text-sm " +
+                    (n === setNumber
+                      ? "border-secondary bg-secondary/10 font-medium text-foreground"
+                      : "border-border text-muted-foreground hover:bg-muted")
+                  }
+                >
+                  Test {n}
+                </Link>
+              ))}
+            </nav>
+          )}
+
           <PracticeQuiz questions={questions} />
+
+          {totalSets > 1 && (
+            <nav className="mt-10 flex items-center justify-between border-t border-border pt-6 text-sm">
+              {setNumber > 1 ? (
+                <Link href={setHref(setNumber - 1)} className="hover:underline">
+                  ← Test {setNumber - 1}
+                </Link>
+              ) : (
+                <span />
+              )}
+              {setNumber < totalSets && (
+                <Link href={setHref(setNumber + 1)} className="hover:underline">
+                  Test {setNumber + 1} →
+                </Link>
+              )}
+            </nav>
+          )}
 
           <section aria-labelledby="faq-heading" className="mt-14">
             <h2 id="faq-heading" className="text-xl font-semibold">

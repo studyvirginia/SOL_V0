@@ -1,6 +1,6 @@
 import { getSolCatalog, getAllStandardParams } from "@/lib/solCatalog";
 import { GUIDES } from "@/lib/marketingGuides";
-import { listPracticeCourses } from "@/lib/practiceCatalog";
+import { listPracticeCourses, listPracticeSetParams } from "@/lib/practiceCatalog";
 
 const SITE_URL = "https://solprep.com";
 
@@ -24,6 +24,12 @@ function getRoutes() {
     path: `/sol/${c.subject}/${c.course}/practice`,
     priority: "0.9",
   }));
+  // Additional practice-test sets (sets 2..N) — real question content, lower
+  // priority so crawl budget favors the set-1 money pages first.
+  const practiceSetRoutes = listPracticeSetParams().map((p) => ({
+    path: `/sol/${p.subject}/${p.course}/practice/${p.set}`,
+    priority: "0.6",
+  }));
   return [
     { path: "/", priority: "1.0" },
     { path: "/sol", priority: "0.9" },
@@ -34,6 +40,7 @@ function getRoutes() {
     { path: "/terms", priority: "0.2" },
     ...subjectRoutes,
     ...practiceRoutes,
+    ...practiceSetRoutes,
     ...courseRoutes,
     ...standardRoutes,
     ...guideRoutes,
