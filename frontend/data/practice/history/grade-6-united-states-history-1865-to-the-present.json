@@ -1,0 +1,1788 @@
+{
+ "subject": "history",
+ "course": "grade-6-united-states-history-1865-to-the-present",
+ "courseName": "Grade 6 - United States History: 1865 to the Present",
+ "questionCount": 71,
+ "sources": [
+  "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+  "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Cactus Hill Cactus Hill is an archaeological site located in present-day Virginia. Discoveries at this site provided evidence that humans lived in North America earlier than previously believed, before the Clovis culture. This discovery is important because it provides information about the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "site of the Kwakiutl homeland"
+    },
+    {
+     "label": "B",
+     "text": "early humans in North America"
+    },
+    {
+     "label": "C",
+     "text": "first settlement in Jamestown"
+    },
+    {
+     "label": "D",
+     "text": "early trading markets with Europe"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-1"
+  },
+  {
+   "n": 2,
+   "stem": "Ancient Artifacts Ancient tools and objects made by early humans were discovered and preserved for study. Which person would most likely study these artifacts?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Biologist"
+    },
+    {
+     "label": "B",
+     "text": "Archaeologist"
+    },
+    {
+     "label": "C",
+     "text": "Geologist"
+    },
+    {
+     "label": "D",
+     "text": "Chemist"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-2"
+  },
+  {
+   "n": 3,
+   "stem": "A map showed exploration routes in North America that followed the St. Lawrence River, the Mississippi River, and connected waterways leading into the interior of the continent. Which country sent explorers along these routes?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "France"
+    },
+    {
+     "label": "B",
+     "text": "England"
+    },
+    {
+     "label": "C",
+     "text": "Spain"
+    },
+    {
+     "label": "D",
+     "text": "Portugal"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-3"
+  },
+  {
+   "n": 4,
+   "stem": "French explorers cooperated with American Indians by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "becoming large landowners"
+    },
+    {
+     "label": "B",
+     "text": "adopting foreign religions"
+    },
+    {
+     "label": "C",
+     "text": "sharing farming techniques"
+    },
+    {
+     "label": "D",
+     "text": "establishing trading posts"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-4"
+  },
+  {
+   "n": 5,
+   "stem": "The primary reason the Quakers settled in Pennsylvania was to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "find gold deposits"
+    },
+    {
+     "label": "B",
+     "text": "escape debtor’s prison"
+    },
+    {
+     "label": "C",
+     "text": "practice religion freely"
+    },
+    {
+     "label": "D",
+     "text": "avoid paying taxes"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-5"
+  },
+  {
+   "n": 6,
+   "stem": "Barrel Maker A person is shown shaping wooden staves and fitting them together with metal hoops to form barrels used for storage and transport in colonial times. This job was most likely being done by a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "colonial artisan"
+    },
+    {
+     "label": "B",
+     "text": "local legislator"
+    },
+    {
+     "label": "C",
+     "text": "colonial governor"
+    },
+    {
+     "label": "D",
+     "text": "large landowner"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-6"
+  },
+  {
+   "n": 7,
+   "stem": "The following events occurred during the American Revolution in this order: 1. Boston Tea Party 2. Declaration of Independence 3. Battle of Yorktown 4. Treaty of Paris Which number best represents the Battle of Yorktown?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-7"
+  },
+  {
+   "n": 8,
+   "stem": "Which attitude helped the colonists win the American Revolution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "“I care most about having peace.”"
+    },
+    {
+     "label": "B",
+     "text": "“I am always loyal to the king.”"
+    },
+    {
+     "label": "C",
+     "text": "“I need to protect my own land.”"
+    },
+    {
+     "label": "D",
+     "text": "“I am hoping to move to the city.”"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-8"
+  },
+  {
+   "n": 9,
+   "stem": "The speech that included the statement “Give me liberty or give me death” was made to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "warn the British government"
+    },
+    {
+     "label": "B",
+     "text": "oppose the slave trade"
+    },
+    {
+     "label": "C",
+     "text": "inspire colonial patriotism"
+    },
+    {
+     "label": "D",
+     "text": "encourage French support"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-9"
+  },
+  {
+   "n": 10,
+   "stem": "Lewis and Clark’s expedition was the result of actions taken by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "George Washington"
+    },
+    {
+     "label": "B",
+     "text": "John Adams"
+    },
+    {
+     "label": "C",
+     "text": "Thomas Jefferson"
+    },
+    {
+     "label": "D",
+     "text": "James Madison"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-10"
+  },
+  {
+   "n": 11,
+   "stem": "Cause-and-effect sequence: The French and Indian War ended. Colonists became dissatisfied with British rule. Missing event Which event best completes this sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Taxes imposed on the colonists"
+    },
+    {
+     "label": "B",
+     "text": "Taxes placed on British soldiers"
+    },
+    {
+     "label": "C",
+     "text": "Taxation opposed by British merchants"
+    },
+    {
+     "label": "D",
+     "text": "Taxation controlled by the colonists"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-11"
+  },
+  {
+   "n": 12,
+   "stem": "Cause-and-effect diagram: Development of the steam locomotive Development of the steamboat Which effect resulted from both developments?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Delivered raw materials to factories"
+    },
+    {
+     "label": "B",
+     "text": "Increased need for slave labor"
+    },
+    {
+     "label": "C",
+     "text": "Assisted in reform of labor laws"
+    },
+    {
+     "label": "D",
+     "text": "Increased production of cotton"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-12"
+  },
+  {
+   "n": 13,
+   "stem": "Which territory existed as an independent republic before becoming a state?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "California"
+    },
+    {
+     "label": "B",
+     "text": "Oregon"
+    },
+    {
+     "label": "C",
+     "text": "Utah"
+    },
+    {
+     "label": "D",
+     "text": "Texas"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-13"
+  },
+  {
+   "n": 14,
+   "stem": "The following laws addressed the issue of slavery in U.S. territories: Missouri Compromise Kansas–Nebraska Act Missing action Which action best completes this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Compromise of 1850"
+    },
+    {
+     "label": "B",
+     "text": "Monroe Doctrine"
+    },
+    {
+     "label": "C",
+     "text": "Tariff of 1832"
+    },
+    {
+     "label": "D",
+     "text": "Great Compromise"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-14"
+  },
+  {
+   "n": 15,
+   "stem": "Robert E. Lee refused to take command of the Union forces during the Civil War because he —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "believed the South would form a new country"
+    },
+    {
+     "label": "B",
+     "text": "thought Ulysses S. Grant would make a better general"
+    },
+    {
+     "label": "C",
+     "text": "would not fight against his home state"
+    },
+    {
+     "label": "D",
+     "text": "did not think it would pay him enough"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-15"
+  },
+  {
+   "n": 16,
+   "stem": "Before the Civil War, the North supported tariffs in order to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "pay the cost of transporting runaway slaves"
+    },
+    {
+     "label": "B",
+     "text": "pressure Britain into buying American cotton crops"
+    },
+    {
+     "label": "C",
+     "text": "protect factory owners from foreign competitors"
+    },
+    {
+     "label": "D",
+     "text": "prevent families in the South from receiving goods"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-16"
+  },
+  {
+   "n": 17,
+   "stem": "After the Civil War, Confederate currency was —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "safe in Southern banks"
+    },
+    {
+     "label": "B",
+     "text": "used until it wore out"
+    },
+    {
+     "label": "C",
+     "text": "traded for United States dollars"
+    },
+    {
+     "label": "D",
+     "text": "worthless in economic value"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-17"
+  },
+  {
+   "n": 18,
+   "stem": "A person with the following accomplishments: Served as a Union naval captain Was decorated for heroism Served as a congressman after the Civil War Which person is described by this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "John Brown"
+    },
+    {
+     "label": "B",
+     "text": "Frederick Douglass"
+    },
+    {
+     "label": "C",
+     "text": "John Paul Jones"
+    },
+    {
+     "label": "D",
+     "text": "Robert Smalls"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-18"
+  },
+  {
+   "n": 19,
+   "stem": "Statue of Thomas “Stonewall” Jackson A statue was built to honor Thomas “Stonewall” Jackson for his role in the Civil War. The statue honors Jackson because he was —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the leader of the Army of Northern Virginia"
+    },
+    {
+     "label": "B",
+     "text": "a skilled Confederate general"
+    },
+    {
+     "label": "C",
+     "text": "the commander at the Battle of Vicksburg"
+    },
+    {
+     "label": "D",
+     "text": "a famous Union soldier"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-19"
+  },
+  {
+   "n": 20,
+   "stem": "Ships sailing from New York to San Francisco in the mid-1800s often traveled around Cape Horn, at the southern tip of South America. Which ocean did ships enter after rounding Cape Horn?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Arctic"
+    },
+    {
+     "label": "B",
+     "text": "Pacific"
+    },
+    {
+     "label": "C",
+     "text": "Indian"
+    },
+    {
+     "label": "D",
+     "text": "Atlantic"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-20"
+  },
+  {
+   "n": 21,
+   "stem": "The Continental Divide is part of the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sierra Nevada"
+    },
+    {
+     "label": "B",
+     "text": "Coastal Range"
+    },
+    {
+     "label": "C",
+     "text": "Rocky Mountains"
+    },
+    {
+     "label": "D",
+     "text": "Appalachian Highlands"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-21"
+  },
+  {
+   "n": 22,
+   "stem": "Eastern United States A map showed a darker-shaded state located in the central eastern United States, representing westward settlement into the Ohio River Valley region. Which river was used to transport goods and settlers into this state?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Missouri River"
+    },
+    {
+     "label": "B",
+     "text": "James River"
+    },
+    {
+     "label": "C",
+     "text": "Ohio River"
+    },
+    {
+     "label": "D",
+     "text": "Arkansas River"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-22"
+  },
+  {
+   "n": 23,
+   "stem": "A landform is shown with flat or gently rolling land stretching across a wide area with few trees and no major elevation changes. This geographic feature is a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "plateau"
+    },
+    {
+     "label": "B",
+     "text": "mountain"
+    },
+    {
+     "label": "C",
+     "text": "glacier"
+    },
+    {
+     "label": "D",
+     "text": "plain"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-23"
+  },
+  {
+   "n": 24,
+   "stem": "Which American Indians lived in eastern North America?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Iroquois"
+    },
+    {
+     "label": "B",
+     "text": "Kwakiutl"
+    },
+    {
+     "label": "C",
+     "text": "Inuit"
+    },
+    {
+     "label": "D",
+     "text": "Lakota"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-24"
+  },
+  {
+   "n": 26,
+   "stem": "Which two continents are described as parts of a single landmass known as Eurasia?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Europe and Africa"
+    },
+    {
+     "label": "B",
+     "text": "Asia and Africa"
+    },
+    {
+     "label": "C",
+     "text": "Europe and Asia"
+    },
+    {
+     "label": "D",
+     "text": "Australia and Antarctica"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-25"
+  },
+  {
+   "n": 27,
+   "stem": "A map showed four numbered southern states. The state labeled “1” was South Carolina, the first state to secede from the Union. Which state seceded from the Union?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-26"
+  },
+  {
+   "n": 28,
+   "stem": "Which product was most associated with the Southern colonies?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Livestock"
+    },
+    {
+     "label": "B",
+     "text": "Fish"
+    },
+    {
+     "label": "C",
+     "text": "Grain"
+    },
+    {
+     "label": "D",
+     "text": "Tobacco"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-27"
+  },
+  {
+   "n": 29,
+   "stem": "The following ideas are listed: People have natural rights Governments are formed to protect those rights People have a duty to change governments that violate those rights Which document contains these philosophies?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Intolerable Acts"
+    },
+    {
+     "label": "B",
+     "text": "Mayflower Compact"
+    },
+    {
+     "label": "C",
+     "text": "Proclamation of 1763"
+    },
+    {
+     "label": "D",
+     "text": "Declaration of Independence"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-28"
+  },
+  {
+   "n": 31,
+   "stem": "Citizen 1: “In Virginia, because of our large population, we have only one vote in the legislature.” Citizen 2: “That is the fairest form of Congress, or the small states would be outvoted on every issue.” Which weakness of the Articles of Confederation does this conversation best represent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Lack of a common currency"
+    },
+    {
+     "label": "B",
+     "text": "Lack of a central executive power"
+    },
+    {
+     "label": "C",
+     "text": "No representation based on population"
+    },
+    {
+     "label": "D",
+     "text": "No central control over national commerce"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-29"
+  },
+  {
+   "n": 32,
+   "stem": "Pennsylvania colony states that it is too cold to grow cotton. Georgia colony states that its climate is not good for growing wheat. The two colonies exchange goods to meet their needs. This exchange of goods is an example of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "competition"
+    },
+    {
+     "label": "B",
+     "text": "interdependence"
+    },
+    {
+     "label": "C",
+     "text": "economic freedom"
+    },
+    {
+     "label": "D",
+     "text": "indentured servitude"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-30"
+  },
+  {
+   "n": 33,
+   "stem": "Cause-and-effect diagram: Cause: Population growth in the Eastern states Effect: Missing action Which action best completes this diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Increased trade with Canada"
+    },
+    {
+     "label": "B",
+     "text": "Start of a war with Mexico"
+    },
+    {
+     "label": "C",
+     "text": "Immigration from the European continent"
+    },
+    {
+     "label": "D",
+     "text": "Expansion toward the Pacific Ocean"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2014_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-31"
+  },
+  {
+   "n": 1,
+   "stem": "One subject of conflict between settlers and American Indians was the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "exchange of food"
+    },
+    {
+     "label": "B",
+     "text": "ownership of land"
+    },
+    {
+     "label": "C",
+     "text": "style of farming techniques"
+    },
+    {
+     "label": "D",
+     "text": "number of trading posts"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-32"
+  },
+  {
+   "n": 2,
+   "stem": "“IN THE NAME OF GOD, AMEN. We … the Loyal Subjects of … King James, by the Grace of God … Having undertaken for the Glory of God, and Advancement of the Christian Faith, a Voyage …” — Mayflower Compact This document was most likely written by the colonists of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Georgia"
+    },
+    {
+     "label": "G",
+     "text": "Roanoke Island"
+    },
+    {
+     "label": "H",
+     "text": "North Carolina"
+    },
+    {
+     "label": "J",
+     "text": "Plymouth"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-33"
+  },
+  {
+   "n": 3,
+   "stem": "The recovery and analysis of evidence from the past are most important in the study of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "psychology"
+    },
+    {
+     "label": "B",
+     "text": "sociology"
+    },
+    {
+     "label": "C",
+     "text": "archaeology"
+    },
+    {
+     "label": "D",
+     "text": "biology"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-34"
+  },
+  {
+   "n": 4,
+   "stem": "A navigational tool used by sailors to determine direction and location at sea was commonly used to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "improve military weapons"
+    },
+    {
+     "label": "G",
+     "text": "aid African agriculture"
+    },
+    {
+     "label": "H",
+     "text": "find natural resources"
+    },
+    {
+     "label": "J",
+     "text": "aid European exploration"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-35"
+  },
+  {
+   "n": 5,
+   "stem": "A map of North America shows a darker-shaded region located primarily in present-day Mexico, the southwestern United States, and parts of Central America. This region includes areas settled by Spain, where Catholic missions were established. What was one reason that Europeans explored this darker-shaded area?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To learn new languages"
+    },
+    {
+     "label": "B",
+     "text": "To avoid political persecution"
+    },
+    {
+     "label": "C",
+     "text": "To spread religion"
+    },
+    {
+     "label": "D",
+     "text": "To cure diseases"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-36"
+  },
+  {
+   "n": 6,
+   "stem": "Which kind of work did most women do in colonial America?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Sold furniture and clothes"
+    },
+    {
+     "label": "G",
+     "text": "Cared for people and houses"
+    },
+    {
+     "label": "H",
+     "text": "Taught in schools and colleges"
+    },
+    {
+     "label": "J",
+     "text": "Served in hospitals and nurseries"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-37"
+  },
+  {
+   "n": 7,
+   "stem": "Which colonial goods were usually exchanged for manufactured goods from England?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Gold"
+    },
+    {
+     "label": "B",
+     "text": "Slave labor"
+    },
+    {
+     "label": "C",
+     "text": "Crafts"
+    },
+    {
+     "label": "D",
+     "text": "Raw materials"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-38"
+  },
+  {
+   "n": 8,
+   "stem": "How did the Proclamation of 1763 affect the British colonists?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "It limited the western movement of settlers."
+    },
+    {
+     "label": "G",
+     "text": "It led to an increase in fur trading."
+    },
+    {
+     "label": "H",
+     "text": "It prevented trade with American Indians."
+    },
+    {
+     "label": "J",
+     "text": "It led to the French and Indian War."
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-39"
+  },
+  {
+   "n": 9,
+   "stem": "Individual: George Washington Role During the American Revolution: Commander of the Continental Army Which name replaces the question mark?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Patrick Henry"
+    },
+    {
+     "label": "B",
+     "text": "George Washington"
+    },
+    {
+     "label": "C",
+     "text": "Lord Cornwallis"
+    },
+    {
+     "label": "D",
+     "text": "Benjamin Franklin"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-40"
+  },
+  {
+   "n": 10,
+   "stem": "Which individual helped gain French support for American independence?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Benjamin Franklin"
+    },
+    {
+     "label": "G",
+     "text": "Thomas Jefferson"
+    },
+    {
+     "label": "H",
+     "text": "Patrick Henry"
+    },
+    {
+     "label": "J",
+     "text": "Paul Revere"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-41"
+  },
+  {
+   "n": 11,
+   "stem": "The colonists won the Revolutionary War because they —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "had a more powerful navy"
+    },
+    {
+     "label": "B",
+     "text": "fought on their own territory"
+    },
+    {
+     "label": "C",
+     "text": "had better weapons"
+    },
+    {
+     "label": "D",
+     "text": "had more supplies"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-42"
+  },
+  {
+   "n": 12,
+   "stem": "At the Constitutional Convention, the Great Compromise settled a debate about —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "judicial powers"
+    },
+    {
+     "label": "G",
+     "text": "the presidential elections"
+    },
+    {
+     "label": "H",
+     "text": "state representation"
+    },
+    {
+     "label": "J",
+     "text": "the amendment process"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-43"
+  },
+  {
+   "n": 13,
+   "stem": "Virginia Declaration of Rights Virginia Statute for Religious Freedom These documents were the basis for the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Declaration of Independence"
+    },
+    {
+     "label": "B",
+     "text": "Mayflower Compact"
+    },
+    {
+     "label": "C",
+     "text": "Articles of Confederation"
+    },
+    {
+     "label": "D",
+     "text": "Bill of Rights"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-44"
+  },
+  {
+   "n": 14,
+   "stem": "The War of 1812 helped the United States gain the respect of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "European countries"
+    },
+    {
+     "label": "G",
+     "text": "Mexico"
+    },
+    {
+     "label": "H",
+     "text": "African nations"
+    },
+    {
+     "label": "J",
+     "text": "Canada"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-45"
+  },
+  {
+   "n": 15,
+   "stem": "A map titled Territorial Expansion, 1801–1861 shows a darker-shaded region covering the central United States, extending from the Mississippi River westward to the Rocky Mountains. The darker-shaded area on this map was sold to the United States by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mexico"
+    },
+    {
+     "label": "B",
+     "text": "Spain"
+    },
+    {
+     "label": "C",
+     "text": "France"
+    },
+    {
+     "label": "D",
+     "text": "Canada"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-46"
+  },
+  {
+   "n": 16,
+   "stem": "“We hold these truths to be self-evident: That all men are created equal …” — Declaration of Independence, 1776 “We hold these truths to be self-evident; that all men and women are created equal …” — Declaration of Sentiments and Resolutions, 1848 This quote from 1848 uses language from the Declaration of Independence to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "protest against changing the Constitution of the United States"
+    },
+    {
+     "label": "G",
+     "text": "show that American philosophies continue to support equal rights"
+    },
+    {
+     "label": "H",
+     "text": "protest the reasons given for Revolutionary War actions"
+    },
+    {
+     "label": "J",
+     "text": "show that European nations want to increase equal rights"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-47"
+  },
+  {
+   "n": 17,
+   "stem": "A line graph shows agricultural production increasing sharply during the early 1800s, particularly in cotton-growing regions of the South. Which invention contributed most to the change shown in this graph?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Steamboat"
+    },
+    {
+     "label": "B",
+     "text": "Reaper"
+    },
+    {
+     "label": "C",
+     "text": "Cotton gin"
+    },
+    {
+     "label": "D",
+     "text": "Steel plow"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-48"
+  },
+  {
+   "n": 18,
+   "stem": "One major difference between the North and the South that helped lead to the Civil War was —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "disagreements over tariffs"
+    },
+    {
+     "label": "G",
+     "text": "conflict over treaties"
+    },
+    {
+     "label": "H",
+     "text": "disagreements about resources"
+    },
+    {
+     "label": "J",
+     "text": "competition for factories"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-49"
+  },
+  {
+   "n": 19,
+   "stem": "The Missouri Compromise tried to satisfy people with different beliefs about slavery by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "admitting one free state and one slave state to the Union"
+    },
+    {
+     "label": "B",
+     "text": "prohibiting slavery in the Kansas Territory"
+    },
+    {
+     "label": "C",
+     "text": "ending the slave trade throughout the country"
+    },
+    {
+     "label": "D",
+     "text": "spreading slavery to plantations growing cotton and tobacco"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-50"
+  },
+  {
+   "n": 20,
+   "stem": "“… that government of the people, by the people, for the people shall not perish from the Earth.” — Abraham Lincoln President Lincoln is explaining that the main purpose of the Civil War was to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "punish Southern states"
+    },
+    {
+     "label": "G",
+     "text": "save the Union"
+    },
+    {
+     "label": "H",
+     "text": "grant women’s suffrage"
+    },
+    {
+     "label": "J",
+     "text": "settle western territories"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-51"
+  },
+  {
+   "n": 21,
+   "stem": "A Civil War–era poster announces that on January 1, 1863, the President of the United States proclaimed freedom for more than three million enslaved people and calls men to military service to enforce this order. The purpose of this poster was to recruit men for the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Union Army"
+    },
+    {
+     "label": "B",
+     "text": "Confederate Navy"
+    },
+    {
+     "label": "C",
+     "text": "Reconstruction Congress"
+    },
+    {
+     "label": "D",
+     "text": "Red Cross"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-52"
+  },
+  {
+   "n": 22,
+   "stem": "A diagram describes an individual who: Grew up in the South Was opposed to secession Urged Virginia to accept defeat Turned down command of Union troops What Civil War figure is described?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Thomas “Stonewall” Jackson"
+    },
+    {
+     "label": "G",
+     "text": "Jefferson Davis"
+    },
+    {
+     "label": "H",
+     "text": "Robert E. Lee"
+    },
+    {
+     "label": "J",
+     "text": "Frederick Douglass"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-53"
+  },
+  {
+   "n": 23,
+   "stem": "The leading cause of death during the Civil War resulted from —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "battle wounds"
+    },
+    {
+     "label": "B",
+     "text": "cannon shells"
+    },
+    {
+     "label": "C",
+     "text": "starvation"
+    },
+    {
+     "label": "D",
+     "text": "disease"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-54"
+  },
+  {
+   "n": 24,
+   "stem": "Which statement is true of women during the 1850s?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Most women had college educations."
+    },
+    {
+     "label": "G",
+     "text": "Women were given voting rights."
+    },
+    {
+     "label": "H",
+     "text": "Most women held limited property rights."
+    },
+    {
+     "label": "J",
+     "text": "Women were given equal business opportunities."
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-55"
+  },
+  {
+   "n": 25,
+   "stem": "Which ocean is located directly north of Europe?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pacific"
+    },
+    {
+     "label": "B",
+     "text": "Atlantic"
+    },
+    {
+     "label": "C",
+     "text": "Indian"
+    },
+    {
+     "label": "D",
+     "text": "Arctic"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-56"
+  },
+  {
+   "n": 26,
+   "stem": "Which continent is part of a larger landmass?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Asia"
+    },
+    {
+     "label": "G",
+     "text": "Africa"
+    },
+    {
+     "label": "H",
+     "text": "Australia"
+    },
+    {
+     "label": "J",
+     "text": "Antarctica"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-57"
+  },
+  {
+   "n": 27,
+   "stem": "Why was the Battle of Gettysburg a turning point of the Civil War?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "It gave the North control of the Mississippi River."
+    },
+    {
+     "label": "B",
+     "text": "It allowed the South to capture the Union capital."
+    },
+    {
+     "label": "C",
+     "text": "The South was able to surround the Union Army."
+    },
+    {
+     "label": "D",
+     "text": "The North stopped a Confederate invasion."
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-58"
+  },
+  {
+   "n": 28,
+   "stem": "Which geographic features are most associated with the Coastal Plain?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Lakes and high plateaus"
+    },
+    {
+     "label": "G",
+     "text": "Rolling flatlands with many rivers"
+    },
+    {
+     "label": "H",
+     "text": "Broad lowlands with many harbors"
+    },
+    {
+     "label": "J",
+     "text": "Mountain ranges and valleys"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-59"
+  },
+  {
+   "n": 29,
+   "stem": "A map of North America shows a darker-shaded region in the arid Southwest, including present-day Arizona and New Mexico, characterized by desert climate and adobe-style settlements. Which American Indian group lived in this darker-shaded area?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Iroquois"
+    },
+    {
+     "label": "B",
+     "text": "Pueblo"
+    },
+    {
+     "label": "C",
+     "text": "Kwakiutl"
+    },
+    {
+     "label": "D",
+     "text": "Inuit"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-60"
+  },
+  {
+   "n": 30,
+   "stem": "Most major cities and towns in the United States during the 18th century were located near —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "waterways"
+    },
+    {
+     "label": "G",
+     "text": "central areas of the country"
+    },
+    {
+     "label": "H",
+     "text": "mountains"
+    },
+    {
+     "label": "J",
+     "text": "warm areas of the country"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-61"
+  },
+  {
+   "n": 31,
+   "stem": "Which body of water forms part of the United States boundary with Mexico?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rio Grande"
+    },
+    {
+     "label": "B",
+     "text": "Atlantic Ocean"
+    },
+    {
+     "label": "C",
+     "text": "Colorado River"
+    },
+    {
+     "label": "D",
+     "text": "Columbia River"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-62"
+  },
+  {
+   "n": 32,
+   "stem": "A map of the United States in 1863 labels four states with numbers. Label 2 identifies a slave state that did not secede from the Union and remained loyal during the Civil War. Which state was known as a border state?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-63"
+  },
+  {
+   "n": 33,
+   "stem": "Which action was part of the Union plan during the Civil War?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Supporting the Underground Railroad"
+    },
+    {
+     "label": "B",
+     "text": "Blocking Southern ports"
+    },
+    {
+     "label": "C",
+     "text": "Securing territory in the Rocky Mountains"
+    },
+    {
+     "label": "D",
+     "text": "Ending a partnership with Canada"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-64"
+  },
+  {
+   "n": 34,
+   "stem": "Buffalo is to Lakota as _____ is to Inuit Which best completes this comparison?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Corn"
+    },
+    {
+     "label": "G",
+     "text": "Seal"
+    },
+    {
+     "label": "H",
+     "text": "Cattle"
+    },
+    {
+     "label": "J",
+     "text": "Squash"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-65"
+  },
+  {
+   "n": 35,
+   "stem": "American Indian Food Production includes: 1. Fish 2. Canoes 3. Fishing tools 4. Fishing skills Which number represents a human resource?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-66"
+  },
+  {
+   "n": 36,
+   "stem": "Which would most likely be found in the Mid-Atlantic colonies?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Plantation farming"
+    },
+    {
+     "label": "G",
+     "text": "Shipbuilding industries"
+    },
+    {
+     "label": "H",
+     "text": "Market towns"
+    },
+    {
+     "label": "J",
+     "text": "Gold mining"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-67"
+  },
+  {
+   "n": 37,
+   "stem": "A map of Africa labels four regions. Label 2 marks a country on the west coast of Africa along the Gulf of Guinea, historically known for trade and gold. Which number shows the location of Ghana?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-68"
+  },
+  {
+   "n": 38,
+   "stem": "Weaknesses of the Articles of Confederation: No executive branch No judicial branch No power for Congress to tax --- Which phrase best completes this list?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "No common currency"
+    },
+    {
+     "label": "G",
+     "text": "No national legislature"
+    },
+    {
+     "label": "H",
+     "text": "No political parties"
+    },
+    {
+     "label": "J",
+     "text": "No states’ rights"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-69"
+  },
+  {
+   "n": 39,
+   "stem": "According to the Declaration of Independence, government receives its power from the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "judiciary"
+    },
+    {
+     "label": "B",
+     "text": "legislature"
+    },
+    {
+     "label": "C",
+     "text": "military"
+    },
+    {
+     "label": "D",
+     "text": "people"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-70"
+  },
+  {
+   "n": 40,
+   "stem": "Manifest Destiny was the belief that the United States should —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "expand for the good of the country"
+    },
+    {
+     "label": "G",
+     "text": "create a national court system"
+    },
+    {
+     "label": "H",
+     "text": "become independent from Great Britain"
+    },
+    {
+     "label": "J",
+     "text": "increase immigration from Europe"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_6_United_States_History__1865_to_the_Present_2012_SOLPass",
+   "id": "grade-6-united-states-history-1865-to-the-present-71"
+  }
+ ]
+}

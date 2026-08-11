@@ -1,0 +1,5417 @@
+{
+ "subject": "math",
+ "course": "grade-6-math",
+ "courseName": "Grade 6 Math",
+ "questionCount": 216,
+ "sources": [
+  "Mathematics_Grade_6_2006_SOLPass",
+  "Mathematics_Grade_6_2007_SOLPass",
+  "Mathematics_Grade_6_2008_SOLPass",
+  "Mathematics_Grade_6_2009_SOLPass",
+  "Mathematics_Grade_6_2010_SOLPass",
+  "Mathematics_Grade_6_2014_VDOE"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Which is less than 1.064?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1.159"
+    },
+    {
+     "label": "B",
+     "text": "1.059"
+    },
+    {
+     "label": "C",
+     "text": "1.171"
+    },
+    {
+     "label": "D",
+     "text": "1.071"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-1"
+  },
+  {
+   "n": 2,
+   "stem": "The table below shows approximate decibel levels of different sounds: A leaf falling: 5.3 decibels A person shouting: 65.4 decibels Thunder: 100.0 decibels The sound of an airplane taking off is about 2.2 times louder than a person shouting. Which is the best estimate of the decibel level of an airplane taking off?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "100"
+    },
+    {
+     "label": "G",
+     "text": "140"
+    },
+    {
+     "label": "H",
+     "text": "200"
+    },
+    {
+     "label": "J",
+     "text": "340"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-2"
+  },
+  {
+   "n": 3,
+   "stem": "Tim mails two boxes of cookies to friends. One box weighs 13 pounds, and the other weighs 22 pounds. What is the total weight of the two boxes?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "27 pounds"
+    },
+    {
+     "label": "B",
+     "text": "32 pounds"
+    },
+    {
+     "label": "C",
+     "text": "35 pounds"
+    },
+    {
+     "label": "D",
+     "text": "40 pounds"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-3"
+  },
+  {
+   "n": 4,
+   "stem": "Lisa is having a meeting at her house. There are 48 members at the meeting. She estimates each member will drink 32 ounces of punch. Each bottle of punch contains 64 ounces. Which is the best estimate for the number of bottles of punch Lisa needs to buy?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5"
+    },
+    {
+     "label": "G",
+     "text": "15"
+    },
+    {
+     "label": "H",
+     "text": "25"
+    },
+    {
+     "label": "J",
+     "text": "35"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-4"
+  },
+  {
+   "n": 5,
+   "stem": "Sandra wants to buy 2 gallons of detergent. The table below shows the sale price of four different brands of detergent: Ultra Clean: 1 gallon for $6.50 Fresh All: 0.5 gallon for $2.00 Mega Wash: 0.5 gallon for $3.10 No More Stains: 2 gallons for $11.00 Which of the following is the least expensive way for Sandra to buy 2 gallons of detergent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Buying 4 bottles of Fresh All"
+    },
+    {
+     "label": "B",
+     "text": "Buying 4 bottles of Mega Wash"
+    },
+    {
+     "label": "C",
+     "text": "Buying 2 bottles of Ultra Clean"
+    },
+    {
+     "label": "D",
+     "text": "Buying 1 bottle of No More Stains"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-5"
+  },
+  {
+   "n": 6,
+   "stem": "Every week Sam saves $1.00 on Monday and $2.50 on Friday. If this is his total weekly savings, how many weeks would it take him to save enough to buy a $49 wireless phone?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "7 weeks"
+    },
+    {
+     "label": "G",
+     "text": "14 weeks"
+    },
+    {
+     "label": "H",
+     "text": "46 weeks"
+    },
+    {
+     "label": "J",
+     "text": "52 weeks"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-6"
+  },
+  {
+   "n": 7,
+   "stem": "Which fraction is equivalent to ( (12)/(18) )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (4)/(6) )"
+    },
+    {
+     "label": "B",
+     "text": "( (1)/(6) )"
+    },
+    {
+     "label": "C",
+     "text": "( (2)/(3) )"
+    },
+    {
+     "label": "D",
+     "text": "( (3)/(2) )"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-7"
+  },
+  {
+   "n": 8,
+   "stem": "Risa drank ( (3)/(4) ) glass of lemonade. Fola drank ( (1)/(2) ) glass of lemonade. If the glasses held the same amount of lemonade, how much more did Risa drink than Fola?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "( (1)/(4) ) glass"
+    },
+    {
+     "label": "G",
+     "text": "( (1)/(2) ) glass"
+    },
+    {
+     "label": "H",
+     "text": "( (3)/(4) ) glass"
+    },
+    {
+     "label": "J",
+     "text": "( (1)/(8) ) glass"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-8"
+  },
+  {
+   "n": 9,
+   "stem": "The table below shows a team’s weekly running schedule: Monday: 5 miles Tuesday: 4 miles Wednesday: 6 miles Thursday: 3 miles Friday: 5 miles What is the total distance the team will run in 4 weeks?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "23 miles"
+    },
+    {
+     "label": "B",
+     "text": "47 miles"
+    },
+    {
+     "label": "C",
+     "text": "70 miles"
+    },
+    {
+     "label": "D",
+     "text": "94 miles"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-9"
+  },
+  {
+   "n": 10,
+   "stem": "The Taco Plate costs $6.99. It includes 2 tacos, rice, and beans. Buying rice, beans, and 2 tacos separately costs about $9.00. Which is the best estimate of the difference in cost?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$2"
+    },
+    {
+     "label": "G",
+     "text": "$5"
+    },
+    {
+     "label": "H",
+     "text": "$7"
+    },
+    {
+     "label": "J",
+     "text": "$10"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-10"
+  },
+  {
+   "n": 13,
+   "stem": "Which is equivalent to 50%?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3%"
+    },
+    {
+     "label": "B",
+     "text": "5%"
+    },
+    {
+     "label": "C",
+     "text": "15%"
+    },
+    {
+     "label": "D",
+     "text": "20%"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-11"
+  },
+  {
+   "n": 14,
+   "stem": "Which of the following is a composite number?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "13"
+    },
+    {
+     "label": "G",
+     "text": "15"
+    },
+    {
+     "label": "H",
+     "text": "17"
+    },
+    {
+     "label": "J",
+     "text": "23"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-12"
+  },
+  {
+   "n": 15,
+   "stem": "The ratio of boys to girls in Room B is 15 to 12. What is the ratio of girls to total students in Room B?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12 to 27"
+    },
+    {
+     "label": "B",
+     "text": "12 to 15"
+    },
+    {
+     "label": "C",
+     "text": "15 to 27"
+    },
+    {
+     "label": "D",
+     "text": "15 to 12"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-13"
+  },
+  {
+   "n": 16,
+   "stem": "What is the greatest common factor of 12 and 20?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2"
+    },
+    {
+     "label": "G",
+     "text": "4"
+    },
+    {
+     "label": "H",
+     "text": "60"
+    },
+    {
+     "label": "J",
+     "text": "240"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-14"
+  },
+  {
+   "n": 17,
+   "stem": "Which of the following is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.310 < 0.275"
+    },
+    {
+     "label": "B",
+     "text": "0.325 > 0.310"
+    },
+    {
+     "label": "C",
+     "text": "0.325 < 0.275"
+    },
+    {
+     "label": "D",
+     "text": "0.310 > 0.325"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-15"
+  },
+  {
+   "n": 18,
+   "stem": "Which is a prime number?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "33"
+    },
+    {
+     "label": "G",
+     "text": "35"
+    },
+    {
+     "label": "H",
+     "text": "37"
+    },
+    {
+     "label": "J",
+     "text": "39"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-16"
+  },
+  {
+   "n": 20,
+   "stem": "Lou is making a pizza that has a radius of 9 inches. Which is closest to the area of the pizza?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1,017.36 square inches"
+    },
+    {
+     "label": "G",
+     "text": "254.34 square inches"
+    },
+    {
+     "label": "H",
+     "text": "56.52 square inches"
+    },
+    {
+     "label": "J",
+     "text": "25.434 square inches"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-17"
+  },
+  {
+   "n": 21,
+   "stem": "Which statement is true about both a pyramid and a cone?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Both have at least one vertex."
+    },
+    {
+     "label": "B",
+     "text": "Both have a circular base."
+    },
+    {
+     "label": "C",
+     "text": "Both have a rectangular base."
+    },
+    {
+     "label": "D",
+     "text": "Both have at least one triangular face."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-18"
+  },
+  {
+   "n": 23,
+   "stem": "Which word does not apply to every rectangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Parallelogram"
+    },
+    {
+     "label": "B",
+     "text": "Quadrilateral"
+    },
+    {
+     "label": "C",
+     "text": "Polygon"
+    },
+    {
+     "label": "D",
+     "text": "Rhombus"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-19"
+  },
+  {
+   "n": 24,
+   "stem": "Two rectangular tables are pushed together. One table measures 6 feet by 3 feet, and the other measures 4 feet by 3 feet. What is the total area of the tops of the two tables together?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "18 square feet"
+    },
+    {
+     "label": "G",
+     "text": "24 square feet"
+    },
+    {
+     "label": "H",
+     "text": "36 square feet"
+    },
+    {
+     "label": "J",
+     "text": "48 square feet"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-20"
+  },
+  {
+   "n": 30,
+   "stem": "Anna rode her bicycle 12.4 kilometers. How many meters did she ride?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0.124 meter"
+    },
+    {
+     "label": "G",
+     "text": "1,240 meters"
+    },
+    {
+     "label": "H",
+     "text": "12,400 meters"
+    },
+    {
+     "label": "J",
+     "text": "124,000 meters"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-21"
+  },
+  {
+   "n": 31,
+   "stem": "A clerk recorded the number of pairs of jeans sold each day. The stem-and-leaf plot shows values ranging from 9 to 58, with multiple occurrences of 25. Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The number sold each day was between 0 and 8."
+    },
+    {
+     "label": "B",
+     "text": "The data represent 26 days of sales."
+    },
+    {
+     "label": "C",
+     "text": "The median is 25."
+    },
+    {
+     "label": "D",
+     "text": "The mode is 25."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-22"
+  },
+  {
+   "n": 33,
+   "stem": "The table below shows travel times to school (in minutes): 14, 10, 6, 18, 13, 10, 9, 15, 10. What is the range of the data?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4 minutes"
+    },
+    {
+     "label": "B",
+     "text": "9 minutes"
+    },
+    {
+     "label": "C",
+     "text": "10 minutes"
+    },
+    {
+     "label": "D",
+     "text": "12 minutes"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-23"
+  },
+  {
+   "n": 35,
+   "stem": "Seth’s CD player has 12 songs total. Three of the songs are by the artist Sound Off. What is the probability that the next song played will be by Sound Off?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (1)/(12) )"
+    },
+    {
+     "label": "B",
+     "text": "( (1)/(4) )"
+    },
+    {
+     "label": "C",
+     "text": "( (1)/(3) )"
+    },
+    {
+     "label": "D",
+     "text": "( (3)/(4) )"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-24"
+  },
+  {
+   "n": 37,
+   "stem": "Which statement is false?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A set of data always has a mode."
+    },
+    {
+     "label": "B",
+     "text": "A set of data may have exactly one mode."
+    },
+    {
+     "label": "C",
+     "text": "A set of data may have more than one mode."
+    },
+    {
+     "label": "D",
+     "text": "The mode is the value that occurs most frequently."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-25"
+  },
+  {
+   "n": 38,
+   "stem": "What is the median of the set 195, 203, 206, 217, 230, 243, 243?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "206"
+    },
+    {
+     "label": "B",
+     "text": "217"
+    },
+    {
+     "label": "C",
+     "text": "220"
+    },
+    {
+     "label": "D",
+     "text": "243"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-26"
+  },
+  {
+   "n": 43,
+   "stem": "What value of p makes the equation (14p = 182) true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "13"
+    },
+    {
+     "label": "B",
+     "text": "168"
+    },
+    {
+     "label": "C",
+     "text": "196"
+    },
+    {
+     "label": "D",
+     "text": "2,548"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-27"
+  },
+  {
+   "n": 45,
+   "stem": "Based on the pattern for powers of 10, which is equivalent to 100,000,000?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(10^6)"
+    },
+    {
+     "label": "B",
+     "text": "(10^7)"
+    },
+    {
+     "label": "C",
+     "text": "(10^8)"
+    },
+    {
+     "label": "D",
+     "text": "(10^9)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-28"
+  },
+  {
+   "n": 46,
+   "stem": "Which is an equation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(h - 5 = 8)"
+    },
+    {
+     "label": "G",
+     "text": "(6x - 3)"
+    },
+    {
+     "label": "H",
+     "text": "(5y + 1 > 2)"
+    },
+    {
+     "label": "J",
+     "text": "(40?)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-29"
+  },
+  {
+   "n": 47,
+   "stem": "A pattern starts as 1, 4, 16, 64. Each term is multiplied by the same number. What is the 6th term?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "84"
+    },
+    {
+     "label": "B",
+     "text": "112"
+    },
+    {
+     "label": "C",
+     "text": "256"
+    },
+    {
+     "label": "D",
+     "text": "1,024"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-30"
+  },
+  {
+   "n": 48,
+   "stem": "The pattern 405, 135, 45, 15 is formed by performing the same operation on each previous number. Which operation was used?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Divide by 3"
+    },
+    {
+     "label": "G",
+     "text": "Multiply by 3"
+    },
+    {
+     "label": "H",
+     "text": "Subtract 270"
+    },
+    {
+     "label": "J",
+     "text": "Divide by 5"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-31"
+  },
+  {
+   "n": 50,
+   "stem": "A variable is —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "the numerical factor in a term"
+    },
+    {
+     "label": "G",
+     "text": "a mathematical sentence stating two expressions are equal"
+    },
+    {
+     "label": "H",
+     "text": "a symbol used to represent an unspecified member of a set"
+    },
+    {
+     "label": "J",
+     "text": "a number in an expression of sums and/or differences"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2008_SOLPass",
+   "id": "grade-6-math-32"
+  },
+  {
+   "n": 1,
+   "stem": "Which expression is best represented by the model showing three equal groups, each containing one whole unit and three tenths of a unit (1.3), combined together?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5.65"
+    },
+    {
+     "label": "B",
+     "text": "3.1"
+    },
+    {
+     "label": "C",
+     "text": "5.3"
+    },
+    {
+     "label": "D",
+     "text": "3.3"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-33"
+  },
+  {
+   "n": 3,
+   "stem": "The value of (85 0.8) is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "greater than 85 because the dividend is greater than the divisor."
+    },
+    {
+     "label": "B",
+     "text": "greater than 85 because the divisor is a value between 0 and 1."
+    },
+    {
+     "label": "C",
+     "text": "less than 85 because the divisor is less than the dividend."
+    },
+    {
+     "label": "D",
+     "text": "less than 85 because the quotient is always less than the dividend."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-34"
+  },
+  {
+   "n": 4,
+   "stem": "A number line shows points at −21, −18, −15, −12, −9, −6, −3, and 0. A model highlights a jump of −6 repeated three times to reach −18. Which equation is represented?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "−3 + (−6) = −18"
+    },
+    {
+     "label": "G",
+     "text": "3(−6) = −18"
+    },
+    {
+     "label": "H",
+     "text": "−21 ÷ 3 = −7"
+    },
+    {
+     "label": "J",
+     "text": "18 ÷ (−3) = −6"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-35"
+  },
+  {
+   "n": 5,
+   "stem": "Which number is less than −8?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−10"
+    },
+    {
+     "label": "B",
+     "text": "−3"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "14"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-36"
+  },
+  {
+   "n": 6,
+   "stem": "Which statement best describes a number that is a perfect square?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3 is a perfect square because (3^2 = 9)."
+    },
+    {
+     "label": "G",
+     "text": "11 is a perfect square because (11 * 2 = 22)."
+    },
+    {
+     "label": "H",
+     "text": "36 is a perfect square because (6^2 = 36)."
+    },
+    {
+     "label": "J",
+     "text": "40 is a perfect square because (4 * 10 = 40)."
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-37"
+  },
+  {
+   "n": 7,
+   "stem": "Nigel has 3 rolls of ribbon. Each roll has 83 feet of ribbon. It takes 13 feet of ribbon to make one bow. What is the total number of bows that Nigel can make using these 3 rolls of ribbon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 bows"
+    },
+    {
+     "label": "B",
+     "text": "15 bows"
+    },
+    {
+     "label": "C",
+     "text": "31 bows"
+    },
+    {
+     "label": "D",
+     "text": "46 bows"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-38"
+  },
+  {
+   "n": 8,
+   "stem": "Wayne and Dani each draw congruent circles and mark the center point Q. Wayne draws a line segment from one point on the circle, through the center Q, to the opposite side of the circle. Dani draws a line segment from the center Q to a point on the circle. Which statement best describes the line segments?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Wayne’s line segment shows a diameter, and Dani’s line segment shows a radius."
+    },
+    {
+     "label": "G",
+     "text": "Wayne’s line segment shows a radius, and Dani’s line segment shows a diameter."
+    },
+    {
+     "label": "H",
+     "text": "Wayne’s line segment shows a diameter, and Dani’s line segment shows a chord."
+    },
+    {
+     "label": "J",
+     "text": "Wayne’s line segment shows a chord, and Dani’s line segment shows a diameter."
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-39"
+  },
+  {
+   "n": 9,
+   "stem": "The diameter of the circular base of a storage container is 18.8 meters. The circumference of the base is approximately 59 meters. Which of these could be used to approximate the value of π?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (9)/(59) )"
+    },
+    {
+     "label": "B",
+     "text": "( (9.4)/(18.8) )"
+    },
+    {
+     "label": "C",
+     "text": "( (59)/(9) )"
+    },
+    {
+     "label": "D",
+     "text": "( (59)/(18.8) )"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-40"
+  },
+  {
+   "n": 10,
+   "stem": "A rectangle and a shaded triangle have the same base of 6 units and the same height of 3 units. The triangle occupies exactly half the area of the rectangle. The area, in square units, of the shaded triangle can be represented as —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(3 * 6)"
+    },
+    {
+     "label": "G",
+     "text": "(0.5 * 3 * 6)"
+    },
+    {
+     "label": "H",
+     "text": "(0.5 + 3 + 6)"
+    },
+    {
+     "label": "J",
+     "text": "(0.50 * 1.5 * 6)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-41"
+  },
+  {
+   "n": 13,
+   "stem": "A class will collect data to determine which afterschool event is the favorite for students to attend. Which method would result in data most representative of the entire school population?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Post an online survey on the school website."
+    },
+    {
+     "label": "B",
+     "text": "Survey all the students who attend the next afterschool event."
+    },
+    {
+     "label": "C",
+     "text": "Poll all the students in the sixth-grade English classes."
+    },
+    {
+     "label": "D",
+     "text": "Survey every fifth student who enters the cafeteria during each lunch period."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-42"
+  },
+  {
+   "n": 14,
+   "stem": "Timothy ordered 150 sandwiches on Monday. A circle graph shows that turkey sandwiches make up about one-third of the total. Which is closest to the total number of turkey sandwiches Timothy ordered?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "25"
+    },
+    {
+     "label": "G",
+     "text": "38"
+    },
+    {
+     "label": "H",
+     "text": "50"
+    },
+    {
+     "label": "J",
+     "text": "75"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-43"
+  },
+  {
+   "n": 15,
+   "stem": "Porter recorded the lengths of 8 earthworms, rounded to the nearest inch. A circle graph shows: • 37.5% are less than 5 inches • 50% are between 5 and 6 inches • 12.5% are greater than 6 inches A line plot shows the same data, with X marks at 3, 4, 5, 5, 6, 6, 6, and 7 inches. What information can be determined from both the circle graph and the line plot?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The mode of the data set"
+    },
+    {
+     "label": "B",
+     "text": "The range of the data set"
+    },
+    {
+     "label": "C",
+     "text": "The percent of earthworms greater than 6 inches long"
+    },
+    {
+     "label": "D",
+     "text": "The number of earthworms that are exactly 5 inches long"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-44"
+  },
+  {
+   "n": 16,
+   "stem": "A line plot shows the number of letters in the names of 7 students with values at 5, 6, 6, 7, 7, 8, and 9 letters. Each X represents 1 student. What is the balance point for this set of data?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5 letters"
+    },
+    {
+     "label": "G",
+     "text": "6 letters"
+    },
+    {
+     "label": "H",
+     "text": "7 letters"
+    },
+    {
+     "label": "J",
+     "text": "8 letters"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-45"
+  },
+  {
+   "n": 17,
+   "stem": "The table shows the number of minutes 10 students spent completing homework one night: 4, 50, 80, 45, 50, 65, 45, 85, 50, 45. The teacher removes the outlier from the data and recalculates the measures of center and spread. When the outlier is removed from the data, the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "median decreases"
+    },
+    {
+     "label": "B",
+     "text": "range increases"
+    },
+    {
+     "label": "C",
+     "text": "mean increases"
+    },
+    {
+     "label": "D",
+     "text": "mode increases"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-46"
+  },
+  {
+   "n": 18,
+   "stem": "Cole used ( (2)/(11) ) of his time reading his notes and ( (4)/(11) ) of his time completing problems. He used the rest of his time reviewing his textbook. If Cole spent 88 minutes total, he reviewed his textbook for exactly —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "20 min"
+    },
+    {
+     "label": "G",
+     "text": "36 min"
+    },
+    {
+     "label": "H",
+     "text": "44 min"
+    },
+    {
+     "label": "J",
+     "text": "53 min"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-47"
+  },
+  {
+   "n": 20,
+   "stem": "An equation mat shows 5 identical groups on one side and 6 identical groups on the other side, using the same unit symbol for each group. Which equation best represents the equation mat shown?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y = 5 + 6)"
+    },
+    {
+     "label": "G",
+     "text": "(y + 5 = 6)"
+    },
+    {
+     "label": "H",
+     "text": "(y - 5 = 6)"
+    },
+    {
+     "label": "J",
+     "text": "(y = 6)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-48"
+  },
+  {
+   "n": 21,
+   "stem": "What is the value of m for this equation? (18 = 6m)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "−3"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "108"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-49"
+  },
+  {
+   "n": 23,
+   "stem": "Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−2 is a solution to (x < −3) because −2 < 3"
+    },
+    {
+     "label": "B",
+     "text": "−5 is a solution to (x < −10) because 5 < 10"
+    },
+    {
+     "label": "C",
+     "text": "−10 is a solution to (x > −10) because −10 = −10"
+    },
+    {
+     "label": "D",
+     "text": "−12 is a solution to (x > −12) because −12 = −12"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2014_VDOE",
+   "id": "grade-6-math-50"
+  },
+  {
+   "n": 1,
+   "stem": "Silas bought a bag of 12 muffins. There were 7 blueberry muffins and 3 banana muffins in the bag. The rest of the muffins were cranberry. What fractional part of the bag of muffins was cranberry?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/6"
+    },
+    {
+     "label": "B",
+     "text": "5/12"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "7/12"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-51"
+  },
+  {
+   "n": 2,
+   "stem": "Which number represents the product of 0.01 and 2.86?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2.86"
+    },
+    {
+     "label": "G",
+     "text": "0.0286"
+    },
+    {
+     "label": "H",
+     "text": "286"
+    },
+    {
+     "label": "J",
+     "text": "2,860"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-52"
+  },
+  {
+   "n": 3,
+   "stem": "Look at the table. Cost of T-shirts Al’s T-shirt Shop: $6.99 per T-shirt T-shirt Connection: $7.49 per T-shirt How much more would a person pay for 4 T-shirts at T-shirt Connection than at Al’s T-shirt Shop?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$0.50"
+    },
+    {
+     "label": "B",
+     "text": "$2.00"
+    },
+    {
+     "label": "C",
+     "text": "$20.47"
+    },
+    {
+     "label": "D",
+     "text": "$22.97"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-53"
+  },
+  {
+   "n": 4,
+   "stem": "What is the quotient of 4.48 ÷ 70?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "15.63"
+    },
+    {
+     "label": "G",
+     "text": "6.4"
+    },
+    {
+     "label": "H",
+     "text": "0.156"
+    },
+    {
+     "label": "J",
+     "text": "0.064"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-54"
+  },
+  {
+   "n": 5,
+   "stem": "A bicycle shop has 8 bicycles that sell for $298.75 each. Which is closest to the total cost of all the bicycles?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$300"
+    },
+    {
+     "label": "B",
+     "text": "$800"
+    },
+    {
+     "label": "C",
+     "text": "$2,000"
+    },
+    {
+     "label": "D",
+     "text": "$2,400"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-55"
+  },
+  {
+   "n": 6,
+   "stem": "Look at the table. James’s Weekend Activities Cleaning bedroom: between 2 and 3 hours Washing dishes: between 1 and 4 hours Doing homework: between 3 and 4 hours Cleaning bathroom: between 1 and 3 hours Folding clothes: between 1 and 2 hours Which estimate is closest to the total amount of time James spends on weekend activities?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "10 hours"
+    },
+    {
+     "label": "G",
+     "text": "6 hours"
+    },
+    {
+     "label": "H",
+     "text": "3 hours"
+    },
+    {
+     "label": "J",
+     "text": "1 hour"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-56"
+  },
+  {
+   "n": 7,
+   "stem": "A farmer has 6 cartons of specialty eggs for sale. Each carton contains 12 eggs. If 2/3 of the eggs are brown eggs, what is the total number of brown eggs he has for sale?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "48"
+    },
+    {
+     "label": "D",
+     "text": "72"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-57"
+  },
+  {
+   "n": 8,
+   "stem": "A carpet cleaning company charged $99.99 to clean 3 rooms in a house and $29.99 for each extra room. What is the total amount of money the company would charge to clean 5 rooms in the house?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$189.96"
+    },
+    {
+     "label": "G",
+     "text": "$159.97"
+    },
+    {
+     "label": "H",
+     "text": "$149.95"
+    },
+    {
+     "label": "J",
+     "text": "$129.98"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-58"
+  },
+  {
+   "n": 9,
+   "stem": "Look at the table. Distance Frank Walked Monday: 3/4 mile Tuesday: 1 1/2 miles Wednesday: 2/3 mile According to the table, what is the total distance Frank walked for the three days?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 2/3 miles"
+    },
+    {
+     "label": "B",
+     "text": "2 1/6 miles"
+    },
+    {
+     "label": "C",
+     "text": "2 1/4 miles"
+    },
+    {
+     "label": "D",
+     "text": "2 11/12 miles"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-59"
+  },
+  {
+   "n": 10,
+   "stem": "Seth bought a bag of pencils. 1/2 of the pencils are red. 1/6 of the pencils are blue. What fractional part of the bag of pencils is either red or blue?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1/6"
+    },
+    {
+     "label": "G",
+     "text": "1/2"
+    },
+    {
+     "label": "H",
+     "text": "2/3"
+    },
+    {
+     "label": "J",
+     "text": "5/6"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-60"
+  },
+  {
+   "n": 11,
+   "stem": "Which is equivalent to 7/10?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.7%"
+    },
+    {
+     "label": "B",
+     "text": "7%"
+    },
+    {
+     "label": "C",
+     "text": "70%"
+    },
+    {
+     "label": "D",
+     "text": "700%"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-61"
+  },
+  {
+   "n": 12,
+   "stem": "Which statement is not true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "−8 > −10"
+    },
+    {
+     "label": "G",
+     "text": "−6 < 6"
+    },
+    {
+     "label": "H",
+     "text": "3 > −2"
+    },
+    {
+     "label": "J",
+     "text": "4 < −9"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-62"
+  },
+  {
+   "n": 13,
+   "stem": "A number line shows four labeled points arranged from left to right as S, Q, T, R. The least integer on the number line is at point S. Which point represents the least integer?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Q"
+    },
+    {
+     "label": "B",
+     "text": "R"
+    },
+    {
+     "label": "C",
+     "text": "S"
+    },
+    {
+     "label": "D",
+     "text": "T"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-63"
+  },
+  {
+   "n": 15,
+   "stem": "Which list of numbers contains only common factors of 24 and 36?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2, 4, 6, 12"
+    },
+    {
+     "label": "B",
+     "text": "2, 4, 8, 12"
+    },
+    {
+     "label": "C",
+     "text": "3, 6, 9, 12"
+    },
+    {
+     "label": "D",
+     "text": "3, 6, 12, 18"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-64"
+  },
+  {
+   "n": 16,
+   "stem": "Which fraction has the same value as 0.6?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1/6"
+    },
+    {
+     "label": "G",
+     "text": "1/2"
+    },
+    {
+     "label": "H",
+     "text": "3/5"
+    },
+    {
+     "label": "J",
+     "text": "2/3"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-65"
+  },
+  {
+   "n": 17,
+   "stem": "Look at the table. Camelia’s Grades A: 4 B: 3 C: 1 According to the table, what is the ratio of the number of A’s Camelia earned to the number of B’s she earned?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4:7"
+    },
+    {
+     "label": "B",
+     "text": "3:4"
+    },
+    {
+     "label": "C",
+     "text": "7:4"
+    },
+    {
+     "label": "D",
+     "text": "4:3"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-66"
+  },
+  {
+   "n": 18,
+   "stem": "Which is true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "7/11 ≥ 5/6"
+    },
+    {
+     "label": "G",
+     "text": "2/5 < 3/8"
+    },
+    {
+     "label": "H",
+     "text": "3/10 < 4/9"
+    },
+    {
+     "label": "J",
+     "text": "5/12 ≥ 4/7"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-67"
+  },
+  {
+   "n": 19,
+   "stem": "Three flat shapes are used to build a three-dimensional model with no overlapping: one rectangle and two congruent circles. What is the name of the model that could be made from the three shapes?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cone"
+    },
+    {
+     "label": "B",
+     "text": "Rectangular prism"
+    },
+    {
+     "label": "C",
+     "text": "Sphere"
+    },
+    {
+     "label": "D",
+     "text": "Cylinder"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-68"
+  },
+  {
+   "n": 20,
+   "stem": "What is the total number of quarts in 3 1/2 gallons?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "7"
+    },
+    {
+     "label": "G",
+     "text": "12"
+    },
+    {
+     "label": "H",
+     "text": "14"
+    },
+    {
+     "label": "J",
+     "text": "28"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-69"
+  },
+  {
+   "n": 21,
+   "stem": "Rory and Curtis are on the stage crew for the school play. The rectangular stage measures 20 feet by 40 feet. What is the minimum amount of tape they will need to outline the stage?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "60 feet"
+    },
+    {
+     "label": "B",
+     "text": "120 feet"
+    },
+    {
+     "label": "C",
+     "text": "400 feet"
+    },
+    {
+     "label": "D",
+     "text": "800 feet"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-70"
+  },
+  {
+   "n": 22,
+   "stem": "Which measurement represents the greatest length?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6 feet"
+    },
+    {
+     "label": "G",
+     "text": "27 inches"
+    },
+    {
+     "label": "H",
+     "text": "1 meter"
+    },
+    {
+     "label": "J",
+     "text": "98 centimeters"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-71"
+  },
+  {
+   "n": 23,
+   "stem": "The diameter of a circle is 6 feet. Which is closest to the circumference of the circle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "18.84 ft"
+    },
+    {
+     "label": "B",
+     "text": "28.26 ft"
+    },
+    {
+     "label": "C",
+     "text": "37.68 ft"
+    },
+    {
+     "label": "D",
+     "text": "113.04 ft"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-72"
+  },
+  {
+   "n": 24,
+   "stem": "A scale shows the combined weight of 6 identical raisin boxes as approximately 250 grams. Which is closest to the weight of 1 raisin box?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "250 grams"
+    },
+    {
+     "label": "G",
+     "text": "125 grams"
+    },
+    {
+     "label": "H",
+     "text": "84 grams"
+    },
+    {
+     "label": "J",
+     "text": "42 grams"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-73"
+  },
+  {
+   "n": 25,
+   "stem": "A ballet dancer stands with her feet forming an obtuse angle w. Which is most likely the measure of angle w?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "65°"
+    },
+    {
+     "label": "B",
+     "text": "75°"
+    },
+    {
+     "label": "C",
+     "text": "115°"
+    },
+    {
+     "label": "D",
+     "text": "125°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-74"
+  },
+  {
+   "n": 26,
+   "stem": "Which measurement represents a length shorter than 5 centimeters?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1 foot"
+    },
+    {
+     "label": "G",
+     "text": "2 kilometers"
+    },
+    {
+     "label": "H",
+     "text": "3 inches"
+    },
+    {
+     "label": "J",
+     "text": "4 millimeters"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-75"
+  },
+  {
+   "n": 27,
+   "stem": "Which figure has exactly one pair of parallel sides and two 90° angles?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A right trapezoid"
+    },
+    {
+     "label": "B",
+     "text": "A rectangle"
+    },
+    {
+     "label": "C",
+     "text": "A parallelogram"
+    },
+    {
+     "label": "D",
+     "text": "A triangle"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-76"
+  },
+  {
+   "n": 28,
+   "stem": "Point M is the center of a circle. Point N lies on the circle. The distance from M to N (the radius) is 21 cm. Which is closest to the area of the circle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "66 cm²"
+    },
+    {
+     "label": "G",
+     "text": "132 cm²"
+    },
+    {
+     "label": "H",
+     "text": "1,386 cm²"
+    },
+    {
+     "label": "J",
+     "text": "5,544 cm²"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-77"
+  },
+  {
+   "n": 29,
+   "stem": "Sarah folded a net made of one square base with four congruent triangular faces attached, along dotted lines, to make a three-dimensional shape. Which best describes the shape Sarah made?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Triangular pyramid"
+    },
+    {
+     "label": "B",
+     "text": "Triangular prism"
+    },
+    {
+     "label": "C",
+     "text": "Rectangular prism"
+    },
+    {
+     "label": "D",
+     "text": "Square pyramid"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-78"
+  },
+  {
+   "n": 30,
+   "stem": "Which are the measures of the 3 angles of an equilateral triangle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "35°, 45°, 110°"
+    },
+    {
+     "label": "G",
+     "text": "45°, 45°, 90°"
+    },
+    {
+     "label": "H",
+     "text": "60°, 60°, 60°"
+    },
+    {
+     "label": "J",
+     "text": "30°, 60°, 90°"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-79"
+  },
+  {
+   "n": 31,
+   "stem": "Look at the table. Number of Customers at a Restaurant Monday: 134 Tuesday: 126 Wednesday: 115 Thursday: 108 Friday: 172 According to the table, what was the median number of customers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "115"
+    },
+    {
+     "label": "B",
+     "text": "126"
+    },
+    {
+     "label": "C",
+     "text": "131"
+    },
+    {
+     "label": "D",
+     "text": "172"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-80"
+  },
+  {
+   "n": 32,
+   "stem": "A box-and-whisker plot shows a minimum of 15 and a maximum of 29. Which is most likely the range for the data?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6"
+    },
+    {
+     "label": "G",
+     "text": "14"
+    },
+    {
+     "label": "H",
+     "text": "21"
+    },
+    {
+     "label": "J",
+     "text": "29"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-81"
+  },
+  {
+   "n": 33,
+   "stem": "The possible outcomes when rolling a pair of fair number cubes are listed. What is the probability of rolling the same number of dots on both number cubes on the first try?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30/36"
+    },
+    {
+     "label": "B",
+     "text": "5/36"
+    },
+    {
+     "label": "C",
+     "text": "6/36"
+    },
+    {
+     "label": "D",
+     "text": "1/36"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-82"
+  },
+  {
+   "n": 34,
+   "stem": "Ginny’s video game collection by month is shown below: December: 4 January: 8 February: 12 March: 12 April: 12 May: 15 June: 18 Which statement is false about Ginny’s video game collection during this period?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The number of video games did not appear to change from March to April."
+    },
+    {
+     "label": "G",
+     "text": "The trend for the number of video games is increasing."
+    },
+    {
+     "label": "H",
+     "text": "The greatest monthly increase in the number of video games was from January to February."
+    },
+    {
+     "label": "J",
+     "text": "The number of video games increased by 1 from May to June."
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-83"
+  },
+  {
+   "n": 35,
+   "stem": "The data below lists the number of pages in each book Harry read last summer. 225, 157, 144, 312, 281, 276, 166 What is the median of the data?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "168"
+    },
+    {
+     "label": "B",
+     "text": "223"
+    },
+    {
+     "label": "C",
+     "text": "225"
+    },
+    {
+     "label": "D",
+     "text": "312"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-84"
+  },
+  {
+   "n": 36,
+   "stem": "Look at the table. Continuing Education Class Enrollment Theater Arts: 8 Creative Writing: 6 Cooking: 11 Pottery: 12 Computer Animation: 13 According to the table, what is the mean number of students enrolled in a class?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "7"
+    },
+    {
+     "label": "G",
+     "text": "10"
+    },
+    {
+     "label": "H",
+     "text": "11"
+    },
+    {
+     "label": "J",
+     "text": "50"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-85"
+  },
+  {
+   "n": 38,
+   "stem": "Look at the table. Pastries in a Box Raspberry: 4 Blueberry: 3 Cream cheese: 6 Apple: 7 If Mark randomly chooses 1 pastry from the box, what is the probability that it will have a cream cheese filling?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "25%"
+    },
+    {
+     "label": "G",
+     "text": "30%"
+    },
+    {
+     "label": "H",
+     "text": "43%"
+    },
+    {
+     "label": "J",
+     "text": "60%"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-86"
+  },
+  {
+   "n": 39,
+   "stem": "Based on the pattern shown, what is the value of 6⁶? 6¹ = 6 6² = 36 6³ = 216 6⁴ = 1,296",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1,308"
+    },
+    {
+     "label": "B",
+     "text": "2,592"
+    },
+    {
+     "label": "C",
+     "text": "36,000"
+    },
+    {
+     "label": "D",
+     "text": "46,656"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-87"
+  },
+  {
+   "n": 41,
+   "stem": "Which is a perfect square between 81 and 121?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "86"
+    },
+    {
+     "label": "B",
+     "text": "99"
+    },
+    {
+     "label": "C",
+     "text": "100"
+    },
+    {
+     "label": "D",
+     "text": "114"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-88"
+  },
+  {
+   "n": 42,
+   "stem": "Patty made a figure of 4 small squares arranged in a 2-by-2 square. She then increased the size by adding 1 row and 1 column each time, forming square figures (3-by-3, 4-by-4, 5-by-5, and so on). How many small squares will make up the 7th figure?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "64"
+    },
+    {
+     "label": "G",
+     "text": "49"
+    },
+    {
+     "label": "H",
+     "text": "34"
+    },
+    {
+     "label": "J",
+     "text": "25"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-89"
+  },
+  {
+   "n": 43,
+   "stem": "What value of z makes the number sentence true? z + 53 = 92",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4,876"
+    },
+    {
+     "label": "B",
+     "text": "145"
+    },
+    {
+     "label": "C",
+     "text": "49"
+    },
+    {
+     "label": "D",
+     "text": "39"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-90"
+  },
+  {
+   "n": 44,
+   "stem": "A pattern is made by repeating four shapes in this order: square, triangle, circle, star. If the pattern continues, what will be the 14th shape?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Square"
+    },
+    {
+     "label": "G",
+     "text": "Triangle"
+    },
+    {
+     "label": "H",
+     "text": "Circle"
+    },
+    {
+     "label": "J",
+     "text": "Star"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-91"
+  },
+  {
+   "n": 45,
+   "stem": "In the expression 2x + 5 = 9, the circled part is x. Which best describes x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Variable"
+    },
+    {
+     "label": "B",
+     "text": "Coefficient"
+    },
+    {
+     "label": "C",
+     "text": "Term"
+    },
+    {
+     "label": "D",
+     "text": "Equation"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-92"
+  },
+  {
+   "n": 46,
+   "stem": "Miss Jackson wrote this number sentence on the board: 7x = 36 Which procedure could be used to find a value for x that will make the number sentence true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Subtract 7 from both sides."
+    },
+    {
+     "label": "G",
+     "text": "Multiply both sides by 7."
+    },
+    {
+     "label": "H",
+     "text": "Divide both sides by 7."
+    },
+    {
+     "label": "J",
+     "text": "Add 7 to both sides."
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-93"
+  },
+  {
+   "n": 47,
+   "stem": "A balanced scale shows three x blocks on one side and twenty-one 1-unit blocks on the other side. Which equation represents the drawing?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3 + x = 21"
+    },
+    {
+     "label": "B",
+     "text": "3 + x > 21"
+    },
+    {
+     "label": "C",
+     "text": "3x > 21"
+    },
+    {
+     "label": "D",
+     "text": "3x = 21"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-94"
+  },
+  {
+   "n": 48,
+   "stem": "The first term in the following pattern is 1. 1, 7, 19, 43, 91 Which rule could be used to get the next term in the pattern?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Multiply by 2, then add 5."
+    },
+    {
+     "label": "G",
+     "text": "Add 12."
+    },
+    {
+     "label": "H",
+     "text": "Multiply by 3, then add 4."
+    },
+    {
+     "label": "J",
+     "text": "Add 6."
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-95"
+  },
+  {
+   "n": 49,
+   "stem": "Luanne stacked some checkers in a triangular shape. Each row has 1 less checker than the row below it. She made a stack starting with 8 checkers in the bottom row. How many total checkers were in the stack?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "19"
+    },
+    {
+     "label": "B",
+     "text": "21"
+    },
+    {
+     "label": "C",
+     "text": "29"
+    },
+    {
+     "label": "D",
+     "text": "36"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-96"
+  },
+  {
+   "n": 50,
+   "stem": "A balanced scale shows the left side with two x blocks and four 1-unit blocks. Which could be placed on the right side to keep the scale balanced?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "One x block and six 1-unit blocks"
+    },
+    {
+     "label": "G",
+     "text": "Two x blocks and four 1-unit blocks"
+    },
+    {
+     "label": "H",
+     "text": "Four x blocks"
+    },
+    {
+     "label": "J",
+     "text": "Eight 1-unit blocks"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2007_SOLPass",
+   "id": "grade-6-math-97"
+  },
+  {
+   "n": 1,
+   "stem": "Hayden has $20 to spend at the county fair. Admission to the fair is $5.00 per person, and tickets for food and games cost $1.25 per ticket. What information is needed to calculate the amount of money that Hayden will have left after attending the fair?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The number of prizes he won"
+    },
+    {
+     "label": "B",
+     "text": "The number of hours he attended"
+    },
+    {
+     "label": "C",
+     "text": "The number of tickets he purchased"
+    },
+    {
+     "label": "D",
+     "text": "The number of miles the fair is from his house"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-98"
+  },
+  {
+   "n": 2,
+   "stem": "Amy bought three CDs for $15.34, $17.57, and $10.29, including sales tax. She gave the clerk $50.00. Which is closest to the amount of change Amy should receive?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$1.00"
+    },
+    {
+     "label": "G",
+     "text": "$7.00"
+    },
+    {
+     "label": "H",
+     "text": "$10.00"
+    },
+    {
+     "label": "J",
+     "text": "$17.00"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-99"
+  },
+  {
+   "n": 3,
+   "stem": "What is 11.25 divided by 0.5?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2,250"
+    },
+    {
+     "label": "B",
+     "text": "225"
+    },
+    {
+     "label": "C",
+     "text": "22.5"
+    },
+    {
+     "label": "D",
+     "text": "2.25"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-100"
+  },
+  {
+   "n": 4,
+   "stem": "Donna collected 3 1/5 pounds of newspaper. Darcy collected 2 1/4 pounds of newspaper. What was the total amount of newspaper they collected?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "8 1/2 pounds"
+    },
+    {
+     "label": "G",
+     "text": "5 9/20 pounds"
+    },
+    {
+     "label": "H",
+     "text": "7 1/2 pounds"
+    },
+    {
+     "label": "J",
+     "text": "7 3/4 pounds"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-101"
+  },
+  {
+   "n": 5,
+   "stem": "In her shopping cart, Jody has 2 pounds of oranges at $0.99 per pound, 3 cans of soup at $1.19 per can, and 1 gallon of ice cream at $3.79 per gallon. Which is closest to the total cost of the items in her shopping cart?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$9.00"
+    },
+    {
+     "label": "B",
+     "text": "$8.00"
+    },
+    {
+     "label": "C",
+     "text": "$7.00"
+    },
+    {
+     "label": "D",
+     "text": "$6.00"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-102"
+  },
+  {
+   "n": 6,
+   "stem": "What is 0.64 ÷ 0.008?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "8"
+    },
+    {
+     "label": "G",
+     "text": "80"
+    },
+    {
+     "label": "H",
+     "text": "800"
+    },
+    {
+     "label": "J",
+     "text": "8,000"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-103"
+  },
+  {
+   "n": 7,
+   "stem": "Which fraction is equivalent to (5/6) ÷ (1/3)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5/18"
+    },
+    {
+     "label": "B",
+     "text": "2/5"
+    },
+    {
+     "label": "C",
+     "text": "1 1/6"
+    },
+    {
+     "label": "D",
+     "text": "2 1/2"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-104"
+  },
+  {
+   "n": 8,
+   "stem": "Gwen purchased the following items before tax: 5 sketchpads at $2.99 each 2 paintbrushes at $5.99 each 1 box of chalk at $15.99 Which method could be used to determine the total amount of money Gwen spent before tax?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Multiply the cost per item by the number of items, then add the products."
+    },
+    {
+     "label": "G",
+     "text": "Divide the cost per item by the number of items, then multiply the quotients."
+    },
+    {
+     "label": "H",
+     "text": "Divide the cost per item by the number of items, then add the quotients."
+    },
+    {
+     "label": "J",
+     "text": "Multiply the cost per item by the number of items, then multiply the products."
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-105"
+  },
+  {
+   "n": 9,
+   "stem": "Jasmine’s recipe requires 2/3 cup of flour. She has only 1/2 cup of flour in the pantry. How much more flour does she need?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7/6 cups"
+    },
+    {
+     "label": "B",
+     "text": "3/5 cup"
+    },
+    {
+     "label": "C",
+     "text": "1/3 cup"
+    },
+    {
+     "label": "D",
+     "text": "1/6 cup"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-106"
+  },
+  {
+   "n": 10,
+   "stem": "The prices for CDs at four different stores are listed below: Budget Buy: 4 CDs for $30.00 CD City: 2 CDs for $15.99 Music Mall: 3 CDs for $21.99 Shop Smart: 1 CD for $8.99 Which store has the lowest price per CD?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Budget Buy"
+    },
+    {
+     "label": "G",
+     "text": "CD City"
+    },
+    {
+     "label": "H",
+     "text": "Music Mall"
+    },
+    {
+     "label": "J",
+     "text": "Shop Smart"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-107"
+  },
+  {
+   "n": 11,
+   "stem": "A prime number can best be described as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a number with more than 2 different factors"
+    },
+    {
+     "label": "B",
+     "text": "a number with exactly 2 different factors"
+    },
+    {
+     "label": "C",
+     "text": "always an even number"
+    },
+    {
+     "label": "D",
+     "text": "always an odd number"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-108"
+  },
+  {
+   "n": 12,
+   "stem": "What is the greatest common factor of 18 and 33?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "594"
+    },
+    {
+     "label": "G",
+     "text": "198"
+    },
+    {
+     "label": "H",
+     "text": "6"
+    },
+    {
+     "label": "J",
+     "text": "3"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-109"
+  },
+  {
+   "n": 13,
+   "stem": "Which decimals are ordered from least to greatest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.009, 0.8, 0.05, 1.0"
+    },
+    {
+     "label": "B",
+     "text": "0.009, 0.05, 0.8, 1.0"
+    },
+    {
+     "label": "C",
+     "text": "1.0, 0.05, 0.8, 0.009"
+    },
+    {
+     "label": "D",
+     "text": "1.0, 0.8, 0.05, 0.009"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-110"
+  },
+  {
+   "n": 15,
+   "stem": "Sam owns a canoe rental company with 120 boats. He has 55 wood boats, and the rest are fiberglass. What is the ratio of wood boats to fiberglass boats?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "55:65"
+    },
+    {
+     "label": "B",
+     "text": "65:55"
+    },
+    {
+     "label": "C",
+     "text": "120:55"
+    },
+    {
+     "label": "D",
+     "text": "120:65"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-111"
+  },
+  {
+   "n": 16,
+   "stem": "Which is a composite number?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "49"
+    },
+    {
+     "label": "G",
+     "text": "47"
+    },
+    {
+     "label": "H",
+     "text": "37"
+    },
+    {
+     "label": "J",
+     "text": "29"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-112"
+  },
+  {
+   "n": 17,
+   "stem": "Which percent is equivalent to 3/5?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "15%"
+    },
+    {
+     "label": "B",
+     "text": "20%"
+    },
+    {
+     "label": "C",
+     "text": "35%"
+    },
+    {
+     "label": "D",
+     "text": "60%"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-113"
+  },
+  {
+   "n": 18,
+   "stem": "Which digit could be found in the ones place of an odd number?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0"
+    },
+    {
+     "label": "G",
+     "text": "1"
+    },
+    {
+     "label": "H",
+     "text": "2"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-114"
+  },
+  {
+   "n": 19,
+   "stem": "Which is closest to the area of a classroom bulletin board?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2,000 square inches"
+    },
+    {
+     "label": "B",
+     "text": "2,000 square feet"
+    },
+    {
+     "label": "C",
+     "text": "2,000 cubic inches"
+    },
+    {
+     "label": "D",
+     "text": "2,000 cubic feet"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-115"
+  },
+  {
+   "n": 20,
+   "stem": "Four angles share a common vertex H. One ray extends from H to point Q. Rays from Q extend to points A, B, D, and E. Which angle has a measure closest to 90°?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "∠HQA"
+    },
+    {
+     "label": "G",
+     "text": "∠HQB"
+    },
+    {
+     "label": "H",
+     "text": "∠HQD"
+    },
+    {
+     "label": "J",
+     "text": "∠HQE"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-116"
+  },
+  {
+   "n": 21,
+   "stem": "How many ounces are equivalent to 25 pounds?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "175 ounces"
+    },
+    {
+     "label": "B",
+     "text": "200 ounces"
+    },
+    {
+     "label": "C",
+     "text": "370 ounces"
+    },
+    {
+     "label": "D",
+     "text": "400 ounces"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-117"
+  },
+  {
+   "n": 22,
+   "stem": "Nikki drew a sketch of the floor plan of her home. Bedroom 1 and the family room appear to be the same shape and size. Other rooms differ in shape or size. Which two rooms appear to be congruent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Bedroom 1 and Family Room"
+    },
+    {
+     "label": "G",
+     "text": "Dining Room and Bedroom 1"
+    },
+    {
+     "label": "H",
+     "text": "Living Room and Bedroom 2"
+    },
+    {
+     "label": "J",
+     "text": "Living Room and Dining Room"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-118"
+  },
+  {
+   "n": 23,
+   "stem": "A wheel has a radius of 67.5 meters. Which is closest to the circumference of this wheel? (Use π ≈ 3.14.)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "211.95 m"
+    },
+    {
+     "label": "B",
+     "text": "423.9 m"
+    },
+    {
+     "label": "C",
+     "text": "4,556.25 m"
+    },
+    {
+     "label": "D",
+     "text": "14,306.62 m"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-119"
+  },
+  {
+   "n": 24,
+   "stem": "What is equivalent to 3 gallons?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3 quarts"
+    },
+    {
+     "label": "G",
+     "text": "4 quarts"
+    },
+    {
+     "label": "H",
+     "text": "6 quarts"
+    },
+    {
+     "label": "J",
+     "text": "12 quarts"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-120"
+  },
+  {
+   "n": 25,
+   "stem": "What is the area of a triangle with a base of 12 cm and a height of 8 cm?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "32 cm²"
+    },
+    {
+     "label": "B",
+     "text": "40 cm²"
+    },
+    {
+     "label": "C",
+     "text": "48 cm²"
+    },
+    {
+     "label": "D",
+     "text": "96 cm²"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-121"
+  },
+  {
+   "n": 26,
+   "stem": "What number of feet equals 24 yards?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2"
+    },
+    {
+     "label": "G",
+     "text": "8"
+    },
+    {
+     "label": "H",
+     "text": "72"
+    },
+    {
+     "label": "J",
+     "text": "288"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-122"
+  },
+  {
+   "n": 27,
+   "stem": "In quadrilateral WXYZ, three interior angles are given: ∠XWZ = 116°, ∠ZYX = 42°, and ∠WXZ is unknown. What is the measure of ∠WZY?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "112°"
+    },
+    {
+     "label": "B",
+     "text": "158°"
+    },
+    {
+     "label": "C",
+     "text": "202°"
+    },
+    {
+     "label": "D",
+     "text": "248°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-123"
+  },
+  {
+   "n": 29,
+   "stem": "Which of the following shapes is not a parallelogram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Trapezoid"
+    },
+    {
+     "label": "B",
+     "text": "Rectangle"
+    },
+    {
+     "label": "C",
+     "text": "Rhombus"
+    },
+    {
+     "label": "D",
+     "text": "Square"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-124"
+  },
+  {
+   "n": 31,
+   "stem": "If a data set has an odd number of data values and is arranged in numerical order, the middle value represents the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "median"
+    },
+    {
+     "label": "B",
+     "text": "range"
+    },
+    {
+     "label": "C",
+     "text": "mean"
+    },
+    {
+     "label": "D",
+     "text": "mode"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-125"
+  },
+  {
+   "n": 32,
+   "stem": "Of 200 visitors to a state park, a circle graph shows that hiking represents approximately one-quarter of the responses. Which is closest to the number of visitors who said hiking was their favorite activity?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "25 visitors"
+    },
+    {
+     "label": "G",
+     "text": "40 visitors"
+    },
+    {
+     "label": "H",
+     "text": "50 visitors"
+    },
+    {
+     "label": "J",
+     "text": "75 visitors"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-126"
+  },
+  {
+   "n": 33,
+   "stem": "A box-and-whisker plot of test scores shows a minimum of 70, a first quartile of 80, a median of 85, a third quartile of 90, and a maximum of 100. Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The highest score is 90."
+    },
+    {
+     "label": "B",
+     "text": "The range is 15."
+    },
+    {
+     "label": "C",
+     "text": "The median test score is 85."
+    },
+    {
+     "label": "D",
+     "text": "The mean test score is 85."
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-127"
+  },
+  {
+   "n": 34,
+   "stem": "A bag contains 4 red, 5 green, 3 blue, and 6 yellow tiles. One tile is selected at random. What is the probability the tile is blue?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5/6"
+    },
+    {
+     "label": "G",
+     "text": "1/3"
+    },
+    {
+     "label": "H",
+     "text": "1/5"
+    },
+    {
+     "label": "J",
+     "text": "1/6"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-128"
+  },
+  {
+   "n": 35,
+   "stem": "The number of tickets sold was 36 on Thursday, 25 on Friday, 18 on Saturday, and 33 on Sunday. What is the mean number of tickets sold over these four days?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "25"
+    },
+    {
+     "label": "B",
+     "text": "27"
+    },
+    {
+     "label": "C",
+     "text": "28"
+    },
+    {
+     "label": "D",
+     "text": "29"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-129"
+  },
+  {
+   "n": 36,
+   "stem": "A stem-and-leaf plot shows distances students live from school. The largest value shown is 15 miles. Which conclusion is true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Five students live 1 mile from the school."
+    },
+    {
+     "label": "G",
+     "text": "Three students live 4 miles from the school."
+    },
+    {
+     "label": "H",
+     "text": "Exactly half live 7 or more miles away."
+    },
+    {
+     "label": "J",
+     "text": "The maximum distance is 15 miles."
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-130"
+  },
+  {
+   "n": 38,
+   "stem": "A graph shows U.S. Internet use (in millions) from 1997 to 2003. The smallest increase occurs between 2002 and 2003. Between which two years did the smallest increase occur?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1997 and 1998"
+    },
+    {
+     "label": "G",
+     "text": "1998 and 1999"
+    },
+    {
+     "label": "H",
+     "text": "2001 and 2002"
+    },
+    {
+     "label": "J",
+     "text": "2002 and 2003"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-131"
+  },
+  {
+   "n": 39,
+   "stem": "What value of m makes the number sentence true? m − 5 = 35",
+   "choices": [
+    {
+     "label": "A",
+     "text": "175"
+    },
+    {
+     "label": "B",
+     "text": "40"
+    },
+    {
+     "label": "C",
+     "text": "30"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-132"
+  },
+  {
+   "n": 40,
+   "stem": "Which word describes the boxed number in the expression 8x = y?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Term"
+    },
+    {
+     "label": "G",
+     "text": "Variable"
+    },
+    {
+     "label": "H",
+     "text": "Equation"
+    },
+    {
+     "label": "J",
+     "text": "Coefficient"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-133"
+  },
+  {
+   "n": 41,
+   "stem": "An equation mat shows that six groups of x equal 12, with each unit represented as 1. What is the value of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "22"
+    },
+    {
+     "label": "D",
+     "text": "112"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-134"
+  },
+  {
+   "n": 42,
+   "stem": "What is the solution to the equation n/6 = 36?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "n = 6"
+    },
+    {
+     "label": "G",
+     "text": "n = 30"
+    },
+    {
+     "label": "H",
+     "text": "n = 42"
+    },
+    {
+     "label": "J",
+     "text": "n = 216"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-135"
+  },
+  {
+   "n": 43,
+   "stem": "If the arithmetic pattern continues as shown: 54, 48, 42, 36, … what will be the 8th number?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "34"
+    },
+    {
+     "label": "B",
+     "text": "30"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-136"
+  },
+  {
+   "n": 44,
+   "stem": "Which of the following numbers is not a perfect square?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "49"
+    },
+    {
+     "label": "G",
+     "text": "90"
+    },
+    {
+     "label": "H",
+     "text": "121"
+    },
+    {
+     "label": "J",
+     "text": "144"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-137"
+  },
+  {
+   "n": 45,
+   "stem": "Which of the following is equivalent to 6 × 6 × 6 × 6 × 6?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "36⁶"
+    },
+    {
+     "label": "B",
+     "text": "30⁶"
+    },
+    {
+     "label": "C",
+     "text": "6⁵"
+    },
+    {
+     "label": "D",
+     "text": "5⁶"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-138"
+  },
+  {
+   "n": 47,
+   "stem": "Shapes show four identical groups equal to 12, where each group represents x. What number sentence is modeled?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "x + 4 = 12"
+    },
+    {
+     "label": "B",
+     "text": "4x = 12"
+    },
+    {
+     "label": "C",
+     "text": "4x = 3"
+    },
+    {
+     "label": "D",
+     "text": "x = 9"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-139"
+  },
+  {
+   "n": 48,
+   "stem": "What is the 10th term in the increasing pattern: 1, 1, 2, 3, 5, 8, 13, …?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "144"
+    },
+    {
+     "label": "G",
+     "text": "89"
+    },
+    {
+     "label": "H",
+     "text": "55"
+    },
+    {
+     "label": "J",
+     "text": "34"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-140"
+  },
+  {
+   "n": 49,
+   "stem": "Which could be the rule for the pattern: 1,000; 100; 10; 1; 0.1; 0.01?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Divide the previous number by 10."
+    },
+    {
+     "label": "B",
+     "text": "Multiply the previous number by 10."
+    },
+    {
+     "label": "C",
+     "text": "Subtract 900 from the previous number."
+    },
+    {
+     "label": "D",
+     "text": "Add 0.09 to the previous number."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-141"
+  },
+  {
+   "n": 50,
+   "stem": "Which is the variable in the number sentence 4x + 3 = 8?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "4"
+    },
+    {
+     "label": "G",
+     "text": "3"
+    },
+    {
+     "label": "H",
+     "text": "+"
+    },
+    {
+     "label": "J",
+     "text": "x"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2010_SOLPass",
+   "id": "grade-6-math-142"
+  },
+  {
+   "n": 2,
+   "stem": "Which is equal to (3 * 3^2)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "18"
+    },
+    {
+     "label": "G",
+     "text": "27"
+    },
+    {
+     "label": "H",
+     "text": "36"
+    },
+    {
+     "label": "J",
+     "text": "81"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-143"
+  },
+  {
+   "n": 3,
+   "stem": "The prices of the items in Alana’s grocery cart are listed below: Soup: $1.25 per can Bread: $2.50 per loaf Juice: $1.75 per bottle Milk: $3.00 per container Alana has $10.00 to spend. Which list of items could she purchase without exceeding $10.00?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4 cans of soup, 1 loaf of bread, and 1 bottle of juice"
+    },
+    {
+     "label": "B",
+     "text": "1 loaf of bread, 3 bottles of juice, and 2 cans of soup"
+    },
+    {
+     "label": "C",
+     "text": "1 loaf of bread, 3 cans of soup, and 1 container of milk"
+    },
+    {
+     "label": "D",
+     "text": "2 cans of soup, 1 bottle of juice, and 1 container of milk"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-144"
+  },
+  {
+   "n": 4,
+   "stem": "Antonio moved boxes that weighed 26.5 pounds, 34.2 pounds, and 45.8 pounds. Which is closest to the total weight he moved?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "100 pounds"
+    },
+    {
+     "label": "G",
+     "text": "107 pounds"
+    },
+    {
+     "label": "H",
+     "text": "115 pounds"
+    },
+    {
+     "label": "J",
+     "text": "200 pounds"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-145"
+  },
+  {
+   "n": 5,
+   "stem": "Greg ate ( (3)/(8) ) of a pizza and Sam ate ( (1)/(3) ) of the same pizza. How much of the whole pizza was eaten?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (17)/(24) )"
+    },
+    {
+     "label": "B",
+     "text": "( (1)/(2) )"
+    },
+    {
+     "label": "C",
+     "text": "( (5)/(8) )"
+    },
+    {
+     "label": "D",
+     "text": "( (17)/(24) )"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-146"
+  },
+  {
+   "n": 6,
+   "stem": "Carl needs (2(1)/(2)) cups of flour. He has ( (1)/(2) ) cup. How many more cups does he need?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2 cups"
+    },
+    {
+     "label": "G",
+     "text": "(2(1)/(2)) cups"
+    },
+    {
+     "label": "H",
+     "text": "(2(1)/(4)) cups"
+    },
+    {
+     "label": "J",
+     "text": "(1(1)/(2)) cups"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-147"
+  },
+  {
+   "n": 7,
+   "stem": "Mrs. Chan bought 2 oranges each day for 9 days. Each orange costs $0.49. To the nearest dollar, how much did she spend?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$1"
+    },
+    {
+     "label": "B",
+     "text": "$5"
+    },
+    {
+     "label": "C",
+     "text": "$9"
+    },
+    {
+     "label": "D",
+     "text": "$18"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-148"
+  },
+  {
+   "n": 8,
+   "stem": "Alexis needs 300 sheets of construction paper. Available packages: W: 50 sheets for $4.50 X: 75 sheets for $5.10 Y: 100 sheets for $10.75 Z: 150 sheets for $12.25 Which is the least expensive way to buy exactly 300 sheets?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6 packages of W"
+    },
+    {
+     "label": "G",
+     "text": "4 packages of X"
+    },
+    {
+     "label": "H",
+     "text": "3 packages of Y"
+    },
+    {
+     "label": "J",
+     "text": "2 packages of Z"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-149"
+  },
+  {
+   "n": 9,
+   "stem": "Which is greater, 0.3 or 0.312?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.3"
+    },
+    {
+     "label": "B",
+     "text": "0.312"
+    },
+    {
+     "label": "C",
+     "text": "They are equal"
+    },
+    {
+     "label": "D",
+     "text": "Cannot be determined"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-150"
+  },
+  {
+   "n": 10,
+   "stem": "Karl earns $8.50 per hour. He worked 18 hours last week and 14 hours this week. How much did he earn total?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$119"
+    },
+    {
+     "label": "G",
+     "text": "$153"
+    },
+    {
+     "label": "H",
+     "text": "$261"
+    },
+    {
+     "label": "J",
+     "text": "$272"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-151"
+  },
+  {
+   "n": 11,
+   "stem": "What is the greatest common factor of 6 and 10?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "30"
+    },
+    {
+     "label": "D",
+     "text": "60"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-152"
+  },
+  {
+   "n": 14,
+   "stem": "Which best describes the number 22?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Composite"
+    },
+    {
+     "label": "B",
+     "text": "Prime"
+    },
+    {
+     "label": "C",
+     "text": "Both prime and composite"
+    },
+    {
+     "label": "D",
+     "text": "Neither prime nor composite"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-153"
+  },
+  {
+   "n": 16,
+   "stem": "Which number is equivalent to 30%?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0.03"
+    },
+    {
+     "label": "G",
+     "text": "0.3"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "30"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-154"
+  },
+  {
+   "n": 17,
+   "stem": "Mrs. Camp’s class has 14 red calculators and 8 blue calculators. What is the ratio of red to blue calculators?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "14:8"
+    },
+    {
+     "label": "B",
+     "text": "2:1"
+    },
+    {
+     "label": "C",
+     "text": "4:7"
+    },
+    {
+     "label": "D",
+     "text": "28:8"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-155"
+  },
+  {
+   "n": 18,
+   "stem": "Which numbers are multiples of both 4 and 6?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "20 and 24"
+    },
+    {
+     "label": "G",
+     "text": "18 and 20"
+    },
+    {
+     "label": "H",
+     "text": "12 and 18"
+    },
+    {
+     "label": "J",
+     "text": "12 and 24"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-156"
+  },
+  {
+   "n": 19,
+   "stem": "A circular pool has a radius of 17 feet. Which is closest to its area?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "106.76 sq ft"
+    },
+    {
+     "label": "B",
+     "text": "289 sq ft"
+    },
+    {
+     "label": "C",
+     "text": "907.46 sq ft"
+    },
+    {
+     "label": "D",
+     "text": "1,156 sq ft"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-157"
+  },
+  {
+   "n": 20,
+   "stem": "A rug is 3 feet wide and 4 feet long. What is its area?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "12 square feet"
+    },
+    {
+     "label": "G",
+     "text": "14 square feet"
+    },
+    {
+     "label": "H",
+     "text": "24 square feet"
+    },
+    {
+     "label": "J",
+     "text": "28 square feet"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-158"
+  },
+  {
+   "n": 21,
+   "stem": "Triangle POR has all angles less than 90°. How is it classified?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Obtuse"
+    },
+    {
+     "label": "B",
+     "text": "Acute"
+    },
+    {
+     "label": "C",
+     "text": "Equilateral"
+    },
+    {
+     "label": "D",
+     "text": "Isosceles"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-159"
+  },
+  {
+   "n": 23,
+   "stem": "Which is equivalent to 1 liter?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "25 milliliters"
+    },
+    {
+     "label": "B",
+     "text": "100 milliliters"
+    },
+    {
+     "label": "C",
+     "text": "250 milliliters"
+    },
+    {
+     "label": "D",
+     "text": "1,000 milliliters"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-160"
+  },
+  {
+   "n": 24,
+   "stem": "Which measurement is closest to 1 ton?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1,002 pounds"
+    },
+    {
+     "label": "G",
+     "text": "1,902 pounds"
+    },
+    {
+     "label": "H",
+     "text": "1,998 pounds"
+    },
+    {
+     "label": "J",
+     "text": "2,505 pounds"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-161"
+  },
+  {
+   "n": 25,
+   "stem": "A circle has center T and radius 5 cm. Which is closest to its circumference?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "15.70 cm"
+    },
+    {
+     "label": "B",
+     "text": "17.27 cm"
+    },
+    {
+     "label": "C",
+     "text": "31.40 cm"
+    },
+    {
+     "label": "D",
+     "text": "34.54 cm"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-162"
+  },
+  {
+   "n": 26,
+   "stem": "Mrs. Meyer folded a flat figure made of rectangles into a solid with six rectangular faces. What solid did she make?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Cone"
+    },
+    {
+     "label": "G",
+     "text": "Rectangular prism"
+    },
+    {
+     "label": "H",
+     "text": "Square pyramid"
+    },
+    {
+     "label": "J",
+     "text": "Cylinder"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-163"
+  },
+  {
+   "n": 27,
+   "stem": "Susan’s garden is a rectangle 20 feet by 10 feet. How much fencing is needed to enclose it?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30 feet"
+    },
+    {
+     "label": "B",
+     "text": "60 feet"
+    },
+    {
+     "label": "C",
+     "text": "80 feet"
+    },
+    {
+     "label": "D",
+     "text": "200 feet"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-164"
+  },
+  {
+   "n": 28,
+   "stem": "Which angle measures 180°?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Straight angle"
+    },
+    {
+     "label": "G",
+     "text": "Right angle"
+    },
+    {
+     "label": "H",
+     "text": "Acute angle"
+    },
+    {
+     "label": "J",
+     "text": "Obtuse angle"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-165"
+  },
+  {
+   "n": 29,
+   "stem": "Daryl jumps 25 yards. Sarah jumps 8 feet. Michelle jumps 72 inches. Which is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sarah jumps the farthest."
+    },
+    {
+     "label": "B",
+     "text": "Daryl jumps the farthest."
+    },
+    {
+     "label": "C",
+     "text": "Michelle jumps farther than Daryl."
+    },
+    {
+     "label": "D",
+     "text": "Sarah and Michelle jump the same distance."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-166"
+  },
+  {
+   "n": 32,
+   "stem": "A deck has 50 cards: 9 red, 13 blue, 18 green, and 10 yellow. What is the probability of selecting a blue card?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "13%"
+    },
+    {
+     "label": "G",
+     "text": "26%"
+    },
+    {
+     "label": "H",
+     "text": "74%"
+    },
+    {
+     "label": "J",
+     "text": "87%"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-167"
+  },
+  {
+   "n": 33,
+   "stem": "Lunches sold last week were: 105, 118, 130, 98, and 109. What is the mean?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "105"
+    },
+    {
+     "label": "B",
+     "text": "111"
+    },
+    {
+     "label": "C",
+     "text": "118"
+    },
+    {
+     "label": "D",
+     "text": "130"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-168"
+  },
+  {
+   "n": 34,
+   "stem": "High temperatures over two weeks were: 92, 95, 88, 90, 85, 80, 78, 76, 74, 70, 68, 65, 60, 57 Which conclusion is true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Range was 38°F"
+    },
+    {
+     "label": "G",
+     "text": "Temperature was 80°F for 3 days"
+    },
+    {
+     "label": "H",
+     "text": "Temperature was at least 57°F every day"
+    },
+    {
+     "label": "J",
+     "text": "Temperature was greater than 70°F exactly 6 times"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-169"
+  },
+  {
+   "n": 35,
+   "stem": "What is the median of 33, 21, 42, 19, 42, 12?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "26"
+    },
+    {
+     "label": "B",
+     "text": "27"
+    },
+    {
+     "label": "C",
+     "text": "30"
+    },
+    {
+     "label": "D",
+     "text": "42"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-170"
+  },
+  {
+   "n": 36,
+   "stem": "A box-and-whisker plot shows data from 4 to 24. An arrow points to the leftmost value. What does it represent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Lower extreme"
+    },
+    {
+     "label": "G",
+     "text": "Upper extreme"
+    },
+    {
+     "label": "H",
+     "text": "Upper quartile"
+    },
+    {
+     "label": "J",
+     "text": "Lower quartile"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-171"
+  },
+  {
+   "n": 37,
+   "stem": "Miles driven: 485, 392, 373, 287, 319, 287, 304. What is the range?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "181"
+    },
+    {
+     "label": "B",
+     "text": "198"
+    },
+    {
+     "label": "C",
+     "text": "287"
+    },
+    {
+     "label": "D",
+     "text": "319"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-172"
+  },
+  {
+   "n": 38,
+   "stem": "A fair number cube numbered 1–6 is rolled. What is the probability of rolling a 2?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "( (1)/(6) )"
+    },
+    {
+     "label": "G",
+     "text": "( (1)/(3) )"
+    },
+    {
+     "label": "H",
+     "text": "( (1)/(2) )"
+    },
+    {
+     "label": "J",
+     "text": "( (5)/(6) )"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-173"
+  },
+  {
+   "n": 39,
+   "stem": "A dot pattern adds one row and one column each time. The fourth figure has 25 dots. How many dots are in the next figure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "35"
+    },
+    {
+     "label": "C",
+     "text": "36"
+    },
+    {
+     "label": "D",
+     "text": "40"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-174"
+  },
+  {
+   "n": 40,
+   "stem": "Which is 72,000,000 in scientific notation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(0.72 * 10^8)"
+    },
+    {
+     "label": "B",
+     "text": "(7.2 * 10^6)"
+    },
+    {
+     "label": "C",
+     "text": "(7.2 * 10^7)"
+    },
+    {
+     "label": "D",
+     "text": "(72 * 10^7)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-175"
+  },
+  {
+   "n": 42,
+   "stem": "Solve for m: (2m = 42).",
+   "choices": [
+    {
+     "label": "F",
+     "text": "21"
+    },
+    {
+     "label": "G",
+     "text": "40"
+    },
+    {
+     "label": "H",
+     "text": "4"
+    },
+    {
+     "label": "J",
+     "text": "84"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-176"
+  },
+  {
+   "n": 43,
+   "stem": "Which word best describes (h - 6 = 14)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Equation"
+    },
+    {
+     "label": "B",
+     "text": "Term"
+    },
+    {
+     "label": "C",
+     "text": "Coefficient"
+    },
+    {
+     "label": "D",
+     "text": "Variable"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-177"
+  },
+  {
+   "n": 44,
+   "stem": "What rule describes the sequence 64, 16, 4, 1, …?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Multiply by 4"
+    },
+    {
+     "label": "B",
+     "text": "Subtract 48"
+    },
+    {
+     "label": "C",
+     "text": "Divide by 4"
+    },
+    {
+     "label": "D",
+     "text": "Add 3"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-178"
+  },
+  {
+   "n": 45,
+   "stem": "What is the coefficient in (8x = 16)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "x"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "16"
+    },
+    {
+     "label": "D",
+     "text": "8x"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-179"
+  },
+  {
+   "n": 46,
+   "stem": "What is a square root of 100?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "50"
+    },
+    {
+     "label": "G",
+     "text": "25"
+    },
+    {
+     "label": "H",
+     "text": "10"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-180"
+  },
+  {
+   "n": 47,
+   "stem": "Which pattern follows “divide by 3”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "105, 35, 32, 23, 20"
+    },
+    {
+     "label": "B",
+     "text": "108, 36, 18, 9, 3"
+    },
+    {
+     "label": "C",
+     "text": "120, 90, 60, 30, 10"
+    },
+    {
+     "label": "D",
+     "text": "162, 54, 18, 6, 2"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-181"
+  },
+  {
+   "n": 48,
+   "stem": "John solved (14x = 84) in one step. What did he do?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Added 14 to both sides"
+    },
+    {
+     "label": "G",
+     "text": "Divided both sides by 14"
+    },
+    {
+     "label": "H",
+     "text": "Multiplied both sides by 14"
+    },
+    {
+     "label": "J",
+     "text": "Subtracted 14 from both sides"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-182"
+  },
+  {
+   "n": 49,
+   "stem": "Which is equivalent to (2^3)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2 ÷ 3"
+    },
+    {
+     "label": "B",
+     "text": "3 − 3"
+    },
+    {
+     "label": "C",
+     "text": "2 × 2 × 2"
+    },
+    {
+     "label": "D",
+     "text": "2 + 2 + 2 + 2"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-183"
+  },
+  {
+   "n": 50,
+   "stem": "An equation mat shows four equal groups totaling 12. What is x?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "4"
+    },
+    {
+     "label": "J",
+     "text": "6"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2009_SOLPass",
+   "id": "grade-6-math-184"
+  },
+  {
+   "n": 1,
+   "stem": "Jamal walked ( (1)/(4) ) mile yesterday morning and ( (3)/(4) ) mile yesterday afternoon. What was the total distance walked by Jamal?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 mile"
+    },
+    {
+     "label": "B",
+     "text": "( (1)/(2) ) mile"
+    },
+    {
+     "label": "C",
+     "text": "( (1)/(4) ) mile"
+    },
+    {
+     "label": "D",
+     "text": "( (3)/(4) ) mile"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-185"
+  },
+  {
+   "n": 3,
+   "stem": "One batch of Derrick’s pancake recipe takes 2.5 cups of milk. If Derrick makes 3 batches of his pancake recipe, how many cups of milk will he need?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8.75 cups"
+    },
+    {
+     "label": "B",
+     "text": "7.5 cups"
+    },
+    {
+     "label": "C",
+     "text": "6.25 cups"
+    },
+    {
+     "label": "D",
+     "text": "6 cups"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-186"
+  },
+  {
+   "n": 5,
+   "stem": "The table shows prices for different types of reeds: Clarinet reeds: pack of 10 costs $5.13 Oboe reeds: pack of 1 costs $4.95 Alto saxophone reeds: pack of 5 costs $8.42 Based on this information, what is the cost to buy 10 of each different type of reed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$18.50"
+    },
+    {
+     "label": "B",
+     "text": "$26.92"
+    },
+    {
+     "label": "C",
+     "text": "$71.47"
+    },
+    {
+     "label": "D",
+     "text": "$98.35"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-187"
+  },
+  {
+   "n": 7,
+   "stem": "Maria has a piece of ribbon ( (3)/(4) ) foot long. She cuts ( (1)/(8) ) foot off the piece of ribbon. What is the length of the remaining piece of ribbon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (5)/(8) ) foot"
+    },
+    {
+     "label": "B",
+     "text": "( (1)/(2) ) foot"
+    },
+    {
+     "label": "C",
+     "text": "( (3)/(4) ) foot"
+    },
+    {
+     "label": "D",
+     "text": "( (1)/(4) ) foot"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-188"
+  },
+  {
+   "n": 8,
+   "stem": "Harry worked (1 (1)/(2)) hours on Friday and ( (3)/(4) ) hour on Saturday. What was the total amount of time Harry worked on those two days?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "4 hours"
+    },
+    {
+     "label": "G",
+     "text": "(4 (1)/(4)) hours"
+    },
+    {
+     "label": "H",
+     "text": "(2 (1)/(4)) hours"
+    },
+    {
+     "label": "J",
+     "text": "(5 (1)/(2)) hours"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-189"
+  },
+  {
+   "n": 9,
+   "stem": "(6.596 + 0.04 =)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6.636"
+    },
+    {
+     "label": "B",
+     "text": "16.49"
+    },
+    {
+     "label": "C",
+     "text": "6.06"
+    },
+    {
+     "label": "D",
+     "text": "0.61"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-190"
+  },
+  {
+   "n": 10,
+   "stem": "Cody was paid $15.00 for washing his mother’s car. If he spends $5.75 on a movie, $1.50 on candy, and $2.00 for a soda, which is closest to the amount he will have left?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$10.00"
+    },
+    {
+     "label": "G",
+     "text": "$8.00"
+    },
+    {
+     "label": "H",
+     "text": "$5.00"
+    },
+    {
+     "label": "J",
+     "text": "$0"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-191"
+  },
+  {
+   "n": 11,
+   "stem": "There are 30 red marbles and 150 blue marbles in a box. What is the ratio of blue marbles to red marbles?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 to 1"
+    },
+    {
+     "label": "B",
+     "text": "1 to 5"
+    },
+    {
+     "label": "C",
+     "text": "150 to 30"
+    },
+    {
+     "label": "D",
+     "text": "30 to 150"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-192"
+  },
+  {
+   "n": 12,
+   "stem": "What is the least common multiple of 6 and 10?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "20"
+    },
+    {
+     "label": "G",
+     "text": "30"
+    },
+    {
+     "label": "H",
+     "text": "60"
+    },
+    {
+     "label": "J",
+     "text": "180"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-193"
+  },
+  {
+   "n": 14,
+   "stem": "Which group contains only prime numbers?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5, 18, 29, and 47"
+    },
+    {
+     "label": "G",
+     "text": "7, 11, 27, and 43"
+    },
+    {
+     "label": "H",
+     "text": "7, 19, 33, and 41"
+    },
+    {
+     "label": "J",
+     "text": "11, 17, 37, and 39"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-194"
+  },
+  {
+   "n": 15,
+   "stem": "What is the greatest common factor of 30, 42, and 48?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "12"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "24"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-195"
+  },
+  {
+   "n": 19,
+   "stem": "A wall’s width is shown as equivalent to about 4 window widths. Each door width is approximately twice a window width. Which is closest to the width of the wall?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6 window widths"
+    },
+    {
+     "label": "B",
+     "text": "4 window widths"
+    },
+    {
+     "label": "C",
+     "text": "2 door widths"
+    },
+    {
+     "label": "D",
+     "text": "4 door widths"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-196"
+  },
+  {
+   "n": 20,
+   "stem": "What is the sum of the measures of all the interior angles of any quadrilateral?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "90°"
+    },
+    {
+     "label": "G",
+     "text": "180°"
+    },
+    {
+     "label": "H",
+     "text": "360°"
+    },
+    {
+     "label": "J",
+     "text": "450°"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-197"
+  },
+  {
+   "n": 21,
+   "stem": "Which two figures always have four congruent sides?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rhombus and square"
+    },
+    {
+     "label": "B",
+     "text": "Rectangle and rhombus"
+    },
+    {
+     "label": "C",
+     "text": "Square and equilateral triangle"
+    },
+    {
+     "label": "D",
+     "text": "Parallelogram and rectangle"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-198"
+  },
+  {
+   "n": 23,
+   "stem": "Three glasses each hold 12 fluid ounces when full. One glass is about half full, one is nearly full (about 11 ounces), and one is about three-quarters full (about 9 ounces). Which is closest to the total amount of water Robert drinks each morning?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3 fluid ounces"
+    },
+    {
+     "label": "B",
+     "text": "18 fluid ounces"
+    },
+    {
+     "label": "C",
+     "text": "22 fluid ounces"
+    },
+    {
+     "label": "D",
+     "text": "34 fluid ounces"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-199"
+  },
+  {
+   "n": 25,
+   "stem": "A rectangle is made of 30 small squares. Each small square is 4 inches by 4 inches. What is the area of the large rectangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "480 square inches"
+    },
+    {
+     "label": "B",
+     "text": "120 square inches"
+    },
+    {
+     "label": "C",
+     "text": "80 square inches"
+    },
+    {
+     "label": "D",
+     "text": "30 square inches"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-200"
+  },
+  {
+   "n": 26,
+   "stem": "Which solid could not have two parallel faces?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Cube"
+    },
+    {
+     "label": "G",
+     "text": "Rectangular prism"
+    },
+    {
+     "label": "H",
+     "text": "Pyramid"
+    },
+    {
+     "label": "J",
+     "text": "Cylinder"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-201"
+  },
+  {
+   "n": 27,
+   "stem": "The angle shown measures more than 90° but less than 180°. Which describes its measure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Between 0° and 45°"
+    },
+    {
+     "label": "B",
+     "text": "Between 45° and 90°"
+    },
+    {
+     "label": "C",
+     "text": "Between 90° and 180°"
+    },
+    {
+     "label": "D",
+     "text": "Greater than 180°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-202"
+  },
+  {
+   "n": 28,
+   "stem": "Which measurement represents the greatest volume?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "17 pints"
+    },
+    {
+     "label": "G",
+     "text": "2 gallons"
+    },
+    {
+     "label": "H",
+     "text": "35 cups"
+    },
+    {
+     "label": "J",
+     "text": "9 quarts"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-203"
+  },
+  {
+   "n": 29,
+   "stem": "Which shape is not a quadrilateral?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Square"
+    },
+    {
+     "label": "B",
+     "text": "Parallelogram"
+    },
+    {
+     "label": "C",
+     "text": "Pentagon"
+    },
+    {
+     "label": "D",
+     "text": "Trapezoid"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-204"
+  },
+  {
+   "n": 31,
+   "stem": "Chrissy has 4 white towels, 2 yellow towels, and 3 blue towels in a bag. What is the probability that the first towel chosen at random will be white?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (4)/(9) )"
+    },
+    {
+     "label": "B",
+     "text": "( (1)/(4) )"
+    },
+    {
+     "label": "C",
+     "text": "( (2)/(9) )"
+    },
+    {
+     "label": "D",
+     "text": "( (5)/(9) )"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-205"
+  },
+  {
+   "n": 32,
+   "stem": "What is the range of the numbers listed? 76, 59, 91, 22, 43, 57, 89, 76, 31",
+   "choices": [
+    {
+     "label": "F",
+     "text": "43"
+    },
+    {
+     "label": "G",
+     "text": "45"
+    },
+    {
+     "label": "H",
+     "text": "60"
+    },
+    {
+     "label": "J",
+     "text": "69"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-206"
+  },
+  {
+   "n": 35,
+   "stem": "Jane’s CD has 6 songs. One of the songs is titled “Mongoose Omelette.” If her CD player plays the songs randomly, what is the probability that “Mongoose Omelette” will play first?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (1)/(6) )"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "0.6"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-207"
+  },
+  {
+   "n": 37,
+   "stem": "Jane read the following number of pages each day for one week: 12, 18, 19, 11, 12, 15, 18. In the box-and-whisker plot of this data, the arrow points to the median. To which number is the arrow most likely pointing?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "11"
+    },
+    {
+     "label": "B",
+     "text": "12"
+    },
+    {
+     "label": "C",
+     "text": "15"
+    },
+    {
+     "label": "D",
+     "text": "18"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-208"
+  },
+  {
+   "n": 39,
+   "stem": "A geometric pattern shows powers of 8: (8^1 = 8,; 8^2 = 64,; 8^3 = 512,; 8^4 = 4,096). What is the value of (8^5)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "13"
+    },
+    {
+     "label": "B",
+     "text": "40"
+    },
+    {
+     "label": "C",
+     "text": "20,480"
+    },
+    {
+     "label": "D",
+     "text": "32,768"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-209"
+  },
+  {
+   "n": 41,
+   "stem": "(2.3 * 10^5 =)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "230,000,000"
+    },
+    {
+     "label": "B",
+     "text": "230,000"
+    },
+    {
+     "label": "C",
+     "text": "23,000,000"
+    },
+    {
+     "label": "D",
+     "text": "2,300,000"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-210"
+  },
+  {
+   "n": 42,
+   "stem": "Which method could be used to solve the number sentence (4x = 16)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Subtract 4 from both sides"
+    },
+    {
+     "label": "G",
+     "text": "Subtract 16 from both sides"
+    },
+    {
+     "label": "H",
+     "text": "Divide both sides by 16"
+    },
+    {
+     "label": "J",
+     "text": "Divide both sides by 4"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-211"
+  },
+  {
+   "n": 43,
+   "stem": "What value of (y) makes the number sentence (y - 3 = 15) true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "12"
+    },
+    {
+     "label": "C",
+     "text": "18"
+    },
+    {
+     "label": "D",
+     "text": "45"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-212"
+  },
+  {
+   "n": 44,
+   "stem": "A balanced scale shows a box labeled (w) on one side and a box labeled 5 on the same side, balanced with a box labeled 30 on the other side. Which number sentence does it best represent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(5 = w + 30)"
+    },
+    {
+     "label": "G",
+     "text": "(w + 5 = 30)"
+    },
+    {
+     "label": "H",
+     "text": "(5 - w = 30)"
+    },
+    {
+     "label": "J",
+     "text": "(w = 5 + 30)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-213"
+  },
+  {
+   "n": 45,
+   "stem": "The number 514 in scientific notation is written as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(5.14 * 10^1)"
+    },
+    {
+     "label": "B",
+     "text": "(5.14 * 10^2)"
+    },
+    {
+     "label": "C",
+     "text": "(514 * 10^1)"
+    },
+    {
+     "label": "D",
+     "text": "(514 * 10^0)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-214"
+  },
+  {
+   "n": 47,
+   "stem": "Kale wrote the number pattern: 1, 2, 4, 7, 11, … The differences between the terms increase by 1 each time (1, 2, 3, 4, …). If this pattern continues, what will be the 7th term?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "15"
+    },
+    {
+     "label": "B",
+     "text": "19"
+    },
+    {
+     "label": "C",
+     "text": "21"
+    },
+    {
+     "label": "D",
+     "text": "22"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-215"
+  },
+  {
+   "n": 49,
+   "stem": "A dot pattern doubles the number of dots in each figure. If the first figure has 2 dots, the second has 4, the third has 8, the fourth has 16, and the fifth has 32, what is the total number of dots in the 6th figure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "128"
+    },
+    {
+     "label": "B",
+     "text": "64"
+    },
+    {
+     "label": "C",
+     "text": "32"
+    },
+    {
+     "label": "D",
+     "text": "14"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_6_2006_SOLPass",
+   "id": "grade-6-math-216"
+  }
+ ]
+}

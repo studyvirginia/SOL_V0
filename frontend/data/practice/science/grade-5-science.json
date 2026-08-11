@@ -1,0 +1,2264 @@
+{
+ "subject": "science",
+ "course": "grade-5-science",
+ "courseName": "Grade 5 Science",
+ "questionCount": 90,
+ "sources": [
+  "Science_Grade_5_2006_SOLPass",
+  "Science_Grade_5_2009_SOLPass",
+  "Science_Grade_5_2015_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 3,
+   "stem": "The Apollo 11 mission was able to retrieve samples of the Moon’s surface because it was the first mission to have astronauts —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "land on the Moon"
+    },
+    {
+     "label": "B",
+     "text": "orbit a planet"
+    },
+    {
+     "label": "C",
+     "text": "return to Earth"
+    },
+    {
+     "label": "D",
+     "text": "walk in space"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-1"
+  },
+  {
+   "n": 4,
+   "stem": "When ice cream is left out of a freezer, the ice cream changes from a —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "solid to a gas"
+    },
+    {
+     "label": "G",
+     "text": "gas to a liquid"
+    },
+    {
+     "label": "H",
+     "text": "solid to a liquid"
+    },
+    {
+     "label": "J",
+     "text": "liquid to a gas"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-2"
+  },
+  {
+   "n": 5,
+   "stem": "Students want to learn which of two soils holds more water. They put clay in one bottle and sand in the other. Then they put equal amounts of water in the bottles. Some of the water drained into beakers. Which of these is the manipulated, independent variable?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Type of soil"
+    },
+    {
+     "label": "B",
+     "text": "Type of beaker"
+    },
+    {
+     "label": "C",
+     "text": "Amount of water"
+    },
+    {
+     "label": "D",
+     "text": "Number of bottles"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-3"
+  },
+  {
+   "n": 7,
+   "stem": "Students place a pencil in a glass of water. The pencil in the water looks broken because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "water can dissolve pencils"
+    },
+    {
+     "label": "B",
+     "text": "water is colder than air"
+    },
+    {
+     "label": "C",
+     "text": "light bends when it enters the water"
+    },
+    {
+     "label": "D",
+     "text": "light is absorbed when it hits the glass"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-4"
+  },
+  {
+   "n": 8,
+   "stem": "Which of these best describes the Moon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Older than Earth"
+    },
+    {
+     "label": "B",
+     "text": "Smaller than Earth"
+    },
+    {
+     "label": "C",
+     "text": "Having the same climate as Earth"
+    },
+    {
+     "label": "D",
+     "text": "Having the same atmosphere as Earth"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-5"
+  },
+  {
+   "n": 10,
+   "stem": "A student is hiking through a forest taking pictures for science class. Which picture would most likely be used as an example of human impact on Earth?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A trail built by cutting down trees"
+    },
+    {
+     "label": "G",
+     "text": "A river eroding away the riverbank"
+    },
+    {
+     "label": "H",
+     "text": "A bird nest made of dead branches"
+    },
+    {
+     "label": "J",
+     "text": "A group of butterflies landing on flowers"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-6"
+  },
+  {
+   "n": 11,
+   "stem": "Which structure surrounds and protects an animal cell?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nucleus"
+    },
+    {
+     "label": "B",
+     "text": "Vacuole"
+    },
+    {
+     "label": "C",
+     "text": "Cytoplasm"
+    },
+    {
+     "label": "D",
+     "text": "Cell membrane"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-7"
+  },
+  {
+   "n": 12,
+   "stem": "What kind of energy do all moving objects have?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Light energy"
+    },
+    {
+     "label": "G",
+     "text": "Solar energy"
+    },
+    {
+     "label": "H",
+     "text": "Kinetic energy"
+    },
+    {
+     "label": "J",
+     "text": "Renewable energy"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-8"
+  },
+  {
+   "n": 13,
+   "stem": "The electrician is wearing rubber gloves for protection. The purpose of the rubber gloves is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "keep the electrician dry"
+    },
+    {
+     "label": "B",
+     "text": "create an electrical circuit"
+    },
+    {
+     "label": "C",
+     "text": "produce electricity"
+    },
+    {
+     "label": "D",
+     "text": "insulate the electrician"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-9"
+  },
+  {
+   "n": 14,
+   "stem": "The top layers of soil are important because they —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "prevent earthquakes"
+    },
+    {
+     "label": "G",
+     "text": "give plants nutrients"
+    },
+    {
+     "label": "H",
+     "text": "protect the bedrock"
+    },
+    {
+     "label": "J",
+     "text": "make walking easier"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-10"
+  },
+  {
+   "n": 15,
+   "stem": "Food web description: Grass is eaten by a grasshopper. The grasshopper is eaten by a sparrow. The sparrow may be eaten by an eagle. Based on the food web, which of these is a producer?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Eagle"
+    },
+    {
+     "label": "B",
+     "text": "Grass"
+    },
+    {
+     "label": "C",
+     "text": "Rabbit"
+    },
+    {
+     "label": "D",
+     "text": "Sparrow"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-11"
+  },
+  {
+   "n": 17,
+   "stem": "In winter, the arctic fox has white fur. In summer, its fur changes color to brown and gray. The change in fur color helps the arctic fox to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "run"
+    },
+    {
+     "label": "B",
+     "text": "mate"
+    },
+    {
+     "label": "C",
+     "text": "hide"
+    },
+    {
+     "label": "D",
+     "text": "hibernate"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-12"
+  },
+  {
+   "n": 18,
+   "stem": "A student makes a fruit drink by stirring a powdered mix into cold water. Why is the fruit drink a solution?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The powder dissolves in the water."
+    },
+    {
+     "label": "G",
+     "text": "The water changes color."
+    },
+    {
+     "label": "H",
+     "text": "The student stirs the water."
+    },
+    {
+     "label": "J",
+     "text": "The water is the proper temperature."
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-13"
+  },
+  {
+   "n": 19,
+   "stem": "Which unit is best to use for measuring the width of oak tree leaves?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Centimeter"
+    },
+    {
+     "label": "B",
+     "text": "Gram"
+    },
+    {
+     "label": "C",
+     "text": "Kilometer"
+    },
+    {
+     "label": "D",
+     "text": "Milliliter"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-14"
+  },
+  {
+   "n": 20,
+   "stem": "At which location are oceans the deepest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mid-ocean ridge"
+    },
+    {
+     "label": "B",
+     "text": "Abyssal plain"
+    },
+    {
+     "label": "C",
+     "text": "Ocean trench"
+    },
+    {
+     "label": "D",
+     "text": "Volcanic island"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-15"
+  },
+  {
+   "n": 21,
+   "stem": "Which of these is most likely harmful to an ecosystem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Building new homes in a wetland"
+    },
+    {
+     "label": "B",
+     "text": "Taking away airplanes from an airport"
+    },
+    {
+     "label": "C",
+     "text": "Planting trees in an orchard"
+    },
+    {
+     "label": "D",
+     "text": "Adding floors to an office building"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-16"
+  },
+  {
+   "n": 22,
+   "stem": "Which of these describes rotation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mercury goes around the Sun every 88 days."
+    },
+    {
+     "label": "B",
+     "text": "The Moon goes around Earth every 28 days."
+    },
+    {
+     "label": "C",
+     "text": "Earth orbits the Sun about every 365 days."
+    },
+    {
+     "label": "D",
+     "text": "Earth makes one turn on its axis every 24 hours."
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-17"
+  },
+  {
+   "n": 23,
+   "stem": "When a tree is dormant, the tree is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "dying"
+    },
+    {
+     "label": "B",
+     "text": "inactive"
+    },
+    {
+     "label": "C",
+     "text": "growing taller"
+    },
+    {
+     "label": "D",
+     "text": "growing its leaves"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-18"
+  },
+  {
+   "n": 24,
+   "stem": "Which type of storm causes the most flooding in areas located near an ocean coastline?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Tornado"
+    },
+    {
+     "label": "G",
+     "text": "Hurricane"
+    },
+    {
+     "label": "H",
+     "text": "Blizzard"
+    },
+    {
+     "label": "J",
+     "text": "Freezing rain"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-19"
+  },
+  {
+   "n": 25,
+   "stem": "Granite is a hard material and forms from cooling magma. Granite is a type of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "lava stone"
+    },
+    {
+     "label": "B",
+     "text": "igneous rock"
+    },
+    {
+     "label": "C",
+     "text": "volcanic dust"
+    },
+    {
+     "label": "D",
+     "text": "sedimentary rock"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-20"
+  },
+  {
+   "n": 26,
+   "stem": "A world map shows arrows moving across the oceans near Europe and Africa. The arrows indicate the movement and direction of large bodies of ocean water. What do the arrows on the map represent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Size of waves"
+    },
+    {
+     "label": "G",
+     "text": "Water density"
+    },
+    {
+     "label": "H",
+     "text": "Ocean currents"
+    },
+    {
+     "label": "J",
+     "text": "Time between tides"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-21"
+  },
+  {
+   "n": 27,
+   "stem": "A student rolls a ball on the ground. Which of these causes the ball to slow down and then stop?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The motion of the ball"
+    },
+    {
+     "label": "B",
+     "text": "The speed of the ball"
+    },
+    {
+     "label": "C",
+     "text": "Friction from the ground"
+    },
+    {
+     "label": "D",
+     "text": "A magnetic field"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-22"
+  },
+  {
+   "n": 28,
+   "stem": "Which of the following do plants need to make their own food?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Flowers"
+    },
+    {
+     "label": "G",
+     "text": "Bacteria"
+    },
+    {
+     "label": "H",
+     "text": "Sunlight"
+    },
+    {
+     "label": "J",
+     "text": "Oxygen"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-23"
+  },
+  {
+   "n": 30,
+   "stem": "Which of these objects is translucent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A student’s notebook"
+    },
+    {
+     "label": "G",
+     "text": "A mirror on the bus"
+    },
+    {
+     "label": "H",
+     "text": "A brick wall of the school"
+    },
+    {
+     "label": "J",
+     "text": "A student’s sunglass lenses"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-24"
+  },
+  {
+   "n": 31,
+   "stem": "The presence of an animal fossil in a rock gives evidence of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "what hunting behaviors the animal used"
+    },
+    {
+     "label": "B",
+     "text": "how many babies the animal had"
+    },
+    {
+     "label": "C",
+     "text": "exactly when the animal was born"
+    },
+    {
+     "label": "D",
+     "text": "the time period the animal lived in"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-25"
+  },
+  {
+   "n": 33,
+   "stem": "What tool is used to determine the mass of an object?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Balance"
+    },
+    {
+     "label": "B",
+     "text": "Meter stick"
+    },
+    {
+     "label": "C",
+     "text": "Thermometer"
+    },
+    {
+     "label": "D",
+     "text": "Graduated cylinder"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-26"
+  },
+  {
+   "n": 34,
+   "stem": "Which part of a sunflower plant absorbs water and nutrients?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Roots"
+    },
+    {
+     "label": "G",
+     "text": "Stems"
+    },
+    {
+     "label": "H",
+     "text": "Leaves"
+    },
+    {
+     "label": "J",
+     "text": "Flowers"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-27"
+  },
+  {
+   "n": 35,
+   "stem": "Juan is doing an experiment to see how long it takes an acorn to grow into a 0.5-meter-tall oak tree. He must measure height and track time over months. Which two instruments should he choose?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Thermometer and centimeter ruler"
+    },
+    {
+     "label": "B",
+     "text": "Thermometer and calendar"
+    },
+    {
+     "label": "C",
+     "text": "Centimeter ruler and pan balance"
+    },
+    {
+     "label": "D",
+     "text": "Centimeter ruler and calendar"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-28"
+  },
+  {
+   "n": 36,
+   "stem": "An electric motor is designed to turn electrical energy into —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "solar energy"
+    },
+    {
+     "label": "B",
+     "text": "potential energy"
+    },
+    {
+     "label": "C",
+     "text": "static electricity"
+    },
+    {
+     "label": "D",
+     "text": "mechanical energy"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-29"
+  },
+  {
+   "n": 37,
+   "stem": "A group of students tested the effects of different amounts of water on ivy plant growth. Afterwards, they could not remember how much each plant grew per day. What should they have done to practice good science?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Discuss their observations with other groups in their class."
+    },
+    {
+     "label": "B",
+     "text": "Conduct the experiment with more than one type of plant."
+    },
+    {
+     "label": "C",
+     "text": "Record daily information in a data table."
+    },
+    {
+     "label": "D",
+     "text": "Make up explanations for the results."
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2009_SOLPass",
+   "id": "grade-5-science-30"
+  },
+  {
+   "n": 1,
+   "stem": "A table shows monthly rainfall amounts in Norfolk, Virginia, measured in inches for several months in a row. The recorded values range from about 11 inches to about 19 inches, showing a repeating pattern of higher and lower rainfall amounts over time. One month (May 2011) is missing from the table. Based on the pattern in the data, how much rainfall should a scientist have predicted for May of 2011 in Norfolk?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12–17 inches"
+    },
+    {
+     "label": "B",
+     "text": "15–20 inches"
+    },
+    {
+     "label": "C",
+     "text": "18–23 inches"
+    },
+    {
+     "label": "D",
+     "text": "21–26 inches"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-31"
+  },
+  {
+   "n": 2,
+   "stem": "Which of these best explains why the Sun is not visible during the night?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The Moon blocks the Sun from view."
+    },
+    {
+     "label": "B",
+     "text": "That side of the Sun faces away from Earth."
+    },
+    {
+     "label": "C",
+     "text": "The Sun stops creating light at night."
+    },
+    {
+     "label": "D",
+     "text": "That side of Earth faces away from the Sun."
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-32"
+  },
+  {
+   "n": 3,
+   "stem": "A model shows two tectonic plates sliding horizontally past each other at a boundary, with neither plate moving up or down. What most likely happens as the plates slide past each other?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A mountain forms."
+    },
+    {
+     "label": "B",
+     "text": "An earthquake occurs."
+    },
+    {
+     "label": "C",
+     "text": "The ocean floor widens."
+    },
+    {
+     "label": "D",
+     "text": "Magma comes to the surface."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-33"
+  },
+  {
+   "n": 6,
+   "stem": "Which of these is an impact made by humans?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Marble being dug from a rock quarry"
+    },
+    {
+     "label": "B",
+     "text": "Marble forming from sedimentary rock"
+    },
+    {
+     "label": "C",
+     "text": "Oceans drying and exposing limestone"
+    },
+    {
+     "label": "D",
+     "text": "Limestone forming from shells of ocean animals"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-34"
+  },
+  {
+   "n": 7,
+   "stem": "Lobster pots are used by fishermen to catch lobsters in shallow water. In which area of the ocean would commercial fishermen most likely place their lobster pots?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "On the bottom of an ocean trench"
+    },
+    {
+     "label": "B",
+     "text": "On top of a mid-ocean ridge"
+    },
+    {
+     "label": "C",
+     "text": "On the continental slope"
+    },
+    {
+     "label": "D",
+     "text": "On the continental shelf"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-35"
+  },
+  {
+   "n": 8,
+   "stem": "Which unit is best to use to measure the distance a runner covered in 30 seconds?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "millimeters"
+    },
+    {
+     "label": "B",
+     "text": "centimeters"
+    },
+    {
+     "label": "C",
+     "text": "meters"
+    },
+    {
+     "label": "D",
+     "text": "kilometers"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-36"
+  },
+  {
+   "n": 11,
+   "stem": "Which cell part is necessary for producing food during photosynthesis?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cell membrane"
+    },
+    {
+     "label": "B",
+     "text": "Vacuole"
+    },
+    {
+     "label": "C",
+     "text": "Chloroplast"
+    },
+    {
+     "label": "D",
+     "text": "Cytoplasm"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-37"
+  },
+  {
+   "n": 12,
+   "stem": "One way in which light waves are different from sound waves is that light waves —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "can move through empty space"
+    },
+    {
+     "label": "B",
+     "text": "are caused by rapid vibrations"
+    },
+    {
+     "label": "C",
+     "text": "travel more slowly"
+    },
+    {
+     "label": "D",
+     "text": "can be reflected"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-38"
+  },
+  {
+   "n": 13,
+   "stem": "A chart lists substances and classifies them as elements or compounds. Substances listed include carbon dioxide, silver, sugar, oxygen, and iron. One space in the chart is missing. Which material will correctly complete the chart?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Gold, because it is a shiny metal"
+    },
+    {
+     "label": "B",
+     "text": "Salt, because it is made of two types of atoms"
+    },
+    {
+     "label": "C",
+     "text": "Nitrogen, because it is a gas in the atmosphere"
+    },
+    {
+     "label": "D",
+     "text": "Carbon, because it is part of many different molecules"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-39"
+  },
+  {
+   "n": 14,
+   "stem": "A student rubs a plastic comb with a piece of wool cloth and then places the comb near a thin stream of water. The water bends toward the comb. The water bends toward the comb because of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "thermal energy"
+    },
+    {
+     "label": "B",
+     "text": "static electricity"
+    },
+    {
+     "label": "C",
+     "text": "magnetism"
+    },
+    {
+     "label": "D",
+     "text": "gravity"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-40"
+  },
+  {
+   "n": 15,
+   "stem": "Which plant part develops into a fruit?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Flower"
+    },
+    {
+     "label": "B",
+     "text": "Stem"
+    },
+    {
+     "label": "C",
+     "text": "Leaf"
+    },
+    {
+     "label": "D",
+     "text": "Root"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-41"
+  },
+  {
+   "n": 16,
+   "stem": "A student drops different objects from the same height and records the time it takes each object to reach the ground. The drop height remains the same for every trial. The constant in this investigation is the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "time to reach the ground"
+    },
+    {
+     "label": "B",
+     "text": "distance to the ground"
+    },
+    {
+     "label": "C",
+     "text": "weight of each object"
+    },
+    {
+     "label": "D",
+     "text": "object being dropped"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-42"
+  },
+  {
+   "n": 18,
+   "stem": "A food web includes plankton, razor clams, horseshoe crabs, sanderlings, loggerhead turtles, diamondback terrapins, striped bass, and grackles. Energy flows from food to consumer. Which of these represents a correct flow of energy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Loggerhead turtle → Horseshoe crab → Razor clam"
+    },
+    {
+     "label": "B",
+     "text": "Horseshoe crab → Loggerhead turtle → Sanderling"
+    },
+    {
+     "label": "C",
+     "text": "Diamondback terrapin → Razor clam → Plankton"
+    },
+    {
+     "label": "D",
+     "text": "Razor clam → Horseshoe crab → Sanderling"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-43"
+  },
+  {
+   "n": 19,
+   "stem": "When stirred together, which two substances form a solution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sand and salt"
+    },
+    {
+     "label": "B",
+     "text": "Sugar and salt"
+    },
+    {
+     "label": "C",
+     "text": "Sand and water"
+    },
+    {
+     "label": "D",
+     "text": "Sugar and water"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-44"
+  },
+  {
+   "n": 20,
+   "stem": "Several plants are placed on a shelf near a window. Over time, the plants grow leaning toward the window. The plants are most likely responding to which factor in the environment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Light"
+    },
+    {
+     "label": "B",
+     "text": "Water"
+    },
+    {
+     "label": "C",
+     "text": "Oxygen"
+    },
+    {
+     "label": "D",
+     "text": "Carbon dioxide"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-45"
+  },
+  {
+   "n": 21,
+   "stem": "The greater the frequency of a sound wave, the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "lower the pitch"
+    },
+    {
+     "label": "B",
+     "text": "higher the pitch"
+    },
+    {
+     "label": "C",
+     "text": "softer the sound"
+    },
+    {
+     "label": "D",
+     "text": "louder the sound"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-46"
+  },
+  {
+   "n": 22,
+   "stem": "A model of a solid shows particles packed closely together in fixed positions. To improve the model, the student should —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "put the beads in a square container"
+    },
+    {
+     "label": "B",
+     "text": "take out some beads so the particles can move more easily"
+    },
+    {
+     "label": "C",
+     "text": "shake the container gently to show how the particles vibrate"
+    },
+    {
+     "label": "D",
+     "text": "use different-colored beads to make the particles easier to see"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-47"
+  },
+  {
+   "n": 23,
+   "stem": "In a photosynthesis cycle diagram, an arrow labeled X points to a substance released by plants after photosynthesis occurs. Which substance is represented by X?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Water"
+    },
+    {
+     "label": "B",
+     "text": "Oxygen"
+    },
+    {
+     "label": "C",
+     "text": "Sunlight"
+    },
+    {
+     "label": "D",
+     "text": "Carbon dioxide"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-48"
+  },
+  {
+   "n": 26,
+   "stem": "High and low tides on the coast are caused mostly by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "underwater earthquakes"
+    },
+    {
+     "label": "B",
+     "text": "the gravity from the Moon"
+    },
+    {
+     "label": "C",
+     "text": "storms over the ocean"
+    },
+    {
+     "label": "D",
+     "text": "the tilt of Earth"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-49"
+  },
+  {
+   "n": 27,
+   "stem": "Skunk cabbage grows in swamps and produces a strong odor. Why should people preserve a plant like skunk cabbage?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "It depends on a moist environment."
+    },
+    {
+     "label": "B",
+     "text": "It has a certain role in the ecosystem."
+    },
+    {
+     "label": "C",
+     "text": "It is prized by gardeners for its flowers."
+    },
+    {
+     "label": "D",
+     "text": "It has leaves that are about the same shape as each other."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-50"
+  },
+  {
+   "n": 28,
+   "stem": "An ocean food chain is shown as: Phytoplankton → Fish → Seal → White shark, with animal-like plankton also included as a consumer of phytoplankton. Which pair of organisms needs to switch places for the food chain to be correct?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Phytoplankton and fish"
+    },
+    {
+     "label": "B",
+     "text": "Animal-like plankton and fish"
+    },
+    {
+     "label": "C",
+     "text": "White shark and phytoplankton"
+    },
+    {
+     "label": "D",
+     "text": "White shark and animal-like plankton"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-51"
+  },
+  {
+   "n": 32,
+   "stem": "A mineral identification flow chart shows that a mineral is nonmetallic, brown-gray in color, and has a hardness of about 6. Based on this information, which mineral belongs in square X of the flow chart?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mica"
+    },
+    {
+     "label": "B",
+     "text": "Graphite"
+    },
+    {
+     "label": "C",
+     "text": "Magnetite"
+    },
+    {
+     "label": "D",
+     "text": "Hornblende"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-52"
+  },
+  {
+   "n": 33,
+   "stem": "A conveyor belt moves groceries by transforming electrical energy into —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "thermal energy"
+    },
+    {
+     "label": "B",
+     "text": "radiant energy"
+    },
+    {
+     "label": "C",
+     "text": "mechanical energy"
+    },
+    {
+     "label": "D",
+     "text": "potential energy"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-53"
+  },
+  {
+   "n": 34,
+   "stem": "Students build a classroom barometer using a jar, a stretched balloon, and a straw taped on top. This device can be used to measure —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "wind direction"
+    },
+    {
+     "label": "B",
+     "text": "temperature"
+    },
+    {
+     "label": "C",
+     "text": "air pressure"
+    },
+    {
+     "label": "D",
+     "text": "precipitation"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-54"
+  },
+  {
+   "n": 35,
+   "stem": "Which of these is an example of a behavioral adaptation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A cow that has flat teeth"
+    },
+    {
+     "label": "B",
+     "text": "A squirrel that has buried acorns"
+    },
+    {
+     "label": "C",
+     "text": "A fish that has scales"
+    },
+    {
+     "label": "D",
+     "text": "An owl that has soft feathers"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-55"
+  },
+  {
+   "n": 36,
+   "stem": "Coal is important for Virginia because it —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "can be used for energy"
+    },
+    {
+     "label": "B",
+     "text": "can be divided into four types"
+    },
+    {
+     "label": "C",
+     "text": "is found in many areas of the country"
+    },
+    {
+     "label": "D",
+     "text": "is formed from plant and animal remains"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2015_SOLPass",
+   "id": "grade-5-science-56"
+  },
+  {
+   "n": 1,
+   "stem": "A porcupine has sharp quills that protect it from predators. Which of these is a behavioral adaptation of porcupines that makes the quills more effective for protection?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Using sharp teeth to cut twigs and leaves"
+    },
+    {
+     "label": "B",
+     "text": "Climbing to the very tops of trees to eat"
+    },
+    {
+     "label": "C",
+     "text": "Making an underground nest for young"
+    },
+    {
+     "label": "D",
+     "text": "Curling up into a ball when threatened"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-57"
+  },
+  {
+   "n": 3,
+   "stem": "The table below compares characteristics of insects and arachnids. Insects: body divided into three parts, three pairs of legs, one pair of antennae Arachnids: body divided into two parts, four pairs of legs, no antennae According to this information, which animal is an arachnid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Termite"
+    },
+    {
+     "label": "B",
+     "text": "Tick"
+    },
+    {
+     "label": "C",
+     "text": "Ant"
+    },
+    {
+     "label": "D",
+     "text": "Grasshopper"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-58"
+  },
+  {
+   "n": 4,
+   "stem": "Which of these instruments would be used to measure wind speed?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Thermometer"
+    },
+    {
+     "label": "G",
+     "text": "Barometer"
+    },
+    {
+     "label": "H",
+     "text": "Anemometer"
+    },
+    {
+     "label": "J",
+     "text": "Rain gauge"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-59"
+  },
+  {
+   "n": 5,
+   "stem": "The table below shows the speed of sound through different materials (in meters per second): Air: 331 Fresh water: faster than air Salt water: faster than fresh water Wood: faster than salt water Plastic: slower than wood Glass: faster than plastic Silver: fastest listed According to the table, sound travels fastest through matter that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "can evaporate easily"
+    },
+    {
+     "label": "B",
+     "text": "has no definite shape"
+    },
+    {
+     "label": "C",
+     "text": "has particles that are close together"
+    },
+    {
+     "label": "D",
+     "text": "has particles that move quickly"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-60"
+  },
+  {
+   "n": 6,
+   "stem": "A kingdom is the largest classification of living things. What other organisms, besides plants and animals, make up the five kingdoms?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Fungi, protists, and monerans"
+    },
+    {
+     "label": "B",
+     "text": "Fungi, protists, and viruses"
+    },
+    {
+     "label": "C",
+     "text": "Monerans, protists, and viruses"
+    },
+    {
+     "label": "D",
+     "text": "Monerans, protists, and vertebrates"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-61"
+  },
+  {
+   "n": 7,
+   "stem": "Different types of clouds are associated with different types of weather. Which type of clouds would most likely be seen during a thunderstorm?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cirrus"
+    },
+    {
+     "label": "B",
+     "text": "Cumulonimbus"
+    },
+    {
+     "label": "C",
+     "text": "Stratus"
+    },
+    {
+     "label": "D",
+     "text": "Cumulus"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-62"
+  },
+  {
+   "n": 8,
+   "stem": "Sand dunes in the desert are caused by erosion from —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "rain"
+    },
+    {
+     "label": "B",
+     "text": "glaciers"
+    },
+    {
+     "label": "C",
+     "text": "streams"
+    },
+    {
+     "label": "D",
+     "text": "wind"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-63"
+  },
+  {
+   "n": 9,
+   "stem": "What do plants take in through their root systems?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Light"
+    },
+    {
+     "label": "G",
+     "text": "Water"
+    },
+    {
+     "label": "H",
+     "text": "Carbon dioxide"
+    },
+    {
+     "label": "J",
+     "text": "Oxygen"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-64"
+  },
+  {
+   "n": 10,
+   "stem": "Which of these is a mixture?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Salt"
+    },
+    {
+     "label": "B",
+     "text": "Water"
+    },
+    {
+     "label": "C",
+     "text": "Lemonade"
+    },
+    {
+     "label": "D",
+     "text": "Sugar"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-65"
+  },
+  {
+   "n": 11,
+   "stem": "The graph shows the breeding period of a species of lacewing across the months of the year. Breeding occurs primarily from March through May, with the highest activity in April. During what season would most of these lacewings breed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Winter"
+    },
+    {
+     "label": "B",
+     "text": "Summer"
+    },
+    {
+     "label": "C",
+     "text": "Spring"
+    },
+    {
+     "label": "D",
+     "text": "Fall"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-66"
+  },
+  {
+   "n": 12,
+   "stem": "Who invented and patented the electric light bulb?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Benjamin Franklin"
+    },
+    {
+     "label": "G",
+     "text": "George Washington Carver"
+    },
+    {
+     "label": "H",
+     "text": "Orville and Wilbur Wright"
+    },
+    {
+     "label": "J",
+     "text": "Thomas Edison"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-67"
+  },
+  {
+   "n": 13,
+   "stem": "The chart below describes feeding types: Carnivores: eat meat, usually live alone or in small groups, preyed on only by other carnivores Herbivores: eat only plants, can be large hoofed mammals, preyed on by carnivores Omnivores: eat both plants and animals, can be primary and secondary consumers Based on this information, which animal is a herbivore?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Grizzly bear"
+    },
+    {
+     "label": "G",
+     "text": "Deer"
+    },
+    {
+     "label": "H",
+     "text": "Lion"
+    },
+    {
+     "label": "J",
+     "text": "Human being"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-68"
+  },
+  {
+   "n": 14,
+   "stem": "Which of these will change solid iron to a liquid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Raising the air pressure"
+    },
+    {
+     "label": "B",
+     "text": "Increasing its temperature"
+    },
+    {
+     "label": "C",
+     "text": "Crushing the solid iron"
+    },
+    {
+     "label": "D",
+     "text": "Adding water to the iron"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-69"
+  },
+  {
+   "n": 15,
+   "stem": "Lava cools to form —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "igneous rock"
+    },
+    {
+     "label": "B",
+     "text": "sedimentary rock"
+    },
+    {
+     "label": "C",
+     "text": "metamorphic rock"
+    },
+    {
+     "label": "D",
+     "text": "sandstone"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-70"
+  },
+  {
+   "n": 16,
+   "stem": "In a healthy ecosystem, many species may share the same habitat because they have different niches. An animal’s niche is best described as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the role it plays in its habitat"
+    },
+    {
+     "label": "B",
+     "text": "where it is located"
+    },
+    {
+     "label": "C",
+     "text": "its appearance"
+    },
+    {
+     "label": "D",
+     "text": "its ability to reproduce"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-71"
+  },
+  {
+   "n": 17,
+   "stem": "Sound is a type of mechanical energy that is transmitted in the form of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "waves"
+    },
+    {
+     "label": "G",
+     "text": "light"
+    },
+    {
+     "label": "H",
+     "text": "heat"
+    },
+    {
+     "label": "J",
+     "text": "electrons"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-72"
+  },
+  {
+   "n": 19,
+   "stem": "The table compares Venus and Earth: Venus: diameter 12,104 km, mass compared to Earth 0.82, density 5.24, surface temperature 470°C Earth: diameter 12,756 km, mass compared to Earth 1.00, density 5.50, surface temperature 56°C How are the two planets most different?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Diameter"
+    },
+    {
+     "label": "B",
+     "text": "Mass"
+    },
+    {
+     "label": "C",
+     "text": "Density"
+    },
+    {
+     "label": "D",
+     "text": "Surface temperature"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-73"
+  },
+  {
+   "n": 20,
+   "stem": "Barnacles and corals both build hard layers of calcium around their soft body parts. What is the most likely reason they build these layers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Prepare them for reproduction"
+    },
+    {
+     "label": "B",
+     "text": "Protect them from predators"
+    },
+    {
+     "label": "C",
+     "text": "Help them capture food"
+    },
+    {
+     "label": "D",
+     "text": "Keep them from drying out"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-74"
+  },
+  {
+   "n": 21,
+   "stem": "A student tested plant growth in soil with salt. The only thing that should be different between the two groups is the amount of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "soil in each pot"
+    },
+    {
+     "label": "G",
+     "text": "water given to each plant"
+    },
+    {
+     "label": "H",
+     "text": "salt in the soil in each pot"
+    },
+    {
+     "label": "J",
+     "text": "fertilizer given to each plant"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-75"
+  },
+  {
+   "n": 22,
+   "stem": "When in operation, a tool powered by electricity that moves parts transforms electrical energy mostly into —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "chemical energy"
+    },
+    {
+     "label": "B",
+     "text": "solar energy"
+    },
+    {
+     "label": "C",
+     "text": "sound energy"
+    },
+    {
+     "label": "D",
+     "text": "mechanical energy"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-76"
+  },
+  {
+   "n": 23,
+   "stem": "The wingspan of a moth shown relative to a ruler measures slightly less than 1 centimeter, approximately 8 millimeters. The wingspan is about —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "7 mm"
+    },
+    {
+     "label": "G",
+     "text": "8 mm"
+    },
+    {
+     "label": "H",
+     "text": "7 cm"
+    },
+    {
+     "label": "J",
+     "text": "8 cm"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-77"
+  },
+  {
+   "n": 24,
+   "stem": "The main difference between ocean water and lake water is that ocean water contains —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "oxygen"
+    },
+    {
+     "label": "B",
+     "text": "salt"
+    },
+    {
+     "label": "C",
+     "text": "algae"
+    },
+    {
+     "label": "D",
+     "text": "plants"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-78"
+  },
+  {
+   "n": 25,
+   "stem": "Which of the following is a benefit that many flowering plants get from animals?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Shelter from direct sunlight"
+    },
+    {
+     "label": "B",
+     "text": "Seeds carried to new places"
+    },
+    {
+     "label": "C",
+     "text": "Oxygen to use in photosynthesis"
+    },
+    {
+     "label": "D",
+     "text": "Moisture to prevent wilting"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-79"
+  },
+  {
+   "n": 26,
+   "stem": "Which animal no longer lives on Earth?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Woolly mammoth"
+    },
+    {
+     "label": "B",
+     "text": "Buffalo"
+    },
+    {
+     "label": "C",
+     "text": "Sea walrus"
+    },
+    {
+     "label": "D",
+     "text": "Rhinoceros"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-80"
+  },
+  {
+   "n": 27,
+   "stem": "Water, ice, and steam are alike because they —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "are the same compound"
+    },
+    {
+     "label": "B",
+     "text": "have the same shape"
+    },
+    {
+     "label": "C",
+     "text": "look the same"
+    },
+    {
+     "label": "D",
+     "text": "feel the same"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-81"
+  },
+  {
+   "n": 29,
+   "stem": "In which plant cell structure does photosynthesis occur?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Vacuole"
+    },
+    {
+     "label": "G",
+     "text": "Chloroplast"
+    },
+    {
+     "label": "H",
+     "text": "Cytoplasm"
+    },
+    {
+     "label": "J",
+     "text": "Nucleus"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-82"
+  },
+  {
+   "n": 30,
+   "stem": "Blue whales have baleen that filters food from water. Which sea creatures are their most common food?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Seals and sharks"
+    },
+    {
+     "label": "G",
+     "text": "Dolphins and porpoises"
+    },
+    {
+     "label": "H",
+     "text": "Turtles and penguins"
+    },
+    {
+     "label": "J",
+     "text": "Small fish and shrimp-sized krill"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-83"
+  },
+  {
+   "n": 32,
+   "stem": "By August, sunflowers were as tall as a house back door, about 2 meters high. About how tall were the sunflowers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.2 meters"
+    },
+    {
+     "label": "B",
+     "text": "2 meters"
+    },
+    {
+     "label": "C",
+     "text": "20 meters"
+    },
+    {
+     "label": "D",
+     "text": "200 meters"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-84"
+  },
+  {
+   "n": 33,
+   "stem": "Which diagram best shows the arrangement of molecules in a solid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Molecules far apart and moving freely"
+    },
+    {
+     "label": "B",
+     "text": "Molecules close together in a fixed, orderly pattern"
+    },
+    {
+     "label": "C",
+     "text": "Molecules close together but sliding past one another"
+    },
+    {
+     "label": "D",
+     "text": "Molecules spread unevenly with large gaps"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-85"
+  },
+  {
+   "n": 34,
+   "stem": "About 400 years ago, Galileo recorded what the moon looked like through a telescope. He was able to tell that the moon had —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "many craters"
+    },
+    {
+     "label": "B",
+     "text": "plants but no animals"
+    },
+    {
+     "label": "C",
+     "text": "active volcanoes"
+    },
+    {
+     "label": "D",
+     "text": "polar ice caps"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-86"
+  },
+  {
+   "n": 35,
+   "stem": "Algae in the ocean provide much of Earth’s —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "oxygen"
+    },
+    {
+     "label": "G",
+     "text": "hydrogen"
+    },
+    {
+     "label": "H",
+     "text": "nitrogen"
+    },
+    {
+     "label": "J",
+     "text": "carbon dioxide"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-87"
+  },
+  {
+   "n": 36,
+   "stem": "The life cycle of a beetle includes egg, larva, pupa, and adult stages. At which stage are the eggs laid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Adult"
+    },
+    {
+     "label": "B",
+     "text": "Larva"
+    },
+    {
+     "label": "C",
+     "text": "Pupa"
+    },
+    {
+     "label": "D",
+     "text": "Pre-pupa"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-88"
+  },
+  {
+   "n": 37,
+   "stem": "A precipitation map of the continental United States shows the lowest rainfall in the southwestern desert region. Which state would be least likely to have floods during this period?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Arizona"
+    },
+    {
+     "label": "G",
+     "text": "Florida"
+    },
+    {
+     "label": "H",
+     "text": "Oregon"
+    },
+    {
+     "label": "J",
+     "text": "Virginia"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-89"
+  },
+  {
+   "n": 38,
+   "stem": "A student recorded body temperature at different times: After getting up in the morning: 36.8°C After reading a book: 37.1°C After math class: 32.2°C After playing outside: 37.7°C When did the student most likely record the temperature inaccurately?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "After getting up in the morning"
+    },
+    {
+     "label": "B",
+     "text": "After reading a book"
+    },
+    {
+     "label": "C",
+     "text": "After math class"
+    },
+    {
+     "label": "D",
+     "text": "After playing outside"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_5_2006_SOLPass",
+   "id": "grade-5-science-90"
+  }
+ ]
+}

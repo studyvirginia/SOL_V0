@@ -1,0 +1,2463 @@
+{
+ "subject": "history",
+ "course": "grade-9-world-history-and-geography-to-1500-a-d",
+ "courseName": "Grade 9 - World History and Geography to 1500 A.D",
+ "questionCount": 98,
+ "sources": [
+  "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+  "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "When studying prehistoric people, cave drawings depicting hunting scenes, animals, and human figures allow archaeologists to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "speculate about daily lives"
+    },
+    {
+     "label": "B",
+     "text": "understand spoken languages"
+    },
+    {
+     "label": "C",
+     "text": "interpret written records"
+    },
+    {
+     "label": "D",
+     "text": "study farming techniques"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-1"
+  },
+  {
+   "n": 2,
+   "stem": "The ancient Hebrews were among the first to develop a religious tradition that included —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "sacrifices"
+    },
+    {
+     "label": "G",
+     "text": "ancestor worship"
+    },
+    {
+     "label": "H",
+     "text": "holy pilgrimages"
+    },
+    {
+     "label": "J",
+     "text": "monotheism"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-2"
+  },
+  {
+   "n": 3,
+   "stem": "What was the major change caused by the agricultural revolution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Increase of spoken languages"
+    },
+    {
+     "label": "B",
+     "text": "End of hunting"
+    },
+    {
+     "label": "C",
+     "text": "Development of permanent settlements"
+    },
+    {
+     "label": "D",
+     "text": "Elimination of trade"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-3"
+  },
+  {
+   "n": 4,
+   "stem": "Which type of government was used in the Persian Empire?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Religious oligarchy"
+    },
+    {
+     "label": "G",
+     "text": "Republic"
+    },
+    {
+     "label": "H",
+     "text": "Imperial bureaucracy"
+    },
+    {
+     "label": "J",
+     "text": "Democracy"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-4"
+  },
+  {
+   "n": 5,
+   "stem": "Which text is a central document of Judaism?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Analects"
+    },
+    {
+     "label": "B",
+     "text": "Koran (Qur’an)"
+    },
+    {
+     "label": "C",
+     "text": "Torah"
+    },
+    {
+     "label": "D",
+     "text": "Upanishads"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-5"
+  },
+  {
+   "n": 6,
+   "stem": "A social hierarchy is described as follows: Brahmins: priests and scholars Kshatriyas: rulers and warriors Vaisyas: merchants and traders Sudras: peasants Untouchables: outside the caste system What does this hierarchy represent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Class system of China"
+    },
+    {
+     "label": "G",
+     "text": "Political system of Greece"
+    },
+    {
+     "label": "H",
+     "text": "Feudal system of Japan"
+    },
+    {
+     "label": "J",
+     "text": "Caste system of India"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-6"
+  },
+  {
+   "n": 7,
+   "stem": "A writing system composed of pictorial symbols representing objects, ideas, or sounds, used in ancient Egypt, is known as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Chinese characters"
+    },
+    {
+     "label": "B",
+     "text": "Phoenician alphabet"
+    },
+    {
+     "label": "C",
+     "text": "Egyptian hieroglyphics"
+    },
+    {
+     "label": "D",
+     "text": "Sumerian cuneiform"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-7"
+  },
+  {
+   "n": 8,
+   "stem": "Buddhists achieve enlightenment by following the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "laws of the Old Testament"
+    },
+    {
+     "label": "G",
+     "text": "decrees of the Upanishads"
+    },
+    {
+     "label": "H",
+     "text": "Five Pillars"
+    },
+    {
+     "label": "J",
+     "text": "Eightfold Path"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-8"
+  },
+  {
+   "n": 9,
+   "stem": "The Gupta Empire made a major contribution to world civilization by developing —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the concept of zero"
+    },
+    {
+     "label": "B",
+     "text": "long-lasting roads"
+    },
+    {
+     "label": "C",
+     "text": "the production of porcelain"
+    },
+    {
+     "label": "D",
+     "text": "wind-powered boats"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-9"
+  },
+  {
+   "n": 10,
+   "stem": "The following beliefs are listed: Live in harmony with nature Have a simple life Exercise humility in all things These beliefs are most closely associated with ancient —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "China"
+    },
+    {
+     "label": "G",
+     "text": "Greece"
+    },
+    {
+     "label": "H",
+     "text": "Egypt"
+    },
+    {
+     "label": "J",
+     "text": "Mesopotamia"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-10"
+  },
+  {
+   "n": 11,
+   "stem": "The ruling authority of China’s ancient dynasties was based on the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Code of Hammurabi"
+    },
+    {
+     "label": "B",
+     "text": "Mandate of Heaven"
+    },
+    {
+     "label": "C",
+     "text": "Twelve Tables"
+    },
+    {
+     "label": "D",
+     "text": "Ten Commandments"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-11"
+  },
+  {
+   "n": 12,
+   "stem": "An event is described by the following characteristics: Warfare between alliances led by Athens and Sparta Lasted nearly 30 years Ended the Golden Age of Pericles Which event is described?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The Gallic Wars"
+    },
+    {
+     "label": "G",
+     "text": "The Peloponnesian War"
+    },
+    {
+     "label": "H",
+     "text": "The Trojan War"
+    },
+    {
+     "label": "J",
+     "text": "The Punic Wars"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-12"
+  },
+  {
+   "n": 13,
+   "stem": "“An Athenian citizen does not put private affairs before affairs of the state; even our merchants and businessmen know something about politics. We alone believe that a man who takes no interest in public affairs is more than harmless; he is useless.” — Pericles, Funeral Oration In this quotation, Pericles describes Athenian society as valuing —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "military discipline"
+    },
+    {
+     "label": "B",
+     "text": "civic responsibility"
+    },
+    {
+     "label": "C",
+     "text": "religious freedom"
+    },
+    {
+     "label": "D",
+     "text": "economic opportunity"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-13"
+  },
+  {
+   "n": 14,
+   "stem": "Hippocrates made important contributions in the area of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "poetry"
+    },
+    {
+     "label": "G",
+     "text": "sculpture"
+    },
+    {
+     "label": "H",
+     "text": "philosophy"
+    },
+    {
+     "label": "J",
+     "text": "medicine"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-14"
+  },
+  {
+   "n": 15,
+   "stem": "Which characteristic is associated with both Roman and Greek cultures?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The rule of emperors"
+    },
+    {
+     "label": "B",
+     "text": "An army of legionnaires"
+    },
+    {
+     "label": "C",
+     "text": "Polytheistic religion"
+    },
+    {
+     "label": "D",
+     "text": "Bicameral legislature"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-15"
+  },
+  {
+   "n": 18,
+   "stem": "Constantine brought a significant change to the Roman Empire by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "banning monotheism"
+    },
+    {
+     "label": "G",
+     "text": "writing a constitution"
+    },
+    {
+     "label": "H",
+     "text": "moving the capital"
+    },
+    {
+     "label": "J",
+     "text": "abolishing slavery"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-16"
+  },
+  {
+   "n": 19,
+   "stem": "Which accomplishment is associated with Alexander the Great?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The spread of Greek culture throughout the empire"
+    },
+    {
+     "label": "B",
+     "text": "The introduction of Christianity to the Near East"
+    },
+    {
+     "label": "C",
+     "text": "The defeat of the Chinese army in Asia"
+    },
+    {
+     "label": "D",
+     "text": "The destruction of the Athenian navy in battle"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-17"
+  },
+  {
+   "n": 20,
+   "stem": "The following events occurred during Roman history: 1. Formation of the First Triumvirate 2. Assassination of Julius Caesar 3. Defeat of Mark Antony 4. Augustus becomes emperor Which list places these events in the correct chronological order?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2, 3, 4, 1"
+    },
+    {
+     "label": "G",
+     "text": "3, 4, 1, 2"
+    },
+    {
+     "label": "H",
+     "text": "1, 2, 3, 4"
+    },
+    {
+     "label": "J",
+     "text": "4, 1, 2, 3"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-18"
+  },
+  {
+   "n": 22,
+   "stem": "After 300 A.D., Christianity divided into two major branches: Western Church: centered in Rome, used Latin, and recognized the authority of the pope Eastern Church: centered in Constantinople, used Greek, and recognized the authority of the patriarch Which statement correctly completes this comparison?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Column 1—Centered in Constantinople"
+    },
+    {
+     "label": "G",
+     "text": "Column 2—Centered in Rome"
+    },
+    {
+     "label": "H",
+     "text": "Column 1—Accepted the authority of the Patriarch"
+    },
+    {
+     "label": "J",
+     "text": "Column 2—Used Greek language in liturgy"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-19"
+  },
+  {
+   "n": 23,
+   "stem": "Which empire was best known for libraries that preserved ancient Greek and Roman knowledge?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mongol"
+    },
+    {
+     "label": "B",
+     "text": "Gupta"
+    },
+    {
+     "label": "C",
+     "text": "Chinese"
+    },
+    {
+     "label": "D",
+     "text": "Byzantine"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-20"
+  },
+  {
+   "n": 24,
+   "stem": "The Battle of Tours was significant because it marked the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "end of Muslim expansion into Western Europe"
+    },
+    {
+     "label": "G",
+     "text": "end of the Crusades in the Middle East"
+    },
+    {
+     "label": "H",
+     "text": "beginning of British dominance in Northern Europe"
+    },
+    {
+     "label": "J",
+     "text": "beginning of Turkish rule in the Balkans"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-21"
+  },
+  {
+   "n": 25,
+   "stem": "The Dome of the Rock is an example of which civilization’s achievements in art and architecture?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Chinese"
+    },
+    {
+     "label": "B",
+     "text": "Greek"
+    },
+    {
+     "label": "C",
+     "text": "Islamic"
+    },
+    {
+     "label": "D",
+     "text": "Roman"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-22"
+  },
+  {
+   "n": 26,
+   "stem": "The practice of Orthodox Christianity in Russia was primarily the result of contact with the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Islamic Empire"
+    },
+    {
+     "label": "G",
+     "text": "Persian Empire"
+    },
+    {
+     "label": "H",
+     "text": "Mongol Empire"
+    },
+    {
+     "label": "J",
+     "text": "Byzantine Empire"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-23"
+  },
+  {
+   "n": 28,
+   "stem": "Which factor strengthened both the Byzantine Empire and the empire of Charlemagne?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Unity between politics and religion"
+    },
+    {
+     "label": "G",
+     "text": "Respect for elders and ancestors"
+    },
+    {
+     "label": "H",
+     "text": "Studies of geography and medicine"
+    },
+    {
+     "label": "J",
+     "text": "Patrons of painters and sculptors"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-24"
+  },
+  {
+   "n": 29,
+   "stem": "Ali, the fourth caliph and successor of Muhammad, died. What was one impact of this event?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Muslim pilgrims no longer traveled to Medina."
+    },
+    {
+     "label": "B",
+     "text": "A permanent split occurred within the religion."
+    },
+    {
+     "label": "C",
+     "text": "Muslim teachers no longer made the Hajj."
+    },
+    {
+     "label": "D",
+     "text": "The desert tribes declared a lasting truce."
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-25"
+  },
+  {
+   "n": 30,
+   "stem": "One of the main accomplishments of Justinian was —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "making Christianity the official religion of the Roman Empire"
+    },
+    {
+     "label": "G",
+     "text": "stopping the Islamic conquest of Western European territories"
+    },
+    {
+     "label": "H",
+     "text": "reconquering territory that had once belonged to the Roman Empire"
+    },
+    {
+     "label": "J",
+     "text": "defeating an invading army of Ottoman Turks"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-26"
+  },
+  {
+   "n": 31,
+   "stem": "The Limpopo and Zambezi Rivers formed boundaries for the empire of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Kush"
+    },
+    {
+     "label": "B",
+     "text": "Nubia"
+    },
+    {
+     "label": "C",
+     "text": "Ghana"
+    },
+    {
+     "label": "D",
+     "text": "Zimbabwe"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-27"
+  },
+  {
+   "n": 32,
+   "stem": "A Venn diagram compares religions practiced in China and Japan. The shaded overlap represents a religion influential in both regions. Which religion belongs in the overlap?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Buddhism"
+    },
+    {
+     "label": "G",
+     "text": "Hinduism"
+    },
+    {
+     "label": "H",
+     "text": "Confucianism"
+    },
+    {
+     "label": "J",
+     "text": "Shintoism"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-28"
+  },
+  {
+   "n": 35,
+   "stem": "The following characteristics describe Mesoamerican civilizations: 1. Produced potatoes as a main crop 2. Believed in only one deity 3. Located in rainforest 4. Constructed pyramids Which characteristic was shared by both the Aztec and Mayan civilizations?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-29"
+  },
+  {
+   "n": 36,
+   "stem": "The following events occurred in one European nation-state: Ferdinand and Isabella unified the nation Christopher Columbus’s exploration was financed The empire expanded in the Western Hemisphere These events occurred in —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "France"
+    },
+    {
+     "label": "G",
+     "text": "Russia"
+    },
+    {
+     "label": "H",
+     "text": "England"
+    },
+    {
+     "label": "J",
+     "text": "Spain"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-30"
+  },
+  {
+   "n": 37,
+   "stem": "“You must apply the strength of your righteousness to another matter which concerns you as well as God… your brethren who live in the east are in urgent need of your help.” — Pope Urban II, 1095 This speech helped to start the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hundred Years’ War"
+    },
+    {
+     "label": "B",
+     "text": "First Crusade"
+    },
+    {
+     "label": "C",
+     "text": "Norman Conquest"
+    },
+    {
+     "label": "D",
+     "text": "Holy Roman Empire"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-31"
+  },
+  {
+   "n": 38,
+   "stem": "The first European universities were based on the scholarly contributions of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "courts"
+    },
+    {
+     "label": "G",
+     "text": "guilds"
+    },
+    {
+     "label": "H",
+     "text": "manors"
+    },
+    {
+     "label": "J",
+     "text": "monasteries"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-32"
+  },
+  {
+   "n": 39,
+   "stem": "The Magna Carta was important because it —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "established the right of assembly"
+    },
+    {
+     "label": "B",
+     "text": "limited the power of the king"
+    },
+    {
+     "label": "C",
+     "text": "ended the system of feudalism"
+    },
+    {
+     "label": "D",
+     "text": "increased the influence of the church"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-33"
+  },
+  {
+   "n": 41,
+   "stem": "Which movement had the greatest influence on the Renaissance?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Utopianism"
+    },
+    {
+     "label": "B",
+     "text": "Feudalism"
+    },
+    {
+     "label": "C",
+     "text": "Humanism"
+    },
+    {
+     "label": "D",
+     "text": "Romanticism"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-34"
+  },
+  {
+   "n": 42,
+   "stem": "An empire is described by these characteristics: Began as nomadic warriors Traveled long distances on horseback Conquered China Conquered Russia Which empire is described?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Persian Empire"
+    },
+    {
+     "label": "G",
+     "text": "Ottoman Empire"
+    },
+    {
+     "label": "H",
+     "text": "Byzantine Empire"
+    },
+    {
+     "label": "J",
+     "text": "Mongol Empire"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-35"
+  },
+  {
+   "n": 43,
+   "stem": "The development of movable-type printing led directly to the rapid spread of ideas because of the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "construction of monasteries"
+    },
+    {
+     "label": "B",
+     "text": "development of guilds"
+    },
+    {
+     "label": "C",
+     "text": "growth of universities"
+    },
+    {
+     "label": "D",
+     "text": "production of books"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-36"
+  },
+  {
+   "n": 44,
+   "stem": "During the Paleolithic Era, how did most early humans acquire food?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "By planting crops"
+    },
+    {
+     "label": "G",
+     "text": "From domesticated animals"
+    },
+    {
+     "label": "H",
+     "text": "By following animal migrations"
+    },
+    {
+     "label": "J",
+     "text": "From nearby settlements"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-37"
+  },
+  {
+   "n": 47,
+   "stem": "Early Hellenic culture spread from Greece to Asia Minor primarily as a result of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "dynastic decline"
+    },
+    {
+     "label": "B",
+     "text": "climate changes"
+    },
+    {
+     "label": "C",
+     "text": "sea trade"
+    },
+    {
+     "label": "D",
+     "text": "democratic elections"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-38"
+  },
+  {
+   "n": 49,
+   "stem": "A map shows territorial expansion over time labeled “to 632,” “to 656,” and “to 750.” What best completes the title of this map: “The Spread of —”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the Plague"
+    },
+    {
+     "label": "B",
+     "text": "Islam"
+    },
+    {
+     "label": "C",
+     "text": "Judaism"
+    },
+    {
+     "label": "D",
+     "text": "the Crusades"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-39"
+  },
+  {
+   "n": 50,
+   "stem": "The Vikings who invaded Europe in the Middle Ages were from —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Poland"
+    },
+    {
+     "label": "G",
+     "text": "Russia"
+    },
+    {
+     "label": "H",
+     "text": "Turkey"
+    },
+    {
+     "label": "J",
+     "text": "Scandinavia"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-40"
+  },
+  {
+   "n": 51,
+   "stem": "Which factor was most important about the site of Constantinople?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mountains for stone building materials"
+    },
+    {
+     "label": "B",
+     "text": "Peninsula for easily constructed defenses"
+    },
+    {
+     "label": "C",
+     "text": "River valley to provide rich farmland"
+    },
+    {
+     "label": "D",
+     "text": "Desert oasis to supply fresh water"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-41"
+  },
+  {
+   "n": 52,
+   "stem": "In the 14th and 15th centuries, most goods arrived in northern Europe from Constantinople after crossing the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Black Sea"
+    },
+    {
+     "label": "G",
+     "text": "Indian Ocean"
+    },
+    {
+     "label": "H",
+     "text": "Red Sea"
+    },
+    {
+     "label": "J",
+     "text": "Pacific Ocean"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-42"
+  },
+  {
+   "n": 53,
+   "stem": "Machu Picchu is located in which type of geographic region?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Arid valley"
+    },
+    {
+     "label": "B",
+     "text": "Rain forest"
+    },
+    {
+     "label": "C",
+     "text": "Mountains"
+    },
+    {
+     "label": "D",
+     "text": "Plains"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-43"
+  },
+  {
+   "n": 54,
+   "stem": "Which characteristic was most common in ancient river valley civilizations?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Hereditary rule"
+    },
+    {
+     "label": "G",
+     "text": "Limited population growth"
+    },
+    {
+     "label": "H",
+     "text": "Social equality"
+    },
+    {
+     "label": "J",
+     "text": "Limited economic growth"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-44"
+  },
+  {
+   "n": 55,
+   "stem": "The sequence below shows the development of government in one ancient civilization: Monarchy → Aristocracy → Tyranny → Democracy This sequence describes ancient —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Byzantium"
+    },
+    {
+     "label": "B",
+     "text": "Sparta"
+    },
+    {
+     "label": "C",
+     "text": "Rome"
+    },
+    {
+     "label": "D",
+     "text": "Athens"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-45"
+  },
+  {
+   "n": 56,
+   "stem": "Prosperity during the Pax Romana resulted from: Completion of a vast road network Significant growth of trade Adoption of a single standard currency Which action best completes this explanation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Control of price levels"
+    },
+    {
+     "label": "G",
+     "text": "Adoption of uniform currency"
+    },
+    {
+     "label": "H",
+     "text": "Prohibition of money lending"
+    },
+    {
+     "label": "J",
+     "text": "Limitation of economic regulations"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-46"
+  },
+  {
+   "n": 57,
+   "stem": "Which change was a result of the rise of the feudal system?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Major cities were established."
+    },
+    {
+     "label": "B",
+     "text": "Local lords had the most political power."
+    },
+    {
+     "label": "C",
+     "text": "Artistic achievements became socially important."
+    },
+    {
+     "label": "D",
+     "text": "Long-distance trade routes were developed."
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-47"
+  },
+  {
+   "n": 58,
+   "stem": "Economic foundations of the Renaissance included: Greater money supply Higher trade volume Which practice best supports this relationship?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Closure of banks"
+    },
+    {
+     "label": "G",
+     "text": "Use of Arabic numbers"
+    },
+    {
+     "label": "H",
+     "text": "Letters of credit"
+    },
+    {
+     "label": "J",
+     "text": "Church rules on usury"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-48"
+  },
+  {
+   "n": 59,
+   "stem": "In The Prince, Niccolò Machiavelli explained why it is necessary for leaders to have —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "absolute power"
+    },
+    {
+     "label": "B",
+     "text": "constitutional government"
+    },
+    {
+     "label": "C",
+     "text": "democratic participation"
+    },
+    {
+     "label": "D",
+     "text": "political equality"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-49"
+  },
+  {
+   "n": 60,
+   "stem": "The Roman Republic included the following political institutions: Assemblies Senate Consuls These institutions are examples of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "representative government"
+    },
+    {
+     "label": "G",
+     "text": "citizenship rights"
+    },
+    {
+     "label": "H",
+     "text": "social structure"
+    },
+    {
+     "label": "J",
+     "text": "trade policies"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2012_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-50"
+  },
+  {
+   "n": 1,
+   "stem": "Which factor had the greatest effect on the movements of early nomadic societies?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mineral deposits"
+    },
+    {
+     "label": "B",
+     "text": "Religious beliefs"
+    },
+    {
+     "label": "C",
+     "text": "Survival needs"
+    },
+    {
+     "label": "D",
+     "text": "Tribal treaties"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-51"
+  },
+  {
+   "n": 2,
+   "stem": "The defining characteristic of polytheistic religions is the idea that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "there is an eternal struggle between good and evil"
+    },
+    {
+     "label": "B",
+     "text": "beings undergo many cycles of rebirth"
+    },
+    {
+     "label": "C",
+     "text": "past actions control the destiny of each person"
+    },
+    {
+     "label": "D",
+     "text": "there are many gods and goddesses in existence"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-52"
+  },
+  {
+   "n": 3,
+   "stem": "Standards of Religious Conduct A diagram showed a set of religious laws or moral rules that guide behavior. Which of these best completes the diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Vedas"
+    },
+    {
+     "label": "B",
+     "text": "Upanishads"
+    },
+    {
+     "label": "C",
+     "text": "Twelve Tables"
+    },
+    {
+     "label": "D",
+     "text": "Ten Commandments"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-53"
+  },
+  {
+   "n": 4,
+   "stem": "The Indus River System The Indus River flows from the Himalayas through northwestern South Asia into the Arabian Sea. Which empire is associated with this river system?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Gupta Empire"
+    },
+    {
+     "label": "B",
+     "text": "Chinese Empire"
+    },
+    {
+     "label": "C",
+     "text": "Phoenician Empire"
+    },
+    {
+     "label": "D",
+     "text": "Babylonian Empire"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-54"
+  },
+  {
+   "n": 5,
+   "stem": "The Vedas and the Upanishads are sacred writings of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hinduism"
+    },
+    {
+     "label": "B",
+     "text": "Judaism"
+    },
+    {
+     "label": "C",
+     "text": "Zoroastrianism"
+    },
+    {
+     "label": "D",
+     "text": "Buddhism"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-55"
+  },
+  {
+   "n": 6,
+   "stem": "According to the Mandate of Heaven, a Chinese emperor could remain in power as long as he —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "obeyed the priests"
+    },
+    {
+     "label": "B",
+     "text": "controlled the army"
+    },
+    {
+     "label": "C",
+     "text": "governed as a just ruler"
+    },
+    {
+     "label": "D",
+     "text": "conquered new territories"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-56"
+  },
+  {
+   "n": 7,
+   "stem": "“You only lose what you cling to.” — Siddhartha Gautama This quotation best represents the religious views of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hindus"
+    },
+    {
+     "label": "B",
+     "text": "Zoroastrians"
+    },
+    {
+     "label": "C",
+     "text": "Buddhists"
+    },
+    {
+     "label": "D",
+     "text": "Jews"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-57"
+  },
+  {
+   "n": 8,
+   "stem": "Living in harmony with nature is an important part of Chinese culture primarily because of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hinduism"
+    },
+    {
+     "label": "B",
+     "text": "Taoism"
+    },
+    {
+     "label": "C",
+     "text": "Buddhism"
+    },
+    {
+     "label": "D",
+     "text": "Confucianism"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-58"
+  },
+  {
+   "n": 9,
+   "stem": "Achilles’ heel = a weak spot Odyssey = an adventurous journey Titanic = something large and strong Trojan horse = a device used to gain access by stealth Which statement describes the origin of these terms?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "They are events from Roman history."
+    },
+    {
+     "label": "B",
+     "text": "They are found in Babylonian legends."
+    },
+    {
+     "label": "C",
+     "text": "They are taken from Greek mythology."
+    },
+    {
+     "label": "D",
+     "text": "They are actions of Egyptian gods."
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-59"
+  },
+  {
+   "n": 10,
+   "stem": "“ W e are called a democracy, for the administration is in the hands of the many and not of the few.” This quotation is from —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pericles"
+    },
+    {
+     "label": "B",
+     "text": "Homer"
+    },
+    {
+     "label": "C",
+     "text": "Pythagoras"
+    },
+    {
+     "label": "D",
+     "text": "Hippocrates"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-60"
+  },
+  {
+   "n": 11,
+   "stem": "Which god kept the same name when adopted from Greek mythology by the Romans?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Venus"
+    },
+    {
+     "label": "B",
+     "text": "Zeus"
+    },
+    {
+     "label": "C",
+     "text": "Juno"
+    },
+    {
+     "label": "D",
+     "text": "Apollo"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-61"
+  },
+  {
+   "n": 12,
+   "stem": "Ancient Roman Engineering Structure The structure shown was a long stone construction with repeating arches used to move water from distant sources into cities. What was the purpose of this structure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To make travel easier"
+    },
+    {
+     "label": "B",
+     "text": "To carry water"
+    },
+    {
+     "label": "C",
+     "text": "To practice a religion"
+    },
+    {
+     "label": "D",
+     "text": "To defend a city"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-62"
+  },
+  {
+   "n": 13,
+   "stem": "Emperor Constantine influenced the traditions of Western civilization by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "sending Roman soldiers to the Middle East"
+    },
+    {
+     "label": "B",
+     "text": "legalizing Christianity within the Roman Empire"
+    },
+    {
+     "label": "C",
+     "text": "codifying Roman law in the Middle East"
+    },
+    {
+     "label": "D",
+     "text": "unifying Europe by founding the Holy Roman Empire"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-63"
+  },
+  {
+   "n": 14,
+   "stem": "Which city was an obstacle to early Rome’s control of the Mediterranean region?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Athens"
+    },
+    {
+     "label": "B",
+     "text": "Carthage"
+    },
+    {
+     "label": "C",
+     "text": "Alexandria"
+    },
+    {
+     "label": "D",
+     "text": "Corinth"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-64"
+  },
+  {
+   "n": 15,
+   "stem": "How did Rome’s military conquests affect the economic and social structures of the Roman Republic?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Slavery became important to Rome’s agricultural production."
+    },
+    {
+     "label": "B",
+     "text": "Soldiers deserted to join enemy armies attacking Rome."
+    },
+    {
+     "label": "C",
+     "text": "Trade routes fell into disuse throughout the Republic."
+    },
+    {
+     "label": "D",
+     "text": "The Republic adopted a monotheistic religion."
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-65"
+  },
+  {
+   "n": 16,
+   "stem": "Belief in monotheism Jesus as Son and incarnation of God These statements describe characteristics of the early —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Buddhists"
+    },
+    {
+     "label": "B",
+     "text": "Muslims"
+    },
+    {
+     "label": "C",
+     "text": "Zoroastrians"
+    },
+    {
+     "label": "D",
+     "text": "Christians"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-66"
+  },
+  {
+   "n": 17,
+   "stem": "Written Language Diffusion A diagram showed written language spreading from its earliest origins in Mesopotamia to other regions through cultural contact and exchange during the postclassical period. Which group was most responsible for spreading this cultural characteristic?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Roman soldiers"
+    },
+    {
+     "label": "B",
+     "text": "Islamic traders"
+    },
+    {
+     "label": "C",
+     "text": "Egyptian pharaohs"
+    },
+    {
+     "label": "D",
+     "text": "Sumerian bureaucrats"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-67"
+  },
+  {
+   "n": 18,
+   "stem": "Which characteristic describes the early Catholic Church?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Established monasteries in Russia"
+    },
+    {
+     "label": "B",
+     "text": "Centered in Mecca"
+    },
+    {
+     "label": "C",
+     "text": "Headed by the Pope"
+    },
+    {
+     "label": "D",
+     "text": "Conducted services in Greek"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-68"
+  },
+  {
+   "n": 19,
+   "stem": "Which art form is most associated with the Byzantine culture?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Tapestries"
+    },
+    {
+     "label": "B",
+     "text": "Mosaics"
+    },
+    {
+     "label": "C",
+     "text": "Sculpture"
+    },
+    {
+     "label": "D",
+     "text": "Music"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-69"
+  },
+  {
+   "n": 20,
+   "stem": "Which institution in Western Europe had the most power during the Middle Ages?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The Church"
+    },
+    {
+     "label": "B",
+     "text": "Merchant guilds"
+    },
+    {
+     "label": "C",
+     "text": "The feudal system"
+    },
+    {
+     "label": "D",
+     "text": "Roman universities"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-70"
+  },
+  {
+   "n": 21,
+   "stem": "The cause of the split in Islam after Muhammad’s death was a difference of opinion concerning —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "expansion"
+    },
+    {
+     "label": "B",
+     "text": "leaders"
+    },
+    {
+     "label": "C",
+     "text": "prayer"
+    },
+    {
+     "label": "D",
+     "text": "pilgrimages"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-71"
+  },
+  {
+   "n": 22,
+   "stem": "Which characteristic describes the earliest followers of Islam?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nomads in West Africa"
+    },
+    {
+     "label": "B",
+     "text": "Migrated from Central Asia"
+    },
+    {
+     "label": "C",
+     "text": "Lived on the Arabian Peninsula"
+    },
+    {
+     "label": "D",
+     "text": "Sea traders from South Asia"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-72"
+  },
+  {
+   "n": 23,
+   "stem": "St. Basil’s Cathedral, Moscow This church features large domes, rich decoration, and religious symbolism rooted in Eastern Christianity. Which civilization most influenced its architecture?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Greek"
+    },
+    {
+     "label": "B",
+     "text": "Roman"
+    },
+    {
+     "label": "C",
+     "text": "Byzantine"
+    },
+    {
+     "label": "D",
+     "text": "Indian"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-73"
+  },
+  {
+   "n": 24,
+   "stem": "Whose codification of Roman law has strongly influenced European laws of today?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Marcus Aurelius"
+    },
+    {
+     "label": "B",
+     "text": "Constantine"
+    },
+    {
+     "label": "C",
+     "text": "Augustus Caesar"
+    },
+    {
+     "label": "D",
+     "text": "Justinian"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-74"
+  },
+  {
+   "n": 25,
+   "stem": "Which belief is associated with Shintoism?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The gods interfere in human lives."
+    },
+    {
+     "label": "B",
+     "text": "People will experience an afterlife."
+    },
+    {
+     "label": "C",
+     "text": "Reincarnation depends on karma."
+    },
+    {
+     "label": "D",
+     "text": "People must respect nature spirits."
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-75"
+  },
+  {
+   "n": 26,
+   "stem": "Which event helped to spread Islam in Africa?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Establishment of trade with Timbuktu"
+    },
+    {
+     "label": "B",
+     "text": "Conquest of Jerusalem"
+    },
+    {
+     "label": "C",
+     "text": "Relocation of capital to Baghdad"
+    },
+    {
+     "label": "D",
+     "text": "Conquest of Damascus"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-76"
+  },
+  {
+   "n": 27,
+   "stem": "The empires of Ghana, Mali, and Songhai benefited from being near the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "largest European cities"
+    },
+    {
+     "label": "B",
+     "text": "Mediterranean Sea"
+    },
+    {
+     "label": "C",
+     "text": "Red Sea coast"
+    },
+    {
+     "label": "D",
+     "text": "Trans-Saharan trade routes"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-77"
+  },
+  {
+   "n": 28,
+   "stem": "Declining population in Asia Declining population in Europe Disruption of trade routes This sequence of events was caused by the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "beginning of the Crusades"
+    },
+    {
+     "label": "B",
+     "text": "fall of the Roman Empire"
+    },
+    {
+     "label": "C",
+     "text": "Hundred Years’ War"
+    },
+    {
+     "label": "D",
+     "text": "Bubonic Plague"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-78"
+  },
+  {
+   "n": 29,
+   "stem": "Which city served as the capital of three empires at different times and under different names?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Athens"
+    },
+    {
+     "label": "B",
+     "text": "Moscow"
+    },
+    {
+     "label": "C",
+     "text": "Constantinople"
+    },
+    {
+     "label": "D",
+     "text": "Baghdad"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-79"
+  },
+  {
+   "n": 30,
+   "stem": "Advanced American Civilizations A diagram listed these characteristics: Kept records using knotted strings Practiced terraced farming Performed advanced medical procedures, including brain surgery Which civilization best completes this diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Incan"
+    },
+    {
+     "label": "B",
+     "text": "Mayan"
+    },
+    {
+     "label": "C",
+     "text": "Egyptian"
+    },
+    {
+     "label": "D",
+     "text": "Persian"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-80"
+  },
+  {
+   "n": 31,
+   "stem": "The Mayan and Aztec civilizations advanced the development of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "calendars"
+    },
+    {
+     "label": "B",
+     "text": "printing"
+    },
+    {
+     "label": "C",
+     "text": "ocean navigation"
+    },
+    {
+     "label": "D",
+     "text": "manufacturing goods"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-81"
+  },
+  {
+   "n": 32,
+   "stem": "“The Chaldeans Saladin and his army fought the battle fiercely for a few days and triumphed… scarcely twenty or thirty men appeared to defend the city walls.” — 1187 This quotation describes the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "triumph of the Ottoman Turks at Tours"
+    },
+    {
+     "label": "B",
+     "text": "collapse of Rome as a result of barbarian invasions"
+    },
+    {
+     "label": "C",
+     "text": "triumph of Pope Urban in retaking the Holy Land"
+    },
+    {
+     "label": "D",
+     "text": "collapse of Western control of Jerusalem"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-82"
+  },
+  {
+   "n": 33,
+   "stem": "During the Middle Ages, many Greek and Roman classics were preserved because they had been translated into —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Russian"
+    },
+    {
+     "label": "B",
+     "text": "Persian"
+    },
+    {
+     "label": "C",
+     "text": "Arabic"
+    },
+    {
+     "label": "D",
+     "text": "Chinese"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-83"
+  },
+  {
+   "n": 34,
+   "stem": "Major Classical Authors A diagram showed Greek and Roman authors such as Plato, Aristotle, and Cicero being studied during the Renaissance. These authors were most often studied by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "bankers"
+    },
+    {
+     "label": "B",
+     "text": "humanists"
+    },
+    {
+     "label": "C",
+     "text": "feudal lords"
+    },
+    {
+     "label": "D",
+     "text": "parish priests"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-84"
+  },
+  {
+   "n": 35,
+   "stem": "The movable-type printing press helped the Renaissance by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "supporting the teachings of the Catholic Church"
+    },
+    {
+     "label": "B",
+     "text": "increasing the use of new accounting practices"
+    },
+    {
+     "label": "C",
+     "text": "motivating the analysis of Egyptian society"
+    },
+    {
+     "label": "D",
+     "text": "expanding the distribution of new ideas"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-85"
+  },
+  {
+   "n": 36,
+   "stem": "Which statement best explains the migration of early humans?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rise of civilizations displaced other people."
+    },
+    {
+     "label": "B",
+     "text": "Natural disasters forced people to leave native lands."
+    },
+    {
+     "label": "C",
+     "text": "People searched for new sources of food."
+    },
+    {
+     "label": "D",
+     "text": "Religious conflicts made people leave disputed lands."
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-86"
+  },
+  {
+   "n": 37,
+   "stem": "Emperor Constantine chose the location for a new capital partly for its distance from —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "trade routes"
+    },
+    {
+     "label": "B",
+     "text": "feudal kingdoms"
+    },
+    {
+     "label": "C",
+     "text": "Germanic invaders"
+    },
+    {
+     "label": "D",
+     "text": "Mongol hordes"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-87"
+  },
+  {
+   "n": 38,
+   "stem": "The lack of arable land in Greece contributed to an economic system based on —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "manufactured goods"
+    },
+    {
+     "label": "B",
+     "text": "shipping and trade"
+    },
+    {
+     "label": "C",
+     "text": "agricultural production"
+    },
+    {
+     "label": "D",
+     "text": "lumber and minerals"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-88"
+  },
+  {
+   "n": 39,
+   "stem": "Italian Peninsula A map showed the Italian Peninsula with numbered locations. Roman civilization first developed on the west-central portion of the peninsula along the Tiber River, near the future city of Rome. Which number shows this location?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-89"
+  },
+  {
+   "n": 40,
+   "stem": "Which primary factor encouraged Greek city-states to develop different identities?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Language"
+    },
+    {
+     "label": "B",
+     "text": "Religion"
+    },
+    {
+     "label": "C",
+     "text": "Economy"
+    },
+    {
+     "label": "D",
+     "text": "Geography"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-90"
+  },
+  {
+   "n": 41,
+   "stem": "Many Incan cities were easily defended because they were built —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "in canyons"
+    },
+    {
+     "label": "B",
+     "text": "in rainforests"
+    },
+    {
+     "label": "C",
+     "text": "on islands"
+    },
+    {
+     "label": "D",
+     "text": "on mountaintops"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-91"
+  },
+  {
+   "n": 42,
+   "stem": "Which regions were connected by the Silk Roads?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "East Asia and the Mediterranean basin"
+    },
+    {
+     "label": "B",
+     "text": "Western Europe and East Africa"
+    },
+    {
+     "label": "C",
+     "text": "East Africa and Southeast Asia"
+    },
+    {
+     "label": "D",
+     "text": "Northern Europe and the Mediterranean basin"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-92"
+  },
+  {
+   "n": 43,
+   "stem": "Which phrase best describes the geographic location of the Mayan civilization?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rainforests in Central America"
+    },
+    {
+     "label": "B",
+     "text": "Deserts in Mexico"
+    },
+    {
+     "label": "C",
+     "text": "Woodlands of North America"
+    },
+    {
+     "label": "D",
+     "text": "Mountains of Brazil"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-93"
+  },
+  {
+   "n": 44,
+   "stem": "The early river valley civilizations of Egypt and Mesopotamia developed governments that were ruled by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "religious authorities"
+    },
+    {
+     "label": "B",
+     "text": "elected officials"
+    },
+    {
+     "label": "C",
+     "text": "representative assemblies"
+    },
+    {
+     "label": "D",
+     "text": "tribal councils"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-94"
+  },
+  {
+   "n": 45,
+   "stem": "“Steered west and sailed, day and night… the pilots took the sun’s direction, and found that the needles varied to the northwest.” — Journal of Christopher Columbus, 1492 According to this quotation, Christopher Columbus relied on technology that originated in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "China"
+    },
+    {
+     "label": "B",
+     "text": "Arabia"
+    },
+    {
+     "label": "C",
+     "text": "Italy"
+    },
+    {
+     "label": "D",
+     "text": "Spain"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-95"
+  },
+  {
+   "n": 46,
+   "stem": "One characteristic of the Pax Romana was widespread —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "cultural decline"
+    },
+    {
+     "label": "B",
+     "text": "economic prosperity"
+    },
+    {
+     "label": "C",
+     "text": "political conflict"
+    },
+    {
+     "label": "D",
+     "text": "social equality"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-96"
+  },
+  {
+   "n": 47,
+   "stem": "Social Structure in the Roman Republic A diagram showed a social hierarchy with elites at the top and common citizens below. Which choice belongs in this diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Patricians in section 1"
+    },
+    {
+     "label": "B",
+     "text": "Plebeians in section 1"
+    },
+    {
+     "label": "C",
+     "text": "Consuls in section 2"
+    },
+    {
+     "label": "D",
+     "text": "Emperors in section 2"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-97"
+  },
+  {
+   "n": 48,
+   "stem": "Ancient Athens was responsible for developing which concept in government?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Civil service"
+    },
+    {
+     "label": "B",
+     "text": "Elected legislatures"
+    },
+    {
+     "label": "C",
+     "text": "Direct democracy"
+    },
+    {
+     "label": "D",
+     "text": "Written laws"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_9__World_History_and_Geography_to_1500_A.D_2014_SOLPass",
+   "id": "grade-9-world-history-and-geography-to-1500-a-d-98"
+  }
+ ]
+}

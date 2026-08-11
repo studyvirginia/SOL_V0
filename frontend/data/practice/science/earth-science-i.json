@@ -1,0 +1,7668 @@
+{
+ "subject": "science",
+ "course": "earth-science-i",
+ "courseName": "Earth Science I",
+ "questionCount": 306,
+ "sources": [
+  "Science_Earth_Science_I_2000_SOLPass",
+  "Science_Earth_Science_I_2001_SOLPass",
+  "Science_Earth_Science_I_2002_SOLPass",
+  "Science_Earth_Science_I_2003_SOLPass",
+  "Science_Earth_Science_I_2004_SOLPass",
+  "Science_Earth_Science_I_2005_SOLPass",
+  "Science_Earth_Science_I_2015_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Which of these can determine the size of grains in igneous rocks?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Amount of rare minerals"
+    },
+    {
+     "label": "B",
+     "text": "Distance from a plate boundary"
+    },
+    {
+     "label": "C",
+     "text": "Size of the volcano"
+    },
+    {
+     "label": "D",
+     "text": "Cooling rate of molten rock"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-1"
+  },
+  {
+   "n": 2,
+   "stem": "Which of these can be used to measure atmospheric pressure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "An anemometer"
+    },
+    {
+     "label": "B",
+     "text": "A barometer"
+    },
+    {
+     "label": "C",
+     "text": "A thermometer"
+    },
+    {
+     "label": "D",
+     "text": "A seismometer"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-2"
+  },
+  {
+   "n": 3,
+   "stem": "Which element in Earth’s atmosphere is essential for human life and is extremely rare or nonexistent in the atmospheres of other planets in our solar system?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Carbon dioxide"
+    },
+    {
+     "label": "B",
+     "text": "Hydrogen"
+    },
+    {
+     "label": "C",
+     "text": "Nitrogen"
+    },
+    {
+     "label": "D",
+     "text": "Oxygen"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-3"
+  },
+  {
+   "n": 4,
+   "stem": "When Earth is at its greatest distance from the Sun, the Northern Hemisphere is tilted toward the Sun. What season takes place in the Southern Hemisphere at this time?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Spring"
+    },
+    {
+     "label": "B",
+     "text": "Summer"
+    },
+    {
+     "label": "C",
+     "text": "Autumn"
+    },
+    {
+     "label": "D",
+     "text": "Winter"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-4"
+  },
+  {
+   "n": 5,
+   "stem": "Which of the following is part of a valid process for supporting a hypothesis?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Altering results"
+    },
+    {
+     "label": "B",
+     "text": "Single trials"
+    },
+    {
+     "label": "C",
+     "text": "Experimentation"
+    },
+    {
+     "label": "D",
+     "text": "Limited research"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-5"
+  },
+  {
+   "n": 6,
+   "stem": "The numerous rocks orbiting the Sun between Jupiter and Mars are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "comets"
+    },
+    {
+     "label": "B",
+     "text": "asteroids"
+    },
+    {
+     "label": "C",
+     "text": "meteorites"
+    },
+    {
+     "label": "D",
+     "text": "satellites"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-6"
+  },
+  {
+   "n": 7,
+   "stem": "What property is shared by many gemstones, such as diamonds, rubies, sapphires, emeralds, and topaz?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Extreme hardness"
+    },
+    {
+     "label": "B",
+     "text": "High specific gravity"
+    },
+    {
+     "label": "C",
+     "text": "Carbon as the primary element"
+    },
+    {
+     "label": "D",
+     "text": "Ductility"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-7"
+  },
+  {
+   "n": 8,
+   "stem": "A hydrometer floats higher in denser liquids and lower in less dense liquids. When the same hydrometer is placed in several liquids, it floats highest in liquid H. Which liquid is denser than water?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Liquid F"
+    },
+    {
+     "label": "B",
+     "text": "Liquid G"
+    },
+    {
+     "label": "C",
+     "text": "Liquid H"
+    },
+    {
+     "label": "D",
+     "text": "Liquid J"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-8"
+  },
+  {
+   "n": 9,
+   "stem": "Charts show the mineral composition of chondrite and achondrite meteorites. Compared to chondrites, achondrites contain a higher percentage of feldspar. Based on this information, which conclusion is valid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Both types are predominately pyroxene."
+    },
+    {
+     "label": "B",
+     "text": "Both types are predominately olivine."
+    },
+    {
+     "label": "C",
+     "text": "Achondrites contain more feldspar."
+    },
+    {
+     "label": "D",
+     "text": "Achondrites contain more nickel-iron."
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-9"
+  },
+  {
+   "n": 10,
+   "stem": "A map of the eastern United States shows mean annual temperature zones labeled in 5°F intervals. Most of eastern Virginia lies within the 55°F to 60°F zone. According to this map, the mean annual temperature for most of the eastern half of Virginia is between —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "45°F and 50°F"
+    },
+    {
+     "label": "B",
+     "text": "50°F and 55°F"
+    },
+    {
+     "label": "C",
+     "text": "55°F and 60°F"
+    },
+    {
+     "label": "D",
+     "text": "65°F and 70°F"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-10"
+  },
+  {
+   "n": 11,
+   "stem": "The density of a mineral is determined by its mass and —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "hardness"
+    },
+    {
+     "label": "B",
+     "text": "luster"
+    },
+    {
+     "label": "C",
+     "text": "volume"
+    },
+    {
+     "label": "D",
+     "text": "shape"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-11"
+  },
+  {
+   "n": 12,
+   "stem": "What causes currents in the atmosphere?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Ocean waves and currents"
+    },
+    {
+     "label": "B",
+     "text": "Pressure from the ozone layer"
+    },
+    {
+     "label": "C",
+     "text": "Solar heating of the upper atmosphere"
+    },
+    {
+     "label": "D",
+     "text": "Warm air rising and cold air sinking"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-12"
+  },
+  {
+   "n": 13,
+   "stem": "Four stages of soil development are described: I. Thick vegetation supported; organic material abundant II. Bedrock begins to disintegrate III. Soil horizons form; disintegration speeds up IV. Organic materials accumulate above parent material Which order correctly represents soil development from earliest to most developed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "I, II, IV, III"
+    },
+    {
+     "label": "B",
+     "text": "III, I, II, IV"
+    },
+    {
+     "label": "C",
+     "text": "II, IV, III, I"
+    },
+    {
+     "label": "D",
+     "text": "III, II, IV, I"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-13"
+  },
+  {
+   "n": 14,
+   "stem": "The first manned mission to land on the Moon was commanded by Neil Armstrong and was called —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Apollo 11"
+    },
+    {
+     "label": "B",
+     "text": "Gemini 3"
+    },
+    {
+     "label": "C",
+     "text": "Viking 2"
+    },
+    {
+     "label": "D",
+     "text": "Mariner 7"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-14"
+  },
+  {
+   "n": 15,
+   "stem": "The Marianas Trench in the Pacific Ocean is 36,160 feet below sea level. This deep oceanic trench is caused by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "swift ocean currents eroding the ocean floor"
+    },
+    {
+     "label": "B",
+     "text": "collapse of an empty magma chamber"
+    },
+    {
+     "label": "C",
+     "text": "excessive boat traffic"
+    },
+    {
+     "label": "D",
+     "text": "two tectonic plates colliding with one plunging beneath the other"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-15"
+  },
+  {
+   "n": 16,
+   "stem": "The Sun emits energy by converting hydrogen into helium. What is this process called?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Fusion"
+    },
+    {
+     "label": "B",
+     "text": "Fission"
+    },
+    {
+     "label": "C",
+     "text": "Sunspot formation"
+    },
+    {
+     "label": "D",
+     "text": "Solar wind"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-16"
+  },
+  {
+   "n": 17,
+   "stem": "In California, the Pacific Plate and the North American Plate slide past each other horizontally. This type of plate movement creates a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "normal fault"
+    },
+    {
+     "label": "B",
+     "text": "reverse fault"
+    },
+    {
+     "label": "C",
+     "text": "strike-slip fault"
+    },
+    {
+     "label": "D",
+     "text": "thrust fault"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-17"
+  },
+  {
+   "n": 18,
+   "stem": "A topographic map has a contour interval of 20 feet. Point III lies on the contour line labeled 1260 feet. What is the elevation of point III?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1260 feet"
+    },
+    {
+     "label": "B",
+     "text": "1280 feet"
+    },
+    {
+     "label": "C",
+     "text": "1300 feet"
+    },
+    {
+     "label": "D",
+     "text": "1360 feet"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-18"
+  },
+  {
+   "n": 19,
+   "stem": "Which of the following is not a fossil fuel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Coal"
+    },
+    {
+     "label": "B",
+     "text": "Wood"
+    },
+    {
+     "label": "C",
+     "text": "Petroleum"
+    },
+    {
+     "label": "D",
+     "text": "Natural gas"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-19"
+  },
+  {
+   "n": 20,
+   "stem": "Periodic meteor showers occur because Earth’s orbit passes through the remains of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a star"
+    },
+    {
+     "label": "B",
+     "text": "a comet"
+    },
+    {
+     "label": "C",
+     "text": "solar flares"
+    },
+    {
+     "label": "D",
+     "text": "the rings of Saturn"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-20"
+  },
+  {
+   "n": 22,
+   "stem": "Which of these is important in the formation of clouds?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The relative length of day and night"
+    },
+    {
+     "label": "B",
+     "text": "The Coriolis effect"
+    },
+    {
+     "label": "C",
+     "text": "The melting of polar ice caps"
+    },
+    {
+     "label": "D",
+     "text": "The cooling of air as it rises"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-21"
+  },
+  {
+   "n": 23,
+   "stem": "What is usually responsible for an earthquake?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pressure buildup within the mantle"
+    },
+    {
+     "label": "B",
+     "text": "Slippage along faults within Earth’s crust"
+    },
+    {
+     "label": "C",
+     "text": "Weathering along coastlines"
+    },
+    {
+     "label": "D",
+     "text": "Gravitational pull of the Moon"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-22"
+  },
+  {
+   "n": 24,
+   "stem": "When Venus passes between Earth and the Sun, it appears as a small black dot on the Sun. Why is Mars never seen this way?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mars has a more eccentric orbit than Venus"
+    },
+    {
+     "label": "B",
+     "text": "Mars’s orbit lies outside Earth’s orbit"
+    },
+    {
+     "label": "C",
+     "text": "Mars is too small to be seen"
+    },
+    {
+     "label": "D",
+     "text": "Mars shines too brightly"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-23"
+  },
+  {
+   "n": 25,
+   "stem": "Wetlands are most prevalent in which physiographic province of Virginia?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Coastal Plain"
+    },
+    {
+     "label": "B",
+     "text": "Piedmont"
+    },
+    {
+     "label": "C",
+     "text": "Blue Ridge"
+    },
+    {
+     "label": "D",
+     "text": "Appalachian Plateau"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-24"
+  },
+  {
+   "n": 26,
+   "stem": "If the polar ice caps were to melt, all of the following would occur except —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "increased coastal flooding"
+    },
+    {
+     "label": "B",
+     "text": "increased sea level"
+    },
+    {
+     "label": "C",
+     "text": "decreased ocean salinity"
+    },
+    {
+     "label": "D",
+     "text": "decreased tidal action"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-25"
+  },
+  {
+   "n": 27,
+   "stem": "Caves are common in Virginia’s Valley and Ridge province because the area is underlain by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "granite"
+    },
+    {
+     "label": "B",
+     "text": "shale"
+    },
+    {
+     "label": "C",
+     "text": "gneiss"
+    },
+    {
+     "label": "D",
+     "text": "limestone"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-26"
+  },
+  {
+   "n": 28,
+   "stem": "What is one major indication that Earth’s climate has varied over time?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Landforms carved by glaciers in temperate areas"
+    },
+    {
+     "label": "B",
+     "text": "Depletion of oxygen in lakes"
+    },
+    {
+     "label": "C",
+     "text": "Ocean currents"
+    },
+    {
+     "label": "D",
+     "text": "Magnetic reversals"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-27"
+  },
+  {
+   "n": 29,
+   "stem": "Why does water move more slowly through clay than through humus?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Clay has greater permeability"
+    },
+    {
+     "label": "B",
+     "text": "Clay has very small pore spaces"
+    },
+    {
+     "label": "C",
+     "text": "Clay prevents capillary attraction"
+    },
+    {
+     "label": "D",
+     "text": "Clay reduces evaporation"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-28"
+  },
+  {
+   "n": 30,
+   "stem": "A diagram shows four numbered stages in the evolution of a massive star, ending in either a neutron star or black hole. Which numbered stage represents a supernova?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-29"
+  },
+  {
+   "n": 31,
+   "stem": "Which mineral, when in the form of sand, is used to manufacture glass?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Gypsum"
+    },
+    {
+     "label": "B",
+     "text": "Diamond"
+    },
+    {
+     "label": "C",
+     "text": "Calcite"
+    },
+    {
+     "label": "D",
+     "text": "Quartz"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-30"
+  },
+  {
+   "n": 32,
+   "stem": "The two most common ions in ocean water are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "chloride and sodium"
+    },
+    {
+     "label": "B",
+     "text": "potassium and calcium"
+    },
+    {
+     "label": "C",
+     "text": "phosphate and nitrate"
+    },
+    {
+     "label": "D",
+     "text": "magnesium and sodium"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-31"
+  },
+  {
+   "n": 33,
+   "stem": "If there were a slight increase in the amount of solar energy reaching Earth, there would be an immediate increase in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "erosion"
+    },
+    {
+     "label": "B",
+     "text": "evaporation"
+    },
+    {
+     "label": "C",
+     "text": "volcanic activity"
+    },
+    {
+     "label": "D",
+     "text": "groundwater flow"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-32"
+  },
+  {
+   "n": 34,
+   "stem": "Scientists use volcano and earthquake activity to establish —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "plate boundaries"
+    },
+    {
+     "label": "B",
+     "text": "lines of latitude"
+    },
+    {
+     "label": "C",
+     "text": "political borders"
+    },
+    {
+     "label": "D",
+     "text": "density of rock layers"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-33"
+  },
+  {
+   "n": 35,
+   "stem": "Slate is commonly used for roofing shingles because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "it can be split into thin, flat layers"
+    },
+    {
+     "label": "B",
+     "text": "it feels soft and smooth"
+    },
+    {
+     "label": "C",
+     "text": "it is hard and brittle"
+    },
+    {
+     "label": "D",
+     "text": "it occurs in many colors"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-34"
+  },
+  {
+   "n": 36,
+   "stem": "Which property refers to the colored powder produced when a mineral is rubbed on a harder surface?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hardness"
+    },
+    {
+     "label": "B",
+     "text": "Luster"
+    },
+    {
+     "label": "C",
+     "text": "Cleavage"
+    },
+    {
+     "label": "D",
+     "text": "Streak"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-35"
+  },
+  {
+   "n": 37,
+   "stem": "Metamorphic rocks whose minerals are arranged in layers or bands are called —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "unfoliated"
+    },
+    {
+     "label": "B",
+     "text": "nonclastic"
+    },
+    {
+     "label": "C",
+     "text": "clastic"
+    },
+    {
+     "label": "D",
+     "text": "foliated"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-36"
+  },
+  {
+   "n": 38,
+   "stem": "A bedrock map of Virginia identifies several locations. Which location has the oldest exposed bedrock?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hightown Valley"
+    },
+    {
+     "label": "B",
+     "text": "Monterey"
+    },
+    {
+     "label": "C",
+     "text": "Jack Mountain"
+    },
+    {
+     "label": "D",
+     "text": "Bull Pasture"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-37"
+  },
+  {
+   "n": 39,
+   "stem": "Based on planetary rotation data showing that Jupiter completes one rotation in about 10 hours, which planet rotates the fastest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mercury"
+    },
+    {
+     "label": "B",
+     "text": "Mars"
+    },
+    {
+     "label": "C",
+     "text": "Jupiter"
+    },
+    {
+     "label": "D",
+     "text": "Saturn"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-38"
+  },
+  {
+   "n": 40,
+   "stem": "What processes can transform igneous rock into sedimentary rock?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Heat and pressure"
+    },
+    {
+     "label": "B",
+     "text": "Rifting and subduction"
+    },
+    {
+     "label": "C",
+     "text": "Erosion and sedimentation"
+    },
+    {
+     "label": "D",
+     "text": "Evaporation and condensation"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-39"
+  },
+  {
+   "n": 41,
+   "stem": "A mineral identification table lists topaz as having hardness 8.0 and occurring in various colors, including blue. Which mineral is blue and will scratch garnet?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pyrite"
+    },
+    {
+     "label": "B",
+     "text": "Garnet"
+    },
+    {
+     "label": "C",
+     "text": "Magnetite"
+    },
+    {
+     "label": "D",
+     "text": "Topaz"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-40"
+  },
+  {
+   "n": 42,
+   "stem": "A graph shows that air pressure decreases with altitude. At approximately 22 kilometers above sea level, air pressure is closest to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "40 millibars"
+    },
+    {
+     "label": "B",
+     "text": "120 millibars"
+    },
+    {
+     "label": "C",
+     "text": "200 millibars"
+    },
+    {
+     "label": "D",
+     "text": "400 millibars"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-41"
+  },
+  {
+   "n": 43,
+   "stem": "Which factor is most important in determining how a rock was formed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Color and shape"
+    },
+    {
+     "label": "B",
+     "text": "Luster and hardness"
+    },
+    {
+     "label": "C",
+     "text": "Composition and texture"
+    },
+    {
+     "label": "D",
+     "text": "Size and weight"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-42"
+  },
+  {
+   "n": 44,
+   "stem": "Which part of a saber-toothed cat is most likely to become fossilized?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hair"
+    },
+    {
+     "label": "B",
+     "text": "Skin"
+    },
+    {
+     "label": "C",
+     "text": "Muscles"
+    },
+    {
+     "label": "D",
+     "text": "Jaws"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-43"
+  },
+  {
+   "n": 45,
+   "stem": "Sulfate emissions have decreased, but sulfate levels in some lakes remain high. Why?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "No connection exists between emissions and lake acidity"
+    },
+    {
+     "label": "B",
+     "text": "Sulfate comes only from overseas sources"
+    },
+    {
+     "label": "C",
+     "text": "Earlier sulfate stored in soil continues to wash into lakes"
+    },
+    {
+     "label": "D",
+     "text": "Increased precipitation offsets emission reductions"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-44"
+  },
+  {
+   "n": 46,
+   "stem": "Limestone is a valuable resource in Virginia because it can be processed to make —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "plastic"
+    },
+    {
+     "label": "B",
+     "text": "steel"
+    },
+    {
+     "label": "C",
+     "text": "concrete"
+    },
+    {
+     "label": "D",
+     "text": "plywood"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-45"
+  },
+  {
+   "n": 47,
+   "stem": "Lightweight and strong, the metal most successfully recycled is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "steel"
+    },
+    {
+     "label": "B",
+     "text": "tin"
+    },
+    {
+     "label": "C",
+     "text": "aluminum"
+    },
+    {
+     "label": "D",
+     "text": "titanium"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-46"
+  },
+  {
+   "n": 48,
+   "stem": "Sand dunes on Mars that shift over time indicate the presence of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "precipitation"
+    },
+    {
+     "label": "B",
+     "text": "winds"
+    },
+    {
+     "label": "C",
+     "text": "magnetic pole reversals"
+    },
+    {
+     "label": "D",
+     "text": "plate tectonics"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-47"
+  },
+  {
+   "n": 49,
+   "stem": "Which planet has an orbit so eccentric that it crosses another planet’s orbit?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mars"
+    },
+    {
+     "label": "B",
+     "text": "Mercury"
+    },
+    {
+     "label": "C",
+     "text": "Jupiter"
+    },
+    {
+     "label": "D",
+     "text": "Pluto"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-48"
+  },
+  {
+   "n": 50,
+   "stem": "A geologic time sequence for Virginia shows that Chesapeake Bay formed about 0.011 million years ago, more recently than all other listed features. The most recent formation is the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Allegheny Mountains"
+    },
+    {
+     "label": "B",
+     "text": "Chesapeake Bay"
+    },
+    {
+     "label": "C",
+     "text": "James River"
+    },
+    {
+     "label": "D",
+     "text": "Taconic Highlands"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2003_SOLPass",
+   "id": "earth-science-i-49"
+  },
+  {
+   "n": 1,
+   "stem": "A major problem with depending on fossil fuels as primary energy sources is that they are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "overabundant"
+    },
+    {
+     "label": "B",
+     "text": "nonpolluting"
+    },
+    {
+     "label": "C",
+     "text": "nonrenewable"
+    },
+    {
+     "label": "D",
+     "text": "deep underground"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-50"
+  },
+  {
+   "n": 7,
+   "stem": "A volcanic eruption can affect the atmosphere by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "reducing the amount of water vapor in the atmosphere"
+    },
+    {
+     "label": "B",
+     "text": "adding large quantities of several gases, such as sulfur dioxide, to the atmosphere"
+    },
+    {
+     "label": "C",
+     "text": "clearing away nearby clouds, increasing the amount of sunshine"
+    },
+    {
+     "label": "D",
+     "text": "increasing the amount of oxygen due to escaping gases"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-51"
+  },
+  {
+   "n": 8,
+   "stem": "High tides occur when the Sun, Moon, and Earth are aligned in a straight line. Which alignment causes the greatest high tides?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Sun–Moon–Earth aligned"
+    },
+    {
+     "label": "G",
+     "text": "Sun–Earth–Moon aligned"
+    },
+    {
+     "label": "H",
+     "text": "Sun–Earth and Moon at right angles"
+    },
+    {
+     "label": "J",
+     "text": "Sun–Moon and Earth at right angles"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-52"
+  },
+  {
+   "n": 10,
+   "stem": "Each dot on a diagram marks the origin of an earthquake. The area with the highest concentration of earthquake origins marks —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a line of Earth’s magnetic field"
+    },
+    {
+     "label": "G",
+     "text": "a seam of soft rock, such as limestone"
+    },
+    {
+     "label": "H",
+     "text": "the path of a subducting tectonic plate"
+    },
+    {
+     "label": "J",
+     "text": "the location of a developing igneous intrusion"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-53"
+  },
+  {
+   "n": 11,
+   "stem": "Which of these is the best indication of the relative age of a rock layer?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The thickness of the layer"
+    },
+    {
+     "label": "B",
+     "text": "The chemical makeup of the layer"
+    },
+    {
+     "label": "C",
+     "text": "The position of the layer compared to other layers"
+    },
+    {
+     "label": "D",
+     "text": "The distance the layer extends over the Earth"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-54"
+  },
+  {
+   "n": 12,
+   "stem": "Which mineral is easily identified by smell?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Galena"
+    },
+    {
+     "label": "G",
+     "text": "Pyrite"
+    },
+    {
+     "label": "H",
+     "text": "Quartz"
+    },
+    {
+     "label": "J",
+     "text": "Sulfur"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-55"
+  },
+  {
+   "n": 14,
+   "stem": "A solid sphere is placed in 100 mL of water, raising the water level to 150 mL. The mass of the dry sphere is 70.0 g. Which value is closest to the density of the sphere?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0.5 g/mL"
+    },
+    {
+     "label": "G",
+     "text": "0.7 g/mL"
+    },
+    {
+     "label": "H",
+     "text": "1.4 g/mL"
+    },
+    {
+     "label": "J",
+     "text": "2.1 g/mL"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-56"
+  },
+  {
+   "n": 15,
+   "stem": "Scientists use the rock cycle to describe the processes by which —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "all different types of fossils were transformed into rock"
+    },
+    {
+     "label": "B",
+     "text": "one type of rock can be changed into another type of rock"
+    },
+    {
+     "label": "C",
+     "text": "tectonic plates shift around the Earth’s surface"
+    },
+    {
+     "label": "D",
+     "text": "mineral crystals and compositions are identified"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-57"
+  },
+  {
+   "n": 16,
+   "stem": "According to Mohs Hardness Scale, fluorite has a hardness of 4. Which group of minerals can scratch fluorite?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Talc, gypsum, and calcite"
+    },
+    {
+     "label": "G",
+     "text": "Calcite, quartz, and topaz"
+    },
+    {
+     "label": "H",
+     "text": "Apatite, orthoclase, and corundum"
+    },
+    {
+     "label": "J",
+     "text": "Diamond, gypsum, and quartz"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-58"
+  },
+  {
+   "n": 17,
+   "stem": "The Earth’s mantle is made of very hot material that rises, cools, sinks, reheats, and rises again. This cycle causes movement of Earth’s crust and is known as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "convection currents"
+    },
+    {
+     "label": "B",
+     "text": "magnetic fields"
+    },
+    {
+     "label": "C",
+     "text": "hot spots"
+    },
+    {
+     "label": "D",
+     "text": "advection forces"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-59"
+  },
+  {
+   "n": 18,
+   "stem": "Which layer of the Sun is seen during a total solar eclipse?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Chromosphere"
+    },
+    {
+     "label": "G",
+     "text": "Photosphere"
+    },
+    {
+     "label": "H",
+     "text": "Core"
+    },
+    {
+     "label": "J",
+     "text": "Corona"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-60"
+  },
+  {
+   "n": 19,
+   "stem": "Barrier islands protect inland shores from surf but are not permanent because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "people remove sand during construction"
+    },
+    {
+     "label": "B",
+     "text": "earthquakes cause them to sink"
+    },
+    {
+     "label": "C",
+     "text": "wind and waves constantly redistribute sand"
+    },
+    {
+     "label": "D",
+     "text": "companies mine the sand for construction"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-61"
+  },
+  {
+   "n": 20,
+   "stem": "A groundwater diagram shows zones of aeration and saturation above an impermeable layer. A well that reaches deeply into the zone of saturation provides the most consistent water supply. Which well is most consistent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Well 1"
+    },
+    {
+     "label": "G",
+     "text": "Well 2"
+    },
+    {
+     "label": "H",
+     "text": "Well 3"
+    },
+    {
+     "label": "J",
+     "text": "Well 4"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-62"
+  },
+  {
+   "n": 21,
+   "stem": "A diagram shows rock layers displaced along a fracture where movement has occurred. This diagram illustrates —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "faulting"
+    },
+    {
+     "label": "B",
+     "text": "folding"
+    },
+    {
+     "label": "C",
+     "text": "weathering"
+    },
+    {
+     "label": "D",
+     "text": "metamorphism"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-63"
+  },
+  {
+   "n": 22,
+   "stem": "In which type of rock are fossils most likely to be found?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Igneous intrusive"
+    },
+    {
+     "label": "G",
+     "text": "Igneous extrusive"
+    },
+    {
+     "label": "H",
+     "text": "Sedimentary"
+    },
+    {
+     "label": "J",
+     "text": "Metamorphic"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-64"
+  },
+  {
+   "n": 23,
+   "stem": "A soil profile has four layers. Layer 1 is the topsoil, rich in organic material; layer 2 is subsoil; layer 3 is weathered rock; layer 4 is bedrock. Which layer has the most humus?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-65"
+  },
+  {
+   "n": 24,
+   "stem": "The Pacific Ocean has an area of about 165 million square kilometers and an average depth of 4.3 km. The Atlantic Ocean has an area of about 82 million square kilometers and an average depth of 3.9 km. Approximately how many times greater is the volume of water in the Pacific Ocean than in the Atlantic Ocean?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2 times"
+    },
+    {
+     "label": "G",
+     "text": "20 times"
+    },
+    {
+     "label": "H",
+     "text": "2,000 times"
+    },
+    {
+     "label": "J",
+     "text": "2,000,000 times"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-66"
+  },
+  {
+   "n": 25,
+   "stem": "A diagram shows an ice shelf extending from a grounded ice sheet into the ocean. Why is the ice shelf floating?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The ice is melting faster than it can sink"
+    },
+    {
+     "label": "B",
+     "text": "The ice is less dense than ocean water"
+    },
+    {
+     "label": "C",
+     "text": "The ice is warmer than ocean water"
+    },
+    {
+     "label": "D",
+     "text": "Ocean vegetation supports the ice"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-67"
+  },
+  {
+   "n": 26,
+   "stem": "Which planet has the shortest day (rotation period)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Mercury"
+    },
+    {
+     "label": "G",
+     "text": "Venus"
+    },
+    {
+     "label": "H",
+     "text": "Jupiter"
+    },
+    {
+     "label": "J",
+     "text": "Saturn"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-68"
+  },
+  {
+   "n": 27,
+   "stem": "A simplified map of Virginia is divided into four numbered regions. Region 3 represents the Piedmont. Which region is classified as the Piedmont?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-69"
+  },
+  {
+   "n": 28,
+   "stem": "Which of the following natural resources makes the largest contribution to Virginia’s economy?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Plutonium"
+    },
+    {
+     "label": "G",
+     "text": "Aluminum"
+    },
+    {
+     "label": "H",
+     "text": "Coal"
+    },
+    {
+     "label": "J",
+     "text": "Feldspar"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-70"
+  },
+  {
+   "n": 29,
+   "stem": "A student visits an area near a volcano that recently erupted. The student is most likely to find samples of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "clastic sedimentary rock"
+    },
+    {
+     "label": "B",
+     "text": "nonfoliated metamorphic rock"
+    },
+    {
+     "label": "C",
+     "text": "chemically formed sedimentary rock"
+    },
+    {
+     "label": "D",
+     "text": "extrusive igneous rock"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-71"
+  },
+  {
+   "n": 30,
+   "stem": "An infrared satellite image of Earth shows dark shaded areas. These dark areas represent —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "the Moon’s shadow"
+    },
+    {
+     "label": "G",
+     "text": "thick cloud cover"
+    },
+    {
+     "label": "H",
+     "text": "nighttime"
+    },
+    {
+     "label": "J",
+     "text": "ocean currents"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-72"
+  },
+  {
+   "n": 32,
+   "stem": "Gas and dust in interstellar nebulae can form —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "stars"
+    },
+    {
+     "label": "G",
+     "text": "comets"
+    },
+    {
+     "label": "H",
+     "text": "meteors"
+    },
+    {
+     "label": "J",
+     "text": "asteroids"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-73"
+  },
+  {
+   "n": 33,
+   "stem": "Which of the following best describes Earth’s orbital position in our solar system?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Outside of three smaller planets"
+    },
+    {
+     "label": "B",
+     "text": "Outside of the gas giants"
+    },
+    {
+     "label": "C",
+     "text": "An outer planet"
+    },
+    {
+     "label": "D",
+     "text": "An inner planet"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-74"
+  },
+  {
+   "n": 34,
+   "stem": "A map shows exposed bedrock ages across Virginia. Harrisonburg and Bristol are located on bedrock of the same age. Which city matches Bristol’s bedrock age?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Deel"
+    },
+    {
+     "label": "G",
+     "text": "Harrisonburg"
+    },
+    {
+     "label": "H",
+     "text": "Charlottesville"
+    },
+    {
+     "label": "J",
+     "text": "Norfolk"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-75"
+  },
+  {
+   "n": 35,
+   "stem": "A mountain composed of deformed sedimentary layers is near a tectonic plate boundary and still increasing in elevation. This is caused by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "colliding tectonic plates"
+    },
+    {
+     "label": "B",
+     "text": "seafloor spreading"
+    },
+    {
+     "label": "C",
+     "text": "subduction"
+    },
+    {
+     "label": "D",
+     "text": "transform faulting"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-76"
+  },
+  {
+   "n": 36,
+   "stem": "Release of CFCs is a possible cause of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "destruction of ozone in the upper atmosphere"
+    },
+    {
+     "label": "G",
+     "text": "acid rain"
+    },
+    {
+     "label": "H",
+     "text": "greenhouse gas buildup"
+    },
+    {
+     "label": "J",
+     "text": "increased atmospheric carbon dioxide"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-77"
+  },
+  {
+   "n": 37,
+   "stem": "Early observations showed galaxy velocity increasing with distance. What approximate ratio of velocity to distance was calculated?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "150 km/s per million light-years"
+    },
+    {
+     "label": "B",
+     "text": "300 km/s per million light-years"
+    },
+    {
+     "label": "C",
+     "text": "450 km/s per million light-years"
+    },
+    {
+     "label": "D",
+     "text": "600 km/s per million light-years"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-78"
+  },
+  {
+   "n": 38,
+   "stem": "Venus appears brighter at point Q than at point R because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Venus is closer to Earth at Q"
+    },
+    {
+     "label": "G",
+     "text": "more of the illuminated side is visible at Q"
+    },
+    {
+     "label": "H",
+     "text": "Venus is overhead against a dark sky at Q"
+    },
+    {
+     "label": "J",
+     "text": "gravity affects the light less at Q"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-79"
+  },
+  {
+   "n": 39,
+   "stem": "Wind power is not typically used to supply all electricity for large cities because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the energy source is inconsistent"
+    },
+    {
+     "label": "B",
+     "text": "waste products are unsafe"
+    },
+    {
+     "label": "C",
+     "text": "fuel expenses are too great"
+    },
+    {
+     "label": "D",
+     "text": "energy produced is not usable"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-80"
+  },
+  {
+   "n": 40,
+   "stem": "A diagram shows weathering, erosion, and deposition transporting sediments to the ocean. Which kind of rock forms from these processes?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Basaltic"
+    },
+    {
+     "label": "G",
+     "text": "Sedimentary"
+    },
+    {
+     "label": "H",
+     "text": "Igneous"
+    },
+    {
+     "label": "J",
+     "text": "Metamorphic"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-81"
+  },
+  {
+   "n": 41,
+   "stem": "In cloud seeding, silver iodide particles act as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "hailstones"
+    },
+    {
+     "label": "B",
+     "text": "dew points"
+    },
+    {
+     "label": "C",
+     "text": "electrical charges"
+    },
+    {
+     "label": "D",
+     "text": "condensation nuclei"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-82"
+  },
+  {
+   "n": 42,
+   "stem": "A forest fire travels at 1 km per hour. The ranger station is 0.5 km away along the fire’s path. About how long will it be before the fire reaches the station?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "30 minutes"
+    },
+    {
+     "label": "G",
+     "text": "1 hour"
+    },
+    {
+     "label": "H",
+     "text": "2 hours"
+    },
+    {
+     "label": "J",
+     "text": "5 hours"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-83"
+  },
+  {
+   "n": 43,
+   "stem": "Which situation is most likely to result in fossil formation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A clam exposed on the seafloor"
+    },
+    {
+     "label": "B",
+     "text": "A clam washed onto a beach"
+    },
+    {
+     "label": "C",
+     "text": "A clam eaten by a fish"
+    },
+    {
+     "label": "D",
+     "text": "A clam buried by a mudslide"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-84"
+  },
+  {
+   "n": 44,
+   "stem": "A chart shows energy sources: oil 35%, coal 27%, gas 17%, solar/wind/hydroelectric 18%, nuclear 3%. Which conclusion can be made?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Coal is the main energy source"
+    },
+    {
+     "label": "G",
+     "text": "Nuclear power use is increasing"
+    },
+    {
+     "label": "H",
+     "text": "Fossil fuels make up over three-quarters of energy consumption"
+    },
+    {
+     "label": "J",
+     "text": "Renewable sources are predominant"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-85"
+  },
+  {
+   "n": 45,
+   "stem": "What is the greatest environmental cost of hydroelectric power?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Increased flooding downstream"
+    },
+    {
+     "label": "B",
+     "text": "Fish kills from turbines"
+    },
+    {
+     "label": "C",
+     "text": "Decreased species diversity in the reservoir"
+    },
+    {
+     "label": "D",
+     "text": "Destruction of free-running rivers and ecosystems"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-86"
+  },
+  {
+   "n": 46,
+   "stem": "Which mineral property cannot be used to identify a mineral?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Luster"
+    },
+    {
+     "label": "G",
+     "text": "Hardness"
+    },
+    {
+     "label": "H",
+     "text": "Mass"
+    },
+    {
+     "label": "J",
+     "text": "Streak"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-87"
+  },
+  {
+   "n": 47,
+   "stem": "A river valley develops through stages: narrow V-shaped valley → widening valley → broad floodplain. Which stage is the first?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Narrow, steep-sided valley"
+    },
+    {
+     "label": "B",
+     "text": "Moderately widened valley"
+    },
+    {
+     "label": "C",
+     "text": "Broad floodplain"
+    },
+    {
+     "label": "D",
+     "text": "Meandering river"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-88"
+  },
+  {
+   "n": 48,
+   "stem": "A simplified map of Virginia river basins shows the James River basin covering the largest area. The largest river basin is drained by the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Potomac–Shenandoah Rivers"
+    },
+    {
+     "label": "G",
+     "text": "York River"
+    },
+    {
+     "label": "H",
+     "text": "James River"
+    },
+    {
+     "label": "J",
+     "text": "Roanoke River"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-89"
+  },
+  {
+   "n": 49,
+   "stem": "Ozone molecules protect Earth by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "insulating polar temperatures"
+    },
+    {
+     "label": "B",
+     "text": "condensing cloud water"
+    },
+    {
+     "label": "C",
+     "text": "regulating solar heat"
+    },
+    {
+     "label": "D",
+     "text": "absorbing ultraviolet radiation"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-90"
+  },
+  {
+   "n": 50,
+   "stem": "Our galaxy is best described as —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a spiral galaxy"
+    },
+    {
+     "label": "G",
+     "text": "an elliptical galaxy"
+    },
+    {
+     "label": "H",
+     "text": "an irregular galaxy"
+    },
+    {
+     "label": "J",
+     "text": "a globular cluster"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2005_SOLPass",
+   "id": "earth-science-i-91"
+  },
+  {
+   "n": 1,
+   "stem": "A student found an irregularly shaped rock and weighed it to determine its mass. What steps should the student take to find its density?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Determine its volume by how much water it displaces, then divide mass by volume."
+    },
+    {
+     "label": "B",
+     "text": "Determine its volume by multiplying length × width × height, then divide mass by volume."
+    },
+    {
+     "label": "C",
+     "text": "Crush the rock to a powder and measure its volume in a graduated cylinder, then divide mass by volume."
+    },
+    {
+     "label": "D",
+     "text": "Determine its volume using the formula for the volume of a sphere (V = 4/3πr³), then divide mass by volume."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-92"
+  },
+  {
+   "n": 2,
+   "stem": "The placement of Jupiter’s four largest moons (Io, Europa, Ganymede, and Callisto) was recorded for February 1–9, 1996. On February 7, when viewed through a telescope, the moons appeared in the following order from left to right: Ganymede, Io, Europa, Callisto, with Jupiter centered below them. Which diagram best represents this alignment as seen from Earth?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Ganymede – Io – Europa – Callisto, with Jupiter below"
+    },
+    {
+     "label": "G",
+     "text": "Ganymede – Europa – Io – Callisto, with Jupiter below"
+    },
+    {
+     "label": "H",
+     "text": "Io – Europa – Ganymede – Callisto, with Jupiter below"
+    },
+    {
+     "label": "J",
+     "text": "Europa – Io – Ganymede – Callisto, with Jupiter below"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-93"
+  },
+  {
+   "n": 3,
+   "stem": "The most common elements in Earth’s crust by percentage by weight are: Oxygen: 46.6% Silicon: 27.7% Aluminum: 8.1% Iron: 5.0% Calcium: 3.6% Sodium: 2.8% Potassium: 2.6% Magnesium: 2.1% All others: 1.5% Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Iron is the most common metal in Earth’s crust."
+    },
+    {
+     "label": "B",
+     "text": "All light elements are metals."
+    },
+    {
+     "label": "C",
+     "text": "The two most common elements comprise nearly 75% of the crust."
+    },
+    {
+     "label": "D",
+     "text": "Oxygen and silicon are found in equal amounts."
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-94"
+  },
+  {
+   "n": 4,
+   "stem": "A graph shows radioactive decay where the vertical axis is “Percent of Parent Element Remaining” and the horizontal axis is “Number of Half-lives Elapsed.” What percent of the parent element remains after three half-lives have elapsed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "50.0%"
+    },
+    {
+     "label": "B",
+     "text": "25.0%"
+    },
+    {
+     "label": "C",
+     "text": "12.5%"
+    },
+    {
+     "label": "D",
+     "text": "6.25%"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-95"
+  },
+  {
+   "n": 5,
+   "stem": "The Modified Mercalli Intensity Scale describes earthquake intensity. Which intensity level describes severe shaking with considerable damage, including cracked ground and partially collapsed buildings?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "V"
+    },
+    {
+     "label": "G",
+     "text": "VII"
+    },
+    {
+     "label": "H",
+     "text": "IX"
+    },
+    {
+     "label": "J",
+     "text": "XI"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-96"
+  },
+  {
+   "n": 6,
+   "stem": "Students want to compare the relative ability of four materials to absorb heat: light-colored sand, black sand, clear water, and black-dyed water. They heat the substances and measure temperature every 10 minutes. Which experimental design would best suit their purpose?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Use different heat sources for each material."
+    },
+    {
+     "label": "B",
+     "text": "Keep all variables the same except the type of material."
+    },
+    {
+     "label": "C",
+     "text": "Measure temperature only once after heating."
+    },
+    {
+     "label": "D",
+     "text": "Use different container sizes for each substance."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-97"
+  },
+  {
+   "n": 7,
+   "stem": "A star chart shows the Sun located in the constellation Gemini in mid-June. Which constellation would not be visible at that time because it is too close to the Sun in the sky?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Virgo"
+    },
+    {
+     "label": "B",
+     "text": "Orion"
+    },
+    {
+     "label": "C",
+     "text": "Ursa Major"
+    },
+    {
+     "label": "D",
+     "text": "Aquarius"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-98"
+  },
+  {
+   "n": 8,
+   "stem": "A topographic map has contour lines at 50-meter intervals. Area C has the contour lines closest together compared to areas A, B, and D. Which area has the steepest slope?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A"
+    },
+    {
+     "label": "G",
+     "text": "B"
+    },
+    {
+     "label": "H",
+     "text": "C"
+    },
+    {
+     "label": "J",
+     "text": "D"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-99"
+  },
+  {
+   "n": 9,
+   "stem": "Each mineral has a unique crystal shape because of the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "arrangement of its atoms"
+    },
+    {
+     "label": "B",
+     "text": "hardness being between 1 and 10"
+    },
+    {
+     "label": "C",
+     "text": "streak being constant"
+    },
+    {
+     "label": "D",
+     "text": "variations in its color"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-100"
+  },
+  {
+   "n": 10,
+   "stem": "Glass is chemically related to what mineral?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Fluorite"
+    },
+    {
+     "label": "G",
+     "text": "Quartz"
+    },
+    {
+     "label": "H",
+     "text": "Pyrite"
+    },
+    {
+     "label": "J",
+     "text": "Halite"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-101"
+  },
+  {
+   "n": 11,
+   "stem": "Some extrusive igneous rocks, such as obsidian, are glassy because they —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "cool rapidly"
+    },
+    {
+     "label": "B",
+     "text": "have low melting points"
+    },
+    {
+     "label": "C",
+     "text": "contain water"
+    },
+    {
+     "label": "D",
+     "text": "are made of only one mineral"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-102"
+  },
+  {
+   "n": 12,
+   "stem": "A coarse-grained igneous rock contains a dark-colored mineral. This mineral is most likely —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "magnetite"
+    },
+    {
+     "label": "G",
+     "text": "kaolin"
+    },
+    {
+     "label": "H",
+     "text": "feldspar"
+    },
+    {
+     "label": "J",
+     "text": "quartz"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-103"
+  },
+  {
+   "n": 13,
+   "stem": "The rock cycle includes weathering, erosion, deposition, compaction, cementation, heat, pressure, melting, and cooling. At which point in the cycle does sediment form?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A"
+    },
+    {
+     "label": "G",
+     "text": "B"
+    },
+    {
+     "label": "H",
+     "text": "C"
+    },
+    {
+     "label": "J",
+     "text": "D"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-104"
+  },
+  {
+   "n": 14,
+   "stem": "Sometimes metamorphic rock is found next to an igneous intrusion. What causes this?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The metamorphic rock floated on magma."
+    },
+    {
+     "label": "B",
+     "text": "Surrounding rock was changed by contact with hot magma."
+    },
+    {
+     "label": "C",
+     "text": "Vapor from magma condensed into rock."
+    },
+    {
+     "label": "D",
+     "text": "Magma replaced existing metamorphic rock."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-105"
+  },
+  {
+   "n": 15,
+   "stem": "Some towns limit wood-burning stoves. What is the greatest environmental problem caused by their use?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Rare metals are required to manufacture stoves."
+    },
+    {
+     "label": "G",
+     "text": "Thermal pollution from heat."
+    },
+    {
+     "label": "H",
+     "text": "Air pollution from smoke."
+    },
+    {
+     "label": "J",
+     "text": "Wood is a fossil fuel."
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-106"
+  },
+  {
+   "n": 16,
+   "stem": "Which are major mineral resources of Virginia?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Diamonds, sapphires, rubies"
+    },
+    {
+     "label": "B",
+     "text": "Coal, granite, limestone"
+    },
+    {
+     "label": "C",
+     "text": "Sulfur, fluorite, cobalt"
+    },
+    {
+     "label": "D",
+     "text": "Gold, silver, copper"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-107"
+  },
+  {
+   "n": 17,
+   "stem": "Peat buried and compressed for long periods forms which type of coal?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Anthracite"
+    },
+    {
+     "label": "G",
+     "text": "Bituminous"
+    },
+    {
+     "label": "H",
+     "text": "Subbituminous"
+    },
+    {
+     "label": "J",
+     "text": "Lignite"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-108"
+  },
+  {
+   "n": 18,
+   "stem": "From the Piedmont province to the Coastal Plain, rivers drop sharply in elevation. This drop is known as the Fall Line. Which feature is commonly found there?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Waterfalls and rapids"
+    },
+    {
+     "label": "G",
+     "text": "Sudden increases in water volume"
+    },
+    {
+     "label": "H",
+     "text": "Higher water temperatures"
+    },
+    {
+     "label": "J",
+     "text": "Slow currents and shallow beds"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-109"
+  },
+  {
+   "n": 19,
+   "stem": "In which physiographic province would clay, sand, and gravel deposits most likely be found?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Appalachian Plateau"
+    },
+    {
+     "label": "B",
+     "text": "Valley and Ridge"
+    },
+    {
+     "label": "C",
+     "text": "Blue Ridge"
+    },
+    {
+     "label": "D",
+     "text": "Coastal Plain"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-110"
+  },
+  {
+   "n": 20,
+   "stem": "A riverbank shows layered sediments of different particle sizes. These differences are most likely caused by differences in the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "speed of the water carrying sediments"
+    },
+    {
+     "label": "B",
+     "text": "plants along the riverbank"
+    },
+    {
+     "label": "C",
+     "text": "animals digging in the sediments"
+    },
+    {
+     "label": "D",
+     "text": "thickness of winter ice"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-111"
+  },
+  {
+   "n": 21,
+   "stem": "A delta forms where a river enters a larger body of water. From youngest to oldest, which sequence best describes delta formation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A–C–B–D"
+    },
+    {
+     "label": "G",
+     "text": "C–A–D–B"
+    },
+    {
+     "label": "H",
+     "text": "C–A–B–D"
+    },
+    {
+     "label": "J",
+     "text": "B–D–A–C"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-112"
+  },
+  {
+   "n": 22,
+   "stem": "Which can result when underground water is heated by hot igneous rock?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Metamorphism"
+    },
+    {
+     "label": "G",
+     "text": "Geysers"
+    },
+    {
+     "label": "H",
+     "text": "Salt domes"
+    },
+    {
+     "label": "J",
+     "text": "Karst topography"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-113"
+  },
+  {
+   "n": 23,
+   "stem": "Which geologic event occurred first?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Formation of Pangaea"
+    },
+    {
+     "label": "B",
+     "text": "Separation of South America and Africa"
+    },
+    {
+     "label": "C",
+     "text": "Formation of Iceland"
+    },
+    {
+     "label": "D",
+     "text": "Collision of India with Asia"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-114"
+  },
+  {
+   "n": 24,
+   "stem": "Primary (P) waves are recorded before secondary (S) waves because P waves —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "travel a shorter route"
+    },
+    {
+     "label": "G",
+     "text": "travel faster"
+    },
+    {
+     "label": "H",
+     "text": "are smaller"
+    },
+    {
+     "label": "J",
+     "text": "do not travel through water"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-115"
+  },
+  {
+   "n": 25,
+   "stem": "Why do some soils have high porosity but low permeability?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Large pores hold water but do not connect."
+    },
+    {
+     "label": "B",
+     "text": "Sandy soils dry quickly."
+    },
+    {
+     "label": "C",
+     "text": "Many pores are too small for water to pass through."
+    },
+    {
+     "label": "D",
+     "text": "Magnetic fields block water flow."
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-116"
+  },
+  {
+   "n": 26,
+   "stem": "Carbon dioxide dissolved in groundwater helps dissolve limestone because it —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "supports plant life"
+    },
+    {
+     "label": "G",
+     "text": "raises freezing point"
+    },
+    {
+     "label": "H",
+     "text": "forms an acid that reacts with limestone"
+    },
+    {
+     "label": "J",
+     "text": "reduces viscosity"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-117"
+  },
+  {
+   "n": 27,
+   "stem": "Scientists drilled core samples from the ocean floor. In core sample two, which layer is the youngest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Clay"
+    },
+    {
+     "label": "B",
+     "text": "Basalt"
+    },
+    {
+     "label": "C",
+     "text": "Limestone"
+    },
+    {
+     "label": "D",
+     "text": "Siltstone"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-118"
+  },
+  {
+   "n": 28,
+   "stem": "Which aspect of a rock formation occurred earliest?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Top sedimentary layer"
+    },
+    {
+     "label": "G",
+     "text": "Igneous intrusion"
+    },
+    {
+     "label": "H",
+     "text": "Faulting"
+    },
+    {
+     "label": "J",
+     "text": "Folding of layers"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-119"
+  },
+  {
+   "n": 29,
+   "stem": "Which sequence shows igneous intrusions from earliest to most recent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "X, Y, Z"
+    },
+    {
+     "label": "G",
+     "text": "X, Z, Y"
+    },
+    {
+     "label": "H",
+     "text": "Y, X, Z"
+    },
+    {
+     "label": "J",
+     "text": "Z, Y, X"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-120"
+  },
+  {
+   "n": 30,
+   "stem": "Which land cover absorbs the most rainwater?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Grassland"
+    },
+    {
+     "label": "B",
+     "text": "Cropland"
+    },
+    {
+     "label": "C",
+     "text": "Bare clay soils"
+    },
+    {
+     "label": "D",
+     "text": "Asphalt streets"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-121"
+  },
+  {
+   "n": 31,
+   "stem": "The surface of the sea is not level mainly due to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "currents"
+    },
+    {
+     "label": "G",
+     "text": "tides"
+    },
+    {
+     "label": "H",
+     "text": "salinity differences"
+    },
+    {
+     "label": "J",
+     "text": "winds"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-122"
+  },
+  {
+   "n": 32,
+   "stem": "Which body of water has the greatest salinity?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Arctic Ocean"
+    },
+    {
+     "label": "G",
+     "text": "Atlantic Ocean"
+    },
+    {
+     "label": "H",
+     "text": "Mediterranean Sea"
+    },
+    {
+     "label": "J",
+     "text": "Pacific Ocean"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-123"
+  },
+  {
+   "n": 33,
+   "stem": "One characteristic of saltwater is that it has —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "higher dissolved oxygen than freshwater"
+    },
+    {
+     "label": "B",
+     "text": "a lower freezing point than freshwater"
+    },
+    {
+     "label": "C",
+     "text": "decreased buoyancy"
+    },
+    {
+     "label": "D",
+     "text": "easily extracted elements"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-124"
+  },
+  {
+   "n": 34,
+   "stem": "Which factor did not contribute to the decline of whales, dolphins, and porpoises?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Whaling"
+    },
+    {
+     "label": "B",
+     "text": "Fishing nets"
+    },
+    {
+     "label": "C",
+     "text": "Ocean pollution"
+    },
+    {
+     "label": "D",
+     "text": "Greenhouse effect"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-125"
+  },
+  {
+   "n": 35,
+   "stem": "London and Irkutsk are at similar latitudes, but London has a milder climate because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a large lake cools Irkutsk"
+    },
+    {
+     "label": "G",
+     "text": "Irkutsk has fewer trees"
+    },
+    {
+     "label": "H",
+     "text": "mountains block winds near London"
+    },
+    {
+     "label": "J",
+     "text": "warm ocean currents affect London"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-126"
+  },
+  {
+   "n": 36,
+   "stem": "As continents drifted from 180 million years ago to today, which major change occurred?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Increase in landmass size"
+    },
+    {
+     "label": "B",
+     "text": "Decrease in transform faults"
+    },
+    {
+     "label": "C",
+     "text": "Increase in number of trenches"
+    },
+    {
+     "label": "D",
+     "text": "Decrease in mid-ocean ridges"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-127"
+  },
+  {
+   "n": 37,
+   "stem": "Which human activity should be regulated because it lowers dissolved oxygen and makes it harder for marine life to breathe?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Releasing heated wastewater into the ocean"
+    },
+    {
+     "label": "G",
+     "text": "Motorboat traffic"
+    },
+    {
+     "label": "H",
+     "text": "Growing seaweed"
+    },
+    {
+     "label": "J",
+     "text": "Scuba diving"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-128"
+  },
+  {
+   "n": 38,
+   "stem": "A core sample alternates between glacial till and peat/soil layers. How many advances of ice are shown?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Two"
+    },
+    {
+     "label": "B",
+     "text": "Three"
+    },
+    {
+     "label": "C",
+     "text": "Five"
+    },
+    {
+     "label": "D",
+     "text": "Eight"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-129"
+  },
+  {
+   "n": 39,
+   "stem": "Diagrams show atmospheric composition changing as life evolved. Which is the correct order from earliest to most recent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2, 3, 1, 4"
+    },
+    {
+     "label": "G",
+     "text": "2, 3, 4, 1"
+    },
+    {
+     "label": "H",
+     "text": "3, 4, 2, 1"
+    },
+    {
+     "label": "J",
+     "text": "3, 2, 4, 1"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-130"
+  },
+  {
+   "n": 40,
+   "stem": "Earth’s axis is tilted 23.5°. When the Southern Hemisphere is tilted toward the Sun, the most direct sunlight is near the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Arctic Circle"
+    },
+    {
+     "label": "B",
+     "text": "Tropic of Cancer"
+    },
+    {
+     "label": "C",
+     "text": "Equator"
+    },
+    {
+     "label": "D",
+     "text": "Tropic of Capricorn"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-131"
+  },
+  {
+   "n": 41,
+   "stem": "If material from Saturn would float in water while Earth’s material would sink, which statement is true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Saturn is smaller than Earth."
+    },
+    {
+     "label": "G",
+     "text": "Saturn has a lower density than Earth."
+    },
+    {
+     "label": "H",
+     "text": "Saturn is farther from the Sun."
+    },
+    {
+     "label": "J",
+     "text": "Saturn has a higher density than Earth."
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-132"
+  },
+  {
+   "n": 42,
+   "stem": "Uranus’s axis lies nearly in the plane of its orbit. If one pole points toward the Sun, a point near that pole will —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "remain in darkness for one rotation"
+    },
+    {
+     "label": "G",
+     "text": "remain in daylight for one rotation"
+    },
+    {
+     "label": "H",
+     "text": "remain in twilight"
+    },
+    {
+     "label": "J",
+     "text": "alternate day and night evenly"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-133"
+  },
+  {
+   "n": 43,
+   "stem": "The Moon rotates once on its axis for each revolution around Earth. This causes —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "very high tides"
+    },
+    {
+     "label": "B",
+     "text": "moon phases"
+    },
+    {
+     "label": "C",
+     "text": "partial eclipses"
+    },
+    {
+     "label": "D",
+     "text": "one side to always face Earth"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-134"
+  },
+  {
+   "n": 44,
+   "stem": "Which star has completed its life cycle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Black dwarf"
+    },
+    {
+     "label": "B",
+     "text": "Supergiant"
+    },
+    {
+     "label": "C",
+     "text": "Main-sequence star"
+    },
+    {
+     "label": "D",
+     "text": "Red giant"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-135"
+  },
+  {
+   "n": 45,
+   "stem": "What powers stars?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Combustion"
+    },
+    {
+     "label": "G",
+     "text": "Fission"
+    },
+    {
+     "label": "H",
+     "text": "Fusion"
+    },
+    {
+     "label": "J",
+     "text": "Radioactivity"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-136"
+  },
+  {
+   "n": 46,
+   "stem": "How are stars distributed in space?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Evenly throughout space"
+    },
+    {
+     "label": "B",
+     "text": "In evenly spaced clumps"
+    },
+    {
+     "label": "C",
+     "text": "In evenly distributed clumps"
+    },
+    {
+     "label": "D",
+     "text": "In unevenly distributed clumps"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-137"
+  },
+  {
+   "n": 47,
+   "stem": "Over many years, a pair of stars appears to move in curved paths around each other. This observation suggests that they —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "have an occasionally visible companion"
+    },
+    {
+     "label": "G",
+     "text": "are moving to the right"
+    },
+    {
+     "label": "H",
+     "text": "revolve around each other"
+    },
+    {
+     "label": "J",
+     "text": "vary in brightness alternately"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2000_SOLPass",
+   "id": "earth-science-i-138"
+  },
+  {
+   "n": 1,
+   "stem": "Which of these instruments can be used to measure atmospheric pressure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "An anemometer"
+    },
+    {
+     "label": "B",
+     "text": "A barometer"
+    },
+    {
+     "label": "C",
+     "text": "A thermometer"
+    },
+    {
+     "label": "D",
+     "text": "A seismometer"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-139"
+  },
+  {
+   "n": 2,
+   "stem": "The highest and lowest tides are known as spring tides. When do these tides occur?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "During the new moon and full moon phases"
+    },
+    {
+     "label": "B",
+     "text": "Between the half moon and full moon phases"
+    },
+    {
+     "label": "C",
+     "text": "During the new moon and crescent moon phases"
+    },
+    {
+     "label": "D",
+     "text": "Between the full moon and crescent moon phases"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-140"
+  },
+  {
+   "n": 4,
+   "stem": "The Moon has a stronger influence on Earth’s tides than the Sun because the Moon —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "is denser than the Sun"
+    },
+    {
+     "label": "B",
+     "text": "has more mass than the Sun"
+    },
+    {
+     "label": "C",
+     "text": "is much closer to Earth"
+    },
+    {
+     "label": "D",
+     "text": "moves much faster relative to Earth"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-141"
+  },
+  {
+   "n": 5,
+   "stem": "Remains of ancient life are most often preserved through which process?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Freezing"
+    },
+    {
+     "label": "B",
+     "text": "Burial in sediment"
+    },
+    {
+     "label": "C",
+     "text": "Entrapment in tar"
+    },
+    {
+     "label": "D",
+     "text": "Drying out"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-142"
+  },
+  {
+   "n": 6,
+   "stem": "Environmental effects of the impact of a meteorite 66.4 million years ago may have led to the extinction of many species on Earth. Which evidence best supports this theory?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The Cenozoic Era began 66.4 million years ago when the Mesozoic Era ended."
+    },
+    {
+     "label": "B",
+     "text": "Iridium found in meteorites is also present in rock layers that are 66.4 million years old."
+    },
+    {
+     "label": "C",
+     "text": "Many other meteorite impact sites have been identified on Earth."
+    },
+    {
+     "label": "D",
+     "text": "Many asteroids are found between Mars and Jupiter."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-143"
+  },
+  {
+   "n": 9,
+   "stem": "A student hypothesizes that water from infrequently used school faucets contains more chemical impurities than water from frequently used faucets. At the same time of day, the student measures impurities using a water test kit. Which is the manipulated variable in this investigation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The chemicals used to test the water"
+    },
+    {
+     "label": "B",
+     "text": "The amount of water per sample"
+    },
+    {
+     "label": "C",
+     "text": "The time of day when water is collected"
+    },
+    {
+     "label": "D",
+     "text": "The locations of water collection"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-144"
+  },
+  {
+   "n": 10,
+   "stem": "Which coordinates identify a location north of a city that has a latitude of 38.0°N and a longitude of 25.0°W?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.0° and 0.0°"
+    },
+    {
+     "label": "B",
+     "text": "25.0°N and 38.0°W"
+    },
+    {
+     "label": "C",
+     "text": "38.0°N and 47.0°W"
+    },
+    {
+     "label": "D",
+     "text": "47.0°N and 25.0°W"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-145"
+  },
+  {
+   "n": 11,
+   "stem": "A graph titled Relationship Between Air Pressure and Altitude shows altitude on the x-axis (in meters, from 0 to 15,000 m) and air pressure on the y-axis (in kilopascals, from 0 to 120 kPa). The graph shows that air pressure decreases steadily as altitude increases. At approximately 6,000–7,500 meters, air pressure is closest to 40 kPa. At which range of altitude is air pressure closest to 40 kPa?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Between 4.5 km and 6.0 km"
+    },
+    {
+     "label": "B",
+     "text": "Between 6.0 km and 7.5 km"
+    },
+    {
+     "label": "C",
+     "text": "Between 7.5 km and 9.0 km"
+    },
+    {
+     "label": "D",
+     "text": "Between 9.0 km and 10.5 km"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-146"
+  },
+  {
+   "n": 12,
+   "stem": "Which was the first object made by humans to orbit Earth?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Voyager"
+    },
+    {
+     "label": "B",
+     "text": "Sputnik"
+    },
+    {
+     "label": "C",
+     "text": "Mercury"
+    },
+    {
+     "label": "D",
+     "text": "Apollo"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-147"
+  },
+  {
+   "n": 13,
+   "stem": "Under which condition would a lowering of the water table most likely occur?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Extended drought over the recharge zone"
+    },
+    {
+     "label": "B",
+     "text": "Decreased runoff due to the planting of grass"
+    },
+    {
+     "label": "C",
+     "text": "Icecaps expand and cause lower sea levels"
+    },
+    {
+     "label": "D",
+     "text": "Slow evaporation of heavy rainfall"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-148"
+  },
+  {
+   "n": 15,
+   "stem": "Spacecraft traveling from Earth to Jupiter would most likely have to navigate through or around which natural obstacle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Uranus"
+    },
+    {
+     "label": "B",
+     "text": "Neptune"
+    },
+    {
+     "label": "C",
+     "text": "Asteroid belt"
+    },
+    {
+     "label": "D",
+     "text": "A comet’s tail"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-149"
+  },
+  {
+   "n": 16,
+   "stem": "A geologist studying volcanic activity collects rocks formed from hot, molten magma. What type of rock is being collected?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Clastic sedimentary"
+    },
+    {
+     "label": "B",
+     "text": "Metamorphic"
+    },
+    {
+     "label": "C",
+     "text": "Chemical sedimentary"
+    },
+    {
+     "label": "D",
+     "text": "Igneous"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-150"
+  },
+  {
+   "n": 17,
+   "stem": "Which substance is a mixture of organic matter and weathered rock?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Limestone"
+    },
+    {
+     "label": "B",
+     "text": "Schist"
+    },
+    {
+     "label": "C",
+     "text": "Soil"
+    },
+    {
+     "label": "D",
+     "text": "Granite"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-151"
+  },
+  {
+   "n": 18,
+   "stem": "A map of major surface ocean currents shows circular movement patterns in the Atlantic and Pacific Oceans driven by temperature and density differences in seawater. Which natural process is the main cause of these ocean currents?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Convection"
+    },
+    {
+     "label": "B",
+     "text": "Orbit of Earth"
+    },
+    {
+     "label": "C",
+     "text": "Evaporation"
+    },
+    {
+     "label": "D",
+     "text": "Drift of continents"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-152"
+  },
+  {
+   "n": 19,
+   "stem": "Determining how the sea floor changes over time has given scientists information about the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "circulation of solar energy"
+    },
+    {
+     "label": "B",
+     "text": "patterns of carbon movement"
+    },
+    {
+     "label": "C",
+     "text": "formation rate of the ocean crust"
+    },
+    {
+     "label": "D",
+     "text": "impact of the atmosphere on ocean depth"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-153"
+  },
+  {
+   "n": 20,
+   "stem": "Why do regions of the world near the equator (0° latitude) have a more consistent climate than regions at middle latitudes?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "They have strong, moist westerly prevailing winds."
+    },
+    {
+     "label": "B",
+     "text": "They have high averages of yearly rainfall."
+    },
+    {
+     "label": "C",
+     "text": "They receive about the same amount of radiant energy year-round."
+    },
+    {
+     "label": "D",
+     "text": "They are close to large areas of very warm ocean water."
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-154"
+  },
+  {
+   "n": 21,
+   "stem": "To protect aquifers near landfills, material is placed under the soil to prevent pollution. Which property must the protective material possess?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "High porosity"
+    },
+    {
+     "label": "B",
+     "text": "Low permeability"
+    },
+    {
+     "label": "C",
+     "text": "High reflectivity"
+    },
+    {
+     "label": "D",
+     "text": "Low conductivity"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-155"
+  },
+  {
+   "n": 22,
+   "stem": "Which is a characteristic of all nonfoliated metamorphic rocks?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Presence of fossils"
+    },
+    {
+     "label": "B",
+     "text": "Cleavage planes"
+    },
+    {
+     "label": "C",
+     "text": "Lack of banding"
+    },
+    {
+     "label": "D",
+     "text": "Metallic luster"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-156"
+  },
+  {
+   "n": 23,
+   "stem": "Students made a hydrometer that barely floated in fresh water. When placed in estuary water, it floated higher, and in ocean water, it floated highest. All samples were at the same temperature. Which explanation best fits these observations?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Estuaries are less salty than fresh water."
+    },
+    {
+     "label": "B",
+     "text": "Oceans support more microbes than fresh water."
+    },
+    {
+     "label": "C",
+     "text": "Salt water is denser than fresh water."
+    },
+    {
+     "label": "D",
+     "text": "Ocean water freezes at lower temperatures than fresh water."
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-157"
+  },
+  {
+   "n": 24,
+   "stem": "The cleavage properties of mica result from the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "alternating layers of silica and aluminum"
+    },
+    {
+     "label": "B",
+     "text": "weak bonds between flat layers"
+    },
+    {
+     "label": "C",
+     "text": "strong covalent bonds within dense carbon clusters"
+    },
+    {
+     "label": "D",
+     "text": "metallic bonds between all elements present"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-158"
+  },
+  {
+   "n": 25,
+   "stem": "A star begins its formation as gravitational forces cause instability within a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "black hole"
+    },
+    {
+     "label": "B",
+     "text": "red giant"
+    },
+    {
+     "label": "C",
+     "text": "supernova"
+    },
+    {
+     "label": "D",
+     "text": "nebula"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-159"
+  },
+  {
+   "n": 26,
+   "stem": "Fossils are found at different depths below Earth’s surface. The deepest layer contains fossil C, above it fossil B, above that fossil A, and the shallowest layer fossil D. Which fossil is most likely the oldest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A"
+    },
+    {
+     "label": "B",
+     "text": "B"
+    },
+    {
+     "label": "C",
+     "text": "C"
+    },
+    {
+     "label": "D",
+     "text": "D"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-160"
+  },
+  {
+   "n": 27,
+   "stem": "Which structure is most similar to an alluvial fan in formation and composition?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Delta"
+    },
+    {
+     "label": "B",
+     "text": "Watershed"
+    },
+    {
+     "label": "C",
+     "text": "River"
+    },
+    {
+     "label": "D",
+     "text": "Lake"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-161"
+  },
+  {
+   "n": 29,
+   "stem": "Scientists study air trapped in glacier ice to understand which aspect of Earth’s climate history?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Changes in magnetic pole direction"
+    },
+    {
+     "label": "B",
+     "text": "Changes in atmospheric gas composition"
+    },
+    {
+     "label": "C",
+     "text": "Changes in global wind patterns"
+    },
+    {
+     "label": "D",
+     "text": "Changes in atmospheric pressure"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-162"
+  },
+  {
+   "n": 30,
+   "stem": "A sinkhole forms when the ground surface collapses into an underground cavity. Which most likely caused the sinkhole?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Collapse of the roof of a limestone cave"
+    },
+    {
+     "label": "B",
+     "text": "Abrupt movement of two tectonic plates"
+    },
+    {
+     "label": "C",
+     "text": "Thinning of topsoil due to forest clearing"
+    },
+    {
+     "label": "D",
+     "text": "Impact of a meteorite"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-163"
+  },
+  {
+   "n": 31,
+   "stem": "A map of Virginia watersheds shows that the James River watershed covers the largest area within the state. Which Virginia watershed has the greatest impact due to its size?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Tennessee River Watershed"
+    },
+    {
+     "label": "B",
+     "text": "James River Watershed"
+    },
+    {
+     "label": "C",
+     "text": "Chowan River Watershed"
+    },
+    {
+     "label": "D",
+     "text": "Rappahannock River Watershed"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-164"
+  },
+  {
+   "n": 32,
+   "stem": "Which mineral is most likely used in baby powder?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Graphite"
+    },
+    {
+     "label": "B",
+     "text": "Pyrite"
+    },
+    {
+     "label": "C",
+     "text": "Corundum"
+    },
+    {
+     "label": "D",
+     "text": "Talc"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-165"
+  },
+  {
+   "n": 33,
+   "stem": "Pollution from coal burning most frequently affects lakes by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "reducing dissolved carbon dioxide"
+    },
+    {
+     "label": "B",
+     "text": "increasing acidity"
+    },
+    {
+     "label": "C",
+     "text": "reducing radioactivity"
+    },
+    {
+     "label": "D",
+     "text": "increasing nutrient concentration"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-166"
+  },
+  {
+   "n": 34,
+   "stem": "Ponds designed to increase groundwater recharge will fail to work properly in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "locations with shallow wells"
+    },
+    {
+     "label": "B",
+     "text": "areas with deep surface sands"
+    },
+    {
+     "label": "C",
+     "text": "soils with low permeability"
+    },
+    {
+     "label": "D",
+     "text": "rock with high porosity"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-167"
+  },
+  {
+   "n": 35,
+   "stem": "Which action would most likely reduce environmental damage from strip mining?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Restrict mining to rural areas"
+    },
+    {
+     "label": "B",
+     "text": "Reclaim the ecosystem after mining"
+    },
+    {
+     "label": "C",
+     "text": "Increase use of mined products"
+    },
+    {
+     "label": "D",
+     "text": "Decrease labor needs"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-168"
+  },
+  {
+   "n": 37,
+   "stem": "Crushed stone is an important economic resource in Virginia. How is it mainly used?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Building insulation"
+    },
+    {
+     "label": "B",
+     "text": "Steel production"
+    },
+    {
+     "label": "C",
+     "text": "Coal mine reclamation"
+    },
+    {
+     "label": "D",
+     "text": "Construction material"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-169"
+  },
+  {
+   "n": 38,
+   "stem": "A student hypothesizes that a rock formed from ocean sediments. Which evidence best supports this hypothesis?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A textbook on rock formation"
+    },
+    {
+     "label": "B",
+     "text": "Rock samples from many locations"
+    },
+    {
+     "label": "C",
+     "text": "A plate boundary model"
+    },
+    {
+     "label": "D",
+     "text": "Clam shells within the rock"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-170"
+  },
+  {
+   "n": 39,
+   "stem": "About 2.0 billion years ago, complex organisms began to inhabit Earth primarily because of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "changes in atmospheric gases"
+    },
+    {
+     "label": "B",
+     "text": "sunlight absorbed by land"
+    },
+    {
+     "label": "C",
+     "text": "volcanic eruptions"
+    },
+    {
+     "label": "D",
+     "text": "comet impacts"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-171"
+  },
+  {
+   "n": 40,
+   "stem": "To identify minerals by streak, students should bring —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a pointed iron rod"
+    },
+    {
+     "label": "B",
+     "text": "a rough white ceramic tile"
+    },
+    {
+     "label": "C",
+     "text": "a sample of talc"
+    },
+    {
+     "label": "D",
+     "text": "a low-powered telescope"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-172"
+  },
+  {
+   "n": 42,
+   "stem": "A low-pressure system moves from the equator northward over water. When it reaches 60°N latitude, it will most likely be at a point where —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "water temperature is highest"
+    },
+    {
+     "label": "B",
+     "text": "direction of rotation has changed"
+    },
+    {
+     "label": "C",
+     "text": "wind speeds are greatest"
+    },
+    {
+     "label": "D",
+     "text": "most of its energy is lost"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-173"
+  },
+  {
+   "n": 44,
+   "stem": "Which characteristic do all planets in our solar system have in common?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Angle of axial tilt"
+    },
+    {
+     "label": "B",
+     "text": "Direction of revolution"
+    },
+    {
+     "label": "C",
+     "text": "Atmospheric gas percentages"
+    },
+    {
+     "label": "D",
+     "text": "Rocky crust features"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-174"
+  },
+  {
+   "n": 45,
+   "stem": "A scientist studying energy transfer in oceans, atmosphere, and Earth’s interior is most likely studying —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "pressure"
+    },
+    {
+     "label": "B",
+     "text": "density"
+    },
+    {
+     "label": "C",
+     "text": "gravity"
+    },
+    {
+     "label": "D",
+     "text": "convection"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2015_SOLPass",
+   "id": "earth-science-i-175"
+  },
+  {
+   "n": 1,
+   "stem": "Igneous rocks are formed by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "heat and pressure on existing rocks"
+    },
+    {
+     "label": "B",
+     "text": "evaporation of water, leaving solids behind"
+    },
+    {
+     "label": "C",
+     "text": "cooling and hardening of molten rock"
+    },
+    {
+     "label": "D",
+     "text": "layers of mud on the bottom of a lake"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-176"
+  },
+  {
+   "n": 2,
+   "stem": "What is the main advantage of using dams to produce electrical energy?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "They can be built near most cities."
+    },
+    {
+     "label": "G",
+     "text": "They do not produce much pollution."
+    },
+    {
+     "label": "H",
+     "text": "They are inexpensive to build."
+    },
+    {
+     "label": "J",
+     "text": "They do not damage wildlife homes."
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-177"
+  },
+  {
+   "n": 3,
+   "stem": "A student set up an experiment to test the effects of soil compaction on plant growth. The student put equal weights of moist soil into 10 containers, planted a bean seed one inch deep in each container, and then firmly compacted the soil in 5 of the containers. After the seeds sprouted, the student measured the height of each plant every day and kept a record of the results. What else must the student do over time to ensure a valid experiment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Water any container in which the soil feels dry"
+    },
+    {
+     "label": "B",
+     "text": "Water all of the containers the same amount and at the same time"
+    },
+    {
+     "label": "C",
+     "text": "Water any of the plants that seem to be growing more slowly than the others"
+    },
+    {
+     "label": "D",
+     "text": "Water the plants in compacted soil more than those in uncompacted soil"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-178"
+  },
+  {
+   "n": 4,
+   "stem": "Which planet is often called “Earth’s twin” because it is similar in mass and diameter to Earth?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Mars"
+    },
+    {
+     "label": "G",
+     "text": "Mercury"
+    },
+    {
+     "label": "H",
+     "text": "Venus"
+    },
+    {
+     "label": "J",
+     "text": "Pluto"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-179"
+  },
+  {
+   "n": 5,
+   "stem": "Earth has a solid inner core surrounded by a liquid outer core. Even though the inner core is hotter than the outer core, it remains solid because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "heat from the inner core melts the outer core"
+    },
+    {
+     "label": "B",
+     "text": "the outer core contains more water"
+    },
+    {
+     "label": "C",
+     "text": "the outer core is farther from Earth’s center and experiences less gravity"
+    },
+    {
+     "label": "D",
+     "text": "pressure from Earth’s overlying layers keeps the inner core solid"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-180"
+  },
+  {
+   "n": 6,
+   "stem": "A light-year measures —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "brightness"
+    },
+    {
+     "label": "G",
+     "text": "distance"
+    },
+    {
+     "label": "H",
+     "text": "radiation"
+    },
+    {
+     "label": "J",
+     "text": "time"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-181"
+  },
+  {
+   "n": 8,
+   "stem": "Land breezes and sea breezes are created by differences in —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Earth’s tilt on its axis"
+    },
+    {
+     "label": "G",
+     "text": "solar radiation reaching Earth’s surface"
+    },
+    {
+     "label": "H",
+     "text": "heat capacity of land and water"
+    },
+    {
+     "label": "J",
+     "text": "types of organisms on land and in the sea"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-182"
+  },
+  {
+   "n": 9,
+   "stem": "Which mineral found in the northern Piedmont province is known as “fool’s gold”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pyrite"
+    },
+    {
+     "label": "B",
+     "text": "Hematite"
+    },
+    {
+     "label": "C",
+     "text": "Galena"
+    },
+    {
+     "label": "D",
+     "text": "Limonite"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-183"
+  },
+  {
+   "n": 10,
+   "stem": "On weather maps, a line with triangles on one side represents —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "cold air moving in the direction the triangles point"
+    },
+    {
+     "label": "G",
+     "text": "cold air moving opposite the direction the triangles point"
+    },
+    {
+     "label": "H",
+     "text": "warm air moving in the direction the triangles point"
+    },
+    {
+     "label": "J",
+     "text": "warm air moving opposite the direction the triangles point"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-184"
+  },
+  {
+   "n": 11,
+   "stem": "During droughts, lack of rain can cause wells to dry up because the drought lowers the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "water table"
+    },
+    {
+     "label": "B",
+     "text": "water trough"
+    },
+    {
+     "label": "C",
+     "text": "zone of aeration"
+    },
+    {
+     "label": "D",
+     "text": "zone of porosity"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-185"
+  },
+  {
+   "n": 12,
+   "stem": "A shoebox has rows of holes in the top. By inserting straws vertically through the holes until they touch an unseen object inside the box, students determine the object’s shape based on straw depth differences. This activity simulates the technology used to map the seafloor. What is that technology called?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Laser beams"
+    },
+    {
+     "label": "B",
+     "text": "Doppler radar"
+    },
+    {
+     "label": "C",
+     "text": "Sonar"
+    },
+    {
+     "label": "D",
+     "text": "Seismology"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-186"
+  },
+  {
+   "n": 13,
+   "stem": "Which of these is the best evidence that Earth’s crust has undergone major changes?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Locations of major rivers"
+    },
+    {
+     "label": "G",
+     "text": "Amount of available water on Earth"
+    },
+    {
+     "label": "H",
+     "text": "Presence of marine fossils in mountain rock"
+    },
+    {
+     "label": "J",
+     "text": "Arrival of the vernal equinox"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-187"
+  },
+  {
+   "n": 15,
+   "stem": "Carbon-14 has a half-life of 5,700 years. A sample with one-eighth of its original carbon-14 remains. About how long ago did the organism die?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5,700 years"
+    },
+    {
+     "label": "B",
+     "text": "11,400 years"
+    },
+    {
+     "label": "C",
+     "text": "17,100 years"
+    },
+    {
+     "label": "D",
+     "text": "22,800 years"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-188"
+  },
+  {
+   "n": 16,
+   "stem": "Stars form through a sequence: stellar nebula → protostar → main-sequence star. What is the first stage in the life cycle of a star?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Black hole"
+    },
+    {
+     "label": "G",
+     "text": "Dwarf star"
+    },
+    {
+     "label": "H",
+     "text": "Main-sequence star"
+    },
+    {
+     "label": "J",
+     "text": "Stellar nebula"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-189"
+  },
+  {
+   "n": 17,
+   "stem": "At which location are metamorphic rocks most likely to be found?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "At Earth’s surface far from plate boundaries"
+    },
+    {
+     "label": "B",
+     "text": "In deep ocean trenches only"
+    },
+    {
+     "label": "C",
+     "text": "At regions of high heat and pressure within Earth’s crust"
+    },
+    {
+     "label": "D",
+     "text": "In areas of active volcanism only"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-190"
+  },
+  {
+   "n": 18,
+   "stem": "Of the following, the largest division of the geologic time scale is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a year"
+    },
+    {
+     "label": "B",
+     "text": "an epoch"
+    },
+    {
+     "label": "C",
+     "text": "an era"
+    },
+    {
+     "label": "D",
+     "text": "a period"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-191"
+  },
+  {
+   "n": 19,
+   "stem": "Saturn’s volume is much larger than Earth’s, but its mass is proportionally smaller. This is because Saturn has —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "low density"
+    },
+    {
+     "label": "G",
+     "text": "high temperature"
+    },
+    {
+     "label": "H",
+     "text": "thousands of rings"
+    },
+    {
+     "label": "J",
+     "text": "greater distance from the Sun"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-192"
+  },
+  {
+   "n": 20,
+   "stem": "A graph shows average relative humidity versus latitude. Humidity is highest near the equator and decreases moving toward 40° latitude north and south, then increases slightly beyond that. The hypothesis states that average relative humidity decreases north and south of the equator. According to the data, the hypothesis is only correct for latitudes —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "up to 40° from the equator"
+    },
+    {
+     "label": "G",
+     "text": "from the poles to 40° from the equator"
+    },
+    {
+     "label": "H",
+     "text": "between 20° and 60° from the equator"
+    },
+    {
+     "label": "J",
+     "text": "farthest from the equator"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-193"
+  },
+  {
+   "n": 21,
+   "stem": "When placed in water, ice floats because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "it is colder than water"
+    },
+    {
+     "label": "B",
+     "text": "it is less dense than water"
+    },
+    {
+     "label": "C",
+     "text": "water pressure holds it up"
+    },
+    {
+     "label": "D",
+     "text": "gases inside the ice make it buoyant"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-194"
+  },
+  {
+   "n": 23,
+   "stem": "Rock formations at locations X and Y show layers compressed together, folded, and shortened. These formations were created by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "tension"
+    },
+    {
+     "label": "G",
+     "text": "shearing"
+    },
+    {
+     "label": "H",
+     "text": "compression"
+    },
+    {
+     "label": "J",
+     "text": "rifting"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-195"
+  },
+  {
+   "n": 24,
+   "stem": "A diagram shows sinkholes connecting surface runoff directly into underground groundwater. One major pollution problem associated with sinkholes is that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "roadways can be destroyed"
+    },
+    {
+     "label": "B",
+     "text": "tractors can fall into them"
+    },
+    {
+     "label": "C",
+     "text": "homes can be damaged"
+    },
+    {
+     "label": "D",
+     "text": "they can connect directly to the water table"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-196"
+  },
+  {
+   "n": 25,
+   "stem": "Orbital velocity is the average speed of a planet in its orbit around the Sun. Which planet has the fastest orbital velocity?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mercury"
+    },
+    {
+     "label": "B",
+     "text": "Jupiter"
+    },
+    {
+     "label": "C",
+     "text": "Mars"
+    },
+    {
+     "label": "D",
+     "text": "Pluto"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-197"
+  },
+  {
+   "n": 26,
+   "stem": "A turbidity current is shown as muddy, sediment-laden water flowing downslope along the ocean floor beneath clearer seawater. What does this illustrate about turbidity currents?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "They move along the bottom."
+    },
+    {
+     "label": "G",
+     "text": "They stop when they reach the ocean floor."
+    },
+    {
+     "label": "H",
+     "text": "They depend on temperature differences."
+    },
+    {
+     "label": "J",
+     "text": "They only occur in salt water."
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-198"
+  },
+  {
+   "n": 27,
+   "stem": "In karst regions, caves form in limestone bedrock. How do stalactites and stalagmites develop?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Carbonate deposits form from dripping water in air-filled cavities."
+    },
+    {
+     "label": "B",
+     "text": "Granite intrusions remain after limestone dissolves."
+    },
+    {
+     "label": "C",
+     "text": "Crystals grow as water hollows out caverns."
+    },
+    {
+     "label": "D",
+     "text": "Swirling water carves them directly into rock."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-199"
+  },
+  {
+   "n": 28,
+   "stem": "Mohs’ scale ranks minerals by hardness from 1 (talc) to 10 (diamond). Gypsum is harder than talc; calcite is harder than gypsum; feldspar is harder than apatite; quartz scratches a knife blade. Which conclusion is supported?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Quartz is harder than topaz."
+    },
+    {
+     "label": "G",
+     "text": "Calcite is harder than apatite."
+    },
+    {
+     "label": "H",
+     "text": "Fluorite is harder than feldspar."
+    },
+    {
+     "label": "J",
+     "text": "Gypsum is harder than talc."
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-200"
+  },
+  {
+   "n": 29,
+   "stem": "The edges of moving crustal plates are often defined by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ocean basins"
+    },
+    {
+     "label": "B",
+     "text": "frequent seismic activity"
+    },
+    {
+     "label": "C",
+     "text": "intercontinental plains"
+    },
+    {
+     "label": "D",
+     "text": "Earth’s largest rivers"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-201"
+  },
+  {
+   "n": 30,
+   "stem": "Ocean → evaporation → condensation →?. Which comes next in the water cycle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Aeration"
+    },
+    {
+     "label": "G",
+     "text": "Sedimentation"
+    },
+    {
+     "label": "H",
+     "text": "Deposition"
+    },
+    {
+     "label": "J",
+     "text": "Precipitation"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-202"
+  },
+  {
+   "n": 31,
+   "stem": "A cross-section shows limestone, shale, granite, and marble. Which rock represents an igneous intrusion?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Granite"
+    },
+    {
+     "label": "B",
+     "text": "Limestone"
+    },
+    {
+     "label": "C",
+     "text": "Marble"
+    },
+    {
+     "label": "D",
+     "text": "Shale"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-203"
+  },
+  {
+   "n": 32,
+   "stem": "Which layer of the Sun is the most dense?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Chromosphere"
+    },
+    {
+     "label": "G",
+     "text": "Photosphere"
+    },
+    {
+     "label": "H",
+     "text": "Core"
+    },
+    {
+     "label": "J",
+     "text": "Corona"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-204"
+  },
+  {
+   "n": 34,
+   "stem": "An earthquake occurred in San Diego. The distance from Seattle to the epicenter is about 1,600 km. A graph of P-wave and S-wave travel times shows that at this distance, the S–P arrival time difference is approximately —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2 minutes"
+    },
+    {
+     "label": "G",
+     "text": "3 minutes"
+    },
+    {
+     "label": "H",
+     "text": "4 minutes"
+    },
+    {
+     "label": "J",
+     "text": "5 minutes"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-205"
+  },
+  {
+   "n": 35,
+   "stem": "The ozone layer protects life on Earth from —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ultraviolet radiation"
+    },
+    {
+     "label": "B",
+     "text": "gamma rays"
+    },
+    {
+     "label": "C",
+     "text": "infrared radiation"
+    },
+    {
+     "label": "D",
+     "text": "X-rays"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-206"
+  },
+  {
+   "n": 36,
+   "stem": "Which of these causes day and night on Earth?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Earth’s orbit around the Sun"
+    },
+    {
+     "label": "G",
+     "text": "the Moon’s revolution around Earth"
+    },
+    {
+     "label": "H",
+     "text": "the Moon’s rotation on its axis"
+    },
+    {
+     "label": "J",
+     "text": "Earth’s rotation on its axis"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-207"
+  },
+  {
+   "n": 37,
+   "stem": "All of the following ocean features indicate tectonic activity except —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "abyssal plains"
+    },
+    {
+     "label": "B",
+     "text": "mid-ocean ridges"
+    },
+    {
+     "label": "C",
+     "text": "seamounts"
+    },
+    {
+     "label": "D",
+     "text": "trenches"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-208"
+  },
+  {
+   "n": 38,
+   "stem": "A map scale shows the Red Sea extending roughly seven segments of 300 km each. About how long is the Red Sea?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "40 km"
+    },
+    {
+     "label": "G",
+     "text": "300 km"
+    },
+    {
+     "label": "H",
+     "text": "1,200 km"
+    },
+    {
+     "label": "J",
+     "text": "2,100 km"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-209"
+  },
+  {
+   "n": 39,
+   "stem": "A soil profile shows four layers labeled 1 (topsoil), 2 (subsoil), 3 (weathered rock), and 4 (bedrock). Which layer is most affected by weathering and erosion?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-210"
+  },
+  {
+   "n": 40,
+   "stem": "An earthquake diagram shows a focus below ground and an epicenter directly above it on Earth’s surface. The point from which the earthquake originates is the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "focus"
+    },
+    {
+     "label": "G",
+     "text": "epicenter"
+    },
+    {
+     "label": "H",
+     "text": "fault line"
+    },
+    {
+     "label": "J",
+     "text": "shock wave"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-211"
+  },
+  {
+   "n": 41,
+   "stem": "Which fact best supports the theory that the universe is expanding?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Stars vary in chemical composition."
+    },
+    {
+     "label": "B",
+     "text": "Galaxies are moving away from each other."
+    },
+    {
+     "label": "C",
+     "text": "Galaxies can spin to form eddies."
+    },
+    {
+     "label": "D",
+     "text": "The universe contains galaxies of different sizes."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-212"
+  },
+  {
+   "n": 43,
+   "stem": "Jellyfish are rarely fossilized because they —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "contain no carbon compounds"
+    },
+    {
+     "label": "B",
+     "text": "are very rare animals"
+    },
+    {
+     "label": "C",
+     "text": "live only in oceans"
+    },
+    {
+     "label": "D",
+     "text": "have soft bodies"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-213"
+  },
+  {
+   "n": 44,
+   "stem": "When two continental plates collide, which landform is most likely to form?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "large folded mountain ranges"
+    },
+    {
+     "label": "G",
+     "text": "deep-sea trenches"
+    },
+    {
+     "label": "H",
+     "text": "mid-ocean ridges"
+    },
+    {
+     "label": "J",
+     "text": "volcanic island arcs"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-214"
+  },
+  {
+   "n": 45,
+   "stem": "Why is surface ocean temperature more variable than water near the ocean floor?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Most energy exchange occurs at the surface."
+    },
+    {
+     "label": "B",
+     "text": "Most animals live near the surface."
+    },
+    {
+     "label": "C",
+     "text": "Surface water is less dense."
+    },
+    {
+     "label": "D",
+     "text": "Salt concentration varies more at the surface."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-215"
+  },
+  {
+   "n": 46,
+   "stem": "A faulted rock diagram shows more of the upper block missing than the lower block. This is mainly due to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "lower layers experiencing less pressure"
+    },
+    {
+     "label": "G",
+     "text": "erosion of the upper layers"
+    },
+    {
+     "label": "H",
+     "text": "less deformation in the lower block"
+    },
+    {
+     "label": "J",
+     "text": "more igneous rock in the upper block"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-216"
+  },
+  {
+   "n": 47,
+   "stem": "Compared to igneous and metamorphic rocks, sedimentary rocks more often contain —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "gas holes"
+    },
+    {
+     "label": "B",
+     "text": "large quartz crystals"
+    },
+    {
+     "label": "C",
+     "text": "fossils"
+    },
+    {
+     "label": "D",
+     "text": "glassy textures"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-217"
+  },
+  {
+   "n": 48,
+   "stem": "Virginia has large sand and gravel deposits. These are usually found in areas where —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "water once flowed"
+    },
+    {
+     "label": "G",
+     "text": "lava once covered the ground"
+    },
+    {
+     "label": "H",
+     "text": "swamps once existed"
+    },
+    {
+     "label": "J",
+     "text": "the water table was very low"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-218"
+  },
+  {
+   "n": 49,
+   "stem": "Which energy source is nonrenewable?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Solar"
+    },
+    {
+     "label": "B",
+     "text": "Geothermal"
+    },
+    {
+     "label": "C",
+     "text": "Fossil fuel"
+    },
+    {
+     "label": "D",
+     "text": "Hydroelectric"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-219"
+  },
+  {
+   "n": 50,
+   "stem": "What does Pangaea mean?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "name of an extinct volcano"
+    },
+    {
+     "label": "G",
+     "text": "French word for volcano"
+    },
+    {
+     "label": "H",
+     "text": "ancient supercontinent"
+    },
+    {
+     "label": "J",
+     "text": "global atmospheric disruption"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2002_SOLPass",
+   "id": "earth-science-i-220"
+  },
+  {
+   "n": 2,
+   "stem": "All of the following are sources of energy derived from the ocean except —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Coal"
+    },
+    {
+     "label": "B",
+     "text": "Thermal energy"
+    },
+    {
+     "label": "C",
+     "text": "Tides"
+    },
+    {
+     "label": "D",
+     "text": "Waves"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-221"
+  },
+  {
+   "n": 3,
+   "stem": "A star might be much brighter than it appears to be. This is called the star’s absolute magnitude. The difference between apparent magnitude and absolute magnitude is due primarily to the star’s —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "surface temperature"
+    },
+    {
+     "label": "B",
+     "text": "motion through the universe"
+    },
+    {
+     "label": "C",
+     "text": "diameter"
+    },
+    {
+     "label": "D",
+     "text": "distance from the Earth"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-222"
+  },
+  {
+   "n": 5,
+   "stem": "Water vapor is lighter than many atmospheric gases such as oxygen, nitrogen, and carbon dioxide. Why then doesn’t water vapor rise above these other gases to a higher level of the atmosphere?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Water vapor contains other elements that give it weight."
+    },
+    {
+     "label": "B",
+     "text": "The cool atmosphere condenses the rising water vapor and causes it to fall back to Earth."
+    },
+    {
+     "label": "C",
+     "text": "The water molecules are attracted to molecules of heavier gases and remain in the lower regions of the atmosphere."
+    },
+    {
+     "label": "D",
+     "text": "There is an attraction among the water vapor molecules to hold them together close to the Earth."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-223"
+  },
+  {
+   "n": 7,
+   "stem": "The following countries have high per-capita carbon dioxide release values compared with the world average: United States (5.9 tons/year), Canada (5.2), Germany (3.1), United Kingdom (2.9), Japan (2.3), France (2.0), Italy (2.0), with a world average of 1.2 tons/year. These countries released much more CO₂ than the rest of the world because these countries have the largest —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "number of people"
+    },
+    {
+     "label": "B",
+     "text": "amount of rainfall"
+    },
+    {
+     "label": "C",
+     "text": "number of heavy industries"
+    },
+    {
+     "label": "D",
+     "text": "amount of land per person"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-224"
+  },
+  {
+   "n": 9,
+   "stem": "The presence of many metamorphic rocks in Virginia is an indication that the area has been subjected to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "intense heat and pressure"
+    },
+    {
+     "label": "B",
+     "text": "limited volcanic activity"
+    },
+    {
+     "label": "C",
+     "text": "deep ocean venting"
+    },
+    {
+     "label": "D",
+     "text": "massive solar bombardment"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-225"
+  },
+  {
+   "n": 11,
+   "stem": "About how long does it take the Earth to make one complete rotation on its axis?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "One day"
+    },
+    {
+     "label": "B",
+     "text": "One week"
+    },
+    {
+     "label": "C",
+     "text": "One month"
+    },
+    {
+     "label": "D",
+     "text": "One year"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-226"
+  },
+  {
+   "n": 13,
+   "stem": "Which of these energy sources produces the least harmful environmental effects?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nuclear"
+    },
+    {
+     "label": "B",
+     "text": "Fossil fuels"
+    },
+    {
+     "label": "C",
+     "text": "Solar"
+    },
+    {
+     "label": "D",
+     "text": "Hydroelectric"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-227"
+  },
+  {
+   "n": 14,
+   "stem": "All of the following support the theory of continental drift except that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the continents seem to fit together like pieces of a puzzle"
+    },
+    {
+     "label": "B",
+     "text": "there are similar fossils on different continents"
+    },
+    {
+     "label": "C",
+     "text": "mountain ranges in South America and Africa line up"
+    },
+    {
+     "label": "D",
+     "text": "the North Pole and Antarctica are covered with ice"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-228"
+  },
+  {
+   "n": 16,
+   "stem": "The Southern Hemisphere is warmer in January than in July because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "it is experiencing summer"
+    },
+    {
+     "label": "B",
+     "text": "the cold winds are concentrated in the Northern Hemisphere"
+    },
+    {
+     "label": "C",
+     "text": "the sun puts out more energy"
+    },
+    {
+     "label": "D",
+     "text": "the hole in the ozone layer allows more heat into the atmosphere"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-229"
+  },
+  {
+   "n": 18,
+   "stem": "Only 3% of the Earth’s water is fresh water. Of this fresh water, most is locked in glaciers and ice caps. Where is the remaining 5% of the world’s permanent supply of ice and snow found?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "High mountain peaks"
+    },
+    {
+     "label": "B",
+     "text": "Permanent Arctic blizzards"
+    },
+    {
+     "label": "C",
+     "text": "Floating icebergs"
+    },
+    {
+     "label": "D",
+     "text": "Drifting Antarctic snow"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-230"
+  },
+  {
+   "n": 19,
+   "stem": "Oil spills can be cleaned using bioremediation, which uses bacteria. How does this technique work?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The bacteria bind with the oil and bring it to land."
+    },
+    {
+     "label": "B",
+     "text": "The bacteria pull the oil down to the ocean floor."
+    },
+    {
+     "label": "C",
+     "text": "The bacteria chemically change the oil into less harmful substances."
+    },
+    {
+     "label": "D",
+     "text": "The bacteria die and absorb the oil."
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-231"
+  },
+  {
+   "n": 20,
+   "stem": "A student sees a very bright star in the sky and thinks it might be the planet Venus. Which observation would support this conclusion?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "After a few minutes, its position relative to surrounding stars changes significantly."
+    },
+    {
+     "label": "B",
+     "text": "After an hour, its position relative to the horizon has changed."
+    },
+    {
+     "label": "C",
+     "text": "After an hour, its brightness has faded significantly."
+    },
+    {
+     "label": "D",
+     "text": "After a month, its position relative to surrounding stars has changed."
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-232"
+  },
+  {
+   "n": 22,
+   "stem": "Sinkholes associated with natural processes are characteristic of what type of bedrock?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Limestone"
+    },
+    {
+     "label": "B",
+     "text": "Granite"
+    },
+    {
+     "label": "C",
+     "text": "Basalt"
+    },
+    {
+     "label": "D",
+     "text": "Gneiss"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-233"
+  },
+  {
+   "n": 24,
+   "stem": "Most hurricanes occur where —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the oceans are warmest"
+    },
+    {
+     "label": "B",
+     "text": "the landmasses are largest"
+    },
+    {
+     "label": "C",
+     "text": "the atmosphere is driest"
+    },
+    {
+     "label": "D",
+     "text": "areas of greatest population exist"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-234"
+  },
+  {
+   "n": 25,
+   "stem": "Evidence that parts of the Appalachian Mountains formed from layered sediments in shallow water includes the fact that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "some rocks show signs of volcanism"
+    },
+    {
+     "label": "B",
+     "text": "the mountains are highly eroded"
+    },
+    {
+     "label": "C",
+     "text": "the mountains exhibit folded layers of rocks containing fossils from shallow water"
+    },
+    {
+     "label": "D",
+     "text": "the range consists of parallel ridges of different ages"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-235"
+  },
+  {
+   "n": 26,
+   "stem": "A Mercator projection causes Canada and Alaska to appear larger than they really are because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "mountains are flattened"
+    },
+    {
+     "label": "B",
+     "text": "northern oceans are frozen"
+    },
+    {
+     "label": "C",
+     "text": "latitude and longitude lines create an illusion"
+    },
+    {
+     "label": "D",
+     "text": "a round Earth is projected onto a flat surface"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-236"
+  },
+  {
+   "n": 27,
+   "stem": "Which of the following is an example of chemical weathering?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rock splitting due to tree roots"
+    },
+    {
+     "label": "B",
+     "text": "Pulverized rock from a landslide"
+    },
+    {
+     "label": "C",
+     "text": "Rock broken by flowing water"
+    },
+    {
+     "label": "D",
+     "text": "Dissolving of limestone by acid rain"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-237"
+  },
+  {
+   "n": 28,
+   "stem": "When viewed from the Equator, the pole star Polaris —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "is nearly stationary and on the horizon"
+    },
+    {
+     "label": "B",
+     "text": "is nearly stationary and directly overhead"
+    },
+    {
+     "label": "C",
+     "text": "rises barely above the eastern horizon, moves along the southern horizon, and sets in the west"
+    },
+    {
+     "label": "D",
+     "text": "rises straight up in the east and sets straight down in the west"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-238"
+  },
+  {
+   "n": 30,
+   "stem": "Moist air rises over mountains, cools, then descends and warms on the opposite side. What is the result?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Desert on the west side and rain on the east"
+    },
+    {
+     "label": "B",
+     "text": "Heavy rain on the west side and desert on the east"
+    },
+    {
+     "label": "C",
+     "text": "Rain on the west and snow year-round on the east"
+    },
+    {
+     "label": "D",
+     "text": "Desert on both sides and rain on top"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-239"
+  },
+  {
+   "n": 31,
+   "stem": "Because granite cools below Earth’s surface, it is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "an igneous extrusive rock"
+    },
+    {
+     "label": "B",
+     "text": "an igneous intrusive rock"
+    },
+    {
+     "label": "C",
+     "text": "a sedimentary rock"
+    },
+    {
+     "label": "D",
+     "text": "a metamorphic rock"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-240"
+  },
+  {
+   "n": 33,
+   "stem": "Fish are abundant in areas of ocean upwelling because it —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "causes currents that carry fish in"
+    },
+    {
+     "label": "B",
+     "text": "brings nutrients to the surface"
+    },
+    {
+     "label": "C",
+     "text": "causes surface turbulence"
+    },
+    {
+     "label": "D",
+     "text": "changes tidal flow"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-241"
+  },
+  {
+   "n": 34,
+   "stem": "Parallax can be used to measure a star’s —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "atmospheric temperature"
+    },
+    {
+     "label": "B",
+     "text": "gravitational strength"
+    },
+    {
+     "label": "C",
+     "text": "surface composition"
+    },
+    {
+     "label": "D",
+     "text": "distance from Earth"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-242"
+  },
+  {
+   "n": 35,
+   "stem": "What industry uses the most crushed stone produced by quarries?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Plastics"
+    },
+    {
+     "label": "B",
+     "text": "Construction"
+    },
+    {
+     "label": "C",
+     "text": "Electronics"
+    },
+    {
+     "label": "D",
+     "text": "Steel"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-243"
+  },
+  {
+   "n": 36,
+   "stem": "All of the following are characteristics of metamorphic rocks except —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "flattened crystals"
+    },
+    {
+     "label": "B",
+     "text": "colored, parallel layers"
+    },
+    {
+     "label": "C",
+     "text": "bending from pressure"
+    },
+    {
+     "label": "D",
+     "text": "holes from trapped gases"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-244"
+  },
+  {
+   "n": 38,
+   "stem": "The angle between a star and the horizon is measured as 35 degrees. What is the position of the star above the horizon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "35°"
+    },
+    {
+     "label": "B",
+     "text": "40°"
+    },
+    {
+     "label": "C",
+     "text": "55°"
+    },
+    {
+     "label": "D",
+     "text": "60°"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-245"
+  },
+  {
+   "n": 39,
+   "stem": "Ancient mammoths in Siberia were preserved because of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "water"
+    },
+    {
+     "label": "B",
+     "text": "ice"
+    },
+    {
+     "label": "C",
+     "text": "leaf mold"
+    },
+    {
+     "label": "D",
+     "text": "carbon dioxide"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-246"
+  },
+  {
+   "n": 40,
+   "stem": "In a sequence of rock layers (from bottom to top): breccia, limestone, sandstone, shale. Which layer is the youngest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Shale"
+    },
+    {
+     "label": "B",
+     "text": "Sandstone"
+    },
+    {
+     "label": "C",
+     "text": "Limestone"
+    },
+    {
+     "label": "D",
+     "text": "Breccia"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-247"
+  },
+  {
+   "n": 41,
+   "stem": "What is the fewest number of seismographic stations needed to locate an earthquake epicenter?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-248"
+  },
+  {
+   "n": 42,
+   "stem": "On a map with a scale of 1:24,000, what distance does 1 inch represent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "24 feet"
+    },
+    {
+     "label": "B",
+     "text": "40 feet"
+    },
+    {
+     "label": "C",
+     "text": "24,000 inches"
+    },
+    {
+     "label": "D",
+     "text": "48,000 inches"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-249"
+  },
+  {
+   "n": 44,
+   "stem": "The power generated by a hydroelectric dam depends most on —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "width and construction material"
+    },
+    {
+     "label": "B",
+     "text": "volume of water and height of fall"
+    },
+    {
+     "label": "C",
+     "text": "surface area and reservoir shape"
+    },
+    {
+     "label": "D",
+     "text": "water temperature and oxygen content"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-250"
+  },
+  {
+   "n": 45,
+   "stem": "Fossils A, B, C, and D overlap in time only during which geologic period?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Jurassic"
+    },
+    {
+     "label": "B",
+     "text": "Triassic"
+    },
+    {
+     "label": "C",
+     "text": "Permian"
+    },
+    {
+     "label": "D",
+     "text": "Carboniferous"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-251"
+  },
+  {
+   "n": 46,
+   "stem": "A person weighs more on Earth than on the Moon because Earth has greater —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "density"
+    },
+    {
+     "label": "B",
+     "text": "atmospheric pressure"
+    },
+    {
+     "label": "C",
+     "text": "magnetic strength"
+    },
+    {
+     "label": "D",
+     "text": "gravitational pull"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-252"
+  },
+  {
+   "n": 47,
+   "stem": "The atomic spectrum of Star X shows spectral lines that match those of calcium. Which element does the star contain?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mercury"
+    },
+    {
+     "label": "B",
+     "text": "Calcium"
+    },
+    {
+     "label": "C",
+     "text": "Sodium"
+    },
+    {
+     "label": "D",
+     "text": "Neon"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-253"
+  },
+  {
+   "n": 48,
+   "stem": "Weather data show Charlottesville is clear while Norfolk has mist. Which factor best explains this difference?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Temperature"
+    },
+    {
+     "label": "B",
+     "text": "Humidity"
+    },
+    {
+     "label": "C",
+     "text": "Wind speed"
+    },
+    {
+     "label": "D",
+     "text": "Pressure"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-254"
+  },
+  {
+   "n": 49,
+   "stem": "The mineral resources of Virginia can be conserved by all of the following except —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "recycling"
+    },
+    {
+     "label": "B",
+     "text": "reducing use"
+    },
+    {
+     "label": "C",
+     "text": "regenerating"
+    },
+    {
+     "label": "D",
+     "text": "reusing"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-255"
+  },
+  {
+   "n": 50,
+   "stem": "A boat floats higher in ocean water than in river water because ocean water has —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a lower freezing point"
+    },
+    {
+     "label": "B",
+     "text": "more organisms"
+    },
+    {
+     "label": "C",
+     "text": "more oxygen"
+    },
+    {
+     "label": "D",
+     "text": "a greater density"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2001_SOLPass",
+   "id": "earth-science-i-256"
+  },
+  {
+   "n": 1,
+   "stem": "Because of the unique position of Earth in the solar system, life has flourished due to the presence of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "helium"
+    },
+    {
+     "label": "B",
+     "text": "volcanoes"
+    },
+    {
+     "label": "C",
+     "text": "liquid water"
+    },
+    {
+     "label": "D",
+     "text": "salt"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-257"
+  },
+  {
+   "n": 2,
+   "stem": "In the solar system, the planets are arranged outward from the Sun in the following order: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. At what position would Earth be found?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-258"
+  },
+  {
+   "n": 3,
+   "stem": "What element is the main component of most stars?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nitrogen"
+    },
+    {
+     "label": "B",
+     "text": "Iron"
+    },
+    {
+     "label": "C",
+     "text": "Hydrogen"
+    },
+    {
+     "label": "D",
+     "text": "Oxygen"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-259"
+  },
+  {
+   "n": 4,
+   "stem": "The hypothesis for the cause of the dinosaurs’ extinction that has the most scientific support links their extinction to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a long drought"
+    },
+    {
+     "label": "G",
+     "text": "the appearance of humans"
+    },
+    {
+     "label": "H",
+     "text": "an increase in the number of mammals"
+    },
+    {
+     "label": "J",
+     "text": "a large object from space hitting Earth"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-260"
+  },
+  {
+   "n": 5,
+   "stem": "Approximately 99.7% of all water on Earth is found in oceans, seas, ice, and the atmosphere. Based on this information, which statement is most accurate?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Earth’s freshwater supply is infinite."
+    },
+    {
+     "label": "B",
+     "text": "Less than 0.3% of Earth’s water is drinkable."
+    },
+    {
+     "label": "C",
+     "text": "Humans are not dependent on ocean water."
+    },
+    {
+     "label": "D",
+     "text": "The water cycle returns all usable water to the sea."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-261"
+  },
+  {
+   "n": 6,
+   "stem": "A world map shows lines of longitude labeled 150° W, 120° W, 90° W, 60° W, 30° W, 0°, 30° E, and 60° E. Richmond, Virginia is marked at approximately 38° N latitude and between 75° W and 80° W longitude. The longitude of Richmond, Virginia, is approximately —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "75° W"
+    },
+    {
+     "label": "G",
+     "text": "38° N"
+    },
+    {
+     "label": "H",
+     "text": "38° W"
+    },
+    {
+     "label": "J",
+     "text": "75° N"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-262"
+  },
+  {
+   "n": 7,
+   "stem": "A map of Virginia shows Richmond near the east-central part of the state. Staunton is shown west and slightly north of Richmond. In what direction is Staunton from Richmond?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Northeast"
+    },
+    {
+     "label": "B",
+     "text": "Northwest"
+    },
+    {
+     "label": "C",
+     "text": "Southeast"
+    },
+    {
+     "label": "D",
+     "text": "Southwest"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-263"
+  },
+  {
+   "n": 8,
+   "stem": "During which portion of Earth’s revolution around the Sun is the Northern Hemisphere tilted toward the Sun?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Vernal equinox"
+    },
+    {
+     "label": "G",
+     "text": "Summer solstice"
+    },
+    {
+     "label": "H",
+     "text": "Autumnal equinox"
+    },
+    {
+     "label": "J",
+     "text": "Winter solstice"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-264"
+  },
+  {
+   "n": 9,
+   "stem": "What is the best evidence that many different geologic periods are represented in Virginia?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The length of its rivers"
+    },
+    {
+     "label": "B",
+     "text": "The location of the Piedmont"
+    },
+    {
+     "label": "C",
+     "text": "The presence of fossils of different ages"
+    },
+    {
+     "label": "D",
+     "text": "The amount of chemical weathering"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-265"
+  },
+  {
+   "n": 10,
+   "stem": "Volcanic ash has occasionally formed molds of animals. This occurs when the ash covers the animal and —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "replaces the animal’s soft tissues"
+    },
+    {
+     "label": "G",
+     "text": "enters the animal’s body cavity"
+    },
+    {
+     "label": "H",
+     "text": "hardens before the animal decays"
+    },
+    {
+     "label": "J",
+     "text": "mineralizes the animal’s bones"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-266"
+  },
+  {
+   "n": 11,
+   "stem": "A rock diagram shows four labeled rock sections. Section 4 is the lowest rock layer and all other layers are above it without disruption. Which area is most likely the oldest section of rock?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-267"
+  },
+  {
+   "n": 12,
+   "stem": "Rock layers tell a story about their past. What is the basic assumption that is made when reading this story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The composition of Earth’s atmosphere has been constant."
+    },
+    {
+     "label": "G",
+     "text": "Earth’s crust cooled and then remelted before rock layers formed."
+    },
+    {
+     "label": "H",
+     "text": "The processes in the rock cycle were the same in the past as they are today."
+    },
+    {
+     "label": "J",
+     "text": "Chemical reactions in the past were slower than today."
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-268"
+  },
+  {
+   "n": 13,
+   "stem": "A rain forest is found at the base of Mount Kilimanjaro, and the summit is snowcapped. Which of the following best accounts for this?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Temperature differences due to changes in elevation"
+    },
+    {
+     "label": "B",
+     "text": "Climate differences due to seasonal changes"
+    },
+    {
+     "label": "C",
+     "text": "Differences in precipitation caused by a rain shadow"
+    },
+    {
+     "label": "D",
+     "text": "Climate changes due to latitude"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-269"
+  },
+  {
+   "n": 14,
+   "stem": "Which of the following was primarily responsible for the development of life outside the oceans?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A decrease in atmospheric hydrogen"
+    },
+    {
+     "label": "G",
+     "text": "A decrease in atmospheric carbon dioxide"
+    },
+    {
+     "label": "H",
+     "text": "An increase in atmospheric nitrogen"
+    },
+    {
+     "label": "J",
+     "text": "An increase in atmospheric oxygen"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-270"
+  },
+  {
+   "n": 15,
+   "stem": "A world map diagram from 1858 shows Africa and South America with coastlines that appear to fit together and shared fossil locations marked on both continents. What data was this diagram intended to explain?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The distance between the Eastern and Western Hemispheres"
+    },
+    {
+     "label": "B",
+     "text": "The reason for similar fossils in Africa and South America"
+    },
+    {
+     "label": "C",
+     "text": "The presence of earthquakes on different continents"
+    },
+    {
+     "label": "D",
+     "text": "Variations in the depth of the Atlantic Ocean"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-271"
+  },
+  {
+   "n": 16,
+   "stem": "Why do stars appear to change position during the night?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Earth rotates on its axis."
+    },
+    {
+     "label": "G",
+     "text": "Earth revolves around the Sun."
+    },
+    {
+     "label": "H",
+     "text": "The stars are moving away from each other."
+    },
+    {
+     "label": "J",
+     "text": "Stars are very far away from the solar system."
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-272"
+  },
+  {
+   "n": 17,
+   "stem": "A trail map shows four points (W, X, Y, Z) at different elevations along a hiking trail. The contour spacing is closest together at point X, indicating the greatest change in elevation over the shortest distance. At what point will the trail be steepest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "W"
+    },
+    {
+     "label": "B",
+     "text": "X"
+    },
+    {
+     "label": "C",
+     "text": "Y"
+    },
+    {
+     "label": "D",
+     "text": "Z"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-273"
+  },
+  {
+   "n": 18,
+   "stem": "Which of the following is a renewable source of energy?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Natural gas"
+    },
+    {
+     "label": "G",
+     "text": "Coal"
+    },
+    {
+     "label": "H",
+     "text": "Oil"
+    },
+    {
+     "label": "J",
+     "text": "Falling water"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-274"
+  },
+  {
+   "n": 19,
+   "stem": "When the sea floor spreads apart, volcanoes and ridges are formed because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "sediments are deposited where the floor spreads"
+    },
+    {
+     "label": "B",
+     "text": "magma moves to the surface as plates pull apart"
+    },
+    {
+     "label": "C",
+     "text": "ocean water pushes down surrounding sea floor"
+    },
+    {
+     "label": "D",
+     "text": "earthquakes lift the sea floor into ridges"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-275"
+  },
+  {
+   "n": 20,
+   "stem": "Which of these would most likely occur as the ice caps melt?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Earth would become cooler."
+    },
+    {
+     "label": "G",
+     "text": "The sea would cover more land."
+    },
+    {
+     "label": "H",
+     "text": "Rivers would flow more rapidly."
+    },
+    {
+     "label": "J",
+     "text": "Rain would become more acidic."
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-276"
+  },
+  {
+   "n": 21,
+   "stem": "The Mohs hardness scale ranks minerals from 1 (talc) to 10 (diamond). Fluorite has a hardness of 4 and orthoclase has a hardness of 6. A mineral that can scratch fluorite but can be scratched by orthoclase is able to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "scratch both calcite and quartz"
+    },
+    {
+     "label": "B",
+     "text": "be scratched by both calcite and quartz"
+    },
+    {
+     "label": "C",
+     "text": "scratch calcite and be scratched by quartz"
+    },
+    {
+     "label": "D",
+     "text": "scratch quartz and be scratched by calcite"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-277"
+  },
+  {
+   "n": 22,
+   "stem": "Cyanite (Al₂SiO₅), quartz (SiO₂), and leucite (KAlSi₂O₆) may be grouped together because they all contain —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "aluminum"
+    },
+    {
+     "label": "G",
+     "text": "carbon"
+    },
+    {
+     "label": "H",
+     "text": "potassium"
+    },
+    {
+     "label": "J",
+     "text": "silicon"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-278"
+  },
+  {
+   "n": 23,
+   "stem": "A table of igneous rocks shows granite as intrusive and rhyolite, pumice, and obsidian as extrusive. Which rock would contain the largest crystals?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Granite"
+    },
+    {
+     "label": "B",
+     "text": "Obsidian"
+    },
+    {
+     "label": "C",
+     "text": "Pumice"
+    },
+    {
+     "label": "D",
+     "text": "Rhyolite"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-279"
+  },
+  {
+   "n": 24,
+   "stem": "A line graph shows outdoor temperature over a 24-hour period. At 2:00 P.M., the temperature suddenly drops. What possible occurrence happened at that time?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Daylight-saving time"
+    },
+    {
+     "label": "G",
+     "text": "Eclipse of the moon"
+    },
+    {
+     "label": "H",
+     "text": "A solar storm"
+    },
+    {
+     "label": "J",
+     "text": "A thunderstorm passing"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-280"
+  },
+  {
+   "n": 25,
+   "stem": "One method of lessening the environmental impact of strip mining is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "mine only nontoxic materials"
+    },
+    {
+     "label": "B",
+     "text": "mine only during evening hours"
+    },
+    {
+     "label": "C",
+     "text": "feed animals displaced by mining"
+    },
+    {
+     "label": "D",
+     "text": "restore landscape and vegetation after mining"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-281"
+  },
+  {
+   "n": 26,
+   "stem": "By increasing the height of smokestacks, industries in the Midwest reduced local air pollution. However, winds carried pollution to the Northeast, where it contributed significantly to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "reduced rainfall"
+    },
+    {
+     "label": "G",
+     "text": "soil erosion"
+    },
+    {
+     "label": "H",
+     "text": "mass wasting"
+    },
+    {
+     "label": "J",
+     "text": "acid rain"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-282"
+  },
+  {
+   "n": 27,
+   "stem": "Which of the following best explains the rolling topography of the Valley and Ridge province in Virginia?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Folding and differential erosion"
+    },
+    {
+     "label": "B",
+     "text": "Block faulting of marine sediments"
+    },
+    {
+     "label": "C",
+     "text": "Ocean currents and uplift"
+    },
+    {
+     "label": "D",
+     "text": "Rifting and ocean waves"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-283"
+  },
+  {
+   "n": 28,
+   "stem": "A diagram titled “Growth of a Delta” shows the delta length increasing from 2 km in 1982 to 6 km in 1996. By how much did the length increase?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2 km"
+    },
+    {
+     "label": "G",
+     "text": "4 km"
+    },
+    {
+     "label": "H",
+     "text": "6 km"
+    },
+    {
+     "label": "J",
+     "text": "8 km"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-284"
+  },
+  {
+   "n": 29,
+   "stem": "The fossil fuel found in greatest abundance in Virginia is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "oil"
+    },
+    {
+     "label": "B",
+     "text": "coal"
+    },
+    {
+     "label": "C",
+     "text": "natural gas"
+    },
+    {
+     "label": "D",
+     "text": "methane"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-285"
+  },
+  {
+   "n": 30,
+   "stem": "Which of the following is not a result of tectonic plate movement?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Earthquakes"
+    },
+    {
+     "label": "G",
+     "text": "Mountain ranges"
+    },
+    {
+     "label": "H",
+     "text": "Increased volcanic activity"
+    },
+    {
+     "label": "J",
+     "text": "Karst topography"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-286"
+  },
+  {
+   "n": 31,
+   "stem": "Which arrangement best represents the most common zones in a water table, from the surface downward?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Surface → Bedrock"
+    },
+    {
+     "label": "B",
+     "text": "Surface → Saturated zone → Aerated zone → Bedrock"
+    },
+    {
+     "label": "C",
+     "text": "Surface → Aerated zone → Saturated zone → Bedrock"
+    },
+    {
+     "label": "D",
+     "text": "Surface → Bedrock → Saturated zone"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-287"
+  },
+  {
+   "n": 32,
+   "stem": "Students want to identify a rock found in a nearby field. Which property would be most useful?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Color"
+    },
+    {
+     "label": "G",
+     "text": "Smell"
+    },
+    {
+     "label": "H",
+     "text": "Mineral content"
+    },
+    {
+     "label": "J",
+     "text": "Specific weight"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-288"
+  },
+  {
+   "n": 33,
+   "stem": "What is located beneath soil layers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Bedrock"
+    },
+    {
+     "label": "B",
+     "text": "Humus"
+    },
+    {
+     "label": "C",
+     "text": "Lava"
+    },
+    {
+     "label": "D",
+     "text": "Tundra"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-289"
+  },
+  {
+   "n": 34,
+   "stem": "Organic matter in soil is made from —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "weathered parent rock"
+    },
+    {
+     "label": "G",
+     "text": "decayed plants and animals"
+    },
+    {
+     "label": "H",
+     "text": "acid rain"
+    },
+    {
+     "label": "J",
+     "text": "carbon dioxide"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-290"
+  },
+  {
+   "n": 35,
+   "stem": "During which phase of the Moon will tides be highest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Full Moon"
+    },
+    {
+     "label": "B",
+     "text": "Quarter Moon"
+    },
+    {
+     "label": "C",
+     "text": "Crescent Moon"
+    },
+    {
+     "label": "D",
+     "text": "Gibbous Moon"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-291"
+  },
+  {
+   "n": 36,
+   "stem": "On clear nights in late summer and early fall in the Shenandoah Valley, why does ground fog form in low areas near the river?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Cool, descending air meets moist air near the river"
+    },
+    {
+     "label": "G",
+     "text": "Cool, moist air rises from the river"
+    },
+    {
+     "label": "H",
+     "text": "Warm winds bring moisture downhill"
+    },
+    {
+     "label": "J",
+     "text": "Increased air pollution at night"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-292"
+  },
+  {
+   "n": 37,
+   "stem": "Why does erosion not occur on the Moon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The rock surface is too hard"
+    },
+    {
+     "label": "B",
+     "text": "There is no animal life"
+    },
+    {
+     "label": "C",
+     "text": "There is no wind or rain"
+    },
+    {
+     "label": "D",
+     "text": "Gravity is too weak"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-293"
+  },
+  {
+   "n": 38,
+   "stem": "Which planet has a hurricane-like storm several times larger than Earth?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Mars"
+    },
+    {
+     "label": "G",
+     "text": "Venus"
+    },
+    {
+     "label": "H",
+     "text": "Saturn"
+    },
+    {
+     "label": "J",
+     "text": "Jupiter"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-294"
+  },
+  {
+   "n": 39,
+   "stem": "Which property provides the best evidence of the environment in which an igneous rock formed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Thickness"
+    },
+    {
+     "label": "B",
+     "text": "Color"
+    },
+    {
+     "label": "C",
+     "text": "Size"
+    },
+    {
+     "label": "D",
+     "text": "Texture"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-295"
+  },
+  {
+   "n": 40,
+   "stem": "A diagram shows air moving from sea to land during the day (sea breeze) and from land to sea at night (land breeze). What explains this change?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Water is always cooler than land"
+    },
+    {
+     "label": "G",
+     "text": "Land temperature changes faster than water"
+    },
+    {
+     "label": "H",
+     "text": "Cool air rises faster than warm air"
+    },
+    {
+     "label": "J",
+     "text": "The Sun warms ocean air more than land air"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-296"
+  },
+  {
+   "n": 41,
+   "stem": "A rock diagram shows four layers: volcanic flow, limestone, granite intrusion cutting across layers, and shale. Which layer is an intrusion?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-297"
+  },
+  {
+   "n": 42,
+   "stem": "An ocean floor diagram shows continental shelf, continental slope, abyssal plain, and trench. At which feature is water pressure greatest?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Continental shelf"
+    },
+    {
+     "label": "G",
+     "text": "Continental slope"
+    },
+    {
+     "label": "H",
+     "text": "Abyssal plain"
+    },
+    {
+     "label": "J",
+     "text": "Trench"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-298"
+  },
+  {
+   "n": 43,
+   "stem": "Students mapping a lake measure depth at many locations. What additional information is required to construct a depth map?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Water temperature"
+    },
+    {
+     "label": "B",
+     "text": "Position of each measurement relative to shore points"
+    },
+    {
+     "label": "C",
+     "text": "Time of day"
+    },
+    {
+     "label": "D",
+     "text": "Relative humidity"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-299"
+  },
+  {
+   "n": 44,
+   "stem": "Observations show most galaxies have red-shifted spectra. This indicates that —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "galaxies were once one megagalaxy"
+    },
+    {
+     "label": "G",
+     "text": "an explosion will occur in the future"
+    },
+    {
+     "label": "H",
+     "text": "galaxies are moving away from each other"
+    },
+    {
+     "label": "J",
+     "text": "large galaxies are consuming smaller ones"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-300"
+  },
+  {
+   "n": 45,
+   "stem": "Rocks formed by the cementing of weathered materials are called —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "sedimentary rocks"
+    },
+    {
+     "label": "B",
+     "text": "extrusive igneous rocks"
+    },
+    {
+     "label": "C",
+     "text": "basalt"
+    },
+    {
+     "label": "D",
+     "text": "magma"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-301"
+  },
+  {
+   "n": 46,
+   "stem": "A canyon with steep walls and a river flowing through it was most likely formed by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a volcano"
+    },
+    {
+     "label": "G",
+     "text": "high winds"
+    },
+    {
+     "label": "H",
+     "text": "earthquakes"
+    },
+    {
+     "label": "J",
+     "text": "running water"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-302"
+  },
+  {
+   "n": 47,
+   "stem": "What process occurs when atoms combine to form a new element and release energy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Fusion"
+    },
+    {
+     "label": "B",
+     "text": "Fission"
+    },
+    {
+     "label": "C",
+     "text": "Hydrogenation"
+    },
+    {
+     "label": "D",
+     "text": "Ionization"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-303"
+  },
+  {
+   "n": 48,
+   "stem": "Which substance plays the most important role in chemical weathering?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Wind"
+    },
+    {
+     "label": "G",
+     "text": "Water"
+    },
+    {
+     "label": "H",
+     "text": "Ice"
+    },
+    {
+     "label": "J",
+     "text": "Frost"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-304"
+  },
+  {
+   "n": 49,
+   "stem": "A graph shows the mass of limestone decreasing from 2.6 g on Day 1 to 2.4 g on Day 2. How much limestone was worn away?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.2 gram"
+    },
+    {
+     "label": "B",
+     "text": "2.3 grams"
+    },
+    {
+     "label": "C",
+     "text": "2.5 grams"
+    },
+    {
+     "label": "D",
+     "text": "2.8 grams"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-305"
+  },
+  {
+   "n": 50,
+   "stem": "Extrusive rocks have small grains because they —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "cool quickly"
+    },
+    {
+     "label": "G",
+     "text": "harden underground"
+    },
+    {
+     "label": "H",
+     "text": "contain rare minerals"
+    },
+    {
+     "label": "J",
+     "text": "have a rough mixture"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Earth_Science_I_2004_SOLPass",
+   "id": "earth-science-i-306"
+  }
+ ]
+}

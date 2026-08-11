@@ -1,0 +1,8699 @@
+{
+ "subject": "math",
+ "course": "geometry",
+ "courseName": "Geometry",
+ "questionCount": 347,
+ "sources": [
+  "Mathematics_Geometry_2001_SOLPass",
+  "Mathematics_Geometry_2002_SOLPass",
+  "Mathematics_Geometry_2003_SOLPass",
+  "Mathematics_Geometry_2004_SOLPass",
+  "Mathematics_Geometry_2005_SOLPass",
+  "Mathematics_Geometry_2006_SOLPass",
+  "Mathematics_Geometry_2007_SOLPass",
+  "Mathematics_Geometry_2008_SOLPass",
+  "Mathematics_Geometry_2009_SOLPass",
+  "Mathematics_Geometry_2010_SOLPass",
+  "Mathematics_Geometry_2013_SOLPass",
+  "Mathematics_Geometry_2015_SOLPass",
+  "Mathematics_Geometry_VDOE"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "If △ABC is similar to △ADE, then AB : AD =? : AE. Which replaces “?” to make the statement true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "AC"
+    },
+    {
+     "label": "B",
+     "text": "AE"
+    },
+    {
+     "label": "C",
+     "text": "DE"
+    },
+    {
+     "label": "D",
+     "text": "BC"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-1"
+  },
+  {
+   "n": 2,
+   "stem": "George used decorative fencing to enclose his deck. Using the information below and assuming the top and bottom sides are parallel: A quadrilateral has one interior angle labeled x. Adjacent interior angles along one transversal are 130° and 50°. The top and bottom sides are parallel. What is the measure of ∠x?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "50°"
+    },
+    {
+     "label": "G",
+     "text": "80°"
+    },
+    {
+     "label": "H",
+     "text": "100°"
+    },
+    {
+     "label": "J",
+     "text": "130°"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-2"
+  },
+  {
+   "n": 3,
+   "stem": "Angle 1 is a complement of angle 2. If m∠1 = (14x − 8) and m∠2 = (8x + 6), what is the value of x and of m∠1?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "x = 4, m∠1 = 26°"
+    },
+    {
+     "label": "B",
+     "text": "x = 4, m∠1 = 64°"
+    },
+    {
+     "label": "C",
+     "text": "x = 113.3, m∠1 = 121.3°"
+    },
+    {
+     "label": "D",
+     "text": "x = 113.3, m∠1 = 58.7°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-3"
+  },
+  {
+   "n": 4,
+   "stem": "In a figure, two parallel lines l and m are cut by a transversal t. Eight angles are formed and labeled 1 through 8 in standard order. Which pair of angles are alternate interior angles?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "∠3 and ∠6"
+    },
+    {
+     "label": "G",
+     "text": "∠3 and ∠5"
+    },
+    {
+     "label": "H",
+     "text": "∠4 and ∠5"
+    },
+    {
+     "label": "J",
+     "text": "∠4 and ∠6"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-4"
+  },
+  {
+   "n": 6,
+   "stem": "Lines BA and CD are intersected by a transversal, forming four angles labeled 1 through 4 at the top intersection and four angles labeled 5 through 8 at the bottom intersection. BA is parallel to CD if which condition is true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "m∠1 = m∠2"
+    },
+    {
+     "label": "G",
+     "text": "m∠3 = m∠4"
+    },
+    {
+     "label": "H",
+     "text": "m∠1 + m∠2 = 90"
+    },
+    {
+     "label": "J",
+     "text": "m∠1 + m∠2 = m∠3 + m∠4"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-5"
+  },
+  {
+   "n": 7,
+   "stem": "In triangle XYZ, the measure of ∠YZV is 40° and the measure of ∠XYZ is 65°. Which of these angles must measure 40° in order for VR to be parallel to YZ?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "∠YVZ"
+    },
+    {
+     "label": "B",
+     "text": "∠ZVR"
+    },
+    {
+     "label": "C",
+     "text": "∠ZYV"
+    },
+    {
+     "label": "D",
+     "text": "∠VRX"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-6"
+  },
+  {
+   "n": 8,
+   "stem": "Lines l and m contain the points shown below: Line l passes through (−3, 3) and (6, 0). Line m passes through (−5, 1). Which of the following points must lie on line m in order for lines l and m to be parallel?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(0, 2)"
+    },
+    {
+     "label": "G",
+     "text": "(0, 1)"
+    },
+    {
+     "label": "H",
+     "text": "(1, −1)"
+    },
+    {
+     "label": "J",
+     "text": "(4, 1)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-7"
+  },
+  {
+   "n": 9,
+   "stem": "Segment AB is horizontal. Point P lies above AB. Which point lies on the line through P perpendicular to AB?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Q"
+    },
+    {
+     "label": "B",
+     "text": "R"
+    },
+    {
+     "label": "C",
+     "text": "S"
+    },
+    {
+     "label": "D",
+     "text": "T"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-8"
+  },
+  {
+   "n": 10,
+   "stem": "Points A and B form a line segment. Points X, Y, Z, and W are arranged so that X and Z are directly above and below the midpoint of AB. Which pair of points determines the perpendicular bisector of line segment AB?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "X and W"
+    },
+    {
+     "label": "G",
+     "text": "X and Z"
+    },
+    {
+     "label": "H",
+     "text": "Y and W"
+    },
+    {
+     "label": "J",
+     "text": "Y and Z"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-9"
+  },
+  {
+   "n": 12,
+   "stem": "Which of the following groups of statements represents a valid argument?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Given: All squares have four sides. Conclusion: All quadrilaterals are squares."
+    },
+    {
+     "label": "G",
+     "text": "Given: All rhombuses have congruent sides. Conclusion: All rhombuses are squares."
+    },
+    {
+     "label": "H",
+     "text": "Given: All parallelograms have four sides. Conclusion: All parallelograms are quadrilaterals."
+    },
+    {
+     "label": "J",
+     "text": "Given: All squares have angles. Conclusion: All rectangles are squares."
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-10"
+  },
+  {
+   "n": 13,
+   "stem": "Which is the contrapositive of the statement, “If I am in Richmond, then I am in Virginia”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "If I am in Virginia, then I am in Richmond."
+    },
+    {
+     "label": "B",
+     "text": "If I am not in Richmond, then I am not in Virginia."
+    },
+    {
+     "label": "C",
+     "text": "If I am not in Virginia, then I am not in Richmond."
+    },
+    {
+     "label": "D",
+     "text": "If I am not in Virginia, then I am in Richmond."
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-11"
+  },
+  {
+   "n": 16,
+   "stem": "A surveyor measured along a river and formed a triangle with sides 40 ft, 80 ft, and 120 ft. What is the distance across the river from point A to point T?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "60 ft"
+    },
+    {
+     "label": "G",
+     "text": "69.3 ft"
+    },
+    {
+     "label": "H",
+     "text": "84.9 ft"
+    },
+    {
+     "label": "J",
+     "text": "120 ft"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-12"
+  },
+  {
+   "n": 17,
+   "stem": "From shortest to longest, the sides of △ABC are ordered based on opposite angle measures of 59°, 57°, and 64°. Which ordering is correct?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "AC, BC, AB"
+    },
+    {
+     "label": "B",
+     "text": "AB, BC, AC"
+    },
+    {
+     "label": "C",
+     "text": "BC, AC, AB"
+    },
+    {
+     "label": "D",
+     "text": "AB, AC, BC"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-13"
+  },
+  {
+   "n": 18,
+   "stem": "In a triangle, m∠C = 125° and m∠B = 35°. Which is the shortest side of the triangle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "AC"
+    },
+    {
+     "label": "G",
+     "text": "AB"
+    },
+    {
+     "label": "H",
+     "text": "EB"
+    },
+    {
+     "label": "J",
+     "text": "BC"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-14"
+  },
+  {
+   "n": 19,
+   "stem": "On a map, Tannersville, Chadwick, and Barkersville form a triangle. Chadwick is 70 miles from Tannersville, and Barkersville is 90 miles from Tannersville. Which is a possible distance between Chadwick and Barkersville?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 miles"
+    },
+    {
+     "label": "B",
+     "text": "10 miles"
+    },
+    {
+     "label": "C",
+     "text": "150 miles"
+    },
+    {
+     "label": "D",
+     "text": "200 miles"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-15"
+  },
+  {
+   "n": 20,
+   "stem": "A circular design shows a 30° central angle and a chord length of 5 cm opposite that angle. How long is the radius of the circle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "10 cm"
+    },
+    {
+     "label": "G",
+     "text": "8.7 cm"
+    },
+    {
+     "label": "H",
+     "text": "7 cm"
+    },
+    {
+     "label": "J",
+     "text": "4.3 cm"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-16"
+  },
+  {
+   "n": 21,
+   "stem": "A carpenter builds stairs that form a 30° angle with the floor. The vertical rise is 10 ft. What is the horizontal distance from the foot of the stairs to the wall?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "14.1 ft"
+    },
+    {
+     "label": "B",
+     "text": "17.3 ft"
+    },
+    {
+     "label": "C",
+     "text": "20.0 ft"
+    },
+    {
+     "label": "D",
+     "text": "28.3 ft"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-17"
+  },
+  {
+   "n": 22,
+   "stem": "The lengths of two consecutive sides of a parallelogram are 10 inches and 15 inches, and the included angle is 60°. To the nearest tenth of a square inch, what is the area of the parallelogram?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "21.6 sq in."
+    },
+    {
+     "label": "G",
+     "text": "129.9 sq in."
+    },
+    {
+     "label": "H",
+     "text": "139.4 sq in."
+    },
+    {
+     "label": "J",
+     "text": "140.5 sq in."
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-18"
+  },
+  {
+   "n": 25,
+   "stem": "In quadrilateral KLMN, the interior angles are labeled 3x°, (x + 25)°, 95°, and 80°. What is the value of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "35"
+    },
+    {
+     "label": "B",
+     "text": "40"
+    },
+    {
+     "label": "C",
+     "text": "45"
+    },
+    {
+     "label": "D",
+     "text": "50"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-19"
+  },
+  {
+   "n": 26,
+   "stem": "Three vertices of a parallelogram have coordinates (0, 1), (3, 7), and (4, 4). What are the coordinates of the fourth-quadrant vertex?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(−2, 1)"
+    },
+    {
+     "label": "G",
+     "text": "(1, −2)"
+    },
+    {
+     "label": "H",
+     "text": "(2, 1)"
+    },
+    {
+     "label": "J",
+     "text": "(3, 3)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-20"
+  },
+  {
+   "n": 27,
+   "stem": "Figure ABCDEF is a regular hexagon. Point Q lies at the center of the hexagon. What is the measure of ∠CDQ?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "45°"
+    },
+    {
+     "label": "B",
+     "text": "60°"
+    },
+    {
+     "label": "C",
+     "text": "90°"
+    },
+    {
+     "label": "D",
+     "text": "120°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-21"
+  },
+  {
+   "n": 28,
+   "stem": "In pentagon ABCDE, m∠E = m∠C and m∠D = m∠B. The measures of ∠B and ∠C are given as 100° and 105°. What is the measure of ∠A?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "410°"
+    },
+    {
+     "label": "G",
+     "text": "335°"
+    },
+    {
+     "label": "H",
+     "text": "155°"
+    },
+    {
+     "label": "J",
+     "text": "130°"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-22"
+  },
+  {
+   "n": 29,
+   "stem": "Three adjacent angles around point B measure (19x − 15)°, (26x + 20)°, and (9x + 25)°. What is the measure of ∠ABD?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "150°"
+    },
+    {
+     "label": "B",
+     "text": "80°"
+    },
+    {
+     "label": "C",
+     "text": "70°"
+    },
+    {
+     "label": "D",
+     "text": "30°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-23"
+  },
+  {
+   "n": 30,
+   "stem": "Triangle ABC is circumscribed about circle O. Points P and Q are points of tangency. BP = 3 and CQ = 5. What is the measure of BC?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3"
+    },
+    {
+     "label": "G",
+     "text": "4"
+    },
+    {
+     "label": "H",
+     "text": "5"
+    },
+    {
+     "label": "J",
+     "text": "8"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-24"
+  },
+  {
+   "n": 31,
+   "stem": "In a circle, m∠CAB = 40°. What is m∠CDB?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "20°"
+    },
+    {
+     "label": "B",
+     "text": "40°"
+    },
+    {
+     "label": "C",
+     "text": "60°"
+    },
+    {
+     "label": "D",
+     "text": "80°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-25"
+  },
+  {
+   "n": 32,
+   "stem": "AB is tangent to circle C at B. AB = 15 cm, and the radius of the circle is 8 cm. To the nearest tenth of a centimeter, what is the length of AC?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "7.0 cm"
+    },
+    {
+     "label": "G",
+     "text": "12.7 cm"
+    },
+    {
+     "label": "H",
+     "text": "17.0 cm"
+    },
+    {
+     "label": "J",
+     "text": "23.0 cm"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-26"
+  },
+  {
+   "n": 33,
+   "stem": "A stained-glass window is in the shape of a semicircle with a radius of 8 ft. Ignoring seams, how much glass is needed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4π sq ft"
+    },
+    {
+     "label": "B",
+     "text": "8π sq ft"
+    },
+    {
+     "label": "C",
+     "text": "12π sq ft"
+    },
+    {
+     "label": "D",
+     "text": "16π sq ft"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-27"
+  },
+  {
+   "n": 35,
+   "stem": "The cargo space of a truck is 2.44 m wide, 2.76 m high, and 8.20 m long. How many cubic meters of cargo space does the truck have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "26.80"
+    },
+    {
+     "label": "B",
+     "text": "55.22"
+    },
+    {
+     "label": "C",
+     "text": "98.75"
+    },
+    {
+     "label": "D",
+     "text": "110.44"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-28"
+  },
+  {
+   "n": 36,
+   "stem": "What is the approximate volume of a can that is 5 inches tall and has a 2.5-inch diameter?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "19.6 cu in."
+    },
+    {
+     "label": "G",
+     "text": "24.5 cu in."
+    },
+    {
+     "label": "H",
+     "text": "39.3 cu in."
+    },
+    {
+     "label": "J",
+     "text": "98.1 cu in."
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-29"
+  },
+  {
+   "n": 37,
+   "stem": "A rectangular prism tank measures 40 cm by 20 cm. The water level rises 0.4 cm when a rock is submerged. What is the volume of the rock?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "320 cm³"
+    },
+    {
+     "label": "B",
+     "text": "960 cm³"
+    },
+    {
+     "label": "C",
+     "text": "2,000 cm³"
+    },
+    {
+     "label": "D",
+     "text": "9,920 cm³"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-30"
+  },
+  {
+   "n": 38,
+   "stem": "The ratio between the volumes of two spheres is 27 to 8. What is the ratio between their radii?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "81:64"
+    },
+    {
+     "label": "G",
+     "text": "27:16"
+    },
+    {
+     "label": "H",
+     "text": "9:8"
+    },
+    {
+     "label": "J",
+     "text": "3:2"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-31"
+  },
+  {
+   "n": 39,
+   "stem": "A surveyor measures distances of 12 ft and 9 ft along one bank of a river and 52 ft along the opposite bank. Which is a good estimate of the distance across the river?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "20 ft"
+    },
+    {
+     "label": "B",
+     "text": "30 ft"
+    },
+    {
+     "label": "C",
+     "text": "40 ft"
+    },
+    {
+     "label": "D",
+     "text": "50 ft"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-32"
+  },
+  {
+   "n": 40,
+   "stem": "All vertices of a hexagon have integer coordinates. One line of symmetry passes through which two points?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(−4, 3) and (4, 3)"
+    },
+    {
+     "label": "G",
+     "text": "(−2, 2) and (2, 7)"
+    },
+    {
+     "label": "H",
+     "text": "(−2, 7) and (2, 2)"
+    },
+    {
+     "label": "J",
+     "text": "(2, 2) and (−2, 7)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-33"
+  },
+  {
+   "n": 41,
+   "stem": "Polygon A′B′C′D′E′ is obtained from polygon ABCDE by reflecting each point across the x-axis. Which transformation describes this change?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Translation across the x-axis"
+    },
+    {
+     "label": "B",
+     "text": "180° clockwise rotation about the origin"
+    },
+    {
+     "label": "C",
+     "text": "Reflection across the y-axis"
+    },
+    {
+     "label": "D",
+     "text": "Reflection across the x-axis"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-34"
+  },
+  {
+   "n": 43,
+   "stem": "The midpoint of segment AB is (−2, 1). The coordinates of A are (2, 3). What are the coordinates of B?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(0, 2)"
+    },
+    {
+     "label": "B",
+     "text": "(1, 2)"
+    },
+    {
+     "label": "C",
+     "text": "(3, 4)"
+    },
+    {
+     "label": "D",
+     "text": "(−6, −1)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-35"
+  },
+  {
+   "n": 45,
+   "stem": "An airplane travels due north at 300 knots. The wind blows from the east at 50 knots. Which is closest to the resultant speed of the airplane?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "314 knots"
+    },
+    {
+     "label": "B",
+     "text": "304 knots"
+    },
+    {
+     "label": "C",
+     "text": "296 knots"
+    },
+    {
+     "label": "D",
+     "text": "286 knots"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2002_SOLPass",
+   "id": "geometry-36"
+  },
+  {
+   "n": 1,
+   "stem": "Which value for x is a counterexample to the following statement? For all positive values of x, x² > x.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−1.0"
+    },
+    {
+     "label": "B",
+     "text": "−0.1"
+    },
+    {
+     "label": "C",
+     "text": "0.1"
+    },
+    {
+     "label": "D",
+     "text": "1.0"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-37"
+  },
+  {
+   "n": 2,
+   "stem": "The following information describes a Venn diagram showing lunch selections made by athletes. • A total of 310 athletes selected a sandwich. • A total of 125 athletes selected both a sandwich and a salad. • A total of 180 athletes selected both a sandwich and a soup. • The total number of athletes who selected a sandwich includes those who may also have selected salad, soup, or both. How many athletes selected a sandwich, a soup, and a salad?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5"
+    },
+    {
+     "label": "G",
+     "text": "55"
+    },
+    {
+     "label": "H",
+     "text": "65"
+    },
+    {
+     "label": "J",
+     "text": "110"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-38"
+  },
+  {
+   "n": 3,
+   "stem": "The following information represents a Venn diagram of triangles. • One circle represents Acute Triangles. • One circle represents Isosceles Triangles. • The two circles overlap. Which statement is valid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "All triangles are acute and isosceles."
+    },
+    {
+     "label": "B",
+     "text": "All triangles are either acute or isosceles."
+    },
+    {
+     "label": "C",
+     "text": "No triangles are both acute and isosceles."
+    },
+    {
+     "label": "D",
+     "text": "Some triangles are both acute and isosceles."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-39"
+  },
+  {
+   "n": 5,
+   "stem": "Lines j and k are cut by transversals m and n. Three angles are formed with the following measures: • One angle measures (x + y)°. • A corresponding angle on the same transversal measures (x + 30)°. • Another angle formed by the second transversal measures (3x − y − 60)°. Which relationship is sufficient to prove that j ∥ k?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "x = 60"
+    },
+    {
+     "label": "B",
+     "text": "y = 30"
+    },
+    {
+     "label": "C",
+     "text": "y = x − 30"
+    },
+    {
+     "label": "D",
+     "text": "y = 150 − 2x"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-40"
+  },
+  {
+   "n": 6,
+   "stem": "The perimeter of triangle JKL is 200 centimeters. • JK = 68 centimeters • KL = 62 centimeters Which statement is true about the interior angles of triangle JKL?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "m∠L is the greatest of the interior angles"
+    },
+    {
+     "label": "G",
+     "text": "m∠J is the least of the interior angles"
+    },
+    {
+     "label": "H",
+     "text": "m∠K is the greatest of the interior angles"
+    },
+    {
+     "label": "J",
+     "text": "m∠K is the least of the interior angles"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-41"
+  },
+  {
+   "n": 7,
+   "stem": "Two triangles, △STW and △XYZ, are shown with corresponding side lengths expressed in terms of x. For △STW, the side lengths are: • ST = x + 5 • TW = 3x + 1 • SW = 3x − 1 For △XYZ, the corresponding side lengths are: • XY = 4x − 3 • YZ = 4x − 5 • XZ = 2x + 1 Which value of x makes △STW ≅ △XYZ?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "5"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-42"
+  },
+  {
+   "n": 9,
+   "stem": "The figure is a regular hexagon with each side measuring 4 inches. Points A, B, C, D, E, and F label consecutive vertices of the hexagon. What is the length of diagonal AC?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4√3 in."
+    },
+    {
+     "label": "B",
+     "text": "8 in."
+    },
+    {
+     "label": "C",
+     "text": "12 in."
+    },
+    {
+     "label": "D",
+     "text": "8√3 in."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-43"
+  },
+  {
+   "n": 10,
+   "stem": "A shed is modeled as a combination of a triangular prism and a rectangular prism. A vertical plane intersects the model and is parallel to the front face of the shed. What is the shape of this cross section?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Triangle"
+    },
+    {
+     "label": "G",
+     "text": "Pentagon"
+    },
+    {
+     "label": "H",
+     "text": "Rectangle"
+    },
+    {
+     "label": "J",
+     "text": "Trapezoid"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-44"
+  },
+  {
+   "n": 11,
+   "stem": "Using the same shed model, the following dimensions are given: • w = 12 feet • h = 6 feet What is the surface area of the exterior walls and doors of the shed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "360 square feet"
+    },
+    {
+     "label": "B",
+     "text": "414 square feet"
+    },
+    {
+     "label": "C",
+     "text": "468 square feet"
+    },
+    {
+     "label": "D",
+     "text": "630 square feet"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-45"
+  },
+  {
+   "n": 12,
+   "stem": "Using the same shed model, if w = 12 feet, which equation correctly models the volume of the shed?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "V = 18(12)(9 − h)"
+    },
+    {
+     "label": "G",
+     "text": "V = 60h + 18(9 − h)"
+    },
+    {
+     "label": "H",
+     "text": "V = 18(12)(h) + (9)(12)(9 − h)"
+    },
+    {
+     "label": "J",
+     "text": "V = 18(12)(h) + ½(18)(12)(9 − h)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-46"
+  },
+  {
+   "n": 13,
+   "stem": "A cylinder has a volume of 300π cubic centimeters and a base with a circumference of 10π centimeters. What is the height of the cylinder?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30 cm"
+    },
+    {
+     "label": "B",
+     "text": "15 cm"
+    },
+    {
+     "label": "C",
+     "text": "12 cm"
+    },
+    {
+     "label": "D",
+     "text": "3 cm"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-47"
+  },
+  {
+   "n": 14,
+   "stem": "The height of a rectangular prism is decreased by a factor of 1/4. The other dimensions are unchanged. Which statement is true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The volume is decreased by a factor of 1/4."
+    },
+    {
+     "label": "G",
+     "text": "The volume is decreased by a factor of 1/8."
+    },
+    {
+     "label": "H",
+     "text": "The volume is decreased by a factor of 1/2."
+    },
+    {
+     "label": "J",
+     "text": "The volume is decreased by a factor of 1/16."
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-48"
+  },
+  {
+   "n": 15,
+   "stem": "A company makes two similar cylindrical containers. The total surface area of the smaller container is 0.81 times that of the larger container. The height of the larger container is 60 centimeters. What is the height of the smaller container?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "54 cm"
+    },
+    {
+     "label": "B",
+     "text": "48.6 cm"
+    },
+    {
+     "label": "C",
+     "text": "24.3 cm"
+    },
+    {
+     "label": "D",
+     "text": "21 cm"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-49"
+  },
+  {
+   "n": 16,
+   "stem": "Given quadrilateral ABCD with coordinates: A(0, 0), B(r, 0), C(r, m), D(0, m) Which expression proves that ABCD is a rectangle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The length of each diagonal is √(r² + m²)."
+    },
+    {
+     "label": "G",
+     "text": "The common midpoint of the diagonals is (r/2, m/2)."
+    },
+    {
+     "label": "H",
+     "text": "The slope of AC is m/r and the slope of BD is −m/r."
+    },
+    {
+     "label": "J",
+     "text": "The length of AB and CD is r, and the length of AD and BC is m."
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-50"
+  },
+  {
+   "n": 17,
+   "stem": "A figure is composed of a regular pentagon attached to a rectangle along one side. Angles labeled x are the interior angles of the regular pentagon. What is the measure of each angle labeled x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "36°"
+    },
+    {
+     "label": "B",
+     "text": "54°"
+    },
+    {
+     "label": "C",
+     "text": "72°"
+    },
+    {
+     "label": "D",
+     "text": "108°"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-51"
+  },
+  {
+   "n": 18,
+   "stem": "Points Q, R, and S lie on circle P. Angle QPS is a central angle measuring (x + 15)°. The intercepted arc QS measures 40°. What is the value of x?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5"
+    },
+    {
+     "label": "G",
+     "text": "12"
+    },
+    {
+     "label": "H",
+     "text": "25"
+    },
+    {
+     "label": "J",
+     "text": "65"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-52"
+  },
+  {
+   "n": 19,
+   "stem": "In circle P, m∠HJK = 60°, and the measure of arc JK is twice the measure of arc HJ. What is the measure of arc HJ?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "80°"
+    },
+    {
+     "label": "B",
+     "text": "120°"
+    },
+    {
+     "label": "C",
+     "text": "150°"
+    },
+    {
+     "label": "D",
+     "text": "160°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-53"
+  },
+  {
+   "n": 20,
+   "stem": "Circle P has a radius of 1 unit. A central angle of circle P measures 225°. What is the length of the minor arc?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "π/4 units"
+    },
+    {
+     "label": "B",
+     "text": "π/2 units"
+    },
+    {
+     "label": "C",
+     "text": "3π/4 units"
+    },
+    {
+     "label": "D",
+     "text": "5π/4 units"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-54"
+  },
+  {
+   "n": 21,
+   "stem": "The design for an arc-shaped stand is based on a 144° arc of a circle with a radius of 2.3 meters. What is the length of the arc, rounded to the nearest hundredth?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2.89 m"
+    },
+    {
+     "label": "B",
+     "text": "3.68 m"
+    },
+    {
+     "label": "C",
+     "text": "5.78 m"
+    },
+    {
+     "label": "D",
+     "text": "7.23 m"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-55"
+  },
+  {
+   "n": 22,
+   "stem": "Three concentric circles share center O. • The radius of the smallest circle is r. • The radius of the middle circle is 2r. • The radius of the largest circle is 3r. • Segment KP, from the center to the outer circle, measures 42 inches. Which value is closest to the area of the shaded region between the middle and largest circles?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "231 sq in."
+    },
+    {
+     "label": "G",
+     "text": "308 sq in."
+    },
+    {
+     "label": "H",
+     "text": "539 sq in."
+    },
+    {
+     "label": "J",
+     "text": "616 sq in."
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-56"
+  },
+  {
+   "n": 23,
+   "stem": "In circle T, the radius WP is 36 centimeters. A sector of the circle subtends a central angle of 65°. Which best represents the area of the shaded sector?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "117π cm²"
+    },
+    {
+     "label": "B",
+     "text": "180π cm²"
+    },
+    {
+     "label": "C",
+     "text": "234π cm²"
+    },
+    {
+     "label": "D",
+     "text": "468π cm²"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-57"
+  },
+  {
+   "n": 24,
+   "stem": "Circle W has center W(−4, 6) and radius 10 units. Which point lies on circle W?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(0, 4)"
+    },
+    {
+     "label": "G",
+     "text": "(2, 10)"
+    },
+    {
+     "label": "H",
+     "text": "(4, 0)"
+    },
+    {
+     "label": "J",
+     "text": "(6, 16)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_VDOE",
+   "id": "geometry-58"
+  },
+  {
+   "n": 1,
+   "stem": "A transversal line ℓ intersects four lines labeled a, b, c, and d. At line a, the angle formed with ℓ is 75°. At line b, the angle formed with ℓ is 85°. At line c, the angle formed with ℓ is 105°. At line d, the angle formed with ℓ is 100°. Which two lines are parallel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a and c"
+    },
+    {
+     "label": "B",
+     "text": "a and d"
+    },
+    {
+     "label": "C",
+     "text": "b and c"
+    },
+    {
+     "label": "D",
+     "text": "b and d"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-59"
+  },
+  {
+   "n": 2,
+   "stem": "Two parallel horizontal lines are cut by a transversal. At the upper intersection, angles are labeled 1 (upper left), 2 (upper right), 3 (lower left), and 4 (lower right). At the lower intersection, angles are labeled 5 (upper left), 6 (upper right), 7 (lower left), and 8 (lower right). ∠2 and ∠6 form which type of angle pair?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "consecutive interior angles"
+    },
+    {
+     "label": "G",
+     "text": "alternate interior angles"
+    },
+    {
+     "label": "H",
+     "text": "vertical angles"
+    },
+    {
+     "label": "J",
+     "text": "corresponding angles"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-60"
+  },
+  {
+   "n": 3,
+   "stem": "One exterior angle of a regular polygon measures 72°. What is the measure of one interior angle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "18°"
+    },
+    {
+     "label": "B",
+     "text": "108°"
+    },
+    {
+     "label": "C",
+     "text": "360°"
+    },
+    {
+     "label": "D",
+     "text": "540°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-61"
+  },
+  {
+   "n": 4,
+   "stem": "Lines a and b are parallel, and lines c and d are parallel. A transversal intersects all four lines, creating 16 angles numbered sequentially from top to bottom and left to right. ∠1 is at the top intersection on line a. Which angle is not necessarily congruent to ∠1?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "∠3"
+    },
+    {
+     "label": "G",
+     "text": "∠9"
+    },
+    {
+     "label": "H",
+     "text": "∠12"
+    },
+    {
+     "label": "J",
+     "text": "∠16"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-62"
+  },
+  {
+   "n": 5,
+   "stem": "A bench leg makes a 130° angle with the ground. The seat of the bench must be parallel to the ground. What must be the measure of angle x, the angle between the leg and the seat?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "50°"
+    },
+    {
+     "label": "B",
+     "text": "65°"
+    },
+    {
+     "label": "C",
+     "text": "90°"
+    },
+    {
+     "label": "D",
+     "text": "130°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-63"
+  },
+  {
+   "n": 6,
+   "stem": "Line v is a transversal intersecting two lines, creating angles labeled w, x, y, and z. The measures shown are: one angle is 70°, another is 80°, another is 110°, and another is 100°, arranged so that w and x are adjacent on the upper line and y and z are adjacent on the lower line. Which statement is true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "w ∥ y and x ∥ z"
+    },
+    {
+     "label": "G",
+     "text": "w ∥ x and y ∥ z"
+    },
+    {
+     "label": "H",
+     "text": "w ∥ z and x ∥ y"
+    },
+    {
+     "label": "J",
+     "text": "w ∥ x and x ∥ y"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-64"
+  },
+  {
+   "n": 7,
+   "stem": "Lines ℓ and m are parallel and cut by a transversal. At the top intersection, angles are labeled 1–4; at the middle intersection, 5–8; at the bottom intersection, 9–16. ∠4 and ∠12 are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "alternate interior angles"
+    },
+    {
+     "label": "B",
+     "text": "consecutive interior angles"
+    },
+    {
+     "label": "C",
+     "text": "corresponding angles"
+    },
+    {
+     "label": "D",
+     "text": "a linear pair"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-65"
+  },
+  {
+   "n": 8,
+   "stem": "A board is nailed across two beams, forming eight angles labeled 1 through 8. Which equality of angle measures would ensure the beams are parallel?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "m∠1 = m∠2"
+    },
+    {
+     "label": "G",
+     "text": "m∠1 = m∠3"
+    },
+    {
+     "label": "H",
+     "text": "m∠2 = m∠5"
+    },
+    {
+     "label": "J",
+     "text": "m∠3 = m∠4"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-66"
+  },
+  {
+   "n": 9,
+   "stem": "Points C, A, B, K, L, M, N, and R lie on several connected segments forming a figure. Segment AB is shown. Which segment is congruent to AB?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "CK"
+    },
+    {
+     "label": "B",
+     "text": "CL"
+    },
+    {
+     "label": "C",
+     "text": "CM"
+    },
+    {
+     "label": "D",
+     "text": "CN"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-67"
+  },
+  {
+   "n": 10,
+   "stem": "A point A is not on line ℓ. Points W, X, Y, and Z are shown near line ℓ. Which point lies on the perpendicular to line ℓ drawn from point A?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "X"
+    },
+    {
+     "label": "G",
+     "text": "Y"
+    },
+    {
+     "label": "H",
+     "text": "Z"
+    },
+    {
+     "label": "J",
+     "text": "W"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-68"
+  },
+  {
+   "n": 11,
+   "stem": "A circular pie has center C. Points W, X, Y, and Z are on the circumference. Where should the pie be cut so that two boys receive equal shares?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "CZ"
+    },
+    {
+     "label": "B",
+     "text": "CY"
+    },
+    {
+     "label": "C",
+     "text": "CX"
+    },
+    {
+     "label": "D",
+     "text": "CW"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-69"
+  },
+  {
+   "n": 12,
+   "stem": "If p → q and q → r, then —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "r → p"
+    },
+    {
+     "label": "G",
+     "text": "p → r"
+    },
+    {
+     "label": "H",
+     "text": "¬r → p"
+    },
+    {
+     "label": "J",
+     "text": "r → ¬p"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-70"
+  },
+  {
+   "n": 13,
+   "stem": "The conditional statement “If you have a laptop, then you have a computer” is represented by p → q. What is the symbolic representation of “If you have a computer, then you do not have a laptop”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "q → ¬p"
+    },
+    {
+     "label": "B",
+     "text": "¬q → p"
+    },
+    {
+     "label": "C",
+     "text": "p → ¬q"
+    },
+    {
+     "label": "D",
+     "text": "¬q → ¬p"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-71"
+  },
+  {
+   "n": 14,
+   "stem": "V represents the set of all vehicles. M represents the set of all motorized vehicles. A represents the set of all automobiles. A is entirely inside M, and M is entirely inside V. Which conclusion is valid?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "All automobiles are motorized vehicles."
+    },
+    {
+     "label": "G",
+     "text": "All motorized vehicles are automobiles."
+    },
+    {
+     "label": "H",
+     "text": "Some automobiles are not motorized vehicles."
+    },
+    {
+     "label": "J",
+     "text": "No automobiles are motorized vehicles."
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-72"
+  },
+  {
+   "n": 16,
+   "stem": "Triangles IJK and LMN are shown with IJ = LM = 12 and IK = LN = 8. Which additional information would prove that △IJK ∼ △LMN?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "NM = 18"
+    },
+    {
+     "label": "G",
+     "text": "LM = 18"
+    },
+    {
+     "label": "H",
+     "text": "NM = 15"
+    },
+    {
+     "label": "J",
+     "text": "LM = 10"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-73"
+  },
+  {
+   "n": 17,
+   "stem": "Given: M is the midpoint of LN and KP. Which postulate or theorem is sufficient to prove △KML ≅ △PMN?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Angle-Side-Angle"
+    },
+    {
+     "label": "B",
+     "text": "Side-Side-Side"
+    },
+    {
+     "label": "C",
+     "text": "Side-Angle-Side"
+    },
+    {
+     "label": "D",
+     "text": "Angle-Angle-Side"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-74"
+  },
+  {
+   "n": 18,
+   "stem": "Which of the following could not be the lengths of the sides of a triangle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6 ft, 3 ft, 9 ft"
+    },
+    {
+     "label": "G",
+     "text": "3 cm, 4 cm, 5 cm"
+    },
+    {
+     "label": "H",
+     "text": "4 in., 6 in., 8 in."
+    },
+    {
+     "label": "J",
+     "text": "5 km, 2 km, 4 km"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-75"
+  },
+  {
+   "n": 19,
+   "stem": "In △DEF, DE = 8 in., EF = 6 in., and DF = 10 in. Which lists the angles in order from smallest to largest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "∠D, ∠E, ∠F"
+    },
+    {
+     "label": "B",
+     "text": "∠F, ∠D, ∠E"
+    },
+    {
+     "label": "C",
+     "text": "∠E, ∠F, ∠D"
+    },
+    {
+     "label": "D",
+     "text": "∠D, ∠F, ∠E"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-76"
+  },
+  {
+   "n": 20,
+   "stem": "In △ABC, if m∠C < m∠B < m∠A, then —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "AB < AC < BC"
+    },
+    {
+     "label": "G",
+     "text": "AC < AB < BC"
+    },
+    {
+     "label": "H",
+     "text": "AB < BC < CA"
+    },
+    {
+     "label": "J",
+     "text": "BC < AB < CA"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-77"
+  },
+  {
+   "n": 21,
+   "stem": "A finish-line banner forms a right triangle with the ground. One side is 7 ft, another is 8 ft, and the support rope is the hypotenuse labeled x. Which is closest to the length of the support rope?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "9.5 ft"
+    },
+    {
+     "label": "B",
+     "text": "10.6 ft"
+    },
+    {
+     "label": "C",
+     "text": "12.0 ft"
+    },
+    {
+     "label": "D",
+     "text": "15.0 ft"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-78"
+  },
+  {
+   "n": 22,
+   "stem": "A baseball diamond is a square with side length 90 ft. What is the distance from home plate to second base?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "90 ft"
+    },
+    {
+     "label": "G",
+     "text": "90√2 ft"
+    },
+    {
+     "label": "H",
+     "text": "90√3 ft"
+    },
+    {
+     "label": "J",
+     "text": "180 ft"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-79"
+  },
+  {
+   "n": 23,
+   "stem": "What is the length of a diagonal brace for a wall 9 ft high and 12 ft long?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12 ft"
+    },
+    {
+     "label": "B",
+     "text": "13 ft"
+    },
+    {
+     "label": "C",
+     "text": "14 ft"
+    },
+    {
+     "label": "D",
+     "text": "15 ft"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-80"
+  },
+  {
+   "n": 24,
+   "stem": "A parallelogram-shaped corral ABCD is adjacent to a shed. Angle at A is 40°. A gate CF swings from position CF to CG along the fence. Through how many degrees does the gate swing?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "40°"
+    },
+    {
+     "label": "G",
+     "text": "50°"
+    },
+    {
+     "label": "H",
+     "text": "130°"
+    },
+    {
+     "label": "J",
+     "text": "140°"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-81"
+  },
+  {
+   "n": 25,
+   "stem": "A diagonal of parallelogram DEFG forms two adjacent angles measuring 56° and 44° at vertex E. What is m∠DEF?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "44°"
+    },
+    {
+     "label": "B",
+     "text": "56°"
+    },
+    {
+     "label": "C",
+     "text": "80°"
+    },
+    {
+     "label": "D",
+     "text": "100°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-82"
+  },
+  {
+   "n": 26,
+   "stem": "Quadrilateral MNOP is a parallelogram. M(1, 5), N(2, 1), O(−3, −2). If P has coordinates (x, 2), what is x?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "−5"
+    },
+    {
+     "label": "G",
+     "text": "−4"
+    },
+    {
+     "label": "H",
+     "text": "−3"
+    },
+    {
+     "label": "J",
+     "text": "0"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-83"
+  },
+  {
+   "n": 27,
+   "stem": "Rectangular flowerbeds surround a fishpond shaped as a regular octagon. What is the measure of the angle between two consecutive flowerbeds?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30°"
+    },
+    {
+     "label": "B",
+     "text": "45°"
+    },
+    {
+     "label": "C",
+     "text": "60°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-84"
+  },
+  {
+   "n": 28,
+   "stem": "A portion of a regular polygon is shown with each exterior angle measuring 24°. How many sides does the polygon have?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "15"
+    },
+    {
+     "label": "G",
+     "text": "16"
+    },
+    {
+     "label": "H",
+     "text": "18"
+    },
+    {
+     "label": "J",
+     "text": "20"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-85"
+  },
+  {
+   "n": 29,
+   "stem": "Each interior angle of a regular polygon measures 162°. How many sides does the polygon have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "17"
+    },
+    {
+     "label": "B",
+     "text": "18"
+    },
+    {
+     "label": "C",
+     "text": "19"
+    },
+    {
+     "label": "D",
+     "text": "20"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-86"
+  },
+  {
+   "n": 30,
+   "stem": "In circle O, the measure of arc PSR is 280°. What is the measure of central angle ∠POR?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "160°"
+    },
+    {
+     "label": "G",
+     "text": "85°"
+    },
+    {
+     "label": "H",
+     "text": "80°"
+    },
+    {
+     "label": "J",
+     "text": "40°"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-87"
+  },
+  {
+   "n": 31,
+   "stem": "In trapezoid ABCD, bases AB and DC are parallel. AB = 26, DC = 40, one leg is 20, and the other leg is 2x + 6. What is the value of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "17"
+    },
+    {
+     "label": "B",
+     "text": "13"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-88"
+  },
+  {
+   "n": 32,
+   "stem": "In circle C, arc WX = 25°, arc XY = 40°, arc YZ = 25°, and chord WY = 24 cm. What is the length of chord XZ?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "12 cm"
+    },
+    {
+     "label": "G",
+     "text": "24 cm"
+    },
+    {
+     "label": "H",
+     "text": "25 cm"
+    },
+    {
+     "label": "J",
+     "text": "65 cm"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-89"
+  },
+  {
+   "n": 33,
+   "stem": "A pizza has a diameter of 16 inches and is divided into 6 equal slices. Which is closest to the area of one slice?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "134.1 sq in."
+    },
+    {
+     "label": "B",
+     "text": "117.1 sq in."
+    },
+    {
+     "label": "C",
+     "text": "67.2 sq in."
+    },
+    {
+     "label": "D",
+     "text": "33.5 sq in."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-90"
+  },
+  {
+   "n": 34,
+   "stem": "A solid is constructed from 1×1×1 cubes and is completely solid. What is the volume of the solid?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "12 cubic units"
+    },
+    {
+     "label": "G",
+     "text": "34 cubic units"
+    },
+    {
+     "label": "H",
+     "text": "59 cubic units"
+    },
+    {
+     "label": "J",
+     "text": "68 cubic units"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-91"
+  },
+  {
+   "n": 36,
+   "stem": "Which is closest to the volume of a sphere with radius 8 cm?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "267.9 cm³"
+    },
+    {
+     "label": "G",
+     "text": "803.8 cm³"
+    },
+    {
+     "label": "H",
+     "text": "1,607.7 cm³"
+    },
+    {
+     "label": "J",
+     "text": "2,143.6 cm³"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-92"
+  },
+  {
+   "n": 37,
+   "stem": "What is the total surface area of a rectangular prism measuring 5 ft by 1 ft by 1 ft?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 sq ft"
+    },
+    {
+     "label": "B",
+     "text": "20 sq ft"
+    },
+    {
+     "label": "C",
+     "text": "22 sq ft"
+    },
+    {
+     "label": "D",
+     "text": "30 sq ft"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-93"
+  },
+  {
+   "n": 38,
+   "stem": "Points P and Q are on one side of a lake, and points S and T are on the opposite side. PQ ∥ ST. Distances given are PQ = 30 m, PR = 28 m, and RT = 105 m. What is ST, the width of the lake?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "62 m"
+    },
+    {
+     "label": "G",
+     "text": "70 m"
+    },
+    {
+     "label": "H",
+     "text": "84 m"
+    },
+    {
+     "label": "J",
+     "text": "98 m"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-94"
+  },
+  {
+   "n": 39,
+   "stem": "The ratio of the perimeter of triangle U to triangle V is 1:2. The corresponding side lengths are labeled x, y, 2, 4, 5, and z. If the triangles are similar, what is x + y?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "18"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-95"
+  },
+  {
+   "n": 40,
+   "stem": "Right triangle ABC has side lengths 3, 4, and 5. What is the maximum number of lines of symmetry that can be drawn?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0"
+    },
+    {
+     "label": "G",
+     "text": "1"
+    },
+    {
+     "label": "H",
+     "text": "2"
+    },
+    {
+     "label": "J",
+     "text": "3"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-96"
+  },
+  {
+   "n": 41,
+   "stem": "On a coordinate grid, point Q is at (−1, 2) and point V is at (1, −2). What is the slope of line QV?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−2"
+    },
+    {
+     "label": "B",
+     "text": "−1/2"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-97"
+  },
+  {
+   "n": 42,
+   "stem": "One figure is mapped onto another by rotating all points 180° about the origin. Which transformation describes this?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "reflection across y = 1"
+    },
+    {
+     "label": "G",
+     "text": "reflection across y = x"
+    },
+    {
+     "label": "H",
+     "text": "90° rotation about the origin"
+    },
+    {
+     "label": "J",
+     "text": "180° rotation about the origin"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-98"
+  },
+  {
+   "n": 43,
+   "stem": "Triangle ABC has vertices A(4, 5), B(5, 4), and C(1, 1). What is the midpoint of AB?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(1.5, 1.5)"
+    },
+    {
+     "label": "B",
+     "text": "(3, 3)"
+    },
+    {
+     "label": "C",
+     "text": "(4.5, 4.5)"
+    },
+    {
+     "label": "D",
+     "text": "(4.5, 1.5)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-99"
+  },
+  {
+   "n": 44,
+   "stem": "Rectangle ABCD has vertices A(2, 7), B(6, 7), C(6, 3), and D(2, 3). Which equation describes a line of symmetry?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "x = 2"
+    },
+    {
+     "label": "G",
+     "text": "x = 5"
+    },
+    {
+     "label": "H",
+     "text": "y = 5"
+    },
+    {
+     "label": "J",
+     "text": "y = x"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-100"
+  },
+  {
+   "n": 45,
+   "stem": "Triangle ABC is reflected to form A′B′C′ across the line y = x. Which transformation produces A′B′C′?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "reflecting ABC across the y-axis"
+    },
+    {
+     "label": "B",
+     "text": "reflecting ABC across the x-axis"
+    },
+    {
+     "label": "C",
+     "text": "rotating ABC about the point (1, 2)"
+    },
+    {
+     "label": "D",
+     "text": "reflecting ABC across the line y = x"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2007_SOLPass",
+   "id": "geometry-101"
+  },
+  {
+   "n": 1,
+   "stem": "A plumber bent a flexible joint to form an angle of 136°. Another pipe was attached so that points A, B, and D lie on a straight line (forming a straight angle of 180°). Angle x is the angle between the second pipe and the flexible joint, forming a linear pair with the 136° angle. What is the value of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "36"
+    },
+    {
+     "label": "B",
+     "text": "44"
+    },
+    {
+     "label": "C",
+     "text": "46"
+    },
+    {
+     "label": "D",
+     "text": "224"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-102"
+  },
+  {
+   "n": 3,
+   "stem": "Which pair of angles is supplementary (their measures add to 180°)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "35° and 145°"
+    },
+    {
+     "label": "B",
+     "text": "55° and 35°"
+    },
+    {
+     "label": "C",
+     "text": "25° and 75°"
+    },
+    {
+     "label": "D",
+     "text": "80° and 80°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-103"
+  },
+  {
+   "n": 4,
+   "stem": "Lines l and m are parallel. Line t intersects both lines, forming angles labeled ∠1 on line l and ∠2 on line m. Angle 1 and Angle 2 are on opposite sides of the transversal and outside the two parallel lines. Which best describes the relationship between ∠1 and ∠2?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Alternate interior angles"
+    },
+    {
+     "label": "G",
+     "text": "Consecutive interior angles"
+    },
+    {
+     "label": "H",
+     "text": "Corresponding angles"
+    },
+    {
+     "label": "J",
+     "text": "Alternate exterior angles"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-104"
+  },
+  {
+   "n": 5,
+   "stem": "A straight line l intersects four other lines w, x, y, and z. The angle formed between line l and line w is 110°. The angle between line l and line x is 65°. The angle between line l and line y is 75°. The angle between line l and line z is 115°. Which two lines are parallel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "w and x"
+    },
+    {
+     "label": "B",
+     "text": "x and z"
+    },
+    {
+     "label": "C",
+     "text": "y and z"
+    },
+    {
+     "label": "D",
+     "text": "w and y"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-105"
+  },
+  {
+   "n": 6,
+   "stem": "Two horizontal lines a and b are cut by a transversal. At one intersection, the angle measure is (4x − 30)°. At the corresponding position on the other line, the angle measure is (2x)°. Which value of x will make line a parallel to line b?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5"
+    },
+    {
+     "label": "G",
+     "text": "15"
+    },
+    {
+     "label": "H",
+     "text": "20"
+    },
+    {
+     "label": "J",
+     "text": "35"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-106"
+  },
+  {
+   "n": 7,
+   "stem": "Lines LM and QR are parallel. A transversal intersects LM at point N and QR at point P. Angles ∠M and ∠L are corresponding angles whose measures add to 60°. What is the measure of ∠QNP?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "90°"
+    },
+    {
+     "label": "B",
+     "text": "120°"
+    },
+    {
+     "label": "C",
+     "text": "150°"
+    },
+    {
+     "label": "D",
+     "text": "180°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-107"
+  },
+  {
+   "n": 8,
+   "stem": "Two lines l and m are cut by a transversal. Angles are labeled x°, y°, z°, and w° at the intersections. Which additional piece of information would verify that l ∥ m?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "x = 72"
+    },
+    {
+     "label": "G",
+     "text": "y = w"
+    },
+    {
+     "label": "H",
+     "text": "z = 108"
+    },
+    {
+     "label": "J",
+     "text": "x = w"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-108"
+  },
+  {
+   "n": 9,
+   "stem": "Points R, S, Q, and T are shown. A line AB is given. One of the points lies on the line perpendicular to AB that also bisects AB. Which point lies on that perpendicular bisector?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Q"
+    },
+    {
+     "label": "B",
+     "text": "R"
+    },
+    {
+     "label": "C",
+     "text": "S"
+    },
+    {
+     "label": "D",
+     "text": "T"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-109"
+  },
+  {
+   "n": 10,
+   "stem": "Angle PQR is given. Points A, B, C, and D lie inside the angle. One point lies exactly on the angle bisector of ∠PQR. Which point lies on the bisector of ∠PQR?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A"
+    },
+    {
+     "label": "G",
+     "text": "B"
+    },
+    {
+     "label": "H",
+     "text": "C"
+    },
+    {
+     "label": "J",
+     "text": "D"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-110"
+  },
+  {
+   "n": 11,
+   "stem": "A construction diagram shows arcs drawn from two points on a line that intersect above the line, forming the standard construction used to copy an angle. The drawing shows the arcs used to construct —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a bisector of a given angle"
+    },
+    {
+     "label": "B",
+     "text": "an angle congruent to a given angle"
+    },
+    {
+     "label": "C",
+     "text": "a bisector of a given line"
+    },
+    {
+     "label": "D",
+     "text": "a perpendicular to a given line at a point on the line"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-111"
+  },
+  {
+   "n": 13,
+   "stem": "A diagram shows three overlapping sets labeled “cat owners,” “dog owners,” and “fish owners.” The overlap shows that dog owners and fish owners overlap, but cat owners do not overlap with fish owners. Based strictly on this information, which is a valid conclusion?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "No cat owners also own dogs."
+    },
+    {
+     "label": "B",
+     "text": "No dog owners also own fish."
+    },
+    {
+     "label": "C",
+     "text": "No fish owners also own cats."
+    },
+    {
+     "label": "D",
+     "text": "No pet owner owns more than one pet."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-112"
+  },
+  {
+   "n": 14,
+   "stem": "Consider the following statements: p: The sum of two angles is 90°. q: The two angles are complements. Which of the following is a symbolic representation of the statement: “If two angles are not complements, then the sum of the two angles is not 90°”?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "¬q → ¬p"
+    },
+    {
+     "label": "G",
+     "text": "¬p → ¬q"
+    },
+    {
+     "label": "H",
+     "text": "q → p"
+    },
+    {
+     "label": "J",
+     "text": "p → q"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-113"
+  },
+  {
+   "n": 15,
+   "stem": "Given: AD ≅ AC and AB ≅ AE. Points D and E lie on opposite sides of point A, forming triangles △ADB and △ACE. Which proportion is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "AD / AB = AC / AE"
+    },
+    {
+     "label": "B",
+     "text": "AB / AD = AE / AC"
+    },
+    {
+     "label": "C",
+     "text": "AD / AC = AB / AE"
+    },
+    {
+     "label": "D",
+     "text": "AB / AE = AD / AC"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-114"
+  },
+  {
+   "n": 17,
+   "stem": "Given: △LMQ ≅ △LNP. Which conclusion must be true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "LM = PQ"
+    },
+    {
+     "label": "B",
+     "text": "MN = QL"
+    },
+    {
+     "label": "C",
+     "text": "LM = MN"
+    },
+    {
+     "label": "D",
+     "text": "LP = LM"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-115"
+  },
+  {
+   "n": 18,
+   "stem": "In △PQR, the side lengths are: PQ = 56 mm, QR = 64 mm, PR = 70 mm. From smallest to largest, the angles of △PQR are —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "∠R, ∠Q, ∠P"
+    },
+    {
+     "label": "G",
+     "text": "∠R, ∠P, ∠Q"
+    },
+    {
+     "label": "H",
+     "text": "∠Q, ∠R, ∠P"
+    },
+    {
+     "label": "J",
+     "text": "∠P, ∠R, ∠Q"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-116"
+  },
+  {
+   "n": 19,
+   "stem": "Which set of lengths could not be the lengths of the sides of a triangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7 in., 24 in., 30 in."
+    },
+    {
+     "label": "B",
+     "text": "8 ft, 10 ft, 12 ft"
+    },
+    {
+     "label": "C",
+     "text": "4 cm, 5 cm, 9 cm"
+    },
+    {
+     "label": "D",
+     "text": "2 m, 3 m, 4 m"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-117"
+  },
+  {
+   "n": 20,
+   "stem": "The locations of three water pumping stations form a triangle. Distance AB = 650 m Distance BC = 558 m Distance AC =? Which statement describes the possible length of AC?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "less than 92 m"
+    },
+    {
+     "label": "G",
+     "text": "exactly 92 m"
+    },
+    {
+     "label": "H",
+     "text": "between 92 m and 1,208 m"
+    },
+    {
+     "label": "J",
+     "text": "greater than 1,208 m"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-118"
+  },
+  {
+   "n": 21,
+   "stem": "The top of a ladder rests against a building 12 feet above the ground. The bottom of the ladder is 5 feet from the base of the building. What is the length of the ladder?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "19 ft"
+    },
+    {
+     "label": "B",
+     "text": "17 ft"
+    },
+    {
+     "label": "C",
+     "text": "13 ft"
+    },
+    {
+     "label": "D",
+     "text": "7 ft"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-119"
+  },
+  {
+   "n": 22,
+   "stem": "A design is formed by joining isosceles right triangles (45°–45°–90°) and 30°–60°–90° triangles. The hypotenuse of the 30°–60°–90° triangle is 12 cm. Which is closest to the length of one leg of the isosceles right triangle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6 cm"
+    },
+    {
+     "label": "G",
+     "text": "7.2 cm"
+    },
+    {
+     "label": "H",
+     "text": "8.5 cm"
+    },
+    {
+     "label": "J",
+     "text": "10.4 cm"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-120"
+  },
+  {
+   "n": 23,
+   "stem": "A circle has a diameter drawn horizontally. From one endpoint of the diameter, a radius is drawn making a 45° angle with the diameter. What is the diameter of the circle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3√2 in."
+    },
+    {
+     "label": "B",
+     "text": "3√3 in."
+    },
+    {
+     "label": "C",
+     "text": "6√2 in."
+    },
+    {
+     "label": "D",
+     "text": "6√3 in."
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-121"
+  },
+  {
+   "n": 24,
+   "stem": "Quadrilateral ABCD is a parallelogram. Angle A measures 22°. What is the measure of ∠C?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "22°"
+    },
+    {
+     "label": "G",
+     "text": "68°"
+    },
+    {
+     "label": "H",
+     "text": "112°"
+    },
+    {
+     "label": "J",
+     "text": "158°"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-122"
+  },
+  {
+   "n": 25,
+   "stem": "The vertices of parallelogram ABCD have coordinates A(1, 8), B(4, 2), and C(−2, 7). What are the coordinates of D?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(−5, 3)"
+    },
+    {
+     "label": "B",
+     "text": "(−3, 5)"
+    },
+    {
+     "label": "C",
+     "text": "(2, 3)"
+    },
+    {
+     "label": "D",
+     "text": "(5, 3)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-123"
+  },
+  {
+   "n": 26,
+   "stem": "A piece of plywood is cut in a straight line from point C to point E to form a desktop. Which measurement would ensure that the desktop is rectangular?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "AE = EB"
+    },
+    {
+     "label": "G",
+     "text": "AC = BD"
+    },
+    {
+     "label": "H",
+     "text": "EC = CD"
+    },
+    {
+     "label": "J",
+     "text": "DE = CA"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-124"
+  },
+  {
+   "n": 27,
+   "stem": "Which of the following is not true about a parallelogram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Any two opposite sides are congruent."
+    },
+    {
+     "label": "B",
+     "text": "Any two opposite angles are congruent."
+    },
+    {
+     "label": "C",
+     "text": "The diagonals bisect each other."
+    },
+    {
+     "label": "D",
+     "text": "Any two consecutive angles are complementary."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-125"
+  },
+  {
+   "n": 28,
+   "stem": "A pentagon has five interior angles. Four of them measure 90°, 90°, 100°, and 105°. What is the value of the fifth interior angle x?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "90°"
+    },
+    {
+     "label": "G",
+     "text": "155°"
+    },
+    {
+     "label": "H",
+     "text": "245°"
+    },
+    {
+     "label": "J",
+     "text": "335°"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-126"
+  },
+  {
+   "n": 29,
+   "stem": "A regular polygon has a central angle x. Which is closest to the measure of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "40°"
+    },
+    {
+     "label": "B",
+     "text": "45°"
+    },
+    {
+     "label": "C",
+     "text": "50°"
+    },
+    {
+     "label": "D",
+     "text": "60°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-127"
+  },
+  {
+   "n": 30,
+   "stem": "A regular polygon is shown. What is the measure of each interior angle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "225°"
+    },
+    {
+     "label": "G",
+     "text": "180°"
+    },
+    {
+     "label": "H",
+     "text": "160°"
+    },
+    {
+     "label": "J",
+     "text": "144°"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-128"
+  },
+  {
+   "n": 31,
+   "stem": "In circle P, LO is a diameter. Points L, M, and O lie on the circle, forming triangle LMO. What is m∠LMO?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30°"
+    },
+    {
+     "label": "B",
+     "text": "45°"
+    },
+    {
+     "label": "C",
+     "text": "80°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-129"
+  },
+  {
+   "n": 32,
+   "stem": "Two secants PB and PD intersect a circle at points A and C, respectively. PA = 5, AC = 4, and PB extends beyond the circle so that PB = 12. What is the length of PC?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3"
+    },
+    {
+     "label": "G",
+     "text": "4"
+    },
+    {
+     "label": "H",
+     "text": "5"
+    },
+    {
+     "label": "J",
+     "text": "6"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-130"
+  },
+  {
+   "n": 33,
+   "stem": "In a circle, m∠RPQ = 50° and m∠PRQ = 60°. What is the measure of arc PR?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "70°"
+    },
+    {
+     "label": "B",
+     "text": "100°"
+    },
+    {
+     "label": "C",
+     "text": "120°"
+    },
+    {
+     "label": "D",
+     "text": "140°"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-131"
+  },
+  {
+   "n": 36,
+   "stem": "A tepee is shaped like a right cone with a slant height of 18.5 feet and a diameter of 20 feet. Approximately how much canvas is needed to cover the tepee (lateral surface area)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "581 sq ft"
+    },
+    {
+     "label": "G",
+     "text": "116 sq ft"
+    },
+    {
+     "label": "H",
+     "text": "89 sq ft"
+    },
+    {
+     "label": "J",
+     "text": "58 sq ft"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-132"
+  },
+  {
+   "n": 37,
+   "stem": "The Great Pyramid at Giza has a square base with side length 230 meters and a height of 146.7 meters. Approximately what is the volume of the pyramid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1,650,000 m³"
+    },
+    {
+     "label": "B",
+     "text": "2,590,000 m³"
+    },
+    {
+     "label": "C",
+     "text": "4,950,000 m³"
+    },
+    {
+     "label": "D",
+     "text": "7,760,000 m³"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-133"
+  },
+  {
+   "n": 38,
+   "stem": "The ratio of the circumferences of two circles is 3:2. The radius of the smaller circle is 8 inches. What is the radius of the larger circle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5 inches"
+    },
+    {
+     "label": "G",
+     "text": "6 inches"
+    },
+    {
+     "label": "H",
+     "text": "9 inches"
+    },
+    {
+     "label": "J",
+     "text": "12 inches"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-134"
+  },
+  {
+   "n": 39,
+   "stem": "Two ships leave the same marina at the same time. After 2.5 hours, they are 3.2 miles apart. They continue traveling at the same speed and direction. How far apart will they be 2 hours later?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2.56 mi"
+    },
+    {
+     "label": "B",
+     "text": "3.52 mi"
+    },
+    {
+     "label": "C",
+     "text": "5.76 mi"
+    },
+    {
+     "label": "D",
+     "text": "6.08 mi"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-135"
+  },
+  {
+   "n": 40,
+   "stem": "Triangle XYZ is obtained from triangle ABC by a rotation about point P. The rotation is 90° clockwise about the origin. Which of the following indicates the correspondence of the vertices?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A → X, B → Y, C → Z"
+    },
+    {
+     "label": "G",
+     "text": "A → Y, B → Z, C → X"
+    },
+    {
+     "label": "H",
+     "text": "A → X, B → Z, C → Y"
+    },
+    {
+     "label": "J",
+     "text": "A → Z, B → X, C → Y"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-136"
+  },
+  {
+   "n": 41,
+   "stem": "A figure on a coordinate plane is symmetric left-to-right across the y-axis but not symmetric across the x-axis. This figure is apparently symmetric with respect to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the x-axis only"
+    },
+    {
+     "label": "B",
+     "text": "the y-axis only"
+    },
+    {
+     "label": "C",
+     "text": "both the x-axis and the y-axis"
+    },
+    {
+     "label": "D",
+     "text": "neither the x-axis nor the y-axis"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-137"
+  },
+  {
+   "n": 42,
+   "stem": "A line is graphed on a coordinate plane. It rises 1 unit for every 3 units it moves to the right. What is the most likely slope of the line?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1/3"
+    },
+    {
+     "label": "G",
+     "text": "3/2"
+    },
+    {
+     "label": "H",
+     "text": "2"
+    },
+    {
+     "label": "J",
+     "text": "3"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2004_SOLPass",
+   "id": "geometry-138"
+  },
+  {
+   "n": 1,
+   "stem": "Lines ℓ and m are cut by transversal n. Which statement would prove that ℓ ∥ m?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "m∠2 = m∠6"
+    },
+    {
+     "label": "B",
+     "text": "m∠2 = m∠3"
+    },
+    {
+     "label": "C",
+     "text": "m∠7 + m∠8 = 180°"
+    },
+    {
+     "label": "D",
+     "text": "m∠3 + m∠5 = 90°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-139"
+  },
+  {
+   "n": 4,
+   "stem": "Two parallel lines are cut by a transversal. If the measure of ∠1 is 115°, what is the measure of the corresponding interior angle on the same side of the transversal?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "25°"
+    },
+    {
+     "label": "G",
+     "text": "65°"
+    },
+    {
+     "label": "H",
+     "text": "75°"
+    },
+    {
+     "label": "J",
+     "text": "115°"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-140"
+  },
+  {
+   "n": 8,
+   "stem": "A construction shows a line segment with two arcs drawn from each endpoint intersecting above and below the segment, followed by a straight line drawn through the arc intersections. Which construction is illustrated?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "An angle congruent to a given angle"
+    },
+    {
+     "label": "G",
+     "text": "The bisector of a given angle"
+    },
+    {
+     "label": "H",
+     "text": "The bisector of a given segment"
+    },
+    {
+     "label": "J",
+     "text": "The perpendicular bisector of a given segment"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-141"
+  },
+  {
+   "n": 9,
+   "stem": "A regular polygon has equal sides and equal interior angles. Each exterior angle measures 60°, and each interior angle is supplementary to its exterior angle. What are the measures of x and y, where x is the exterior angle and y is the interior angle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "78°, 102°"
+    },
+    {
+     "label": "B",
+     "text": "72°, 108°"
+    },
+    {
+     "label": "C",
+     "text": "60°, 120°"
+    },
+    {
+     "label": "D",
+     "text": "45°, 135°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-142"
+  },
+  {
+   "n": 12,
+   "stem": "What is the converse of the following statement? “If Joe goes fishing, then he needs bait.”",
+   "choices": [
+    {
+     "label": "A",
+     "text": "If he needs bait, then Joe goes fishing."
+    },
+    {
+     "label": "B",
+     "text": "If Joe does not go fishing, then he does not need bait."
+    },
+    {
+     "label": "C",
+     "text": "If he does not need bait, then Joe does not go fishing."
+    },
+    {
+     "label": "D",
+     "text": "If Joe goes fishing, then he does not need bait."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-143"
+  },
+  {
+   "n": 14,
+   "stem": "Let p represent “x² = 21” and let q represent “x is not a whole number.” Which represents the statement: “If x is a whole number, then x² ≠ 21”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "p → q"
+    },
+    {
+     "label": "B",
+     "text": "¬p → q"
+    },
+    {
+     "label": "C",
+     "text": "¬q → ¬p"
+    },
+    {
+     "label": "D",
+     "text": "q → p"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-144"
+  },
+  {
+   "n": 15,
+   "stem": "Which pipe lengths could be joined to form a triangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "15 ft, 6 ft, 5 ft"
+    },
+    {
+     "label": "B",
+     "text": "13 ft, 12 ft, 5 ft"
+    },
+    {
+     "label": "C",
+     "text": "40 ft, 20 ft, 10 ft"
+    },
+    {
+     "label": "D",
+     "text": "19 ft, 16 ft, 2 ft"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-145"
+  },
+  {
+   "n": 16,
+   "stem": "Joseph is standing 12 feet from a mirror lying flat on the ground. His eyes are 5 feet above the ground. The mirror creates congruent angles of incidence and reflection. A building is 264 feet from the mirror. Which is closest to the height of the building?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "100 ft"
+    },
+    {
+     "label": "G",
+     "text": "110 ft"
+    },
+    {
+     "label": "H",
+     "text": "130 ft"
+    },
+    {
+     "label": "J",
+     "text": "145 ft"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-146"
+  },
+  {
+   "n": 19,
+   "stem": "In triangle ABC, ∠A = 60° and ∠B = 50°. Which best describes the possible length of side BC relative to sides AB and AC?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Less than 10 inches"
+    },
+    {
+     "label": "B",
+     "text": "Between 10 and 12 inches"
+    },
+    {
+     "label": "C",
+     "text": "Between 12 and 22 inches"
+    },
+    {
+     "label": "D",
+     "text": "Greater than 22 inches"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-147"
+  },
+  {
+   "n": 20,
+   "stem": "The following relationships are shown: Some flowering plants are bushes. Roses are a type of flowering plant. Which statement must be true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "No bushes are flowering plants."
+    },
+    {
+     "label": "G",
+     "text": "No roses are bushes."
+    },
+    {
+     "label": "H",
+     "text": "Some roses are not flowering plants."
+    },
+    {
+     "label": "J",
+     "text": "Some flowering plants are bushes."
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-148"
+  },
+  {
+   "n": 23,
+   "stem": "From a point 12 feet from the base of a building, the angle of elevation to the top is 70°. Given: sin 70° = 0.940 cos 70° = 0.342 tan 70° = 2.75 Which is closest to the height of the building?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "24 ft"
+    },
+    {
+     "label": "B",
+     "text": "33 ft"
+    },
+    {
+     "label": "C",
+     "text": "35 ft"
+    },
+    {
+     "label": "D",
+     "text": "41 ft"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-149"
+  },
+  {
+   "n": 24,
+   "stem": "Two squares share a vertex. Square ABCD has diagonal AC = 28 mm. Square DECF is congruent to ABCD. What is the perimeter of square DECF?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "14 mm"
+    },
+    {
+     "label": "G",
+     "text": "28 mm"
+    },
+    {
+     "label": "H",
+     "text": "42 mm"
+    },
+    {
+     "label": "J",
+     "text": "56 mm"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-150"
+  },
+  {
+   "n": 25,
+   "stem": "The opposite sides of a window frame are congruent. Which additional information would verify that the frame is a rectangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "∠B = ∠D"
+    },
+    {
+     "label": "B",
+     "text": "Diagonals AC ≅ BD"
+    },
+    {
+     "label": "C",
+     "text": "AC ⟂ BD"
+    },
+    {
+     "label": "D",
+     "text": "m∠A + m∠D = 180°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-151"
+  },
+  {
+   "n": 26,
+   "stem": "In parallelogram WXYZ, W = (−2, 6), X = (6, 6), Y = (9, 1), and Z = (1, 1). What are the coordinates of the point of intersection of diagonals WY and ZX?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(2.5, 2.5)"
+    },
+    {
+     "label": "G",
+     "text": "(7.5, 3.5)"
+    },
+    {
+     "label": "H",
+     "text": "(5.5, 3.5)"
+    },
+    {
+     "label": "J",
+     "text": "(3.5, 3.5)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-152"
+  },
+  {
+   "n": 28,
+   "stem": "For a regular polygon with three sides, each interior angle has a measure of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "180°"
+    },
+    {
+     "label": "G",
+     "text": "60°"
+    },
+    {
+     "label": "H",
+     "text": "45°"
+    },
+    {
+     "label": "J",
+     "text": "30°"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-153"
+  },
+  {
+   "n": 29,
+   "stem": "Each interior angle of a regular polygon measures 156°. How many sides does the polygon have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "13"
+    },
+    {
+     "label": "B",
+     "text": "14"
+    },
+    {
+     "label": "C",
+     "text": "15"
+    },
+    {
+     "label": "D",
+     "text": "16"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-154"
+  },
+  {
+   "n": 31,
+   "stem": "In parallelogram ABCD, m∠A = 4x° and m∠B = 8x°. If x = 5, what is m∠D?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "100°"
+    },
+    {
+     "label": "B",
+     "text": "120°"
+    },
+    {
+     "label": "C",
+     "text": "140°"
+    },
+    {
+     "label": "D",
+     "text": "160°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-155"
+  },
+  {
+   "n": 35,
+   "stem": "A concrete pillar is shaped as a rectangular prism with dimensions 9.5 m by 1.5 m by 15 m. Which is closest to the volume of concrete needed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12.5 m³"
+    },
+    {
+     "label": "B",
+     "text": "14.3 m³"
+    },
+    {
+     "label": "C",
+     "text": "21.4 m³"
+    },
+    {
+     "label": "D",
+     "text": "28.5 m³"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-156"
+  },
+  {
+   "n": 36,
+   "stem": "A right triangular pyramid has a height of 10 inches and a base area of 41.57 square inches. What is the volume, in cubic inches, of the pyramid?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "138.56"
+    },
+    {
+     "label": "G",
+     "text": "207.85"
+    },
+    {
+     "label": "H",
+     "text": "277.13"
+    },
+    {
+     "label": "J",
+     "text": "415.69"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-157"
+  },
+  {
+   "n": 37,
+   "stem": "The surface area of a plastic ball is 196π. A sponge ball has a radius twice that of the plastic ball. What is the surface area of the sponge ball?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "9,604π"
+    },
+    {
+     "label": "B",
+     "text": "993π"
+    },
+    {
+     "label": "C",
+     "text": "784π"
+    },
+    {
+     "label": "D",
+     "text": "546π"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-158"
+  },
+  {
+   "n": 40,
+   "stem": "The diameter of a circle has endpoints (−3, 2) and (3, −2). Which is closest to the length of the diameter?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "14"
+    },
+    {
+     "label": "G",
+     "text": "3.2"
+    },
+    {
+     "label": "H",
+     "text": "7.2"
+    },
+    {
+     "label": "J",
+     "text": "10.0"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-159"
+  },
+  {
+   "n": 43,
+   "stem": "What are the most likely coordinates of R′ if segment R′S′ is a reflection of RS across the y-axis and R is at (−4, 3)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(4, 3)"
+    },
+    {
+     "label": "B",
+     "text": "(4, −3)"
+    },
+    {
+     "label": "C",
+     "text": "(−4, −3)"
+    },
+    {
+     "label": "D",
+     "text": "(3, 4)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-160"
+  },
+  {
+   "n": 44,
+   "stem": "A line segment has one endpoint at (3, 2). If the midpoint is (6, −2), what are the coordinates of the other endpoint?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(4.5, 0)"
+    },
+    {
+     "label": "G",
+     "text": "(0, 6)"
+    },
+    {
+     "label": "H",
+     "text": "(9, 4)"
+    },
+    {
+     "label": "J",
+     "text": "(9, −6)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2008_SOLPass",
+   "id": "geometry-161"
+  },
+  {
+   "n": 2,
+   "stem": "A ladder is leaning against a vertical house. The angle between the ladder and the vertical side of the house is 38°. What is the measure of the angle between the ladder and the ground?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "38°"
+    },
+    {
+     "label": "B",
+     "text": "42°"
+    },
+    {
+     "label": "C",
+     "text": "52°"
+    },
+    {
+     "label": "D",
+     "text": "142°"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-162"
+  },
+  {
+   "n": 4,
+   "stem": "Two lines, AB and CD, intersect at point P. Segment PR is perpendicular to line AB. The measure of ∠APD is 170°. What is the measure of ∠DPB?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10°"
+    },
+    {
+     "label": "B",
+     "text": "20°"
+    },
+    {
+     "label": "C",
+     "text": "30°"
+    },
+    {
+     "label": "D",
+     "text": "40°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-163"
+  },
+  {
+   "n": 5,
+   "stem": "In triangle ABC, sides BC and AC are extended to form two sides of parallelogram CDEF. The measures of ∠CAB and ∠CBA are each 36°. What is the measure of ∠CFE?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "36°"
+    },
+    {
+     "label": "B",
+     "text": "54°"
+    },
+    {
+     "label": "C",
+     "text": "72°"
+    },
+    {
+     "label": "D",
+     "text": "108°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-164"
+  },
+  {
+   "n": 8,
+   "stem": "Line a is parallel to line b. Which condition proves the lines are parallel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "m∠4 = m∠2"
+    },
+    {
+     "label": "B",
+     "text": "m∠3 = m∠5"
+    },
+    {
+     "label": "C",
+     "text": "m∠4 = m∠5"
+    },
+    {
+     "label": "D",
+     "text": "m∠3 = m∠2"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-165"
+  },
+  {
+   "n": 9,
+   "stem": "Triangle ABC is a right triangle with the right angle at C. Which are possible measures for angles A and B?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "48° and 50°"
+    },
+    {
+     "label": "B",
+     "text": "38° and 32°"
+    },
+    {
+     "label": "C",
+     "text": "52° and 38°"
+    },
+    {
+     "label": "D",
+     "text": "52° and 128°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-166"
+  },
+  {
+   "n": 12,
+   "stem": "If negotiations fail, the baseball strike will not end. If the baseball strike does not end, the World Series will not be played. Which conclusion logically follows?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "If the baseball strike ends, the World Series will be played."
+    },
+    {
+     "label": "B",
+     "text": "If negotiations do not fail, the baseball strike will not end."
+    },
+    {
+     "label": "C",
+     "text": "If negotiations fail, the World Series will be played."
+    },
+    {
+     "label": "D",
+     "text": "If negotiations fail, the World Series will not be played."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-167"
+  },
+  {
+   "n": 13,
+   "stem": "Let a represent “x is an odd number.” Let b represent “x is a multiple of 3.” When x = 7, which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a ∧ b"
+    },
+    {
+     "label": "B",
+     "text": "a ∧ ¬b"
+    },
+    {
+     "label": "C",
+     "text": "¬a ∧ b"
+    },
+    {
+     "label": "D",
+     "text": "¬a ∧ ¬b"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-168"
+  },
+  {
+   "n": 15,
+   "stem": "Given AC ≅ BD, which postulate could be used to prove △DCA ≅ △CDB?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "SSS"
+    },
+    {
+     "label": "B",
+     "text": "SAS"
+    },
+    {
+     "label": "C",
+     "text": "ASA"
+    },
+    {
+     "label": "D",
+     "text": "AAS"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-169"
+  },
+  {
+   "n": 16,
+   "stem": "On the shores of a river, three points A, B, and C are marked. The measure of ∠ACB is 70°, and the measure of ∠ABC is 65°. Which lists the distances between the locations in order from least to greatest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A to B, B to C, A to C"
+    },
+    {
+     "label": "B",
+     "text": "B to C, A to B, A to C"
+    },
+    {
+     "label": "C",
+     "text": "B to C, A to C, A to B"
+    },
+    {
+     "label": "D",
+     "text": "A to C, A to B, B to C"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-170"
+  },
+  {
+   "n": 17,
+   "stem": "Triangles ABC and EFG are similar. Side AC corresponds to side EG. The length of AC is 5 units, and the length of EG is 7 units. What is the ratio AC : EG?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 : 7"
+    },
+    {
+     "label": "B",
+     "text": "7 : 5"
+    },
+    {
+     "label": "C",
+     "text": "5 : 12"
+    },
+    {
+     "label": "D",
+     "text": "7 : 12"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-171"
+  },
+  {
+   "n": 18,
+   "stem": "Which of the following could be the lengths of the sides of triangle ABC?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12, 15, 2"
+    },
+    {
+     "label": "B",
+     "text": "9, 15, 4"
+    },
+    {
+     "label": "C",
+     "text": "150, 100, 50"
+    },
+    {
+     "label": "D",
+     "text": "10, 8, 12"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-172"
+  },
+  {
+   "n": 20,
+   "stem": "A 20-foot ladder leaning against a building makes an angle of 60° with the ground. How far from the base of the building is the foot of the ladder?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 ft"
+    },
+    {
+     "label": "B",
+     "text": "8.2 ft"
+    },
+    {
+     "label": "C",
+     "text": "10 ft"
+    },
+    {
+     "label": "D",
+     "text": "17.3 ft"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-173"
+  },
+  {
+   "n": 22,
+   "stem": "An airplane is 34 miles horizontally from the end of a runway and 6 miles above the ground. To the nearest mile, what is the distance from the airplane to the end of the runway?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "41 mi"
+    },
+    {
+     "label": "B",
+     "text": "39 mi"
+    },
+    {
+     "label": "C",
+     "text": "37 mi"
+    },
+    {
+     "label": "D",
+     "text": "35 mi"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-174"
+  },
+  {
+   "n": 23,
+   "stem": "In a circle with diameter 12 cm, ∠RST is 30°. What is the length of chord SR?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12√3 cm"
+    },
+    {
+     "label": "B",
+     "text": "12√2 cm"
+    },
+    {
+     "label": "C",
+     "text": "6√3 cm"
+    },
+    {
+     "label": "D",
+     "text": "6√2 cm"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-175"
+  },
+  {
+   "n": 24,
+   "stem": "Points A(2,3), B(?,?), C(5,0), and D(0,0) form a parallelogram ABCD. What are the coordinates of B?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(3,7)"
+    },
+    {
+     "label": "B",
+     "text": "(5,5)"
+    },
+    {
+     "label": "C",
+     "text": "(7,8)"
+    },
+    {
+     "label": "D",
+     "text": "(7,3)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-176"
+  },
+  {
+   "n": 25,
+   "stem": "Which quadrilateral could have diagonals that are congruent but do not bisect each other?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rhombus"
+    },
+    {
+     "label": "B",
+     "text": "Rectangle"
+    },
+    {
+     "label": "C",
+     "text": "Parallelogram"
+    },
+    {
+     "label": "D",
+     "text": "Trapezoid"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-177"
+  },
+  {
+   "n": 26,
+   "stem": "Three vertices of a square are at (5,1), (2,2), and (1,1). What are the coordinates of the fourth vertex?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(−2,2)"
+    },
+    {
+     "label": "B",
+     "text": "(2,−2)"
+    },
+    {
+     "label": "C",
+     "text": "(2,4)"
+    },
+    {
+     "label": "D",
+     "text": "(4,2)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-178"
+  },
+  {
+   "n": 28,
+   "stem": "A regular pentagon has all sides extended. What is the measure of each interior angle of the pentagon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "72°"
+    },
+    {
+     "label": "B",
+     "text": "90°"
+    },
+    {
+     "label": "C",
+     "text": "110°"
+    },
+    {
+     "label": "D",
+     "text": "120°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-179"
+  },
+  {
+   "n": 29,
+   "stem": "Each exterior angle of a regular polygon measures 30°. How many sides does the polygon have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "9"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "12"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-180"
+  },
+  {
+   "n": 32,
+   "stem": "Triangle ABC is inscribed in a circle. The intercepted arc opposite ∠BAC measures 40°. What is the measure of ∠BAC?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "90°"
+    },
+    {
+     "label": "B",
+     "text": "70°"
+    },
+    {
+     "label": "C",
+     "text": "40°"
+    },
+    {
+     "label": "D",
+     "text": "20°"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-181"
+  },
+  {
+   "n": 35,
+   "stem": "A scale drawing shows 1 cm represents 13 m. The height of the drawing is 4.5 cm. What is the actual height of the building?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "58.5 m"
+    },
+    {
+     "label": "B",
+     "text": "71.5 m"
+    },
+    {
+     "label": "C",
+     "text": "78 m"
+    },
+    {
+     "label": "D",
+     "text": "84.5 m"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-182"
+  },
+  {
+   "n": 36,
+   "stem": "What is the volume of a refrigerator that is 4.5 feet tall, 2.5 feet wide, and 2 feet deep?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "15 cubic feet"
+    },
+    {
+     "label": "B",
+     "text": "19 cubic feet"
+    },
+    {
+     "label": "C",
+     "text": "22.5 cubic feet"
+    },
+    {
+     "label": "D",
+     "text": "25 cubic feet"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-183"
+  },
+  {
+   "n": 38,
+   "stem": "Two vehicles move away from each other at a constant angle. After 6 seconds, they are 150 feet apart. Vehicle A travels at 50 ft/s, and Vehicle B at 40 ft/s. How far apart are they after 15 seconds?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "150 ft"
+    },
+    {
+     "label": "B",
+     "text": "375 ft"
+    },
+    {
+     "label": "C",
+     "text": "600 ft"
+    },
+    {
+     "label": "D",
+     "text": "750 ft"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-184"
+  },
+  {
+   "n": 39,
+   "stem": "A mirror is placed on the ground 25 feet from the base of a tree. A person whose eyes are 5 feet above the ground stands so that the distance from her eyes to the mirror is 3.25 feet and sees the top of the tree. Which is closest to the height of the tree?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "24 ft"
+    },
+    {
+     "label": "B",
+     "text": "28 ft 4 in."
+    },
+    {
+     "label": "C",
+     "text": "38 ft 6 in."
+    },
+    {
+     "label": "D",
+     "text": "40 ft"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-185"
+  },
+  {
+   "n": 40,
+   "stem": "Quadrilateral ABCD is symmetric with respect to the y-axis. If point B is at (2,1), what are the coordinates of point D?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2,1)"
+    },
+    {
+     "label": "B",
+     "text": "(−1,−2)"
+    },
+    {
+     "label": "C",
+     "text": "(−2,1)"
+    },
+    {
+     "label": "D",
+     "text": "(1,2)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-186"
+  },
+  {
+   "n": 41,
+   "stem": "If vector RS = (3, −2) and vector TV = (−1, −4), which column matrix represents RS + TV?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2, −6)"
+    },
+    {
+     "label": "B",
+     "text": "(4, 2)"
+    },
+    {
+     "label": "C",
+     "text": "(−4, −2)"
+    },
+    {
+     "label": "D",
+     "text": "(−6, 2)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-187"
+  },
+  {
+   "n": 43,
+   "stem": "A circle has center (1,3) and passes through the point (7,5). What is the radius of the circle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "40"
+    },
+    {
+     "label": "C",
+     "text": "68"
+    },
+    {
+     "label": "D",
+     "text": "14"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-188"
+  },
+  {
+   "n": 45,
+   "stem": "Joan drives 3 miles north, 2 miles east, 4 miles north, and 5 miles east. Which vector represents the resultant displacement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(5,9)"
+    },
+    {
+     "label": "B",
+     "text": "(5,10)"
+    },
+    {
+     "label": "C",
+     "text": "(7,7)"
+    },
+    {
+     "label": "D",
+     "text": "(7,10)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2001_SOLPass",
+   "id": "geometry-189"
+  },
+  {
+   "n": 1,
+   "stem": "Two parallel lines are intersected by a transversal. One angle formed is 90°, and the angle on the opposite side of the transversal on the other parallel line is labeled x. The given angle adjacent to x on the same intersection is 115°. What is the value of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "90°"
+    },
+    {
+     "label": "B",
+     "text": "115°"
+    },
+    {
+     "label": "C",
+     "text": "135°"
+    },
+    {
+     "label": "D",
+     "text": "160°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-190"
+  },
+  {
+   "n": 2,
+   "stem": "Parallel lines ℓ and m are cut by transversal c. It is given that the measure of angle 4 equals the measure of angle 5, and the measure of angle 6 equals the measure of angle 7. Which of the following is the measure of the supplement of ∠CAB?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "42°"
+    },
+    {
+     "label": "B",
+     "text": "90°"
+    },
+    {
+     "label": "C",
+     "text": "132°"
+    },
+    {
+     "label": "D",
+     "text": "142°"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-191"
+  },
+  {
+   "n": 4,
+   "stem": "What are the measures of two complementary angles if the difference of their measures is 18°?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "36°, 54°"
+    },
+    {
+     "label": "B",
+     "text": "41°, 49°"
+    },
+    {
+     "label": "C",
+     "text": "81°, 99°"
+    },
+    {
+     "label": "D",
+     "text": "86°, 94°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-192"
+  },
+  {
+   "n": 5,
+   "stem": "Line n intersects lines p, q, r, and s, forming angles. Two of the angles formed with line n are congruent corresponding angles. Which two lines are parallel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "p and q"
+    },
+    {
+     "label": "B",
+     "text": "p and r"
+    },
+    {
+     "label": "C",
+     "text": "q and r"
+    },
+    {
+     "label": "D",
+     "text": "p and s"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-193"
+  },
+  {
+   "n": 6,
+   "stem": "Which statement will prove that line ℓ is parallel to line m, given a transversal with angles labeled 1 through 7?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "∠2 = ∠7"
+    },
+    {
+     "label": "B",
+     "text": "∠2 = ∠3"
+    },
+    {
+     "label": "C",
+     "text": "∠2 = ∠5"
+    },
+    {
+     "label": "D",
+     "text": "∠7 = ∠1"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-194"
+  },
+  {
+   "n": 7,
+   "stem": "A construction is shown for drawing a line parallel to QR through point P. Which arc must be drawn first in this construction?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Arc centered at point P"
+    },
+    {
+     "label": "B",
+     "text": "Arc centered at point Q"
+    },
+    {
+     "label": "C",
+     "text": "Arc centered at point R"
+    },
+    {
+     "label": "D",
+     "text": "Arc centered at the intersection point"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-195"
+  },
+  {
+   "n": 8,
+   "stem": "Given m∠1 = 110°. Which must be true if lines y and z are parallel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "m∠8 = 100°"
+    },
+    {
+     "label": "B",
+     "text": "m∠7 = 110°"
+    },
+    {
+     "label": "C",
+     "text": "m∠6 = 80°"
+    },
+    {
+     "label": "D",
+     "text": "m∠5 = 110°"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-196"
+  },
+  {
+   "n": 9,
+   "stem": "Which two points determine a line parallel to QR, where QR has slope −1?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(1, 1) and (2, −1)"
+    },
+    {
+     "label": "B",
+     "text": "(−1, −1) and (−2, −3)"
+    },
+    {
+     "label": "C",
+     "text": "(1, 4) and (5, 2)"
+    },
+    {
+     "label": "D",
+     "text": "(2, 1) and (−2, −1)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-197"
+  },
+  {
+   "n": 12,
+   "stem": "According to a Venn diagram of car features showing overlapping sets for Automatic Transmission, Rear-Wheel Drive, and 4-Cylinder Engine, which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "All cars have automatic transmissions and rear-wheel drive."
+    },
+    {
+     "label": "B",
+     "text": "No cars have 4 cylinders and rear-wheel drive."
+    },
+    {
+     "label": "C",
+     "text": "All cars have rear-wheel drive."
+    },
+    {
+     "label": "D",
+     "text": "Some cars have automatic transmissions and 4 cylinders."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-198"
+  },
+  {
+   "n": 13,
+   "stem": "Which set of statements represents an invalid argument?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "If I work, then I will make money. If I make money, then I will buy clothes. Therefore, if I work, then I will buy clothes."
+    },
+    {
+     "label": "B",
+     "text": "If we pass Geometry, then we will play sports. If we play sports, then we will get a trophy. Therefore, if we do not get a trophy, then we did not pass Geometry."
+    },
+    {
+     "label": "C",
+     "text": "If Mark goes camping, then he will go fishing. If Mark goes fishing, then he will buy bait. Therefore, if Mark does not buy bait, then he will go camping."
+    },
+    {
+     "label": "D",
+     "text": "If it is your birthday, then you will get ice cream. If you get ice cream, then you will get cake. Therefore, if it is your birthday, then you will get cake."
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-199"
+  },
+  {
+   "n": 14,
+   "stem": "Triangles ABC and EFG are similar. Triangle ABC has sides 5 cm, 6 cm, and 7 cm. Triangle EFG has corresponding sides scaled by a factor of 2. What is the perimeter of triangle EFG?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "21 cm"
+    },
+    {
+     "label": "B",
+     "text": "24 cm"
+    },
+    {
+     "label": "C",
+     "text": "36 cm"
+    },
+    {
+     "label": "D",
+     "text": "42 cm"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-200"
+  },
+  {
+   "n": 15,
+   "stem": "Which is the contrapositive of the statement: “If you do your homework, then you will be prepared for the test.”",
+   "choices": [
+    {
+     "label": "A",
+     "text": "If you are prepared for the test, then you did your homework."
+    },
+    {
+     "label": "B",
+     "text": "If you are not prepared for the test, then you did not do your homework."
+    },
+    {
+     "label": "C",
+     "text": "If you do your homework, then you will be prepared for the test."
+    },
+    {
+     "label": "D",
+     "text": "If you do not do your homework, then you will not be prepared for the test."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-201"
+  },
+  {
+   "n": 16,
+   "stem": "If triangle XYZ is similar to triangle XLM, which proportion must be true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "XM : XZ = XL : XY"
+    },
+    {
+     "label": "B",
+     "text": "XM : XZ = XY : XL"
+    },
+    {
+     "label": "C",
+     "text": "XL : LM = YZ : XZ"
+    },
+    {
+     "label": "D",
+     "text": "XL : LY = XZ : MZ"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-202"
+  },
+  {
+   "n": 17,
+   "stem": "Given ABCD is a parallelogram. Prove ΔABD ≅ ΔCDB. Opposite sides of a parallelogram are congruent, and opposite angles are congruent. Which postulate or theorem proves the triangles congruent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "SSA"
+    },
+    {
+     "label": "B",
+     "text": "ASA"
+    },
+    {
+     "label": "C",
+     "text": "SAS"
+    },
+    {
+     "label": "D",
+     "text": "AAS"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-203"
+  },
+  {
+   "n": 18,
+   "stem": "Three boys are flying kites at points J, K, and L. Viewed from above, ∠K = 45° and ∠J = 65°. Which angle has the least measure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "∠J"
+    },
+    {
+     "label": "B",
+     "text": "∠K"
+    },
+    {
+     "label": "C",
+     "text": "∠L"
+    },
+    {
+     "label": "D",
+     "text": "All are equal"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-204"
+  },
+  {
+   "n": 19,
+   "stem": "Which list orders the sides of triangle JKL from least to greatest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "LJ, JK, KL"
+    },
+    {
+     "label": "B",
+     "text": "KL, KJ, LJ"
+    },
+    {
+     "label": "C",
+     "text": "KJ, LK, JL"
+    },
+    {
+     "label": "D",
+     "text": "LJ, LK, JK"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-205"
+  },
+  {
+   "n": 22,
+   "stem": "A fire truck has a ladder that can extend to 60 feet and can be raised to a maximum angle of 75° with the horizontal. Disregarding the height of the truck, which is closest to the maximum height the ladder can reach?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "15.53 ft"
+    },
+    {
+     "label": "B",
+     "text": "57.96 ft"
+    },
+    {
+     "label": "C",
+     "text": "60.00 ft"
+    },
+    {
+     "label": "D",
+     "text": "62.12 ft"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-206"
+  },
+  {
+   "n": 23,
+   "stem": "Scotty is making a triangular arrangement of dominoes. The bottom row has 8 dominoes, the next row has 7, continuing upward by one fewer domino per row. How many dominoes are needed to complete the triangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "28"
+    },
+    {
+     "label": "B",
+     "text": "36"
+    },
+    {
+     "label": "C",
+     "text": "45"
+    },
+    {
+     "label": "D",
+     "text": "64"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-207"
+  },
+  {
+   "n": 24,
+   "stem": "The spokes on a wagon wheel form twelve congruent central angles. What is the measure of each central angle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30°"
+    },
+    {
+     "label": "B",
+     "text": "90°"
+    },
+    {
+     "label": "C",
+     "text": "120°"
+    },
+    {
+     "label": "D",
+     "text": "150°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-208"
+  },
+  {
+   "n": 25,
+   "stem": "XYZW is a rectangle. Which of the following is not necessarily true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "XY = WZ"
+    },
+    {
+     "label": "B",
+     "text": "YZ ⟂ WZ"
+    },
+    {
+     "label": "C",
+     "text": "∠X = ∠Z"
+    },
+    {
+     "label": "D",
+     "text": "∠X = ∠Y"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-209"
+  },
+  {
+   "n": 26,
+   "stem": "A regular polygon is partially covered by a rectangle. The uncovered interior angle shown measures 135°. What is the number of sides of the polygon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12"
+    },
+    {
+     "label": "B",
+     "text": "10"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-210"
+  },
+  {
+   "n": 27,
+   "stem": "If ∠E = ∠C in a circle with center O, and m∠AOB = 45°, what is the measure of the intercepted arc?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "22.5°"
+    },
+    {
+     "label": "B",
+     "text": "45°"
+    },
+    {
+     "label": "C",
+     "text": "67.5°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-211"
+  },
+  {
+   "n": 28,
+   "stem": "Three vertices of a parallelogram are (1, −4), (3, 8), and (5, 0). What are the coordinates of the vertex in the second quadrant?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(−8, 12)"
+    },
+    {
+     "label": "B",
+     "text": "(1, 4)"
+    },
+    {
+     "label": "C",
+     "text": "(1, −4)"
+    },
+    {
+     "label": "D",
+     "text": "(9, 4)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-212"
+  },
+  {
+   "n": 30,
+   "stem": "In rectangle PQRS, m∠1 = 50°. What is the measure of ∠2?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "130°"
+    },
+    {
+     "label": "B",
+     "text": "85°"
+    },
+    {
+     "label": "C",
+     "text": "70°"
+    },
+    {
+     "label": "D",
+     "text": "65°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-213"
+  },
+  {
+   "n": 31,
+   "stem": "A regular pentagon and a regular hexagon share a side. What is the measure of the angle formed between their non-shared sides at the shared vertex?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "108°"
+    },
+    {
+     "label": "B",
+     "text": "120°"
+    },
+    {
+     "label": "C",
+     "text": "132°"
+    },
+    {
+     "label": "D",
+     "text": "144°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-214"
+  },
+  {
+   "n": 32,
+   "stem": "The sum of the measures of arcs AB and BC is equal to which arc?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "arc AC"
+    },
+    {
+     "label": "B",
+     "text": "arc BA"
+    },
+    {
+     "label": "C",
+     "text": "arc CB"
+    },
+    {
+     "label": "D",
+     "text": "arc ABC"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-215"
+  },
+  {
+   "n": 33,
+   "stem": "A swimming pool is 18 yards long, 10 yards wide, and 3 yards deep. Water is added at a rate of 12 cubic yards per minute. How many minutes will it take to fill the pool?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "45"
+    },
+    {
+     "label": "B",
+     "text": "101"
+    },
+    {
+     "label": "C",
+     "text": "540"
+    },
+    {
+     "label": "D",
+     "text": "1,233"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-216"
+  },
+  {
+   "n": 34,
+   "stem": "Cubic boxes are stacked in a corner in a 4 by 4 by 4 arrangement. Each box holds 8 cubic feet. What is the total capacity of the stack?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "488 cubic feet"
+    },
+    {
+     "label": "B",
+     "text": "496 cubic feet"
+    },
+    {
+     "label": "C",
+     "text": "504 cubic feet"
+    },
+    {
+     "label": "D",
+     "text": "512 cubic feet"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-217"
+  },
+  {
+   "n": 36,
+   "stem": "A machine produces cylindrical bales of hay with diameter 6 feet and height 5.5 feet. Which is closest to the volume of one bale?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "100 cubic feet"
+    },
+    {
+     "label": "B",
+     "text": "151 cubic feet"
+    },
+    {
+     "label": "C",
+     "text": "301 cubic feet"
+    },
+    {
+     "label": "D",
+     "text": "603 cubic feet"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-218"
+  },
+  {
+   "n": 37,
+   "stem": "A boy is 6 feet tall and casts a 4-foot shadow. At the same time, a tree casts a 24-foot shadow. What is the height of the tree?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "36 ft"
+    },
+    {
+     "label": "B",
+     "text": "24 ft"
+    },
+    {
+     "label": "C",
+     "text": "18 ft"
+    },
+    {
+     "label": "D",
+     "text": "12 ft"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-219"
+  },
+  {
+   "n": 38,
+   "stem": "The cylinders shown are similar. The smaller cylinder has radius 2 m and height 7 m. The larger has radius 4 m. What is the volume of the larger cylinder?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "567 m³"
+    },
+    {
+     "label": "B",
+     "text": "2247 m³"
+    },
+    {
+     "label": "C",
+     "text": "896π m³"
+    },
+    {
+     "label": "D",
+     "text": "3584π m³"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-220"
+  },
+  {
+   "n": 39,
+   "stem": "If parallelogram ABCD is translated so that point D moves to (−1, 2), what is the new location of point B?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(5, 0)"
+    },
+    {
+     "label": "B",
+     "text": "(3, 4)"
+    },
+    {
+     "label": "C",
+     "text": "(2, 5)"
+    },
+    {
+     "label": "D",
+     "text": "(1, 4)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-221"
+  },
+  {
+   "n": 40,
+   "stem": "Triangle A′B′C′ is a transformation of triangle ABC such that A maps to A′, B to B′, and C to C′, reversing orientation across a line. What transformation occurred?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Reflection"
+    },
+    {
+     "label": "B",
+     "text": "180° rotation"
+    },
+    {
+     "label": "C",
+     "text": "Translation"
+    },
+    {
+     "label": "D",
+     "text": "90° rotation"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-222"
+  },
+  {
+   "n": 41,
+   "stem": "What is most likely the slope of the line graphed, which rises 2 units for every 1 unit it moves to the right?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−1"
+    },
+    {
+     "label": "B",
+     "text": "−1/2"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-223"
+  },
+  {
+   "n": 42,
+   "stem": "The figure shown is symmetric with respect to which line(s)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "line ℓ only"
+    },
+    {
+     "label": "B",
+     "text": "line m only"
+    },
+    {
+     "label": "C",
+     "text": "both lines ℓ and m"
+    },
+    {
+     "label": "D",
+     "text": "neither line"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-224"
+  },
+  {
+   "n": 43,
+   "stem": "What is the point of intersection of diagonals BD and AC of a square with vertices at (2,2), (4,2), (4,4), and (2,4)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(3, 3)"
+    },
+    {
+     "label": "B",
+     "text": "(3, 4)"
+    },
+    {
+     "label": "C",
+     "text": "(4, 4)"
+    },
+    {
+     "label": "D",
+     "text": "(4, 3)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-225"
+  },
+  {
+   "n": 44,
+   "stem": "What is the midpoint of the segment joining (12, 2) and (−5, −7)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(9, 17)"
+    },
+    {
+     "label": "B",
+     "text": "(5, −3)"
+    },
+    {
+     "label": "C",
+     "text": "(8.5, 4.5)"
+    },
+    {
+     "label": "D",
+     "text": "(3.5, −2.5)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2006_SOLPass",
+   "id": "geometry-226"
+  },
+  {
+   "n": 8,
+   "stem": "Which is a valid conclusion that can be drawn from these statements? If a quadrilateral is a rhombus, then it is a parallelogram. If a quadrilateral is a parallelogram, then its opposite angles are congruent.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Every quadrilateral is a rhombus."
+    },
+    {
+     "label": "B",
+     "text": "Every parallelogram is a rhombus."
+    },
+    {
+     "label": "C",
+     "text": "Opposite angles of a rhombus are congruent."
+    },
+    {
+     "label": "D",
+     "text": "Opposite angles of a quadrilateral are congruent."
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-227"
+  },
+  {
+   "n": 10,
+   "stem": "Given points S(−1, 8) and T(7, −9), what is the length of segment ST?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "√23"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "5√13"
+    },
+    {
+     "label": "D",
+     "text": "√353"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-228"
+  },
+  {
+   "n": 13,
+   "stem": "Which is the inverse of the following statement? If the measure of an angle is 90°, then it is a right angle.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "If the measure of an angle is not 90°, then it is not a right angle."
+    },
+    {
+     "label": "B",
+     "text": "If the measure of an angle is not 90°, then it is a right angle."
+    },
+    {
+     "label": "C",
+     "text": "If an angle is not a right angle, then its measure is not 90°."
+    },
+    {
+     "label": "D",
+     "text": "If an angle is a right angle, then its measure is 90°."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-229"
+  },
+  {
+   "n": 16,
+   "stem": "Given points P(5, 7) and T(−3, 3), what is the slope of line PT?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−1"
+    },
+    {
+     "label": "B",
+     "text": "−2"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-230"
+  },
+  {
+   "n": 22,
+   "stem": "Which of the following sets of lengths can represent the measures of the sides of a right triangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4, 5, 6"
+    },
+    {
+     "label": "B",
+     "text": "5, 12, 15"
+    },
+    {
+     "label": "C",
+     "text": "8, 10, 17"
+    },
+    {
+     "label": "D",
+     "text": "20, 21, 29"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-231"
+  },
+  {
+   "n": 24,
+   "stem": "Part of a marching band formed a triangle with trumpet players on one side, clarinet players on one side, and flute players on the third side. The angle formed by the trumpet and flute players measures 45°. The angle formed by the flute and clarinet players measures 68°. Which orders the sides of this triangle from least to greatest using the instrument names?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Clarinet, trumpet, flute"
+    },
+    {
+     "label": "B",
+     "text": "Clarinet, flute, trumpet"
+    },
+    {
+     "label": "C",
+     "text": "Trumpet, flute, clarinet"
+    },
+    {
+     "label": "D",
+     "text": "Flute, trumpet, clarinet"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-232"
+  },
+  {
+   "n": 25,
+   "stem": "An equilateral triangle has side length 14 cm. The triangle is folded in half along an altitude. What is the height of the equilateral triangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "14/3 cm"
+    },
+    {
+     "label": "B",
+     "text": "14 cm"
+    },
+    {
+     "label": "C",
+     "text": "7√3 cm"
+    },
+    {
+     "label": "D",
+     "text": "7 cm"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-233"
+  },
+  {
+   "n": 31,
+   "stem": "Which could be the lengths of three sides of a triangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6 cm, 14 cm, 8 cm"
+    },
+    {
+     "label": "B",
+     "text": "9 cm, 11 cm, 21 cm"
+    },
+    {
+     "label": "C",
+     "text": "8.5 cm, 17 cm, 10.6 cm"
+    },
+    {
+     "label": "D",
+     "text": "14 cm, 4.7 cm, 4.7 cm"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-234"
+  },
+  {
+   "n": 35,
+   "stem": "Given a circle with center at (−4, 1), which equation could represent the circle if its radius is √41?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x − 4)² + (y − 1)² = 41"
+    },
+    {
+     "label": "B",
+     "text": "(x − 4)² + (y + 1)² = 41"
+    },
+    {
+     "label": "C",
+     "text": "(x + 4)² + (y − 1)² = 41"
+    },
+    {
+     "label": "D",
+     "text": "(x + 4)² + (y + 1)² = 41"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-235"
+  },
+  {
+   "n": 40,
+   "stem": "Circle O has a center at (−2, −2) and a diameter of 10 units. Which point lies on circle O?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(−6, −5)"
+    },
+    {
+     "label": "B",
+     "text": "(−2, 2)"
+    },
+    {
+     "label": "C",
+     "text": "(6, 4)"
+    },
+    {
+     "label": "D",
+     "text": "(8, 8)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-236"
+  },
+  {
+   "n": 41,
+   "stem": "An architect designs a curved balcony using a circle with radius 40 feet and a central angle of 70°. Which is closest to the length of railing needed for the curved section of the balcony?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "24 ft"
+    },
+    {
+     "label": "B",
+     "text": "49 ft"
+    },
+    {
+     "label": "C",
+     "text": "251 ft"
+    },
+    {
+     "label": "D",
+     "text": "977 ft"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-237"
+  },
+  {
+   "n": 43,
+   "stem": "The volume of a cube is 64 cubic centimeters. What is the surface area of the cube?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "16 cm²"
+    },
+    {
+     "label": "B",
+     "text": "96 cm²"
+    },
+    {
+     "label": "C",
+     "text": "256 cm²"
+    },
+    {
+     "label": "D",
+     "text": "384 cm²"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-238"
+  },
+  {
+   "n": 44,
+   "stem": "The diagonals of rectangle KLMN intersect at the point (2, 1). One vertex of the rectangle is at (−4, 5). Which of the following could be the location of another vertex of this rectangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(8, −3)"
+    },
+    {
+     "label": "B",
+     "text": "(3, −1)"
+    },
+    {
+     "label": "C",
+     "text": "(−2, 3)"
+    },
+    {
+     "label": "D",
+     "text": "(−10, 9)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-239"
+  },
+  {
+   "n": 50,
+   "stem": "A company is creating a new cylindrical container to replace its original cylindrical container. The new container will have 4 times the volume of the original container. The height of the new container will remain the same. The length of the radius of the new container will be —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2 times the length of the radius of the original container"
+    },
+    {
+     "label": "B",
+     "text": "4 times the length of the radius of the original container"
+    },
+    {
+     "label": "C",
+     "text": "8 times the length of the radius of the original container"
+    },
+    {
+     "label": "D",
+     "text": "16 times the length of the radius of the original container"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2013_SOLPass",
+   "id": "geometry-240"
+  },
+  {
+   "n": 3,
+   "stem": "A guy wire for a pole for a tennis net makes an angle of 62° with the ground. What is the measure of the angle between the wire and the pole?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "28°"
+    },
+    {
+     "label": "B",
+     "text": "62°"
+    },
+    {
+     "label": "C",
+     "text": "90°"
+    },
+    {
+     "label": "D",
+     "text": "180°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2003_SOLPass",
+   "id": "geometry-241"
+  },
+  {
+   "n": 17,
+   "stem": "Triangle ABC is a right triangle. One leg measures 7 inches, the other leg measures 24 inches, and the hypotenuse is unknown. What is the length of the hypotenuse BC?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "18 in."
+    },
+    {
+     "label": "B",
+     "text": "24 in."
+    },
+    {
+     "label": "C",
+     "text": "25 in."
+    },
+    {
+     "label": "D",
+     "text": "576 in."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2003_SOLPass",
+   "id": "geometry-242"
+  },
+  {
+   "n": 19,
+   "stem": "In triangle ABC, AC = 6, AB = 7, and BC = 5. Which is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The measure of ∠C is the least of the three angles."
+    },
+    {
+     "label": "B",
+     "text": "The measure of ∠C is the greatest of the three angles."
+    },
+    {
+     "label": "C",
+     "text": "The measure of ∠B is the greatest of the three angles."
+    },
+    {
+     "label": "D",
+     "text": "The measure of ∠B is the least of the three angles."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2003_SOLPass",
+   "id": "geometry-243"
+  },
+  {
+   "n": 21,
+   "stem": "Triangle ABC has angles measuring 70° at A and 60° at B. Which of the following lists the sides of triangle ABC from least to greatest length?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "AC, BC, AB"
+    },
+    {
+     "label": "B",
+     "text": "AC, AB, BC"
+    },
+    {
+     "label": "C",
+     "text": "AB, AC, BC"
+    },
+    {
+     "label": "D",
+     "text": "BC, AC, AB"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2003_SOLPass",
+   "id": "geometry-244"
+  },
+  {
+   "n": 25,
+   "stem": "ABCD is a rhombus. A(0,0), B(3,4), and D(5,0) are known vertices. What are the coordinates of vertex C?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(5, 4)"
+    },
+    {
+     "label": "B",
+     "text": "(6, 4)"
+    },
+    {
+     "label": "C",
+     "text": "(8, 4)"
+    },
+    {
+     "label": "D",
+     "text": "(4, 3)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2003_SOLPass",
+   "id": "geometry-245"
+  },
+  {
+   "n": 35,
+   "stem": "A right circular cone is on top of a hemisphere with the same radius. The radius is 4 cm, and the height of the cone is 4 cm. To the nearest whole number, what is the volume of this solid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "201 cm³"
+    },
+    {
+     "label": "B",
+     "text": "256 cm³"
+    },
+    {
+     "label": "C",
+     "text": "278 cm³"
+    },
+    {
+     "label": "D",
+     "text": "309 cm³"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2003_SOLPass",
+   "id": "geometry-246"
+  },
+  {
+   "n": 37,
+   "stem": "A cylindrical water container is 1.2 meters high and has a diameter of 4.6 meters. Approximately how many cubic meters of water will the container hold when it is half full?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4.33"
+    },
+    {
+     "label": "B",
+     "text": "9.97"
+    },
+    {
+     "label": "C",
+     "text": "29.93"
+    },
+    {
+     "label": "D",
+     "text": "39.87"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2003_SOLPass",
+   "id": "geometry-247"
+  },
+  {
+   "n": 43,
+   "stem": "Which point is the greatest distance from the origin?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(−8, −5)"
+    },
+    {
+     "label": "B",
+     "text": "(9, 1)"
+    },
+    {
+     "label": "C",
+     "text": "(3, 4)"
+    },
+    {
+     "label": "D",
+     "text": "(9, 2)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2003_SOLPass",
+   "id": "geometry-248"
+  },
+  {
+   "n": 45,
+   "stem": "The slope of the line joining the coordinate points (3, 1) and (−4, 7) is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−6/7"
+    },
+    {
+     "label": "B",
+     "text": "6/7"
+    },
+    {
+     "label": "C",
+     "text": "−7/6"
+    },
+    {
+     "label": "D",
+     "text": "7/6"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2003_SOLPass",
+   "id": "geometry-249"
+  },
+  {
+   "n": 1,
+   "stem": "SAMPLE A For what value of ( x ) is triangle ( ABC ) similar to triangle ( DEF )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "18"
+    },
+    {
+     "label": "B",
+     "text": "21"
+    },
+    {
+     "label": "C",
+     "text": "25"
+    },
+    {
+     "label": "D",
+     "text": "72"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-250"
+  },
+  {
+   "n": 3,
+   "stem": "Which Venn diagram accurately represents the information in the following statement? If a triangle is equilateral, then it is isosceles.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "All equilateral triangles are inside the set of isosceles triangles, which are inside the set of triangles."
+    },
+    {
+     "label": "B",
+     "text": "All isosceles triangles are inside the set of equilateral triangles."
+    },
+    {
+     "label": "C",
+     "text": "The sets of equilateral and isosceles triangles overlap partially."
+    },
+    {
+     "label": "D",
+     "text": "Equilateral and isosceles triangles are disjoint subsets of triangles."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-251"
+  },
+  {
+   "n": 5,
+   "stem": "Let ( p ) represent: Brent works this summer. Let ( q ) represent: Brent takes a vacation. Symbolically represent the following argument. If Brent works this summer, then he will not take a vacation. Brent takes a vacation. Therefore, Brent does not work this summer.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( p q, q, p )"
+    },
+    {
+     "label": "B",
+     "text": "( p q, q, p )"
+    },
+    {
+     "label": "C",
+     "text": "( q p, q, p )"
+    },
+    {
+     "label": "D",
+     "text": "( p q, q, p )"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-252"
+  },
+  {
+   "n": 6,
+   "stem": "Which type of construction is illustrated? The construction shows an angle with an arc intersecting both sides, followed by an arc from one intersection crossing the other side of the angle.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The bisector of a given angle"
+    },
+    {
+     "label": "B",
+     "text": "An angle congruent to a given angle"
+    },
+    {
+     "label": "C",
+     "text": "A line segment congruent to a given line segment"
+    },
+    {
+     "label": "D",
+     "text": "A line segment perpendicular to a given line segment"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-253"
+  },
+  {
+   "n": 8,
+   "stem": "Given statements: If a shape is a parallelogram, then opposite angles are congruent. A rhombus is a parallelogram. Which is a logical conclusion from the given statements?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A rhombus has opposite angles that are congruent."
+    },
+    {
+     "label": "B",
+     "text": "The opposite sides of a rhombus are congruent."
+    },
+    {
+     "label": "C",
+     "text": "The diagonals of a rhombus are congruent."
+    },
+    {
+     "label": "D",
+     "text": "A rhombus is a quadrilateral."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-254"
+  },
+  {
+   "n": 10,
+   "stem": "Which is the converse of the following statement? If ( b = c ), then ( a = bc ).",
+   "choices": [
+    {
+     "label": "A",
+     "text": "If ( a = bc ), then ( b = c )."
+    },
+    {
+     "label": "B",
+     "text": "If ( a = bc ), then ( c = b )."
+    },
+    {
+     "label": "C",
+     "text": "If ( a + b = c ), then ( a = bc )."
+    },
+    {
+     "label": "D",
+     "text": "If ( b = c ), then ( a = bc )."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-255"
+  },
+  {
+   "n": 12,
+   "stem": "Which statement describes the construction illustrated on the rectangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A bisector of ( AB )"
+    },
+    {
+     "label": "B",
+     "text": "A line segment congruent to ( AB )"
+    },
+    {
+     "label": "C",
+     "text": "A perpendicular to ( AB ) through point ( E ) on ( AB )"
+    },
+    {
+     "label": "D",
+     "text": "A perpendicular to ( AB ) through point ( G ) not on ( AB )"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-256"
+  },
+  {
+   "n": 13,
+   "stem": "Four lines and four congruent angles are identified. Which statement must be true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Only ( m n )"
+    },
+    {
+     "label": "B",
+     "text": "Only ( p q )"
+    },
+    {
+     "label": "C",
+     "text": "( p q ) and ( m n )"
+    },
+    {
+     "label": "D",
+     "text": "No pair of lines is parallel."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-257"
+  },
+  {
+   "n": 16,
+   "stem": "Triangle ( ABC ) is reflected across the x-axis and then across the y-axis to create triangle ( A'B'C' ). If point ( A ) is at ( (1, -4) ), what are the coordinates of ( A' )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (-4, 7) )"
+    },
+    {
+     "label": "B",
+     "text": "( (-2, -4) )"
+    },
+    {
+     "label": "C",
+     "text": "( (-1, -4) )"
+    },
+    {
+     "label": "D",
+     "text": "( (-1, 4) )"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-258"
+  },
+  {
+   "n": 18,
+   "stem": "The coordinate values of the vertices of triangle ( KLM ) are integers. Which set of coordinate pairs could represent the vertices of a triangle congruent to ( KLM )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (0,0), (7,0), (0,4) )"
+    },
+    {
+     "label": "B",
+     "text": "( (-1,1), (-4,5), (-1,5) )"
+    },
+    {
+     "label": "C",
+     "text": "( (-1,1), (-1,4), (2,1) )"
+    },
+    {
+     "label": "D",
+     "text": "( (2,3), (5,7), (8,3) )"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-259"
+  },
+  {
+   "n": 20,
+   "stem": "The diagonals of a square measure 14 cm. Which is the length of a side of the square?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 7sqrt2 ) cm"
+    },
+    {
+     "label": "B",
+     "text": "( 7sqrt2 ) cm"
+    },
+    {
+     "label": "C",
+     "text": "( 14sqrt2 ) cm"
+    },
+    {
+     "label": "D",
+     "text": "( (14)/(3) ) cm"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-260"
+  },
+  {
+   "n": 23,
+   "stem": "A right triangle has legs measuring 7.8 and 8. Which angle measure is closest to the value of ( x )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 43.9^ )"
+    },
+    {
+     "label": "B",
+     "text": "( 44.3^ )"
+    },
+    {
+     "label": "C",
+     "text": "( 45.7^ )"
+    },
+    {
+     "label": "D",
+     "text": "( 46.2^ )"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-261"
+  },
+  {
+   "n": 25,
+   "stem": "Two swimmers start at the same dock and swim in different directions. One swims 42 yards, the other 63 yards. Let ( d ) be the distance between them. Which represents all possible values of ( d )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 0 < d < 105 )"
+    },
+    {
+     "label": "B",
+     "text": "( 0 < d < 147 )"
+    },
+    {
+     "label": "C",
+     "text": "( 21 < d < 147 )"
+    },
+    {
+     "label": "D",
+     "text": "( 63 < d < 84 )"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-262"
+  },
+  {
+   "n": 27,
+   "stem": "Given isosceles triangles ( LMN ) and ( PQR ) with vertex angles ( (2x-26)^ ) and ( (x+16)^ ), what value of ( P ) could be used to prove the triangles are congruent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 42^ )"
+    },
+    {
+     "label": "B",
+     "text": "( 58^ )"
+    },
+    {
+     "label": "C",
+     "text": "( 61^ )"
+    },
+    {
+     "label": "D",
+     "text": "( 69^ )"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-263"
+  },
+  {
+   "n": 29,
+   "stem": "Triangle ( LN ) is similar to triangle ( POR ). If triangle ( POR ) has side lengths 3 cm, 4 cm, and 5 cm, which set of side lengths could represent triangle ( LN )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2 in, 3 in, 4 in"
+    },
+    {
+     "label": "B",
+     "text": "6 km, 7 km, 8 km"
+    },
+    {
+     "label": "C",
+     "text": "8 ft, 15 ft, 17 ft"
+    },
+    {
+     "label": "D",
+     "text": "9 m, 12 m, 15 m"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-264"
+  },
+  {
+   "n": 31,
+   "stem": "A convex polygon has vertices ( A, B, C, D, ) and ( E ). What is the sum of the measures of the interior angles of this polygon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 360^ )"
+    },
+    {
+     "label": "B",
+     "text": "( 540^ )"
+    },
+    {
+     "label": "C",
+     "text": "( 900^ )"
+    },
+    {
+     "label": "D",
+     "text": "( 1260^ )"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-265"
+  },
+  {
+   "n": 35,
+   "stem": "The equation ( (x-1)^2 + (y-3)^2 = r^2 ) represents circle ( A ). Point ( B(4,7) ) lies on the circle. What is ( r )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( sqrt13 )"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "( 5sqrt5 )"
+    },
+    {
+     "label": "D",
+     "text": "( sqrt137 )"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-266"
+  },
+  {
+   "n": 36,
+   "stem": "A circular garden sector has a radius of 13 ft and a central angle of ( 40^ ). Which is closest to the area of this section?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "118 sq ft"
+    },
+    {
+     "label": "B",
+     "text": "82 sq ft"
+    },
+    {
+     "label": "C",
+     "text": "29 sq ft"
+    },
+    {
+     "label": "D",
+     "text": "18 sq ft"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-267"
+  },
+  {
+   "n": 37,
+   "stem": "The height of a cylinder is 9.5 cm. The diameter is 1.5 cm longer than the height. Which is closest to the volume of the cylinder?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1,507 cm³"
+    },
+    {
+     "label": "B",
+     "text": "287 cm³"
+    },
+    {
+     "label": "C",
+     "text": "1,657 cm³"
+    },
+    {
+     "label": "D",
+     "text": "105 cm³"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-268"
+  },
+  {
+   "n": 38,
+   "stem": "Which shape must have opposite sides that are parallel and congruent, and diagonals that are perpendicular bisectors of each other?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Parallelogram"
+    },
+    {
+     "label": "B",
+     "text": "Rectangle"
+    },
+    {
+     "label": "C",
+     "text": "Rhombus"
+    },
+    {
+     "label": "D",
+     "text": "Trapezoid"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-269"
+  },
+  {
+   "n": 40,
+   "stem": "In a quilt pattern, angle measures are given: ( ABC = 120^ ) ( ADC = (2x+30)^ ) ( BCD = x^ ) What is the measure of ( DCE )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 150^ )"
+    },
+    {
+     "label": "B",
+     "text": "( 140^ )"
+    },
+    {
+     "label": "C",
+     "text": "( 120^ )"
+    },
+    {
+     "label": "D",
+     "text": "( 110^ )"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-270"
+  },
+  {
+   "n": 41,
+   "stem": "A rectangular prism has dimensions 18 in, 12 in, and 24 in. What is the surface area of the prism?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "156 sq in"
+    },
+    {
+     "label": "B",
+     "text": "936 sq in"
+    },
+    {
+     "label": "C",
+     "text": "1,872 sq in"
+    },
+    {
+     "label": "D",
+     "text": "5,184 sq in"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-271"
+  },
+  {
+   "n": 42,
+   "stem": "The volumes of two spheres are in a ratio of 1:8. What is the ratio of their radii?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1:512"
+    },
+    {
+     "label": "B",
+     "text": "1:64"
+    },
+    {
+     "label": "C",
+     "text": "1:4"
+    },
+    {
+     "label": "D",
+     "text": "1:2"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-272"
+  },
+  {
+   "n": 43,
+   "stem": "The minute hand of a clock is 10 cm long and moves through an arc of ( 108^ ). Which is closest to the length of the arc?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3 cm"
+    },
+    {
+     "label": "B",
+     "text": "6 cm"
+    },
+    {
+     "label": "C",
+     "text": "9.4 cm"
+    },
+    {
+     "label": "D",
+     "text": "18.8 cm"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-273"
+  },
+  {
+   "n": 44,
+   "stem": "Which point lies on the circle represented by ( (x-1)^2 + (y-3)^2 = 7^2 )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (-1,4) )"
+    },
+    {
+     "label": "B",
+     "text": "( (0,7) )"
+    },
+    {
+     "label": "C",
+     "text": "( (1,3) )"
+    },
+    {
+     "label": "D",
+     "text": "( (8,3) )"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2015_SOLPass",
+   "id": "geometry-274"
+  },
+  {
+   "n": 15,
+   "stem": "Consider the following statement. If (4x = 8), then (x = 2). Which is the inverse of the statement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "If (x = 2), then (4x = 8)."
+    },
+    {
+     "label": "B",
+     "text": "If (x 2), then (4x = 8)."
+    },
+    {
+     "label": "C",
+     "text": "If (x = 2), then (4x 8)."
+    },
+    {
+     "label": "D",
+     "text": "If (4x = 8), then (x 2)."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2009_SOLPass",
+   "id": "geometry-275"
+  },
+  {
+   "n": 18,
+   "stem": "John wants to make a triangular garden. Which of the following are possible dimensions?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "4 ft by 5 ft by 10 ft"
+    },
+    {
+     "label": "G",
+     "text": "6 ft by 6 ft by 12 ft"
+    },
+    {
+     "label": "H",
+     "text": "6 ft by 8 ft by 10 ft"
+    },
+    {
+     "label": "J",
+     "text": "8 ft by 12 ft by 20 ft"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2009_SOLPass",
+   "id": "geometry-276"
+  },
+  {
+   "n": 24,
+   "stem": "Which of the following quadrilaterals is not a parallelogram?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Rectangle"
+    },
+    {
+     "label": "G",
+     "text": "Rhombus"
+    },
+    {
+     "label": "H",
+     "text": "Square"
+    },
+    {
+     "label": "J",
+     "text": "Trapezoid"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2009_SOLPass",
+   "id": "geometry-277"
+  },
+  {
+   "n": 33,
+   "stem": "When tiles are tessellated in a plane, what angle measure sum is required of the tiles surrounding a single point?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "90°"
+    },
+    {
+     "label": "B",
+     "text": "180°"
+    },
+    {
+     "label": "C",
+     "text": "360°"
+    },
+    {
+     "label": "D",
+     "text": "720°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2009_SOLPass",
+   "id": "geometry-278"
+  },
+  {
+   "n": 37,
+   "stem": "The radius of Sphere A is 2 inches, and the radius of Sphere B is 4 inches. How many times larger is the volume of Sphere B compared to the volume of Sphere A?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2009_SOLPass",
+   "id": "geometry-279"
+  },
+  {
+   "n": 38,
+   "stem": "A cylinder has a diameter of 10 inches and a height four times its radius. What is its volume?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(500 ) cubic inches"
+    },
+    {
+     "label": "G",
+     "text": "(2,000 ) cubic inches"
+    },
+    {
+     "label": "H",
+     "text": "(4,000 ) cubic inches"
+    },
+    {
+     "label": "J",
+     "text": "(40,000 ) cubic inches"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2009_SOLPass",
+   "id": "geometry-280"
+  },
+  {
+   "n": 39,
+   "stem": "Points (P(-3,5)), (Q(1,7)), (R(8,1)), and (S(-4,-5)) are connected to form a trapezoid. What is the midpoint of segment (SR)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((0,-3))"
+    },
+    {
+     "label": "B",
+     "text": "((4,-1))"
+    },
+    {
+     "label": "C",
+     "text": "((3,-15))"
+    },
+    {
+     "label": "D",
+     "text": "((2,-2))"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2009_SOLPass",
+   "id": "geometry-281"
+  },
+  {
+   "n": 40,
+   "stem": "A trapezoid is located entirely in Quadrant II. If this trapezoid is reflected across the x-axis, in which quadrant will the new trapezoid be located?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "I"
+    },
+    {
+     "label": "G",
+     "text": "II"
+    },
+    {
+     "label": "H",
+     "text": "III"
+    },
+    {
+     "label": "J",
+     "text": "IV"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2009_SOLPass",
+   "id": "geometry-282"
+  },
+  {
+   "n": 1,
+   "stem": "A bisector of segment AB is a line that passes through the midpoint of AB and divides it into two congruent segments. Which line segment lies on the bisector of AB?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "CG"
+    },
+    {
+     "label": "B",
+     "text": "DF"
+    },
+    {
+     "label": "C",
+     "text": "DG"
+    },
+    {
+     "label": "D",
+     "text": "EF"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-283"
+  },
+  {
+   "n": 2,
+   "stem": "Lines m and r are cut by a transversal. The angle formed at the intersection with line m measures (3x − 35)°, and the corresponding interior angle formed at the intersection with line r measures (7x − 115)°. What value of x will show that line m is parallel to line r?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "20"
+    },
+    {
+     "label": "G",
+     "text": "24"
+    },
+    {
+     "label": "H",
+     "text": "25"
+    },
+    {
+     "label": "J",
+     "text": "33"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-284"
+  },
+  {
+   "n": 3,
+   "stem": "Lines a and b are parallel. A transversal intersects line a forming an interior angle of 120°, and intersects line b forming an angle labeled x°. The angle adjacent to x° on line b is 115°. What is the value of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "120"
+    },
+    {
+     "label": "B",
+     "text": "115"
+    },
+    {
+     "label": "C",
+     "text": "65"
+    },
+    {
+     "label": "D",
+     "text": "60"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-285"
+  },
+  {
+   "n": 4,
+   "stem": "Angle PQR has vertex Q. Points W, X, Y, and Z are located inside the angle. The bisector of ∠PQR divides the angle into two congruent angles. Which point lies on the bisector of ∠PQR?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "W"
+    },
+    {
+     "label": "G",
+     "text": "X"
+    },
+    {
+     "label": "H",
+     "text": "Y"
+    },
+    {
+     "label": "J",
+     "text": "Z"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-286"
+  },
+  {
+   "n": 5,
+   "stem": "In the figure, lines AB and DC intersect at point E. Angle AED measures 85°, and angle AEB measures 26°. For what measure of ∠D is AB parallel to DC?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "26°"
+    },
+    {
+     "label": "B",
+     "text": "59°"
+    },
+    {
+     "label": "C",
+     "text": "69°"
+    },
+    {
+     "label": "D",
+     "text": "95°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-287"
+  },
+  {
+   "n": 6,
+   "stem": "Two congruent triangles are shown. In triangle ABC, segment BC is marked congruent to a segment in triangle PQRST. Which line segment is congruent to BC?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "PQ"
+    },
+    {
+     "label": "G",
+     "text": "PR"
+    },
+    {
+     "label": "H",
+     "text": "PS"
+    },
+    {
+     "label": "J",
+     "text": "PT"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-288"
+  },
+  {
+   "n": 7,
+   "stem": "Line q is a transversal of four parallel lines l, m, n, and p. At the intersection of q and line m, an angle measures 30°. At the intersection of q and line l, the corresponding angle is labeled x°. At the intersection of q and line n, the corresponding angle is labeled y°. What are the values of x and y?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "x = 30, y = 30"
+    },
+    {
+     "label": "B",
+     "text": "x = 30, y = 150"
+    },
+    {
+     "label": "C",
+     "text": "x = 150, y = 30"
+    },
+    {
+     "label": "D",
+     "text": "x = 150, y = 150"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-289"
+  },
+  {
+   "n": 8,
+   "stem": "Parallel lines j and k are cut by transversal m. At the intersection with line j, an acute angle measures 32°. Angle 1 is the obtuse angle formed at the intersection of transversal m with line k on the interior side. What is m∠1?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "32°"
+    },
+    {
+     "label": "G",
+     "text": "58°"
+    },
+    {
+     "label": "H",
+     "text": "122°"
+    },
+    {
+     "label": "J",
+     "text": "148°"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-290"
+  },
+  {
+   "n": 9,
+   "stem": "Lines y and z are cut by a transversal. On line y, the interior angle is 77°. On line z, the corresponding interior angle is labeled x°. For what value of x are y and z parallel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "13"
+    },
+    {
+     "label": "B",
+     "text": "77"
+    },
+    {
+     "label": "C",
+     "text": "103"
+    },
+    {
+     "label": "D",
+     "text": "154"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-291"
+  },
+  {
+   "n": 10,
+   "stem": "Two angles form a linear pair. m∠1 = (15x − 5)° and m∠2 = (10x + 35)°. What is m∠1?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "31°"
+    },
+    {
+     "label": "G",
+     "text": "65°"
+    },
+    {
+     "label": "H",
+     "text": "85°"
+    },
+    {
+     "label": "J",
+     "text": "115°"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-292"
+  },
+  {
+   "n": 11,
+   "stem": "Line segments painted on a parking lot form parallel parking spaces. One angle measures 118°, the angle adjacent to it on the same transversal is labeled w°, and the corresponding angle on the parallel line is labeled x°. Which equation can be used to show that these line segments are parallel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "118 − w = x"
+    },
+    {
+     "label": "B",
+     "text": "118 − x = w"
+    },
+    {
+     "label": "C",
+     "text": "x + 118 = 180"
+    },
+    {
+     "label": "D",
+     "text": "w + 118 = 180"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-293"
+  },
+  {
+   "n": 12,
+   "stem": "Given: △ABC ∼ △LMN. In △ABC, AB = 5x + 5, BC = x + 4, and AC = 10. In △LMN, LM = 3x + 3, MN = 3x + 1, and LN corresponds to AC. What is the length of AC?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "11"
+    },
+    {
+     "label": "G",
+     "text": "12"
+    },
+    {
+     "label": "H",
+     "text": "22"
+    },
+    {
+     "label": "J",
+     "text": "24"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-294"
+  },
+  {
+   "n": 13,
+   "stem": "Given the following measures of the sides of triangles, which is a right triangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "41 cm, 40 cm, 9 cm"
+    },
+    {
+     "label": "B",
+     "text": "45 ft, 40 ft, 35 ft"
+    },
+    {
+     "label": "C",
+     "text": "52 in., 50 in., 11 in."
+    },
+    {
+     "label": "D",
+     "text": "45 yd, 35 yd, 25 yd"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-295"
+  },
+  {
+   "n": 14,
+   "stem": "A Venn diagram shows rectangles and rhombi as subsets within quadrilaterals, with rectangles and rhombi overlapping. Which statement must be true about this diagram?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "All rectangles are rhombi."
+    },
+    {
+     "label": "G",
+     "text": "Some rhombi are rectangles."
+    },
+    {
+     "label": "H",
+     "text": "Quadrilaterals are not rhombi or rectangles."
+    },
+    {
+     "label": "J",
+     "text": "All quadrilaterals are rhombi and rectangles."
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-296"
+  },
+  {
+   "n": 15,
+   "stem": "In a quadrilateral, diagonals AC and BD intersect at point E and bisect each other. Based on this information, which triangle congruence theorem could be used to prove △AED ≅ △CEB?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Angle-Angle-Side (AAS)"
+    },
+    {
+     "label": "B",
+     "text": "Angle-Side-Angle (ASA)"
+    },
+    {
+     "label": "C",
+     "text": "Side-Angle-Side (SAS)"
+    },
+    {
+     "label": "D",
+     "text": "Side-Side-Side (SSS)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-297"
+  },
+  {
+   "n": 16,
+   "stem": "Statement: If lines are skew, then they are not coplanar. What is the contrapositive of the statement?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "If lines are not coplanar, then they are skew."
+    },
+    {
+     "label": "G",
+     "text": "If lines are not skew, then they are coplanar."
+    },
+    {
+     "label": "H",
+     "text": "If lines are coplanar, then they are not skew."
+    },
+    {
+     "label": "J",
+     "text": "If lines are skew, then they are coplanar."
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-298"
+  },
+  {
+   "n": 17,
+   "stem": "Coordinates A(2, 5), B(6, 4), and C(6, 0) form △ABC. If △CDA is congruent to △ABC, what are the coordinates of point D?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(1, 1)"
+    },
+    {
+     "label": "B",
+     "text": "(1, 2)"
+    },
+    {
+     "label": "C",
+     "text": "(2, 2)"
+    },
+    {
+     "label": "D",
+     "text": "(2, 1)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-299"
+  },
+  {
+   "n": 18,
+   "stem": "Let p = “An equation is of the form y = mx + b.” Let q = “Its graph is a line.” Argument: If an equation is of the form y = mx + b, then its graph is a line. The graph is not a line. Therefore, the equation is not of the form y = mx + b. Which is the symbolic representation of the argument?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "p → q, ∼q, therefore ∼p"
+    },
+    {
+     "label": "G",
+     "text": "p → q, q, therefore p"
+    },
+    {
+     "label": "H",
+     "text": "p → q, ∼p, therefore ∼q"
+    },
+    {
+     "label": "J",
+     "text": "p → q, p, therefore q"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-300"
+  },
+  {
+   "n": 19,
+   "stem": "△TRG is a right triangle. One leg measures 17 units and the hypotenuse measures 22 units. Which is closest to the length of RT?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "11"
+    },
+    {
+     "label": "C",
+     "text": "14"
+    },
+    {
+     "label": "D",
+     "text": "28"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-301"
+  },
+  {
+   "n": 20,
+   "stem": "In △ABC, m∠A = 75°, m∠B = 50°, and m∠C = 55°. Which list has the sides of △ABC ordered from longest to shortest?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "BC, AC, AB"
+    },
+    {
+     "label": "G",
+     "text": "AB, AC, BC"
+    },
+    {
+     "label": "H",
+     "text": "AC, AB, BC"
+    },
+    {
+     "label": "J",
+     "text": "BC, AB, AC"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-302"
+  },
+  {
+   "n": 21,
+   "stem": "Three survey markers form △HIJ. HI = 150 feet, HJ = 245 feet, and IJ = 365 feet. Which statement is true about the measures of the angles of △HIJ?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "m∠H is the smallest"
+    },
+    {
+     "label": "B",
+     "text": "m∠H is the largest"
+    },
+    {
+     "label": "C",
+     "text": "m∠I is the smallest"
+    },
+    {
+     "label": "D",
+     "text": "m∠I is the largest"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-303"
+  },
+  {
+   "n": 22,
+   "stem": "In a triangle, one angle measures 45°, and the side opposite that angle measures 6x units. The hypotenuse measures 12 units. What is the value of x?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6"
+    },
+    {
+     "label": "G",
+     "text": "6√2"
+    },
+    {
+     "label": "H",
+     "text": "6√3"
+    },
+    {
+     "label": "J",
+     "text": "12"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-304"
+  },
+  {
+   "n": 23,
+   "stem": "Two sides of a triangle measure 14 inches and 8 inches. Which cannot be the length of the remaining side?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6 in."
+    },
+    {
+     "label": "B",
+     "text": "8 in."
+    },
+    {
+     "label": "C",
+     "text": "14 in."
+    },
+    {
+     "label": "D",
+     "text": "21 in."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-305"
+  },
+  {
+   "n": 24,
+   "stem": "In a circle, arc AC measures 160°, and arc AB measures 60°. Point B is on the circle between A and C. What is the measure of ∠ABC?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "30°"
+    },
+    {
+     "label": "G",
+     "text": "60°"
+    },
+    {
+     "label": "H",
+     "text": "120°"
+    },
+    {
+     "label": "J",
+     "text": "140°"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-306"
+  },
+  {
+   "n": 25,
+   "stem": "A pattern is formed by placing equilateral triangles and regular hexagons together so that their sides match. At a shared vertex, the angle formed by one triangle and one hexagon is labeled x°. What is the value of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "60"
+    },
+    {
+     "label": "C",
+     "text": "90"
+    },
+    {
+     "label": "D",
+     "text": "120"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-307"
+  },
+  {
+   "n": 26,
+   "stem": "Which figure has all sides of equal measure but not necessarily all angles of equal measure?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Square"
+    },
+    {
+     "label": "G",
+     "text": "Rectangle"
+    },
+    {
+     "label": "H",
+     "text": "Rhombus"
+    },
+    {
+     "label": "J",
+     "text": "Trapezoid"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-308"
+  },
+  {
+   "n": 27,
+   "stem": "In circle A, ∠DAR is a central angle. The intercepted arc DR measures 68°. What is m∠DAR?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "17°"
+    },
+    {
+     "label": "B",
+     "text": "34°"
+    },
+    {
+     "label": "C",
+     "text": "56°"
+    },
+    {
+     "label": "D",
+     "text": "68°"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-309"
+  },
+  {
+   "n": 28,
+   "stem": "Two chords intersect inside a circle. One chord is divided into segments of lengths 7.5 and x. The other chord is divided into segments of lengths 5 and 12. What is the value of x?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "8.0"
+    },
+    {
+     "label": "G",
+     "text": "9.5"
+    },
+    {
+     "label": "H",
+     "text": "10.0"
+    },
+    {
+     "label": "J",
+     "text": "14.5"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-310"
+  },
+  {
+   "n": 29,
+   "stem": "In rectangle ABCD, the slope of AB is 1/2. What is the slope of CD?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−2"
+    },
+    {
+     "label": "B",
+     "text": "−1/2"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-311"
+  },
+  {
+   "n": 30,
+   "stem": "In a quadrilateral WXYZ, m∠YXW = 62° and m∠WXZ = 73°. What is m∠WXY?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "45°"
+    },
+    {
+     "label": "G",
+     "text": "107°"
+    },
+    {
+     "label": "H",
+     "text": "120°"
+    },
+    {
+     "label": "J",
+     "text": "135°"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-312"
+  },
+  {
+   "n": 31,
+   "stem": "DEFG is a rhombus with m∠EFG = 28°. What is m∠GDE?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "14°"
+    },
+    {
+     "label": "B",
+     "text": "28°"
+    },
+    {
+     "label": "C",
+     "text": "30°"
+    },
+    {
+     "label": "D",
+     "text": "56°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-313"
+  },
+  {
+   "n": 32,
+   "stem": "A regular octagon has all sides and angles congruent. What is the measure of each interior angle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "45"
+    },
+    {
+     "label": "G",
+     "text": "60"
+    },
+    {
+     "label": "H",
+     "text": "135"
+    },
+    {
+     "label": "J",
+     "text": "180"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-314"
+  },
+  {
+   "n": 33,
+   "stem": "A rectangular rug is 24 feet long and 10 feet wide. A rhombus is formed by joining the midpoints of each side of the rectangle. What is the length of each side of the rhombus?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "13 ft"
+    },
+    {
+     "label": "B",
+     "text": "26 ft"
+    },
+    {
+     "label": "C",
+     "text": "169 ft"
+    },
+    {
+     "label": "D",
+     "text": "240 ft"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-315"
+  },
+  {
+   "n": 34,
+   "stem": "A man who is 6 feet tall casts a shadow 4 feet long. At the same time, a flagpole casts a shadow 18 feet long. How tall is the flagpole?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "10 ft"
+    },
+    {
+     "label": "G",
+     "text": "12 ft"
+    },
+    {
+     "label": "H",
+     "text": "22 ft"
+    },
+    {
+     "label": "J",
+     "text": "27 ft"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-316"
+  },
+  {
+   "n": 35,
+   "stem": "A rectangular prism fish tank has length 20 inches, width 10 inches, and height 12 inches. What is the volume of water in the tank when it is full?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1,120 cubic inches"
+    },
+    {
+     "label": "B",
+     "text": "1,920 cubic inches"
+    },
+    {
+     "label": "C",
+     "text": "2,400 cubic inches"
+    },
+    {
+     "label": "D",
+     "text": "3,000 cubic inches"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-317"
+  },
+  {
+   "n": 37,
+   "stem": "If a cube has side length 6 inches and each dimension is divided in half, what is the volume of the new cube?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "108 cubic inches"
+    },
+    {
+     "label": "B",
+     "text": "54 cubic inches"
+    },
+    {
+     "label": "C",
+     "text": "27 cubic inches"
+    },
+    {
+     "label": "D",
+     "text": "9 cubic inches"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-318"
+  },
+  {
+   "n": 38,
+   "stem": "A right cone is placed on its circular base. Which statement about the cone is incorrect?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The view from the front is a triangle."
+    },
+    {
+     "label": "G",
+     "text": "The view from the bottom is a circle."
+    },
+    {
+     "label": "H",
+     "text": "The view from the top is a circle."
+    },
+    {
+     "label": "J",
+     "text": "The view from the left is a rhombus."
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-319"
+  },
+  {
+   "n": 39,
+   "stem": "A cone has a slant height of 10 cm and a lateral area of 60π cm². What is the volume of a sphere with a radius equal to the radius of the cone?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "102π cm³"
+    },
+    {
+     "label": "B",
+     "text": "144π cm³"
+    },
+    {
+     "label": "C",
+     "text": "288π cm³"
+    },
+    {
+     "label": "D",
+     "text": "1,333π cm³"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-320"
+  },
+  {
+   "n": 40,
+   "stem": "Which line of reflection maps point K(−2, 2) to K′(2, −2)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "y = 2"
+    },
+    {
+     "label": "G",
+     "text": "y = x"
+    },
+    {
+     "label": "H",
+     "text": "x-axis"
+    },
+    {
+     "label": "J",
+     "text": "y-axis"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-321"
+  },
+  {
+   "n": 41,
+   "stem": "If A is at (1, 1) and the midpoint of AB is (−2, 0), what are the coordinates of B?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(−0.5, 0.5)"
+    },
+    {
+     "label": "B",
+     "text": "(0.5, 0.5)"
+    },
+    {
+     "label": "C",
+     "text": "(−1, 0)"
+    },
+    {
+     "label": "D",
+     "text": "(−5, −1)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-322"
+  },
+  {
+   "n": 43,
+   "stem": "A figure is symmetric with respect to the x-axis. If point A is at (8, 6), what are the coordinates of its corresponding point N?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(8, −6)"
+    },
+    {
+     "label": "B",
+     "text": "(6, −8)"
+    },
+    {
+     "label": "C",
+     "text": "(−6, 8)"
+    },
+    {
+     "label": "D",
+     "text": "(−8, 6)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-323"
+  },
+  {
+   "n": 44,
+   "stem": "Parallelogram RSTV has vertices R(0, 0), S(2, 4), T(6, 0), and V(4, −4). What are the coordinates of the intersection of the diagonals?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(2, 0)"
+    },
+    {
+     "label": "G",
+     "text": "(3, 0)"
+    },
+    {
+     "label": "H",
+     "text": "(3, 1)"
+    },
+    {
+     "label": "J",
+     "text": "(4, −1)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-324"
+  },
+  {
+   "n": 45,
+   "stem": "A regular quadrilateral has what type of symmetry?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Line symmetry only"
+    },
+    {
+     "label": "B",
+     "text": "Point symmetry only"
+    },
+    {
+     "label": "C",
+     "text": "Both point and line symmetry"
+    },
+    {
+     "label": "D",
+     "text": "Neither point nor line symmetry"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2010_SOLPass",
+   "id": "geometry-325"
+  },
+  {
+   "n": 1,
+   "stem": "The measures of some angles are given in a figure where five angles meet around a point. Four of the angle measures are 80°, 65°, 30°, and 85°. The remaining angle is labeled x°. All five angles together form a full circle. What is the value of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "65"
+    },
+    {
+     "label": "B",
+     "text": "70"
+    },
+    {
+     "label": "C",
+     "text": "80"
+    },
+    {
+     "label": "D",
+     "text": "85"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-326"
+  },
+  {
+   "n": 3,
+   "stem": "Two straight roads intersect. One angle formed by the intersection is 55°. A new road is constructed so that it forms a straight line with the existing intersecting road. What should the measure of angle x be to ensure the intersecting road and the new construction form a straight line?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "35°"
+    },
+    {
+     "label": "B",
+     "text": "55°"
+    },
+    {
+     "label": "C",
+     "text": "105°"
+    },
+    {
+     "label": "D",
+     "text": "125°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-327"
+  },
+  {
+   "n": 4,
+   "stem": "The polygon shown is convex and has 7 sides. What is the sum of its interior angle measures?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "900°"
+    },
+    {
+     "label": "B",
+     "text": "1,260°"
+    },
+    {
+     "label": "C",
+     "text": "1,620°"
+    },
+    {
+     "label": "D",
+     "text": "2,520°"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-328"
+  },
+  {
+   "n": 6,
+   "stem": "A transversal line d intersects three lines a, b, and c. The angle formed between line d and line a is 85°. The angle formed between line d and line b is 95°. The angle formed between line d and line c is 105°. Which two lines are parallel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a and b"
+    },
+    {
+     "label": "B",
+     "text": "a and c"
+    },
+    {
+     "label": "C",
+     "text": "b and c"
+    },
+    {
+     "label": "D",
+     "text": "No lines are parallel"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-329"
+  },
+  {
+   "n": 7,
+   "stem": "Quadrilateral QRST has vertices Q(0, 0), R(8, 0), T(4, 6), and S(x, y). What coordinates for S make QRST a parallelogram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(8, 6)"
+    },
+    {
+     "label": "B",
+     "text": "(8, 10)"
+    },
+    {
+     "label": "C",
+     "text": "(12, 6)"
+    },
+    {
+     "label": "D",
+     "text": "(12, 10)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-330"
+  },
+  {
+   "n": 9,
+   "stem": "The drawing shows a compass and straightedge construction that produces two congruent angles from a given angle. What is being constructed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A perpendicular to a given line from a point not on the line"
+    },
+    {
+     "label": "B",
+     "text": "A perpendicular to a given line at a point on the line"
+    },
+    {
+     "label": "C",
+     "text": "The bisector of a given angle"
+    },
+    {
+     "label": "D",
+     "text": "An angle congruent to a given angle"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-331"
+  },
+  {
+   "n": 11,
+   "stem": "Rectangle AXYZ has vertices labeled consecutively. To which point should a line segment be drawn from point A so that the resulting figure is a rectangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "W"
+    },
+    {
+     "label": "B",
+     "text": "X"
+    },
+    {
+     "label": "C",
+     "text": "Y"
+    },
+    {
+     "label": "D",
+     "text": "Z"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-332"
+  },
+  {
+   "n": 13,
+   "stem": "Let p represent the statement “−11 ≤ z,” and let q represent the statement “z is a rational number.” Which represents the statement: “If −11 ≤ z, then z is not a rational number”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "¬p → ¬q"
+    },
+    {
+     "label": "B",
+     "text": "p → q"
+    },
+    {
+     "label": "C",
+     "text": "p → ¬q"
+    },
+    {
+     "label": "D",
+     "text": "¬q → ¬p"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-333"
+  },
+  {
+   "n": 15,
+   "stem": "Which of the following statements represents a valid argument?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "If a ∥ b and a ∥ c, then b ∥ c."
+    },
+    {
+     "label": "B",
+     "text": "If a ∥ b and b ∥ c, then a ∥ c."
+    },
+    {
+     "label": "C",
+     "text": "If a ⟂ b and a ⟂ c, then c ⟂ b."
+    },
+    {
+     "label": "D",
+     "text": "If a ∥ b and a ∥ c, then a ∥ (b ∪ c)."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-334"
+  },
+  {
+   "n": 19,
+   "stem": "In triangle XYZ, side XY = 15, side YZ = 16, and side XZ = 17. Which angle has the least measure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "All angles have the same measure."
+    },
+    {
+     "label": "B",
+     "text": "∠XYZ"
+    },
+    {
+     "label": "C",
+     "text": "∠ZXY"
+    },
+    {
+     "label": "D",
+     "text": "∠XZY"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-335"
+  },
+  {
+   "n": 21,
+   "stem": "A rope is attached to a boat 7 feet below the level of a dock-mounted windlass. When the rope length is 25 feet, the rope and vertical drop form a right triangle. What is the horizontal distance from the boat to the dock?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "25 ft"
+    },
+    {
+     "label": "B",
+     "text": "24 ft"
+    },
+    {
+     "label": "C",
+     "text": "18 ft"
+    },
+    {
+     "label": "D",
+     "text": "7 ft"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-336"
+  },
+  {
+   "n": 23,
+   "stem": "In a right triangle, ∠X = 45°, and the hypotenuse XY measures 15 units. What is the length of side XZ?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7.5√2"
+    },
+    {
+     "label": "B",
+     "text": "7.5√3"
+    },
+    {
+     "label": "C",
+     "text": "15√2"
+    },
+    {
+     "label": "D",
+     "text": "15√3"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-337"
+  },
+  {
+   "n": 25,
+   "stem": "A parallelogram has vertices A(0, 4), B(6, 1), C(4, −3), and D(−2, 0). Where is the center of the parallelogram located?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2, 0.5)"
+    },
+    {
+     "label": "B",
+     "text": "(0.5, 2)"
+    },
+    {
+     "label": "C",
+     "text": "(3, 1.5)"
+    },
+    {
+     "label": "D",
+     "text": "(1.5, 1)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-338"
+  },
+  {
+   "n": 27,
+   "stem": "ABCD is a rhombus. Diagonal BD bisects angle B. One of the angles formed at B measures 40°. What is the measure of ∠CBD?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "50°"
+    },
+    {
+     "label": "B",
+     "text": "60°"
+    },
+    {
+     "label": "C",
+     "text": "70°"
+    },
+    {
+     "label": "D",
+     "text": "75°"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-339"
+  },
+  {
+   "n": 29,
+   "stem": "Which angle measure is NOT possible as an exterior angle of a regular polygon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "36°"
+    },
+    {
+     "label": "B",
+     "text": "40°"
+    },
+    {
+     "label": "C",
+     "text": "45°"
+    },
+    {
+     "label": "D",
+     "text": "54°"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-340"
+  },
+  {
+   "n": 31,
+   "stem": "TV is a diameter of circle Z. Points T, S, U, and V lie on the circle in that order. Arc TS measures 8 units, arc SU measures x units, and arc UV measures 10 units. What is the value of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-341"
+  },
+  {
+   "n": 33,
+   "stem": "TW is a diameter of circle X, and TW is parallel to chord UV. The measure of arc TU is 25°. What is the measure of arc UV?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "115°"
+    },
+    {
+     "label": "B",
+     "text": "130°"
+    },
+    {
+     "label": "C",
+     "text": "155°"
+    },
+    {
+     "label": "D",
+     "text": "210°"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-342"
+  },
+  {
+   "n": 35,
+   "stem": "A spherical paintball has a diameter of 1.5 cm. Approximately how much paint does it contain?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1.77 cm³"
+    },
+    {
+     "label": "B",
+     "text": "7.07 cm³"
+    },
+    {
+     "label": "C",
+     "text": "9.42 cm³"
+    },
+    {
+     "label": "D",
+     "text": "14.13 cm³"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-343"
+  },
+  {
+   "n": 39,
+   "stem": "Gary’s eyes are 6 feet above ground. Using similar triangles formed by his line of sight and a measuring stick, the depth of the well is proportional to a 2-foot segment corresponding to a 6-foot segment above ground. How deep is the well?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12 ft"
+    },
+    {
+     "label": "B",
+     "text": "14 ft"
+    },
+    {
+     "label": "C",
+     "text": "16 ft"
+    },
+    {
+     "label": "D",
+     "text": "18 ft"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-344"
+  },
+  {
+   "n": 41,
+   "stem": "Parallelogram ABCD is plotted on a coordinate grid. The approximate coordinates of A are (1, 2) and of C are (5, 6). What is the approximate length of diagonal AC?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3.0 units"
+    },
+    {
+     "label": "B",
+     "text": "5.4 units"
+    },
+    {
+     "label": "C",
+     "text": "9.0 units"
+    },
+    {
+     "label": "D",
+     "text": "10.6 units"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-345"
+  },
+  {
+   "n": 43,
+   "stem": "How many lines of symmetry does a square have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-346"
+  },
+  {
+   "n": 45,
+   "stem": "Hexagon ABCDEF is symmetric across a single vertical line m but not symmetric across horizontal line l. With respect to what is the hexagon symmetric?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Point P only"
+    },
+    {
+     "label": "B",
+     "text": "Line m only"
+    },
+    {
+     "label": "C",
+     "text": "Line l only"
+    },
+    {
+     "label": "D",
+     "text": "Both lines l and m only"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Geometry_2005_SOLPass",
+   "id": "geometry-347"
+  }
+ ]
+}

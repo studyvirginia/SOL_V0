@@ -1,0 +1,612 @@
+{
+ "subject": "history",
+ "course": "grade-3-history",
+ "courseName": "Grade 3 History",
+ "questionCount": 24,
+ "sources": [
+  "History_Grade_3_2014_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "The word ancient means something that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "will happen in the future"
+    },
+    {
+     "label": "B",
+     "text": "happened long, long ago"
+    },
+    {
+     "label": "C",
+     "text": "is happening now"
+    },
+    {
+     "label": "D",
+     "text": "happened last week"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-1"
+  },
+  {
+   "n": 2,
+   "stem": "Which group of American Indians most often used this object for travel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pueblo"
+    },
+    {
+     "label": "B",
+     "text": "Lakota"
+    },
+    {
+     "label": "C",
+     "text": "Navajo"
+    },
+    {
+     "label": "D",
+     "text": "Powhatan"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-2"
+  },
+  {
+   "n": 3,
+   "stem": "Which river did Christopher Newport explore?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "James River"
+    },
+    {
+     "label": "B",
+     "text": "Mississippi River"
+    },
+    {
+     "label": "C",
+     "text": "Potomac River"
+    },
+    {
+     "label": "D",
+     "text": "St. Lawrence River"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-3"
+  },
+  {
+   "n": 4,
+   "stem": "Which idea used in the United States government came from ancient Rome?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "People elect a small group to make the laws."
+    },
+    {
+     "label": "B",
+     "text": "The leader of a country is called the President."
+    },
+    {
+     "label": "C",
+     "text": "People are treated with equality under the laws."
+    },
+    {
+     "label": "D",
+     "text": "The Pledge of Allegiance shows respect for the flag."
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-4"
+  },
+  {
+   "n": 6,
+   "stem": "Who is believed to have sewn the first flag of the United States?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Betsy Ross"
+    },
+    {
+     "label": "B",
+     "text": "Susan B. Anthony"
+    },
+    {
+     "label": "C",
+     "text": "Benjamin Franklin"
+    },
+    {
+     "label": "D",
+     "text": "George Washington"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-5"
+  },
+  {
+   "n": 7,
+   "stem": "George Washington Carver invented new ways to use —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "paper"
+    },
+    {
+     "label": "B",
+     "text": "electricity"
+    },
+    {
+     "label": "C",
+     "text": "peanuts"
+    },
+    {
+     "label": "D",
+     "text": "bananas"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-6"
+  },
+  {
+   "n": 8,
+   "stem": "The explorer Jacques Cartier claimed land in the New World for —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "England"
+    },
+    {
+     "label": "B",
+     "text": "France"
+    },
+    {
+     "label": "C",
+     "text": "Italy"
+    },
+    {
+     "label": "D",
+     "text": "Spain"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-7"
+  },
+  {
+   "n": 9,
+   "stem": "Which words best complete this diagram comparing Ancient Greece and today? Ancient Greece: Olympic games Today: Representative democracy",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Great Wall"
+    },
+    {
+     "label": "B",
+     "text": "Olympic games"
+    },
+    {
+     "label": "C",
+     "text": "Hieroglyphic language"
+    },
+    {
+     "label": "D",
+     "text": "Representative democracy"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-8"
+  },
+  {
+   "n": 10,
+   "stem": "Where was Timbuktu located?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rome"
+    },
+    {
+     "label": "B",
+     "text": "Greece"
+    },
+    {
+     "label": "C",
+     "text": "Mali"
+    },
+    {
+     "label": "D",
+     "text": "Egypt"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-9"
+  },
+  {
+   "n": 12,
+   "stem": "Because they lived on peninsulas and islands, many ancient Greeks became —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "fishermen"
+    },
+    {
+     "label": "B",
+     "text": "kite makers"
+    },
+    {
+     "label": "C",
+     "text": "storytellers"
+    },
+    {
+     "label": "D",
+     "text": "road builders"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-10"
+  },
+  {
+   "n": 13,
+   "stem": "Which two areas were located along the Mediterranean Sea?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "China and Spain"
+    },
+    {
+     "label": "B",
+     "text": "Mali and Egypt"
+    },
+    {
+     "label": "C",
+     "text": "Rome and Greece"
+    },
+    {
+     "label": "D",
+     "text": "England and France"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-11"
+  },
+  {
+   "n": 14,
+   "stem": "During colonial times, the Powhatan lived mostly in what is now —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Florida"
+    },
+    {
+     "label": "B",
+     "text": "Tennessee"
+    },
+    {
+     "label": "C",
+     "text": "Georgia"
+    },
+    {
+     "label": "D",
+     "text": "Virginia"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-12"
+  },
+  {
+   "n": 16,
+   "stem": "The climate of an island where people pick fruit from trees whenever they are hungry, wear shorts all year, and go swimming almost every day is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "cool and rainy in spring and fall"
+    },
+    {
+     "label": "B",
+     "text": "windy with a lot of snow and ice"
+    },
+    {
+     "label": "C",
+     "text": "hot in summer and cold in winter"
+    },
+    {
+     "label": "D",
+     "text": "sunny and warm in each season"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-13"
+  },
+  {
+   "n": 19,
+   "stem": "Which American Indians are described as living in the Southwest, building adobe houses, and working as farmers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pueblo"
+    },
+    {
+     "label": "B",
+     "text": "Lakota"
+    },
+    {
+     "label": "C",
+     "text": "Powhatan"
+    },
+    {
+     "label": "D",
+     "text": "Monacan"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-14"
+  },
+  {
+   "n": 20,
+   "stem": "Which continent is next to the Indian Ocean?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Europe"
+    },
+    {
+     "label": "B",
+     "text": "South America"
+    },
+    {
+     "label": "C",
+     "text": "Africa"
+    },
+    {
+     "label": "D",
+     "text": "North America"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-15"
+  },
+  {
+   "n": 21,
+   "stem": "What is produced at a bread bakery?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A basic need"
+    },
+    {
+     "label": "B",
+     "text": "A capital resource"
+    },
+    {
+     "label": "C",
+     "text": "A human resource"
+    },
+    {
+     "label": "D",
+     "text": "A necessary service"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-16"
+  },
+  {
+   "n": 25,
+   "stem": "Sandy's parents want to buy a better car next year. They put away some money from their jobs each month so they will have enough to get the better car. What are Sandy’s parents doing with their money?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Trading"
+    },
+    {
+     "label": "B",
+     "text": "Spending"
+    },
+    {
+     "label": "C",
+     "text": "Paying"
+    },
+    {
+     "label": "D",
+     "text": "Saving"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-17"
+  },
+  {
+   "n": 26,
+   "stem": "Which person is acting as a producer?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mr. Carson who is working as a farmer"
+    },
+    {
+     "label": "B",
+     "text": "Mrs. Hong who is buying a book"
+    },
+    {
+     "label": "C",
+     "text": "Mr. Abram who is watching television"
+    },
+    {
+     "label": "D",
+     "text": "Ms. Mercado who is walking to the store"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-18"
+  },
+  {
+   "n": 27,
+   "stem": "When an ancient Greek ship was used for carrying trade goods, it was an example of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "economic scarcity"
+    },
+    {
+     "label": "B",
+     "text": "a capital resource"
+    },
+    {
+     "label": "C",
+     "text": "economic choice"
+    },
+    {
+     "label": "D",
+     "text": "a natural resource"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-19"
+  },
+  {
+   "n": 28,
+   "stem": "Americans who died in wars while serving their country are honored on —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Veterans Day"
+    },
+    {
+     "label": "B",
+     "text": "Presidents’ Day"
+    },
+    {
+     "label": "C",
+     "text": "Memorial Day"
+    },
+    {
+     "label": "D",
+     "text": "Thanksgiving Day"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-20"
+  },
+  {
+   "n": 29,
+   "stem": "Which example shows the government protecting citizens’ property?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A doctor caring for a sick child"
+    },
+    {
+     "label": "B",
+     "text": "A teacher helping a student read a book"
+    },
+    {
+     "label": "C",
+     "text": "A firefighter putting out a house fire"
+    },
+    {
+     "label": "D",
+     "text": "A principal arriving to work on time"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-21"
+  },
+  {
+   "n": 30,
+   "stem": "What unites these people as Virginia citizens?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Wearing the same clothes"
+    },
+    {
+     "label": "B",
+     "text": "Voting in elections"
+    },
+    {
+     "label": "C",
+     "text": "Driving the same cars"
+    },
+    {
+     "label": "D",
+     "text": "Playing team sports"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-22"
+  },
+  {
+   "n": 31,
+   "stem": "Thurgood Marshall helped people through his work as a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "minister"
+    },
+    {
+     "label": "B",
+     "text": "doctor"
+    },
+    {
+     "label": "C",
+     "text": "lawyer"
+    },
+    {
+     "label": "D",
+     "text": "teacher"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-23"
+  },
+  {
+   "n": 32,
+   "stem": "Helen Keller is best known for helping people who —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "were soldiers"
+    },
+    {
+     "label": "B",
+     "text": "had disabilities"
+    },
+    {
+     "label": "C",
+     "text": "served in government"
+    },
+    {
+     "label": "D",
+     "text": "wanted to vote"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_3_2014_SOLPass",
+   "id": "grade-3-history-24"
+  }
+ ]
+}

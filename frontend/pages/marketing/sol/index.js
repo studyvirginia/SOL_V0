@@ -24,8 +24,8 @@ export default function SolIndex({ subjects }) {
   return (
     <>
       <SeoHead
-        title="Virginia SOL Standards by Subject & Grade | SOL Prep"
-        description={`Browse Virginia Standards of Learning (SOL) by subject and grade level across ${subjects.length} subjects and ${totalCourses} courses — Math, English, Science, and History.`}
+        title="Virginia SOL Practice Tests by Subject & Grade | SOL Prep"
+        description={`Virginia SOL practice by subject and grade across ${subjects.length} subjects and ${totalCourses} courses — Math, English, Science, and History. Standard-by-standard practice plus links to official VDOE released tests.`}
         path="/sol"
       />
       <MarketingLayout>
@@ -33,14 +33,18 @@ export default function SolIndex({ subjects }) {
           <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Subjects", href: "/sol" }]} />
 
           <h1 className="font-display mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
-            Virginia SOL standards, by subject and grade
+            Virginia SOL practice tests, by subject and grade
           </h1>
           <p className="mt-4 max-w-2xl text-muted-foreground">
-            Virginia's Standards of Learning define what students are expected
-            to know in each subject and grade, from kindergarten through
-            high school end-of-course exams. SOL Prep maps every one of these
-            standards to diagnostics, notes, flashcards, and practice
-            questions. Start with your subject below.
+            Virginia's Standards of Learning define what students are tested on
+            in each subject and grade, from kindergarten through high school
+            end-of-course exams. SOL Prep maps every one of these standards to
+            diagnostics, notes, flashcards, and SOL-style practice questions.
+            Start with your subject below, or find official released tests in our{" "}
+            <Link href="/guides/virginia-sol-practice-tests" className="text-foreground hover:underline">
+              Virginia SOL practice tests guide
+            </Link>
+            .
           </p>
 
           <div className="mt-10 space-y-10">

@@ -1,0 +1,1613 @@
+{
+ "subject": "english",
+ "course": "grade-7-english",
+ "courseName": "Grade 7 English",
+ "questionCount": 64,
+ "sources": [
+  "Reading_Grade_7_2015_SOLPass",
+  "Reading_Grade_7_2015_VDOE"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "The name “the osprey garden” in paragraph 4 gives the reader the impression of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "fields of flowers eaten by ospreys"
+    },
+    {
+     "label": "B",
+     "text": "colorful ospreys that look like flowers"
+    },
+    {
+     "label": "C",
+     "text": "fields filled with flowers and ospreys"
+    },
+    {
+     "label": "D",
+     "text": "ospreys living together as thickly as flowers"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-1"
+  },
+  {
+   "n": 2,
+   "stem": "Which sentence from the article contains a comparison?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Usually, ospreys hit the water feet first, plunging completely underwater to catch their food."
+    },
+    {
+     "label": "G",
+     "text": "Like other birds, ospreys like to build their nests where people are unlikely to approach them."
+    },
+    {
+     "label": "H",
+     "text": "When the eggs crack open, the chicks, which weigh only about two ounces, crawl out."
+    },
+    {
+     "label": "J",
+     "text": "In less than two months, these tiny birds will have grown enough to take their first flight."
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-2"
+  },
+  {
+   "n": 3,
+   "stem": "Which detail about ospreys should be included in a summary of the article?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The osprey has a wingspan of up to six feet across, and it has a distinctive mix of brown and white feathers."
+    },
+    {
+     "label": "B",
+     "text": "The diet of the osprey consists mainly of fish, so it builds its nest in areas near large bodies of water."
+    },
+    {
+     "label": "C",
+     "text": "The average life span of an osprey in the wild is around 18 years, but the oldest bird of this type lived to be 25 years old."
+    },
+    {
+     "label": "D",
+     "text": "The osprey typically migrates from Alaska to the Caribbean for the winter, so it has a long journey each fall and spring."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-3"
+  },
+  {
+   "n": 4,
+   "stem": "Paragraph 19 contributes to the theme of the story by showing that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "overcoming fears can bring power"
+    },
+    {
+     "label": "B",
+     "text": "honoring the beauty of simple objects is important"
+    },
+    {
+     "label": "C",
+     "text": "experiencing different cultures can lead to personal growth"
+    },
+    {
+     "label": "D",
+     "text": "celebrating traditions brings families together"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-4"
+  },
+  {
+   "n": 5,
+   "stem": "Which sentence from the story best communicates a sense of celebration?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Wen elaborated on the traditional Chinese festival while Brady listened intently."
+    },
+    {
+     "label": "B",
+     "text": "Relatives and friends congratulated each other on finishing another year while welcoming in the new one."
+    },
+    {
+     "label": "C",
+     "text": "Brady followed Wen into his room, asking why everyone was wearing red-colored pajamas for the sleepover."
+    },
+    {
+     "label": "D",
+     "text": "When he went to bed that night, his stomach and his heart felt full."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-5"
+  },
+  {
+   "n": 6,
+   "stem": "In paragraph 3, the newspaper reporter writes about Keichline most likely because she —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "had uncommon abilities"
+    },
+    {
+     "label": "G",
+     "text": "used unusual materials"
+    },
+    {
+     "label": "H",
+     "text": "had won an impressive contest"
+    },
+    {
+     "label": "J",
+     "text": "was well known in the community"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-6"
+  },
+  {
+   "n": 7,
+   "stem": "In paragraph 5, the word innovative means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "occurring rarely or infrequently"
+    },
+    {
+     "label": "B",
+     "text": "showing great value"
+    },
+    {
+     "label": "C",
+     "text": "using new methods"
+    },
+    {
+     "label": "D",
+     "text": "quickly or easily built"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-7"
+  },
+  {
+   "n": 8,
+   "stem": "In paragraph 5, the information is organized by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "cause and effect"
+    },
+    {
+     "label": "G",
+     "text": "process"
+    },
+    {
+     "label": "H",
+     "text": "listing"
+    },
+    {
+     "label": "J",
+     "text": "comparison/contrast"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-8"
+  },
+  {
+   "n": 9,
+   "stem": "“A Leader in Her Profession” would be the best heading for which paragraph?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "5"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-9"
+  },
+  {
+   "n": 10,
+   "stem": "Read lines 21 and 22 from the poem. “No canvas can compete with such a scene; No tube of paint can duplicate so true” These lines show that the speaker believes —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "the beauty of nature is impossible to capture in art"
+    },
+    {
+     "label": "G",
+     "text": "leaves exhibit vivid colors for only a short time"
+    },
+    {
+     "label": "H",
+     "text": "artists are limited by the materials available to them"
+    },
+    {
+     "label": "J",
+     "text": "the sights of nature change with each season"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-10"
+  },
+  {
+   "n": 11,
+   "stem": "In line 31, the word comfort has a connotation of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "an easing of grief"
+    },
+    {
+     "label": "B",
+     "text": "a freedom from hardship"
+    },
+    {
+     "label": "C",
+     "text": "a relaxed feeling of peace"
+    },
+    {
+     "label": "D",
+     "text": "an improved mood"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-11"
+  },
+  {
+   "n": 12,
+   "stem": "The speaker’s word choice in the poem conveys a tone of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "appreciation"
+    },
+    {
+     "label": "G",
+     "text": "humor"
+    },
+    {
+     "label": "H",
+     "text": "enthusiasm"
+    },
+    {
+     "label": "J",
+     "text": "admiration"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-12"
+  },
+  {
+   "n": 13,
+   "stem": "At the top of the article, the words “Student Voices Column” are described as boldface and placed between horizontal lines in order to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "highlight a featured section of the newspaper"
+    },
+    {
+     "label": "B",
+     "text": "indicate that the newspaper article conveys the ideas of all students"
+    },
+    {
+     "label": "C",
+     "text": "suggest the urgent nature of the newspaper article"
+    },
+    {
+     "label": "D",
+     "text": "emphasize that the newspaper is published by middle school students"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-13"
+  },
+  {
+   "n": 14,
+   "stem": "In paragraph 1, the reader knows that the students —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "have expressed interest in newspaper articles about the menu"
+    },
+    {
+     "label": "G",
+     "text": "are divided in their attitudes about the quality of the cafeteria food"
+    },
+    {
+     "label": "H",
+     "text": "have discussed their food preferences with the cafeteria staff"
+    },
+    {
+     "label": "J",
+     "text": "are lacking information about the reasons for the menu changes"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-14"
+  },
+  {
+   "n": 15,
+   "stem": "In paragraph 3, the author puts “old-fashioned” in quotation marks to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "highlight an important phrase"
+    },
+    {
+     "label": "B",
+     "text": "indicate a disagreement between chefs"
+    },
+    {
+     "label": "C",
+     "text": "emphasize the style of a particular dish"
+    },
+    {
+     "label": "D",
+     "text": "introduce an unfamiliar term"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-15"
+  },
+  {
+   "n": 16,
+   "stem": "Which detail from paragraphs 3 and 4 emphasizes the author’s positive viewpoint about menu items?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "looked like real fried chicken, golden brown and crispy"
+    },
+    {
+     "label": "G",
+     "text": "cauliflower crust instead of pizza dough"
+    },
+    {
+     "label": "H",
+     "text": "macaroni and cheese using nonfat dairy products"
+    },
+    {
+     "label": "J",
+     "text": "made with grilled bell peppers, mushrooms, and onions"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-16"
+  },
+  {
+   "n": 17,
+   "stem": "Why does the author include the statement that the tacos are “the best food in the world”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "to indicate which days the tacos will be served"
+    },
+    {
+     "label": "B",
+     "text": "to convey how large the tacos will be"
+    },
+    {
+     "label": "C",
+     "text": "to emphasize how delicious the new tacos taste"
+    },
+    {
+     "label": "D",
+     "text": "to highlight which students will eat the tacos"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-17"
+  },
+  {
+   "n": 18,
+   "stem": "Which glossary entry gives the meaning of the word surveyed as it is used in paragraph 5?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "alert"
+    },
+    {
+     "label": "G",
+     "text": "approach"
+    },
+    {
+     "label": "H",
+     "text": "designed"
+    },
+    {
+     "label": "J",
+     "text": "surveyed"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-18"
+  },
+  {
+   "n": 19,
+   "stem": "What is the main idea of paragraph 5?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The chefs are knowledgeable about the health of students."
+    },
+    {
+     "label": "B",
+     "text": "The nutritious food that the students are eating makes them feel better."
+    },
+    {
+     "label": "C",
+     "text": "The new menu includes fresh ingredients that students have requested."
+    },
+    {
+     "label": "D",
+     "text": "The students have responded positively to dishes on the new menu."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-19"
+  },
+  {
+   "n": 20,
+   "stem": "Based on paragraph 6, the main outcome of interviewing Marge LaRough was that the author —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "was able to tell cafeteria staff what the students think about the meal variety"
+    },
+    {
+     "label": "G",
+     "text": "gained a better understanding of the requirements placed on the school cafeteria"
+    },
+    {
+     "label": "H",
+     "text": "could understand the challenges of locating the ingredients for certain dishes"
+    },
+    {
+     "label": "J",
+     "text": "learned that additional meal options would soon become available to students"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-20"
+  },
+  {
+   "n": 21,
+   "stem": "Based on the word choice in paragraph 7, what does the author most likely believe?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Students should accept that healthful dishes are often similar in flavor."
+    },
+    {
+     "label": "B",
+     "text": "Currently served dishes will be replaced with new versions."
+    },
+    {
+     "label": "C",
+     "text": "Staff should consult students when making menu decisions."
+    },
+    {
+     "label": "D",
+     "text": "Consistent improvements in the cafeteria will continue."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-21"
+  },
+  {
+   "n": 22,
+   "stem": "Which action by cafeteria staff suggests that student opinions are taken into consideration?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Continuing the tradition of serving tacos on Tuesday"
+    },
+    {
+     "label": "G",
+     "text": "Developing dishes that are more modern"
+    },
+    {
+     "label": "H",
+     "text": "Studying the rules of the U.S. Department of Agriculture"
+    },
+    {
+     "label": "J",
+     "text": "Replacing macaroni and cheese with a new dish"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-22"
+  },
+  {
+   "n": 23,
+   "stem": "According to the article, cafeteria offerings were different before the 2012 rules in that they —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "featured familiar ingredients"
+    },
+    {
+     "label": "B",
+     "text": "contained fresh fruits and vegetables"
+    },
+    {
+     "label": "C",
+     "text": "included sugary and fried foods"
+    },
+    {
+     "label": "D",
+     "text": "provided few vegetarian dishes"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-23"
+  },
+  {
+   "n": 24,
+   "stem": "Which sentence is NOT supported by relevant evidence?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The cafeteria staff took the not-so-healthful meals and made them better for us."
+    },
+    {
+     "label": "G",
+     "text": "The old tacos were made of seasoned and browned ground turkey topped with low-fat cheese and canned salsa."
+    },
+    {
+     "label": "H",
+     "text": "The chefs who designed the new menu definitely have the health of today’s young people in mind."
+    },
+    {
+     "label": "J",
+     "text": "The new menu may currently lack variety, but we are fortunate to now have dishes that focus on freshness and health."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-24"
+  },
+  {
+   "n": 25,
+   "stem": "Which paragraph contains useful information for a presentation about how to make dishes healthier?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "paragraph 2"
+    },
+    {
+     "label": "B",
+     "text": "paragraph 3"
+    },
+    {
+     "label": "C",
+     "text": "paragraph 4"
+    },
+    {
+     "label": "D",
+     "text": "paragraph 5"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-25"
+  },
+  {
+   "n": 26,
+   "stem": "Which statement best expresses the author's viewpoint?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The cafeteria’s healthful food options are delicious."
+    },
+    {
+     "label": "B",
+     "text": "Some items on the current menu are more flavorful than others."
+    },
+    {
+     "label": "C",
+     "text": "Traditional dishes should be added to the current menu."
+    },
+    {
+     "label": "D",
+     "text": "The cafeteria’s chefs are more concerned about nutrition than taste."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-26"
+  },
+  {
+   "n": 27,
+   "stem": "The phrase “My heart swelled” conveys that the narrator is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "not feeling very well"
+    },
+    {
+     "label": "B",
+     "text": "proud of the dish he has created"
+    },
+    {
+     "label": "C",
+     "text": "nervous that his dish will not earn him a good grade"
+    },
+    {
+     "label": "D",
+     "text": "hoping that the teacher will make a decision quickly"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-27"
+  },
+  {
+   "n": 28,
+   "stem": "In paragraph 5, the word consecutively comes from a Latin root that means —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "finish early"
+    },
+    {
+     "label": "G",
+     "text": "empty rapidly"
+    },
+    {
+     "label": "H",
+     "text": "happen carefully"
+    },
+    {
+     "label": "J",
+     "text": "follow closely"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-28"
+  },
+  {
+   "n": 29,
+   "stem": "Which word is a synonym for enhance as used in the story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "circulate"
+    },
+    {
+     "label": "B",
+     "text": "discover"
+    },
+    {
+     "label": "C",
+     "text": "intensify"
+    },
+    {
+     "label": "D",
+     "text": "scatter"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-29"
+  },
+  {
+   "n": 30,
+   "stem": "How is figurative language used in the first stanza of the poem?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "To show that the speaker’s experience was agonizing"
+    },
+    {
+     "label": "G",
+     "text": "To re-create sounds from the speaker’s past experiences"
+    },
+    {
+     "label": "H",
+     "text": "To emphasize the effects of the speaker’s reaction"
+    },
+    {
+     "label": "J",
+     "text": "To exaggerate the speaker’s feelings of impatience"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-30"
+  },
+  {
+   "n": 31,
+   "stem": "Lines 13–14 of the poem convey that the speaker’s anger is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "difficult to control"
+    },
+    {
+     "label": "B",
+     "text": "part of the healing process"
+    },
+    {
+     "label": "C",
+     "text": "the result of many arguments"
+    },
+    {
+     "label": "D",
+     "text": "a normal reaction to the situation"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-31"
+  },
+  {
+   "n": 32,
+   "stem": "Lines 29–32 reveal that the speaker —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "is usually a sensible person"
+    },
+    {
+     "label": "G",
+     "text": "accepts responsibility for what she has done wrong"
+    },
+    {
+     "label": "H",
+     "text": "fails to understand her actions"
+    },
+    {
+     "label": "J",
+     "text": "is unable to forgive her friend for her betrayal"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-32"
+  },
+  {
+   "n": 33,
+   "stem": "Which idea is developed in both the story and the poem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The past is often the reason people are unable to move forward."
+    },
+    {
+     "label": "B",
+     "text": "Having a disagreement will usually bring people closer in the end."
+    },
+    {
+     "label": "C",
+     "text": "Admitting the reason for failures is the first step toward transformation."
+    },
+    {
+     "label": "D",
+     "text": "The harshest judgments people receive often come from themselves."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-33"
+  },
+  {
+   "n": 34,
+   "stem": "The endings of the story and the poem both convey a tone of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "calmness"
+    },
+    {
+     "label": "B",
+     "text": "confusion"
+    },
+    {
+     "label": "C",
+     "text": "hopefulness"
+    },
+    {
+     "label": "D",
+     "text": "indecision"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-34"
+  },
+  {
+   "n": 35,
+   "stem": "How do the narrator of the story and the speaker of the poem resolve their conflicts?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "By seeking guidance from someone who offers wise advice"
+    },
+    {
+     "label": "B",
+     "text": "By sharing an idea with someone who may or may not respond"
+    },
+    {
+     "label": "C",
+     "text": "By standing up for their beliefs even when others do not agree"
+    },
+    {
+     "label": "D",
+     "text": "By using a different approach than they have used in the past"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-35"
+  },
+  {
+   "n": 36,
+   "stem": "Which major theme do the story and the poem have in common?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Expressing feelings in a kind and patient way can be difficult."
+    },
+    {
+     "label": "B",
+     "text": "Making changes in life requires taking the necessary steps."
+    },
+    {
+     "label": "C",
+     "text": "Respecting peers involves being honest with them."
+    },
+    {
+     "label": "D",
+     "text": "Remaining loyal to one another in difficult times is important."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_7_2015_VDOE",
+   "id": "grade-7-english-36"
+  },
+  {
+   "n": 18,
+   "stem": "In paragraph 4, the author includes the detail of Mrs. Parker sounding “a little too patient” to suggest that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "she is known as a tough teacher"
+    },
+    {
+     "label": "B",
+     "text": "she is trying hard to be tolerant"
+    },
+    {
+     "label": "C",
+     "text": "students usually find her voice soothing"
+    },
+    {
+     "label": "D",
+     "text": "students rarely misbehave in her class"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-37"
+  },
+  {
+   "n": 19,
+   "stem": "Read this sentence from paragraph 7. “They’re fictional, of course, but I want to name them after real places that nobody knows much about.” In which word does the suffix -al have the same meaning as it does in fictional?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "casual"
+    },
+    {
+     "label": "B",
+     "text": "metal"
+    },
+    {
+     "label": "C",
+     "text": "journal"
+    },
+    {
+     "label": "D",
+     "text": "regional"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-38"
+  },
+  {
+   "n": 20,
+   "stem": "Which word in paragraph 17 conveys Jared’s embarrassment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "snickers"
+    },
+    {
+     "label": "B",
+     "text": "hushing"
+    },
+    {
+     "label": "C",
+     "text": "slouched"
+    },
+    {
+     "label": "D",
+     "text": "caught"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-39"
+  },
+  {
+   "n": 21,
+   "stem": "Which statement best completes a summary web about Jared?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Jared’s friendship with Sam helps them become better science students."
+    },
+    {
+     "label": "B",
+     "text": "Jared’s frustration causes him to spend too much time visiting with Sam."
+    },
+    {
+     "label": "C",
+     "text": "Jared’s imagination wanders long enough to find names for his characters."
+    },
+    {
+     "label": "D",
+     "text": "Jared’s interest in science increases during a field trip to a planetarium."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-40"
+  },
+  {
+   "n": 22,
+   "stem": "In this story, Jared’s main conflict can be described as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "individual vs. self"
+    },
+    {
+     "label": "B",
+     "text": "individual vs. nature"
+    },
+    {
+     "label": "C",
+     "text": "individual vs. society"
+    },
+    {
+     "label": "D",
+     "text": "individual vs. technology"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-41"
+  },
+  {
+   "n": 23,
+   "stem": "In a summary of this story, the most important detail to include is how Jared —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "takes his permission slip to the front of the classroom"
+    },
+    {
+     "label": "B",
+     "text": "learns that some stars have numbers in their names"
+    },
+    {
+     "label": "C",
+     "text": "tells Sam when the writing assignment is due"
+    },
+    {
+     "label": "D",
+     "text": "hears Astrid talking about features of outer space"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-42"
+  },
+  {
+   "n": 24,
+   "stem": "By the end of the story, readers can best predict that Jared will —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "finish his science-fiction story after school"
+    },
+    {
+     "label": "B",
+     "text": "apologize to Astrid after the presentation"
+    },
+    {
+     "label": "C",
+     "text": "help Sam with his story assignment"
+    },
+    {
+     "label": "D",
+     "text": "visit the planetarium again soon"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-43"
+  },
+  {
+   "n": 25,
+   "stem": "Why does the author include paragraph 1?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To show how cats have changed over the years"
+    },
+    {
+     "label": "B",
+     "text": "To establish an image of common cat behavior"
+    },
+    {
+     "label": "C",
+     "text": "To create a link between the cat and the Mau"
+    },
+    {
+     "label": "D",
+     "text": "To compare the personality of the cat to the Mau"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-44"
+  },
+  {
+   "n": 26,
+   "stem": "What does domesticated mean in paragraph 2?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "moved"
+    },
+    {
+     "label": "B",
+     "text": "captured"
+    },
+    {
+     "label": "C",
+     "text": "tamed"
+    },
+    {
+     "label": "D",
+     "text": "produced"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-45"
+  },
+  {
+   "n": 27,
+   "stem": "In paragraph 4, reverence means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "excellent care"
+    },
+    {
+     "label": "B",
+     "text": "kind rewards"
+    },
+    {
+     "label": "C",
+     "text": "great power"
+    },
+    {
+     "label": "D",
+     "text": "deep respect"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-46"
+  },
+  {
+   "n": 28,
+   "stem": "Why does the author include the detail that Egyptians did not wish to harm cats?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To show that Egyptians are kind"
+    },
+    {
+     "label": "B",
+     "text": "To offer a reason for releasing the cats"
+    },
+    {
+     "label": "C",
+     "text": "To show that Egyptians are reasonable"
+    },
+    {
+     "label": "D",
+     "text": "To demonstrate the high standing of cats"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-47"
+  },
+  {
+   "n": 29,
+   "stem": "Which statement best summarizes paragraph 5?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Weighing 8–12 pounds, Egyptian Maus have short hair."
+    },
+    {
+     "label": "B",
+     "text": "Known for spotted coats, Egyptian Maus can be one of five colors."
+    },
+    {
+     "label": "C",
+     "text": "Descended from ancient Egyptian cats, Maus are medium-sized with short, spotted fur."
+    },
+    {
+     "label": "D",
+     "text": "Purebred Egyptian Maus are blue, black, silver, or smoke in color."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-48"
+  },
+  {
+   "n": 30,
+   "stem": "Which word from paragraph 7 best shows how Maus are viewed in Egypt today?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "devoted"
+    },
+    {
+     "label": "B",
+     "text": "magnificent"
+    },
+    {
+     "label": "C",
+     "text": "numerous"
+    },
+    {
+     "label": "D",
+     "text": "nuisance"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-49"
+  },
+  {
+   "n": 31,
+   "stem": "According to the article, cats started gaining acceptance in Egypt when —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "they kept homes free from pests"
+    },
+    {
+     "label": "B",
+     "text": "images of cats appeared on jewelry"
+    },
+    {
+     "label": "C",
+     "text": "children received cat names"
+    },
+    {
+     "label": "D",
+     "text": "they aided armies in battle"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-50"
+  },
+  {
+   "n": 32,
+   "stem": "What problem do Maus currently experience in Egypt?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Overpopulation"
+    },
+    {
+     "label": "B",
+     "text": "Increased popularity"
+    },
+    {
+     "label": "C",
+     "text": "Neglect"
+    },
+    {
+     "label": "D",
+     "text": "Poor health"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-51"
+  },
+  {
+   "n": 33,
+   "stem": "Which paragraph offers the most useful information about how groups help animals?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "7"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-52"
+  },
+  {
+   "n": 34,
+   "stem": "Which idea best supports a presentation about the effect pets can have on owners?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cats spend hours playing and sleeping."
+    },
+    {
+     "label": "B",
+     "text": "Families mourn the deaths of their cats."
+    },
+    {
+     "label": "C",
+     "text": "Cats can have different personalities."
+    },
+    {
+     "label": "D",
+     "text": "People work in organizations to save cats."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-53"
+  },
+  {
+   "n": 35,
+   "stem": "The pine thinks the oak should be ashamed because the oak —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "sheds its leaves"
+    },
+    {
+     "label": "B",
+     "text": "hides behind its leaves"
+    },
+    {
+     "label": "C",
+     "text": "lets its leaves turn yellow"
+    },
+    {
+     "label": "D",
+     "text": "makes its leaves speak to others"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-54"
+  },
+  {
+   "n": 36,
+   "stem": "Based on details in the poem, the trees are most likely located —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "at a plant nursery"
+    },
+    {
+     "label": "B",
+     "text": "in the deepest woods"
+    },
+    {
+     "label": "C",
+     "text": "in a neighborhood park"
+    },
+    {
+     "label": "D",
+     "text": "next to a garden"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-55"
+  },
+  {
+   "n": 37,
+   "stem": "Who is the narrator in this poem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A pine tree"
+    },
+    {
+     "label": "B",
+     "text": "An oak tree"
+    },
+    {
+     "label": "C",
+     "text": "The snow"
+    },
+    {
+     "label": "D",
+     "text": "The wind"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-56"
+  },
+  {
+   "n": 38,
+   "stem": "Based on the end of the poem, what will most likely happen in the future?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The wind will be less harsh in winter."
+    },
+    {
+     "label": "B",
+     "text": "The trees will be more understanding of each other."
+    },
+    {
+     "label": "C",
+     "text": "The oak tree will drop fewer leaves."
+    },
+    {
+     "label": "D",
+     "text": "The pine tree will work harder to cheer children."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-57"
+  },
+  {
+   "n": 39,
+   "stem": "The trees speaking to each other is an example of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "simile"
+    },
+    {
+     "label": "B",
+     "text": "foreshadowing"
+    },
+    {
+     "label": "C",
+     "text": "alliteration"
+    },
+    {
+     "label": "D",
+     "text": "personification"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-58"
+  },
+  {
+   "n": 40,
+   "stem": "Which theme is conveyed in the poem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "There is strength in unity."
+    },
+    {
+     "label": "B",
+     "text": "Words have the power to hurt or heal."
+    },
+    {
+     "label": "C",
+     "text": "Overconfidence has few advantages."
+    },
+    {
+     "label": "D",
+     "text": "Misfortune tests true friendship."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-59"
+  },
+  {
+   "n": 41,
+   "stem": "The word sympathy comes from Greek roots meaning “similar emotion.” Which is the best example of sympathy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Thinking about a distant loved one"
+    },
+    {
+     "label": "B",
+     "text": "Expressing curiosity in a new situation"
+    },
+    {
+     "label": "C",
+     "text": "Showing kindness toward a family member"
+    },
+    {
+     "label": "D",
+     "text": "Feeling concerned when a stranger struggles"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-60"
+  },
+  {
+   "n": 42,
+   "stem": "The author organizes the information in paragraph 3 by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "outlining van Gogh’s artistic development"
+    },
+    {
+     "label": "B",
+     "text": "comparing his earlier skills to later skills"
+    },
+    {
+     "label": "C",
+     "text": "explaining his reasons for creating art"
+    },
+    {
+     "label": "D",
+     "text": "defining principles that guided his life"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-61"
+  },
+  {
+   "n": 43,
+   "stem": "Which word is a synonym for mimic in paragraph 6?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "copy"
+    },
+    {
+     "label": "B",
+     "text": "praise"
+    },
+    {
+     "label": "C",
+     "text": "acknowledge"
+    },
+    {
+     "label": "D",
+     "text": "alter"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-62"
+  },
+  {
+   "n": 44,
+   "stem": "Which aspect of van Gogh’s paintings does the author admire most?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the images"
+    },
+    {
+     "label": "B",
+     "text": "the mood"
+    },
+    {
+     "label": "C",
+     "text": "the brushwork"
+    },
+    {
+     "label": "D",
+     "text": "the themes"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-63"
+  },
+  {
+   "n": 45,
+   "stem": "Based on the article, van Gogh learned how to paint by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "reading books about art"
+    },
+    {
+     "label": "B",
+     "text": "observing the world closely"
+    },
+    {
+     "label": "C",
+     "text": "studying great artists’ work"
+    },
+    {
+     "label": "D",
+     "text": "mastering basic techniques"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_7_2015_SOLPass",
+   "id": "grade-7-english-64"
+  }
+ ]
+}

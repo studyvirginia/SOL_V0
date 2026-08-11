@@ -1,0 +1,4016 @@
+{
+ "subject": "math",
+ "course": "grade-4-math",
+ "courseName": "Grade 4 Math",
+ "questionCount": 160,
+ "sources": [
+  "Mathematics_Grade_4_2008_SOLPass",
+  "Mathematics_Grade_4_2009_SOLPass",
+  "Mathematics_Grade_4_2010_SOLPass",
+  "Mathematics_Grade_4_2013_SOLPass",
+  "Mathematics_Grade_4_2014_VDOE"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "The difference between 76,423 and 29,876 is best described as closest to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "60,000"
+    },
+    {
+     "label": "B",
+     "text": "50,000"
+    },
+    {
+     "label": "C",
+     "text": "40,000"
+    },
+    {
+     "label": "D",
+     "text": "30,000"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-1"
+  },
+  {
+   "n": 2,
+   "stem": "53 × 18 is closest to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "100"
+    },
+    {
+     "label": "B",
+     "text": "600"
+    },
+    {
+     "label": "C",
+     "text": "1,000"
+    },
+    {
+     "label": "D",
+     "text": "1,800"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-2"
+  },
+  {
+   "n": 3,
+   "stem": "Model 1 shows a fraction equal to 2/5. Model 2 shows a fraction equal to 3/10. What is the sum of these two fractions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/5"
+    },
+    {
+     "label": "B",
+     "text": "7/10"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "1/2"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-3"
+  },
+  {
+   "n": 4,
+   "stem": "4.2 − 2.86 =?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1.34"
+    },
+    {
+     "label": "B",
+     "text": "2.66"
+    },
+    {
+     "label": "C",
+     "text": "3.28"
+    },
+    {
+     "label": "D",
+     "text": "7.06"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-4"
+  },
+  {
+   "n": 5,
+   "stem": "The difference 743 − 239 is best described as a little more than —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "200"
+    },
+    {
+     "label": "B",
+     "text": "300"
+    },
+    {
+     "label": "C",
+     "text": "400"
+    },
+    {
+     "label": "D",
+     "text": "500"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-5"
+  },
+  {
+   "n": 6,
+   "stem": "138 ÷ 6 =?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "21"
+    },
+    {
+     "label": "B",
+     "text": "23"
+    },
+    {
+     "label": "C",
+     "text": "24"
+    },
+    {
+     "label": "D",
+     "text": "28"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-6"
+  },
+  {
+   "n": 7,
+   "stem": "3.76 + 2.99 =?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5.65"
+    },
+    {
+     "label": "B",
+     "text": "5.75"
+    },
+    {
+     "label": "C",
+     "text": "6.65"
+    },
+    {
+     "label": "D",
+     "text": "6.75"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-7"
+  },
+  {
+   "n": 8,
+   "stem": "Which is closest to 82 + 7?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "20"
+    },
+    {
+     "label": "C",
+     "text": "30"
+    },
+    {
+     "label": "D",
+     "text": "40"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-8"
+  },
+  {
+   "n": 9,
+   "stem": "What is the difference between 5/7 and 1/7?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "1/7"
+    },
+    {
+     "label": "C",
+     "text": "4/7"
+    },
+    {
+     "label": "D",
+     "text": "8/7"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-9"
+  },
+  {
+   "n": 10,
+   "stem": "Ms. Kraft bought 4 bags of rocks for her garden. Each bag contained 107 rocks. What is the total number of rocks she bought?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "408"
+    },
+    {
+     "label": "B",
+     "text": "424"
+    },
+    {
+     "label": "C",
+     "text": "428"
+    },
+    {
+     "label": "D",
+     "text": "468"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-10"
+  },
+  {
+   "n": 11,
+   "stem": "Kim and José shared one whole pizza. Kim ate 1/4 of the pizza, and José ate 3/12 of the pizza. How much of the pizza was eaten?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/12"
+    },
+    {
+     "label": "B",
+     "text": "4/12"
+    },
+    {
+     "label": "C",
+     "text": "7/12"
+    },
+    {
+     "label": "D",
+     "text": "11/12"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-11"
+  },
+  {
+   "n": 12,
+   "stem": "71,965 − 42,749 =?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "29,216"
+    },
+    {
+     "label": "B",
+     "text": "31,224"
+    },
+    {
+     "label": "C",
+     "text": "39,124"
+    },
+    {
+     "label": "D",
+     "text": "39,226"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-12"
+  },
+  {
+   "n": 13,
+   "stem": "The fraction bars each represent one whole divided into equal parts. One bar is divided into 2 equal parts with 1 part shaded. Another bar is divided into 4 equal parts with 2 parts shaded. Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/2 = 2/4"
+    },
+    {
+     "label": "B",
+     "text": "1/2 > 2/4"
+    },
+    {
+     "label": "C",
+     "text": "1/2 < 2/4"
+    },
+    {
+     "label": "D",
+     "text": "1/2 ≠ 2/4"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-13"
+  },
+  {
+   "n": 14,
+   "stem": "How is 75,054 written in words?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Seventy-five, fifty-four"
+    },
+    {
+     "label": "B",
+     "text": "Seventy-five hundred, fifty-four"
+    },
+    {
+     "label": "C",
+     "text": "Seventy-five thousand, fifty-four"
+    },
+    {
+     "label": "D",
+     "text": "Seventy-five thousand, fifty-four"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-14"
+  },
+  {
+   "n": 15,
+   "stem": "Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6,785 = 6,857"
+    },
+    {
+     "label": "B",
+     "text": "4,958 < 9,350"
+    },
+    {
+     "label": "C",
+     "text": "9,350 < 4,958"
+    },
+    {
+     "label": "D",
+     "text": "5,092 > 5,902"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-15"
+  },
+  {
+   "n": 16,
+   "stem": "What is 265,200 rounded to the nearest hundred thousand?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "200,000"
+    },
+    {
+     "label": "B",
+     "text": "265,000"
+    },
+    {
+     "label": "C",
+     "text": "270,000"
+    },
+    {
+     "label": "D",
+     "text": "300,000"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-16"
+  },
+  {
+   "n": 17,
+   "stem": "Four fraction strips are shown: 1/3, 1/5, 1/8, and 1/10. Which fraction has the least value?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "1/5"
+    },
+    {
+     "label": "C",
+     "text": "1/8"
+    },
+    {
+     "label": "D",
+     "text": "1/10"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-17"
+  },
+  {
+   "n": 18,
+   "stem": "Which of the following numbers will round to 26?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "25.3"
+    },
+    {
+     "label": "B",
+     "text": "25.5"
+    },
+    {
+     "label": "C",
+     "text": "26.7"
+    },
+    {
+     "label": "D",
+     "text": "27.1"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-18"
+  },
+  {
+   "n": 19,
+   "stem": "A model is divided into 100 equal squares. Forty-two of the squares are shaded. Which decimal best represents the shaded part of the model?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.42"
+    },
+    {
+     "label": "B",
+     "text": "0.042"
+    },
+    {
+     "label": "C",
+     "text": "4.2"
+    },
+    {
+     "label": "D",
+     "text": "42"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-19"
+  },
+  {
+   "n": 20,
+   "stem": "A model represents the fraction 3/4. Which fraction is equivalent to 3/4?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6/8"
+    },
+    {
+     "label": "B",
+     "text": "3/8"
+    },
+    {
+     "label": "C",
+     "text": "4/6"
+    },
+    {
+     "label": "D",
+     "text": "9/16"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-20"
+  },
+  {
+   "n": 22,
+   "stem": "A puppy weighs 2 pounds. What is the puppy’s weight in ounces?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "32 ounces"
+    },
+    {
+     "label": "B",
+     "text": "20 ounces"
+    },
+    {
+     "label": "C",
+     "text": "16 ounces"
+    },
+    {
+     "label": "D",
+     "text": "8 ounces"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-21"
+  },
+  {
+   "n": 23,
+   "stem": "Four lines are labeled a, b, j, and k. Line a is horizontal. Line b is slanted. Line j is vertical. Line k is slanted. Which pair of lines appears to be perpendicular?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Lines a and j"
+    },
+    {
+     "label": "B",
+     "text": "Lines b and j"
+    },
+    {
+     "label": "C",
+     "text": "Lines a and k"
+    },
+    {
+     "label": "D",
+     "text": "Lines a and b"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-22"
+  },
+  {
+   "n": 24,
+   "stem": "A paper clip is 2.5 centimeters long. Which is closest to the length, in inches, of the paper clip?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 inch"
+    },
+    {
+     "label": "B",
+     "text": "2 inches"
+    },
+    {
+     "label": "C",
+     "text": "3 inches"
+    },
+    {
+     "label": "D",
+     "text": "1/2 inch"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-23"
+  },
+  {
+   "n": 25,
+   "stem": "A beaker contains liquid filled slightly above the 30-milliliter mark and below the 40-milliliter mark. Which measurement is closest to the volume of liquid in the beaker?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10 milliliters"
+    },
+    {
+     "label": "B",
+     "text": "20 milliliters"
+    },
+    {
+     "label": "C",
+     "text": "30 milliliters"
+    },
+    {
+     "label": "D",
+     "text": "40 milliliters"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-24"
+  },
+  {
+   "n": 26,
+   "stem": "Which is true of a square?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "It has no sides of equal length."
+    },
+    {
+     "label": "B",
+     "text": "It has 4 curved sides."
+    },
+    {
+     "label": "C",
+     "text": "It has only 1 pair of parallel sides."
+    },
+    {
+     "label": "D",
+     "text": "It has 4 right angles."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-25"
+  },
+  {
+   "n": 27,
+   "stem": "A figure has four sides measuring approximately 5 cm, 4 cm, 5 cm, and 4 cm. Which is closest to the perimeter of the figure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "21 cm"
+    },
+    {
+     "label": "B",
+     "text": "18 cm"
+    },
+    {
+     "label": "C",
+     "text": "12 cm"
+    },
+    {
+     "label": "D",
+     "text": "9 cm"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-26"
+  },
+  {
+   "n": 28,
+   "stem": "A drawing shows 4 points connected so that every point is connected to every other point by a line segment. What is the maximum number of line segments shown?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "11"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-27"
+  },
+  {
+   "n": 29,
+   "stem": "A notepad measures a little longer than 5 inches. Which is closest to the length of the notepad?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4 inches"
+    },
+    {
+     "label": "B",
+     "text": "4 1/2 inches"
+    },
+    {
+     "label": "C",
+     "text": "5 inches"
+    },
+    {
+     "label": "D",
+     "text": "5 1/2 inches"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-28"
+  },
+  {
+   "n": 30,
+   "stem": "Four shapes are shown. Shapes 1 and 2 are the same size and shape but oriented differently. Which two shapes appear to be congruent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 and 2"
+    },
+    {
+     "label": "B",
+     "text": "2 and 3"
+    },
+    {
+     "label": "C",
+     "text": "3 and 4"
+    },
+    {
+     "label": "D",
+     "text": "4 and 1"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-29"
+  },
+  {
+   "n": 31,
+   "stem": "A balance scale shows a candle balancing slightly below the 600-gram mark and above the 500-gram mark. Which appears to be the mass of the candle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "500 g"
+    },
+    {
+     "label": "B",
+     "text": "550 g"
+    },
+    {
+     "label": "C",
+     "text": "600 g"
+    },
+    {
+     "label": "D",
+     "text": "650 g"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-30"
+  },
+  {
+   "n": 32,
+   "stem": "Rectangle ABCD is shown on a coordinate grid. Point A is at (2,2), point B is at (5,2), and point C is at (5,4). Which ordered pair must represent point D to complete the rectangle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2,4)"
+    },
+    {
+     "label": "B",
+     "text": "(2,5)"
+    },
+    {
+     "label": "C",
+     "text": "(4,2)"
+    },
+    {
+     "label": "D",
+     "text": "(5,2)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-31"
+  },
+  {
+   "n": 33,
+   "stem": "Gary began filling his swimming pool at 10:00 a.m. The graph shows that at 12:00 p.m., the pool contained about 900 gallons of water. The amount of water increases at a constant rate. Which is closest to the number of gallons in the pool at 2:00 p.m.?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "300 gallons"
+    },
+    {
+     "label": "B",
+     "text": "1,200 gallons"
+    },
+    {
+     "label": "C",
+     "text": "1,500 gallons"
+    },
+    {
+     "label": "D",
+     "text": "1,600 gallons"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-32"
+  },
+  {
+   "n": 34,
+   "stem": "A pouch contains 5 blue marbles, 2 red marbles, 1 green marble, and 4 pink marbles. What is the probability of selecting a red marble on the first try?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/12"
+    },
+    {
+     "label": "B",
+     "text": "1/6"
+    },
+    {
+     "label": "C",
+     "text": "1/10"
+    },
+    {
+     "label": "D",
+     "text": "2/12"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-33"
+  },
+  {
+   "n": 35,
+   "stem": "A bar graph shows the number of letters written by students in four classrooms: Ms. Katz: 15 letters Ms. Garza: 25 letters Mr. Williams: 20 letters Ms. Yin: 30 letters Which question cannot be answered using this information?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Which two classrooms combined wrote 35 letters?"
+    },
+    {
+     "label": "B",
+     "text": "Which classroom wrote the least number of letters?"
+    },
+    {
+     "label": "C",
+     "text": "Which classroom wrote the greatest number of letters?"
+    },
+    {
+     "label": "D",
+     "text": "Which month did Mr. Williams’ class write the most letters?"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-34"
+  },
+  {
+   "n": 36,
+   "stem": "Mr. Eggan’s garage contains paint cans as follows: White: 6 cans Red: 4 cans Blue: 5 cans Green: 5 cans What is the probability that the first can chosen will be white?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6/20"
+    },
+    {
+     "label": "B",
+     "text": "1/5"
+    },
+    {
+     "label": "C",
+     "text": "3/10"
+    },
+    {
+     "label": "D",
+     "text": "1/4"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-35"
+  },
+  {
+   "n": 37,
+   "stem": "Margaret bought a box of 12 doughnuts. It is impossible for the doughnut picked from the box to be glazed. How many glazed doughnuts are in the box?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-36"
+  },
+  {
+   "n": 39,
+   "stem": "A box contains 45 bags of cheese popcorn and 5 bags of caramel popcorn. Which best describes the chance that the first bag selected is caramel popcorn?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Impossible"
+    },
+    {
+     "label": "B",
+     "text": "Unlikely, but not impossible"
+    },
+    {
+     "label": "C",
+     "text": "Likely, but not certain"
+    },
+    {
+     "label": "D",
+     "text": "Certain"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-37"
+  },
+  {
+   "n": 40,
+   "stem": "A bag contains: 2 apple stickers 3 orange stickers 1 pear sticker 2 plum stickers What is the probability of selecting a pear sticker?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/8"
+    },
+    {
+     "label": "B",
+     "text": "1/4"
+    },
+    {
+     "label": "C",
+     "text": "1/6"
+    },
+    {
+     "label": "D",
+     "text": "1/2"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-38"
+  },
+  {
+   "n": 41,
+   "stem": "Which number correctly completes the number sentence? 45 + (14 + 17) = (14 + 45) + ___",
+   "choices": [
+    {
+     "label": "A",
+     "text": "59"
+    },
+    {
+     "label": "B",
+     "text": "45"
+    },
+    {
+     "label": "C",
+     "text": "17"
+    },
+    {
+     "label": "D",
+     "text": "14"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-39"
+  },
+  {
+   "n": 42,
+   "stem": "Four basketball players stand in order. Their uniform numbers increase by 8 each time. Which rule describes this pattern?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Add 8"
+    },
+    {
+     "label": "B",
+     "text": "Multiply by 9"
+    },
+    {
+     "label": "C",
+     "text": "Divide by 6"
+    },
+    {
+     "label": "D",
+     "text": "Subtract 12"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-40"
+  },
+  {
+   "n": 43,
+   "stem": "Which number sentence is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "21 − (7 + 6) = 7 + (21 ÷ 6)"
+    },
+    {
+     "label": "B",
+     "text": "33 + (18 + 2) = 18 + (33 + 2)"
+    },
+    {
+     "label": "C",
+     "text": "15 + (19 + 24) = 19 + (24 − 15)"
+    },
+    {
+     "label": "D",
+     "text": "29 + (16 − 3) = 16 + (29 + 3)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-41"
+  },
+  {
+   "n": 44,
+   "stem": "Tennis practice minutes by week are: Week 1: 75 Week 2: 120 Week 3: 165 Week 4: 210 If the pattern continues, how many minutes will Lee practice during week 6?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "365"
+    },
+    {
+     "label": "B",
+     "text": "345"
+    },
+    {
+     "label": "C",
+     "text": "300"
+    },
+    {
+     "label": "D",
+     "text": "255"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-42"
+  },
+  {
+   "n": 45,
+   "stem": "Which number sentence is not true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(6 + 5) + 3 = 6 + (5 + 3)"
+    },
+    {
+     "label": "B",
+     "text": "(5 × 2) × 1 = 5 × (2 × 4)"
+    },
+    {
+     "label": "C",
+     "text": "(54 + 5) + 2 = 54 + (5 + 2)"
+    },
+    {
+     "label": "D",
+     "text": "8 × (2 × 3) = (8 × 2) × 3"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-43"
+  },
+  {
+   "n": 46,
+   "stem": "Mailboxes are numbered in this pattern: 205, 203, 201, 199. Which number will be on the next mailbox?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "202"
+    },
+    {
+     "label": "B",
+     "text": "200"
+    },
+    {
+     "label": "C",
+     "text": "199"
+    },
+    {
+     "label": "D",
+     "text": "197"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-44"
+  },
+  {
+   "n": 47,
+   "stem": "Columns of blocks are built so that each column has 2 more blocks than the one before it. 1st column: 4 blocks 2nd column: 6 blocks 3rd column: 8 blocks 4th column: 10 blocks How many blocks will the 5th column have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8"
+    },
+    {
+     "label": "B",
+     "text": "10"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "14"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-45"
+  },
+  {
+   "n": 49,
+   "stem": "Look at the pattern: 2, 10, 18, __, 34, 42 What is the missing number?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "20"
+    },
+    {
+     "label": "B",
+     "text": "26"
+    },
+    {
+     "label": "C",
+     "text": "28"
+    },
+    {
+     "label": "D",
+     "text": "30"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-46"
+  },
+  {
+   "n": 50,
+   "stem": "What number makes the number sentence true? 7 + (13 + 4) = (7 + __) + 4",
+   "choices": [
+    {
+     "label": "A",
+     "text": "11"
+    },
+    {
+     "label": "B",
+     "text": "13"
+    },
+    {
+     "label": "C",
+     "text": "17"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2010_SOLPass",
+   "id": "grade-4-math-47"
+  },
+  {
+   "n": 1,
+   "stem": "Which of the following best describes the difference (43,441 - 35,184)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Closer to 10,000 than 8,000"
+    },
+    {
+     "label": "B",
+     "text": "Closer to 10,000 than 9,000"
+    },
+    {
+     "label": "C",
+     "text": "Closer to 9,000 than 8,000"
+    },
+    {
+     "label": "D",
+     "text": "Closer to 8,000 than 7,000"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-48"
+  },
+  {
+   "n": 2,
+   "stem": "What is the sum of 1,292 and 1,379?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2,661"
+    },
+    {
+     "label": "G",
+     "text": "2,671"
+    },
+    {
+     "label": "H",
+     "text": "2,681"
+    },
+    {
+     "label": "J",
+     "text": "2,761"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-49"
+  },
+  {
+   "n": 4,
+   "stem": "Which is closest to (423 6)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "30"
+    },
+    {
+     "label": "G",
+     "text": "50"
+    },
+    {
+     "label": "H",
+     "text": "70"
+    },
+    {
+     "label": "J",
+     "text": "90"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-50"
+  },
+  {
+   "n": 5,
+   "stem": "(1.906 - 0.24 =)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1.922"
+    },
+    {
+     "label": "B",
+     "text": "1.882"
+    },
+    {
+     "label": "C",
+     "text": "1.746"
+    },
+    {
+     "label": "D",
+     "text": "1.666"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-51"
+  },
+  {
+   "n": 6,
+   "stem": "Ada took a three-day driving trip. She drove 425 miles the first day, 378 miles the second day, and 539 miles the third day. About how many miles did Ada drive in the three days?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "700 miles"
+    },
+    {
+     "label": "G",
+     "text": "800 miles"
+    },
+    {
+     "label": "H",
+     "text": "1,300 miles"
+    },
+    {
+     "label": "J",
+     "text": "1,500 miles"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-52"
+  },
+  {
+   "n": 7,
+   "stem": "What is the difference between 112,841 and 92,408?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "20,433"
+    },
+    {
+     "label": "B",
+     "text": "20,443"
+    },
+    {
+     "label": "C",
+     "text": "20,447"
+    },
+    {
+     "label": "D",
+     "text": "20,449"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-53"
+  },
+  {
+   "n": 10,
+   "stem": "Lorenzo and Shawn had a paper airplane contest. Lorenzo’s airplane flew 20.25 feet. Shawn’s airplane flew 16.50 feet. How many feet farther did Lorenzo’s airplane fly than Shawn’s airplane?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3.75"
+    },
+    {
+     "label": "G",
+     "text": "4.25"
+    },
+    {
+     "label": "H",
+     "text": "4.35"
+    },
+    {
+     "label": "J",
+     "text": "4.75"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-54"
+  },
+  {
+   "n": 11,
+   "stem": "$43.69 - $5.77 =",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$37.92"
+    },
+    {
+     "label": "B",
+     "text": "$38.92"
+    },
+    {
+     "label": "C",
+     "text": "$42.12"
+    },
+    {
+     "label": "D",
+     "text": "$49.46"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-55"
+  },
+  {
+   "n": 13,
+   "stem": "Which digit of the number 473,625 is in the ten-thousands place?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-56"
+  },
+  {
+   "n": 14,
+   "stem": "Which fraction card shows a true statement?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "( (2)/(3) > (2)/(4) )"
+    },
+    {
+     "label": "G",
+     "text": "( (1)/(4) > (1)/(3) )"
+    },
+    {
+     "label": "H",
+     "text": "( (1)/(2) < (1)/(3) )"
+    },
+    {
+     "label": "J",
+     "text": "( (2)/(3) < (1)/(2) )"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-57"
+  },
+  {
+   "n": 16,
+   "stem": "Dominic drew a line that was 2.35 meters long. What is this number rounded to the nearest whole number?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2"
+    },
+    {
+     "label": "G",
+     "text": "2.4"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "3.4"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-58"
+  },
+  {
+   "n": 17,
+   "stem": "Which is correct?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2,303,109 < 2,299,999)"
+    },
+    {
+     "label": "B",
+     "text": "(2,303,109 < 2,303,099)"
+    },
+    {
+     "label": "C",
+     "text": "(2,303,109 < 2,302,999)"
+    },
+    {
+     "label": "D",
+     "text": "(2,303,109 < 2,303,110)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-59"
+  },
+  {
+   "n": 19,
+   "stem": "When rounded to the nearest ten thousand, which number would be 9,420,000?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "9,412,836"
+    },
+    {
+     "label": "B",
+     "text": "9,415,372"
+    },
+    {
+     "label": "C",
+     "text": "9,426,105"
+    },
+    {
+     "label": "D",
+     "text": "9,428,153"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-60"
+  },
+  {
+   "n": 20,
+   "stem": "Which number is “four hundred five thousandths”?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0.045"
+    },
+    {
+     "label": "G",
+     "text": "0.45"
+    },
+    {
+     "label": "H",
+     "text": "0.405"
+    },
+    {
+     "label": "J",
+     "text": "0.4005"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-61"
+  },
+  {
+   "n": 21,
+   "stem": "Four students ran different paths from the same starting line to the same finish line. The shortest path is the straightest path with the least total distance. Which student took the shortest path?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Tyler"
+    },
+    {
+     "label": "B",
+     "text": "Kevin"
+    },
+    {
+     "label": "C",
+     "text": "Barry"
+    },
+    {
+     "label": "D",
+     "text": "Sam"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-62"
+  },
+  {
+   "n": 22,
+   "stem": "During science class, Joseph found that the mass of a rock was 3 kilograms. What was the mass of Joseph’s rock in grams?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "30"
+    },
+    {
+     "label": "G",
+     "text": "300"
+    },
+    {
+     "label": "H",
+     "text": "3,000"
+    },
+    {
+     "label": "J",
+     "text": "30,000"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-63"
+  },
+  {
+   "n": 23,
+   "stem": "Which of the following shows a true statement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2 gallons = 8 quarts"
+    },
+    {
+     "label": "B",
+     "text": "2 quarts = 8 pints"
+    },
+    {
+     "label": "C",
+     "text": "4 cups = 1 pint"
+    },
+    {
+     "label": "D",
+     "text": "4 pints = 1 gallon"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-64"
+  },
+  {
+   "n": 24,
+   "stem": "A rectangle is a flat figure with 4 sides and right angles. A rectangular prism is a solid figure with 6 rectangular faces. Which is true about these two figures?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "They both have 4 faces."
+    },
+    {
+     "label": "G",
+     "text": "They both have 12 edges."
+    },
+    {
+     "label": "H",
+     "text": "They both have right angles."
+    },
+    {
+     "label": "J",
+     "text": "They both are geometric solids."
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-65"
+  },
+  {
+   "n": 26,
+   "stem": "Which of the following best describes a line?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A collection of points that extends infinitely in two opposite directions"
+    },
+    {
+     "label": "G",
+     "text": "All the points between two endpoints"
+    },
+    {
+     "label": "H",
+     "text": "All the points extending infinitely in one direction from one endpoint"
+    },
+    {
+     "label": "J",
+     "text": "A single, exact location in space without length or width"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-66"
+  },
+  {
+   "n": 28,
+   "stem": "Which is the best estimate of the mass of a pencil?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "10 grams"
+    },
+    {
+     "label": "G",
+     "text": "100 ounces"
+    },
+    {
+     "label": "H",
+     "text": "10 pounds"
+    },
+    {
+     "label": "J",
+     "text": "100 kilograms"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-67"
+  },
+  {
+   "n": 29,
+   "stem": "Five points labeled B, C, D, E, and F are shown on a coordinate grid. Points D, E, and F lie on the same straight line. Which points lie on the same line?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Points B, C, and D"
+    },
+    {
+     "label": "B",
+     "text": "Points C, D, and E"
+    },
+    {
+     "label": "C",
+     "text": "Points E, F, and C"
+    },
+    {
+     "label": "D",
+     "text": "Points D, E, and F"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-68"
+  },
+  {
+   "n": 30,
+   "stem": "Vince’s younger brother is 36 inches tall. Which of the following is equivalent to 36 inches?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1 yard"
+    },
+    {
+     "label": "G",
+     "text": "1 foot"
+    },
+    {
+     "label": "H",
+     "text": "12 feet"
+    },
+    {
+     "label": "J",
+     "text": "12 inches"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-69"
+  },
+  {
+   "n": 31,
+   "stem": "Which statement about a ray is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A ray has no endpoints."
+    },
+    {
+     "label": "B",
+     "text": "A ray has one endpoint."
+    },
+    {
+     "label": "C",
+     "text": "A ray has two endpoints."
+    },
+    {
+     "label": "D",
+     "text": "A ray continues in two directions."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-70"
+  },
+  {
+   "n": 32,
+   "stem": "On a coordinate grid, the group located at x = 6 and y = 1 is labeled Monkeys. Which group of zoo animals appears to be located at (6, 1)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Giraffes"
+    },
+    {
+     "label": "G",
+     "text": "Goats"
+    },
+    {
+     "label": "H",
+     "text": "Elephants"
+    },
+    {
+     "label": "J",
+     "text": "Monkeys"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-71"
+  },
+  {
+   "n": 33,
+   "stem": "There are 10 cards in a bag. The cards include circles, triangles, squares, and no stars. Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "It is likely that she will pull out a circle card."
+    },
+    {
+     "label": "B",
+     "text": "It is unlikely she will pull out a triangle card."
+    },
+    {
+     "label": "C",
+     "text": "It is certain she will pull out a square card."
+    },
+    {
+     "label": "D",
+     "text": "It is impossible to pull out a star card."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-72"
+  },
+  {
+   "n": 37,
+   "stem": "Becky has a box with 11 buttons: 2 yellow, 3 red, and 6 blue. If she takes 1 button without looking, what is the probability the button will be blue?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( (5)/(6) )"
+    },
+    {
+     "label": "B",
+     "text": "( (1)/(6) )"
+    },
+    {
+     "label": "C",
+     "text": "( (5)/(11) )"
+    },
+    {
+     "label": "D",
+     "text": "( (6)/(11) )"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-73"
+  },
+  {
+   "n": 39,
+   "stem": "The bag contains 7 purple balloons, 2 yellow balloons, and 1 white balloon. Which best describes the likelihood of choosing a purple balloon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Certain"
+    },
+    {
+     "label": "B",
+     "text": "Likely, but not certain"
+    },
+    {
+     "label": "C",
+     "text": "Unlikely, but not impossible"
+    },
+    {
+     "label": "D",
+     "text": "Impossible"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-74"
+  },
+  {
+   "n": 41,
+   "stem": "Boat rides begin at 9:00, 9:45, 10:30, 11:15, 12:00, and 12:45. If the time between rides stays the same, when will the next ride begin?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1:00"
+    },
+    {
+     "label": "B",
+     "text": "1:15"
+    },
+    {
+     "label": "C",
+     "text": "1:30"
+    },
+    {
+     "label": "D",
+     "text": "2:00"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-75"
+  },
+  {
+   "n": 42,
+   "stem": "Which symbol makes the statement true? (40 + 5 = 9 5)",
+   "choices": [
+    {
+     "label": "F",
+     "text": "+"
+    },
+    {
+     "label": "G",
+     "text": "×"
+    },
+    {
+     "label": "H",
+     "text": "÷"
+    },
+    {
+     "label": "J",
+     "text": "−"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-76"
+  },
+  {
+   "n": 43,
+   "stem": "Which statement is not true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(10 + (4 + 2) = (10 + 4) + 2)"
+    },
+    {
+     "label": "B",
+     "text": "((2 × 5) × 4 = (5 × 4) × 2)"
+    },
+    {
+     "label": "C",
+     "text": "(21 + 5 = 5 + 21)"
+    },
+    {
+     "label": "D",
+     "text": "(16 + 1 = 16 × 1)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-77"
+  },
+  {
+   "n": 44,
+   "stem": "Wendy used an addition rule to make the pattern 13, 17, 21, 25, 29. Which uses the same rule?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "16, 19, 24, 28, 32"
+    },
+    {
+     "label": "G",
+     "text": "16, 20, 24, 28, 32"
+    },
+    {
+     "label": "H",
+     "text": "16, 20, 28, 32, 36"
+    },
+    {
+     "label": "J",
+     "text": "16, 21, 25, 29, 33"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-78"
+  },
+  {
+   "n": 46,
+   "stem": "The numbers on gym lockers are 2, 16, 30, 44, 58, 72. Which best describes the pattern?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Always 8 times the number above"
+    },
+    {
+     "label": "G",
+     "text": "Always 8 more than the number above"
+    },
+    {
+     "label": "H",
+     "text": "Always 14 times the number above"
+    },
+    {
+     "label": "J",
+     "text": "Always 14 more than the number above"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-79"
+  },
+  {
+   "n": 47,
+   "stem": "A number machine adds the same number each time. Inputs and outputs are: 4 → 13 8 → 17 11 → 20 What number comes out if 15 goes in?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "22"
+    },
+    {
+     "label": "B",
+     "text": "23"
+    },
+    {
+     "label": "C",
+     "text": "24"
+    },
+    {
+     "label": "D",
+     "text": "25"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-80"
+  },
+  {
+   "n": 48,
+   "stem": "The pattern is 65, 62, 59, 56, 53, 50, __, __, 41, 38. What numbers go in the blanks?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "49, 42"
+    },
+    {
+     "label": "G",
+     "text": "48, 46"
+    },
+    {
+     "label": "H",
+     "text": "47, 44"
+    },
+    {
+     "label": "J",
+     "text": "46, 42"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-81"
+  },
+  {
+   "n": 49,
+   "stem": "Which is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((5 + 37) + 63 = 5 + (37 + 63))"
+    },
+    {
+     "label": "B",
+     "text": "((5 + 37) + 63 = 5 × (37 + 63))"
+    },
+    {
+     "label": "C",
+     "text": "((5 + 37) + 63 = (5 × 63) + (37 × 63))"
+    },
+    {
+     "label": "D",
+     "text": "((5 + 37) + 63 = (5 + 37) + (37 + 63))"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-82"
+  },
+  {
+   "n": 50,
+   "stem": "What number goes in the box to make the statement true? (14 + (17 + 12) = (14 + ) + 12)",
+   "choices": [
+    {
+     "label": "F",
+     "text": "10"
+    },
+    {
+     "label": "G",
+     "text": "14"
+    },
+    {
+     "label": "H",
+     "text": "17"
+    },
+    {
+     "label": "J",
+     "text": "21"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2009_SOLPass",
+   "id": "grade-4-math-83"
+  },
+  {
+   "n": 1,
+   "stem": "Which digit can be placed in the box to make this statement true? 2, __ 96 = 2,496",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-84"
+  },
+  {
+   "n": 2,
+   "stem": "Wilma drinks 1.09 liters of juice. Richard drinks 0.987 liter of juice. How much more juice does Wilma drink than Richard?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.103 liter"
+    },
+    {
+     "label": "B",
+     "text": "0.878 liter"
+    },
+    {
+     "label": "C",
+     "text": "1.917 liters"
+    },
+    {
+     "label": "D",
+     "text": "2.077 liters"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-85"
+  },
+  {
+   "n": 3,
+   "stem": "What is the least common multiple of 8 and 12?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "16"
+    },
+    {
+     "label": "B",
+     "text": "24"
+    },
+    {
+     "label": "C",
+     "text": "48"
+    },
+    {
+     "label": "D",
+     "text": "96"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-86"
+  },
+  {
+   "n": 4,
+   "stem": "What is the product of 84 and 76?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6,164"
+    },
+    {
+     "label": "B",
+     "text": "6,274"
+    },
+    {
+     "label": "C",
+     "text": "6,384"
+    },
+    {
+     "label": "D",
+     "text": "6,494"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-87"
+  },
+  {
+   "n": 6,
+   "stem": "At a store, flowerpots cost $28 each. Which is closest to the total cost of 72 of these flowerpots?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$100"
+    },
+    {
+     "label": "B",
+     "text": "$210"
+    },
+    {
+     "label": "C",
+     "text": "$1,400"
+    },
+    {
+     "label": "D",
+     "text": "$2,100"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-88"
+  },
+  {
+   "n": 7,
+   "stem": "A school choir sold 825 tickets for a concert. Each ticket cost $9. What was the total cost of all the tickets sold?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$7,425"
+    },
+    {
+     "label": "B",
+     "text": "$7,385"
+    },
+    {
+     "label": "C",
+     "text": "$7,285"
+    },
+    {
+     "label": "D",
+     "text": "$7,225"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-89"
+  },
+  {
+   "n": 10,
+   "stem": "John ran a total of 342 minutes in a 7-day period. He ran about the same number of minutes each day. Which is closest to the number of minutes John ran on one of those days?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "20"
+    },
+    {
+     "label": "B",
+     "text": "30"
+    },
+    {
+     "label": "C",
+     "text": "50"
+    },
+    {
+     "label": "D",
+     "text": "60"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-90"
+  },
+  {
+   "n": 11,
+   "stem": "What is the difference between 5/6 and 1/6?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/6"
+    },
+    {
+     "label": "B",
+     "text": "2/6"
+    },
+    {
+     "label": "C",
+     "text": "3/6"
+    },
+    {
+     "label": "D",
+     "text": "4/6"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-91"
+  },
+  {
+   "n": 12,
+   "stem": "Carl does 25 sit-ups 3 times per day. What is the total number of sit-ups Carl does in 7 days?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "495"
+    },
+    {
+     "label": "B",
+     "text": "500"
+    },
+    {
+     "label": "C",
+     "text": "510"
+    },
+    {
+     "label": "D",
+     "text": "525"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-92"
+  },
+  {
+   "n": 13,
+   "stem": "Which number is a common factor of 15, 18, and 30?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-93"
+  },
+  {
+   "n": 14,
+   "stem": "What digit is in the tenths place in the number 24.816?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-94"
+  },
+  {
+   "n": 15,
+   "stem": "Which division statement represents 3/8?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3 divided by 8"
+    },
+    {
+     "label": "B",
+     "text": "8 divided by 3"
+    },
+    {
+     "label": "C",
+     "text": "3 divided by 11"
+    },
+    {
+     "label": "D",
+     "text": "11 divided by 3"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-95"
+  },
+  {
+   "n": 20,
+   "stem": "How is 2.32 written in words?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Two hundred thirty-two"
+    },
+    {
+     "label": "B",
+     "text": "Two and thirty-two tenths"
+    },
+    {
+     "label": "C",
+     "text": "Two and thirty-two hundredths"
+    },
+    {
+     "label": "D",
+     "text": "Two and thirty-two thousandths"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-96"
+  },
+  {
+   "n": 21,
+   "stem": "What is 7,613,542 rounded to the nearest ten thousand?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7,600,000"
+    },
+    {
+     "label": "B",
+     "text": "7,610,000"
+    },
+    {
+     "label": "C",
+     "text": "7,614,000"
+    },
+    {
+     "label": "D",
+     "text": "7,620,000"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-97"
+  },
+  {
+   "n": 25,
+   "stem": "Which number, when rounded to the nearest hundredth, is equal to 7.59?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7.595"
+    },
+    {
+     "label": "B",
+     "text": "7.588"
+    },
+    {
+     "label": "C",
+     "text": "7.584"
+    },
+    {
+     "label": "D",
+     "text": "7.549"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-98"
+  },
+  {
+   "n": 28,
+   "stem": "Lola’s puppy weighed 6 pounds. What is the total number of ounces Lola’s puppy weighed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "48 ounces"
+    },
+    {
+     "label": "B",
+     "text": "60 ounces"
+    },
+    {
+     "label": "C",
+     "text": "72 ounces"
+    },
+    {
+     "label": "D",
+     "text": "96 ounces"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-99"
+  },
+  {
+   "n": 29,
+   "stem": "A restaurant has 3 gallons of soup. What is the total number of pints of soup this restaurant has?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12 pints"
+    },
+    {
+     "label": "B",
+     "text": "18 pints"
+    },
+    {
+     "label": "C",
+     "text": "24 pints"
+    },
+    {
+     "label": "D",
+     "text": "48 pints"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-100"
+  },
+  {
+   "n": 31,
+   "stem": "A basketball team left the school at 2:55 p.m. and returned at 5:45 p.m. What was the total amount of time that passed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2 hours 10 minutes"
+    },
+    {
+     "label": "B",
+     "text": "2 hours 50 minutes"
+    },
+    {
+     "label": "C",
+     "text": "3 hours 10 minutes"
+    },
+    {
+     "label": "D",
+     "text": "3 hours 50 minutes"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-101"
+  },
+  {
+   "n": 32,
+   "stem": "Which of these objects has a mass closest to 1 kilogram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A desk"
+    },
+    {
+     "label": "B",
+     "text": "A pencil"
+    },
+    {
+     "label": "C",
+     "text": "A dictionary"
+    },
+    {
+     "label": "D",
+     "text": "A sheet of paper"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-102"
+  },
+  {
+   "n": 35,
+   "stem": "2 meters = ___ millimeters",
+   "choices": [
+    {
+     "label": "A",
+     "text": "20,000 millimeters"
+    },
+    {
+     "label": "B",
+     "text": "2,000 millimeters"
+    },
+    {
+     "label": "C",
+     "text": "200 millimeters"
+    },
+    {
+     "label": "D",
+     "text": "20 millimeters"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-103"
+  },
+  {
+   "n": 42,
+   "stem": "Which letter best represents the probability of flipping a coin once and landing tails, where 0 represents impossible and 1 represents certain?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A point halfway between 0 and 1"
+    },
+    {
+     "label": "B",
+     "text": "A point at 0"
+    },
+    {
+     "label": "C",
+     "text": "A point at 1"
+    },
+    {
+     "label": "D",
+     "text": "A point greater than 1"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-104"
+  },
+  {
+   "n": 44,
+   "stem": "Todd has the following folders in his backpack: 2 blue, 2 red, 2 yellow, and 2 purple. Todd selects one folder without looking. What is the likelihood the folder will be green?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Certain"
+    },
+    {
+     "label": "B",
+     "text": "Likely, but not certain"
+    },
+    {
+     "label": "C",
+     "text": "Unlikely, but not impossible"
+    },
+    {
+     "label": "D",
+     "text": "Impossible"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-105"
+  },
+  {
+   "n": 45,
+   "stem": "Which number sentence is correct?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3 × 2 × 3 = 2 × 6"
+    },
+    {
+     "label": "B",
+     "text": "5 × 2 × 5 = 10 × 2"
+    },
+    {
+     "label": "C",
+     "text": "4 × 2 × 6 = 12 × 4"
+    },
+    {
+     "label": "D",
+     "text": "8 × 3 × 0 = 12 × 2"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-106"
+  },
+  {
+   "n": 46,
+   "stem": "Which equation shows the use of the associative property of multiplication?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2 × (50 × 1) = 2 × 50"
+    },
+    {
+     "label": "B",
+     "text": "2 × (50 × 12) = (2 × 50) × 12"
+    },
+    {
+     "label": "C",
+     "text": "2 × (50 × 12) = 2 × (12 × 50)"
+    },
+    {
+     "label": "D",
+     "text": "2 × 1 = 2 × (24 × 12)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-107"
+  },
+  {
+   "n": 47,
+   "stem": "Jeremy rolls a fair number cube labeled 1 through 6. What is the probability that he will roll a 2 on the first roll?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/6"
+    },
+    {
+     "label": "B",
+     "text": "1/3"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "2/6"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-108"
+  },
+  {
+   "n": 49,
+   "stem": "An increasing pattern is shown: 5, 14, 23, 32, 41. Which pattern uses the same rule?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "42, 33, 24, 15, 6"
+    },
+    {
+     "label": "B",
+     "text": "15, 23, 31, 39, 47"
+    },
+    {
+     "label": "C",
+     "text": "13, 22, 31, 40, 49"
+    },
+    {
+     "label": "D",
+     "text": "8, 19, 30, 41, 52"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2013_SOLPass",
+   "id": "grade-4-math-109"
+  },
+  {
+   "n": 1,
+   "stem": "Each circle described below is the same size. Circle A is divided into 4 equal parts, with 1 part shaded. Circle B is divided into 8 equal parts, with 2 parts shaded. Which statement correctly compares the fractions represented by the shaded regions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The fraction in Circle A is greater than the fraction in Circle B."
+    },
+    {
+     "label": "B",
+     "text": "The fraction in Circle A is less than the fraction in Circle B."
+    },
+    {
+     "label": "C",
+     "text": "The fraction in Circle A is equivalent to the fraction in Circle B."
+    },
+    {
+     "label": "D",
+     "text": "The fraction in Circle A is twice the fraction in Circle B."
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-110"
+  },
+  {
+   "n": 2,
+   "stem": "Each model below is the same size and is shaded to represent a fraction. Model 1: Divided into 4 equal parts with 2 parts shaded. Model 2: Divided into 6 equal parts with 3 parts shaded. Model 3: Divided into 8 equal parts with 4 parts shaded. Model 4: Divided into 10 equal parts with 3 parts shaded. Which two models show equivalent fractions?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Model 1 and Model 3"
+    },
+    {
+     "label": "G",
+     "text": "Model 2 and Model 4"
+    },
+    {
+     "label": "H",
+     "text": "Model 1 and Model 2"
+    },
+    {
+     "label": "J",
+     "text": "Model 3 and Model 4"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-111"
+  },
+  {
+   "n": 3,
+   "stem": "Model X represents a number on a number line. The whole from 0 to 1 is divided into 4 equal parts. One of those 4 parts is shaded. Which fraction and decimal are equivalent to the number represented by Model X?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/8 and 0.125"
+    },
+    {
+     "label": "B",
+     "text": "1/4 and 0.25"
+    },
+    {
+     "label": "C",
+     "text": "3/2 and 1.5"
+    },
+    {
+     "label": "D",
+     "text": "1/5 and 0.2"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-112"
+  },
+  {
+   "n": 4,
+   "stem": "Which estimate best describes the value of 4329 ÷ 293?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A little less than 10"
+    },
+    {
+     "label": "B",
+     "text": "A little less than 16"
+    },
+    {
+     "label": "C",
+     "text": "A little more than 16"
+    },
+    {
+     "label": "D",
+     "text": "A little more than 20"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-113"
+  },
+  {
+   "n": 5,
+   "stem": "James needs 5 feet of string for each bracelet he makes. He will make 5 bracelets. What is the total length of string James needs to make 5 bracelets?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 feet"
+    },
+    {
+     "label": "B",
+     "text": "25 feet"
+    },
+    {
+     "label": "C",
+     "text": "55 feet"
+    },
+    {
+     "label": "D",
+     "text": "10 feet"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-114"
+  },
+  {
+   "n": 6,
+   "stem": "A cook will pour 4 cups of uncooked rice into 8 bags. The cook will pour the same amount of rice into each bag. Which division statement best represents this situation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "4 ÷ 8 = 1/2 cup of rice in each bag"
+    },
+    {
+     "label": "G",
+     "text": "4 ÷ 8 = 8 cups of rice in each bag"
+    },
+    {
+     "label": "H",
+     "text": "8 ÷ 4 = 1/2 cup of rice in each bag"
+    },
+    {
+     "label": "J",
+     "text": "8 ÷ 4 = 8 cups of rice in each bag"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-115"
+  },
+  {
+   "n": 7,
+   "stem": "Which situation can be represented by the division statement 4 ÷ 5?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5 people each making 4 sandwiches"
+    },
+    {
+     "label": "G",
+     "text": "4 people each making 5 sandwiches"
+    },
+    {
+     "label": "H",
+     "text": "5 people sharing 4 sandwiches equally"
+    },
+    {
+     "label": "J",
+     "text": "4 people sharing 5 sandwiches equally"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-116"
+  },
+  {
+   "n": 8,
+   "stem": "An array has 5 rows and 10 columns. Which list shows all the factor pairs for the number represented by this array?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1 × 50, 2 × 25, 5 × 10"
+    },
+    {
+     "label": "G",
+     "text": "5 × 10 only"
+    },
+    {
+     "label": "H",
+     "text": "10 × 5 only"
+    },
+    {
+     "label": "J",
+     "text": "2 × 25 only"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-117"
+  },
+  {
+   "n": 9,
+   "stem": "Cindy rode her bike 4/5 of a mile. Wyatt rode his bike 3/5 of a mile. What is the total distance Cindy and Wyatt rode their bikes?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3/5 mile"
+    },
+    {
+     "label": "B",
+     "text": "7/10 mile"
+    },
+    {
+     "label": "C",
+     "text": "7/5 miles"
+    },
+    {
+     "label": "D",
+     "text": "12/5 miles"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-118"
+  },
+  {
+   "n": 10,
+   "stem": "Lenny bought sunglasses for $3.35 and a beach towel for $8.71, including tax. He gave the clerk $15.00. What amount of change should Lenny receive?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$2.94"
+    },
+    {
+     "label": "G",
+     "text": "$3.94"
+    },
+    {
+     "label": "H",
+     "text": "$11.06"
+    },
+    {
+     "label": "J",
+     "text": "$12.06"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-119"
+  },
+  {
+   "n": 11,
+   "stem": "Which estimate is most reasonable for the weight or mass of the gym shoes a girl is holding?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "40 kilograms"
+    },
+    {
+     "label": "B",
+     "text": "30 pounds"
+    },
+    {
+     "label": "C",
+     "text": "20 ounces"
+    },
+    {
+     "label": "D",
+     "text": "10 grams"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-120"
+  },
+  {
+   "n": 12,
+   "stem": "16 ounces = 1 pound How many ounces are in 2 pounds?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "32"
+    },
+    {
+     "label": "G",
+     "text": "18"
+    },
+    {
+     "label": "H",
+     "text": "14"
+    },
+    {
+     "label": "J",
+     "text": "8"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-121"
+  },
+  {
+   "n": 13,
+   "stem": "3 feet = 1 yard Malik bought 38 feet of fencing to place around his garden. Which length is equivalent to 38 feet?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12 yards 2 feet"
+    },
+    {
+     "label": "B",
+     "text": "12 yards 2 inches"
+    },
+    {
+     "label": "C",
+     "text": "3 yards 2 feet"
+    },
+    {
+     "label": "D",
+     "text": "3 yards 2 inches"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-122"
+  },
+  {
+   "n": 14,
+   "stem": "A clock shows that Xavier finished swim practice at 9:15. His practice lasted 2 hours 20 minutes. At what time did Xavier’s swim practice start?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6:55"
+    },
+    {
+     "label": "G",
+     "text": "7:15"
+    },
+    {
+     "label": "H",
+     "text": "7:35"
+    },
+    {
+     "label": "J",
+     "text": "7:55"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-123"
+  },
+  {
+   "n": 16,
+   "stem": "Isaiah has erasers in his pocket. There are orange erasers and purple erasers. All erasers are the same size and shape. Isaiah is least likely to select a purple eraser. On a number line from 0 to 1, the points are labeled as follows: W is closest to 0 X is just left of 1/2 Y is just right of 1/2 Z is closest to 1 Which letter best represents the probability that Isaiah will select a purple eraser?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "W"
+    },
+    {
+     "label": "G",
+     "text": "X"
+    },
+    {
+     "label": "H",
+     "text": "Y"
+    },
+    {
+     "label": "J",
+     "text": "Z"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-124"
+  },
+  {
+   "n": 18,
+   "stem": "This list of numbers follows a pattern. 14, 23, 32, 41, 50, … The pattern continues in the same way. What will be the 7th number in this pattern?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "72"
+    },
+    {
+     "label": "G",
+     "text": "68"
+    },
+    {
+     "label": "H",
+     "text": "59"
+    },
+    {
+     "label": "J",
+     "text": "51"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2014_VDOE",
+   "id": "grade-4-math-125"
+  },
+  {
+   "n": 1,
+   "stem": "Which number has a 9 in the ones place?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "9,555"
+    },
+    {
+     "label": "B",
+     "text": "5,955"
+    },
+    {
+     "label": "C",
+     "text": "5,595"
+    },
+    {
+     "label": "D",
+     "text": "5,999"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-126"
+  },
+  {
+   "n": 3,
+   "stem": "Which product is between 550 and 600?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "48 × 12"
+    },
+    {
+     "label": "B",
+     "text": "56 × 12"
+    },
+    {
+     "label": "C",
+     "text": "45 × 12"
+    },
+    {
+     "label": "D",
+     "text": "52 × 12"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-127"
+  },
+  {
+   "n": 4,
+   "stem": "Sam spent $3.29 for an ice cream sundae and $0.98 for a drink. What is the total amount Sam spent for the ice cream sundae and drink?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$3.27"
+    },
+    {
+     "label": "G",
+     "text": "$4.17"
+    },
+    {
+     "label": "H",
+     "text": "$4.27"
+    },
+    {
+     "label": "J",
+     "text": "$4.37"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-128"
+  },
+  {
+   "n": 5,
+   "stem": "Two decimal models are shown. • Model 1 represents 0.63. • Model 2 represents 0.06. If the two decimals are subtracted (0.63 − 0.06), what is the difference?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.057"
+    },
+    {
+     "label": "B",
+     "text": "0.57"
+    },
+    {
+     "label": "C",
+     "text": "5.7"
+    },
+    {
+     "label": "D",
+     "text": "57.0"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-129"
+  },
+  {
+   "n": 6,
+   "stem": "What is the result of 34.6 − 2.82?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "16.4"
+    },
+    {
+     "label": "G",
+     "text": "31.78"
+    },
+    {
+     "label": "H",
+     "text": "33.22"
+    },
+    {
+     "label": "J",
+     "text": "33.78"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-130"
+  },
+  {
+   "n": 7,
+   "stem": "What is the result of 741 ÷ 3?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "210 R1"
+    },
+    {
+     "label": "B",
+     "text": "240 R1"
+    },
+    {
+     "label": "C",
+     "text": "247"
+    },
+    {
+     "label": "D",
+     "text": "248"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-131"
+  },
+  {
+   "n": 8,
+   "stem": "Which best describes the difference 3,021 − 987?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Closer to 1,000 than 2,000"
+    },
+    {
+     "label": "G",
+     "text": "Closer to 2,000 than 3,000"
+    },
+    {
+     "label": "H",
+     "text": "Closer to 4,000 than 3,000"
+    },
+    {
+     "label": "J",
+     "text": "Closer to 5,000 than 4,000"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-132"
+  },
+  {
+   "n": 9,
+   "stem": "What is the result of 520 ÷ 5?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "14"
+    },
+    {
+     "label": "B",
+     "text": "104"
+    },
+    {
+     "label": "C",
+     "text": "114"
+    },
+    {
+     "label": "D",
+     "text": "140"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-133"
+  },
+  {
+   "n": 10,
+   "stem": "What is the product of 65 × 28?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "650"
+    },
+    {
+     "label": "G",
+     "text": "660"
+    },
+    {
+     "label": "H",
+     "text": "1,810"
+    },
+    {
+     "label": "J",
+     "text": "1,820"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-134"
+  },
+  {
+   "n": 11,
+   "stem": "What is the result of 3,348 ÷ 29?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "112"
+    },
+    {
+     "label": "B",
+     "text": "115 R1"
+    },
+    {
+     "label": "C",
+     "text": "116"
+    },
+    {
+     "label": "D",
+     "text": "129 R2"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-135"
+  },
+  {
+   "n": 12,
+   "stem": "Which 2 factors have a product of 925?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2 × 345"
+    },
+    {
+     "label": "G",
+     "text": "30 × 35"
+    },
+    {
+     "label": "H",
+     "text": "25 × 37"
+    },
+    {
+     "label": "J",
+     "text": "25 × 35"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-136"
+  },
+  {
+   "n": 13,
+   "stem": "What is 24,539 rounded to the nearest thousand?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "25,000"
+    },
+    {
+     "label": "B",
+     "text": "24,500"
+    },
+    {
+     "label": "C",
+     "text": "24,000"
+    },
+    {
+     "label": "D",
+     "text": "20,000"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-137"
+  },
+  {
+   "n": 14,
+   "stem": "During a race, runners complete twenty-six and two-tenths miles. Which shows this number written in standard form?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "206.2"
+    },
+    {
+     "label": "G",
+     "text": "26.2"
+    },
+    {
+     "label": "H",
+     "text": "26.02"
+    },
+    {
+     "label": "J",
+     "text": "20.62"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-138"
+  },
+  {
+   "n": 18,
+   "stem": "Point P is located at 1.5 on a number line. Which of the following is another name for the location of point P?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1 2/3"
+    },
+    {
+     "label": "G",
+     "text": "1 3/8"
+    },
+    {
+     "label": "H",
+     "text": "1 1/2"
+    },
+    {
+     "label": "J",
+     "text": "1 3/4"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-139"
+  },
+  {
+   "n": 20,
+   "stem": "Two decimal models represent 0.60 and 0.6. Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.40 > 0.4"
+    },
+    {
+     "label": "B",
+     "text": "0.40 = 4.0"
+    },
+    {
+     "label": "C",
+     "text": "0.60 > 0.6"
+    },
+    {
+     "label": "D",
+     "text": "0.60 = 0.6"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-140"
+  },
+  {
+   "n": 23,
+   "stem": "Mr. Guzman is making a bookcase. Each shelf will be 1 yard long. A length of 1 yard is about the same as—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10 millimeters"
+    },
+    {
+     "label": "B",
+     "text": "10 centimeters"
+    },
+    {
+     "label": "C",
+     "text": "1 kilometer"
+    },
+    {
+     "label": "D",
+     "text": "1 meter"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-141"
+  },
+  {
+   "n": 25,
+   "stem": "Joe ran a 100-meter race. How many centimeters are equal to 100 meters?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "100"
+    },
+    {
+     "label": "C",
+     "text": "1,000"
+    },
+    {
+     "label": "D",
+     "text": "10,000"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-142"
+  },
+  {
+   "n": 26,
+   "stem": "What do a ray and a line segment have in common?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Both have two endpoints."
+    },
+    {
+     "label": "B",
+     "text": "Both are part of a line."
+    },
+    {
+     "label": "C",
+     "text": "Both go on infinitely."
+    },
+    {
+     "label": "D",
+     "text": "Both include only 10 points."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-143"
+  },
+  {
+   "n": 27,
+   "stem": "Four craft sticks are numbered 1 through 4. Stick 2 crosses stick 3 at a non-right angle. Which two sticks are intersecting but not perpendicular?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2 and 3"
+    },
+    {
+     "label": "B",
+     "text": "2 and 1"
+    },
+    {
+     "label": "C",
+     "text": "4 and 3"
+    },
+    {
+     "label": "D",
+     "text": "4 and 1"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-144"
+  },
+  {
+   "n": 28,
+   "stem": "Four clouds are drawn. Clouds 1, 2, and 3 are the same size and shape. Cloud 4 is a different size. Which cloud does not appear to be congruent to the other three?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Cloud 1"
+    },
+    {
+     "label": "G",
+     "text": "Cloud 2"
+    },
+    {
+     "label": "H",
+     "text": "Cloud 3"
+    },
+    {
+     "label": "J",
+     "text": "Cloud 4"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-145"
+  },
+  {
+   "n": 29,
+   "stem": "Mr. Zander bought 1 pint of chocolate milk. Which of the following is equivalent to 1 pint?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "½ cup"
+    },
+    {
+     "label": "B",
+     "text": "1 quart"
+    },
+    {
+     "label": "C",
+     "text": "2 cups"
+    },
+    {
+     "label": "D",
+     "text": "1 gallon"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-146"
+  },
+  {
+   "n": 30,
+   "stem": "Marcy’s scrapbook is 12 inches wide. Which of the following is equivalent to 12 inches?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1 yard"
+    },
+    {
+     "label": "G",
+     "text": "1 foot"
+    },
+    {
+     "label": "H",
+     "text": "1 centimeter"
+    },
+    {
+     "label": "J",
+     "text": "1 meter"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-147"
+  },
+  {
+   "n": 31,
+   "stem": "Fran bought an 8-ounce bag of candy. Which measurement is equivalent to 8 ounces?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "½ pound"
+    },
+    {
+     "label": "B",
+     "text": "1 pound"
+    },
+    {
+     "label": "C",
+     "text": "2 pounds"
+    },
+    {
+     "label": "D",
+     "text": "25 pounds"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-148"
+  },
+  {
+   "n": 33,
+   "stem": "A candy machine contains green, yellow, pink, and blue candies. Green candies appear least often. If one candy is dispensed at random, which color is least likely to come out?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Green"
+    },
+    {
+     "label": "B",
+     "text": "Yellow"
+    },
+    {
+     "label": "C",
+     "text": "Pink"
+    },
+    {
+     "label": "D",
+     "text": "Blue"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-149"
+  },
+  {
+   "n": 34,
+   "stem": "Mrs. Simmons drove 400 miles total. After 2 hours, the line graph shows she had driven slightly more than 100 miles. Which is closest to the distance she drove in the first 2 hours?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "110 miles"
+    },
+    {
+     "label": "G",
+     "text": "125 miles"
+    },
+    {
+     "label": "H",
+     "text": "140 miles"
+    },
+    {
+     "label": "J",
+     "text": "160 miles"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-150"
+  },
+  {
+   "n": 35,
+   "stem": "A bar graph shows student choices for band instruments: • Drums: about 25 students • Trumpet: about 20 students • Flute: about 10 students • Trombone: about 20 students Which is closest to the total number of students?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "75"
+    },
+    {
+     "label": "B",
+     "text": "67"
+    },
+    {
+     "label": "C",
+     "text": "62"
+    },
+    {
+     "label": "D",
+     "text": "59"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-151"
+  },
+  {
+   "n": 36,
+   "stem": "A box contains 11 number tiles labeled 0 through 10. What is the probability that the number on the tile ends with 0 or 5?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1/11"
+    },
+    {
+     "label": "G",
+     "text": "2/11"
+    },
+    {
+     "label": "H",
+     "text": "4/11"
+    },
+    {
+     "label": "J",
+     "text": "5/11"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-152"
+  },
+  {
+   "n": 37,
+   "stem": "A store mailed 4,950 coupons worth $25, 40 coupons worth $50, and 10 coupons worth $100. Mr. James will receive one coupon. Which best describes the chance it will be a $100 coupon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Certain"
+    },
+    {
+     "label": "B",
+     "text": "Likely, but not certain"
+    },
+    {
+     "label": "C",
+     "text": "Unlikely, but not impossible"
+    },
+    {
+     "label": "D",
+     "text": "Impossible"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-153"
+  },
+  {
+   "n": 38,
+   "stem": "A line graph shows the number of cars in a parking lot decreasing to just over 200 cars at 1:00 p.m. Which is closest to the number of cars at 1:00 p.m.?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "202"
+    },
+    {
+     "label": "G",
+     "text": "230"
+    },
+    {
+     "label": "H",
+     "text": "275"
+    },
+    {
+     "label": "J",
+     "text": "360"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-154"
+  },
+  {
+   "n": 40,
+   "stem": "A box contains 25 cubes, 6 of which are blue. What is the probability the first cube taken will be blue?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6"
+    },
+    {
+     "label": "G",
+     "text": "6/25"
+    },
+    {
+     "label": "H",
+     "text": "19/25"
+    },
+    {
+     "label": "J",
+     "text": "25/6"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-155"
+  },
+  {
+   "n": 42,
+   "stem": "A table shows that each kit contains 6 caterpillars. What will be the total number of caterpillars in 8 kits?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "38"
+    },
+    {
+     "label": "G",
+     "text": "40"
+    },
+    {
+     "label": "H",
+     "text": "42"
+    },
+    {
+     "label": "J",
+     "text": "48"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-156"
+  },
+  {
+   "n": 44,
+   "stem": "Erik marks points on a number line using the rule “add 3.” He has marked 10, 13, 16, and 19. What will be the next number?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "21"
+    },
+    {
+     "label": "G",
+     "text": "22"
+    },
+    {
+     "label": "H",
+     "text": "23"
+    },
+    {
+     "label": "J",
+     "text": "24"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-157"
+  },
+  {
+   "n": 46,
+   "stem": "A number machine changes 4 to 20, 5 to 25, and 6 to 30. Which rule does the machine use?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Multiply by 5"
+    },
+    {
+     "label": "G",
+     "text": "Subtract 3"
+    },
+    {
+     "label": "H",
+     "text": "Add 5"
+    },
+    {
+     "label": "J",
+     "text": "Add 16"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-158"
+  },
+  {
+   "n": 47,
+   "stem": "The pattern 85, 78, 71, 64, 57, 50 decreases by 7 each time. What are the next two numbers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "41, 34"
+    },
+    {
+     "label": "B",
+     "text": "42, 35"
+    },
+    {
+     "label": "C",
+     "text": "43, 36"
+    },
+    {
+     "label": "D",
+     "text": "44, 37"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-159"
+  },
+  {
+   "n": 48,
+   "stem": "Which expression makes a true statement when an equal sign is placed in the box?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "7 + 4 + 2 □ 7 + 7"
+    },
+    {
+     "label": "G",
+     "text": "7 + 4 + 14 □ 14 − 7"
+    },
+    {
+     "label": "H",
+     "text": "7 + 4 + 7 □ 14 × 2"
+    },
+    {
+     "label": "J",
+     "text": "7 + 4 + 7 □ 2 × 7"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_4_2008_SOLPass",
+   "id": "grade-4-math-160"
+  }
+ ]
+}

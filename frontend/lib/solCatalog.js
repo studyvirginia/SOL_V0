@@ -120,8 +120,18 @@ export function getStandardBySlugs(subjectSlug, courseSlug, standardSlug) {
       if (standard.code && slugify(standard.code) === standardSlug) {
         const siblings = (domain.standards || [])
           .filter((s) => s.code)
-          .map((s) => ({ code: s.code, slug: slugify(s.code) }));
+          .map((s) => ({
+            code: s.code,
+            slug: slugify(s.code),
+            description: s.description ?? "",
+          }));
         const index = siblings.findIndex((s) => s.slug === standardSlug);
+
+        // Other standards in the same reporting strand, for "related standards"
+        // internal linking (crawl depth + long-tail keyword coverage).
+        const relatedStandards = siblings
+          .filter((s) => s.slug !== standardSlug)
+          .map((s) => ({ code: s.code, slug: s.slug, description: s.description }));
 
         return {
           subject: { slug: subject.slug, name: subject.name },
@@ -135,8 +145,13 @@ export function getStandardBySlugs(subjectSlug, courseSlug, standardSlug) {
               keywords: sk.keywords || [],
             })),
           },
-          prevStandard: index > 0 ? siblings[index - 1] : null,
-          nextStandard: index < siblings.length - 1 ? siblings[index + 1] : null,
+          relatedStandards,
+          prevStandard: index > 0
+            ? { code: siblings[index - 1].code, slug: siblings[index - 1].slug }
+            : null,
+          nextStandard: index < siblings.length - 1
+            ? { code: siblings[index + 1].code, slug: siblings[index + 1].slug }
+            : null,
         };
       }
     }

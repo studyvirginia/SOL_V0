@@ -1,0 +1,2364 @@
+{
+ "subject": "history",
+ "course": "grade-7-civics-and-economics",
+ "courseName": "Grade 7 - Civics and Economics",
+ "questionCount": 94,
+ "sources": [
+  "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+  "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+  "History_Grade_7__Civics_and_Economics_2014_SOLPass_1"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Why were the charters of the Virginia Company of London important?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "They created a federal court system."
+    },
+    {
+     "label": "B",
+     "text": "They established a national banking system."
+    },
+    {
+     "label": "C",
+     "text": "They guaranteed the colonists’ rights as Englishmen."
+    },
+    {
+     "label": "D",
+     "text": "They stated the colonists’ grievances against the English king."
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-1"
+  },
+  {
+   "n": 2,
+   "stem": "In order for a United States citizen to receive a fair trial, other citizens must —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "evaluate judges"
+    },
+    {
+     "label": "G",
+     "text": "vote in elections"
+    },
+    {
+     "label": "H",
+     "text": "pay poll taxes"
+    },
+    {
+     "label": "J",
+     "text": "serve on juries"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-2"
+  },
+  {
+   "n": 3,
+   "stem": "A political cartoon shows the original thirteen colonies—New Hampshire, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina, and Georgia—arranged around the words “The Constitution of the United States,” suggesting unity among the states. Which goal of the Preamble to the Constitution of the United States is illustrated by this cartoon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Provide defense"
+    },
+    {
+     "label": "B",
+     "text": "Ensure domestic peace"
+    },
+    {
+     "label": "C",
+     "text": "Establish justice"
+    },
+    {
+     "label": "D",
+     "text": "Form a union"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-3"
+  },
+  {
+   "n": 4,
+   "stem": "Which is necessary to amend the Constitution of the United States?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Majority vote by the Electoral College"
+    },
+    {
+     "label": "G",
+     "text": "Unanimous vote by both houses of Congress"
+    },
+    {
+     "label": "H",
+     "text": "Ratification by legislatures or conventions in the states"
+    },
+    {
+     "label": "J",
+     "text": "Recommendation by the executive and judicial branches in the states"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-4"
+  },
+  {
+   "n": 5,
+   "stem": "Four drawings show different actions: • A person speaking into a microphone at a public gathering. • A person holding a sign that reads “PETITION.” • A person voting in an election. • A person remaining silent after being questioned by police. Which drawing shows a freedom guaranteed in the First Amendment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Speaking into a microphone at a public gathering"
+    },
+    {
+     "label": "B",
+     "text": "Remaining silent after being questioned by police"
+    },
+    {
+     "label": "C",
+     "text": "Holding a sign that reads “PETITION”"
+    },
+    {
+     "label": "D",
+     "text": "Voting in an election"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-5"
+  },
+  {
+   "n": 6,
+   "stem": "Two newspaper headlines read: • “Federal Judge Impeached” • “Mayor Convicted of Bribery” These headlines best illustrate the concept of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "democracy"
+    },
+    {
+     "label": "G",
+     "text": "consent of the governed"
+    },
+    {
+     "label": "H",
+     "text": "rule of law"
+    },
+    {
+     "label": "J",
+     "text": "popular sovereignty"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-6"
+  },
+  {
+   "n": 7,
+   "stem": "Aiko and Ian know that some children at their school lack school supplies. With the support of their principal, parents, and teachers, they organize a district-wide school supply drive. By starting this school supply drive, Aiko and Ian are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "engaging in community service"
+    },
+    {
+     "label": "B",
+     "text": "demonstrating a civic duty"
+    },
+    {
+     "label": "C",
+     "text": "fulfilling their duties as students"
+    },
+    {
+     "label": "D",
+     "text": "engaging in patriotic acts"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-7"
+  },
+  {
+   "n": 8,
+   "stem": "A newspaper headline reads: “President Calls a Special Session of Congress to Pass New Budget.” The principle of United States government that is best illustrated in this headline is —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "popular sovereignty"
+    },
+    {
+     "label": "G",
+     "text": "representative democracy"
+    },
+    {
+     "label": "H",
+     "text": "concurrent and reserved powers"
+    },
+    {
+     "label": "J",
+     "text": "checks and balances"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-8"
+  },
+  {
+   "n": 9,
+   "stem": "A newspaper headline reads: “Senate Approves Presidential Appointment.” This headline illustrates a power of which branch of government?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "State executive"
+    },
+    {
+     "label": "B",
+     "text": "State legislative"
+    },
+    {
+     "label": "C",
+     "text": "Federal legislative"
+    },
+    {
+     "label": "D",
+     "text": "Federal judicial"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-9"
+  },
+  {
+   "n": 10,
+   "stem": "During a State of the Union Address, the President says, “Members of Congress, we need to reform the current postal system.” In this situation, the President is acting as the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "chief citizen"
+    },
+    {
+     "label": "G",
+     "text": "chief diplomat"
+    },
+    {
+     "label": "H",
+     "text": "chief legislator"
+    },
+    {
+     "label": "J",
+     "text": "chief executive"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-10"
+  },
+  {
+   "n": 11,
+   "stem": "According to the Tenth Amendment of the Bill of Rights, powers not specifically delegated are reserved to the people or —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "local governments"
+    },
+    {
+     "label": "B",
+     "text": "the courts"
+    },
+    {
+     "label": "C",
+     "text": "political parties"
+    },
+    {
+     "label": "D",
+     "text": "the states"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-11"
+  },
+  {
+   "n": 12,
+   "stem": "Which level of government can declare war on foreign nations?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "City"
+    },
+    {
+     "label": "G",
+     "text": "State"
+    },
+    {
+     "label": "H",
+     "text": "County"
+    },
+    {
+     "label": "J",
+     "text": "Federal"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-12"
+  },
+  {
+   "n": 13,
+   "stem": "Mrs. Jones announces that she is running for mayor in an upcoming election. One way for Mrs. Jones to gain this office is to be elected by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "members of the Governor’s cabinet"
+    },
+    {
+     "label": "B",
+     "text": "legislative representatives of the county"
+    },
+    {
+     "label": "C",
+     "text": "members of the General Assembly"
+    },
+    {
+     "label": "D",
+     "text": "registered voters of the city"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-13"
+  },
+  {
+   "n": 14,
+   "stem": "The Virginia court system is organized by levels: • General District Court (first level) • Circuit Court (second level) • Court of Appeals (third level) • Supreme Court of Virginia (fourth level) Which level would a teenager go to for misdemeanor charges?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "General District Court"
+    },
+    {
+     "label": "G",
+     "text": "Circuit Court"
+    },
+    {
+     "label": "H",
+     "text": "Court of Appeals"
+    },
+    {
+     "label": "J",
+     "text": "Supreme Court of Virginia"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-14"
+  },
+  {
+   "n": 15,
+   "stem": "Which action by the Governor of Virginia is an example of maintaining public safety?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Delivering a speech to the General Assembly of Virginia"
+    },
+    {
+     "label": "B",
+     "text": "Sending Virginia’s National Guard to help after a disaster"
+    },
+    {
+     "label": "C",
+     "text": "Working on Virginia’s budget with the Secretary of Finance"
+    },
+    {
+     "label": "D",
+     "text": "Attending a meeting on the Virginia economy"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-15"
+  },
+  {
+   "n": 16,
+   "stem": "A news headline reads: “State Supreme Court Rules Against City Restrictions on Public Meetings Said to Be Unconstitutional.” Which legal process does this headline describe?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Legislative proceeding"
+    },
+    {
+     "label": "G",
+     "text": "Civil trial"
+    },
+    {
+     "label": "H",
+     "text": "Judicial review"
+    },
+    {
+     "label": "J",
+     "text": "Criminal prosecution"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-16"
+  },
+  {
+   "n": 17,
+   "stem": "Political parties distribute literature about their candidates in order to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "recruit individuals to run for office"
+    },
+    {
+     "label": "B",
+     "text": "educate the electorate about campaign issues"
+    },
+    {
+     "label": "C",
+     "text": "help new residents register to vote"
+    },
+    {
+     "label": "D",
+     "text": "assist people in getting to their polling places"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-17"
+  },
+  {
+   "n": 18,
+   "stem": "In order to win an election, a major political party is most likely to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "appeal to the political center"
+    },
+    {
+     "label": "G",
+     "text": "propose cuts to popular programs"
+    },
+    {
+     "label": "H",
+     "text": "divide campaign funds between candidates equally"
+    },
+    {
+     "label": "J",
+     "text": "organize leaders of special interest groups"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-18"
+  },
+  {
+   "n": 19,
+   "stem": "A campaign poster reads: “Vote for Congressman Smith, a man fighting for your rights.” This campaign poster is most likely trying to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "introduce a concern about the President"
+    },
+    {
+     "label": "B",
+     "text": "persuade voters to reelect the candidate"
+    },
+    {
+     "label": "C",
+     "text": "emphasize certain issues about the President"
+    },
+    {
+     "label": "D",
+     "text": "identify a fact relating to the candidate"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-19"
+  },
+  {
+   "n": 24,
+   "stem": "Bill is worked on in committees What is the correct sequence for the lawmaking process in the General Assembly?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1, 3, 4, 2"
+    },
+    {
+     "label": "G",
+     "text": "2, 4, 1, 3"
+    },
+    {
+     "label": "H",
+     "text": "1, 4, 3, 2"
+    },
+    {
+     "label": "J",
+     "text": "2, 1, 4, 3"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-20"
+  },
+  {
+   "n": 25,
+   "stem": "Four people advocate different goals: • One supports ending the national income tax. • One supports ending after-school programs. • One supports raising the voting age. • One supports ending foreign trade requirements. Which person has the best chance of influencing local legislation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The person advocating ending the national income tax"
+    },
+    {
+     "label": "B",
+     "text": "The person advocating ending after-school programs"
+    },
+    {
+     "label": "C",
+     "text": "The person advocating raising the voting age"
+    },
+    {
+     "label": "D",
+     "text": "The person advocating ending foreign trade requirements"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-21"
+  },
+  {
+   "n": 26,
+   "stem": "A notice of arraignment lists a defendant’s name, attorney, date, and time for a state criminal court appearance. Which action is most likely to occur at this event?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Entering of a plea"
+    },
+    {
+     "label": "G",
+     "text": "Filing of an appeal"
+    },
+    {
+     "label": "H",
+     "text": "Reading of a verdict"
+    },
+    {
+     "label": "J",
+     "text": "Selection of a jury"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-22"
+  },
+  {
+   "n": 27,
+   "stem": "A cartoon shows a message reading: “Vote for Congressman Smith, a man fighting for your rights.” This cartoon illustrates how government officials use the media to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "communicate with other countries"
+    },
+    {
+     "label": "B",
+     "text": "approve federal legislation"
+    },
+    {
+     "label": "C",
+     "text": "influence political lobbyists"
+    },
+    {
+     "label": "D",
+     "text": "communicate with the public"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-23"
+  },
+  {
+   "n": 28,
+   "stem": "Local governments preparing a response for an international health crisis would most likely —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "end visits by international travelers"
+    },
+    {
+     "label": "G",
+     "text": "develop a public safety plan for the city"
+    },
+    {
+     "label": "H",
+     "text": "shut down international airline flights"
+    },
+    {
+     "label": "J",
+     "text": "ask the military to police the city"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-24"
+  },
+  {
+   "n": 29,
+   "stem": "A line graph titled “18–29-Year-Old Citizen Voter Turnout by Education Level, Presidential Years” compares voter turnout percentages for college-educated and non-college-educated citizens aged 18–29 from 1972 through 2004. In every year shown, the turnout rate for college-educated voters is higher than for non-college-educated voters. Based on this graph, which statement is most accurate?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The number of college- and non-college-educated voters increased between 1972 and 2004."
+    },
+    {
+     "label": "B",
+     "text": "The percentage of voter turnout remained the same for both groups between 1972 and 2004."
+    },
+    {
+     "label": "C",
+     "text": "The number of registered voters in both groups declined each year in all elections."
+    },
+    {
+     "label": "D",
+     "text": "College-educated voters were more likely to vote than non-college-educated voters."
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-25"
+  },
+  {
+   "n": 30,
+   "stem": "A letter from a citizen group asks a representative to vote in favor of a specific proposition to protect historic sites. This letter is an example of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "demonstrating"
+    },
+    {
+     "label": "G",
+     "text": "lobbying"
+    },
+    {
+     "label": "H",
+     "text": "policymaking"
+    },
+    {
+     "label": "J",
+     "text": "campaigning"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-26"
+  },
+  {
+   "n": 31,
+   "stem": "A picture shows collectible action figures with a high price displayed. Which economic factor has most likely determined the price in this picture?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Capital"
+    },
+    {
+     "label": "B",
+     "text": "Scarcity"
+    },
+    {
+     "label": "C",
+     "text": "Demand"
+    },
+    {
+     "label": "D",
+     "text": "Consumption"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-27"
+  },
+  {
+   "n": 32,
+   "stem": "A diagram shows three types of economies arranged from left to right: free market economy, mixed economy, and command economy, with an arrow labeled “increasing degree” pointing from free market to command. Which phrase best completes the title of this diagram?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Government regulation"
+    },
+    {
+     "label": "G",
+     "text": "Industrial productivity"
+    },
+    {
+     "label": "H",
+     "text": "Business profit"
+    },
+    {
+     "label": "J",
+     "text": "Consumer choice"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-28"
+  },
+  {
+   "n": 33,
+   "stem": "An economy in which communities use simple tools and methods to harvest and hunt for food often results in little economic growth. Which type of economy is being defined?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Command"
+    },
+    {
+     "label": "B",
+     "text": "Free market"
+    },
+    {
+     "label": "C",
+     "text": "Mixed"
+    },
+    {
+     "label": "D",
+     "text": "Traditional"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-29"
+  },
+  {
+   "n": 34,
+   "stem": "Advances in technology have increased the number of people needed to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "develop computer software"
+    },
+    {
+     "label": "G",
+     "text": "teach children in schools"
+    },
+    {
+     "label": "H",
+     "text": "work on assembly lines"
+    },
+    {
+     "label": "J",
+     "text": "serve in the military"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-30"
+  },
+  {
+   "n": 35,
+   "stem": "A help-wanted advertisement reads: “Clerk needed. No experience necessary. Hours Monday–Friday from 4:00 p.m. to 7:00 p.m.” During the school year, which student would be the best match for this job?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Lisa goes to school every day and is often late."
+    },
+    {
+     "label": "B",
+     "text": "Juanita has good attendance and good work skills."
+    },
+    {
+     "label": "C",
+     "text": "Mike studies hard and plays in all afterschool programs."
+    },
+    {
+     "label": "D",
+     "text": "Shawn will graduate early and attend an out-of-state college."
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-31"
+  },
+  {
+   "n": 36,
+   "stem": "What is the first step in career planning?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Marketing"
+    },
+    {
+     "label": "G",
+     "text": "Self-assessment"
+    },
+    {
+     "label": "H",
+     "text": "Interviewing"
+    },
+    {
+     "label": "J",
+     "text": "Job search"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-32"
+  },
+  {
+   "n": 37,
+   "stem": "A table shows that average salary increases with each higher level of education, from “Some High School” through “Doctoral Degree.” This table supports the conclusion that a salary —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "doubles once a college level is attained"
+    },
+    {
+     "label": "B",
+     "text": "stays the same for the high school levels"
+    },
+    {
+     "label": "C",
+     "text": "grows at the same rate for each level of education"
+    },
+    {
+     "label": "D",
+     "text": "increases as the level of education increases"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-33"
+  },
+  {
+   "n": 38,
+   "stem": "Drawings show a new video game becoming popular, followed by a producer increasing supply in response to higher demand. Which economic concept is illustrated in these drawings?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Consumer sovereignty"
+    },
+    {
+     "label": "G",
+     "text": "Profit margin"
+    },
+    {
+     "label": "H",
+     "text": "Opportunity cost"
+    },
+    {
+     "label": "J",
+     "text": "Central planning"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-34"
+  },
+  {
+   "n": 39,
+   "stem": "What term describes a company that is authorized to operate as a legal person?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Proprietorship"
+    },
+    {
+     "label": "B",
+     "text": "Entrepreneur"
+    },
+    {
+     "label": "C",
+     "text": "Corporation"
+    },
+    {
+     "label": "D",
+     "text": "Partnership"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2012_SOLPass",
+   "id": "grade-7-civics-and-economics-35"
+  },
+  {
+   "n": 1,
+   "stem": "Why have only 27 amendments been added to the Constitution of the United States in more than 200 years?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The process of adding amendments is very complex."
+    },
+    {
+     "label": "B",
+     "text": "The courts strike down many amendments."
+    },
+    {
+     "label": "C",
+     "text": "National laws limit the number of amendments."
+    },
+    {
+     "label": "D",
+     "text": "Changes in society are too small to require amendments."
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-36"
+  },
+  {
+   "n": 2,
+   "stem": "“We, the People of the United States, in order to form a more perfect union …” — Constitution of the United States, 1787 This phrase best refers to the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "failed policies made by foreign officials"
+    },
+    {
+     "label": "B",
+     "text": "grievances in the Declaration of Independence"
+    },
+    {
+     "label": "C",
+     "text": "national problems caused by outdated laws"
+    },
+    {
+     "label": "D",
+     "text": "weaknesses within the Articles of Confederation"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-37"
+  },
+  {
+   "n": 3,
+   "stem": "A citizen can help ensure the rights of an accused person by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "serving in the military"
+    },
+    {
+     "label": "B",
+     "text": "paying an income tax"
+    },
+    {
+     "label": "C",
+     "text": "serving on a jury"
+    },
+    {
+     "label": "D",
+     "text": "obeying the state law"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-38"
+  },
+  {
+   "n": 4,
+   "stem": "Why is community service important in a democratic nation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "It helps businesses find and train new employees."
+    },
+    {
+     "label": "B",
+     "text": "It addresses local needs and serves the public good."
+    },
+    {
+     "label": "C",
+     "text": "It lowers unemployment by giving jobs to volunteers."
+    },
+    {
+     "label": "D",
+     "text": "It removes the national government’s duty to improve society."
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-39"
+  },
+  {
+   "n": 5,
+   "stem": "The House of Representatives has a number of members that is based on which factor?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "State population"
+    },
+    {
+     "label": "B",
+     "text": "The number of political districts"
+    },
+    {
+     "label": "C",
+     "text": "Voter registration"
+    },
+    {
+     "label": "D",
+     "text": "The number of state senators"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-40"
+  },
+  {
+   "n": 6,
+   "stem": "A legislative bill passed by Congress is sent to the president. This action is one way the president can influence —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "judicial review"
+    },
+    {
+     "label": "B",
+     "text": "foreign affairs"
+    },
+    {
+     "label": "C",
+     "text": "international trade"
+    },
+    {
+     "label": "D",
+     "text": "national policies"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-41"
+  },
+  {
+   "n": 7,
+   "stem": "Which branch of government has the power to declare Virginia laws unconstitutional?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "State judicial branch"
+    },
+    {
+     "label": "B",
+     "text": "Federal executive branch"
+    },
+    {
+     "label": "C",
+     "text": "State executive branch"
+    },
+    {
+     "label": "D",
+     "text": "Federal legislative branch"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-42"
+  },
+  {
+   "n": 8,
+   "stem": "During a State of the Union Address, the president asks Congress to make a law to expand the national highway system. Which executive power is being demonstrated?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Power to influence legislation"
+    },
+    {
+     "label": "B",
+     "text": "Ability to veto legislation"
+    },
+    {
+     "label": "C",
+     "text": "Power to approve cabinet members"
+    },
+    {
+     "label": "D",
+     "text": "Ability to change judicial decisions"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-43"
+  },
+  {
+   "n": 9,
+   "stem": "In which court case did the United States Supreme Court establish the power of judicial review?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Dred Scott v. Sandford"
+    },
+    {
+     "label": "B",
+     "text": "Brown v. Board of Education"
+    },
+    {
+     "label": "C",
+     "text": "Marbury v. Madison"
+    },
+    {
+     "label": "D",
+     "text": "Plessy v. Ferguson"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-44"
+  },
+  {
+   "n": 10,
+   "stem": "A Virginia local ordinance states: “Smoking is hereby banned in all public buildings.” The local government most likely created this law in order to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "promote public health"
+    },
+    {
+     "label": "B",
+     "text": "support federal laws"
+    },
+    {
+     "label": "C",
+     "text": "protect consumer rights"
+    },
+    {
+     "label": "D",
+     "text": "regulate land use"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-45"
+  },
+  {
+   "n": 11,
+   "stem": "The principle of federalism gives governmental power to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "county and local governments only"
+    },
+    {
+     "label": "B",
+     "text": "a strong confederate government"
+    },
+    {
+     "label": "C",
+     "text": "the national and state governments"
+    },
+    {
+     "label": "D",
+     "text": "a powerful state government only"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-46"
+  },
+  {
+   "n": 12,
+   "stem": "The powers of local Virginia governments are granted directly by the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Virginia Circuit Court"
+    },
+    {
+     "label": "B",
+     "text": "Constitution of Virginia"
+    },
+    {
+     "label": "C",
+     "text": "United States Attorney General"
+    },
+    {
+     "label": "D",
+     "text": "Constitution of the United States"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-47"
+  },
+  {
+   "n": 13,
+   "stem": "A schedule lists the following meetings: • General Assembly — 8:00 a.m. • District Court — 9:00 a.m. • Board of Supervisors — 10:00 a.m. • Governor — 11:00 a.m. Which meeting would a person attend to hear only legislation concerning the local county?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8:00 a.m."
+    },
+    {
+     "label": "B",
+     "text": "9:00 a.m."
+    },
+    {
+     "label": "C",
+     "text": "10:00 a.m."
+    },
+    {
+     "label": "D",
+     "text": "11:00 a.m."
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-48"
+  },
+  {
+   "n": 14,
+   "stem": "In a criminal case, a jury determines —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "how much money one person needs to pay another person"
+    },
+    {
+     "label": "B",
+     "text": "whether someone is guilty of breaking the law"
+    },
+    {
+     "label": "C",
+     "text": "the best way to settle a disagreement between two people"
+    },
+    {
+     "label": "D",
+     "text": "whether a person’s plea deal can be accepted"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-49"
+  },
+  {
+   "n": 16,
+   "stem": "How are implied powers most often used by the United States Congress?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To help carry out expressed powers"
+    },
+    {
+     "label": "B",
+     "text": "To force the executive branch to sign new legislation"
+    },
+    {
+     "label": "C",
+     "text": "To encourage citizens to vote"
+    },
+    {
+     "label": "D",
+     "text": "To give the government veto powers"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-50"
+  },
+  {
+   "n": 17,
+   "stem": "Which power is a responsibility of the Virginia General Assembly?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Exercises judicial review"
+    },
+    {
+     "label": "B",
+     "text": "Approves the state budget"
+    },
+    {
+     "label": "C",
+     "text": "Regulates the economy"
+    },
+    {
+     "label": "D",
+     "text": "Administers state bureaucracy"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-51"
+  },
+  {
+   "n": 18,
+   "stem": "Which action is an example of political lobbying?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The governor gives special advice to legislative members."
+    },
+    {
+     "label": "B",
+     "text": "A mayoral candidate holds a campaign rally for registered voters."
+    },
+    {
+     "label": "C",
+     "text": "The local newspaper exposes corrupt practices in election campaigns."
+    },
+    {
+     "label": "D",
+     "text": "A health group asks legislators to pass tougher antipollution laws."
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-52"
+  },
+  {
+   "n": 20,
+   "stem": "Ernesto Miranda confessed to a crime during police questioning without knowing he had a right to have an attorney present. His conviction was overturned when the Supreme Court ruled that criminal suspects must be warned of their rights before police questioning. Which amendment led to this decision?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Fifth Amendment"
+    },
+    {
+     "label": "B",
+     "text": "Eighth Amendment"
+    },
+    {
+     "label": "C",
+     "text": "Thirteenth Amendment"
+    },
+    {
+     "label": "D",
+     "text": "Sixteenth Amendment"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-53"
+  },
+  {
+   "n": 22,
+   "stem": "The following list describes worker traits: • Strong work ethic • Computer literacy • Positive attitude What is the best title for this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Characteristics That Employers Seek"
+    },
+    {
+     "label": "B",
+     "text": "National Requirements for All Jobs"
+    },
+    {
+     "label": "C",
+     "text": "Personal Training Courses Offered by the Federal Government"
+    },
+    {
+     "label": "D",
+     "text": "Outdated Skills Due to Technological Advancements"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-54"
+  },
+  {
+   "n": 24,
+   "stem": "An airline advertisement states: “Lowest fares available or your money back.” Which term best describes this message?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Insurance"
+    },
+    {
+     "label": "B",
+     "text": "Deposit"
+    },
+    {
+     "label": "C",
+     "text": "Investment"
+    },
+    {
+     "label": "D",
+     "text": "Guarantee"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-55"
+  },
+  {
+   "n": 25,
+   "stem": "People seeking computer-programming jobs should be college graduates with knowledge of a variety of programming languages and tools and experience working with the latest technology. Which characteristics would make a job seeker most desirable?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A person who recently earned a high school diploma but has no work experience"
+    },
+    {
+     "label": "B",
+     "text": "A person who earned a 2-year associate’s degree in general business but has no work experience"
+    },
+    {
+     "label": "C",
+     "text": "A person with a 4-year bachelor’s degree and programming experience"
+    },
+    {
+     "label": "D",
+     "text": "A person with a doctoral degree in economics and management experience"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-56"
+  },
+  {
+   "n": 26,
+   "stem": "An economic flow shows resources moving from individuals to businesses, and money moving from businesses back to individuals. Which term completes this economic flow from businesses to individuals?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Taxes"
+    },
+    {
+     "label": "B",
+     "text": "Income"
+    },
+    {
+     "label": "C",
+     "text": "Savings"
+    },
+    {
+     "label": "D",
+     "text": "Investment"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-57"
+  },
+  {
+   "n": 27,
+   "stem": "Which is an example of a proprietorship?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Edward owns a restaurant and is responsible for all of the restaurant’s debts."
+    },
+    {
+     "label": "B",
+     "text": "Roberta owns stock in a steel company and receives a portion of the company’s profits."
+    },
+    {
+     "label": "C",
+     "text": "Juan and Phillip own a bookstore and are both responsible for the bookstore’s debts."
+    },
+    {
+     "label": "D",
+     "text": "Janet and Miriam own a flower shop and share equally in the shop’s profits."
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-58"
+  },
+  {
+   "n": 28,
+   "stem": "A newspaper headline reads: “Lawsuit Filed Against Major Store for Unfair Sales Practices.” This headline describes a case involving —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "civil rights"
+    },
+    {
+     "label": "B",
+     "text": "property rights"
+    },
+    {
+     "label": "C",
+     "text": "employee rights"
+    },
+    {
+     "label": "D",
+     "text": "consumer rights"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-59"
+  },
+  {
+   "n": 29,
+   "stem": "Which is the best action the government can take to increase the amount of funds available for businesses?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Borrow money"
+    },
+    {
+     "label": "B",
+     "text": "Lower taxes"
+    },
+    {
+     "label": "C",
+     "text": "Balance the budget"
+    },
+    {
+     "label": "D",
+     "text": "Reduce consumer demand"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-60"
+  },
+  {
+   "n": 30,
+   "stem": "The North American Free Trade Agreement (NAFTA), effective January 1, 1994, removed most barriers to trade and investment among the United States, Canada, and Mexico. This agreement is an example of how the United States takes part in a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "regulatory organization"
+    },
+    {
+     "label": "B",
+     "text": "military agreement"
+    },
+    {
+     "label": "C",
+     "text": "global economy"
+    },
+    {
+     "label": "D",
+     "text": "financial agreement"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-61"
+  },
+  {
+   "n": 31,
+   "stem": "Which action represents a way the federal government can promote business competition?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Punishing polluters"
+    },
+    {
+     "label": "B",
+     "text": "Regulating investors"
+    },
+    {
+     "label": "C",
+     "text": "Enforcing tariffs"
+    },
+    {
+     "label": "D",
+     "text": "Prohibiting monopolies"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass_1",
+   "id": "grade-7-civics-and-economics-62"
+  },
+  {
+   "n": 1,
+   "stem": "During Reconstruction, former Confederate generals were —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "required to rejoin the United States army"
+    },
+    {
+     "label": "B",
+     "text": "given command of local military units"
+    },
+    {
+     "label": "C",
+     "text": "forbidden to hold public office"
+    },
+    {
+     "label": "D",
+     "text": "tried for treason against the United States"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-63"
+  },
+  {
+   "n": 2,
+   "stem": "Which issue most contributed to the early growth of labor unions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Dangerous working conditions"
+    },
+    {
+     "label": "B",
+     "text": "Local neighborhood pollution"
+    },
+    {
+     "label": "C",
+     "text": "Increasing income taxes"
+    },
+    {
+     "label": "D",
+     "text": "Limited worker education"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-64"
+  },
+  {
+   "n": 3,
+   "stem": "The following list describes an African-American leader: Born into slavery on a plantation in Virginia Believed equality could be achieved through vocational education Organized the Tuskegee Institute for agricultural and industrial education Which African-American leader is described in this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Bessie Smith"
+    },
+    {
+     "label": "B",
+     "text": "Martin Luther King, Jr."
+    },
+    {
+     "label": "C",
+     "text": "Rosa Parks"
+    },
+    {
+     "label": "D",
+     "text": "Booker T. Washington"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-65"
+  },
+  {
+   "n": 4,
+   "stem": "Before World War I, which factor helped transform the United States from an agricultural to an industrial nation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Declining financial resources"
+    },
+    {
+     "label": "B",
+     "text": "A shortage of skilled laborers"
+    },
+    {
+     "label": "C",
+     "text": "Lower production costs"
+    },
+    {
+     "label": "D",
+     "text": "A lack of new inventions"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-66"
+  },
+  {
+   "n": 5,
+   "stem": "A photograph from the early 20th century shows young children working long hours in dangerous conditions inside a coal mine, performing physically demanding labor normally done by adults. During the early 20th century, this type of scene motivated labor unions to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "increase working hours"
+    },
+    {
+     "label": "B",
+     "text": "reform education policies"
+    },
+    {
+     "label": "C",
+     "text": "limit employment of children"
+    },
+    {
+     "label": "D",
+     "text": "refuse employment to immigrants"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-67"
+  },
+  {
+   "n": 6,
+   "stem": "How did yellow journalism contribute to the Spanish-American War?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "By printing news stories that were not the whole truth"
+    },
+    {
+     "label": "B",
+     "text": "By giving advertising space to the Spanish government"
+    },
+    {
+     "label": "C",
+     "text": "By reporting only American victories"
+    },
+    {
+     "label": "D",
+     "text": "By selling newspapers to raise money for weapons"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-68"
+  },
+  {
+   "n": 7,
+   "stem": "Which statement is true about African Americans before moving north during the Great Migration?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "They faced discrimination and violence."
+    },
+    {
+     "label": "B",
+     "text": "They were denied educational benefits."
+    },
+    {
+     "label": "C",
+     "text": "They lost their citizenship and voting rights."
+    },
+    {
+     "label": "D",
+     "text": "They were denied their religious freedom."
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-69"
+  },
+  {
+   "n": 8,
+   "stem": "A World War I propaganda poster warned Americans that Germany’s leader, Kaiser Wilhelm II, was using submarines (U-boats) to attack ships without warning, threatening neutral and civilian vessels. This poster reminded United States citizens about Germany’s —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "success in industrial war production"
+    },
+    {
+     "label": "B",
+     "text": "use of unrestricted submarine warfare"
+    },
+    {
+     "label": "C",
+     "text": "communication with a foreign power"
+    },
+    {
+     "label": "D",
+     "text": "promise to follow a neutral policy"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-70"
+  },
+  {
+   "n": 9,
+   "stem": "During World War II, one Allied nation first provided economic aid to other Allies and later became directly involved in the fighting after being attacked. Which member of the World War II Allies is described by these events?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Canada"
+    },
+    {
+     "label": "B",
+     "text": "France"
+    },
+    {
+     "label": "C",
+     "text": "United States"
+    },
+    {
+     "label": "D",
+     "text": "Great Britain"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-71"
+  },
+  {
+   "n": 10,
+   "stem": "Two newspaper headlines are shown below: “United States Senate Rejects Versailles Treaty” “British Reject President Wilson’s Peace Plan” Which headline shows a United States return to isolationism after World War I?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "“President Wilson Will Attend World Peace Conference”"
+    },
+    {
+     "label": "B",
+     "text": "“United States Emerges as a World Power”"
+    },
+    {
+     "label": "C",
+     "text": "“United States Senate Rejects Versailles Treaty”"
+    },
+    {
+     "label": "D",
+     "text": "“British Reject President Wilson’s Peace Plan”"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-72"
+  },
+  {
+   "n": 11,
+   "stem": "A newspaper headline reads: “18th Amendment Ratified: Prohibition Is Passed.” The purpose of this constitutional amendment was to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "forbid the production and sale of alcohol"
+    },
+    {
+     "label": "B",
+     "text": "give women the right to vote and hold office"
+    },
+    {
+     "label": "C",
+     "text": "allow for the direct election of senators"
+    },
+    {
+     "label": "D",
+     "text": "remove voting restrictions on minorities"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-73"
+  },
+  {
+   "n": 12,
+   "stem": "The following are characteristics of a government: Extreme patriotism Individual freedoms denied Dictator has total power Which government best completes this description?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Republican"
+    },
+    {
+     "label": "B",
+     "text": "Fascist"
+    },
+    {
+     "label": "C",
+     "text": "Democratic"
+    },
+    {
+     "label": "D",
+     "text": "Socialist"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-74"
+  },
+  {
+   "n": 13,
+   "stem": "A photograph shows prisoners confined behind barbed wire in a German concentration camp during World War II. These men were prisoners because of the German —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "policies concerning imperialism"
+    },
+    {
+     "label": "B",
+     "text": "ideas about European immigration"
+    },
+    {
+     "label": "C",
+     "text": "policies regarding isolationism"
+    },
+    {
+     "label": "D",
+     "text": "beliefs in Aryan supremacy"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-75"
+  },
+  {
+   "n": 14,
+   "stem": "The National System of Interstate Highways connected cities and regions across the United States with high-speed roads designed for automobile travel. How did this national system affect American life?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Citizens had greater access to information."
+    },
+    {
+     "label": "B",
+     "text": "Speed of communication increased."
+    },
+    {
+     "label": "C",
+     "text": "People began to travel more for pleasure."
+    },
+    {
+     "label": "D",
+     "text": "Variation between regions increased."
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-76"
+  },
+  {
+   "n": 15,
+   "stem": "The United States military was desegregated by President —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Woodrow Wilson"
+    },
+    {
+     "label": "B",
+     "text": "Franklin D. Roosevelt"
+    },
+    {
+     "label": "C",
+     "text": "Dwight D. Eisenhower"
+    },
+    {
+     "label": "D",
+     "text": "Harry S. Truman"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-77"
+  },
+  {
+   "n": 16,
+   "stem": "Population figures for three U.S. cities are shown below for three different years: Houston: 384,514 → 596,163 → 938,219 Dallas: 294,734 → 434,462 → 679,684 Phoenix: 65,414 → 106,818 → 439,170 Which invention most affected the population changes in this table?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Home computers"
+    },
+    {
+     "label": "B",
+     "text": "Television"
+    },
+    {
+     "label": "C",
+     "text": "Satellites"
+    },
+    {
+     "label": "D",
+     "text": "Air conditioning"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-78"
+  },
+  {
+   "n": 17,
+   "stem": "During the Cold War, the Soviet Union placed medium-range ballistic missiles and surface-to-air missile sites in Cuba, within close range of the United States. The United States responded to this event by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "surrounding Cuba with a naval blockade"
+    },
+    {
+     "label": "B",
+     "text": "agreeing to an arms treaty with Cuba"
+    },
+    {
+     "label": "C",
+     "text": "imposing trade restrictions on Cuba"
+    },
+    {
+     "label": "D",
+     "text": "attacking Cuba with a ground invasion"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-79"
+  },
+  {
+   "n": 18,
+   "stem": "One example of segregation in the early 1950s is when African Americans and whites could NOT —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "serve in military units"
+    },
+    {
+     "label": "B",
+     "text": "work in the same factory"
+    },
+    {
+     "label": "C",
+     "text": "participate in protest marches"
+    },
+    {
+     "label": "D",
+     "text": "learn in the same school"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-80"
+  },
+  {
+   "n": 19,
+   "stem": "Which country gave the most military aid to defend North Korea during the Korean War?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Japan"
+    },
+    {
+     "label": "B",
+     "text": "India"
+    },
+    {
+     "label": "C",
+     "text": "China"
+    },
+    {
+     "label": "D",
+     "text": "Thailand"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-81"
+  },
+  {
+   "n": 20,
+   "stem": "The following actions were used to challenge racial discrimination in the United States: Organized marches Sit-ins Boycotts Freedom Rides Which title best completes this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Great Depression"
+    },
+    {
+     "label": "B",
+     "text": "Vietnam War Protest"
+    },
+    {
+     "label": "C",
+     "text": "Cold War"
+    },
+    {
+     "label": "D",
+     "text": "Civil Rights Movement"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-82"
+  },
+  {
+   "n": 21,
+   "stem": "The following laws were passed by the federal government: Air Pollution Control Act of 1955 Clean Air Act of 1963 Clean Air Act of 1990 Which concern best completes this sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Political problems"
+    },
+    {
+     "label": "B",
+     "text": "Unstable economy"
+    },
+    {
+     "label": "C",
+     "text": "Medical research"
+    },
+    {
+     "label": "D",
+     "text": "Environmental issues"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-83"
+  },
+  {
+   "n": 22,
+   "stem": "Which city developed into a steel-manufacturing area because of nearby coal resources and river transportation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Boston"
+    },
+    {
+     "label": "B",
+     "text": "Detroit"
+    },
+    {
+     "label": "C",
+     "text": "Pittsburgh"
+    },
+    {
+     "label": "D",
+     "text": "New York"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-84"
+  },
+  {
+   "n": 23,
+   "stem": "The United States relocation policy resulted in American Indians being —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "sent to live in foreign nations"
+    },
+    {
+     "label": "B",
+     "text": "taught to become factory workers"
+    },
+    {
+     "label": "C",
+     "text": "ordered to leave traditional lands"
+    },
+    {
+     "label": "D",
+     "text": "forced to trade with foreign nations"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-85"
+  },
+  {
+   "n": 24,
+   "stem": "A map shows a transportation route running east–west across the continental United States, connecting a major Pacific Coast city in California with a major Midwestern city on Lake Michigan. This map shows a route connecting —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "San Francisco and Chicago"
+    },
+    {
+     "label": "B",
+     "text": "Honolulu and San Antonio"
+    },
+    {
+     "label": "C",
+     "text": "Los Angeles and Denver"
+    },
+    {
+     "label": "D",
+     "text": "Juneau and Santa Fe"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-86"
+  },
+  {
+   "n": 25,
+   "stem": "Railroads expanded across the United States during the late 19th century. This form of transportation helped create industrial centers by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "transporting farmers to Western towns"
+    },
+    {
+     "label": "B",
+     "text": "increasing the need for skilled workers"
+    },
+    {
+     "label": "C",
+     "text": "increasing tourist travel between states"
+    },
+    {
+     "label": "D",
+     "text": "transporting natural resources to Eastern factories"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-87"
+  },
+  {
+   "n": 26,
+   "stem": "The Lincoln Memorial is located in Washington, D.C., the nation’s capital, on the eastern side of the United States along the Atlantic Coast. In which region of the United States is this memorial located?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Northeast"
+    },
+    {
+     "label": "B",
+     "text": "Southeast"
+    },
+    {
+     "label": "C",
+     "text": "Midwest"
+    },
+    {
+     "label": "D",
+     "text": "Southwest"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-88"
+  },
+  {
+   "n": 27,
+   "stem": "The following constitutional amendments are listed together: 13th Amendment 14th Amendment 15th Amendment What phrase best describes these amendments?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Amendments that address civil rights issues"
+    },
+    {
+     "label": "B",
+     "text": "Amendments that deal with the Bill of Rights"
+    },
+    {
+     "label": "C",
+     "text": "Amendments that deal with the Declaration of Independence"
+    },
+    {
+     "label": "D",
+     "text": "Amendments that address federalism"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-89"
+  },
+  {
+   "n": 28,
+   "stem": "A drawing shows a person in the United States speaking on a telephone to someone overseas who says they are providing technical help. This drawing shows an example of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "international treaties"
+    },
+    {
+     "label": "B",
+     "text": "foreign tariffs"
+    },
+    {
+     "label": "C",
+     "text": "foreign immigration"
+    },
+    {
+     "label": "D",
+     "text": "job outsourcing"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-90"
+  },
+  {
+   "n": 29,
+   "stem": "A photograph shows a large government-funded dam construction project with many workers, heavy machinery, and concrete structures under construction during the Great Depression. This project was intended to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "preserve local wildlife"
+    },
+    {
+     "label": "B",
+     "text": "create immediate jobs"
+    },
+    {
+     "label": "C",
+     "text": "provide timber for housing"
+    },
+    {
+     "label": "D",
+     "text": "clear land for farms"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-91"
+  },
+  {
+   "n": 30,
+   "stem": "At the end of World War II, businesses changed from making war materials to making —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "consumer goods"
+    },
+    {
+     "label": "B",
+     "text": "alternative energies"
+    },
+    {
+     "label": "C",
+     "text": "computer systems"
+    },
+    {
+     "label": "D",
+     "text": "agricultural products"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-92"
+  },
+  {
+   "n": 31,
+   "stem": "The linking of different societies through globalization was most increased by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "improvements in communications"
+    },
+    {
+     "label": "B",
+     "text": "the mechanization of factories"
+    },
+    {
+     "label": "C",
+     "text": "advances in farming technologies"
+    },
+    {
+     "label": "D",
+     "text": "the outsourcing of skilled jobs"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-93"
+  },
+  {
+   "n": 32,
+   "stem": "Farmers received federal government assistance for the first time as part of the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Truman Doctrine"
+    },
+    {
+     "label": "B",
+     "text": "Marshall Plan"
+    },
+    {
+     "label": "C",
+     "text": "Fair Deal"
+    },
+    {
+     "label": "D",
+     "text": "New Deal"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_7__Civics_and_Economics_2014_SOLPass",
+   "id": "grade-7-civics-and-economics-94"
+  }
+ ]
+}

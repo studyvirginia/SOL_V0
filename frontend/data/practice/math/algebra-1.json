@@ -1,0 +1,8714 @@
+{
+ "subject": "math",
+ "course": "algebra-1",
+ "courseName": "Algebra 1",
+ "questionCount": 348,
+ "sources": [
+  "Mathematics_Algebra_1_2003_SOLPass",
+  "Mathematics_Algebra_1_2004_SOLPass",
+  "Mathematics_Algebra_1_2005_SOLPass",
+  "Mathematics_Algebra_1_2006_SOLPass",
+  "Mathematics_Algebra_1_2007_SOLPass",
+  "Mathematics_Algebra_1_2008_SOLPass",
+  "Mathematics_Algebra_1_2009_SOLPass",
+  "Mathematics_Algebra_1_2010_SOLPass",
+  "Mathematics_Algebra_1_2013_SOLPass",
+  "Mathematics_Algebra_1_2015_SOLPass",
+  "Mathematics_Algebra_1_VDOE"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "If ( (t - 6)/(3) = 15 ), what is the value of ( t )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "21"
+    },
+    {
+     "label": "B",
+     "text": "27"
+    },
+    {
+     "label": "C",
+     "text": "53"
+    },
+    {
+     "label": "D",
+     "text": "63"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-1"
+  },
+  {
+   "n": 2,
+   "stem": "What is the solution to the following system of linear equations? 4x - y = -6 x - 2y = -5",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(−1, 2)"
+    },
+    {
+     "label": "G",
+     "text": "(0, 6)"
+    },
+    {
+     "label": "H",
+     "text": "(1, 2)"
+    },
+    {
+     "label": "J",
+     "text": "(2, −1)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-2"
+  },
+  {
+   "n": 3,
+   "stem": "What is the solution set for the equation ( (x+5)(x+3)=0 )?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0, 8"
+    },
+    {
+     "label": "B",
+     "text": "3, 5"
+    },
+    {
+     "label": "C",
+     "text": "−2, 8"
+    },
+    {
+     "label": "D",
+     "text": "−5, −3"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-3"
+  },
+  {
+   "n": 4,
+   "stem": "What is the slope of the line that passes through the points (5, 0) and (10, 0)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0"
+    },
+    {
+     "label": "G",
+     "text": "1"
+    },
+    {
+     "label": "H",
+     "text": "5"
+    },
+    {
+     "label": "J",
+     "text": "Undefined"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-4"
+  },
+  {
+   "n": 5,
+   "stem": "Which is the solution to the system of equations? x - y = 7 2x + y = -1",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x=-5, y=2)"
+    },
+    {
+     "label": "B",
+     "text": "(x=-2, y=5)"
+    },
+    {
+     "label": "C",
+     "text": "(x=-1, y=-7)"
+    },
+    {
+     "label": "D",
+     "text": "(x=2, y=-5)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-5"
+  },
+  {
+   "n": 6,
+   "stem": "A line is shown that passes through the point (0,5) and is horizontal, remaining at y = 5 for all x-values. Which is most likely the equation of the line?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y=x+5)"
+    },
+    {
+     "label": "G",
+     "text": "(y=5x)"
+    },
+    {
+     "label": "H",
+     "text": "(y=5)"
+    },
+    {
+     "label": "J",
+     "text": "(x=5)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-6"
+  },
+  {
+   "n": 7,
+   "stem": "A line passes through the y-intercept (0,2) and decreases so that when x increases by 2, y decreases by 1. Which could be an equation for the line?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y=-(1)/(2)x+2)"
+    },
+    {
+     "label": "B",
+     "text": "(y=-(1)/(2)x-2)"
+    },
+    {
+     "label": "C",
+     "text": "(y=-2x+2)"
+    },
+    {
+     "label": "D",
+     "text": "(y=2x-2)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-7"
+  },
+  {
+   "n": 8,
+   "stem": "Which is an equation for the line with slope ( (1)/(2) ) and y-intercept of 3?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y=-(3)/(2)x)"
+    },
+    {
+     "label": "G",
+     "text": "(y=3x+(1)/(2))"
+    },
+    {
+     "label": "H",
+     "text": "(y=(1)/(2)x+3)"
+    },
+    {
+     "label": "J",
+     "text": "(y=(1)/(2)x-3)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-8"
+  },
+  {
+   "n": 9,
+   "stem": "Which property justifies rewriting (3x-5x) as ((3-5)x)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Associative property of multiplication"
+    },
+    {
+     "label": "B",
+     "text": "Distributive property"
+    },
+    {
+     "label": "C",
+     "text": "Commutative property of multiplication"
+    },
+    {
+     "label": "D",
+     "text": "Associative property of addition"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-9"
+  },
+  {
+   "n": 10,
+   "stem": "Which graph best represents a line with an undefined slope? A vertical line where x is constant for all y-values.",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Vertical line"
+    },
+    {
+     "label": "G",
+     "text": "Horizontal line"
+    },
+    {
+     "label": "H",
+     "text": "Line with positive slope"
+    },
+    {
+     "label": "J",
+     "text": "Line with negative slope"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-10"
+  },
+  {
+   "n": 13,
+   "stem": "What is the solution to the system of equations? y=4x+2 y=x-1",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x=-1,y=2)"
+    },
+    {
+     "label": "B",
+     "text": "(x=-1,y=-2)"
+    },
+    {
+     "label": "C",
+     "text": "(x=1,y=-2)"
+    },
+    {
+     "label": "D",
+     "text": "(x=1,y=2)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-11"
+  },
+  {
+   "n": 14,
+   "stem": "While solving an equation, Lenny rewrote ((2x+1)+5=9) as (2x+(1+5)=9). What property of real numbers guarantees the equations are equivalent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Associative property of addition"
+    },
+    {
+     "label": "G",
+     "text": "Additive inverse property"
+    },
+    {
+     "label": "H",
+     "text": "Commutative property of addition"
+    },
+    {
+     "label": "J",
+     "text": "Distributive property"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-12"
+  },
+  {
+   "n": 15,
+   "stem": "What is the solution to the equation (5(x+2)=7(4-x))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−9.0"
+    },
+    {
+     "label": "B",
+     "text": "1.5"
+    },
+    {
+     "label": "C",
+     "text": "3.2"
+    },
+    {
+     "label": "D",
+     "text": "9.0"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-13"
+  },
+  {
+   "n": 16,
+   "stem": "What are the x-intercepts of the graph of (y=x^2+5x+4)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "−4 and −1"
+    },
+    {
+     "label": "G",
+     "text": "−2 and 3"
+    },
+    {
+     "label": "H",
+     "text": "−1 and 1"
+    },
+    {
+     "label": "J",
+     "text": "−1 and 2"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-14"
+  },
+  {
+   "n": 17,
+   "stem": "What values of x make the inequality ( -3(x+1) 15 ) true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x 6)"
+    },
+    {
+     "label": "B",
+     "text": "(x 6)"
+    },
+    {
+     "label": "C",
+     "text": "(x>=-6)"
+    },
+    {
+     "label": "D",
+     "text": "(x<=-6)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-15"
+  },
+  {
+   "n": 18,
+   "stem": "The profit equation for a manufacturing firm is (P=x^2-2500). For what number of units sold does the company break even?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "50"
+    },
+    {
+     "label": "G",
+     "text": "100"
+    },
+    {
+     "label": "H",
+     "text": "500"
+    },
+    {
+     "label": "J",
+     "text": "1,250"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-16"
+  },
+  {
+   "n": 19,
+   "stem": "What is the value of ( (4x-5y)/(2y) ) if (x=-6) and (y=2)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−26.5"
+    },
+    {
+     "label": "B",
+     "text": "−8.5"
+    },
+    {
+     "label": "C",
+     "text": "−3.5"
+    },
+    {
+     "label": "D",
+     "text": "−0.5"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-17"
+  },
+  {
+   "n": 20,
+   "stem": "The expression ( sqrt175 ) is in simplest radical form of which number?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1,225"
+    },
+    {
+     "label": "G",
+     "text": "245"
+    },
+    {
+     "label": "H",
+     "text": "175"
+    },
+    {
+     "label": "J",
+     "text": "35"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-18"
+  },
+  {
+   "n": 21,
+   "stem": "A shaded region is formed by a rectangle of area (x^2) with a smaller rectangle of area (6) removed. Which expression represents the shaded area?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(4x-10)"
+    },
+    {
+     "label": "B",
+     "text": "(x^2-6)"
+    },
+    {
+     "label": "C",
+     "text": "(x^2-5x+6)"
+    },
+    {
+     "label": "D",
+     "text": "(x^2+5x-6)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-19"
+  },
+  {
+   "n": 22,
+   "stem": "Which is a factored form of (5x^2-20x)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(5(x^2-4))"
+    },
+    {
+     "label": "G",
+     "text": "(5(x-2)^2)"
+    },
+    {
+     "label": "H",
+     "text": "(5x(x-4))"
+    },
+    {
+     "label": "J",
+     "text": "((5x-4)(x+5))"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-20"
+  },
+  {
+   "n": 23,
+   "stem": "Which binomial is a factor of (2x^2+x-1)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x-1)"
+    },
+    {
+     "label": "B",
+     "text": "(2x+2)"
+    },
+    {
+     "label": "C",
+     "text": "(2x-1)"
+    },
+    {
+     "label": "D",
+     "text": "(2x+1)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-21"
+  },
+  {
+   "n": 24,
+   "stem": "Which polynomial is equivalent to ((2x^2-5x+6)+(5x^2-3x+4))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(7x^2-8x+10)"
+    },
+    {
+     "label": "G",
+     "text": "(7x^2-2x+10)"
+    },
+    {
+     "label": "H",
+     "text": "(7x^2-8x+2)"
+    },
+    {
+     "label": "J",
+     "text": "(7x^2-2x+2)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-22"
+  },
+  {
+   "n": 25,
+   "stem": "What is ( sqrt180 ) written in simplest radical form?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(5 6)"
+    },
+    {
+     "label": "B",
+     "text": "(4sqrt45)"
+    },
+    {
+     "label": "C",
+     "text": "(6 5)"
+    },
+    {
+     "label": "D",
+     "text": "(6sqrt30)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-23"
+  },
+  {
+   "n": 26,
+   "stem": "What is the value of (3x+4y) if (x= 13) and (y= 12)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "17"
+    },
+    {
+     "label": "G",
+     "text": "3"
+    },
+    {
+     "label": "H",
+     "text": "2"
+    },
+    {
+     "label": "J",
+     "text": "1"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-24"
+  },
+  {
+   "n": 27,
+   "stem": "Which is a simplified form of ((4xy^3)(xy^4))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x^2y^7)"
+    },
+    {
+     "label": "B",
+     "text": "(x^4y^12)"
+    },
+    {
+     "label": "C",
+     "text": "(x^5y^7)"
+    },
+    {
+     "label": "D",
+     "text": "(x^5y^12)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-25"
+  },
+  {
+   "n": 28,
+   "stem": "Which is equivalent to (2.3 10^4-6.5 10^3)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "−42"
+    },
+    {
+     "label": "G",
+     "text": "165"
+    },
+    {
+     "label": "H",
+     "text": "1,650"
+    },
+    {
+     "label": "J",
+     "text": "16,500"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-26"
+  },
+  {
+   "n": 29,
+   "stem": "What is the value of ( (mn)/(r^2) ) if (m=7), (n=18), and (r=6)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3.5"
+    },
+    {
+     "label": "B",
+     "text": "10.5"
+    },
+    {
+     "label": "C",
+     "text": "21"
+    },
+    {
+     "label": "D",
+     "text": "63"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-27"
+  },
+  {
+   "n": 30,
+   "stem": "When factored completely, (x^2-9) equals",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((x+3)^2)"
+    },
+    {
+     "label": "G",
+     "text": "((x-3)^2)"
+    },
+    {
+     "label": "H",
+     "text": "((x+1)(x-9))"
+    },
+    {
+     "label": "J",
+     "text": "((x+3)(x-3))"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-28"
+  },
+  {
+   "n": 31,
+   "stem": "For objects made of the same material, weight varies directly with volume. If a volume of 20 cubic inches weighs 28 ounces, what is the constant of variation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 57 )"
+    },
+    {
+     "label": "B",
+     "text": "( 75 )"
+    },
+    {
+     "label": "C",
+     "text": "20"
+    },
+    {
+     "label": "D",
+     "text": "28"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-29"
+  },
+  {
+   "n": 32,
+   "stem": "What is the range of (f(x)=x^2-3) when the domain is 1, 3, 5?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "−2, 22"
+    },
+    {
+     "label": "G",
+     "text": "−2, 0, 2"
+    },
+    {
+     "label": "H",
+     "text": "−2, 6, 22"
+    },
+    {
+     "label": "J",
+     "text": "2, 4, 6"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-30"
+  },
+  {
+   "n": 34,
+   "stem": "Which is a zero of (f(x)=x^2-x-12)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-31"
+  },
+  {
+   "n": 35,
+   "stem": "In which set of ordered pairs is y not a function of x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(1,4),(2,4),(3,4),(4,4)"
+    },
+    {
+     "label": "B",
+     "text": "(2,0),(4,1),(6,2),(8,3)"
+    },
+    {
+     "label": "C",
+     "text": "(11,2),(12,4),(13,6)"
+    },
+    {
+     "label": "D",
+     "text": "(-6,37),(-6,10),(-5,26)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-32"
+  },
+  {
+   "n": 36,
+   "stem": "If (f(x)=8x+6), what is (f(-1))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "−14"
+    },
+    {
+     "label": "G",
+     "text": "−2"
+    },
+    {
+     "label": "H",
+     "text": "2"
+    },
+    {
+     "label": "J",
+     "text": "14"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-33"
+  },
+  {
+   "n": 38,
+   "stem": "If (f(x)=5x-2), what is (f(3))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0"
+    },
+    {
+     "label": "G",
+     "text": "8"
+    },
+    {
+     "label": "H",
+     "text": "13"
+    },
+    {
+     "label": "J",
+     "text": "15"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-34"
+  },
+  {
+   "n": 39,
+   "stem": "Which is a zero of (f(x)=5x-20)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−20"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "5"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-35"
+  },
+  {
+   "n": 40,
+   "stem": "The ordered pairs of a function are (−4,1), (−2,0), and (8,−1). What is the range?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "−1,1"
+    },
+    {
+     "label": "G",
+     "text": "−1,0,1"
+    },
+    {
+     "label": "H",
+     "text": "−4,−2,8"
+    },
+    {
+     "label": "J",
+     "text": "−4,−2,−1,0,1,8"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-36"
+  },
+  {
+   "n": 41,
+   "stem": "A table shows brochure orders: 100 → 49, 500 → 45, 1000 → 40, 2000 → 30 (prices in cents). Which equation best represents this relationship?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(P=-(1)/(100)n+50)"
+    },
+    {
+     "label": "B",
+     "text": "(P=(1)/(10)n+39)"
+    },
+    {
+     "label": "C",
+     "text": "(P=-(1)/(10)n+59)"
+    },
+    {
+     "label": "D",
+     "text": "(P=(1)/(100)n+48)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-37"
+  },
+  {
+   "n": 42,
+   "stem": "Distance varies directly with time. If 240 miles are traveled in 8 hours, what is the constant speed?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1,920 mph"
+    },
+    {
+     "label": "G",
+     "text": "232 mph"
+    },
+    {
+     "label": "H",
+     "text": "30 mph"
+    },
+    {
+     "label": "J",
+     "text": "( (1)/(30) ) mph"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-38"
+  },
+  {
+   "n": 43,
+   "stem": "If the mean of 12 numbers is 13, what is the sum of the numbers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "25"
+    },
+    {
+     "label": "B",
+     "text": "144"
+    },
+    {
+     "label": "C",
+     "text": "156"
+    },
+    {
+     "label": "D",
+     "text": "169"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-39"
+  },
+  {
+   "n": 44,
+   "stem": "Phone call times (minutes): 9, 15, 5, 7, 9, 12, 11, 4. Which statement is true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The mode is greater than 7."
+    },
+    {
+     "label": "G",
+     "text": "The mean is less than 8."
+    },
+    {
+     "label": "H",
+     "text": "The range is less than 10."
+    },
+    {
+     "label": "J",
+     "text": "The median is greater than 10."
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-40"
+  },
+  {
+   "n": 45,
+   "stem": "Clothing purchases and tax charged are shown: (35,3.15), (40,3.60), (22,1.98), (68,6.12), (74,6.66), (31,2.79). Which equation best fits the data?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(t=0.09c+2.89)"
+    },
+    {
+     "label": "B",
+     "text": "(t=0.91c)"
+    },
+    {
+     "label": "C",
+     "text": "(t=0.09c)"
+    },
+    {
+     "label": "D",
+     "text": "(t=1.09c)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-41"
+  },
+  {
+   "n": 46,
+   "stem": "Builders constructed the following numbers of homes: 51, 25, 12, 10, 43, 50, 41, 39, 25. Which statement is true?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The range is less than the mean."
+    },
+    {
+     "label": "G",
+     "text": "The mode is greater than the mean."
+    },
+    {
+     "label": "H",
+     "text": "The mode is greater than the median."
+    },
+    {
+     "label": "J",
+     "text": "The median is greater than the mean."
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-42"
+  },
+  {
+   "n": 48,
+   "stem": "Given (P= 10&2515&3020&35 ), (Q= 40&7050&8060&90 ), what is (Q-P)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "( 30&6020&6525&70 )"
+    },
+    {
+     "label": "G",
+     "text": "( 30&4535&5040&55 )"
+    },
+    {
+     "label": "H",
+     "text": "( 50&9565&11080&125 )"
+    },
+    {
+     "label": "J",
+     "text": "( -30&-45-35&-50-40&-55 )"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-43"
+  },
+  {
+   "n": 49,
+   "stem": "Given (M= 3&2 ) and (N= -14 ), which matrix equals (M+N)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 2&6 )"
+    },
+    {
+     "label": "B",
+     "text": "( 26 )"
+    },
+    {
+     "label": "C",
+     "text": "( 2&-38&6 )"
+    },
+    {
+     "label": "D",
+     "text": "M and N cannot be added."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-44"
+  },
+  {
+   "n": 50,
+   "stem": "A graph shows profit increasing linearly with bags of popcorn sold. Profit reaches about $70 at 140 bags. Approximately how many bags must be sold to earn $200 profit?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "250"
+    },
+    {
+     "label": "G",
+     "text": "300"
+    },
+    {
+     "label": "H",
+     "text": "350"
+    },
+    {
+     "label": "J",
+     "text": "400"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2007_SOLPass",
+   "id": "algebra-1-45"
+  },
+  {
+   "n": 1,
+   "stem": "What is the value of the expression 5sqrta - csqrtb + b^9 when (a = 8), (b = 16), and (c = -4)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "35"
+    },
+    {
+     "label": "C",
+     "text": "50"
+    },
+    {
+     "label": "D",
+     "text": "51"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-46"
+  },
+  {
+   "n": 2,
+   "stem": "What is the quotient of ((15x^2 - 8x - 12)) and ((3x + 2))? Assume the denominator is not equal to zero.",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(45x^2 + 6x^2 - 52x - 24)"
+    },
+    {
+     "label": "G",
+     "text": "(15x^2 - 5x - 10)"
+    },
+    {
+     "label": "H",
+     "text": "(5x + 6)"
+    },
+    {
+     "label": "J",
+     "text": "(5x - 6)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-47"
+  },
+  {
+   "n": 3,
+   "stem": "Which represents the following expression in simplest form? (15(x^2)^3)/(3(x^4)^3)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(5x^2)"
+    },
+    {
+     "label": "B",
+     "text": "(5x^6)"
+    },
+    {
+     "label": "C",
+     "text": "((5)/(x^6))"
+    },
+    {
+     "label": "D",
+     "text": "((5)/(x^2))"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-48"
+  },
+  {
+   "n": 4,
+   "stem": "For which value of (x) does ((3)/(x)) simplify to ((5)/(7))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "35"
+    },
+    {
+     "label": "G",
+     "text": "245"
+    },
+    {
+     "label": "H",
+     "text": "875"
+    },
+    {
+     "label": "J",
+     "text": "1715"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-49"
+  },
+  {
+   "n": 5,
+   "stem": "What is (sqrt13,456) in simplest radical form?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2sqrt12)"
+    },
+    {
+     "label": "B",
+     "text": "(6sqrt16)"
+    },
+    {
+     "label": "C",
+     "text": "(12sqrt2)"
+    },
+    {
+     "label": "D",
+     "text": "116"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-50"
+  },
+  {
+   "n": 8,
+   "stem": "A function (f) is described by f(x) = (x - 2)^4 + 3 The domain of (f) is all real numbers greater than 0. The range of (f) is all real numbers greater than or equal to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "−3"
+    },
+    {
+     "label": "D",
+     "text": "−5"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-51"
+  },
+  {
+   "n": 9,
+   "stem": "Which function does not have a y-intercept of 2?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = 4x + 2)"
+    },
+    {
+     "label": "B",
+     "text": "(y = 4(x + 0.5))"
+    },
+    {
+     "label": "C",
+     "text": "(y = x^2 + 7x + 2)"
+    },
+    {
+     "label": "D",
+     "text": "(y = (x - 2)(x + 5))"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-52"
+  },
+  {
+   "n": 14,
+   "stem": "Given: f(x) &= 7x + 5 g(x) &= 2x - 5 h(x) &= (x + 2)(x - 5) Which functions have at least one equivalent x-intercept?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(f(x)) and (g(x)) only"
+    },
+    {
+     "label": "G",
+     "text": "(f(x)) and (h(x)) only"
+    },
+    {
+     "label": "H",
+     "text": "(g(x)) and (h(x)) only"
+    },
+    {
+     "label": "J",
+     "text": "(f(x)), (g(x)), and (h(x))"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-53"
+  },
+  {
+   "n": 15,
+   "stem": "The correlation coefficient for the curve of best fit relating student cell phone use (hours per day) and GPA is −0.9921. Based on the data, there appears to be —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "no relationship"
+    },
+    {
+     "label": "B",
+     "text": "a weak relationship"
+    },
+    {
+     "label": "C",
+     "text": "a strong relationship"
+    },
+    {
+     "label": "D",
+     "text": "a positive relationship"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-54"
+  },
+  {
+   "n": 16,
+   "stem": "Which conclusion about the relationship between student cell phone use and GPA is best supported by these data?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Increased cell phone use prevents students from getting good grades."
+    },
+    {
+     "label": "G",
+     "text": "Decreased cell phone use causes students to perform better in school."
+    },
+    {
+     "label": "H",
+     "text": "The more time students spend on their cell phones, the lower their GPA."
+    },
+    {
+     "label": "J",
+     "text": "There is no relationship between student cell phone use and GPA."
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-55"
+  },
+  {
+   "n": 17,
+   "stem": "Using the quadratic curve of best fit, which equation most closely represents the set of data: (-8, 80.4), (-7, 57.8), (-6, 38.6), (-5, 22.8), (3, 18.8), (5, 51.8), (7, 98.4)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = x^2 + 2x - 5)"
+    },
+    {
+     "label": "B",
+     "text": "(y = x^2 - 3x + 45.2)"
+    },
+    {
+     "label": "C",
+     "text": "(y = 1.7x^2 - 3x + 45)"
+    },
+    {
+     "label": "D",
+     "text": "(y = 1.7x^2 + 2.9x - 5.2)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-56"
+  },
+  {
+   "n": 18,
+   "stem": "The table below shows the number of months used and the approximate distance driven for four buses in a school district: 6 months → 10,100 miles 10 months → 17,000 miles 20 months → 43,200 miles 27 months → 59,900 miles Using the line of best fit for these data, which value is the best prediction of the distance driven, in miles, by a bus that has been used for 40 months?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "68,000"
+    },
+    {
+     "label": "G",
+     "text": "79,100"
+    },
+    {
+     "label": "H",
+     "text": "86,400"
+    },
+    {
+     "label": "J",
+     "text": "91,400"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_VDOE",
+   "id": "algebra-1-57"
+  },
+  {
+   "n": 3,
+   "stem": "Line ℓ has slope 2 and passes through the point (1, 3). Which is one form of the equation of line ℓ?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = x + 2)"
+    },
+    {
+     "label": "B",
+     "text": "(y = 2x + 1)"
+    },
+    {
+     "label": "C",
+     "text": "(y = 3x + 2)"
+    },
+    {
+     "label": "D",
+     "text": "(y = 2x + 5)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-58"
+  },
+  {
+   "n": 4,
+   "stem": "What is the solution set for the quadratic equation (x^2 - 4x + 4 = 0)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2"
+    },
+    {
+     "label": "G",
+     "text": "−2"
+    },
+    {
+     "label": "H",
+     "text": "−2, 2"
+    },
+    {
+     "label": "J",
+     "text": "1, 3"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-59"
+  },
+  {
+   "n": 5,
+   "stem": "What is the solution to the system of equations? 4x - 3y = 10 x + 4y = 7",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(1, −2)"
+    },
+    {
+     "label": "B",
+     "text": "(−11, 1)"
+    },
+    {
+     "label": "C",
+     "text": "(−1, 2)"
+    },
+    {
+     "label": "D",
+     "text": "(−15, 2)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-60"
+  },
+  {
+   "n": 6,
+   "stem": "What is the slope of the line given by the equation (y = (1)/(3)x - 3)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3"
+    },
+    {
+     "label": "G",
+     "text": "((1)/(3))"
+    },
+    {
+     "label": "H",
+     "text": "((2)/(3))"
+    },
+    {
+     "label": "J",
+     "text": "−3"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-61"
+  },
+  {
+   "n": 7,
+   "stem": "What are the x-intercepts of the graph of the equation (y = x^2 + 6x - 7)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−7 and −1"
+    },
+    {
+     "label": "B",
+     "text": "−1 and 7"
+    },
+    {
+     "label": "C",
+     "text": "1 and −7"
+    },
+    {
+     "label": "D",
+     "text": "−7 and 1"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-62"
+  },
+  {
+   "n": 8,
+   "stem": "What is the solution to the inequality (6(x + 1) > 7)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(x < -(1)/(6))"
+    },
+    {
+     "label": "G",
+     "text": "(x > (1)/(6))"
+    },
+    {
+     "label": "H",
+     "text": "(x > 1)"
+    },
+    {
+     "label": "J",
+     "text": "(x > 6)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-63"
+  },
+  {
+   "n": 9,
+   "stem": "Andrea has 37 coins, all nickels and dimes. The total value is $3.10. How many dimes does Andrea have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12"
+    },
+    {
+     "label": "B",
+     "text": "19"
+    },
+    {
+     "label": "C",
+     "text": "25"
+    },
+    {
+     "label": "D",
+     "text": "31"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-64"
+  },
+  {
+   "n": 12,
+   "stem": "What is the slope of the line that passes through (−3, −5) and (4, −2)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((1)/(3))"
+    },
+    {
+     "label": "G",
+     "text": "((3)/(7))"
+    },
+    {
+     "label": "H",
+     "text": "7"
+    },
+    {
+     "label": "J",
+     "text": "0"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-65"
+  },
+  {
+   "n": 13,
+   "stem": "What is the solution to the system of equations? x + 2y = 5 x - y = -1",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x = 3, y = 4)"
+    },
+    {
+     "label": "B",
+     "text": "(x = 1, y = 3)"
+    },
+    {
+     "label": "C",
+     "text": "(x = 1, y = 2)"
+    },
+    {
+     "label": "D",
+     "text": "(x = 3, y = 1)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-66"
+  },
+  {
+   "n": 16,
+   "stem": "Jerri solved the equation (17(x + 3) = 6 - 4). Step 1: (17x + 51 = 6 - 4) Which property justifies Step 1?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Associative property of addition"
+    },
+    {
+     "label": "G",
+     "text": "Commutative property of addition"
+    },
+    {
+     "label": "H",
+     "text": "Distributive property"
+    },
+    {
+     "label": "J",
+     "text": "Additive identity property"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-67"
+  },
+  {
+   "n": 17,
+   "stem": "What value of (m) satisfies the equation (5(m - 5) = 3(m + 1))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "14"
+    },
+    {
+     "label": "B",
+     "text": "9"
+    },
+    {
+     "label": "C",
+     "text": "3.5"
+    },
+    {
+     "label": "D",
+     "text": "7.5"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-68"
+  },
+  {
+   "n": 19,
+   "stem": "Which expression is not equivalent to (3x * 3x * 3x * 3x * 3x * 3x)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(3x^6)"
+    },
+    {
+     "label": "B",
+     "text": "(9^3x^6)"
+    },
+    {
+     "label": "C",
+     "text": "(27^2x^6)"
+    },
+    {
+     "label": "D",
+     "text": "(3^6x^6)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-69"
+  },
+  {
+   "n": 20,
+   "stem": "Which is a factored form of (2x^2 - 6x)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(2(x^2 - 3))"
+    },
+    {
+     "label": "G",
+     "text": "(2x(x - 3))"
+    },
+    {
+     "label": "H",
+     "text": "(2x(1 - 3x))"
+    },
+    {
+     "label": "J",
+     "text": "((2x + 3)(x - 2))"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-70"
+  },
+  {
+   "n": 21,
+   "stem": "Written in simplest radical form, (sqrt32) is equal to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2sqrt4)"
+    },
+    {
+     "label": "B",
+     "text": "(2sqrt16)"
+    },
+    {
+     "label": "C",
+     "text": "(4sqrt2)"
+    },
+    {
+     "label": "D",
+     "text": "(8sqrt2)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-71"
+  },
+  {
+   "n": 23,
+   "stem": "If 112 children sign up for a field trip and each vehicle carries (x) children, which expression represents the number of vehicles needed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(112 - x)"
+    },
+    {
+     "label": "B",
+     "text": "(112x)"
+    },
+    {
+     "label": "C",
+     "text": "((112)/(x))"
+    },
+    {
+     "label": "D",
+     "text": "(x - 112)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-72"
+  },
+  {
+   "n": 24,
+   "stem": "Which is equivalent to (3a(2a + b))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(6a^2 + b)"
+    },
+    {
+     "label": "G",
+     "text": "(6a^2 + 3ab)"
+    },
+    {
+     "label": "H",
+     "text": "(5a^2 + b)"
+    },
+    {
+     "label": "J",
+     "text": "(5a^2 + 3ab)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-73"
+  },
+  {
+   "n": 26,
+   "stem": "Which expression is equivalent to ((3x^2y)^2)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(3x^5y^5)"
+    },
+    {
+     "label": "G",
+     "text": "(9x^5y^5)"
+    },
+    {
+     "label": "H",
+     "text": "(9x^6y^2)"
+    },
+    {
+     "label": "J",
+     "text": "(27x^2y^2)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-74"
+  },
+  {
+   "n": 27,
+   "stem": "Which is equivalent to ((3x + 1)(4x - 1))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(12x^2 - 1)"
+    },
+    {
+     "label": "B",
+     "text": "(12x^2 - x - 1)"
+    },
+    {
+     "label": "C",
+     "text": "(12x^2 + x - 1)"
+    },
+    {
+     "label": "D",
+     "text": "(12x^2 + 7x - 1)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-75"
+  },
+  {
+   "n": 28,
+   "stem": "Which is a factor of (a^2 - 81)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(a + 3)"
+    },
+    {
+     "label": "G",
+     "text": "(a + 9)"
+    },
+    {
+     "label": "H",
+     "text": "(a + 27)"
+    },
+    {
+     "label": "J",
+     "text": "(a + 81)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-76"
+  },
+  {
+   "n": 29,
+   "stem": "What is the value of the expression (x + y + z) if (x = 4), (y = 2), and (z = 2)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "9"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "16"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-77"
+  },
+  {
+   "n": 33,
+   "stem": "The equation (f(x) = n(2x) + 3) defines a function. If (6, 7) is on the graph, what is the value of (n)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((1)/(6))"
+    },
+    {
+     "label": "B",
+     "text": "((1)/(3))"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-78"
+  },
+  {
+   "n": 34,
+   "stem": "The number of water bottles used varies directly with temperature. If 75 bottles are used at 60°, what is the temperature when 120 bottles are used?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "96°"
+    },
+    {
+     "label": "G",
+     "text": "92°"
+    },
+    {
+     "label": "H",
+     "text": "84°"
+    },
+    {
+     "label": "J",
+     "text": "80°"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-79"
+  },
+  {
+   "n": 35,
+   "stem": "If (f(2) = 13), which could be the equation for (f(x))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(f(x) = x^2 + 8)"
+    },
+    {
+     "label": "B",
+     "text": "(f(x) = x + x^2)"
+    },
+    {
+     "label": "C",
+     "text": "(f(x) = 2x^3 + 5)"
+    },
+    {
+     "label": "D",
+     "text": "(f(x) = 3x^2 + 1)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-80"
+  },
+  {
+   "n": 36,
+   "stem": "The points (1, 1), (2, 4), (3, 7), (4, 10), and (5, 13) lie on a linear function. Which could be the function?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y = x)"
+    },
+    {
+     "label": "G",
+     "text": "(y = 2x - 1)"
+    },
+    {
+     "label": "H",
+     "text": "(y = 3x - 2)"
+    },
+    {
+     "label": "J",
+     "text": "(y = 4x - 3)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-81"
+  },
+  {
+   "n": 37,
+   "stem": "Which is a zero of the function (f(x) = 2x - 6)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−6"
+    },
+    {
+     "label": "B",
+     "text": "−3"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-82"
+  },
+  {
+   "n": 38,
+   "stem": "In which set of ordered pairs is (y) a function of (x)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(−3,4), (1,9), (1,4)"
+    },
+    {
+     "label": "G",
+     "text": "(0,5), (0,4), (0,5)"
+    },
+    {
+     "label": "H",
+     "text": "(1,−1), (2,1), (3,−3)"
+    },
+    {
+     "label": "J",
+     "text": "(0,1), (1,−1), (1,0)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-83"
+  },
+  {
+   "n": 39,
+   "stem": "If (f(x) = 3x^2 + 2x - 1), what is (f(0))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−1"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-84"
+  },
+  {
+   "n": 41,
+   "stem": "The depth of a lake varies directly with the amount of rainfall. If (k) is the constant of variation, which equation represents the situation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(d = (k)/(r))"
+    },
+    {
+     "label": "B",
+     "text": "(d = (r)/(k))"
+    },
+    {
+     "label": "C",
+     "text": "(d = k + r)"
+    },
+    {
+     "label": "D",
+     "text": "(d = kr)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-85"
+  },
+  {
+   "n": 43,
+   "stem": "Kayla works four days as a waitress and nanny. Her original hours are: Waitress: (6, 5, 4, 7) Nanny: (4, 4, 6, 3) If she cuts all hours in half, which matrix represents the new schedule?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 3 & 2.5 & 2 & 3.5 2 & 2 & 3 & 1.5 )"
+    },
+    {
+     "label": "B",
+     "text": "( 6 & 5 & 4 & 7 4 & 4 & 6 & 3 )"
+    },
+    {
+     "label": "C",
+     "text": "( 3 & 2.5 & 2 & 3.5 2 & 2 & 3 & 1.5 )"
+    },
+    {
+     "label": "D",
+     "text": "( 4 & 4 & 6 & 3 6 & 5 & 4 & 7 )"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-86"
+  },
+  {
+   "n": 46,
+   "stem": "An elementary school has 150 boys and 145 girls. If 60% of each group goes on a field trip, which matrix represents the number of students going?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "( 90 58 )"
+    },
+    {
+     "label": "G",
+     "text": "( 150 145 )"
+    },
+    {
+     "label": "H",
+     "text": "( 60 58 )"
+    },
+    {
+     "label": "J",
+     "text": "( 90 87 )"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2008_SOLPass",
+   "id": "algebra-1-87"
+  },
+  {
+   "n": 1,
+   "stem": "Consider the procedure used below to solve the equation Given: 3(x − 2) = 17 (1st step) 3x − 6 = 17 (2nd step) 3x = 23 (3rd step) x = 23⁄3 Which of the following properties justifies the 1st step?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Associative property of addition"
+    },
+    {
+     "label": "B",
+     "text": "Commutative property of addition"
+    },
+    {
+     "label": "C",
+     "text": "Distributive property"
+    },
+    {
+     "label": "D",
+     "text": "Transitive property of equality"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-88"
+  },
+  {
+   "n": 3,
+   "stem": "The volume of a rectangular solid is 960 cubic inches. The base of the solid measures 12 inches by 10 inches. What is the height of the solid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4 in."
+    },
+    {
+     "label": "B",
+     "text": "8 in."
+    },
+    {
+     "label": "C",
+     "text": "120 in."
+    },
+    {
+     "label": "D",
+     "text": "840 in."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-89"
+  },
+  {
+   "n": 5,
+   "stem": "The equation y = 1⁄2 x represents a straight line. If this line is shifted downward 3 units, which equation represents the new line?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "y = 1⁄2 x + 3"
+    },
+    {
+     "label": "B",
+     "text": "y = 3⁄2 x"
+    },
+    {
+     "label": "C",
+     "text": "y = 1⁄2 x − 3"
+    },
+    {
+     "label": "D",
+     "text": "y = 1⁄2 x + 1"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-90"
+  },
+  {
+   "n": 9,
+   "stem": "Which line has a negative slope?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The line that decreases from left to right"
+    },
+    {
+     "label": "B",
+     "text": "The line that increases from left to right"
+    },
+    {
+     "label": "C",
+     "text": "The horizontal line"
+    },
+    {
+     "label": "D",
+     "text": "The vertical line"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-91"
+  },
+  {
+   "n": 11,
+   "stem": "What is the slope of the line y = 2x − 3?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "1⁄2"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-92"
+  },
+  {
+   "n": 13,
+   "stem": "The table below shows values of x and y. x: −2, −1, 0, 1, 2 y: −3, −1, 1, 3, 5 Which equation fits the data in the table?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "y = x − 2"
+    },
+    {
+     "label": "B",
+     "text": "y = 2x + 1"
+    },
+    {
+     "label": "C",
+     "text": "y = 3x + 3"
+    },
+    {
+     "label": "D",
+     "text": "y = x + 1"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-93"
+  },
+  {
+   "n": 15,
+   "stem": "Solve the system of equations: x + y = 5 x − y = 7",
+   "choices": [
+    {
+     "label": "A",
+     "text": "x = 6, y = −1"
+    },
+    {
+     "label": "B",
+     "text": "x = 4, y = 3"
+    },
+    {
+     "label": "C",
+     "text": "x = 1, y = 6"
+    },
+    {
+     "label": "D",
+     "text": "x = −1, y = 7"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-94"
+  },
+  {
+   "n": 17,
+   "stem": "What is the solution to the inequality −2x + 3 ≤ 7?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "x ≤ −5"
+    },
+    {
+     "label": "B",
+     "text": "x ≤ −2"
+    },
+    {
+     "label": "C",
+     "text": "x ≥ 2"
+    },
+    {
+     "label": "D",
+     "text": "x ≤ 3"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-95"
+  },
+  {
+   "n": 19,
+   "stem": "The formula for the surface area of a cylinder is SA = 2πr(h + r). What is the surface area when r = 3 cm and h = 4 cm?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "28π cm²"
+    },
+    {
+     "label": "B",
+     "text": "32π cm²"
+    },
+    {
+     "label": "C",
+     "text": "36π cm²"
+    },
+    {
+     "label": "D",
+     "text": "42π cm²"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-96"
+  },
+  {
+   "n": 21,
+   "stem": "Which is equivalent to (−2ab³)(−3a²b⁵)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−5ab"
+    },
+    {
+     "label": "B",
+     "text": "6a²b¹⁵"
+    },
+    {
+     "label": "C",
+     "text": "6a³b²"
+    },
+    {
+     "label": "D",
+     "text": "6a³b⁸"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-97"
+  },
+  {
+   "n": 23,
+   "stem": "A diagram of algebra tiles represents six x² tiles, nine x tiles, and three unit tiles. Which polynomial is represented?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6x² + 12x"
+    },
+    {
+     "label": "B",
+     "text": "2x² + 3x + 1"
+    },
+    {
+     "label": "C",
+     "text": "6x² + 9x + 3"
+    },
+    {
+     "label": "D",
+     "text": "9x² + 6x + 3"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-98"
+  },
+  {
+   "n": 25,
+   "stem": "If x ≠ 0, which expression is equivalent to (8x⁷ − 2x³) ÷ 2x?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6x⁶ − x²"
+    },
+    {
+     "label": "B",
+     "text": "4x⁶ − x²"
+    },
+    {
+     "label": "C",
+     "text": "6x⁷ − x³ + x"
+    },
+    {
+     "label": "D",
+     "text": "4x⁶ − x² + 1"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-99"
+  },
+  {
+   "n": 27,
+   "stem": "When factored completely, x² − 9 equals —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x + 3)(x − 3)"
+    },
+    {
+     "label": "B",
+     "text": "(x + 1)(x − 9)"
+    },
+    {
+     "label": "C",
+     "text": "(x − 3)²"
+    },
+    {
+     "label": "D",
+     "text": "(x + 3)²"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-100"
+  },
+  {
+   "n": 29,
+   "stem": "Which is closest to the value of (√2)(√6)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7.7"
+    },
+    {
+     "label": "B",
+     "text": "8.5"
+    },
+    {
+     "label": "C",
+     "text": "18.0"
+    },
+    {
+     "label": "D",
+     "text": "29.4"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-101"
+  },
+  {
+   "n": 31,
+   "stem": "The ordered pairs (0,1), (1,2), (2,5), (3,10), (4,17), (5,?) form a quadratic pattern. What is the missing value of y?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "22"
+    },
+    {
+     "label": "C",
+     "text": "24"
+    },
+    {
+     "label": "D",
+     "text": "26"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-102"
+  },
+  {
+   "n": 33,
+   "stem": "What is the range of the function f(x) = (x − 1)² when the domain is −5, 0, 5?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1, 16, 36"
+    },
+    {
+     "label": "B",
+     "text": "1, 24"
+    },
+    {
+     "label": "C",
+     "text": "1, 26"
+    },
+    {
+     "label": "D",
+     "text": "12, 2, 8"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-103"
+  },
+  {
+   "n": 35,
+   "stem": "Which is a zero of the function f(x) = x² − 8x + 7?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "−7"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-104"
+  },
+  {
+   "n": 37,
+   "stem": "The table shows the average per capita income d (in dollars) as a function of unemployment rate u (percent): u: 1, 2, 3, 4 d: 22,500; 22,000; 21,500; 21,000 Which equation represents this data?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "d = 20,000 + 1,000u"
+    },
+    {
+     "label": "B",
+     "text": "d = 22,000 + 500u"
+    },
+    {
+     "label": "C",
+     "text": "d = 23,000 − 500u"
+    },
+    {
+     "label": "D",
+     "text": "d = 25,000 − 1,500u"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-105"
+  },
+  {
+   "n": 39,
+   "stem": "The number of words Maria typed varied directly with time. If she typed 275 words in 5 minutes, how long would it take her to type 1,100 words?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "220 minutes"
+    },
+    {
+     "label": "B",
+     "text": "20 minutes"
+    },
+    {
+     "label": "C",
+     "text": "15 minutes"
+    },
+    {
+     "label": "D",
+     "text": "4 minutes"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-106"
+  },
+  {
+   "n": 41,
+   "stem": "If y varies directly as x and the constant of variation is 2, which equation represents this relationship?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "y = 2x"
+    },
+    {
+     "label": "B",
+     "text": "y = 2⁄x"
+    },
+    {
+     "label": "C",
+     "text": "y = x⁄2"
+    },
+    {
+     "label": "D",
+     "text": "y = −2x"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-107"
+  },
+  {
+   "n": 43,
+   "stem": "Sally recorded the following daily grades: 88, 88, 87, 92, 78, 88, 93, 100, 92, 90, 92, 92 What was her mean grade?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "92"
+    },
+    {
+     "label": "B",
+     "text": "91"
+    },
+    {
+     "label": "C",
+     "text": "90"
+    },
+    {
+     "label": "D",
+     "text": "88"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-108"
+  },
+  {
+   "n": 49,
+   "stem": "Joe’s New Car dealership lists the following prices (in dollars): 10,469; 12,895; 15,499; 17,999; 18,595; 21,245; 10,395; 14,985 What is the range in prices?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$15,260"
+    },
+    {
+     "label": "B",
+     "text": "$15,242"
+    },
+    {
+     "label": "C",
+     "text": "$10,850"
+    },
+    {
+     "label": "D",
+     "text": "$10,776"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2004_SOLPass",
+   "id": "algebra-1-109"
+  },
+  {
+   "n": 1,
+   "stem": "Which property of real numbers is utilized by rewriting (11x + 5xy) as (x(11 + 5y))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Associative property for addition"
+    },
+    {
+     "label": "B",
+     "text": "Commutative property for addition"
+    },
+    {
+     "label": "C",
+     "text": "Closure property for multiplication"
+    },
+    {
+     "label": "D",
+     "text": "Distributive property for multiplication over addition"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-110"
+  },
+  {
+   "n": 2,
+   "stem": "What is the solution to (2 + 4a = 16)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "18"
+    },
+    {
+     "label": "G",
+     "text": "10"
+    },
+    {
+     "label": "H",
+     "text": "−7"
+    },
+    {
+     "label": "J",
+     "text": "2"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-111"
+  },
+  {
+   "n": 6,
+   "stem": "What is the solution to the inequality (7x + 5 > x - 1)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(x > 1)"
+    },
+    {
+     "label": "G",
+     "text": "(x > -1)"
+    },
+    {
+     "label": "H",
+     "text": "(x < -1)"
+    },
+    {
+     "label": "J",
+     "text": "(x < 2)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-112"
+  },
+  {
+   "n": 9,
+   "stem": "What is the slope of the graph of (y = 6x - 1)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−6"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "−1"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-113"
+  },
+  {
+   "n": 10,
+   "stem": "What is the slope of the line that goes through the points ((-3, 2)) and ((3, 2))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Undefined"
+    },
+    {
+     "label": "G",
+     "text": "0"
+    },
+    {
+     "label": "H",
+     "text": "−1"
+    },
+    {
+     "label": "J",
+     "text": "1"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-114"
+  },
+  {
+   "n": 11,
+   "stem": "The following table shows values of (x) and (y): | x | −2 | 0 | 2 | 4 | | - | -- | - | - | - | | y | 3 | 2 | 1 | 0 | Which equation fits the data in the table?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = -x + 2)"
+    },
+    {
+     "label": "B",
+     "text": "(y = x - 3)"
+    },
+    {
+     "label": "C",
+     "text": "(y = 2x + 3)"
+    },
+    {
+     "label": "D",
+     "text": "(y = -2x)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-115"
+  },
+  {
+   "n": 12,
+   "stem": "Roy works at the local grocery store and is paid $6.00 per hour. His salary (S) depends on the number of hours (t) worked. Which equation represents this relationship?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(S = 6 + t)"
+    },
+    {
+     "label": "G",
+     "text": "(S = 6t)"
+    },
+    {
+     "label": "H",
+     "text": "(S = (6)/(t))"
+    },
+    {
+     "label": "J",
+     "text": "(S = (t)/(6))"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-116"
+  },
+  {
+   "n": 13,
+   "stem": "The equation of the line that contains the points ((-8, 1)) and ((0, 5)) is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = 3x - 7)"
+    },
+    {
+     "label": "B",
+     "text": "(y = x - 1)"
+    },
+    {
+     "label": "C",
+     "text": "(y = x + 5)"
+    },
+    {
+     "label": "D",
+     "text": "(y = x - 7)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-117"
+  },
+  {
+   "n": 14,
+   "stem": "Two lines are shown: • Line 1: (x + y = 4) • Line 2: (x - y = 2) Which is the solution to the system of equations?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((1, 3))"
+    },
+    {
+     "label": "G",
+     "text": "((2, 2))"
+    },
+    {
+     "label": "H",
+     "text": "((3, 1))"
+    },
+    {
+     "label": "J",
+     "text": "((4, 0))"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-118"
+  },
+  {
+   "n": 15,
+   "stem": "A rectangle has a perimeter of 68 inches. Its length is 2 inches less than 3 times its width. What are the dimensions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Length 22 in., width 12 in."
+    },
+    {
+     "label": "B",
+     "text": "Length 25 in., width 9 in."
+    },
+    {
+     "label": "C",
+     "text": "Length 28 in., width 10 in."
+    },
+    {
+     "label": "D",
+     "text": "Length 22 in., width 8 in."
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-119"
+  },
+  {
+   "n": 16,
+   "stem": "A graph shows two lines intersecting at ((−2, 3)). Which is most likely the solution to the system?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((0, 5))"
+    },
+    {
+     "label": "G",
+     "text": "((1, 0))"
+    },
+    {
+     "label": "H",
+     "text": "((3, −2))"
+    },
+    {
+     "label": "J",
+     "text": "((−2, 3))"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-120"
+  },
+  {
+   "n": 17,
+   "stem": "Which is the solution set for (2x^2 + 3x - 1 = 0)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-2, 1)"
+    },
+    {
+     "label": "B",
+     "text": "(1, -2)"
+    },
+    {
+     "label": "C",
+     "text": "(-(1)/(2), 1)"
+    },
+    {
+     "label": "D",
+     "text": "(1, 2)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-121"
+  },
+  {
+   "n": 18,
+   "stem": "Which is the solution set for (x^2 - 4 = 0)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(-4, 1)"
+    },
+    {
+     "label": "G",
+     "text": "(-2, 2)"
+    },
+    {
+     "label": "H",
+     "text": "(1, 4)"
+    },
+    {
+     "label": "J",
+     "text": "(0, 4)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-122"
+  },
+  {
+   "n": 19,
+   "stem": "What is the value of (3x^2 - y^2) if (x = -1) and (y = 3)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "−6"
+    },
+    {
+     "label": "D",
+     "text": "−12"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-123"
+  },
+  {
+   "n": 20,
+   "stem": "Which expression correctly represents “$10 less than twice the cost, (c)”?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(10 + 2c)"
+    },
+    {
+     "label": "G",
+     "text": "(10 + 2 - c)"
+    },
+    {
+     "label": "H",
+     "text": "(2c - 10)"
+    },
+    {
+     "label": "J",
+     "text": "((10)/(2c))"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-124"
+  },
+  {
+   "n": 21,
+   "stem": "Which is equivalent to ((x^5y^2z^8)/((xy)^3))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x^2 - 5x - 4)"
+    },
+    {
+     "label": "B",
+     "text": "(2x - 5)"
+    },
+    {
+     "label": "C",
+     "text": "(4x - 10)"
+    },
+    {
+     "label": "D",
+     "text": "(x^2 - 4)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-125"
+  },
+  {
+   "n": 22,
+   "stem": "The following models show: • (x^2) • (x) • (1) What polynomial is represented?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(3x^2 + x + 5)"
+    },
+    {
+     "label": "G",
+     "text": "(3x^2 + 7x + 5)"
+    },
+    {
+     "label": "H",
+     "text": "(3x^2 - 7x + 5)"
+    },
+    {
+     "label": "J",
+     "text": "(3x^2 - x + 5)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-126"
+  },
+  {
+   "n": 23,
+   "stem": "A rectangle has side lengths (x + 4) and (x + 1). Which expression represents its area?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x^2 + 5x + 4)"
+    },
+    {
+     "label": "B",
+     "text": "(2x + 5)"
+    },
+    {
+     "label": "C",
+     "text": "(4x + 10)"
+    },
+    {
+     "label": "D",
+     "text": "(x^2 + 4)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-127"
+  },
+  {
+   "n": 24,
+   "stem": "The continent of North America has an area of approximately (9.4 * 10^6) square miles. Asia has an area of approximately (1.74 * 10^7) square miles. How many square miles larger is Asia than North America?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(7.6 * 10^1)"
+    },
+    {
+     "label": "G",
+     "text": "(7.6 * 10^-1)"
+    },
+    {
+     "label": "H",
+     "text": "(8.0 * 10^6)"
+    },
+    {
+     "label": "J",
+     "text": "(8.0 * 10^1)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-128"
+  },
+  {
+   "n": 25,
+   "stem": "Which expression is equivalent to ((9x + 1)(9x - 1))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(18x)"
+    },
+    {
+     "label": "B",
+     "text": "(81x^2 - 1)"
+    },
+    {
+     "label": "C",
+     "text": "(18x^2 - 1)"
+    },
+    {
+     "label": "D",
+     "text": "(81x^2 + 18x + 1)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-129"
+  },
+  {
+   "n": 26,
+   "stem": "What is one of the factors of (x^2 + 2x - 15)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((x + 3))"
+    },
+    {
+     "label": "G",
+     "text": "((x + 5))"
+    },
+    {
+     "label": "H",
+     "text": "((x - 1))"
+    },
+    {
+     "label": "J",
+     "text": "((x - 15))"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-130"
+  },
+  {
+   "n": 27,
+   "stem": "When completely factored, (4 + 16x - 28y) equals —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(4(1 + 4x - 7y))"
+    },
+    {
+     "label": "B",
+     "text": "(4(1 + 4x) - 28y)"
+    },
+    {
+     "label": "C",
+     "text": "((4 + 7y)(1 - 4x))"
+    },
+    {
+     "label": "D",
+     "text": "(4 + 4(4x - 7y))"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-131"
+  },
+  {
+   "n": 28,
+   "stem": "The area of a rectangle is represented by (2x^2 + 5x + 2). Which is an equivalent expression?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((2x + 2)(x + 1))"
+    },
+    {
+     "label": "G",
+     "text": "((2x + 3)(x + 2))"
+    },
+    {
+     "label": "H",
+     "text": "((2x + 1)(x + 4))"
+    },
+    {
+     "label": "J",
+     "text": "((2x + 1)(x + 2))"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-132"
+  },
+  {
+   "n": 29,
+   "stem": "Which is closest to the value of (x) if (x = 2^2.7)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3.2"
+    },
+    {
+     "label": "B",
+     "text": "3.7"
+    },
+    {
+     "label": "C",
+     "text": "5.3"
+    },
+    {
+     "label": "D",
+     "text": "9.9"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-133"
+  },
+  {
+   "n": 30,
+   "stem": "What is the value of (sqrt3.2) to the nearest tenth?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0.7"
+    },
+    {
+     "label": "G",
+     "text": "0.9"
+    },
+    {
+     "label": "H",
+     "text": "1.3"
+    },
+    {
+     "label": "J",
+     "text": "1.5"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-134"
+  },
+  {
+   "n": 31,
+   "stem": "The table shows a linear pattern: | p | 3 | 2 | 1 | 0 | | - | -- | -- | - | - | | w | 14 | 11 |? | 5 | What is the missing value?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "9"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-135"
+  },
+  {
+   "n": 33,
+   "stem": "A graph does not represent a function of (x). Which pair of points proves this?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((-3, 4)) and ((-3, -4))"
+    },
+    {
+     "label": "B",
+     "text": "((4, 3)) and ((4, 3))"
+    },
+    {
+     "label": "C",
+     "text": "((3, 4)) and ((4, 3))"
+    },
+    {
+     "label": "D",
+     "text": "((5, 0)) and ((5, 0))"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-136"
+  },
+  {
+   "n": 34,
+   "stem": "A graph shows a function with minimum value 4 and extending upward. What is the apparent range?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "All real numbers ≥ 4"
+    },
+    {
+     "label": "G",
+     "text": "All real numbers ≥ 1"
+    },
+    {
+     "label": "H",
+     "text": "All real numbers ≤ 1"
+    },
+    {
+     "label": "J",
+     "text": "All real numbers"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-137"
+  },
+  {
+   "n": 35,
+   "stem": "A graph shows a straight line with slope 1 and y-intercept −2. Which equation best describes the graph?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = -x)"
+    },
+    {
+     "label": "B",
+     "text": "(y = 2x - 2)"
+    },
+    {
+     "label": "C",
+     "text": "(y = x + 2)"
+    },
+    {
+     "label": "D",
+     "text": "(y = x - 2)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-138"
+  },
+  {
+   "n": 36,
+   "stem": "If (f(x) = -2x + 3), what is (f(-4))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5"
+    },
+    {
+     "label": "G",
+     "text": "−1"
+    },
+    {
+     "label": "H",
+     "text": "5.5"
+    },
+    {
+     "label": "J",
+     "text": "11"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-139"
+  },
+  {
+   "n": 37,
+   "stem": "The chart shows: | m ($) | 0.50 | 1.00 | 1.50 | 2.00 | | ----- | ---- | ---- | ---- | ---- | | p ($) | 4.00 | 5.00 | 6.00 | 7.00 | Which equation represents this relationship?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(p = m + 3.5)"
+    },
+    {
+     "label": "B",
+     "text": "(p = 2m + 3)"
+    },
+    {
+     "label": "C",
+     "text": "(p = 3m + 2.5)"
+    },
+    {
+     "label": "D",
+     "text": "(p = 4m + 2)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-140"
+  },
+  {
+   "n": 38,
+   "stem": "What is the range of (f(x) = 3x - 1) when the domain is (-1, 0, 1)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(1, 2)"
+    },
+    {
+     "label": "G",
+     "text": "(-1, 0, 1)"
+    },
+    {
+     "label": "H",
+     "text": "(1, 2, 4)"
+    },
+    {
+     "label": "J",
+     "text": "(-4, -1, 2)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-141"
+  },
+  {
+   "n": 39,
+   "stem": "Which of the following does not represent a function of (x)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x = 1) paired with (y = 1, 2, 3, 4)"
+    },
+    {
+     "label": "B",
+     "text": "Distinct (x)-values each paired with one (y)"
+    },
+    {
+     "label": "C",
+     "text": "Each input has exactly one output"
+    },
+    {
+     "label": "D",
+     "text": "A vertical line"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-142"
+  },
+  {
+   "n": 40,
+   "stem": "Which is a zero of (f(x) = x^2 - 6x + 7)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "6"
+    },
+    {
+     "label": "H",
+     "text": "7"
+    },
+    {
+     "label": "J",
+     "text": "41"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-143"
+  },
+  {
+   "n": 41,
+   "stem": "Jill’s picture height is 10 cm, and her actual height is 60 inches. Which equation finds the actual height (h) (in inches) of a friend whose picture height is (c) cm?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(h = 10c)"
+    },
+    {
+     "label": "B",
+     "text": "(h = 6c)"
+    },
+    {
+     "label": "C",
+     "text": "(h = 3c)"
+    },
+    {
+     "label": "D",
+     "text": "(h = c)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-144"
+  },
+  {
+   "n": 42,
+   "stem": "Gas pressure varies directly with temperature. If pressure is 150 atm at 50°F, what is the pressure at 75°F?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "175 atm"
+    },
+    {
+     "label": "G",
+     "text": "200 atm"
+    },
+    {
+     "label": "H",
+     "text": "225 atm"
+    },
+    {
+     "label": "J",
+     "text": "275 atm"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-145"
+  },
+  {
+   "n": 43,
+   "stem": "( 3 & 7 8 & 2 + 4 & 6 6 & 2 ) equals which matrix?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 1 & 2 4 & 11 )"
+    },
+    {
+     "label": "B",
+     "text": "( 7 & 13 14 & 4 )"
+    },
+    {
+     "label": "C",
+     "text": "( 9 & 12 6 & 5 )"
+    },
+    {
+     "label": "D",
+     "text": "( 2 & 4 2 & 4 )"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-146"
+  },
+  {
+   "n": 45,
+   "stem": "If (D = 1 & 3 5 & 4 ), what is (2D)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 2 & 6 10 & 8 )"
+    },
+    {
+     "label": "B",
+     "text": "( 1 & 5 3 & 2 )"
+    },
+    {
+     "label": "C",
+     "text": "( 2 & 6 10 & 8 )"
+    },
+    {
+     "label": "D",
+     "text": "( 1 & 2 10 & 8 )"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-147"
+  },
+  {
+   "n": 46,
+   "stem": "Barry’s daily grades: 94, 88, 87, 92, 78, 88, 93, 100, 92, 90, 92, 85 What was the mode?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "93"
+    },
+    {
+     "label": "G",
+     "text": "92"
+    },
+    {
+     "label": "H",
+     "text": "91"
+    },
+    {
+     "label": "J",
+     "text": "90"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-148"
+  },
+  {
+   "n": 47,
+   "stem": "Stem-and-leaf plot (growth in mm): 0 | 8 1 | 2 4 4 4 5 7 8 2 | 2 4 6 3 | 1 What was the median growth?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "14"
+    },
+    {
+     "label": "B",
+     "text": "15"
+    },
+    {
+     "label": "C",
+     "text": "16"
+    },
+    {
+     "label": "D",
+     "text": "17"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-149"
+  },
+  {
+   "n": 48,
+   "stem": "A scatterplot compares dog shoulder height (inches) to weight (pounds). Using a line of best fit, a 28-inch tall dog is predicted to weigh closest to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "40 lb"
+    },
+    {
+     "label": "G",
+     "text": "55 lb"
+    },
+    {
+     "label": "H",
+     "text": "65 lb"
+    },
+    {
+     "label": "J",
+     "text": "70 lb"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-150"
+  },
+  {
+   "n": 49,
+   "stem": "A box-and-whisker plot of soccer goals shows minimum 2 and maximum 20. What is the range?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "24"
+    },
+    {
+     "label": "B",
+     "text": "18"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-151"
+  },
+  {
+   "n": 50,
+   "stem": "Which equation best represents the scatterplot data?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y = 2x + 2)"
+    },
+    {
+     "label": "G",
+     "text": "(y = (x)/(2))"
+    },
+    {
+     "label": "H",
+     "text": "(y = 2x - 2)"
+    },
+    {
+     "label": "J",
+     "text": "(y = x + 1)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2003_SOLPass",
+   "id": "algebra-1-152"
+  },
+  {
+   "n": 1,
+   "stem": "A repairman estimated that the cost of replacing a part in Mrs. James’s computer would be at most $225. The estimate included $35 for the part, a $40 service charge, and $30 per hour for labor. What is the maximum number of hours the repairman estimated for the job?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-153"
+  },
+  {
+   "n": 2,
+   "stem": "What is the solution to the equation (4x - 1 = 2 + 5x)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(x = 1)"
+    },
+    {
+     "label": "G",
+     "text": "(x = 2)"
+    },
+    {
+     "label": "H",
+     "text": "(x = 3)"
+    },
+    {
+     "label": "J",
+     "text": "(x = 4)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-154"
+  },
+  {
+   "n": 3,
+   "stem": "If (f(x) = x^2 + 2x + 3), what is the value of (f(x)) when (x = 6)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "51"
+    },
+    {
+     "label": "B",
+     "text": "27"
+    },
+    {
+     "label": "C",
+     "text": "42"
+    },
+    {
+     "label": "D",
+     "text": "60"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-155"
+  },
+  {
+   "n": 4,
+   "stem": "The statement “If ((1)/(x) = 5), then (x = 10)” is justified by the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "associative property of multiplication"
+    },
+    {
+     "label": "G",
+     "text": "commutative property of multiplication"
+    },
+    {
+     "label": "H",
+     "text": "addition property of equality"
+    },
+    {
+     "label": "J",
+     "text": "multiplication property of equality"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-156"
+  },
+  {
+   "n": 5,
+   "stem": "What are the x- and y-intercepts of the line with equation (4x + 5y = 40)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "x-intercept 10, y-intercept 8"
+    },
+    {
+     "label": "B",
+     "text": "x-intercept 8, y-intercept 10"
+    },
+    {
+     "label": "C",
+     "text": "x-intercept −10, y-intercept −8"
+    },
+    {
+     "label": "D",
+     "text": "x-intercept −8, y-intercept −10"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-157"
+  },
+  {
+   "n": 7,
+   "stem": "Which is an equation for the line that passes through the origin and has a slope of ((2)/(3))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = (3)/(2)x)"
+    },
+    {
+     "label": "B",
+     "text": "(x = (2)/(3)y)"
+    },
+    {
+     "label": "C",
+     "text": "(y = (2)/(3))"
+    },
+    {
+     "label": "D",
+     "text": "(y = (2)/(3)x)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-158"
+  },
+  {
+   "n": 8,
+   "stem": "What is the slope of the line (y = 4x - 2)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "4"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "((1)/(4))"
+    },
+    {
+     "label": "J",
+     "text": "−2"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-159"
+  },
+  {
+   "n": 9,
+   "stem": "Which line has a y-intercept of −5 and an x-intercept of 1?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = 5x - 5)"
+    },
+    {
+     "label": "B",
+     "text": "(y = -5x + 1)"
+    },
+    {
+     "label": "C",
+     "text": "(y = x - 5)"
+    },
+    {
+     "label": "D",
+     "text": "(y = 5x - 1)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-160"
+  },
+  {
+   "n": 12,
+   "stem": "The difference in cost between a large bag of chips and a small bag of chips was $0.90. Alicia bought 5 large bags and 3 small bags of chips for her party and spent $17.22. What was the cost of a small bag of chips?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$5.74"
+    },
+    {
+     "label": "G",
+     "text": "$2.49"
+    },
+    {
+     "label": "H",
+     "text": "$2.15"
+    },
+    {
+     "label": "J",
+     "text": "$1.59"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-161"
+  },
+  {
+   "n": 13,
+   "stem": "Which is an equation for the line that passes through the points (3, 0) and (0, 2)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = -(2)/(3)x + 2)"
+    },
+    {
+     "label": "B",
+     "text": "(y = (2)/(3)x + 2)"
+    },
+    {
+     "label": "C",
+     "text": "(y = -(3)/(2)x + 2)"
+    },
+    {
+     "label": "D",
+     "text": "(y = (3)/(2)x + 2)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-162"
+  },
+  {
+   "n": 15,
+   "stem": "What is the solution to the system of equations: (x - 6y = -2) (-4x + 8y = 27)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(8, 7)"
+    },
+    {
+     "label": "B",
+     "text": "(−8, −7)"
+    },
+    {
+     "label": "C",
+     "text": "(7, 8)"
+    },
+    {
+     "label": "D",
+     "text": "(−7, −8)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-163"
+  },
+  {
+   "n": 16,
+   "stem": "Which is a solution to the equation (x^2 - 12x - 28 = 0)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "14"
+    },
+    {
+     "label": "G",
+     "text": "−2"
+    },
+    {
+     "label": "H",
+     "text": "12"
+    },
+    {
+     "label": "J",
+     "text": "−14"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-164"
+  },
+  {
+   "n": 17,
+   "stem": "What is the slope of the line through (3, 2) and (−1, −4)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "((2)/(3))"
+    },
+    {
+     "label": "D",
+     "text": "−2"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-165"
+  },
+  {
+   "n": 18,
+   "stem": "What is the solution set for (x^2 - 3x = 0)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0, 3"
+    },
+    {
+     "label": "G",
+     "text": "−3, 0"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "0"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-166"
+  },
+  {
+   "n": 19,
+   "stem": "What is the value of ((4m + 8)/(4m + 4)) when (m = 4)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "((3)/(2))"
+    },
+    {
+     "label": "D",
+     "text": "((4)/(3))"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-167"
+  },
+  {
+   "n": 20,
+   "stem": "Joe is 5 years less than one-half the age of the coach. If the coach is (n) years old, which expression describes Joe’s age?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((1)/(2)n - 5)"
+    },
+    {
+     "label": "G",
+     "text": "(2n + 5)"
+    },
+    {
+     "label": "H",
+     "text": "((1)/(2)n + 5)"
+    },
+    {
+     "label": "J",
+     "text": "(2n - 5)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-168"
+  },
+  {
+   "n": 21,
+   "stem": "Which expression is equivalent to (-4a(3a - 5b))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-12a^2 + 20ab)"
+    },
+    {
+     "label": "B",
+     "text": "(-12a^2 - 20ab)"
+    },
+    {
+     "label": "C",
+     "text": "(-12a^2 + 20a)"
+    },
+    {
+     "label": "D",
+     "text": "(-12a^2 + 9ab)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-169"
+  },
+  {
+   "n": 22,
+   "stem": "Which is equivalent to ((2a + 3b - 2c) + (8a - 4b - c) + (a - 5b + 4c))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(5a - 6b + c)"
+    },
+    {
+     "label": "G",
+     "text": "(6a - 6b - c)"
+    },
+    {
+     "label": "H",
+     "text": "(6a - 6b + c)"
+    },
+    {
+     "label": "J",
+     "text": "(6a^2 - 6b^2 + c)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-170"
+  },
+  {
+   "n": 23,
+   "stem": "Which expression represents ((x + 2)(x + 3))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x^2 + 5x + 6)"
+    },
+    {
+     "label": "B",
+     "text": "(x^2 + 6x + 5)"
+    },
+    {
+     "label": "C",
+     "text": "(x^2 + x + 6)"
+    },
+    {
+     "label": "D",
+     "text": "(x^2 + 2x + 3)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-171"
+  },
+  {
+   "n": 25,
+   "stem": "Which is equivalent to ((x - 3)(2x - 3))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((x + 9)(x + 1))"
+    },
+    {
+     "label": "B",
+     "text": "((2x + 9)(x + 1))"
+    },
+    {
+     "label": "C",
+     "text": "((x + 3)(2x + 3))"
+    },
+    {
+     "label": "D",
+     "text": "((2x + 3)(x + 3))"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-172"
+  },
+  {
+   "n": 26,
+   "stem": "When simplified, ((2x^4y^2)^2) equals —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(4x^8y^4)"
+    },
+    {
+     "label": "G",
+     "text": "(8x^8y^4)"
+    },
+    {
+     "label": "H",
+     "text": "(16x^4y^2)"
+    },
+    {
+     "label": "J",
+     "text": "(4x^8y^4)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-173"
+  },
+  {
+   "n": 27,
+   "stem": "What are factors of (2x^2 + 9x + 9)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((x + 9)(2x + 1))"
+    },
+    {
+     "label": "B",
+     "text": "((2x + 3)(x + 3))"
+    },
+    {
+     "label": "C",
+     "text": "((x + 3)(2x + 3))"
+    },
+    {
+     "label": "D",
+     "text": "((x + 1)(2x + 9))"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-174"
+  },
+  {
+   "n": 28,
+   "stem": "Which is equivalent to (x^2 - 81y^2)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((x + 8y)(x - 27y))"
+    },
+    {
+     "label": "G",
+     "text": "((x - 9y)(x - 9y))"
+    },
+    {
+     "label": "H",
+     "text": "((x + 9y)(x - 9y))"
+    },
+    {
+     "label": "J",
+     "text": "((x - 8y)(x + 27y))"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-175"
+  },
+  {
+   "n": 29,
+   "stem": "What is the greatest common monomial factor of (16x^3y^2 + 6x^2y + 9x^2 + 12x)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(xy^2)"
+    },
+    {
+     "label": "B",
+     "text": "(3x^2y)"
+    },
+    {
+     "label": "C",
+     "text": "(3x)"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-176"
+  },
+  {
+   "n": 31,
+   "stem": "The following ordered pairs follow a linear pattern: (95, 182), (96, 180), (97, 176), (98, 172). What is the missing y-value when x = 99?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "168"
+    },
+    {
+     "label": "B",
+     "text": "170"
+    },
+    {
+     "label": "C",
+     "text": "174"
+    },
+    {
+     "label": "D",
+     "text": "176"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-177"
+  },
+  {
+   "n": 32,
+   "stem": "A club has the following data relating members (g) to boxes of cookies sold (b): (5, 350), (10, 650), (15, 950), (20, 1250). Which equation could be used to predict the number of boxes sold?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(b = 60g)"
+    },
+    {
+     "label": "G",
+     "text": "(b = 70g)"
+    },
+    {
+     "label": "H",
+     "text": "(b = 60g + 50)"
+    },
+    {
+     "label": "J",
+     "text": "(b = 50g + 50)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-178"
+  },
+  {
+   "n": 36,
+   "stem": "Which equation represents a direct variation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y = (8)/(x))"
+    },
+    {
+     "label": "G",
+     "text": "(y = 8x)"
+    },
+    {
+     "label": "H",
+     "text": "(y = 8x + 4)"
+    },
+    {
+     "label": "J",
+     "text": "(y = 8x - 1)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-179"
+  },
+  {
+   "n": 37,
+   "stem": "What is the range of the function (f(x) = x^2 - 2) when the domain is 2, 4, 6?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8, 12, 16"
+    },
+    {
+     "label": "B",
+     "text": "0, 1, 2"
+    },
+    {
+     "label": "C",
+     "text": "2, 14, 34"
+    },
+    {
+     "label": "D",
+     "text": "−1, 0, 1"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-180"
+  },
+  {
+   "n": 38,
+   "stem": "Which is a zero of (f(x) = x^2 - 15x + 54)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3"
+    },
+    {
+     "label": "G",
+     "text": "5"
+    },
+    {
+     "label": "H",
+     "text": "9"
+    },
+    {
+     "label": "J",
+     "text": "15"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-181"
+  },
+  {
+   "n": 39,
+   "stem": "If (f(a) = 7(a - 2) + 4a + 4), what is (f(2))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "10"
+    },
+    {
+     "label": "C",
+     "text": "11"
+    },
+    {
+     "label": "D",
+     "text": "12"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-182"
+  },
+  {
+   "n": 40,
+   "stem": "The cost of fabric varies directly with the amount purchased. If 15 yards cost $10.00, how much would 45 yards cost?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$45"
+    },
+    {
+     "label": "G",
+     "text": "$30"
+    },
+    {
+     "label": "H",
+     "text": "$24"
+    },
+    {
+     "label": "J",
+     "text": "$14"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-183"
+  },
+  {
+   "n": 41,
+   "stem": "If (m) varies directly as (p), and (m = 5) when (p = 7), what is the constant of variation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "35"
+    },
+    {
+     "label": "B",
+     "text": "((12)/(7))"
+    },
+    {
+     "label": "C",
+     "text": "((5)/(7))"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-184"
+  },
+  {
+   "n": 42,
+   "stem": "The miles per gallon (m) of an experimental car is given by (m = 75 - 0.3s), where (s) is speed in miles per hour. What is the car’s miles per gallon when its speed is 100 miles per hour?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "10 mpg"
+    },
+    {
+     "label": "G",
+     "text": "30 mpg"
+    },
+    {
+     "label": "H",
+     "text": "45 mpg"
+    },
+    {
+     "label": "J",
+     "text": "50 mpg"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-185"
+  },
+  {
+   "n": 48,
+   "stem": "Given a table relating year of birth (x) and life expectancy (y), which equation best estimates life expectancy?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y = 0.45x + 919)"
+    },
+    {
+     "label": "G",
+     "text": "(y = 0.45x - 819)"
+    },
+    {
+     "label": "H",
+     "text": "(y = 0.40x + 893)"
+    },
+    {
+     "label": "J",
+     "text": "(y = 0.40x - 716)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-186"
+  },
+  {
+   "n": 49,
+   "stem": "Two softball teams sold the following numbers of boxes of cookies: Hawks: 14, 17, 32, 37, 67 Tigers: 28, 37, 24, 27, 18 What is the difference in the mean number of cookies sold by the two teams?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2.5"
+    },
+    {
+     "label": "B",
+     "text": "4.5"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "14"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2006_SOLPass",
+   "id": "algebra-1-187"
+  },
+  {
+   "n": 1,
+   "stem": "Travis would like to buy some toys to donate to charity. He plans to buy 9 dolls at d dollars each, 2 toy cars at c dollars each, and 3 train sets at f dollars each. Which expression represents the total cost, in dollars, of these items that Travis wants to buy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "9c + 2f + 3d"
+    },
+    {
+     "label": "B",
+     "text": "9d − 2c − 3f"
+    },
+    {
+     "label": "C",
+     "text": "9d + 2c + 3f"
+    },
+    {
+     "label": "D",
+     "text": "9c − 2f − 3d"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-188"
+  },
+  {
+   "n": 2,
+   "stem": "Which expression is equivalent to ((18c^8 d^8)/(9c^6 d^6))? Assume the denominator is not equal to zero.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2c^2 d^2)"
+    },
+    {
+     "label": "B",
+     "text": "(9c^3 d^3)"
+    },
+    {
+     "label": "C",
+     "text": "(c^2 d^2)"
+    },
+    {
+     "label": "D",
+     "text": "(9c d)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-189"
+  },
+  {
+   "n": 3,
+   "stem": "Identify each expression that is a factor of the polynomial (4x^2 - 2x - 2). Select all that apply.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2x + 1)"
+    },
+    {
+     "label": "B",
+     "text": "(2)"
+    },
+    {
+     "label": "C",
+     "text": "(x - 1)"
+    },
+    {
+     "label": "D",
+     "text": "(x + 2)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-190"
+  },
+  {
+   "n": 5,
+   "stem": "What is (sqrt18) written in simplest radical form?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((2)/(3))"
+    },
+    {
+     "label": "B",
+     "text": "((3)/(2))"
+    },
+    {
+     "label": "C",
+     "text": "( 3sqrt2)"
+    },
+    {
+     "label": "D",
+     "text": "(3sqrt2)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-191"
+  },
+  {
+   "n": 6,
+   "stem": "Which binomial is a factor of (c^2 - 12c + 32)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(c - 12)"
+    },
+    {
+     "label": "B",
+     "text": "(c - 8)"
+    },
+    {
+     "label": "C",
+     "text": "(c - 2)"
+    },
+    {
+     "label": "D",
+     "text": "(c - 1)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-192"
+  },
+  {
+   "n": 7,
+   "stem": "What is the value of the expression (7x^4 + 3x - 2) when (x = 0)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−2"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "−2"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-193"
+  },
+  {
+   "n": 8,
+   "stem": "Which expression is equivalent to ((3x^7)(5x^7))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(30x^14)"
+    },
+    {
+     "label": "B",
+     "text": "(30x^7)"
+    },
+    {
+     "label": "C",
+     "text": "(15x^49)"
+    },
+    {
+     "label": "D",
+     "text": "(45x^14)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-194"
+  },
+  {
+   "n": 9,
+   "stem": "Which polynomial is equivalent to ((18n^2 - 9n + 1) (3n - 1))? Assume the divisor is not equal to zero.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(6n - 1)"
+    },
+    {
+     "label": "B",
+     "text": "(6n + 1)"
+    },
+    {
+     "label": "C",
+     "text": "(6n^2 - 3)"
+    },
+    {
+     "label": "D",
+     "text": "(18n^2 - 3)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-195"
+  },
+  {
+   "n": 11,
+   "stem": "When (n > 0), which expression is equivalent to (sqrt42n^9) in simplest form?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(sqrt42)"
+    },
+    {
+     "label": "B",
+     "text": "(nsqrt42n)"
+    },
+    {
+     "label": "C",
+     "text": "(6n^4sqrt7)"
+    },
+    {
+     "label": "D",
+     "text": "(6n^4sqrt7n)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-196"
+  },
+  {
+   "n": 12,
+   "stem": "Look at the system of equations: (y = -x + 2) (7x + 4y = -1) What is the value of (x) for the solution to this system of equations?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−5"
+    },
+    {
+     "label": "B",
+     "text": "−3"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "5"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-197"
+  },
+  {
+   "n": 13,
+   "stem": "Pierre solved an inequality as shown: Step 1: (-8 > 2n + 3) Step 2: (-8 + (-3) > 2n + 3 + (-3)) Step 3: (-11 > 2n) Step 4: (-11 > n) What property justifies the work between Step 3 and Step 4?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Inverse property of addition"
+    },
+    {
+     "label": "B",
+     "text": "Identity property of addition"
+    },
+    {
+     "label": "C",
+     "text": "Addition property of inequality"
+    },
+    {
+     "label": "D",
+     "text": "Commutative property of addition"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-198"
+  },
+  {
+   "n": 14,
+   "stem": "Which property of real numbers justifies the work shown? (13x - 1 = (12x + 15) + 7x) (13x - 1 = 7x + (12x + 15))",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Commutative property of addition"
+    },
+    {
+     "label": "B",
+     "text": "Associative property of addition"
+    },
+    {
+     "label": "C",
+     "text": "Identity property of addition"
+    },
+    {
+     "label": "D",
+     "text": "Distributive property"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-199"
+  },
+  {
+   "n": 18,
+   "stem": "Which inequality represents all the solutions of (9(4x - 8) < 4(6x + 9))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x < -3)"
+    },
+    {
+     "label": "B",
+     "text": "(x > 7)"
+    },
+    {
+     "label": "C",
+     "text": "(x < 9)"
+    },
+    {
+     "label": "D",
+     "text": "(x > 9)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-200"
+  },
+  {
+   "n": 19,
+   "stem": "A total of 243 adults and children are at a movie theater. There are 109 more adults than children. If (a) represents the number of adults and (b) represents the number of children, which system of equations could be used?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(a + b = 243), (a = 109b)"
+    },
+    {
+     "label": "B",
+     "text": "(a + b = 243), (b = 109a)"
+    },
+    {
+     "label": "C",
+     "text": "(a + b = 243), (a = b + 109)"
+    },
+    {
+     "label": "D",
+     "text": "(a + b = 243), (b = a + 109)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-201"
+  },
+  {
+   "n": 22,
+   "stem": "The formula (A = P + Prt) represents the amount of money in a savings account. Which equation is correctly solved for (r)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(r = (A)/(Pt))"
+    },
+    {
+     "label": "B",
+     "text": "(r = (A - 2P)/(t))"
+    },
+    {
+     "label": "C",
+     "text": "(r = (A)/(2Pt))"
+    },
+    {
+     "label": "D",
+     "text": "(r = (A - P)/(Pt))"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-202"
+  },
+  {
+   "n": 23,
+   "stem": "What are the real roots of (x^2 - 7x + 10 = 0)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2 and 5"
+    },
+    {
+     "label": "B",
+     "text": "1 and 10"
+    },
+    {
+     "label": "C",
+     "text": "−1 and −10"
+    },
+    {
+     "label": "D",
+     "text": "−2 and −5"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-203"
+  },
+  {
+   "n": 24,
+   "stem": "A data set has an even number of data points. The median is given by (m = (x_1 + x_2)/(2)). Which equation shows this formula solved for (x_2)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x_2 = 2m - x_1)"
+    },
+    {
+     "label": "B",
+     "text": "(x_2 = (m)/(x_1))"
+    },
+    {
+     "label": "C",
+     "text": "(x_2 = 2m - 2x_1)"
+    },
+    {
+     "label": "D",
+     "text": "(x_2 = m - 2x_1)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-204"
+  },
+  {
+   "n": 25,
+   "stem": "Which equation represents the horizontal line passing through ((7, 5))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x = 5)"
+    },
+    {
+     "label": "B",
+     "text": "(y = 5)"
+    },
+    {
+     "label": "C",
+     "text": "(x = 7)"
+    },
+    {
+     "label": "D",
+     "text": "(y = 7)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-205"
+  },
+  {
+   "n": 27,
+   "stem": "What value of (p) will make this equation true? ((6p + 4)/(6) = (4p - 8)/(3))",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−10"
+    },
+    {
+     "label": "B",
+     "text": "−6"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-206"
+  },
+  {
+   "n": 29,
+   "stem": "The length of a rectangle is 3 times its width. The perimeter is greater than 48 centimeters. Which inequality represents all possible lengths (l)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(l > 6)"
+    },
+    {
+     "label": "B",
+     "text": "(l > 12)"
+    },
+    {
+     "label": "C",
+     "text": "(l > 18)"
+    },
+    {
+     "label": "D",
+     "text": "(l > 36)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-207"
+  },
+  {
+   "n": 32,
+   "stem": "This relation is an inverse variation: ((-1, 8), (4, -2), (-2, 4)) Which equation represents this relation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = 7x + 5)"
+    },
+    {
+     "label": "B",
+     "text": "(y = 7x)"
+    },
+    {
+     "label": "C",
+     "text": "(y = -(8)/(x))"
+    },
+    {
+     "label": "D",
+     "text": "(y = -2x)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-208"
+  },
+  {
+   "n": 38,
+   "stem": "Two relationships are described. Relationship S: 160 miles in 4 hours; 80 miles in 2 hours. Relationship T: 6 hamburgers in 10 minutes; 9 hamburgers in 15 minutes. Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Neither is a direct variation"
+    },
+    {
+     "label": "B",
+     "text": "Both are direct variations"
+    },
+    {
+     "label": "C",
+     "text": "Only Relationship S is a direct variation"
+    },
+    {
+     "label": "D",
+     "text": "Only Relationship T is a direct variation"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-209"
+  },
+  {
+   "n": 40,
+   "stem": "What is (f(-8)) for the function (f(x) = (11(x - 24))/(5))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−56"
+    },
+    {
+     "label": "B",
+     "text": "−88"
+    },
+    {
+     "label": "C",
+     "text": "−176"
+    },
+    {
+     "label": "D",
+     "text": "−352"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-210"
+  },
+  {
+   "n": 44,
+   "stem": "The manager compared two weeks of work hours. Week 1 had a standard deviation of 1.5 hours; Week 2 had a standard deviation of 2.0 hours. The conclusion that Week 2 has more variation is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Valid because the mean is greater"
+    },
+    {
+     "label": "B",
+     "text": "Valid because the standard deviation is greater"
+    },
+    {
+     "label": "C",
+     "text": "Invalid because the mean is smaller"
+    },
+    {
+     "label": "D",
+     "text": "Invalid because the standard deviation is smaller"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-211"
+  },
+  {
+   "n": 46,
+   "stem": "A scientist dropped an object from 200 feet and recorded heights at 0.5-second intervals. Based on a quadratic model, which best approximates the height at 3 seconds?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "52 feet"
+    },
+    {
+     "label": "B",
+     "text": "55 feet"
+    },
+    {
+     "label": "C",
+     "text": "65 feet"
+    },
+    {
+     "label": "D",
+     "text": "80 feet"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-212"
+  },
+  {
+   "n": 47,
+   "stem": "Look at the function (g(x) = 9x^2 - 16). Which set contains only the zeros of (g)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-4, 4)"
+    },
+    {
+     "label": "B",
+     "text": "(-4, 0, 4)"
+    },
+    {
+     "label": "C",
+     "text": "-16, 9"
+    },
+    {
+     "label": "D",
+     "text": "-16, 0, 9"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-213"
+  },
+  {
+   "n": 48,
+   "stem": "The mean of a data set is 18.1, and the z-score for 13.0 is −1.7. What is the standard deviation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1.7"
+    },
+    {
+     "label": "B",
+     "text": "3.0"
+    },
+    {
+     "label": "C",
+     "text": "3.4"
+    },
+    {
+     "label": "D",
+     "text": "5.1"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-214"
+  },
+  {
+   "n": 49,
+   "stem": "A function is defined by (f(x) = -4x + 2). What are the x-intercept and y-intercept?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "x-intercept ((0, -2)); y-intercept ((0, 0))"
+    },
+    {
+     "label": "B",
+     "text": "x-intercept ((0, 2)); y-intercept ((0, 0))"
+    },
+    {
+     "label": "C",
+     "text": "x-intercept (((1)/(2), 0)); y-intercept ((0, -2))"
+    },
+    {
+     "label": "D",
+     "text": "x-intercept (((1)/(2), 0)); y-intercept ((0, 2))"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2013_SOLPass",
+   "id": "algebra-1-215"
+  },
+  {
+   "n": 1,
+   "stem": "What value of (x) will make the equation (3(x+15) - 6x = -6(x-3)) true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−9"
+    },
+    {
+     "label": "B",
+     "text": "−6"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-216"
+  },
+  {
+   "n": 2,
+   "stem": "Which describes the graph of (g(x) = -3x + 5)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A line with a slope of −3 and a y-intercept of −5"
+    },
+    {
+     "label": "G",
+     "text": "A line with a slope of −3 and a y-intercept of 5"
+    },
+    {
+     "label": "H",
+     "text": "A line with a slope of 3 and a y-intercept of −5"
+    },
+    {
+     "label": "J",
+     "text": "A line with a slope of 3 and a y-intercept of 5"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-217"
+  },
+  {
+   "n": 4,
+   "stem": "Which ordered pair represents the solution to the system of equations? 2x - 7y = 0 x - 6y = -5",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(7, 2)"
+    },
+    {
+     "label": "G",
+     "text": "(2, 7)"
+    },
+    {
+     "label": "H",
+     "text": "(1, 1)"
+    },
+    {
+     "label": "J",
+     "text": "(−11, −1)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-218"
+  },
+  {
+   "n": 5,
+   "stem": "What is the solution to the inequality (3(x-3) <= 3)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x <= 2)"
+    },
+    {
+     "label": "B",
+     "text": "(x >= 2)"
+    },
+    {
+     "label": "C",
+     "text": "(x <= 4)"
+    },
+    {
+     "label": "D",
+     "text": "(x >= 4)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-219"
+  },
+  {
+   "n": 7,
+   "stem": "Which quadratic equation has solutions of 5 and 7?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x^2 - 5x = 0)"
+    },
+    {
+     "label": "B",
+     "text": "(x^2 - 2x - 35 = 0)"
+    },
+    {
+     "label": "C",
+     "text": "(x^2 - 3x - 28 = 0)"
+    },
+    {
+     "label": "D",
+     "text": "(x^2 - 12x + 35 = 0)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-220"
+  },
+  {
+   "n": 10,
+   "stem": "Which is an example of the distributive property?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(10 + 5x = 5x + 10)"
+    },
+    {
+     "label": "G",
+     "text": "(5(x + 2) = 5x + 10)"
+    },
+    {
+     "label": "H",
+     "text": "(5x + 10 = 5x + 10)"
+    },
+    {
+     "label": "J",
+     "text": "((5 + 10)x = x(5 + 10))"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-221"
+  },
+  {
+   "n": 12,
+   "stem": "A school play cost $1,200 to produce. Tickets sold for $5 each. The profit (p), in dollars, made by selling (x) tickets is given by (p = 5x - 1,200). What is the slope of the line representing this equation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "−1,200"
+    },
+    {
+     "label": "G",
+     "text": "−240"
+    },
+    {
+     "label": "H",
+     "text": "1"
+    },
+    {
+     "label": "J",
+     "text": "5"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-222"
+  },
+  {
+   "n": 13,
+   "stem": "Which of the following is a solution to (2x^2 + 2x - 12 = 0)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−12"
+    },
+    {
+     "label": "B",
+     "text": "−3"
+    },
+    {
+     "label": "C",
+     "text": "−2"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-223"
+  },
+  {
+   "n": 14,
+   "stem": "Which is an equation for the line that contains the point (1, 2) and has a slope of 4?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y = 2x - 4)"
+    },
+    {
+     "label": "G",
+     "text": "(y = -2x + 4)"
+    },
+    {
+     "label": "H",
+     "text": "(y = 4x - 2)"
+    },
+    {
+     "label": "J",
+     "text": "(y = -4x + 2)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-224"
+  },
+  {
+   "n": 15,
+   "stem": "Which inequality is equivalent to (4x - 2y <= 8)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y <= 2x - 4)"
+    },
+    {
+     "label": "B",
+     "text": "(y >= 2x - 4)"
+    },
+    {
+     "label": "C",
+     "text": "(y <= -2x - 4)"
+    },
+    {
+     "label": "D",
+     "text": "(y >= -2x - 4)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-225"
+  },
+  {
+   "n": 16,
+   "stem": "What is the slope of the line that passes through (−2, 5) and (3, 9)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(-(5)/(4))"
+    },
+    {
+     "label": "G",
+     "text": "(-(4)/(5))"
+    },
+    {
+     "label": "H",
+     "text": "((5)/(5))"
+    },
+    {
+     "label": "J",
+     "text": "((4)/(5))"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-226"
+  },
+  {
+   "n": 17,
+   "stem": "In addition to an $80 bonus, Joan earned $8 per hour working last week. Her total earnings were $240. How many hours did she work?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "20"
+    },
+    {
+     "label": "C",
+     "text": "30"
+    },
+    {
+     "label": "D",
+     "text": "40"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-227"
+  },
+  {
+   "n": 18,
+   "stem": "Tommie paid $17.50 for 6 youth tickets and 1 adult ticket. Susan paid $22.50 for 3 youth tickets and 3 adult tickets. What was the price of an adult ticket?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$2.00"
+    },
+    {
+     "label": "G",
+     "text": "$2.90"
+    },
+    {
+     "label": "H",
+     "text": "$5.50"
+    },
+    {
+     "label": "J",
+     "text": "$7.50"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-228"
+  },
+  {
+   "n": 19,
+   "stem": "What is the value of ((6x - 3y)/(xy)) when (x = 6) and (y = -4)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−2"
+    },
+    {
+     "label": "B",
+     "text": "−1"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-229"
+  },
+  {
+   "n": 20,
+   "stem": "Which equals ((2.3 * 10^3)(3.6 * 10^3))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(8.28 * 10^9)"
+    },
+    {
+     "label": "G",
+     "text": "(8.28 * 10^6)"
+    },
+    {
+     "label": "H",
+     "text": "(5.90 * 10^9)"
+    },
+    {
+     "label": "J",
+     "text": "(5.90 * 10^6)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-230"
+  },
+  {
+   "n": 21,
+   "stem": "Which expression is equivalent to ((4x^2 - 3x + 9) + (7x^2 - 11) + (-x^2 + 7x - 2))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(10x^2 + 4x - 4)"
+    },
+    {
+     "label": "B",
+     "text": "(10x^2 - 10x - 22)"
+    },
+    {
+     "label": "C",
+     "text": "(10x^6 + 4x^2 - 4)"
+    },
+    {
+     "label": "D",
+     "text": "(11x^2 + 4x + 4)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-231"
+  },
+  {
+   "n": 22,
+   "stem": "In simplest radical form, (sqrt845) is equal to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(13)"
+    },
+    {
+     "label": "G",
+     "text": "(13sqrt2)"
+    },
+    {
+     "label": "H",
+     "text": "(13sqrt3)"
+    },
+    {
+     "label": "J",
+     "text": "(13sqrt5)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-232"
+  },
+  {
+   "n": 23,
+   "stem": "Which polynomial is equivalent to ((8x^3 + 12x)/(2x)), where (x 0)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(4x^2 + 6)"
+    },
+    {
+     "label": "B",
+     "text": "(4x^2 + 6x)"
+    },
+    {
+     "label": "C",
+     "text": "(4x^2 + 12x)"
+    },
+    {
+     "label": "D",
+     "text": "(4x^4 + 6x^2)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-233"
+  },
+  {
+   "n": 24,
+   "stem": "What is the complete factorization of (x^2 - 5x - 14)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((x - 2)(x + 7))"
+    },
+    {
+     "label": "G",
+     "text": "((x + 2)(x - 7))"
+    },
+    {
+     "label": "H",
+     "text": "((x - 1)(x + 14))"
+    },
+    {
+     "label": "J",
+     "text": "((x + 1)(x - 14))"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-234"
+  },
+  {
+   "n": 25,
+   "stem": "Which statement could be represented by the expression (n^2 + 4n)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The square of a number increased by four"
+    },
+    {
+     "label": "B",
+     "text": "The square of the product of a number and four"
+    },
+    {
+     "label": "C",
+     "text": "The sum of two times a number and four times a number"
+    },
+    {
+     "label": "D",
+     "text": "The square of a number increased by four times the number"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-235"
+  },
+  {
+   "n": 26,
+   "stem": "Which expression is equivalent to (4x(2x^2 - x - 3))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(6x^2 - 5x - 7)"
+    },
+    {
+     "label": "G",
+     "text": "(6x^3 - 5x^2 + 7x)"
+    },
+    {
+     "label": "H",
+     "text": "(8x^2 - 4x + 12)"
+    },
+    {
+     "label": "J",
+     "text": "(8x^3 - 4x^2 - 12x)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-236"
+  },
+  {
+   "n": 28,
+   "stem": "A computer chip has two pins. One pin is (4.0 * 10^-3) inches long, and the other is (2.5 * 10^-3) inches long. What is the difference in their lengths?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(6.5 * 10^9) in."
+    },
+    {
+     "label": "G",
+     "text": "(6.5 * 10^-3) in."
+    },
+    {
+     "label": "H",
+     "text": "(1.5 * 10^-3) in."
+    },
+    {
+     "label": "J",
+     "text": "(1.5 * 10^-6) in."
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-237"
+  },
+  {
+   "n": 29,
+   "stem": "Which represents the complete factorization of (3v^2 + 9v)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(v(3v + 9))"
+    },
+    {
+     "label": "B",
+     "text": "(3(v^2 + 3v))"
+    },
+    {
+     "label": "C",
+     "text": "(3v(v + 3))"
+    },
+    {
+     "label": "D",
+     "text": "(3v^2(1 + 3v))"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-238"
+  },
+  {
+   "n": 30,
+   "stem": "Lincoln High School earned $5,100 in ticket sales. Each ticket cost $12. Let (t) represent the number of tickets sold. Which equation could be used to determine (t)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(12 = 5,100t)"
+    },
+    {
+     "label": "G",
+     "text": "(12t = 5,100)"
+    },
+    {
+     "label": "H",
+     "text": "(t = 5,100 - 12)"
+    },
+    {
+     "label": "J",
+     "text": "(t = 5,10012)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-239"
+  },
+  {
+   "n": 31,
+   "stem": "The function (f(x) = 35 + 15x) represents the amount of money, in dollars, Mr. Lewis earns for working (x) hours. How much does he earn for 25 hours?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$75"
+    },
+    {
+     "label": "B",
+     "text": "$375"
+    },
+    {
+     "label": "C",
+     "text": "$410"
+    },
+    {
+     "label": "D",
+     "text": "$1,250"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-240"
+  },
+  {
+   "n": 32,
+   "stem": "The table shows the relationship between time and distance traveled: 2 hours → 90 miles 3 hours → 135 miles 4 hours → 180 miles 5 hours → 225 miles Which equation represents the relationship between time (t) (hours) and distance (d) (miles)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(d = t + 45)"
+    },
+    {
+     "label": "G",
+     "text": "(d = 45t)"
+    },
+    {
+     "label": "H",
+     "text": "(t = 45d)"
+    },
+    {
+     "label": "J",
+     "text": "(t = (45)/(d))"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-241"
+  },
+  {
+   "n": 33,
+   "stem": "What is the domain of the relation shown in the table? (−5, −23) (−2, −14) (0, −8) (3, 1) (6, 10)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-5, -2, 0, 3, 6)"
+    },
+    {
+     "label": "B",
+     "text": "(-23, -14, -8, 1, 10)"
+    },
+    {
+     "label": "C",
+     "text": "(-23, -14, -8, -5, -2, 0, 1, 3, 6, 10)"
+    },
+    {
+     "label": "D",
+     "text": "(−5, −23), (−2, −14), (0, −8), (3, 1), (6, 10)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-242"
+  },
+  {
+   "n": 35,
+   "stem": "Which of the following sets of ordered pairs is a function?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(3, 4), (2, 3), (3, −2), (4, 1)"
+    },
+    {
+     "label": "B",
+     "text": "(2, 5), (−1, 9), (6, 3), (−1, −2)"
+    },
+    {
+     "label": "C",
+     "text": "(1, 3), (−2, 5), (4, 5), (3, −2)"
+    },
+    {
+     "label": "D",
+     "text": "(5, 6), (−2, 3), (10, 1), (−2, −9)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-243"
+  },
+  {
+   "n": 36,
+   "stem": "What is (g(2)) for (g(x) = (1)/(2)x^3 + 2x)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5"
+    },
+    {
+     "label": "G",
+     "text": "7"
+    },
+    {
+     "label": "H",
+     "text": "8"
+    },
+    {
+     "label": "J",
+     "text": "12"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-244"
+  },
+  {
+   "n": 39,
+   "stem": "What are the range values of the function (f(x) = -3x^2 + 5) for the domain values (-2, 0, 1)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "-31, −4, 5"
+    },
+    {
+     "label": "B",
+     "text": "-7, 2, 5"
+    },
+    {
+     "label": "C",
+     "text": "5, 8, 17"
+    },
+    {
+     "label": "D",
+     "text": "5, 14, 41"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-245"
+  },
+  {
+   "n": 41,
+   "stem": "The table shows the cost of a 12-inch pizza based on the number of toppings: 0 toppings: $15.50 1 topping: $17.35 2 toppings: $19.20 3 toppings: $21.05 4 toppings: $22.90 Which equation gives (C), the cost of a pizza with (t) toppings?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(C = 1.85t)"
+    },
+    {
+     "label": "B",
+     "text": "(C = 17.35t)"
+    },
+    {
+     "label": "C",
+     "text": "(C = 15.50 + 1.85t)"
+    },
+    {
+     "label": "D",
+     "text": "(C = 22.90 - 1.85t)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-246"
+  },
+  {
+   "n": 44,
+   "stem": "The table shows high temperatures (°F) for four Virginia cities over one week in March: Arlington: 52, 70, 74, 66, 56, 50, 63 Norfolk: 52, 71, 75, 70, 53, 70, 73 Roanoke: 63, 70, 65, 57, 59, 48, 54 Virginia Beach: 50, 73, 78, 68, 55, 71, 72 Which city had the greatest mean high temperature?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Arlington"
+    },
+    {
+     "label": "G",
+     "text": "Norfolk"
+    },
+    {
+     "label": "H",
+     "text": "Roanoke"
+    },
+    {
+     "label": "J",
+     "text": "Virginia Beach"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-247"
+  },
+  {
+   "n": 45,
+   "stem": "Which equation most closely represents the line of best fit for the data? (1,4), (2,6), (3,7), (4,9), (5,10), (6,10)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y = -(5)/(4)x + 3)"
+    },
+    {
+     "label": "B",
+     "text": "(y = -(4)/(5)x + 3)"
+    },
+    {
+     "label": "C",
+     "text": "(y = (4)/(5)x + 3)"
+    },
+    {
+     "label": "D",
+     "text": "(y = (5)/(4)x + 3)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-248"
+  },
+  {
+   "n": 47,
+   "stem": "What is 5 & -3 2 & 6 2 & 6 -2 & 4 3 & -2 4 & -4?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 3 & 1 5 & 4 6 & 2 )"
+    },
+    {
+     "label": "B",
+     "text": "( 7 & -7 -1 & 8 -2 & 10 )"
+    },
+    {
+     "label": "C",
+     "text": "( 7 & 1 -1 & 4 -2 & 2 )"
+    },
+    {
+     "label": "D",
+     "text": "( 10 & 12 -6 & 12 -8 & 24 )"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-249"
+  },
+  {
+   "n": 49,
+   "stem": "Jake earned $40, $80, $38, $40, $32, and $65 over six weeks. He then earned $25 in a seventh week. How were the mean and median affected?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The mean decreased and the median remained the same."
+    },
+    {
+     "label": "B",
+     "text": "The median decreased and the mean remained the same."
+    },
+    {
+     "label": "C",
+     "text": "The median and the mean both remained the same."
+    },
+    {
+     "label": "D",
+     "text": "The mean and the median both decreased."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-250"
+  },
+  {
+   "n": 50,
+   "stem": "A sports league charges $60 per person. The table shows registrations by age group: Ages 7–8: Soccer 350, Football 280 Ages 9–10: Soccer 320, Football 165 Ages 11–14: Soccer 180, Football 120 Which product represents the registration fees paid for soccer and football by age range?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(60 280165120 )"
+    },
+    {
+     "label": "G",
+     "text": "(60 350320180 )"
+    },
+    {
+     "label": "H",
+     "text": "(60 7 –89 –1011 –14 )"
+    },
+    {
+     "label": "J",
+     "text": "(60 350 & 280320 & 165180 & 120 )"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2010_SOLPass",
+   "id": "algebra-1-251"
+  },
+  {
+   "n": 1,
+   "stem": "Ron paid $75.00 for 5 compact disks and a case. If the price of each compact disk was $12.60, what was the price of the case?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$12.00"
+    },
+    {
+     "label": "B",
+     "text": "$12.50"
+    },
+    {
+     "label": "C",
+     "text": "$15.00"
+    },
+    {
+     "label": "D",
+     "text": "$63.00"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-252"
+  },
+  {
+   "n": 2,
+   "stem": "What is the solution to (4(2x-3)-2(3x+1))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5"
+    },
+    {
+     "label": "G",
+     "text": "1"
+    },
+    {
+     "label": "H",
+     "text": "7"
+    },
+    {
+     "label": "J",
+     "text": "10"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-253"
+  },
+  {
+   "n": 3,
+   "stem": "What is the solution to (8-2x=-4)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x=-6)"
+    },
+    {
+     "label": "B",
+     "text": "(x=-2)"
+    },
+    {
+     "label": "C",
+     "text": "(x=2)"
+    },
+    {
+     "label": "D",
+     "text": "(x=6)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-254"
+  },
+  {
+   "n": 5,
+   "stem": "What property makes the equation (6a^2-2a=2a(3a-1)) true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The reflexive property"
+    },
+    {
+     "label": "B",
+     "text": "The associative property"
+    },
+    {
+     "label": "C",
+     "text": "The commutative property"
+    },
+    {
+     "label": "D",
+     "text": "The distributive property"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-255"
+  },
+  {
+   "n": 7,
+   "stem": "What is the y-intercept of (4x+8y=12)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "(-(3)/(2))"
+    },
+    {
+     "label": "C",
+     "text": "((3)/(2))"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-256"
+  },
+  {
+   "n": 8,
+   "stem": "What is the slope of the line through ((1,1)) and ((4,-1))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5"
+    },
+    {
+     "label": "G",
+     "text": "(-2)"
+    },
+    {
+     "label": "H",
+     "text": "(-(2)/(3))"
+    },
+    {
+     "label": "J",
+     "text": "((2)/(3))"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-257"
+  },
+  {
+   "n": 9,
+   "stem": "What is the slope of the line (3y=4x+5)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "((3)/(4))"
+    },
+    {
+     "label": "D",
+     "text": "((4)/(3))"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-258"
+  },
+  {
+   "n": 10,
+   "stem": "Which is an equation for the line with a y-intercept of 4 and a slope of ((1)/(3))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y=(1)/(3)x+4)"
+    },
+    {
+     "label": "G",
+     "text": "(y=2x)"
+    },
+    {
+     "label": "H",
+     "text": "(y=-5)"
+    },
+    {
+     "label": "J",
+     "text": "(x=0)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-259"
+  },
+  {
+   "n": 11,
+   "stem": "Which is an equation for the line that contains ((3,4)) and the origin?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y=x)"
+    },
+    {
+     "label": "B",
+     "text": "(y=(4)/(3)x)"
+    },
+    {
+     "label": "C",
+     "text": "(y=4x+3)"
+    },
+    {
+     "label": "D",
+     "text": "(y=3x+4)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-260"
+  },
+  {
+   "n": 14,
+   "stem": "Which is the solution to the system of equations (3x+y=11) (y=x+3)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(4, 7)"
+    },
+    {
+     "label": "G",
+     "text": "(2, 17)"
+    },
+    {
+     "label": "H",
+     "text": "(2, 5)"
+    },
+    {
+     "label": "J",
+     "text": "( ((1)/(2),(3)/(2) ))"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-261"
+  },
+  {
+   "n": 15,
+   "stem": "Mrs. Crews bought 4 pencils and 3 pens for $5.60. Miss Houston bought 2 pencils and 3 pens of the same kind for $4.60. What was the price of each pencil and each pen?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$1.70 per pencil, $0.20 per pen"
+    },
+    {
+     "label": "B",
+     "text": "$0.50 per pencil, $1.20 per pen"
+    },
+    {
+     "label": "C",
+     "text": "$0.17 per pencil, $1.64 per pen"
+    },
+    {
+     "label": "D",
+     "text": "$0.80 per pencil, $0.80 per pen"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-262"
+  },
+  {
+   "n": 16,
+   "stem": "The perimeter of a rectangular playing field is 244 feet. If its length is 2 feet longer than twice its width, what are the dimensions of the field?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "20 ft by 41 ft"
+    },
+    {
+     "label": "G",
+     "text": "21 ft by 40 ft"
+    },
+    {
+     "label": "H",
+     "text": "40 ft by 82 ft"
+    },
+    {
+     "label": "J",
+     "text": "42 ft by 80 ft"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-263"
+  },
+  {
+   "n": 17,
+   "stem": "What are the solutions to (x^2-12=0)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x=-4) or (x=4)"
+    },
+    {
+     "label": "B",
+     "text": "(x=-12) or (x=9)"
+    },
+    {
+     "label": "C",
+     "text": "(x=-3) or (x=3)"
+    },
+    {
+     "label": "D",
+     "text": "(x=3) or (x=9)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-264"
+  },
+  {
+   "n": 18,
+   "stem": "Which is the solution set for (x^2-5x-14=0)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(-7,2)"
+    },
+    {
+     "label": "G",
+     "text": "(7,-2)"
+    },
+    {
+     "label": "H",
+     "text": "(-2,7)"
+    },
+    {
+     "label": "J",
+     "text": "(2,7)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-265"
+  },
+  {
+   "n": 19,
+   "stem": "If (z 0), (24y^2z^3 6z =)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(18y^2z^2)"
+    },
+    {
+     "label": "B",
+     "text": "(16y^2z^2)"
+    },
+    {
+     "label": "C",
+     "text": "(4yz^3)"
+    },
+    {
+     "label": "D",
+     "text": "(4y^2z^2)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-266"
+  },
+  {
+   "n": 20,
+   "stem": "((3xy)(5x^2+2xy+3y^2)) is equivalent to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(15x^3y+6x^2y^2+9xy^3)"
+    },
+    {
+     "label": "G",
+     "text": "(15x^3y+2xy+3y^2)"
+    },
+    {
+     "label": "H",
+     "text": "(15x^2y+6x^2y^2+9xy^2)"
+    },
+    {
+     "label": "J",
+     "text": "(15x^2+5xy+3y^2)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-267"
+  },
+  {
+   "n": 21,
+   "stem": "What is the perimeter of a triangle with side lengths (7x+9), (8x+9), and (5x+1)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(7x+9)"
+    },
+    {
+     "label": "B",
+     "text": "(8x+9)"
+    },
+    {
+     "label": "C",
+     "text": "(8x^3+9)"
+    },
+    {
+     "label": "D",
+     "text": "(10x^3+9)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-268"
+  },
+  {
+   "n": 22,
+   "stem": "(3.81 10^-4) may be written as —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0.0000381"
+    },
+    {
+     "label": "G",
+     "text": "0.000381"
+    },
+    {
+     "label": "H",
+     "text": "3,810"
+    },
+    {
+     "label": "J",
+     "text": "38,100"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-269"
+  },
+  {
+   "n": 23,
+   "stem": "Which is equivalent to (p^6p^2)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(p^8)"
+    },
+    {
+     "label": "B",
+     "text": "(2p^8)"
+    },
+    {
+     "label": "C",
+     "text": "(p^10)"
+    },
+    {
+     "label": "D",
+     "text": "(p^12)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-270"
+  },
+  {
+   "n": 24,
+   "stem": "If (y 0), which expression is equivalent to ((xy^2)/(y^4))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((x)/(y^2))"
+    },
+    {
+     "label": "G",
+     "text": "((x^7)/(y^2))"
+    },
+    {
+     "label": "H",
+     "text": "((6x)/(y^8))"
+    },
+    {
+     "label": "J",
+     "text": "((y^2)/(x))"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-271"
+  },
+  {
+   "n": 25,
+   "stem": "A board supports stairs with horizontal length 18 ft and vertical height 12 ft. The board length is (c). Using (c=sqrt12^2+18^2), what is (c) to the nearest tenth?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "36.0 ft"
+    },
+    {
+     "label": "B",
+     "text": "30.0 ft"
+    },
+    {
+     "label": "C",
+     "text": "21.6 ft"
+    },
+    {
+     "label": "D",
+     "text": "13.4 ft"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-272"
+  },
+  {
+   "n": 26,
+   "stem": "When completely factored, (x^2-7x+10) equals —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((x-5)(x-2))"
+    },
+    {
+     "label": "G",
+     "text": "((x-3)(x-4))"
+    },
+    {
+     "label": "H",
+     "text": "((x+5)(x-2))"
+    },
+    {
+     "label": "J",
+     "text": "((x+4)(x+6))"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-273"
+  },
+  {
+   "n": 27,
+   "stem": "When (5x^2-5) is completely factored, which is one of its factors?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x-1)"
+    },
+    {
+     "label": "B",
+     "text": "(x+5)"
+    },
+    {
+     "label": "C",
+     "text": "(5x-1)"
+    },
+    {
+     "label": "D",
+     "text": "(5x+1)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-274"
+  },
+  {
+   "n": 28,
+   "stem": "Which is the simplest radical form of (sqrt52)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(13sqrt2)"
+    },
+    {
+     "label": "G",
+     "text": "(sqrt52)"
+    },
+    {
+     "label": "H",
+     "text": "(4sqrt13)"
+    },
+    {
+     "label": "J",
+     "text": "(2sqrt13)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-275"
+  },
+  {
+   "n": 29,
+   "stem": "What is the value of (a(3-b)) if (a=2) and (b=5)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-4)"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "16"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-276"
+  },
+  {
+   "n": 30,
+   "stem": "The base of a triangle is 3 units more than its height (h). Which expression represents its area?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(h(h+3))"
+    },
+    {
+     "label": "G",
+     "text": "((1)/(2)h(h+3))"
+    },
+    {
+     "label": "H",
+     "text": "(h(h-3))"
+    },
+    {
+     "label": "J",
+     "text": "((1)/(2)h(h-3))"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-277"
+  },
+  {
+   "n": 31,
+   "stem": "Trina’s paycheck earnings (p) vary directly as the number of hours (h). If she works 19 hours and earns $187.15, what should she earn for 40 hours?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$394.00"
+    },
+    {
+     "label": "B",
+     "text": "$443.25"
+    },
+    {
+     "label": "C",
+     "text": "$472.80"
+    },
+    {
+     "label": "D",
+     "text": "$512.20"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-278"
+  },
+  {
+   "n": 32,
+   "stem": "Given (f(x)=x^2-5), what is the output when the input is 2?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6"
+    },
+    {
+     "label": "G",
+     "text": "9"
+    },
+    {
+     "label": "H",
+     "text": "14"
+    },
+    {
+     "label": "J",
+     "text": "46"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-279"
+  },
+  {
+   "n": 33,
+   "stem": "The ordered pairs are of the form ((x,y)). In which set is (y) a function of (x)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((1,3),(2,6),(3,1),(6,3))"
+    },
+    {
+     "label": "B",
+     "text": "((1,3),(3,1),(3,4),(4,3))"
+    },
+    {
+     "label": "C",
+     "text": "((1,2),(1,0),(1,5),(1,7))"
+    },
+    {
+     "label": "D",
+     "text": "((0,3),(1,4),(2,4),(2,8))"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-280"
+  },
+  {
+   "n": 34,
+   "stem": "A table shows that when the base is constant, the rectangle has areas 8, 20, 28, and 48 for heights 2, 5, 7, and 12. Which equation represents the relationship?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(a=h+6)"
+    },
+    {
+     "label": "G",
+     "text": "(a=3h+2)"
+    },
+    {
+     "label": "H",
+     "text": "(a=4h)"
+    },
+    {
+     "label": "J",
+     "text": "(a=2h+4)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-281"
+  },
+  {
+   "n": 35,
+   "stem": "The number of employees is given by (n=10p+20), where (p) is yearly profit in millions of dollars. If profit declined from 20 million to 15 million, what was the decrease in employees?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "50"
+    },
+    {
+     "label": "B",
+     "text": "70"
+    },
+    {
+     "label": "C",
+     "text": "120"
+    },
+    {
+     "label": "D",
+     "text": "220"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-282"
+  },
+  {
+   "n": 36,
+   "stem": "Which pair could not lie on the graph of a function of (x)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(1,1) and (3,1)"
+    },
+    {
+     "label": "G",
+     "text": "(1,1) and (2,1)"
+    },
+    {
+     "label": "H",
+     "text": "(1,1) and (1,2)"
+    },
+    {
+     "label": "J",
+     "text": "(1,1) and (2,2)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-283"
+  },
+  {
+   "n": 38,
+   "stem": "The function (f=(6,5),(2,3),(1,4)). What is the range?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "4"
+    },
+    {
+     "label": "G",
+     "text": "1,2,3,4,5,6"
+    },
+    {
+     "label": "H",
+     "text": "1,2,6"
+    },
+    {
+     "label": "J",
+     "text": "3,4,5"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-284"
+  },
+  {
+   "n": 39,
+   "stem": "Which is a zero of (f(x)=2x-10)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "–5"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-285"
+  },
+  {
+   "n": 40,
+   "stem": "If (f(x)=3-x^2), what is (f(2))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2"
+    },
+    {
+     "label": "G",
+     "text": "–1"
+    },
+    {
+     "label": "H",
+     "text": "1"
+    },
+    {
+     "label": "J",
+     "text": "2"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-286"
+  },
+  {
+   "n": 41,
+   "stem": "The point ((q,0)) lies on the graph of (f(x)=(3)/(x-6)). What is the value of (q)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "–8"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "–6"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-287"
+  },
+  {
+   "n": 42,
+   "stem": "In a table, (y) varies directly with (x): when (x=10,15,20,25), (y=6,9,12,15). Which equation best describes the data?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(xy=(3)/(5))"
+    },
+    {
+     "label": "G",
+     "text": "(xy=(5)/(3))"
+    },
+    {
+     "label": "H",
+     "text": "(y=(3)/(5)x)"
+    },
+    {
+     "label": "J",
+     "text": "(y=(5)/(3)x)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-288"
+  },
+  {
+   "n": 44,
+   "stem": "A student scored 85, 49, 67, and 83 on four tests. What score is needed on the next test to have a mean of 75?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "75"
+    },
+    {
+     "label": "G",
+     "text": "79"
+    },
+    {
+     "label": "H",
+     "text": "86"
+    },
+    {
+     "label": "J",
+     "text": "91"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-289"
+  },
+  {
+   "n": 45,
+   "stem": "For the data set (5,6,6,8,9,10), which measure is greatest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mean"
+    },
+    {
+     "label": "B",
+     "text": "Median"
+    },
+    {
+     "label": "C",
+     "text": "Mode"
+    },
+    {
+     "label": "D",
+     "text": "Range"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-290"
+  },
+  {
+   "n": 46,
+   "stem": "Sam and Max sold peanuts and popcorn on two days. Day 1: Peanuts—Sam 136, Max 154; Popcorn—Sam 0, Max 38. Day 2: Peanuts—Sam 154, Max 167; Popcorn—Sam 2, Max 47. Which matrix shows how many more bags were sold on Day 2 than Day 1?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "( 290&32182&85 )"
+    },
+    {
+     "label": "G",
+     "text": "( 18&132&9 )"
+    },
+    {
+     "label": "H",
+     "text": "( 18&134&7 )"
+    },
+    {
+     "label": "J",
+     "text": "( 18&132&7 )"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-291"
+  },
+  {
+   "n": 47,
+   "stem": "If (A= 2&43&64&8 ) and (B= 1&52&73&6 ), what is (A+B)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "( 5&137&2 )"
+    },
+    {
+     "label": "B",
+     "text": "( 6&4212&48 )"
+    },
+    {
+     "label": "C",
+     "text": "( 9&912&3 )"
+    },
+    {
+     "label": "D",
+     "text": "( 1&-11&14 )"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-292"
+  },
+  {
+   "n": 48,
+   "stem": "A delivery company’s insurance costs are: 1 vehicle: $1,700; 2: $2,200; 3: $2,700; 4: $3,200; 5: $3,700; 6: $4,200. Using a line of best fit, estimate the cost for 8 vehicles.",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$5,050"
+    },
+    {
+     "label": "G",
+     "text": "$5,200"
+    },
+    {
+     "label": "H",
+     "text": "$5,500"
+    },
+    {
+     "label": "J",
+     "text": "$5,950"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-293"
+  },
+  {
+   "n": 49,
+   "stem": "Engine torque was tested at various RPMs, producing a roughly linear decreasing trend. Which equation most closely defines the line of best fit?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y=4.1x+414)"
+    },
+    {
+     "label": "B",
+     "text": "(y=-4.1x+414)"
+    },
+    {
+     "label": "C",
+     "text": "(y=3.1x+383)"
+    },
+    {
+     "label": "D",
+     "text": "(y=-3.1x+383)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-294"
+  },
+  {
+   "n": 50,
+   "stem": "Given data points ((70,4),(75,7),(80,8.5),(85,12),(90,11),(95,13.5),(100,15)), which equation best models the linear trend?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y=19.5x-0.35)"
+    },
+    {
+     "label": "G",
+     "text": "(y=-0.35x+19.5)"
+    },
+    {
+     "label": "H",
+     "text": "(y=-19.5x+0.35)"
+    },
+    {
+     "label": "J",
+     "text": "(y=0.35x-19.5)"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2005_SOLPass",
+   "id": "algebra-1-295"
+  },
+  {
+   "n": 1,
+   "stem": "What is the solution to the inequality below? (2x - 7 > 15)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x > 11)"
+    },
+    {
+     "label": "B",
+     "text": "(x > 4)"
+    },
+    {
+     "label": "C",
+     "text": "(x < 11)"
+    },
+    {
+     "label": "D",
+     "text": "(x < 4)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-296"
+  },
+  {
+   "n": 2,
+   "stem": "Which number is a zero of the function (f(x) = x^2 - x - 6)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−3"
+    },
+    {
+     "label": "B",
+     "text": "−2"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-297"
+  },
+  {
+   "n": 3,
+   "stem": "If (2n = 6), what property of equality justifies writing (p + 2n = 4p + 15) as (p + 6 = 4p + 15)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Addition property"
+    },
+    {
+     "label": "B",
+     "text": "Transitive property"
+    },
+    {
+     "label": "C",
+     "text": "Symmetric property"
+    },
+    {
+     "label": "D",
+     "text": "Substitution property"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-298"
+  },
+  {
+   "n": 5,
+   "stem": "What is the slope of the line represented by the following equation? (y = 2x - 1)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−1"
+    },
+    {
+     "label": "B",
+     "text": "( 12)"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-299"
+  },
+  {
+   "n": 6,
+   "stem": "Kristen heard that it is 82° Fahrenheit outside. She knows that (F = 1.8C + 32), where (F) represents the temperature in degrees Fahrenheit and (C) represents the temperature in degrees Celsius. Which is closest to the temperature outside, in degrees Celsius?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "28"
+    },
+    {
+     "label": "G",
+     "text": "63"
+    },
+    {
+     "label": "H",
+     "text": "90"
+    },
+    {
+     "label": "J",
+     "text": "180"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-300"
+  },
+  {
+   "n": 7,
+   "stem": "What is the solution to the system of linear equations below? (x + y = 5) (x - y = 3)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(8, −3)"
+    },
+    {
+     "label": "B",
+     "text": "(6, −1)"
+    },
+    {
+     "label": "C",
+     "text": "(5, 2)"
+    },
+    {
+     "label": "D",
+     "text": "(4, 1)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-301"
+  },
+  {
+   "n": 10,
+   "stem": "Candice plotted the points (2, 15) and (0, −1) and then drew a line through these two points. What is the slope of the line she drew?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "7"
+    },
+    {
+     "label": "G",
+     "text": "8"
+    },
+    {
+     "label": "H",
+     "text": "−7"
+    },
+    {
+     "label": "J",
+     "text": "−8"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-302"
+  },
+  {
+   "n": 11,
+   "stem": "Which of the following is the solution set to the equation (x^2 - 3x - 28 = 0)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "−28, 1"
+    },
+    {
+     "label": "B",
+     "text": "−4, 7"
+    },
+    {
+     "label": "C",
+     "text": "−2, 14"
+    },
+    {
+     "label": "D",
+     "text": "0, 28"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-303"
+  },
+  {
+   "n": 12,
+   "stem": "Ralph spent $132 to buy movie tickets for 20 students and 4 adult chaperones. Adult tickets cost $3 more than student tickets. If (A) is the price of an adult ticket and (S) is the price of a student ticket, which system of equations could be used to find the price of each adult and student ticket?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(S = A + 3); (4A + 20S = 132)"
+    },
+    {
+     "label": "G",
+     "text": "(A = S + 3); (4A + 20S = 132)"
+    },
+    {
+     "label": "H",
+     "text": "(20A + 4S = 132); (A = S + 3)"
+    },
+    {
+     "label": "J",
+     "text": "(A + S = 132); (A = S + 3)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-304"
+  },
+  {
+   "n": 13,
+   "stem": "What is the slope of the line represented by the following equation? (4x - y + 3 = 0)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "( 43)"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-305"
+  },
+  {
+   "n": 14,
+   "stem": "Which is an equation of the line that passes through the points (5, 15) and (10, 20)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(y = x + 10)"
+    },
+    {
+     "label": "G",
+     "text": "(y = x - 30)"
+    },
+    {
+     "label": "H",
+     "text": "(y = x + 30)"
+    },
+    {
+     "label": "J",
+     "text": "(y = x + 4 + 15)"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-306"
+  },
+  {
+   "n": 15,
+   "stem": "What is the solution of the system of equations shown? (2x + 5y = 8) (6x + 4y = -20)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(6, 4)"
+    },
+    {
+     "label": "B",
+     "text": "(6, −14)"
+    },
+    {
+     "label": "C",
+     "text": "(14, −4)"
+    },
+    {
+     "label": "D",
+     "text": "(6, −4)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-307"
+  },
+  {
+   "n": 17,
+   "stem": "Which is an equation of a line with a slope of 3 that passes through the origin?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x = 3)"
+    },
+    {
+     "label": "B",
+     "text": "(y = 3)"
+    },
+    {
+     "label": "C",
+     "text": "(x = 3y)"
+    },
+    {
+     "label": "D",
+     "text": "(y = 3x)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-308"
+  },
+  {
+   "n": 18,
+   "stem": "Which of the following equals (3x^2 - 10x - 8) when factored completely?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "((3x - 4)(x + 2))"
+    },
+    {
+     "label": "G",
+     "text": "((3x - 1)(x + 8))"
+    },
+    {
+     "label": "H",
+     "text": "((3x + 8)(x - 1))"
+    },
+    {
+     "label": "J",
+     "text": "((3x + 2)(x - 4))"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-309"
+  },
+  {
+   "n": 19,
+   "stem": "What is (sqrt192) expressed in simplest radical form?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(3sqrt3)"
+    },
+    {
+     "label": "B",
+     "text": "(6sqrt5)"
+    },
+    {
+     "label": "C",
+     "text": "(4sqrt12)"
+    },
+    {
+     "label": "D",
+     "text": "(2sqrt48)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-310"
+  },
+  {
+   "n": 20,
+   "stem": "What is the value of the expression (3(x + 4) - 2y), if (x = 5) and (y = -3)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "7"
+    },
+    {
+     "label": "G",
+     "text": "11"
+    },
+    {
+     "label": "H",
+     "text": "21"
+    },
+    {
+     "label": "J",
+     "text": "33"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-311"
+  },
+  {
+   "n": 22,
+   "stem": "Which expression is equivalent to (3x^2(4x^2 + 2x + 1))?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(7x^2 + 5x + 4)"
+    },
+    {
+     "label": "G",
+     "text": "(12x^4 + 6x^3 + 3x^2)"
+    },
+    {
+     "label": "H",
+     "text": "(12x^2 + 6x + 3)"
+    },
+    {
+     "label": "J",
+     "text": "(7x^4 + 5x^3 + 4x^2)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-312"
+  },
+  {
+   "n": 25,
+   "stem": "Which polynomial is equivalent to the following expression? ((3x^2 - 2x + 5) - (2x^2 - 5x + 1))",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x^2 + 3x + 4)"
+    },
+    {
+     "label": "B",
+     "text": "(x^2 - 7x + 6)"
+    },
+    {
+     "label": "C",
+     "text": "(x^2 - 3x - 6)"
+    },
+    {
+     "label": "D",
+     "text": "(x^2 - 7x + 4)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-313"
+  },
+  {
+   "n": 27,
+   "stem": "A factored form of (x^2 + 5x - 24) is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((x - 4)(x + 6))"
+    },
+    {
+     "label": "B",
+     "text": "((x - 3)(x + 8))"
+    },
+    {
+     "label": "C",
+     "text": "((x - 2)(x + 12))"
+    },
+    {
+     "label": "D",
+     "text": "((x - 6)(x + 4))"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-314"
+  },
+  {
+   "n": 29,
+   "stem": "The length of a certain rectangle is six more than three times its width. If the width of the rectangle is 4 units, what is its length?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "13"
+    },
+    {
+     "label": "C",
+     "text": "18"
+    },
+    {
+     "label": "D",
+     "text": "27"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-315"
+  },
+  {
+   "n": 34,
+   "stem": "The table gives the cost for different numbers of 100-sheet notebooks. The cost, (C), varies directly as the number of notebooks, (n). Which equation represents this relationship?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(C = 2n)"
+    },
+    {
+     "label": "G",
+     "text": "(C = 4.30n)"
+    },
+    {
+     "label": "H",
+     "text": "(C = 2.15n)"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-316"
+  },
+  {
+   "n": 35,
+   "stem": "A function of (x) consists of five ordered pairs. Four are shown: (1, 9), (3, 19), (5, 29), (7, 39). Which could be the fifth ordered pair?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(9, 8)"
+    },
+    {
+     "label": "B",
+     "text": "(1, 49)"
+    },
+    {
+     "label": "C",
+     "text": "(5, 19)"
+    },
+    {
+     "label": "D",
+     "text": "(9, 49)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-317"
+  },
+  {
+   "n": 36,
+   "stem": "The number of miles, (m), a car can travel varies directly with the amount of gas, (g), in its fuel tank. If (k) is the constant of variation, which equation represents this situation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "(m = (k)/(g))"
+    },
+    {
+     "label": "G",
+     "text": "(m = kg)"
+    },
+    {
+     "label": "H",
+     "text": "(m = g + k)"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-318"
+  },
+  {
+   "n": 37,
+   "stem": "The function (f(x) = 1200 - 50x) gives the distance left to travel after driving (x) hours. What is (f(9))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "450 miles"
+    },
+    {
+     "label": "B",
+     "text": "691 miles"
+    },
+    {
+     "label": "C",
+     "text": "750 miles"
+    },
+    {
+     "label": "D",
+     "text": "850 miles"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2009_SOLPass",
+   "id": "algebra-1-319"
+  },
+  {
+   "n": 1,
+   "stem": "What is the solution to (3(2x-1)=3)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x=-1)"
+    },
+    {
+     "label": "B",
+     "text": "(x=1)"
+    },
+    {
+     "label": "C",
+     "text": "(x=2)"
+    },
+    {
+     "label": "D",
+     "text": "(x=3)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-320"
+  },
+  {
+   "n": 2,
+   "stem": "What is the value of ((x)/(x+2)) when (x=4)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((1)/(6))"
+    },
+    {
+     "label": "B",
+     "text": "((2)/(3))"
+    },
+    {
+     "label": "C",
+     "text": "((4)/(6))"
+    },
+    {
+     "label": "D",
+     "text": "((4)/(2))"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-321"
+  },
+  {
+   "n": 3,
+   "stem": "Identify each expression that is in simplest radical form.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(xsqrt50y)"
+    },
+    {
+     "label": "B",
+     "text": "(6sqrtx)"
+    },
+    {
+     "label": "C",
+     "text": "((7x^2y)/(2xy))"
+    },
+    {
+     "label": "D",
+     "text": "(sqrt18)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-322"
+  },
+  {
+   "n": 4,
+   "stem": "Which expression is equivalent to ((30x-24y)-5(32x-16y))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x-6y)"
+    },
+    {
+     "label": "B",
+     "text": "(x-2y)"
+    },
+    {
+     "label": "C",
+     "text": "(4x-4y)"
+    },
+    {
+     "label": "D",
+     "text": "(9x-6y)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-323"
+  },
+  {
+   "n": 5,
+   "stem": "Which is equivalent to ((3)/(48)) in simplest form?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((1)/(16))"
+    },
+    {
+     "label": "B",
+     "text": "((1)/(12))"
+    },
+    {
+     "label": "C",
+     "text": "((3)/(24))"
+    },
+    {
+     "label": "D",
+     "text": "((1)/(8))"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-324"
+  },
+  {
+   "n": 6,
+   "stem": "What is the value of (sqrt128) in simplest radical form?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(8sqrt2)"
+    },
+    {
+     "label": "B",
+     "text": "(64sqrt2)"
+    },
+    {
+     "label": "C",
+     "text": "( 4sqrt8)"
+    },
+    {
+     "label": "D",
+     "text": "( 16sqrt8)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-325"
+  },
+  {
+   "n": 7,
+   "stem": "Which polynomial is equivalent to the expression ((3+n-2n^2)/(1+n)) if (n=-1)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2n-3)"
+    },
+    {
+     "label": "B",
+     "text": "(3-2n)"
+    },
+    {
+     "label": "C",
+     "text": "(3-2n^2)"
+    },
+    {
+     "label": "D",
+     "text": "(4-2n^2)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-326"
+  },
+  {
+   "n": 8,
+   "stem": "Which is a factor of (2n^2-5n-42)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(2n-7)"
+    },
+    {
+     "label": "B",
+     "text": "(2n-6)"
+    },
+    {
+     "label": "C",
+     "text": "(n-7)"
+    },
+    {
+     "label": "D",
+     "text": "(n-6)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-327"
+  },
+  {
+   "n": 9,
+   "stem": "Which of the following is equivalent to ((4)/(8x))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((1)/(2x))"
+    },
+    {
+     "label": "B",
+     "text": "((1)/(8x))"
+    },
+    {
+     "label": "C",
+     "text": "((4)/(x))"
+    },
+    {
+     "label": "D",
+     "text": "((x)/(2))"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-328"
+  },
+  {
+   "n": 10,
+   "stem": "What is the value of (-2|n+6|) when (n=-15)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-42)"
+    },
+    {
+     "label": "B",
+     "text": "(-18)"
+    },
+    {
+     "label": "C",
+     "text": "(18)"
+    },
+    {
+     "label": "D",
+     "text": "(42)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-329"
+  },
+  {
+   "n": 12,
+   "stem": "An isosceles triangle has angle measures given by the formula (180=2x+y). Which equation can be used to find (x)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x=(180-y)/(2))"
+    },
+    {
+     "label": "B",
+     "text": "(x=180+y)"
+    },
+    {
+     "label": "C",
+     "text": "(x=90-y)"
+    },
+    {
+     "label": "D",
+     "text": "(x=90+y)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-330"
+  },
+  {
+   "n": 13,
+   "stem": "Which equation represents the line that passes through the points ((-4,4)) and ((8,-2))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y=-2x+14)"
+    },
+    {
+     "label": "B",
+     "text": "(y=-2x-4)"
+    },
+    {
+     "label": "C",
+     "text": "(y=-(1)/(2)x+2)"
+    },
+    {
+     "label": "D",
+     "text": "(y=(1)/(3)x-2)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-331"
+  },
+  {
+   "n": 14,
+   "stem": "For which system of inequalities is ((-3,1)) a solution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(x+y<-2) and (2x-3y<-9)"
+    },
+    {
+     "label": "B",
+     "text": "(x+y<-2) and (10x-3y<-9)"
+    },
+    {
+     "label": "C",
+     "text": "(x+y<-2) and (14x-8y<9)"
+    },
+    {
+     "label": "D",
+     "text": "(x+y<-2) and (14x-3y<-9)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-332"
+  },
+  {
+   "n": 15,
+   "stem": "What is the solution to this system of equations? x+y=6 7x+y=12",
+   "choices": [
+    {
+     "label": "A",
+     "text": "((3,4))"
+    },
+    {
+     "label": "B",
+     "text": "((2,-2))"
+    },
+    {
+     "label": "C",
+     "text": "((1,5))"
+    },
+    {
+     "label": "D",
+     "text": "((-1,6))"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-333"
+  },
+  {
+   "n": 17,
+   "stem": "What value of (x) makes the equation (3x-20=-2x) true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-20)"
+    },
+    {
+     "label": "B",
+     "text": "(-4)"
+    },
+    {
+     "label": "C",
+     "text": "(4)"
+    },
+    {
+     "label": "D",
+     "text": "(20)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-334"
+  },
+  {
+   "n": 19,
+   "stem": "Christopher incorrectly solved an inequality. Between which two consecutive steps did he make a mistake? Step 1: (-4(x-7)+1<-3) Step 2: (-4(x-7)<-4) Step 3: (-4x+28<-4) Step 4: (-4x<-32) Step 5: (x<8)",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Steps 1 and 2"
+    },
+    {
+     "label": "B",
+     "text": "Steps 2 and 3"
+    },
+    {
+     "label": "C",
+     "text": "Steps 3 and 4"
+    },
+    {
+     "label": "D",
+     "text": "Steps 4 and 5"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-335"
+  },
+  {
+   "n": 21,
+   "stem": "What values of (x) are solutions of (3x^2+11x=20)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-4) and ((5)/(3))"
+    },
+    {
+     "label": "B",
+     "text": "(-3) and (4)"
+    },
+    {
+     "label": "C",
+     "text": "(-4) and ((3)/(4))"
+    },
+    {
+     "label": "D",
+     "text": "(-5) and (-(3)/(4))"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-336"
+  },
+  {
+   "n": 25,
+   "stem": "Renee is going bowling. • Cost per game: $2.50 • Shoe rental: $1.50 • Maximum total cost: $16.00 What is the maximum number of games Renee can bowl?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-337"
+  },
+  {
+   "n": 29,
+   "stem": "Which equation best represents this data set? ((-4,-4.8),(-3,-8.2),(-2,-9.1),(-1,-8.1),(0,-4.7),(1,0.3))",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y=1.1x^2+4.2x+4.9)"
+    },
+    {
+     "label": "B",
+     "text": "(y=1.1x^2+4.2x-4.9)"
+    },
+    {
+     "label": "C",
+     "text": "(y=1.1x-4.2)"
+    },
+    {
+     "label": "D",
+     "text": "(y=1.1^x+4.2)"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-338"
+  },
+  {
+   "n": 30,
+   "stem": "A relationship between (x) and (y) is shown in the table below. c|c x & y 0 & 1 1 & 3 2 & 5 3 & 7 Which equation represents this relationship?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y=2x+1)"
+    },
+    {
+     "label": "B",
+     "text": "(y=5x-5)"
+    },
+    {
+     "label": "C",
+     "text": "(y=x^2+1)"
+    },
+    {
+     "label": "D",
+     "text": "(y=x+1)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-339"
+  },
+  {
+   "n": 31,
+   "stem": "Ms. Scott will pay $2,000 to have her house painted. The amount each painter earns, (A), varies inversely with the number of painters, (n). Which equation represents this situation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(A=2000+n)"
+    },
+    {
+     "label": "B",
+     "text": "(2000=A+n)"
+    },
+    {
+     "label": "C",
+     "text": "(A=2000n)"
+    },
+    {
+     "label": "D",
+     "text": "(2000=An)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-340"
+  },
+  {
+   "n": 32,
+   "stem": "A graph shows a relation whose outputs include all values greater than or equal to (-4). Which best describes the range?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "All real numbers"
+    },
+    {
+     "label": "B",
+     "text": "All real numbers between (-10) and (10)"
+    },
+    {
+     "label": "C",
+     "text": "All real numbers less than or equal to (-4)"
+    },
+    {
+     "label": "D",
+     "text": "All real numbers greater than or equal to (-4)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-341"
+  },
+  {
+   "n": 35,
+   "stem": "Which of these functions has exactly two different zeros?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(f(x)=4x+4)"
+    },
+    {
+     "label": "B",
+     "text": "(g(x)=x^2+4)"
+    },
+    {
+     "label": "C",
+     "text": "(h(x)=x^2-4x+4)"
+    },
+    {
+     "label": "D",
+     "text": "(k(x)=x^2+11x+24)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-342"
+  },
+  {
+   "n": 37,
+   "stem": "Which equation could represent a graph with x-intercepts at ((4,0)) and ((-7,0))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(y=x^2+3x-28)"
+    },
+    {
+     "label": "B",
+     "text": "(y=x^2-3x-28)"
+    },
+    {
+     "label": "C",
+     "text": "(y=x^2+3x+28)"
+    },
+    {
+     "label": "D",
+     "text": "(y=x^2-3x+28)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-343"
+  },
+  {
+   "n": 38,
+   "stem": "Which number is a zero of the function (h(x)=x^2+3x-18)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-6)"
+    },
+    {
+     "label": "B",
+     "text": "(-3)"
+    },
+    {
+     "label": "C",
+     "text": "(0)"
+    },
+    {
+     "label": "D",
+     "text": "(6)"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-344"
+  },
+  {
+   "n": 40,
+   "stem": "If (f(x)=(x-3)^2+1), what is (f(6))?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-2)"
+    },
+    {
+     "label": "B",
+     "text": "(7)"
+    },
+    {
+     "label": "C",
+     "text": "(10)"
+    },
+    {
+     "label": "D",
+     "text": "(16)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-345"
+  },
+  {
+   "n": 41,
+   "stem": "Which number is NOT an element in the domain of this relation? ((-2,3),(0,4),(1,1),(6,0))",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(-2)"
+    },
+    {
+     "label": "B",
+     "text": "(0)"
+    },
+    {
+     "label": "C",
+     "text": "(3)"
+    },
+    {
+     "label": "D",
+     "text": "(6)"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-346"
+  },
+  {
+   "n": 42,
+   "stem": "Using the line of best fit for the data ((5,9),(2,31),(9,143),(11,151),(0,42),(5,97)), which is the best prediction of the output when the input is 13?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "127"
+    },
+    {
+     "label": "B",
+     "text": "159"
+    },
+    {
+     "label": "C",
+     "text": "170"
+    },
+    {
+     "label": "D",
+     "text": "178"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-347"
+  },
+  {
+   "n": 43,
+   "stem": "A data set has a mean of 720 and a standard deviation of 6. Which is closest to the z-score for a value of 709?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "11.00"
+    },
+    {
+     "label": "B",
+     "text": "1.83"
+    },
+    {
+     "label": "C",
+     "text": "(-11.00)"
+    },
+    {
+     "label": "D",
+     "text": "(-1.83)"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Algebra_1_2015_SOLPass",
+   "id": "algebra-1-348"
+  }
+ ]
+}

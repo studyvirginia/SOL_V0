@@ -1,0 +1,5168 @@
+{
+ "subject": "english",
+ "course": "grade-4-english",
+ "courseName": "Grade 4 English",
+ "questionCount": 206,
+ "sources": [
+  "Reading_Grade_4_2007_SOLPass",
+  "Reading_Grade_4_2008_SOLPass",
+  "Reading_Grade_4_2009_SOLPass",
+  "Reading_Grade_4_2010_SOLPass",
+  "Reading_Grade_4_2011_SOLPass",
+  "Reading_Grade_4_2015_SOLPass",
+  "Reading_Grade_4_2015_VDOE"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "What question does paragraph 2 answer?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Why did Thomas Adams want to buy chicle?"
+    },
+    {
+     "label": "B",
+     "text": "What things can be made from white chicle?"
+    },
+    {
+     "label": "C",
+     "text": "Who showed Thomas Adams some chicle?"
+    },
+    {
+     "label": "D",
+     "text": "What was used to make gum before chicle?"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-1"
+  },
+  {
+   "n": 2,
+   "stem": "In paragraph 3, why did Thomas Adams buy a large amount of chicle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "He needed it in order to experiment."
+    },
+    {
+     "label": "G",
+     "text": "He wanted to sell a great deal of gum."
+    },
+    {
+     "label": "H",
+     "text": "He thought he could sell it to inventors."
+    },
+    {
+     "label": "J",
+     "text": "He knew the price would soon go up."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-2"
+  },
+  {
+   "n": 3,
+   "stem": "What question is answered in paragraph 4?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Why was a little girl buying something at a store?"
+    },
+    {
+     "label": "B",
+     "text": "Where did Adams get the idea to make chicle gum?"
+    },
+    {
+     "label": "C",
+     "text": "What is the most popular gum in Mexico?"
+    },
+    {
+     "label": "D",
+     "text": "How did Adams sell the chewing gum?"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-3"
+  },
+  {
+   "n": 4,
+   "stem": "At first Tom Jr. did not sell any gum because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "no one was interested in trying it"
+    },
+    {
+     "label": "G",
+     "text": "customers liked the chewing wax"
+    },
+    {
+     "label": "H",
+     "text": "the gum had an unusual taste"
+    },
+    {
+     "label": "J",
+     "text": "it was not wrapped in pretty paper"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-4"
+  },
+  {
+   "n": 5,
+   "stem": "What information best supports the idea that Adams did not give up?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He asked his son to sell chicle gum."
+    },
+    {
+     "label": "B",
+     "text": "He worked at many different jobs."
+    },
+    {
+     "label": "C",
+     "text": "He worked with the chicle for a year."
+    },
+    {
+     "label": "D",
+     "text": "He met General Santa Anna."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-5"
+  },
+  {
+   "n": 6,
+   "stem": "Chicle gum became more popular than wax gum because it —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "had a good name"
+    },
+    {
+     "label": "G",
+     "text": "seemed smoother"
+    },
+    {
+     "label": "H",
+     "text": "was wrapped in paper"
+    },
+    {
+     "label": "J",
+     "text": "cost only one cent"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-6"
+  },
+  {
+   "n": 7,
+   "stem": "If the author added information about gum flavors, in which paragraph would it fit best?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "7"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-7"
+  },
+  {
+   "n": 8,
+   "stem": "Read this dictionary entry. material (me-tîr´e-el) n. 1. Cloth. 2. Tool for a task. 3. Part out of which a thing is made. adj. 4. Very necessary. In paragraph 2, which meaning of material is used?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-8"
+  },
+  {
+   "n": 9,
+   "stem": "In paragraph 7, what does the word confident mean?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "certain of her actions"
+    },
+    {
+     "label": "B",
+     "text": "curious about people"
+    },
+    {
+     "label": "C",
+     "text": "pleasant to work with"
+    },
+    {
+     "label": "D",
+     "text": "quick to say something"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-9"
+  },
+  {
+   "n": 10,
+   "stem": "Which word means the opposite of success in paragraph 12?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "plan"
+    },
+    {
+     "label": "G",
+     "text": "failure"
+    },
+    {
+     "label": "H",
+     "text": "victory"
+    },
+    {
+     "label": "J",
+     "text": "trick"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-10"
+  },
+  {
+   "n": 11,
+   "stem": "Which paragraph shows that Jenny feels better being around other students?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "9"
+    },
+    {
+     "label": "D",
+     "text": "12"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-11"
+  },
+  {
+   "n": 12,
+   "stem": "Read this sentence about the story. The students thought of different ways to locate Lucky’s owners. Which detail from the story supports this sentence?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "“Are you willing to lead the class in this project?”"
+    },
+    {
+     "label": "G",
+     "text": "“We should call the newspaper.”"
+    },
+    {
+     "label": "H",
+     "text": "“We’ve been looking all over for our cat!”"
+    },
+    {
+     "label": "J",
+     "text": "“Thank you for returning Lucky.”"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-12"
+  },
+  {
+   "n": 13,
+   "stem": "At the end of the story, the students have pizza because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the shelter has pizza sent to thank the students"
+    },
+    {
+     "label": "B",
+     "text": "the teacher has pizza sent to reward the class"
+    },
+    {
+     "label": "C",
+     "text": "Jenny’s parents send pizza to help her make friends"
+    },
+    {
+     "label": "D",
+     "text": "Lucky’s owners send pizza to thank the class"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-13"
+  },
+  {
+   "n": 14,
+   "stem": "Read the events from the story below. Jenny finds a lost kitten named Lucky. The students start working to find Lucky’s owners. Lucky’s owners come to pick him up. Which event belongs between the first and second events?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Mrs. March decides to allow the class to find Lucky’s owners."
+    },
+    {
+     "label": "G",
+     "text": "Jenny sits with some other students and laughs comfortably."
+    },
+    {
+     "label": "H",
+     "text": "Jenny tells the students to begin making posters of Lucky."
+    },
+    {
+     "label": "J",
+     "text": "Two students report that the shelter may know Lucky’s owners."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-14"
+  },
+  {
+   "n": 15,
+   "stem": "What is this story mainly about?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A lost kitten shows up at an elementary school at recess to search for his owners."
+    },
+    {
+     "label": "B",
+     "text": "A strong girl leads her class in making posters for a school project."
+    },
+    {
+     "label": "C",
+     "text": "A shy young girl becomes a leader while working to find a lost kitten’s home."
+    },
+    {
+     "label": "D",
+     "text": "A group of students try to help a girl feel at home in her new school."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-15"
+  },
+  {
+   "n": 16,
+   "stem": "What lesson does Jenny learn in this story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Sometimes a student feels nervous around other students."
+    },
+    {
+     "label": "G",
+     "text": "Finding a lost kitten can be hard work."
+    },
+    {
+     "label": "H",
+     "text": "If you want something done right, do it yourself."
+    },
+    {
+     "label": "J",
+     "text": "Working together helps people feel like part of a group."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-16"
+  },
+  {
+   "n": 17,
+   "stem": "What is another word for recognize as it is used in paragraph 2?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "keep"
+    },
+    {
+     "label": "B",
+     "text": "make"
+    },
+    {
+     "label": "C",
+     "text": "know"
+    },
+    {
+     "label": "D",
+     "text": "watch"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-17"
+  },
+  {
+   "n": 18,
+   "stem": "Why did the author most likely include paragraph 4?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "To explain how fireflies make light"
+    },
+    {
+     "label": "G",
+     "text": "To describe different kinds of fireflies"
+    },
+    {
+     "label": "H",
+     "text": "To show how much power fireflies use"
+    },
+    {
+     "label": "J",
+     "text": "To describe why fireflies make light"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-18"
+  },
+  {
+   "n": 19,
+   "stem": "Which of these is the best choice for a heading for paragraph 5?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The Cool Light of Fireflies"
+    },
+    {
+     "label": "B",
+     "text": "Watching Fireflies Flash"
+    },
+    {
+     "label": "C",
+     "text": "Understanding the Patterns"
+    },
+    {
+     "label": "D",
+     "text": "Learning From Fireflies"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-19"
+  },
+  {
+   "n": 20,
+   "stem": "What happens when gas flows through tubes in the firefly?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The firefly lights up."
+    },
+    {
+     "label": "G",
+     "text": "The gas begins to fade."
+    },
+    {
+     "label": "H",
+     "text": "The gas heats up."
+    },
+    {
+     "label": "J",
+     "text": "The firefly flies in the sky."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-20"
+  },
+  {
+   "n": 21,
+   "stem": "According to the article, a firefly’s light is different from a light bulb’s light because the firefly’s light —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "shines brighter"
+    },
+    {
+     "label": "B",
+     "text": "does not fade"
+    },
+    {
+     "label": "C",
+     "text": "lasts longer"
+    },
+    {
+     "label": "D",
+     "text": "is not hot"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-21"
+  },
+  {
+   "n": 22,
+   "stem": "A student asks this question about the article. How many different kinds of fireflies are there? Which paragraph answers this question?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2"
+    },
+    {
+     "label": "G",
+     "text": "3"
+    },
+    {
+     "label": "H",
+     "text": "4"
+    },
+    {
+     "label": "J",
+     "text": "5"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-22"
+  },
+  {
+   "n": 23,
+   "stem": "The author most likely wrote this article in order to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "tell why fireflies light up"
+    },
+    {
+     "label": "B",
+     "text": "give facts about fireflies"
+    },
+    {
+     "label": "C",
+     "text": "show how fireflies help doctors"
+    },
+    {
+     "label": "D",
+     "text": "compare a firefly to a light bulb"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-23"
+  },
+  {
+   "n": 24,
+   "stem": "Read this sentence from the article. The male firefly flies around in the sky while the female firefly stays close to the ground. Which word sounds exactly like male but is spelled in a different way and has a different meaning?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "meal"
+    },
+    {
+     "label": "G",
+     "text": "mile"
+    },
+    {
+     "label": "H",
+     "text": "mall"
+    },
+    {
+     "label": "J",
+     "text": "mail"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-24"
+  },
+  {
+   "n": 25,
+   "stem": "Which sentence is an opinion from the article?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "It is a pleasure to watch fireflies."
+    },
+    {
+     "label": "B",
+     "text": "Fireflies flash their lights at night."
+    },
+    {
+     "label": "C",
+     "text": "Fireflies waste less power than light bulbs."
+    },
+    {
+     "label": "D",
+     "text": "It is common for female fireflies to fly low."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-25"
+  },
+  {
+   "n": 26,
+   "stem": "To find the meaning of the word puzzled, a student should look in —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "an encyclopedia"
+    },
+    {
+     "label": "G",
+     "text": "an almanac"
+    },
+    {
+     "label": "H",
+     "text": "a dictionary"
+    },
+    {
+     "label": "J",
+     "text": "an atlas"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-26"
+  },
+  {
+   "n": 27,
+   "stem": "Read this dictionary entry. perform (per-fôrm´) v. 1. To put on a show in public. 2. To take action on. 3. To complete a task. 4. To do something as promised. In paragraph 3, which meaning of perform is used?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-27"
+  },
+  {
+   "n": 28,
+   "stem": "Read this sentence from paragraph 10. His lungs felt like balloons ready to burst! This sentence tells the reader that Robert is —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "afraid that Houdini is a fake"
+    },
+    {
+     "label": "G",
+     "text": "holding his breath in excitement"
+    },
+    {
+     "label": "H",
+     "text": "frightened that Cirnoc will escape"
+    },
+    {
+     "label": "J",
+     "text": "hurt when his hand is squeezed"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-28"
+  },
+  {
+   "n": 29,
+   "stem": "Another word for streaming as it is used in paragraph 12 is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "appearing"
+    },
+    {
+     "label": "B",
+     "text": "jumping"
+    },
+    {
+     "label": "C",
+     "text": "beginning"
+    },
+    {
+     "label": "D",
+     "text": "flowing"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-29"
+  },
+  {
+   "n": 30,
+   "stem": "Why is Robert eager to see Houdini?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "He reads books about Houdini."
+    },
+    {
+     "label": "G",
+     "text": "He wants to see Cirnoc on stage."
+    },
+    {
+     "label": "H",
+     "text": "He is a big fan of Houdini."
+    },
+    {
+     "label": "J",
+     "text": "He likes to watch Cirnoc escape."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-30"
+  },
+  {
+   "n": 31,
+   "stem": "Why does Robert not care that the wind is cold?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He is wearing a warm coat and hat."
+    },
+    {
+     "label": "B",
+     "text": "He knows the trip to his grandmother’s is brief."
+    },
+    {
+     "label": "C",
+     "text": "He is thinking about the show that he will see."
+    },
+    {
+     "label": "D",
+     "text": "He knows he will have some warm soup."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-31"
+  },
+  {
+   "n": 32,
+   "stem": "On stage, Houdini can best be described as —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "foolish"
+    },
+    {
+     "label": "G",
+     "text": "exciting"
+    },
+    {
+     "label": "H",
+     "text": "fake"
+    },
+    {
+     "label": "J",
+     "text": "cheerful"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-32"
+  },
+  {
+   "n": 33,
+   "stem": "How does the reader know that Robert’s grandmother is a fan of Houdini’s career?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "She encourages Robert to practice tricks like Houdini."
+    },
+    {
+     "label": "B",
+     "text": "She tells Robert what will happen in the act."
+    },
+    {
+     "label": "C",
+     "text": "She has seen Houdini perform and has a favorite story about him."
+    },
+    {
+     "label": "D",
+     "text": "She writes down stories about Houdini in a notebook."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-33"
+  },
+  {
+   "n": 34,
+   "stem": "What conclusion can the reader make about Houdini from this story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "He appears on stage nightly."
+    },
+    {
+     "label": "G",
+     "text": "He is a clever man."
+    },
+    {
+     "label": "H",
+     "text": "He enjoys making fun of others."
+    },
+    {
+     "label": "J",
+     "text": "He has a quick temper."
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-34"
+  },
+  {
+   "n": 35,
+   "stem": "The author most likely wrote this story to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "explain about stage shows"
+    },
+    {
+     "label": "B",
+     "text": "tell about a famous escape artist"
+    },
+    {
+     "label": "C",
+     "text": "show how artists learn their jobs"
+    },
+    {
+     "label": "D",
+     "text": "explain why people love the theater"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2007_SOLPass",
+   "id": "grade-4-english-35"
+  },
+  {
+   "n": 1,
+   "stem": "The details in paragraphs 6–8 show —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the problem that Callie faces"
+    },
+    {
+     "label": "B",
+     "text": "when the tickets were bought"
+    },
+    {
+     "label": "C",
+     "text": "how many hours the cleanup will take"
+    },
+    {
+     "label": "D",
+     "text": "the feelings Tamara has about the project"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-36"
+  },
+  {
+   "n": 2,
+   "stem": "Paragraphs 11–14 show that Callie’s mother —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "thinks Mrs. Baker is an excellent neighbor"
+    },
+    {
+     "label": "G",
+     "text": "agrees that the girls should go to Fun World"
+    },
+    {
+     "label": "H",
+     "text": "believes Callie can solve her own problems"
+    },
+    {
+     "label": "J",
+     "text": "knows that neighborhood gardens are useful"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-37"
+  },
+  {
+   "n": 3,
+   "stem": "Paragraph 15 is mostly about the way Callie —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "refuses to speak to her friend at school"
+    },
+    {
+     "label": "B",
+     "text": "spends an evening talking to her mother"
+    },
+    {
+     "label": "C",
+     "text": "knows she will enjoy going to Fun World"
+    },
+    {
+     "label": "D",
+     "text": "struggles with her promise to her neighbor"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-38"
+  },
+  {
+   "n": 4,
+   "stem": "Why does Mrs. Baker need Callie’s help?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The neighbors do not have time to clean the lot."
+    },
+    {
+     "label": "G",
+     "text": "The neighborhood wants to start a garden in an empty lot filled with trash."
+    },
+    {
+     "label": "H",
+     "text": "The other children will not help because Fun World is opening."
+    },
+    {
+     "label": "J",
+     "text": "The city is asking people to clear the empty lots near their homes."
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-39"
+  },
+  {
+   "n": 5,
+   "stem": "Which heading would be best for paragraph 2?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Strange Vacations"
+    },
+    {
+     "label": "B",
+     "text": "One Main Difference"
+    },
+    {
+     "label": "C",
+     "text": "A Swedish Hotel"
+    },
+    {
+     "label": "D",
+     "text": "As Cold as Ice"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-40"
+  },
+  {
+   "n": 6,
+   "stem": "Read this dictionary entry. support (sə-pôrt’) v. 1. To give help. 2. To hold up. 3. To keep strong. 4. To provide for. Which meaning of support is used in paragraph 4?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "To give help"
+    },
+    {
+     "label": "G",
+     "text": "To hold up"
+    },
+    {
+     "label": "H",
+     "text": "To keep strong"
+    },
+    {
+     "label": "J",
+     "text": "To provide for"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-41"
+  },
+  {
+   "n": 7,
+   "stem": "The author includes paragraphs 5 and 6 most likely to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "describe how guests can be comfortable at the Ice Hotel"
+    },
+    {
+     "label": "B",
+     "text": "persuade people to visit the Ice Hotel"
+    },
+    {
+     "label": "C",
+     "text": "tell who would enjoy the Ice Hotel"
+    },
+    {
+     "label": "D",
+     "text": "show that new services are offered at the Ice Hotel"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-42"
+  },
+  {
+   "n": 8,
+   "stem": "Which sentence about the Ice Hotel is an opinion?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Guests can have meals brought to their rooms."
+    },
+    {
+     "label": "G",
+     "text": "The temperature inside is often below freezing."
+    },
+    {
+     "label": "H",
+     "text": "Artists change the appearance of the Ice Hotel."
+    },
+    {
+     "label": "J",
+     "text": "Building the Ice Hotel is worth the hard work."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-43"
+  },
+  {
+   "n": 9,
+   "stem": "Which detail about the hotel most likely attracts visitors’ attention?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The hotel has room service."
+    },
+    {
+     "label": "B",
+     "text": "The workers are friendly and welcoming."
+    },
+    {
+     "label": "C",
+     "text": "The inside of the hotel sparkles and shines."
+    },
+    {
+     "label": "D",
+     "text": "The walls are four feet thick."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-44"
+  },
+  {
+   "n": 10,
+   "stem": "Branch Rickey wanted Jackie to be part of the Brooklyn Dodgers because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "more Americans were becoming fans of Jackie"
+    },
+    {
+     "label": "G",
+     "text": "he knew the players on the team respected Jackie"
+    },
+    {
+     "label": "H",
+     "text": "he wanted Jackie to help make the team better"
+    },
+    {
+     "label": "J",
+     "text": "Jackie was planning to leave the Negro Leagues"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-45"
+  },
+  {
+   "n": 11,
+   "stem": "The author wrote this article most likely to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "compare modern sports with those Jackie Robinson played as a child"
+    },
+    {
+     "label": "B",
+     "text": "tell how Jackie Robinson played a role in the history of baseball"
+    },
+    {
+     "label": "C",
+     "text": "describe how Jackie Robinson helped the Brooklyn Dodgers"
+    },
+    {
+     "label": "D",
+     "text": "explain how Jackie Robinson became a member of the Brooklyn Dodgers"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-46"
+  },
+  {
+   "n": 12,
+   "stem": "Based on lines 1–4 of the poem, which sentence is correct?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The thieves are having trouble seeing."
+    },
+    {
+     "label": "G",
+     "text": "The thieves are stealing silver objects."
+    },
+    {
+     "label": "H",
+     "text": "The light of the moon is shining on the thieves."
+    },
+    {
+     "label": "J",
+     "text": "The noise outside is making the thieves nervous."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-47"
+  },
+  {
+   "n": 13,
+   "stem": "Lines 5–8 are important to the poem because they reveal —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "who the thieves are"
+    },
+    {
+     "label": "B",
+     "text": "what the thieves wear"
+    },
+    {
+     "label": "C",
+     "text": "where the thieves go"
+    },
+    {
+     "label": "D",
+     "text": "why the thieves are out"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-48"
+  },
+  {
+   "n": 14,
+   "stem": "The thieves are out at night because they are —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "following their mother"
+    },
+    {
+     "label": "G",
+     "text": "looking for food"
+    },
+    {
+     "label": "H",
+     "text": "hunting for jewels"
+    },
+    {
+     "label": "J",
+     "text": "playing in the moonlight"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-49"
+  },
+  {
+   "n": 15,
+   "stem": "What is the speaker doing in the poem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Feeding the dog"
+    },
+    {
+     "label": "B",
+     "text": "Chasing animals"
+    },
+    {
+     "label": "C",
+     "text": "Sitting on the grass"
+    },
+    {
+     "label": "D",
+     "text": "Watching from inside"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-50"
+  },
+  {
+   "n": 16,
+   "stem": "The author includes the first paragraph in order to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "list activities people like the most"
+    },
+    {
+     "label": "G",
+     "text": "explain why the area is large"
+    },
+    {
+     "label": "H",
+     "text": "provide details about the area"
+    },
+    {
+     "label": "J",
+     "text": "describe the many bodies of water"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-51"
+  },
+  {
+   "n": 17,
+   "stem": "What does cautioned mean in the paragraph from the introduction?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "expecting more time"
+    },
+    {
+     "label": "B",
+     "text": "provided information"
+    },
+    {
+     "label": "C",
+     "text": "wanting help"
+    },
+    {
+     "label": "D",
+     "text": "given a warning"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-52"
+  },
+  {
+   "n": 18,
+   "stem": "Read this thesaurus entry. complete adj. — entire, finished, perfect, total Which word best replaces complete in the “Hiking Essentials” section?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "entire"
+    },
+    {
+     "label": "G",
+     "text": "finished"
+    },
+    {
+     "label": "H",
+     "text": "perfect"
+    },
+    {
+     "label": "J",
+     "text": "total"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-53"
+  },
+  {
+   "n": 19,
+   "stem": "Based on the information in the “Keep an Eye to the Sky” section, the reader can tell that the weather —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "is beautiful throughout the year"
+    },
+    {
+     "label": "B",
+     "text": "can change suddenly during any season"
+    },
+    {
+     "label": "C",
+     "text": "is calm during much of fall and winter"
+    },
+    {
+     "label": "D",
+     "text": "can best be enjoyed during warmer months"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-54"
+  },
+  {
+   "n": 20,
+   "stem": "In which section would the author most likely add information about planning when to hike?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The introduction"
+    },
+    {
+     "label": "G",
+     "text": "Hiking Essentials"
+    },
+    {
+     "label": "H",
+     "text": "Set a Turnaround Time"
+    },
+    {
+     "label": "J",
+     "text": "Hike Smart"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-55"
+  },
+  {
+   "n": 21,
+   "stem": "The flier shows that Thatcher National Wilderness Area has all of these EXCEPT —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "weather that allows for many outdoor activities"
+    },
+    {
+     "label": "B",
+     "text": "staff who take hikers up the mountains"
+    },
+    {
+     "label": "C",
+     "text": "areas that present safety problems for visitors"
+    },
+    {
+     "label": "D",
+     "text": "hiking trails that contribute to its popularity"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-56"
+  },
+  {
+   "n": 22,
+   "stem": "Which sentence is the best summary of the flier?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Visitors who take the time to prepare will enjoy the activities in Thatcher National Wilderness Area."
+    },
+    {
+     "label": "G",
+     "text": "Hikers must pack the right type of gear for the trails in Thatcher National Wilderness Area."
+    },
+    {
+     "label": "H",
+     "text": "Visitors should dress warmly for hiking in the mountains of Thatcher National Wilderness Area."
+    },
+    {
+     "label": "J",
+     "text": "Hikers can fish and camp in certain areas around the lakes and streams of Thatcher National Wilderness Area."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-57"
+  },
+  {
+   "n": 23,
+   "stem": "The author includes information about the setting in paragraph 1 to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "tell why there is a school in the story"
+    },
+    {
+     "label": "B",
+     "text": "describe the weather on the prairie"
+    },
+    {
+     "label": "C",
+     "text": "help the reader understand the time period of the story"
+    },
+    {
+     "label": "D",
+     "text": "show that the house is beside a creek"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-58"
+  },
+  {
+   "n": 24,
+   "stem": "Why does the author include paragraph 4?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "To show how Benjamin felt riding in a wagon"
+    },
+    {
+     "label": "G",
+     "text": "To show that Benjamin’s family took a long trip"
+    },
+    {
+     "label": "H",
+     "text": "To explain why Benjamin’s family moved"
+    },
+    {
+     "label": "J",
+     "text": "To explain why Benjamin had few books"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-59"
+  },
+  {
+   "n": 25,
+   "stem": "What is paragraph 13 mainly about?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Benjamin is anxious when he reads the letter Mr. Peters sends."
+    },
+    {
+     "label": "B",
+     "text": "Benjamin goes to the general store with Papa and looks for a letter in the mail."
+    },
+    {
+     "label": "C",
+     "text": "Benjamin waits for weeks to receive a letter because of the long distance."
+    },
+    {
+     "label": "D",
+     "text": "Benjamin hopes to receive a letter and is delighted once it arrives with good news."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-60"
+  },
+  {
+   "n": 26,
+   "stem": "Why does Papa tell Benjamin that he can pack two books on the wagon?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The trip is too short to read more than a couple of books."
+    },
+    {
+     "label": "G",
+     "text": "The family has a small space to fit the books."
+    },
+    {
+     "label": "H",
+     "text": "Benjamin is encouraged to bring books for his sister."
+    },
+    {
+     "label": "J",
+     "text": "Papa will buy books when they arrive at their new home."
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-61"
+  },
+  {
+   "n": 27,
+   "stem": "Benjamin begins thinking of faraway places when he —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "hears about a library that is in another town"
+    },
+    {
+     "label": "B",
+     "text": "sees himself as a character in a story he is reading"
+    },
+    {
+     "label": "C",
+     "text": "notices a book in the schoolhouse after school"
+    },
+    {
+     "label": "D",
+     "text": "decides to write a letter asking about a book wagon"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-62"
+  },
+  {
+   "n": 28,
+   "stem": "What is the main conflict of the story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Benjamin wants to read a book during the summer."
+    },
+    {
+     "label": "G",
+     "text": "Papa will not allow Benjamin to take more books to Kansas."
+    },
+    {
+     "label": "H",
+     "text": "Benjamin is looking for more adventure books to read."
+    },
+    {
+     "label": "J",
+     "text": "Miss Cotter does not own the book that Benjamin wants."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-63"
+  },
+  {
+   "n": 29,
+   "stem": "What is the most important reason Miss Cotter tells Benjamin about Mr. Peters?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "She must return the books Benjamin wants to read."
+    },
+    {
+     "label": "B",
+     "text": "She wonders if Benjamin has been to the library."
+    },
+    {
+     "label": "C",
+     "text": "She thinks Benjamin could help him start a book wagon."
+    },
+    {
+     "label": "D",
+     "text": "She wants Benjamin to wait for him to arrive."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-64"
+  },
+  {
+   "n": 30,
+   "stem": "After Benjamin reads the letter, he most likely feels —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "amazed that Mr. Peters sent a reply"
+    },
+    {
+     "label": "G",
+     "text": "thrilled that the book wagon is coming to his town"
+    },
+    {
+     "label": "H",
+     "text": "honored that Mr. Peters is coming to visit him"
+    },
+    {
+     "label": "J",
+     "text": "relieved that the wagon has many books"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-65"
+  },
+  {
+   "n": 31,
+   "stem": "Which word is a synonym for settle as it is used in paragraph 1?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "meet"
+    },
+    {
+     "label": "B",
+     "text": "arrive"
+    },
+    {
+     "label": "C",
+     "text": "live"
+    },
+    {
+     "label": "D",
+     "text": "explore"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-66"
+  },
+  {
+   "n": 32,
+   "stem": "What does jolt mean in paragraph 2?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "crashing sound"
+    },
+    {
+     "label": "G",
+     "text": "sudden movement"
+    },
+    {
+     "label": "H",
+     "text": "gushing water"
+    },
+    {
+     "label": "J",
+     "text": "certain danger"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-67"
+  },
+  {
+   "n": 33,
+   "stem": "Which question is answered in the “Searching for a Buried Treasure” section of the article?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "How long did it take David Hawley to find the Arabia?"
+    },
+    {
+     "label": "B",
+     "text": "Why did David Hawley look for the Arabia somewhere other than in the Missouri River?"
+    },
+    {
+     "label": "C",
+     "text": "In what year did David Hawley find out about the Arabia?"
+    },
+    {
+     "label": "D",
+     "text": "What city did David Hawley travel to in order to gather information about the Arabia?"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-68"
+  },
+  {
+   "n": 34,
+   "stem": "Paragraph 11 helps the reader to understand that the pioneers —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "packed their supplies carefully"
+    },
+    {
+     "label": "G",
+     "text": "planned to move into cabins already built for them"
+    },
+    {
+     "label": "H",
+     "text": "were fearful of the hard life ahead of them"
+    },
+    {
+     "label": "J",
+     "text": "knew supplies would be hard to find where they were going"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-69"
+  },
+  {
+   "n": 35,
+   "stem": "Which sentence best states the main idea of paragraph 14?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The history of the Arabia has been preserved in a museum."
+    },
+    {
+     "label": "B",
+     "text": "People want to see the many treasures that were once part of the Arabia."
+    },
+    {
+     "label": "C",
+     "text": "Hawley wanted people to know about the pioneers on the Arabia."
+    },
+    {
+     "label": "D",
+     "text": "Treasures from the Arabia are worth more today than they were a century ago."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-70"
+  },
+  {
+   "n": 36,
+   "stem": "According to the article, which part of the ship was uncovered first?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The hull"
+    },
+    {
+     "label": "G",
+     "text": "The paddle wheel"
+    },
+    {
+     "label": "H",
+     "text": "The engines"
+    },
+    {
+     "label": "J",
+     "text": "The pilot house"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-71"
+  },
+  {
+   "n": 37,
+   "stem": "In which word does -al have the same meaning as it does in signal?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "carnival"
+    },
+    {
+     "label": "B",
+     "text": "equal"
+    },
+    {
+     "label": "C",
+     "text": "natural"
+    },
+    {
+     "label": "D",
+     "text": "actual"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-72"
+  },
+  {
+   "n": 38,
+   "stem": "According to the article, the objects that were discovered showed —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "what the lives of the pioneers on the steamboat were like"
+    },
+    {
+     "label": "G",
+     "text": "that steamboats could carry a large amount of cargo"
+    },
+    {
+     "label": "H",
+     "text": "where the people on the steamboat came from"
+    },
+    {
+     "label": "J",
+     "text": "that there was enough food for everyone on the steamboat"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-73"
+  },
+  {
+   "n": 39,
+   "stem": "The accident most likely happened because the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "boat was traveling quickly"
+    },
+    {
+     "label": "B",
+     "text": "captain was inside the pilot house"
+    },
+    {
+     "label": "C",
+     "text": "cargo on the boat was too heavy"
+    },
+    {
+     "label": "D",
+     "text": "captain was unable to see under the water"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-74"
+  },
+  {
+   "n": 40,
+   "stem": "Which sentence did the author include in the article to suggest that the project was expensive?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "He wondered whether it might be possible to find the ship."
+    },
+    {
+     "label": "G",
+     "text": "Curious, he went to libraries and gathered information."
+    },
+    {
+     "label": "H",
+     "text": "Recovering the steamboat was a massive task."
+    },
+    {
+     "label": "J",
+     "text": "Hawley’s brother, father, and friends worked with him."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-75"
+  },
+  {
+   "n": 41,
+   "stem": "The author most likely wrote the article to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "explain how people lived in the past"
+    },
+    {
+     "label": "B",
+     "text": "create a story about a shipwreck"
+    },
+    {
+     "label": "C",
+     "text": "tell about an early form of transportation"
+    },
+    {
+     "label": "D",
+     "text": "describe a discovery from the past"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-76"
+  },
+  {
+   "n": 42,
+   "stem": "The article supports the idea that —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "David Hawley did most of the work to recover the ship"
+    },
+    {
+     "label": "G",
+     "text": "the Arabia was the largest steamboat of its time"
+    },
+    {
+     "label": "H",
+     "text": "David Hawley enjoys hunting for lost treasures"
+    },
+    {
+     "label": "J",
+     "text": "the Arabia was the first shipwreck to be dug out of river mud"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_VDOE",
+   "id": "grade-4-english-77"
+  },
+  {
+   "n": 1,
+   "stem": "Which question is answered in paragraph 1?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "How many carrots are eaten?"
+    },
+    {
+     "label": "B",
+     "text": "Why is Daniel growing carrots?"
+    },
+    {
+     "label": "C",
+     "text": "Who decides to make a scarecrow?"
+    },
+    {
+     "label": "D",
+     "text": "Where does Daniel place the scarecrow?"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-78"
+  },
+  {
+   "n": 2,
+   "stem": "The main purpose of paragraph 2 is to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "describe the garden"
+    },
+    {
+     "label": "G",
+     "text": "present the problem"
+    },
+    {
+     "label": "H",
+     "text": "compare the brothers"
+    },
+    {
+     "label": "J",
+     "text": "introduce the characters"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-79"
+  },
+  {
+   "n": 4,
+   "stem": "To move quickly. Which meaning of snapped is used in paragraph 12? A 1 B 2 C 3 D 4 4. In paragraph 16, the word situation means —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "the problem that is faced"
+    },
+    {
+     "label": "G",
+     "text": "the plan that is made"
+    },
+    {
+     "label": "H",
+     "text": "a job or position"
+    },
+    {
+     "label": "J",
+     "text": "an area or place"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-80"
+  },
+  {
+   "n": 5,
+   "stem": "How does Daniel find the idea to build a scarecrow?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "By talking with farmers"
+    },
+    {
+     "label": "B",
+     "text": "From doing school projects"
+    },
+    {
+     "label": "C",
+     "text": "By listening to his friends"
+    },
+    {
+     "label": "D",
+     "text": "From reading books"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-81"
+  },
+  {
+   "n": 6,
+   "stem": "Why do Daniel and his brother decide to stay in the garden?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "To protect the remaining carrots"
+    },
+    {
+     "label": "G",
+     "text": "To plant new carrots"
+    },
+    {
+     "label": "H",
+     "text": "To keep the rabbits away from the scarecrow"
+    },
+    {
+     "label": "J",
+     "text": "To capture the rabbits"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-82"
+  },
+  {
+   "n": 7,
+   "stem": "Based on the story, which statement most likely describes Daniel’s father?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He is happy to see that his sons enjoy gardening."
+    },
+    {
+     "label": "B",
+     "text": "He is disappointed when Daniel falls asleep."
+    },
+    {
+     "label": "C",
+     "text": "He believes that his sons should try to save the carrots."
+    },
+    {
+     "label": "D",
+     "text": "He thinks that Daniel needs to start a new project."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-83"
+  },
+  {
+   "n": 8,
+   "stem": "Why does the narrator call himself the new Captain of the Carrots?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "He wants to see the rabbits up close."
+    },
+    {
+     "label": "G",
+     "text": "He likes to pretend he has a new name."
+    },
+    {
+     "label": "H",
+     "text": "He enjoys spending time in the garden."
+    },
+    {
+     "label": "J",
+     "text": "He is taking the place of the scarecrow."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-84"
+  },
+  {
+   "n": 9,
+   "stem": "How will Daniel most likely feel the day after the contest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Tired from staying up so late"
+    },
+    {
+     "label": "B",
+     "text": "Thankful for his brother’s help"
+    },
+    {
+     "label": "C",
+     "text": "Worried about the rabbits returning"
+    },
+    {
+     "label": "D",
+     "text": "Sad that the scarecrow’s hat is missing"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-85"
+  },
+  {
+   "n": 10,
+   "stem": "The main reason for removing pebbles and shells from the sand is to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "keep the card from looking homemade"
+    },
+    {
+     "label": "G",
+     "text": "help to keep the work area clean"
+    },
+    {
+     "label": "H",
+     "text": "allow the surface of the card to be smooth"
+    },
+    {
+     "label": "J",
+     "text": "make the cleanup time faster"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-86"
+  },
+  {
+   "n": 11,
+   "stem": "According to the steps, which of these should be used to catch the loose sand from the card?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A paper plate"
+    },
+    {
+     "label": "B",
+     "text": "A small container"
+    },
+    {
+     "label": "C",
+     "text": "A paper towel"
+    },
+    {
+     "label": "D",
+     "text": "A piece of construction paper"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-87"
+  },
+  {
+   "n": 12,
+   "stem": "Read this chart of steps: • Fold a piece of construction paper. • Draw a design. • Spread the glue. • Add the sand. • Tap the sand off the card. • Let the card dry. • Write a message. According to the directions, which of these steps is out of order?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Spread the glue."
+    },
+    {
+     "label": "G",
+     "text": "Tap the sand off the card."
+    },
+    {
+     "label": "H",
+     "text": "Let the card dry."
+    },
+    {
+     "label": "J",
+     "text": "Write a message."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-88"
+  },
+  {
+   "n": 13,
+   "stem": "Which two words from the flier are opposites?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "colorful, beautiful"
+    },
+    {
+     "label": "B",
+     "text": "gather, scatter"
+    },
+    {
+     "label": "C",
+     "text": "top, front"
+    },
+    {
+     "label": "D",
+     "text": "many, enough"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-89"
+  },
+  {
+   "n": 14,
+   "stem": "In the section “Another Great Tip,” the author uses words such as “first,” “next,” and “then” in order to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "put the information into steps"
+    },
+    {
+     "label": "G",
+     "text": "list several ways to solve a problem"
+    },
+    {
+     "label": "H",
+     "text": "show different ways to complete something"
+    },
+    {
+     "label": "J",
+     "text": "arrange the information from most important to least important"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-90"
+  },
+  {
+   "n": 15,
+   "stem": "The section titled “Another Great Tip” is mainly about how to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "make wet sand dry again"
+    },
+    {
+     "label": "B",
+     "text": "draw beautiful pictures"
+    },
+    {
+     "label": "C",
+     "text": "make colored sand"
+    },
+    {
+     "label": "D",
+     "text": "use food coloring"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-91"
+  },
+  {
+   "n": 16,
+   "stem": "Which of these would be the best heading for the last paragraph?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Sand art gifts"
+    },
+    {
+     "label": "G",
+     "text": "Time for cleanup"
+    },
+    {
+     "label": "H",
+     "text": "Giving away cards"
+    },
+    {
+     "label": "J",
+     "text": "Other sand art ideas"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-92"
+  },
+  {
+   "n": 17,
+   "stem": "Which sentence about this flier is a fact?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Colorful sand makes beautiful pictures."
+    },
+    {
+     "label": "B",
+     "text": "Sand can be found on the beach."
+    },
+    {
+     "label": "C",
+     "text": "Cards will help a person feel better."
+    },
+    {
+     "label": "D",
+     "text": "Markers are easier to use than pencils."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-93"
+  },
+  {
+   "n": 18,
+   "stem": "In paragraph 1, the author uses the phrase “a million tapping feet” to show that —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "the roof leaks"
+    },
+    {
+     "label": "G",
+     "text": "it is raining hard"
+    },
+    {
+     "label": "H",
+     "text": "it is difficult to hear inside"
+    },
+    {
+     "label": "J",
+     "text": "thunder is booming outside"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-94"
+  },
+  {
+   "n": 19,
+   "stem": "Read this sentence from paragraph 8. “Just then, the sun started to poke through the clouds, and the campers walked outside.” This sentence mostly appeals to the reader’s sense of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "hearing"
+    },
+    {
+     "label": "B",
+     "text": "sight"
+    },
+    {
+     "label": "C",
+     "text": "smell"
+    },
+    {
+     "label": "D",
+     "text": "touch"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-95"
+  },
+  {
+   "n": 20,
+   "stem": "The main idea of paragraph 9 is —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "how to capture the clothespins"
+    },
+    {
+     "label": "G",
+     "text": "where the game will be played"
+    },
+    {
+     "label": "H",
+     "text": "how to play the game"
+    },
+    {
+     "label": "J",
+     "text": "when the winners will receive the prize"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-96"
+  },
+  {
+   "n": 21,
+   "stem": "What does dimmed mean in paragraph 20?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "glowed"
+    },
+    {
+     "label": "B",
+     "text": "flashed"
+    },
+    {
+     "label": "C",
+     "text": "disappeared"
+    },
+    {
+     "label": "D",
+     "text": "faded"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-97"
+  },
+  {
+   "n": 22,
+   "stem": "Why does Nina add feathers to the other campers’ kites?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "They ask her to fix their kites."
+    },
+    {
+     "label": "G",
+     "text": "She thinks their kites will look better."
+    },
+    {
+     "label": "H",
+     "text": "She believes their kites will have trouble flying."
+    },
+    {
+     "label": "J",
+     "text": "They want to have kites that look like peacocks."
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-98"
+  },
+  {
+   "n": 23,
+   "stem": "Why does Nina insist her ankle is fine?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "She wants to perform in the talent show."
+    },
+    {
+     "label": "B",
+     "text": "She does not want to see the nurse."
+    },
+    {
+     "label": "C",
+     "text": "She does not think she has hurt herself."
+    },
+    {
+     "label": "D",
+     "text": "She wants to walk to the dining hall by herself."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-99"
+  },
+  {
+   "n": 24,
+   "stem": "Which sentence describes Nina before the talent show?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "She is usually telling others what to do."
+    },
+    {
+     "label": "G",
+     "text": "She is careless when she plays outdoors."
+    },
+    {
+     "label": "H",
+     "text": "She is an important leader for the Bear Cabin campers."
+    },
+    {
+     "label": "J",
+     "text": "She is a good friend to everyone at Oak Camp."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-100"
+  },
+  {
+   "n": 25,
+   "stem": "The main reason the author wrote this story is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "tell about the different events held at summer camp"
+    },
+    {
+     "label": "B",
+     "text": "describe the acts in a talent contest"
+    },
+    {
+     "label": "C",
+     "text": "show how a girl learns about herself and others"
+    },
+    {
+     "label": "D",
+     "text": "explain how friends try to solve a problem"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-101"
+  },
+  {
+   "n": 26,
+   "stem": "Which question is answered in paragraph 7?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "How do wolves find food in the snow?"
+    },
+    {
+     "label": "G",
+     "text": "How far may wolves travel in search of food?"
+    },
+    {
+     "label": "H",
+     "text": "How do the pups help the pack hunt for food?"
+    },
+    {
+     "label": "J",
+     "text": "How old are the pups when they join the hunt for food?"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-102"
+  },
+  {
+   "n": 27,
+   "stem": "Based on the article, wolves use their tails as a way of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "letting the pups know when to leave the den"
+    },
+    {
+     "label": "B",
+     "text": "showing they are leaders in the pack"
+    },
+    {
+     "label": "C",
+     "text": "showing pride within their pack"
+    },
+    {
+     "label": "D",
+     "text": "teaching the pups how to play"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-103"
+  },
+  {
+   "n": 28,
+   "stem": "According to this article, where can wolf pups hide for safety?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "In the grass"
+    },
+    {
+     "label": "G",
+     "text": "Near the family den"
+    },
+    {
+     "label": "H",
+     "text": "Behind rocks or bushes"
+    },
+    {
+     "label": "J",
+     "text": "Alongside rivers or lakes"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-104"
+  },
+  {
+   "n": 29,
+   "stem": "What is the most important reason that wolf pups play with one another?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Playing makes them stronger."
+    },
+    {
+     "label": "B",
+     "text": "Playing teaches them how to hunt for food."
+    },
+    {
+     "label": "C",
+     "text": "Playing shows them which ones will be the future leaders."
+    },
+    {
+     "label": "D",
+     "text": "Playing keeps them busy while the pack hunts."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-105"
+  },
+  {
+   "n": 30,
+   "stem": "Young wolves can explore areas a few miles away by the end of the summer most likely because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "they are bigger and able to travel farther"
+    },
+    {
+     "label": "G",
+     "text": "it is easier to travel when the weather is cooler"
+    },
+    {
+     "label": "H",
+     "text": "they know how far the pack needs to move in a day"
+    },
+    {
+     "label": "J",
+     "text": "the nursery area has become too small for them"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-106"
+  },
+  {
+   "n": 31,
+   "stem": "The author’s main purpose for writing this article is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "describe how wolves hunt in the wild"
+    },
+    {
+     "label": "B",
+     "text": "show the different jobs in a wolf pack"
+    },
+    {
+     "label": "C",
+     "text": "explain why wolf pups must be watched"
+    },
+    {
+     "label": "D",
+     "text": "give information about wolves and their pups"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-107"
+  },
+  {
+   "n": 32,
+   "stem": "This article would most likely be found in a book titled —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Places Wolves Live"
+    },
+    {
+     "label": "G",
+     "text": "Protecting Wolves From Danger"
+    },
+    {
+     "label": "H",
+     "text": "Jobs and Duties of Wolf Pack Leaders"
+    },
+    {
+     "label": "J",
+     "text": "Growing Up in a Wolf Family"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-108"
+  },
+  {
+   "n": 33,
+   "stem": "Read this sentence and dictionary entry. “The tiger looks like it will spring from the ground.” spring (sprĭng) v. 1. To split or crack. 2. To stretch or bend. 3. To jump quickly. 4. To work loose. Which meaning of spring is used in this sentence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-109"
+  },
+  {
+   "n": 34,
+   "stem": "Read this sentence. “The candles cast a beautiful glow that lit the whole room.” Which sentence uses cast the same way it is used in this sentence?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Audrey wanted to become part of the cast for the school play."
+    },
+    {
+     "label": "G",
+     "text": "They had to cast a plan to surprise their mother."
+    },
+    {
+     "label": "H",
+     "text": "The doctor made a cast for John’s broken arm."
+    },
+    {
+     "label": "J",
+     "text": "The clouds cast a dark shadow just before it started to rain."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-110"
+  },
+  {
+   "n": 35,
+   "stem": "In which pair do the words sound the same but have different meanings?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "stake, stack"
+    },
+    {
+     "label": "B",
+     "text": "main, mean"
+    },
+    {
+     "label": "C",
+     "text": "write, white"
+    },
+    {
+     "label": "D",
+     "text": "peace, piece"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2011_SOLPass",
+   "id": "grade-4-english-111"
+  },
+  {
+   "n": 2,
+   "stem": "“Aunt Jackie is going to be so disappointed in me,” thought Mary. Then Mary remembered she put the ring in her pocket when she washed her hands at the sink. “Thank goodness!” Mary said to herself. After that, she never took off Aunt Jackie’s ring again. This story is mostly about — A. a normal day B. Mary’s aunt C. a special ring D. Mary’s birthday Directions You do not need to read a passage to answer the following question. Read and answer the question. ### SAMPLE B Read this sentence. “Mrs. Johnson is my favorite teacher, and I really enjoy her class,” Mario told his mother. In this sentence, the word enjoy means —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "like"
+    },
+    {
+     "label": "G",
+     "text": "hear"
+    },
+    {
+     "label": "H",
+     "text": "notice"
+    },
+    {
+     "label": "J",
+     "text": "save"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2008_SOLPass",
+   "id": "grade-4-english-112"
+  },
+  {
+   "n": 13,
+   "stem": "Which of these is the best summary for this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Maria earns money to buy a book by working for Ms. Branson."
+    },
+    {
+     "label": "B",
+     "text": "Maria’s mother always knows what is best for Maria."
+    },
+    {
+     "label": "C",
+     "text": "Maria decides to walk dogs for Ms. Branson."
+    },
+    {
+     "label": "D",
+     "text": "Maria’s mother finds Maria a job."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2008_SOLPass",
+   "id": "grade-4-english-113"
+  },
+  {
+   "n": 14,
+   "stem": "When Maria sighs in paragraph 6, she is feeling —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "bored"
+    },
+    {
+     "label": "G",
+     "text": "pleased"
+    },
+    {
+     "label": "H",
+     "text": "disappointed"
+    },
+    {
+     "label": "J",
+     "text": "certain"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2008_SOLPass",
+   "id": "grade-4-english-114"
+  },
+  {
+   "n": 15,
+   "stem": "In paragraph 8, Ms. Branson is described as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "curious"
+    },
+    {
+     "label": "B",
+     "text": "mean"
+    },
+    {
+     "label": "C",
+     "text": "ashamed"
+    },
+    {
+     "label": "D",
+     "text": "uneasy"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2008_SOLPass",
+   "id": "grade-4-english-115"
+  },
+  {
+   "n": 16,
+   "stem": "In paragraph 10, why does Maria’s mom offer to go with her to Ms. Branson’s house?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "She worries Maria is too young."
+    },
+    {
+     "label": "G",
+     "text": "She thinks Maria is afraid of dogs."
+    },
+    {
+     "label": "H",
+     "text": "She feels Maria is uncomfortable."
+    },
+    {
+     "label": "J",
+     "text": "She knows Maria will get lost."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2008_SOLPass",
+   "id": "grade-4-english-116"
+  },
+  {
+   "n": 17,
+   "stem": "In paragraph 11, what does Maria discover about Ms. Branson?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "She is as mean as everyone says."
+    },
+    {
+     "label": "B",
+     "text": "She is wise and peaceful."
+    },
+    {
+     "label": "C",
+     "text": "She is as loud as everyone says."
+    },
+    {
+     "label": "D",
+     "text": "She is kind and thoughtful."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2008_SOLPass",
+   "id": "grade-4-english-117"
+  },
+  {
+   "n": 18,
+   "stem": "As it is used in paragraph 11, what does the word relieved mean?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "rested"
+    },
+    {
+     "label": "G",
+     "text": "comforted"
+    },
+    {
+     "label": "H",
+     "text": "rushed"
+    },
+    {
+     "label": "J",
+     "text": "corrected"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2008_SOLPass",
+   "id": "grade-4-english-118"
+  },
+  {
+   "n": 19,
+   "stem": "If the author included information about where Maria took the dogs for a walk, in which paragraph would it best fit?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "9"
+    },
+    {
+     "label": "B",
+     "text": "10"
+    },
+    {
+     "label": "C",
+     "text": "11"
+    },
+    {
+     "label": "D",
+     "text": "12"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2008_SOLPass",
+   "id": "grade-4-english-119"
+  },
+  {
+   "n": 1,
+   "stem": "Which question is answered in paragraph 2?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "How often does the family go on a camping trip?"
+    },
+    {
+     "label": "B",
+     "text": "When will the family return from the trip?"
+    },
+    {
+     "label": "C",
+     "text": "When does the family go to the creek?"
+    },
+    {
+     "label": "D",
+     "text": "How many people are in the family?"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-120"
+  },
+  {
+   "n": 4,
+   "stem": "To adjust something. Which meaning of gear is used in paragraph 2? A Meaning 1 B Meaning 2 C Meaning 3 D Meaning 4 3. Where do paragraphs 1–3 take place? A On the road B At the family’s house C On the creek D At the family’s campsite 4. What does the word deafening mean in paragraph 8?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "quiet"
+    },
+    {
+     "label": "B",
+     "text": "distant"
+    },
+    {
+     "label": "C",
+     "text": "exciting"
+    },
+    {
+     "label": "D",
+     "text": "loud"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-121"
+  },
+  {
+   "n": 5,
+   "stem": "Todd and Dad laugh in paragraph 10 because they —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "hear a funny sound"
+    },
+    {
+     "label": "B",
+     "text": "tell each other jokes"
+    },
+    {
+     "label": "C",
+     "text": "are nervous about what they see"
+    },
+    {
+     "label": "D",
+     "text": "realize what was making the noise"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-122"
+  },
+  {
+   "n": 6,
+   "stem": "The story describes several actions while the family is walking along the creek: • Mom snaps pictures. • Dad searches for a fishing spot. • Todd and Katie toss stones in the water. • Buddy follows Dad. Which phrase best describes this part of the story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Planning for a Camping Trip"
+    },
+    {
+     "label": "B",
+     "text": "Wandering Along the Creek"
+    },
+    {
+     "label": "C",
+     "text": "Hearing Noises in the Night"
+    },
+    {
+     "label": "D",
+     "text": "Preparing the Campsite"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-123"
+  },
+  {
+   "n": 7,
+   "stem": "What causes the scraping sound in the night?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Buddy is trying to climb into the van."
+    },
+    {
+     "label": "B",
+     "text": "Buddy is scratching to come inside the tent."
+    },
+    {
+     "label": "C",
+     "text": "Buddy is digging in the dirt near the picnic table."
+    },
+    {
+     "label": "D",
+     "text": "Buddy is pulling a food tub off the picnic table."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-124"
+  },
+  {
+   "n": 8,
+   "stem": "What will the family most likely do the next night?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Guard the tent"
+    },
+    {
+     "label": "B",
+     "text": "Eat dinner earlier"
+    },
+    {
+     "label": "C",
+     "text": "Stay awake with a flashlight"
+    },
+    {
+     "label": "D",
+     "text": "Store the food tub away safely"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-125"
+  },
+  {
+   "n": 9,
+   "stem": "The author most likely wrote Campout Surprise to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "entertain readers with a tale about camping"
+    },
+    {
+     "label": "B",
+     "text": "explain the steps to prepare for camping"
+    },
+    {
+     "label": "C",
+     "text": "describe items needed for a camping trip"
+    },
+    {
+     "label": "D",
+     "text": "persuade readers to plan a family camping trip"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-126"
+  },
+  {
+   "n": 10,
+   "stem": "The bullets at the top of the page are a list of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "steps"
+    },
+    {
+     "label": "B",
+     "text": "choices"
+    },
+    {
+     "label": "C",
+     "text": "ideas"
+    },
+    {
+     "label": "D",
+     "text": "characters"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-127"
+  },
+  {
+   "n": 11,
+   "stem": "Read this sentence from the handout. Use it to control the movements of the puppets across the stage. The word across means to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "be in touch with"
+    },
+    {
+     "label": "B",
+     "text": "move in a winding motion"
+    },
+    {
+     "label": "C",
+     "text": "be next to something"
+    },
+    {
+     "label": "D",
+     "text": "go from one side to the other"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-128"
+  },
+  {
+   "n": 12,
+   "stem": "Why does the stage need a light?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The light helps locate the puppets."
+    },
+    {
+     "label": "B",
+     "text": "The light gives the stage a fancy look."
+    },
+    {
+     "label": "C",
+     "text": "The light helps make a shadow on the curtain."
+    },
+    {
+     "label": "D",
+     "text": "The light signals that the show has started."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-129"
+  },
+  {
+   "n": 17,
+   "stem": "Which item belongs on the blank line? A Marker B Glue C Tape D Paper 14. The steps for making shadow puppets include: • Draw the characters. • Cut out the puppets. • __________. • Act out the story. Which step belongs in the blank? A Use a marker to color the puppets. B Attach a straw to the puppets. C Fasten the curtain to the stage. D Set up a light behind the stage. 15. A white crayon is used on black poster board to make lines that — A are easy to see B have thick marks C are neatly drawn D have straight edges 16. Which item could best be used in place of a drinking straw? A A pencil B A ribbon C A broom D A string 17. The purpose of this handout is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "tell the history of shadow puppets"
+    },
+    {
+     "label": "B",
+     "text": "share a story about shadow puppets"
+    },
+    {
+     "label": "C",
+     "text": "present an opinion about a shadow puppet show"
+    },
+    {
+     "label": "D",
+     "text": "give directions for making a shadow puppet show"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-130"
+  },
+  {
+   "n": 18,
+   "stem": "As used in paragraph 4, what is another word for understand?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "admit"
+    },
+    {
+     "label": "B",
+     "text": "show"
+    },
+    {
+     "label": "C",
+     "text": "guess"
+    },
+    {
+     "label": "D",
+     "text": "realize"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-131"
+  },
+  {
+   "n": 19,
+   "stem": "Read this sentence from paragraph 6. Josh felt proud as he watched the people walking by and smiling at his father. Which word means the opposite of proud?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ashamed"
+    },
+    {
+     "label": "B",
+     "text": "encouraged"
+    },
+    {
+     "label": "C",
+     "text": "popular"
+    },
+    {
+     "label": "D",
+     "text": "selfish"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-132"
+  },
+  {
+   "n": 20,
+   "stem": "After reading the story, what can the reader tell about Josh?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He is learning to play the trumpet."
+    },
+    {
+     "label": "B",
+     "text": "He plays his horn in a school band."
+    },
+    {
+     "label": "C",
+     "text": "He takes trumpet lessons at home."
+    },
+    {
+     "label": "D",
+     "text": "He plays other instruments."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-133"
+  },
+  {
+   "n": 21,
+   "stem": "Josh is practicing in the park —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "so he will not disturb his neighbors"
+    },
+    {
+     "label": "B",
+     "text": "so he can perform for other people"
+    },
+    {
+     "label": "C",
+     "text": "because he feels the golden tree brings him luck"
+    },
+    {
+     "label": "D",
+     "text": "because he does not want to play in his living room"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-134"
+  },
+  {
+   "n": 22,
+   "stem": "Why does Josh like the golden tree?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "It is the tallest tree in the park."
+    },
+    {
+     "label": "B",
+     "text": "He likes the sound the leaves make."
+    },
+    {
+     "label": "C",
+     "text": "It gives him shade from the hot sun."
+    },
+    {
+     "label": "D",
+     "text": "He likes to climb trees with strong branches."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-135"
+  },
+  {
+   "n": 23,
+   "stem": "Which word from the story means “stopped an activity”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "fluttered"
+    },
+    {
+     "label": "B",
+     "text": "played"
+    },
+    {
+     "label": "C",
+     "text": "interrupted"
+    },
+    {
+     "label": "D",
+     "text": "pulled"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-136"
+  },
+  {
+   "n": 24,
+   "stem": "Which word best describes how Josh first feels about practicing in the park?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Eager"
+    },
+    {
+     "label": "B",
+     "text": "Thrilled"
+    },
+    {
+     "label": "C",
+     "text": "Puzzled"
+    },
+    {
+     "label": "D",
+     "text": "Nervous"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-137"
+  },
+  {
+   "n": 25,
+   "stem": "Josh enjoys visiting the park because he likes to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "rest on the cool grass"
+    },
+    {
+     "label": "B",
+     "text": "look at the colorful trees"
+    },
+    {
+     "label": "C",
+     "text": "exercise by riding a bike"
+    },
+    {
+     "label": "D",
+     "text": "watch people playing games"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-138"
+  },
+  {
+   "n": 26,
+   "stem": "The next day Josh and his father will most likely —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "play music in the park again"
+    },
+    {
+     "label": "B",
+     "text": "perform together at an event"
+    },
+    {
+     "label": "C",
+     "text": "find a new place to practice"
+    },
+    {
+     "label": "D",
+     "text": "practice in the apartment"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-139"
+  },
+  {
+   "n": 27,
+   "stem": "Which sentence from the story is an opinion?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The leaves fluttered over Josh’s head."
+    },
+    {
+     "label": "B",
+     "text": "Josh and his family lived in an apartment building."
+    },
+    {
+     "label": "C",
+     "text": "Josh’s father was a great trumpet player."
+    },
+    {
+     "label": "D",
+     "text": "Josh looked up at the golden tree."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-140"
+  },
+  {
+   "n": 29,
+   "stem": "In paragraph 3, what is true about Bessie’s friend?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He worked in a Chicago barbershop."
+    },
+    {
+     "label": "B",
+     "text": "He supported her dreams."
+    },
+    {
+     "label": "C",
+     "text": "He lived in France."
+    },
+    {
+     "label": "D",
+     "text": "He was a pilot."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-141"
+  },
+  {
+   "n": 30,
+   "stem": "In paragraph 6, the word honored means that Bessie has been —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "included in programs"
+    },
+    {
+     "label": "B",
+     "text": "allowed to work"
+    },
+    {
+     "label": "C",
+     "text": "named the winner"
+    },
+    {
+     "label": "D",
+     "text": "shown respect by people"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-142"
+  },
+  {
+   "n": 31,
+   "stem": "Read this dictionary entry. stamp (stamp) n. 1. A small piece of paper put on an envelope for mailing. 2. A shape formed by a machine. 3. A mark that shows something is completed. v. 4. To destroy. In paragraph 6, which meaning of stamp is used?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Meaning 1"
+    },
+    {
+     "label": "B",
+     "text": "Meaning 2"
+    },
+    {
+     "label": "C",
+     "text": "Meaning 3"
+    },
+    {
+     "label": "D",
+     "text": "Meaning 4"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-143"
+  },
+  {
+   "n": 32,
+   "stem": "Why did Bessie go to France to learn how to fly?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Flying overseas was her dream."
+    },
+    {
+     "label": "B",
+     "text": "She wanted to meet other female fliers."
+    },
+    {
+     "label": "C",
+     "text": "Flying schools in the United States would not accept her."
+    },
+    {
+     "label": "D",
+     "text": "She did not have money to take flying lessons in the United States."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-144"
+  },
+  {
+   "n": 33,
+   "stem": "If information about Bessie’s parents were added to the article, it would best fit in paragraph —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-145"
+  },
+  {
+   "n": 34,
+   "stem": "Which sentence from the article is an opinion?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He helped her raise money for the trip and for flying lessons."
+    },
+    {
+     "label": "B",
+     "text": "Many stories were written in newspapers about her flying skills."
+    },
+    {
+     "label": "C",
+     "text": "Soon she was performing at flying shows all over the country."
+    },
+    {
+     "label": "D",
+     "text": "Bessie probably would have been happiest about the flying clubs named after her."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-146"
+  },
+  {
+   "n": 35,
+   "stem": "Why did the author most likely write this article?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To teach the reader how to fly a plane"
+    },
+    {
+     "label": "B",
+     "text": "To inform the reader about an adventurous person"
+    },
+    {
+     "label": "C",
+     "text": "To persuade the reader to take flying lessons"
+    },
+    {
+     "label": "D",
+     "text": "To entertain the reader with a story about planes"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2009_SOLPass",
+   "id": "grade-4-english-147"
+  },
+  {
+   "n": 1,
+   "stem": "Establishment of Early American Colonies A timeline lists the following settlements and dates: St. Augustine (Spanish settlement) — 1565 Roanoke (English settlement attempt) — 1587 Jamestown (English settlement) — 1607 Massachusetts Bay Colony (English settlement) — 1620 Which date on this timeline represents the beginning of a permanent British presence in North America?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1565"
+    },
+    {
+     "label": "B",
+     "text": "1587"
+    },
+    {
+     "label": "C",
+     "text": "1607"
+    },
+    {
+     "label": "D",
+     "text": "1620"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-148"
+  },
+  {
+   "n": 2,
+   "stem": "Which colony was established as a business venture?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Connecticut"
+    },
+    {
+     "label": "G",
+     "text": "Massachusetts"
+    },
+    {
+     "label": "H",
+     "text": "Georgia"
+    },
+    {
+     "label": "J",
+     "text": "Virginia"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-149"
+  },
+  {
+   "n": 3,
+   "stem": "The initial French exploration of North America resulted in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "economic colonies in Florida"
+    },
+    {
+     "label": "B",
+     "text": "competition with Spanish settlers"
+    },
+    {
+     "label": "C",
+     "text": "plantations using slave labor"
+    },
+    {
+     "label": "D",
+     "text": "cooperation with native groups"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-150"
+  },
+  {
+   "n": 4,
+   "stem": "The Treaty of Alliance of 1778 was signed by the United States and —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Spain"
+    },
+    {
+     "label": "G",
+     "text": "Portugal"
+    },
+    {
+     "label": "H",
+     "text": "Russia"
+    },
+    {
+     "label": "J",
+     "text": "France"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-151"
+  },
+  {
+   "n": 5,
+   "stem": "Which factor contributed to colonial victory in the American Revolution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Shortages of British troops"
+    },
+    {
+     "label": "B",
+     "text": "Disloyalty of British generals"
+    },
+    {
+     "label": "C",
+     "text": "Lack of British popular support"
+    },
+    {
+     "label": "D",
+     "text": "Weakness of the British Navy"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-152"
+  },
+  {
+   "n": 6,
+   "stem": "Which document directly influenced the first ten amendments to the Constitution of the United States?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Mayflower Compact"
+    },
+    {
+     "label": "G",
+     "text": "Virginia Declaration of Rights"
+    },
+    {
+     "label": "H",
+     "text": "Articles of Confederation"
+    },
+    {
+     "label": "J",
+     "text": "Emancipation Proclamation"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-153"
+  },
+  {
+   "n": 7,
+   "stem": "“That the foundation of... all free government is a right in the people to participate in their legislative council …” — Declaration of Rights and Grievances, 1774 This statement was issued by the Continental Congress because the British government did not allow —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "colonial businesses to support royal taxes"
+    },
+    {
+     "label": "B",
+     "text": "powers of the colonial legislatures to increase"
+    },
+    {
+     "label": "C",
+     "text": "colonists to have representation in Parliament"
+    },
+    {
+     "label": "D",
+     "text": "laws passed by Parliament to govern the colonies"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-154"
+  },
+  {
+   "n": 8,
+   "stem": "Which issue led to the development of the first political parties in the United States?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Abolition of slavery"
+    },
+    {
+     "label": "G",
+     "text": "Women’s suffrage"
+    },
+    {
+     "label": "H",
+     "text": "Expansion of western territories"
+    },
+    {
+     "label": "J",
+     "text": "National government’s powers"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-155"
+  },
+  {
+   "n": 9,
+   "stem": "Critics of Andrew Jackson’s stand on the Second Bank of the United States accused him of abusing executive powers by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ignoring the contributions of political supporters"
+    },
+    {
+     "label": "B",
+     "text": "using the military against the Cherokee Nation"
+    },
+    {
+     "label": "C",
+     "text": "using the presidential veto to overrule Congress"
+    },
+    {
+     "label": "D",
+     "text": "opposing federal funding of internal improvements"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-156"
+  },
+  {
+   "n": 11,
+   "stem": "Uprisings led by Nat Turner and Gabriel Prosser contributed to the Southern states’ decisions to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "pass harsh fugitive slave laws"
+    },
+    {
+     "label": "B",
+     "text": "accept the Missouri Compromise"
+    },
+    {
+     "label": "C",
+     "text": "enact Jim Crow legislation"
+    },
+    {
+     "label": "D",
+     "text": "support the passing of higher tariffs"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-157"
+  },
+  {
+   "n": 12,
+   "stem": "In the Gettysburg Address, President Abraham Lincoln rejected the idea that the country was —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a federation of sovereign states"
+    },
+    {
+     "label": "G",
+     "text": "a society based on equality"
+    },
+    {
+     "label": "H",
+     "text": "committed to unity at any cost"
+    },
+    {
+     "label": "J",
+     "text": "founded on democratic ideals"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-158"
+  },
+  {
+   "n": 13,
+   "stem": "The Battle of Gettysburg was a significant event of the Civil War because it —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "caused states to secede from the Union"
+    },
+    {
+     "label": "B",
+     "text": "was the opening conflict of the war"
+    },
+    {
+     "label": "C",
+     "text": "forced the surrender of the South"
+    },
+    {
+     "label": "D",
+     "text": "was the turning point of the war"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-159"
+  },
+  {
+   "n": 14,
+   "stem": "Which group helped Andrew Jackson become President of the United States the first time they could participate in an election?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "People allowed to vote without paying a poll tax"
+    },
+    {
+     "label": "G",
+     "text": "Newly freed slaves from West Africa"
+    },
+    {
+     "label": "H",
+     "text": "People allowed to vote without owning property"
+    },
+    {
+     "label": "J",
+     "text": "Naturalized immigrants from Eastern Europe"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-160"
+  },
+  {
+   "n": 15,
+   "stem": "Which man was a United States Senator who became the leader of the Confederacy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Robert E. Lee"
+    },
+    {
+     "label": "B",
+     "text": "Jefferson Davis"
+    },
+    {
+     "label": "C",
+     "text": "Nat Turner"
+    },
+    {
+     "label": "D",
+     "text": "Stonewall Jackson"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-161"
+  },
+  {
+   "n": 16,
+   "stem": "“With malice toward none; with charity for all … let us strive … to bind up the nation’s wounds …” — Abraham Lincoln, Second Inaugural Address This statement expressed President Lincoln’s plans for —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "creating a strategy for a Union victory"
+    },
+    {
+     "label": "G",
+     "text": "eliminating Jim Crow laws"
+    },
+    {
+     "label": "H",
+     "text": "convincing Congress to abolish slavery"
+    },
+    {
+     "label": "J",
+     "text": "readmitting the Confederate states"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-162"
+  },
+  {
+   "n": 17,
+   "stem": "One major economic impact of the Civil War was the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "emergence of the South as a manufacturing center"
+    },
+    {
+     "label": "B",
+     "text": "increase in the number of laborers relocating to the South"
+    },
+    {
+     "label": "C",
+     "text": "strengthening of the North and Midwest industrial regions"
+    },
+    {
+     "label": "D",
+     "text": "increase in tariffs imposed on French and British goods"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-163"
+  },
+  {
+   "n": 18,
+   "stem": "The Great Migration of the early 20th century refers to the movement of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "European immigrants to western cities"
+    },
+    {
+     "label": "G",
+     "text": "European immigrants to northeastern cities"
+    },
+    {
+     "label": "H",
+     "text": "African Americans from the South to northern cities"
+    },
+    {
+     "label": "J",
+     "text": "African Americans from the Midwest to eastern cities"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-164"
+  },
+  {
+   "n": 19,
+   "stem": "Which individual helped found the National Association for the Advancement of Colored People (NAACP)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "James Meredith"
+    },
+    {
+     "label": "B",
+     "text": "W.E.B. DuBois"
+    },
+    {
+     "label": "C",
+     "text": "Thurgood Marshall"
+    },
+    {
+     "label": "D",
+     "text": "Booker T. Washington"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-165"
+  },
+  {
+   "n": 20,
+   "stem": "During World War II, the purpose of government posters encouraging citizens to conserve, recycle, work in defense industries, and support the military was to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "motivate American women to enter the work force in defense factories"
+    },
+    {
+     "label": "G",
+     "text": "encourage civilians to become members of the armed forces"
+    },
+    {
+     "label": "H",
+     "text": "show how Americans on the home front could contribute to the war effort"
+    },
+    {
+     "label": "J",
+     "text": "pressure industries to dedicate their resources to war manufacturing"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-166"
+  },
+  {
+   "n": 21,
+   "stem": "A diagram shows factors contributing to American industrialization: Growing labor supply Abundant natural resources Limited liability corporations Which economic factor completes this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Laissez-faire policies"
+    },
+    {
+     "label": "B",
+     "text": "High interest rates"
+    },
+    {
+     "label": "C",
+     "text": "Low consumer demands"
+    },
+    {
+     "label": "D",
+     "text": "Strict price controls"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-167"
+  },
+  {
+   "n": 22,
+   "stem": "A newspaper headline dated May 16, 1911, reads: “Standard Oil Company to Break Up — Supreme Court Declares it an Unlawful Monopoly.” This event was a result of the passage of the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Interstate Commerce Act"
+    },
+    {
+     "label": "G",
+     "text": "17th Amendment"
+    },
+    {
+     "label": "H",
+     "text": "Sherman Antitrust Act"
+    },
+    {
+     "label": "J",
+     "text": "19th Amendment"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-168"
+  },
+  {
+   "n": 23,
+   "stem": "During the Industrial Revolution, new technology affected the economy of the United States by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "increasing worker productivity"
+    },
+    {
+     "label": "B",
+     "text": "limiting profits"
+    },
+    {
+     "label": "C",
+     "text": "decreasing urban population"
+    },
+    {
+     "label": "D",
+     "text": "generating tax revenues"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-169"
+  },
+  {
+   "n": 24,
+   "stem": "Bushido is defined as a feudal-military Japanese code of behavior valuing honor above life. During World War II, which action was an example of this code of behavior?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Japanese civilians welcoming Allied troops"
+    },
+    {
+     "label": "G",
+     "text": "Japanese captors treating American POWs humanely"
+    },
+    {
+     "label": "H",
+     "text": "Japanese emperor accepting unconditional surrender"
+    },
+    {
+     "label": "J",
+     "text": "Japanese troops committing suicide rather than surrendering"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-170"
+  },
+  {
+   "n": 25,
+   "stem": "The members of the World War II Nisei regiment were primarily —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mexican Americans"
+    },
+    {
+     "label": "B",
+     "text": "Japanese Americans"
+    },
+    {
+     "label": "C",
+     "text": "German Americans"
+    },
+    {
+     "label": "D",
+     "text": "Italian Americans"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-171"
+  },
+  {
+   "n": 26,
+   "stem": "The Lend-Lease Act was passed by the United States Congress in response to increased —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "concern about German aggression in Europe"
+    },
+    {
+     "label": "G",
+     "text": "anger over the Japanese invasion of China"
+    },
+    {
+     "label": "H",
+     "text": "concern about Italian demands in North Africa"
+    },
+    {
+     "label": "J",
+     "text": "fear over the German pact with the Soviet Union"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-172"
+  },
+  {
+   "n": 27,
+   "stem": "During World War II, the role of the Selective Service System in the United States was to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "draft military personnel"
+    },
+    {
+     "label": "B",
+     "text": "ration manufactured goods"
+    },
+    {
+     "label": "C",
+     "text": "increase industrial productivity"
+    },
+    {
+     "label": "D",
+     "text": "replace factory workers"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-173"
+  },
+  {
+   "n": 28,
+   "stem": "Which effect did United States participation in World War II have on the home front?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "An increase in volunteers for the war effort"
+    },
+    {
+     "label": "G",
+     "text": "The end of racial segregation in the South"
+    },
+    {
+     "label": "H",
+     "text": "A decline in farm income due to war rationing"
+    },
+    {
+     "label": "J",
+     "text": "The growth of isolationism in the Midwest"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-174"
+  },
+  {
+   "n": 29,
+   "stem": "The United States interned many Japanese Americans during World War II because of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "their refusal to be deported"
+    },
+    {
+     "label": "B",
+     "text": "a fear they would aid the enemy"
+    },
+    {
+     "label": "C",
+     "text": "a concern over violent protest from them"
+    },
+    {
+     "label": "D",
+     "text": "their refusal to be drafted into the military"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-175"
+  },
+  {
+   "n": 30,
+   "stem": "The United States failed to join the League of Nations because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "the President vetoed the treaty"
+    },
+    {
+     "label": "G",
+     "text": "membership was restricted to European countries"
+    },
+    {
+     "label": "H",
+     "text": "the Senate rejected the treaty"
+    },
+    {
+     "label": "J",
+     "text": "membership was limited by European leaders"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-176"
+  },
+  {
+   "n": 31,
+   "stem": "A 1950 National Security Council recommendation urged a rapid buildup of political, economic, and military strength to counter Soviet influence. This document describes the United States’ response to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cold War tension in Europe"
+    },
+    {
+     "label": "B",
+     "text": "Japanese invasion of China"
+    },
+    {
+     "label": "C",
+     "text": "creation of the state of Israel"
+    },
+    {
+     "label": "D",
+     "text": "creation of the Manhattan Project"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-177"
+  },
+  {
+   "n": 32,
+   "stem": "Which president is most closely associated with the policy of massive retaliation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Dwight D. Eisenhower"
+    },
+    {
+     "label": "G",
+     "text": "John F. Kennedy"
+    },
+    {
+     "label": "H",
+     "text": "Lyndon Johnson"
+    },
+    {
+     "label": "J",
+     "text": "Richard Nixon"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-178"
+  },
+  {
+   "n": 33,
+   "stem": "A January 26, 1950, newspaper headline states: “Alger Hiss Sentenced to Prison — Will Serve Five Years.” This headline describes the result of increased fear of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "communist infiltration"
+    },
+    {
+     "label": "B",
+     "text": "political corruption"
+    },
+    {
+     "label": "C",
+     "text": "organized crime"
+    },
+    {
+     "label": "D",
+     "text": "nuclear energy"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-179"
+  },
+  {
+   "n": 34,
+   "stem": "Fannie Lou Hamer described being required to interpret a complex section of the Mississippi constitution in order to register to vote. This practice was outlawed with the passage of the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "15th Amendment"
+    },
+    {
+     "label": "G",
+     "text": "Civil Rights Act of 1964"
+    },
+    {
+     "label": "H",
+     "text": "19th Amendment"
+    },
+    {
+     "label": "J",
+     "text": "Voting Rights Act of 1965"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-180"
+  },
+  {
+   "n": 35,
+   "stem": "The North Atlantic Treaty Organization (NATO) was created primarily to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "protect Western Europe from communism"
+    },
+    {
+     "label": "B",
+     "text": "encourage communist factions in China"
+    },
+    {
+     "label": "C",
+     "text": "install democratic governments in Africa"
+    },
+    {
+     "label": "D",
+     "text": "protect South America from invasion"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-181"
+  },
+  {
+   "n": 36,
+   "stem": "Veterans of which war often faced public hostility when they returned home?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "World War I"
+    },
+    {
+     "label": "G",
+     "text": "World War II"
+    },
+    {
+     "label": "H",
+     "text": "Korean War"
+    },
+    {
+     "label": "J",
+     "text": "Vietnam War"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-182"
+  },
+  {
+   "n": 37,
+   "stem": "Over the last three decades, the American work force has had to acquire and improve skills in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "computer technology"
+    },
+    {
+     "label": "B",
+     "text": "automobile repair"
+    },
+    {
+     "label": "C",
+     "text": "heavy machinery"
+    },
+    {
+     "label": "D",
+     "text": "medical equipment"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-183"
+  },
+  {
+   "n": 38,
+   "stem": "Modern American schools adapted to serve new immigrants by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "limiting vocational programs"
+    },
+    {
+     "label": "G",
+     "text": "offering bilingual education"
+    },
+    {
+     "label": "H",
+     "text": "offering extracurricular activities"
+    },
+    {
+     "label": "J",
+     "text": "requiring physical education"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-184"
+  },
+  {
+   "n": 39,
+   "stem": "Which president was in office during the Cold War?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Woodrow Wilson"
+    },
+    {
+     "label": "B",
+     "text": "Franklin D. Roosevelt"
+    },
+    {
+     "label": "C",
+     "text": "John F. Kennedy"
+    },
+    {
+     "label": "D",
+     "text": "William Clinton"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-185"
+  },
+  {
+   "n": 40,
+   "stem": "A January 17, 1991, headline reads: “War Begins! Hundreds of planes begin bombing missions.” In which area did this conflict occur?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Afghanistan border"
+    },
+    {
+     "label": "G",
+     "text": "Indochinese Peninsula"
+    },
+    {
+     "label": "H",
+     "text": "Former Yugoslavia"
+    },
+    {
+     "label": "J",
+     "text": "Persian Gulf"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-186"
+  },
+  {
+   "n": 41,
+   "stem": "A diagram shows: Late 1900s Televised news Better-informed rural population Which innovation best completes this sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Radio"
+    },
+    {
+     "label": "B",
+     "text": "Newspaper"
+    },
+    {
+     "label": "C",
+     "text": "Satellite dish"
+    },
+    {
+     "label": "D",
+     "text": "Compact disc"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-187"
+  },
+  {
+   "n": 42,
+   "stem": "Data from August 2000 show computer access by family income. Higher-income families had much greater computer access at home than lower-income families. At school, access levels were more similar across income groups. Which conclusion can be drawn?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Family income has little bearing on access to computers."
+    },
+    {
+     "label": "G",
+     "text": "Access to education improves with higher family income."
+    },
+    {
+     "label": "H",
+     "text": "Schools narrow the technological gap caused by income."
+    },
+    {
+     "label": "J",
+     "text": "There are more children born in higher-income families."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-188"
+  },
+  {
+   "n": 43,
+   "stem": "A September 12, 2001, State Department record describes President Bush consulting Congress and contacting leaders of major allied nations to build an international coalition. Which type of action is described?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Independent investigations"
+    },
+    {
+     "label": "B",
+     "text": "Diplomatic relations"
+    },
+    {
+     "label": "C",
+     "text": "Economic sanctions"
+    },
+    {
+     "label": "D",
+     "text": "Strategic attacks"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-189"
+  },
+  {
+   "n": 44,
+   "stem": "A map shows land between 80°W and 90°W longitude and 25°N and 30°N latitude, corresponding to present-day Florida. This land represents the acquisition of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "land won through the French and Indian War"
+    },
+    {
+     "label": "G",
+     "text": "territories according to the Northwest Ordinance"
+    },
+    {
+     "label": "H",
+     "text": "land as a result of the Revolutionary War"
+    },
+    {
+     "label": "J",
+     "text": "Florida through a treaty with Spain"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-190"
+  },
+  {
+   "n": 45,
+   "stem": "Events in Texas history are listed in sequence: 1. Migration of American settlers 2. Battle of the Alamo 3. (missing event) 4. Entry into the Union Which event best completes the sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Confederate attack on Fort Sumter"
+    },
+    {
+     "label": "B",
+     "text": "Independence gained from Mexico"
+    },
+    {
+     "label": "C",
+     "text": "Purchase of the Louisiana Territory"
+    },
+    {
+     "label": "D",
+     "text": "Completion of the Transcontinental Railroad"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-191"
+  },
+  {
+   "n": 46,
+   "stem": "A photograph labeled “Pioneers, 1886” shows a family traveling west with wagons and supplies. The family is most likely on the way to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "find factory work in the Northeast"
+    },
+    {
+     "label": "G",
+     "text": "claim a homestead in the West"
+    },
+    {
+     "label": "H",
+     "text": "work as indentured servants in Virginia"
+    },
+    {
+     "label": "J",
+     "text": "prospect for gold in California"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-192"
+  },
+  {
+   "n": 47,
+   "stem": "President William Howard Taft developed the Dollar Diplomacy policy to support —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "United States citizens traveling to Europe"
+    },
+    {
+     "label": "B",
+     "text": "equal trading rights in Japan"
+    },
+    {
+     "label": "C",
+     "text": "United States businesses investing in Latin America"
+    },
+    {
+     "label": "D",
+     "text": "trade with the Philippines"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-193"
+  },
+  {
+   "n": 48,
+   "stem": "By the late 1890s, many American business leaders believed their best chance for future growth depended on —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "tighter governmental regulation"
+    },
+    {
+     "label": "G",
+     "text": "the increasing growth of labor unions"
+    },
+    {
+     "label": "H",
+     "text": "laws abolishing the use of child labor"
+    },
+    {
+     "label": "J",
+     "text": "the establishment of foreign markets"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-194"
+  },
+  {
+   "n": 49,
+   "stem": "After World War II, countries were divided as follows: Occupied by the United States: Japan Occupied by the Soviet Union: Hungary Which country was also occupied by the United States?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Japan"
+    },
+    {
+     "label": "B",
+     "text": "Poland"
+    },
+    {
+     "label": "C",
+     "text": "France"
+    },
+    {
+     "label": "D",
+     "text": "China"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-195"
+  },
+  {
+   "n": 50,
+   "stem": "A sequence describing East Germany shows: After World War II occupation Construction of the Berlin Wall Which phrase best completes this sequence?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Rise of Fascism"
+    },
+    {
+     "label": "G",
+     "text": "Communist control"
+    },
+    {
+     "label": "H",
+     "text": "Rapid rearmament"
+    },
+    {
+     "label": "J",
+     "text": "Formation of democracy"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-196"
+  },
+  {
+   "n": 51,
+   "stem": "Colonial town meetings, where citizens gathered to debate and vote directly on local issues, demonstrated a form of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "religious toleration"
+    },
+    {
+     "label": "B",
+     "text": "direct democracy"
+    },
+    {
+     "label": "C",
+     "text": "multicultural integration"
+    },
+    {
+     "label": "D",
+     "text": "representative government"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-197"
+  },
+  {
+   "n": 52,
+   "stem": "The different types of economies found in the original colonies were primarily a reflection of the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "nationalities of the settlers"
+    },
+    {
+     "label": "G",
+     "text": "geography of the areas"
+    },
+    {
+     "label": "H",
+     "text": "provisions of the charters"
+    },
+    {
+     "label": "J",
+     "text": "religion of the settlers"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-198"
+  },
+  {
+   "n": 53,
+   "stem": "John Locke’s ideas contributed to the Declaration of Independence because he influenced the belief in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "capitalism and free enterprise"
+    },
+    {
+     "label": "B",
+     "text": "self-government and natural rights"
+    },
+    {
+     "label": "C",
+     "text": "a strong federal government and rule of law"
+    },
+    {
+     "label": "D",
+     "text": "a monarchy and democracy"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-199"
+  },
+  {
+   "n": 54,
+   "stem": "Major economic developments of the 1920s include: 1. Stock Market Crash 2. Excessive stock speculation 3. Increased availability of credit 4. Failure of the banking system What is the correct order?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1, 3, 4, 2"
+    },
+    {
+     "label": "G",
+     "text": "2, 4, 3, 1"
+    },
+    {
+     "label": "H",
+     "text": "3, 2, 1, 4"
+    },
+    {
+     "label": "J",
+     "text": "4, 1, 2, 3"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-200"
+  },
+  {
+   "n": 55,
+   "stem": "Which part of the national government controls the supply of money in the economy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Congress"
+    },
+    {
+     "label": "B",
+     "text": "Treasury Department"
+    },
+    {
+     "label": "C",
+     "text": "President"
+    },
+    {
+     "label": "D",
+     "text": "Federal Reserve"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-201"
+  },
+  {
+   "n": 56,
+   "stem": "Which New Deal program attempted to protect Americans from bank instability during the Great Depression?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Works Progress Administration"
+    },
+    {
+     "label": "G",
+     "text": "Tennessee Valley Authority"
+    },
+    {
+     "label": "H",
+     "text": "Federal Deposit Insurance Corporation"
+    },
+    {
+     "label": "J",
+     "text": "Agricultural Adjustment Administration"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-202"
+  },
+  {
+   "n": 57,
+   "stem": "What failed to carry out the ideals expressed in the Declaration of Independence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Bill of Rights"
+    },
+    {
+     "label": "B",
+     "text": "Dred Scott decision"
+    },
+    {
+     "label": "C",
+     "text": "14th Amendment"
+    },
+    {
+     "label": "D",
+     "text": "Voting Rights Act of 1965"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-203"
+  },
+  {
+   "n": 58,
+   "stem": "How did the Great Awakening most influence the American Revolutionary movement?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "It supported the practice of slave labor."
+    },
+    {
+     "label": "G",
+     "text": "It established official state religions."
+    },
+    {
+     "label": "H",
+     "text": "It challenged the established government order."
+    },
+    {
+     "label": "J",
+     "text": "It discouraged trade with foreign countries."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-204"
+  },
+  {
+   "n": 59,
+   "stem": "Which principle is shared by both the Articles of Confederation and the Constitution of the United States?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Judicial review"
+    },
+    {
+     "label": "B",
+     "text": "Limited government"
+    },
+    {
+     "label": "C",
+     "text": "Separation of powers"
+    },
+    {
+     "label": "D",
+     "text": "Checks and balances"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-205"
+  },
+  {
+   "n": 60,
+   "stem": "“It is emphatically the province and duty of the judicial department to say what the law is.” Which Supreme Court decision includes this quotation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Marbury v. Madison"
+    },
+    {
+     "label": "G",
+     "text": "Cohens v. Virginia"
+    },
+    {
+     "label": "H",
+     "text": "Gibbons v. Ogden"
+    },
+    {
+     "label": "J",
+     "text": "McCulloch v. Maryland"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_4_2015_SOLPass",
+   "id": "grade-4-english-206"
+  }
+ ]
+}

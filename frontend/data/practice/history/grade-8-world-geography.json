@@ -1,0 +1,2713 @@
+{
+ "subject": "history",
+ "course": "grade-8-world-geography",
+ "courseName": "Grade 8 - World Geography",
+ "questionCount": 108,
+ "sources": [
+  "History_Grade_8__World_Geography_2012_SOLPass",
+  "History_Grade_8__World_Geography_2014_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Which country contains the latitude and longitude 15° South latitude and 45° West longitude?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Brazil"
+    },
+    {
+     "label": "B",
+     "text": "Italy"
+    },
+    {
+     "label": "C",
+     "text": "Madagascar"
+    },
+    {
+     "label": "D",
+     "text": "Australia"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-1"
+  },
+  {
+   "n": 2,
+   "stem": "Selected Cities of the World: Boston is located in the Northern Hemisphere. Madrid is located in the Northern Hemisphere. Warsaw is located in the Northern Hemisphere. Alexandria (Egypt) is located in the Northern Hemisphere. Calgary is located in the Northern Hemisphere. Durban is located in the Southern Hemisphere. Johannesburg is located in the Southern Hemisphere. Brasília is located in the Southern Hemisphere. Which two cities have opposite seasons at the same time of year?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Boston and Madrid"
+    },
+    {
+     "label": "B",
+     "text": "Warsaw and Alexandria"
+    },
+    {
+     "label": "C",
+     "text": "Calgary and Durban"
+    },
+    {
+     "label": "D",
+     "text": "Johannesburg and Brasília"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-2"
+  },
+  {
+   "n": 3,
+   "stem": "Jimmy knows the route from his house to his school and can name each street along the way. This statement is an example of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "absolute location"
+    },
+    {
+     "label": "B",
+     "text": "a primary source"
+    },
+    {
+     "label": "C",
+     "text": "a thematic map"
+    },
+    {
+     "label": "D",
+     "text": "mental mapping"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-3"
+  },
+  {
+   "n": 4,
+   "stem": "This type of map is used to show the height of land and changes in elevation using contour lines or shading.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Elevation"
+    },
+    {
+     "label": "B",
+     "text": "Population"
+    },
+    {
+     "label": "C",
+     "text": "Natural resources"
+    },
+    {
+     "label": "D",
+     "text": "Political boundaries"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-4"
+  },
+  {
+   "n": 5,
+   "stem": "This symbol identifies which feature of a map?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Orientation (compass direction)"
+    },
+    {
+     "label": "B",
+     "text": "Contour"
+    },
+    {
+     "label": "C",
+     "text": "Distance"
+    },
+    {
+     "label": "D",
+     "text": "Projection"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-5"
+  },
+  {
+   "n": 6,
+   "stem": "Ethiopia, 1976: On a thematic map of Ethiopia showing industrial activity, different industries are represented using distinct icons placed on the map. On this map, industrial activity is represented by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "shades"
+    },
+    {
+     "label": "B",
+     "text": "lines"
+    },
+    {
+     "label": "C",
+     "text": "symbols"
+    },
+    {
+     "label": "D",
+     "text": "letters"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-6"
+  },
+  {
+   "n": 7,
+   "stem": "A photograph shows a large rotating storm system over warm ocean water with a clearly defined eye at its center. Which weather phenomenon is shown?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Tornado"
+    },
+    {
+     "label": "B",
+     "text": "Hurricane"
+    },
+    {
+     "label": "C",
+     "text": "Blizzard"
+    },
+    {
+     "label": "D",
+     "text": "Mistral"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-7"
+  },
+  {
+   "n": 8,
+   "stem": "Northeast Africa: A map shows a major river flowing northward from East Africa through Sudan and Egypt before emptying into the Mediterranean Sea. Which major river system is shown?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Indus"
+    },
+    {
+     "label": "B",
+     "text": "Nile"
+    },
+    {
+     "label": "C",
+     "text": "Amazon"
+    },
+    {
+     "label": "D",
+     "text": "Danube"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-8"
+  },
+  {
+   "n": 9,
+   "stem": "The image shows nesting wooden dolls painted with traditional folk designs, where each doll fits inside a larger one. These dolls are a traditional cultural craft in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Russia"
+    },
+    {
+     "label": "B",
+     "text": "Southeast Asia"
+    },
+    {
+     "label": "C",
+     "text": "France"
+    },
+    {
+     "label": "D",
+     "text": "Latin America"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-9"
+  },
+  {
+   "n": 10,
+   "stem": "Mexico is linked more to Central and South America than to North America because of the way geographers define —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "political regions"
+    },
+    {
+     "label": "B",
+     "text": "physical regions"
+    },
+    {
+     "label": "C",
+     "text": "economic regions"
+    },
+    {
+     "label": "D",
+     "text": "cultural regions"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-10"
+  },
+  {
+   "n": 11,
+   "stem": "Diagram description: Title: “Nations that have been divided into smaller countries” Example shown: Soviet Union Which country best completes this diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mexico"
+    },
+    {
+     "label": "B",
+     "text": "Yugoslavia"
+    },
+    {
+     "label": "C",
+     "text": "Portugal"
+    },
+    {
+     "label": "D",
+     "text": "Chile"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-11"
+  },
+  {
+   "n": 12,
+   "stem": "A river shown on a map flows northward and empties into the Mediterranean Sea. This river flows northward toward the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pacific Ocean"
+    },
+    {
+     "label": "B",
+     "text": "Indian Ocean"
+    },
+    {
+     "label": "C",
+     "text": "Arctic Ocean"
+    },
+    {
+     "label": "D",
+     "text": "Atlantic Ocean"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-12"
+  },
+  {
+   "n": 13,
+   "stem": "Angkor Wat is an archaeological site located in present-day Cambodia and consists of large stone temples originally built as Hindu shrines and later used for Buddhist worship. This site revealed important information about the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "traditional dwellings of Central America"
+    },
+    {
+     "label": "B",
+     "text": "architectural structures of the Middle East"
+    },
+    {
+     "label": "C",
+     "text": "ancient kingdoms of West Africa"
+    },
+    {
+     "label": "D",
+     "text": "religious history of Southeast Asia"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-13"
+  },
+  {
+   "n": 14,
+   "stem": "Which name do western societies commonly use for the Arabian Gulf?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Gulf of Aden"
+    },
+    {
+     "label": "B",
+     "text": "Red Sea"
+    },
+    {
+     "label": "C",
+     "text": "Sea of Marmara"
+    },
+    {
+     "label": "D",
+     "text": "Persian Gulf"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-14"
+  },
+  {
+   "n": 15,
+   "stem": "Diagram description: Title: “Selected Regions of the United States” Labeled regions include the Wheat Belt and the Rust Belt. Which description is matched with the correct section of this diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Section 1 represents economic regions."
+    },
+    {
+     "label": "B",
+     "text": "Section 2 represents political regions."
+    },
+    {
+     "label": "C",
+     "text": "Section 3 represents ethnic regions."
+    },
+    {
+     "label": "D",
+     "text": "Section 4 represents climate regions."
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-15"
+  },
+  {
+   "n": 16,
+   "stem": "The separation of Northern Ireland from the Republic of Ireland is an example of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "immigrants trying to adapt to a new government"
+    },
+    {
+     "label": "B",
+     "text": "language differences affecting growth in a region"
+    },
+    {
+     "label": "C",
+     "text": "all citizens agreeing to a political process"
+    },
+    {
+     "label": "D",
+     "text": "religion as a dividing force in a region"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-16"
+  },
+  {
+   "n": 17,
+   "stem": "A roof design with clay or ceramic tiles that slope gently to allow rain to run off easily is shown. In which region is this type of roof most commonly used?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Canadian Shield"
+    },
+    {
+     "label": "B",
+     "text": "Northern Mongolia"
+    },
+    {
+     "label": "C",
+     "text": "Mediterranean"
+    },
+    {
+     "label": "D",
+     "text": "Scandinavia"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-17"
+  },
+  {
+   "n": 18,
+   "stem": "Diagram description: Practices include nomadic herding. Region is a major exporter of raw materials. Region has considerable mineral wealth. Which geographic region best completes this diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "North America"
+    },
+    {
+     "label": "B",
+     "text": "Sub-Saharan Africa"
+    },
+    {
+     "label": "C",
+     "text": "Western Europe"
+    },
+    {
+     "label": "D",
+     "text": "Southeast Asia"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-18"
+  },
+  {
+   "n": 19,
+   "stem": "Which structure is known primarily as a national seat of government?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Eiffel Tower"
+    },
+    {
+     "label": "B",
+     "text": "Kaaba"
+    },
+    {
+     "label": "C",
+     "text": "Kremlin"
+    },
+    {
+     "label": "D",
+     "text": "Taj Mahal"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-19"
+  },
+  {
+   "n": 20,
+   "stem": "Cultural Icons listed: Windmill Colosseum Eiffel Tower These structures are associated with the continent of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "North America"
+    },
+    {
+     "label": "B",
+     "text": "Australia"
+    },
+    {
+     "label": "C",
+     "text": "Europe"
+    },
+    {
+     "label": "D",
+     "text": "South America"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-20"
+  },
+  {
+   "n": 21,
+   "stem": "Which city is a center of culture and trade located in Canada?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Inuvik"
+    },
+    {
+     "label": "B",
+     "text": "Toronto"
+    },
+    {
+     "label": "C",
+     "text": "Santiago"
+    },
+    {
+     "label": "D",
+     "text": "Chicago"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-21"
+  },
+  {
+   "n": 22,
+   "stem": "Conflicts between the Hutu and Tutsi have occurred in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Liberia"
+    },
+    {
+     "label": "B",
+     "text": "Zambia"
+    },
+    {
+     "label": "C",
+     "text": "Botswana"
+    },
+    {
+     "label": "D",
+     "text": "Rwanda"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-22"
+  },
+  {
+   "n": 23,
+   "stem": "Which religion is practiced by the majority of India’s population?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Buddhism"
+    },
+    {
+     "label": "B",
+     "text": "Christianity"
+    },
+    {
+     "label": "C",
+     "text": "Hinduism"
+    },
+    {
+     "label": "D",
+     "text": "Judaism"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-23"
+  },
+  {
+   "n": 24,
+   "stem": "Agricultural terracing most directly affects which landform?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mountains"
+    },
+    {
+     "label": "B",
+     "text": "Deserts"
+    },
+    {
+     "label": "C",
+     "text": "Plains"
+    },
+    {
+     "label": "D",
+     "text": "Deltas"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-24"
+  },
+  {
+   "n": 25,
+   "stem": "Table: Places of Origin for Foreign Students in the United States, 2008–2009 Rank 2: China — 98,235 students Rank 3: South Korea — 75,065 students Rank 5: Japan — 29,264 students Which conclusion can be drawn from this table?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Educational opportunities in the United States are a push factor."
+    },
+    {
+     "label": "B",
+     "text": "Most foreign educations are superior to those in the United States."
+    },
+    {
+     "label": "C",
+     "text": "Educational opportunity pulls Asian students to the United States."
+    },
+    {
+     "label": "D",
+     "text": "Most foreign students in the United States are European."
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-25"
+  },
+  {
+   "n": 26,
+   "stem": "Factors That Influence: Warfare Climate Technology Which phrase best completes the title of this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Public Education"
+    },
+    {
+     "label": "B",
+     "text": "Religious Beliefs"
+    },
+    {
+     "label": "C",
+     "text": "Official Languages"
+    },
+    {
+     "label": "D",
+     "text": "Population Distribution"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-26"
+  },
+  {
+   "n": 27,
+   "stem": "South America: A map uses shading to show daily per-capita calorie consumption. Lightest shading (1,500–1,900 calories) appears most prominently in Bolivia. Darker shading (higher calorie intake) appears in Argentina and Brazil. This map supports the conclusion that malnutrition is most likely to occur in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Peru"
+    },
+    {
+     "label": "B",
+     "text": "Brazil"
+    },
+    {
+     "label": "C",
+     "text": "Bolivia"
+    },
+    {
+     "label": "D",
+     "text": "Argentina"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-27"
+  },
+  {
+   "n": 28,
+   "stem": "Diagram description: Introduction of the highway system More affordable automobiles Increased assembly-line production The information shown led to the expansion of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "rural areas"
+    },
+    {
+     "label": "B",
+     "text": "family farms"
+    },
+    {
+     "label": "C",
+     "text": "suburbs"
+    },
+    {
+     "label": "D",
+     "text": "canals"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-28"
+  },
+  {
+   "n": 29,
+   "stem": "Which country is most likely to experience an earthquake due to its location along tectonic plate boundaries?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "England"
+    },
+    {
+     "label": "B",
+     "text": "France"
+    },
+    {
+     "label": "C",
+     "text": "Brazil"
+    },
+    {
+     "label": "D",
+     "text": "Japan"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-29"
+  },
+  {
+   "n": 30,
+   "stem": "Two-thirds of Israel is desert. Underground irrigation systems deliver water directly to plant roots, allowing crops to be grown and exported. This information is an example of how technology —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "influences agricultural production"
+    },
+    {
+     "label": "B",
+     "text": "alters climate conditions"
+    },
+    {
+     "label": "C",
+     "text": "increases energy usage"
+    },
+    {
+     "label": "D",
+     "text": "affects transportation patterns"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-30"
+  },
+  {
+   "n": 31,
+   "stem": "Graph description: Percent of China’s population over age 65 from 2000 to 2050 shows a steady increase over time. Which change to China’s population between 2000 and 2050 does this graph project?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "China’s total population will decrease."
+    },
+    {
+     "label": "B",
+     "text": "China’s overall birthrate is expected to increase."
+    },
+    {
+     "label": "C",
+     "text": "Less than half of China’s population will be under age 65."
+    },
+    {
+     "label": "D",
+     "text": "The number of Chinese people over age 65 will increase."
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-31"
+  },
+  {
+   "n": 32,
+   "stem": "Popular Music Forms in the United States: Calypso Merengue Reggae Salsa These items represent examples of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ethnic bias"
+    },
+    {
+     "label": "B",
+     "text": "domestic production"
+    },
+    {
+     "label": "C",
+     "text": "religious diversity"
+    },
+    {
+     "label": "D",
+     "text": "cultural diffusion"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-32"
+  },
+  {
+   "n": 33,
+   "stem": "A construction company would seek the assistance of geographers in order to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "find adequate construction materials"
+    },
+    {
+     "label": "B",
+     "text": "locate suitable construction sites"
+    },
+    {
+     "label": "C",
+     "text": "develop advanced construction methods"
+    },
+    {
+     "label": "D",
+     "text": "identify qualified construction workers"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-33"
+  },
+  {
+   "n": 34,
+   "stem": "Urbanization results in: Increased diversity Increased sprawl Greater educational opportunities Which characteristic best replaces the missing factor?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Expanded regional trade"
+    },
+    {
+     "label": "B",
+     "text": "Greater career opportunities"
+    },
+    {
+     "label": "C",
+     "text": "Increased air pollution"
+    },
+    {
+     "label": "D",
+     "text": "More cultural centers"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-34"
+  },
+  {
+   "n": 35,
+   "stem": "What is an advantage to building a city at a confluence, where two rivers meet?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Decreased regional conflicts"
+    },
+    {
+     "label": "B",
+     "text": "Improved technological innovations"
+    },
+    {
+     "label": "C",
+     "text": "Reduced risk of natural disasters"
+    },
+    {
+     "label": "D",
+     "text": "Increased access to trade routes"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-35"
+  },
+  {
+   "n": 36,
+   "stem": "Graph description: Waste recycled, composted, and landfilled in South Staffordshire, United Kingdom, shows recycling and composting increasing over time while landfill waste decreases. Which statement is best supported by this graph?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The amount of waste in landfills increased."
+    },
+    {
+     "label": "B",
+     "text": "People became more involved in recycling."
+    },
+    {
+     "label": "C",
+     "text": "The amount of waste composted decreased."
+    },
+    {
+     "label": "D",
+     "text": "Government funding was reduced for recycling."
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-36"
+  },
+  {
+   "n": 37,
+   "stem": "Newspaper headline (June 2008): “China and Taiwan Reopen Talks — Countries Negotiate for First Time in Years” Which factor explains the division described in this headline?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A dispute over national independence"
+    },
+    {
+     "label": "B",
+     "text": "A conflict over natural resources"
+    },
+    {
+     "label": "C",
+     "text": "A dispute over immigration laws"
+    },
+    {
+     "label": "D",
+     "text": "A conflict over religious toleration"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-37"
+  },
+  {
+   "n": 38,
+   "stem": "Antarctica Treaty, 1996: A map shows territorial claims by several countries, but China has no marked claim. Which country does NOT have a territorial claim to Antarctica?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Britain"
+    },
+    {
+     "label": "B",
+     "text": "France"
+    },
+    {
+     "label": "C",
+     "text": "Norway"
+    },
+    {
+     "label": "D",
+     "text": "China"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-38"
+  },
+  {
+   "n": 39,
+   "stem": "Which spatial division would normally regulate public bus transportation routes?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Election district"
+    },
+    {
+     "label": "B",
+     "text": "Regional district"
+    },
+    {
+     "label": "C",
+     "text": "State government"
+    },
+    {
+     "label": "D",
+     "text": "Federal government"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-39"
+  },
+  {
+   "n": 40,
+   "stem": "Which factor is most responsible for increasing life expectancy in many less industrialized nations?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Declining birth rates"
+    },
+    {
+     "label": "B",
+     "text": "Availability of health insurance"
+    },
+    {
+     "label": "C",
+     "text": "Access to primary education"
+    },
+    {
+     "label": "D",
+     "text": "Improved health care programs"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-40"
+  },
+  {
+   "n": 41,
+   "stem": "Which resource allows nations to develop a high per-capita Gross Domestic Product (GDP)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "State-owned farms"
+    },
+    {
+     "label": "B",
+     "text": "Humanitarian aid"
+    },
+    {
+     "label": "C",
+     "text": "Skilled workforce"
+    },
+    {
+     "label": "D",
+     "text": "Governmental restrictions"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-41"
+  },
+  {
+   "n": 42,
+   "stem": "Newspaper headline: “German Car Manufacturer Opens Plant in Brazil” Which phrase best describes the subject of this headline?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Differences in culture"
+    },
+    {
+     "label": "B",
+     "text": "Tariff reductions on consumer goods"
+    },
+    {
+     "label": "C",
+     "text": "Unequal distribution of natural resources"
+    },
+    {
+     "label": "D",
+     "text": "Internationalization of product assembly"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-42"
+  },
+  {
+   "n": 43,
+   "stem": "Diagram description: Organization of Petroleum Exporting Countries Difficulty agreeing on the same policies Which advantage best completes this diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Limited foreign regulations"
+    },
+    {
+     "label": "B",
+     "text": "Reduced reliance on foreign trade"
+    },
+    {
+     "label": "C",
+     "text": "Increased global influence"
+    },
+    {
+     "label": "D",
+     "text": "Similarity of government systems"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-43"
+  },
+  {
+   "n": 44,
+   "stem": "Comparative International Diagram: Which phrase best completes this diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Manual labor"
+    },
+    {
+     "label": "B",
+     "text": "Limited communication"
+    },
+    {
+     "label": "C",
+     "text": "Diverse economy"
+    },
+    {
+     "label": "D",
+     "text": "Specialized production"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-44"
+  },
+  {
+   "n": 45,
+   "stem": "Which is an advantage for a small, developing country in joining an economic union?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Closing of inefficient industries"
+    },
+    {
+     "label": "B",
+     "text": "Access to natural resources with restrictions"
+    },
+    {
+     "label": "C",
+     "text": "Replacing family farms with agribusinesses"
+    },
+    {
+     "label": "D",
+     "text": "Greater access to international markets"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-45"
+  },
+  {
+   "n": 46,
+   "stem": "Diagram description: Factors in the Demand for Coal as a Resource Box 1: Factors that tend to decrease demand for coal Box 2: Factors that tend to increase demand for coal Which factor is matched with the correct box?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Environmental concerns in Box 1"
+    },
+    {
+     "label": "B",
+     "text": "Population growth in Box 1"
+    },
+    {
+     "label": "C",
+     "text": "Agricultural output in Box 2"
+    },
+    {
+     "label": "D",
+     "text": "Medical innovation in Box 2"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-46"
+  },
+  {
+   "n": 47,
+   "stem": "Selected Economic Activities in Australia include mining, agriculture, and manufacturing. Which activity best completes this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Banking"
+    },
+    {
+     "label": "B",
+     "text": "Canning"
+    },
+    {
+     "label": "C",
+     "text": "Fishing"
+    },
+    {
+     "label": "D",
+     "text": "Ranching"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-47"
+  },
+  {
+   "n": 48,
+   "stem": "Outsource: to contract out business, often to foreign companies. One reason some companies choose to participate in this practice is the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "lack of essential services"
+    },
+    {
+     "label": "B",
+     "text": "opportunity to lower production costs"
+    },
+    {
+     "label": "C",
+     "text": "need to establish labor unions"
+    },
+    {
+     "label": "D",
+     "text": "support for new technologies"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-48"
+  },
+  {
+   "n": 49,
+   "stem": "Diagram description: Economic Activities and Land Use Less land required More land required Which economic activity is correctly placed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Banking in less land required"
+    },
+    {
+     "label": "B",
+     "text": "Ranching in less land required"
+    },
+    {
+     "label": "C",
+     "text": "Shopping in more land required"
+    },
+    {
+     "label": "D",
+     "text": "Manufacturing in more land required"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-49"
+  },
+  {
+   "n": 50,
+   "stem": "Which statement best explains why nations must trade?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "All nations belong to free trade agreements."
+    },
+    {
+     "label": "B",
+     "text": "All nations seek out new production methods."
+    },
+    {
+     "label": "C",
+     "text": "No nation has all necessary resources."
+    },
+    {
+     "label": "D",
+     "text": "No nation can employ all of its laborers."
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2014_SOLPass",
+   "id": "grade-8-world-geography-50"
+  },
+  {
+   "n": 1,
+   "stem": "Which activity depends primarily on polar map projections?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Satellite imaging"
+    },
+    {
+     "label": "B",
+     "text": "Airline navigation"
+    },
+    {
+     "label": "C",
+     "text": "Data collection"
+    },
+    {
+     "label": "D",
+     "text": "Land surveying"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-51"
+  },
+  {
+   "n": 2,
+   "stem": "Monsoons are most commonly found in —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "northeastern Europe"
+    },
+    {
+     "label": "G",
+     "text": "western Africa"
+    },
+    {
+     "label": "H",
+     "text": "southern Asia"
+    },
+    {
+     "label": "J",
+     "text": "southwestern Australia"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-52"
+  },
+  {
+   "n": 3,
+   "stem": "A map of the United States shows four numbered states with population percent change categories as follows: State 1: population increase between 13.2% and 24.9% State 2: population increase between 25.0% and 49.9% State 3: population increase between 0.0% and 13.1% State 4: population increase between 50.0% and 191.0% According to this information, which numbered state has the highest population growth rate?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-53"
+  },
+  {
+   "n": 4,
+   "stem": "Which city is located closest to the prime meridian (0° longitude)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Montreal, Canada"
+    },
+    {
+     "label": "G",
+     "text": "London, England"
+    },
+    {
+     "label": "H",
+     "text": "Moscow, Russia"
+    },
+    {
+     "label": "J",
+     "text": "Stockholm, Sweden"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-54"
+  },
+  {
+   "n": 5,
+   "stem": "Which map would be the most useful in determining the precipitation levels in Turkey?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Political map"
+    },
+    {
+     "label": "B",
+     "text": "Population density map"
+    },
+    {
+     "label": "C",
+     "text": "Elevation map"
+    },
+    {
+     "label": "D",
+     "text": "Climate map"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-55"
+  },
+  {
+   "n": 6,
+   "stem": "What are the climate characteristics of low-latitude nations?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Warm summers and cold winters"
+    },
+    {
+     "label": "G",
+     "text": "Warm summers and warm winters"
+    },
+    {
+     "label": "H",
+     "text": "Cool summers and cold winters"
+    },
+    {
+     "label": "J",
+     "text": "Cool summers and warm winters"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-56"
+  },
+  {
+   "n": 7,
+   "stem": "A region is described as having sparse vegetation, little rainfall, and plants adapted to conserve water. In which climate would this type of vegetation be found?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Tropical"
+    },
+    {
+     "label": "B",
+     "text": "Mediterranean"
+    },
+    {
+     "label": "C",
+     "text": "Tundra"
+    },
+    {
+     "label": "D",
+     "text": "Arid"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-57"
+  },
+  {
+   "n": 8,
+   "stem": "The coordinate location 30° North latitude, 120° East longitude is located within which continent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Asia"
+    },
+    {
+     "label": "G",
+     "text": "Europe"
+    },
+    {
+     "label": "H",
+     "text": "Australia"
+    },
+    {
+     "label": "J",
+     "text": "North America"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-58"
+  },
+  {
+   "n": 9,
+   "stem": "Which source would provide the most accurate information about a group’s culture?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Satellite images"
+    },
+    {
+     "label": "B",
+     "text": "Field work"
+    },
+    {
+     "label": "C",
+     "text": "World globe"
+    },
+    {
+     "label": "D",
+     "text": "Elevation maps"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-59"
+  },
+  {
+   "n": 10,
+   "stem": "Which South American country does NOT border the Pacific Ocean?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Peru"
+    },
+    {
+     "label": "G",
+     "text": "Chile"
+    },
+    {
+     "label": "H",
+     "text": "Ecuador"
+    },
+    {
+     "label": "J",
+     "text": "Brazil"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-60"
+  },
+  {
+   "n": 11,
+   "stem": "Distortion is a problem when mapping Earth because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Earth’s curved surface is transferred to a flat surface"
+    },
+    {
+     "label": "B",
+     "text": "current map-producing technology is limited"
+    },
+    {
+     "label": "C",
+     "text": "Earth’s populations are constantly changing"
+    },
+    {
+     "label": "D",
+     "text": "climate conditions are difficult to measure"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-61"
+  },
+  {
+   "n": 12,
+   "stem": "The Korean Peninsula is divided along approximately the 38° North latitude line. This peninsula has been divided as the result of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "religious differences"
+    },
+    {
+     "label": "G",
+     "text": "a political dispute"
+    },
+    {
+     "label": "H",
+     "text": "a language barrier"
+    },
+    {
+     "label": "J",
+     "text": "physical characteristics"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-62"
+  },
+  {
+   "n": 13,
+   "stem": "Which term do geographers use to classify an area with unifying physical characteristics?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Location"
+    },
+    {
+     "label": "B",
+     "text": "Orientation"
+    },
+    {
+     "label": "C",
+     "text": "Region"
+    },
+    {
+     "label": "D",
+     "text": "Perception"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-63"
+  },
+  {
+   "n": 15,
+   "stem": "The Church of the Holy Sepulcher, the Dome of the Rock, and the Western Wall are all located in the same city. Which city contains these three religious monuments?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Istanbul"
+    },
+    {
+     "label": "B",
+     "text": "Rome"
+    },
+    {
+     "label": "C",
+     "text": "Mecca"
+    },
+    {
+     "label": "D",
+     "text": "Jerusalem"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-64"
+  },
+  {
+   "n": 16,
+   "stem": "During the time of Christopher Columbus, which continent would have been most accurately mapped?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Europe"
+    },
+    {
+     "label": "G",
+     "text": "Asia"
+    },
+    {
+     "label": "H",
+     "text": "South America"
+    },
+    {
+     "label": "J",
+     "text": "North America"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-65"
+  },
+  {
+   "n": 17,
+   "stem": "A table lists major centers of culture and trade as follows: Europe: London, Paris North America: New York, Los Angeles Which of these is a correct addition to the table?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Buenos Aires in Europe"
+    },
+    {
+     "label": "B",
+     "text": "Sydney in Europe"
+    },
+    {
+     "label": "C",
+     "text": "Madrid in North America"
+    },
+    {
+     "label": "D",
+     "text": "Toronto in North America"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-66"
+  },
+  {
+   "n": 18,
+   "stem": "In the 1990s, ethnic diversity as a divisive force best described conditions in which country?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Brazil"
+    },
+    {
+     "label": "G",
+     "text": "Japan"
+    },
+    {
+     "label": "H",
+     "text": "Switzerland"
+    },
+    {
+     "label": "J",
+     "text": "Yugoslavia"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-67"
+  },
+  {
+   "n": 19,
+   "stem": "Which religion is most widely practiced within the regions of North Africa and Southwest Asia?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Islam"
+    },
+    {
+     "label": "B",
+     "text": "Hinduism"
+    },
+    {
+     "label": "C",
+     "text": "Buddhism"
+    },
+    {
+     "label": "D",
+     "text": "Christianity"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-68"
+  },
+  {
+   "n": 20,
+   "stem": "Pakistan was created to address the conflict between which two religious groups?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Buddhists and Muslims"
+    },
+    {
+     "label": "G",
+     "text": "Christians and Hindus"
+    },
+    {
+     "label": "H",
+     "text": "Buddhists and Christians"
+    },
+    {
+     "label": "J",
+     "text": "Muslims and Hindus"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-69"
+  },
+  {
+   "n": 21,
+   "stem": "A region is described by the following characteristics: River transportation impeded by waterfalls and rapids Many landlocked countries Large numbers of mineral and diamond mines Which region is described by this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Central America"
+    },
+    {
+     "label": "B",
+     "text": "Sub-Saharan Africa"
+    },
+    {
+     "label": "C",
+     "text": "Middle East"
+    },
+    {
+     "label": "D",
+     "text": "Scandinavian Peninsula"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-70"
+  },
+  {
+   "n": 23,
+   "stem": "Kurdistan is an example of which type of cultural region?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Economic"
+    },
+    {
+     "label": "B",
+     "text": "Political"
+    },
+    {
+     "label": "C",
+     "text": "Language"
+    },
+    {
+     "label": "D",
+     "text": "Ethnic"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-71"
+  },
+  {
+   "n": 24,
+   "stem": "A region in the United States is characterized by frost-free winters, humid summers, agriculture, and fishing. Which landform is most closely identified with these characteristics?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Great Plains"
+    },
+    {
+     "label": "G",
+     "text": "Canadian Shield"
+    },
+    {
+     "label": "H",
+     "text": "Gulf Coast"
+    },
+    {
+     "label": "J",
+     "text": "Rocky Mountains"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-72"
+  },
+  {
+   "n": 25,
+   "stem": "Which religious group is associated with worshiping in mosques?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Christians"
+    },
+    {
+     "label": "B",
+     "text": "Muslims"
+    },
+    {
+     "label": "C",
+     "text": "Buddhists"
+    },
+    {
+     "label": "D",
+     "text": "Hindus"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-73"
+  },
+  {
+   "n": 26,
+   "stem": "Which factor explains why a number of animal species are unique to Australia?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Diverse vegetation"
+    },
+    {
+     "label": "G",
+     "text": "Rough terrain"
+    },
+    {
+     "label": "H",
+     "text": "Humid climate"
+    },
+    {
+     "label": "J",
+     "text": "Geographic isolation"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-74"
+  },
+  {
+   "n": 27,
+   "stem": "A map of South Asia shows a darker-shaded area labeled “Kashmir,” located between India, Pakistan, Afghanistan, and China. The darker-shaded region is a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "colonial province"
+    },
+    {
+     "label": "B",
+     "text": "neutral country"
+    },
+    {
+     "label": "C",
+     "text": "disputed territory"
+    },
+    {
+     "label": "D",
+     "text": "demilitarized zone"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-75"
+  },
+  {
+   "n": 28,
+   "stem": "Which list contains only examples of cultural regions?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Latin America, Sahara, European Union (EU)"
+    },
+    {
+     "label": "G",
+     "text": "Amazon rainforest, Sunbelt, Middle East"
+    },
+    {
+     "label": "H",
+     "text": "Great Plains, Low Countries, Scandinavia"
+    },
+    {
+     "label": "J",
+     "text": "Chinatowns, Wheat Belt, Francophone world"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-76"
+  },
+  {
+   "n": 29,
+   "stem": "In Southeast Asia, the main agricultural product is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "wheat"
+    },
+    {
+     "label": "B",
+     "text": "corn"
+    },
+    {
+     "label": "C",
+     "text": "rice"
+    },
+    {
+     "label": "D",
+     "text": "beans"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-77"
+  },
+  {
+   "n": 30,
+   "stem": "Which factor is most directly related to the level of economic development of a country?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Urbanization"
+    },
+    {
+     "label": "G",
+     "text": "Climate"
+    },
+    {
+     "label": "H",
+     "text": "Language"
+    },
+    {
+     "label": "J",
+     "text": "Religion"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-78"
+  },
+  {
+   "n": 31,
+   "stem": "A process is shown in which particles are transported by water, then accumulate on a landmass, resulting in the growth of that landmass. Which process is described?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Desertification"
+    },
+    {
+     "label": "B",
+     "text": "Deposition"
+    },
+    {
+     "label": "C",
+     "text": "Erosion"
+    },
+    {
+     "label": "D",
+     "text": "Pollution"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-79"
+  },
+  {
+   "n": 32,
+   "stem": "Which landforms are most likely affected by the creation of polders (land reclaimed from the sea)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Deserts"
+    },
+    {
+     "label": "G",
+     "text": "Plateaus"
+    },
+    {
+     "label": "H",
+     "text": "Highlands"
+    },
+    {
+     "label": "J",
+     "text": "Lowlands"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-80"
+  },
+  {
+   "n": 33,
+   "stem": "A line graph titled “Vehicles in Service in the United States” shows a steady increase in the number of vehicles from 1970 through 2000, measured in millions. This graph supports the conclusion that the United States is reliant on the growth of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "city centers"
+    },
+    {
+     "label": "B",
+     "text": "airline travel"
+    },
+    {
+     "label": "C",
+     "text": "commuter railways"
+    },
+    {
+     "label": "D",
+     "text": "road construction"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-81"
+  },
+  {
+   "n": 34,
+   "stem": "Industrialization and economic development affect human settlement patterns by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "prohibiting people from inhabiting harsh climate regions"
+    },
+    {
+     "label": "G",
+     "text": "enabling people to live farther from natural resources"
+    },
+    {
+     "label": "H",
+     "text": "permitting mass migration to rural areas"
+    },
+    {
+     "label": "J",
+     "text": "causing the rapid decline of urban populations"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-82"
+  },
+  {
+   "n": 35,
+   "stem": "A table compares Botswana and Angola and shows that Angola has a much higher infant mortality rate and a much lower percentage of births attended by skilled professionals. Based on this data, what is one reason the infant mortality rate is higher in Angola than in Botswana?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The population is greater in Botswana."
+    },
+    {
+     "label": "B",
+     "text": "The literacy rate in Angola for males ages 15–24 is higher."
+    },
+    {
+     "label": "C",
+     "text": "Fewer births are attended by skilled professionals in Angola."
+    },
+    {
+     "label": "D",
+     "text": "Many of the women in Botswana are over 50 years old."
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-83"
+  },
+  {
+   "n": 36,
+   "stem": "A map of Southeast Asia shows that Malaysia includes areas where Islam, Buddhism, and tribal religions are practiced. According to this information, in which of these countries are three different religions practiced?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Laos"
+    },
+    {
+     "label": "G",
+     "text": "Cambodia"
+    },
+    {
+     "label": "H",
+     "text": "Thailand"
+    },
+    {
+     "label": "J",
+     "text": "Malaysia"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-84"
+  },
+  {
+   "n": 37,
+   "stem": "A bar graph titled “Foreign Aid Donations by Country, 2004” shows that countries such as the United States, Japan, France, Germany, and the United Kingdom donate the most aid. These nations are able to make these donations because they are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "military powers"
+    },
+    {
+     "label": "B",
+     "text": "the wealthiest in the world"
+    },
+    {
+     "label": "C",
+     "text": "the largest in the world"
+    },
+    {
+     "label": "D",
+     "text": "developing economies"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-85"
+  },
+  {
+   "n": 38,
+   "stem": "A map of Africa highlights a darker-shaded region in northern Africa near the Sahara Desert. Which geographic factor has most contributed to the environmental strain on this area?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Change of political borders"
+    },
+    {
+     "label": "G",
+     "text": "Desertification"
+    },
+    {
+     "label": "H",
+     "text": "Urbanization"
+    },
+    {
+     "label": "J",
+     "text": "Irrigation of public lands"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-86"
+  },
+  {
+   "n": 39,
+   "stem": "Which natural hazard is most likely to cause crop failures in the Great Plains region of the United States?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Drought"
+    },
+    {
+     "label": "B",
+     "text": "Earthquake"
+    },
+    {
+     "label": "C",
+     "text": "Seasonal flooding"
+    },
+    {
+     "label": "D",
+     "text": "Volcanic eruption"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-87"
+  },
+  {
+   "n": 40,
+   "stem": "The Commonwealth of Nations primarily consists of former —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Spanish protectorates"
+    },
+    {
+     "label": "G",
+     "text": "French mandates"
+    },
+    {
+     "label": "H",
+     "text": "British colonies"
+    },
+    {
+     "label": "J",
+     "text": "Soviet republics"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-88"
+  },
+  {
+   "n": 41,
+   "stem": "A map shows a conservation district within Ferry County, Washington, in the Upper Columbia River Basin. What is the main function of this darker-shaded region?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Resource protection"
+    },
+    {
+     "label": "B",
+     "text": "Business development"
+    },
+    {
+     "label": "C",
+     "text": "Waste disposal"
+    },
+    {
+     "label": "D",
+     "text": "Tourist attraction"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-89"
+  },
+  {
+   "n": 42,
+   "stem": "Mecca and Varanasi are cities that are important destinations for religious travelers. What do these cities have in common?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Harbor sites"
+    },
+    {
+     "label": "G",
+     "text": "Mountainous peaks"
+    },
+    {
+     "label": "H",
+     "text": "Pilgrimage destinations"
+    },
+    {
+     "label": "J",
+     "text": "Government centers"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-90"
+  },
+  {
+   "n": 43,
+   "stem": "What was the primary reason for establishing the Organization of Petroleum Exporting Countries (OPEC)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Regulating global market prices of oil"
+    },
+    {
+     "label": "B",
+     "text": "Increasing underwater exploration of oil"
+    },
+    {
+     "label": "C",
+     "text": "Limiting revenue growth from oil sales"
+    },
+    {
+     "label": "D",
+     "text": "Expanding oil production quotas"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-91"
+  },
+  {
+   "n": 44,
+   "stem": "A list describes places that serve as hubs for transportation and communication, centers for news and entertainment, and locations of corporate headquarters. Which phrase best completes the title of this list?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Urban Areas"
+    },
+    {
+     "label": "G",
+     "text": "Free Trade Regions"
+    },
+    {
+     "label": "H",
+     "text": "Integrated Neighborhoods"
+    },
+    {
+     "label": "J",
+     "text": "Regional Conservation Offices"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-92"
+  },
+  {
+   "n": 45,
+   "stem": "Which statement refers to the geographic situation of Timbuktu, Mali?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Manufacturing center on the Silk Road"
+    },
+    {
+     "label": "B",
+     "text": "Commercial center along Trans-Sahara trade routes"
+    },
+    {
+     "label": "C",
+     "text": "Administrative center of straits and land bridge to Europe"
+    },
+    {
+     "label": "D",
+     "text": "Transportation center between the Tigris and Euphrates Rivers"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-93"
+  },
+  {
+   "n": 46,
+   "stem": "Which economic behavior is best demonstrated by ghost towns?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "When resources are exhausted, people move elsewhere."
+    },
+    {
+     "label": "G",
+     "text": "As towns grow, there is less need for government services."
+    },
+    {
+     "label": "H",
+     "text": "Increased agricultural productivity leads to fewer farm towns."
+    },
+    {
+     "label": "J",
+     "text": "Increased urban sprawl leads to less land available for farming."
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-94"
+  },
+  {
+   "n": 47,
+   "stem": "Chinatown in Los Angeles, California, is an example of a regional spatial division based primarily on —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "religious beliefs"
+    },
+    {
+     "label": "B",
+     "text": "economic interests"
+    },
+    {
+     "label": "C",
+     "text": "cultural similarities"
+    },
+    {
+     "label": "D",
+     "text": "political advantages"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-95"
+  },
+  {
+   "n": 48,
+   "stem": "Which factor is least important in selecting the location for a factory?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Access to schools"
+    },
+    {
+     "label": "G",
+     "text": "Distribution of populations"
+    },
+    {
+     "label": "H",
+     "text": "Zoning laws"
+    },
+    {
+     "label": "J",
+     "text": "Transportation networks"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-96"
+  },
+  {
+   "n": 49,
+   "stem": "A chart titled “Shares of Economic Activity by Major Industry for Country X” shows that manufacturing is the largest sector, followed by agriculture, with services the smallest. Which list correctly ranks this country’s levels of economic activity from largest to smallest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Primary, Secondary, Tertiary"
+    },
+    {
+     "label": "B",
+     "text": "Secondary, Tertiary, Primary"
+    },
+    {
+     "label": "C",
+     "text": "Secondary, Primary, Tertiary"
+    },
+    {
+     "label": "D",
+     "text": "Tertiary, Primary, Secondary"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-97"
+  },
+  {
+   "n": 50,
+   "stem": "Which change occurred as a result of industrialization?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Factory systems replaced cottage industries."
+    },
+    {
+     "label": "G",
+     "text": "Subsistence farming replaced commercial agriculture."
+    },
+    {
+     "label": "H",
+     "text": "Military production replaced consumer industries."
+    },
+    {
+     "label": "J",
+     "text": "Surface transportation replaced air transportation."
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-98"
+  },
+  {
+   "n": 51,
+   "stem": "An excerpt notes rising oil and gasoline prices, increasing demand in countries such as India and China, and research into hydrogen-based fuels. What conclusion can be drawn from this excerpt?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Economic alliances are formed for resource conservation."
+    },
+    {
+     "label": "B",
+     "text": "There is competition for resources among countries."
+    },
+    {
+     "label": "C",
+     "text": "The price of gasoline is declining in developing countries."
+    },
+    {
+     "label": "D",
+     "text": "Modern industry uses minimal amounts of petroleum."
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-99"
+  },
+  {
+   "n": 52,
+   "stem": "Coal, iron ore, petroleum, and timber are natural resources. Which factor most discourages the use of these types of resources?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Financial profits"
+    },
+    {
+     "label": "G",
+     "text": "Employment levels"
+    },
+    {
+     "label": "H",
+     "text": "Environmental issues"
+    },
+    {
+     "label": "J",
+     "text": "Technological developments"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-100"
+  },
+  {
+   "n": 53,
+   "stem": "Which type of economic activity requires extensive areas of land?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Industrial manufacturing"
+    },
+    {
+     "label": "B",
+     "text": "Commercial agriculture"
+    },
+    {
+     "label": "C",
+     "text": "Petroleum extraction"
+    },
+    {
+     "label": "D",
+     "text": "Retail business"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-101"
+  },
+  {
+   "n": 54,
+   "stem": "The expanded use of computers in the workplace has led to the increased —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "demand for unskilled laborers"
+    },
+    {
+     "label": "G",
+     "text": "speed in the exchange of information"
+    },
+    {
+     "label": "H",
+     "text": "distance employees must commute"
+    },
+    {
+     "label": "J",
+     "text": "expense of international communications"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-102"
+  },
+  {
+   "n": 55,
+   "stem": "Developing nations are characterized by high fertility rates and low life expectancy. Which phrase best completes this description?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Low average age"
+    },
+    {
+     "label": "B",
+     "text": "High average income"
+    },
+    {
+     "label": "C",
+     "text": "High literacy rates"
+    },
+    {
+     "label": "D",
+     "text": "Low disease rates"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-103"
+  },
+  {
+   "n": 56,
+   "stem": "A table lists economic specialties as follows: Jamaica: Tourism Belgium: Metal products Chad: Agriculture Liechtenstein: Financial services Which country specializes in a primary economic activity?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Jamaica"
+    },
+    {
+     "label": "G",
+     "text": "Belgium"
+    },
+    {
+     "label": "H",
+     "text": "Chad"
+    },
+    {
+     "label": "J",
+     "text": "Liechtenstein"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-104"
+  },
+  {
+   "n": 57,
+   "stem": "A graph of world cocoa production shows that countries in West Africa (such as Côte d’Ivoire and Ghana) produce the largest percentage of cocoa. According to this information, which region is the largest producer of cocoa?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "South America"
+    },
+    {
+     "label": "B",
+     "text": "Central America"
+    },
+    {
+     "label": "C",
+     "text": "West Africa"
+    },
+    {
+     "label": "D",
+     "text": "Southeast Asia"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-105"
+  },
+  {
+   "n": 58,
+   "stem": "The European Union has most benefited its member nations by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "reducing barriers to trade and travel"
+    },
+    {
+     "label": "G",
+     "text": "sharing the expense of a common defense"
+    },
+    {
+     "label": "H",
+     "text": "promoting the use of a common language"
+    },
+    {
+     "label": "J",
+     "text": "providing funds and materials for education"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-106"
+  },
+  {
+   "n": 59,
+   "stem": "Which type of country is most dependent on a ground transportation network for international trade?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Landlocked"
+    },
+    {
+     "label": "B",
+     "text": "Coastal"
+    },
+    {
+     "label": "C",
+     "text": "Island"
+    },
+    {
+     "label": "D",
+     "text": "Tropical"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-107"
+  },
+  {
+   "n": 60,
+   "stem": "A comparison of four countries shows: Country 1: cheap labor Country 2: abundant natural resources Country 3: high investment capital Country 4: high tax rate In which country would a clothing company most likely locate its jeans factory?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_8__World_Geography_2012_SOLPass",
+   "id": "grade-8-world-geography-108"
+  }
+ ]
+}

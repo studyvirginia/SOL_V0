@@ -10,6 +10,7 @@ import {
   getCourseBySlugs,
   summarizeCourseDomains,
 } from "@/lib/solCatalog";
+import { getPractice } from "@/lib/practiceCatalog";
 
 export async function getStaticPaths() {
   const catalog = getSolCatalog();
@@ -29,6 +30,8 @@ export async function getStaticProps({ params }) {
   const siblings = subject.courses.map((c) => ({ slug: c.slug, name: c.name }));
   const index = siblings.findIndex((c) => c.slug === course.slug);
 
+  const practice = getPractice(subject.slug, course.slug);
+
   return {
     props: {
       subject: { slug: subject.slug, name: subject.name },
@@ -39,26 +42,37 @@ export async function getStaticProps({ params }) {
         standardCount: course.standardCount,
         domains: summarizeCourseDomains(course.domains),
       },
+      practiceCount: practice ? practice.total : 0,
       prevCourse: index > 0 ? siblings[index - 1] : null,
       nextCourse: index < siblings.length - 1 ? siblings[index + 1] : null,
     },
   };
 }
 
-export default function CoursePage({ subject, course, prevCourse, nextCourse }) {
-  const title = `${course.name} SOL Prep — Standards & Study Guide | SOL Prep`;
-  const description = `${course.name} covers ${course.domainCount} strands and ${course.standardCount} Virginia SOL standards. Study each one with AI-guided diagnostics, notes, flashcards, and practice questions.`;
+const YEAR = new Date().getFullYear();
+
+export default function CoursePage({ subject, course, practiceCount = 0, prevCourse, nextCourse }) {
+  const title = `${course.name} SOL Study Guide — Standards & Skills | SOL Prep`;
+  const description = `${course.name} Virginia SOL study guide: all ${course.standardCount} standards across ${course.domainCount} strands, plus a free ${course.name} practice test and AI-guided study.`;
 
   const faqs = [
     {
       q: `What is on the ${course.name} SOL test?`,
-      a: `${course.name} is organized into ${course.domainCount} strands: ${course.domains
+      a: `The ${course.name} Virginia SOL test is organized into ${course.domainCount} reporting strands: ${course.domains
         .map((d) => d.name)
-        .join(", ")}.`,
+        .join(", ")}. It assesses the ${course.standardCount} Standards of Learning listed on this page.`,
     },
     {
       q: `How many standards does ${course.name} cover?`,
       a: `${course.name} covers ${course.standardCount} individual Virginia SOL standards across its ${course.domainCount} strands.`,
+    },
+    {
+      q: `Where can I find ${course.name} SOL practice tests?`,
+      a: `The Virginia Department of Education publishes official released tests and practice items at doe.virginia.gov — see our Virginia SOL practice tests guide for direct links. SOL Prep adds standard-by-standard practice for each of the ${course.standardCount} ${course.name} standards below.`,
+    },
+    {
+      q: `How should I study for the ${course.name} SOL?`,
+      a: `Start with a diagnostic to find which of the ${course.standardCount} ${course.name} standards you're weakest on, then focus practice there instead of re-reviewing what you already know. Work each standard's skills, then take a mixed practice check.`,
     },
   ];
 
@@ -101,22 +115,65 @@ export default function CoursePage({ subject, course, prevCourse, nextCourse }) 
           />
 
           <h1 className="font-display mt-4 text-3xl font-bold tracking-tight">
-            {course.name} SOL Prep
+            {course.name} SOL Study Guide
           </h1>
           <p className="mt-4 text-muted-foreground">
-            {course.name} covers <strong>{course.standardCount} Virginia SOL standards</strong>{" "}
-            across <strong>{course.domainCount} strands</strong>. SOL Prep turns every one of
-            them into a diagnostic, guided notes, flashcards, and practice questions.
+            Practice for the {course.name} Virginia SOL test across all{" "}
+            <strong>{course.standardCount} standards</strong> and{" "}
+            <strong>{course.domainCount} strands</strong>. SOL Prep turns every standard into a
+            diagnostic, guided notes, flashcards, and SOL-style practice questions — so you drill
+            what you&rsquo;re actually weak on instead of re-reviewing what you know.
           </p>
 
-          <div className="mt-6 flex gap-3">
-            <Button asChild>
-              <a href="/#demo">Try the demo</a>
-            </Button>
+          <div className="mt-6 flex flex-wrap gap-3">
+            {practiceCount > 0 ? (
+              <Button asChild>
+                <Link href={`/sol/${subject.slug}/${course.slug}/practice`}>
+                  Take the {course.name} practice test
+                </Link>
+              </Button>
+            ) : (
+              <Button asChild>
+                <a href="/#demo">Practice {course.name}</a>
+              </Button>
+            )}
             <Button asChild variant="outline">
               <Link href={`/sol/${subject.slug}`}>All {subject.name} courses</Link>
             </Button>
           </div>
+
+          <section aria-labelledby="practice-heading" className="mt-12 rounded-lg border border-border p-6">
+            <h2 id="practice-heading" className="text-xl font-semibold">
+              {course.name} SOL practice tests
+            </h2>
+            <p className="mt-3 text-sm text-muted-foreground">
+              {practiceCount > 0
+                ? `Practice ${course.name} with ${practiceCount} free questions from official Virginia Department of Education released tests, or drill standard by standard with SOL Prep.`
+                : `Two ways to practice ${course.name}: work through official released items from the Virginia Department of Education, or drill standard by standard with SOL Prep.`}
+            </p>
+            <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
+              {practiceCount > 0 && (
+                <li>
+                  <Link
+                    href={`/sol/${subject.slug}/${course.slug}/practice`}
+                    className="text-foreground hover:underline"
+                  >
+                    {course.name} SOL practice test — {practiceCount} questions with answers →
+                  </Link>
+                </li>
+              )}
+              <li>
+                <Link href="/guides/virginia-sol-practice-tests" className="text-foreground hover:underline">
+                  Official VDOE released {course.name} tests &amp; practice items →
+                </Link>
+              </li>
+              <li>
+                <a href="/#demo" className="text-foreground hover:underline">
+                  Standard-by-standard {course.name} practice with SOL Prep →
+                </a>
+              </li>
+            </ul>
+          </section>
 
           <section aria-labelledby="strands-heading" className="mt-12">
             <h2 id="strands-heading" className="text-xl font-semibold">

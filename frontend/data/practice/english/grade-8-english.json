@@ -1,0 +1,4242 @@
+{
+ "subject": "english",
+ "course": "grade-8-english",
+ "courseName": "Grade 8 English",
+ "questionCount": 169,
+ "sources": [
+  "Reading_Grade_8_2002_SOLPass",
+  "Reading_Grade_8_2003_SOLPass",
+  "Reading_Grade_8_2004_SOLPass",
+  "Reading_Grade_8_2010_SOLPass",
+  "Reading_Grade_8_2015_SOLPass",
+  "Reading_Grade_8_2015_VDOE"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "What does the word anecdotes mean in paragraph 3?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "strange pictures"
+    },
+    {
+     "label": "B",
+     "text": "personal stories"
+    },
+    {
+     "label": "C",
+     "text": "school assignments"
+    },
+    {
+     "label": "D",
+     "text": "community projects"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-1"
+  },
+  {
+   "n": 2,
+   "stem": "In paragraph 9, the word belligerent means —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "hostile or argumentative"
+    },
+    {
+     "label": "G",
+     "text": "strangely familiar"
+    },
+    {
+     "label": "H",
+     "text": "weak or exhausted"
+    },
+    {
+     "label": "J",
+     "text": "strongly determined"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-2"
+  },
+  {
+   "n": 3,
+   "stem": "In paragraphs 9–12, the description of Mrs. Watson presents her as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "content and busy"
+    },
+    {
+     "label": "B",
+     "text": "angry and lonely"
+    },
+    {
+     "label": "C",
+     "text": "eager to make new friends"
+    },
+    {
+     "label": "D",
+     "text": "determined to leave the center"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-3"
+  },
+  {
+   "n": 4,
+   "stem": "In paragraph 15, Mrs. Watson’s eyes suggest that she is —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "interested"
+    },
+    {
+     "label": "G",
+     "text": "annoyed"
+    },
+    {
+     "label": "H",
+     "text": "ashamed"
+    },
+    {
+     "label": "J",
+     "text": "impressed"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-4"
+  },
+  {
+   "n": 5,
+   "stem": "From paragraph 22, the reader may best conclude that Keisha —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "does not plan to visit Mrs. Watson again"
+    },
+    {
+     "label": "B",
+     "text": "wishes that Mrs. Watson was nicer"
+    },
+    {
+     "label": "C",
+     "text": "does not think Mrs. Watson likes her"
+    },
+    {
+     "label": "D",
+     "text": "feels affectionate toward Mrs. Watson"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-5"
+  },
+  {
+   "n": 6,
+   "stem": "The reader may best infer that Mrs. Watson —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "did volunteer work when she was a teenager"
+    },
+    {
+     "label": "G",
+     "text": "was expecting to see her daughter instead of Keisha"
+    },
+    {
+     "label": "H",
+     "text": "faced discrimination when she was young"
+    },
+    {
+     "label": "J",
+     "text": "was relieved when Keisha finally finished her visit"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-6"
+  },
+  {
+   "n": 7,
+   "stem": "The tone of this story is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "critical"
+    },
+    {
+     "label": "B",
+     "text": "sorrowful"
+    },
+    {
+     "label": "C",
+     "text": "respectful"
+    },
+    {
+     "label": "D",
+     "text": "suspenseful"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-7"
+  },
+  {
+   "n": 8,
+   "stem": "Mrs. Ellis wishes Keisha luck before her visit with Mrs. Watson because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Keisha is a shy person"
+    },
+    {
+     "label": "G",
+     "text": "Mrs. Watson needs a visitor"
+    },
+    {
+     "label": "H",
+     "text": "Keisha is feeling nervous"
+    },
+    {
+     "label": "J",
+     "text": "Mrs. Watson can be difficult"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-8"
+  },
+  {
+   "n": 9,
+   "stem": "Readers may find this story inspiring because a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "girl enjoys learning about her heroes"
+    },
+    {
+     "label": "B",
+     "text": "woman prefers spending time by herself"
+    },
+    {
+     "label": "C",
+     "text": "girl helps someone feel appreciated"
+    },
+    {
+     "label": "D",
+     "text": "woman moves to be near her daughter"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-9"
+  },
+  {
+   "n": 10,
+   "stem": "The reader may best conclude that Mrs. Watson —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "participated in the Montgomery Bus Boycott"
+    },
+    {
+     "label": "G",
+     "text": "was pleased to move away from Alabama"
+    },
+    {
+     "label": "H",
+     "text": "wants to write about her experiences in Montgomery"
+    },
+    {
+     "label": "J",
+     "text": "still has family members living in Alabama"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-10"
+  },
+  {
+   "n": 11,
+   "stem": "What is the main conflict in this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mrs. Watson does not like listening to poetry."
+    },
+    {
+     "label": "B",
+     "text": "Keisha does not have anything to read to the residents."
+    },
+    {
+     "label": "C",
+     "text": "Mrs. Watson does not want any visitors."
+    },
+    {
+     "label": "D",
+     "text": "Keisha is not prepared to meet a new resident."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-11"
+  },
+  {
+   "n": 12,
+   "stem": "In paragraph 3, surpassed means —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "been estimated to be"
+    },
+    {
+     "label": "G",
+     "text": "almost reached"
+    },
+    {
+     "label": "H",
+     "text": "increased beyond"
+    },
+    {
+     "label": "J",
+     "text": "been growing toward"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-12"
+  },
+  {
+   "n": 13,
+   "stem": "In paragraph 3, the author uses the words “bulldozing,” “squeezed out,” and “conflicts” to show that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the baby elephants cannot survive alone"
+    },
+    {
+     "label": "B",
+     "text": "the loss of elephant habitat is an unfortunate necessity"
+    },
+    {
+     "label": "C",
+     "text": "human population growth is a threat to elephants"
+    },
+    {
+     "label": "D",
+     "text": "people are trying to maintain some areas for elephants"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-13"
+  },
+  {
+   "n": 14,
+   "stem": "In paragraph 3, the word turmoil means a —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "state of commotion"
+    },
+    {
+     "label": "G",
+     "text": "sense of mystery"
+    },
+    {
+     "label": "H",
+     "text": "feeling of suspense"
+    },
+    {
+     "label": "J",
+     "text": "condition of illness"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-14"
+  },
+  {
+   "n": 15,
+   "stem": "Which detail could best be included in the section “Endangered Baby Elephants”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A list of other baby animals that are sometimes separated from their mothers"
+    },
+    {
+     "label": "B",
+     "text": "A description of how baby elephants become separated from their mothers"
+    },
+    {
+     "label": "C",
+     "text": "A specific story about a baby elephant that is released from the refuge"
+    },
+    {
+     "label": "D",
+     "text": "A description of how adult elephants help the babies survive in the wild"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-15"
+  },
+  {
+   "n": 16,
+   "stem": "Which question is answered in paragraph 6?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Who gives the elephants their first feeding?"
+    },
+    {
+     "label": "G",
+     "text": "What do elephants at the refuge eat?"
+    },
+    {
+     "label": "H",
+     "text": "How large is the refuge?"
+    },
+    {
+     "label": "J",
+     "text": "Where does the refuge get the milk for the baby elephants?"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-16"
+  },
+  {
+   "n": 17,
+   "stem": "What is the main idea of the section “Return to the Wild”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The ETH needs donations to feed and care for the young elephants."
+    },
+    {
+     "label": "B",
+     "text": "Foster parents may help release baby elephants when they are able to survive without human help."
+    },
+    {
+     "label": "C",
+     "text": "Baby elephants are at the ETH for many years before they can be released."
+    },
+    {
+     "label": "D",
+     "text": "The objective of the ETH is for elephants to live together in their natural habitats."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-17"
+  },
+  {
+   "n": 18,
+   "stem": "What tone is created by the author’s word choice in this article?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Persuasive"
+    },
+    {
+     "label": "G",
+     "text": "Concerned"
+    },
+    {
+     "label": "H",
+     "text": "Humorous"
+    },
+    {
+     "label": "J",
+     "text": "Angry"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-18"
+  },
+  {
+   "n": 19,
+   "stem": "Which is the best summary of this article?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Elephants in Asia and Africa are being threatened by people moving into their territories."
+    },
+    {
+     "label": "B",
+     "text": "The Elephant Transit Home helps orphaned baby elephants until they can return to the wild."
+    },
+    {
+     "label": "C",
+     "text": "Elephants at the ETH receive food, shelter, and medical care."
+    },
+    {
+     "label": "D",
+     "text": "Elephant refuges offer foster parent programs to support elephants."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-19"
+  },
+  {
+   "n": 20,
+   "stem": "Which sentence best shows the author’s attitude toward elephants?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "In 1900 there were 12,000 wild elephants living in Sri Lanka’s tropical environment."
+    },
+    {
+     "label": "G",
+     "text": "Every year about 30 baby elephants in Sri Lanka need refuge."
+    },
+    {
+     "label": "H",
+     "text": "Then the elephants are released to roam on the preserve’s land."
+    },
+    {
+     "label": "J",
+     "text": "Not only are the elephants cared for, they are treated with respect and dignity."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-20"
+  },
+  {
+   "n": 21,
+   "stem": "The author uses section headings to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "help readers locate specific information"
+    },
+    {
+     "label": "B",
+     "text": "state an opinion to be supported with details"
+    },
+    {
+     "label": "C",
+     "text": "make the article more appealing to the eye"
+    },
+    {
+     "label": "D",
+     "text": "build suspense about the ideas that follow"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-21"
+  },
+  {
+   "n": 22,
+   "stem": "About one o’clock, while finishing our lunch, we heard honking like a hungry goose. Which literary device does this sentence contain?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Personification"
+    },
+    {
+     "label": "G",
+     "text": "Simile"
+    },
+    {
+     "label": "H",
+     "text": "Analogy"
+    },
+    {
+     "label": "J",
+     "text": "Hyperbole"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-22"
+  },
+  {
+   "n": 23,
+   "stem": "The author uses the phrase “put Grandma’s ruby ring to shame” to show —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the condition of the truck"
+    },
+    {
+     "label": "B",
+     "text": "embarrassment about the ring"
+    },
+    {
+     "label": "C",
+     "text": "the brilliant color of the truck"
+    },
+    {
+     "label": "D",
+     "text": "the type of stone in the ring"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-23"
+  },
+  {
+   "n": 24,
+   "stem": "The author uses the words “satisfied silence” to indicate —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "appreciation of the truck"
+    },
+    {
+     "label": "G",
+     "text": "the soft sounds of the engine"
+    },
+    {
+     "label": "H",
+     "text": "the emptiness of the barn"
+    },
+    {
+     "label": "J",
+     "text": "enjoyment of working in the barn"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-24"
+  },
+  {
+   "n": 25,
+   "stem": "Why was the barn mostly empty when the truck pulled into it?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The horses were hitched to the wagon."
+    },
+    {
+     "label": "B",
+     "text": "The load of lumber was placed outside."
+    },
+    {
+     "label": "C",
+     "text": "The family owned few animals."
+    },
+    {
+     "label": "D",
+     "text": "The barn was cleared to fit the truck."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-25"
+  },
+  {
+   "n": 26,
+   "stem": "The reader may best infer that Joe refused the candy because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "he does not like sweets"
+    },
+    {
+     "label": "G",
+     "text": "he felt too busy for a treat"
+    },
+    {
+     "label": "H",
+     "text": "he was full from eating lunch"
+    },
+    {
+     "label": "J",
+     "text": "he wanted to be considered a grownup"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-26"
+  },
+  {
+   "n": 27,
+   "stem": "The main reason Joe likes the idea of owning a truck is because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "he would be able to sit next to his father"
+    },
+    {
+     "label": "B",
+     "text": "it holds more lumber than the wagon"
+    },
+    {
+     "label": "C",
+     "text": "it would help Pa win more contracts"
+    },
+    {
+     "label": "D",
+     "text": "he would have more free time"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-27"
+  },
+  {
+   "n": 28,
+   "stem": "Stunned is to amazed as —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "sad is to happy"
+    },
+    {
+     "label": "G",
+     "text": "elaborate is to plain"
+    },
+    {
+     "label": "H",
+     "text": "gentle is to calm"
+    },
+    {
+     "label": "J",
+     "text": "interesting is to confusing"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-28"
+  },
+  {
+   "n": 29,
+   "stem": "What may the reader infer is most likely to happen in the future?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pa will sell the truck because he prefers the wagon."
+    },
+    {
+     "label": "B",
+     "text": "Pa will slowly feel comfortable about using the truck."
+    },
+    {
+     "label": "C",
+     "text": "Pa will be awarded more contracts."
+    },
+    {
+     "label": "D",
+     "text": "Pa will buy another truck for Joe."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-29"
+  },
+  {
+   "n": 30,
+   "stem": "Which sentence best expresses the theme of the story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "I shook my head “no” toward Pa, and he called out, “No, it’s all for you two kids.”"
+    },
+    {
+     "label": "G",
+     "text": "“The truck can carry twice as much as our wagon,” I said."
+    },
+    {
+     "label": "H",
+     "text": "“I’ll hitch the team,” I finally said, “unless you want me to load.”"
+    },
+    {
+     "label": "J",
+     "text": "I think it might have said, “Don’t rush him. I’m in no hurry.”"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-30"
+  },
+  {
+   "n": 31,
+   "stem": "From which point of view is this story written?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "First person, Joe"
+    },
+    {
+     "label": "B",
+     "text": "First person, Pa"
+    },
+    {
+     "label": "C",
+     "text": "Third person, limited"
+    },
+    {
+     "label": "D",
+     "text": "Third person, omniscient"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-31"
+  },
+  {
+   "n": 32,
+   "stem": "What does paragraph 3 suggest about the letter writer?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "He finds Ms. Jackson’s tutoring sessions to be easy."
+    },
+    {
+     "label": "G",
+     "text": "He respects Ms. Jackson’s tutoring rule."
+    },
+    {
+     "label": "H",
+     "text": "He thinks Ms. Jackson’s methods can be frustrating."
+    },
+    {
+     "label": "J",
+     "text": "He has had trouble with Ms. Jackson’s assignments."
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-32"
+  },
+  {
+   "n": 33,
+   "stem": "The letter writer repeats the phrase “does not simply” in paragraphs 3 and 5 in order to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "compare Ms. Jackson with previous speakers"
+    },
+    {
+     "label": "B",
+     "text": "show that Ms. Jackson does more than expected"
+    },
+    {
+     "label": "C",
+     "text": "suggest a complicated approach to teaching"
+    },
+    {
+     "label": "D",
+     "text": "compare Ms. Jackson with other teachers"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-33"
+  },
+  {
+   "n": 34,
+   "stem": "What is paragraph 4 mostly about?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Ms. Jackson’s interest in sporting events"
+    },
+    {
+     "label": "G",
+     "text": "Ms. Jackson’s willingness to chaperone trips"
+    },
+    {
+     "label": "H",
+     "text": "Ms. Jackson’s occasional absence from events"
+    },
+    {
+     "label": "J",
+     "text": "Ms. Jackson’s support of students outside the classroom"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-34"
+  },
+  {
+   "n": 35,
+   "stem": "The word bright suggests that the letter writer sees the future as filled with —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "hope"
+    },
+    {
+     "label": "B",
+     "text": "challenge"
+    },
+    {
+     "label": "C",
+     "text": "mystery"
+    },
+    {
+     "label": "D",
+     "text": "adventure"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-35"
+  },
+  {
+   "n": 36,
+   "stem": "Ms. Jackson would be an unusual choice to speak because she is a —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "PTA member"
+    },
+    {
+     "label": "G",
+     "text": "parent"
+    },
+    {
+     "label": "H",
+     "text": "politician"
+    },
+    {
+     "label": "J",
+     "text": "teacher"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-36"
+  },
+  {
+   "n": 37,
+   "stem": "To support his request, the letter writer describes —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "how Ms. Jackson became a teacher"
+    },
+    {
+     "label": "B",
+     "text": "awards Ms. Jackson has won"
+    },
+    {
+     "label": "C",
+     "text": "how students perceive Ms. Jackson"
+    },
+    {
+     "label": "D",
+     "text": "speeches Ms. Jackson has given"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-37"
+  },
+  {
+   "n": 38,
+   "stem": "Which lesson might a student have learned from Ms. Jackson?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Real learning takes effort."
+    },
+    {
+     "label": "G",
+     "text": "Never settle for second best."
+    },
+    {
+     "label": "H",
+     "text": "Some people are naturally bright."
+    },
+    {
+     "label": "J",
+     "text": "Seek advice when making decisions."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-38"
+  },
+  {
+   "n": 39,
+   "stem": "To demonstrate Ms. Jackson’s involvement, the letter writer mentions —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "drama performances"
+    },
+    {
+     "label": "B",
+     "text": "speech contests"
+    },
+    {
+     "label": "C",
+     "text": "musical concerts"
+    },
+    {
+     "label": "D",
+     "text": "graduation ceremonies"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-39"
+  },
+  {
+   "n": 40,
+   "stem": "Which sentence makes the strongest argument for Ms. Jackson?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "As an eighth-grade student, I would like you to consider Ms. Jackson."
+    },
+    {
+     "label": "G",
+     "text": "The ceremony is an important event."
+    },
+    {
+     "label": "H",
+     "text": "The speaker should understand where students have been and are going."
+    },
+    {
+     "label": "J",
+     "text": "I hope you will consider asking Ms. Jackson to speak."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-40"
+  },
+  {
+   "n": 41,
+   "stem": "Ms. Jackson is helpful as a tutor primarily because she is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "enthusiastic about homework"
+    },
+    {
+     "label": "B",
+     "text": "knowledgeable in three subjects"
+    },
+    {
+     "label": "C",
+     "text": "available during the summer"
+    },
+    {
+     "label": "D",
+     "text": "popular with students"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-41"
+  },
+  {
+   "n": 42,
+   "stem": "Speaker is to inspire as —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "student is to assist"
+    },
+    {
+     "label": "G",
+     "text": "teacher is to motivate"
+    },
+    {
+     "label": "H",
+     "text": "coach is to practice"
+    },
+    {
+     "label": "J",
+     "text": "parent is to improve"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-42"
+  },
+  {
+   "n": 43,
+   "stem": "Which sentence contains the best example of personification?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The dog ate its food in exactly thirty seconds."
+    },
+    {
+     "label": "B",
+     "text": "Benjamin races across the field like a jackrabbit."
+    },
+    {
+     "label": "C",
+     "text": "The sun poked its face through the curtains."
+    },
+    {
+     "label": "D",
+     "text": "Nadine was swamped with letters."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-43"
+  },
+  {
+   "n": 44,
+   "stem": "Which is a synonym for scrutinize?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "reject"
+    },
+    {
+     "label": "G",
+     "text": "modify"
+    },
+    {
+     "label": "H",
+     "text": "discount"
+    },
+    {
+     "label": "J",
+     "text": "inspect"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-44"
+  },
+  {
+   "n": 45,
+   "stem": "Which sentence contains a metaphor?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The moon was a gleaming silver coin in the sky."
+    },
+    {
+     "label": "B",
+     "text": "A brown buffalo blundered into the pasture."
+    },
+    {
+     "label": "C",
+     "text": "Melinda had waited forever."
+    },
+    {
+     "label": "D",
+     "text": "The camera captured the scene."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2010_SOLPass",
+   "id": "grade-8-english-45"
+  },
+  {
+   "n": 1,
+   "stem": "In paragraph 2, the author’s use of the words “distinguish” and “like” indicates that the information is organized by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "determining the causes of an effect"
+    },
+    {
+     "label": "B",
+     "text": "arranging the ideas in order of importance"
+    },
+    {
+     "label": "C",
+     "text": "placing the events in chronological sequence"
+    },
+    {
+     "label": "D",
+     "text": "comparing and contrasting similar subjects"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-46"
+  },
+  {
+   "n": 3,
+   "stem": "Based on paragraph 8, the reader may best infer that the kinkajou —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "is unsuited for domestic life"
+    },
+    {
+     "label": "B",
+     "text": "requires a tropical habitat"
+    },
+    {
+     "label": "C",
+     "text": "requires a special diet"
+    },
+    {
+     "label": "D",
+     "text": "is unable to coexist with other pets"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-47"
+  },
+  {
+   "n": 4,
+   "stem": "According to the article, which sense best helps a kinkajou locate another kinkajou’s territory?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sight"
+    },
+    {
+     "label": "B",
+     "text": "Smell"
+    },
+    {
+     "label": "C",
+     "text": "Touch"
+    },
+    {
+     "label": "D",
+     "text": "Hearing"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-48"
+  },
+  {
+   "n": 5,
+   "stem": "According to the article, the kinkajou resembles a monkey because of its —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "grooming habits"
+    },
+    {
+     "label": "B",
+     "text": "sharp teeth"
+    },
+    {
+     "label": "C",
+     "text": "sleep schedule"
+    },
+    {
+     "label": "D",
+     "text": "communication style"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-49"
+  },
+  {
+   "n": 6,
+   "stem": "After their first meeting, the narrator and the horse learn about each other when they —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "eat their meals together"
+    },
+    {
+     "label": "B",
+     "text": "go for short rides together"
+    },
+    {
+     "label": "C",
+     "text": "receive training from an elder"
+    },
+    {
+     "label": "D",
+     "text": "spend time observing one another"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-50"
+  },
+  {
+   "n": 7,
+   "stem": "Who is the narrator of this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A teenage boy"
+    },
+    {
+     "label": "B",
+     "text": "The father of a young boy"
+    },
+    {
+     "label": "C",
+     "text": "A five-year-old boy"
+    },
+    {
+     "label": "D",
+     "text": "The grandfather of a young boy"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-51"
+  },
+  {
+   "n": 8,
+   "stem": "Complete this analogy. Skilled is to expert as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "studied is to lesson"
+    },
+    {
+     "label": "B",
+     "text": "informed is to elder"
+    },
+    {
+     "label": "C",
+     "text": "questioned is to rider"
+    },
+    {
+     "label": "D",
+     "text": "rejected is to horse"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-52"
+  },
+  {
+   "n": 9,
+   "stem": "In paragraph 1, the author suggests that before the Internet, researching a given topic was —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "restricted to academics"
+    },
+    {
+     "label": "B",
+     "text": "based on less reliable sources"
+    },
+    {
+     "label": "C",
+     "text": "a time-consuming task"
+    },
+    {
+     "label": "D",
+     "text": "a classroom-based activity"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-53"
+  },
+  {
+   "n": 10,
+   "stem": "Which meaning best fits the word daunting in paragraph 2?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "confusing"
+    },
+    {
+     "label": "B",
+     "text": "fascinating"
+    },
+    {
+     "label": "C",
+     "text": "exhilarating"
+    },
+    {
+     "label": "D",
+     "text": "overwhelming"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-54"
+  },
+  {
+   "n": 11,
+   "stem": "The implied main idea of paragraph 2 is that reference books —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "have become more accessible since they were introduced"
+    },
+    {
+     "label": "B",
+     "text": "are written by historians and ordinary people alike"
+    },
+    {
+     "label": "C",
+     "text": "are written to fulfill various research needs"
+    },
+    {
+     "label": "D",
+     "text": "have been developing over time"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-55"
+  },
+  {
+   "n": 12,
+   "stem": "According to paragraph 2, what major change occurred in the organization of early encyclopedias?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Publishers began to arrange works according to subject."
+    },
+    {
+     "label": "B",
+     "text": "Publishers began to receive assistance from editors in different fields."
+    },
+    {
+     "label": "C",
+     "text": "Authors began to work together rather than individually."
+    },
+    {
+     "label": "D",
+     "text": "Authors began to condense works to make entries shorter."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-56"
+  },
+  {
+   "n": 13,
+   "stem": "The language in the sentence about hiring an “army” of fact checkers creates a sense of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "intelligence"
+    },
+    {
+     "label": "B",
+     "text": "determination"
+    },
+    {
+     "label": "C",
+     "text": "obedience"
+    },
+    {
+     "label": "D",
+     "text": "resignation"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-57"
+  },
+  {
+   "n": 14,
+   "stem": "Read this part of an outline based on the article. I. The first encyclopedias A. read from beginning to end B. prepared by a single author C. ______ Which belongs on the blank line?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "written nearly 2,000 years ago"
+    },
+    {
+     "label": "B",
+     "text": "titled Myrrour of the World"
+    },
+    {
+     "label": "C",
+     "text": "arranged alphabetically by content"
+    },
+    {
+     "label": "D",
+     "text": "presented in a set of three volumes"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-58"
+  },
+  {
+   "n": 15,
+   "stem": "Companies are adapting to the rapidly changing encyclopedia industry by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "publishing expanded sets of encyclopedias"
+    },
+    {
+     "label": "B",
+     "text": "creating both online and print volumes of encyclopedias"
+    },
+    {
+     "label": "C",
+     "text": "narrowing their focus by creating longer entries"
+    },
+    {
+     "label": "D",
+     "text": "forcing one another to expand into the online market"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-59"
+  },
+  {
+   "n": 16,
+   "stem": "What has Encyclopaedia Britannica done to improve the quality of its entries?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Employed better writers to develop material"
+    },
+    {
+     "label": "B",
+     "text": "Hired authorities to confirm information"
+    },
+    {
+     "label": "C",
+     "text": "Looked to other companies for suggestions"
+    },
+    {
+     "label": "D",
+     "text": "Revised older volumes on a regular basis"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-60"
+  },
+  {
+   "n": 17,
+   "stem": "The main idea of the article is that people should —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "contribute often to online encyclopedias"
+    },
+    {
+     "label": "B",
+     "text": "use print rather than online resources"
+    },
+    {
+     "label": "C",
+     "text": "be aware that traditional encyclopedias lack quality"
+    },
+    {
+     "label": "D",
+     "text": "understand that research tools will continue to change"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-61"
+  },
+  {
+   "n": 18,
+   "stem": "Which is a negative connotation of the word prescribe?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "advise"
+    },
+    {
+     "label": "B",
+     "text": "dictate"
+    },
+    {
+     "label": "C",
+     "text": "specify"
+    },
+    {
+     "label": "D",
+     "text": "endorse"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2015_SOLPass",
+   "id": "grade-8-english-62"
+  },
+  {
+   "n": 1,
+   "stem": "What does the phrase “on the go” mean in this advertisement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hard to find"
+    },
+    {
+     "label": "B",
+     "text": "About to leave"
+    },
+    {
+     "label": "C",
+     "text": "Working properly"
+    },
+    {
+     "label": "D",
+     "text": "Very active"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2003_SOLPass",
+   "id": "grade-8-english-63"
+  },
+  {
+   "n": 2,
+   "stem": "In this advertisement, tantalizing means —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "original"
+    },
+    {
+     "label": "G",
+     "text": "frequent"
+    },
+    {
+     "label": "H",
+     "text": "tempting"
+    },
+    {
+     "label": "J",
+     "text": "common"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2003_SOLPass",
+   "id": "grade-8-english-64"
+  },
+  {
+   "n": 3,
+   "stem": "From information in this advertisement, the reader can conclude that Neavest is probably a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "food manufacturer"
+    },
+    {
+     "label": "B",
+     "text": "government agency"
+    },
+    {
+     "label": "C",
+     "text": "consumer organization"
+    },
+    {
+     "label": "D",
+     "text": "supermarket chain"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2003_SOLPass",
+   "id": "grade-8-english-65"
+  },
+  {
+   "n": 4,
+   "stem": "This advertisement is designed to appeal to people who —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "like home-cooked meals"
+    },
+    {
+     "label": "G",
+     "text": "want to save money"
+    },
+    {
+     "label": "H",
+     "text": "want to be like others"
+    },
+    {
+     "label": "J",
+     "text": "don’t have much time"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2003_SOLPass",
+   "id": "grade-8-english-66"
+  },
+  {
+   "n": 5,
+   "stem": "Which of these is a fact presented in this advertisement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Eating Quickeats is like eating homemade food."
+    },
+    {
+     "label": "B",
+     "text": "Quickeats fit in people’s daily routine."
+    },
+    {
+     "label": "C",
+     "text": "One Quickeats meal consists of vegetables and pasta."
+    },
+    {
+     "label": "D",
+     "text": "Quickeats are packaged in a convenient way."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2003_SOLPass",
+   "id": "grade-8-english-67"
+  },
+  {
+   "n": 6,
+   "stem": "Which of these questions is answered in the advertisement?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "What kinds of dried fruit are included in a yogurt meal?"
+    },
+    {
+     "label": "G",
+     "text": "Is a Quickeats container small enough to fit into a backpack?"
+    },
+    {
+     "label": "H",
+     "text": "Can Red Hot Quickeats be prepared on a stove as well as in a microwave?"
+    },
+    {
+     "label": "J",
+     "text": "How long are Quickeats available at local stores?"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_8_2003_SOLPass",
+   "id": "grade-8-english-68"
+  },
+  {
+   "n": 7,
+   "stem": "Which of these is the best summary of this advertisement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Neavest can be contacted at P.O. Box 90210 in Lexinet, Virginia."
+    },
+    {
+     "label": "B",
+     "text": "Quickeats are easy to prepare and come in both hot and cold varieties."
+    },
+    {
+     "label": "C",
+     "text": "One Red Hot Quickeats meal is stew with garden vegetables."
+    },
+    {
+     "label": "D",
+     "text": "People with questions or suggestions should call 1-888-293-3151."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2003_SOLPass",
+   "id": "grade-8-english-69"
+  },
+  {
+   "n": 26,
+   "stem": "“Alone in the Night” can best be described as a — A mystery B tall tale C biography D fantasy Ups and Downs In the dog days of August, the sun beats a slow drum On hours dry as feathers, but we don’t mind. We loll at the beach, tanned and sweaty, Cooled by crystal waters, under skies blue And perfect as childhood. But the river minds. He gives himself up, drop by drop, lower, lower, Sinks into himself, sad and sullen, And scared, I think, of dying: slower, slower. I smell the muddy reeds, see logs we’ve never seen. Rocks appear like nightmares in August noons. September brings thunder, lightning, downpour, Days of torrents, drizzles, sheets, and showers. The end of the dock sinks as the thirsty river Drinks and guzzles, sloshing, slobbering, Rushing. The crooked snake nuzzles the banks, Hugs the bends he’s whittled over long years. He’s giddy — tumbling, somersaulting, rock vaulting! We read books, tie flies, play games, bake pies As the golden leaves are pelted off their branches, And the stiff brown moss turns green and lush again. October’s Indian summer is dry. Crackling leaves, Snapping branches. No campfires allowed. The river Dwindles, shrinks. The bogs dry up to stinky stones Like white bones: where do the frogs go? The river Flattens, thins, fish huddle in its muddy rims. Forest fires in Canada! One day we wake to hazy smoke, Shudder, watch our river choke. We watch the logs And rocks poke their heads again, grinning, Cackling: Come and get us! The weather station Says drought. Drought. The beavers wait. The paper says it’s snowing in the country — what if … If the river freezes low, what will the beavers do? But November brings relief, for just as the last red leaf Drops, the skies open and cry! Autumn deluge, River refuge. We hear it on the roof — all night — All day — We hear the river praising rain! Again, it Drinks its fill, rises, rises, swells, surprises. As we pull out the docks, in our hip waders, The cold river is high and mighty, it rushes round Our thighs and screams: AAHHEEE! Let winter come! 16. The first line of “Ups and Downs” is an example of — F personification G simile H metaphor J onomatopoeia 17. Why does the speaker “see logs we’ve never seen”? A Beavers are busy cutting logs to build dams. B New trees are falling into the river. C The river is drying up and exposing the logs. D People have thrown odd things into the river. 18. What does the description in line 13 mean? F The dock is old and is sinking into the river. G The dock is lower at one end than the other. H The river is rising higher. J The river is eating the dock away. 19. Thesaurus entry: vault (v.) jerk, leap, start, rise If the author wanted to replace the word vaulting, which would be the most precise word to use? A jerking B rising C starting D leaping 20. The poet uses the term “high and mighty” to show that the river is — F very inviting G threatening to leave its banks H more powerful than people J strong again 21. Who is the speaker in this poem? A A person who lives near a river B Different people at different times of the year C The river that needs water D A beaver that lives near the river 22. Which is a simile expressed in this poem? F “We read books …” G “September brings thunder …” H “Rocks appear like nightmares …” J “As we pull out …” 23. Which description best creates a clear, visual image of the weather in September? A “Drinks and guzzles, sloshing, slobbering …” B “Days of torrents, drizzles, sheets, and showers.” C “And the stiff brown moss turns green and lush again.” D “As the golden leaves are pelted off their branches …” The Wreck of the Queen Anne’s Revenge 1. On November 23, 1996, a team of marine archaeologists worked with an air of finality. For the Maritime Research Institute, this was the last day of operations. Their quest was to find the shipwrecked hull of the Queen Anne’s Revenge, one of the most infamous vessels to sail the Atlantic during the 1700s. The ship had gained its bad reputation through the plundering deeds of its last captain, the pirate known as Blackbeard. 2. The search for the wreck began on land about ten years earlier when Phil Masters studied historical records in the London Archives. An eyewitness account of the ship’s loss prompted him to seek a permit to explore a six-mile stretch of coast near Beaufort Inlet in North Carolina, where the ship reportedly ran aground. 3. This area is known as the “Graveyard of the Atlantic” because hundreds of ships are believed to have sunk there. Masters knew that finding the oldest, largest, and most heavily armed ship of its kind would be a significant achievement. 4. Diver Will Kirkman made a routine twenty-foot dive off a sandbar and suddenly found himself among barnacle-covered cannons. Knowing the ship carried forty cannons, he was certain he had found the Queen Anne’s Revenge. 5. The ship, once called the Concord, had been captured, sold, and reused by several nations before Blackbeard seized it in 1717 and renamed it. 6. Blackbeard commanded the ship for seven months, capturing at least eighteen other ships. When the ship was abandoned, he was believed to have taken all valuables. 7. The divers uncovered most of the wooden hull and many artifacts, including the ship’s bell, pewter plates, parts of scientific instruments, and eighteen cannons. 8. By studying the remains, scientists hope to learn about Blackbeard, ship construction, and the African slave trade. 9. The abandoned ship serves as a “time capsule” that may unlock 300-year-old mysteries. 10. In the first paragraph, the word infamous means — F notorious G celebrated H ornate J large 11. Masters felt confident about the ship’s location because — A many artifacts had been found nearby B he had found written evidence C many people talked about it D he was able to get a permit 12. The La Concorde made just one trip to West Africa because — F the English captured it back from the French G it became disabled H the French entered another war J Blackbeard captured it after the first trip 13. Thesaurus entry: apprehend (v.) seize, capture, arrest, understand Which word best replaces apprehended? A arrested B understood C seized D dreaded 14. Which question is answered in paragraph 7? F Where was the ship’s bell made? G What artifacts have been found? H How many pewter plates were found? J When will the search end? 15. Which word contains a root meaning “to build”? A material B activities C studying D construction 16. From the last paragraph, the reader can conclude that Blackbeard — F lost his way G was able to avoid capture H destroyed his ships J buried his treasure 17. Looking for the Queen Anne’s Revenge was significant because — A it would prove many ships were nearby B the ship and its captain played important roles in history C the cannons could be reused D it was the Institute’s project 18. Which is an opinion expressed in the passage? F What archaeologists want most is more important than material objects. G The search began about ten years earlier. H Phil Masters searched the London Archives. J Blackbeard captured at least eighteen ships. 19. Which is the best summary of this passage? A Archaeologists discovered the remains and uncovered artifacts. B Blackbeard captured and renamed the ship. C Phil Masters began the search in 1986. D Will Kirkman discovered the ship near a sandbar. Tony Beaver … Axe-Swinger of Old Virginny 34. It is clear that this selection is a tall tale because — A tall tales were popular in West Virginia B the details become less and less believable C many legends of lumberjacks have been told D the story is set in the nineteenth century 35. What can the reader conclude about Tony Beaver’s accomplishments? A They were not important. B They inspired others. C They never really happened. D They were well known. 36. What does “snap in two like a matchstick” mean? F break easily G shed light H fall apart J crash down 37. What does the author mean when he writes that the oxen could pull anything “into the middle of next month”? A The oxen could carry the load anywhere. B Time was not important to the oxen. C Lumberjacks depended on the oxen. D The work took one month. 38. What does Tony do to solve the problem? F Uses bigger oxen G Turns the river into candy H Uses a double-bladed axe J Stirs the river with a tree 39. Which phrase offers an image of Tony’s abilities? A “The Eel began to rise rapidly …” B “That’s the kind of lumberman big Tony Beaver was.” C “Then Tony blew a cloud right across the sun.” D “Oxen were used to drag the timber …” 40. The author probably meant for this story to be — F humorous G educational H historical J dangerous 41. The author uses exaggeration to make the story more — A frightening B believable C action-packed D entertaining 42. In which literary category does this story belong?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Nonfiction"
+    },
+    {
+     "label": "G",
+     "text": "Biography"
+    },
+    {
+     "label": "H",
+     "text": "History"
+    },
+    {
+     "label": "J",
+     "text": "Fiction"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2003_SOLPass",
+   "id": "grade-8-english-70"
+  },
+  {
+   "n": 4,
+   "stem": "Obviously defined; unquestionable. In paragraph 1 of the article, distinct comes from a word that means — A. separate B. clear C. unquestionable D. distinguish 2. Based on the article, the reader can determine that hummingbirds — F. compete with bees for nectar G. live primarily in warm climates H. become confused when flying backwards J. rely on bird feeders in order to survive 3. In the poem, the hummingbird’s nest is a symbol of — A. lost opportunities B. former relationships C. distant childhood D. past adventures 4. Both the poem and the article address the theme of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "enjoying nature"
+    },
+    {
+     "label": "G",
+     "text": "studying the weather"
+    },
+    {
+     "label": "H",
+     "text": "developing a hobby"
+    },
+    {
+     "label": "J",
+     "text": "holding on to memories"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-71"
+  },
+  {
+   "n": 5,
+   "stem": "In paragraph 7, Mrs. Ellis wishes Keisha good luck most likely because she thinks Keisha —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "will need help finding Mrs. Watson’s room"
+    },
+    {
+     "label": "B",
+     "text": "is unprepared for visiting Mrs. Watson"
+    },
+    {
+     "label": "C",
+     "text": "will be challenged by Mrs. Watson’s attitude"
+    },
+    {
+     "label": "D",
+     "text": "is worried about reading to Mrs. Watson"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-72"
+  },
+  {
+   "n": 6,
+   "stem": "The purpose of the figurative language in paragraph 8 is to foreshadow —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Mrs. Watson’s response to Keisha’s essay"
+    },
+    {
+     "label": "G",
+     "text": "Keisha’s feelings toward Mrs. Watson"
+    },
+    {
+     "label": "H",
+     "text": "Keisha’s attitude about volunteering"
+    },
+    {
+     "label": "J",
+     "text": "Mrs. Watson’s first reaction to Keisha"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-73"
+  },
+  {
+   "n": 7,
+   "stem": "Read this sentence from paragraph 9. “Keisha started to stumble over her words as Mrs. Watson continued to stare at her with an almost belligerent gaze.” What is the meaning of the word belligerent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "strangely familiar"
+    },
+    {
+     "label": "B",
+     "text": "hostile or argumentative"
+    },
+    {
+     "label": "C",
+     "text": "weak or exhausted"
+    },
+    {
+     "label": "D",
+     "text": "overly exaggerated"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-74"
+  },
+  {
+   "n": 8,
+   "stem": "In paragraphs 8 and 9, the author’s tone can best be described as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "confused"
+    },
+    {
+     "label": "B",
+     "text": "regretful"
+    },
+    {
+     "label": "C",
+     "text": "tense"
+    },
+    {
+     "label": "D",
+     "text": "disappointed"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-75"
+  },
+  {
+   "n": 9,
+   "stem": "Which event is part of the resolution of the story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mrs. Watson agrees that Keisha should return the following Thursday."
+    },
+    {
+     "label": "B",
+     "text": "Mrs. Ellis tells Keisha to visit Mrs. Watson in her room."
+    },
+    {
+     "label": "C",
+     "text": "Keisha reads her English essay about Rosa Parks to Mrs. Watson."
+    },
+    {
+     "label": "D",
+     "text": "Mrs. Watson tells Keisha she would rather be alone."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-76"
+  },
+  {
+   "n": 10,
+   "stem": "Read this thesaurus entry. evolve v. — adapt, develop, increase, mature. Which word best replaces evolve as it is used in paragraph 1?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "adapt"
+    },
+    {
+     "label": "G",
+     "text": "develop"
+    },
+    {
+     "label": "H",
+     "text": "increase"
+    },
+    {
+     "label": "J",
+     "text": "mature"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-77"
+  },
+  {
+   "n": 11,
+   "stem": "Based on paragraph 4, what can the reader determine?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "African Americans were attracted to Harlem for a variety of reasons after World War I."
+    },
+    {
+     "label": "B",
+     "text": "African Americans encountered less social injustice in Harlem than in other places."
+    },
+    {
+     "label": "C",
+     "text": "African Americans became a majority of the population in Harlem in the 1920s."
+    },
+    {
+     "label": "D",
+     "text": "African Americans in Harlem were more successful than those who lived elsewhere."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-78"
+  },
+  {
+   "n": 12,
+   "stem": "The organization of the ideas in “Literature and Art Abound” supports the author’s purpose by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "listing examples of writers and artists who shared their talents"
+    },
+    {
+     "label": "G",
+     "text": "comparing and contrasting the popularity of writers and artists"
+    },
+    {
+     "label": "H",
+     "text": "explaining the effects of the writers’ and artists’ works on society"
+    },
+    {
+     "label": "J",
+     "text": "presenting the writers’ and artists’ works in order of importance"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-79"
+  },
+  {
+   "n": 13,
+   "stem": "Which sentence from “A Beginning, Not an End” best represents the main idea of the section?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "These gifted artists arrived in Harlem looking for hope, and what resulted was the blossoming of a new African American identity."
+    },
+    {
+     "label": "B",
+     "text": "The Harlem Renaissance began to decline in the late 1930s when the Great Depression crushed the nation’s economy."
+    },
+    {
+     "label": "C",
+     "text": "This sent most Americans into crisis, and time spent creating turned into time spent surviving."
+    },
+    {
+     "label": "D",
+     "text": "Their music, words, and art seem as fresh and powerful today in the 21st century as they were then."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-80"
+  },
+  {
+   "n": 14,
+   "stem": "Which detail best supports the idea that Harlem was a center of growth for jazz music in America?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Harlem had nightclubs where musicians played jazz."
+    },
+    {
+     "label": "G",
+     "text": "Jazz musicians in Harlem were known for improvising."
+    },
+    {
+     "label": "H",
+     "text": "Famous jazz musicians pursued their careers in Harlem."
+    },
+    {
+     "label": "J",
+     "text": "Jazz helped musicians in Harlem express themselves."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-81"
+  },
+  {
+   "n": 15,
+   "stem": "The details in paragraph 2 are mostly about —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "what polyp skeletons look like"
+    },
+    {
+     "label": "B",
+     "text": "what polyps use to catch their food"
+    },
+    {
+     "label": "C",
+     "text": "how large coral structures can grow"
+    },
+    {
+     "label": "D",
+     "text": "how coral structures are formed"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-82"
+  },
+  {
+   "n": 16,
+   "stem": "Read this sentence from paragraph 4. “In fact, more than 4,000 species of fish and marine life may populate a typical coral community.” In this sentence, populate means —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "construct"
+    },
+    {
+     "label": "G",
+     "text": "disturb"
+    },
+    {
+     "label": "H",
+     "text": "occupy"
+    },
+    {
+     "label": "J",
+     "text": "recognize"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-83"
+  },
+  {
+   "n": 17,
+   "stem": "The organization of ideas in paragraph 6 supports the author’s message by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "comparing several recent observations made by scientists who study the oceans"
+    },
+    {
+     "label": "B",
+     "text": "emphasizing the most important differences among inhabitants of a reef"
+    },
+    {
+     "label": "C",
+     "text": "outlining ways in which changes in water temperature affect a coral reef"
+    },
+    {
+     "label": "D",
+     "text": "describing in chronological order the events that occur in the ocean"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-84"
+  },
+  {
+   "n": 18,
+   "stem": "The use of the word however indicates that paragraph 7 is organized by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "generalization"
+    },
+    {
+     "label": "G",
+     "text": "comparison/contrast"
+    },
+    {
+     "label": "H",
+     "text": "problem/solution"
+    },
+    {
+     "label": "J",
+     "text": "listing"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-85"
+  },
+  {
+   "n": 19,
+   "stem": "The word coexist in paragraph 7 has the prefix co-, which means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "together"
+    },
+    {
+     "label": "B",
+     "text": "in abundance"
+    },
+    {
+     "label": "C",
+     "text": "near"
+    },
+    {
+     "label": "D",
+     "text": "in the past"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-86"
+  },
+  {
+   "n": 20,
+   "stem": "Which information best demonstrates that coral reefs are important to marine life?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Coral reefs are massive structures in the seas."
+    },
+    {
+     "label": "G",
+     "text": "Sea anemones attach themselves to the coral reefs."
+    },
+    {
+     "label": "H",
+     "text": "Coral reefs are made of skeletal calcium."
+    },
+    {
+     "label": "J",
+     "text": "Many ocean creatures survive because of coral reefs."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-87"
+  },
+  {
+   "n": 21,
+   "stem": "Which information from the article explains the cooperative relationship between algae and reef-dwelling coral?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Coral and algae share the coral reef with other marine animals."
+    },
+    {
+     "label": "B",
+     "text": "The algae plants grow on the coral reef, and the coral polyps live on the reef."
+    },
+    {
+     "label": "C",
+     "text": "The algae share food with the coral, and the coral shelters the algae."
+    },
+    {
+     "label": "D",
+     "text": "Changes that affect the coral also affect how the coral appears to the algae."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-88"
+  },
+  {
+   "n": 22,
+   "stem": "Why are coral reefs ideal for the growth of algae?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Reefs are home to marine sponges and sea turtles."
+    },
+    {
+     "label": "G",
+     "text": "Reefs are found in shallow waters and receive plenty of sunlight."
+    },
+    {
+     "label": "H",
+     "text": "Coral polyps gather together and grow into large colonies."
+    },
+    {
+     "label": "J",
+     "text": "Coral reefs form a large and complex ocean system."
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-89"
+  },
+  {
+   "n": 23,
+   "stem": "How do warming ocean temperatures affect coral?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Coral no longer accepts algae as a food source."
+    },
+    {
+     "label": "B",
+     "text": "Coral begins to form on structures made by humans."
+    },
+    {
+     "label": "C",
+     "text": "Coral structures no longer offer protection to polyps."
+    },
+    {
+     "label": "D",
+     "text": "Coral begins building a strong skeleton."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-90"
+  },
+  {
+   "n": 24,
+   "stem": "Based on the article, the reader can determine that —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "artificial reefs are more attractive to fish"
+    },
+    {
+     "label": "G",
+     "text": "coral reefs are not found in deeper water"
+    },
+    {
+     "label": "H",
+     "text": "scientists cannot save the coral reefs"
+    },
+    {
+     "label": "J",
+     "text": "concrete is the only material used in artificial reefs"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-91"
+  },
+  {
+   "n": 25,
+   "stem": "Based on the article, the author most likely wants the reader to agree that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "humans should leave coral reefs untouched"
+    },
+    {
+     "label": "B",
+     "text": "catching fish in coral reefs is harmful"
+    },
+    {
+     "label": "C",
+     "text": "coral is the most beautiful creature in the ocean"
+    },
+    {
+     "label": "D",
+     "text": "preserving coral reefs is important"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-92"
+  },
+  {
+   "n": 26,
+   "stem": "By describing the ocean’s habitat as “delicate,” the author intends to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "explain why the habitat is likely to survive for only a few more years"
+    },
+    {
+     "label": "G",
+     "text": "emphasize how some types of corals form thin structures"
+    },
+    {
+     "label": "H",
+     "text": "emphasize that an altered habitat can be dangerous for creatures living there"
+    },
+    {
+     "label": "J",
+     "text": "explain that sea creatures are more fragile than creatures living on land"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-93"
+  },
+  {
+   "n": 27,
+   "stem": "Which information should be included in a summary of this article?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sea slugs hide among coral reefs for protection."
+    },
+    {
+     "label": "B",
+     "text": "Reefs have been created by sinking old ships."
+    },
+    {
+     "label": "C",
+     "text": "Whip corals provide a habitat for black sea bass."
+    },
+    {
+     "label": "D",
+     "text": "Recent ocean changes have been affecting coral reefs."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-94"
+  },
+  {
+   "n": 28,
+   "stem": "Which type of literary device does the author use in paragraphs 6–12?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Symbolism"
+    },
+    {
+     "label": "G",
+     "text": "Flashback"
+    },
+    {
+     "label": "H",
+     "text": "Foreshadowing"
+    },
+    {
+     "label": "J",
+     "text": "Ironic tone"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-95"
+  },
+  {
+   "n": 29,
+   "stem": "In paragraph 8, the word preliminary means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "initial"
+    },
+    {
+     "label": "B",
+     "text": "essential"
+    },
+    {
+     "label": "C",
+     "text": "additional"
+    },
+    {
+     "label": "D",
+     "text": "substantial"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-96"
+  },
+  {
+   "n": 30,
+   "stem": "Read this sentence from paragraph 15. “The bird had a gray head the color of soot, and its eyes, two onyx stones, were surrounded with black, as if rimmed in eye makeup.” The purpose of the figurative language in this sentence is to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "convey the bird’s actions"
+    },
+    {
+     "label": "G",
+     "text": "explain a defense strategy of the bird"
+    },
+    {
+     "label": "H",
+     "text": "illustrate the bird’s surroundings"
+    },
+    {
+     "label": "J",
+     "text": "describe physical characteristics of the bird"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-97"
+  },
+  {
+   "n": 31,
+   "stem": "Which word is the best antonym for arduous in paragraph 18?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "moderate"
+    },
+    {
+     "label": "B",
+     "text": "satisfying"
+    },
+    {
+     "label": "C",
+     "text": "effortless"
+    },
+    {
+     "label": "D",
+     "text": "direct"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-98"
+  },
+  {
+   "n": 32,
+   "stem": "Paragraph 18 suggests that Joanna —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "is determined to rescue the bird"
+    },
+    {
+     "label": "G",
+     "text": "has hiked to the ranger station before"
+    },
+    {
+     "label": "H",
+     "text": "is nervous about the hiking trail"
+    },
+    {
+     "label": "J",
+     "text": "knows the park ranger studies birds"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-99"
+  },
+  {
+   "n": 33,
+   "stem": "In paragraph 25, what is Dan’s most logical reason for moving away from the waterfall?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He realizes they are going in the wrong direction."
+    },
+    {
+     "label": "B",
+     "text": "He wants to have a better view of the bird."
+    },
+    {
+     "label": "C",
+     "text": "He realizes the sound they hear could be imitated."
+    },
+    {
+     "label": "D",
+     "text": "He wants to avoid startling the bird."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-100"
+  },
+  {
+   "n": 34,
+   "stem": "The simile in paragraph 30 emphasizes that —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Joanna is patient"
+    },
+    {
+     "label": "G",
+     "text": "Joanna is curious"
+    },
+    {
+     "label": "H",
+     "text": "the bird is slender"
+    },
+    {
+     "label": "J",
+     "text": "the bird is quick"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-101"
+  },
+  {
+   "n": 35,
+   "stem": "Joanna presumes the bird is in distress because it —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "is clutching on to a rock within the glade"
+    },
+    {
+     "label": "B",
+     "text": "has black markings surrounding its eyes"
+    },
+    {
+     "label": "C",
+     "text": "is shrouded behind the cascading waterfall"
+    },
+    {
+     "label": "D",
+     "text": "looks fixedly at her while crooking its neck"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-102"
+  },
+  {
+   "n": 36,
+   "stem": "In the story, Joanna is —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "able to adapt easily to new situations"
+    },
+    {
+     "label": "G",
+     "text": "overconfident about her abilities"
+    },
+    {
+     "label": "H",
+     "text": "quick to respond to a problem"
+    },
+    {
+     "label": "J",
+     "text": "comfortable with making mistakes"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-103"
+  },
+  {
+   "n": 37,
+   "stem": "The repetition of “Plik-plik-plik-plik!” creates a feeling of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "hope"
+    },
+    {
+     "label": "B",
+     "text": "suspense"
+    },
+    {
+     "label": "C",
+     "text": "amusement"
+    },
+    {
+     "label": "D",
+     "text": "peacefulness"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-104"
+  },
+  {
+   "n": 38,
+   "stem": "The point of view used in the story best helps the reader understand —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "how Joanna reaches the park"
+    },
+    {
+     "label": "G",
+     "text": "how Dan feels about seeing the bird"
+    },
+    {
+     "label": "H",
+     "text": "why Joanna visits the park"
+    },
+    {
+     "label": "J",
+     "text": "why Dan hikes to the waterfall"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-105"
+  },
+  {
+   "n": 39,
+   "stem": "A theme of the story is that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "finding a new challenge is important for personal growth"
+    },
+    {
+     "label": "B",
+     "text": "adjusting to an unfamiliar environment can be easier than expected"
+    },
+    {
+     "label": "C",
+     "text": "solving a problem is possible with the help of a guide"
+    },
+    {
+     "label": "D",
+     "text": "investigating a mystery can lead to an unexpected adventure"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2015_VDOE",
+   "id": "grade-8-english-106"
+  },
+  {
+   "n": 8,
+   "stem": "“The Gum Caper” can best be described as a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "narrative"
+    },
+    {
+     "label": "B",
+     "text": "folktale"
+    },
+    {
+     "label": "C",
+     "text": "biography"
+    },
+    {
+     "label": "D",
+     "text": "fantasy"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-107"
+  },
+  {
+   "n": 9,
+   "stem": "What is meant by the narrator’s statement “he is a true craftsman, almost an artist at his work”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Wally is able to accurately repair any car which needs fixing."
+    },
+    {
+     "label": "B",
+     "text": "Wally does a spectacular job painting and customizing cars."
+    },
+    {
+     "label": "C",
+     "text": "The narrator feels Wally is a great painter and sculptor."
+    },
+    {
+     "label": "D",
+     "text": "The narrator believes Wally will make an artistic creation out of his radiator."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-108"
+  },
+  {
+   "n": 10,
+   "stem": "The following is a thesaurus entry for the word figure: figure n. number, configuration, appearance, frame; v. calculate, summate, decide, determine, resolve, compute. If the author wanted to replace the word figured in paragraph 11, which word would be the most precise to use from the entry?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Numbered"
+    },
+    {
+     "label": "B",
+     "text": "Appeared"
+    },
+    {
+     "label": "C",
+     "text": "Computed"
+    },
+    {
+     "label": "D",
+     "text": "Determined"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-109"
+  },
+  {
+   "n": 11,
+   "stem": "Which is the best summary for this passage?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A man’s car has broken down and he wants some bubble gum."
+    },
+    {
+     "label": "B",
+     "text": "A man uses bubble gum to temporarily repair his car."
+    },
+    {
+     "label": "C",
+     "text": "A man convinces his daughter to chew gum to fix his car."
+    },
+    {
+     "label": "D",
+     "text": "A man’s car has a leaking radiator and he consults a mechanic named Wally."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-110"
+  },
+  {
+   "n": 12,
+   "stem": "The author uses what phrase to relate a feeling of joy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Paragraph 13 – “She greeted the question with surprise...”"
+    },
+    {
+     "label": "B",
+     "text": "Paragraph 15 – “Her eyes danced with delight,...”"
+    },
+    {
+     "label": "C",
+     "text": "Paragraph 17 – “She has complete faith in her father,...”"
+    },
+    {
+     "label": "D",
+     "text": "Paragraph 18 – “So we sat there chewing awhile...”"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-111"
+  },
+  {
+   "n": 13,
+   "stem": "Which phrase would cause the reader to conclude that the narrator felt silly using chewing gum?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Paragraph 10 – “I mean: chewing gum, for crying out loud.”"
+    },
+    {
+     "label": "B",
+     "text": "Paragraph 16 – “... I’m going to use the gum to plug up the holes.”"
+    },
+    {
+     "label": "C",
+     "text": "Paragraph 18 – “... we sat there chewing awhile and it was fun,...”"
+    },
+    {
+     "label": "D",
+     "text": "Paragraph 21 – “... frankly, I didn’t think the gum would work.”"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-112"
+  },
+  {
+   "n": 14,
+   "stem": "Which statement is an opinion expressed in the story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "“A minor accident a couple of days before had left the car crippled...”"
+    },
+    {
+     "label": "B",
+     "text": "“... get some chewing gum and seal up the leaks...”"
+    },
+    {
+     "label": "C",
+     "text": "“He takes pride in the jobs he performs.”"
+    },
+    {
+     "label": "D",
+     "text": "“... we don’t encourage her to chew gum. In fact, we discourage her.”"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-113"
+  },
+  {
+   "n": 15,
+   "stem": "In this story, which tone is created through the author’s word choices?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Serious"
+    },
+    {
+     "label": "B",
+     "text": "Lighthearted"
+    },
+    {
+     "label": "C",
+     "text": "Mysterious"
+    },
+    {
+     "label": "D",
+     "text": "Excited"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-114"
+  },
+  {
+   "n": 16,
+   "stem": "What is the overall theme of this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Always try new experiences and expand your horizons."
+    },
+    {
+     "label": "B",
+     "text": "Sometimes even the strangest of ideas work."
+    },
+    {
+     "label": "C",
+     "text": "Never be afraid to go against popularly accepted ideas."
+    },
+    {
+     "label": "D",
+     "text": "Often our experiences will help teach us life lessons."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-115"
+  },
+  {
+   "n": 17,
+   "stem": "What is the main idea of paragraph 3?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Eagles are larger than red-tailed hawks."
+    },
+    {
+     "label": "B",
+     "text": "Birds of prey are large and require special handling."
+    },
+    {
+     "label": "C",
+     "text": "Redtails are somewhat large with four-foot wingspans."
+    },
+    {
+     "label": "D",
+     "text": "Sometimes eagles feel unfriendly."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-116"
+  },
+  {
+   "n": 18,
+   "stem": "In this passage, the author uses the word unforgiving in paragraph 5 to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "emphasize that there is no room for error or weakness in the land"
+    },
+    {
+     "label": "B",
+     "text": "explain that the people in this land often hold grudges against each other"
+    },
+    {
+     "label": "C",
+     "text": "describe the Kazakh peoples’ custom of offering peace to visitors"
+    },
+    {
+     "label": "D",
+     "text": "establish that eagles must be careful where they land to catch rabbits"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-117"
+  },
+  {
+   "n": 19,
+   "stem": "Which of these would best help the reader evaluate the accuracy of the information in paragraph 7?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A dictionary"
+    },
+    {
+     "label": "B",
+     "text": "A world atlas"
+    },
+    {
+     "label": "C",
+     "text": "A thesaurus"
+    },
+    {
+     "label": "D",
+     "text": "An almanac"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-118"
+  },
+  {
+   "n": 20,
+   "stem": "In paragraph 11, the author uses a quotation to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "emphasize why Manai no longer hunts wolves"
+    },
+    {
+     "label": "B",
+     "text": "describe the language of the Kazakhs"
+    },
+    {
+     "label": "C",
+     "text": "show how friendly the family was"
+    },
+    {
+     "label": "D",
+     "text": "explain the eagles’ preferences for hunting"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-119"
+  },
+  {
+   "n": 21,
+   "stem": "Which is the best summary of this passage?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The most traditional Kazakhs have always trained eagles to help them in their hunts."
+    },
+    {
+     "label": "B",
+     "text": "The author has been hunting with birds for 37 years and was drawn to it by their beauty and the challenge of training them."
+    },
+    {
+     "label": "C",
+     "text": "Until 1997, the author could not realize his dream of visiting western Mongolia because people from Europe and the United States were not allowed to travel there."
+    },
+    {
+     "label": "D",
+     "text": "The author visited the Kazakh people of western Mongolia, who are experts in falconry and depend on birds for their livelihood."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-120"
+  },
+  {
+   "n": 22,
+   "stem": "In this passage, the author appeals to the reader’s sense of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "humor"
+    },
+    {
+     "label": "B",
+     "text": "pride"
+    },
+    {
+     "label": "C",
+     "text": "horror"
+    },
+    {
+     "label": "D",
+     "text": "adventure"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-121"
+  },
+  {
+   "n": 23,
+   "stem": "Which point of view does the author use in this passage?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "First person, limited to the narrator"
+    },
+    {
+     "label": "B",
+     "text": "First person, limited to the Kazakhs"
+    },
+    {
+     "label": "C",
+     "text": "Third person, limited to the narrator"
+    },
+    {
+     "label": "D",
+     "text": "Third person, limited to the Kazakhs"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-122"
+  },
+  {
+   "n": 24,
+   "stem": "Which sentence expresses a theme of the selection?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "“He now only hunted foxes, he told me.”"
+    },
+    {
+     "label": "B",
+     "text": "“For two hours we poked around in the bushes...”"
+    },
+    {
+     "label": "C",
+     "text": "“... I’ve collected everything I could find about these people...”"
+    },
+    {
+     "label": "D",
+     "text": "“This visit to Mongolia was a dream fulfilled...”"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-123"
+  },
+  {
+   "n": 25,
+   "stem": "From the tone of this passage, the reader can tell that the author is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "tired from a long, hard trip"
+    },
+    {
+     "label": "B",
+     "text": "confused about how the eagles are trained"
+    },
+    {
+     "label": "C",
+     "text": "fascinated with the work of the Kazakh people"
+    },
+    {
+     "label": "D",
+     "text": "sympathetic to the birds of prey"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-124"
+  },
+  {
+   "n": 26,
+   "stem": "Which of the following is the best summary for “Praying Mantis”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A girl leaves her insect jar where anyone can steal it."
+    },
+    {
+     "label": "B",
+     "text": "A girl captures an insect and keeps it in a glass jar."
+    },
+    {
+     "label": "C",
+     "text": "The speaker steals a girl’s insect from a glass jar."
+    },
+    {
+     "label": "D",
+     "text": "The speaker feels sorry for an insect and frees it."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-125"
+  },
+  {
+   "n": 27,
+   "stem": "In “Dragonflies,” “buzz” and “zoom” are both examples of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "simile"
+    },
+    {
+     "label": "B",
+     "text": "onomatopoeia"
+    },
+    {
+     "label": "C",
+     "text": "alliteration"
+    },
+    {
+     "label": "D",
+     "text": "personification"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-126"
+  },
+  {
+   "n": 28,
+   "stem": "In “Dragonflies,” line 10 provides an image of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a hot day when nothing seems to move"
+    },
+    {
+     "label": "B",
+     "text": "a warm day when dragonflies rest"
+    },
+    {
+     "label": "C",
+     "text": "a quiet day when no wind blows"
+    },
+    {
+     "label": "D",
+     "text": "a sunny day when only insects fly"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-127"
+  },
+  {
+   "n": 29,
+   "stem": "Which phrase from “Dragonflies” offers the best visual description of the insects’ movements?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "“shiny as metal”"
+    },
+    {
+     "label": "B",
+     "text": "“heat has stilled”"
+    },
+    {
+     "label": "C",
+     "text": "“blur of wings”"
+    },
+    {
+     "label": "D",
+     "text": "“glorious and fragile”"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-128"
+  },
+  {
+   "n": 30,
+   "stem": "How are the insects treated differently in the poems?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The praying mantis is respected; the dragonflies are not."
+    },
+    {
+     "label": "B",
+     "text": "The praying mantis is captured; the dragonflies are not."
+    },
+    {
+     "label": "C",
+     "text": "The dragonflies are watched; the praying mantis is not."
+    },
+    {
+     "label": "D",
+     "text": "The dragonflies are studied; the praying mantis is not."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-129"
+  },
+  {
+   "n": 31,
+   "stem": "Both poems portray insects as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "dangerous"
+    },
+    {
+     "label": "B",
+     "text": "interesting"
+    },
+    {
+     "label": "C",
+     "text": "quick"
+    },
+    {
+     "label": "D",
+     "text": "shimmering"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-130"
+  },
+  {
+   "n": 32,
+   "stem": "How do the writers’ styles differ in the two poems?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "“Praying Mantis” is detailed; “Dragonflies” is to the point."
+    },
+    {
+     "label": "B",
+     "text": "“Praying Mantis” includes imagery; “Dragonflies” contains prose."
+    },
+    {
+     "label": "C",
+     "text": "“Praying Mantis” tells a story; “Dragonflies” gives a description."
+    },
+    {
+     "label": "D",
+     "text": "“Praying Mantis” uses rhyme; “Dragonflies” uses rhythm."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-131"
+  },
+  {
+   "n": 33,
+   "stem": "Which point of view does the author use in this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "First person, limited to Nina"
+    },
+    {
+     "label": "B",
+     "text": "First person, limited to the twins"
+    },
+    {
+     "label": "C",
+     "text": "Third person, as an observer"
+    },
+    {
+     "label": "D",
+     "text": "Third person, limited to Larry"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-132"
+  },
+  {
+   "n": 34,
+   "stem": "Nina wants Larry to go to the basketball camp because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "he needs something else to do"
+    },
+    {
+     "label": "B",
+     "text": "he needs to practice his free throw"
+    },
+    {
+     "label": "C",
+     "text": "she wants to help him with his project"
+    },
+    {
+     "label": "D",
+     "text": "more students are needed"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-133"
+  },
+  {
+   "n": 35,
+   "stem": "In paragraph 12, the phrase “perfect project for the pair” is an example of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "consonance"
+    },
+    {
+     "label": "B",
+     "text": "alliteration"
+    },
+    {
+     "label": "C",
+     "text": "metaphor"
+    },
+    {
+     "label": "D",
+     "text": "assonance"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-134"
+  },
+  {
+   "n": 36,
+   "stem": "Which source did the librarian most likely show to the group?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "An encyclopedia volume labeled “Fi to Fr”"
+    },
+    {
+     "label": "B",
+     "text": "An index of magazine articles"
+    },
+    {
+     "label": "C",
+     "text": "An atlas with maps of rivers and creeks"
+    },
+    {
+     "label": "D",
+     "text": "A book titled Amphibians of the United States"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-135"
+  },
+  {
+   "n": 37,
+   "stem": "The word mutations in paragraph 24 means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "alterations"
+    },
+    {
+     "label": "B",
+     "text": "populations"
+    },
+    {
+     "label": "C",
+     "text": "explorations"
+    },
+    {
+     "label": "D",
+     "text": "indications"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-136"
+  },
+  {
+   "n": 38,
+   "stem": "Paragraphs 25 and 26 reflect a feeling of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "love"
+    },
+    {
+     "label": "B",
+     "text": "boredom"
+    },
+    {
+     "label": "C",
+     "text": "sympathy"
+    },
+    {
+     "label": "D",
+     "text": "pride"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-137"
+  },
+  {
+   "n": 39,
+   "stem": "According to information in the story, which is most likely to happen next?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nina will quit going to basketball camp."
+    },
+    {
+     "label": "B",
+     "text": "The group will release the tadpoles into the creek."
+    },
+    {
+     "label": "C",
+     "text": "Scientists will study the area where the tadpoles were found."
+    },
+    {
+     "label": "D",
+     "text": "The twins will no longer be interested in the project."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-138"
+  },
+  {
+   "n": 40,
+   "stem": "Which of these is the overall theme in this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "People should be more concerned with the environment."
+    },
+    {
+     "label": "B",
+     "text": "Taking care of eight-year-old twins can be a chore."
+    },
+    {
+     "label": "C",
+     "text": "Sometimes things turn out to be different from what is expected."
+    },
+    {
+     "label": "D",
+     "text": "The library is a great source of information about frog mutations."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-139"
+  },
+  {
+   "n": 41,
+   "stem": "The events of the story are presented in the following sequence: Event 1: Nina talks about basketball. Event 2: Larry talks about his idea for a project for the twins. Event 3: The group sets up a cage and puts tadpoles into it. Event 4: ________ Event 5: The group learns that the discovery is important to a scientific study. Which statement belongs as Event 4?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nina makes a telephone call to a toll-free number to make a report."
+    },
+    {
+     "label": "B",
+     "text": "The group discovers something different about some of the tadpoles."
+    },
+    {
+     "label": "C",
+     "text": "Sarah and Sammy go to the creek with Larry and Nina."
+    },
+    {
+     "label": "D",
+     "text": "The tadpole project becomes more intriguing than basketball."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-140"
+  },
+  {
+   "n": 42,
+   "stem": "Which word in this story has a root word that means “usual or average”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "particularly"
+    },
+    {
+     "label": "B",
+     "text": "eventually"
+    },
+    {
+     "label": "C",
+     "text": "abnormalities"
+    },
+    {
+     "label": "D",
+     "text": "development"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2004_SOLPass",
+   "id": "grade-8-english-141"
+  },
+  {
+   "n": 8,
+   "stem": "Which words from Guest’s poem show his attitude toward the phrase “it couldn’t be done”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Chuckle, grin, sing"
+    },
+    {
+     "label": "B",
+     "text": "Scoffed, couldn’t, cannot"
+    },
+    {
+     "label": "C",
+     "text": "Doubting, failure, dangers"
+    },
+    {
+     "label": "D",
+     "text": "Replied, worried, started"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-142"
+  },
+  {
+   "n": 9,
+   "stem": "The simple, straightforward style of “It Couldn’t Be Done” is probably meant to reflect the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "values of an earlier historical period"
+    },
+    {
+     "label": "B",
+     "text": "author’s natural speaking voice"
+    },
+    {
+     "label": "C",
+     "text": "ease of a task once it is attempted"
+    },
+    {
+     "label": "D",
+     "text": "skill needed to write a poem"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-143"
+  },
+  {
+   "n": 10,
+   "stem": "The last two lines in each stanza of “It Couldn’t Be Done” give the reader a sense of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "failure"
+    },
+    {
+     "label": "B",
+     "text": "happiness"
+    },
+    {
+     "label": "C",
+     "text": "confusion"
+    },
+    {
+     "label": "D",
+     "text": "accomplishment"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-144"
+  },
+  {
+   "n": 11,
+   "stem": "What is one way the author of “Be the Best of Whatever You Are” emphasizes the theme in his poem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The use of action words throughout the poem"
+    },
+    {
+     "label": "B",
+     "text": "Employment of an abab rhyme scheme"
+    },
+    {
+     "label": "C",
+     "text": "Repetition of the phrase “If you can’t”"
+    },
+    {
+     "label": "D",
+     "text": "Punctuating with dashes and semicolons"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-145"
+  },
+  {
+   "n": 12,
+   "stem": "The rhythm in both of these poems contributes to a mood that is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "shocking"
+    },
+    {
+     "label": "B",
+     "text": "upbeat"
+    },
+    {
+     "label": "C",
+     "text": "gloomy"
+    },
+    {
+     "label": "D",
+     "text": "foolish"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-146"
+  },
+  {
+   "n": 13,
+   "stem": "The speakers in both poems would probably disagree with which of the following statements?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Work hard at whatever task you take on and be proud of it."
+    },
+    {
+     "label": "B",
+     "text": "You’ll never know what you can accomplish until you give it your best effort."
+    },
+    {
+     "label": "C",
+     "text": "You shouldn’t accept the role you are given — keep waiting for something better."
+    },
+    {
+     "label": "D",
+     "text": "If you don’t succeed at something, keep trying until you do."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-147"
+  },
+  {
+   "n": 14,
+   "stem": "How does the author’s style in “It Couldn’t Be Done” compare to the author’s style in “Be the Best of Whatever You Are”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Both authors enthusiastically offer advice to the reader."
+    },
+    {
+     "label": "B",
+     "text": "The author of “Be the Best of Whatever You Are” speaks directly to the reader."
+    },
+    {
+     "label": "C",
+     "text": "Both authors use a four-line stanza."
+    },
+    {
+     "label": "D",
+     "text": "The author of “It Couldn’t Be Done” is more optimistic."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-148"
+  },
+  {
+   "n": 15,
+   "stem": "In which collection might these poems be found? A. Rousing Poems for Every Day B. Poetry for Quiet Moments C. Travel Poems from Many Lands D. Fishing Poems for the Angler Vasco’s Choice 1. I am Vasco Salazar, and I live in a coastal town in Portugal. Many people who live here make their living from fishing. My father Paulo is a fisherman, as was his father before him and his father’s father long ago. Fishing is part of my heritage. 2. I’m thirteen. I think about the future and wonder if I will become a fisherman someday. I want to study at the university; but at the same time, I long to go out to sea with my father. I already help bring in the fish and mend the nets. My cousin Alfonso, who is nineteen and a fisherman, tells me of his adventures on the ocean. My parents say that Alfonso embellishes his tales to make them sound more interesting so they will impress and encourage me to become a fisherman like him. Fishing is really hard work, they say, and can be quite dangerous. You spend much of your life wet, salty, and smelling of fish. 3. “You should explore many areas before deciding what to do with your life,” says my father. “You were named after Vasco da Gama, the explorer who made Portugal an important sea-trading nation. Explore, and then decide what is best for you.” 4. The weather was calm and clear one day last week as we stood on shore and awaited the return of the fishing boats. They’d been at sea for a week because of rough weather. When my father’s boat arrived, my cousin and I reached for the ropes attached to the nets. We had to use all our strength to pull in the nets, for they were overflowing with fish after seven days. Later that day, I helped my mother make fish stew for our dinner. 5. The next day, Father told me to ask the lighthouse keeper, Carlos, what weather was coming. Carlos can see much from his post high above things, so he has a good understanding of weather and other aspects of life. 6. I reached the top of the hill and walked to the lighthouse, once a fortress. Carlos greeted me with enthusiasm. He spends much of his time alone. Part of the week, another lighthouse keeper takes over, and then Carlos goes home to his family. 7. “I would like to be a fisherman,” I told Carlos, “but I also like learning. I might be good at teaching or something else.” 8. “Look,” says Carlos, stretching his arms wide. I see the long crescent of sand to the south, the islands to the west, and the forest to the north. “It’s a big world with many opportunities. If you choose fishing now, you will be limiting yourself and will not benefit as you should from your education. Explore your options. You can always return to fishing.” 9. We were quiet for a while; then I asked about the weather. “See those islands farthest west?” he said. “When you can see them from here, rain is coming toward us.” As he had predicted, fat raindrops soon began to fall. 10. After the storm, people gathered on the beach. In the seaweed, we found things that had washed upon shore. It was mostly junk, like bottles, cans, and old boots. Sometimes we were lucky and found something more valuable. I untangled a chain from the seaweed and found a compass attached. 11. “Look!” Alfonso exclaimed. “A compass! Now Vasco can explore the world.” In that moment, I knew Carlos was right. I can always come back to fishing. 12. Which is a primary theme in this selection? A. Know your place and keep it. B. Don’t believe everything you hear. C. Think twice before you decide. D. You can’t please everybody. 13. Which organizational pattern is used in the passage? A. Compare/contrast B. Cause/effect C. Time order D. Order of importance 14. Which question is not answered in the selection? A. Why doesn’t Vasco want to be a lighthouse keeper? B. How old is Vasco? C. What was the former use of the lighthouse? D. What is the name of the country where Vasco lives? 15. Whose point of view does the author use in this selection?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Carlos’s"
+    },
+    {
+     "label": "B",
+     "text": "Alfonso’s"
+    },
+    {
+     "label": "C",
+     "text": "Vasco’s"
+    },
+    {
+     "label": "D",
+     "text": "Paulo’s"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-149"
+  },
+  {
+   "n": 16,
+   "stem": "Vasco’s father tells him that he was named after Vasco da Gama in order to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "teach him a lesson in the history of Portugal"
+    },
+    {
+     "label": "B",
+     "text": "help him feel more important than Alfonso"
+    },
+    {
+     "label": "C",
+     "text": "persuade him to explore his own future"
+    },
+    {
+     "label": "D",
+     "text": "tease him about his first name"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-150"
+  },
+  {
+   "n": 17,
+   "stem": "Which sentence from the selection expresses an idea that helped Vasco make his decision?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "“They’d been at sea for a week because of rough weather.”"
+    },
+    {
+     "label": "B",
+     "text": "“Many people who live here make their living from fishing.”"
+    },
+    {
+     "label": "C",
+     "text": "“He spends much of his time alone.”"
+    },
+    {
+     "label": "D",
+     "text": "“ ‘You can always return to fishing.’ ”"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-151"
+  },
+  {
+   "n": 18,
+   "stem": "Which of these is the main conflict in this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Good versus evil"
+    },
+    {
+     "label": "B",
+     "text": "Old versus young"
+    },
+    {
+     "label": "C",
+     "text": "Man versus nature"
+    },
+    {
+     "label": "D",
+     "text": "Familiar versus unfamiliar"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-152"
+  },
+  {
+   "n": 19,
+   "stem": "After Vasco finds the compass, he decides —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "that being a fisherman is what he really wants"
+    },
+    {
+     "label": "B",
+     "text": "to learn more about the world before making a final choice"
+    },
+    {
+     "label": "C",
+     "text": "that he will seek a teaching career"
+    },
+    {
+     "label": "D",
+     "text": "to forget about fishing and be an explorer instead"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-153"
+  },
+  {
+   "n": 20,
+   "stem": "Which is most likely to happen in the future?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Carlos will warn Vasco about the dangers of the sea."
+    },
+    {
+     "label": "B",
+     "text": "Alfonso will quit fishing and become a lighthouse keeper."
+    },
+    {
+     "label": "C",
+     "text": "Vasco’s family will leave Portugal."
+    },
+    {
+     "label": "D",
+     "text": "Vasco will go to the university."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-154"
+  },
+  {
+   "n": 26,
+   "stem": "The author of this article wants readers to know about —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "what happened in Popeye cartoons"
+    },
+    {
+     "label": "B",
+     "text": "how cartoons are drawn"
+    },
+    {
+     "label": "C",
+     "text": "how a cartoonist created his characters"
+    },
+    {
+     "label": "D",
+     "text": "the members of the Oyl family"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-155"
+  },
+  {
+   "n": 27,
+   "stem": "Which question is answered in the first three paragraphs?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Was there a real Popeye?"
+    },
+    {
+     "label": "B",
+     "text": "What happened in Popeye’s first comic appearance?"
+    },
+    {
+     "label": "C",
+     "text": "Who was Rocky Feigle?"
+    },
+    {
+     "label": "D",
+     "text": "Who was the model for J. Wellington Wimpy?"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-156"
+  },
+  {
+   "n": 28,
+   "stem": "The word “Ja” at the beginning of paragraph 3 means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Yes"
+    },
+    {
+     "label": "B",
+     "text": "Ha"
+    },
+    {
+     "label": "C",
+     "text": "Do you"
+    },
+    {
+     "label": "D",
+     "text": "Did he"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-157"
+  },
+  {
+   "n": 29,
+   "stem": "Which of these is not a fact stated in the article?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rocky worked at Gozney’s Saloon."
+    },
+    {
+     "label": "B",
+     "text": "Bill Schuchert was fond of hamburgers."
+    },
+    {
+     "label": "C",
+     "text": "Segar’s hometown was Chester, Illinois."
+    },
+    {
+     "label": "D",
+     "text": "Rocky was modest and shy."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-158"
+  },
+  {
+   "n": 30,
+   "stem": "The reader can conclude that Rocky Feigle —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "was well educated"
+    },
+    {
+     "label": "B",
+     "text": "had sailed all over the world"
+    },
+    {
+     "label": "C",
+     "text": "enjoyed the attention he got"
+    },
+    {
+     "label": "D",
+     "text": "was a memorable character"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-159"
+  },
+  {
+   "n": 31,
+   "stem": "The article explains that certain cartoon characters were modeled after real people: Wimpy was modeled after Bill Schuchert. Popeye was modeled after Rocky Feigle. Olive Oyl was modeled after ________. Which information belongs in the blank?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sweetpea"
+    },
+    {
+     "label": "B",
+     "text": "Castor Oyl"
+    },
+    {
+     "label": "C",
+     "text": "Ham Gravy"
+    },
+    {
+     "label": "D",
+     "text": "Mrs. Pascal"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-160"
+  },
+  {
+   "n": 32,
+   "stem": "In paragraph 10, flailing means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "covering"
+    },
+    {
+     "label": "B",
+     "text": "swinging"
+    },
+    {
+     "label": "C",
+     "text": "crossing"
+    },
+    {
+     "label": "D",
+     "text": "hanging"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-161"
+  },
+  {
+   "n": 33,
+   "stem": "You would probably find the most information about Segar in a book about —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "town histories"
+    },
+    {
+     "label": "B",
+     "text": "cartoonists"
+    },
+    {
+     "label": "C",
+     "text": "sailors"
+    },
+    {
+     "label": "D",
+     "text": "cartoon techniques"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-162"
+  },
+  {
+   "n": 34,
+   "stem": "In paragraph 5, the word entranced means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "proud"
+    },
+    {
+     "label": "B",
+     "text": "bored"
+    },
+    {
+     "label": "C",
+     "text": "frightened"
+    },
+    {
+     "label": "D",
+     "text": "fascinated"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-163"
+  },
+  {
+   "n": 35,
+   "stem": "When Mr. Banvard says, “Come along with me, my friends, on a voyage down the Missouri and the Mississippi,” what kind of language is he using?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Formal"
+    },
+    {
+     "label": "B",
+     "text": "Technical"
+    },
+    {
+     "label": "C",
+     "text": "Literal"
+    },
+    {
+     "label": "D",
+     "text": "Figurative"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-164"
+  },
+  {
+   "n": 36,
+   "stem": "In paragraph 10, Julianna says, “During the tale, a little girl next to me actually gripped my arm anxiously.” The purpose of this detail is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "show how realistic Mr. Banvard’s panorama was"
+    },
+    {
+     "label": "B",
+     "text": "create sympathy for the little girl"
+    },
+    {
+     "label": "C",
+     "text": "illustrate the theme of Mr. Banvard’s story"
+    },
+    {
+     "label": "D",
+     "text": "set the tone for the conclusion of her letter"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-165"
+  },
+  {
+   "n": 37,
+   "stem": "To find out more about Mr. Banvard’s panorama, which source would be most helpful?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sightseeing: A Space Panorama"
+    },
+    {
+     "label": "B",
+     "text": "American Landscape Artists of the 1800s"
+    },
+    {
+     "label": "C",
+     "text": "Sights and Sounds of the Present-Day Missouri River"
+    },
+    {
+     "label": "D",
+     "text": "Entertainment in the American Colonies"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-166"
+  },
+  {
+   "n": 38,
+   "stem": "The main idea of Julianna’s letter is to express that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "her cousin, Owen, should save his money"
+    },
+    {
+     "label": "B",
+     "text": "Mr. Banvard’s panorama depicts a once-in-a-lifetime experience"
+    },
+    {
+     "label": "C",
+     "text": "her father is very knowledgeable about New Orleans"
+    },
+    {
+     "label": "D",
+     "text": "Boston is a cultural and entertainment center"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-167"
+  },
+  {
+   "n": 39,
+   "stem": "Julianna’s father is in the story to provide —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a less serious tone"
+    },
+    {
+     "label": "B",
+     "text": "an opposing point of view"
+    },
+    {
+     "label": "C",
+     "text": "detailed technical information"
+    },
+    {
+     "label": "D",
+     "text": "clever commentary"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-168"
+  },
+  {
+   "n": 40,
+   "stem": "The author relates Julianna’s sense of awe toward what she sees through —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "dialogue"
+    },
+    {
+     "label": "B",
+     "text": "description"
+    },
+    {
+     "label": "C",
+     "text": "character"
+    },
+    {
+     "label": "D",
+     "text": "setting"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_8_2002_SOLPass",
+   "id": "grade-8-english-169"
+  }
+ ]
+}

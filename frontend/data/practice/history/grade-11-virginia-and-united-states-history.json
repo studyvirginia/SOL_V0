@@ -1,0 +1,2688 @@
+{
+ "subject": "history",
+ "course": "grade-11-virginia-and-united-states-history",
+ "courseName": "Grade 11 - Virginia and United States History",
+ "questionCount": 107,
+ "sources": [
+  "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+  "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Establishment of Early American Colonies A timeline lists the following settlements and dates: St. Augustine (Spanish settlement) — 1565 Roanoke (English settlement attempt) — 1587 Jamestown (English settlement) — 1607 Massachusetts Bay Colony (English settlement) — 1620 Which date on this timeline represents the beginning of a permanent British presence in North America?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1565"
+    },
+    {
+     "label": "B",
+     "text": "1587"
+    },
+    {
+     "label": "C",
+     "text": "1607"
+    },
+    {
+     "label": "D",
+     "text": "1620"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-1"
+  },
+  {
+   "n": 2,
+   "stem": "Which colony was established as a business venture?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Connecticut"
+    },
+    {
+     "label": "G",
+     "text": "Massachusetts"
+    },
+    {
+     "label": "H",
+     "text": "Georgia"
+    },
+    {
+     "label": "J",
+     "text": "Virginia"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-2"
+  },
+  {
+   "n": 3,
+   "stem": "The initial French exploration of North America resulted in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "economic colonies in Florida"
+    },
+    {
+     "label": "B",
+     "text": "competition with Spanish settlers"
+    },
+    {
+     "label": "C",
+     "text": "plantations using slave labor"
+    },
+    {
+     "label": "D",
+     "text": "cooperation with native groups"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-3"
+  },
+  {
+   "n": 4,
+   "stem": "The Treaty of Alliance of 1778 was signed by the United States and —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Spain"
+    },
+    {
+     "label": "G",
+     "text": "Portugal"
+    },
+    {
+     "label": "H",
+     "text": "Russia"
+    },
+    {
+     "label": "J",
+     "text": "France"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-4"
+  },
+  {
+   "n": 5,
+   "stem": "Which factor contributed to colonial victory in the American Revolution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Shortages of British troops"
+    },
+    {
+     "label": "B",
+     "text": "Disloyalty of British generals"
+    },
+    {
+     "label": "C",
+     "text": "Lack of British popular support"
+    },
+    {
+     "label": "D",
+     "text": "Weakness of the British Navy"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-5"
+  },
+  {
+   "n": 6,
+   "stem": "Which document directly influenced the first ten amendments to the Constitution of the United States?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Mayflower Compact"
+    },
+    {
+     "label": "G",
+     "text": "Virginia Declaration of Rights"
+    },
+    {
+     "label": "H",
+     "text": "Articles of Confederation"
+    },
+    {
+     "label": "J",
+     "text": "Emancipation Proclamation"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-6"
+  },
+  {
+   "n": 7,
+   "stem": "“That the foundation of... all free government is a right in the people to participate in their legislative council …” — Declaration of Rights and Grievances, 1774 This statement was issued by the Continental Congress because the British government did not allow —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "colonial businesses to support royal taxes"
+    },
+    {
+     "label": "B",
+     "text": "powers of the colonial legislatures to increase"
+    },
+    {
+     "label": "C",
+     "text": "colonists to have representation in Parliament"
+    },
+    {
+     "label": "D",
+     "text": "laws passed by Parliament to govern the colonies"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-7"
+  },
+  {
+   "n": 8,
+   "stem": "Which issue led to the development of the first political parties in the United States?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Abolition of slavery"
+    },
+    {
+     "label": "G",
+     "text": "Women’s suffrage"
+    },
+    {
+     "label": "H",
+     "text": "Expansion of western territories"
+    },
+    {
+     "label": "J",
+     "text": "National government’s powers"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-8"
+  },
+  {
+   "n": 9,
+   "stem": "Critics of Andrew Jackson’s stand on the Second Bank of the United States accused him of abusing executive powers by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ignoring the contributions of political supporters"
+    },
+    {
+     "label": "B",
+     "text": "using the military against the Cherokee Nation"
+    },
+    {
+     "label": "C",
+     "text": "using the presidential veto to overrule Congress"
+    },
+    {
+     "label": "D",
+     "text": "opposing federal funding of internal improvements"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-9"
+  },
+  {
+   "n": 11,
+   "stem": "Uprisings led by Nat Turner and Gabriel Prosser contributed to the Southern states’ decisions to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "pass harsh fugitive slave laws"
+    },
+    {
+     "label": "B",
+     "text": "accept the Missouri Compromise"
+    },
+    {
+     "label": "C",
+     "text": "enact Jim Crow legislation"
+    },
+    {
+     "label": "D",
+     "text": "support the passing of higher tariffs"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-10"
+  },
+  {
+   "n": 12,
+   "stem": "In the Gettysburg Address, President Abraham Lincoln rejected the idea that the country was —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a federation of sovereign states"
+    },
+    {
+     "label": "G",
+     "text": "a society based on equality"
+    },
+    {
+     "label": "H",
+     "text": "committed to unity at any cost"
+    },
+    {
+     "label": "J",
+     "text": "founded on democratic ideals"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-11"
+  },
+  {
+   "n": 13,
+   "stem": "The Battle of Gettysburg was a significant event of the Civil War because it —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "caused states to secede from the Union"
+    },
+    {
+     "label": "B",
+     "text": "was the opening conflict of the war"
+    },
+    {
+     "label": "C",
+     "text": "forced the surrender of the South"
+    },
+    {
+     "label": "D",
+     "text": "was the turning point of the war"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-12"
+  },
+  {
+   "n": 14,
+   "stem": "Which group helped Andrew Jackson become President of the United States the first time they could participate in an election?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "People allowed to vote without paying a poll tax"
+    },
+    {
+     "label": "G",
+     "text": "Newly freed slaves from West Africa"
+    },
+    {
+     "label": "H",
+     "text": "People allowed to vote without owning property"
+    },
+    {
+     "label": "J",
+     "text": "Naturalized immigrants from Eastern Europe"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-13"
+  },
+  {
+   "n": 15,
+   "stem": "Which man was a United States Senator who became the leader of the Confederacy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Robert E. Lee"
+    },
+    {
+     "label": "B",
+     "text": "Jefferson Davis"
+    },
+    {
+     "label": "C",
+     "text": "Nat Turner"
+    },
+    {
+     "label": "D",
+     "text": "Stonewall Jackson"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-14"
+  },
+  {
+   "n": 16,
+   "stem": "“With malice toward none; with charity for all … let us strive … to bind up the nation’s wounds …” — Abraham Lincoln, Second Inaugural Address This statement expressed President Lincoln’s plans for —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "creating a strategy for a Union victory"
+    },
+    {
+     "label": "G",
+     "text": "eliminating Jim Crow laws"
+    },
+    {
+     "label": "H",
+     "text": "convincing Congress to abolish slavery"
+    },
+    {
+     "label": "J",
+     "text": "readmitting the Confederate states"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-15"
+  },
+  {
+   "n": 17,
+   "stem": "One major economic impact of the Civil War was the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "emergence of the South as a manufacturing center"
+    },
+    {
+     "label": "B",
+     "text": "increase in the number of laborers relocating to the South"
+    },
+    {
+     "label": "C",
+     "text": "strengthening of the North and Midwest industrial regions"
+    },
+    {
+     "label": "D",
+     "text": "increase in tariffs imposed on French and British goods"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-16"
+  },
+  {
+   "n": 18,
+   "stem": "The Great Migration of the early 20th century refers to the movement of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "European immigrants to western cities"
+    },
+    {
+     "label": "G",
+     "text": "European immigrants to northeastern cities"
+    },
+    {
+     "label": "H",
+     "text": "African Americans from the South to northern cities"
+    },
+    {
+     "label": "J",
+     "text": "African Americans from the Midwest to eastern cities"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-17"
+  },
+  {
+   "n": 19,
+   "stem": "Which individual helped found the National Association for the Advancement of Colored People (NAACP)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "James Meredith"
+    },
+    {
+     "label": "B",
+     "text": "W.E.B. DuBois"
+    },
+    {
+     "label": "C",
+     "text": "Thurgood Marshall"
+    },
+    {
+     "label": "D",
+     "text": "Booker T. Washington"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-18"
+  },
+  {
+   "n": 20,
+   "stem": "During World War II, the purpose of government posters encouraging citizens to conserve, recycle, work in defense industries, and support the military was to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "motivate American women to enter the work force in defense factories"
+    },
+    {
+     "label": "G",
+     "text": "encourage civilians to become members of the armed forces"
+    },
+    {
+     "label": "H",
+     "text": "show how Americans on the home front could contribute to the war effort"
+    },
+    {
+     "label": "J",
+     "text": "pressure industries to dedicate their resources to war manufacturing"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-19"
+  },
+  {
+   "n": 21,
+   "stem": "A diagram shows factors contributing to American industrialization: Growing labor supply Abundant natural resources Limited liability corporations Which economic factor completes this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Laissez-faire policies"
+    },
+    {
+     "label": "B",
+     "text": "High interest rates"
+    },
+    {
+     "label": "C",
+     "text": "Low consumer demands"
+    },
+    {
+     "label": "D",
+     "text": "Strict price controls"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-20"
+  },
+  {
+   "n": 22,
+   "stem": "A newspaper headline dated May 16, 1911, reads: “Standard Oil Company to Break Up — Supreme Court Declares it an Unlawful Monopoly.” This event was a result of the passage of the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Interstate Commerce Act"
+    },
+    {
+     "label": "G",
+     "text": "17th Amendment"
+    },
+    {
+     "label": "H",
+     "text": "Sherman Antitrust Act"
+    },
+    {
+     "label": "J",
+     "text": "19th Amendment"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-21"
+  },
+  {
+   "n": 23,
+   "stem": "During the Industrial Revolution, new technology affected the economy of the United States by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "increasing worker productivity"
+    },
+    {
+     "label": "B",
+     "text": "limiting profits"
+    },
+    {
+     "label": "C",
+     "text": "decreasing urban population"
+    },
+    {
+     "label": "D",
+     "text": "generating tax revenues"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-22"
+  },
+  {
+   "n": 24,
+   "stem": "Bushido is defined as a feudal-military Japanese code of behavior valuing honor above life. During World War II, which action was an example of this code of behavior?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Japanese civilians welcoming Allied troops"
+    },
+    {
+     "label": "G",
+     "text": "Japanese captors treating American POWs humanely"
+    },
+    {
+     "label": "H",
+     "text": "Japanese emperor accepting unconditional surrender"
+    },
+    {
+     "label": "J",
+     "text": "Japanese troops committing suicide rather than surrendering"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-23"
+  },
+  {
+   "n": 25,
+   "stem": "The members of the World War II Nisei regiment were primarily —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mexican Americans"
+    },
+    {
+     "label": "B",
+     "text": "Japanese Americans"
+    },
+    {
+     "label": "C",
+     "text": "German Americans"
+    },
+    {
+     "label": "D",
+     "text": "Italian Americans"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-24"
+  },
+  {
+   "n": 26,
+   "stem": "The Lend-Lease Act was passed by the United States Congress in response to increased —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "concern about German aggression in Europe"
+    },
+    {
+     "label": "G",
+     "text": "anger over the Japanese invasion of China"
+    },
+    {
+     "label": "H",
+     "text": "concern about Italian demands in North Africa"
+    },
+    {
+     "label": "J",
+     "text": "fear over the German pact with the Soviet Union"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-25"
+  },
+  {
+   "n": 27,
+   "stem": "During World War II, the role of the Selective Service System in the United States was to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "draft military personnel"
+    },
+    {
+     "label": "B",
+     "text": "ration manufactured goods"
+    },
+    {
+     "label": "C",
+     "text": "increase industrial productivity"
+    },
+    {
+     "label": "D",
+     "text": "replace factory workers"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-26"
+  },
+  {
+   "n": 28,
+   "stem": "Which effect did United States participation in World War II have on the home front?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "An increase in volunteers for the war effort"
+    },
+    {
+     "label": "G",
+     "text": "The end of racial segregation in the South"
+    },
+    {
+     "label": "H",
+     "text": "A decline in farm income due to war rationing"
+    },
+    {
+     "label": "J",
+     "text": "The growth of isolationism in the Midwest"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-27"
+  },
+  {
+   "n": 29,
+   "stem": "The United States interned many Japanese Americans during World War II because of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "their refusal to be deported"
+    },
+    {
+     "label": "B",
+     "text": "a fear they would aid the enemy"
+    },
+    {
+     "label": "C",
+     "text": "a concern over violent protest from them"
+    },
+    {
+     "label": "D",
+     "text": "their refusal to be drafted into the military"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-28"
+  },
+  {
+   "n": 30,
+   "stem": "The United States failed to join the League of Nations because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "the President vetoed the treaty"
+    },
+    {
+     "label": "G",
+     "text": "membership was restricted to European countries"
+    },
+    {
+     "label": "H",
+     "text": "the Senate rejected the treaty"
+    },
+    {
+     "label": "J",
+     "text": "membership was limited by European leaders"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-29"
+  },
+  {
+   "n": 31,
+   "stem": "A 1950 National Security Council recommendation urged a rapid buildup of political, economic, and military strength to counter Soviet influence. This document describes the United States’ response to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cold War tension in Europe"
+    },
+    {
+     "label": "B",
+     "text": "Japanese invasion of China"
+    },
+    {
+     "label": "C",
+     "text": "creation of the state of Israel"
+    },
+    {
+     "label": "D",
+     "text": "creation of the Manhattan Project"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-30"
+  },
+  {
+   "n": 32,
+   "stem": "Which president is most closely associated with the policy of massive retaliation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Dwight D. Eisenhower"
+    },
+    {
+     "label": "G",
+     "text": "John F. Kennedy"
+    },
+    {
+     "label": "H",
+     "text": "Lyndon Johnson"
+    },
+    {
+     "label": "J",
+     "text": "Richard Nixon"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-31"
+  },
+  {
+   "n": 33,
+   "stem": "A January 26, 1950, newspaper headline states: “Alger Hiss Sentenced to Prison — Will Serve Five Years.” This headline describes the result of increased fear of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "communist infiltration"
+    },
+    {
+     "label": "B",
+     "text": "political corruption"
+    },
+    {
+     "label": "C",
+     "text": "organized crime"
+    },
+    {
+     "label": "D",
+     "text": "nuclear energy"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-32"
+  },
+  {
+   "n": 34,
+   "stem": "Fannie Lou Hamer described being required to interpret a complex section of the Mississippi constitution in order to register to vote. This practice was outlawed with the passage of the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "15th Amendment"
+    },
+    {
+     "label": "G",
+     "text": "Civil Rights Act of 1964"
+    },
+    {
+     "label": "H",
+     "text": "19th Amendment"
+    },
+    {
+     "label": "J",
+     "text": "Voting Rights Act of 1965"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-33"
+  },
+  {
+   "n": 35,
+   "stem": "The North Atlantic Treaty Organization (NATO) was created primarily to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "protect Western Europe from communism"
+    },
+    {
+     "label": "B",
+     "text": "encourage communist factions in China"
+    },
+    {
+     "label": "C",
+     "text": "install democratic governments in Africa"
+    },
+    {
+     "label": "D",
+     "text": "protect South America from invasion"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-34"
+  },
+  {
+   "n": 36,
+   "stem": "Veterans of which war often faced public hostility when they returned home?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "World War I"
+    },
+    {
+     "label": "G",
+     "text": "World War II"
+    },
+    {
+     "label": "H",
+     "text": "Korean War"
+    },
+    {
+     "label": "J",
+     "text": "Vietnam War"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-35"
+  },
+  {
+   "n": 37,
+   "stem": "Over the last three decades, the American work force has had to acquire and improve skills in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "computer technology"
+    },
+    {
+     "label": "B",
+     "text": "automobile repair"
+    },
+    {
+     "label": "C",
+     "text": "heavy machinery"
+    },
+    {
+     "label": "D",
+     "text": "medical equipment"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-36"
+  },
+  {
+   "n": 38,
+   "stem": "Modern American schools adapted to serve new immigrants by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "limiting vocational programs"
+    },
+    {
+     "label": "G",
+     "text": "offering bilingual education"
+    },
+    {
+     "label": "H",
+     "text": "offering extracurricular activities"
+    },
+    {
+     "label": "J",
+     "text": "requiring physical education"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-37"
+  },
+  {
+   "n": 39,
+   "stem": "Which president was in office during the Cold War?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Woodrow Wilson"
+    },
+    {
+     "label": "B",
+     "text": "Franklin D. Roosevelt"
+    },
+    {
+     "label": "C",
+     "text": "John F. Kennedy"
+    },
+    {
+     "label": "D",
+     "text": "William Clinton"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-38"
+  },
+  {
+   "n": 40,
+   "stem": "A January 17, 1991, headline reads: “War Begins! Hundreds of planes begin bombing missions.” In which area did this conflict occur?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Afghanistan border"
+    },
+    {
+     "label": "G",
+     "text": "Indochinese Peninsula"
+    },
+    {
+     "label": "H",
+     "text": "Former Yugoslavia"
+    },
+    {
+     "label": "J",
+     "text": "Persian Gulf"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-39"
+  },
+  {
+   "n": 41,
+   "stem": "A diagram shows: Late 1900s Televised news Better-informed rural population Which innovation best completes this sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Radio"
+    },
+    {
+     "label": "B",
+     "text": "Newspaper"
+    },
+    {
+     "label": "C",
+     "text": "Satellite dish"
+    },
+    {
+     "label": "D",
+     "text": "Compact disc"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-40"
+  },
+  {
+   "n": 42,
+   "stem": "Data from August 2000 show computer access by family income. Higher-income families had much greater computer access at home than lower-income families. At school, access levels were more similar across income groups. Which conclusion can be drawn?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Family income has little bearing on access to computers."
+    },
+    {
+     "label": "G",
+     "text": "Access to education improves with higher family income."
+    },
+    {
+     "label": "H",
+     "text": "Schools narrow the technological gap caused by income."
+    },
+    {
+     "label": "J",
+     "text": "There are more children born in higher-income families."
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-41"
+  },
+  {
+   "n": 43,
+   "stem": "A September 12, 2001, State Department record describes President Bush consulting Congress and contacting leaders of major allied nations to build an international coalition. Which type of action is described?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Independent investigations"
+    },
+    {
+     "label": "B",
+     "text": "Diplomatic relations"
+    },
+    {
+     "label": "C",
+     "text": "Economic sanctions"
+    },
+    {
+     "label": "D",
+     "text": "Strategic attacks"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-42"
+  },
+  {
+   "n": 44,
+   "stem": "A map shows land between 80°W and 90°W longitude and 25°N and 30°N latitude, corresponding to present-day Florida. This land represents the acquisition of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "land won through the French and Indian War"
+    },
+    {
+     "label": "G",
+     "text": "territories according to the Northwest Ordinance"
+    },
+    {
+     "label": "H",
+     "text": "land as a result of the Revolutionary War"
+    },
+    {
+     "label": "J",
+     "text": "Florida through a treaty with Spain"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-43"
+  },
+  {
+   "n": 45,
+   "stem": "Events in Texas history are listed in sequence: 1. Migration of American settlers 2. Battle of the Alamo 3. (missing event) 4. Entry into the Union Which event best completes the sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Confederate attack on Fort Sumter"
+    },
+    {
+     "label": "B",
+     "text": "Independence gained from Mexico"
+    },
+    {
+     "label": "C",
+     "text": "Purchase of the Louisiana Territory"
+    },
+    {
+     "label": "D",
+     "text": "Completion of the Transcontinental Railroad"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-44"
+  },
+  {
+   "n": 46,
+   "stem": "A photograph labeled “Pioneers, 1886” shows a family traveling west with wagons and supplies. The family is most likely on the way to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "find factory work in the Northeast"
+    },
+    {
+     "label": "G",
+     "text": "claim a homestead in the West"
+    },
+    {
+     "label": "H",
+     "text": "work as indentured servants in Virginia"
+    },
+    {
+     "label": "J",
+     "text": "prospect for gold in California"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-45"
+  },
+  {
+   "n": 47,
+   "stem": "President William Howard Taft developed the Dollar Diplomacy policy to support —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "United States citizens traveling to Europe"
+    },
+    {
+     "label": "B",
+     "text": "equal trading rights in Japan"
+    },
+    {
+     "label": "C",
+     "text": "United States businesses investing in Latin America"
+    },
+    {
+     "label": "D",
+     "text": "trade with the Philippines"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-46"
+  },
+  {
+   "n": 48,
+   "stem": "By the late 1890s, many American business leaders believed their best chance for future growth depended on —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "tighter governmental regulation"
+    },
+    {
+     "label": "G",
+     "text": "the increasing growth of labor unions"
+    },
+    {
+     "label": "H",
+     "text": "laws abolishing the use of child labor"
+    },
+    {
+     "label": "J",
+     "text": "the establishment of foreign markets"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-47"
+  },
+  {
+   "n": 49,
+   "stem": "After World War II, countries were divided as follows: Occupied by the United States: Japan Occupied by the Soviet Union: Hungary Which country was also occupied by the United States?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Japan"
+    },
+    {
+     "label": "B",
+     "text": "Poland"
+    },
+    {
+     "label": "C",
+     "text": "France"
+    },
+    {
+     "label": "D",
+     "text": "China"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-48"
+  },
+  {
+   "n": 50,
+   "stem": "A sequence describing East Germany shows: After World War II occupation Construction of the Berlin Wall Which phrase best completes this sequence?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Rise of Fascism"
+    },
+    {
+     "label": "G",
+     "text": "Communist control"
+    },
+    {
+     "label": "H",
+     "text": "Rapid rearmament"
+    },
+    {
+     "label": "J",
+     "text": "Formation of democracy"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-49"
+  },
+  {
+   "n": 51,
+   "stem": "Colonial town meetings, where citizens gathered to debate and vote directly on local issues, demonstrated a form of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "religious toleration"
+    },
+    {
+     "label": "B",
+     "text": "direct democracy"
+    },
+    {
+     "label": "C",
+     "text": "multicultural integration"
+    },
+    {
+     "label": "D",
+     "text": "representative government"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-50"
+  },
+  {
+   "n": 52,
+   "stem": "The different types of economies found in the original colonies were primarily a reflection of the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "nationalities of the settlers"
+    },
+    {
+     "label": "G",
+     "text": "geography of the areas"
+    },
+    {
+     "label": "H",
+     "text": "provisions of the charters"
+    },
+    {
+     "label": "J",
+     "text": "religion of the settlers"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-51"
+  },
+  {
+   "n": 53,
+   "stem": "John Locke’s ideas contributed to the Declaration of Independence because he influenced the belief in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "capitalism and free enterprise"
+    },
+    {
+     "label": "B",
+     "text": "self-government and natural rights"
+    },
+    {
+     "label": "C",
+     "text": "a strong federal government and rule of law"
+    },
+    {
+     "label": "D",
+     "text": "a monarchy and democracy"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-52"
+  },
+  {
+   "n": 54,
+   "stem": "Major economic developments of the 1920s include: 1. Stock Market Crash 2. Excessive stock speculation 3. Increased availability of credit 4. Failure of the banking system What is the correct order?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1, 3, 4, 2"
+    },
+    {
+     "label": "G",
+     "text": "2, 4, 3, 1"
+    },
+    {
+     "label": "H",
+     "text": "3, 2, 1, 4"
+    },
+    {
+     "label": "J",
+     "text": "4, 1, 2, 3"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-53"
+  },
+  {
+   "n": 55,
+   "stem": "Which part of the national government controls the supply of money in the economy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Congress"
+    },
+    {
+     "label": "B",
+     "text": "Treasury Department"
+    },
+    {
+     "label": "C",
+     "text": "President"
+    },
+    {
+     "label": "D",
+     "text": "Federal Reserve"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-54"
+  },
+  {
+   "n": 56,
+   "stem": "Which New Deal program attempted to protect Americans from bank instability during the Great Depression?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Works Progress Administration"
+    },
+    {
+     "label": "G",
+     "text": "Tennessee Valley Authority"
+    },
+    {
+     "label": "H",
+     "text": "Federal Deposit Insurance Corporation"
+    },
+    {
+     "label": "J",
+     "text": "Agricultural Adjustment Administration"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-55"
+  },
+  {
+   "n": 57,
+   "stem": "What failed to carry out the ideals expressed in the Declaration of Independence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Bill of Rights"
+    },
+    {
+     "label": "B",
+     "text": "Dred Scott decision"
+    },
+    {
+     "label": "C",
+     "text": "14th Amendment"
+    },
+    {
+     "label": "D",
+     "text": "Voting Rights Act of 1965"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-56"
+  },
+  {
+   "n": 58,
+   "stem": "How did the Great Awakening most influence the American Revolutionary movement?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "It supported the practice of slave labor."
+    },
+    {
+     "label": "G",
+     "text": "It established official state religions."
+    },
+    {
+     "label": "H",
+     "text": "It challenged the established government order."
+    },
+    {
+     "label": "J",
+     "text": "It discouraged trade with foreign countries."
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-57"
+  },
+  {
+   "n": 59,
+   "stem": "Which principle is shared by both the Articles of Confederation and the Constitution of the United States?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Judicial review"
+    },
+    {
+     "label": "B",
+     "text": "Limited government"
+    },
+    {
+     "label": "C",
+     "text": "Separation of powers"
+    },
+    {
+     "label": "D",
+     "text": "Checks and balances"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-58"
+  },
+  {
+   "n": 60,
+   "stem": "“It is emphatically the province and duty of the judicial department to say what the law is.” Which Supreme Court decision includes this quotation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Marbury v. Madison"
+    },
+    {
+     "label": "G",
+     "text": "Cohens v. Virginia"
+    },
+    {
+     "label": "H",
+     "text": "Gibbons v. Ogden"
+    },
+    {
+     "label": "J",
+     "text": "McCulloch v. Maryland"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2012_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-59"
+  },
+  {
+   "n": 1,
+   "stem": "Which factor was significant to the Cavaliers in the early colonization of eastern Virginia?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Debt forgiveness"
+    },
+    {
+     "label": "B",
+     "text": "Free land"
+    },
+    {
+     "label": "C",
+     "text": "Political freedom"
+    },
+    {
+     "label": "D",
+     "text": "Religious tolerance"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-60"
+  },
+  {
+   "n": 2,
+   "stem": "During the American Revolution, this political cartoon by Benjamin Franklin depicted separate colonies as parts of a snake with the message “Join, or Die.” The purpose of the cartoon was to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "persuade colonists to support the Loyalists"
+    },
+    {
+     "label": "B",
+     "text": "recruit colonists for the Royal Navy"
+    },
+    {
+     "label": "C",
+     "text": "encourage colonists to resolve their differences"
+    },
+    {
+     "label": "D",
+     "text": "convince colonists to maintain state sovereignty"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-61"
+  },
+  {
+   "n": 3,
+   "stem": "One major element of George Washington’s military strategy during the American Revolution was avoiding —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "direct confrontations"
+    },
+    {
+     "label": "B",
+     "text": "night attacks"
+    },
+    {
+     "label": "C",
+     "text": "important cities"
+    },
+    {
+     "label": "D",
+     "text": "naval battles"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-62"
+  },
+  {
+   "n": 4,
+   "stem": "The following powers are listed: The President can veto an act passed by Congress. Congress can override a veto by the President. Courts can declare a law unconstitutional. These powers are a result of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "suggested amendments to the Articles of Confederation"
+    },
+    {
+     "label": "B",
+     "text": "a system of constitutional checks and balances"
+    },
+    {
+     "label": "C",
+     "text": "foreign influences on the colonies and territories"
+    },
+    {
+     "label": "D",
+     "text": "an idea taken from the Articles of Confederation"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-63"
+  },
+  {
+   "n": 5,
+   "stem": "Which amendment to the Constitution of the United States was directly influenced by the Virginia Statute for Religious Freedom?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1st"
+    },
+    {
+     "label": "B",
+     "text": "2nd"
+    },
+    {
+     "label": "C",
+     "text": "5th"
+    },
+    {
+     "label": "D",
+     "text": "8th"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-64"
+  },
+  {
+   "n": 6,
+   "stem": "The following positions are listed: Opposed the Bank of the United States Opposed the Jay Treaty with Great Britain Favored an economy based on agriculture Which early United States political party believed in these positions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Federalists"
+    },
+    {
+     "label": "B",
+     "text": "Whigs"
+    },
+    {
+     "label": "C",
+     "text": "Know-Nothings"
+    },
+    {
+     "label": "D",
+     "text": "Democratic-Republicans"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-65"
+  },
+  {
+   "n": 7,
+   "stem": "One of the fundamental beliefs of Jacksonian Democracy was that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "political parties should have popular leaders"
+    },
+    {
+     "label": "B",
+     "text": "ordinary citizens should participate in politics"
+    },
+    {
+     "label": "C",
+     "text": "religious leaders should hold elected offices"
+    },
+    {
+     "label": "D",
+     "text": "federal jobs should go to qualified individuals"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-66"
+  },
+  {
+   "n": 8,
+   "stem": "“So you’re the little woman who wrote the book that made this great war!” — President Abraham Lincoln, 1862 President Lincoln was speaking to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Elizabeth Cady Stanton"
+    },
+    {
+     "label": "B",
+     "text": "Sojourner Truth"
+    },
+    {
+     "label": "C",
+     "text": "Harriet Tubman"
+    },
+    {
+     "label": "D",
+     "text": "Harriet Beecher Stowe"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-67"
+  },
+  {
+   "n": 9,
+   "stem": "Jefferson Davis played which role in the nation’s history?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Leader in the Texas Revolution"
+    },
+    {
+     "label": "B",
+     "text": "Justice on the Supreme Court"
+    },
+    {
+     "label": "C",
+     "text": "General in the Mexican-American War"
+    },
+    {
+     "label": "D",
+     "text": "President of the Confederate States of America"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-68"
+  },
+  {
+   "n": 10,
+   "stem": "Before the Civil War, slavery was prohibited in certain areas by the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Monroe Doctrine"
+    },
+    {
+     "label": "B",
+     "text": "Dred Scott decision"
+    },
+    {
+     "label": "C",
+     "text": "Kansas-Nebraska Act"
+    },
+    {
+     "label": "D",
+     "text": "Missouri Compromise"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-69"
+  },
+  {
+   "n": 11,
+   "stem": "A diagram lists these post–Civil War accomplishments of one leader: Urged Southerners to reconcile and rejoin the United States Served as president of Washington College Which leader is described?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Ulysses S. Grant"
+    },
+    {
+     "label": "B",
+     "text": "Abraham Lincoln"
+    },
+    {
+     "label": "C",
+     "text": "Robert E. Lee"
+    },
+    {
+     "label": "D",
+     "text": "Jefferson Davis"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-70"
+  },
+  {
+   "n": 12,
+   "stem": "The Battle of Fort Sumter was a significant event in Civil War history because it was the first —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Confederate defeat during the Civil War"
+    },
+    {
+     "label": "B",
+     "text": "conflict that included African American soldiers"
+    },
+    {
+     "label": "C",
+     "text": "time British soldiers fought alongside Union soldiers"
+    },
+    {
+     "label": "D",
+     "text": "military confrontation of the Civil War"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-71"
+  },
+  {
+   "n": 13,
+   "stem": "A timeline is divided into four numbered sections: 1. Civil War 2. Early Reconstruction following the Civil War 3. Radical Reconstruction, including congressional civil rights laws 4. End of Reconstruction The assassination of President Abraham Lincoln occurred during which section?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-72"
+  },
+  {
+   "n": 14,
+   "stem": "Which civil rights leader believed African Americans could earn equality by learning vocational skills?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Oliver Hill"
+    },
+    {
+     "label": "B",
+     "text": "W.E.B. Du Bois"
+    },
+    {
+     "label": "C",
+     "text": "Booker T. Washington"
+    },
+    {
+     "label": "D",
+     "text": "Martin Luther King, Jr."
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-73"
+  },
+  {
+   "n": 15,
+   "stem": "The newspaper headline “SUBMARINE SINKS LUSITANIA! WILSON SAYS SITUATION GRAVE!” affected the United States by eventually leading to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "involvement in the Spanish-American War"
+    },
+    {
+     "label": "B",
+     "text": "construction of the Panama Canal"
+    },
+    {
+     "label": "C",
+     "text": "entry into World War I"
+    },
+    {
+     "label": "D",
+     "text": "neutrality during the 1930s"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-74"
+  },
+  {
+   "n": 16,
+   "stem": "Which type of music was popularized by radio in the 1920s?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Jazz"
+    },
+    {
+     "label": "B",
+     "text": "Reggae"
+    },
+    {
+     "label": "C",
+     "text": "Bluegrass"
+    },
+    {
+     "label": "D",
+     "text": "Folk"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-75"
+  },
+  {
+   "n": 17,
+   "stem": "A 1912 photograph titled Doffer and Spinner Boys in Seaconnet Mill shows young children working long hours in dangerous factory conditions. This photograph demonstrates conditions exposed by a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "suffragist"
+    },
+    {
+     "label": "B",
+     "text": "muckraker"
+    },
+    {
+     "label": "C",
+     "text": "union representative"
+    },
+    {
+     "label": "D",
+     "text": "factory owner"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-76"
+  },
+  {
+   "n": 18,
+   "stem": "What was one result of the Federal Reserve’s failure to prevent the collapse of the banking system prior to the Great Depression?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The money supply contracted."
+    },
+    {
+     "label": "B",
+     "text": "Interest rates decreased."
+    },
+    {
+     "label": "C",
+     "text": "The stock market recovered."
+    },
+    {
+     "label": "D",
+     "text": "Protective tariffs were repealed."
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-77"
+  },
+  {
+   "n": 19,
+   "stem": "Which action kept the United States from joining the League of Nations?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Massive public protests"
+    },
+    {
+     "label": "B",
+     "text": "Veto by the President"
+    },
+    {
+     "label": "C",
+     "text": "Opposition in the Senate"
+    },
+    {
+     "label": "D",
+     "text": "Revision of treaties"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-78"
+  },
+  {
+   "n": 20,
+   "stem": "After the start of World War II, the Lend-Lease Act allowed the United States to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "acquire new weapons"
+    },
+    {
+     "label": "B",
+     "text": "assist the Allied powers"
+    },
+    {
+     "label": "C",
+     "text": "occupy Axis territory"
+    },
+    {
+     "label": "D",
+     "text": "reinstate the military draft"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-79"
+  },
+  {
+   "n": 21,
+   "stem": "A diagram shows: Onset of World War II → Labor shortages → Changing roles for many women in America Which factor best completes this sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mass migration"
+    },
+    {
+     "label": "B",
+     "text": "Labor shortages"
+    },
+    {
+     "label": "C",
+     "text": "Resource rationing"
+    },
+    {
+     "label": "D",
+     "text": "High birthrates"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-80"
+  },
+  {
+   "n": 22,
+   "stem": "The following measures were used during World War II: War bond drives Rationing Wage and price controls These measures served to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "maintain supplies for the war effort"
+    },
+    {
+     "label": "B",
+     "text": "rebuild a war-damaged economy"
+    },
+    {
+     "label": "C",
+     "text": "establish international relief funds"
+    },
+    {
+     "label": "D",
+     "text": "protect personal savings"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-81"
+  },
+  {
+   "n": 23,
+   "stem": "A historical emblem associated with the women’s suffrage movement symbolizes the struggles of women to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "join the military"
+    },
+    {
+     "label": "B",
+     "text": "earn respect as mothers"
+    },
+    {
+     "label": "C",
+     "text": "gain rights as workers"
+    },
+    {
+     "label": "D",
+     "text": "earn the right to vote"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-82"
+  },
+  {
+   "n": 24,
+   "stem": "Which aspect of American life was most challenged by the passage of the 19th Amendment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Organized religion"
+    },
+    {
+     "label": "B",
+     "text": "Role of women"
+    },
+    {
+     "label": "C",
+     "text": "Economic policy"
+    },
+    {
+     "label": "D",
+     "text": "Opposition to segregation"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-83"
+  },
+  {
+   "n": 25,
+   "stem": "The table shows increases in registered minority voters after 1960: Georgia: 29.3% (1960) → 57.2% (1970) Arkansas: 38.0% (1960) → 82.3% (1970) Which president signed the 1965 legislation that made these changes possible?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Harry S. Truman"
+    },
+    {
+     "label": "B",
+     "text": "Dwight D. Eisenhower"
+    },
+    {
+     "label": "C",
+     "text": "Richard M. Nixon"
+    },
+    {
+     "label": "D",
+     "text": "Lyndon B. Johnson"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-84"
+  },
+  {
+   "n": 26,
+   "stem": "Which conflict best represents an application of the containment policy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Spanish-American War"
+    },
+    {
+     "label": "B",
+     "text": "World War I"
+    },
+    {
+     "label": "C",
+     "text": "World War II"
+    },
+    {
+     "label": "D",
+     "text": "Vietnam War"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-85"
+  },
+  {
+   "n": 27,
+   "stem": "A political map of the Eastern Hemisphere during the 1980s highlights a large communist nation in Eastern Europe and northern Asia. Which country did President Ronald Reagan describe as an “evil empire”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "China"
+    },
+    {
+     "label": "B",
+     "text": "Soviet Union"
+    },
+    {
+     "label": "C",
+     "text": "North Korea"
+    },
+    {
+     "label": "D",
+     "text": "Cuba"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-86"
+  },
+  {
+   "n": 28,
+   "stem": "Immigration push factors are conditions that cause people to leave their home country. One push factor for many immigrants to the United States is a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "quality education system"
+    },
+    {
+     "label": "B",
+     "text": "lack of family connections"
+    },
+    {
+     "label": "C",
+     "text": "diverse religious history"
+    },
+    {
+     "label": "D",
+     "text": "lack of employment opportunities"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-87"
+  },
+  {
+   "n": 29,
+   "stem": "“To deter and punish terrorist acts in the United States and around the world, to enhance law enforcement investigatory tools, and for other purposes.” This excerpt describes the purpose of the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Patriot Act"
+    },
+    {
+     "label": "B",
+     "text": "Strategic Defense Initiative"
+    },
+    {
+     "label": "C",
+     "text": "United Nations Participation Act"
+    },
+    {
+     "label": "D",
+     "text": "Interstate Commerce Commission"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-88"
+  },
+  {
+   "n": 30,
+   "stem": "The collapse of communism in the late 1980s led to the reunification of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Germany"
+    },
+    {
+     "label": "B",
+     "text": "Korea"
+    },
+    {
+     "label": "C",
+     "text": "Vietnam"
+    },
+    {
+     "label": "D",
+     "text": "Yugoslavia"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-89"
+  },
+  {
+   "n": 31,
+   "stem": "A July 11, 1995 headline reads: “President Announces Normalization of Relations with Vietnam.” Which president made this announcement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Gerald Ford"
+    },
+    {
+     "label": "B",
+     "text": "James Carter, Jr."
+    },
+    {
+     "label": "C",
+     "text": "Ronald Reagan"
+    },
+    {
+     "label": "D",
+     "text": "William Clinton"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-90"
+  },
+  {
+   "n": 32,
+   "stem": "In recent years, advances in technology have changed employers’ expectations so that most United States employers now —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "believe workers must be loyal to their company"
+    },
+    {
+     "label": "B",
+     "text": "expect their employees to have computer skills"
+    },
+    {
+     "label": "C",
+     "text": "require workers to operate heavy machines"
+    },
+    {
+     "label": "D",
+     "text": "feel employees should have advanced scientific knowledge"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-91"
+  },
+  {
+   "n": 33,
+   "stem": "How has the Internet affected the lives of rural Americans?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "By attracting more medical professionals to rural areas"
+    },
+    {
+     "label": "B",
+     "text": "By creating more blue-collar jobs in rural areas"
+    },
+    {
+     "label": "C",
+     "text": "By providing better access to information"
+    },
+    {
+     "label": "D",
+     "text": "By lowering the cost of housing"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-92"
+  },
+  {
+   "n": 34,
+   "stem": "Which regions are the source of most recent immigration to the United States?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Latin America and Africa"
+    },
+    {
+     "label": "B",
+     "text": "Asia and Latin America"
+    },
+    {
+     "label": "C",
+     "text": "Western Europe and Africa"
+    },
+    {
+     "label": "D",
+     "text": "Asia and Southern Europe"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-93"
+  },
+  {
+   "n": 35,
+   "stem": "A firsthand account from 1853 describes crossing Indian Territory near present-day Baxter Springs while guarding cattle to prevent stampedes. This description concerns the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "transportation of cattle to markets in the Midwest"
+    },
+    {
+     "label": "B",
+     "text": "immigration of workers to build the Transcontinental Railroad"
+    },
+    {
+     "label": "C",
+     "text": "movement of cattle to feed troops during the Civil War"
+    },
+    {
+     "label": "D",
+     "text": "relocation of settlers to new territory in the Midwest"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-94"
+  },
+  {
+   "n": 36,
+   "stem": "The Open Door Policy was important to United States merchants because its goal was to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ensure freedom of trade with China"
+    },
+    {
+     "label": "B",
+     "text": "control the economy of Latin America"
+    },
+    {
+     "label": "C",
+     "text": "grant exclusive trading rights with Hawaii"
+    },
+    {
+     "label": "D",
+     "text": "limit commercial activity in Europe"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-95"
+  },
+  {
+   "n": 37,
+   "stem": "During the 19th century, Chinese immigrants played a major role in the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "building of the Transcontinental Railroad"
+    },
+    {
+     "label": "B",
+     "text": "development of the public school system"
+    },
+    {
+     "label": "C",
+     "text": "establishment of the abolition movement"
+    },
+    {
+     "label": "D",
+     "text": "formation of the Tammany Society"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-96"
+  },
+  {
+   "n": 38,
+   "stem": "Wreckage along the beaches of Normandy, France, shown after June 1944, resulted from a large-scale Allied invasion intended to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "force the surrender of Japan"
+    },
+    {
+     "label": "B",
+     "text": "liberate Europe"
+    },
+    {
+     "label": "C",
+     "text": "seek the support of Russia"
+    },
+    {
+     "label": "D",
+     "text": "free Germany"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-97"
+  },
+  {
+   "n": 39,
+   "stem": "The Battle of Stalingrad was significant because Germany was —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "cut off from Italian reinforcements"
+    },
+    {
+     "label": "B",
+     "text": "denied access to valuable oil resources"
+    },
+    {
+     "label": "C",
+     "text": "forced to surrender its western armies"
+    },
+    {
+     "label": "D",
+     "text": "invaded by Allied troops"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-98"
+  },
+  {
+   "n": 40,
+   "stem": "The Soviet Union built the Berlin Wall in 1961 in order to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "reroute automobile traffic around downtown Berlin"
+    },
+    {
+     "label": "B",
+     "text": "prevent the transfer of money from Western Europe to the East"
+    },
+    {
+     "label": "C",
+     "text": "prevent escape of Eastern Europeans to the West"
+    },
+    {
+     "label": "D",
+     "text": "fortify government headquarters in Berlin"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-99"
+  },
+  {
+   "n": 41,
+   "stem": "The following leaders are listed: 1. Patrick Henry 2. George Mason 3. James Madison 4. George Washington Which leaders opposed ratification of the Constitution of 1787?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 and 2"
+    },
+    {
+     "label": "B",
+     "text": "3 and 4"
+    },
+    {
+     "label": "C",
+     "text": "1 and 3"
+    },
+    {
+     "label": "D",
+     "text": "2 and 4"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-100"
+  },
+  {
+   "n": 42,
+   "stem": "A strong national government is needed to facilitate commerce, manage foreign trade, provide for national defense, and conduct foreign relations. A person making this statement would most likely favor the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Treaty of Paris"
+    },
+    {
+     "label": "B",
+     "text": "Articles of Confederation"
+    },
+    {
+     "label": "C",
+     "text": "Declaration of Independence"
+    },
+    {
+     "label": "D",
+     "text": "Constitution of the United States"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-101"
+  },
+  {
+   "n": 43,
+   "stem": "Thomas Paine’s Common Sense influenced many American colonists to support the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "formation of Loyalist groups"
+    },
+    {
+     "label": "B",
+     "text": "concept of capitalist economies"
+    },
+    {
+     "label": "C",
+     "text": "idea of separation from England"
+    },
+    {
+     "label": "D",
+     "text": "purchase of territory from France"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-102"
+  },
+  {
+   "n": 44,
+   "stem": "The principles of the Declaration of Independence led to increased social participation over time by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "supporting low taxes"
+    },
+    {
+     "label": "B",
+     "text": "creating the two-party system"
+    },
+    {
+     "label": "C",
+     "text": "promoting civil rights"
+    },
+    {
+     "label": "D",
+     "text": "promoting a strong government"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-103"
+  },
+  {
+   "n": 45,
+   "stem": "John Marshall was instrumental in strengthening the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "State Department"
+    },
+    {
+     "label": "B",
+     "text": "Federal Reserve"
+    },
+    {
+     "label": "C",
+     "text": "Electoral College"
+    },
+    {
+     "label": "D",
+     "text": "Supreme Court"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-104"
+  },
+  {
+   "n": 46,
+   "stem": "A cause-and-effect diagram shows: Booming value of stocks → Business profits rise → Sudden collapse Which phrase best completes the cause of this collapse?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Foreign tariffs increased"
+    },
+    {
+     "label": "B",
+     "text": "Demand for goods declined"
+    },
+    {
+     "label": "C",
+     "text": "Overspeculation of investments"
+    },
+    {
+     "label": "D",
+     "text": "Failure of banks"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-105"
+  },
+  {
+   "n": 47,
+   "stem": "The founders of Rhode Island had different views from the Massachusetts Puritans on —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "enslaved workers"
+    },
+    {
+     "label": "B",
+     "text": "private property"
+    },
+    {
+     "label": "C",
+     "text": "indentured servants"
+    },
+    {
+     "label": "D",
+     "text": "religious tolerance"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-106"
+  },
+  {
+   "n": 48,
+   "stem": "John Locke’s political theory was based on the idea that individuals —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "obey their king"
+    },
+    {
+     "label": "B",
+     "text": "free their slaves"
+    },
+    {
+     "label": "C",
+     "text": "need spiritual salvation"
+    },
+    {
+     "label": "D",
+     "text": "possess natural rights"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_11__Virginia_and_United_States_History_2014_SOLPass",
+   "id": "grade-11-virginia-and-united-states-history-107"
+  }
+ ]
+}

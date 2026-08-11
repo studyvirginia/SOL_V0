@@ -1,0 +1,4690 @@
+{
+ "subject": "science",
+ "course": "physical-science",
+ "courseName": "Physical Science",
+ "questionCount": 187,
+ "sources": [
+  "Science_Grade_8_2001_SOLPass",
+  "Science_Grade_8_2003_SOLPass",
+  "Science_Grade_8_2004_SOLPass",
+  "Science_Grade_8_2015_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "These animals are grouped together because all of them —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "live in the water"
+    },
+    {
+     "label": "B",
+     "text": "are fish"
+    },
+    {
+     "label": "C",
+     "text": "are warm-blooded"
+    },
+    {
+     "label": "D",
+     "text": "lay eggs"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-1"
+  },
+  {
+   "n": 2,
+   "stem": "According to a graph showing the distance a javelin travels when thrown with the same force at different angles (15°, 30°, 45°, 60°, and 75°), the javelin travels the farthest when released at —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "75°"
+    },
+    {
+     "label": "B",
+     "text": "60°"
+    },
+    {
+     "label": "C",
+     "text": "45°"
+    },
+    {
+     "label": "D",
+     "text": "30°"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-2"
+  },
+  {
+   "n": 3,
+   "stem": "Which type of characteristics can be inherited?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Those controlled by genes"
+    },
+    {
+     "label": "G",
+     "text": "Those caused by accidents"
+    },
+    {
+     "label": "H",
+     "text": "Those produced by exercise"
+    },
+    {
+     "label": "J",
+     "text": "Those produced by diet"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-3"
+  },
+  {
+   "n": 4,
+   "stem": "An experiment was set up to measure the distance a snail would travel in 5 minutes. Four rulers are available: Ruler A: marked in centimeters only Ruler B: marked in half-centimeter increments Ruler C: marked in millimeters Ruler D: marked only in inches Which ruler should be used to give the most precise measurement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Ruler A"
+    },
+    {
+     "label": "B",
+     "text": "Ruler B"
+    },
+    {
+     "label": "C",
+     "text": "Ruler C"
+    },
+    {
+     "label": "D",
+     "text": "Ruler D"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-4"
+  },
+  {
+   "n": 5,
+   "stem": "Which of these can be separated by using a magnet?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A mixture of sand and salt"
+    },
+    {
+     "label": "G",
+     "text": "Rust formed from iron and oxygen"
+    },
+    {
+     "label": "H",
+     "text": "A compound of hydrogen and sulfur"
+    },
+    {
+     "label": "J",
+     "text": "A mixture of sand and bits of iron"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-5"
+  },
+  {
+   "n": 6,
+   "stem": "The ermine is a small animal that lives along riverbanks and in forests. During the spring and summer, it grows a brown coat. It sheds the brown coat during the autumn and grows a white one. This change of color in the ermine’s coat allows it to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "hide from predators"
+    },
+    {
+     "label": "G",
+     "text": "attract a mate"
+    },
+    {
+     "label": "H",
+     "text": "locate a water supply"
+    },
+    {
+     "label": "J",
+     "text": "find food more easily"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-6"
+  },
+  {
+   "n": 7,
+   "stem": "Solar cells are used to turn sunlight into —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "inertia"
+    },
+    {
+     "label": "B",
+     "text": "force"
+    },
+    {
+     "label": "C",
+     "text": "magnetism"
+    },
+    {
+     "label": "D",
+     "text": "electricity"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-7"
+  },
+  {
+   "n": 8,
+   "stem": "A food web includes the following organisms: plants, grasshoppers, frogs, praying mantises, owls, shrews, mice, martens, and bears. If the number of grasshoppers decreases, which population is most likely to increase?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Plants"
+    },
+    {
+     "label": "B",
+     "text": "Frogs"
+    },
+    {
+     "label": "C",
+     "text": "Praying mantises"
+    },
+    {
+     "label": "D",
+     "text": "Owls"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-8"
+  },
+  {
+   "n": 9,
+   "stem": "A diagram of a plant cell shows the following structures: cell wall, cell membrane, cytoplasm, nucleus, chloroplasts, and vacuole. In this plant cell, which cellular structure is responsible for storing food, water, and wastes?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Cytoplasm"
+    },
+    {
+     "label": "G",
+     "text": "Vacuole"
+    },
+    {
+     "label": "H",
+     "text": "Nucleus"
+    },
+    {
+     "label": "J",
+     "text": "Cell membrane"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-9"
+  },
+  {
+   "n": 10,
+   "stem": "The Earth makes a complete rotation once every 24 hours. Which of these would best illustrate rotation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A spinning top"
+    },
+    {
+     "label": "G",
+     "text": "A ball rolling across the floor"
+    },
+    {
+     "label": "H",
+     "text": "A pendulum swinging back and forth"
+    },
+    {
+     "label": "J",
+     "text": "A car moving down a road"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-10"
+  },
+  {
+   "n": 11,
+   "stem": "When animals hibernate, their heart rate and respiration decrease and they lose consciousness. Why do some animals hibernate?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To increase their body fat during cold periods"
+    },
+    {
+     "label": "B",
+     "text": "To conserve energy usage during the winter"
+    },
+    {
+     "label": "C",
+     "text": "To give their fur time to grow longer and thicker"
+    },
+    {
+     "label": "D",
+     "text": "To rest after a summer of high activity"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-11"
+  },
+  {
+   "n": 12,
+   "stem": "A wheelbarrow full of concrete mix needs to be moved onto a platform. It can be lifted straight up or pushed up an inclined plane. The advantage of using the inclined plane is that the work can be done —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "more quickly"
+    },
+    {
+     "label": "G",
+     "text": "with less friction"
+    },
+    {
+     "label": "H",
+     "text": "using less force"
+    },
+    {
+     "label": "J",
+     "text": "using more energy"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-12"
+  },
+  {
+   "n": 13,
+   "stem": "A box has a mass of 12 grams and a volume of 24 cubic centimeters. What is the density of this box?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.5 g/cm³"
+    },
+    {
+     "label": "B",
+     "text": "1.0 g/cm³"
+    },
+    {
+     "label": "C",
+     "text": "1.5 g/cm³"
+    },
+    {
+     "label": "D",
+     "text": "2.0 g/cm³"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-13"
+  },
+  {
+   "n": 14,
+   "stem": "Which of the following organisms break down dead material and return the substances to the environment?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Grasshopper and worm"
+    },
+    {
+     "label": "G",
+     "text": "Grass and algae"
+    },
+    {
+     "label": "H",
+     "text": "Bacteria and fungi"
+    },
+    {
+     "label": "J",
+     "text": "Snake and grasshopper"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-14"
+  },
+  {
+   "n": 15,
+   "stem": "Which property is required of a liquid in order for it to be a good fuel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Its acidity"
+    },
+    {
+     "label": "B",
+     "text": "Its combustibility"
+    },
+    {
+     "label": "C",
+     "text": "Its density"
+    },
+    {
+     "label": "D",
+     "text": "Its boiling point"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-15"
+  },
+  {
+   "n": 16,
+   "stem": "The periodic table lists boron (atomic mass 10.811), carbon (12.011), nitrogen (14.007), and aluminum (26.982). Which of these elements has the greatest average atomic mass?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Boron"
+    },
+    {
+     "label": "G",
+     "text": "Carbon"
+    },
+    {
+     "label": "H",
+     "text": "Nitrogen"
+    },
+    {
+     "label": "J",
+     "text": "Aluminum"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-16"
+  },
+  {
+   "n": 17,
+   "stem": "A scale model shows a truck that is 10 centimeters long. In the model, 1 centimeter represents 0.5 meters in real life. The mailbox is located 2 truck lengths away from the model truck. How far away is the mailbox from the truck on the real street?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 meters"
+    },
+    {
+     "label": "B",
+     "text": "10 meters"
+    },
+    {
+     "label": "C",
+     "text": "15 meters"
+    },
+    {
+     "label": "D",
+     "text": "20 meters"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-17"
+  },
+  {
+   "n": 18,
+   "stem": "Hundreds of years ago in England, rivers and seaports began to fill with silt after forests were destroyed. What caused the silt to fill the seaports?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Eutrophication"
+    },
+    {
+     "label": "G",
+     "text": "Succession"
+    },
+    {
+     "label": "H",
+     "text": "Erosion"
+    },
+    {
+     "label": "J",
+     "text": "Irrigation"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-18"
+  },
+  {
+   "n": 19,
+   "stem": "Which of the following does not use metric units to measure the density of a solution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10.5 grams per milliliter"
+    },
+    {
+     "label": "B",
+     "text": "1.56 pounds per fluid ounce"
+    },
+    {
+     "label": "C",
+     "text": "1050 kilograms per cubic meter"
+    },
+    {
+     "label": "D",
+     "text": "1.05 grams per cubic centimeter"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-19"
+  },
+  {
+   "n": 20,
+   "stem": "A scale diagram shows a baby blue whale next to a 2-meter-tall adult human. The whale appears approximately twice as long as the human. What is the approximate length of the baby blue whale?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2 meters"
+    },
+    {
+     "label": "G",
+     "text": "4 meters"
+    },
+    {
+     "label": "H",
+     "text": "6 meters"
+    },
+    {
+     "label": "J",
+     "text": "10 meters"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-20"
+  },
+  {
+   "n": 21,
+   "stem": "Gases are much more compressible than liquids. According to the particle model of matter, gases are more easily compressed because the particles in gases are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "smaller"
+    },
+    {
+     "label": "B",
+     "text": "more active"
+    },
+    {
+     "label": "C",
+     "text": "farther apart"
+    },
+    {
+     "label": "D",
+     "text": "filled with air"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-21"
+  },
+  {
+   "n": 22,
+   "stem": "An electromagnet is made by wrapping wire around an iron nail and connecting it to a battery. Which of these would make the electromagnet strongest?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Using a longer wire from the battery to the nail"
+    },
+    {
+     "label": "G",
+     "text": "Wrapping the wire around the nail more times"
+    },
+    {
+     "label": "H",
+     "text": "Wrapping the wire around a nonmetallic object"
+    },
+    {
+     "label": "J",
+     "text": "Making the loops of wire less tightly coiled"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-22"
+  },
+  {
+   "n": 23,
+   "stem": "Sea lions and true seals are compared. Sea lions have external ears and can turn their hind flippers forward; true seals have no external ears and cannot turn their hind flippers forward. According to this information, which of these animals is a sea lion?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The animal with external ears and forward-turning hind flippers"
+    },
+    {
+     "label": "B",
+     "text": "The animal with no external ears and furred flippers"
+    },
+    {
+     "label": "C",
+     "text": "The animal that swims using only hind flippers"
+    },
+    {
+     "label": "D",
+     "text": "The animal with fully furred flippers"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-23"
+  },
+  {
+   "n": 24,
+   "stem": "What type of animals live in a wetland? Which type of report would probably provide the most accurate answer?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "“Water Quality in Wetlands,” published by the United States Geological Survey"
+    },
+    {
+     "label": "G",
+     "text": "“Endangered Species in Our Wetlands,” by a newspaper reporter"
+    },
+    {
+     "label": "H",
+     "text": "“Birds of Wetlands,” in a scientific journal"
+    },
+    {
+     "label": "J",
+     "text": "“Organisms in Wetlands,” a report by the Chesapeake Bay Foundation"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-24"
+  },
+  {
+   "n": 25,
+   "stem": "An animal living in a hot desert environment has large ears, light fur, and long legs. Which of these best enables this animal to rid its body of excess heat?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Its large ears"
+    },
+    {
+     "label": "B",
+     "text": "Its flexible feet"
+    },
+    {
+     "label": "C",
+     "text": "Its sandy color"
+    },
+    {
+     "label": "D",
+     "text": "Its fur"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-25"
+  },
+  {
+   "n": 26,
+   "stem": "A chart compares conditions for organisms: Organism A: bacteria; darkness; uses light energy and sugar; produces soil Organism B: plant; darkness; uses oxygen; produces carbon dioxide and water Organism C: plant; light; uses carbon dioxide and water; produces sugar and oxygen Organism D: plant; light; uses oxygen; produces amino acids and proteins Which set of conditions represents photosynthesis?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A"
+    },
+    {
+     "label": "G",
+     "text": "B"
+    },
+    {
+     "label": "H",
+     "text": "C"
+    },
+    {
+     "label": "J",
+     "text": "D"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-26"
+  },
+  {
+   "n": 27,
+   "stem": "Asexual reproduction involves only one parent. The offspring of this type of reproduction have —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "DNA identical to the DNA of the parent"
+    },
+    {
+     "label": "B",
+     "text": "DNA that is different from the parent"
+    },
+    {
+     "label": "C",
+     "text": "one-half of the DNA of the parent"
+    },
+    {
+     "label": "D",
+     "text": "DNA that is incomplete"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-27"
+  },
+  {
+   "n": 29,
+   "stem": "Compounds are made up of more than one element. Which of the following represents a compound?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "H"
+    },
+    {
+     "label": "B",
+     "text": "NH₃"
+    },
+    {
+     "label": "C",
+     "text": "O"
+    },
+    {
+     "label": "D",
+     "text": "N"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-28"
+  },
+  {
+   "n": 30,
+   "stem": "A mutant form of the peppered moth is dark colored. In polluted areas, trees are covered with soot. Why would the dark-colored mutation be beneficial in a polluted area?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Dark-colored moths have a longer life span."
+    },
+    {
+     "label": "G",
+     "text": "Dark-colored moths are less visible to predators."
+    },
+    {
+     "label": "H",
+     "text": "Dark-colored moths taste bad to predators."
+    },
+    {
+     "label": "J",
+     "text": "Dark-colored moths produce more young."
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-29"
+  },
+  {
+   "n": 31,
+   "stem": "A graph shows carbon dioxide levels in a pond throughout the day. Carbon dioxide decreases steadily from morning to late afternoon. Which statement best describes this relationship?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Less carbon dioxide is released by fish in the morning."
+    },
+    {
+     "label": "B",
+     "text": "Less carbon dioxide is found in the pond in the morning."
+    },
+    {
+     "label": "C",
+     "text": "More carbon dioxide is released by animals later in the day."
+    },
+    {
+     "label": "D",
+     "text": "More carbon dioxide is used by algae later in the day."
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-30"
+  },
+  {
+   "n": 32,
+   "stem": "A student tests the hypothesis that adding antifreeze to water lowers the freezing point. What is the dependent variable?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Amount of water"
+    },
+    {
+     "label": "G",
+     "text": "Amount of antifreeze"
+    },
+    {
+     "label": "H",
+     "text": "Temperature at which the mixture freezes"
+    },
+    {
+     "label": "J",
+     "text": "Type of thermometer used"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-31"
+  },
+  {
+   "n": 33,
+   "stem": "In the food chain Algae → Frog → Snake → Hawk, the relationship between the algae and the frog may be described as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "consumer → producer"
+    },
+    {
+     "label": "B",
+     "text": "consumer → decomposer"
+    },
+    {
+     "label": "C",
+     "text": "producer → consumer"
+    },
+    {
+     "label": "D",
+     "text": "producer → decomposer"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-32"
+  },
+  {
+   "n": 34,
+   "stem": "An atomic model shows a central nucleus with electrons surrounding it. Point A indicates a particle in the nucleus with no charge. Point A represents —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a proton"
+    },
+    {
+     "label": "G",
+     "text": "a nucleus"
+    },
+    {
+     "label": "H",
+     "text": "a neutron"
+    },
+    {
+     "label": "J",
+     "text": "an electron"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-33"
+  },
+  {
+   "n": 35,
+   "stem": "A direct electrical current differs from an alternating current because only direct current —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "produces a high voltage"
+    },
+    {
+     "label": "B",
+     "text": "flows without resistance"
+    },
+    {
+     "label": "C",
+     "text": "allows electrons to flow in one direction"
+    },
+    {
+     "label": "D",
+     "text": "can be converted to other forms of energy"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-34"
+  },
+  {
+   "n": 36,
+   "stem": "A battery is placed inside a flashlight and the flashlight is turned on. The chemical energy of the battery is changed into all of the following forms of energy except —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "electrical energy"
+    },
+    {
+     "label": "G",
+     "text": "heat energy"
+    },
+    {
+     "label": "H",
+     "text": "light energy"
+    },
+    {
+     "label": "J",
+     "text": "mechanical energy"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-35"
+  },
+  {
+   "n": 37,
+   "stem": "Which model best shows the relationship between the Earth, the moon, and the sun?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sun at the center, Earth orbiting the sun, moon orbiting Earth"
+    },
+    {
+     "label": "B",
+     "text": "Earth at the center, sun and moon orbiting Earth"
+    },
+    {
+     "label": "C",
+     "text": "Moon at the center, Earth and sun orbiting the moon"
+    },
+    {
+     "label": "D",
+     "text": "Sun and moon orbiting Earth together"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-36"
+  },
+  {
+   "n": 38,
+   "stem": "Which of these would be different for an object if measured on the Earth and on the moon?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Mass"
+    },
+    {
+     "label": "G",
+     "text": "Weight"
+    },
+    {
+     "label": "H",
+     "text": "Volume"
+    },
+    {
+     "label": "J",
+     "text": "Density"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-37"
+  },
+  {
+   "n": 39,
+   "stem": "Which of the following materials is composed of only one kind of atom?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Water"
+    },
+    {
+     "label": "B",
+     "text": "Helium"
+    },
+    {
+     "label": "C",
+     "text": "Air"
+    },
+    {
+     "label": "D",
+     "text": "Sugar"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-38"
+  },
+  {
+   "n": 40,
+   "stem": "Salt crystals are dissolved in water to form a solution. Which of the following would probably not affect the rate of solubility?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Reducing the air pressure on the solution"
+    },
+    {
+     "label": "G",
+     "text": "Grinding the crystals smaller"
+    },
+    {
+     "label": "H",
+     "text": "Stirring the solution"
+    },
+    {
+     "label": "J",
+     "text": "Increasing the water temperature"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-39"
+  },
+  {
+   "n": 41,
+   "stem": "Wild wheat was crossed with fungus-resistant wild grass to produce a wheat variety resistant to a destructive fungus. Why would such experimentation benefit humans?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The fungus is dangerous to humans"
+    },
+    {
+     "label": "B",
+     "text": "Wheat is a major global food crop"
+    },
+    {
+     "label": "C",
+     "text": "The fungus could spread to all plants"
+    },
+    {
+     "label": "D",
+     "text": "The wheat would taste better"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-40"
+  },
+  {
+   "n": 42,
+   "stem": "Which of these best shows that calcium is different from all other elements?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Its positive electrical charge"
+    },
+    {
+     "label": "G",
+     "text": "Its presence in milk"
+    },
+    {
+     "label": "H",
+     "text": "Its number of protons"
+    },
+    {
+     "label": "J",
+     "text": "Its ability to combine with oxygen"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-41"
+  },
+  {
+   "n": 43,
+   "stem": "A diagram shows the sun, Earth, and moon aligned with Earth between the sun and moon. According to this diagram, a lunar eclipse occurs only when —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the moon is in the new moon phase"
+    },
+    {
+     "label": "B",
+     "text": "the moon is between the sun and Earth"
+    },
+    {
+     "label": "C",
+     "text": "the sun’s rays are directly overhead"
+    },
+    {
+     "label": "D",
+     "text": "the Earth is between the sun and the moon"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-42"
+  },
+  {
+   "n": 44,
+   "stem": "A density column contains oil (0.85 g/mL), water (1.00 g/mL), and corn syrup (1.02 g/mL). Four samples have densities: A = 1.02, B = 0.96, C = 1.15, D = 0.82 g/mL. Which sample will float on top of the oil?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Sample A"
+    },
+    {
+     "label": "G",
+     "text": "Sample B"
+    },
+    {
+     "label": "H",
+     "text": "Sample C"
+    },
+    {
+     "label": "J",
+     "text": "Sample D"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-43"
+  },
+  {
+   "n": 45,
+   "stem": "Fossils often consist of skeletons embedded in rock. Why don’t fossils usually contain soft tissues?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Soft tissues decayed before fossilization"
+    },
+    {
+     "label": "B",
+     "text": "Rock breaks down soft tissues"
+    },
+    {
+     "label": "C",
+     "text": "Soft tissues were always eaten"
+    },
+    {
+     "label": "D",
+     "text": "Rock flattened the tissues"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-44"
+  },
+  {
+   "n": 46,
+   "stem": "The brown tree snake was introduced to Guam, where it ate bird eggs. What effect did this have on native bird populations?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "No effect"
+    },
+    {
+     "label": "B",
+     "text": "Bird populations increased"
+    },
+    {
+     "label": "C",
+     "text": "Bird populations decreased"
+    },
+    {
+     "label": "D",
+     "text": "Bird populations increased by removing predators"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-45"
+  },
+  {
+   "n": 47,
+   "stem": "Which process is the foundation for the food web?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Evaporation"
+    },
+    {
+     "label": "G",
+     "text": "Condensation"
+    },
+    {
+     "label": "H",
+     "text": "Photosynthesis"
+    },
+    {
+     "label": "J",
+     "text": "Movement"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-46"
+  },
+  {
+   "n": 48,
+   "stem": "A student wishes to measure the mass of an object. Which instrument would be most useful?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Triple beam balance"
+    },
+    {
+     "label": "G",
+     "text": "Graduated cylinder"
+    },
+    {
+     "label": "H",
+     "text": "Metric ruler"
+    },
+    {
+     "label": "J",
+     "text": "Erlenmeyer flask"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-47"
+  },
+  {
+   "n": 49,
+   "stem": "A graph shows a bacterial population increasing from 8 cells to 16 cells at 20 minutes, 32 cells at 40 minutes, 64 cells at 60 minutes, and 128 cells at 80 minutes. According to this information, the population doubles every —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3 minutes"
+    },
+    {
+     "label": "G",
+     "text": "20 minutes"
+    },
+    {
+     "label": "H",
+     "text": "30 minutes"
+    },
+    {
+     "label": "J",
+     "text": "60 minutes"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-48"
+  },
+  {
+   "n": 50,
+   "stem": "A series of pictures shows a ball at rest at the top of a hill and then rolling down the hill. Which type of energy change is occurring?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mechanical energy to chemical energy"
+    },
+    {
+     "label": "B",
+     "text": "Potential energy to kinetic energy"
+    },
+    {
+     "label": "C",
+     "text": "Chemical energy to heat energy"
+    },
+    {
+     "label": "D",
+     "text": "Solar energy to nuclear energy"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2001_SOLPass",
+   "id": "physical-science-49"
+  },
+  {
+   "n": 1,
+   "stem": "Which of these minerals is a carbonate (contains the carbonate radical, CO₃)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Calcite (CaCO₃)"
+    },
+    {
+     "label": "B",
+     "text": "Galena (PbS)"
+    },
+    {
+     "label": "C",
+     "text": "Gypsum (CaSO₄)"
+    },
+    {
+     "label": "D",
+     "text": "Magnetite (Fe₃O₄)"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-50"
+  },
+  {
+   "n": 3,
+   "stem": "A plant’s green color is due to the presence of which organelle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Chloroplast"
+    },
+    {
+     "label": "B",
+     "text": "Nucleus"
+    },
+    {
+     "label": "C",
+     "text": "Mitochondrion"
+    },
+    {
+     "label": "D",
+     "text": "Vacuole"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-51"
+  },
+  {
+   "n": 4,
+   "stem": "A graduated cylinder contains water. Four possible eye positions are shown at different heights relative to the water’s curved surface (meniscus). The most accurate measurement is taken when the eye is level with the lowest point of the meniscus. From which position would the most accurate measurement be made?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Position 1"
+    },
+    {
+     "label": "B",
+     "text": "Position 2"
+    },
+    {
+     "label": "C",
+     "text": "Position 3"
+    },
+    {
+     "label": "D",
+     "text": "Position 4"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-52"
+  },
+  {
+   "n": 5,
+   "stem": "Bear species have the following food sources: Brown bear: fruits, nuts, roots, insects, fish, small vertebrates, carrion Black bear: fruits, berries, nuts, roots, honey, insects, rodents, fish, carrion Polar bear: seals, fish, seabirds, hares, caribou, musk oxen Panda: bamboo stems and leaves only Which species would be most in danger of becoming extinct if one of its food sources became unavailable?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Brown bear"
+    },
+    {
+     "label": "B",
+     "text": "Panda"
+    },
+    {
+     "label": "C",
+     "text": "Polar bear"
+    },
+    {
+     "label": "D",
+     "text": "Black bear"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-53"
+  },
+  {
+   "n": 6,
+   "stem": "Which of these has the greatest influence over how big a baby elephant will grow?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The amount of oxygen in the air"
+    },
+    {
+     "label": "B",
+     "text": "The amount of food available"
+    },
+    {
+     "label": "C",
+     "text": "The size of the trees in the jungle"
+    },
+    {
+     "label": "D",
+     "text": "The type of grass on the plains"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-54"
+  },
+  {
+   "n": 7,
+   "stem": "At what speed would a car have to move to travel 20 kilometers in two hours?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 km/hr"
+    },
+    {
+     "label": "B",
+     "text": "10 km/hr"
+    },
+    {
+     "label": "C",
+     "text": "20 km/hr"
+    },
+    {
+     "label": "D",
+     "text": "40 km/hr"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-55"
+  },
+  {
+   "n": 8,
+   "stem": "The quality of air is monitored by the government to determine whether a city needs to control air pollution. To best measure air quality, the air should be tested —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "once a year on a day with very little vehicle traffic"
+    },
+    {
+     "label": "B",
+     "text": "once a day during rush hour"
+    },
+    {
+     "label": "C",
+     "text": "several times a day in all kinds of weather"
+    },
+    {
+     "label": "D",
+     "text": "at night when the air is probably less polluted"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-56"
+  },
+  {
+   "n": 9,
+   "stem": "A food web includes producers (plants), mice, foxes, hawks, and owls. Mice eat only plants. Foxes, hawks, and owls eat animals. Which consumer eats only producers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hawk"
+    },
+    {
+     "label": "B",
+     "text": "Owl"
+    },
+    {
+     "label": "C",
+     "text": "Fox"
+    },
+    {
+     "label": "D",
+     "text": "Mouse"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-57"
+  },
+  {
+   "n": 10,
+   "stem": "Which body in the solar system usually contains an atmosphere?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "An asteroid"
+    },
+    {
+     "label": "B",
+     "text": "A planet"
+    },
+    {
+     "label": "C",
+     "text": "A meteor"
+    },
+    {
+     "label": "D",
+     "text": "A comet"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-58"
+  },
+  {
+   "n": 11,
+   "stem": "Which of the following is used to measure the mass of an object?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Balance"
+    },
+    {
+     "label": "B",
+     "text": "Metric ruler"
+    },
+    {
+     "label": "C",
+     "text": "Graduated cylinder"
+    },
+    {
+     "label": "D",
+     "text": "Barometer"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-59"
+  },
+  {
+   "n": 12,
+   "stem": "Three identical plants are grown under different colored lights (red, green, and yellow). The same amount of water and fertilizer is used for each. Which change would improve the experiment testing whether plants grow faster in green light?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Use green lights for all plants"
+    },
+    {
+     "label": "B",
+     "text": "Add more types of plants"
+    },
+    {
+     "label": "C",
+     "text": "Use the same kind of plant in all trials"
+    },
+    {
+     "label": "D",
+     "text": "Use different pots for each plant"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-60"
+  },
+  {
+   "n": 13,
+   "stem": "A transverse wave diagram shows crest-to-rest height labeled as region 3. Which numbered region represents the amplitude of the wave?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-61"
+  },
+  {
+   "n": 14,
+   "stem": "Which resource would give the most current, complete, and accurate information on planets?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A planet website by a middle school"
+    },
+    {
+     "label": "B",
+     "text": "The NASA website"
+    },
+    {
+     "label": "C",
+     "text": "A set of general encyclopedias"
+    },
+    {
+     "label": "D",
+     "text": "A science book about planets"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-62"
+  },
+  {
+   "n": 15,
+   "stem": "Which planet in the solar system was most recently discovered?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mars"
+    },
+    {
+     "label": "B",
+     "text": "Venus"
+    },
+    {
+     "label": "C",
+     "text": "Jupiter"
+    },
+    {
+     "label": "D",
+     "text": "Pluto"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-63"
+  },
+  {
+   "n": 16,
+   "stem": "Electric bills are calculated based on energy consumed. This is measured in units of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "newton meters"
+    },
+    {
+     "label": "B",
+     "text": "millijoule seconds"
+    },
+    {
+     "label": "C",
+     "text": "megavolt minutes"
+    },
+    {
+     "label": "D",
+     "text": "kilowatt hours"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-64"
+  },
+  {
+   "n": 17,
+   "stem": "Which system shows a transformation from chemical energy to electrical and light energy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A car battery causes headlights to shine"
+    },
+    {
+     "label": "B",
+     "text": "A candle burns and lights a room"
+    },
+    {
+     "label": "C",
+     "text": "Fireworks exploding"
+    },
+    {
+     "label": "D",
+     "text": "An avalanche moving downhill"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-65"
+  },
+  {
+   "n": 18,
+   "stem": "To study the cause of the Moon’s phases, which model would be best?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Earth, Moon, and Sun made of clay with a light source representing the Sun"
+    },
+    {
+     "label": "B",
+     "text": "Photographs of the Moon"
+    },
+    {
+     "label": "C",
+     "text": "Paper cutouts of the Moon"
+    },
+    {
+     "label": "D",
+     "text": "Stick-on stars on black paper"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-66"
+  },
+  {
+   "n": 19,
+   "stem": "People are concerned about a new coal-burning power plant in their neighborhood. What is probably their main concern?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Burning coal produces more heat than burning wood"
+    },
+    {
+     "label": "B",
+     "text": "Coal heat can drive generators"
+    },
+    {
+     "label": "C",
+     "text": "Burning coal produces sulfur dioxide, contributing to acid rain"
+    },
+    {
+     "label": "D",
+     "text": "Coal is more abundant than oil"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-67"
+  },
+  {
+   "n": 20,
+   "stem": "Which biome contains large populations of grazing herbivores, few bird species, and deep, rich soil?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Taiga"
+    },
+    {
+     "label": "B",
+     "text": "Tundra"
+    },
+    {
+     "label": "C",
+     "text": "Deciduous forest"
+    },
+    {
+     "label": "D",
+     "text": "Grassland"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-68"
+  },
+  {
+   "n": 21,
+   "stem": "Cells → Tissues → Organs →?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Habitats"
+    },
+    {
+     "label": "B",
+     "text": "Organisms"
+    },
+    {
+     "label": "C",
+     "text": "Systems"
+    },
+    {
+     "label": "D",
+     "text": "Organelles"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-69"
+  },
+  {
+   "n": 22,
+   "stem": "Which of these is due entirely to inheritance in humans?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Reading skill"
+    },
+    {
+     "label": "B",
+     "text": "Eye color"
+    },
+    {
+     "label": "C",
+     "text": "Endurance"
+    },
+    {
+     "label": "D",
+     "text": "Broken bones"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-70"
+  },
+  {
+   "n": 23,
+   "stem": "Which of these is best classified as a mixture?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Carbon dioxide"
+    },
+    {
+     "label": "B",
+     "text": "Water"
+    },
+    {
+     "label": "C",
+     "text": "Soil"
+    },
+    {
+     "label": "D",
+     "text": "Iron"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-71"
+  },
+  {
+   "n": 24,
+   "stem": "The force that holds planets in orbit around the Sun is called —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "motion"
+    },
+    {
+     "label": "B",
+     "text": "friction"
+    },
+    {
+     "label": "C",
+     "text": "pressure"
+    },
+    {
+     "label": "D",
+     "text": "gravity"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-72"
+  },
+  {
+   "n": 25,
+   "stem": "Which belongs in the outermost energy level of an atom?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Electrons"
+    },
+    {
+     "label": "B",
+     "text": "Protons"
+    },
+    {
+     "label": "C",
+     "text": "Neutrons"
+    },
+    {
+     "label": "D",
+     "text": "Photons"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-73"
+  },
+  {
+   "n": 26,
+   "stem": "Ranchers cross cattle and buffalo to create “beefalo.” Buffalo tolerate extreme temperatures but have poor-tasting meat. Cattle have good-tasting meat but low temperature tolerance. What good qualities might beefalo possess?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Heat tolerance only"
+    },
+    {
+     "label": "B",
+     "text": "Good meat only"
+    },
+    {
+     "label": "C",
+     "text": "Heat tolerance and good-tasting meat"
+    },
+    {
+     "label": "D",
+     "text": "Cold tolerance only"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-74"
+  },
+  {
+   "n": 27,
+   "stem": "A line graph shows plant height over seven days. Plant A (fertilized soil) increases from 0 cm on day 0 to about 2 cm by day 5. Plant B (unfertilized) reaches about 1 cm by day 5. What will most likely occur on day 6?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Neither plant increases"
+    },
+    {
+     "label": "B",
+     "text": "Plant A increases about 1 cm"
+    },
+    {
+     "label": "C",
+     "text": "Plant B increases about 1 cm"
+    },
+    {
+     "label": "D",
+     "text": "Plant A increases about 2 cm"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-75"
+  },
+  {
+   "n": 28,
+   "stem": "How are humans classified within a food chain?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Producers"
+    },
+    {
+     "label": "B",
+     "text": "Consumers"
+    },
+    {
+     "label": "C",
+     "text": "Decomposers"
+    },
+    {
+     "label": "D",
+     "text": "Manufacturers"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-76"
+  },
+  {
+   "n": 29,
+   "stem": "Items collected in a beach cleanup: Plastics: 95,560 Metals: 22,100 Glass: 20,040 Styrofoam: 19,280 Paper: 10,340 Wood: 4,160 What percentage of the total items collected was plastic?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "46%"
+    },
+    {
+     "label": "B",
+     "text": "49%"
+    },
+    {
+     "label": "C",
+     "text": "56%"
+    },
+    {
+     "label": "D",
+     "text": "70%"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-77"
+  },
+  {
+   "n": 30,
+   "stem": "Convection is the result of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "currents caused by the motion of heated molecules"
+    },
+    {
+     "label": "B",
+     "text": "increases in the density of solids"
+    },
+    {
+     "label": "C",
+     "text": "colder portions of liquids rising"
+    },
+    {
+     "label": "D",
+     "text": "lack of heat transfer"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-78"
+  },
+  {
+   "n": 31,
+   "stem": "Breaking a piece of glass changes its shape but not its properties. What has occurred?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Chemical change"
+    },
+    {
+     "label": "B",
+     "text": "Temperature change"
+    },
+    {
+     "label": "C",
+     "text": "Phase change"
+    },
+    {
+     "label": "D",
+     "text": "Physical change"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-79"
+  },
+  {
+   "n": 32,
+   "stem": "Snapdragon seeds are placed on moist paper towels at 10°C, 15°C, 20°C, and 25°C. What is the independent variable?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Type of seed"
+    },
+    {
+     "label": "B",
+     "text": "Amount of water"
+    },
+    {
+     "label": "C",
+     "text": "Number of sprouts"
+    },
+    {
+     "label": "D",
+     "text": "Temperature"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-80"
+  },
+  {
+   "n": 33,
+   "stem": "Which of the following is a substance made of two or more elements chemically combined?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Atom"
+    },
+    {
+     "label": "B",
+     "text": "Compound"
+    },
+    {
+     "label": "C",
+     "text": "Element"
+    },
+    {
+     "label": "D",
+     "text": "Mixture"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-81"
+  },
+  {
+   "n": 34,
+   "stem": "Which is produced as a result of photosynthesis?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Heat"
+    },
+    {
+     "label": "B",
+     "text": "Water"
+    },
+    {
+     "label": "C",
+     "text": "Oxygen"
+    },
+    {
+     "label": "D",
+     "text": "Carbon dioxide"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-82"
+  },
+  {
+   "n": 35,
+   "stem": "A proton has which charge?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Negative"
+    },
+    {
+     "label": "B",
+     "text": "Neutral"
+    },
+    {
+     "label": "C",
+     "text": "Positive"
+    },
+    {
+     "label": "D",
+     "text": "Magnetic"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-83"
+  },
+  {
+   "n": 36,
+   "stem": "Using a periodic table, which list is ordered from least to most protons?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "O, N, B, Li"
+    },
+    {
+     "label": "B",
+     "text": "Na, S, Al, Cl"
+    },
+    {
+     "label": "C",
+     "text": "O, S, Se, Te"
+    },
+    {
+     "label": "D",
+     "text": "Rb, K, Na, Li"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-84"
+  },
+  {
+   "n": 37,
+   "stem": "Lions hunt together and share food. This best illustrates —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "cooperation"
+    },
+    {
+     "label": "B",
+     "text": "competition"
+    },
+    {
+     "label": "C",
+     "text": "territoriality"
+    },
+    {
+     "label": "D",
+     "text": "parasitism"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-85"
+  },
+  {
+   "n": 38,
+   "stem": "The most productive ecological environment has —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "stable temperatures and high rainfall"
+    },
+    {
+     "label": "B",
+     "text": "hot temperatures and low rainfall"
+    },
+    {
+     "label": "C",
+     "text": "cold temperatures and low rainfall"
+    },
+    {
+     "label": "D",
+     "text": "low temperatures and high rainfall"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-86"
+  },
+  {
+   "n": 39,
+   "stem": "A sea urchin has radial symmetry. This means its body parts are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "equally arranged around a central point"
+    },
+    {
+     "label": "B",
+     "text": "designed to function in seawater"
+    },
+    {
+     "label": "C",
+     "text": "likely to regrow if damaged"
+    },
+    {
+     "label": "D",
+     "text": "able to live on land and water"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-87"
+  },
+  {
+   "n": 40,
+   "stem": "A pond ecosystem contains lily plants. If all lily plants were removed, what would most likely happen?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "More oxygen in the air"
+    },
+    {
+     "label": "B",
+     "text": "Slower water currents"
+    },
+    {
+     "label": "C",
+     "text": "More kinds of animals"
+    },
+    {
+     "label": "D",
+     "text": "Fewer places for animals to hide"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-88"
+  },
+  {
+   "n": 41,
+   "stem": "Two light bulbs are connected in a circuit. A switch placed at point 1 (before the bulbs) will interrupt current to both bulbs. Where must the switch be placed to turn off both lights?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-89"
+  },
+  {
+   "n": 42,
+   "stem": "Calcium metal is produced by passing electricity through molten calcium chloride, forming calcium metal and chlorine gas. What is the balanced equation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2CaCl → Ca + 2Cl"
+    },
+    {
+     "label": "B",
+     "text": "CaCl₂ + H₂O → Ca + ClH + O"
+    },
+    {
+     "label": "C",
+     "text": "CaCl₂ + Cl → Ca + Cl₃"
+    },
+    {
+     "label": "D",
+     "text": "CaCl₂ → Ca + Cl₂"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-90"
+  },
+  {
+   "n": 43,
+   "stem": "A bar graph shows plant biomass when grown in non-nutritive soil with one substance added. Biomass is highest when sulfates are present. Which substance is most important in developing biomass?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nitrates"
+    },
+    {
+     "label": "B",
+     "text": "Sulfates"
+    },
+    {
+     "label": "C",
+     "text": "Magnesium"
+    },
+    {
+     "label": "D",
+     "text": "Iron"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-91"
+  },
+  {
+   "n": 44,
+   "stem": "Which diagram best shows reflection of light from a mirror (angle of incidence equals angle of reflection)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Diagram A"
+    },
+    {
+     "label": "B",
+     "text": "Diagram B"
+    },
+    {
+     "label": "C",
+     "text": "Diagram C"
+    },
+    {
+     "label": "D",
+     "text": "Diagram D"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-92"
+  },
+  {
+   "n": 45,
+   "stem": "The density of an object depends on mass and —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "height"
+    },
+    {
+     "label": "B",
+     "text": "area"
+    },
+    {
+     "label": "C",
+     "text": "volume"
+    },
+    {
+     "label": "D",
+     "text": "weight"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-93"
+  },
+  {
+   "n": 46,
+   "stem": "Which has the most influence on ocean tides?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Earth’s magnetic field"
+    },
+    {
+     "label": "B",
+     "text": "Gravity between Earth and the Moon"
+    },
+    {
+     "label": "C",
+     "text": "Radiation from the Sun"
+    },
+    {
+     "label": "D",
+     "text": "Electrical forces"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-94"
+  },
+  {
+   "n": 47,
+   "stem": "John and Emily test the effects of road salt on plants. Which change best improves the experiment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Increase salt daily"
+    },
+    {
+     "label": "B",
+     "text": "Cool the salt water"
+    },
+    {
+     "label": "C",
+     "text": "Add food coloring"
+    },
+    {
+     "label": "D",
+     "text": "Water half with pure water and half with salt water"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-95"
+  },
+  {
+   "n": 48,
+   "stem": "In a food web including grass, shrubs, caterpillars, grasshoppers, rabbits, mice, shrews, frogs, snakes, and hawks, which organism has the greatest number of food sources?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Snake"
+    },
+    {
+     "label": "B",
+     "text": "Hawk"
+    },
+    {
+     "label": "C",
+     "text": "Shrew"
+    },
+    {
+     "label": "D",
+     "text": "Mouse"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-96"
+  },
+  {
+   "n": 49,
+   "stem": "In which environment would you expect the greatest number of different species per square mile?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Island near the South Pole"
+    },
+    {
+     "label": "B",
+     "text": "Wheat field in North Dakota"
+    },
+    {
+     "label": "C",
+     "text": "Pasture on a Virginia farm"
+    },
+    {
+     "label": "D",
+     "text": "Tropical rain forest in Panama"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-97"
+  },
+  {
+   "n": 50,
+   "stem": "Which of these usually contains an atmosphere?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Asteroid"
+    },
+    {
+     "label": "B",
+     "text": "Planet"
+    },
+    {
+     "label": "C",
+     "text": "Meteor"
+    },
+    {
+     "label": "D",
+     "text": "Comet"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2004_SOLPass",
+   "id": "physical-science-98"
+  },
+  {
+   "n": 2,
+   "stem": "Hurricanes form in tropical waters between 8 and 20 degrees north and south of the equator. Hurricanes rarely form at higher latitudes because the water is too —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "warm"
+    },
+    {
+     "label": "B",
+     "text": "deep"
+    },
+    {
+     "label": "C",
+     "text": "shallow"
+    },
+    {
+     "label": "D",
+     "text": "cold"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-99"
+  },
+  {
+   "n": 4,
+   "stem": "A metal spoon was placed in a dish of ice cream and became cool. Which correctly describes the heat transfer process that resulted in the cooling of the spoon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Conduction, because the spoon was in contact with the cold ice cream"
+    },
+    {
+     "label": "B",
+     "text": "Convection, because the spoon was in contact with the cold ice cream"
+    },
+    {
+     "label": "C",
+     "text": "Conduction, because cold air currents affected the temperature of the spoon"
+    },
+    {
+     "label": "D",
+     "text": "Convection, because cold air currents affected the temperature of the spoon"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-100"
+  },
+  {
+   "n": 5,
+   "stem": "Students rolled a marble down a ramp during several trials. They were given the hypothesis: If friction increases, then the rolling distance of a marble will decrease. What should be changed to best test this hypothesis?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Height of the ramp"
+    },
+    {
+     "label": "B",
+     "text": "Height and length of the ramp"
+    },
+    {
+     "label": "C",
+     "text": "Roughness of the ramp surface"
+    },
+    {
+     "label": "D",
+     "text": "Height of the ramp and roughness of the ramp surface"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-101"
+  },
+  {
+   "n": 6,
+   "stem": "A student recorded the temperature of an aquarium each hour for 8 hours. Which of these will best display the data the student collected?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Bar graph"
+    },
+    {
+     "label": "B",
+     "text": "Circle graph"
+    },
+    {
+     "label": "C",
+     "text": "Picture graph"
+    },
+    {
+     "label": "D",
+     "text": "Line graph"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-102"
+  },
+  {
+   "n": 7,
+   "stem": "A cold air mass moves underneath a warm air mass, causing the warm air to rise. This event can best be identified as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a cold front"
+    },
+    {
+     "label": "B",
+     "text": "a warm front"
+    },
+    {
+     "label": "C",
+     "text": "an occluded front"
+    },
+    {
+     "label": "D",
+     "text": "a stationary front"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-103"
+  },
+  {
+   "n": 8,
+   "stem": "Which body of water is often protected naturally from storms by barrier islands and also contains a mixture of fresh water and salt water?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Estuary"
+    },
+    {
+     "label": "B",
+     "text": "Ocean"
+    },
+    {
+     "label": "C",
+     "text": "Lake"
+    },
+    {
+     "label": "D",
+     "text": "Pond"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-104"
+  },
+  {
+   "n": 10,
+   "stem": "Conversion Table: 1 km = 1,000? 1 m = 100? Which of these best completes the conversion table?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 km = 1,000 mm; 1 m = 100 cm"
+    },
+    {
+     "label": "B",
+     "text": "1 km = 1,000 cm; 1 m = 100 mm"
+    },
+    {
+     "label": "C",
+     "text": "1 km = 1,000 m; 1 m = 100 mm"
+    },
+    {
+     "label": "D",
+     "text": "1 km = 1,000 m; 1 m = 100 cm"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-105"
+  },
+  {
+   "n": 11,
+   "stem": "A student measured the power of a motor operating at different temperatures. The student recorded a total of 11 measurements, one at each 2-degree interval between 10 °C and 30 °C. Which change in the procedure would most improve the validity of conclusions based on this investigation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Increasing the number of variables"
+    },
+    {
+     "label": "B",
+     "text": "Decreasing the range of the independent variable"
+    },
+    {
+     "label": "C",
+     "text": "Repeating the experiment several times"
+    },
+    {
+     "label": "D",
+     "text": "Producing a graph of numerical observations"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-106"
+  },
+  {
+   "n": 12,
+   "stem": "Which of these has the strongest gravitational field?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sun"
+    },
+    {
+     "label": "B",
+     "text": "Earth"
+    },
+    {
+     "label": "C",
+     "text": "Saturn"
+    },
+    {
+     "label": "D",
+     "text": "Jupiter"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-107"
+  },
+  {
+   "n": 13,
+   "stem": "Students placed steel wool into four liquids arranged from most acidic to neutral. Observations showed that more acidic liquids produced bubbles more quickly and caused the steel wool to turn brown faster. Which is the best conclusion based on these observations?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The more acidic the substance, the faster it reacts with steel wool."
+    },
+    {
+     "label": "B",
+     "text": "The more acidic the substance, the faster the steel wool turns to a gas."
+    },
+    {
+     "label": "C",
+     "text": "The less acidic the substance, the faster the steel wool becomes covered with air bubbles."
+    },
+    {
+     "label": "D",
+     "text": "The less acidic the substance, the faster the steel wool changes color."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-108"
+  },
+  {
+   "n": 14,
+   "stem": "Which is the result of using a more powerful motor to run an elevator?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The same amount of work is done in less time."
+    },
+    {
+     "label": "B",
+     "text": "Less work is done in the same amount of time."
+    },
+    {
+     "label": "C",
+     "text": "The same amount of time is needed to move the same distance."
+    },
+    {
+     "label": "D",
+     "text": "A longer time is needed to move a shorter distance."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-109"
+  },
+  {
+   "n": 15,
+   "stem": "A major scientific concern over nuclear energy is how to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "deal with the large amounts of fossil fuels required"
+    },
+    {
+     "label": "B",
+     "text": "reduce the high levels of carbon dioxide emitted into the air"
+    },
+    {
+     "label": "C",
+     "text": "prevent the depletion of the ozone layer"
+    },
+    {
+     "label": "D",
+     "text": "store the waste products safely"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-110"
+  },
+  {
+   "n": 17,
+   "stem": "Why is water known as the “universal solvent”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "It dissolves all known substances."
+    },
+    {
+     "label": "B",
+     "text": "It dissolves only solid substances."
+    },
+    {
+     "label": "C",
+     "text": "It dissolves the greatest number of substances."
+    },
+    {
+     "label": "D",
+     "text": "It dissolves substances faster than all other solvents."
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-111"
+  },
+  {
+   "n": 18,
+   "stem": "Which of these has been improved by genetic engineering?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Visibility of insects to predators"
+    },
+    {
+     "label": "B",
+     "text": "Growth of insects in cornfields"
+    },
+    {
+     "label": "C",
+     "text": "Reduced number of pollinating insects"
+    },
+    {
+     "label": "D",
+     "text": "Resistance of corn plants to insects"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-112"
+  },
+  {
+   "n": 19,
+   "stem": "Which action will most reduce the use of nonrenewable energy resources in a school district?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Installing low-flow faucets and toilets"
+    },
+    {
+     "label": "B",
+     "text": "Recycling worksheets and other paper products"
+    },
+    {
+     "label": "C",
+     "text": "Limiting the sweeping and mopping of classrooms to once a month"
+    },
+    {
+     "label": "D",
+     "text": "Replacing current lighting with more efficient lighting"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-113"
+  },
+  {
+   "n": 20,
+   "stem": "Sound waves are unable to travel through —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "air"
+    },
+    {
+     "label": "B",
+     "text": "a vacuum"
+    },
+    {
+     "label": "C",
+     "text": "water"
+    },
+    {
+     "label": "D",
+     "text": "rock"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-114"
+  },
+  {
+   "n": 21,
+   "stem": "The speed of light is about 300,000,000 m/s. Which is the correct expression for the speed of light in scientific notation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30.0 × 10⁷ m/s"
+    },
+    {
+     "label": "B",
+     "text": "30 × 10⁸ m/s"
+    },
+    {
+     "label": "C",
+     "text": "3.0 × 10⁷ m/s"
+    },
+    {
+     "label": "D",
+     "text": "3.0 × 10⁸ m/s"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-115"
+  },
+  {
+   "n": 22,
+   "stem": "Which of these properties of an unknown liquid can be found using a beaker, a hot plate, and a temperature probe?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Density"
+    },
+    {
+     "label": "B",
+     "text": "Boiling point"
+    },
+    {
+     "label": "C",
+     "text": "Oxygen level"
+    },
+    {
+     "label": "D",
+     "text": "Chemical composition"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-116"
+  },
+  {
+   "n": 24,
+   "stem": "A group of campers travels to a cabin that has no electrical power. In order to provide power for a heater and lights, which device would be appropriate?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A resistor"
+    },
+    {
+     "label": "B",
+     "text": "An insulator"
+    },
+    {
+     "label": "C",
+     "text": "A generator"
+    },
+    {
+     "label": "D",
+     "text": "A voltmeter"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-117"
+  },
+  {
+   "n": 25,
+   "stem": "Which of these is most likely the result of weasels and foxes depending on the same food source?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The populations will compete with each other."
+    },
+    {
+     "label": "B",
+     "text": "One of the populations will become herbivores."
+    },
+    {
+     "label": "C",
+     "text": "Birthrates for both populations will increase."
+    },
+    {
+     "label": "D",
+     "text": "New species of prey will evolve in the area."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-118"
+  },
+  {
+   "n": 26,
+   "stem": "A farmer wants to plant a crop that grows well in a marshland environment. To produce a good harvest, the most important characteristic this plant should have is the ability to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "thrive in wet soil"
+    },
+    {
+     "label": "B",
+     "text": "mature quickly"
+    },
+    {
+     "label": "C",
+     "text": "survive in dry conditions"
+    },
+    {
+     "label": "D",
+     "text": "attract a variety of pollinators"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-119"
+  },
+  {
+   "n": 27,
+   "stem": "Water is heated in a glass pot on an electric heater. As heating continues, the volume of water decreases, and water droplets form on a cool surface placed above the pot. In this setup, water —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "vaporizes and then freezes"
+    },
+    {
+     "label": "B",
+     "text": "vaporizes and then condenses"
+    },
+    {
+     "label": "C",
+     "text": "condenses and then vaporizes"
+    },
+    {
+     "label": "D",
+     "text": "freezes and then vaporizes"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-120"
+  },
+  {
+   "n": 28,
+   "stem": "Which is an abiotic change in an ecosystem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Plant photosynthesis rates increase."
+    },
+    {
+     "label": "B",
+     "text": "Fish species populations increase."
+    },
+    {
+     "label": "C",
+     "text": "Aquatic predator survival rates increase."
+    },
+    {
+     "label": "D",
+     "text": "Annual rainfall totals for an area increase."
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-121"
+  },
+  {
+   "n": 30,
+   "stem": "Physical and chemical weathering processes are responsible for breaking down rocks. Which of these is an example of chemical weathering by water?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mineral crystals form as water evaporates from rocks."
+    },
+    {
+     "label": "B",
+     "text": "Limestone reacts with acid rain and dissolves."
+    },
+    {
+     "label": "C",
+     "text": "Water freezes in rock cracks and causes the rock to split."
+    },
+    {
+     "label": "D",
+     "text": "Moss collects and grows on the surface of rocks."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-122"
+  },
+  {
+   "n": 31,
+   "stem": "In a partial periodic table, a single horizontal row of elements is shaded. This shaded row is called a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "column"
+    },
+    {
+     "label": "B",
+     "text": "family"
+    },
+    {
+     "label": "C",
+     "text": "group"
+    },
+    {
+     "label": "D",
+     "text": "period"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-123"
+  },
+  {
+   "n": 32,
+   "stem": "White-footed mice have thicker fur than cactus mice. This difference is probably influenced most by differences in the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "food they eat"
+    },
+    {
+     "label": "B",
+     "text": "time of day they are active"
+    },
+    {
+     "label": "C",
+     "text": "environmental climates where they live"
+    },
+    {
+     "label": "D",
+     "text": "amount of predators they encounter"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-124"
+  },
+  {
+   "n": 33,
+   "stem": "During human fertilization, an egg cell and a sperm cell unite. Which structures in these cells carry the genes that will be transferred to the offspring?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Vacuoles"
+    },
+    {
+     "label": "B",
+     "text": "Ribosomes"
+    },
+    {
+     "label": "C",
+     "text": "Chromosomes"
+    },
+    {
+     "label": "D",
+     "text": "Cell membranes"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-125"
+  },
+  {
+   "n": 34,
+   "stem": "Which facility relies on a nonrenewable source of energy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A wind farm that uses wind turbines"
+    },
+    {
+     "label": "B",
+     "text": "A dam that uses the power of water"
+    },
+    {
+     "label": "C",
+     "text": "A power station that burns coal"
+    },
+    {
+     "label": "D",
+     "text": "A solar farm that collects sunlight"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-126"
+  },
+  {
+   "n": 35,
+   "stem": "As the frequency of a wave decreases, the wave’s —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "period decreases"
+    },
+    {
+     "label": "B",
+     "text": "amplitude increases"
+    },
+    {
+     "label": "C",
+     "text": "speed decreases"
+    },
+    {
+     "label": "D",
+     "text": "wavelength increases"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-127"
+  },
+  {
+   "n": 36,
+   "stem": "A zebra has tick birds on its back. The tick birds eat ticks found on the zebra and alert the zebra to nearby predators. What is the primary type of interaction between the tick birds and the zebra?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mutualism"
+    },
+    {
+     "label": "B",
+     "text": "Parasitism"
+    },
+    {
+     "label": "C",
+     "text": "Competition"
+    },
+    {
+     "label": "D",
+     "text": "Commensalism"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-128"
+  },
+  {
+   "n": 37,
+   "stem": "Which change will most likely increase the strength of a magnetic field produced by an electromagnet?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Reduce the number of turns of the coil"
+    },
+    {
+     "label": "B",
+     "text": "Switch the direction in which the battery is connected"
+    },
+    {
+     "label": "C",
+     "text": "Remove the iron nail"
+    },
+    {
+     "label": "D",
+     "text": "Add a battery"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-129"
+  },
+  {
+   "n": 38,
+   "stem": "The physical expression of a trait in an organism is known as the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "chromosome"
+    },
+    {
+     "label": "B",
+     "text": "genotype"
+    },
+    {
+     "label": "C",
+     "text": "phenotype"
+    },
+    {
+     "label": "D",
+     "text": "double helix"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-130"
+  },
+  {
+   "n": 39,
+   "stem": "Earth’s atmosphere includes the stratosphere (approximately 10–50 km above Earth’s surface) and the mesosphere (approximately 50–90 km above Earth’s surface). Which statement correctly describes a difference between these two layers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The mesosphere has more active weather than the stratosphere."
+    },
+    {
+     "label": "B",
+     "text": "The mesosphere contains fewer oxygen molecules than the stratosphere."
+    },
+    {
+     "label": "C",
+     "text": "Air pressure is lower in the stratosphere than in the mesosphere."
+    },
+    {
+     "label": "D",
+     "text": "Temperatures decrease with altitude only in the stratosphere."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-131"
+  },
+  {
+   "n": 40,
+   "stem": "A food web includes grass, shrubs, and trees as plant organisms, along with rabbits, deer, snakes, and hawks. Which organisms in this food web are producers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Grass, shrubs, and trees"
+    },
+    {
+     "label": "B",
+     "text": "Rabbits and deer"
+    },
+    {
+     "label": "C",
+     "text": "Snakes and hawks"
+    },
+    {
+     "label": "D",
+     "text": "Rabbits, deer, and snakes"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-132"
+  },
+  {
+   "n": 41,
+   "stem": "Which of these represents the freezing point of water in correct SI units?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0 °C"
+    },
+    {
+     "label": "B",
+     "text": "0 °F"
+    },
+    {
+     "label": "C",
+     "text": "32 °F"
+    },
+    {
+     "label": "D",
+     "text": "−273 °C"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-133"
+  },
+  {
+   "n": 42,
+   "stem": "A girl kicks a soccer ball into the air. Which of these best explains why the soccer ball falls back to Earth?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The acceleration of the ball is unstable."
+    },
+    {
+     "label": "B",
+     "text": "The motion of the ball is changed by external forces."
+    },
+    {
+     "label": "C",
+     "text": "The pressure on the ball changes with altitude."
+    },
+    {
+     "label": "D",
+     "text": "The force exerted on the ball is greater than gravity."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-134"
+  },
+  {
+   "n": 43,
+   "stem": "Students measured the amount of an unknown substance that dissolved in water at different temperatures. What was the independent variable in this investigation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Amount of substance dissolved"
+    },
+    {
+     "label": "B",
+     "text": "Unknown substance used"
+    },
+    {
+     "label": "C",
+     "text": "Water temperature"
+    },
+    {
+     "label": "D",
+     "text": "Water volume"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-135"
+  },
+  {
+   "n": 44,
+   "stem": "Which characteristic is common to the four outer planets in our solar system?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Low mass"
+    },
+    {
+     "label": "B",
+     "text": "High density"
+    },
+    {
+     "label": "C",
+     "text": "Fast revolution"
+    },
+    {
+     "label": "D",
+     "text": "Gaseous composition"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-136"
+  },
+  {
+   "n": 45,
+   "stem": "When comparing a plant cell to an animal cell, only the plant cell will contain —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ribosomes"
+    },
+    {
+     "label": "B",
+     "text": "chromosomes"
+    },
+    {
+     "label": "C",
+     "text": "chloroplasts"
+    },
+    {
+     "label": "D",
+     "text": "mitochondria"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-137"
+  },
+  {
+   "n": 46,
+   "stem": "A student measures her heart rate after each of the following activities: one hour of napping, one hour of watching television, and one hour of walking on a treadmill. Which factor is a constant in the investigation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Equipment needed for activity"
+    },
+    {
+     "label": "B",
+     "text": "Length of activity time"
+    },
+    {
+     "label": "C",
+     "text": "Activity performed"
+    },
+    {
+     "label": "D",
+     "text": "Energy expended during activity"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-138"
+  },
+  {
+   "n": 47,
+   "stem": "Which of these is the best description of a typical organism in the Plant kingdom?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Is unicellular"
+    },
+    {
+     "label": "B",
+     "text": "Lacks a nucleus"
+    },
+    {
+     "label": "C",
+     "text": "Makes its own food"
+    },
+    {
+     "label": "D",
+     "text": "Lacks a cell wall"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-139"
+  },
+  {
+   "n": 48,
+   "stem": "Which of these is a way that a person can help improve air quality?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Build a compost pile"
+    },
+    {
+     "label": "B",
+     "text": "Carpool with several people"
+    },
+    {
+     "label": "C",
+     "text": "Burn leaves in the fall"
+    },
+    {
+     "label": "D",
+     "text": "Use a gas-powered lawn mower"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2015_SOLPass",
+   "id": "physical-science-140"
+  },
+  {
+   "n": 2,
+   "stem": "Which of these best completes the statement about the interaction of the respiratory system with the circulatory system?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Nutrients are added to the blood"
+    },
+    {
+     "label": "G",
+     "text": "Bile is added to the blood"
+    },
+    {
+     "label": "H",
+     "text": "Oxygen is added to the blood"
+    },
+    {
+     "label": "J",
+     "text": "Carbon dioxide is added to the blood"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-141"
+  },
+  {
+   "n": 3,
+   "stem": "Which of these will cause water to change to ice?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Removing heat from the water"
+    },
+    {
+     "label": "B",
+     "text": "Stirring the water"
+    },
+    {
+     "label": "C",
+     "text": "Adding salt to the water"
+    },
+    {
+     "label": "D",
+     "text": "Putting the water in sunlight"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-142"
+  },
+  {
+   "n": 4,
+   "stem": "Crickets chirp to attract other crickets. A graph shows temperature (°C) on the horizontal axis and number of chirps per minute on the vertical axis. The data show that as temperature increases, the number of chirps per minute increases steadily. Which statement is most likely true for the data represented?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The cooler the temperature, the louder the crickets chirp."
+    },
+    {
+     "label": "G",
+     "text": "Crickets cannot chirp at temperatures lower than 10°C."
+    },
+    {
+     "label": "H",
+     "text": "The warmer the temperature, the more often crickets chirp."
+    },
+    {
+     "label": "J",
+     "text": "Temperature and chirping are not related."
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-143"
+  },
+  {
+   "n": 5,
+   "stem": "A periodic table is shown with families labeled. Which of the following elements belongs to the family indicated?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nitrogen belongs to the halogen family."
+    },
+    {
+     "label": "B",
+     "text": "Helium belongs to the noble gas family."
+    },
+    {
+     "label": "C",
+     "text": "Calcium belongs to the alkali metal family."
+    },
+    {
+     "label": "D",
+     "text": "Sodium belongs to the alkaline earth metal family."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-144"
+  },
+  {
+   "n": 6,
+   "stem": "A graph shows populations of lemmings and snowy owls over eight years. Lemming populations increase sharply about every four years. Shortly after each increase in lemmings, the snowy owl population also increases. Which statement is supported by the data?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Snowy owls are becoming extinct."
+    },
+    {
+     "label": "G",
+     "text": "Lemmings live much longer than snowy owls."
+    },
+    {
+     "label": "H",
+     "text": "The habitat of lemmings is continuously decreasing."
+    },
+    {
+     "label": "J",
+     "text": "The snowy owl population increases because of an increase in lemmings."
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-145"
+  },
+  {
+   "n": 7,
+   "stem": "Which of these has the greatest number of different simple machines?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "An inclined plane"
+    },
+    {
+     "label": "B",
+     "text": "A pulley"
+    },
+    {
+     "label": "C",
+     "text": "A bicycle"
+    },
+    {
+     "label": "D",
+     "text": "A wheel"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-146"
+  },
+  {
+   "n": 8,
+   "stem": "The atom is composed of electrons, protons, and neutrons. What is the electric charge on the neutron?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "−1"
+    },
+    {
+     "label": "G",
+     "text": "+1"
+    },
+    {
+     "label": "H",
+     "text": "0"
+    },
+    {
+     "label": "J",
+     "text": "−2"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-147"
+  },
+  {
+   "n": 9,
+   "stem": "A tick that feeds on the blood of animals is a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "predator"
+    },
+    {
+     "label": "B",
+     "text": "host"
+    },
+    {
+     "label": "C",
+     "text": "competitor"
+    },
+    {
+     "label": "D",
+     "text": "parasite"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-148"
+  },
+  {
+   "n": 10,
+   "stem": "The distance between one compression and the next compression in a sound wave is called a —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "wavelength"
+    },
+    {
+     "label": "G",
+     "text": "rarefaction"
+    },
+    {
+     "label": "H",
+     "text": "crest"
+    },
+    {
+     "label": "J",
+     "text": "trough"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-149"
+  },
+  {
+   "n": 11,
+   "stem": "Which of the following do typical plant cells have that typical animal cells do not?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cytoplasm"
+    },
+    {
+     "label": "B",
+     "text": "Nuclei"
+    },
+    {
+     "label": "C",
+     "text": "Mitochondria"
+    },
+    {
+     "label": "D",
+     "text": "Chloroplasts"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-150"
+  },
+  {
+   "n": 12,
+   "stem": "A triple-beam balance shows a mass reading with the hundreds beam at 300 g, the tens beam at 50 g, and the ones beam at 4.6 g. What is the mass of the rock?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "335.6 g"
+    },
+    {
+     "label": "G",
+     "text": "350.6 g"
+    },
+    {
+     "label": "H",
+     "text": "354.6 g"
+    },
+    {
+     "label": "J",
+     "text": "356.0 g"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-151"
+  },
+  {
+   "n": 13,
+   "stem": "A chromatography test separates orange ink into colored bands. The yellow pigment travels 6.6 cm from the starting point, and the red pigment travels 5.0 cm. About how much farther did the yellow pigment move than the red pigment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.5 cm"
+    },
+    {
+     "label": "B",
+     "text": "1.6 cm"
+    },
+    {
+     "label": "C",
+     "text": "2.7 cm"
+    },
+    {
+     "label": "D",
+     "text": "3.5 cm"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-152"
+  },
+  {
+   "n": 14,
+   "stem": "The kangaroo rat gets all the water it needs from food and does not drink liquid water. This animal is adapted to survive in which biome?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Forest"
+    },
+    {
+     "label": "G",
+     "text": "Tundra"
+    },
+    {
+     "label": "H",
+     "text": "Desert"
+    },
+    {
+     "label": "J",
+     "text": "Grassland"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-153"
+  },
+  {
+   "n": 15,
+   "stem": "The science of astronomy focuses on observing and analyzing celestial objects. Which invention was most helpful to its advancement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Telescope"
+    },
+    {
+     "label": "B",
+     "text": "Microscope"
+    },
+    {
+     "label": "C",
+     "text": "Camera"
+    },
+    {
+     "label": "D",
+     "text": "Geiger counter"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-154"
+  },
+  {
+   "n": 16,
+   "stem": "Which of the following is NOT a reason oil use must be managed carefully?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Oil supplies on Earth are limited."
+    },
+    {
+     "label": "G",
+     "text": "Oil spills have killed marine animals."
+    },
+    {
+     "label": "H",
+     "text": "Burning oil contributes to acid rain and the greenhouse effect."
+    },
+    {
+     "label": "J",
+     "text": "Oil was created by plants and animals."
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-155"
+  },
+  {
+   "n": 17,
+   "stem": "Alchemists attempted to change common metals into gold but never succeeded because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "they could not heat metals enough"
+    },
+    {
+     "label": "B",
+     "text": "the metals were not pure"
+    },
+    {
+     "label": "C",
+     "text": "they lacked the correct additive"
+    },
+    {
+     "label": "D",
+     "text": "elements cannot be changed into other elements by physical or chemical means"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-156"
+  },
+  {
+   "n": 18,
+   "stem": "A table shows plant heights before and two weeks after exposure to different artificial plant lights. Group 3 increased from 5.2 cm to 28.0 cm, the largest increase. Which group showed the greatest gain in height?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Group 1"
+    },
+    {
+     "label": "G",
+     "text": "Group 2"
+    },
+    {
+     "label": "H",
+     "text": "Group 3"
+    },
+    {
+     "label": "J",
+     "text": "Group 4"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-157"
+  },
+  {
+   "n": 19,
+   "stem": "Mercury rises in a thermometer because it —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "is pulled upward by a vacuum"
+    },
+    {
+     "label": "B",
+     "text": "expands when heated"
+    },
+    {
+     "label": "C",
+     "text": "is compressed by air pressure"
+    },
+    {
+     "label": "D",
+     "text": "increases in density when heated"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-158"
+  },
+  {
+   "n": 20,
+   "stem": "Which could cause a decrease in a squirrel population?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Increased cooperation with birds"
+    },
+    {
+     "label": "G",
+     "text": "Increased territory size"
+    },
+    {
+     "label": "H",
+     "text": "Increased competition with other nut-eating animals"
+    },
+    {
+     "label": "J",
+     "text": "Increased food supply"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-159"
+  },
+  {
+   "n": 21,
+   "stem": "Five red blood cells are shown next to a scale where each division equals 1 micrometer. The average cell spans about 7–8 divisions. What is the estimated diameter of a red blood cell?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4–5 micrometers"
+    },
+    {
+     "label": "B",
+     "text": "7–8 micrometers"
+    },
+    {
+     "label": "C",
+     "text": "10–11 micrometers"
+    },
+    {
+     "label": "D",
+     "text": "12–13 micrometers"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-160"
+  },
+  {
+   "n": 22,
+   "stem": "Which level of organization is the most basic?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Cell"
+    },
+    {
+     "label": "G",
+     "text": "Tissue"
+    },
+    {
+     "label": "H",
+     "text": "Organ"
+    },
+    {
+     "label": "J",
+     "text": "Organ system"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-161"
+  },
+  {
+   "n": 23,
+   "stem": "Ellen suspects she is allergic to her friend’s cat and parrot. What should she do next in a scientific investigation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Avoid her friend"
+    },
+    {
+     "label": "B",
+     "text": "Visit someone with many pets"
+    },
+    {
+     "label": "C",
+     "text": "Demand allergy shots"
+    },
+    {
+     "label": "D",
+     "text": "Visit one friend with only cats and another with only parrots"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-162"
+  },
+  {
+   "n": 24,
+   "stem": "What might limit wind as a major energy source?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Wind strength varies"
+    },
+    {
+     "label": "G",
+     "text": "Wind machines have large blades"
+    },
+    {
+     "label": "H",
+     "text": "Turbines generate electricity"
+    },
+    {
+     "label": "J",
+     "text": "Wind power creates no pollution"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-163"
+  },
+  {
+   "n": 25,
+   "stem": "Sponges are classified as animals because they cannot —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "move from place to place"
+    },
+    {
+     "label": "B",
+     "text": "make their own food"
+    },
+    {
+     "label": "C",
+     "text": "eliminate waste"
+    },
+    {
+     "label": "D",
+     "text": "catch food"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-164"
+  },
+  {
+   "n": 26,
+   "stem": "A diagram shows several bulbs connected so that each bulb has its own path to the power source. Which type of circuit is shown?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Alternating current"
+    },
+    {
+     "label": "G",
+     "text": "Short circuit"
+    },
+    {
+     "label": "H",
+     "text": "Series circuit"
+    },
+    {
+     "label": "J",
+     "text": "Parallel circuit"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-165"
+  },
+  {
+   "n": 27,
+   "stem": "Which is a physical property of copper?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Ductile; can be drawn into wire"
+    },
+    {
+     "label": "B",
+     "text": "Liquid at room temperature"
+    },
+    {
+     "label": "C",
+     "text": "Reacts with water to form acid"
+    },
+    {
+     "label": "D",
+     "text": "Reacts readily with oxygen"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-166"
+  },
+  {
+   "n": 28,
+   "stem": "Northern garter snakes coil together in large groups in winter. This behavior helps to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "reduce heat loss"
+    },
+    {
+     "label": "G",
+     "text": "increase camouflage"
+    },
+    {
+     "label": "H",
+     "text": "locate food"
+    },
+    {
+     "label": "J",
+     "text": "increase oxygen consumption"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-167"
+  },
+  {
+   "n": 29,
+   "stem": "Photosynthesis converts light energy into —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "heat energy"
+    },
+    {
+     "label": "B",
+     "text": "electrical energy"
+    },
+    {
+     "label": "C",
+     "text": "mechanical energy"
+    },
+    {
+     "label": "D",
+     "text": "chemical energy"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-168"
+  },
+  {
+   "n": 31,
+   "stem": "Crossing homozygous tall pea plants with homozygous short plants always produces tall offspring. Tallness is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "blended"
+    },
+    {
+     "label": "B",
+     "text": "dominant"
+    },
+    {
+     "label": "C",
+     "text": "mutated"
+    },
+    {
+     "label": "D",
+     "text": "recessive"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-169"
+  },
+  {
+   "n": 32,
+   "stem": "A diagram shows Earth divided into four points relative to sunlight. At which point is it 12:00 noon, where sunlight is most direct?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-170"
+  },
+  {
+   "n": 33,
+   "stem": "Which is an example of kinetic energy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A baseball moving toward a catcher"
+    },
+    {
+     "label": "B",
+     "text": "A rock at the top of a hill"
+    },
+    {
+     "label": "C",
+     "text": "A pendulum at rest at the top of its swing"
+    },
+    {
+     "label": "D",
+     "text": "A new battery"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-171"
+  },
+  {
+   "n": 34,
+   "stem": "Which resource would best track progress in nuclear fusion research?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Local newspaper"
+    },
+    {
+     "label": "G",
+     "text": "Chemical encyclopedia"
+    },
+    {
+     "label": "H",
+     "text": "Physics textbook"
+    },
+    {
+     "label": "J",
+     "text": "Scientific periodical"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-172"
+  },
+  {
+   "n": 35,
+   "stem": "Objects with like charges repel, unlike charges attract. A girl’s hair stands up after being rubbed with a comb. The hair and comb have —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "unlike charges"
+    },
+    {
+     "label": "B",
+     "text": "like charges"
+    },
+    {
+     "label": "C",
+     "text": "neutral charges"
+    },
+    {
+     "label": "D",
+     "text": "no charges"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-173"
+  },
+  {
+   "n": 36,
+   "stem": "A diagram of the water cycle includes evaporation, condensation, precipitation, transpiration, runoff, rivers, and oceans. The loss of which would have the least effect on the cycle?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Soil"
+    },
+    {
+     "label": "G",
+     "text": "Rivers"
+    },
+    {
+     "label": "H",
+     "text": "Animals"
+    },
+    {
+     "label": "J",
+     "text": "Plants"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-174"
+  },
+  {
+   "n": 37,
+   "stem": "Which process helps extract energy from food?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Reproduction"
+    },
+    {
+     "label": "B",
+     "text": "Digestion"
+    },
+    {
+     "label": "C",
+     "text": "Excretion"
+    },
+    {
+     "label": "D",
+     "text": "Circulation"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-175"
+  },
+  {
+   "n": 38,
+   "stem": "Which is a chemical change?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Water freezing"
+    },
+    {
+     "label": "G",
+     "text": "Mixing gravel, sand, and water"
+    },
+    {
+     "label": "H",
+     "text": "Flattening copper"
+    },
+    {
+     "label": "J",
+     "text": "Vinegar reacting with baking soda"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-176"
+  },
+  {
+   "n": 39,
+   "stem": "A ramp test compares non-slip surfaces using shoes. Which step ensures more meaningful results?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Use the same shoe on each surface"
+    },
+    {
+     "label": "B",
+     "text": "Use boards of equal thickness"
+    },
+    {
+     "label": "C",
+     "text": "Use the same shoe size"
+    },
+    {
+     "label": "D",
+     "text": "Use athletic shoes"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-177"
+  },
+  {
+   "n": 40,
+   "stem": "A chart lists average distances from the Sun. Mercury is closest. Which planet likely has the highest temperatures?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Earth"
+    },
+    {
+     "label": "G",
+     "text": "Mars"
+    },
+    {
+     "label": "H",
+     "text": "Mercury"
+    },
+    {
+     "label": "J",
+     "text": "Venus"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-178"
+  },
+  {
+   "n": 41,
+   "stem": "A diagram shows fish obtaining energy by consuming organisms lower in a food sequence. According to the diagram, both fish —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "eat bacteria"
+    },
+    {
+     "label": "B",
+     "text": "give off toxic wastes"
+    },
+    {
+     "label": "C",
+     "text": "take in minerals through gills"
+    },
+    {
+     "label": "D",
+     "text": "get energy from other animals"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-179"
+  },
+  {
+   "n": 42,
+   "stem": "A diagram shows magnetic field strength around a magnet labeled at four points. The field lines are closest together at Point 1. Where is the field strongest?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Point 1"
+    },
+    {
+     "label": "G",
+     "text": "Point 2"
+    },
+    {
+     "label": "H",
+     "text": "Point 3"
+    },
+    {
+     "label": "J",
+     "text": "Point 4"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-180"
+  },
+  {
+   "n": 43,
+   "stem": "A diagram shows animals living 6 cm from a water source. The scale indicates 1 cm = 50 m. How far must the animals travel for water?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6 cm"
+    },
+    {
+     "label": "B",
+     "text": "12 m"
+    },
+    {
+     "label": "C",
+     "text": "50 m"
+    },
+    {
+     "label": "D",
+     "text": "300 m"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-181"
+  },
+  {
+   "n": 44,
+   "stem": "Most hereditary information in a cell is carried in the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "ribosomes"
+    },
+    {
+     "label": "G",
+     "text": "vacuoles"
+    },
+    {
+     "label": "H",
+     "text": "chromosomes"
+    },
+    {
+     "label": "J",
+     "text": "Golgi bodies"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-182"
+  },
+  {
+   "n": 45,
+   "stem": "One complete revolution of Earth around the Sun takes about one —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "year"
+    },
+    {
+     "label": "B",
+     "text": "season"
+    },
+    {
+     "label": "C",
+     "text": "month"
+    },
+    {
+     "label": "D",
+     "text": "day"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-183"
+  },
+  {
+   "n": 47,
+   "stem": "A table shows atomic numbers: Boron (5), Carbon (6), Nitrogen (7), Aluminum (13), Silicon (14), Phosphorus (15). Which element has atomic number 14?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "N"
+    },
+    {
+     "label": "G",
+     "text": "Al"
+    },
+    {
+     "label": "H",
+     "text": "Si"
+    },
+    {
+     "label": "J",
+     "text": "P"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-184"
+  },
+  {
+   "n": 48,
+   "stem": "Three birds live in Virginia: a ruby-throated hummingbird eats nectar, a red-tailed hawk eats rodents, and a yellow-bellied sapsucker eats insects from tree bark. Which list matches birds to diets?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hummingbird–nectar; Hawk–insects; Sapsucker–rodents"
+    },
+    {
+     "label": "B",
+     "text": "Hummingbird–insects; Hawk–nectar; Sapsucker–rodents"
+    },
+    {
+     "label": "C",
+     "text": "Hummingbird–rodents; Hawk–nectar; Sapsucker–insects"
+    },
+    {
+     "label": "D",
+     "text": "Hummingbird–nectar; Hawk–rodents; Sapsucker–insects"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-185"
+  },
+  {
+   "n": 49,
+   "stem": "In which biome is the greatest variety of life found?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Tundra"
+    },
+    {
+     "label": "B",
+     "text": "Desert"
+    },
+    {
+     "label": "C",
+     "text": "Grassland"
+    },
+    {
+     "label": "D",
+     "text": "Rain forest"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-186"
+  },
+  {
+   "n": 50,
+   "stem": "Tearing paper is an example of a —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "physical change"
+    },
+    {
+     "label": "G",
+     "text": "chemical change"
+    },
+    {
+     "label": "H",
+     "text": "chemical reaction"
+    },
+    {
+     "label": "J",
+     "text": "solution"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Grade_8_2003_SOLPass",
+   "id": "physical-science-187"
+  }
+ ]
+}

@@ -1,0 +1,2763 @@
+{
+ "subject": "history",
+ "course": "grade-10-world-history-and-geography-1500-a-d-to-the-present",
+ "courseName": "Grade 10 - World History and Geography: 1500 A.D. to the Present",
+ "questionCount": 110,
+ "sources": [
+  "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+  "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Consider a historical period described as follows: • It was considered a “rebirth” of knowledge. • New forms of literature and art flourished. • It symbolized the birth of the modern world. Which person is most associated with this time period?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Voltaire"
+    },
+    {
+     "label": "B",
+     "text": "Henry Bessemer"
+    },
+    {
+     "label": "C",
+     "text": "Michelangelo"
+    },
+    {
+     "label": "D",
+     "text": "John Huss"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-1"
+  },
+  {
+   "n": 2,
+   "stem": "“Be it enacted by authority of this present Parliament that the King … shall be … the only supreme head in earth of the Church of England…” — Act of Supremacy, 1534 What was one effect of this act?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The influence of the Catholic Church declined."
+    },
+    {
+     "label": "B",
+     "text": "The practice of Protestantism was prohibited in England."
+    },
+    {
+     "label": "C",
+     "text": "The Pope granted greater authority to the king."
+    },
+    {
+     "label": "D",
+     "text": "The colonies were subjected to the authority of the Church."
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-2"
+  },
+  {
+   "n": 3,
+   "stem": "What was a common trade good that traveled west on the Silk Road?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Ivory"
+    },
+    {
+     "label": "B",
+     "text": "Gold"
+    },
+    {
+     "label": "C",
+     "text": "Paper"
+    },
+    {
+     "label": "D",
+     "text": "Rum"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-3"
+  },
+  {
+   "n": 4,
+   "stem": "The Columbian Exchange is best explained as the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "exchange of South American land between Spain and Portugal"
+    },
+    {
+     "label": "B",
+     "text": "result of a struggle between the Spanish and the Incas"
+    },
+    {
+     "label": "C",
+     "text": "exchange of agricultural goods between Europe and the Americas"
+    },
+    {
+     "label": "D",
+     "text": "result of a conflict between South American colonies and Europe"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-4"
+  },
+  {
+   "n": 5,
+   "stem": "Islam became a prominent religion in India because of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "trade with Africa"
+    },
+    {
+     "label": "B",
+     "text": "the rule of the Mughals"
+    },
+    {
+     "label": "C",
+     "text": "an invasion by the Persians"
+    },
+    {
+     "label": "D",
+     "text": "alliances with Southwest Asia"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-5"
+  },
+  {
+   "n": 6,
+   "stem": "A Spanish mission was established near present-day Tucson, Arizona, in the 18th century. Which purpose motivated the building of this structure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To convert the native people to Christianity"
+    },
+    {
+     "label": "B",
+     "text": "To develop trade alliances with French colonies"
+    },
+    {
+     "label": "C",
+     "text": "To preserve the indigenous culture of the area"
+    },
+    {
+     "label": "D",
+     "text": "To recruit natives to work on plantations"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-6"
+  },
+  {
+   "n": 7,
+   "stem": "Which religious group was most affected when the Edict of Nantes was revoked?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Puritans living in England"
+    },
+    {
+     "label": "B",
+     "text": "Jesuits living in France"
+    },
+    {
+     "label": "C",
+     "text": "Protestants living in France"
+    },
+    {
+     "label": "D",
+     "text": "Catholics living in England"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-7"
+  },
+  {
+   "n": 8,
+   "stem": "The following sequence describes European development: Europeans expand exploration → Europeans acquire ideas from the Islamic world → Europeans explore and settle the Western Hemisphere Which change best completes this sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Knowledge of biology grows"
+    },
+    {
+     "label": "B",
+     "text": "Navigational skills improve"
+    },
+    {
+     "label": "C",
+     "text": "Uses for fuel resources increase"
+    },
+    {
+     "label": "D",
+     "text": "Religious intolerance spreads"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-8"
+  },
+  {
+   "n": 9,
+   "stem": "Elizabeth I supported Protestantism in England by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "returning land belonging to the Catholic Church"
+    },
+    {
+     "label": "B",
+     "text": "making the Anglican Church the official national church"
+    },
+    {
+     "label": "C",
+     "text": "persecuting people who used Latin in the Catholic Church"
+    },
+    {
+     "label": "D",
+     "text": "removing the leader of the Anglican Church"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-9"
+  },
+  {
+   "n": 10,
+   "stem": "Which form of literature was introduced to Europe during the Enlightenment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Poem"
+    },
+    {
+     "label": "B",
+     "text": "Novel"
+    },
+    {
+     "label": "C",
+     "text": "Satire"
+    },
+    {
+     "label": "D",
+     "text": "Essay"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-10"
+  },
+  {
+   "n": 11,
+   "stem": "A transatlantic trade route is shown connecting Spanish colonies in the Americas to Europe. This route was most likely used to export —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "furs from New France"
+    },
+    {
+     "label": "B",
+     "text": "silver from New Spain"
+    },
+    {
+     "label": "C",
+     "text": "tobacco from New England"
+    },
+    {
+     "label": "D",
+     "text": "sugar from New Netherland"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-11"
+  },
+  {
+   "n": 12,
+   "stem": "The Mexican state of Hidalgo, a district in Mexico City named Miguel Hidalgo, and Hidalgo County in New Mexico were all named after a man who —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "protected Mexican territory from a French invasion"
+    },
+    {
+     "label": "B",
+     "text": "was the first president of the Mexican Republic"
+    },
+    {
+     "label": "C",
+     "text": "started the movement for Mexican independence"
+    },
+    {
+     "label": "D",
+     "text": "led the Mexican army in the war against Texas"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-12"
+  },
+  {
+   "n": 13,
+   "stem": "A diagram shows the human heart and blood vessels, illustrating the movement of blood through the body (the circulatory system). This diagram best illustrates the discoveries of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Johannes Kepler"
+    },
+    {
+     "label": "B",
+     "text": "Galileo Galilei"
+    },
+    {
+     "label": "C",
+     "text": "Isaac Newton"
+    },
+    {
+     "label": "D",
+     "text": "William Harvey"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-13"
+  },
+  {
+   "n": 14,
+   "stem": "A response to growing European influence in China was the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nanking Massacre"
+    },
+    {
+     "label": "B",
+     "text": "Boxer Rebellion"
+    },
+    {
+     "label": "C",
+     "text": "Shanghai Massacre"
+    },
+    {
+     "label": "D",
+     "text": "Cultural Revolution"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-14"
+  },
+  {
+   "n": 15,
+   "stem": "Which event inspired independence movements in Spanish and Portuguese colonies in the early 19th century?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Reformation"
+    },
+    {
+     "label": "B",
+     "text": "American Revolution"
+    },
+    {
+     "label": "C",
+     "text": "Renaissance"
+    },
+    {
+     "label": "D",
+     "text": "Commercial Revolution"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-15"
+  },
+  {
+   "n": 16,
+   "stem": "Piazza Cavour is a public square in Italy named after a historical figure. This square was named for the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "noble who unified the states of Northern Italy"
+    },
+    {
+     "label": "B",
+     "text": "general who led Italian troops during World War I"
+    },
+    {
+     "label": "C",
+     "text": "sculptor who contributed to the beginning of the Renaissance"
+    },
+    {
+     "label": "D",
+     "text": "pope who took office just after the Protestant Reformation"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-16"
+  },
+  {
+   "n": 17,
+   "stem": "Which statement best describes the effects of the Industrial Revolution on families?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Family-based cottage industries were weakened."
+    },
+    {
+     "label": "B",
+     "text": "Families returned to a primary focus on domestic goods."
+    },
+    {
+     "label": "C",
+     "text": "Families struggled to share responsibilities in the household."
+    },
+    {
+     "label": "D",
+     "text": "Families were hired as a group in local industries."
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-17"
+  },
+  {
+   "n": 18,
+   "stem": "The concept of divine right was important to absolute monarchs because it —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "reserved governmental positions for the clergy"
+    },
+    {
+     "label": "B",
+     "text": "guaranteed natural rights to the people"
+    },
+    {
+     "label": "C",
+     "text": "justified the king’s right to rule"
+    },
+    {
+     "label": "D",
+     "text": "honored the king for supporting religious freedom"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-18"
+  },
+  {
+   "n": 19,
+   "stem": "A table shows that the colonies of New Granada, Venezuela, Colombia, Ecuador, Peru, Bolivia, and La Plata became independent nations in South America. Who led the independence movements that caused these changes?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hernando de Soto"
+    },
+    {
+     "label": "B",
+     "text": "Simón Bolívar"
+    },
+    {
+     "label": "C",
+     "text": "Napoleon Bonaparte"
+    },
+    {
+     "label": "D",
+     "text": "Vasco da Gama"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-19"
+  },
+  {
+   "n": 20,
+   "stem": "A table titled Per Capita Industrialization, 1800–1900 compares the United Kingdom, Belgium, and the United States using an index where the United Kingdom in 1900 equals 100. Which conclusion about the 19th century is best supported by this data?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Asia had the most natural resources for development."
+    },
+    {
+     "label": "B",
+     "text": "The United States developed the largest colonial empire."
+    },
+    {
+     "label": "C",
+     "text": "Western Europe was the most heavily industrialized area."
+    },
+    {
+     "label": "D",
+     "text": "France experienced the greatest industrial growth."
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-20"
+  },
+  {
+   "n": 21,
+   "stem": "Which organization’s member states were described as being behind the Iron Curtain after World War II?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "United Nations"
+    },
+    {
+     "label": "B",
+     "text": "Axis Powers"
+    },
+    {
+     "label": "C",
+     "text": "European Union"
+    },
+    {
+     "label": "D",
+     "text": "Warsaw Pact"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-21"
+  },
+  {
+   "n": 22,
+   "stem": "Russian troops withdrew from World War I because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Great Britain became neutral"
+    },
+    {
+     "label": "B",
+     "text": "submarine warfare disrupted trade"
+    },
+    {
+     "label": "C",
+     "text": "the United States entered the war"
+    },
+    {
+     "label": "D",
+     "text": "communists overthrew the government"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-22"
+  },
+  {
+   "n": 23,
+   "stem": "The following sequence describes events and beliefs in Nazi Germany: Rise of nationalism → Belief in a master race → ________ Which event best completes this sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Invasion of Normandy coast"
+    },
+    {
+     "label": "B",
+     "text": "Dropping of the atomic bomb on Japan"
+    },
+    {
+     "label": "C",
+     "text": "Development of the Final Solution"
+    },
+    {
+     "label": "D",
+     "text": "Bombing of a naval fleet at Pearl Harbor"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-23"
+  },
+  {
+   "n": 24,
+   "stem": "A newspaper headline from 1928 reads: “Government Announces First Five-Year Plan to Boost Economy” This headline would most likely have appeared in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the Soviet Union"
+    },
+    {
+     "label": "B",
+     "text": "Italy"
+    },
+    {
+     "label": "C",
+     "text": "the United States"
+    },
+    {
+     "label": "D",
+     "text": "Germany"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-24"
+  },
+  {
+   "n": 25,
+   "stem": "“Germany renounces in favor of the Principal Allied and Associated Powers all her rights and titles over her overseas possessions.” — Article 119 Which document is the source of this quotation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A speech made by the German president"
+    },
+    {
+     "label": "B",
+     "text": "A trade agreement signed by Germany"
+    },
+    {
+     "label": "C",
+     "text": "A peace treaty that ended World War I"
+    },
+    {
+     "label": "D",
+     "text": "A verdict of the International Military Tribunal"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-25"
+  },
+  {
+   "n": 26,
+   "stem": "Which military tactic did the Nazis use in the Battle of Britain?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Land invasions"
+    },
+    {
+     "label": "B",
+     "text": "Submarine attacks"
+    },
+    {
+     "label": "C",
+     "text": "Tank assaults"
+    },
+    {
+     "label": "D",
+     "text": "Bomber raids"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-26"
+  },
+  {
+   "n": 27,
+   "stem": "The following timeline lists major World War II events: • 1939 — German invasion of Poland • 1940 — Fall of France; Battle of Britain • 1941 — German invasion of the Soviet Union Which event occurred in 1939?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "German invasion of Poland"
+    },
+    {
+     "label": "B",
+     "text": "British evacuation from Dunkirk"
+    },
+    {
+     "label": "C",
+     "text": "Soviet victory at Stalingrad"
+    },
+    {
+     "label": "D",
+     "text": "Allied invasion of Europe"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-27"
+  },
+  {
+   "n": 28,
+   "stem": "A timeline of 20th-century events is divided into four periods: 1. End of World War I 2. End of World War II 3. Cold War 4. End of the Cold War The North Atlantic Treaty Organization (NATO) was formed during period —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-28"
+  },
+  {
+   "n": 29,
+   "stem": "In the 1950s, United States foreign policy decisions were influenced by fears that communism would spread from China to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Japan"
+    },
+    {
+     "label": "B",
+     "text": "Mongolia"
+    },
+    {
+     "label": "C",
+     "text": "India"
+    },
+    {
+     "label": "D",
+     "text": "Vietnam"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-29"
+  },
+  {
+   "n": 30,
+   "stem": "After Indian independence, the region consisting of the western and eastern Muslim-majority areas became known as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Burma"
+    },
+    {
+     "label": "B",
+     "text": "Sri Lanka"
+    },
+    {
+     "label": "C",
+     "text": "Pakistan"
+    },
+    {
+     "label": "D",
+     "text": "Bangladesh"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-30"
+  },
+  {
+   "n": 31,
+   "stem": "A web diagram lists: British Prime Minister → Support for the military → ________ Which phrase best completes this relationship?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cooperation with the United States"
+    },
+    {
+     "label": "B",
+     "text": "Reemergence as an imperial power"
+    },
+    {
+     "label": "C",
+     "text": "Opposition to the United Nations"
+    },
+    {
+     "label": "D",
+     "text": "Decline as an economic power"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-31"
+  },
+  {
+   "n": 32,
+   "stem": "A diagram shows: Holocaust → Worst episode of anti-Semitic persecution → ________ What best completes this sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Creation of an Indian state was promoted"
+    },
+    {
+     "label": "B",
+     "text": "Syrian nationalism grew in strength"
+    },
+    {
+     "label": "C",
+     "text": "Creation of a Jewish state gained support"
+    },
+    {
+     "label": "D",
+     "text": "Jewish immigration to Europe was encouraged"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-32"
+  },
+  {
+   "n": 33,
+   "stem": "In which nation did Nelson Mandela lead a successful reform movement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Kenya"
+    },
+    {
+     "label": "B",
+     "text": "South Africa"
+    },
+    {
+     "label": "C",
+     "text": "The Congo"
+    },
+    {
+     "label": "D",
+     "text": "Algeria"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-33"
+  },
+  {
+   "n": 34,
+   "stem": "A map shows Europe divided into two major political and military blocs separated by a boundary running through central Europe. This map represents the political divisions of Europe —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "after the Napoleonic Wars"
+    },
+    {
+     "label": "B",
+     "text": "because of the Treaty of Versailles"
+    },
+    {
+     "label": "C",
+     "text": "during the Cold War"
+    },
+    {
+     "label": "D",
+     "text": "after the breakup of the Soviet Union"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-34"
+  },
+  {
+   "n": 35,
+   "stem": "A map marks the cities of Mecca, Medina, and Jerusalem as sacred sites. These cities are most important to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hindus"
+    },
+    {
+     "label": "B",
+     "text": "Christians"
+    },
+    {
+     "label": "C",
+     "text": "Muslims"
+    },
+    {
+     "label": "D",
+     "text": "Buddhists"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-35"
+  },
+  {
+   "n": 36,
+   "stem": "The Communist Revolution in China was led primarily by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mao Tse-tung (Mao Zedong)"
+    },
+    {
+     "label": "B",
+     "text": "Deng Xiaoping"
+    },
+    {
+     "label": "C",
+     "text": "Ho Chi Minh"
+    },
+    {
+     "label": "D",
+     "text": "Sun Yat-sen"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-36"
+  },
+  {
+   "n": 37,
+   "stem": "The city of Constantinople was renamed Istanbul to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "remember the Greek invasion of Anatolia"
+    },
+    {
+     "label": "B",
+     "text": "honor the Eastern Orthodox Church"
+    },
+    {
+     "label": "C",
+     "text": "establish the capital of the Ottoman Empire"
+    },
+    {
+     "label": "D",
+     "text": "celebrate the end of Egyptian control of Turkey"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-37"
+  },
+  {
+   "n": 38,
+   "stem": "Which phrase best describes the social system in Latin America after the Spanish conquest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A rigid class system based on ethnic background"
+    },
+    {
+     "label": "B",
+     "text": "A flexible system with a large middle class"
+    },
+    {
+     "label": "C",
+     "text": "A provincial system based on native traditions"
+    },
+    {
+     "label": "D",
+     "text": "A democratic system with a strong central government"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-38"
+  },
+  {
+   "n": 39,
+   "stem": "In the 16th century, most trade routes that gave northern Europe access to goods from the Ottoman Empire crossed the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Black Sea"
+    },
+    {
+     "label": "B",
+     "text": "Indian Ocean"
+    },
+    {
+     "label": "C",
+     "text": "Yellow Sea"
+    },
+    {
+     "label": "D",
+     "text": "Pacific Ocean"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-39"
+  },
+  {
+   "n": 40,
+   "stem": "A diagram lists belief systems in South America as: Spiritualism, Agnosticism, Ethnoreligionism, and ________ Which religion best completes this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Judaism"
+    },
+    {
+     "label": "B",
+     "text": "Christianity"
+    },
+    {
+     "label": "C",
+     "text": "Hinduism"
+    },
+    {
+     "label": "D",
+     "text": "Islam"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-40"
+  },
+  {
+   "n": 41,
+   "stem": "A journal entry from December 1971 reports a bombing in Northern Ireland carried out by members of the Irish Republican Army (IRA). Which groups were involved in this conflict?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Shi’a and Sunnis"
+    },
+    {
+     "label": "B",
+     "text": "Catholics and Protestants"
+    },
+    {
+     "label": "C",
+     "text": "Hindus and Muslims"
+    },
+    {
+     "label": "D",
+     "text": "Christians and Buddhists"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-41"
+  },
+  {
+   "n": 42,
+   "stem": "Which empire was most negatively affected by the Age of Discovery?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Ottoman"
+    },
+    {
+     "label": "B",
+     "text": "Mughal"
+    },
+    {
+     "label": "C",
+     "text": "Aztec"
+    },
+    {
+     "label": "D",
+     "text": "Songhai"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-42"
+  },
+  {
+   "n": 43,
+   "stem": "During the 1600s and 1700s, the European policy of mercantilism led to increased —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "concern over invading armies from Asia"
+    },
+    {
+     "label": "B",
+     "text": "study of ancient knowledge in Latin texts"
+    },
+    {
+     "label": "C",
+     "text": "competition for markets in the Americas"
+    },
+    {
+     "label": "D",
+     "text": "interest in spreading the beliefs of Christianity"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-43"
+  },
+  {
+   "n": 44,
+   "stem": "Multinational corporations such as Walmart, McDonald’s, and Google have grown worldwide. The growth of these businesses has resulted in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "decreased environmental protections"
+    },
+    {
+     "label": "B",
+     "text": "increased global trade barriers"
+    },
+    {
+     "label": "C",
+     "text": "decreased international conflict"
+    },
+    {
+     "label": "D",
+     "text": "increased economic interdependence"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-44"
+  },
+  {
+   "n": 45,
+   "stem": "Montesquieu’s The Spirit of Laws emphasized the importance of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "honesty for rulers"
+    },
+    {
+     "label": "B",
+     "text": "the social contract"
+    },
+    {
+     "label": "C",
+     "text": "religious tolerance"
+    },
+    {
+     "label": "D",
+     "text": "a separation of powers"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-45"
+  },
+  {
+   "n": 46,
+   "stem": "A passage by Jean-Baptiste Colbert argues that France should control its own colonial trade to increase wealth flowing into the country. This passage supports the expansion of French —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "isolationism"
+    },
+    {
+     "label": "B",
+     "text": "feudalism"
+    },
+    {
+     "label": "C",
+     "text": "militarism"
+    },
+    {
+     "label": "D",
+     "text": "mercantilism"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-46"
+  },
+  {
+   "n": 47,
+   "stem": "An organization has the following purposes: • Encourage international economic cooperation • Stabilize exchange rates • Provide loans to developing nations Which association is described?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "International Monetary Fund"
+    },
+    {
+     "label": "B",
+     "text": "North Atlantic Treaty Organization"
+    },
+    {
+     "label": "C",
+     "text": "International Court of Justice"
+    },
+    {
+     "label": "D",
+     "text": "North American Free Trade Agreement"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-47"
+  },
+  {
+   "n": 48,
+   "stem": "Which word best describes the ideas of the Enlightenment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Traditional"
+    },
+    {
+     "label": "B",
+     "text": "Secular"
+    },
+    {
+     "label": "C",
+     "text": "Economic"
+    },
+    {
+     "label": "D",
+     "text": "Religious"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-48"
+  },
+  {
+   "n": 49,
+   "stem": "Which statement best explains why the Spanish were interested in the Incan Empire?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The Spanish were intrigued by Incan scientific advances."
+    },
+    {
+     "label": "B",
+     "text": "The Incan Empire was a possible market for Spanish goods."
+    },
+    {
+     "label": "C",
+     "text": "The Spanish hoped to find a fountain of youth."
+    },
+    {
+     "label": "D",
+     "text": "The Incan Empire was a possible source of wealth for the Spanish."
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-49"
+  },
+  {
+   "n": 50,
+   "stem": "What distinguishes developed nations from developing nations?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Foreign diplomacy"
+    },
+    {
+     "label": "B",
+     "text": "International tourism"
+    },
+    {
+     "label": "C",
+     "text": "Economic status"
+    },
+    {
+     "label": "D",
+     "text": "Climate zone"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2014_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-50"
+  },
+  {
+   "n": 1,
+   "stem": "The diagram compared two groups: Italian Renaissance figures Northern Renaissance figures Box 1 represented Italian Renaissance figures. Box 2 represented Northern Renaissance figures. Which name is correctly matched with a box in this diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Leonardo da Vinci in Box 1"
+    },
+    {
+     "label": "B",
+     "text": "William Shakespeare in Box 1"
+    },
+    {
+     "label": "C",
+     "text": "Machiavelli in Box 2"
+    },
+    {
+     "label": "D",
+     "text": "Michelangelo in Box 2"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-51"
+  },
+  {
+   "n": 2,
+   "stem": "Why do Mexico and Peru have primarily Catholic populations?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The Inquisition converted the Jews and Muslims of these areas."
+    },
+    {
+     "label": "G",
+     "text": "Religion was spread in these areas by Spanish missionaries and colonists."
+    },
+    {
+     "label": "H",
+     "text": "People who practiced traditional native religions migrated out of these areas."
+    },
+    {
+     "label": "J",
+     "text": "The people in these areas were isolated from foreign influences."
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-52"
+  },
+  {
+   "n": 3,
+   "stem": "A diagram listed areas of study including grammar, history, humanities, rhetoric, and poetry, all focused on classic Greek and Roman texts. These studies were of major importance during the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Catholic Reformation"
+    },
+    {
+     "label": "B",
+     "text": "Italian Renaissance"
+    },
+    {
+     "label": "C",
+     "text": "Glorious Revolution"
+    },
+    {
+     "label": "D",
+     "text": "Industrial Revolution"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-53"
+  },
+  {
+   "n": 4,
+   "stem": "Which idea is most associated with John Calvin?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Ultimate authority comes from the Bible."
+    },
+    {
+     "label": "G",
+     "text": "People are equal before God."
+    },
+    {
+     "label": "H",
+     "text": "Salvation depends on faith alone."
+    },
+    {
+     "label": "J",
+     "text": "Fate is determined by predestination."
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-54"
+  },
+  {
+   "n": 5,
+   "stem": "China established foreign enclaves in order to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "improve education"
+    },
+    {
+     "label": "B",
+     "text": "centralize manufacturing"
+    },
+    {
+     "label": "C",
+     "text": "spread religion"
+    },
+    {
+     "label": "D",
+     "text": "control trade"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-55"
+  },
+  {
+   "n": 6,
+   "stem": "Which explorer contributed to the establishment of Portuguese colonies in Africa and India?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Hernando Cortez"
+    },
+    {
+     "label": "G",
+     "text": "Ferdinand Magellan"
+    },
+    {
+     "label": "H",
+     "text": "Vasco da Gama"
+    },
+    {
+     "label": "J",
+     "text": "Francis Drake"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-56"
+  },
+  {
+   "n": 7,
+   "stem": "During the 16th century, Europe gained access to knowledge about astronomy, medicine, and mathematics because of the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "exploration of Africa"
+    },
+    {
+     "label": "B",
+     "text": "spread of the manorial system"
+    },
+    {
+     "label": "C",
+     "text": "expansion of religion"
+    },
+    {
+     "label": "D",
+     "text": "growth of trade with Asia"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-57"
+  },
+  {
+   "n": 8,
+   "stem": "A diagram showed the following relationship: The Reformation → belief that the Church was corrupted by political power and wealth →? Which statement completes this sequence?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Priests gave up positions of leadership in their community."
+    },
+    {
+     "label": "G",
+     "text": "Nobles decided to abandon the beliefs of Christianity."
+    },
+    {
+     "label": "H",
+     "text": "Beliefs encouraging religious toleration became widely accepted."
+    },
+    {
+     "label": "J",
+     "text": "New religions that rejected the authority of the Pope were established."
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-58"
+  },
+  {
+   "n": 9,
+   "stem": "A diagram of the Columbian Exchange showed two arrows: Arrow 1: from the Western Hemisphere to the Eastern Hemisphere Arrow 2: from the Eastern Hemisphere to the Western Hemisphere Which choice correctly identifies a major trade pattern of the Columbian Exchange?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cattle along arrow 1"
+    },
+    {
+     "label": "B",
+     "text": "Coal along arrow 1"
+    },
+    {
+     "label": "C",
+     "text": "Tobacco along arrow 2"
+    },
+    {
+     "label": "D",
+     "text": "Horses along arrow 2"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-59"
+  },
+  {
+   "n": 10,
+   "stem": "“When we arrived at Kyoto, we waited for some days that we might obtain leave to approach the king… But we found all ways of access to him altogether closed…” — Letter from St. Francis Xavier, 1551 Which aspect of Japanese society is best described by this letter?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Weakness of the emperor"
+    },
+    {
+     "label": "G",
+     "text": "Power of the people"
+    },
+    {
+     "label": "H",
+     "text": "Decline of class structures"
+    },
+    {
+     "label": "J",
+     "text": "Importance of religious institutions"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-60"
+  },
+  {
+   "n": 11,
+   "stem": "A world map labeled four regions (1–4). Region 1 represented Latin America. Which region was protected from outside influence by the Monroe Doctrine?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-61"
+  },
+  {
+   "n": 12,
+   "stem": "A diagram listed actions of Peter the Great: Established a new capital Increased military power Adopted new technology Which statement best completes the diagram?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Promotes religious tolerance"
+    },
+    {
+     "label": "G",
+     "text": "Encourages socialism"
+    },
+    {
+     "label": "H",
+     "text": "Strengthens parliamentary authority"
+    },
+    {
+     "label": "J",
+     "text": "Supports Westernization"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-62"
+  },
+  {
+   "n": 13,
+   "stem": "The novel emerged as a distinct form of literature in Europe during the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Age of Absolutism"
+    },
+    {
+     "label": "B",
+     "text": "Reformation"
+    },
+    {
+     "label": "C",
+     "text": "Industrial Revolution"
+    },
+    {
+     "label": "D",
+     "text": "Enlightenment"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-63"
+  },
+  {
+   "n": 14,
+   "stem": "“Revolutionary government owes to all good citizens the fullest protection… to enemies of the people it owes nothing but death.” — Maximilien Robespierre, 1793 What was the immediate result of this philosophy?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "An increase in taxes"
+    },
+    {
+     "label": "G",
+     "text": "A period of restored peace"
+    },
+    {
+     "label": "H",
+     "text": "An expansion of the justice system"
+    },
+    {
+     "label": "J",
+     "text": "A time of mass executions"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-64"
+  },
+  {
+   "n": 15,
+   "stem": "“…Lima… being the center of the whole commerce of Peru…” — Jorge Juan and Antonio de Ulloa, 1748 Based on this passage, Lima became an important outpost because it —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "attracted Spanish colonists"
+    },
+    {
+     "label": "B",
+     "text": "had a navigable river"
+    },
+    {
+     "label": "C",
+     "text": "upheld Catholic traditions"
+    },
+    {
+     "label": "D",
+     "text": "had a profitable mine"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-65"
+  },
+  {
+   "n": 16,
+   "stem": "Who became ruler of France as a result of the French Revolution?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Louis XVI"
+    },
+    {
+     "label": "G",
+     "text": "Henry IV"
+    },
+    {
+     "label": "H",
+     "text": "Napoleon Bonaparte"
+    },
+    {
+     "label": "J",
+     "text": "Marie Antoinette"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-66"
+  },
+  {
+   "n": 17,
+   "stem": "Giuseppe Garibaldi is important because he —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "convinced the Papal States to support independence for Italy"
+    },
+    {
+     "label": "B",
+     "text": "developed Italian fascism after World War I"
+    },
+    {
+     "label": "C",
+     "text": "conquered southern Italy to unite it with northern Italy"
+    },
+    {
+     "label": "D",
+     "text": "commanded Italian forces during World War I"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-67"
+  },
+  {
+   "n": 18,
+   "stem": "Industrialization helped lead to European colonization of Africa by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "promoting tourist markets"
+    },
+    {
+     "label": "G",
+     "text": "causing domestic governments to collapse"
+    },
+    {
+     "label": "H",
+     "text": "increasing competition for overseas markets"
+    },
+    {
+     "label": "J",
+     "text": "bringing major powers into armed conflict"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-68"
+  },
+  {
+   "n": 19,
+   "stem": "King Louis XIV required nobles to live part of each year at Versailles to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "maintain control over the nobles"
+    },
+    {
+     "label": "B",
+     "text": "force nobles to acquire educations"
+    },
+    {
+     "label": "C",
+     "text": "limit religious influences"
+    },
+    {
+     "label": "D",
+     "text": "prevent mistreatment of peasants"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-69"
+  },
+  {
+   "n": 20,
+   "stem": "Edward Jenner’s innovation helped to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "improve public health"
+    },
+    {
+     "label": "G",
+     "text": "enable mass production"
+    },
+    {
+     "label": "H",
+     "text": "increase energy output"
+    },
+    {
+     "label": "J",
+     "text": "allow faster transportation"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-70"
+  },
+  {
+   "n": 21,
+   "stem": "During the 19th century, which change led to increased child labor?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Creation of public welfare systems"
+    },
+    {
+     "label": "B",
+     "text": "Development of the factory system"
+    },
+    {
+     "label": "C",
+     "text": "Expansion of large cities"
+    },
+    {
+     "label": "D",
+     "text": "Rise of wages for skilled workers"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-71"
+  },
+  {
+   "n": 22,
+   "stem": "A colonial social hierarchy in South America listed: Officers? Mestizos How is the missing class best described?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Immigrants to South America"
+    },
+    {
+     "label": "G",
+     "text": "People of European heritage born in South America"
+    },
+    {
+     "label": "H",
+     "text": "Immigrants from North America"
+    },
+    {
+     "label": "J",
+     "text": "People of European heritage born in Africa"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-72"
+  },
+  {
+   "n": 23,
+   "stem": "Causes of the Industrial Revolution in England included: Plentiful natural resources Stable government Overseas markets? Which phrase completes the list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Religious uniformity"
+    },
+    {
+     "label": "B",
+     "text": "Business regulation"
+    },
+    {
+     "label": "C",
+     "text": "Technological advances"
+    },
+    {
+     "label": "D",
+     "text": "Military alliances"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-73"
+  },
+  {
+   "n": 24,
+   "stem": "What were the contents of the Zimmermann Telegram?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A German offer to Mexico to form an alliance against the United States"
+    },
+    {
+     "label": "G",
+     "text": "A U.S. proposal to supply arms to Mexico"
+    },
+    {
+     "label": "H",
+     "text": "A German offer to negotiate peace"
+    },
+    {
+     "label": "J",
+     "text": "A U.S. warning against German invasion of Britain"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-74"
+  },
+  {
+   "n": 25,
+   "stem": "What was the purpose of the mandate system?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Prepare territories for future independence"
+    },
+    {
+     "label": "B",
+     "text": "Establish permanent colonial governments"
+    },
+    {
+     "label": "C",
+     "text": "Weaken supporting economies"
+    },
+    {
+     "label": "D",
+     "text": "Prepare territories for unification"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-75"
+  },
+  {
+   "n": 26,
+   "stem": "A diagram showed effects including: Alsace-Lorraine returned to France West Prussia, Upper Silesia, and Poznania given to Poland Reparations paid by Germany Which phrase completes the diagram as the cause?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Axis defeat in World War II"
+    },
+    {
+     "label": "G",
+     "text": "Charter of the United Nations"
+    },
+    {
+     "label": "H",
+     "text": "Formation of the European Union"
+    },
+    {
+     "label": "J",
+     "text": "Allied victory in World War I"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-76"
+  },
+  {
+   "n": 27,
+   "stem": "Introduced fascism, attempted to restore national glory, and invaded Ethiopia. Which dictator took these actions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Joseph Stalin"
+    },
+    {
+     "label": "B",
+     "text": "Francisco Franco"
+    },
+    {
+     "label": "C",
+     "text": "Benito Mussolini"
+    },
+    {
+     "label": "D",
+     "text": "Adolf Hitler"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-77"
+  },
+  {
+   "n": 28,
+   "stem": "A map of East Asia showed Japan invading a darker-shaded area in the 1930s. Which country invaded this area?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Mongolia"
+    },
+    {
+     "label": "G",
+     "text": "Korea"
+    },
+    {
+     "label": "H",
+     "text": "India"
+    },
+    {
+     "label": "J",
+     "text": "Japan"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-78"
+  },
+  {
+   "n": 29,
+   "stem": "Winston Churchill, Joseph Stalin, and Franklin Roosevelt during World War II were —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "communist leaders"
+    },
+    {
+     "label": "B",
+     "text": "Axis dictators"
+    },
+    {
+     "label": "C",
+     "text": "military commanders"
+    },
+    {
+     "label": "D",
+     "text": "Allied leaders"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-79"
+  },
+  {
+   "n": 30,
+   "stem": "“…four great nations… submit their captive enemies to the judgement of law…” — Robert Jackson, 1945 This speech was most likely given during the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Yalta Conference"
+    },
+    {
+     "label": "G",
+     "text": "Treaty of Versailles drafting"
+    },
+    {
+     "label": "H",
+     "text": "Nuremberg Trials"
+    },
+    {
+     "label": "J",
+     "text": "Marshall Plan creation"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-80"
+  },
+  {
+   "n": 31,
+   "stem": "Which factor most influenced the outbreak of World War II?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Fascism in Spain"
+    },
+    {
+     "label": "B",
+     "text": "Communism in the Soviet Union"
+    },
+    {
+     "label": "C",
+     "text": "Nationalism in China"
+    },
+    {
+     "label": "D",
+     "text": "Militarism in Germany"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-81"
+  },
+  {
+   "n": 32,
+   "stem": "A post–World War II diagram showed a country that: Adopted a democratic constitution Disbanded its military Received U.S. security guarantees and development assistance Which country completes the diagram?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Spain"
+    },
+    {
+     "label": "G",
+     "text": "France"
+    },
+    {
+     "label": "H",
+     "text": "Japan"
+    },
+    {
+     "label": "J",
+     "text": "Russia"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-82"
+  },
+  {
+   "n": 33,
+   "stem": "A headline reading “Marshall sees Europe in Need of Vast New U.S. Aid” reported a result of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the Boxer Rebellion"
+    },
+    {
+     "label": "B",
+     "text": "World War I"
+    },
+    {
+     "label": "C",
+     "text": "the Great Depression"
+    },
+    {
+     "label": "D",
+     "text": "World War II"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-83"
+  },
+  {
+   "n": 34,
+   "stem": "The United States threatened to use nuclear weapons during the —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Iraqi invasion of Kuwait"
+    },
+    {
+     "label": "G",
+     "text": "Chinese Civil War"
+    },
+    {
+     "label": "H",
+     "text": "Soviet invasion of Afghanistan"
+    },
+    {
+     "label": "J",
+     "text": "Cuban Missile Crisis"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-84"
+  },
+  {
+   "n": 35,
+   "stem": "What did Mikhail Gorbachev and Deng Xiaoping have in common?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Military expansion"
+    },
+    {
+     "label": "B",
+     "text": "Industrial buildup"
+    },
+    {
+     "label": "C",
+     "text": "New economic reforms"
+    },
+    {
+     "label": "D",
+     "text": "Tight governmental control"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-85"
+  },
+  {
+   "n": 36,
+   "stem": "A map indicated Taiwan, an island off the southeastern coast of China. Which statement best describes this region?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "British protectorate returned to China"
+    },
+    {
+     "label": "G",
+     "text": "Refuge for Chinese nationalists after civil war"
+    },
+    {
+     "label": "H",
+     "text": "Monastery for a powerful sect"
+    },
+    {
+     "label": "J",
+     "text": "Acquired from Japan after wars"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-86"
+  },
+  {
+   "n": 37,
+   "stem": "A timeline listed: 1. World War I 2. World War II 3. Vietnam War 4. Persian Gulf War U.S. policy of containment began after which event?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-87"
+  },
+  {
+   "n": 38,
+   "stem": "A list included: Development of atomic bomb Mutual distrust between U.S. and USSR Conflicting ideologies Best title?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Causes of Western Imperialism"
+    },
+    {
+     "label": "G",
+     "text": "Causes of the Cold War"
+    },
+    {
+     "label": "H",
+     "text": "Causes of the Great Depression"
+    },
+    {
+     "label": "J",
+     "text": "Causes of World War II"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-88"
+  },
+  {
+   "n": 39,
+   "stem": "“The spirit of democracy cannot be established in the midst of terrorism…” — Mohandas Gandhi This quotation refers to which nation’s rule over India?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Soviet Union"
+    },
+    {
+     "label": "B",
+     "text": "France"
+    },
+    {
+     "label": "C",
+     "text": "Great Britain"
+    },
+    {
+     "label": "D",
+     "text": "China"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-89"
+  },
+  {
+   "n": 40,
+   "stem": "A map showed Algeria, which achieved independence through violent struggle. The darker-shaded nation achieved independence through —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "democratic elections"
+    },
+    {
+     "label": "G",
+     "text": "violent conflict"
+    },
+    {
+     "label": "H",
+     "text": "foreign invasion"
+    },
+    {
+     "label": "J",
+     "text": "peaceful negotiations"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-90"
+  },
+  {
+   "n": 41,
+   "stem": "A 20th-century territorial conflict caused by religious differences was fought between —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Taiwan and China"
+    },
+    {
+     "label": "B",
+     "text": "North and South Korea"
+    },
+    {
+     "label": "C",
+     "text": "Arabs and Israelis"
+    },
+    {
+     "label": "D",
+     "text": "Kuwait and Iraq"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-91"
+  },
+  {
+   "n": 42,
+   "stem": "What is the Torah?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Hindu texts"
+    },
+    {
+     "label": "G",
+     "text": "Sacred writings of the Jews"
+    },
+    {
+     "label": "H",
+     "text": "Islamic laws"
+    },
+    {
+     "label": "J",
+     "text": "Buddhist texts"
+    }
+   ],
+   "answer": "G",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-92"
+  },
+  {
+   "n": 43,
+   "stem": "A diagram showed: New counterterrorism strategies Mounting concerns for personal privacy Which phrase completes the diagram?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "International trade restrictions"
+    },
+    {
+     "label": "B",
+     "text": "Required military enlistments"
+    },
+    {
+     "label": "C",
+     "text": "Heightened surveillance activities"
+    },
+    {
+     "label": "D",
+     "text": "Overseas military operations"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-93"
+  },
+  {
+   "n": 44,
+   "stem": "A map of the Eastern Hemisphere labeled four regions. Region 3 covered most of modern-day India and Pakistan. Which modern-day country includes the area once ruled by the Mughals?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-94"
+  },
+  {
+   "n": 45,
+   "stem": "Which religion had a large population of followers in Europe around 1500?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Buddhism"
+    },
+    {
+     "label": "B",
+     "text": "Shintoism"
+    },
+    {
+     "label": "C",
+     "text": "Hinduism"
+    },
+    {
+     "label": "D",
+     "text": "Judaism"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-95"
+  },
+  {
+   "n": 46,
+   "stem": "A map of Trans-Saharan trade routes showed routes crossing the Sahara Desert connecting North Africa and West Africa. These routes are historically significant because they —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "were used by invading armies"
+    },
+    {
+     "label": "G",
+     "text": "allowed exploration"
+    },
+    {
+     "label": "H",
+     "text": "provided access to food and water"
+    },
+    {
+     "label": "J",
+     "text": "enabled exchange of goods and ideas"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-96"
+  },
+  {
+   "n": 47,
+   "stem": "Which region is most associated with destruction of indigenous empires by Spanish explorers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pacific Islands"
+    },
+    {
+     "label": "B",
+     "text": "Latin America"
+    },
+    {
+     "label": "C",
+     "text": "East Indies"
+    },
+    {
+     "label": "D",
+     "text": "South Africa"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-97"
+  },
+  {
+   "n": 48,
+   "stem": "One reason the Ottoman Turks created a large empire was that they —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "conquered Mughal lands"
+    },
+    {
+     "label": "G",
+     "text": "taxed visitors"
+    },
+    {
+     "label": "H",
+     "text": "used Islam as a unifying force"
+    },
+    {
+     "label": "J",
+     "text": "relied on foreign navies"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-98"
+  },
+  {
+   "n": 49,
+   "stem": "A map of South America highlighted the Andes region. During the 1500s, which empire was located in this area?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Incan"
+    },
+    {
+     "label": "B",
+     "text": "Aztec"
+    },
+    {
+     "label": "C",
+     "text": "Mayan"
+    },
+    {
+     "label": "D",
+     "text": "Anasazi"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-99"
+  },
+  {
+   "n": 50,
+   "stem": "A bar graph showed religious populations (percentages): Jews: ~75% Muslims: ~15% Christians: ~5% Other: ~5% Which country is described by this graph?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Israel"
+    },
+    {
+     "label": "G",
+     "text": "Egypt"
+    },
+    {
+     "label": "H",
+     "text": "India"
+    },
+    {
+     "label": "J",
+     "text": "Turkey"
+    }
+   ],
+   "answer": "F",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-100"
+  },
+  {
+   "n": 51,
+   "stem": "Global business today is made easier primarily because of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "universal currencies"
+    },
+    {
+     "label": "B",
+     "text": "instant communication"
+    },
+    {
+     "label": "C",
+     "text": "common languages"
+    },
+    {
+     "label": "D",
+     "text": "inexpensive transportation"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-101"
+  },
+  {
+   "n": 52,
+   "stem": "Metals mined in Central and South America (1500–1650): Gold: 180 tons Silver: 16,000 tons Which European economy benefited most?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "France"
+    },
+    {
+     "label": "G",
+     "text": "Italy"
+    },
+    {
+     "label": "H",
+     "text": "Spain"
+    },
+    {
+     "label": "J",
+     "text": "England"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-102"
+  },
+  {
+   "n": 53,
+   "stem": "Gold and silver represent wealth Positive balance of trade Expansion of colonialism Government control through tariffs Which economic system is described?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Communism"
+    },
+    {
+     "label": "B",
+     "text": "Mercantilism"
+    },
+    {
+     "label": "C",
+     "text": "Capitalism"
+    },
+    {
+     "label": "D",
+     "text": "Socialism"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-103"
+  },
+  {
+   "n": 54,
+   "stem": "Africa’s main exports during the 17th and 18th centuries were —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "agricultural tools"
+    },
+    {
+     "label": "G",
+     "text": "herbal medicines"
+    },
+    {
+     "label": "H",
+     "text": "raw materials"
+    },
+    {
+     "label": "J",
+     "text": "consumer goods"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-104"
+  },
+  {
+   "n": 55,
+   "stem": "A diagram showed: 17th Century England → Glorious Revolution → English Bill of Rights →? Which phrase completes the sequence?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Strengthening of Parliament"
+    },
+    {
+     "label": "B",
+     "text": "Spread of Renaissance ideals"
+    },
+    {
+     "label": "C",
+     "text": "Establishment of a Commonwealth"
+    },
+    {
+     "label": "D",
+     "text": "Abandonment of mercantilism"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-105"
+  },
+  {
+   "n": 56,
+   "stem": "Which writer most influenced the French Revolution?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Machiavelli"
+    },
+    {
+     "label": "G",
+     "text": "Cervantes"
+    },
+    {
+     "label": "H",
+     "text": "Rousseau"
+    },
+    {
+     "label": "J",
+     "text": "Franklin"
+    }
+   ],
+   "answer": "H",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-106"
+  },
+  {
+   "n": 57,
+   "stem": "Who believed governments should not interfere in free markets?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Karl Marx"
+    },
+    {
+     "label": "B",
+     "text": "Adam Smith"
+    },
+    {
+     "label": "C",
+     "text": "Vladimir Lenin"
+    },
+    {
+     "label": "D",
+     "text": "Adolf Hitler"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-107"
+  },
+  {
+   "n": 58,
+   "stem": "A diagram listed: No private property Equal distribution of wealth Rule of the working class Which phrase best completes the diagram?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Causes of mercantilism"
+    },
+    {
+     "label": "G",
+     "text": "Results of capitalism"
+    },
+    {
+     "label": "H",
+     "text": "Theories of classicism"
+    },
+    {
+     "label": "J",
+     "text": "Principles of communism"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-108"
+  },
+  {
+   "n": 59,
+   "stem": "Right to live Right to be free Right to own property Best title?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Major ideas of John Locke"
+    },
+    {
+     "label": "B",
+     "text": "Themes of Leviathan"
+    },
+    {
+     "label": "C",
+     "text": "Principles of Machiavelli"
+    },
+    {
+     "label": "D",
+     "text": "Ideals of The Communist Manifesto"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-109"
+  },
+  {
+   "n": 60,
+   "stem": "International Monetary Fund (IMF) European Union (EU) World Trade Organization (WTO) Creation of these organizations resulted in —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "containment of communism"
+    },
+    {
+     "label": "G",
+     "text": "establishment of parliamentarianism"
+    },
+    {
+     "label": "H",
+     "text": "reduction of pollution"
+    },
+    {
+     "label": "J",
+     "text": "expansion of economic interdependence"
+    }
+   ],
+   "answer": "J",
+   "source": "History_Grade_10__World_History_and_Geography__1500_A.D._to_the_Present_2012_SOLPass",
+   "id": "grade-10-world-history-and-geography-1500-a-d-to-the-present-110"
+  }
+ ]
+}

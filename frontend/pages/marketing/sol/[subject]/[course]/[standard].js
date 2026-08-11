@@ -1,10 +1,11 @@
 import Link from "next/link";
-import SeoHead, { SITE_NAME, SITE_URL } from "@/components/marketing/SeoHead";
+import SeoHead, { SITE_URL } from "@/components/marketing/SeoHead";
 import JsonLd from "@/components/marketing/JsonLd";
 import MarketingLayout from "@/components/marketing/MarketingLayout";
 import Breadcrumbs from "@/components/marketing/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { getAllStandardParams, getStandardBySlugs } from "@/lib/solCatalog";
+import { buildStandardContent } from "@/lib/standardContent";
 
 export async function getStaticPaths() {
   return {
@@ -24,6 +25,7 @@ export default function StandardPage({
   course,
   domain,
   standard,
+  relatedStandards = [],
   prevStandard,
   nextStandard,
 }) {
@@ -31,8 +33,13 @@ export default function StandardPage({
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")}`;
-  const title = `${standard.code} — ${course.name} SOL Standard | SOL Prep`;
-  const description = `Virginia SOL standard ${standard.code} (${course.name}, ${domain.name}): ${standard.description}`;
+
+  const { keywords, title, description, intro, faqs, faqJsonLd } = buildStandardContent({
+    subject,
+    course,
+    domain,
+    standard,
+  });
 
   const definedTermJsonLd = {
     "@context": "https://schema.org",
@@ -50,6 +57,7 @@ export default function StandardPage({
     <>
       <SeoHead title={title} description={description} path={path} />
       <JsonLd data={definedTermJsonLd} />
+      <JsonLd data={faqJsonLd} />
       <MarketingLayout>
         <div className="container mx-auto max-w-3xl px-4 py-16">
           <Breadcrumbs
@@ -63,26 +71,33 @@ export default function StandardPage({
           />
 
           <p className="mt-4 text-sm font-medium uppercase tracking-wide text-secondary">
-            {domain.name}
+            {course.name} &middot; {domain.name}
           </p>
           <h1 className="font-display mt-2 text-3xl font-bold tracking-tight">
             Virginia SOL {standard.code}
           </h1>
-          <p className="mt-4 text-muted-foreground">{standard.description}</p>
+          <p className="mt-4 text-muted-foreground">{intro}</p>
 
-          <div className="mt-6 flex gap-3">
+          <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild>
-              <a href="/#demo">Try the demo</a>
+              <a href="/#demo">Practice {standard.code}</a>
             </Button>
             <Button asChild variant="outline">
-              <Link href={`/sol/${subject.slug}/${course.slug}`}>Back to {course.name}</Link>
+              <Link href={`/sol/${subject.slug}/${course.slug}`}>All {course.name} standards</Link>
             </Button>
           </div>
+
+          <section aria-labelledby="what-heading" className="mt-12">
+            <h2 id="what-heading" className="text-xl font-semibold">
+              What SOL {standard.code} means
+            </h2>
+            <p className="mt-4 text-sm text-muted-foreground">{standard.description}</p>
+          </section>
 
           {standard.skills.length > 0 && (
             <section aria-labelledby="skills-heading" className="mt-12">
               <h2 id="skills-heading" className="text-xl font-semibold">
-                What students need to be able to do
+                Skills you&rsquo;ll practice for {standard.code}
               </h2>
               <ul className="mt-4 space-y-3">
                 {standard.skills.map((skill, i) => (
@@ -91,6 +106,81 @@ export default function StandardPage({
                   </li>
                 ))}
               </ul>
+            </section>
+          )}
+
+          {keywords.length > 0 && (
+            <section aria-labelledby="concepts-heading" className="mt-12">
+              <h2 id="concepts-heading" className="text-xl font-semibold">
+                Key concepts covered by {standard.code}
+              </h2>
+              <ul className="mt-4 flex flex-wrap gap-2">
+                {keywords.map((kw) => (
+                  <li
+                    key={kw}
+                    className="rounded-full border border-border px-3 py-1 text-xs text-muted-foreground"
+                  >
+                    {kw}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          <section aria-labelledby="study-heading" className="mt-12">
+            <h2 id="study-heading" className="text-xl font-semibold">
+              How to study and practice SOL {standard.code}
+            </h2>
+            <p className="mt-4 text-sm text-muted-foreground">
+              Start with a quick diagnostic to see whether {standard.code} is already solid, then
+              work each skill above with guided notes, flashcards, and SOL-style practice questions.
+              For official released items, see our{" "}
+              <Link href="/guides/virginia-sol-practice-tests" className="text-foreground hover:underline">
+                Virginia SOL practice tests guide
+              </Link>{" "}
+              and{" "}
+              <Link href="/guides/how-to-study-for-the-sol-test" className="text-foreground hover:underline">
+                how to study for the SOL test
+              </Link>
+              .
+            </p>
+          </section>
+
+          {relatedStandards.length > 0 && (
+            <section aria-labelledby="related-heading" className="mt-12">
+              <h2 id="related-heading" className="text-xl font-semibold">
+                Related {course.name} standards in {domain.name}
+              </h2>
+              <ul className="mt-4 space-y-2">
+                {relatedStandards.map((rel) => (
+                  <li key={rel.slug} className="text-sm text-muted-foreground">
+                    <Link
+                      href={`/sol/${subject.slug}/${course.slug}/${rel.slug}`}
+                      className="font-mono text-xs text-foreground hover:underline"
+                    >
+                      {rel.code}
+                    </Link>
+                    {" — "}
+                    {rel.description}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {faqs.length > 0 && (
+            <section aria-labelledby="faq-heading" className="mt-12">
+              <h2 id="faq-heading" className="text-xl font-semibold">
+                Frequently asked questions about SOL {standard.code}
+              </h2>
+              <div className="mt-6 space-y-6">
+                {faqs.map((f) => (
+                  <div key={f.q}>
+                    <h3 className="font-semibold">{f.q}</h3>
+                    <p className="mt-1 text-sm text-muted-foreground">{f.a}</p>
+                  </div>
+                ))}
+              </div>
             </section>
           )}
 

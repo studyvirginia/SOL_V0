@@ -99,7 +99,10 @@ export default function MarketingHome({ subjects }) {
 
   return (
     <>
-      <SeoHead />
+      <SeoHead
+        title="Virginia SOL Practice Tests & AI Study Assistant | SOL Prep"
+        description="Free Virginia SOL practice tests and an AI study assistant for every subject and grade — practice questions, diagnostics, and study guides mapped to the SOL standards."
+      />
       <JsonLd data={organizationJsonLd} />
       <JsonLd data={websiteJsonLd} />
       <JsonLd data={faqJsonLd} />
@@ -110,12 +113,13 @@ export default function MarketingHome({ subjects }) {
               Coming soon
             </p>
             <h1 className="font-display text-4xl font-bold tracking-tight sm:text-5xl">
-              An AI study assistant built for Virginia SOL exams
+              Virginia SOL practice, powered by an AI study assistant
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-lg text-muted-foreground">
-              Diagnostics, guided notes, flashcards, mnemonics, and practice
-              questions — all mapped directly to the Standards of Learning
-              you're actually tested on.
+              Diagnostics, guided notes, flashcards, mnemonics, and SOL-style
+              practice questions — all mapped directly to the Virginia Standards
+              of Learning you're actually tested on, with links to official VDOE
+              released tests.
             </p>
             <div className="mt-8 flex items-center justify-center gap-3">
               <Button asChild size="lg">

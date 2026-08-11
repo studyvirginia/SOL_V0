@@ -1,0 +1,6967 @@
+{
+ "subject": "science",
+ "course": "chemistry-i",
+ "courseName": "Chemistry I",
+ "questionCount": 278,
+ "sources": [
+  "Science_Chemistry_I_2000_SOLPass",
+  "Science_Chemistry_I_2003_SOLPass",
+  "Science_Chemistry_I_2004_SOLPass",
+  "Science_Chemistry_I_2005_SOLPass",
+  "Science_Chemistry_I_2008_SOLPass",
+  "Science_Chemistry_I_2015_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "If a student needed to obtain 8.0 mL of a liquid for an experiment, the appropriate piece of laboratory equipment to use would be a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "50 mL beaker"
+    },
+    {
+     "label": "B",
+     "text": "1.0 mL pipet"
+    },
+    {
+     "label": "C",
+     "text": "50 mL flask"
+    },
+    {
+     "label": "D",
+     "text": "10.0 mL graduated cylinder"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-1"
+  },
+  {
+   "n": 2,
+   "stem": "How many grams of sodium chloride are required to prepare 500.0 mL of a 0.100 M solution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1.46 g"
+    },
+    {
+     "label": "B",
+     "text": "2.93 g"
+    },
+    {
+     "label": "C",
+     "text": "29.3 g"
+    },
+    {
+     "label": "D",
+     "text": "58.5 g"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-2"
+  },
+  {
+   "n": 3,
+   "stem": "Which of the following best describes why an experiment should be repeated?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To organize the data"
+    },
+    {
+     "label": "B",
+     "text": "To produce a variety of results"
+    },
+    {
+     "label": "C",
+     "text": "To include another variable"
+    },
+    {
+     "label": "D",
+     "text": "To verify the observed results"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-3"
+  },
+  {
+   "n": 4,
+   "stem": "Which of these is the general formula for a double-replacement reaction?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A + B → AB"
+    },
+    {
+     "label": "B",
+     "text": "AB + XY → BA + YX"
+    },
+    {
+     "label": "C",
+     "text": "AB + XY → AY + XB"
+    },
+    {
+     "label": "D",
+     "text": "A + B + XY → AX + BY"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-4"
+  },
+  {
+   "n": 5,
+   "stem": "The correct formula of an ionic compound containing Al³⁺ and CO₃²⁻ is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "AlCO₃"
+    },
+    {
+     "label": "B",
+     "text": "Al(CO₃)₃"
+    },
+    {
+     "label": "C",
+     "text": "Al₂(CO₃)₃"
+    },
+    {
+     "label": "D",
+     "text": "Al₃(CO₃)₂"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-5"
+  },
+  {
+   "n": 6,
+   "stem": "Which of the following orbital diagrams is incorrect because it violates Hund’s rule? Each option represents the filling of the 1s, 2s, and three 2p orbitals (2pₓ, 2pᵧ, 2p_z). Hund’s rule states that electrons occupy degenerate orbitals singly with parallel spins before pairing.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Electrons fill 1s and 2s, then one electron in each of the three 2p orbitals before pairing"
+    },
+    {
+     "label": "B",
+     "text": "Electrons fill 1s and 2s, then two electrons paired in one 2p orbital while the other 2p orbitals are empty"
+    },
+    {
+     "label": "C",
+     "text": "Electrons fill 1s and 2s, then one electron in each 2p orbital with parallel spins"
+    },
+    {
+     "label": "D",
+     "text": "Electrons fill 1s and 2s, then electrons pair only after all three 2p orbitals contain one electron"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-6"
+  },
+  {
+   "n": 7,
+   "stem": "The rate of a certain reaction increases with temperature. According to the data, at 20 °C the rate is approximately half of the rate at 40 °C. To double the rate of the reaction starting at 20 °C, the temperature must be increased by approximately —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10 °C"
+    },
+    {
+     "label": "B",
+     "text": "20 °C"
+    },
+    {
+     "label": "C",
+     "text": "30 °C"
+    },
+    {
+     "label": "D",
+     "text": "40 °C"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-7"
+  },
+  {
+   "n": 8,
+   "stem": "Aluminum + sulfuric acid → aluminum sulfate + hydrogen gas Which of the following is the balanced chemical equation for the reaction shown above?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Al + H₂SO₄ → Al₂(SO₄)₃ + H₂"
+    },
+    {
+     "label": "B",
+     "text": "2Al + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂"
+    },
+    {
+     "label": "C",
+     "text": "2Al + 3H₂SO₄ → Al₂(SO₄)₃ + H₂"
+    },
+    {
+     "label": "D",
+     "text": "2Al + H₂SO₄ → Al₂(SO₄)₃ + H₂"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-8"
+  },
+  {
+   "n": 9,
+   "stem": "W + X → Y + Z If 12.0 g of W react with 10.0 g of X to form 8.0 g of product Y, how many grams of product Z are formed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8.0 g"
+    },
+    {
+     "label": "B",
+     "text": "10.0 g"
+    },
+    {
+     "label": "C",
+     "text": "12.0 g"
+    },
+    {
+     "label": "D",
+     "text": "14.0 g"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-9"
+  },
+  {
+   "n": 10,
+   "stem": "A laboratory safety data summary for hydrochloric acid (HCl) indicates the following hazard ratings on a scale from 0 (no hazard) to 4 (extreme hazard): • Health: 3 (severe) • Flammability: 0 (none) • Reactivity: 2 (moderate) • Contact: 3 (severe, corrosive) If a lab group were using hydrochloric acid to perform a substitution reaction, which precaution would not be a concern?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Flammability"
+    },
+    {
+     "label": "B",
+     "text": "Health"
+    },
+    {
+     "label": "C",
+     "text": "Reactivity"
+    },
+    {
+     "label": "D",
+     "text": "Contact"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-10"
+  },
+  {
+   "n": 11,
+   "stem": "A compound is shown to consist of hydrogen atoms bonded to a central element Z, forming molecules in which two hydrogen atoms are bonded to each Z atom (H–Z–H). Based on this bonding pattern, to which group on the periodic table does element Z most likely belong?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Group 13"
+    },
+    {
+     "label": "B",
+     "text": "Group 14"
+    },
+    {
+     "label": "C",
+     "text": "Group 15"
+    },
+    {
+     "label": "D",
+     "text": "Group 16"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-11"
+  },
+  {
+   "n": 12,
+   "stem": "First measurement: 6.293 g Second measurement: 6.294 g Third measurement: 6.295 g If the true value of the object’s mass is 5.550 g, these data are best described as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "precise but not accurate"
+    },
+    {
+     "label": "B",
+     "text": "accurate but not precise"
+    },
+    {
+     "label": "C",
+     "text": "accurate and precise"
+    },
+    {
+     "label": "D",
+     "text": "neither accurate nor precise"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-12"
+  },
+  {
+   "n": 13,
+   "stem": "Which of the following is the name of the molecule PCl₃?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Phosphorus trichloride"
+    },
+    {
+     "label": "B",
+     "text": "Phosphorus chloride"
+    },
+    {
+     "label": "C",
+     "text": "Potassium trichloride"
+    },
+    {
+     "label": "D",
+     "text": "Potassium chloride"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-13"
+  },
+  {
+   "n": 14,
+   "stem": "What is the main similarity among elements in group 2 of the periodic table?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Atomic radius"
+    },
+    {
+     "label": "B",
+     "text": "Chemical properties"
+    },
+    {
+     "label": "C",
+     "text": "Mass number"
+    },
+    {
+     "label": "D",
+     "text": "Boiling point"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-14"
+  },
+  {
+   "n": 15,
+   "stem": "Four trials were conducted to determine the density of the same material. The accepted value of the density is 5.72 g/cm³. Trial 1: mass 14.5 g, volume 2.52 cm³, density 5.75 g/cm³ Trial 2: mass 28.3 g, volume 4.80 cm³, density 5.90 g/cm³ Trial 3: mass 33.1 g, volume 5.75 cm³, density 5.76 g/cm³ Trial 4: mass 55.4 g, volume 9.62 cm³, density 5.76 g/cm³ Which trial has the least amount of absolute error?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-15"
+  },
+  {
+   "n": 16,
+   "stem": "The gas with the largest volume at STP is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10.0 g He"
+    },
+    {
+     "label": "B",
+     "text": "10.0 g Ne"
+    },
+    {
+     "label": "C",
+     "text": "10.0 g Ar"
+    },
+    {
+     "label": "D",
+     "text": "10.0 g Kr"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-16"
+  },
+  {
+   "n": 17,
+   "stem": "A neutral atom of aluminum-27 contains —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "13 protons and 27 electrons"
+    },
+    {
+     "label": "B",
+     "text": "14 protons and 13 neutrons"
+    },
+    {
+     "label": "C",
+     "text": "13 electrons, 13 protons, and 14 neutrons"
+    },
+    {
+     "label": "D",
+     "text": "13 electrons, 14 protons, and 13 neutrons"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-17"
+  },
+  {
+   "n": 18,
+   "stem": "Which of the following could cause a gaseous substance to liquefy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "An increase in pressure"
+    },
+    {
+     "label": "B",
+     "text": "An increase in volume"
+    },
+    {
+     "label": "C",
+     "text": "An increase in temperature"
+    },
+    {
+     "label": "D",
+     "text": "A decrease in number of moles"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-18"
+  },
+  {
+   "n": 19,
+   "stem": "The appropriate model for a decomposition reaction is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "AB → A + B"
+    },
+    {
+     "label": "B",
+     "text": "A + B → AB"
+    },
+    {
+     "label": "C",
+     "text": "AB + C → AC + B"
+    },
+    {
+     "label": "D",
+     "text": "A + BC → AB + C"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-19"
+  },
+  {
+   "n": 20,
+   "stem": "According to Charles’ law, the volume of a fixed amount of gas is directly proportional to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "isoelectric mixture"
+    },
+    {
+     "label": "B",
+     "text": "vapor concentration"
+    },
+    {
+     "label": "C",
+     "text": "barometric pressure"
+    },
+    {
+     "label": "D",
+     "text": "kelvin temperature"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-20"
+  },
+  {
+   "n": 21,
+   "stem": "Four elements have the following numbers of subatomic particles: Element 1: 11 protons, 12 neutrons, 10 electrons Element 2: 1 proton, 0 neutrons, 2 electrons Element 3: 15 protons, 16 neutrons, 15 electrons Element 4: 20 protons, 20 neutrons, 18 electrons Which element is a positive ion with a charge of +1?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-21"
+  },
+  {
+   "n": 22,
+   "stem": "The energy required to melt a solid into a liquid is called —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "heat of vaporization"
+    },
+    {
+     "label": "B",
+     "text": "heat of fusion"
+    },
+    {
+     "label": "C",
+     "text": "cooling curve"
+    },
+    {
+     "label": "D",
+     "text": "triple point"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-22"
+  },
+  {
+   "n": 23,
+   "stem": "Cations are formed when neutral atoms lose —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "electrons"
+    },
+    {
+     "label": "B",
+     "text": "protons"
+    },
+    {
+     "label": "C",
+     "text": "neutrons"
+    },
+    {
+     "label": "D",
+     "text": "positrons"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-23"
+  },
+  {
+   "n": 24,
+   "stem": "What is represented by the pH of a solution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Partial pressure of hydrogen ions in the solution"
+    },
+    {
+     "label": "B",
+     "text": "Electronegativity of dissociated hydrogen ions"
+    },
+    {
+     "label": "C",
+     "text": "Concentration of hydrogen ions in the solution"
+    },
+    {
+     "label": "D",
+     "text": "Temperature of hydrogen ions in the solution"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-24"
+  },
+  {
+   "n": 25,
+   "stem": "The formula for dinitrogen tetroxide is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "N₂O₄"
+    },
+    {
+     "label": "B",
+     "text": "NO₃"
+    },
+    {
+     "label": "C",
+     "text": "N₂O₂"
+    },
+    {
+     "label": "D",
+     "text": "NO"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-25"
+  },
+  {
+   "n": 26,
+   "stem": "A colored ink sample is placed on absorbent paper, and a solvent moves upward through the paper, separating the ink into distinct colored components at different heights based on differing attractions to the paper and solvent. Which laboratory technique is being used?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Chromatography"
+    },
+    {
+     "label": "B",
+     "text": "Filtration"
+    },
+    {
+     "label": "C",
+     "text": "Decanting"
+    },
+    {
+     "label": "D",
+     "text": "Distillation"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-26"
+  },
+  {
+   "n": 27,
+   "stem": "Industrial deep-sea divers breathe a mixture of helium and oxygen to prevent nitrogen narcosis. If a diver’s tank has a total pressure of 170 atm and the partial pressure of helium is 110 atm, what is the partial pressure of oxygen?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "60 atm"
+    },
+    {
+     "label": "B",
+     "text": "110 atm"
+    },
+    {
+     "label": "C",
+     "text": "140 atm"
+    },
+    {
+     "label": "D",
+     "text": "280 atm"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-27"
+  },
+  {
+   "n": 28,
+   "stem": "Which of the following properties decreases from left to right across a period on the periodic table?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Atomic number"
+    },
+    {
+     "label": "B",
+     "text": "Electronegativity"
+    },
+    {
+     "label": "C",
+     "text": "Atomic radius"
+    },
+    {
+     "label": "D",
+     "text": "Ionization energy"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-28"
+  },
+  {
+   "n": 29,
+   "stem": "A sample of nitrogen occupies 10.0 L at 25 °C and 98.7 kPa. What would be the volume at 20 °C and 102.7 kPa?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7.87 L"
+    },
+    {
+     "label": "B",
+     "text": "9.45 L"
+    },
+    {
+     "label": "C",
+     "text": "10.2 L"
+    },
+    {
+     "label": "D",
+     "text": "10.6 L"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-29"
+  },
+  {
+   "n": 30,
+   "stem": "Arsenic is in group 15 and has five valence electrons. Which Lewis dot structure correctly represents arsenic?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "As with three dots"
+    },
+    {
+     "label": "B",
+     "text": "As with four dots"
+    },
+    {
+     "label": "C",
+     "text": "As with five dots, one on each side before pairing"
+    },
+    {
+     "label": "D",
+     "text": "As with eight dots"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-30"
+  },
+  {
+   "n": 31,
+   "stem": "The empirical formula for a substance is CH₂. If the molecular mass of the substance is 56, the molecular formula is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "C₂H₄"
+    },
+    {
+     "label": "B",
+     "text": "C₃H₆"
+    },
+    {
+     "label": "C",
+     "text": "C₄H₈"
+    },
+    {
+     "label": "D",
+     "text": "C₅H₁₀"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-31"
+  },
+  {
+   "n": 32,
+   "stem": "H₂O(l) ⇌ H₂O(g) Water molecules in a sealed jar are in a state of dynamic equilibrium because water vapor molecules —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "are condensing at the same rate that others are evaporating"
+    },
+    {
+     "label": "B",
+     "text": "cease to form when the air becomes saturated"
+    },
+    {
+     "label": "C",
+     "text": "are evaporating faster than they are condensing"
+    },
+    {
+     "label": "D",
+     "text": "form only at high temperatures"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-32"
+  },
+  {
+   "n": 33,
+   "stem": "Benzene has a six-carbon ring with alternating double bonds, and each carbon is bonded to one hydrogen atom. The empirical and molecular formulas of benzene are, respectively —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "CH, C₂H₂"
+    },
+    {
+     "label": "B",
+     "text": "CH, C₃H₃"
+    },
+    {
+     "label": "C",
+     "text": "CH, C₆H₆"
+    },
+    {
+     "label": "D",
+     "text": "CH₂, C₆H₆"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-33"
+  },
+  {
+   "n": 34,
+   "stem": "How many grams of nitrogen are present in 2 moles of HNO₃?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 g"
+    },
+    {
+     "label": "B",
+     "text": "2 g"
+    },
+    {
+     "label": "C",
+     "text": "14 g"
+    },
+    {
+     "label": "D",
+     "text": "28 g"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-34"
+  },
+  {
+   "n": 35,
+   "stem": "Which basic lab technique involves the separation of a mixture’s components through differences in particle size?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Filtration"
+    },
+    {
+     "label": "B",
+     "text": "Extraction"
+    },
+    {
+     "label": "C",
+     "text": "Distillation"
+    },
+    {
+     "label": "D",
+     "text": "Crystallization"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-35"
+  },
+  {
+   "n": 36,
+   "stem": "The pressure of an ideal gas decreases linearly as volume increases. When the volume increases from 100 mL to 150 mL, the pressure decreases by 80 kPa. According to this relationship, increasing the volume from 100 mL to 150 mL —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "decreases the pressure by 80 kPa"
+    },
+    {
+     "label": "B",
+     "text": "decreases the pressure by 160 kPa"
+    },
+    {
+     "label": "C",
+     "text": "increases the pressure by 80 kPa"
+    },
+    {
+     "label": "D",
+     "text": "increases the pressure by 160 kPa"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-36"
+  },
+  {
+   "n": 37,
+   "stem": "Al + HCl → AlCl₃ + H₂ When the equation above is balanced, the coefficient of hydrochloric acid will be —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-37"
+  },
+  {
+   "n": 38,
+   "stem": "Which of the following occurs when a reaction in solution is at equilibrium and more product is added?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Equilibrium shifts to produce more product"
+    },
+    {
+     "label": "B",
+     "text": "Equilibrium shifts to produce more reactant"
+    },
+    {
+     "label": "C",
+     "text": "No change occurs"
+    },
+    {
+     "label": "D",
+     "text": "The reaction stops"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-38"
+  },
+  {
+   "n": 39,
+   "stem": "Two identical balloons contain the same number of moles of gas. Balloon B is larger than Balloon A. Which of the following best explains this observation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The gas in Balloon A is under less pressure"
+    },
+    {
+     "label": "B",
+     "text": "The gas in Balloon A is warmer"
+    },
+    {
+     "label": "C",
+     "text": "The gas in Balloon B is under more pressure"
+    },
+    {
+     "label": "D",
+     "text": "The gas in Balloon B is warmer"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-39"
+  },
+  {
+   "n": 40,
+   "stem": "The atomic number corresponds to an atom’s number of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "protons"
+    },
+    {
+     "label": "B",
+     "text": "neutrons"
+    },
+    {
+     "label": "C",
+     "text": "electrons"
+    },
+    {
+     "label": "D",
+     "text": "positrons"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-40"
+  },
+  {
+   "n": 41,
+   "stem": "A vapor-pressure curve for water shows that at 70 kPa, water boils at approximately 92 °C. If the atmospheric pressure in a flask is lowered to 70 kPa, water would boil at —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "32 °C"
+    },
+    {
+     "label": "B",
+     "text": "70 °C"
+    },
+    {
+     "label": "C",
+     "text": "92 °C"
+    },
+    {
+     "label": "D",
+     "text": "100 °C"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-41"
+  },
+  {
+   "n": 42,
+   "stem": "How many moles of copper are equivalent to 3.44 × 10²³ atoms of copper?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.571 mol"
+    },
+    {
+     "label": "B",
+     "text": "1.75 mol"
+    },
+    {
+     "label": "C",
+     "text": "5.41 × 10²¹ mol"
+    },
+    {
+     "label": "D",
+     "text": "5.71 × 10²² mol"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-42"
+  },
+  {
+   "n": 43,
+   "stem": "Which element naturally occurs as a diatomic molecule?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Zn"
+    },
+    {
+     "label": "B",
+     "text": "C"
+    },
+    {
+     "label": "C",
+     "text": "K"
+    },
+    {
+     "label": "D",
+     "text": "H"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-43"
+  },
+  {
+   "n": 44,
+   "stem": "What is the molar mass of Al(NO₃)₃?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "57 g/mol"
+    },
+    {
+     "label": "B",
+     "text": "103 g/mol"
+    },
+    {
+     "label": "C",
+     "text": "165 g/mol"
+    },
+    {
+     "label": "D",
+     "text": "213 g/mol"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-44"
+  },
+  {
+   "n": 45,
+   "stem": "What shape does the molecule BF₃ have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Bent"
+    },
+    {
+     "label": "B",
+     "text": "Linear"
+    },
+    {
+     "label": "C",
+     "text": "Tetrahedral"
+    },
+    {
+     "label": "D",
+     "text": "Trigonal planar"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-45"
+  },
+  {
+   "n": 46,
+   "stem": "What is the mass in grams of one mole of sulfur dioxide (SO₂)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "48.1 g"
+    },
+    {
+     "label": "B",
+     "text": "64.1 g"
+    },
+    {
+     "label": "C",
+     "text": "80.1 g"
+    },
+    {
+     "label": "D",
+     "text": "96.1 g"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-46"
+  },
+  {
+   "n": 47,
+   "stem": "Ca(OH)₂ + Al₂(SO₄)₃ → CaSO₄ + Al(OH)₃ When the equation above is balanced, the coefficients in order are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1, 1, 1, 1"
+    },
+    {
+     "label": "B",
+     "text": "2, 1, 1, 2"
+    },
+    {
+     "label": "C",
+     "text": "3, 1, 3, 2"
+    },
+    {
+     "label": "D",
+     "text": "3, 2, 2, 1"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-47"
+  },
+  {
+   "n": 48,
+   "stem": "Solid magnesium has a specific heat of 1.01 J/g·°C. How much heat is given off by a 20.0 g sample when it cools from 70.0 °C to 50.0 °C?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "202 J"
+    },
+    {
+     "label": "B",
+     "text": "404 J"
+    },
+    {
+     "label": "C",
+     "text": "808 J"
+    },
+    {
+     "label": "D",
+     "text": "1010 J"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-48"
+  },
+  {
+   "n": 50,
+   "stem": "How should 0.000365 be expressed in proper scientific notation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3.65 × 10⁴"
+    },
+    {
+     "label": "B",
+     "text": "365"
+    },
+    {
+     "label": "C",
+     "text": "3.65"
+    },
+    {
+     "label": "D",
+     "text": "3.65 × 10⁻⁴"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2004_SOLPass",
+   "id": "chemistry-i-49"
+  },
+  {
+   "n": 1,
+   "stem": "A student performed a series of titrations to find the concentration of an unknown acid. The results are listed below. Trial 1: 0.971 M Trial 2: 0.982 M Trial 3: 1.02 M Trial 4: 0.971 M Trial 5: 0.976 M What is the mean of this set of data?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.971 M"
+    },
+    {
+     "label": "B",
+     "text": "0.976 M"
+    },
+    {
+     "label": "C",
+     "text": "0.984 M"
+    },
+    {
+     "label": "D",
+     "text": "1.00 M"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-50"
+  },
+  {
+   "n": 2,
+   "stem": "Iodine-131 is a radioactive isotope with a half-life of 8 days. How many grams of a 64 g sample of iodine-131 will remain at the end of 24 days?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "56 g"
+    },
+    {
+     "label": "B",
+     "text": "48 g"
+    },
+    {
+     "label": "C",
+     "text": "32 g"
+    },
+    {
+     "label": "D",
+     "text": "8 g"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-51"
+  },
+  {
+   "n": 3,
+   "stem": "Which of the following is the correct name for the compound MnF₃?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Manganese fluoride(III)"
+    },
+    {
+     "label": "B",
+     "text": "Manganese(III) fluoride"
+    },
+    {
+     "label": "C",
+     "text": "Manganese(I) fluoride(III)"
+    },
+    {
+     "label": "D",
+     "text": "Manganese(III) fluoride(II)"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-52"
+  },
+  {
+   "n": 4,
+   "stem": "The name of the salt formed by the neutralization of hydrochloric acid and sodium hydroxide is—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "sodium chloride"
+    },
+    {
+     "label": "B",
+     "text": "sodium chlorate"
+    },
+    {
+     "label": "C",
+     "text": "sodium chlorite"
+    },
+    {
+     "label": "D",
+     "text": "sodium hypochlorite"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-53"
+  },
+  {
+   "n": 5,
+   "stem": "If the quantity of heat lost or gained is ΔH = mass × change in temperature × specific heat, what is the amount of heat required to raise 200.0 g of water from 22.0°C to 100.0°C? The specific heat of water is 4.180 J/(g·°C).",
+   "choices": [
+    {
+     "label": "A",
+     "text": "652.1 J"
+    },
+    {
+     "label": "B",
+     "text": "6,521 J"
+    },
+    {
+     "label": "C",
+     "text": "65,210 J"
+    },
+    {
+     "label": "D",
+     "text": "652,100 J"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-54"
+  },
+  {
+   "n": 6,
+   "stem": "For the equation Mg(OH)₂ + HCl → MgCl₂ + H₂O the coefficients necessary to balance the equation correctly are—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a = 2, b = 1, c = 1, d = 2"
+    },
+    {
+     "label": "B",
+     "text": "a = 1, b = 2, c = 1, d = 2"
+    },
+    {
+     "label": "C",
+     "text": "a = 1, b = 1, c = 1, d = 1"
+    },
+    {
+     "label": "D",
+     "text": "a = 2, b = 2, c = 1, d = 1"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-55"
+  },
+  {
+   "n": 7,
+   "stem": "A balloon is filled with 3.8 L of helium gas at STP. Approximately how many moles of helium are contained in the balloon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.17 mol"
+    },
+    {
+     "label": "B",
+     "text": "0.26 mol"
+    },
+    {
+     "label": "C",
+     "text": "72 mol"
+    },
+    {
+     "label": "D",
+     "text": "85 mol"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-56"
+  },
+  {
+   "n": 8,
+   "stem": "Which of these elements has the smallest atomic radius?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Beryllium (Be)"
+    },
+    {
+     "label": "B",
+     "text": "Oxygen (O)"
+    },
+    {
+     "label": "C",
+     "text": "Sodium (Na)"
+    },
+    {
+     "label": "D",
+     "text": "Sulfur (S)"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-57"
+  },
+  {
+   "n": 9,
+   "stem": "If 250.0 mL of a 0.96 M solution of acetic acid (C₂H₄O₂) is diluted to 800.0 mL, what will be the approximate molarity of the final solution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.19 M"
+    },
+    {
+     "label": "B",
+     "text": "0.24 M"
+    },
+    {
+     "label": "C",
+     "text": "0.30 M"
+    },
+    {
+     "label": "D",
+     "text": "0.77 M"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-58"
+  },
+  {
+   "n": 10,
+   "stem": "An atom contains 70 protons, 70 electrons, and 99 neutrons. What is the mass number?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "239"
+    },
+    {
+     "label": "B",
+     "text": "169"
+    },
+    {
+     "label": "C",
+     "text": "140"
+    },
+    {
+     "label": "D",
+     "text": "70"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-59"
+  },
+  {
+   "n": 11,
+   "stem": "Which set of equipment would be most useful to determine the density of a liquid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Balance and periodic table"
+    },
+    {
+     "label": "B",
+     "text": "Periodic table and thermometer"
+    },
+    {
+     "label": "C",
+     "text": "Balance and graduated cylinder"
+    },
+    {
+     "label": "D",
+     "text": "Graduated cylinder and thermometer"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-60"
+  },
+  {
+   "n": 12,
+   "stem": "Sodium chloride conducts electricity when dissolved in water. What type of bond is present in NaCl?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nonpolar covalent"
+    },
+    {
+     "label": "B",
+     "text": "Polar covalent"
+    },
+    {
+     "label": "C",
+     "text": "Hydrogen"
+    },
+    {
+     "label": "D",
+     "text": "Ionic"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-61"
+  },
+  {
+   "n": 13,
+   "stem": "A mixture is poured through filter paper in a funnel into a test tube, separating solid particles from a liquid. Which of the following substances is least likely to pass through the filter paper into the test tube?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Dissolved gases"
+    },
+    {
+     "label": "B",
+     "text": "Dissolved salts"
+    },
+    {
+     "label": "C",
+     "text": "Liquid solvents"
+    },
+    {
+     "label": "D",
+     "text": "Solid particles"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-62"
+  },
+  {
+   "n": 14,
+   "stem": "Which of the following represents the Lewis dot diagram of ammonia (NH₃), showing nitrogen as the central atom with three single bonds to hydrogen and one lone pair of electrons on nitrogen?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "H–N–H with one lone pair on nitrogen and a third H bonded to N"
+    },
+    {
+     "label": "B",
+     "text": "H–H–N–H with no lone pairs"
+    },
+    {
+     "label": "C",
+     "text": "N bonded to three H atoms with no lone pair"
+    },
+    {
+     "label": "D",
+     "text": "H–N–H with two lone pairs on nitrogen"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-63"
+  },
+  {
+   "n": 15,
+   "stem": "After 1911, most scientists accepted the theory that the nucleus of an atom was very dense, very small, and had a positive charge. What led scientists to accept this theory?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Dalton’s theory of the atom was over 100 years old."
+    },
+    {
+     "label": "B",
+     "text": "Scientists before 1911 used the scientific method improperly."
+    },
+    {
+     "label": "C",
+     "text": "A new model proved that quantum theory was inaccurate."
+    },
+    {
+     "label": "D",
+     "text": "Rutherford fired alpha particles at a thin sheet of gold foil."
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-64"
+  },
+  {
+   "n": 16,
+   "stem": "A sodium atom has an electron configuration of 1s² 2s² 2p⁶ 3s¹. If the sodium atom becomes ionized, its new electron configuration will be the same as which element?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Lithium"
+    },
+    {
+     "label": "B",
+     "text": "Neon"
+    },
+    {
+     "label": "C",
+     "text": "Magnesium"
+    },
+    {
+     "label": "D",
+     "text": "Potassium"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-65"
+  },
+  {
+   "n": 17,
+   "stem": "Which reaction is correctly balanced?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Fe₂ + CuSO₄ → FeSO₄ + Cu"
+    },
+    {
+     "label": "B",
+     "text": "Fe + CuSO₄ → FeSO₄ + Cu"
+    },
+    {
+     "label": "C",
+     "text": "2Fe + CuSO₄ → 2FeSO₄ + Cu"
+    },
+    {
+     "label": "D",
+     "text": "Fe + 2CuSO₄ → 2FeSO₄ + Cu"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-66"
+  },
+  {
+   "n": 18,
+   "stem": "Which of the following particles has a positive one (+1) charge?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Alpha particle"
+    },
+    {
+     "label": "B",
+     "text": "Electron"
+    },
+    {
+     "label": "C",
+     "text": "Neutron"
+    },
+    {
+     "label": "D",
+     "text": "Proton"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-67"
+  },
+  {
+   "n": 19,
+   "stem": "What is the mass of one mole of CO₂?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "24 g"
+    },
+    {
+     "label": "B",
+     "text": "28 g"
+    },
+    {
+     "label": "C",
+     "text": "44 g"
+    },
+    {
+     "label": "D",
+     "text": "56 g"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-68"
+  },
+  {
+   "n": 20,
+   "stem": "According to the periodic table, magnesium will most likely react with elements in which group?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Group 1"
+    },
+    {
+     "label": "B",
+     "text": "Group 2"
+    },
+    {
+     "label": "C",
+     "text": "Group 17"
+    },
+    {
+     "label": "D",
+     "text": "Group 18"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-69"
+  },
+  {
+   "n": 21,
+   "stem": "A sample of gas is enclosed in a cylinder with a movable piston. If the temperature is kept constant and the piston moves downward, decreasing the volume, the pressure increases because the gas particles—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "expand"
+    },
+    {
+     "label": "B",
+     "text": "lose velocity"
+    },
+    {
+     "label": "C",
+     "text": "become smaller"
+    },
+    {
+     "label": "D",
+     "text": "collide more frequently with the container walls"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-70"
+  },
+  {
+   "n": 22,
+   "stem": "Which of the following shows the correct number of atoms of each element in the formula Mg(NO₃)₂?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 magnesium atom, 2 nitrogen atoms, and 6 oxygen atoms"
+    },
+    {
+     "label": "B",
+     "text": "1 magnesium atom, 2 nitrogen atoms, and 5 oxygen atoms"
+    },
+    {
+     "label": "C",
+     "text": "1 magnesium atom, 1 nitrogen atom, and 6 oxygen atoms"
+    },
+    {
+     "label": "D",
+     "text": "1 magnesium atom, 1 nitrogen atom, and 5 oxygen atoms"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-71"
+  },
+  {
+   "n": 23,
+   "stem": "A student is given a container of potassium nitrate crystals. To determine the exact mass of the potassium nitrate using a triple-beam balance, the student must know—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the mass of the filled container and the chemical formula"
+    },
+    {
+     "label": "B",
+     "text": "the mass of the filled container and the density"
+    },
+    {
+     "label": "C",
+     "text": "the volume of the filled container and the volume of the crystals"
+    },
+    {
+     "label": "D",
+     "text": "the mass of the empty container and the mass of the filled container"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-72"
+  },
+  {
+   "n": 24,
+   "stem": "Carbon has two naturally occurring isotopes: C-12 (98.89%) and C-13 (1.108%). Which calculation should be used to determine the atomic mass of carbon?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "(12 × 0.01108) + (13 × 0.9889)"
+    },
+    {
+     "label": "B",
+     "text": "(12 × 0.9889) − (13 × 0.01108)"
+    },
+    {
+     "label": "C",
+     "text": "(12 × 0.9889) + (13 × 0.01108)"
+    },
+    {
+     "label": "D",
+     "text": "(12 × 0.9889)"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-73"
+  },
+  {
+   "n": 25,
+   "stem": "AB + energy → A + B The general equation shown represents a reaction that is—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "exothermic decomposition"
+    },
+    {
+     "label": "B",
+     "text": "endothermic decomposition"
+    },
+    {
+     "label": "C",
+     "text": "endothermic synthesis"
+    },
+    {
+     "label": "D",
+     "text": "exothermic synthesis"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-74"
+  },
+  {
+   "n": 26,
+   "stem": "A graph shows temperature on the vertical axis and heat added on the horizontal axis. Between point X and point Y, heat is added but the temperature remains constant. What most likely happens as the compound is heated from point X to point Y?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The phase of the compound changes."
+    },
+    {
+     "label": "B",
+     "text": "The mass of the compound increases."
+    },
+    {
+     "label": "C",
+     "text": "The molecules lose potential energy."
+    },
+    {
+     "label": "D",
+     "text": "The molecules break apart into atoms."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-75"
+  },
+  {
+   "n": 27,
+   "stem": "To determine the identity of a substance, a student lists several properties. Which of the following is a chemical property?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Oxidizes in air"
+    },
+    {
+     "label": "B",
+     "text": "Conducts an electric current"
+    },
+    {
+     "label": "C",
+     "text": "Attraction to a magnet"
+    },
+    {
+     "label": "D",
+     "text": "Dissolves in water"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-76"
+  },
+  {
+   "n": 28,
+   "stem": "A study lists properties of water and includes a graph showing vapor pressure (in mm Hg) on the vertical axis versus temperature (°C) on the horizontal axis from 0°C to 100°C. What is the independent variable in the study?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Molar mass"
+    },
+    {
+     "label": "B",
+     "text": "Melting point"
+    },
+    {
+     "label": "C",
+     "text": "Vapor pressure"
+    },
+    {
+     "label": "D",
+     "text": "Temperature"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-77"
+  },
+  {
+   "n": 29,
+   "stem": "Which of the following is a solid–solid solution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "An alloy of gold and copper"
+    },
+    {
+     "label": "B",
+     "text": "A mixture of argon and krypton"
+    },
+    {
+     "label": "C",
+     "text": "A strongly electrolytic acid"
+    },
+    {
+     "label": "D",
+     "text": "A neutralized base"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-78"
+  },
+  {
+   "n": 30,
+   "stem": "Which of these compounds is most likely to contain an ionic bond?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "CO₂"
+    },
+    {
+     "label": "B",
+     "text": "H₂O"
+    },
+    {
+     "label": "C",
+     "text": "NH₃"
+    },
+    {
+     "label": "D",
+     "text": "NaCl"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-79"
+  },
+  {
+   "n": 31,
+   "stem": "Dry air is approximately 78% nitrogen, 21% oxygen, and 1% other gases. What is the partial pressure of nitrogen at standard atmospheric pressure (101.3 kPa)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "21.0 kPa"
+    },
+    {
+     "label": "B",
+     "text": "79.0 kPa"
+    },
+    {
+     "label": "C",
+     "text": "101.3 kPa"
+    },
+    {
+     "label": "D",
+     "text": "760.0 kPa"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-80"
+  },
+  {
+   "n": 32,
+   "stem": "A gas has a volume of 100.0 mL at a pressure of 600.0 mm Hg. If the temperature is constant, what is the volume at 800.0 mm Hg?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "33.33 mL"
+    },
+    {
+     "label": "B",
+     "text": "66.67 mL"
+    },
+    {
+     "label": "C",
+     "text": "75.00 mL"
+    },
+    {
+     "label": "D",
+     "text": "133.0 mL"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-81"
+  },
+  {
+   "n": 33,
+   "stem": "Which solution has the greatest concentration?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2.0 moles of solute in 1.0 L of solution"
+    },
+    {
+     "label": "B",
+     "text": "0.3 mole of solute in 0.6 L of solution"
+    },
+    {
+     "label": "C",
+     "text": "2.0 moles of solute in 10.0 L of solution"
+    },
+    {
+     "label": "D",
+     "text": "0.1 mole of solute in 0.5 L of solution"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-82"
+  },
+  {
+   "n": 34,
+   "stem": "Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag This chemical equation is an example of a—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "synthesis reaction"
+    },
+    {
+     "label": "B",
+     "text": "decomposition reaction"
+    },
+    {
+     "label": "C",
+     "text": "double-replacement reaction"
+    },
+    {
+     "label": "D",
+     "text": "single-replacement reaction"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-83"
+  },
+  {
+   "n": 35,
+   "stem": "Which element is a noble gas?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Fluorine (F)"
+    },
+    {
+     "label": "B",
+     "text": "Hydrogen (H)"
+    },
+    {
+     "label": "C",
+     "text": "Nitrogen (N)"
+    },
+    {
+     "label": "D",
+     "text": "Xenon (Xe)"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-84"
+  },
+  {
+   "n": 36,
+   "stem": "To determine if a reaction is exothermic, a student should use a—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "pH probe"
+    },
+    {
+     "label": "B",
+     "text": "motion sensor"
+    },
+    {
+     "label": "C",
+     "text": "pressure sensor"
+    },
+    {
+     "label": "D",
+     "text": "temperature probe"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-85"
+  },
+  {
+   "n": 37,
+   "stem": "What is the name of NH₄OH?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Ammonium hydroxide"
+    },
+    {
+     "label": "B",
+     "text": "Nitrogen hydroxide"
+    },
+    {
+     "label": "C",
+     "text": "Nitrogen oxygen hydride"
+    },
+    {
+     "label": "D",
+     "text": "Ammonium oxygen hydride"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-86"
+  },
+  {
+   "n": 38,
+   "stem": "A student hypothesizes that the solubility of a solute in water is nearly constant as temperature varies. Which procedure best tests this hypothesis?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Research properties of many solutes"
+    },
+    {
+     "label": "B",
+     "text": "Measure solubility at five different temperatures"
+    },
+    {
+     "label": "C",
+     "text": "Draw molecular diagrams"
+    },
+    {
+     "label": "D",
+     "text": "Measure solubility of different solutes at one temperature"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-87"
+  },
+  {
+   "n": 39,
+   "stem": "? P +? Br₂ →? PBr₃ Which set of coefficients balances this equation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3, 1, 1"
+    },
+    {
+     "label": "B",
+     "text": "2, 3, 2"
+    },
+    {
+     "label": "C",
+     "text": "3, 2, 3"
+    },
+    {
+     "label": "D",
+     "text": "2, 6, 2"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-88"
+  },
+  {
+   "n": 40,
+   "stem": "The table below shows volume and pressure of a gas at constant temperature. Volume (m³): 0.3, 0.4, 0.5, 0.8, 1.0 Pressure (kPa): 498, 409, 247, 203, 150 After graphing the data, the volume is—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "directly proportional to pressure"
+    },
+    {
+     "label": "B",
+     "text": "directly proportional to pressure squared"
+    },
+    {
+     "label": "C",
+     "text": "inversely proportional to pressure squared"
+    },
+    {
+     "label": "D",
+     "text": "inversely proportional to pressure"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-89"
+  },
+  {
+   "n": 41,
+   "stem": "What is the correct name for the compound P₄O₆?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Phosphoric acid"
+    },
+    {
+     "label": "B",
+     "text": "Phosphorus oxide"
+    },
+    {
+     "label": "C",
+     "text": "Phosphorus(IV) oxide"
+    },
+    {
+     "label": "D",
+     "text": "Tetraphosphorus hexoxide"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-90"
+  },
+  {
+   "n": 42,
+   "stem": "2Fe(s) + O₂(g) → 2FeO(s) This reaction is classified as—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "synthesis"
+    },
+    {
+     "label": "B",
+     "text": "decomposition"
+    },
+    {
+     "label": "C",
+     "text": "single replacement"
+    },
+    {
+     "label": "D",
+     "text": "double replacement"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-91"
+  },
+  {
+   "n": 43,
+   "stem": "As heat is added to a substance undergoing a phase change, the temperature remains constant because the energy is used to—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "break covalent bonds"
+    },
+    {
+     "label": "B",
+     "text": "lower specific heat"
+    },
+    {
+     "label": "C",
+     "text": "overcome intermolecular forces"
+    },
+    {
+     "label": "D",
+     "text": "oppose electron cloud repulsion"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-92"
+  },
+  {
+   "n": 44,
+   "stem": "2Na + 2H₂O → 2NaOH + H₂ How many moles of hydrogen gas are produced when 0.066 mol of sodium reacts completely?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.022 mol"
+    },
+    {
+     "label": "B",
+     "text": "0.033 mol"
+    },
+    {
+     "label": "C",
+     "text": "0.066 mol"
+    },
+    {
+     "label": "D",
+     "text": "0.099 mol"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-93"
+  },
+  {
+   "n": 45,
+   "stem": "The accepted value for the specific heat of aluminum is 0.897 J/(g·°C). Which set of experimental values shows the greatest accuracy and precision?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.847, 0.847, 0.848"
+    },
+    {
+     "label": "B",
+     "text": "0.896, 0.899, 0.896"
+    },
+    {
+     "label": "C",
+     "text": "0.897, 1.04, 1.03"
+    },
+    {
+     "label": "D",
+     "text": "0.936, 0.876, 0.879"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-94"
+  },
+  {
+   "n": 46,
+   "stem": "A 1.0 M aqueous solution of which substance would have the lowest pH?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "NH₃"
+    },
+    {
+     "label": "B",
+     "text": "HCl"
+    },
+    {
+     "label": "C",
+     "text": "Ba(OH)₂"
+    },
+    {
+     "label": "D",
+     "text": "NaF"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-95"
+  },
+  {
+   "n": 47,
+   "stem": "What is the chemical formula for iron(II) phosphide?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Fe₃P"
+    },
+    {
+     "label": "B",
+     "text": "Fe₃P₂"
+    },
+    {
+     "label": "C",
+     "text": "FeP₂"
+    },
+    {
+     "label": "D",
+     "text": "Fe₃P₂"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-96"
+  },
+  {
+   "n": 48,
+   "stem": "In a mixture of oxygen (O₂) and nitrogen (N₂), nitrogen exerts 80.0% of the total pressure. If the total pressure is 2.0 atm, what pressure is exerted by oxygen?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.20 atm"
+    },
+    {
+     "label": "B",
+     "text": "0.40 atm"
+    },
+    {
+     "label": "C",
+     "text": "0.80 atm"
+    },
+    {
+     "label": "D",
+     "text": "1.6 atm"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-97"
+  },
+  {
+   "n": 49,
+   "stem": "2H₃PO₄ + 3Mg(OH)₂ → Mg₃(PO₄)₂ + 6H₂O How many moles of water are produced when 0.24 mol of H₃PO₄ is neutralized?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.24 mol"
+    },
+    {
+     "label": "B",
+     "text": "0.48 mol"
+    },
+    {
+     "label": "C",
+     "text": "0.72 mol"
+    },
+    {
+     "label": "D",
+     "text": "1.44 mol"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2008_SOLPass",
+   "id": "chemistry-i-98"
+  },
+  {
+   "n": 1,
+   "stem": "A student measures the mass of a 1.00 g aluminum rod as 0.99 g. The best estimate of the percent error associated with this measurement is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.01%"
+    },
+    {
+     "label": "B",
+     "text": "0.1%"
+    },
+    {
+     "label": "C",
+     "text": "1%"
+    },
+    {
+     "label": "D",
+     "text": "10%"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-99"
+  },
+  {
+   "n": 2,
+   "stem": "The most efficient way to determine whether a reaction is an exothermic chemical reaction is to use —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "an oxygen probe"
+    },
+    {
+     "label": "B",
+     "text": "a temperature probe"
+    },
+    {
+     "label": "C",
+     "text": "a pressure probe"
+    },
+    {
+     "label": "D",
+     "text": "a pH probe"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-100"
+  },
+  {
+   "n": 3,
+   "stem": "2Al(C₂H₃O₂)₃ + 3BaSO₄ → Al₂(SO₄)₃ + 3Ba(C₂H₃O₂)₂ Which type of chemical reaction does this equation represent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Synthesis"
+    },
+    {
+     "label": "B",
+     "text": "Neutralization"
+    },
+    {
+     "label": "C",
+     "text": "Oxidation-reduction"
+    },
+    {
+     "label": "D",
+     "text": "Double-replacement"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-101"
+  },
+  {
+   "n": 5,
+   "stem": "What is the molarity of a solution with 0.2 moles of potassium permanganate (KMnO₄) dissolved in enough water to make a 500.0 mL solution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.0004 M"
+    },
+    {
+     "label": "B",
+     "text": "0.1 M"
+    },
+    {
+     "label": "C",
+     "text": "0.4 M"
+    },
+    {
+     "label": "D",
+     "text": "100 M"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-102"
+  },
+  {
+   "n": 6,
+   "stem": "When 92.0 g of ethanol (C₂H₅OH) are vaporized at its boiling point of 78.3°C, it requires 78.6 kJ of energy. What is the approximate molar heat of vaporization of ethanol in kJ/mol?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.854"
+    },
+    {
+     "label": "B",
+     "text": "1.17"
+    },
+    {
+     "label": "C",
+     "text": "39.3"
+    },
+    {
+     "label": "D",
+     "text": "78.3"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-103"
+  },
+  {
+   "n": 8,
+   "stem": "Which element has 16 neutrons, 15 protons, and 15 electrons?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sulfur (S)"
+    },
+    {
+     "label": "B",
+     "text": "Phosphorus (P)"
+    },
+    {
+     "label": "C",
+     "text": "Gallium (Ga)"
+    },
+    {
+     "label": "D",
+     "text": "Zinc (Zn)"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-104"
+  },
+  {
+   "n": 9,
+   "stem": "Al(s) + 3AgNO₃(aq) → Al(NO₃)₃(aq) + 3Ag(s) This equation represents which type of chemical reaction?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Single-replacement"
+    },
+    {
+     "label": "B",
+     "text": "Double-replacement"
+    },
+    {
+     "label": "C",
+     "text": "Decomposition"
+    },
+    {
+     "label": "D",
+     "text": "Synthesis"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-105"
+  },
+  {
+   "n": 10,
+   "stem": "In the formula for barium chloride (BaCl₂), barium (Ba) is written first because it is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a single atom"
+    },
+    {
+     "label": "B",
+     "text": "a larger atom"
+    },
+    {
+     "label": "C",
+     "text": "the positive ion"
+    },
+    {
+     "label": "D",
+     "text": "the negative ion"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-106"
+  },
+  {
+   "n": 11,
+   "stem": "Which laboratory technique is best to separate a solid from a liquid in order to recover the liquid?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Titration"
+    },
+    {
+     "label": "B",
+     "text": "Chromatography"
+    },
+    {
+     "label": "C",
+     "text": "Filtering"
+    },
+    {
+     "label": "D",
+     "text": "Vaporization"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-107"
+  },
+  {
+   "n": 12,
+   "stem": "Which of these is NOT required to ensure that stock solutions are free of contamination?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Store all solutions in brown bottles"
+    },
+    {
+     "label": "B",
+     "text": "Do not place dropping pipettes in stock solution bottles"
+    },
+    {
+     "label": "C",
+     "text": "Never return excess chemicals to stock bottles"
+    },
+    {
+     "label": "D",
+     "text": "Replace tops on reagent bottles after use"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-108"
+  },
+  {
+   "n": 13,
+   "stem": "Which value is most responsible for changing the boiling and freezing points of a solvent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Molar mass of the solvent"
+    },
+    {
+     "label": "B",
+     "text": "Electronegativity of the solvent"
+    },
+    {
+     "label": "C",
+     "text": "Weight of the solute particles"
+    },
+    {
+     "label": "D",
+     "text": "Number of the solute particles"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-109"
+  },
+  {
+   "n": 14,
+   "stem": "What is the name of the compound with the formula NH₄NO₃?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Ammonium nitrate"
+    },
+    {
+     "label": "B",
+     "text": "Nitrogen nitrate"
+    },
+    {
+     "label": "C",
+     "text": "Nitrogen hydrogen oxide"
+    },
+    {
+     "label": "D",
+     "text": "Ammonium nitrogen trioxide"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-110"
+  },
+  {
+   "n": 16,
+   "stem": "N₂(g) + 3F₂(g) ⇌ 2NF₃(g) Equilibrium has been reached for the reaction shown. Which conclusion is correct?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "N₂ and F₂ together will form faster than NF₃."
+    },
+    {
+     "label": "B",
+     "text": "The partial pressures of N₂, F₂, and NF₃ will stay constant."
+    },
+    {
+     "label": "C",
+     "text": "NF₃ will form faster than N₂ and F₂ together."
+    },
+    {
+     "label": "D",
+     "text": "The partial pressure of NF₃ will keep changing."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-111"
+  },
+  {
+   "n": 17,
+   "stem": "If 89.6 joules of heat are needed to heat 20.0 g of iron from 30.0°C to 40.0°C, what is the specific heat of iron in J/(g·°C)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.448"
+    },
+    {
+     "label": "B",
+     "text": "2.23"
+    },
+    {
+     "label": "C",
+     "text": "8.96"
+    },
+    {
+     "label": "D",
+     "text": "896"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-112"
+  },
+  {
+   "n": 18,
+   "stem": "A pH scale shows the following substances at these approximate pH values: Calcium hydroxide: pH 12–13 Human blood: pH 7–8 Whole milk: pH 6 Lemon juice: pH 2 Which of these substances is slightly basic?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Calcium hydroxide"
+    },
+    {
+     "label": "B",
+     "text": "Human blood"
+    },
+    {
+     "label": "C",
+     "text": "Whole milk"
+    },
+    {
+     "label": "D",
+     "text": "Lemon juice"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-113"
+  },
+  {
+   "n": 19,
+   "stem": "Which element will most likely form covalent bonds with fluorine?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Carbon"
+    },
+    {
+     "label": "B",
+     "text": "Potassium"
+    },
+    {
+     "label": "C",
+     "text": "Neon"
+    },
+    {
+     "label": "D",
+     "text": "Tin"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-114"
+  },
+  {
+   "n": 20,
+   "stem": "The physical process of evaporation involves —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ion formation"
+    },
+    {
+     "label": "B",
+     "text": "electron sharing"
+    },
+    {
+     "label": "C",
+     "text": "transferring valence electrons"
+    },
+    {
+     "label": "D",
+     "text": "overcoming intermolecular forces"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-115"
+  },
+  {
+   "n": 21,
+   "stem": "__C₂H₆ + __O₂ → __CO₂ + __H₂O How many moles of O₂ are required when this equation is balanced using the lowest whole-number coefficients?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "7"
+    },
+    {
+     "label": "D",
+     "text": "11"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-116"
+  },
+  {
+   "n": 22,
+   "stem": "While English physicist J. J. Thomson was carrying out experiments on cathode rays, he determined that the rays consisted of particles he called “corpuscles.” These particles were later named —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "protons"
+    },
+    {
+     "label": "B",
+     "text": "electrons"
+    },
+    {
+     "label": "C",
+     "text": "gamma rays"
+    },
+    {
+     "label": "D",
+     "text": "neutrons"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-117"
+  },
+  {
+   "n": 23,
+   "stem": "In the Haber process, nitrogen (N₂) and hydrogen (H₂) react to form ammonia (NH₃). The balanced equation is: N₂ + 3H₂ → 2NH₃ Which set of reactant particles represents the correct stoichiometric ratio for this reaction?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 molecule of N₂ and 1 molecule of H₂"
+    },
+    {
+     "label": "B",
+     "text": "1 molecule of N₂ and 3 molecules of H₂"
+    },
+    {
+     "label": "C",
+     "text": "2 molecules of N₂ and 2 molecules of H₂"
+    },
+    {
+     "label": "D",
+     "text": "3 molecules of N₂ and 1 molecule of H₂"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-118"
+  },
+  {
+   "n": 24,
+   "stem": "A beaker of water is placed in a sealed container connected to a vacuum pump. As air is removed from the container, the water begins to boil. This occurs because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the temperature of the water decreases as the surrounding pressure decreases"
+    },
+    {
+     "label": "B",
+     "text": "the lower pressure causes the water to contract"
+    },
+    {
+     "label": "C",
+     "text": "the air pressure is lowered until it equals the vapor pressure of the water"
+    },
+    {
+     "label": "D",
+     "text": "the pressure is insufficient to hold hydrogen and oxygen atoms together, causing decomposition"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-119"
+  },
+  {
+   "n": 25,
+   "stem": "According to the periodic table, which elements belong to the same period?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Aluminum, Germanium, Antimony"
+    },
+    {
+     "label": "B",
+     "text": "Gallium, Germanium, Arsenic"
+    },
+    {
+     "label": "C",
+     "text": "Aluminum, Calcium, Zinc"
+    },
+    {
+     "label": "D",
+     "text": "Phosphorus, Sulfur, Chlorine"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-120"
+  },
+  {
+   "n": 26,
+   "stem": "How many moles are in 2.04 × 10²⁴ molecules of H₂O?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.295 mol"
+    },
+    {
+     "label": "B",
+     "text": "3.39 mol"
+    },
+    {
+     "label": "C",
+     "text": "1.13 × 10²⁴ mol"
+    },
+    {
+     "label": "D",
+     "text": "1.44 × 10⁻² mol"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-121"
+  },
+  {
+   "n": 27,
+   "stem": "What is the correct IUPAC name for FeCl₃?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Iron chloride"
+    },
+    {
+     "label": "B",
+     "text": "Iron(II) chloride"
+    },
+    {
+     "label": "C",
+     "text": "Iron trichloride"
+    },
+    {
+     "label": "D",
+     "text": "Iron(III) chloride"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-122"
+  },
+  {
+   "n": 29,
+   "stem": "Which statement correctly describes how organic catalysts operate in biological reactions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "They are used up in the reactions."
+    },
+    {
+     "label": "B",
+     "text": "They lower the overall energy of the reactions."
+    },
+    {
+     "label": "C",
+     "text": "They lower the activation energy of the reactions."
+    },
+    {
+     "label": "D",
+     "text": "They keep the temperature of the reactions constant."
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-123"
+  },
+  {
+   "n": 30,
+   "stem": "What volume will 35.9 g of hydrogen gas (H₂) occupy at STP?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "399 L"
+    },
+    {
+     "label": "B",
+     "text": "798 L"
+    },
+    {
+     "label": "C",
+     "text": "804 L"
+    },
+    {
+     "label": "D",
+     "text": "1,620 L"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-124"
+  },
+  {
+   "n": 31,
+   "stem": "__Ca(NO₃)₂ + __H₃PO₄ → __Ca₃(PO₄)₂ + __HNO₃ When this equation is balanced, what is the coefficient in front of H₃PO₄?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-125"
+  },
+  {
+   "n": 32,
+   "stem": "Increasing the volume of a sealed container will cause the gas particles inside to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "form a liquid"
+    },
+    {
+     "label": "B",
+     "text": "collide more frequently"
+    },
+    {
+     "label": "C",
+     "text": "increase molecular attraction"
+    },
+    {
+     "label": "D",
+     "text": "exert lower pressure"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-126"
+  },
+  {
+   "n": 34,
+   "stem": "Consider any set of three adjacent elements in the same period of the periodic table. For which characteristic is the average of the three elements always equal to the value of the middle element?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Atomic number"
+    },
+    {
+     "label": "B",
+     "text": "Atomic mass"
+    },
+    {
+     "label": "C",
+     "text": "Number of neutrons"
+    },
+    {
+     "label": "D",
+     "text": "Number of isotopes"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-127"
+  },
+  {
+   "n": 35,
+   "stem": "A substance has a molecular formula of C₆H₁₂N₂O₂. What is its empirical formula?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "C₃H₆N₂O"
+    },
+    {
+     "label": "B",
+     "text": "C₃H₆NO"
+    },
+    {
+     "label": "C",
+     "text": "C₂H₄NO"
+    },
+    {
+     "label": "D",
+     "text": "CHNO"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-128"
+  },
+  {
+   "n": 37,
+   "stem": "What is the correct name for AlI₃?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Aluminum(I) iodide"
+    },
+    {
+     "label": "B",
+     "text": "Aluminum triiodide"
+    },
+    {
+     "label": "C",
+     "text": "Aluminum(III) iodide"
+    },
+    {
+     "label": "D",
+     "text": "Aluminum iodide"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-129"
+  },
+  {
+   "n": 38,
+   "stem": "2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O How many moles of carbon dioxide are produced when 6.00 moles of butane react with excess oxygen?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1.50 mol"
+    },
+    {
+     "label": "B",
+     "text": "24.0 mol"
+    },
+    {
+     "label": "C",
+     "text": "66.0 mol"
+    },
+    {
+     "label": "D",
+     "text": "1,060 mol"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-130"
+  },
+  {
+   "n": 40,
+   "stem": "Using only one trial to collect data in an experiment —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "makes it easier to determine a valid conclusion"
+    },
+    {
+     "label": "B",
+     "text": "reduces the percent error in the results"
+    },
+    {
+     "label": "C",
+     "text": "causes the conclusion to be less reliable"
+    },
+    {
+     "label": "D",
+     "text": "requires data with more significant figures"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-131"
+  },
+  {
+   "n": 41,
+   "stem": "A common product of acid–base neutralization reactions is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "hydrogen"
+    },
+    {
+     "label": "B",
+     "text": "water"
+    },
+    {
+     "label": "C",
+     "text": "carbon dioxide"
+    },
+    {
+     "label": "D",
+     "text": "oxygen"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-132"
+  },
+  {
+   "n": 42,
+   "stem": "A data table compares the brightness of a light bulb when connected to different aqueous solutions. Which solution is a base and a weak electrolyte?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "NaHCO₃"
+    },
+    {
+     "label": "B",
+     "text": "HClO"
+    },
+    {
+     "label": "C",
+     "text": "NaNO₃"
+    },
+    {
+     "label": "D",
+     "text": "CH₃NH₂"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-133"
+  },
+  {
+   "n": 43,
+   "stem": "A graph shows the beta decay of Americium-242. The y-axis represents mass remaining, and the x-axis represents time in hours. The mass decreases by half every 16 hours. What is the half-life of Americium-242?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "11 hours"
+    },
+    {
+     "label": "B",
+     "text": "16 hours"
+    },
+    {
+     "label": "C",
+     "text": "32 hours"
+    },
+    {
+     "label": "D",
+     "text": "64 hours"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-134"
+  },
+  {
+   "n": 44,
+   "stem": "In a Lewis structure of Br₂, two electrons are shared equally between the two bromine atoms. What type of bond exists between the bromine atoms?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Nonpolar covalent bond"
+    },
+    {
+     "label": "B",
+     "text": "Polar covalent bond"
+    },
+    {
+     "label": "C",
+     "text": "Metallic bond"
+    },
+    {
+     "label": "D",
+     "text": "Ionic bond"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-135"
+  },
+  {
+   "n": 45,
+   "stem": "A student studies how different solutions affect the browning of apple slices. The student varies the pH of the solutions, immerses three apple slices in equal volumes of each solution, and observes the color change. What is the independent variable?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "pH of the solution"
+    },
+    {
+     "label": "B",
+     "text": "Shade of brown"
+    },
+    {
+     "label": "C",
+     "text": "Number of apple slices"
+    },
+    {
+     "label": "D",
+     "text": "Volume of solutions"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-136"
+  },
+  {
+   "n": 46,
+   "stem": "An experiment produced 0.10 g of CO₂ with a volume of 0.056 L at STP. If the accepted density of CO₂ at STP is 1.96 g/L, what is the approximate percent error?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "110%"
+    },
+    {
+     "label": "B",
+     "text": "92%"
+    },
+    {
+     "label": "C",
+     "text": "71%"
+    },
+    {
+     "label": "D",
+     "text": "8.2%"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2015_SOLPass",
+   "id": "chemistry-i-137"
+  },
+  {
+   "n": 1,
+   "stem": "The following data are obtained in the laboratory: (a) The mass of a clean, dry 250 mL beaker (b) The mass of the same beaker containing an unknown quantity of magnesium sulfate The mass of the magnesium sulfate is obtained by subtracting (a) from (b). Which of the following will provide the most accurate results?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Measurements should be taken using the same balance."
+    },
+    {
+     "label": "B",
+     "text": "The temperature of the room must remain constant."
+    },
+    {
+     "label": "C",
+     "text": "The barometric pressure should be recorded."
+    },
+    {
+     "label": "D",
+     "text": "A calculator should be used to subtract (a) from (b)."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-138"
+  },
+  {
+   "n": 2,
+   "stem": "Many reactions are taken to completion by heating the reaction mixture in a test tube. Each of the following would be a safe practice except—",
+   "choices": [
+    {
+     "label": "F",
+     "text": "heating the test tube gently to prevent the solution from boiling over"
+    },
+    {
+     "label": "G",
+     "text": "pointing the test tube away from others so that no one is injured"
+    },
+    {
+     "label": "H",
+     "text": "placing a stopper in the test tube to prevent gas from escaping"
+    },
+    {
+     "label": "J",
+     "text": "holding the test tube with test tube clamps to avoid touching hot objects"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-139"
+  },
+  {
+   "n": 3,
+   "stem": "A student recorded the following data while studying the effect of volume on gas pressure. Temperature remained constant at 298 K. Trial 1: Volume 100 mL, Pressure 250 mmHg Trial 2: Volume 300 mL, Pressure 83 mmHg Trial 3: Volume 500 mL, Pressure 50 mmHg How could the student now study the effects of temperature on gas pressure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Vary the temperature but keep the gas volume constant."
+    },
+    {
+     "label": "B",
+     "text": "Vary the volume of the gas only."
+    },
+    {
+     "label": "C",
+     "text": "Vary the pressure and temperature of the gas."
+    },
+    {
+     "label": "D",
+     "text": "Vary the temperature and volume of the gas."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-140"
+  },
+  {
+   "n": 4,
+   "stem": "A graph shows the solubility of four salts in water (measured in grams of solute per 100 grams of water) over a temperature range from 0 °C to 120 °C. • Sodium chloride (NaCl) shows very little change in solubility across the temperature range. • Potassium nitrate (KNO₃), potassium bromide (KBr), and sodium chlorate (NaClO₃) all show significant increases in solubility as temperature increases. Which salt’s solubility in water is least affected by temperature?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "NaClO₃"
+    },
+    {
+     "label": "G",
+     "text": "KNO₃"
+    },
+    {
+     "label": "H",
+     "text": "KBr"
+    },
+    {
+     "label": "J",
+     "text": "NaCl"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-141"
+  },
+  {
+   "n": 5,
+   "stem": "A student studied the effect of temperature on the reaction A + B → AB using a catalyst. Experimental conditions were: Trial 1: 17 °C, 1 mg catalyst, 5 g A, 7 g B, reaction time 10 min Trial 2: 18 °C, 2 mg catalyst, 5 g A, 7 g B, reaction time 8 min Trial 3: 20 °C, 3 mg catalyst, 5 g A, 7 g B, reaction time 5 min Trial 4: 16 °C, 4 mg catalyst, 5 g A, 7 g B, reaction time 3 min Which of the following would improve the student’s experimental design?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Use the same amount of catalyst in all trials."
+    },
+    {
+     "label": "B",
+     "text": "Keep all tubes at 18 °C."
+    },
+    {
+     "label": "C",
+     "text": "Keep the reaction time constant."
+    },
+    {
+     "label": "D",
+     "text": "Decrease the quantity of reactants."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-142"
+  },
+  {
+   "n": 6,
+   "stem": "A student massed a piece of iron on a balance marked in 0.1 g intervals and reported the mass as 12.34 g. Which digit in this measurement is estimated?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-143"
+  },
+  {
+   "n": 7,
+   "stem": "A student measured the temperature of a boiling solution and found it to be 56.0 °C at standard pressure. The theoretical boiling temperature is 55.0 °C. What is the percent error?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "18%"
+    },
+    {
+     "label": "B",
+     "text": "1.8%"
+    },
+    {
+     "label": "C",
+     "text": "0.18%"
+    },
+    {
+     "label": "D",
+     "text": "0.018%"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-144"
+  },
+  {
+   "n": 8,
+   "stem": "How many significant digits are in 0.003450?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3"
+    },
+    {
+     "label": "G",
+     "text": "4"
+    },
+    {
+     "label": "H",
+     "text": "6"
+    },
+    {
+     "label": "J",
+     "text": "7"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-145"
+  },
+  {
+   "n": 9,
+   "stem": "A 0.500 L solution of 6 M HCl is to be prepared. How much 12 M HCl is required?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.250 L"
+    },
+    {
+     "label": "B",
+     "text": "2.50 L"
+    },
+    {
+     "label": "C",
+     "text": "25.0 L"
+    },
+    {
+     "label": "D",
+     "text": "2500 L"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-146"
+  },
+  {
+   "n": 11,
+   "stem": "Two substances have the following compositions: Substance A: 8 protons, 8 neutrons, 8 electrons Substance B: 8 protons, 9 neutrons, 8 electrons The data indicate that—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A and B are isotopes of the same element."
+    },
+    {
+     "label": "B",
+     "text": "A and B are different elements."
+    },
+    {
+     "label": "C",
+     "text": "A has a greater charge than B."
+    },
+    {
+     "label": "D",
+     "text": "A is more reactive than B."
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-147"
+  },
+  {
+   "n": 12,
+   "stem": "A neutral atom of calcium has 20 electrons. Calcium forms a 2+ ion. How many electrons does a calcium ion have?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2"
+    },
+    {
+     "label": "G",
+     "text": "18"
+    },
+    {
+     "label": "H",
+     "text": "20"
+    },
+    {
+     "label": "J",
+     "text": "22"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-148"
+  },
+  {
+   "n": 13,
+   "stem": "According to their placement on the periodic table, which elements would have the most similar atomic structures?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sodium and scandium"
+    },
+    {
+     "label": "B",
+     "text": "Sodium and barium"
+    },
+    {
+     "label": "C",
+     "text": "Sodium and potassium"
+    },
+    {
+     "label": "D",
+     "text": "Sodium and aluminum"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-149"
+  },
+  {
+   "n": 14,
+   "stem": "Oxygen and sulfur are in the same group (Group 16) in the periodic table. This means that, in general, oxygen and sulfur—",
+   "choices": [
+    {
+     "label": "F",
+     "text": "will react only with each other"
+    },
+    {
+     "label": "G",
+     "text": "undergo similar reactions with other elements"
+    },
+    {
+     "label": "H",
+     "text": "can only react with elements in Group 16"
+    },
+    {
+     "label": "J",
+     "text": "combine only with elements in periods of 4 or higher"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-150"
+  },
+  {
+   "n": 15,
+   "stem": "According to the periodic table, which series of elements is ordered according to decreasing reactivity?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He, Cs, Si, Mg"
+    },
+    {
+     "label": "B",
+     "text": "Cs, Mg, Si, He"
+    },
+    {
+     "label": "C",
+     "text": "Si, He, Cs, Mg"
+    },
+    {
+     "label": "D",
+     "text": "Mg, Si, Cs, He"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-151"
+  },
+  {
+   "n": 16,
+   "stem": "With n representing the outermost energy level, the electron configuration for that level for elements in Group 14 is—",
+   "choices": [
+    {
+     "label": "F",
+     "text": "ns²np¹"
+    },
+    {
+     "label": "G",
+     "text": "ns²np²"
+    },
+    {
+     "label": "H",
+     "text": "ns²np³"
+    },
+    {
+     "label": "J",
+     "text": "ns²np⁴"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-152"
+  },
+  {
+   "n": 17,
+   "stem": "An alkali metal will most readily react with—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "another alkali metal"
+    },
+    {
+     "label": "B",
+     "text": "an alkaline earth metal"
+    },
+    {
+     "label": "C",
+     "text": "a halogen"
+    },
+    {
+     "label": "D",
+     "text": "a noble gas"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-153"
+  },
+  {
+   "n": 18,
+   "stem": "Niels Bohr’s contribution to modern atomic theory was the proposition that—",
+   "choices": [
+    {
+     "label": "F",
+     "text": "each atom has a specific number of positive charges"
+    },
+    {
+     "label": "G",
+     "text": "an atom has electrons in discrete energy levels"
+    },
+    {
+     "label": "H",
+     "text": "electrons have a definite mass that can be computed"
+    },
+    {
+     "label": "J",
+     "text": "atomic mass is determined by the number of protons and neutrons in an atom"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-154"
+  },
+  {
+   "n": 19,
+   "stem": "O₂, N₂, Cl₂, and I₂ are examples of—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "diatomic molecules"
+    },
+    {
+     "label": "B",
+     "text": "compounds"
+    },
+    {
+     "label": "C",
+     "text": "ionic compounds"
+    },
+    {
+     "label": "D",
+     "text": "atoms"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-155"
+  },
+  {
+   "n": 20,
+   "stem": "Which of these is the correct name for KBr?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Potassium bromine"
+    },
+    {
+     "label": "G",
+     "text": "Potassium bromide"
+    },
+    {
+     "label": "H",
+     "text": "Potassium bromate"
+    },
+    {
+     "label": "J",
+     "text": "Potassium bromite"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-156"
+  },
+  {
+   "n": 21,
+   "stem": "Which of the following is a balanced chemical equation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "C₃H₈ + O₂ → CO₂ + H₂O"
+    },
+    {
+     "label": "B",
+     "text": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O"
+    },
+    {
+     "label": "C",
+     "text": "C₃H₈ + O₂ → 3CO₂ + 4H₂O"
+    },
+    {
+     "label": "D",
+     "text": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-157"
+  },
+  {
+   "n": 22,
+   "stem": "Iron(III) chloride reacts with sodium carbonate to produce iron(III) carbonate and sodium chloride. Which is the balanced equation?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "FeCl₃ + Na₂CO₃ → Fe₂(CO₃)₃ + NaCl"
+    },
+    {
+     "label": "G",
+     "text": "3FeCl₃ + 2Na₂CO₃ → Fe₂(CO₃)₃ + 6NaCl"
+    },
+    {
+     "label": "H",
+     "text": "2FeCl₃ + 3Na₂CO₃ → Fe₂(CO₃)₃ + 6NaCl"
+    },
+    {
+     "label": "J",
+     "text": "6FeCl₃ + 2Na₂CO₃ → 3Fe₂(CO₃)₃ + NaCl"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-158"
+  },
+  {
+   "n": 23,
+   "stem": "How many different elements are present in NH₄OH?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-159"
+  },
+  {
+   "n": 24,
+   "stem": "Which equation best represents the reaction between sulfuric acid and calcium hydroxide?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "H₂SO₄ + Ca(OH)₂ → CaSO₄ + H₂O"
+    },
+    {
+     "label": "G",
+     "text": "HSO₄ + CaOH → CaSO₄ + H₂O"
+    },
+    {
+     "label": "H",
+     "text": "H₂SO₄ + Ca(OH)₂ → CaSO₄ + 2H₂O"
+    },
+    {
+     "label": "J",
+     "text": "H₂SO₄ + 2Ca(OH)₂ → 2CaSO₄ + 3H₂O"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-160"
+  },
+  {
+   "n": 25,
+   "stem": "According to its Lewis diagram, a nitrogen molecule has a—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "bent structure and a double bond"
+    },
+    {
+     "label": "B",
+     "text": "linear structure and a triple bond"
+    },
+    {
+     "label": "C",
+     "text": "polar structure and a triple bond"
+    },
+    {
+     "label": "D",
+     "text": "circular structure and an ionic bond"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-161"
+  },
+  {
+   "n": 26,
+   "stem": "The name for NH₄F is—",
+   "choices": [
+    {
+     "label": "F",
+     "text": "ammonium nitride"
+    },
+    {
+     "label": "G",
+     "text": "ammonium fluoride"
+    },
+    {
+     "label": "H",
+     "text": "nitrogen tetrahydrogen fluoride"
+    },
+    {
+     "label": "J",
+     "text": "ammonium fluorine"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-162"
+  },
+  {
+   "n": 28,
+   "stem": "Cobalt can form ions with charges of 2+ and 3+. Which set represents two possible chemical formulas for cobalt combined with oxygen?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "CoO and Co₂O₃"
+    },
+    {
+     "label": "G",
+     "text": "CoO₃ and Co₃O₂"
+    },
+    {
+     "label": "H",
+     "text": "Co₂O₃ and Co₃O₂"
+    },
+    {
+     "label": "J",
+     "text": "CoO and Co₃O₂"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-163"
+  },
+  {
+   "n": 29,
+   "stem": "The equation Mg + I₂ → Mg²⁺ + 2I⁻ describes—",
+   "choices": [
+    {
+     "label": "A",
+     "text": "magnesium transferring an electron to each atom of iodine"
+    },
+    {
+     "label": "B",
+     "text": "iodine transferring two protons to magnesium"
+    },
+    {
+     "label": "C",
+     "text": "iodine gaining electrons from magnesium"
+    },
+    {
+     "label": "D",
+     "text": "magnesium and iodine forming a covalent bond"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-164"
+  },
+  {
+   "n": 30,
+   "stem": "Sodium iodide exhibits what type of bond?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Covalent"
+    },
+    {
+     "label": "G",
+     "text": "Ionic"
+    },
+    {
+     "label": "H",
+     "text": "Hydrogen"
+    },
+    {
+     "label": "J",
+     "text": "Metallic"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-165"
+  },
+  {
+   "n": 31,
+   "stem": "Which of the following reactions is a decomposition reaction?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2KClO₃ → 2KCl + 3O₂"
+    },
+    {
+     "label": "B",
+     "text": "2Na + Cl₂ → 2NaCl"
+    },
+    {
+     "label": "C",
+     "text": "CaO + CO₂ → CaCO₃"
+    },
+    {
+     "label": "D",
+     "text": "2Na + 2AgCl → 2NaCl + 2Ag"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-166"
+  },
+  {
+   "n": 32,
+   "stem": "Which of the following reactions is a neutralization reaction?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2AgNO₃ + Cu → Cu(NO₃)₂ + 2Ag"
+    },
+    {
+     "label": "G",
+     "text": "KOH + HNO₃ → KNO₃ + H₂O"
+    },
+    {
+     "label": "H",
+     "text": "C + O₂ → CO₂"
+    },
+    {
+     "label": "J",
+     "text": "4Fe(OH)₂ + 2H₂O₂ → 4Fe(OH)₃"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-167"
+  },
+  {
+   "n": 33,
+   "stem": "Which of the following is an example of an ionic equation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2AgNO₃ + Cu → Cu(NO₃)₂ + 2Ag"
+    },
+    {
+     "label": "B",
+     "text": "NaOH + HCl → NaCl + H₂O"
+    },
+    {
+     "label": "C",
+     "text": "CO₂ → C + O₂"
+    },
+    {
+     "label": "D",
+     "text": "4Fe(OH)₂ + O₂ → 4Fe(OH)₃"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-168"
+  },
+  {
+   "n": 34,
+   "stem": "When seltzer tablets are placed in water, they fizz as they release a gas. To increase the speed that the gas is released, it would be best to increase the—",
+   "choices": [
+    {
+     "label": "F",
+     "text": "volume of the glass"
+    },
+    {
+     "label": "G",
+     "text": "temperature of the water"
+    },
+    {
+     "label": "H",
+     "text": "amount of water"
+    },
+    {
+     "label": "J",
+     "text": "hardness of the water"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-169"
+  },
+  {
+   "n": 35,
+   "stem": "What is the mass of one mole of S₈?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "32.1 mg"
+    },
+    {
+     "label": "B",
+     "text": "32.1 g"
+    },
+    {
+     "label": "C",
+     "text": "257 g"
+    },
+    {
+     "label": "D",
+     "text": "4.8 × 10²⁴ g"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-170"
+  },
+  {
+   "n": 36,
+   "stem": "What is the mass of 2 moles of HgO?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "108 g"
+    },
+    {
+     "label": "G",
+     "text": "217 g"
+    },
+    {
+     "label": "H",
+     "text": "323 g"
+    },
+    {
+     "label": "J",
+     "text": "433 g"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-171"
+  },
+  {
+   "n": 37,
+   "stem": "One mole of which compound contains two moles of hydrogen atoms?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "CH₄"
+    },
+    {
+     "label": "B",
+     "text": "H₂S"
+    },
+    {
+     "label": "C",
+     "text": "NaOH"
+    },
+    {
+     "label": "D",
+     "text": "NH₃"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-172"
+  },
+  {
+   "n": 38,
+   "stem": "A compound contains one mole of particles and has a mass of 58.5 g. The compound could be—",
+   "choices": [
+    {
+     "label": "F",
+     "text": "CaCl₂"
+    },
+    {
+     "label": "G",
+     "text": "NaCl"
+    },
+    {
+     "label": "H",
+     "text": "KCl"
+    },
+    {
+     "label": "J",
+     "text": "NH₄Cl"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-173"
+  },
+  {
+   "n": 39,
+   "stem": "For the reaction 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O, how many moles of oxygen gas are needed to produce 12 moles of water?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "9"
+    },
+    {
+     "label": "D",
+     "text": "14"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-174"
+  },
+  {
+   "n": 40,
+   "stem": "For the reaction H₂(g) + I₂(g) ⇌ 2HI(g), ten moles of hydrogen and ten moles of iodine are placed in a sealed container at 490 °C. After some time, small amounts of hydrogen and iodine remain and the concentration of hydrogen iodide becomes constant. This occurs because—",
+   "choices": [
+    {
+     "label": "F",
+     "text": "there was not enough hydrogen to react"
+    },
+    {
+     "label": "G",
+     "text": "hydrogen iodide reacted with the container"
+    },
+    {
+     "label": "H",
+     "text": "iodine loses reactivity at high temperature"
+    },
+    {
+     "label": "J",
+     "text": "the reaction reached equilibrium"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-175"
+  },
+  {
+   "n": 41,
+   "stem": "Indicator color-change ranges: • Methyl orange: red below pH 3.2, yellow above pH 4.4 • Methyl red: red below pH 4.8, yellow above pH 6.0 A solution turns methyl orange yellow and methyl red red. What could be the pH of the solution?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3.0"
+    },
+    {
+     "label": "B",
+     "text": "4.0"
+    },
+    {
+     "label": "C",
+     "text": "4.6"
+    },
+    {
+     "label": "D",
+     "text": "6.2"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-176"
+  },
+  {
+   "n": 42,
+   "stem": "Which of the following is not a base?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Al(OH)₃"
+    },
+    {
+     "label": "G",
+     "text": "Ca(OH)₂"
+    },
+    {
+     "label": "H",
+     "text": "H₂SO₄"
+    },
+    {
+     "label": "J",
+     "text": "KOH"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-177"
+  },
+  {
+   "n": 43,
+   "stem": "Nitrogen gas is collected over water at 20 °C. The vapor pressure of water at 20 °C is 18 mmHg. If the total pressure is 765 mmHg, what is the partial pressure of nitrogen?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "18 mmHg"
+    },
+    {
+     "label": "B",
+     "text": "747 mmHg"
+    },
+    {
+     "label": "C",
+     "text": "765 mmHg"
+    },
+    {
+     "label": "D",
+     "text": "783 mmHg"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-178"
+  },
+  {
+   "n": 44,
+   "stem": "A gas has a volume of 50.0 cm³ at 73 °C. What volume will the gas occupy at 123 °C if pressure remains constant?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3.75 cm³"
+    },
+    {
+     "label": "G",
+     "text": "5.0 cm³"
+    },
+    {
+     "label": "H",
+     "text": "37.5 cm³"
+    },
+    {
+     "label": "J",
+     "text": "50.0 cm³"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-179"
+  },
+  {
+   "n": 45,
+   "stem": "Using the ideal gas law, how many moles of a gas are present if the pressure is 100 kPa, the volume is 50.0 dm³, and the temperature is 50 °C?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1.20 moles"
+    },
+    {
+     "label": "B",
+     "text": "1.86 moles"
+    },
+    {
+     "label": "C",
+     "text": "2.0 moles"
+    },
+    {
+     "label": "D",
+     "text": "12.0 moles"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-180"
+  },
+  {
+   "n": 46,
+   "stem": "A balloon containing gas is submerged in a water bath. One way to increase the volume of gas in the balloon is to—",
+   "choices": [
+    {
+     "label": "F",
+     "text": "cool the gas in the balloon only"
+    },
+    {
+     "label": "G",
+     "text": "increase the temperature of the water"
+    },
+    {
+     "label": "H",
+     "text": "push the balloon farther down into the water"
+    },
+    {
+     "label": "J",
+     "text": "seal the top of the water bath"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-181"
+  },
+  {
+   "n": 47,
+   "stem": "Which phase change involves the absorption of heat?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Gas to liquid"
+    },
+    {
+     "label": "B",
+     "text": "Liquid to solid"
+    },
+    {
+     "label": "C",
+     "text": "Liquid to gas"
+    },
+    {
+     "label": "D",
+     "text": "Gas to solid"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-182"
+  },
+  {
+   "n": 48,
+   "stem": "The heat of vaporization at the boiling point is: • Water: 539 cal/g • Alcohol: 204 cal/g • Chloroform: 59 cal/g What most likely causes chloroform to have the lowest heat of vaporization?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Smallest molecular size"
+    },
+    {
+     "label": "G",
+     "text": "Smallest molecular mass"
+    },
+    {
+     "label": "H",
+     "text": "Weakest intermolecular forces"
+    },
+    {
+     "label": "J",
+     "text": "Fewest bonds"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-183"
+  },
+  {
+   "n": 49,
+   "stem": "How many calories are required to raise the temperature of 105 g of water from 30.0 °C to 70.0 °C?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1.05 × 10³"
+    },
+    {
+     "label": "B",
+     "text": "2.10 × 10³"
+    },
+    {
+     "label": "C",
+     "text": "4.20 × 10³"
+    },
+    {
+     "label": "D",
+     "text": "8.40 × 10³"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-184"
+  },
+  {
+   "n": 50,
+   "stem": "The table below lists properties of several liquids: • Benzene: nonpolar • Methanol: polar • Hexane: nonpolar • Octane: nonpolar • Water: polar A substance known to be soluble in water is being dissolved. Which other solvent would most likely dissolve this substance?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Benzene"
+    },
+    {
+     "label": "G",
+     "text": "Methanol"
+    },
+    {
+     "label": "H",
+     "text": "Hexane"
+    },
+    {
+     "label": "J",
+     "text": "Octane"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2000_SOLPass",
+   "id": "chemistry-i-185"
+  },
+  {
+   "n": 1,
+   "stem": "How many valence electrons does a neutral atom of silicon have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-186"
+  },
+  {
+   "n": 2,
+   "stem": "The correct name for P₂O₅ is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "phosphorus (V) pentoxide"
+    },
+    {
+     "label": "B",
+     "text": "phosphorus oxide"
+    },
+    {
+     "label": "C",
+     "text": "phosphorus (II) oxide"
+    },
+    {
+     "label": "D",
+     "text": "diphosphorus pentoxide"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-187"
+  },
+  {
+   "n": 3,
+   "stem": "Which of the following is a balanced equation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "H₂ + Br₂ → 2HBr"
+    },
+    {
+     "label": "B",
+     "text": "H₂ + Br₂ → HBr"
+    },
+    {
+     "label": "C",
+     "text": "H₂ + 2Br₂ → 2HBr"
+    },
+    {
+     "label": "D",
+     "text": "2H₂ + Br₂ → HBr"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-188"
+  },
+  {
+   "n": 4,
+   "stem": "Which of the following best describes sublimation?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A solid melting to a liquid"
+    },
+    {
+     "label": "B",
+     "text": "A solid melting to a liquid, which then evaporates"
+    },
+    {
+     "label": "C",
+     "text": "The movement of gaseous particles so that they fill the space they occupy"
+    },
+    {
+     "label": "D",
+     "text": "A solid forming a gas"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-189"
+  },
+  {
+   "n": 5,
+   "stem": "The reaction times for three trials of an experiment are 90.3 s, 90.2 s, and 90.5 s. Which average time is expressed using the correct number of significant figures?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "90.3"
+    },
+    {
+     "label": "B",
+     "text": "90.33"
+    },
+    {
+     "label": "C",
+     "text": "90"
+    },
+    {
+     "label": "D",
+     "text": "90.333"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-190"
+  },
+  {
+   "n": 6,
+   "stem": "Which set of coefficients will balance the equation Al₂(SO₄)₃ + HCl → AlCl₃ + H₂SO₄?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1, 3, 1, 1"
+    },
+    {
+     "label": "B",
+     "text": "2, 3, 2, 6"
+    },
+    {
+     "label": "C",
+     "text": "2, 6, 2, 3"
+    },
+    {
+     "label": "D",
+     "text": "3, 6, 3, 2"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-191"
+  },
+  {
+   "n": 7,
+   "stem": "At room temperature, chlorine exists as a gas, bromine exists as a liquid, and iodine exists as a solid. The physical states of these elements indicate that melting point —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "decreases from top to bottom within group 17"
+    },
+    {
+     "label": "B",
+     "text": "is independent of periodic position"
+    },
+    {
+     "label": "C",
+     "text": "increases from top to bottom within group 17"
+    },
+    {
+     "label": "D",
+     "text": "is constant within group 17"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-192"
+  },
+  {
+   "n": 8,
+   "stem": "Using the following information: • Ammonium ion: NH₄⁺ • Phosphate ion: PO₄³⁻ What is the correct formula for ammonium phosphate?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "NH₄PO₄"
+    },
+    {
+     "label": "B",
+     "text": "(NH₄)₂(PO₄)₃"
+    },
+    {
+     "label": "C",
+     "text": "(NH₄)₃PO₄"
+    },
+    {
+     "label": "D",
+     "text": "NH₄(PO₄)₃"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-193"
+  },
+  {
+   "n": 13,
+   "stem": "20 protons, 20 neutrons, 18 electrons Which represents an atom of calcium?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-194"
+  },
+  {
+   "n": 14,
+   "stem": "Which half-reaction represents reduction?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cu⁰ → Cu²⁺ + 2e⁻"
+    },
+    {
+     "label": "B",
+     "text": "Fe²⁺ → Fe³⁺ + e⁻"
+    },
+    {
+     "label": "C",
+     "text": "Ag⁺ + e⁻ → Ag⁰"
+    },
+    {
+     "label": "D",
+     "text": "Al⁰ → Al³⁺ + 3e⁻"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-195"
+  },
+  {
+   "n": 15,
+   "stem": "A scientist has found the isotope oxygen-19. How many neutrons are present in this isotope?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8"
+    },
+    {
+     "label": "B",
+     "text": "11"
+    },
+    {
+     "label": "C",
+     "text": "19"
+    },
+    {
+     "label": "D",
+     "text": "27"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-196"
+  },
+  {
+   "n": 16,
+   "stem": "The melting point of a white solid was determined in four repeated trials to be 56.0°C, 55.0°C, 57.5°C, and 55.5°C. What temperature should be reported as the melting point?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "55.0°C"
+    },
+    {
+     "label": "B",
+     "text": "55.5°C"
+    },
+    {
+     "label": "C",
+     "text": "56.0°C"
+    },
+    {
+     "label": "D",
+     "text": "57.5°C"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-197"
+  },
+  {
+   "n": 17,
+   "stem": "What is the name of the laboratory equipment used for strongly heating small amounts of solids, typically made of porcelain and able to withstand high temperatures?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Watch glass"
+    },
+    {
+     "label": "B",
+     "text": "Crucible"
+    },
+    {
+     "label": "C",
+     "text": "Beaker"
+    },
+    {
+     "label": "D",
+     "text": "Evaporating dish"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-198"
+  },
+  {
+   "n": 18,
+   "stem": "A titration curve shows pH on the vertical axis (0–14) and volume of NaOH added (0–50 mL) on the horizontal axis. The equivalence point occurs at pH ≈ 9.0. Which indicator is best for showing a color change at the equivalence point?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Bromocresol green (pH range 4.0–5.6)"
+    },
+    {
+     "label": "B",
+     "text": "Indigo carmine (pH range 11.4–13.0)"
+    },
+    {
+     "label": "C",
+     "text": "Neutral red (pH range 6.8–8.0)"
+    },
+    {
+     "label": "D",
+     "text": "Phenolphthalein (pH range 8.0–10.1)"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-199"
+  },
+  {
+   "n": 19,
+   "stem": "N₂ + 3H₂ → 2NH₃ If 6 L of hydrogen gas are used, how many liters of nitrogen gas are needed at STP?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2 L"
+    },
+    {
+     "label": "B",
+     "text": "3 L"
+    },
+    {
+     "label": "C",
+     "text": "4 L"
+    },
+    {
+     "label": "D",
+     "text": "12 L"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-200"
+  },
+  {
+   "n": 20,
+   "stem": "Which of the following best represents the reaction between hydrochloric acid and sodium hydroxide?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2HCl + 2NaOH → Na(OH)₂ + H₂Cl₂"
+    },
+    {
+     "label": "B",
+     "text": "HCl + 2NaOH → 2H₂O + 2NaCl"
+    },
+    {
+     "label": "C",
+     "text": "HCl + NaOH → H₂O + NaCl"
+    },
+    {
+     "label": "D",
+     "text": "2HCl + NaOH → 2H⁺ + Na⁺ + Cl⁻ + O²⁻"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-201"
+  },
+  {
+   "n": 21,
+   "stem": "Which of the following has little or no effect on the boiling point of water?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Increasing air pressure above the liquid"
+    },
+    {
+     "label": "B",
+     "text": "Adding alcohol to the water"
+    },
+    {
+     "label": "C",
+     "text": "Adding sodium chloride to the water"
+    },
+    {
+     "label": "D",
+     "text": "Increasing the amount of water"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-202"
+  },
+  {
+   "n": 22,
+   "stem": "Formaldehyde (H₂CO) reacts with oxygen to form CO₂ and H₂O. How many moles of CO₂ are produced from reacting 2 moles of H₂CO with excess oxygen?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-203"
+  },
+  {
+   "n": 23,
+   "stem": "Four solutions have the following pH values: A: 2 B: 6 C: 9 D: 12 Which pair would be acidic if mixed in equal quantities?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A and B"
+    },
+    {
+     "label": "B",
+     "text": "B and C"
+    },
+    {
+     "label": "C",
+     "text": "B and D"
+    },
+    {
+     "label": "D",
+     "text": "C and D"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-204"
+  },
+  {
+   "n": 24,
+   "stem": "The elements characterized by an incomplete d sublevel are called —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "transition elements"
+    },
+    {
+     "label": "B",
+     "text": "alkaline earth metals"
+    },
+    {
+     "label": "C",
+     "text": "halogens"
+    },
+    {
+     "label": "D",
+     "text": "lanthanoids"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-205"
+  },
+  {
+   "n": 25,
+   "stem": "A graph shows temperature (°C) on the x-axis and pressure (kPa) on the y-axis for four liquids labeled 1–4. At 101.3 kPa, liquid 1 boils at the lowest temperature. Which liquid boils at the lowest temperature?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-206"
+  },
+  {
+   "n": 26,
+   "stem": "The net charge on an aluminum ion is +3 because there are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10 protons and 13 electrons"
+    },
+    {
+     "label": "B",
+     "text": "13 protons and 10 neutrons"
+    },
+    {
+     "label": "C",
+     "text": "10 neutrons and 13 electrons"
+    },
+    {
+     "label": "D",
+     "text": "13 protons and 10 electrons"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-207"
+  },
+  {
+   "n": 27,
+   "stem": "The type of formula that shows the arrangement of atoms and bonds is called —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "empirical"
+    },
+    {
+     "label": "B",
+     "text": "chemical"
+    },
+    {
+     "label": "C",
+     "text": "molecular"
+    },
+    {
+     "label": "D",
+     "text": "structural"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-208"
+  },
+  {
+   "n": 28,
+   "stem": "Standard atmospheric pressure is 101.3 kPa. According to the described boiling point graph in Question 21, which liquid boils at the lowest temperature?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-209"
+  },
+  {
+   "n": 29,
+   "stem": "Which of the following is a mixture?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Carbon"
+    },
+    {
+     "label": "B",
+     "text": "Glucose"
+    },
+    {
+     "label": "C",
+     "text": "Distilled water"
+    },
+    {
+     "label": "D",
+     "text": "Air"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-210"
+  },
+  {
+   "n": 30,
+   "stem": "In the reaction 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O what is the mole ratio of C₄H₁₀ to CO₂?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1:4"
+    },
+    {
+     "label": "B",
+     "text": "2:13"
+    },
+    {
+     "label": "C",
+     "text": "4:5"
+    },
+    {
+     "label": "D",
+     "text": "13:8"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-211"
+  },
+  {
+   "n": 31,
+   "stem": "One indicator that electrons in atoms are limited to specific energy levels is that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "atoms move faster when heated"
+    },
+    {
+     "label": "B",
+     "text": "light given off by atoms is all the same wavelength"
+    },
+    {
+     "label": "C",
+     "text": "Doppler shifts occur in atomic spectra"
+    },
+    {
+     "label": "D",
+     "text": "light emitted from excited atoms occurs only at specific wavelengths"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-212"
+  },
+  {
+   "n": 32,
+   "stem": "A heating curve for 1 kg of water shows temperature versus heat added. Between points labeled 2 and 3, temperature remains constant at 0°C while heat is added. During this interval, energy is being used to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "melt ice"
+    },
+    {
+     "label": "B",
+     "text": "heat liquid water"
+    },
+    {
+     "label": "C",
+     "text": "evaporate water"
+    },
+    {
+     "label": "D",
+     "text": "heat water vapor"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-213"
+  },
+  {
+   "n": 33,
+   "stem": "A container holds 20.0 g of neon gas. Under the same conditions, how many grams of xenon would the container hold?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "108 g"
+    },
+    {
+     "label": "B",
+     "text": "131 g"
+    },
+    {
+     "label": "C",
+     "text": "262 g"
+    },
+    {
+     "label": "D",
+     "text": "370 g"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-214"
+  },
+  {
+   "n": 34,
+   "stem": "In the reaction H₂SO₄ + KOH → H₂O + K⁺ + HSO₄⁻ which substance is the base?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "H₂O"
+    },
+    {
+     "label": "B",
+     "text": "KOH"
+    },
+    {
+     "label": "C",
+     "text": "K⁺"
+    },
+    {
+     "label": "D",
+     "text": "H₂SO₄"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-215"
+  },
+  {
+   "n": 35,
+   "stem": "What is the molecular formula of a substance with empirical formula C₂H₅ and molecular mass 58 g/mol?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "C₂H₅"
+    },
+    {
+     "label": "B",
+     "text": "C₅H₂"
+    },
+    {
+     "label": "C",
+     "text": "C₄H₁₀"
+    },
+    {
+     "label": "D",
+     "text": "C₆H₁₅"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-216"
+  },
+  {
+   "n": 36,
+   "stem": "According to Boyle’s law, the relationship between pressure and volume of a gas at constant temperature is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "numerically equivalent"
+    },
+    {
+     "label": "B",
+     "text": "inversely proportional"
+    },
+    {
+     "label": "C",
+     "text": "positively correlated"
+    },
+    {
+     "label": "D",
+     "text": "unrelated"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-217"
+  },
+  {
+   "n": 37,
+   "stem": "In the combustion of ethane, how many moles of CO₂ are produced from 1.00 mole of C₂H₆?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.50"
+    },
+    {
+     "label": "B",
+     "text": "1.00"
+    },
+    {
+     "label": "C",
+     "text": "2.00"
+    },
+    {
+     "label": "D",
+     "text": "4.00"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-218"
+  },
+  {
+   "n": 38,
+   "stem": "Charles’ Law explains why —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "gas pressure increases when volume decreases"
+    },
+    {
+     "label": "B",
+     "text": "a gas-filled balloon expands when heated"
+    },
+    {
+     "label": "C",
+     "text": "solids require heat to change to gases"
+    },
+    {
+     "label": "D",
+     "text": "some gases react only at high temperatures"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-219"
+  },
+  {
+   "n": 39,
+   "stem": "What is a possible cause of a large percentage error in an experiment where MgO is produced from burning magnesium?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Not all of the Mg reacts completely"
+    },
+    {
+     "label": "B",
+     "text": "The same balance was used throughout"
+    },
+    {
+     "label": "C",
+     "text": "Measurements were made carefully"
+    },
+    {
+     "label": "D",
+     "text": "No material was spilled"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-220"
+  },
+  {
+   "n": 40,
+   "stem": "For the equilibrium 2HCl(g) ⇌ H₂(g) + Cl₂(g) which change will shift equilibrium to the right?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Doubling reactant concentration"
+    },
+    {
+     "label": "B",
+     "text": "Increasing temperature"
+    },
+    {
+     "label": "C",
+     "text": "Reducing product concentration"
+    },
+    {
+     "label": "D",
+     "text": "Keeping temperature constant"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-221"
+  },
+  {
+   "n": 41,
+   "stem": "The energy required to raise the temperature of 1 g of a substance by 1°C is called —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "heat of formation"
+    },
+    {
+     "label": "B",
+     "text": "heat of vaporization"
+    },
+    {
+     "label": "C",
+     "text": "molar heat of fusion"
+    },
+    {
+     "label": "D",
+     "text": "specific heat capacity"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-222"
+  },
+  {
+   "n": 42,
+   "stem": "The empirical formula for C₆H₁₂ is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "C₃H₆"
+    },
+    {
+     "label": "B",
+     "text": "C₂H₄"
+    },
+    {
+     "label": "C",
+     "text": "CH₃"
+    },
+    {
+     "label": "D",
+     "text": "CH₂"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-223"
+  },
+  {
+   "n": 43,
+   "stem": "In the reaction Na₂CO₃ + Ca(OH)₂ → 2NaOH + CaCO₃ what type of reaction is represented?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Single replacement"
+    },
+    {
+     "label": "B",
+     "text": "Double replacement"
+    },
+    {
+     "label": "C",
+     "text": "Synthesis"
+    },
+    {
+     "label": "D",
+     "text": "Decomposition"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-224"
+  },
+  {
+   "n": 44,
+   "stem": "Which completes the equation 2O₃(g) → ___ (g)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "O₂"
+    },
+    {
+     "label": "B",
+     "text": "O₃"
+    },
+    {
+     "label": "C",
+     "text": "ClO"
+    },
+    {
+     "label": "D",
+     "text": "ClO₂"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-225"
+  },
+  {
+   "n": 45,
+   "stem": "In a periodic table created by an alien, element G is a metal and element E is a nonmetal. What type of bond would form between G and E?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Metallic"
+    },
+    {
+     "label": "B",
+     "text": "Nonmetallic"
+    },
+    {
+     "label": "C",
+     "text": "Covalent"
+    },
+    {
+     "label": "D",
+     "text": "Ionic"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-226"
+  },
+  {
+   "n": 46,
+   "stem": "A graph shows total mass of a flask and contents versus time during the reaction of CaCO₃ with HCl. The mass decreases rapidly from 0–10 s, then decreases more slowly. During which interval is the reaction fastest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0–10 s"
+    },
+    {
+     "label": "B",
+     "text": "10–20 s"
+    },
+    {
+     "label": "C",
+     "text": "20–30 s"
+    },
+    {
+     "label": "D",
+     "text": "30–40 s"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-227"
+  },
+  {
+   "n": 47,
+   "stem": "A graduated cylinder initially contains 10 mL of water. After object X is added, the water level rises to 35 mL. What is the volume of object X?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "20 mL"
+    },
+    {
+     "label": "B",
+     "text": "25 mL"
+    },
+    {
+     "label": "C",
+     "text": "30 mL"
+    },
+    {
+     "label": "D",
+     "text": "35 mL"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-228"
+  },
+  {
+   "n": 48,
+   "stem": "How many liters are equivalent to 5 milliliters?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.005 L"
+    },
+    {
+     "label": "B",
+     "text": "0.05 L"
+    },
+    {
+     "label": "C",
+     "text": "500 L"
+    },
+    {
+     "label": "D",
+     "text": "5000 L"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-229"
+  },
+  {
+   "n": 49,
+   "stem": "Five trials of gas volume measurements give 5.20, 5.20, 5.19, 5.20, and 5.20 L for a known value of 2.20 L. This data reflects —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "low precision and low accuracy"
+    },
+    {
+     "label": "B",
+     "text": "low precision and high accuracy"
+    },
+    {
+     "label": "C",
+     "text": "low accuracy and high precision"
+    },
+    {
+     "label": "D",
+     "text": "high accuracy and high precision"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-230"
+  },
+  {
+   "n": 50,
+   "stem": "A gas mixture has a total pressure of 755 mmHg. If argon exerts 174 mmHg and helium exerts 389 mmHg, what is the partial pressure of oxygen?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "192 mmHg"
+    },
+    {
+     "label": "B",
+     "text": "282 mmHg"
+    },
+    {
+     "label": "C",
+     "text": "366 mmHg"
+    },
+    {
+     "label": "D",
+     "text": "563 mmHg"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2005_SOLPass",
+   "id": "chemistry-i-231"
+  },
+  {
+   "n": 1,
+   "stem": "A student uses a metric ruler marked in centimeters with millimeter subdivisions (each small division equals 0.1 cm). The left end of a nail is aligned at 0.00 cm. The right end of the nail lies halfway between the 3.5 cm and 3.6 cm marks. According to the precision of the ruler, what is the measured length of the nail?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3.5 cm"
+    },
+    {
+     "label": "G",
+     "text": "3.55 cm"
+    },
+    {
+     "label": "H",
+     "text": "3.7 cm"
+    },
+    {
+     "label": "J",
+     "text": "3.75 cm"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-232"
+  },
+  {
+   "n": 3,
+   "stem": "The following reaction is illustrated: hydrogen gas reacts with oxygen gas to form water. The unbalanced equation is H₂ + O₂ → H₂O. What are the coefficients of the correctly balanced equation, listed in the order H₂, O₂, H₂O?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1, 1, 1"
+    },
+    {
+     "label": "B",
+     "text": "1, 1, 2"
+    },
+    {
+     "label": "C",
+     "text": "2, 1, 2"
+    },
+    {
+     "label": "D",
+     "text": "2, 2, 1"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-233"
+  },
+  {
+   "n": 4,
+   "stem": "Elements from which two groups in the periodic table would most likely combine with each other to form an ionic compound?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Groups 1 and 2"
+    },
+    {
+     "label": "G",
+     "text": "Groups 16 and 17"
+    },
+    {
+     "label": "H",
+     "text": "Groups 1 and 17"
+    },
+    {
+     "label": "J",
+     "text": "Groups 17 and 18"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-234"
+  },
+  {
+   "n": 5,
+   "stem": "Which of the following describes what takes place when iron atoms are oxidized from Fe to Fe²⁺ ions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A gain of two electrons"
+    },
+    {
+     "label": "B",
+     "text": "A loss of two electrons"
+    },
+    {
+     "label": "C",
+     "text": "A gain of two protons"
+    },
+    {
+     "label": "D",
+     "text": "A loss of two protons"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-235"
+  },
+  {
+   "n": 6,
+   "stem": "An ice-skating rink has tubes under its floor to freeze the water. Salt water is cooled well below the freezing point of pure water and pumped through the tubes. Why can the salt water be cooled to such a low temperature without freezing?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Salt has a very low freezing point."
+    },
+    {
+     "label": "G",
+     "text": "Adding salt to water lowers its freezing point."
+    },
+    {
+     "label": "H",
+     "text": "Movement of the salt water through the tubes keeps it liquid."
+    },
+    {
+     "label": "J",
+     "text": "The salt water is constantly absorbing energy from its surroundings."
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-236"
+  },
+  {
+   "n": 7,
+   "stem": "A potential energy diagram for a chemical reaction shows energy on the vertical axis and progress of reaction on the horizontal axis. The diagram includes a high activation energy barrier for the uncatalyzed reaction and a lower activation energy barrier for the catalyzed reaction. Which numbered label represents the effect of a catalyst on the reaction?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-237"
+  },
+  {
+   "n": 8,
+   "stem": "In chemical compounds, covalent bonds form when —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "the electronegativity difference between two atoms is very large"
+    },
+    {
+     "label": "G",
+     "text": "electrons are completely transferred between two metals"
+    },
+    {
+     "label": "H",
+     "text": "pairs of electrons are shared between two nonmetal atoms"
+    },
+    {
+     "label": "J",
+     "text": "two nonmetal ions are attracted to each other by opposite charges"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-238"
+  },
+  {
+   "n": 9,
+   "stem": "Which scientist was the first to conclude through experimentation that atoms have positive charges in their nuclei?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Bohr"
+    },
+    {
+     "label": "B",
+     "text": "Dalton"
+    },
+    {
+     "label": "C",
+     "text": "Moseley"
+    },
+    {
+     "label": "D",
+     "text": "Rutherford"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-239"
+  },
+  {
+   "n": 10,
+   "stem": "Soda water is a solution of carbon dioxide dissolved in water. This solution is composed of a —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "gaseous solute in a gaseous solvent"
+    },
+    {
+     "label": "G",
+     "text": "liquid solute in a liquid solvent"
+    },
+    {
+     "label": "H",
+     "text": "gaseous solute in a liquid solvent"
+    },
+    {
+     "label": "J",
+     "text": "liquid solute in a gaseous solvent"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-240"
+  },
+  {
+   "n": 11,
+   "stem": "If the heat of fusion of water is 80 cal/g, how much heat energy is required to change 15.0 g of ice at 0°C to 15.0 g of liquid water at 0°C?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "80 cal"
+    },
+    {
+     "label": "B",
+     "text": "560 cal"
+    },
+    {
+     "label": "C",
+     "text": "1200 cal"
+    },
+    {
+     "label": "D",
+     "text": "2400 cal"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-241"
+  },
+  {
+   "n": 12,
+   "stem": "Three elements, X, Y, and Z, have consecutive increasing atomic numbers. If element X is a noble gas, what will be the symbol for the ion of element Z in its compounds?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Z²⁻"
+    },
+    {
+     "label": "G",
+     "text": "Z⁻"
+    },
+    {
+     "label": "H",
+     "text": "Z⁺"
+    },
+    {
+     "label": "J",
+     "text": "Z²⁺"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-242"
+  },
+  {
+   "n": 13,
+   "stem": "A gas cylinder contains 4.00 moles of oxygen gas at 300.0 K. The pressure is 400.0 kPa. Using R = 8.31 kPa·dm³/(mol·K), what is the volume of the gas?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3.19 dm³"
+    },
+    {
+     "label": "B",
+     "text": "6.25 dm³"
+    },
+    {
+     "label": "C",
+     "text": "24.9 dm³"
+    },
+    {
+     "label": "D",
+     "text": "31.5 dm³"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-243"
+  },
+  {
+   "n": 14,
+   "stem": "?AgNO₃ +?AlCl₃ →?AgCl +?Al(NO₃)₃ Which set of coefficients balances this equation, listed in the order AgNO₃, AlCl₃, AgCl, Al(NO₃)₃?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "3, 3, 2, 1"
+    },
+    {
+     "label": "G",
+     "text": "3, 1, 3, 1"
+    },
+    {
+     "label": "H",
+     "text": "1, 6, 1, 9"
+    },
+    {
+     "label": "J",
+     "text": "9, 3, 3, 3"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-244"
+  },
+  {
+   "n": 15,
+   "stem": "The formula for lithium nitride is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "LiN"
+    },
+    {
+     "label": "B",
+     "text": "Li₃N"
+    },
+    {
+     "label": "C",
+     "text": "LiN₃"
+    },
+    {
+     "label": "D",
+     "text": "NLi₃"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-245"
+  },
+  {
+   "n": 16,
+   "stem": "Litmus paper turns red in acidic solutions and blue in basic solutions. Which of the following aqueous solutions will cause litmus paper to turn red?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "NaOH"
+    },
+    {
+     "label": "G",
+     "text": "NaCl"
+    },
+    {
+     "label": "H",
+     "text": "HCl"
+    },
+    {
+     "label": "J",
+     "text": "H₂O"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-246"
+  },
+  {
+   "n": 17,
+   "stem": "Four measurements of the same object are recorded: • Measurement 1: 5.2 g • Measurement 2: 5.4 g • Measurement 3: 3.0 g • Measurement 4: 2.45 g The known mass of the object is 5.38 g. Which measurement is the most accurate?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-247"
+  },
+  {
+   "n": 18,
+   "stem": "The correct structural formula for ethane (C₂H₆) shows two carbon atoms single-bonded to each other, with each carbon bonded to three hydrogen atoms. Which option correctly represents this structure?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "—"
+    },
+    {
+     "label": "G",
+     "text": "—"
+    },
+    {
+     "label": "H",
+     "text": "—"
+    },
+    {
+     "label": "J",
+     "text": "—"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-248"
+  },
+  {
+   "n": 19,
+   "stem": "If a student’s hand is accidentally exposed to an acidic solution, what should be done?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rinse the hand in a concentrated base."
+    },
+    {
+     "label": "B",
+     "text": "Rinse the hand in running water."
+    },
+    {
+     "label": "C",
+     "text": "Wrap the hand in paper towels."
+    },
+    {
+     "label": "D",
+     "text": "Cover the hand with oil."
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-249"
+  },
+  {
+   "n": 20,
+   "stem": "A diagram shows one compound breaking apart into two simpler substances. What type of reaction does this represent?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Decomposition"
+    },
+    {
+     "label": "G",
+     "text": "Synthesis"
+    },
+    {
+     "label": "H",
+     "text": "Single-replacement"
+    },
+    {
+     "label": "J",
+     "text": "Double-replacement"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-250"
+  },
+  {
+   "n": 21,
+   "stem": "A solution that has a concentration greater than its predicted solubility at a given temperature and pressure is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "unsaturated"
+    },
+    {
+     "label": "B",
+     "text": "saturated"
+    },
+    {
+     "label": "C",
+     "text": "supersaturated"
+    },
+    {
+     "label": "D",
+     "text": "dilute"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-251"
+  },
+  {
+   "n": 22,
+   "stem": "A student repeats an experiment three times and reports the average result. What can the student do to maximize the reliability of the data?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Report the value closest to the class average."
+    },
+    {
+     "label": "G",
+     "text": "Conduct each trial using the same balance."
+    },
+    {
+     "label": "H",
+     "text": "Average only the two most similar values."
+    },
+    {
+     "label": "J",
+     "text": "Perform each trial on different days."
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-252"
+  },
+  {
+   "n": 23,
+   "stem": "Atoms of the same element must —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "contain the same number of neutrons"
+    },
+    {
+     "label": "B",
+     "text": "have the same mass number"
+    },
+    {
+     "label": "C",
+     "text": "contain the same number of protons"
+    },
+    {
+     "label": "D",
+     "text": "have equal numbers of protons and neutrons"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-253"
+  },
+  {
+   "n": 24,
+   "stem": "Hydrogen gas is collected over water at 25°C. The total pressure is 523.8 mmHg, and the vapor pressure of water at 25°C is 23.8 mmHg. What is the partial pressure of the hydrogen gas?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "23.8 mmHg"
+    },
+    {
+     "label": "G",
+     "text": "47.6 mmHg"
+    },
+    {
+     "label": "H",
+     "text": "500.0 mmHg"
+    },
+    {
+     "label": "J",
+     "text": "523.8 mmHg"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-254"
+  },
+  {
+   "n": 25,
+   "stem": "Water molecules have the greatest kinetic energy in —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ice at 0°C"
+    },
+    {
+     "label": "B",
+     "text": "liquid water at 373 K"
+    },
+    {
+     "label": "C",
+     "text": "liquid water at 98°C"
+    },
+    {
+     "label": "D",
+     "text": "steam at 150°C"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-255"
+  },
+  {
+   "n": 26,
+   "stem": "What is the molarity of a solution prepared by dissolving 27.2 g of NaCl in enough water to make 500.0 mL of solution?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0.186 M"
+    },
+    {
+     "label": "G",
+     "text": "0.465 M"
+    },
+    {
+     "label": "H",
+     "text": "0.930 M"
+    },
+    {
+     "label": "J",
+     "text": "1.860 M"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-256"
+  },
+  {
+   "n": 27,
+   "stem": "A Lewis structure shows a central atom labeled X with three shared pairs of electrons and one lone pair. Which element could X represent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "oxygen"
+    },
+    {
+     "label": "B",
+     "text": "fluorine"
+    },
+    {
+     "label": "C",
+     "text": "nitrogen"
+    },
+    {
+     "label": "D",
+     "text": "sulfur"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-257"
+  },
+  {
+   "n": 28,
+   "stem": "At constant volume, pressure increases linearly with temperature. Which graph shows pressure on the vertical axis and temperature on the horizontal axis with a straight line rising to the right from the origin?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "—"
+    },
+    {
+     "label": "G",
+     "text": "—"
+    },
+    {
+     "label": "H",
+     "text": "—"
+    },
+    {
+     "label": "J",
+     "text": "—"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-258"
+  },
+  {
+   "n": 29,
+   "stem": "Selected polyatomic ions include chlorate (ClO₃⁻). Chlorine and bromine are in the same periodic table group. What is the correct formula for sodium bromate?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "NaBrO"
+    },
+    {
+     "label": "B",
+     "text": "Na₂BrO₃"
+    },
+    {
+     "label": "C",
+     "text": "Na₃BrO₃"
+    },
+    {
+     "label": "D",
+     "text": "NaBrO₃"
+    }
+   ],
+   "answer": "D",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-259"
+  },
+  {
+   "n": 30,
+   "stem": "Zinc reacts with hydrochloric acid according to the equation: Zn + 2HCl → ZnCl₂ + H₂ If 0.600 g of zinc reacts completely, how much zinc chloride is produced?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0.125 g"
+    },
+    {
+     "label": "G",
+     "text": "1.25 g"
+    },
+    {
+     "label": "H",
+     "text": "12.5 g"
+    },
+    {
+     "label": "J",
+     "text": "0.018 g"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-260"
+  },
+  {
+   "n": 31,
+   "stem": "When naming a transition metal that has more than one oxidation number, the oxidation number is indicated by a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Roman numeral"
+    },
+    {
+     "label": "B",
+     "text": "Greek prefix"
+    },
+    {
+     "label": "C",
+     "text": "subscript"
+    },
+    {
+     "label": "D",
+     "text": "suffix"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-261"
+  },
+  {
+   "n": 32,
+   "stem": "A compound is 85.64% carbon and 14.36% hydrogen by mass and has a molar mass of 42.08 g/mol. What is the molecular formula?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "CH₂"
+    },
+    {
+     "label": "G",
+     "text": "C₃H₆"
+    },
+    {
+     "label": "H",
+     "text": "C₂H₄"
+    },
+    {
+     "label": "J",
+     "text": "C₂H₁₈"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-262"
+  },
+  {
+   "n": 33,
+   "stem": "A solubility graph shows that at 90°C, potassium nitrate (KNO₃) has a higher solubility in water than sodium chlorate, potassium bromide, or sodium chloride. Which salt is most soluble at 90°C?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "NaClO₃"
+    },
+    {
+     "label": "B",
+     "text": "KNO₃"
+    },
+    {
+     "label": "C",
+     "text": "KBr"
+    },
+    {
+     "label": "D",
+     "text": "NaCl"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-263"
+  },
+  {
+   "n": 34,
+   "stem": "What is the molecular shape of methane (CH₄)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Bent"
+    },
+    {
+     "label": "G",
+     "text": "Linear"
+    },
+    {
+     "label": "H",
+     "text": "Pyramidal"
+    },
+    {
+     "label": "J",
+     "text": "Tetrahedral"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-264"
+  },
+  {
+   "n": 35,
+   "stem": "Marble chips of equal mass are reacted with hydrochloric acid. One sample is crushed, and the other is left whole. The crushed sample produces carbon dioxide gas faster. This experiment studies the effect of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "catalysts on reaction rate"
+    },
+    {
+     "label": "B",
+     "text": "acid type on reaction rate"
+    },
+    {
+     "label": "C",
+     "text": "surface area on reaction rate"
+    },
+    {
+     "label": "D",
+     "text": "temperature on reaction rate"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-265"
+  },
+  {
+   "n": 36,
+   "stem": "Fe + CuCl₂ → FeCl₂ + Cu The type of reaction shown is —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "single-replacement"
+    },
+    {
+     "label": "G",
+     "text": "double-replacement"
+    },
+    {
+     "label": "H",
+     "text": "synthesis"
+    },
+    {
+     "label": "J",
+     "text": "decomposition"
+    }
+   ],
+   "answer": "F",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-266"
+  },
+  {
+   "n": 37,
+   "stem": "When CuSO₄·5H₂O is heated, water is lost. How should a student determine the mass of water lost?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Subtract the mass of CuSO₄ from the mass of CuSO₄·5H₂O"
+    },
+    {
+     "label": "B",
+     "text": "Subtract the mass of CuSO₄·5H₂O from the mass of CuSO₄"
+    },
+    {
+     "label": "C",
+     "text": "Add the masses of CuSO₄·5H₂O and CuSO₄"
+    },
+    {
+     "label": "D",
+     "text": "Multiply the masses of CuSO₄·5H₂O and CuSO₄"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-267"
+  },
+  {
+   "n": 38,
+   "stem": "A phase-change diagram shows transitions among solid, liquid, and gas. Which numbered process represents condensation (gas changing to liquid)?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-268"
+  },
+  {
+   "n": 39,
+   "stem": "The alkali metals are located in which group of the periodic table?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-269"
+  },
+  {
+   "n": 40,
+   "stem": "A steel object raises the water level in a graduated cylinder from 50.0 cm³ to 55.6 cm³. How could the student improve the reliability of the volume measurement?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Report the volume as 56 mm³"
+    },
+    {
+     "label": "G",
+     "text": "Fill the cylinder to 70.0 cm³ first"
+    },
+    {
+     "label": "H",
+     "text": "Measure mass and calculate density"
+    },
+    {
+     "label": "J",
+     "text": "Repeat the measurement several times and average"
+    }
+   ],
+   "answer": "J",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-270"
+  },
+  {
+   "n": 41,
+   "stem": "Four species have the following numbers of subatomic particles: 1) 11 protons, 12 neutrons, 10 electrons 2) 1 proton, 0 neutrons, 2 electrons 3) 15 protons, 16 neutrons, 15 electrons 4) 20 protons, 20 neutrons, 18 electrons Which species is an ion with a 1⁻ charge?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-271"
+  },
+  {
+   "n": 42,
+   "stem": "A balanced chemical equation illustrates the principle of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "conservation of energy"
+    },
+    {
+     "label": "G",
+     "text": "conservation of mass"
+    },
+    {
+     "label": "H",
+     "text": "action and reaction"
+    },
+    {
+     "label": "J",
+     "text": "natural selection"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-272"
+  },
+  {
+   "n": 43,
+   "stem": "What is the density of carbon dioxide gas at STP?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1.96 g/L"
+    },
+    {
+     "label": "B",
+     "text": "22.0 g/L"
+    },
+    {
+     "label": "C",
+     "text": "46.0 g/L"
+    },
+    {
+     "label": "D",
+     "text": "5.09 × 10⁻¹ g/L"
+    }
+   ],
+   "answer": "A",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-273"
+  },
+  {
+   "n": 44,
+   "stem": "Magnesium reacts with oxygen to form magnesium oxide. How many moles of O₂ are needed to react completely with 10 moles of Mg?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2"
+    },
+    {
+     "label": "G",
+     "text": "5"
+    },
+    {
+     "label": "H",
+     "text": "10"
+    },
+    {
+     "label": "J",
+     "text": "20"
+    }
+   ],
+   "answer": "G",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-274"
+  },
+  {
+   "n": 45,
+   "stem": "Nitrogen gas (N₂) is diatomic. What is the mass of one mole of nitrogen gas?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7 g"
+    },
+    {
+     "label": "B",
+     "text": "14 g"
+    },
+    {
+     "label": "C",
+     "text": "28 g"
+    },
+    {
+     "label": "D",
+     "text": "6 × 10²³ g"
+    }
+   ],
+   "answer": "C",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-275"
+  },
+  {
+   "n": 46,
+   "stem": "An increase in atomic number is related to an increase in atomic mass because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "more electrons are present in the nucleus"
+    },
+    {
+     "label": "G",
+     "text": "more electrons orbit the nucleus"
+    },
+    {
+     "label": "H",
+     "text": "more protons are present in the nucleus"
+    },
+    {
+     "label": "J",
+     "text": "more protons orbit the nucleus"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-276"
+  },
+  {
+   "n": 49,
+   "stem": "Ulcers are often caused by excess stomach acid. Milk of magnesia is used to relieve the irritation. Milk of magnesia is most likely —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "an acid"
+    },
+    {
+     "label": "B",
+     "text": "a base"
+    },
+    {
+     "label": "C",
+     "text": "an indicator"
+    },
+    {
+     "label": "D",
+     "text": "a colloid"
+    }
+   ],
+   "answer": "B",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-277"
+  },
+  {
+   "n": 50,
+   "stem": "Which element contains four valence electrons?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Helium"
+    },
+    {
+     "label": "G",
+     "text": "Beryllium"
+    },
+    {
+     "label": "H",
+     "text": "Carbon"
+    },
+    {
+     "label": "J",
+     "text": "Oxygen"
+    }
+   ],
+   "answer": "H",
+   "source": "Science_Chemistry_I_2003_SOLPass",
+   "id": "chemistry-i-278"
+  }
+ ]
+}

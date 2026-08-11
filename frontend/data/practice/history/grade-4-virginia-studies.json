@@ -1,0 +1,787 @@
+{
+ "subject": "history",
+ "course": "grade-4-virginia-studies",
+ "courseName": "Grade 4 - Virginia Studies",
+ "questionCount": 31,
+ "sources": [
+  "History_Grade_4__Virginia_Studies_2014_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Which group established the town of Werowocomoco?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "English settlers"
+    },
+    {
+     "label": "B",
+     "text": "American Indians"
+    },
+    {
+     "label": "C",
+     "text": "Spanish missionaries"
+    },
+    {
+     "label": "D",
+     "text": "African Americans"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-1"
+  },
+  {
+   "n": 2,
+   "stem": "How do we know what life was like for Jamestown settlers? Historians study artifacts such as metal tools left behind by settlers to learn how those items were used. People studying the past best learn about artifacts like these by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "designing them on computers"
+    },
+    {
+     "label": "B",
+     "text": "seeing them in newspapers"
+    },
+    {
+     "label": "C",
+     "text": "digging at archaeological sites"
+    },
+    {
+     "label": "D",
+     "text": "looking at colonial pictures"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-2"
+  },
+  {
+   "n": 3,
+   "stem": "Which of these happened last?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Settlers learned survival skills from Powhatan and other native peoples."
+    },
+    {
+     "label": "B",
+     "text": "Native peoples saw the settlers as invaders taking their land."
+    },
+    {
+     "label": "C",
+     "text": "Settlers communicated with the native peoples through Pocahontas."
+    },
+    {
+     "label": "D",
+     "text": "Native peoples taught the settlers to plant corn and other crops."
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-3"
+  },
+  {
+   "n": 4,
+   "stem": "What is the best example of a cultural landscape (a human-made feature of the land)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Tree"
+    },
+    {
+     "label": "B",
+     "text": "Cow"
+    },
+    {
+     "label": "C",
+     "text": "Barn"
+    },
+    {
+     "label": "D",
+     "text": "Tractor"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-4"
+  },
+  {
+   "n": 5,
+   "stem": "The arrival of European settlers changed the lives of American Indians by forcing them to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "build new houses"
+    },
+    {
+     "label": "B",
+     "text": "attend school"
+    },
+    {
+     "label": "C",
+     "text": "move inland"
+    },
+    {
+     "label": "D",
+     "text": "work on ships"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-5"
+  },
+  {
+   "n": 6,
+   "stem": "The area of West Virginia became a state because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "its people opposed slavery"
+    },
+    {
+     "label": "B",
+     "text": "Abraham Lincoln was elected"
+    },
+    {
+     "label": "C",
+     "text": "its people supported women’s suffrage"
+    },
+    {
+     "label": "D",
+     "text": "John Brown caused a slave revolt"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-6"
+  },
+  {
+   "n": 8,
+   "stem": "Author of the Virginia Statute for Religious Freedom Served as Governor during the Revolutionary War Served in the Continental Congress Which Virginian is responsible for these contributions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Thomas Jefferson"
+    },
+    {
+     "label": "B",
+     "text": "George Washington"
+    },
+    {
+     "label": "C",
+     "text": "Patrick Henry"
+    },
+    {
+     "label": "D",
+     "text": "James Madison"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-7"
+  },
+  {
+   "n": 9,
+   "stem": "Which group’s traditional homeland was located in the Coastal Plain (Tidewater) region of Virginia?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Lakota"
+    },
+    {
+     "label": "B",
+     "text": "English"
+    },
+    {
+     "label": "C",
+     "text": "Powhatan"
+    },
+    {
+     "label": "D",
+     "text": "African"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-8"
+  },
+  {
+   "n": 10,
+   "stem": "Edmund: “I think we should stay loyal to the king.” Joshua: “I think we should form our own nation.” Which statement about these two Virginians is probably true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Only one led soldiers in the colonies."
+    },
+    {
+     "label": "B",
+     "text": "They took opposite sides in the American Revolution."
+    },
+    {
+     "label": "C",
+     "text": "Only one paid taxes in the colonies."
+    },
+    {
+     "label": "D",
+     "text": "They had different opinions about African-American slavery."
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-9"
+  },
+  {
+   "n": 11,
+   "stem": "A public meeting is advertised as supporting anti-slavery, with signs showing opposition to slavery and support for ending enslavement. Which group would most likely have supported this type of meeting?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Industrialists"
+    },
+    {
+     "label": "B",
+     "text": "Abolitionists"
+    },
+    {
+     "label": "C",
+     "text": "Plantation owners"
+    },
+    {
+     "label": "D",
+     "text": "Confederate soldiers"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-10"
+  },
+  {
+   "n": 12,
+   "stem": "During the Civil War, the ironclad ships Merrimack and Monitor fought a naval battle that ended without a clear winner. Which newspaper headline best describes the result of the battle?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Struggle Ends in Draw"
+    },
+    {
+     "label": "B",
+     "text": "Merrimack Goes Down Fighting"
+    },
+    {
+     "label": "C",
+     "text": "Victory for the South"
+    },
+    {
+     "label": "D",
+     "text": "Union Navy Defeated"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-11"
+  },
+  {
+   "n": 13,
+   "stem": "During the Civil War, which group provided labor for the Confederate states?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "New European immigrants"
+    },
+    {
+     "label": "B",
+     "text": "American Indians"
+    },
+    {
+     "label": "C",
+     "text": "Southern abolitionists"
+    },
+    {
+     "label": "D",
+     "text": "Enslaved African Americans"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-12"
+  },
+  {
+   "n": 14,
+   "stem": "Which Virginia governor is known for the “Pay As You Go” road improvement policy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A. Linwood Holton"
+    },
+    {
+     "label": "B",
+     "text": "Mills E. Godwin, Jr."
+    },
+    {
+     "label": "C",
+     "text": "Harry F. Byrd, Sr."
+    },
+    {
+     "label": "D",
+     "text": "L. Douglas Wilder"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-13"
+  },
+  {
+   "n": 15,
+   "stem": "The Appalachian Mountain system includes several regions. One of these regions is the Valley and Ridge region, which lies west of the Blue Ridge Mountains and is part of the Appalachian system. Which region completes this description?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Piedmont"
+    },
+    {
+     "label": "B",
+     "text": "Coastal Plain (Tidewater)"
+    },
+    {
+     "label": "C",
+     "text": "Valley and Ridge"
+    },
+    {
+     "label": "D",
+     "text": "Blue Ridge Mountains"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-14"
+  },
+  {
+   "n": 16,
+   "stem": "A settler in Richmond who wanted to return to Europe would travel on which river to reach the Chesapeake Bay and the Atlantic Ocean?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "James"
+    },
+    {
+     "label": "B",
+     "text": "Shenandoah"
+    },
+    {
+     "label": "C",
+     "text": "Roanoke"
+    },
+    {
+     "label": "D",
+     "text": "Potomac"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-15"
+  },
+  {
+   "n": 17,
+   "stem": "Which body of water separates the Eastern Shore of Virginia from the Virginia mainland?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Atlantic Ocean"
+    },
+    {
+     "label": "B",
+     "text": "Potomac River"
+    },
+    {
+     "label": "C",
+     "text": "Chesapeake Bay"
+    },
+    {
+     "label": "D",
+     "text": "James River"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-16"
+  },
+  {
+   "n": 18,
+   "stem": "Mari lives in Virginia near the North Carolina border. She is writing a history report on the native peoples who lived near her home and spoke an Iroquoian language. Which American Indians will be described in Mari’s report?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cherokee"
+    },
+    {
+     "label": "B",
+     "text": "Pamunkey"
+    },
+    {
+     "label": "C",
+     "text": "Monacan"
+    },
+    {
+     "label": "D",
+     "text": "Powhatan"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-17"
+  },
+  {
+   "n": 19,
+   "stem": "A diagram shows that rivers provided: transportation routes pathways for exploration access to food resources The best title for this diagram is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Why American Indians Lived in Virginia"
+    },
+    {
+     "label": "B",
+     "text": "The Reasons to Defend Jamestown From Spain"
+    },
+    {
+     "label": "C",
+     "text": "Why Jamestown Colonists Moved West"
+    },
+    {
+     "label": "D",
+     "text": "The Importance of Rivers to the Virginia Settlement"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-18"
+  },
+  {
+   "n": 20,
+   "stem": "The first settlers founded Jamestown on —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "an island"
+    },
+    {
+     "label": "B",
+     "text": "an isthmus"
+    },
+    {
+     "label": "C",
+     "text": "a peninsula"
+    },
+    {
+     "label": "D",
+     "text": "a strait"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-19"
+  },
+  {
+   "n": 22,
+   "stem": "The Burning of Jamestown occurred during Bacon’s Rebellion in 1676. What was the result of this event?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Colonists leave the Chesapeake Bay area"
+    },
+    {
+     "label": "B",
+     "text": "City rebuilt near Werowocomoco"
+    },
+    {
+     "label": "C",
+     "text": "Colonists join the local American Indian tribe"
+    },
+    {
+     "label": "D",
+     "text": "Capital moved to Williamsburg"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-20"
+  },
+  {
+   "n": 23,
+   "stem": "The charters of the Virginia Company of London gave —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "property rights to women"
+    },
+    {
+     "label": "B",
+     "text": "religious freedom to slaves"
+    },
+    {
+     "label": "C",
+     "text": "English rights to the colonists"
+    },
+    {
+     "label": "D",
+     "text": "land to the American Indians"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-21"
+  },
+  {
+   "n": 24,
+   "stem": "Cause: The colonists felt they ____________________. Effect: The colonists decided to fight for independence. Which phrase best completes this cause-and-effect relationship?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "had the right to own slaves"
+    },
+    {
+     "label": "B",
+     "text": "should own English land"
+    },
+    {
+     "label": "C",
+     "text": "had the right to govern themselves"
+    },
+    {
+     "label": "D",
+     "text": "should have an English king"
+    }
+   ],
+   "answer": "C",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-22"
+  },
+  {
+   "n": 25,
+   "stem": "Legal Authority in the Colonies British Ideas: Parliament held lawmaking power Colonists’ Ideas: Lawmaking power should be held by __________ Which group completes this comparison?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Earliest settlers"
+    },
+    {
+     "label": "B",
+     "text": "Royal governors"
+    },
+    {
+     "label": "C",
+     "text": "Wealthy families"
+    },
+    {
+     "label": "D",
+     "text": "Local assemblies"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-23"
+  },
+  {
+   "n": 26,
+   "stem": "After Reconstruction, the freedoms given to African Americans were —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "taken away by Jim Crow laws"
+    },
+    {
+     "label": "B",
+     "text": "changed by the Supreme Court"
+    },
+    {
+     "label": "C",
+     "text": "increased by the Bill of Rights"
+    },
+    {
+     "label": "D",
+     "text": "voted against by Congress"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-24"
+  },
+  {
+   "n": 27,
+   "stem": "“VOTE for John Montgomery Virginia House of Delegates” If John Montgomery wins this election, his job will be to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "make laws for the state"
+    },
+    {
+     "label": "B",
+     "text": "decide which people go to court"
+    },
+    {
+     "label": "C",
+     "text": "gather taxes for the state"
+    },
+    {
+     "label": "D",
+     "text": "judge which laws are constitutional"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-25"
+  },
+  {
+   "n": 28,
+   "stem": "As a result of the Civil Rights Movement, laws were passed that —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "gave immigrants the right to work"
+    },
+    {
+     "label": "B",
+     "text": "made racial discrimination illegal"
+    },
+    {
+     "label": "C",
+     "text": "gave women the right to vote"
+    },
+    {
+     "label": "D",
+     "text": "made child labor illegal"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-26"
+  },
+  {
+   "n": 29,
+   "stem": "Maria is a guide for visitors to a history museum. Maria works in the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "tourism industry"
+    },
+    {
+     "label": "B",
+     "text": "agriculture industry"
+    },
+    {
+     "label": "C",
+     "text": "manufacturing industry"
+    },
+    {
+     "label": "D",
+     "text": "transportation industry"
+    }
+   ],
+   "answer": "A",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-27"
+  },
+  {
+   "n": 31,
+   "stem": "A picture shows a colonial farmer trading goods directly with another person instead of using money. What is the best title for this picture?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Buying on Credit"
+    },
+    {
+     "label": "B",
+     "text": "Exchanging Goods for Services"
+    },
+    {
+     "label": "C",
+     "text": "Saving Goods for Later Use"
+    },
+    {
+     "label": "D",
+     "text": "Bartering in the Colonies"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-28"
+  },
+  {
+   "n": 32,
+   "stem": "Raw materials are produced, then sent to a place where they are changed into finished products, which are then sent to market. What best replaces the missing step in this process?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Coal mines"
+    },
+    {
+     "label": "B",
+     "text": "Farms"
+    },
+    {
+     "label": "C",
+     "text": "Military bases"
+    },
+    {
+     "label": "D",
+     "text": "Factories"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-29"
+  },
+  {
+   "n": 33,
+   "stem": "Why was the Freedmen’s Bureau created?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To help new immigrants"
+    },
+    {
+     "label": "B",
+     "text": "To help former slaves"
+    },
+    {
+     "label": "C",
+     "text": "To help plantation owners"
+    },
+    {
+     "label": "D",
+     "text": "To help southern soldiers"
+    }
+   ],
+   "answer": "B",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-30"
+  },
+  {
+   "n": 34,
+   "stem": "Which industry has contributed most to migration within modern Virginia?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Medicine"
+    },
+    {
+     "label": "B",
+     "text": "Mining"
+    },
+    {
+     "label": "C",
+     "text": "Agriculture"
+    },
+    {
+     "label": "D",
+     "text": "Transportation"
+    }
+   ],
+   "answer": "D",
+   "source": "History_Grade_4__Virginia_Studies_2014_SOLPass",
+   "id": "grade-4-virginia-studies-31"
+  }
+ ]
+}

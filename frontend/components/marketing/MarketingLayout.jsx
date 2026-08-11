@@ -10,6 +10,9 @@ export default function MarketingLayout({ children }) {
             SOL Prep
           </Link>
           <nav className="flex items-center gap-4 text-sm">
+            <Link href="/practice" className="text-muted-foreground hover:text-foreground">
+              Practice tests
+            </Link>
             <Link href="/sol" className="text-muted-foreground hover:text-foreground">
               Subjects
             </Link>
@@ -31,6 +34,7 @@ export default function MarketingLayout({ children }) {
             <p>&copy; {new Date().getFullYear()} SOL Prep. Built for Virginia SOL exam prep.</p>
             <nav className="flex flex-wrap gap-4">
               <Link href="/" className="hover:text-foreground">Home</Link>
+              <Link href="/practice" className="hover:text-foreground">Practice tests</Link>
               <Link href="/sol" className="hover:text-foreground">All subjects</Link>
               <Link href="/guides" className="hover:text-foreground">Guides</Link>
               <Link href="/about" className="hover:text-foreground">About</Link>

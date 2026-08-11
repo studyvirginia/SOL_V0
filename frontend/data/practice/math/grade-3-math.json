@@ -1,0 +1,5268 @@
+{
+ "subject": "math",
+ "course": "grade-3-math",
+ "courseName": "Grade 3 Math",
+ "questionCount": 210,
+ "sources": [
+  "Mathematics_Grade_3_2003_SOLPass",
+  "Mathematics_Grade_3_2004_SOLPass",
+  "Mathematics_Grade_3_2005_SOLPass",
+  "Mathematics_Grade_3_2008_SOLPass",
+  "Mathematics_Grade_3_2010_SOLPass",
+  "Mathematics_Grade_3_2013_SOLPass",
+  "Mathematics_Grade_3_2014_VDOE"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Which digit of the number 5,769 is in the hundreds place?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "7"
+    },
+    {
+     "label": "D",
+     "text": "9"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-1"
+  },
+  {
+   "n": 2,
+   "stem": "The table shows the number of each kind of poster sold by a third-grade class. Cat posters: 242 Fish posters: 259 Frog posters: 201 Lizard posters: 284 Bird posters: 215 The number of fish posters sold was less than the number of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cat posters"
+    },
+    {
+     "label": "B",
+     "text": "Frog posters"
+    },
+    {
+     "label": "C",
+     "text": "Bird posters"
+    },
+    {
+     "label": "D",
+     "text": "Lizard posters"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-2"
+  },
+  {
+   "n": 3,
+   "stem": "There are 5 pennies in each stack. The picture shows 18 stacks of pennies. How many pennies are there in all?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "90"
+    },
+    {
+     "label": "B",
+     "text": "85"
+    },
+    {
+     "label": "C",
+     "text": "80"
+    },
+    {
+     "label": "D",
+     "text": "18"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-3"
+  },
+  {
+   "n": 5,
+   "stem": "A model shows 1 whole pie divided into 10 equal slices, with 4 slices shaded. Which number is represented by the model?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.45"
+    },
+    {
+     "label": "B",
+     "text": "0.54"
+    },
+    {
+     "label": "C",
+     "text": "4.5"
+    },
+    {
+     "label": "D",
+     "text": "5.4"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-4"
+  },
+  {
+   "n": 6,
+   "stem": "There are 274 people on a plane. What is 274 rounded to the nearest hundred?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "200"
+    },
+    {
+     "label": "B",
+     "text": "270"
+    },
+    {
+     "label": "C",
+     "text": "280"
+    },
+    {
+     "label": "D",
+     "text": "300"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-5"
+  },
+  {
+   "n": 7,
+   "stem": "A vertical stack of blocks is shown from bottom to top in this order: 1st: 37 2nd: 18 3rd: 99 4th: 64 5th: 25 6th: 13 7th: 8 8th: 72 9th: 55 10th: 47 11th: 63 What number is on the block that is 11th from the bottom?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "64"
+    },
+    {
+     "label": "B",
+     "text": "18"
+    },
+    {
+     "label": "C",
+     "text": "99"
+    },
+    {
+     "label": "D",
+     "text": "37"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-6"
+  },
+  {
+   "n": 8,
+   "stem": "Which of the following is a true statement?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2,245 < 2,174"
+    },
+    {
+     "label": "B",
+     "text": "2,174 > 2,245"
+    },
+    {
+     "label": "C",
+     "text": "2,062 < 2,165"
+    },
+    {
+     "label": "D",
+     "text": "2,165 < 2,174"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-7"
+  },
+  {
+   "n": 9,
+   "stem": "Each figure is shaded to represent a fraction. Which pair of figures makes a statement that is true? The pair that shows the same fraction shaded in two different ways is option C.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Option A"
+    },
+    {
+     "label": "B",
+     "text": "Option B"
+    },
+    {
+     "label": "C",
+     "text": "Option C"
+    },
+    {
+     "label": "D",
+     "text": "Option D"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-8"
+  },
+  {
+   "n": 10,
+   "stem": "There are 10 cones. Mary will put vanilla ice cream into 1 out of every 10 cones. Into how many cones will she put vanilla ice cream?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "9"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-9"
+  },
+  {
+   "n": 11,
+   "stem": "Last summer, 35,786 people visited the zoo in Harristown. How is 35,786 written in words?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Thirty-five thousand, seven hundred eighty-six"
+    },
+    {
+     "label": "B",
+     "text": "Three hundred fifty-seven thousand, sixty-eight"
+    },
+    {
+     "label": "C",
+     "text": "Three hundred five thousand, seven hundred eighty-six"
+    },
+    {
+     "label": "D",
+     "text": "Three hundred fifty thousand, seven hundred eighty-six"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-10"
+  },
+  {
+   "n": 12,
+   "stem": "Ming used the fact 21 ÷ 7 = 3 to help solve a different problem. Which of the following could be the problem she was trying to solve?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "□ ÷ 3 = 21"
+    },
+    {
+     "label": "B",
+     "text": "□ + 3 = 10"
+    },
+    {
+     "label": "C",
+     "text": "7 − □ = 3"
+    },
+    {
+     "label": "D",
+     "text": "21 ÷ □ = 7"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-11"
+  },
+  {
+   "n": 14,
+   "stem": "Lester put 9 cans on a shelf. Herman put 4 more cans on the shelf. How many cans were on the shelf then?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12"
+    },
+    {
+     "label": "B",
+     "text": "13"
+    },
+    {
+     "label": "C",
+     "text": "14"
+    },
+    {
+     "label": "D",
+     "text": "15"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-12"
+  },
+  {
+   "n": 15,
+   "stem": "Which of the following set models BEST represents 18 ÷ 3? The correct model shows 3 equal groups of 6 objects each.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Option A"
+    },
+    {
+     "label": "B",
+     "text": "Option B"
+    },
+    {
+     "label": "C",
+     "text": "Option C"
+    },
+    {
+     "label": "D",
+     "text": "Option D"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-13"
+  },
+  {
+   "n": 16,
+   "stem": "For two months, students collected newspapers. January: 974 pounds February: 1,329 pounds How many pounds did they collect in all?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1,293"
+    },
+    {
+     "label": "B",
+     "text": "1,655"
+    },
+    {
+     "label": "C",
+     "text": "2,303"
+    },
+    {
+     "label": "D",
+     "text": "2,293"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-14"
+  },
+  {
+   "n": 17,
+   "stem": "Which problem can be solved using 33 + 5 =?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Calvin gave away cards"
+    },
+    {
+     "label": "B",
+     "text": "Sherman has pages with stamps"
+    },
+    {
+     "label": "C",
+     "text": "School store sold bookmarks before and after lunch"
+    },
+    {
+     "label": "D",
+     "text": "Sally read before and after dinner"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-15"
+  },
+  {
+   "n": 18,
+   "stem": "Which has the same product as 3 × 4?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2 × 6"
+    },
+    {
+     "label": "B",
+     "text": "7 × 2"
+    },
+    {
+     "label": "C",
+     "text": "4 × 6"
+    },
+    {
+     "label": "D",
+     "text": "3 × 5"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-16"
+  },
+  {
+   "n": 19,
+   "stem": "One whole equals 1. One tenth equals 0.1. What is 1 − 0.1?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5.0"
+    },
+    {
+     "label": "B",
+     "text": "0.9"
+    },
+    {
+     "label": "C",
+     "text": "2.9"
+    },
+    {
+     "label": "D",
+     "text": "0.1"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-17"
+  },
+  {
+   "n": 20,
+   "stem": "Sticker purchases: Nina: 19 Carlos: 18 Katie: 27 Joel: 23 How many stickers did Joel and Katie buy altogether?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "23"
+    },
+    {
+     "label": "B",
+     "text": "27"
+    },
+    {
+     "label": "C",
+     "text": "40"
+    },
+    {
+     "label": "D",
+     "text": "50"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-18"
+  },
+  {
+   "n": 21,
+   "stem": "A total of 6,158 people started a race. 5,643 finished. How many did not complete the race?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "515"
+    },
+    {
+     "label": "B",
+     "text": "595"
+    },
+    {
+     "label": "C",
+     "text": "1,515"
+    },
+    {
+     "label": "D",
+     "text": "1,595"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-19"
+  },
+  {
+   "n": 22,
+   "stem": "Bill has 2 decks of cards, with 52 cards in each deck. How many cards does he have in all?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "26"
+    },
+    {
+     "label": "B",
+     "text": "50"
+    },
+    {
+     "label": "C",
+     "text": "54"
+    },
+    {
+     "label": "D",
+     "text": "104"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-20"
+  },
+  {
+   "n": 23,
+   "stem": "What is 54 ÷ 9?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "7"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-21"
+  },
+  {
+   "n": 24,
+   "stem": "What is? +? = 104 if each addend is equal?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "26"
+    },
+    {
+     "label": "B",
+     "text": "50"
+    },
+    {
+     "label": "C",
+     "text": "54"
+    },
+    {
+     "label": "D",
+     "text": "52"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-22"
+  },
+  {
+   "n": 26,
+   "stem": "Which is closest to the height of a flagpole shown as slightly taller than 2 inches on a ruler?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 inch"
+    },
+    {
+     "label": "B",
+     "text": "2 inches"
+    },
+    {
+     "label": "C",
+     "text": "3 inches"
+    },
+    {
+     "label": "D",
+     "text": "4 inches"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-23"
+  },
+  {
+   "n": 27,
+   "stem": "One block represents a unit height. The stack shown contains 15 blocks. How many blocks are needed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "13"
+    },
+    {
+     "label": "B",
+     "text": "15"
+    },
+    {
+     "label": "C",
+     "text": "18"
+    },
+    {
+     "label": "D",
+     "text": "23"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-24"
+  },
+  {
+   "n": 28,
+   "stem": "A thermometer shows a temperature slightly above 65°F and below 70°F. Which is closest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "69°F"
+    },
+    {
+     "label": "B",
+     "text": "65°F"
+    },
+    {
+     "label": "C",
+     "text": "60°F"
+    },
+    {
+     "label": "D",
+     "text": "58°F"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-25"
+  },
+  {
+   "n": 29,
+   "stem": "Which description represents a rectangular solid (a box-shaped 3D figure with 6 rectangular faces)?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Option A"
+    },
+    {
+     "label": "B",
+     "text": "Option B"
+    },
+    {
+     "label": "C",
+     "text": "Option C"
+    },
+    {
+     "label": "D",
+     "text": "Option D"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-26"
+  },
+  {
+   "n": 31,
+   "stem": "Each square is 1 square unit. The shaded figure covers 12 squares. How many square units are needed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8"
+    },
+    {
+     "label": "B",
+     "text": "12"
+    },
+    {
+     "label": "C",
+     "text": "15"
+    },
+    {
+     "label": "D",
+     "text": "20"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-27"
+  },
+  {
+   "n": 33,
+   "stem": "A clock shows the minute hand just past the 1 and the hour hand just past 1. Which is closest to the time shown?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12:01"
+    },
+    {
+     "label": "B",
+     "text": "12:07"
+    },
+    {
+     "label": "C",
+     "text": "1:01"
+    },
+    {
+     "label": "D",
+     "text": "1:07"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-28"
+  },
+  {
+   "n": 34,
+   "stem": "Which is closest to the amount a third grader weighs?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 ounces"
+    },
+    {
+     "label": "B",
+     "text": "50 ounces"
+    },
+    {
+     "label": "C",
+     "text": "5 pounds"
+    },
+    {
+     "label": "D",
+     "text": "50 pounds"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-29"
+  },
+  {
+   "n": 35,
+   "stem": "Three points lie in a straight line. The points that form one line segment are P, R, and T.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Points P, R, and W"
+    },
+    {
+     "label": "B",
+     "text": "Points P, R, and T"
+    },
+    {
+     "label": "C",
+     "text": "Points S, T, and W"
+    },
+    {
+     "label": "D",
+     "text": "Points S, R, and T"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-30"
+  },
+  {
+   "n": 36,
+   "stem": "Stephanie has $3.16. Which bib can she buy if prices include tax?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$3.16"
+    },
+    {
+     "label": "B",
+     "text": "$3.25"
+    },
+    {
+     "label": "C",
+     "text": "$3.76"
+    },
+    {
+     "label": "D",
+     "text": "$4.00"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-31"
+  },
+  {
+   "n": 38,
+   "stem": "A line plot shows: 3 books: 7 students 7 books: 3 students How many more students read exactly 3 books than 7 books?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-32"
+  },
+  {
+   "n": 39,
+   "stem": "Minutes for chores: Clean room: 20 minutes Walk dog: 25 minutes How many minutes total?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "25"
+    },
+    {
+     "label": "B",
+     "text": "35"
+    },
+    {
+     "label": "C",
+     "text": "45"
+    },
+    {
+     "label": "D",
+     "text": "60"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-33"
+  },
+  {
+   "n": 40,
+   "stem": "A spinner has unequal sections: Blue is the largest section. Which color is most likely?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Red"
+    },
+    {
+     "label": "B",
+     "text": "Green"
+    },
+    {
+     "label": "C",
+     "text": "Blue"
+    },
+    {
+     "label": "D",
+     "text": "Yellow"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-34"
+  },
+  {
+   "n": 41,
+   "stem": "Each picture symbol equals 4 birds. Mark saw 4 robin symbols. How many robins did he see?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "16"
+    },
+    {
+     "label": "B",
+     "text": "12"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-35"
+  },
+  {
+   "n": 43,
+   "stem": "From the bar graph, 15 students chose peanuts.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "14"
+    },
+    {
+     "label": "D",
+     "text": "15"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-36"
+  },
+  {
+   "n": 46,
+   "stem": "85, 82, 79, 76,? What is the next number?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "75"
+    },
+    {
+     "label": "B",
+     "text": "73"
+    },
+    {
+     "label": "C",
+     "text": "69"
+    },
+    {
+     "label": "D",
+     "text": "65"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-37"
+  },
+  {
+   "n": 47,
+   "stem": "Machine rule: 30 → 21 20 → 11 10 → 1 What rule is used?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Subtract 19"
+    },
+    {
+     "label": "B",
+     "text": "Subtract 11"
+    },
+    {
+     "label": "C",
+     "text": "Subtract 10"
+    },
+    {
+     "label": "D",
+     "text": "Subtract 9"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-38"
+  },
+  {
+   "n": 49,
+   "stem": "What counting number comes right after 539?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "530"
+    },
+    {
+     "label": "B",
+     "text": "538"
+    },
+    {
+     "label": "C",
+     "text": "540"
+    },
+    {
+     "label": "D",
+     "text": "541"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-39"
+  },
+  {
+   "n": 50,
+   "stem": "Ginger bought 3 children’s tickets and 11 total tickets. How many adult tickets did she buy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "14"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2004_SOLPass",
+   "id": "grade-3-math-40"
+  },
+  {
+   "n": 1,
+   "stem": "Each unit in the model has a value of 1. The model shows 2 thousands, 0 hundreds, 0 tens, and 5 ones. What number is represented by the model?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "25"
+    },
+    {
+     "label": "B",
+     "text": "205"
+    },
+    {
+     "label": "C",
+     "text": "2,005"
+    },
+    {
+     "label": "D",
+     "text": "250"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-41"
+  },
+  {
+   "n": 2,
+   "stem": "A toy store sold 1,032 video games in December. What is 1,032 rounded to the nearest hundred?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1,000"
+    },
+    {
+     "label": "B",
+     "text": "1,030"
+    },
+    {
+     "label": "C",
+     "text": "1,100"
+    },
+    {
+     "label": "D",
+     "text": "1,130"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-42"
+  },
+  {
+   "n": 4,
+   "stem": "The number sentence below is true. 6 + 8 = 14 Which number makes the following number sentence true? 14 − ___ = 6",
+   "choices": [
+    {
+     "label": "A",
+     "text": "20"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-43"
+  },
+  {
+   "n": 7,
+   "stem": "What is the value of the 1 in 13,729?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "100"
+    },
+    {
+     "label": "B",
+     "text": "1,000"
+    },
+    {
+     "label": "C",
+     "text": "10,000"
+    },
+    {
+     "label": "D",
+     "text": "100,000"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-44"
+  },
+  {
+   "n": 8,
+   "stem": "February is the second month of the year. The months of the year in order are January, February, March, April, May, June, July, August, September, October, November, December. What is the tenth month of the year?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "December"
+    },
+    {
+     "label": "B",
+     "text": "November"
+    },
+    {
+     "label": "C",
+     "text": "October"
+    },
+    {
+     "label": "D",
+     "text": "September"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-45"
+  },
+  {
+   "n": 9,
+   "stem": "What is 4,996 rounded to the nearest thousand?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4,000"
+    },
+    {
+     "label": "B",
+     "text": "4,800"
+    },
+    {
+     "label": "C",
+     "text": "4,900"
+    },
+    {
+     "label": "D",
+     "text": "5,000"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-46"
+  },
+  {
+   "n": 10,
+   "stem": "Which of the following numbers represents two hundred sixty-three thousand, four hundred seventeen?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "206,407"
+    },
+    {
+     "label": "B",
+     "text": "260,417"
+    },
+    {
+     "label": "C",
+     "text": "263,407"
+    },
+    {
+     "label": "D",
+     "text": "263,417"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-47"
+  },
+  {
+   "n": 12,
+   "stem": "Which number has an 8 in the thousands place?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "721,801"
+    },
+    {
+     "label": "B",
+     "text": "595,382"
+    },
+    {
+     "label": "C",
+     "text": "248,937"
+    },
+    {
+     "label": "D",
+     "text": "186,546"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-48"
+  },
+  {
+   "n": 13,
+   "stem": "Which is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8,412 is greater than 8,901"
+    },
+    {
+     "label": "B",
+     "text": "7,563 is greater than 7,563"
+    },
+    {
+     "label": "C",
+     "text": "5,718 is greater than 5,763"
+    },
+    {
+     "label": "D",
+     "text": "9,174 is greater than 9,082"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-49"
+  },
+  {
+   "n": 14,
+   "stem": "Trey bought 4 rolls of film. Each roll could make 27 pictures. What was the total number of pictures that Trey could make with the 4 rolls he bought?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "35"
+    },
+    {
+     "label": "B",
+     "text": "108"
+    },
+    {
+     "label": "C",
+     "text": "211"
+    },
+    {
+     "label": "D",
+     "text": "828"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-50"
+  },
+  {
+   "n": 15,
+   "stem": "An ice-cream shop used 1,287 gallons of vanilla ice cream and 956 gallons of chocolate ice cream last month. What was the total number of gallons sold?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "331"
+    },
+    {
+     "label": "B",
+     "text": "1,133"
+    },
+    {
+     "label": "C",
+     "text": "2,243"
+    },
+    {
+     "label": "D",
+     "text": "10,847"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-51"
+  },
+  {
+   "n": 16,
+   "stem": "2.3 + 6.8 =",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.81"
+    },
+    {
+     "label": "B",
+     "text": "0.91"
+    },
+    {
+     "label": "C",
+     "text": "8.1"
+    },
+    {
+     "label": "D",
+     "text": "9.1"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-52"
+  },
+  {
+   "n": 17,
+   "stem": "At a carnival, 817 tickets were sold on Monday and 1,265 tickets were sold on Tuesday. What is the total number of tickets sold on those two days?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2,082"
+    },
+    {
+     "label": "B",
+     "text": "1,652"
+    },
+    {
+     "label": "C",
+     "text": "1,072"
+    },
+    {
+     "label": "D",
+     "text": "448"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-53"
+  },
+  {
+   "n": 20,
+   "stem": "There are 9 hooks on a coat rack. Only one coat can hang on each hook. If 4 hooks are not used, how many coats are hanging on the coat rack?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "13"
+    },
+    {
+     "label": "D",
+     "text": "14"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-54"
+  },
+  {
+   "n": 22,
+   "stem": "Tina bought 3 boxes of cookies. Each box had exactly 60 cookies. What is the total number of cookies Tina bought?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "180"
+    },
+    {
+     "label": "B",
+     "text": "120"
+    },
+    {
+     "label": "C",
+     "text": "63"
+    },
+    {
+     "label": "D",
+     "text": "20"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-55"
+  },
+  {
+   "n": 23,
+   "stem": "9.3 − 0.6 =",
+   "choices": [
+    {
+     "label": "A",
+     "text": "9.3"
+    },
+    {
+     "label": "B",
+     "text": "8.7"
+    },
+    {
+     "label": "C",
+     "text": "0.93"
+    },
+    {
+     "label": "D",
+     "text": "0.87"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-56"
+  },
+  {
+   "n": 30,
+   "stem": "A September calendar shows that Mondays fall on September 7, 14, 21, and 28. What is the date of the fourth Monday of the month?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "September 4"
+    },
+    {
+     "label": "B",
+     "text": "September 14"
+    },
+    {
+     "label": "C",
+     "text": "September 21"
+    },
+    {
+     "label": "D",
+     "text": "September 28"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-57"
+  },
+  {
+   "n": 32,
+   "stem": "Which of the following weighs about the same as a paper clip?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A desk"
+    },
+    {
+     "label": "B",
+     "text": "A math book"
+    },
+    {
+     "label": "C",
+     "text": "A pair of scissors"
+    },
+    {
+     "label": "D",
+     "text": "A piece of notebook paper"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-58"
+  },
+  {
+   "n": 36,
+   "stem": "What is the total number of hours in exactly 1 day?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7"
+    },
+    {
+     "label": "B",
+     "text": "12"
+    },
+    {
+     "label": "C",
+     "text": "24"
+    },
+    {
+     "label": "D",
+     "text": "30"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-59"
+  },
+  {
+   "n": 40,
+   "stem": "Sandy served hot dogs, hamburgers, and pizza. She served fruit punch, orange juice, and soda. The chart lists all combinations except one. Which possible combination is missing?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Hamburger and fruit punch"
+    },
+    {
+     "label": "B",
+     "text": "Orange juice and soda"
+    },
+    {
+     "label": "C",
+     "text": "Hamburger and pizza"
+    },
+    {
+     "label": "D",
+     "text": "Fruit punch and orange juice"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-60"
+  },
+  {
+   "n": 44,
+   "stem": "The pattern repeats the first four figures in the sequence ANDOO. If the pattern continues following the same rule, what will be the next three figures?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ALO"
+    },
+    {
+     "label": "B",
+     "text": "LIOO"
+    },
+    {
+     "label": "C",
+     "text": "OAO"
+    },
+    {
+     "label": "D",
+     "text": "OOA"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-61"
+  },
+  {
+   "n": 45,
+   "stem": "The number sentence below models an addition property. 14 + 2 = 2 + 4 + 1 Which number can be placed in the box so that the following number sentence models the same kind of property? 4 + 4 + 9 = 9 + ___",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "13"
+    },
+    {
+     "label": "D",
+     "text": "9"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-62"
+  },
+  {
+   "n": 47,
+   "stem": "Look at this pattern of numbers: 122, 125, 128, 131, 134, ___ What should be the next number?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "135"
+    },
+    {
+     "label": "B",
+     "text": "137"
+    },
+    {
+     "label": "C",
+     "text": "141"
+    },
+    {
+     "label": "D",
+     "text": "144"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-63"
+  },
+  {
+   "n": 48,
+   "stem": "Ming had 11 pencils. If 8 pencils were yellow and the rest were red, how many red pencils were there?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "11"
+    },
+    {
+     "label": "D",
+     "text": "19"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-64"
+  },
+  {
+   "n": 49,
+   "stem": "What number goes in the blank to make the statement true? 8 × ___ = 8",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "16"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-65"
+  },
+  {
+   "n": 50,
+   "stem": "A subtraction rule was used to make the number pattern: 70, 65, 60, 55, ___ What will be the next number?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "60"
+    },
+    {
+     "label": "B",
+     "text": "50"
+    },
+    {
+     "label": "C",
+     "text": "45"
+    },
+    {
+     "label": "D",
+     "text": "40"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2008_SOLPass",
+   "id": "grade-3-math-66"
+  },
+  {
+   "n": 1,
+   "stem": "Carlos made a tally chart to record the chores done by 12 students in his class. The tally chart shows the following results: Washing dishes: 2 students Walking dog: 5 students Emptying trash: 3 students Cleaning room: 4 students Which chore was done by 5 students?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Washing Dishes"
+    },
+    {
+     "label": "B",
+     "text": "Walking Dog"
+    },
+    {
+     "label": "C",
+     "text": "Emptying Trash"
+    },
+    {
+     "label": "D",
+     "text": "Cleaning Room"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-67"
+  },
+  {
+   "n": 2,
+   "stem": "Which number sentence will 9 + 6 = 15 help solve?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "15 − 9 = ___"
+    },
+    {
+     "label": "B",
+     "text": "15 × 9 = ___"
+    },
+    {
+     "label": "C",
+     "text": "15 + 9 = ___"
+    },
+    {
+     "label": "D",
+     "text": "15 ÷ 9 = ___"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-68"
+  },
+  {
+   "n": 3,
+   "stem": "Two sets of circles are shown. Set S contains 8 circles, of which 4 are shaded. Set T contains 7 circles, of which 3 are shaded. Which of the following correctly compares the fraction of circles shaded in Set S to the fraction of circles shaded in Set T?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4/8 < 3/7"
+    },
+    {
+     "label": "B",
+     "text": "4/8 = 3/7"
+    },
+    {
+     "label": "C",
+     "text": "4/8 > 3/7"
+    },
+    {
+     "label": "D",
+     "text": "3/7 > 4/8"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-69"
+  },
+  {
+   "n": 4,
+   "stem": "A place value model shows: 4 thousands 0 hundreds 5 tens 4 ones What number is represented by this place value model?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "354"
+    },
+    {
+     "label": "B",
+     "text": "454"
+    },
+    {
+     "label": "C",
+     "text": "3,154"
+    },
+    {
+     "label": "D",
+     "text": "4,054"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-70"
+  },
+  {
+   "n": 5,
+   "stem": "Two packages of eggs are shown. Package P contains 12 eggs, with 9 eggs unbroken. Package Q contains 8 eggs, with 6 eggs unbroken. Which statement correctly compares the fraction of unbroken eggs in Package P to the fraction of unbroken eggs in Package Q?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "9/12 < 6/8"
+    },
+    {
+     "label": "B",
+     "text": "9/12 = 6/8"
+    },
+    {
+     "label": "C",
+     "text": "9/12 > 6/8"
+    },
+    {
+     "label": "D",
+     "text": "9/12 = 9/8"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-71"
+  },
+  {
+   "n": 6,
+   "stem": "Which shows the number 78,025 written in word form?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Seven hundred eight thousand, two hundred fifty"
+    },
+    {
+     "label": "B",
+     "text": "Seven hundred eight thousand, twenty-five"
+    },
+    {
+     "label": "C",
+     "text": "Seventy-eight thousand, two hundred fifty"
+    },
+    {
+     "label": "D",
+     "text": "Seventy-eight thousand, twenty-five"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-72"
+  },
+  {
+   "n": 7,
+   "stem": "A model is shaded to represent one whole. The model is divided into 12 equal parts, and 5 of those parts are shaded. What number do the shaded parts represent?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/12"
+    },
+    {
+     "label": "B",
+     "text": "11/12"
+    },
+    {
+     "label": "C",
+     "text": "5/12"
+    },
+    {
+     "label": "D",
+     "text": "10/5"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-73"
+  },
+  {
+   "n": 8,
+   "stem": "Which number sentence can be completed using the basic fact sentence 3 × 2 = 6?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12 + 6 = ___"
+    },
+    {
+     "label": "B",
+     "text": "6 + 3 = ___"
+    },
+    {
+     "label": "C",
+     "text": "6 × 3 = ___"
+    },
+    {
+     "label": "D",
+     "text": "3 + 4 + 2 = ___"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-74"
+  },
+  {
+   "n": 10,
+   "stem": "In which group are exactly 1/2 of the shapes circles?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A group of 12 shapes: 6 circles and 6 triangles"
+    },
+    {
+     "label": "B",
+     "text": "A group of 10 shapes: 4 circles and 6 triangles"
+    },
+    {
+     "label": "C",
+     "text": "A group of 8 shapes: 3 circles and 5 triangles"
+    },
+    {
+     "label": "D",
+     "text": "A group of 10 shapes: 5 circles and 5 squares"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-75"
+  },
+  {
+   "n": 11,
+   "stem": "What number goes in the box to make this number sentence true? 63 ÷ ☐ = 9",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "9"
+    },
+    {
+     "label": "D",
+     "text": "11"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-76"
+  },
+  {
+   "n": 12,
+   "stem": "Two models are shaded to represent fractions of the same whole. Model 1 shows 5 shaded parts out of 14 equal parts. Model 2 shows 9 shaded parts out of 14 equal parts. What is the sum of these two fractions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/14"
+    },
+    {
+     "label": "B",
+     "text": "7/14"
+    },
+    {
+     "label": "C",
+     "text": "5/14"
+    },
+    {
+     "label": "D",
+     "text": "14/14"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-77"
+  },
+  {
+   "n": 13,
+   "stem": "A picture shows 32 flowers arranged in 4 equal groups of 8 flowers. Which number sentence best represents this set of flowers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "32 ÷ 4 = ___"
+    },
+    {
+     "label": "B",
+     "text": "32 − 8 = ___"
+    },
+    {
+     "label": "C",
+     "text": "8 + 4 = ___"
+    },
+    {
+     "label": "D",
+     "text": "8 × 8 = ___"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-78"
+  },
+  {
+   "n": 14,
+   "stem": "Kiku had a total of 35 plants at her store on Tuesday morning. During the day, she sold 26 of these plants and then received 136 new plants. At the end of the day, exactly how many plants did Kiku have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "9"
+    },
+    {
+     "label": "B",
+     "text": "61"
+    },
+    {
+     "label": "C",
+     "text": "145"
+    },
+    {
+     "label": "D",
+     "text": "197"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-79"
+  },
+  {
+   "n": 15,
+   "stem": "Two models are shaded to represent fractions of the same whole. Model 1 shows 10 shaded parts out of 16 equal parts. Model 2 shows 6 shaded parts out of 16 equal parts. What is the difference between these two fractions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4/16"
+    },
+    {
+     "label": "B",
+     "text": "16/8"
+    },
+    {
+     "label": "C",
+     "text": "10/8"
+    },
+    {
+     "label": "D",
+     "text": "6/16"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-80"
+  },
+  {
+   "n": 18,
+   "stem": "3,000 − 285 = ___",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2,285"
+    },
+    {
+     "label": "B",
+     "text": "2,715"
+    },
+    {
+     "label": "C",
+     "text": "2,815"
+    },
+    {
+     "label": "D",
+     "text": "3,285"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-81"
+  },
+  {
+   "n": 19,
+   "stem": "A number line starts at 0 and ends at 24, with equal jumps of 4 units. Which of these is best represented by this number line?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "24 + 4"
+    },
+    {
+     "label": "B",
+     "text": "24 − 4"
+    },
+    {
+     "label": "C",
+     "text": "6 + 4"
+    },
+    {
+     "label": "D",
+     "text": "4 × 6"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-82"
+  },
+  {
+   "n": 21,
+   "stem": "Alex worked for 5 hours raking leaves. How many minutes are equivalent to 5 hours?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "500 minutes"
+    },
+    {
+     "label": "B",
+     "text": "300 minutes"
+    },
+    {
+     "label": "C",
+     "text": "150 minutes"
+    },
+    {
+     "label": "D",
+     "text": "120 minutes"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-83"
+  },
+  {
+   "n": 22,
+   "stem": "Harry drew a picture made of four-sided shapes with four equal sides and four right angles. Which best describes the figures in this picture?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cubes"
+    },
+    {
+     "label": "B",
+     "text": "Squares"
+    },
+    {
+     "label": "C",
+     "text": "Rectangles"
+    },
+    {
+     "label": "D",
+     "text": "Rectangular prisms"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-84"
+  },
+  {
+   "n": 23,
+   "stem": "Which is the most reasonable length of a bed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6 feet"
+    },
+    {
+     "label": "B",
+     "text": "6 inches"
+    },
+    {
+     "label": "C",
+     "text": "6 meters"
+    },
+    {
+     "label": "D",
+     "text": "6 centimeters"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-85"
+  },
+  {
+   "n": 24,
+   "stem": "A clock shows the minute hand on the 9 and the hour hand between 4 and 5. Which time is closest to the time shown?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4:45"
+    },
+    {
+     "label": "B",
+     "text": "5:45"
+    },
+    {
+     "label": "C",
+     "text": "9:05"
+    },
+    {
+     "label": "D",
+     "text": "9:25"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-86"
+  },
+  {
+   "n": 27,
+   "stem": "A clock shows 7:45 a.m. Franklin finished selling lumber three hours later. At what time did Franklin finish selling lumber?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8:45 a.m."
+    },
+    {
+     "label": "B",
+     "text": "9:45 a.m."
+    },
+    {
+     "label": "C",
+     "text": "10:45 a.m."
+    },
+    {
+     "label": "D",
+     "text": "11:45 a.m."
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-87"
+  },
+  {
+   "n": 28,
+   "stem": "A shaded figure is drawn on a grid where each square side equals 1 unit. The total distance around the outside of the shaded figure is 24 units. What is the perimeter of the shaded figure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "18 units"
+    },
+    {
+     "label": "B",
+     "text": "19 units"
+    },
+    {
+     "label": "C",
+     "text": "22 units"
+    },
+    {
+     "label": "D",
+     "text": "24 units"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-88"
+  },
+  {
+   "n": 29,
+   "stem": "Christina has the following money: three one-dollar bills, two quarters, one dime, and one nickel. Exactly how much money does Christina have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$3.50"
+    },
+    {
+     "label": "B",
+     "text": "$3.60"
+    },
+    {
+     "label": "C",
+     "text": "$3.85"
+    },
+    {
+     "label": "D",
+     "text": "$4.05"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-89"
+  },
+  {
+   "n": 30,
+   "stem": "Alfred drew two rays and one line segment. Which description matches a drawing that includes exactly two rays and one line segment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Three rays"
+    },
+    {
+     "label": "B",
+     "text": "Two line segments and one ray"
+    },
+    {
+     "label": "C",
+     "text": "Three line segments"
+    },
+    {
+     "label": "D",
+     "text": "Two rays and one line segment"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-90"
+  },
+  {
+   "n": 31,
+   "stem": "A figure has four sides, each 2 feet long. What measurement is closest to the perimeter of this figure?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 feet"
+    },
+    {
+     "label": "B",
+     "text": "8 feet"
+    },
+    {
+     "label": "C",
+     "text": "10 feet"
+    },
+    {
+     "label": "D",
+     "text": "12 feet"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-91"
+  },
+  {
+   "n": 35,
+   "stem": "This table shows the number of minutes it takes Kendal to run laps around a track: 1 lap: 6 minutes 2 laps: 12 minutes 3 laps: 18 minutes 4 laps: 24 minutes Which should be used to determine how many minutes it takes Kendal to run 10 laps?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "10 × 6"
+    },
+    {
+     "label": "B",
+     "text": "10 + 6"
+    },
+    {
+     "label": "C",
+     "text": "10 ÷ 24"
+    },
+    {
+     "label": "D",
+     "text": "10 × 3"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-92"
+  },
+  {
+   "n": 37,
+   "stem": "Which number sentence shows the use of the identity property of multiplication?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 × 3 = 3 × 5"
+    },
+    {
+     "label": "B",
+     "text": "5 + 0 = 5"
+    },
+    {
+     "label": "C",
+     "text": "4 + 1 = 5"
+    },
+    {
+     "label": "D",
+     "text": "1 × 5 = 5"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-93"
+  },
+  {
+   "n": 38,
+   "stem": "Look at this pattern: 1, 3, 9, 27, 81. Which describes the rule used in this pattern?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Divide by 9"
+    },
+    {
+     "label": "B",
+     "text": "Multiply by 3"
+    },
+    {
+     "label": "C",
+     "text": "Subtract 2"
+    },
+    {
+     "label": "D",
+     "text": "Add 2"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-94"
+  },
+  {
+   "n": 39,
+   "stem": "A line plot shows student scores: One student scored 2 points Two students scored 3 points Three students scored 4 points Two students scored 8 points What was the total number of points scored by the students?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "20"
+    },
+    {
+     "label": "B",
+     "text": "19"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2013_SOLPass",
+   "id": "grade-3-math-95"
+  },
+  {
+   "n": 2,
+   "stem": "Sara can use the fact that 12 ÷ 6 = 2 to help solve a related problem. Which of the following could be the problem she is trying to solve?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6 × 2 = 12"
+    },
+    {
+     "label": "G",
+     "text": "6 ÷ 6 = 1"
+    },
+    {
+     "label": "H",
+     "text": "6 − 6 = 0"
+    },
+    {
+     "label": "J",
+     "text": "6 ÷ 12 = 0.5"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-96"
+  },
+  {
+   "n": 3,
+   "stem": "Greg read about a 365,970-mile space flight. What is the value of the 3 in 365,970?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "300"
+    },
+    {
+     "label": "B",
+     "text": "3,000"
+    },
+    {
+     "label": "C",
+     "text": "30,000"
+    },
+    {
+     "label": "D",
+     "text": "300,000"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-97"
+  },
+  {
+   "n": 4,
+   "stem": "Each of these bags has exactly 5 buttons in it. How many buttons are there in all if there are 17 bags?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "17"
+    },
+    {
+     "label": "G",
+     "text": "80"
+    },
+    {
+     "label": "H",
+     "text": "85"
+    },
+    {
+     "label": "J",
+     "text": "90"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-98"
+  },
+  {
+   "n": 6,
+   "stem": "Virginia covers one hundred two thousand, five hundred fifty-eight square kilometers of land. Which shows this number?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1,258"
+    },
+    {
+     "label": "B",
+     "text": "12,558"
+    },
+    {
+     "label": "C",
+     "text": "102,558"
+    },
+    {
+     "label": "D",
+     "text": "1,200,558"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-99"
+  },
+  {
+   "n": 8,
+   "stem": "A clown walks on stilts that are 147 centimeters tall. What is 147 rounded to the nearest hundred?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "250"
+    },
+    {
+     "label": "G",
+     "text": "200"
+    },
+    {
+     "label": "H",
+     "text": "150"
+    },
+    {
+     "label": "J",
+     "text": "100"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-100"
+  },
+  {
+   "n": 10,
+   "stem": "This is a whole. Which tells the exact number of pizzas shown if there are 4 whole pizzas and 1 half pizza?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5.4"
+    },
+    {
+     "label": "G",
+     "text": "4.5"
+    },
+    {
+     "label": "H",
+     "text": "0.54"
+    },
+    {
+     "label": "J",
+     "text": "0.45"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-101"
+  },
+  {
+   "n": 12,
+   "stem": "Tracy bought 15 pencils. Each pencil cost 2 cents. How much did the pencils cost altogether?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5¢"
+    },
+    {
+     "label": "B",
+     "text": "15¢"
+    },
+    {
+     "label": "C",
+     "text": "30¢"
+    },
+    {
+     "label": "D",
+     "text": "45¢"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-102"
+  },
+  {
+   "n": 13,
+   "stem": "The table below shows the length of some of the longest rivers in the world. Mississippi River: 2,340 miles Nile River: 4,145 miles Yangtze River: 3,964 miles Amazon River: 4,000 miles Yenisei River: 3,442 miles The Amazon River is 4,000 miles long. This is less than the length of which river?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mississippi River"
+    },
+    {
+     "label": "B",
+     "text": "Nile River"
+    },
+    {
+     "label": "C",
+     "text": "Yangtze River"
+    },
+    {
+     "label": "D",
+     "text": "Yenisei River"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-103"
+  },
+  {
+   "n": 15,
+   "stem": "A school library had 2,089 books. It received 853 more books during the year. How many books did the library have then?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1,236"
+    },
+    {
+     "label": "B",
+     "text": "2,832"
+    },
+    {
+     "label": "C",
+     "text": "2,836"
+    },
+    {
+     "label": "D",
+     "text": "2,942"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-104"
+  },
+  {
+   "n": 17,
+   "stem": "Cathy bought 25 packages of balloons. Each package has 2 balloons. How many balloons did she buy in all? Which number sentence can be used to solve this problem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "25 × 2 =?"
+    },
+    {
+     "label": "B",
+     "text": "25 + 2 =?"
+    },
+    {
+     "label": "C",
+     "text": "25 − 2 =?"
+    },
+    {
+     "label": "D",
+     "text": "25 ÷ 2 =?"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-105"
+  },
+  {
+   "n": 19,
+   "stem": "56.4 − 32.7 =?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "14.7"
+    },
+    {
+     "label": "B",
+     "text": "23.7"
+    },
+    {
+     "label": "C",
+     "text": "24.3"
+    },
+    {
+     "label": "D",
+     "text": "24.7"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-106"
+  },
+  {
+   "n": 21,
+   "stem": "Tom sold 4 toy trains for $28 each. How much money did he make?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$24"
+    },
+    {
+     "label": "B",
+     "text": "$32"
+    },
+    {
+     "label": "C",
+     "text": "$112"
+    },
+    {
+     "label": "D",
+     "text": "$832"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-107"
+  },
+  {
+   "n": 22,
+   "stem": "What is 2.4 − 0.1?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2.4"
+    },
+    {
+     "label": "G",
+     "text": "2.0"
+    },
+    {
+     "label": "H",
+     "text": "1.6"
+    },
+    {
+     "label": "J",
+     "text": "2.3"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-108"
+  },
+  {
+   "n": 23,
+   "stem": "Paul wanted to buy a shirt that cost $15. He had $7. How much more did Paul need?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$22"
+    },
+    {
+     "label": "B",
+     "text": "$12"
+    },
+    {
+     "label": "C",
+     "text": "$8"
+    },
+    {
+     "label": "D",
+     "text": "$3"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-109"
+  },
+  {
+   "n": 28,
+   "stem": "Linda and Tom have been friends for 1 year. How many months make 1 year?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6"
+    },
+    {
+     "label": "G",
+     "text": "12"
+    },
+    {
+     "label": "H",
+     "text": "18"
+    },
+    {
+     "label": "J",
+     "text": "24"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-110"
+  },
+  {
+   "n": 30,
+   "stem": "What shape are the faces of a cube?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Circle"
+    },
+    {
+     "label": "G",
+     "text": "Triangle"
+    },
+    {
+     "label": "H",
+     "text": "Square"
+    },
+    {
+     "label": "J",
+     "text": "Pentagon"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-111"
+  },
+  {
+   "n": 38,
+   "stem": "Diana’s birthday is on November 23. Hilary’s birthday is six days before that. When is Hilary’s birthday?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "November 6"
+    },
+    {
+     "label": "G",
+     "text": "November 17"
+    },
+    {
+     "label": "H",
+     "text": "November 18"
+    },
+    {
+     "label": "J",
+     "text": "November 24"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-112"
+  },
+  {
+   "n": 44,
+   "stem": "Look at the pattern of numbers: 21, 29, 37, 45,? What is the next number?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "46"
+    },
+    {
+     "label": "G",
+     "text": "52"
+    },
+    {
+     "label": "H",
+     "text": "53"
+    },
+    {
+     "label": "J",
+     "text": "63"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-113"
+  },
+  {
+   "n": 46,
+   "stem": "The table shows the number of students who can ride in vans: 1 van: 6 students 2 vans: 12 students 3 vans: 18 students 4 vans: 24 students 5 vans: 30 students If the pattern continues, how many students can ride in 6 vans?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "31"
+    },
+    {
+     "label": "G",
+     "text": "36"
+    },
+    {
+     "label": "H",
+     "text": "40"
+    },
+    {
+     "label": "J",
+     "text": "42"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-114"
+  },
+  {
+   "n": 47,
+   "stem": "Shauna gave 8 toy cars to Lucas and then had 10 left. How many toy cars did she have at first?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "9"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "18"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-115"
+  },
+  {
+   "n": 48,
+   "stem": "A number machine changes numbers as follows: 20 → 27 21 → 28 23 → 30 Which rule does the machine use?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Add 1"
+    },
+    {
+     "label": "G",
+     "text": "Add 3"
+    },
+    {
+     "label": "H",
+     "text": "Add 7"
+    },
+    {
+     "label": "J",
+     "text": "Add 10"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_3_2003_SOLPass",
+   "id": "grade-3-math-116"
+  },
+  {
+   "n": 5,
+   "stem": "There were a total of 750 drinks in the cafeteria. There were 249 chocolate milks and 203 whole milks. The rest of the drinks were orange juice. Which estimate is closest to the number of orange juices in the cafeteria?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "400 because 200 + 200 = 400 and 800 − 400 = 400"
+    },
+    {
+     "label": "B",
+     "text": "1,200 because 200 + 200 = 400 and 800 + 400 = 1,200"
+    },
+    {
+     "label": "C",
+     "text": "300 because 250 + 200 = 450 and 750 − 450 = 300"
+    },
+    {
+     "label": "D",
+     "text": "1,150 because 250 + 200 = 450 and 700 + 450 = 1,150"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2014_VDOE",
+   "id": "grade-3-math-117"
+  },
+  {
+   "n": 6,
+   "stem": "Mr. Gary’s class has a goal of selling 500 pizzas in three months. The class sold 135 pizzas in the first month and 257 pizzas in the second month. Exactly how many more pizzas does the class need to sell to reach its goal?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "392"
+    },
+    {
+     "label": "B",
+     "text": "382"
+    },
+    {
+     "label": "C",
+     "text": "208"
+    },
+    {
+     "label": "D",
+     "text": "108"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2014_VDOE",
+   "id": "grade-3-math-118"
+  },
+  {
+   "n": 9,
+   "stem": "Which number sentence is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8 × 2 = 16 + 3"
+    },
+    {
+     "label": "B",
+     "text": "9 − 1 = 8 + 2"
+    },
+    {
+     "label": "C",
+     "text": "5 × 6 = 25 + 5"
+    },
+    {
+     "label": "D",
+     "text": "15 − 3 = 6 × 3"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2014_VDOE",
+   "id": "grade-3-math-119"
+  },
+  {
+   "n": 15,
+   "stem": "Allen arrived at his friend’s house at 3:20 p.m. He left 2 hours later. At what time did Allen leave his friend’s house?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2:20 p.m."
+    },
+    {
+     "label": "B",
+     "text": "3:20 p.m."
+    },
+    {
+     "label": "C",
+     "text": "4:20 p.m."
+    },
+    {
+     "label": "D",
+     "text": "5:20 p.m."
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2014_VDOE",
+   "id": "grade-3-math-120"
+  },
+  {
+   "n": 16,
+   "stem": "Claire arrived at the zoo at 12:45 p.m. She left the zoo at 3:45 p.m. What was the total amount of time Claire was at the zoo?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3 hours"
+    },
+    {
+     "label": "B",
+     "text": "4 hours"
+    },
+    {
+     "label": "C",
+     "text": "9 hours"
+    },
+    {
+     "label": "D",
+     "text": "12 hours"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2014_VDOE",
+   "id": "grade-3-math-121"
+  },
+  {
+   "n": 18,
+   "stem": "Mrs. Morgan wants to know what game the students would like to play during indoor recess. What is the best way for Mrs. Morgan to collect the data?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Count the number of students who like to play football"
+    },
+    {
+     "label": "G",
+     "text": "Count the number of students that will be at indoor recess"
+    },
+    {
+     "label": "H",
+     "text": "Create a tally chart to show how long students play during recess"
+    },
+    {
+     "label": "J",
+     "text": "Create a tally chart to show what game the students would like to play during indoor recess"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2014_VDOE",
+   "id": "grade-3-math-122"
+  },
+  {
+   "n": 1,
+   "stem": "Last month, 104,629 people went to the circus. What is the value of the digit 6 in the number 104,629?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "60"
+    },
+    {
+     "label": "C",
+     "text": "600"
+    },
+    {
+     "label": "D",
+     "text": "6,000"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-123"
+  },
+  {
+   "n": 2,
+   "stem": "Ellen counted 66 railroad cars in a train. What is 66 rounded to the nearest ten?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "50"
+    },
+    {
+     "label": "G",
+     "text": "60"
+    },
+    {
+     "label": "H",
+     "text": "70"
+    },
+    {
+     "label": "J",
+     "text": "80"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-124"
+  },
+  {
+   "n": 3,
+   "stem": "Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1,204 is less than 1,204"
+    },
+    {
+     "label": "B",
+     "text": "3,893 is greater than 3,793"
+    },
+    {
+     "label": "C",
+     "text": "2,687 is less than 2,675"
+    },
+    {
+     "label": "D",
+     "text": "4,312 is greater than 4,328"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-125"
+  },
+  {
+   "n": 4,
+   "stem": "Eight circles are shown. Six of the circles are shaded. What fraction of the circles is shaded?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6/14"
+    },
+    {
+     "label": "G",
+     "text": "8/48"
+    },
+    {
+     "label": "H",
+     "text": "6/2"
+    },
+    {
+     "label": "J",
+     "text": "14/20"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-126"
+  },
+  {
+   "n": 5,
+   "stem": "Mike’s math teacher gave him the clue 8 + 6 = 14 to help him solve a related problem. Which could be the problem Mike is trying to solve?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7 + 7 = 14"
+    },
+    {
+     "label": "B",
+     "text": "8 × 6 = 48"
+    },
+    {
+     "label": "C",
+     "text": "9 + 5 = 14"
+    },
+    {
+     "label": "D",
+     "text": "6 × 2 = 12"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-127"
+  },
+  {
+   "n": 6,
+   "stem": "Last year, 345,129 people watched a parade. Which of the following shows 345,129 written in words?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Three thousand, four hundred twenty-nine"
+    },
+    {
+     "label": "G",
+     "text": "Three hundred forty-five, one hundred twenty-nine"
+    },
+    {
+     "label": "H",
+     "text": "Three thousand forty-five, one hundred twenty-nine"
+    },
+    {
+     "label": "J",
+     "text": "Three hundred forty-five thousand, one hundred twenty-nine"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-128"
+  },
+  {
+   "n": 7,
+   "stem": "Four groups of dogs are shown. Only one group shows dogs with spots. Which group shows dogs with spots?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Group A"
+    },
+    {
+     "label": "B",
+     "text": "Group B"
+    },
+    {
+     "label": "C",
+     "text": "Group C"
+    },
+    {
+     "label": "D",
+     "text": "Group D"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-129"
+  },
+  {
+   "n": 9,
+   "stem": "Two figures are shown, each made of equal-sized parts. One figure has fewer shaded parts than the other. Which figure has less than 1 shaded?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Figure A"
+    },
+    {
+     "label": "B",
+     "text": "Figure B"
+    },
+    {
+     "label": "C",
+     "text": "Figure C"
+    },
+    {
+     "label": "D",
+     "text": "Figure D"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-130"
+  },
+  {
+   "n": 10,
+   "stem": "Connie put 4 apples in each basket. She filled 12 baskets. How many apples did she use altogether?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "12"
+    },
+    {
+     "label": "G",
+     "text": "16"
+    },
+    {
+     "label": "H",
+     "text": "38"
+    },
+    {
+     "label": "J",
+     "text": "48"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-131"
+  },
+  {
+   "n": 11,
+   "stem": "Karl wrote a book report that had 525 words. What is 525 rounded to the nearest hundred?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "500"
+    },
+    {
+     "label": "B",
+     "text": "520"
+    },
+    {
+     "label": "C",
+     "text": "530"
+    },
+    {
+     "label": "D",
+     "text": "600"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-132"
+  },
+  {
+   "n": 12,
+   "stem": "A model is divided into 100 equal parts to represent 1 whole. Seventy-two of the parts are shaded. Which number is represented by the shaded portion?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "0.72"
+    },
+    {
+     "label": "G",
+     "text": "7.2"
+    },
+    {
+     "label": "H",
+     "text": "72"
+    },
+    {
+     "label": "J",
+     "text": "720"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-133"
+  },
+  {
+   "n": 13,
+   "stem": "There are 12 eggs shown. Nancy will decorate exactly one-half of the eggs. How many eggs will she decorate?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "11"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-134"
+  },
+  {
+   "n": 14,
+   "stem": "What is the value of 9 × 9?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "18"
+    },
+    {
+     "label": "G",
+     "text": "36"
+    },
+    {
+     "label": "H",
+     "text": "63"
+    },
+    {
+     "label": "J",
+     "text": "81"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-135"
+  },
+  {
+   "n": 15,
+   "stem": "The table shows the number of rocks each student collected during a field trip. Jamal: 11 rocks Su: 20 rocks Gary: 17 rocks Anna: 15 rocks How many more rocks did Su collect than Anna?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "11"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-136"
+  },
+  {
+   "n": 16,
+   "stem": "Last year, there were exactly 2,467 students attending Lee Elementary School. This year, there are 310 more students. How many students are attending the school this year?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "5,567"
+    },
+    {
+     "label": "G",
+     "text": "5,477"
+    },
+    {
+     "label": "H",
+     "text": "2,777"
+    },
+    {
+     "label": "J",
+     "text": "2,157"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-137"
+  },
+  {
+   "n": 17,
+   "stem": "What is the value of 3.9 − 2.8?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.9"
+    },
+    {
+     "label": "B",
+     "text": "1.1"
+    },
+    {
+     "label": "C",
+     "text": "1.9"
+    },
+    {
+     "label": "D",
+     "text": "11"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-138"
+  },
+  {
+   "n": 18,
+   "stem": "Which number sentence is in the same family of facts as 8 + 5 = 13?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "13 − 8 = 5"
+    },
+    {
+     "label": "G",
+     "text": "5 − 13 = 8"
+    },
+    {
+     "label": "H",
+     "text": "13 + 5 = 8"
+    },
+    {
+     "label": "J",
+     "text": "8 − 5 = 3"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-139"
+  },
+  {
+   "n": 19,
+   "stem": "What is the value of 49 ÷ 7?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "9"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-140"
+  },
+  {
+   "n": 20,
+   "stem": "An area model shows 3 groups of 10 squares, for a total of 30 squares. Which model best represents 3 × 10?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Model F"
+    },
+    {
+     "label": "G",
+     "text": "Model G"
+    },
+    {
+     "label": "H",
+     "text": "Model H"
+    },
+    {
+     "label": "J",
+     "text": "Model J"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-141"
+  },
+  {
+   "n": 21,
+   "stem": "What is the value of 7 + 2?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "9"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-142"
+  },
+  {
+   "n": 22,
+   "stem": "Dan fed 4 dolphins. Each dolphin ate 28 fish. How many fish did the dolphins eat altogether?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "832"
+    },
+    {
+     "label": "G",
+     "text": "112"
+    },
+    {
+     "label": "H",
+     "text": "82"
+    },
+    {
+     "label": "J",
+     "text": "32"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-143"
+  },
+  {
+   "n": 23,
+   "stem": "Last year, students collected 2,195 pounds of paper. This year, students collected 1,681 pounds more than last year. What was the total amount of paper collected this year?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "514 pounds"
+    },
+    {
+     "label": "B",
+     "text": "1,514 pounds"
+    },
+    {
+     "label": "C",
+     "text": "3,776 pounds"
+    },
+    {
+     "label": "D",
+     "text": "3,876 pounds"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-144"
+  },
+  {
+   "n": 24,
+   "stem": "What is the value of 21.3 − 15.9?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "36.2"
+    },
+    {
+     "label": "G",
+     "text": "37.2"
+    },
+    {
+     "label": "H",
+     "text": "37.6"
+    },
+    {
+     "label": "J",
+     "text": "47.2"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-145"
+  },
+  {
+   "n": 25,
+   "stem": "A figure is partially drawn and has a vertical line of symmetry. Which choice would complete the figure so that it has a line of symmetry?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Choice A"
+    },
+    {
+     "label": "B",
+     "text": "Choice B"
+    },
+    {
+     "label": "C",
+     "text": "Choice C"
+    },
+    {
+     "label": "D",
+     "text": "Choice D"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-146"
+  },
+  {
+   "n": 26,
+   "stem": "Which is closest to the amount of water a typical drinking glass will hold?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "2 gallons"
+    },
+    {
+     "label": "G",
+     "text": "2 pints"
+    },
+    {
+     "label": "H",
+     "text": "2 quarts"
+    },
+    {
+     "label": "J",
+     "text": "2 cups"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-147"
+  },
+  {
+   "n": 27,
+   "stem": "A clock shows the time 1:51. Which of the following clocks also shows 1:51?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Clock A"
+    },
+    {
+     "label": "B",
+     "text": "Clock B"
+    },
+    {
+     "label": "C",
+     "text": "Clock C"
+    },
+    {
+     "label": "D",
+     "text": "Clock D"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-148"
+  },
+  {
+   "n": 28,
+   "stem": "The following money is shown: five $1 bills. What is the total value?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "$3.61"
+    },
+    {
+     "label": "G",
+     "text": "$3.90"
+    },
+    {
+     "label": "H",
+     "text": "$4.75"
+    },
+    {
+     "label": "J",
+     "text": "$5.00"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-149"
+  },
+  {
+   "n": 29,
+   "stem": "A calendar for August is shown. August 1 is a Sunday. Sarah’s birthday is on the third Sunday in August. When is her birthday?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "August 3"
+    },
+    {
+     "label": "B",
+     "text": "August 14"
+    },
+    {
+     "label": "C",
+     "text": "August 21"
+    },
+    {
+     "label": "D",
+     "text": "August 28"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-150"
+  },
+  {
+   "n": 30,
+   "stem": "Adam spent exactly 60 minutes at the library. How many hours did he spend there?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-151"
+  },
+  {
+   "n": 31,
+   "stem": "A solid figure shaped like a rectangular prism is shown. How many faces does the figure have?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-152"
+  },
+  {
+   "n": 32,
+   "stem": "Five points labeled A, B, C, D, and E are shown on a grid. Points A, B, and D lie on the same straight line. Which three points can be connected to make one line segment?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Points A, B, and D"
+    },
+    {
+     "label": "G",
+     "text": "Points A, B, and E"
+    },
+    {
+     "label": "H",
+     "text": "Points C, D, and E"
+    },
+    {
+     "label": "J",
+     "text": "Points B, C, and D"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-153"
+  },
+  {
+   "n": 33,
+   "stem": "Which thermometer shows a temperature of 72 degrees Fahrenheit?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Thermometer A"
+    },
+    {
+     "label": "B",
+     "text": "Thermometer B"
+    },
+    {
+     "label": "C",
+     "text": "Thermometer C"
+    },
+    {
+     "label": "D",
+     "text": "Thermometer D"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-154"
+  },
+  {
+   "n": 35,
+   "stem": "One cube is shown. A group of cubes is arranged to form a larger solid. How many cubes are in the group?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "23"
+    },
+    {
+     "label": "B",
+     "text": "21"
+    },
+    {
+     "label": "C",
+     "text": "18"
+    },
+    {
+     "label": "D",
+     "text": "15"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-155"
+  },
+  {
+   "n": 36,
+   "stem": "A figure is drawn. Which is closest to the distance around the figure?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "8 centimeters"
+    },
+    {
+     "label": "G",
+     "text": "6 centimeters"
+    },
+    {
+     "label": "H",
+     "text": "4 centimeters"
+    },
+    {
+     "label": "J",
+     "text": "2 centimeters"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-156"
+  },
+  {
+   "n": 37,
+   "stem": "A picture graph shows apples picked by four friends. Each symbol represents 10 apples. Rebecca has 5 symbols. Who picked exactly 50 apples?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Marcel"
+    },
+    {
+     "label": "B",
+     "text": "Rebecca"
+    },
+    {
+     "label": "C",
+     "text": "Angelo"
+    },
+    {
+     "label": "D",
+     "text": "Joyce"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-157"
+  },
+  {
+   "n": 38,
+   "stem": "The heights (in inches) of students are: 45, 48, 46, 47, 45, 50, 45, 46, 46, 51, 48, 48, 46. Which dot plot correctly shows this data?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Graph F"
+    },
+    {
+     "label": "G",
+     "text": "Graph G"
+    },
+    {
+     "label": "H",
+     "text": "Graph H"
+    },
+    {
+     "label": "J",
+     "text": "Graph J"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-158"
+  },
+  {
+   "n": 39,
+   "stem": "Amy has beads of different kinds. One bar graph correctly shows the number of each kind of bead she has. Which graph is correct?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Graph A"
+    },
+    {
+     "label": "B",
+     "text": "Graph B"
+    },
+    {
+     "label": "C",
+     "text": "Graph C"
+    },
+    {
+     "label": "D",
+     "text": "Graph D"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-159"
+  },
+  {
+   "n": 40,
+   "stem": "A bar graph shows the number of hours Richard worked each week: Week 1: 4 hours Week 2: 6 hours Week 3: 8 hours Week 4: 8 hours How many hours did Richard work altogether?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "4"
+    },
+    {
+     "label": "G",
+     "text": "10"
+    },
+    {
+     "label": "H",
+     "text": "16"
+    },
+    {
+     "label": "J",
+     "text": "26"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-160"
+  },
+  {
+   "n": 41,
+   "stem": "A basket contains rolls of wrapping paper: 5 rolls are striped, 2 are plain, and 1 is polka-dotted. If Lamont picks one roll without looking, which kind is he most likely to pick?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Striped"
+    },
+    {
+     "label": "B",
+     "text": "Plain"
+    },
+    {
+     "label": "C",
+     "text": "Polka-dotted"
+    },
+    {
+     "label": "D",
+     "text": "All are equally likely"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-161"
+  },
+  {
+   "n": 42,
+   "stem": "A picture graph shows flowers used by a shop. Each symbol represents 10 flowers. Tulips are shown with 6 symbols. How many tulips did the shop use?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6"
+    },
+    {
+     "label": "G",
+     "text": "16"
+    },
+    {
+     "label": "H",
+     "text": "60"
+    },
+    {
+     "label": "J",
+     "text": "66"
+    }
+   ],
+   "answer": "H",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-162"
+  },
+  {
+   "n": 43,
+   "stem": "Mrs. Taft has 3 different kinds of flowers and 2 different kinds of vases. Which shows all the possible ways to combine 1 flower with 1 vase?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Choice A"
+    },
+    {
+     "label": "B",
+     "text": "Choice B"
+    },
+    {
+     "label": "C",
+     "text": "Choice C"
+    },
+    {
+     "label": "D",
+     "text": "Choice D"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-163"
+  },
+  {
+   "n": 44,
+   "stem": "A group of objects is shown. All objects share one common characteristic. Which characteristic is most alike among all the objects?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Shape"
+    },
+    {
+     "label": "G",
+     "text": "Size"
+    },
+    {
+     "label": "H",
+     "text": "Color"
+    },
+    {
+     "label": "J",
+     "text": "Weight"
+    }
+   ],
+   "answer": "J",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-164"
+  },
+  {
+   "n": 45,
+   "stem": "Musical notes form a repeating pattern. The pattern is: quarter note, half note, quarter note, half note. Which choice shows the same kind of repeating pattern?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Choice A"
+    },
+    {
+     "label": "B",
+     "text": "Choice B"
+    },
+    {
+     "label": "C",
+     "text": "Choice C"
+    },
+    {
+     "label": "D",
+     "text": "Choice D"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-165"
+  },
+  {
+   "n": 46,
+   "stem": "Look at the number pattern: 70, 65, 60, 55, __. If the pattern continues decreasing in the same way, what is the next number?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "60"
+    },
+    {
+     "label": "G",
+     "text": "50"
+    },
+    {
+     "label": "H",
+     "text": "45"
+    },
+    {
+     "label": "J",
+     "text": "40"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-166"
+  },
+  {
+   "n": 47,
+   "stem": "A group of objects is shown. All objects are alike in one way. Which best describes how they are alike?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Shape"
+    },
+    {
+     "label": "B",
+     "text": "Size"
+    },
+    {
+     "label": "C",
+     "text": "Color"
+    },
+    {
+     "label": "D",
+     "text": "Weight"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-167"
+  },
+  {
+   "n": 48,
+   "stem": "Which symbol makes the sentence true? 7 __ 2 < 4 __ 5",
+   "choices": [
+    {
+     "label": "F",
+     "text": "<"
+    },
+    {
+     "label": "G",
+     "text": ">"
+    },
+    {
+     "label": "H",
+     "text": "="
+    },
+    {
+     "label": "J",
+     "text": "≠"
+    }
+   ],
+   "answer": "F",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-168"
+  },
+  {
+   "n": 49,
+   "stem": "The table shows orange prices following a pattern: 3 oranges cost 21¢ 6 oranges cost 42¢ If the pattern continues, what will be the price of 9 oranges?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "50¢"
+    },
+    {
+     "label": "B",
+     "text": "56¢"
+    },
+    {
+     "label": "C",
+     "text": "63¢"
+    },
+    {
+     "label": "D",
+     "text": "70¢"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-169"
+  },
+  {
+   "n": 50,
+   "stem": "Leonard strings beads in a repeating pattern of 8 beads: red, blue, green, yellow, red, blue, green, yellow. If the pattern continues, what should be the next two beads?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Red, blue"
+    },
+    {
+     "label": "G",
+     "text": "Green, yellow"
+    },
+    {
+     "label": "H",
+     "text": "Blue, green"
+    },
+    {
+     "label": "J",
+     "text": "Yellow, red"
+    }
+   ],
+   "answer": "G",
+   "source": "Mathematics_Grade_3_2005_SOLPass",
+   "id": "grade-3-math-170"
+  },
+  {
+   "n": 1,
+   "stem": "David, Greg, Keiko, and Betsy are each holding one card. The numbers on the cards are 3, 9, 4, and 7. Who is holding a card with an even number on it?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "David"
+    },
+    {
+     "label": "B",
+     "text": "Greg"
+    },
+    {
+     "label": "C",
+     "text": "Keiko"
+    },
+    {
+     "label": "D",
+     "text": "Betsy"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-171"
+  },
+  {
+   "n": 3,
+   "stem": "Which number sentence can be completed by using the basic fact sentence 17 − 8 = 9?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "17 + 8 = __"
+    },
+    {
+     "label": "B",
+     "text": "17 + 9 = __"
+    },
+    {
+     "label": "C",
+     "text": "9 + 8 = __"
+    },
+    {
+     "label": "D",
+     "text": "9 − 8 = __"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-172"
+  },
+  {
+   "n": 4,
+   "stem": "A set contains 10 shapes. Exactly 4 of the shapes are shaded. What fraction of this set is shaded?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1/10"
+    },
+    {
+     "label": "B",
+     "text": "2/10"
+    },
+    {
+     "label": "C",
+     "text": "3/10"
+    },
+    {
+     "label": "D",
+     "text": "4/10"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-173"
+  },
+  {
+   "n": 5,
+   "stem": "Fred’s Nature Store sold 2,046 pounds of birdseed last month. What is 2,046 rounded to the nearest hundred?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2,000"
+    },
+    {
+     "label": "B",
+     "text": "2,040"
+    },
+    {
+     "label": "C",
+     "text": "2,100"
+    },
+    {
+     "label": "D",
+     "text": "3,000"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-174"
+  },
+  {
+   "n": 8,
+   "stem": "Jeffrey used the math fact 6 × 4 = 24 to help solve a related problem. Which of these could be the related problem Jeffrey was trying to solve?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "24 ÷ 6 = 4"
+    },
+    {
+     "label": "B",
+     "text": "24 + 6 = 4"
+    },
+    {
+     "label": "C",
+     "text": "6 + 4 = 24"
+    },
+    {
+     "label": "D",
+     "text": "4 − 6 = 24"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-175"
+  },
+  {
+   "n": 9,
+   "stem": "Which of the following shows “one hundred thirty thousand, sixty-nine” in standard form?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "100,369"
+    },
+    {
+     "label": "B",
+     "text": "130,069"
+    },
+    {
+     "label": "C",
+     "text": "130,690"
+    },
+    {
+     "label": "D",
+     "text": "1,003,069"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-176"
+  },
+  {
+   "n": 10,
+   "stem": "A video store has 1,328 movies that can be rented. What is 1,328 rounded to the nearest ten?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1,300"
+    },
+    {
+     "label": "B",
+     "text": "1,310"
+    },
+    {
+     "label": "C",
+     "text": "1,320"
+    },
+    {
+     "label": "D",
+     "text": "1,330"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-177"
+  },
+  {
+   "n": 11,
+   "stem": "Two measuring cups are shown. One cup contains 1 cup of milk. The other contains 2 cups of milk. Which statement is true?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The total amount of milk is 3 cups."
+    },
+    {
+     "label": "B",
+     "text": "The total amount of milk is 2 cups."
+    },
+    {
+     "label": "C",
+     "text": "The total amount of milk is 1 cup."
+    },
+    {
+     "label": "D",
+     "text": "The total amount of milk is 4 cups."
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-178"
+  },
+  {
+   "n": 13,
+   "stem": "Laura is first in line to buy tickets for a play. The line has several people standing behind her. Jane is shown standing behind Laura with eight people between Laura and Jane. What is Jane’s position in this line?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8th"
+    },
+    {
+     "label": "B",
+     "text": "9th"
+    },
+    {
+     "label": "C",
+     "text": "10th"
+    },
+    {
+     "label": "D",
+     "text": "12th"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-179"
+  },
+  {
+   "n": 14,
+   "stem": "2.6 − 1.8 = __",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4.4"
+    },
+    {
+     "label": "B",
+     "text": "1.2"
+    },
+    {
+     "label": "C",
+     "text": "0.8"
+    },
+    {
+     "label": "D",
+     "text": "0.2"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-180"
+  },
+  {
+   "n": 15,
+   "stem": "Myra made 84 cupcakes for a bake sale. She put 3 chocolate candies on top of each cupcake. What was the total number of chocolate candies she used?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "252"
+    },
+    {
+     "label": "B",
+     "text": "261"
+    },
+    {
+     "label": "C",
+     "text": "272"
+    },
+    {
+     "label": "D",
+     "text": "2,412"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-181"
+  },
+  {
+   "n": 16,
+   "stem": "28 + 7 = __",
+   "choices": [
+    {
+     "label": "A",
+     "text": "34"
+    },
+    {
+     "label": "B",
+     "text": "35"
+    },
+    {
+     "label": "C",
+     "text": "36"
+    },
+    {
+     "label": "D",
+     "text": "37"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-182"
+  },
+  {
+   "n": 18,
+   "stem": "Which is a related fact to this number sentence? 7 + 5 = 12",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 + 7 = 12"
+    },
+    {
+     "label": "B",
+     "text": "12 − 7 = 5"
+    },
+    {
+     "label": "C",
+     "text": "12 + 5 = 17"
+    },
+    {
+     "label": "D",
+     "text": "5 − 7 = 12"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-183"
+  },
+  {
+   "n": 20,
+   "stem": "One whole is represented by a model divided into 10 equal parts. Six parts are shaded, then three shaded parts are removed. What is 0.6 − 0.3?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "0.3"
+    },
+    {
+     "label": "B",
+     "text": "0.9"
+    },
+    {
+     "label": "C",
+     "text": "1.1"
+    },
+    {
+     "label": "D",
+     "text": "6.3"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-184"
+  },
+  {
+   "n": 21,
+   "stem": "8 × 6 = __",
+   "choices": [
+    {
+     "label": "A",
+     "text": "14"
+    },
+    {
+     "label": "B",
+     "text": "40"
+    },
+    {
+     "label": "C",
+     "text": "48"
+    },
+    {
+     "label": "D",
+     "text": "56"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-185"
+  },
+  {
+   "n": 22,
+   "stem": "7,469 − 238 = __",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5,089"
+    },
+    {
+     "label": "B",
+     "text": "5,129"
+    },
+    {
+     "label": "C",
+     "text": "7,131"
+    },
+    {
+     "label": "D",
+     "text": "7,231"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-186"
+  },
+  {
+   "n": 23,
+   "stem": "The level of paper in an office copy machine decreased from morning to afternoon. Morning level: 9/10 full Afternoon level: 3/10 full How much paper was used?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "12/10"
+    },
+    {
+     "label": "B",
+     "text": "6/10"
+    },
+    {
+     "label": "C",
+     "text": "3/10"
+    },
+    {
+     "label": "D",
+     "text": "2/10"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-187"
+  },
+  {
+   "n": 24,
+   "stem": "Paper Collected (pounds): Stoneview Elementary: 421 Wheaton Elementary: 619 What was the total weight of recycled paper collected at the two schools?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "421 pounds"
+    },
+    {
+     "label": "B",
+     "text": "619 pounds"
+    },
+    {
+     "label": "C",
+     "text": "1,030 pounds"
+    },
+    {
+     "label": "D",
+     "text": "1,040 pounds"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-188"
+  },
+  {
+   "n": 25,
+   "stem": "Ten houses are numbered 1 through 10 along a straight street. Houses 6, 7, and 9 lie in a straight line without changing direction. Which 3 houses can be connected by one line segment?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7, 6, 9"
+    },
+    {
+     "label": "B",
+     "text": "5, 6, 7"
+    },
+    {
+     "label": "C",
+     "text": "2, 4, 6"
+    },
+    {
+     "label": "D",
+     "text": "1, 5, 10"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-189"
+  },
+  {
+   "n": 26,
+   "stem": "Mr. Franklin bought a bottle of cooking oil similar in size to a typical kitchen bottle holding about one quart. Which is closest to the amount of cooking oil he bought?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1 cup"
+    },
+    {
+     "label": "B",
+     "text": "50 cups"
+    },
+    {
+     "label": "C",
+     "text": "1 gallon"
+    },
+    {
+     "label": "D",
+     "text": "10 gallons"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-190"
+  },
+  {
+   "n": 28,
+   "stem": "About how many inches long is a newborn baby’s foot?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "3 inches"
+    },
+    {
+     "label": "B",
+     "text": "4 inches"
+    },
+    {
+     "label": "C",
+     "text": "5 inches"
+    },
+    {
+     "label": "D",
+     "text": "8 inches"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-191"
+  },
+  {
+   "n": 29,
+   "stem": "Jackson colored squares on grid paper. The design covers 13 individual square units. What is the area of Jackson’s design?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "13 square units"
+    },
+    {
+     "label": "B",
+     "text": "14 square units"
+    },
+    {
+     "label": "C",
+     "text": "16 square units"
+    },
+    {
+     "label": "D",
+     "text": "20 square units"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-192"
+  },
+  {
+   "n": 30,
+   "stem": "Which means twenty-eight cents?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$28.00"
+    },
+    {
+     "label": "B",
+     "text": "$2.80"
+    },
+    {
+     "label": "C",
+     "text": "$2.08"
+    },
+    {
+     "label": "D",
+     "text": "$0.28"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-193"
+  },
+  {
+   "n": 32,
+   "stem": "Mr. Garrett lived in Fredericksburg for exactly 1 year. Which is closest to the total number of days he lived there?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "7"
+    },
+    {
+     "label": "B",
+     "text": "12"
+    },
+    {
+     "label": "C",
+     "text": "30"
+    },
+    {
+     "label": "D",
+     "text": "365"
+    }
+   ],
+   "answer": "D",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-194"
+  },
+  {
+   "n": 33,
+   "stem": "Several flat faces are shown: two rectangles and four squares. Which solid figure could be formed from these faces?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rectangular prism"
+    },
+    {
+     "label": "B",
+     "text": "Cube"
+    },
+    {
+     "label": "C",
+     "text": "Pyramid"
+    },
+    {
+     "label": "D",
+     "text": "Cylinder"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-195"
+  },
+  {
+   "n": 34,
+   "stem": "A scale shows apples weighing a little more than 5 pounds and less than 6 pounds. Which is closest to the total weight of the apples?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "4 pounds"
+    },
+    {
+     "label": "B",
+     "text": "5 pounds"
+    },
+    {
+     "label": "C",
+     "text": "6 pounds"
+    },
+    {
+     "label": "D",
+     "text": "7 pounds"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-196"
+  },
+  {
+   "n": 35,
+   "stem": "A watch shows the minute hand slightly past the 4 and the hour hand near the 8. Which is closest to the time shown?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "8:04"
+    },
+    {
+     "label": "B",
+     "text": "8:10"
+    },
+    {
+     "label": "C",
+     "text": "8:20"
+    },
+    {
+     "label": "D",
+     "text": "8:40"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-197"
+  },
+  {
+   "n": 36,
+   "stem": "Which shape appears to have 4 square corners?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Circle"
+    },
+    {
+     "label": "B",
+     "text": "Triangle"
+    },
+    {
+     "label": "C",
+     "text": "Rectangle"
+    },
+    {
+     "label": "D",
+     "text": "Oval"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-198"
+  },
+  {
+   "n": 37,
+   "stem": "A pictograph shows boxes of popcorn sold over four days. Each symbol represents 5 boxes. Friday: 4 symbols (20 boxes) Saturday: 5 symbols (25 boxes) What was the total number of boxes sold on Friday and Saturday?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "50"
+    },
+    {
+     "label": "B",
+     "text": "45"
+    },
+    {
+     "label": "C",
+     "text": "40"
+    },
+    {
+     "label": "D",
+     "text": "35"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-199"
+  },
+  {
+   "n": 38,
+   "stem": "A spinner is divided into unequal sections labeled R, H, N, and W. The R section is the largest. Which section is the arrow most likely to land on?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "H"
+    },
+    {
+     "label": "B",
+     "text": "N"
+    },
+    {
+     "label": "C",
+     "text": "R"
+    },
+    {
+     "label": "D",
+     "text": "W"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-200"
+  },
+  {
+   "n": 39,
+   "stem": "A line plot shows the number of types of birds seen by students. Exactly 5 types of birds were seen by 13 students. How many students saw exactly 5 types of birds?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "13"
+    },
+    {
+     "label": "B",
+     "text": "11"
+    },
+    {
+     "label": "C",
+     "text": "9"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-201"
+  },
+  {
+   "n": 40,
+   "stem": "Sandra has tiles in two shapes (circle and square) and two colors (red and yellow). Which list shows all possible combinations of 1 shape and 1 color?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Circle–Red, Circle–Yellow, Square–Red, Square–Yellow"
+    },
+    {
+     "label": "B",
+     "text": "Circle–Red, Square–Yellow"
+    },
+    {
+     "label": "C",
+     "text": "Circle–Yellow, Square–Yellow"
+    },
+    {
+     "label": "D",
+     "text": "Circle–Red, Square–Red"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-202"
+  },
+  {
+   "n": 42,
+   "stem": "Emily placed eight counters in a bag: 1 red, 2 blue, and 5 yellow. Which color counter is she least likely to select?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Red"
+    },
+    {
+     "label": "B",
+     "text": "Blue"
+    },
+    {
+     "label": "C",
+     "text": "Yellow"
+    },
+    {
+     "label": "D",
+     "text": "All are equally likely"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-203"
+  },
+  {
+   "n": 44,
+   "stem": "Harper wrote this number pattern: 143, 139, 135, 131, 127 If the pattern continues using the same rule, what are the next three numbers?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "123, 119, 115"
+    },
+    {
+     "label": "B",
+     "text": "123, 118, 112"
+    },
+    {
+     "label": "C",
+     "text": "122, 117, 112"
+    },
+    {
+     "label": "D",
+     "text": "121, 115, 109"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-204"
+  },
+  {
+   "n": 45,
+   "stem": "Felicia grouped 10 counters two different ways: 5 groups of 2 and 2 groups of 5. Which number sentence represents these related facts?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 × 2 = 2 × 5"
+    },
+    {
+     "label": "B",
+     "text": "5 × 2 = 5 × 5"
+    },
+    {
+     "label": "C",
+     "text": "2 + 5 = 5 × 2"
+    },
+    {
+     "label": "D",
+     "text": "2 + 5 = 5 + 2"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-205"
+  },
+  {
+   "n": 46,
+   "stem": "A repeating pattern of four figures continues in the same order. The figures repeat as: circle, square, triangle, circle. What will be the next two figures in the pattern?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Square, triangle"
+    },
+    {
+     "label": "B",
+     "text": "Triangle, circle"
+    },
+    {
+     "label": "C",
+     "text": "Circle, square"
+    },
+    {
+     "label": "D",
+     "text": "Square, circle"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-206"
+  },
+  {
+   "n": 47,
+   "stem": "Toolboxes: 1 costs $30 2 cost $60 3 cost $90 4 cost $120 5 cost $150 If the pattern continues, what will be the total price of 6 toolboxes?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "$151"
+    },
+    {
+     "label": "B",
+     "text": "$180"
+    },
+    {
+     "label": "C",
+     "text": "$190"
+    },
+    {
+     "label": "D",
+     "text": "$210"
+    }
+   ],
+   "answer": "B",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-207"
+  },
+  {
+   "n": 48,
+   "stem": "2 × 3 = 3 × 2 shows a multiplication property. Which number sentence shows the same property?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "5 × 8 = 8 × 5"
+    },
+    {
+     "label": "B",
+     "text": "5 × 8 = 40"
+    },
+    {
+     "label": "C",
+     "text": "5 × 8 = 2 × 20"
+    },
+    {
+     "label": "D",
+     "text": "5 × 8 = 10 × 4"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-208"
+  },
+  {
+   "n": 49,
+   "stem": "Look at this pattern: 3, 7, 11, 15, 19, __ What is the next number?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "20"
+    },
+    {
+     "label": "B",
+     "text": "22"
+    },
+    {
+     "label": "C",
+     "text": "23"
+    },
+    {
+     "label": "D",
+     "text": "24"
+    }
+   ],
+   "answer": "C",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-209"
+  },
+  {
+   "n": 50,
+   "stem": "What number makes this number sentence true? 13 − __ = 7",
+   "choices": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "14"
+    },
+    {
+     "label": "C",
+     "text": "20"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "A",
+   "source": "Mathematics_Grade_3_2010_SOLPass",
+   "id": "grade-3-math-210"
+  }
+ ]
+}

@@ -1,0 +1,5044 @@
+{
+ "subject": "english",
+ "course": "grade-3-english",
+ "courseName": "Grade 3 English",
+ "questionCount": 201,
+ "sources": [
+  "Reading_Grade_3_2004_SOLPass",
+  "Reading_Grade_3_2005_SOLPass",
+  "Reading_Grade_3_2007_SOLPass",
+  "Reading_Grade_3_2008_SOLPass",
+  "Reading_Grade_3_2009_SOLPass",
+  "Reading_Grade_3_2010_SOLPass",
+  "Reading_Grade_3_2011_SOLPass",
+  "Reading_Grade_3_2015_SOLPass"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Which question does paragraph 1 answer?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Where did the twins live?"
+    },
+    {
+     "label": "B",
+     "text": "What kind of birthday party did the twins have?"
+    },
+    {
+     "label": "C",
+     "text": "Who were Antonio and Julio?"
+    },
+    {
+     "label": "D",
+     "text": "Why did the two boys want another kitten?"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-1"
+  },
+  {
+   "n": 2,
+   "stem": "What is the first thing Antonio and Julio do in the story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "They go to soccer practice."
+    },
+    {
+     "label": "G",
+     "text": "They collect rocks together."
+    },
+    {
+     "label": "H",
+     "text": "They go outside to play."
+    },
+    {
+     "label": "J",
+     "text": "They receive a pet kitten."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-2"
+  },
+  {
+   "n": 3,
+   "stem": "Antonio and Julio’s mother can BEST be described as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "busy"
+    },
+    {
+     "label": "B",
+     "text": "angry"
+    },
+    {
+     "label": "C",
+     "text": "fair"
+    },
+    {
+     "label": "D",
+     "text": "curious"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-3"
+  },
+  {
+   "n": 4,
+   "stem": "What was the first thing the twins did when their mother gave them a kitten?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "They thanked her for the kitten."
+    },
+    {
+     "label": "G",
+     "text": "They put the kitten in their red wagon."
+    },
+    {
+     "label": "H",
+     "text": "They gave the kitten a toy made of yarn."
+    },
+    {
+     "label": "J",
+     "text": "They asked if they could have two kittens."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-4"
+  },
+  {
+   "n": 5,
+   "stem": "What do the twins learn in this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Having to share is good in some ways."
+    },
+    {
+     "label": "B",
+     "text": "It is better to have two kittens than one."
+    },
+    {
+     "label": "C",
+     "text": "When you make a mess, you have to clean it up."
+    },
+    {
+     "label": "D",
+     "text": "It’s good to have different toys."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-5"
+  },
+  {
+   "n": 6,
+   "stem": "A picture shows the kitten sitting on the floor playing with a ball of yarn that came from a sewing basket. Which sentence from the story tells what is happening in the picture?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The twins will have to clean up the mess."
+    },
+    {
+     "label": "G",
+     "text": "The kitten is playing with a ball of yarn."
+    },
+    {
+     "label": "H",
+     "text": "The yarn fell out of the sewing basket."
+    },
+    {
+     "label": "J",
+     "text": "The yarn is soft, colorful, and pretty."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-6"
+  },
+  {
+   "n": 7,
+   "stem": "Which word from the story begins with the same sound as basket?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "wagon"
+    },
+    {
+     "label": "B",
+     "text": "basket"
+    },
+    {
+     "label": "C",
+     "text": "kitten"
+    },
+    {
+     "label": "D",
+     "text": "soccer"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-7"
+  },
+  {
+   "n": 8,
+   "stem": "Read this sentence from the story: In just a few minutes, the kitten had scattered balls of yarn all over the room. Which word rhymes with just?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "post"
+    },
+    {
+     "label": "G",
+     "text": "fussed"
+    },
+    {
+     "label": "H",
+     "text": "stuck"
+    },
+    {
+     "label": "J",
+     "text": "jump"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-8"
+  },
+  {
+   "n": 9,
+   "stem": "Read this sentence about the story: Antonio said, “I can ___ that our kitten likes ___ play with the yarn best!” Which words make the sentence correct?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "sea, to, blew"
+    },
+    {
+     "label": "B",
+     "text": "see, too, blue"
+    },
+    {
+     "label": "C",
+     "text": "sea, two, blew"
+    },
+    {
+     "label": "D",
+     "text": "see, to, blue"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-9"
+  },
+  {
+   "n": 10,
+   "stem": "Read this dictionary entry for the word yarn: yarn (yärn) n. 1. a thick, soft thread used in knitting and weaving 2. a thread made of metal, glass, paper, or plastic 3. a story about someone’s adventures; a tall tale Which meaning of the word yarn is used in this story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a thick, soft thread used in knitting and weaving"
+    },
+    {
+     "label": "G",
+     "text": "a thread made of metal, glass, paper, or plastic"
+    },
+    {
+     "label": "H",
+     "text": "a story about someone’s adventures"
+    },
+    {
+     "label": "J",
+     "text": "a tall tale"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-10"
+  },
+  {
+   "n": 11,
+   "stem": "When the mouse first offers to help, the man —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "steps back to let the mouse work"
+    },
+    {
+     "label": "B",
+     "text": "politely turns down the mouse"
+    },
+    {
+     "label": "C",
+     "text": "calls on several others to join in"
+    },
+    {
+     "label": "D",
+     "text": "grabs onto the mouse’s tail"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-11"
+  },
+  {
+   "n": 12,
+   "stem": "Which question is answered in paragraph 8?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "How did everyone work together to pull out the turnip?"
+    },
+    {
+     "label": "G",
+     "text": "Why did the mouse think she could pull out the turnip by herself?"
+    },
+    {
+     "label": "H",
+     "text": "How did the cat and the dog get along so well helping the same family?"
+    },
+    {
+     "label": "J",
+     "text": "Why did the turnip grow to be so large and hard to take out of the ground?"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-12"
+  },
+  {
+   "n": 13,
+   "stem": "What will everyone in the story MOST likely do next?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "plan a party for another day"
+    },
+    {
+     "label": "B",
+     "text": "cook the big turnip and eat it together"
+    },
+    {
+     "label": "C",
+     "text": "go to their homes and feel lonely"
+    },
+    {
+     "label": "D",
+     "text": "find another turnip to pull out of the ground"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-13"
+  },
+  {
+   "n": 14,
+   "stem": "Read this sentence from the story: Together they all tried without success to pull that turnip from the ground. Which word rhymes with tried?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "thread"
+    },
+    {
+     "label": "G",
+     "text": "child"
+    },
+    {
+     "label": "H",
+     "text": "quiet"
+    },
+    {
+     "label": "J",
+     "text": "slide"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-14"
+  },
+  {
+   "n": 15,
+   "stem": "Read this sentence from the story: Everyone pulled hard, but the turnip stayed put. Which word has the same sound as the underlined part of stayed?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "hawk"
+    },
+    {
+     "label": "B",
+     "text": "wheat"
+    },
+    {
+     "label": "C",
+     "text": "fault"
+    },
+    {
+     "label": "D",
+     "text": "chain"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-15"
+  },
+  {
+   "n": 16,
+   "stem": "Which list of words from the story is in alphabetical order?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "yellow, purple, little, tiny"
+    },
+    {
+     "label": "G",
+     "text": "garden, house, turnip, vegetable"
+    },
+    {
+     "label": "H",
+     "text": "remained, flew, tumbled, pulled"
+    },
+    {
+     "label": "J",
+     "text": "cat, dog, boy, girl"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-16"
+  },
+  {
+   "n": 17,
+   "stem": "Read this sentence about the passage: You can’t ___ that heavy turnip on the scale because it would break it! Which pair of words makes the sentence correct?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "way, knew"
+    },
+    {
+     "label": "B",
+     "text": "weigh, knew"
+    },
+    {
+     "label": "C",
+     "text": "way, new"
+    },
+    {
+     "label": "D",
+     "text": "weigh, new"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-17"
+  },
+  {
+   "n": 18,
+   "stem": "How many syllables are in the word turnip?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-18"
+  },
+  {
+   "n": 19,
+   "stem": "In paragraph 2, what does the word glanced mean?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "looked"
+    },
+    {
+     "label": "B",
+     "text": "flew"
+    },
+    {
+     "label": "C",
+     "text": "called"
+    },
+    {
+     "label": "D",
+     "text": "dreamed"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-19"
+  },
+  {
+   "n": 20,
+   "stem": "Which one of these questions does paragraph 2 answer?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "How did Gertrude’s brother help her write stories about trains?"
+    },
+    {
+     "label": "G",
+     "text": "Why did Gertrude’s father work for the railroad?"
+    },
+    {
+     "label": "H",
+     "text": "How did Gertrude get the idea of living in a cozy boxcar?"
+    },
+    {
+     "label": "J",
+     "text": "Why did Gertrude’s family live across from a train station?"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2005_SOLPass",
+   "id": "grade-3-english-20"
+  },
+  {
+   "n": 1,
+   "stem": "Which question does paragraph 2 answer?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Who is Trenton’s teacher?"
+    },
+    {
+     "label": "B",
+     "text": "What is Trenton’s favorite food?"
+    },
+    {
+     "label": "C",
+     "text": "Where does Trenton go to school?"
+    },
+    {
+     "label": "D",
+     "text": "Which grade is Trenton in this year?"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-21"
+  },
+  {
+   "n": 2,
+   "stem": "How does the reader know that Trenton is unsure about school?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "He eats breakfast quickly."
+    },
+    {
+     "label": "G",
+     "text": "He tries to find something to do."
+    },
+    {
+     "label": "H",
+     "text": "He wants to get to school early."
+    },
+    {
+     "label": "J",
+     "text": "He asks a lot of questions."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-22"
+  },
+  {
+   "n": 3,
+   "stem": "The story events occur in this order: • Sonia waits while Trenton talks. • Sonia thinks about her first day of school. • Sonia offers to help Trenton. Which of these events happens between Sonia waiting and Sonia thinking about her first day of school?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Sonia eats her breakfast without milk."
+    },
+    {
+     "label": "B",
+     "text": "Sonia tells Trenton about school."
+    },
+    {
+     "label": "C",
+     "text": "Sonia tries to speak to Trenton."
+    },
+    {
+     "label": "D",
+     "text": "Sonia gets ready for school."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-23"
+  },
+  {
+   "n": 4,
+   "stem": "Based on the story, why does Sonia decide to help Trenton?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "She begins to understand how Trenton feels."
+    },
+    {
+     "label": "G",
+     "text": "Her teacher wants her to be kind to Trenton."
+    },
+    {
+     "label": "H",
+     "text": "Her dad asks her to take care of Trenton."
+    },
+    {
+     "label": "J",
+     "text": "She wants Trenton to pass the milk."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-24"
+  },
+  {
+   "n": 5,
+   "stem": "Why is Dad important to the story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He passes the milk to Sonia."
+    },
+    {
+     "label": "B",
+     "text": "He makes breakfast for Trenton."
+    },
+    {
+     "label": "C",
+     "text": "He helps Sonia remember her first day of school."
+    },
+    {
+     "label": "D",
+     "text": "He shows Trenton where his classroom is at school."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-25"
+  },
+  {
+   "n": 6,
+   "stem": "What is the main problem in the story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Trenton and Sonia are late for school."
+    },
+    {
+     "label": "G",
+     "text": "Sonia does not want to help her brother."
+    },
+    {
+     "label": "H",
+     "text": "Sonia is not able to make Trenton listen to her."
+    },
+    {
+     "label": "J",
+     "text": "Trenton wants to stay home from school."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-26"
+  },
+  {
+   "n": 7,
+   "stem": "Based on the story, what will Sonia MOST likely do after she eats breakfast?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "She will ride the bus."
+    },
+    {
+     "label": "B",
+     "text": "She will check Trenton’s backpack."
+    },
+    {
+     "label": "C",
+     "text": "She will make her bed."
+    },
+    {
+     "label": "D",
+     "text": "She will prepare Trenton’s lunch."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-27"
+  },
+  {
+   "n": 8,
+   "stem": "The main reason to read this story is to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "understand how a boy feels about starting school"
+    },
+    {
+     "label": "G",
+     "text": "learn about favorite foods to eat at home"
+    },
+    {
+     "label": "H",
+     "text": "discover how to make breakfast at home"
+    },
+    {
+     "label": "J",
+     "text": "find out what supplies are needed for school"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-28"
+  },
+  {
+   "n": 9,
+   "stem": "Which sentence shows that something belongs to Trenton?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Trenton’s almost finished eating."
+    },
+    {
+     "label": "B",
+     "text": "Trenton’s backpack is on the table."
+    },
+    {
+     "label": "C",
+     "text": "Trenton’s glad his friend will be in his class."
+    },
+    {
+     "label": "D",
+     "text": "Trenton’s going to the same school as his sister."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-29"
+  },
+  {
+   "n": 10,
+   "stem": "Read this dictionary entry. park (pärk) n. 1. A place where cars are kept. 2. A piece of land where children can play. 3. A building used for team sports. v. 4. To leave a car for a short time. Under “What You Need to Know,” which meaning of park is used?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-30"
+  },
+  {
+   "n": 11,
+   "stem": "Read this sentence from the flier. When we are at the zoo, always remain with your team. Which word means the opposite of remain?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "meet"
+    },
+    {
+     "label": "B",
+     "text": "enter"
+    },
+    {
+     "label": "C",
+     "text": "leave"
+    },
+    {
+     "label": "D",
+     "text": "gather"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-31"
+  },
+  {
+   "n": 12,
+   "stem": "Miss Abel will be the leader for Team —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-32"
+  },
+  {
+   "n": 13,
+   "stem": "The following information is given about Field Trip Day: • Cost: $1.00 for students • Place: North Park Zoo • Time: 9:00 A.M. to 2:30 P.M. What information completes this list?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "May 2"
+    },
+    {
+     "label": "B",
+     "text": "May 3"
+    },
+    {
+     "label": "C",
+     "text": "May 6"
+    },
+    {
+     "label": "D",
+     "text": "May 9"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-33"
+  },
+  {
+   "n": 14,
+   "stem": "The events of the field trip occur in this order: • A camera is given to a student. • Teams walk through the zoo. • The students eat lunch. Which event happens before a camera is given to a student?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The class is divided into teams."
+    },
+    {
+     "label": "G",
+     "text": "The class is given blue shirts."
+    },
+    {
+     "label": "H",
+     "text": "The class visits the animals."
+    },
+    {
+     "label": "J",
+     "text": "The class stops for a snack."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-34"
+  },
+  {
+   "n": 15,
+   "stem": "Students should not feed their lunches to the animals because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the team leaders need snacks later"
+    },
+    {
+     "label": "B",
+     "text": "the animals like their own food better"
+    },
+    {
+     "label": "C",
+     "text": "the food may make the animals sick"
+    },
+    {
+     "label": "D",
+     "text": "the students will become hungry later"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-35"
+  },
+  {
+   "n": 16,
+   "stem": "The BEST reason to have the field trip is because the students will —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "see animals they have studied"
+    },
+    {
+     "label": "G",
+     "text": "work with team leaders"
+    },
+    {
+     "label": "H",
+     "text": "have a picture taken"
+    },
+    {
+     "label": "J",
+     "text": "eat healthy snacks"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-36"
+  },
+  {
+   "n": 17,
+   "stem": "One reason to read this flier is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "understand directions to the zoo"
+    },
+    {
+     "label": "B",
+     "text": "discover a new fact about animals"
+    },
+    {
+     "label": "C",
+     "text": "find out what animals are at the zoo"
+    },
+    {
+     "label": "D",
+     "text": "learn what is needed for the field trip"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-37"
+  },
+  {
+   "n": 19,
+   "stem": "Based on paragraph 11, which of these would Henry MOST likely do next?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Get rid of the mice"
+    },
+    {
+     "label": "B",
+     "text": "Fix the leak in his roof"
+    },
+    {
+     "label": "C",
+     "text": "Buy more flour and salt"
+    },
+    {
+     "label": "D",
+     "text": "Share the pretzel he baked"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-38"
+  },
+  {
+   "n": 20,
+   "stem": "The woodsman, the farmer, and the fisherman are alike because they all —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "have the same troubles as Henry"
+    },
+    {
+     "label": "G",
+     "text": "want Henry to win the contest"
+    },
+    {
+     "label": "H",
+     "text": "enjoy making pretzels"
+    },
+    {
+     "label": "J",
+     "text": "work near the sea"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-39"
+  },
+  {
+   "n": 21,
+   "stem": "What is Henry’s biggest problem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The salt is wet."
+    },
+    {
+     "label": "B",
+     "text": "He has little time."
+    },
+    {
+     "label": "C",
+     "text": "He needs more wood."
+    },
+    {
+     "label": "D",
+     "text": "The flour is half gone."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-40"
+  },
+  {
+   "n": 22,
+   "stem": "Which of these is MOST important to Henry?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Having good friends"
+    },
+    {
+     "label": "G",
+     "text": "Being prepared"
+    },
+    {
+     "label": "H",
+     "text": "Making fine pretzels"
+    },
+    {
+     "label": "J",
+     "text": "Winning contests"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-41"
+  },
+  {
+   "n": 24,
+   "stem": "Which two words from the story have the same meaning?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "problems, troubles"
+    },
+    {
+     "label": "G",
+     "text": "late, fast"
+    },
+    {
+     "label": "H",
+     "text": "judges, friends"
+    },
+    {
+     "label": "J",
+     "text": "gathered, made"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-42"
+  },
+  {
+   "n": 25,
+   "stem": "What is the meaning of streaks in paragraph 1?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "searches for food"
+    },
+    {
+     "label": "B",
+     "text": "lives in a large group"
+    },
+    {
+     "label": "C",
+     "text": "moves with great speed"
+    },
+    {
+     "label": "D",
+     "text": "makes marks in the dirt"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-43"
+  },
+  {
+   "n": 26,
+   "stem": "Read this dictionary entry. sharp (shärp) adj. 1. Having an edge. 2. Sudden. 3. Fierce. 4. Better than usual. Which meaning of sharp is used in paragraph 3?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-44"
+  },
+  {
+   "n": 27,
+   "stem": "The cheetah’s coat is MOST useful because it —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "keeps the cheetah cool after a long run"
+    },
+    {
+     "label": "B",
+     "text": "lets the cheetah move with great speed"
+    },
+    {
+     "label": "C",
+     "text": "helps the cheetah hide in the grass"
+    },
+    {
+     "label": "D",
+     "text": "protects the cheetah from the sun"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-45"
+  },
+  {
+   "n": 28,
+   "stem": "Farmers are a problem for cheetahs because they have —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "forced cheetahs to find new places to live"
+    },
+    {
+     "label": "G",
+     "text": "moved other animals near the cheetahs"
+    },
+    {
+     "label": "H",
+     "text": "caught cheetahs and sent them to zoos"
+    },
+    {
+     "label": "J",
+     "text": "asked hunters to trap cheetahs"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-46"
+  },
+  {
+   "n": 29,
+   "stem": "A cheetah’s backbone is like a spring because of the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "shape"
+    },
+    {
+     "label": "B",
+     "text": "size"
+    },
+    {
+     "label": "C",
+     "text": "way it moves"
+    },
+    {
+     "label": "D",
+     "text": "way it feels"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-47"
+  },
+  {
+   "n": 30,
+   "stem": "The article explains the following sequence: • Cheetahs use their energy very quickly. • Cheetahs stop to rest if they do not catch their prey. • Lions and hyenas hunt cheetahs. Which result fits with this information?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "The number of cheetahs in Africa becomes smaller."
+    },
+    {
+     "label": "G",
+     "text": "Zookeepers start catching cheetahs."
+    },
+    {
+     "label": "H",
+     "text": "Ranchers ask wildlife experts for help to find new land."
+    },
+    {
+     "label": "J",
+     "text": "People in Africa hunt lions and hyenas."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-48"
+  },
+  {
+   "n": 31,
+   "stem": "Animal experts in Africa will MOST likely —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "send cheetahs to zoos when they bother ranchers"
+    },
+    {
+     "label": "B",
+     "text": "teach cheetahs to stay away from lions and hyenas"
+    },
+    {
+     "label": "C",
+     "text": "pay farmers to grow extra crops to feed cheetahs"
+    },
+    {
+     "label": "D",
+     "text": "find ways to set aside land where cheetahs can be safe"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-49"
+  },
+  {
+   "n": 32,
+   "stem": "One reason that Speedy and Spotty is a good title for this article is because it —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "gives the names of two cheetahs"
+    },
+    {
+     "label": "G",
+     "text": "describes two facts about cheetahs"
+    },
+    {
+     "label": "H",
+     "text": "uses silly words to tell about cheetahs"
+    },
+    {
+     "label": "J",
+     "text": "explains how cheetahs act in the wild"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-50"
+  },
+  {
+   "n": 33,
+   "stem": "This article would be MOST useful to a student who wants to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "understand facts about cheetahs in Africa"
+    },
+    {
+     "label": "B",
+     "text": "find out how many cheetahs live in zoos"
+    },
+    {
+     "label": "C",
+     "text": "learn ways to save cheetahs from other animals"
+    },
+    {
+     "label": "D",
+     "text": "know how a cheetah is like other African animals"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-51"
+  },
+  {
+   "n": 34,
+   "stem": "Which is the correct way to show we are as one word?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "we’re"
+    },
+    {
+     "label": "G",
+     "text": "wer’e"
+    },
+    {
+     "label": "H",
+     "text": "wear’e"
+    },
+    {
+     "label": "J",
+     "text": "wea’re"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-52"
+  },
+  {
+   "n": 35,
+   "stem": "Which group of words is listed in alphabetical order?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "paper, past, pail, pants"
+    },
+    {
+     "label": "B",
+     "text": "pants, paper, past, pail"
+    },
+    {
+     "label": "C",
+     "text": "pail, pants, paper, past"
+    },
+    {
+     "label": "D",
+     "text": "past, pail, pants, paper"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2010_SOLPass",
+   "id": "grade-3-english-53"
+  },
+  {
+   "n": 4,
+   "stem": "To rush forward A. 1 B. 2 C. 3 D. 4 21 of 40 Guide words: camera — cause Which two words would appear on the same dictionary page as these guide words? A. canal B. carrot C. ceiling D. candle ## A Hidden Treasure (Full story text as provided.) 22 of 40 The title tells readers that a character in the story will most likely — A. spend time outdoors B. need to draw a map C. go to an amazing place D. search for something 23 of 40 Paragraph 5 is important to the story because it — A. tells what is on the map B. tells why Evan likes to go fishing C. shows how the attic looks D. shows where Grandma lives 24 of 40 After Evan and Mark find the map, they both feel — A. wise B. calm C. proud D. eager 25 of 40 Where does this story begin and end? A. At the river B. Near the trees C. In the kitchen D. In the attic 26 of 40 Based on the story, where does the map first lead the boys? A. To a square symbol showing a raindrop behind Grandma’s house, near the water tower B. To the dock by the river C. To the two pine trees D. To the attic 27 of 40 Which question is answered at the end of the story? A. What brings fish to a certain area? B. What happened to the old dock? C. How often did Mom go to the old dock? D. How many fish does Grandma catch? 28 of 40 Place these words in alphabetical order. searched shouted smiled spend steps ## The Ostrich: One Odd Bird (Full article text and Ostrich Facts chart as provided.) 29 of 40 Based on paragraph 4, the reader can tell that — A. chicks learn to eat by watching older ostriches B. ostriches need people to feed them a healthy diet C. plants are easier for ostriches to feed on than insects D. chicks wait to eat until the grown ostriches finish 30 of 40 Paragraph 6 explains that one way ostriches keep themselves safe is by — A. flying B. digging C. kicking D. sleeping 31 of 40 What information can be learned by reading the chart at the end of the article? A. What do ostriches use to build a nest? B. Why do ostriches keep the herd size low? C. How long do ostriches live? D. How many eggs do ostriches lay? 32 of 40 Based on the article, one way the male leader is like the females in the herd is that he helps — A. make the nest B. guard the eggs C. hide the chicks D. feed the chicks 33 of 40 The feathers of an ostrich help the bird — A. run fast B. stay warm C. move quietly D. look bigger 34 of 40 Based on the article, what can the reader most likely tell about ostriches? A. They can run faster than any other animal. B. Their wings are their most useful part. C. Their speed helps them escape. D. They usually kick their enemies. ## The Search (Full poem text as provided.) 35 of 40 After looking at the title, the reader knows that this poem is about — A. hiding something B. finding something C. looking for something D. thinking about something 36 of 40 What does pause mean in line 13? A. Try to remember B. Begin to ask questions C. Think about the past D. Stop for a short time 37 of 40 In lines 17–20, the speaker can best be described as — A. scared B. upset C. angry D. lazy 38 of 40 Where is the first place the speaker looks for the shoe? A. Under the sofa B. In the car C. In a sports bag D. Near the steps 39 of 40 Based on the events in the poem, the shoe was most likely last worn — A. at school B. during a game C. at a friend’s house D. in a friend’s car 40 of 40 Which question is answered in the poem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "What is the dog’s new chew toy?"
+    },
+    {
+     "label": "B",
+     "text": "Why is the dog playing outside?"
+    },
+    {
+     "label": "C",
+     "text": "What sport does the speaker play?"
+    },
+    {
+     "label": "D",
+     "text": "When was the speaker’s last game?"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2015_SOLPass",
+   "id": "grade-3-english-54"
+  },
+  {
+   "n": 4,
+   "stem": "To remain true. Which meaning of stand is used in paragraph 1? A 1 B 2 C 3 D 4 2. Why does Jocelyn like Mondays? F Wiggles has a different buddy. G Students receive classroom jobs. H Students can choose where to sit. J Mr. Romo brings games for the computer. 3. Read this sentence from paragraph 4. Then she heard Mr. Romo say her name, followed by “Bunny Buddy.” What does this sentence tell the reader? A Jocelyn wants to feed the rabbit. B Jocelyn has been picked to care for Wiggles. C Jocelyn’s teacher wants to talk to her about the rabbit. D Jocelyn’s fears of caring for Wiggles have gone away. 4. In paragraph 7, what does “lowered her eyes” mean?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Jocelyn watched the rabbit."
+    },
+    {
+     "label": "G",
+     "text": "Jocelyn saw the teacher."
+    },
+    {
+     "label": "H",
+     "text": "Jocelyn stared outside."
+    },
+    {
+     "label": "J",
+     "text": "Jocelyn looked down."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-55"
+  },
+  {
+   "n": 5,
+   "stem": "Why does Mr. Romo smile in paragraph 8?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He feels happy about the jobs."
+    },
+    {
+     "label": "B",
+     "text": "He knows how to help Jocelyn."
+    },
+    {
+     "label": "C",
+     "text": "He thinks Jocelyn is funny."
+    },
+    {
+     "label": "D",
+     "text": "He likes to watch students do their work."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-56"
+  },
+  {
+   "n": 6,
+   "stem": "Mr. Romo MOST likely chooses Jocelyn to be the Bunny Buddy because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "he wants her to try something different"
+    },
+    {
+     "label": "G",
+     "text": "she asks him for a better job"
+    },
+    {
+     "label": "H",
+     "text": "the classroom computer is not working"
+    },
+    {
+     "label": "J",
+     "text": "the other students do not want the job"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-57"
+  },
+  {
+   "n": 7,
+   "stem": "Why is Jocelyn worried about being Bunny Buddy?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "She does not like to hold Wiggles."
+    },
+    {
+     "label": "B",
+     "text": "She does not have food for Wiggles."
+    },
+    {
+     "label": "C",
+     "text": "She does not have a place to keep Wiggles."
+    },
+    {
+     "label": "D",
+     "text": "She does not want to make a mistake with Wiggles."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-58"
+  },
+  {
+   "n": 8,
+   "stem": "Why does Jocelyn like being Computer Helper?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "She wants to learn how to use the computer better."
+    },
+    {
+     "label": "G",
+     "text": "She wants to play games on the computer."
+    },
+    {
+     "label": "H",
+     "text": "She likes to show other students how to use the computer."
+    },
+    {
+     "label": "J",
+     "text": "She likes to write stories using the classroom computer."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-59"
+  },
+  {
+   "n": 9,
+   "stem": "Who would be MOST helped by reading this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "A student who likes to do class jobs"
+    },
+    {
+     "label": "B",
+     "text": "A student who wants to buy a pet rabbit"
+    },
+    {
+     "label": "C",
+     "text": "A student who is shy about helping others"
+    },
+    {
+     "label": "D",
+     "text": "A student who is worried about trying something new"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-60"
+  },
+  {
+   "n": 10,
+   "stem": "Which word means the opposite of grouchy?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "angry"
+    },
+    {
+     "label": "G",
+     "text": "greedy"
+    },
+    {
+     "label": "H",
+     "text": "happy"
+    },
+    {
+     "label": "J",
+     "text": "lively"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-61"
+  },
+  {
+   "n": 11,
+   "stem": "Paragraph 5 is MOSTLY about the —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "best place to sleep"
+    },
+    {
+     "label": "B",
+     "text": "best time for sleeping"
+    },
+    {
+     "label": "C",
+     "text": "reasons for sleeping"
+    },
+    {
+     "label": "D",
+     "text": "problems caused by missing sleep"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-62"
+  },
+  {
+   "n": 12,
+   "stem": "In paragraph 6, what does the author say might help a person sleep?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "staying up late each night"
+    },
+    {
+     "label": "G",
+     "text": "listening to a favorite song"
+    },
+    {
+     "label": "H",
+     "text": "listing experiences of the day"
+    },
+    {
+     "label": "J",
+     "text": "drinking a glass of milk"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-63"
+  },
+  {
+   "n": 13,
+   "stem": "Plenty of sleep will MOST likely cause a student to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "have trouble making choices"
+    },
+    {
+     "label": "B",
+     "text": "remember lessons easier"
+    },
+    {
+     "label": "C",
+     "text": "breathe faster"
+    },
+    {
+     "label": "D",
+     "text": "make mistakes in class"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-64"
+  },
+  {
+   "n": 14,
+   "stem": "A student made this list about why sleep is important. 1. keeps the body healthy 2. --- 3. good for the brain What belongs on the blank line?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "helps the body rest"
+    },
+    {
+     "label": "G",
+     "text": "makes the body tired"
+    },
+    {
+     "label": "H",
+     "text": "causes low energy"
+    },
+    {
+     "label": "J",
+     "text": "makes the heart stronger"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-65"
+  },
+  {
+   "n": 15,
+   "stem": "Which paragraph answers the question, “How much sleep do students need?”",
+   "choices": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-66"
+  },
+  {
+   "n": 16,
+   "stem": "This article could BEST help a student who wants to learn —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "the reason the heart slows down when a person sleeps"
+    },
+    {
+     "label": "G",
+     "text": "how the brain works"
+    },
+    {
+     "label": "H",
+     "text": "how sleep is important for the body and the mind"
+    },
+    {
+     "label": "J",
+     "text": "the reason for too much sleep"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-67"
+  },
+  {
+   "n": 17,
+   "stem": "How should the word trouble be divided?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "tro – u – ble"
+    },
+    {
+     "label": "B",
+     "text": "trou – ble"
+    },
+    {
+     "label": "C",
+     "text": "tr – ouble"
+    },
+    {
+     "label": "D",
+     "text": "tr – ou – ble"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-68"
+  },
+  {
+   "n": 18,
+   "stem": "Why are there stars under step 4?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "To give ideas of what to put in the box"
+    },
+    {
+     "label": "G",
+     "text": "To list the number of things in the box"
+    },
+    {
+     "label": "H",
+     "text": "To show what is needed in the box"
+    },
+    {
+     "label": "J",
+     "text": "To tell what the boy put in the box"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-69"
+  },
+  {
+   "n": 19,
+   "stem": "What does the word imagination mean?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "colorful things"
+    },
+    {
+     "label": "B",
+     "text": "different ideas"
+    },
+    {
+     "label": "C",
+     "text": "pictures at home"
+    },
+    {
+     "label": "D",
+     "text": "books from school"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-70"
+  },
+  {
+   "n": 21,
+   "stem": "What should Bobby do right after painting the box?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Glue pictures inside the box"
+    },
+    {
+     "label": "B",
+     "text": "Write his name on the box"
+    },
+    {
+     "label": "C",
+     "text": "Put a game inside the box"
+    },
+    {
+     "label": "D",
+     "text": "Turn the box on its side"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-71"
+  },
+  {
+   "n": 22,
+   "stem": "The lid of the box should be left off to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "make a space to set the box"
+    },
+    {
+     "label": "G",
+     "text": "be able to see inside the box"
+    },
+    {
+     "label": "H",
+     "text": "make it easy to carry the box"
+    },
+    {
+     "label": "J",
+     "text": "keep the things inside the box"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-72"
+  },
+  {
+   "n": 23,
+   "stem": "Why are there numbers in part of the homework paper?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To show the order of the steps"
+    },
+    {
+     "label": "B",
+     "text": "To show which step is the easiest"
+    },
+    {
+     "label": "C",
+     "text": "To show which steps are important"
+    },
+    {
+     "label": "D",
+     "text": "To show which step takes the longest"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-73"
+  },
+  {
+   "n": 24,
+   "stem": "Which question is answered in the homework paper?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "How old are the students?"
+    },
+    {
+     "label": "G",
+     "text": "What size shoebox should be used?"
+    },
+    {
+     "label": "H",
+     "text": "How many children are in the class?"
+    },
+    {
+     "label": "J",
+     "text": "How many things must be inside the box?"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-74"
+  },
+  {
+   "n": 25,
+   "stem": "The main purpose of this project is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "learn about taking pictures"
+    },
+    {
+     "label": "B",
+     "text": "show what to do with an old shoebox"
+    },
+    {
+     "label": "C",
+     "text": "show what is special to each student"
+    },
+    {
+     "label": "D",
+     "text": "learn about fun games to play"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-75"
+  },
+  {
+   "n": 26,
+   "stem": "By looking at the title, the reader can tell the story is about —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "an enjoyable summer"
+    },
+    {
+     "label": "G",
+     "text": "a boy named Mike"
+    },
+    {
+     "label": "H",
+     "text": "how Dad traps crabs"
+    },
+    {
+     "label": "J",
+     "text": "what to do in the summer"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-76"
+  },
+  {
+   "n": 28,
+   "stem": "In paragraph 6, Dad shows that he is pleased with Mike’s work by letting Mike —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "go to bed early"
+    },
+    {
+     "label": "G",
+     "text": "check the crab cages"
+    },
+    {
+     "label": "H",
+     "text": "work on the boat again"
+    },
+    {
+     "label": "J",
+     "text": "steer the boat to shore"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-77"
+  },
+  {
+   "n": 29,
+   "stem": "Mike helps Dad on the fishing boat because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mom has other things to do"
+    },
+    {
+     "label": "B",
+     "text": "Charlie hurt his foot and cannot work"
+    },
+    {
+     "label": "C",
+     "text": "Mike does not have any plans for the summer"
+    },
+    {
+     "label": "D",
+     "text": "Mike wants to work and earn extra money"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-78"
+  },
+  {
+   "n": 30,
+   "stem": "The following sequence describes events in the story: • Mike puts bait in the crab cages. • Dad and Mike throw the crab cages into the water. • Dad and Mike find many crabs. Which event belongs between the second and third events?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Dad shows Mike how to steer the boat."
+    },
+    {
+     "label": "G",
+     "text": "Dad and Mike leave early in the morning."
+    },
+    {
+     "label": "H",
+     "text": "Dad helps Mike pull the crab cages into the boat."
+    },
+    {
+     "label": "J",
+     "text": "Dad and Mike reach the right spot to throw the crab cages."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-79"
+  },
+  {
+   "n": 31,
+   "stem": "The reader can tell that crab cages are heavy because —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mike’s family is surprised he lifted the cages"
+    },
+    {
+     "label": "B",
+     "text": "Mike’s arms hurt the next day"
+    },
+    {
+     "label": "C",
+     "text": "Mike throws the cages into the water"
+    },
+    {
+     "label": "D",
+     "text": "Mike asks for extra help"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-80"
+  },
+  {
+   "n": 32,
+   "stem": "At the end of the story, Mike will MOST likely —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "fish with Charlie the rest of the summer"
+    },
+    {
+     "label": "G",
+     "text": "swim with Mom and Dad"
+    },
+    {
+     "label": "H",
+     "text": "help Mom with dinner"
+    },
+    {
+     "label": "J",
+     "text": "help Dad and Charlie the rest of the summer"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-81"
+  },
+  {
+   "n": 33,
+   "stem": "Which pair of words makes the sentence correct? We put the ________ up on our boat and went out on the ________.",
+   "choices": [
+    {
+     "label": "A",
+     "text": "sale, sea"
+    },
+    {
+     "label": "B",
+     "text": "sail, see"
+    },
+    {
+     "label": "C",
+     "text": "sail, sea"
+    },
+    {
+     "label": "D",
+     "text": "sale, see"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-82"
+  },
+  {
+   "n": 34,
+   "stem": "Which two words have opposite meanings?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "great, special"
+    },
+    {
+     "label": "G",
+     "text": "stared, looked"
+    },
+    {
+     "label": "H",
+     "text": "early, late"
+    },
+    {
+     "label": "J",
+     "text": "kept, asked"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-83"
+  },
+  {
+   "n": 35,
+   "stem": "A student searches for information about polar bears and finds these websites: • Polar Bear Tracks — Follow the trail of the wild polar bear. • Discover Polar Bears — Find interesting facts about the mighty polar bear. • Polar Bear Friends — Polar bears need your help! Find out how. • Diving Polar Bear — Zoo visitors find that polar bears are fun to watch. Which website would MOST likely tell how large a polar bear will grow?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Polar Bear Tracks"
+    },
+    {
+     "label": "B",
+     "text": "Discover Polar Bears"
+    },
+    {
+     "label": "C",
+     "text": "Polar Bear Friends"
+    },
+    {
+     "label": "D",
+     "text": "Diving Polar Bear"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2009_SOLPass",
+   "id": "grade-3-english-84"
+  },
+  {
+   "n": 1,
+   "stem": "Which question is answered in paragraph 2?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Where did Arthur grow up?"
+    },
+    {
+     "label": "B",
+     "text": "Why did Arthur like tennis best?"
+    },
+    {
+     "label": "C",
+     "text": "When was Arthur born?"
+    },
+    {
+     "label": "D",
+     "text": "What did Arthur like to do at school?"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-85"
+  },
+  {
+   "n": 2,
+   "stem": "In the article, the park offered all of these EXCEPT —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "tennis"
+    },
+    {
+     "label": "B",
+     "text": "football"
+    },
+    {
+     "label": "C",
+     "text": "baseball"
+    },
+    {
+     "label": "D",
+     "text": "swimming"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-86"
+  },
+  {
+   "n": 3,
+   "stem": "How did Arthur meet Mr. Charity?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Arthur’s father asked Mr. Charity to give his son tennis lessons."
+    },
+    {
+     "label": "B",
+     "text": "While swimming at the pool, Mr. Charity met seven-year-old Arthur."
+    },
+    {
+     "label": "C",
+     "text": "While teaching tennis, Mr. Charity saw young Arthur watching the lessons."
+    },
+    {
+     "label": "D",
+     "text": "Mr. Charity noticed that Arthur was playing tennis well for a young man."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-87"
+  },
+  {
+   "n": 4,
+   "stem": "What did Arthur do for the first time at age ten?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He entered the park where his father worked."
+    },
+    {
+     "label": "B",
+     "text": "He copied tennis movements without holding a racket."
+    },
+    {
+     "label": "C",
+     "text": "He pretended to hit a tennis ball back and forth over a net."
+    },
+    {
+     "label": "D",
+     "text": "He played tennis better than players who were older than he was."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-88"
+  },
+  {
+   "n": 5,
+   "stem": "In this article, what did Arthur do first when learning about tennis?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He took lessons from a tennis teacher at school."
+    },
+    {
+     "label": "B",
+     "text": "He helped players carry their rackets and tennis balls."
+    },
+    {
+     "label": "C",
+     "text": "He watched the tennis players and pretended to play."
+    },
+    {
+     "label": "D",
+     "text": "He listened to tennis games announced on the radio."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-89"
+  },
+  {
+   "n": 6,
+   "stem": "The reader knows this is a biography because it tells about a —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "real person"
+    },
+    {
+     "label": "B",
+     "text": "famous game"
+    },
+    {
+     "label": "C",
+     "text": "hopeful child"
+    },
+    {
+     "label": "D",
+     "text": "fun park"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-90"
+  },
+  {
+   "n": 7,
+   "stem": "Here is part of a table of contents from a magazine titled Sports Magazine. The listed article titles are: At the Baseball Field Swimming Across the … The Kid Who Could Play Tennis Not Too Short for Basketball The Fastest Legs in … On page 12, there is an article titled The Fastest Legs in …. This article is MOST likely about —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a place where a sport is played"
+    },
+    {
+     "label": "B",
+     "text": "a child who is too small to play sports"
+    },
+    {
+     "label": "C",
+     "text": "a body of water that is hard to swim across"
+    },
+    {
+     "label": "D",
+     "text": "a boy or girl who is able to run quickly"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-91"
+  },
+  {
+   "n": 8,
+   "stem": "Which word from the article has three syllables?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "player"
+    },
+    {
+     "label": "B",
+     "text": "lessons"
+    },
+    {
+     "label": "C",
+     "text": "excited"
+    },
+    {
+     "label": "D",
+     "text": "children"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-92"
+  },
+  {
+   "n": 9,
+   "stem": "What did each girl do right after talking on the phone?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "worked hard"
+    },
+    {
+     "label": "B",
+     "text": "bothered her mother"
+    },
+    {
+     "label": "C",
+     "text": "danced to music"
+    },
+    {
+     "label": "D",
+     "text": "went to her room"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-93"
+  },
+  {
+   "n": 10,
+   "stem": "Read this sentence from paragraph 6. Slowly they started sorting through their tangled belongings. In this sentence, what does the word tangled mean?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "worn-out"
+    },
+    {
+     "label": "B",
+     "text": "arranged"
+    },
+    {
+     "label": "C",
+     "text": "prepared"
+    },
+    {
+     "label": "D",
+     "text": "mixed-up"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-94"
+  },
+  {
+   "n": 11,
+   "stem": "In paragraph 7, if Meg talks on the phone while cleaning her room, she might —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "have fun while working"
+    },
+    {
+     "label": "B",
+     "text": "put things in the wrong places"
+    },
+    {
+     "label": "C",
+     "text": "not be able to work quickly"
+    },
+    {
+     "label": "D",
+     "text": "not be able to hear her friend"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-95"
+  },
+  {
+   "n": 12,
+   "stem": "In paragraph 8, Patti’s idea is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "put her clothes in the hamper"
+    },
+    {
+     "label": "B",
+     "text": "clean her room by herself"
+    },
+    {
+     "label": "C",
+     "text": "talk to Meg on the phone while cleaning"
+    },
+    {
+     "label": "D",
+     "text": "invite Meg to come over"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-96"
+  },
+  {
+   "n": 13,
+   "stem": "Which question is answered in paragraph 12?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Who was Meg talking to on the phone?"
+    },
+    {
+     "label": "B",
+     "text": "How did Patti make her room neat?"
+    },
+    {
+     "label": "C",
+     "text": "How did Meg’s room become messy?"
+    },
+    {
+     "label": "D",
+     "text": "Why was Patti spending the night with Meg?"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-97"
+  },
+  {
+   "n": 14,
+   "stem": "Meg’s mom allows her to go to Patti’s house because Meg —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "promises to help clean Patti’s room"
+    },
+    {
+     "label": "B",
+     "text": "will invite Patti to her house the next time Meg’s room is dirty"
+    },
+    {
+     "label": "C",
+     "text": "will finish her schoolwork on Patti’s computer"
+    },
+    {
+     "label": "D",
+     "text": "promises to clean the rest of her own room when she returns from Patti’s house"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-98"
+  },
+  {
+   "n": 15,
+   "stem": "The girls cleaned Patti’s room in this order: Put dirty clothes in the hamper. Put clean clothes in the closet and chest of drawers. Line up shoes neatly in the closet. Put books on the shelves. What step belongs between putting clean clothes away and putting books on the shelves?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Put phone on the desk"
+    },
+    {
+     "label": "B",
+     "text": "Put blanket on the bed"
+    },
+    {
+     "label": "C",
+     "text": "Put toys in the box"
+    },
+    {
+     "label": "D",
+     "text": "Put shoes in the closet"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-99"
+  },
+  {
+   "n": 16,
+   "stem": "From the title, the reader knows —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the story is about two friends cleaning"
+    },
+    {
+     "label": "B",
+     "text": "someone is told to clean a room"
+    },
+    {
+     "label": "C",
+     "text": "many children need help cleaning"
+    },
+    {
+     "label": "D",
+     "text": "a clean room is nice to have"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-100"
+  },
+  {
+   "n": 17,
+   "stem": "Which guide words would appear on the same dictionary page with closet?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "chore – cliff"
+    },
+    {
+     "label": "B",
+     "text": "climb – clip"
+    },
+    {
+     "label": "C",
+     "text": "clock – clutter"
+    },
+    {
+     "label": "D",
+     "text": "coast – cold"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-101"
+  },
+  {
+   "n": 18,
+   "stem": "These directions are MOSTLY about how to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "prepare for a school parade"
+    },
+    {
+     "label": "B",
+     "text": "decorate a school gym"
+    },
+    {
+     "label": "C",
+     "text": "decide on a favorite storybook"
+    },
+    {
+     "label": "D",
+     "text": "present a story to a class"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-102"
+  },
+  {
+   "n": 19,
+   "stem": "Which sentence tells how to wear the storybook cover?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "These will be the front and back covers of a very big storybook."
+    },
+    {
+     "label": "B",
+     "text": "Make small holes in the top of each piece of cardboard."
+    },
+    {
+     "label": "C",
+     "text": "Slip the two covers over your head so that they hang on your shoulders."
+    },
+    {
+     "label": "D",
+     "text": "Find a picture of a storybook character."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-103"
+  },
+  {
+   "n": 20,
+   "stem": "For this activity, the teacher will NOT —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "put the students into teams"
+    },
+    {
+     "label": "B",
+     "text": "tell the students which storybook to use"
+    },
+    {
+     "label": "C",
+     "text": "decide when to have the parade"
+    },
+    {
+     "label": "D",
+     "text": "give directions about painting a storybook"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-104"
+  },
+  {
+   "n": 21,
+   "stem": "Who will MOST likely watch the parade?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "other students and teachers"
+    },
+    {
+     "label": "B",
+     "text": "people who write storybooks"
+    },
+    {
+     "label": "C",
+     "text": "students in high school"
+    },
+    {
+     "label": "D",
+     "text": "people who make costumes"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-105"
+  },
+  {
+   "n": 22,
+   "stem": "The cardboard should be painted a light color so —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the pictures will stick better"
+    },
+    {
+     "label": "B",
+     "text": "the pictures and words will be easier to see"
+    },
+    {
+     "label": "C",
+     "text": "it will look like a storybook"
+    },
+    {
+     "label": "D",
+     "text": "it will be different than other storybooks"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-106"
+  },
+  {
+   "n": 23,
+   "stem": "What will MOST likely happen after the students read these directions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The students will watch a parade."
+    },
+    {
+     "label": "B",
+     "text": "Everybody will go to the lunchroom."
+    },
+    {
+     "label": "C",
+     "text": "The teams will choose a storybook."
+    },
+    {
+     "label": "D",
+     "text": "Parents will come to the school."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-107"
+  },
+  {
+   "n": 24,
+   "stem": "The main reason to read these directions is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "learn how to read a storybook"
+    },
+    {
+     "label": "B",
+     "text": "learn how to share a storybook character"
+    },
+    {
+     "label": "C",
+     "text": "find out how to paint cardboard"
+    },
+    {
+     "label": "D",
+     "text": "find out how to draw pictures"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-108"
+  },
+  {
+   "n": 25,
+   "stem": "How should the word costume be divided?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "cos-tume"
+    },
+    {
+     "label": "B",
+     "text": "c-ostume"
+    },
+    {
+     "label": "C",
+     "text": "co-stume"
+    },
+    {
+     "label": "D",
+     "text": "costu-me"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-109"
+  },
+  {
+   "n": 26,
+   "stem": "Read this sentence. Bring the costumes and storybook covers to the lunchroom. Which words mean the opposite of Bring?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "gather up"
+    },
+    {
+     "label": "B",
+     "text": "take away"
+    },
+    {
+     "label": "C",
+     "text": "fill up"
+    },
+    {
+     "label": "D",
+     "text": "walk with"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-110"
+  },
+  {
+   "n": 29,
+   "stem": "Which question does paragraph 3 answer?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "What is the name of the school?"
+    },
+    {
+     "label": "B",
+     "text": "What is the name of the teacher?"
+    },
+    {
+     "label": "C",
+     "text": "How old are the boys?"
+    },
+    {
+     "label": "D",
+     "text": "Why did the boys talk to each other?"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-111"
+  },
+  {
+   "n": 30,
+   "stem": "What is the main idea of paragraph 6?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Samuel learns words to say to Ho Ming."
+    },
+    {
+     "label": "B",
+     "text": "Samuel and Ho Ming play together."
+    },
+    {
+     "label": "C",
+     "text": "Samuel tries to make Ho Ming feel welcome."
+    },
+    {
+     "label": "D",
+     "text": "Samuel and Ho Ming become friends."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-112"
+  },
+  {
+   "n": 31,
+   "stem": "Read this sentence from paragraph 7. He was afraid he would sound foolish. In which word does the -ish mean the same as it does in foolish?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "selfish"
+    },
+    {
+     "label": "B",
+     "text": "dishes"
+    },
+    {
+     "label": "C",
+     "text": "catfish"
+    },
+    {
+     "label": "D",
+     "text": "wishful"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-113"
+  },
+  {
+   "n": 32,
+   "stem": "Samuel and Ho Ming are alike because they both are —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "wearing glasses"
+    },
+    {
+     "label": "B",
+     "text": "attending a new school"
+    },
+    {
+     "label": "C",
+     "text": "from the same country"
+    },
+    {
+     "label": "D",
+     "text": "in the same class"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-114"
+  },
+  {
+   "n": 33,
+   "stem": "At the end of this story, Samuel and Ho Ming will MOST likely —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "go to the library"
+    },
+    {
+     "label": "B",
+     "text": "study together"
+    },
+    {
+     "label": "C",
+     "text": "throw the ball to each other"
+    },
+    {
+     "label": "D",
+     "text": "visit with other students"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-115"
+  },
+  {
+   "n": 34,
+   "stem": "This story is MOSTLY about two boys who —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "learn to talk to each other"
+    },
+    {
+     "label": "B",
+     "text": "need help in school"
+    },
+    {
+     "label": "C",
+     "text": "have few friends"
+    },
+    {
+     "label": "D",
+     "text": "are very shy"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-116"
+  },
+  {
+   "n": 35,
+   "stem": "Which sentence shows that something belongs to Samuel?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Samuel’s eager to talk to a new friend."
+    },
+    {
+     "label": "B",
+     "text": "Samuel’s desk is on the second row."
+    },
+    {
+     "label": "C",
+     "text": "Samuel’s playing ball on the playground."
+    },
+    {
+     "label": "D",
+     "text": "Samuel’s listening carefully to the teacher."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2008_SOLPass",
+   "id": "grade-3-english-117"
+  },
+  {
+   "n": 1,
+   "stem": "Which question can be answered by reading the title of this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "What is the story about?"
+    },
+    {
+     "label": "B",
+     "text": "Who is in the story?"
+    },
+    {
+     "label": "C",
+     "text": "What is the problem in the story?"
+    },
+    {
+     "label": "D",
+     "text": "Where does the story take place?"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-118"
+  },
+  {
+   "n": 2,
+   "stem": "In paragraph 8, what does groaned mean?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "screamed"
+    },
+    {
+     "label": "G",
+     "text": "complained"
+    },
+    {
+     "label": "H",
+     "text": "explained"
+    },
+    {
+     "label": "J",
+     "text": "whispered"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-119"
+  },
+  {
+   "n": 4,
+   "stem": "At the beginning of the story, Marcus thinks he will win the race because he —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "is fast"
+    },
+    {
+     "label": "G",
+     "text": "has the best bike"
+    },
+    {
+     "label": "H",
+     "text": "has been in a race before"
+    },
+    {
+     "label": "J",
+     "text": "rides his bike every day"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-120"
+  },
+  {
+   "n": 5,
+   "stem": "Why does Marcus decide to stay home instead of going to practice with his sister?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He has been on the bike course before."
+    },
+    {
+     "label": "B",
+     "text": "He does not want to ride with her friends."
+    },
+    {
+     "label": "C",
+     "text": "He thinks she will not be able to keep up with him."
+    },
+    {
+     "label": "D",
+     "text": "He has a friend coming to play basketball with him."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-121"
+  },
+  {
+   "n": 6,
+   "stem": "Which paragraph shows that Marcus understands he made a mistake on the trail?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "6"
+    },
+    {
+     "label": "G",
+     "text": "7"
+    },
+    {
+     "label": "H",
+     "text": "8"
+    },
+    {
+     "label": "J",
+     "text": "9"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-122"
+  },
+  {
+   "n": 7,
+   "stem": "A chart compares Kelly and Marcus. Kelly practices the course and finishes the race in 3rd place. Marcus does not practice the course and finishes the race in 9th place. Which of these belongs in the comparison for both Kelly and Marcus?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Does well in sports"
+    },
+    {
+     "label": "B",
+     "text": "Becomes nervous"
+    },
+    {
+     "label": "C",
+     "text": "Meets friends at the course"
+    },
+    {
+     "label": "D",
+     "text": "Receives a medal"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-123"
+  },
+  {
+   "n": 8,
+   "stem": "In the future, Marcus will MOST likely —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "win the next race"
+    },
+    {
+     "label": "G",
+     "text": "train his sister on the course"
+    },
+    {
+     "label": "H",
+     "text": "prepare for the next race"
+    },
+    {
+     "label": "J",
+     "text": "slow down on the trail"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-124"
+  },
+  {
+   "n": 9,
+   "stem": "Put your cake in the refrigerator for about three hours. Your cake will look like a real plant with dirt, worms, and flowers. The cake will serve about fifteen people. It will be the best “dirt” you will ever eat! 9. A picture of the finished dirt cake is included with the recipe. The picture BEST helps the reader understand the recipe by showing —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "how the worms look real"
+    },
+    {
+     "label": "B",
+     "text": "the size of the flowerpot"
+    },
+    {
+     "label": "C",
+     "text": "how the cake should look when completed"
+    },
+    {
+     "label": "D",
+     "text": "the kind of flowers that will look the prettiest"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-125"
+  },
+  {
+   "n": 10,
+   "stem": "What does the word Blend mean in step 3?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Melt"
+    },
+    {
+     "label": "G",
+     "text": "Cut"
+    },
+    {
+     "label": "H",
+     "text": "Stir"
+    },
+    {
+     "label": "J",
+     "text": "Pour"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-126"
+  },
+  {
+   "n": 11,
+   "stem": "In step 3, why does the recipe suggest asking for an adult’s help?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The rest of the directions for the cake are hard to read."
+    },
+    {
+     "label": "B",
+     "text": "Extra care is needed to work with electric kitchen tools."
+    },
+    {
+     "label": "C",
+     "text": "Having someone taste the dessert is useful."
+    },
+    {
+     "label": "D",
+     "text": "Adding butter to the mixing bowl will make it heavy."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-127"
+  },
+  {
+   "n": 12,
+   "stem": "The recipe MOST likely uses chocolate cookies because of their —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "color"
+    },
+    {
+     "label": "G",
+     "text": "shape"
+    },
+    {
+     "label": "H",
+     "text": "size"
+    },
+    {
+     "label": "J",
+     "text": "weight"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-128"
+  },
+  {
+   "n": 13,
+   "stem": "How is the plastic bag used in the recipe?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To hold the cookies"
+    },
+    {
+     "label": "B",
+     "text": "To store the candy worms"
+    },
+    {
+     "label": "C",
+     "text": "To save the leftover cake"
+    },
+    {
+     "label": "D",
+     "text": "To mix the food items together"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-129"
+  },
+  {
+   "n": 14,
+   "stem": "Which question is answered in the recipe?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "What color are the candy worms?"
+    },
+    {
+     "label": "G",
+     "text": "Why is it good to use plastic flowers?"
+    },
+    {
+     "label": "H",
+     "text": "How many people will this dessert serve?"
+    },
+    {
+     "label": "J",
+     "text": "When is the best time to make the dirt cake?"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-130"
+  },
+  {
+   "n": 15,
+   "stem": "Read this list of steps from the recipe. Prepare the butter and cream cheese for mixing. Combine the milk, chocolate pudding mix, whipped cream, and cookie crumbs. Cover with cookie crumbs. Which of these belongs in the blank line between the second and third steps?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Place candy worms on top."
+    },
+    {
+     "label": "B",
+     "text": "Put the cake in the refrigerator."
+    },
+    {
+     "label": "C",
+     "text": "Crush the cookies into crumbs."
+    },
+    {
+     "label": "D",
+     "text": "Pour the mixture into the flowerpot."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-131"
+  },
+  {
+   "n": 16,
+   "stem": "Which question can be answered by reading the title of the story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "What lesson is learned in the story?"
+    },
+    {
+     "label": "G",
+     "text": "Where does the story take place?"
+    },
+    {
+     "label": "H",
+     "text": "Who is a person in the story?"
+    },
+    {
+     "label": "J",
+     "text": "How does the story end?"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-132"
+  },
+  {
+   "n": 17,
+   "stem": "Read this sentence from paragraph 7. None of these attempts worked, and the people went home disappointed. The word attempts means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "tries"
+    },
+    {
+     "label": "B",
+     "text": "wishes"
+    },
+    {
+     "label": "C",
+     "text": "puzzles"
+    },
+    {
+     "label": "D",
+     "text": "mistakes"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-133"
+  },
+  {
+   "n": 18,
+   "stem": "Why does the baker smile in paragraph 12?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "He is happy to see the king."
+    },
+    {
+     "label": "G",
+     "text": "He feels sure that he has won the contest."
+    },
+    {
+     "label": "H",
+     "text": "He wants to please the villagers."
+    },
+    {
+     "label": "J",
+     "text": "He likes to show off in front of a crowd."
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-134"
+  },
+  {
+   "n": 19,
+   "stem": "What does thrilled mean in paragraph 14?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "worried"
+    },
+    {
+     "label": "B",
+     "text": "satisfied"
+    },
+    {
+     "label": "C",
+     "text": "delighted"
+    },
+    {
+     "label": "D",
+     "text": "startled"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-135"
+  },
+  {
+   "n": 20,
+   "stem": "The events in this story show that the king enjoys —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "being rich"
+    },
+    {
+     "label": "G",
+     "text": "making fun of others"
+    },
+    {
+     "label": "H",
+     "text": "training horses"
+    },
+    {
+     "label": "J",
+     "text": "having a good time"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-136"
+  },
+  {
+   "n": 21,
+   "stem": "The dressmaker and the farmer are alike because they both —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "ask for help"
+    },
+    {
+     "label": "B",
+     "text": "care for animals"
+    },
+    {
+     "label": "C",
+     "text": "try to erase the line"
+    },
+    {
+     "label": "D",
+     "text": "think the riddle is easy"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-137"
+  },
+  {
+   "n": 22,
+   "stem": "The baker is able to solve the riddle because he is —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "clever"
+    },
+    {
+     "label": "G",
+     "text": "polite"
+    },
+    {
+     "label": "H",
+     "text": "careful"
+    },
+    {
+     "label": "J",
+     "text": "serious"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-138"
+  },
+  {
+   "n": 23,
+   "stem": "What is the baker’s problem in this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He needs money to open more stores."
+    },
+    {
+     "label": "B",
+     "text": "He does not sell enough bread in his village."
+    },
+    {
+     "label": "C",
+     "text": "He does not have enough flour to make more bread."
+    },
+    {
+     "label": "D",
+     "text": "He has trouble traveling from one end of the kingdom to the other."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-139"
+  },
+  {
+   "n": 24,
+   "stem": "This story takes place in —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a castle courtyard"
+    },
+    {
+     "label": "G",
+     "text": "the baker’s shop"
+    },
+    {
+     "label": "H",
+     "text": "the king’s tower"
+    },
+    {
+     "label": "J",
+     "text": "a crowded marketplace"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-140"
+  },
+  {
+   "n": 25,
+   "stem": "Which question is answered in paragraph 3?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "How many people went to the first drive-in movie theater?"
+    },
+    {
+     "label": "B",
+     "text": "What size was the movie screen that was used?"
+    },
+    {
+     "label": "C",
+     "text": "Where did the first drive-in movie theater open?"
+    },
+    {
+     "label": "D",
+     "text": "How many speakers were used for the movie?"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-141"
+  },
+  {
+   "n": 26,
+   "stem": "Richard rolled his car windows up and down to test the BEST way to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "hear a movie"
+    },
+    {
+     "label": "G",
+     "text": "watch a movie in the rain"
+    },
+    {
+     "label": "H",
+     "text": "see the screen"
+    },
+    {
+     "label": "J",
+     "text": "place the water sprinkler"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-142"
+  },
+  {
+   "n": 27,
+   "stem": "What is the main reason Richard performed his tests?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To learn how sound travels"
+    },
+    {
+     "label": "B",
+     "text": "To see whether his idea would work"
+    },
+    {
+     "label": "C",
+     "text": "To make sure his business earns enough money"
+    },
+    {
+     "label": "D",
+     "text": "To discover whether people would go to drive-in movie theaters"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-143"
+  },
+  {
+   "n": 28,
+   "stem": "Which paragraph shows why Richard wanted to build a drive-in movie theater?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "3"
+    },
+    {
+     "label": "J",
+     "text": "4"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-144"
+  },
+  {
+   "n": 29,
+   "stem": "How many cars were able to fit in the first drive-in movie theater?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "40"
+    },
+    {
+     "label": "C",
+     "text": "400"
+    },
+    {
+     "label": "D",
+     "text": "800"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-145"
+  },
+  {
+   "n": 30,
+   "stem": "Based on this article, why are there fewer drive-in movie theaters today than in the past?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "It costs too much money to see a movie."
+    },
+    {
+     "label": "G",
+     "text": "The weather is too cold in many places."
+    },
+    {
+     "label": "H",
+     "text": "They have fallen apart over time."
+    },
+    {
+     "label": "J",
+     "text": "There are other ways to watch movies now."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-146"
+  },
+  {
+   "n": 31,
+   "stem": "A photograph of a drive-in movie theater is included with this article. The picture answers which question?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "How are the cars parked at the theater?"
+    },
+    {
+     "label": "B",
+     "text": "What movie is playing on the screen?"
+    },
+    {
+     "label": "C",
+     "text": "What time of night is the movie playing?"
+    },
+    {
+     "label": "D",
+     "text": "How many people are in the cars?"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-147"
+  },
+  {
+   "n": 32,
+   "stem": "Which guide words would MOST likely appear on the same dictionary page with projector?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "practice — precious"
+    },
+    {
+     "label": "G",
+     "text": "predict — prepare"
+    },
+    {
+     "label": "H",
+     "text": "price — prince"
+    },
+    {
+     "label": "J",
+     "text": "print — prune"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-148"
+  },
+  {
+   "n": 33,
+   "stem": "Read this Table of Contents. Table of Contents Chapter 1 The Beginning of Drive-In Movie Theaters........ 6 Chapter 2 What to See at Drive-In Movie Theaters.......... 17 Chapter 3 Famous Drive-In Movie Theaters................. 29 Chapter 4 Drive-In Movie Theaters Today.................. 41 Chapter 4 MOST likely has information about —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "the first drive-in movie theater"
+    },
+    {
+     "label": "B",
+     "text": "how a drive-in movie theater works"
+    },
+    {
+     "label": "C",
+     "text": "the largest drive-in movie theater"
+    },
+    {
+     "label": "D",
+     "text": "how drive-in movie theaters have changed"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-149"
+  },
+  {
+   "n": 34,
+   "stem": "In which sentence is the underlined word used correctly?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Please drive buy the store."
+    },
+    {
+     "label": "G",
+     "text": "We will buy some food."
+    },
+    {
+     "label": "H",
+     "text": "We should by bananas."
+    },
+    {
+     "label": "J",
+     "text": "It is best to bye them fresh."
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2011_SOLPass",
+   "id": "grade-3-english-150"
+  },
+  {
+   "n": 1,
+   "stem": "The title of the story tells us that it is probably about —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "making a new friend"
+    },
+    {
+     "label": "B",
+     "text": "learning a lesson"
+    },
+    {
+     "label": "C",
+     "text": "playing a game"
+    },
+    {
+     "label": "D",
+     "text": "winning a contest"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-151"
+  },
+  {
+   "n": 2,
+   "stem": "Where does this story MOST likely take place?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "in a meadow"
+    },
+    {
+     "label": "B",
+     "text": "in a town"
+    },
+    {
+     "label": "C",
+     "text": "at the beach"
+    },
+    {
+     "label": "D",
+     "text": "in a forest"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-152"
+  },
+  {
+   "n": 3,
+   "stem": "What is the theme of this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Time passes too quickly."
+    },
+    {
+     "label": "B",
+     "text": "Be friendly to everybody."
+    },
+    {
+     "label": "C",
+     "text": "Size isn’t everything."
+    },
+    {
+     "label": "D",
+     "text": "Don’t be afraid of small things."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-153"
+  },
+  {
+   "n": 4,
+   "stem": "What does the word furious mean in paragraph 5 of this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "big and strong"
+    },
+    {
+     "label": "B",
+     "text": "very angry"
+    },
+    {
+     "label": "C",
+     "text": "loud"
+    },
+    {
+     "label": "D",
+     "text": "trembling with fear"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-154"
+  },
+  {
+   "n": 5,
+   "stem": "How does Cricket finally solve his problem?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He gets help from his friend."
+    },
+    {
+     "label": "B",
+     "text": "He talks Bear into leaving."
+    },
+    {
+     "label": "C",
+     "text": "He and his family run away."
+    },
+    {
+     "label": "D",
+     "text": "He stings Bear to make him go away."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-155"
+  },
+  {
+   "n": 7,
+   "stem": "Read this sentence from the story. Bear looked down and saw tiny Cricket. Which word has the same vowel sound as down?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "boast"
+    },
+    {
+     "label": "B",
+     "text": "voice"
+    },
+    {
+     "label": "C",
+     "text": "shout"
+    },
+    {
+     "label": "D",
+     "text": "low"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-156"
+  },
+  {
+   "n": 8,
+   "stem": "Read this sentence from the story. One beautiful day, Bear was out hunting. Adding -ful to the word beauty makes a word that means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "is filled with beauty"
+    },
+    {
+     "label": "B",
+     "text": "is without any beauty"
+    },
+    {
+     "label": "C",
+     "text": "has too much beauty"
+    },
+    {
+     "label": "D",
+     "text": "has too little beauty"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-157"
+  },
+  {
+   "n": 9,
+   "stem": "Read this sentence from the story. Just then Cricket appeared at the door of his house. Which word in this sentence tells what someone did?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "then"
+    },
+    {
+     "label": "B",
+     "text": "appeared"
+    },
+    {
+     "label": "C",
+     "text": "door"
+    },
+    {
+     "label": "D",
+     "text": "his"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-158"
+  },
+  {
+   "n": 10,
+   "stem": "Here is part of a table of contents. Use it to answer the question. The Mouse and the Elephant.......... page 23 Sulia and the Waterfall.............. page 24 Ryndal’s Treasure..................... page 27 That Will Teach You, Bear!........... page 28 Singing Trees.......................... page 29 Which of these stories is the longest?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "“The Mouse and the Elephant”"
+    },
+    {
+     "label": "B",
+     "text": "“Sulia and the Waterfall”"
+    },
+    {
+     "label": "C",
+     "text": "“Ryndal’s Treasure”"
+    },
+    {
+     "label": "D",
+     "text": "“That Will Teach You, Bear!”"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-159"
+  },
+  {
+   "n": 11,
+   "stem": "This story is mostly about —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "how children use crayons"
+    },
+    {
+     "label": "B",
+     "text": "why crayons come in different colors"
+    },
+    {
+     "label": "C",
+     "text": "how crayons are made"
+    },
+    {
+     "label": "D",
+     "text": "why crayons are important"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-160"
+  },
+  {
+   "n": 12,
+   "stem": "The author organized the information in this story by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "starting with the most interesting parts"
+    },
+    {
+     "label": "B",
+     "text": "writing a paragraph about each color"
+    },
+    {
+     "label": "C",
+     "text": "describing each piece of equipment"
+    },
+    {
+     "label": "D",
+     "text": "presenting the events step by step"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-161"
+  },
+  {
+   "n": 14,
+   "stem": "What happens just after the hot wax mixture is poured into the molds?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Cold water flows around the molds to harden the wax."
+    },
+    {
+     "label": "B",
+     "text": "Each crayon is wrapped in paper matching the crayon’s color."
+    },
+    {
+     "label": "C",
+     "text": "Powders of different colors are poured into the wax."
+    },
+    {
+     "label": "D",
+     "text": "The cakes of color are baked until they are completely dry."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-162"
+  },
+  {
+   "n": 16,
+   "stem": "Read this sentence from the story. Next, they’re ground into a fine powder. What is another correct way to write they’re?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "there are"
+    },
+    {
+     "label": "B",
+     "text": "they are"
+    },
+    {
+     "label": "C",
+     "text": "they were"
+    },
+    {
+     "label": "D",
+     "text": "there were"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-163"
+  },
+  {
+   "n": 17,
+   "stem": "Read this sentence from the story. These colors, and many others, can be found in a box of crayons! Which word has the same vowel sound as box?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "forks"
+    },
+    {
+     "label": "B",
+     "text": "pots"
+    },
+    {
+     "label": "C",
+     "text": "nose"
+    },
+    {
+     "label": "D",
+     "text": "scouts"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-164"
+  },
+  {
+   "n": 18,
+   "stem": "Read this sentence from the story. These bright, colorful crayons are an important part of most preschool children’s learning. Which word rhymes with part?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "heart"
+    },
+    {
+     "label": "B",
+     "text": "card"
+    },
+    {
+     "label": "C",
+     "text": "earth"
+    },
+    {
+     "label": "D",
+     "text": "treat"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-165"
+  },
+  {
+   "n": 19,
+   "stem": "Earl Dickson came up with the idea of Band-Aids for his —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "friend"
+    },
+    {
+     "label": "B",
+     "text": "son"
+    },
+    {
+     "label": "C",
+     "text": "wife"
+    },
+    {
+     "label": "D",
+     "text": "boss"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-166"
+  },
+  {
+   "n": 20,
+   "stem": "What does the word injuries mean in paragraph 2 of this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "secrets"
+    },
+    {
+     "label": "B",
+     "text": "ideas"
+    },
+    {
+     "label": "C",
+     "text": "hurts"
+    },
+    {
+     "label": "D",
+     "text": "mistakes"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-167"
+  },
+  {
+   "n": 21,
+   "stem": "What happened just after Mr. Dickson showed the new kind of bandage to his bosses?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Johnson & Johnson began to make and sell the bandages."
+    },
+    {
+     "label": "B",
+     "text": "W. Johnson Kenyon named the bandages “Band-Aids.”"
+    },
+    {
+     "label": "C",
+     "text": "Mrs. Dickson hurt herself while cooking."
+    },
+    {
+     "label": "D",
+     "text": "Hospitals started using the bandages."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-168"
+  },
+  {
+   "n": 22,
+   "stem": "In this story, Earl Dickson can BEST be described as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "greedy"
+    },
+    {
+     "label": "B",
+     "text": "quiet"
+    },
+    {
+     "label": "C",
+     "text": "amusing"
+    },
+    {
+     "label": "D",
+     "text": "clever"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-169"
+  },
+  {
+   "n": 23,
+   "stem": "The story that comes just after the one about Band-Aids is about —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "zippers"
+    },
+    {
+     "label": "B",
+     "text": "skates"
+    },
+    {
+     "label": "C",
+     "text": "hankies"
+    },
+    {
+     "label": "D",
+     "text": "straws"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-170"
+  },
+  {
+   "n": 24,
+   "stem": "Which story begins on page 26?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "“Walking on Wheels”"
+    },
+    {
+     "label": "B",
+     "text": "“Helpful Hankies”"
+    },
+    {
+     "label": "C",
+     "text": "“Fun Flying Saucers”"
+    },
+    {
+     "label": "D",
+     "text": "“Sipping Sweetly”"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-171"
+  },
+  {
+   "n": 25,
+   "stem": "A story about Frisbees can be found on page —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "26"
+    },
+    {
+     "label": "B",
+     "text": "32"
+    },
+    {
+     "label": "C",
+     "text": "37"
+    },
+    {
+     "label": "D",
+     "text": "41"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2004_SOLPass",
+   "id": "grade-3-english-172"
+  },
+  {
+   "n": 2,
+   "stem": "In paragraph 4, behavior is what the goat —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "does"
+    },
+    {
+     "label": "G",
+     "text": "eats"
+    },
+    {
+     "label": "H",
+     "text": "sees"
+    },
+    {
+     "label": "J",
+     "text": "hears"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-173"
+  },
+  {
+   "n": 3,
+   "stem": "In paragraph 5, how do some fainting goats keep from falling to the ground?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "They sit down if they are surprised."
+    },
+    {
+     "label": "B",
+     "text": "They gather together in large groups."
+    },
+    {
+     "label": "C",
+     "text": "They stand close to a tree or a fence."
+    },
+    {
+     "label": "D",
+     "text": "They run to their owners to find help."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-174"
+  },
+  {
+   "n": 4,
+   "stem": "Which sentence from the article shows that fainting goats make good pets?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "“The goats pop back up onto their feet.”"
+    },
+    {
+     "label": "G",
+     "text": "“No one had seen goats do this before.”"
+    },
+    {
+     "label": "H",
+     "text": "“This special kind of goat does not actually faint.”"
+    },
+    {
+     "label": "J",
+     "text": "“Goats of this kind are gentle, smart, and playful.”"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-175"
+  },
+  {
+   "n": 5,
+   "stem": "Which of these would MOST likely cause a fainting goat to fall?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "loud thunder"
+    },
+    {
+     "label": "B",
+     "text": "pleasant smell"
+    },
+    {
+     "label": "C",
+     "text": "green field"
+    },
+    {
+     "label": "D",
+     "text": "gentle breeze"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-176"
+  },
+  {
+   "n": 6,
+   "stem": "This article is MOSTLY about an animal that —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "sleeps during the day"
+    },
+    {
+     "label": "G",
+     "text": "trips in open fields"
+    },
+    {
+     "label": "H",
+     "text": "walks with stiff legs"
+    },
+    {
+     "label": "J",
+     "text": "acts in an odd way"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-177"
+  },
+  {
+   "n": 7,
+   "stem": "Which sentence shows something belongs to a goat?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The goat’s body is small."
+    },
+    {
+     "label": "B",
+     "text": "Goats are grazing animals."
+    },
+    {
+     "label": "C",
+     "text": "It’s a friendly goat."
+    },
+    {
+     "label": "D",
+     "text": "The goat is easily scared."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-178"
+  },
+  {
+   "n": 8,
+   "stem": "In a book on farm animals, which is the BEST way to find pages about goats?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "use the glossary"
+    },
+    {
+     "label": "G",
+     "text": "read the title page"
+    },
+    {
+     "label": "H",
+     "text": "look in the index"
+    },
+    {
+     "label": "J",
+     "text": "check each chapter"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-179"
+  },
+  {
+   "n": 9,
+   "stem": "In the first paragraph, the word swish is used for —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a body movement"
+    },
+    {
+     "label": "B",
+     "text": "a sound"
+    },
+    {
+     "label": "C",
+     "text": "a whispered message"
+    },
+    {
+     "label": "D",
+     "text": "a scent"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-180"
+  },
+  {
+   "n": 10,
+   "stem": "How long had Meg been practicing when she entered the contest?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "two weeks"
+    },
+    {
+     "label": "G",
+     "text": "two months"
+    },
+    {
+     "label": "H",
+     "text": "three weeks"
+    },
+    {
+     "label": "J",
+     "text": "three months"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-181"
+  },
+  {
+   "n": 11,
+   "stem": "Paragraph 7 shows that Meg —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "knows that she will be the one who wins the contest"
+    },
+    {
+     "label": "B",
+     "text": "wishes she had not entered the contest"
+    },
+    {
+     "label": "C",
+     "text": "feels angry at her mother for showing Meg the wrong way to shoot"
+    },
+    {
+     "label": "D",
+     "text": "cares more about doing her best than about being like everyone else"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-182"
+  },
+  {
+   "n": 12,
+   "stem": "How does Mom help Meg win a medal?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "She lets Meg choose the way she would throw the ball."
+    },
+    {
+     "label": "G",
+     "text": "She enters Meg in a contest for younger kids."
+    },
+    {
+     "label": "H",
+     "text": "She shows Meg an easier way to shoot baskets."
+    },
+    {
+     "label": "J",
+     "text": "She makes Meg practice over and over with one hand."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-183"
+  },
+  {
+   "n": 13,
+   "stem": "Mom suggests that throwing the basketball “granny style” might help Meg —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "aim better"
+    },
+    {
+     "label": "B",
+     "text": "throw the ball farther"
+    },
+    {
+     "label": "C",
+     "text": "make others laugh"
+    },
+    {
+     "label": "D",
+     "text": "throw the ball like everyone else"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-184"
+  },
+  {
+   "n": 14,
+   "stem": "Which question is answered in the last paragraph?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "What did Meg do with her medal?"
+    },
+    {
+     "label": "G",
+     "text": "How big was Meg’s medal?"
+    },
+    {
+     "label": "H",
+     "text": "What did Meg’s room look like?"
+    },
+    {
+     "label": "J",
+     "text": "Where did Meg practice?"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-185"
+  },
+  {
+   "n": 15,
+   "stem": "How does Meg feel at the end of the story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "disappointed"
+    },
+    {
+     "label": "B",
+     "text": "comforted"
+    },
+    {
+     "label": "C",
+     "text": "proud"
+    },
+    {
+     "label": "D",
+     "text": "confused"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-186"
+  },
+  {
+   "n": 16,
+   "stem": "If Meg grows up to be a famous basketball player, this story would be part of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "a biography"
+    },
+    {
+     "label": "G",
+     "text": "a legend"
+    },
+    {
+     "label": "H",
+     "text": "a fairy tale"
+    },
+    {
+     "label": "J",
+     "text": "a mystery"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-187"
+  },
+  {
+   "n": 17,
+   "stem": "Why does step 2 tell the reader to have a grownup help?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The measuring cup is difficult to fill."
+    },
+    {
+     "label": "B",
+     "text": "The ice cubes are not easy to handle."
+    },
+    {
+     "label": "C",
+     "text": "The directions are hard to understand."
+    },
+    {
+     "label": "D",
+     "text": "The boiling water could be harmful."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-188"
+  },
+  {
+   "n": 18,
+   "stem": "Step 5 tells the reader how to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "add the fruit strips to the JELL-O"
+    },
+    {
+     "label": "G",
+     "text": "make the fruit strips the same length"
+    },
+    {
+     "label": "H",
+     "text": "pour the JELL-O over the fruit strips"
+    },
+    {
+     "label": "J",
+     "text": "stretch the fruit strips into long pieces"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-189"
+  },
+  {
+   "n": 19,
+   "stem": "Which question is answered in step 6?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "What spoon is best for stirring bubbles?"
+    },
+    {
+     "label": "B",
+     "text": "How can a small marshmallow be measured?"
+    },
+    {
+     "label": "C",
+     "text": "Which fish blow bubbles in the water?"
+    },
+    {
+     "label": "D",
+     "text": "Why does the recipe use marshmallows?"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-190"
+  },
+  {
+   "n": 20,
+   "stem": "What does the word sprinkle mean in step 9?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "scatter"
+    },
+    {
+     "label": "G",
+     "text": "pull"
+    },
+    {
+     "label": "H",
+     "text": "hang"
+    },
+    {
+     "label": "J",
+     "text": "clean"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-191"
+  },
+  {
+   "n": 21,
+   "stem": "The following list shows some of the steps in the recipe, in order, with one step missing: Put the JELL-O in the glasses. Add the fruit strips to the JELL-O. Push the marshmallows into the JELL-O. Blank Put graham cracker crumbs on top. Which sentence goes in the blank?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Push the Goldfish into the JELL-O."
+    },
+    {
+     "label": "B",
+     "text": "Add cold water to the blue JELL-O."
+    },
+    {
+     "label": "C",
+     "text": "Let the JELL-O cool for a while."
+    },
+    {
+     "label": "D",
+     "text": "Stir the JELL-O until it is thick."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-192"
+  },
+  {
+   "n": 22,
+   "stem": "How many mixing bowls does the recipe use?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "1"
+    },
+    {
+     "label": "G",
+     "text": "2"
+    },
+    {
+     "label": "H",
+     "text": "4"
+    },
+    {
+     "label": "J",
+     "text": "6"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-193"
+  },
+  {
+   "n": 23,
+   "stem": "Which step explains when to put the JELL-O in the glasses?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "9"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-194"
+  },
+  {
+   "n": 29,
+   "stem": "graham cracker crumbs What is the BEST way the reader could use this list? F to explain the best way to serve the dessert G to collect the food for making the dessert H to buy the glasses needed for the dessert J to know how much the dessert costs 25. What will MOST likely happen if the ice cubes are left out of the recipe? A The JELL-O will take longer to thicken. B There will be more room for the fruit strips. C The Goldfish will be harder to see in the glass. D There will be less time to make the dessert. 26. All of these are compound words EXCEPT — F cracker G grownup H seaweed J outside ## Directions Read the story and answer the questions that follow. ### Taj and Berto The school bus had arrived. Taj’s mother handed him a paper bag of warm samosas. This was his favorite food from his home in India. They were crispy bread pockets filled with potatoes, peas, almonds, and golden raisins. The house smelled spicy. It was hard to leave, but Taj kissed his mother goodbye and headed off to school. When Taj arrived at school that morning, a new student named Berto was in class. Mrs. Grant asked, “Who will be Berto’s helper?” Taj raised his hand. He wanted a chance to help this new boy just as some other children had helped him. One month ago Taj was the “new kid” from a faraway country. Berto was from Puerto Rico. He spoke Spanish and English. Taj showed him around the classroom. Mrs. Grant let them go out for a school tour. Berto smiled often, asking many questions on their walk around school. Taj thought, “Maybe I have a new friend!” Berto was lively. His long legs always seemed ready to run. At recess, Berto joined a soccer game. He fit right in with the athletic group. Sports looked like fun. Taj played, but his mind and body didn’t work well together. The harder he tried, the worse he played. Before noon, Berto met other students. Some of them spoke Spanish. “Oh, well,” Taj thought. “Berto has found friends who speak the same language as he does.” At lunch, Taj sat with some friends. He opened his lunch sack and took out the samosas. They weren’t warm anymore, but they were still good. Taj bit into a tasty samosa. Taj saw Berto walking toward him. He came and sat right next to Taj. Berto pointed to Taj’s lunch. “What’s that?” he asked. “Oh, no. He’s going to make fun of my lunch,” Taj thought. Then Berto took something from a brown bag. It looked like a samosa. “See? I have one too! Mine’s an empanada. It is spicy inside!” Berto smiled at the other students at the table. He said, “Taj is a great guy! He’s my first new friend!” Taj grinned from ear to ear. 27. In paragraph 2, why does Taj raise his hand? A He knows the new boy in his class. B He does not want to stay in the classroom. C He does not have any friends at school. D He knows how it feels to be new at school. 28. In paragraph 3, a tour means someone will — F learn about a place G enter a contest H have a fun vacation J spend time outdoors 29. Reread paragraph 5. Why does Taj say “Oh, well”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He will have to learn Spanish from someone."
+    },
+    {
+     "label": "B",
+     "text": "He will have to sit alone at lunch."
+    },
+    {
+     "label": "C",
+     "text": "He has no hope of becoming a great soccer player."
+    },
+    {
+     "label": "D",
+     "text": "He thinks Berto will not be his friend."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-195"
+  },
+  {
+   "n": 30,
+   "stem": "Which question is answered in paragraph 10?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "What does Berto first say to Taj?"
+    },
+    {
+     "label": "G",
+     "text": "When does Berto play soccer?"
+    },
+    {
+     "label": "H",
+     "text": "Where do Taj and Berto sit during lunch?"
+    },
+    {
+     "label": "J",
+     "text": "Why does Taj grin from ear to ear?"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-196"
+  },
+  {
+   "n": 31,
+   "stem": "When Berto points to Taj’s samosa and asks what it is, Taj —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "worries that Berto will laugh at his unusual lunch"
+    },
+    {
+     "label": "B",
+     "text": "thinks that Berto wants to eat his samosa"
+    },
+    {
+     "label": "C",
+     "text": "feels angry about Berto’s question"
+    },
+    {
+     "label": "D",
+     "text": "looks at Berto’s lunch to see what he brought"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-197"
+  },
+  {
+   "n": 32,
+   "stem": "What is the setting at the beginning of the story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "lunchroom"
+    },
+    {
+     "label": "G",
+     "text": "Taj’s home"
+    },
+    {
+     "label": "H",
+     "text": "classroom"
+    },
+    {
+     "label": "J",
+     "text": "Berto’s home"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-198"
+  },
+  {
+   "n": 33,
+   "stem": "What do Taj and Berto have in common?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "They are from Puerto Rico."
+    },
+    {
+     "label": "B",
+     "text": "They have almost the same lunches."
+    },
+    {
+     "label": "C",
+     "text": "They both speak Spanish and English."
+    },
+    {
+     "label": "D",
+     "text": "They both enjoy playing soccer."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-199"
+  },
+  {
+   "n": 34,
+   "stem": "At the end of the story, the boys will MOST likely —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "bring sandwiches for lunch"
+    },
+    {
+     "label": "G",
+     "text": "become friends"
+    },
+    {
+     "label": "H",
+     "text": "help the next new student"
+    },
+    {
+     "label": "J",
+     "text": "play soccer together"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-200"
+  },
+  {
+   "n": 35,
+   "stem": "Read this sentence from the story. Berto was lively. In which word is -ly used the same as it is in lively?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "butterfly"
+    },
+    {
+     "label": "B",
+     "text": "reply"
+    },
+    {
+     "label": "C",
+     "text": "family"
+    },
+    {
+     "label": "D",
+     "text": "slowly"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_3_2007_SOLPass",
+   "id": "grade-3-english-201"
+  }
+ ]
+}

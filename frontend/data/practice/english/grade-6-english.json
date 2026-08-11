@@ -1,0 +1,2664 @@
+{
+ "subject": "english",
+ "course": "grade-6-english",
+ "courseName": "Grade 6 English",
+ "questionCount": 106,
+ "sources": [
+  "Reading_Grade_6_2010_SOLPass",
+  "Reading_Grade_6_2015_SOLPass",
+  "Reading_Grade_6_2015_VDOE"
+ ],
+ "attribution": "Practice items adapted from Virginia Department of Education released SOL tests.",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "This story is mostly about Mia —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "working on a project at home"
+    },
+    {
+     "label": "B",
+     "text": "choosing a new art project"
+    },
+    {
+     "label": "C",
+     "text": "winning an art contest"
+    },
+    {
+     "label": "D",
+     "text": "completing a painting"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-1"
+  },
+  {
+   "n": 3,
+   "stem": "What does this sentence suggest? “Julia relaxed, thinking Mr. Malone would let another tardy slide by.”",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mr. Malone usually understands Julia’s actions."
+    },
+    {
+     "label": "B",
+     "text": "Mr. Malone and Julia know what to expect from each other."
+    },
+    {
+     "label": "C",
+     "text": "Julia and Mr. Malone get along well with each other."
+    },
+    {
+     "label": "D",
+     "text": "Mr. Malone sometimes forgives Julia’s delays."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-2"
+  },
+  {
+   "n": 4,
+   "stem": "In paragraph 6, Julia’s response to the news that she cannot attend the field trip best indicates that she —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "is angry with herself"
+    },
+    {
+     "label": "B",
+     "text": "regularly attends other events"
+    },
+    {
+     "label": "C",
+     "text": "disagrees with her teacher"
+    },
+    {
+     "label": "D",
+     "text": "has a strong interest in music"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-3"
+  },
+  {
+   "n": 5,
+   "stem": "In paragraph 12, which topic do the adults most likely discuss before Julia arrives?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Julia’s grade in science class"
+    },
+    {
+     "label": "B",
+     "text": "Julia’s reluctance to share her feelings"
+    },
+    {
+     "label": "C",
+     "text": "Julia’s reason for arriving after the start time"
+    },
+    {
+     "label": "D",
+     "text": "Julia’s ability to make friends"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-4"
+  },
+  {
+   "n": 6,
+   "stem": "In paragraph 14, what does acknowledgment mean?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "admitting something is true"
+    },
+    {
+     "label": "B",
+     "text": "showing an appreciation"
+    },
+    {
+     "label": "C",
+     "text": "expressing strong feelings"
+    },
+    {
+     "label": "D",
+     "text": "acting out of concern"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-5"
+  },
+  {
+   "n": 7,
+   "stem": "Which word in paragraph 17 signals a generalization?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Normally"
+    },
+    {
+     "label": "B",
+     "text": "paused"
+    },
+    {
+     "label": "C",
+     "text": "However"
+    },
+    {
+     "label": "D",
+     "text": "considered"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-6"
+  },
+  {
+   "n": 8,
+   "stem": "Complete the cause-and-effect relationship. Cause: Julia is tardy three times. Effect: __________________________",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Julia makes her friends unhappy."
+    },
+    {
+     "label": "B",
+     "text": "Julia has little time to practice music."
+    },
+    {
+     "label": "C",
+     "text": "Julia misses class assignments."
+    },
+    {
+     "label": "D",
+     "text": "Julia receives several days of detention."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-7"
+  },
+  {
+   "n": 9,
+   "stem": "Which statement is most likely true about Julia’s dad?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "He wants Julia to learn from her mistakes."
+    },
+    {
+     "label": "B",
+     "text": "He closely observes Julia’s behavior."
+    },
+    {
+     "label": "C",
+     "text": "He is eager to defend Julia’s actions."
+    },
+    {
+     "label": "D",
+     "text": "He feels Julia has the ability to do well in school."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-8"
+  },
+  {
+   "n": 10,
+   "stem": "Which sentence states the most likely reason Julia is allowed to go on the field trip?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "She agrees to take the advice of her father."
+    },
+    {
+     "label": "B",
+     "text": "She conducts herself respectfully during the meeting."
+    },
+    {
+     "label": "C",
+     "text": "Mrs. Thompson thinks Julia made a mistake."
+    },
+    {
+     "label": "D",
+     "text": "Mr. Malone convinces Mrs. Thompson that Julia should attend."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-9"
+  },
+  {
+   "n": 11,
+   "stem": "At the end of the story, the reader may best conclude that the biggest reward for Julia is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "proving who really is to blame"
+    },
+    {
+     "label": "B",
+     "text": "being able to protect her friends"
+    },
+    {
+     "label": "C",
+     "text": "having her true character understood"
+    },
+    {
+     "label": "D",
+     "text": "knowing her father spoke with the teachers"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-10"
+  },
+  {
+   "n": 12,
+   "stem": "Which information would best be included in “The Mystery of Mountain Lake” section?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Changes in weather patterns"
+    },
+    {
+     "label": "B",
+     "text": "Types of fish found in the lake"
+    },
+    {
+     "label": "C",
+     "text": "Increases in wildlife population"
+    },
+    {
+     "label": "D",
+     "text": "Native plants around the lake"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-11"
+  },
+  {
+   "n": 13,
+   "stem": "According to paragraph 4, the main goal of Mountain Lake Conservancy is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "invent new ways to monitor water levels"
+    },
+    {
+     "label": "B",
+     "text": "preserve the lake’s natural resources"
+    },
+    {
+     "label": "C",
+     "text": "test students’ science knowledge"
+    },
+    {
+     "label": "D",
+     "text": "encourage people to spend time in nature"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-12"
+  },
+  {
+   "n": 14,
+   "stem": "Which heading would be best for paragraph 5?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Protecting the Water"
+    },
+    {
+     "label": "B",
+     "text": "The Best Way to Study the Land"
+    },
+    {
+     "label": "C",
+     "text": "Visiting Creatures in Nature"
+    },
+    {
+     "label": "D",
+     "text": "An Outdoor Classroom"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-13"
+  },
+  {
+   "n": 15,
+   "stem": "The author organizes information in paragraph 6 by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "comparing the hotel’s appearance to nearby hotels"
+    },
+    {
+     "label": "B",
+     "text": "listing the reasons people visit the hotel"
+    },
+    {
+     "label": "C",
+     "text": "explaining why the hotel needed to be changed"
+    },
+    {
+     "label": "D",
+     "text": "telling about the hotel’s development"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-14"
+  },
+  {
+   "n": 16,
+   "stem": "Based on the article, the mystery at Mountain Lake was difficult to solve since the cause of the changing water levels was —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "distant"
+    },
+    {
+     "label": "B",
+     "text": "unusual"
+    },
+    {
+     "label": "C",
+     "text": "protected"
+    },
+    {
+     "label": "D",
+     "text": "disturbing"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-15"
+  },
+  {
+   "n": 17,
+   "stem": "The author refers to the hotel as “the historical Mountain Lake Hotel” most likely because of its —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "long list of improvements"
+    },
+    {
+     "label": "B",
+     "text": "remodeling to sandstone in the 1930s"
+    },
+    {
+     "label": "C",
+     "text": "existence on the site since the 1850s"
+    },
+    {
+     "label": "D",
+     "text": "many hosted events"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-16"
+  },
+  {
+   "n": 18,
+   "stem": "According to the article, the most likely reason visitors return to the Mountain Lake Hotel is to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "experience a different elevation"
+    },
+    {
+     "label": "B",
+     "text": "explore local history"
+    },
+    {
+     "label": "C",
+     "text": "enjoy outdoor activities"
+    },
+    {
+     "label": "D",
+     "text": "escape the noise of city life"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-17"
+  },
+  {
+   "n": 19,
+   "stem": "Which sentence from the article states an opinion?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Deer, bears, bobcats, raccoons, and squirrels may be seen here."
+    },
+    {
+     "label": "B",
+     "text": "Hotel ownership changed throughout the years."
+    },
+    {
+     "label": "C",
+     "text": "Today the site includes the main hotel and smaller cabins."
+    },
+    {
+     "label": "D",
+     "text": "Whether for study or rest, countless people frequent this fascinating place."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-18"
+  },
+  {
+   "n": 20,
+   "stem": "Which word means “to be continually engaged in close, careful study”?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "research"
+    },
+    {
+     "label": "B",
+     "text": "researcher"
+    },
+    {
+     "label": "C",
+     "text": "researching"
+    },
+    {
+     "label": "D",
+     "text": "researched"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-19"
+  },
+  {
+   "n": 21,
+   "stem": "The author’s use of the word flying in the title best shows that the speaker —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "likes the floating appearance of the snow"
+    },
+    {
+     "label": "B",
+     "text": "moves down the hill at a quick pace"
+    },
+    {
+     "label": "C",
+     "text": "has an interest in winged creatures"
+    },
+    {
+     "label": "D",
+     "text": "is thrown from the sled into the air"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-20"
+  },
+  {
+   "n": 22,
+   "stem": "Based on lines 4–5, the speaker’s closeness to the sled shows the speaker is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "seeking a new path to try with the sled"
+    },
+    {
+     "label": "B",
+     "text": "attempting to use an uneven sled"
+    },
+    {
+     "label": "C",
+     "text": "trying to maintain control of the sled"
+    },
+    {
+     "label": "D",
+     "text": "learning to increase the speed of the sled"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-21"
+  },
+  {
+   "n": 23,
+   "stem": "Which two words are the best synonyms for lumber in line 18?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "bound"
+    },
+    {
+     "label": "B",
+     "text": "glide"
+    },
+    {
+     "label": "C",
+     "text": "trudge"
+    },
+    {
+     "label": "D",
+     "text": "leap"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-22"
+  },
+  {
+   "n": 24,
+   "stem": "Which line best suggests that the speaker has been down the hill in the past?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The ground rushes up to meet us…"
+    },
+    {
+     "label": "B",
+     "text": "This time, surely, we’ll make it"
+    },
+    {
+     "label": "C",
+     "text": "With each step, I sink into the snow"
+    },
+    {
+     "label": "D",
+     "text": "Near the top it grows steep…"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-23"
+  },
+  {
+   "n": 25,
+   "stem": "What will the speaker most likely do next?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Pull the sled back home"
+    },
+    {
+     "label": "B",
+     "text": "Find a better hill to sled"
+    },
+    {
+     "label": "C",
+     "text": "Let someone else use the sled"
+    },
+    {
+     "label": "D",
+     "text": "Continue to sled on the hill"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-24"
+  },
+  {
+   "n": 26,
+   "stem": "What is the meaning of vice in this sentence? “A small vice in Craig’s writing style is his habit of not explaining his ideas…”",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a bad practice"
+    },
+    {
+     "label": "B",
+     "text": "an unusual activity"
+    },
+    {
+     "label": "C",
+     "text": "a confusing situation"
+    },
+    {
+     "label": "D",
+     "text": "an interesting concept"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-25"
+  },
+  {
+   "n": 34,
+   "stem": "Paragraph 1 indicates that therapy dogs can work with children who —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "need extra practice reading"
+    },
+    {
+     "label": "B",
+     "text": "have trouble sitting still while reading"
+    },
+    {
+     "label": "C",
+     "text": "show a special interest in animals"
+    },
+    {
+     "label": "D",
+     "text": "struggle to cooperate with other people"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-26"
+  },
+  {
+   "n": 35,
+   "stem": "Which question is answered in paragraph 2?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "How are therapy dogs trained?"
+    },
+    {
+     "label": "B",
+     "text": "Where do therapy dogs work?"
+    },
+    {
+     "label": "C",
+     "text": "How many therapy dogs are there?"
+    },
+    {
+     "label": "D",
+     "text": "What traits must therapy dogs have?"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-27"
+  },
+  {
+   "n": 36,
+   "stem": "In paragraph 4, the word circumstances means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "arrangements"
+    },
+    {
+     "label": "B",
+     "text": "situations"
+    },
+    {
+     "label": "C",
+     "text": "moments"
+    },
+    {
+     "label": "D",
+     "text": "ways"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-28"
+  },
+  {
+   "n": 37,
+   "stem": "Which paragraph discusses the role of the dog’s handler during a therapy session?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Paragraph 1"
+    },
+    {
+     "label": "B",
+     "text": "Paragraph 3"
+    },
+    {
+     "label": "C",
+     "text": "Paragraph 4"
+    },
+    {
+     "label": "D",
+     "text": "Paragraph 5"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-29"
+  },
+  {
+   "n": 38,
+   "stem": "Based on the article, what might a child most likely be able to do after several reading therapy sessions?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Prepare to read alone in the library"
+    },
+    {
+     "label": "B",
+     "text": "Read with a different animal each session"
+    },
+    {
+     "label": "C",
+     "text": "Feel comfortable reading to a small group"
+    },
+    {
+     "label": "D",
+     "text": "Work with other children in reading sessions"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-30"
+  },
+  {
+   "n": 39,
+   "stem": "What may the reader conclude about birds in reading therapy programs?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "They are used less often than other animals."
+    },
+    {
+     "label": "B",
+     "text": "They are only used if they can talk."
+    },
+    {
+     "label": "C",
+     "text": "They are easier to handle than other animals."
+    },
+    {
+     "label": "D",
+     "text": "Children like them more than other animals."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-31"
+  },
+  {
+   "n": 40,
+   "stem": "This article answers all of these questions EXCEPT —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Why are some children unable to work with therapy dogs?"
+    },
+    {
+     "label": "B",
+     "text": "How does someone become a therapy dog handler?"
+    },
+    {
+     "label": "C",
+     "text": "What makes a therapy dog different from a pet?"
+    },
+    {
+     "label": "D",
+     "text": "How often do children work with therapy dogs?"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-32"
+  },
+  {
+   "n": 41,
+   "stem": "Which word best replaces slumped in paragraph 5?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "slid"
+    },
+    {
+     "label": "B",
+     "text": "sank"
+    },
+    {
+     "label": "C",
+     "text": "tumbled"
+    },
+    {
+     "label": "D",
+     "text": "crashed"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-33"
+  },
+  {
+   "n": 42,
+   "stem": "Which sentence is the best summary of paragraph 10?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Anthony’s dad offers to stay home."
+    },
+    {
+     "label": "B",
+     "text": "Anthony’s mom prepares to go shopping."
+    },
+    {
+     "label": "C",
+     "text": "Anthony amazes his mom and dad."
+    },
+    {
+     "label": "D",
+     "text": "Anthony and his family assign the duties."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-34"
+  },
+  {
+   "n": 43,
+   "stem": "Complete the cause-and-effect relationship. Cause: Anthony thinks about cinnamon gum. Effect: __________________________",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Anthony suddenly remembers Field Day."
+    },
+    {
+     "label": "B",
+     "text": "Anthony looks at the list of chores."
+    },
+    {
+     "label": "C",
+     "text": "Anthony takes a bite of breakfast cereal."
+    },
+    {
+     "label": "D",
+     "text": "Anthony listens to his sister and mother talk."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-35"
+  },
+  {
+   "n": 44,
+   "stem": "Which sentence best shows that Anthony can be responsible?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "“Can I go to the grocery store with you, Mom?”"
+    },
+    {
+     "label": "B",
+     "text": "“Today is Field Day at the recreation center!”"
+    },
+    {
+     "label": "C",
+     "text": "“We have to beat the team that won last year!”"
+    },
+    {
+     "label": "D",
+     "text": "“I need to call Caleb so he can find a new partner.”"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-36"
+  },
+  {
+   "n": 45,
+   "stem": "What does the title mean?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Anthony must overcome the challenge of time."
+    },
+    {
+     "label": "B",
+     "text": "Anthony must improve his running speed."
+    },
+    {
+     "label": "C",
+     "text": "Anthony must organize his weekend time."
+    },
+    {
+     "label": "D",
+     "text": "Anthony must learn to take his time with chores."
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_SOLPass",
+   "id": "grade-6-english-37"
+  },
+  {
+   "n": 2,
+   "stem": "What does the word misplaced mean?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "lost"
+    },
+    {
+     "label": "G",
+     "text": "changed"
+    },
+    {
+     "label": "H",
+     "text": "broken"
+    },
+    {
+     "label": "J",
+     "text": "hidden"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-38"
+  },
+  {
+   "n": 9,
+   "stem": "Costumes will be approved at dress rehearsals. Dress rehearsals will be held in the Smithdale High School Auditorium: • Grades K–5: Thursday, May 5, from 6:00–7:00 P.M. • Grades 6–12: Monday, May 9, from 7:00–8:00 P.M. Performers should be prepared to stay an extra hour. 3. Read this dictionary entry. act (akt) n. 1. The process of doing something. 2. A written record of actions. 3. One of the major divisions of a play or opera. 4. A performance and its members. What is the meaning of acts in the section describing how performers are accepted without tryouts? A 1 B 2 C 3 D 4 4. Which question is answered in the description of how performers are accepted without tryouts? F Will students have an opportunity to practice? G How will students know they are in the show? H When is the show for high school students? J How long is each performance? 5. What is the job of a stagehand? A To design costumes B To direct performers C To play musical instruments D To provide special support 6. The twenty-first group to sign up will be allowed to perform if — F another performer is unable to attend G another performance is shortened H the performance is original J the performer is approved 7. Each person performing in the talent show is required to submit a — A telephone number B musical recording C permission slip D costume sketch 8. On what day does a second grader need to show up for rehearsal? F Wednesday, May 11 G Friday, May 13 H Thursday, May 5 J Monday, May 9 9. Based on information about the talent show, which word best describes the members of the Smithdale Student Activity Club?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Strict"
+    },
+    {
+     "label": "B",
+     "text": "Important"
+    },
+    {
+     "label": "C",
+     "text": "Clever"
+    },
+    {
+     "label": "D",
+     "text": "Organized"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-39"
+  },
+  {
+   "n": 10,
+   "stem": "Where would this flier most likely be found?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "In a city newspaper"
+    },
+    {
+     "label": "G",
+     "text": "In a school newsletter"
+    },
+    {
+     "label": "H",
+     "text": "On a website about singing"
+    },
+    {
+     "label": "J",
+     "text": "On a wall of a music store"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-40"
+  },
+  {
+   "n": 11,
+   "stem": "What is the purpose of this flier?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To explain what a talent show is to the reader"
+    },
+    {
+     "label": "B",
+     "text": "To inform the reader about the talent show guidelines"
+    },
+    {
+     "label": "C",
+     "text": "To persuade the reader to develop a new talent"
+    },
+    {
+     "label": "D",
+     "text": "To tell the reader what skills are needed for the talent show"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-41"
+  },
+  {
+   "n": 12,
+   "stem": "Which would be most helpful to include in the flier?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "A date to sign up for the show"
+    },
+    {
+     "label": "G",
+     "text": "A list of teachers involved in the show"
+    },
+    {
+     "label": "H",
+     "text": "A photograph from a previous show"
+    },
+    {
+     "label": "J",
+     "text": "A timeline of student events"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-42"
+  },
+  {
+   "n": 13,
+   "stem": "In paragraph 1, the phrase “weighing my options” means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "finding a place to sit"
+    },
+    {
+     "label": "B",
+     "text": "considering choices"
+    },
+    {
+     "label": "C",
+     "text": "looking around an area"
+    },
+    {
+     "label": "D",
+     "text": "setting up supplies"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-43"
+  },
+  {
+   "n": 14,
+   "stem": "Based on paragraph 1, why does Vanessa most likely choose to sketch at the park?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "It has a variety of people and activities to draw."
+    },
+    {
+     "label": "G",
+     "text": "Her teacher suggests she try drawing in various places."
+    },
+    {
+     "label": "H",
+     "text": "It is a quiet place to practice her drawing."
+    },
+    {
+     "label": "J",
+     "text": "She likes to practice drawing nature scenes."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-44"
+  },
+  {
+   "n": 15,
+   "stem": "In paragraphs 1 and 2, the author uses the word “shadow” to create a sense of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "concern"
+    },
+    {
+     "label": "B",
+     "text": "mystery"
+    },
+    {
+     "label": "C",
+     "text": "humor"
+    },
+    {
+     "label": "D",
+     "text": "comfort"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-45"
+  },
+  {
+   "n": 16,
+   "stem": "In which word does -ness mean the same as it does in thoroughness?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "business"
+    },
+    {
+     "label": "G",
+     "text": "harness"
+    },
+    {
+     "label": "H",
+     "text": "kindness"
+    },
+    {
+     "label": "J",
+     "text": "witness"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-46"
+  },
+  {
+   "n": 17,
+   "stem": "Why does the author include paragraph 8 in the story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To explain the reason for the major conflict"
+    },
+    {
+     "label": "B",
+     "text": "To provide clues as to how the story will end"
+    },
+    {
+     "label": "C",
+     "text": "To show how the setting is related to the plot"
+    },
+    {
+     "label": "D",
+     "text": "To establish a connection between the characters"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-47"
+  },
+  {
+   "n": 18,
+   "stem": "Based on paragraphs 11 and 12, Kenyi and Vanessa will most likely —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "help each other with math homework"
+    },
+    {
+     "label": "G",
+     "text": "enter their combined drawings in an art contest"
+    },
+    {
+     "label": "H",
+     "text": "experiment with other art supplies"
+    },
+    {
+     "label": "J",
+     "text": "help each other improve their art skills"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-48"
+  },
+  {
+   "n": 19,
+   "stem": "The imagery in paragraph 15 most appeals to the reader’s sense of —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "sight"
+    },
+    {
+     "label": "B",
+     "text": "touch"
+    },
+    {
+     "label": "C",
+     "text": "smell"
+    },
+    {
+     "label": "D",
+     "text": "sound"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-49"
+  },
+  {
+   "n": 20,
+   "stem": "Which event best completes this sequence of events: Vanessa meets Kenyi in the park; they talk; —; they are pleased with their finished products.",
+   "choices": [
+    {
+     "label": "F",
+     "text": "They enjoy each other’s drawing lessons."
+    },
+    {
+     "label": "G",
+     "text": "They agree to draw girls playing catch."
+    },
+    {
+     "label": "H",
+     "text": "They decide to draw with crayons instead of charcoal."
+    },
+    {
+     "label": "J",
+     "text": "They decide to finish each other’s drawings."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-50"
+  },
+  {
+   "n": 21,
+   "stem": "The story is titled “Drawing on a New Friendship” because it is about —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Kenyi, who realizes that moving means making new friends"
+    },
+    {
+     "label": "B",
+     "text": "Vanessa and Kenyi, who become friends because of a shared interest"
+    },
+    {
+     "label": "C",
+     "text": "Kenyi and Vanessa, who practice drawing for art class"
+    },
+    {
+     "label": "D",
+     "text": "Vanessa, who becomes more confident in her drawing skills"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-51"
+  },
+  {
+   "n": 22,
+   "stem": "Which best describes the theme of the story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Teamwork makes the best use of different talents."
+    },
+    {
+     "label": "G",
+     "text": "The beauty of nature can be inspiring."
+    },
+    {
+     "label": "H",
+     "text": "Educational experiences come from unexpected events."
+    },
+    {
+     "label": "J",
+     "text": "Willingness to complete a task builds character."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-52"
+  },
+  {
+   "n": 23,
+   "stem": "Why did the author most likely write this story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "To demonstrate the importance of art lessons"
+    },
+    {
+     "label": "B",
+     "text": "To explore the idea of sharing skills"
+    },
+    {
+     "label": "C",
+     "text": "To contrast crayons and charcoal"
+    },
+    {
+     "label": "D",
+     "text": "To show activities found in parks"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-53"
+  },
+  {
+   "n": 24,
+   "stem": "In paragraph 1, the words “ball-tossing,” “backflipping,” and “somersaulting” create an image of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "wild confusion"
+    },
+    {
+     "label": "G",
+     "text": "aimless activity"
+    },
+    {
+     "label": "H",
+     "text": "lively motion"
+    },
+    {
+     "label": "J",
+     "text": "sincere concern"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-54"
+  },
+  {
+   "n": 25,
+   "stem": "Adding the suffix -less to the word count makes a word that means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "counted often"
+    },
+    {
+     "label": "B",
+     "text": "counted incorrectly"
+    },
+    {
+     "label": "C",
+     "text": "needing to be counted"
+    },
+    {
+     "label": "D",
+     "text": "not able to be counted"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-55"
+  },
+  {
+   "n": 26,
+   "stem": "Which question is answered in paragraph 5?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "How are animals and children different?"
+    },
+    {
+     "label": "G",
+     "text": "Which insects do birds prefer?"
+    },
+    {
+     "label": "H",
+     "text": "What do animals learn from objects?"
+    },
+    {
+     "label": "J",
+     "text": "What games do chimpanzees play?"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-56"
+  },
+  {
+   "n": 27,
+   "stem": "Based on paragraph 6, a “play face” is —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "a signal between animals"
+    },
+    {
+     "label": "B",
+     "text": "a game animals play"
+    },
+    {
+     "label": "C",
+     "text": "an action animals are taught"
+    },
+    {
+     "label": "D",
+     "text": "an adult activity"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-57"
+  },
+  {
+   "n": 28,
+   "stem": "What may the reader best predict from paragraph 7?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Scientists will continue to study animal play."
+    },
+    {
+     "label": "G",
+     "text": "Adults will learn more from play."
+    },
+    {
+     "label": "H",
+     "text": "Young and adult play will become the same."
+    },
+    {
+     "label": "J",
+     "text": "Fewer scientists will study play."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-58"
+  },
+  {
+   "n": 29,
+   "stem": "Which words best describe locomotor play?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Stalking, pouncing, biting"
+    },
+    {
+     "label": "B",
+     "text": "Leaping, twisting, running"
+    },
+    {
+     "label": "C",
+     "text": "Swooping, dropping, catching"
+    },
+    {
+     "label": "D",
+     "text": "Crouching, bowing, wrestling"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-59"
+  },
+  {
+   "n": 30,
+   "stem": "Moving quickly is important because it —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "makes animals stronger"
+    },
+    {
+     "label": "G",
+     "text": "makes play exciting"
+    },
+    {
+     "label": "H",
+     "text": "attracts peers"
+    },
+    {
+     "label": "J",
+     "text": "may save lives"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-60"
+  },
+  {
+   "n": 31,
+   "stem": "One way young animals and humans are alike is that both —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "play with the same toys"
+    },
+    {
+     "label": "B",
+     "text": "send specific signals"
+    },
+    {
+     "label": "C",
+     "text": "play in four ways"
+    },
+    {
+     "label": "D",
+     "text": "enjoy playing"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-61"
+  },
+  {
+   "n": 32,
+   "stem": "The main purpose of this article is to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "persuade readers to respect animals"
+    },
+    {
+     "label": "G",
+     "text": "inspire animal research"
+    },
+    {
+     "label": "H",
+     "text": "entertain with stories"
+    },
+    {
+     "label": "J",
+     "text": "inform about animal behavior"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-62"
+  },
+  {
+   "n": 33,
+   "stem": "Which book would be most useful for learning about bird object play?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Rare Birds of Australia"
+    },
+    {
+     "label": "B",
+     "text": "Understanding How Birds Act"
+    },
+    {
+     "label": "C",
+     "text": "Caring for Baby Birds"
+    },
+    {
+     "label": "D",
+     "text": "Flying Free"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-63"
+  },
+  {
+   "n": 34,
+   "stem": "Which word best describes Abigail?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Curious"
+    },
+    {
+     "label": "G",
+     "text": "Eager"
+    },
+    {
+     "label": "H",
+     "text": "Impatient"
+    },
+    {
+     "label": "J",
+     "text": "Responsible"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-64"
+  },
+  {
+   "n": 35,
+   "stem": "Paragraphs describing the spilled boxes are important because they —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "show ages"
+    },
+    {
+     "label": "B",
+     "text": "show relationships"
+    },
+    {
+     "label": "C",
+     "text": "explain why they are alone"
+    },
+    {
+     "label": "D",
+     "text": "explain how the beads are found"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-65"
+  },
+  {
+   "n": 36,
+   "stem": "What does Harry’s question about using the beads show about him?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "He respects his mother."
+    },
+    {
+     "label": "G",
+     "text": "He misses her."
+    },
+    {
+     "label": "H",
+     "text": "He surprises her."
+    },
+    {
+     "label": "J",
+     "text": "He appreciates her."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-66"
+  },
+  {
+   "n": 37,
+   "stem": "Abigail expects the afternoon to be difficult because she —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "knows Harry dislikes her"
+    },
+    {
+     "label": "B",
+     "text": "dislikes his games"
+    },
+    {
+     "label": "C",
+     "text": "must stay indoors"
+    },
+    {
+     "label": "D",
+     "text": "expects trouble"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-67"
+  },
+  {
+   "n": 38,
+   "stem": "Which sentence best describes the attic?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "She thought of the perfect place."
+    },
+    {
+     "label": "G",
+     "text": "She climbed the stairs."
+    },
+    {
+     "label": "H",
+     "text": "The floor was dusty with footprints and boxes."
+    },
+    {
+     "label": "J",
+     "text": "Boxes fell to the floor."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-68"
+  },
+  {
+   "n": 39,
+   "stem": "How do Abigail’s feelings change?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Ashamed to proud"
+    },
+    {
+     "label": "B",
+     "text": "Worried to cheerful"
+    },
+    {
+     "label": "C",
+     "text": "Tired to enthusiastic"
+    },
+    {
+     "label": "D",
+     "text": "Frightened to hopeful"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-69"
+  },
+  {
+   "n": 40,
+   "stem": "Which sentence best summarizes the story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Harry helps make jewelry."
+    },
+    {
+     "label": "G",
+     "text": "Harry convinces Abigail to play."
+    },
+    {
+     "label": "H",
+     "text": "The siblings find beads and enjoy the afternoon."
+    },
+    {
+     "label": "J",
+     "text": "Abigail looks for something to do."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-70"
+  },
+  {
+   "n": 41,
+   "stem": "This story would most likely appeal to readers who —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "like rainy weather"
+    },
+    {
+     "label": "B",
+     "text": "play basketball"
+    },
+    {
+     "label": "C",
+     "text": "enjoy indoor games"
+    },
+    {
+     "label": "D",
+     "text": "have younger siblings"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-71"
+  },
+  {
+   "n": 42,
+   "stem": "Which sentence best states the theme?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Working together is bad."
+    },
+    {
+     "label": "G",
+     "text": "Playing with family teaches lessons."
+    },
+    {
+     "label": "H",
+     "text": "Enjoyment can be found unexpectedly."
+    },
+    {
+     "label": "J",
+     "text": "Curiosity causes trouble."
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-72"
+  },
+  {
+   "n": 43,
+   "stem": "Hide-and-seek is to game as —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "bracelet is to jewelry"
+    },
+    {
+     "label": "B",
+     "text": "table is to pantry"
+    },
+    {
+     "label": "C",
+     "text": "bead is to necklace"
+    },
+    {
+     "label": "D",
+     "text": "dust is to footprint"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-73"
+  },
+  {
+   "n": 44,
+   "stem": "Which book would best help a reader learn how to make jewelry with beads?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Beaded Bracelets Made at Home"
+    },
+    {
+     "label": "G",
+     "text": "Tips to Find the Right Bead"
+    },
+    {
+     "label": "H",
+     "text": "The History of Beading"
+    },
+    {
+     "label": "J",
+     "text": "Beads the World Over"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-74"
+  },
+  {
+   "n": 45,
+   "stem": "Which word has a prefix meaning small?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "scientist"
+    },
+    {
+     "label": "B",
+     "text": "microscope"
+    },
+    {
+     "label": "C",
+     "text": "analyze"
+    },
+    {
+     "label": "D",
+     "text": "organisms"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-75"
+  },
+  {
+   "n": 46,
+   "stem": "Which sentence contains hyperbole?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "We waited a thousand years for the food."
+    },
+    {
+     "label": "G",
+     "text": "The airplane flew through cotton-ball clouds."
+    },
+    {
+     "label": "H",
+     "text": "Janet laughed when her cat tickled her."
+    },
+    {
+     "label": "J",
+     "text": "Squirrels chattered in the park."
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-76"
+  },
+  {
+   "n": 47,
+   "stem": "The best resource for learning about how dog sledding began would be —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mush: The History of Dog Sledding"
+    },
+    {
+     "label": "B",
+     "text": "Racing Across the Arctic"
+    },
+    {
+     "label": "C",
+     "text": "Dog Sledding: Tips for Beginners"
+    },
+    {
+     "label": "D",
+     "text": "All About Working Dogs"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2010_SOLPass",
+   "id": "grade-6-english-77"
+  },
+  {
+   "n": 1,
+   "stem": "Quinterro’s thoughts in paragraphs 1 and 2 most contribute to the plot of the story by —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "creating a reflective mood"
+    },
+    {
+     "label": "B",
+     "text": "providing details about the characters"
+    },
+    {
+     "label": "C",
+     "text": "developing the conflict"
+    },
+    {
+     "label": "D",
+     "text": "presenting information about the setting"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-78"
+  },
+  {
+   "n": 2,
+   "stem": "The word binoculars in paragraph 17 comes from the Latin word ocular, which means —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "of the eye"
+    },
+    {
+     "label": "G",
+     "text": "relating to view"
+    },
+    {
+     "label": "H",
+     "text": "of equal parts"
+    },
+    {
+     "label": "J",
+     "text": "including two"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-79"
+  },
+  {
+   "n": 3,
+   "stem": "What is the main conflict of the story?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Marta thinks that the binoculars are damaged."
+    },
+    {
+     "label": "B",
+     "text": "Ireneo wants his brother to watch the llamas more closely."
+    },
+    {
+     "label": "C",
+     "text": "Quinterro wishes for the more fascinating life of a city."
+    },
+    {
+     "label": "D",
+     "text": "Quinterro disagrees with Marta’s opinion of the mountains."
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-80"
+  },
+  {
+   "n": 4,
+   "stem": "Which sentence best expresses the theme of the story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Dreams are very important."
+    },
+    {
+     "label": "G",
+     "text": "People often want what others have."
+    },
+    {
+     "label": "H",
+     "text": "Life is always changing."
+    },
+    {
+     "label": "J",
+     "text": "People should be generous to new friends."
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-81"
+  },
+  {
+   "n": 5,
+   "stem": "The author’s purpose for including paragraph 2 is to explain —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "how the surface of the planet affects volcano formation"
+    },
+    {
+     "label": "B",
+     "text": "what causes plates to shift from one place to another"
+    },
+    {
+     "label": "C",
+     "text": "where volcanoes are formed on the planet"
+    },
+    {
+     "label": "D",
+     "text": "who discovered the motion of the plates"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-82"
+  },
+  {
+   "n": 6,
+   "stem": "In paragraph 6, the author explains that lava —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "flows from more active volcanic areas"
+    },
+    {
+     "label": "G",
+     "text": "is not as damaging as ash, dirt, and rock"
+    },
+    {
+     "label": "H",
+     "text": "is not involved in every volcanic eruption"
+    },
+    {
+     "label": "J",
+     "text": "flows after ash, dirt, and rock erupt from the volcano"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-83"
+  },
+  {
+   "n": 7,
+   "stem": "Which sentence best summarizes paragraph 10?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "Mount Fuji, a volcano located in a national park in Japan, is used as farmland."
+    },
+    {
+     "label": "B",
+     "text": "Farmers often plant crops next to inactive volcanoes in Japan."
+    },
+    {
+     "label": "C",
+     "text": "Island chains, including Japan, New Zealand, and Hawaii, were formed by volcanoes."
+    },
+    {
+     "label": "D",
+     "text": "Mount Fuji, part of a national park, is an inactive volcano that helped to form parts of Japan."
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-84"
+  },
+  {
+   "n": 8,
+   "stem": "Which sentence from the article states an opinion about the Ring of Fire?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "As the plates slide past one another, the action can sometimes result in volcanic activity."
+    },
+    {
+     "label": "G",
+     "text": "The Ring of Fire stretches from the west coast of South America northward to Alaska."
+    },
+    {
+     "label": "H",
+     "text": "The Ring of Fire is constructive in other ways too."
+    },
+    {
+     "label": "J",
+     "text": "Volcanic activity creates some of the most spectacular fireworks found in nature."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-85"
+  },
+  {
+   "n": 9,
+   "stem": "Based on the article, the reader can determine that volcanic activity —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "often creates more than it destroys"
+    },
+    {
+     "label": "B",
+     "text": "affects the culture of the Pacific"
+    },
+    {
+     "label": "C",
+     "text": "still requires further investigation"
+    },
+    {
+     "label": "D",
+     "text": "occurs on a regular basis"
+    }
+   ],
+   "answer": "A",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-86"
+  },
+  {
+   "n": 10,
+   "stem": "Once again her room looked like a whirlwind had blown through it, and she knew exactly who the culprit was. The author uses hyperbole in this sentence to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "describe the condition of Alice’s room"
+    },
+    {
+     "label": "G",
+     "text": "explain why Mary plays in Alice’s room"
+    },
+    {
+     "label": "H",
+     "text": "reveal how often Alice cleans her room"
+    },
+    {
+     "label": "J",
+     "text": "tell how Alice feels as she enters her room"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-87"
+  },
+  {
+   "n": 11,
+   "stem": "In paragraph 2, the word appraise means —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "offer feedback for"
+    },
+    {
+     "label": "B",
+     "text": "respond quickly to"
+    },
+    {
+     "label": "C",
+     "text": "examine carefully"
+    },
+    {
+     "label": "D",
+     "text": "arrange in a tidy manner"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-88"
+  },
+  {
+   "n": 12,
+   "stem": "The author includes paragraphs 11–13 mainly to —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "suggest that Alice will forgive Mary"
+    },
+    {
+     "label": "G",
+     "text": "create sympathy for how Alice treated Mary"
+    },
+    {
+     "label": "H",
+     "text": "reveal Mary’s regret for her actions"
+    },
+    {
+     "label": "J",
+     "text": "explain Alice’s fondness for the stuffed rabbit"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-89"
+  },
+  {
+   "n": 13,
+   "stem": "The empty swing in paragraph 15 leads Alice to the resolution by helping her realize —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "how much Mary enjoys playing with the stuffed animals"
+    },
+    {
+     "label": "B",
+     "text": "the ways she can apologize to Mary for what has happened"
+    },
+    {
+     "label": "C",
+     "text": "the regret she feels about her earlier reaction toward Mary"
+    },
+    {
+     "label": "D",
+     "text": "why she enjoys spending time outdoors with Mary"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-90"
+  },
+  {
+   "n": 14,
+   "stem": "The author chooses to use this point of view because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Alice is the older sibling"
+    },
+    {
+     "label": "G",
+     "text": "characters can express feelings"
+    },
+    {
+     "label": "H",
+     "text": "Mary is the younger sibling"
+    },
+    {
+     "label": "J",
+     "text": "characters can describe the setting"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-91"
+  },
+  {
+   "n": 15,
+   "stem": "Which sentence best summarizes lines 15–17?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "The trip to Puerto Rico is a tradition that the speaker and her relatives greatly enjoy."
+    },
+    {
+     "label": "B",
+     "text": "The family in Puerto Rico lovingly and immediately embraces the speaker and her parents."
+    },
+    {
+     "label": "C",
+     "text": "The speaker realizes that the family in Puerto Rico is still growing and changing."
+    },
+    {
+     "label": "D",
+     "text": "The visit to Puerto Rico means meeting new relatives and enjoying new experiences."
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-92"
+  },
+  {
+   "n": 16,
+   "stem": "The setting of the poem affects the speaker by —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "allowing her to spend time with her father"
+    },
+    {
+     "label": "G",
+     "text": "causing her to reflect on what it means to belong"
+    },
+    {
+     "label": "H",
+     "text": "showing her the value of her life in Virginia"
+    },
+    {
+     "label": "J",
+     "text": "helping her learn about Puerto Rico"
+    }
+   ],
+   "answer": "G",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-93"
+  },
+  {
+   "n": 17,
+   "stem": "The reader knows that the speaker’s point of view has changed since her last visit to the island because she —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "is older"
+    },
+    {
+     "label": "B",
+     "text": "speaks another language"
+    },
+    {
+     "label": "C",
+     "text": "enjoys taking trips"
+    },
+    {
+     "label": "D",
+     "text": "develops gratitude"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-94"
+  },
+  {
+   "n": 18,
+   "stem": "The Latin word internalis means “extending to the interior.” In paragraph 1 of the article, internal means —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "deepest"
+    },
+    {
+     "label": "G",
+     "text": "individual"
+    },
+    {
+     "label": "H",
+     "text": "hidden"
+    },
+    {
+     "label": "J",
+     "text": "inside"
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-95"
+  },
+  {
+   "n": 19,
+   "stem": "Which word is a synonym for fatigue in paragraph 3?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "boredom"
+    },
+    {
+     "label": "B",
+     "text": "impatience"
+    },
+    {
+     "label": "C",
+     "text": "distraction"
+    },
+    {
+     "label": "D",
+     "text": "weariness"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-96"
+  },
+  {
+   "n": 20,
+   "stem": "Paragraph 7 is organized by using —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "cause and effect to explain why bees are active at certain times"
+    },
+    {
+     "label": "G",
+     "text": "comparison and contrast to suggest that bees are similar to other living organisms"
+    },
+    {
+     "label": "H",
+     "text": "chronological order to describe when flowers open and close their petals"
+    },
+    {
+     "label": "J",
+     "text": "problem and solution to show that bees and flowers rely on sunlight for energy"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-97"
+  },
+  {
+   "n": 21,
+   "stem": "Based on the article, plants unfold their leaves to —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "produce nectar"
+    },
+    {
+     "label": "B",
+     "text": "attract bees"
+    },
+    {
+     "label": "C",
+     "text": "capture sunlight"
+    },
+    {
+     "label": "D",
+     "text": "collect water"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-98"
+  },
+  {
+   "n": 22,
+   "stem": "The author’s word choice in paragraph 1 introduces a tone of —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "alarm"
+    },
+    {
+     "label": "G",
+     "text": "delight"
+    },
+    {
+     "label": "H",
+     "text": "amazement"
+    },
+    {
+     "label": "J",
+     "text": "embarrassment"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-99"
+  },
+  {
+   "n": 23,
+   "stem": "Which word in paragraph 18 does the author use to influence the reader’s attitude about Sydney?",
+   "choices": [
+    {
+     "label": "A",
+     "text": "shy"
+    },
+    {
+     "label": "B",
+     "text": "appear"
+    },
+    {
+     "label": "C",
+     "text": "demanded"
+    },
+    {
+     "label": "D",
+     "text": "anxious"
+    }
+   ],
+   "answer": "C",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-100"
+  },
+  {
+   "n": 24,
+   "stem": "Jada most likely smiles at the end of the story because she —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "is looking forward to visiting the planetarium"
+    },
+    {
+     "label": "G",
+     "text": "likes to share information with others"
+    },
+    {
+     "label": "H",
+     "text": "realizes she has talents of her own"
+    },
+    {
+     "label": "J",
+     "text": "is thinking about her new friendship"
+    }
+   ],
+   "answer": "H",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-101"
+  },
+  {
+   "n": 25,
+   "stem": "Zach knows that Jada is not as meek as she seems because she —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "has learned to play an instrument for school"
+    },
+    {
+     "label": "B",
+     "text": "wants her friend to attend the field trip with her"
+    },
+    {
+     "label": "C",
+     "text": "talks about the information on the handout"
+    },
+    {
+     "label": "D",
+     "text": "has answered many questions in science class"
+    }
+   ],
+   "answer": "D",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-102"
+  },
+  {
+   "n": 26,
+   "stem": "Zach discusses eclipses with Jada because —",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Mr. Tao wants the students to better understand the subject"
+    },
+    {
+     "label": "G",
+     "text": "Mr. Tao says the material will be included on a future test"
+    },
+    {
+     "label": "H",
+     "text": "he knows that the other students are already familiar with the subject"
+    },
+    {
+     "label": "J",
+     "text": "he wants to have a conversation with his new science partner"
+    }
+   ],
+   "answer": "F",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-103"
+  },
+  {
+   "n": 27,
+   "stem": "Based on information in the story, the reader understands that Zach —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "has spoken to Sydney sometimes in class"
+    },
+    {
+     "label": "B",
+     "text": "has seen Sydney and Jada communicate with each other"
+    },
+    {
+     "label": "C",
+     "text": "knows that Sydney and Jada enjoy science"
+    },
+    {
+     "label": "D",
+     "text": "feels that he will be a good partner for Jada"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-104"
+  },
+  {
+   "n": 28,
+   "stem": "Which sentence best expresses a theme of the story?",
+   "choices": [
+    {
+     "label": "F",
+     "text": "Opinions from others are sometimes unwelcome."
+    },
+    {
+     "label": "G",
+     "text": "Everyday heroes receive little attention for their good deeds."
+    },
+    {
+     "label": "H",
+     "text": "Acquaintances often make the best of friends."
+    },
+    {
+     "label": "J",
+     "text": "Important lessons can come from unlikely sources."
+    }
+   ],
+   "answer": "J",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-105"
+  },
+  {
+   "n": 29,
+   "stem": "Zach’s character is important to the story because he —",
+   "choices": [
+    {
+     "label": "A",
+     "text": "shows Jada she is a good partner"
+    },
+    {
+     "label": "B",
+     "text": "allows Jada to be herself"
+    },
+    {
+     "label": "C",
+     "text": "gives Jada a chance to answer questions"
+    },
+    {
+     "label": "D",
+     "text": "lets Jada talk about school"
+    }
+   ],
+   "answer": "B",
+   "source": "Reading_Grade_6_2015_VDOE",
+   "id": "grade-6-english-106"
+  }
+ ]
+}
