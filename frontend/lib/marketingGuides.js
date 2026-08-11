@@ -59,6 +59,12 @@ export const GUIDES = [
     description:
       "How the Virginia SOL tests are built — how many questions, the multiple-choice and technology-enhanced item types, timing, and what the format looks like by subject and grade.",
   },
+  {
+    slug: "virginia-sol-changes-2026-27",
+    title: "Virginia SOL Changes for 2026–27: Higher Cut Scores & 10% of Final Grade",
+    description:
+      "What's changing for Virginia SOL tests in 2026–27 — higher passing (cut) scores being phased in, SOL scores counting toward a portion of final grades, and why the stakes are rising amid ongoing learning-loss recovery.",
+  },
 ];
 
 export function getGuideBySlug(slug) {

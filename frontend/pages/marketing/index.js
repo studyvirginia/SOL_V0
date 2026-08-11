@@ -54,7 +54,11 @@ const FAQS = [
   },
   {
     q: "Is SOL Prep available now?",
-    a: "SOL Prep is in active development. This page will grow into the full site as we get closer to launch — check back for updates.",
+    a: "Yes — free SOL practice tests and the AI study assistant are live right now, no signup required. The full SOL Prep app, with diagnostics, guided study modes, and progress tracking, launches in September 2026 — you can get notified when it's ready.",
+  },
+  {
+    q: "When does the full SOL Prep app launch?",
+    a: "The full app is launching in September 2026. In the meantime, the free practice tests and AI tutor on this site are available now, so students can start preparing today.",
   },
 ];
 
@@ -116,25 +120,28 @@ export default function MarketingHome({ subjects, topPractice = [] }) {
         <div className="container mx-auto max-w-5xl px-4 py-20">
           <header className="text-center">
             <p className="mb-3 text-sm font-medium uppercase tracking-wide text-secondary">
-              Coming soon
+              Free practice tests + AI tutor — live now
             </p>
             <h1 className="font-display text-4xl font-bold tracking-tight sm:text-5xl">
               Virginia SOL practice, powered by an AI study assistant
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-lg text-muted-foreground">
-              Diagnostics, guided notes, flashcards, mnemonics, and SOL-style
-              practice questions — all mapped directly to the Virginia Standards
-              of Learning you're actually tested on, with links to official VDOE
-              released tests.
+              Free SOL practice tests and a live AI tutor — mapped directly to the
+              Virginia Standards of Learning you&rsquo;re actually tested on. The full
+              SOL Prep app (diagnostics, guided study modes, and progress tracking)
+              launches <strong>September 2026</strong>.
             </p>
-            <div className="mt-8 flex items-center justify-center gap-3">
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
               <Button asChild size="lg">
-                <a href="mailto:lincolnljmarine@gmail.com?subject=Early%20access">
-                  Get early access
-                </a>
+                <a href="/practice">Start a free practice test</a>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <a href="#demo">Try the demo</a>
+                <a href="#demo">Try the AI tutor</a>
+              </Button>
+              <Button asChild variant="ghost" size="lg">
+                <a href="mailto:lincolnljmarine@gmail.com?subject=Notify%20me%20when%20SOL%20Prep%20launches">
+                  Get notified at launch
+                </a>
               </Button>
             </div>
           </header>
@@ -144,7 +151,8 @@ export default function MarketingHome({ subjects, topPractice = [] }) {
               Try the AI study assistant right now
             </h2>
             <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-muted-foreground">
-              A live, working demo — no signup required.
+              A live, working AI tutor — no signup required. The full app launches
+              September 2026.
             </p>
             <div className="mx-auto mt-8 max-w-3xl overflow-hidden rounded-lg border border-secondary/30 shadow-lg shadow-secondary/10">
               <iframe
@@ -184,6 +192,47 @@ export default function MarketingHome({ subjects, topPractice = [] }) {
               </p>
             </section>
           )}
+
+          <section aria-labelledby="stakes-heading" className="mt-24">
+            <h2 id="stakes-heading" className="text-center text-2xl font-semibold">
+              Why Virginia SOL prep matters more than ever
+            </h2>
+            <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-muted-foreground">
+              The bar is rising for the 2026–27 school year — here&rsquo;s what&rsquo;s
+              changing.
+            </p>
+            <div className="mt-8 grid gap-5 sm:grid-cols-3">
+              <Card className="p-5">
+                <h3 className="font-semibold">Higher passing scores</h3>
+                <p className="mt-2 text-sm text-muted-foreground">
+                  Virginia is phasing in higher SOL cut scores for reading and math, so
+                  a score that passed before may not clear the new bar.
+                </p>
+              </Card>
+              <Card className="p-5">
+                <h3 className="font-semibold">SOL results carry more weight</h3>
+                <p className="mt-2 text-sm text-muted-foreground">
+                  Starting 2026–27, SOL performance is being tied more directly to
+                  outcomes — including a share of final grades in affected courses.
+                </p>
+              </Card>
+              <Card className="p-5">
+                <h3 className="font-semibold">Learning gaps persist</h3>
+                <p className="mt-2 text-sm text-muted-foreground">
+                  Recovery from pandemic learning loss is ongoing, making targeted,
+                  standard-by-standard practice more important than generic review.
+                </p>
+              </Card>
+            </div>
+            <p className="mt-6 text-center text-sm">
+              <Link
+                href="/guides/virginia-sol-changes-2026-27"
+                className="font-medium text-foreground hover:underline"
+              >
+                Read the full breakdown of the 2026–27 SOL changes →
+              </Link>
+            </p>
+          </section>
 
           <section aria-labelledby="features-heading" className="mt-24">
             <h2 id="features-heading" className="text-center text-2xl font-semibold">
