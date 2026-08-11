@@ -31,7 +31,7 @@ export default function Logo({ className = "" }) {
         />
       </svg>
       <span className="font-display text-xl font-bold tracking-tight leading-none">
-        SOL&nbsp;Prep
+        SOLPrep<span className="font-semibold text-muted-foreground">.com</span>
       </span>
     </span>
   );
