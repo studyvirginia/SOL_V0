@@ -4,9 +4,11 @@ import JsonLd from "@/components/marketing/JsonLd";
 import MarketingLayout from "@/components/marketing/MarketingLayout";
 import Breadcrumbs from "@/components/marketing/Breadcrumbs";
 import { Button } from "@/components/ui/button";
+import PracticeQuiz from "@/components/marketing/PracticeQuiz";
 import { getAllStandardParams, getStandardBySlugs } from "@/lib/solCatalog";
 import { buildStandardContent } from "@/lib/standardContent";
 import { hasPractice } from "@/lib/practiceCatalog";
+import { getStandardPractice } from "@/lib/standardPractice";
 
 export async function getStaticPaths() {
   return {
@@ -18,7 +20,14 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const result = getStandardBySlugs(params.subject, params.course, params.standard);
   if (!result) return { notFound: true };
-  return { props: { ...result, coursePractice: hasPractice(params.subject, params.course) } };
+  const practice = getStandardPractice(params.subject, params.course, result.standard.code);
+  return {
+    props: {
+      ...result,
+      coursePractice: hasPractice(params.subject, params.course),
+      practice,
+    },
+  };
 }
 
 export default function StandardPage({
@@ -28,6 +37,7 @@ export default function StandardPage({
   standard,
   relatedStandards = [],
   coursePractice = false,
+  practice = [],
   prevStandard,
   nextStandard,
 }) {
@@ -55,9 +65,39 @@ export default function StandardPage({
     },
   };
 
+  // Real, unique practice content lifts these pages out of "thin": a page with
+  // embedded questions is indexed; one without (course has no bank) stays noindex.
+  const hasEmbeddedPractice = practice.length > 0;
+  const quizJsonLd = hasEmbeddedPractice
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Quiz",
+        name: `${course.name} SOL practice — ${standard.code}`,
+        about: { "@type": "Thing", name: `${course.name} Virginia Standards of Learning` },
+        educationalLevel: course.name,
+        hasPart: practice.map((q) => {
+          const correct = q.choices.find((c) => c.label === q.answer);
+          return {
+            "@type": "Question",
+            eduQuestionType: "Multiple choice",
+            text: q.stem,
+            acceptedAnswer: { "@type": "Answer", text: correct ? correct.text : q.answer },
+            suggestedAnswer: q.choices
+              .filter((c) => c.label !== q.answer)
+              .map((c) => ({ "@type": "Answer", text: c.text })),
+          };
+        }),
+      }
+    : null;
+
   return (
     <>
-      <SeoHead title={title} description={description} path={path} />
+      {/* Pages with embedded real questions are indexable (unique, useful content).
+          Pages whose course has no question bank stay noindex, follow — kept for
+          users + internal linking but out of the index so the footprint stays
+          quality-dominated. See SEO_STRATEGY.md. */}
+      <SeoHead title={title} description={description} path={path} noindex={!hasEmbeddedPractice} />
+      {quizJsonLd && <JsonLd data={quizJsonLd} />}
       <JsonLd data={definedTermJsonLd} />
       <JsonLd data={faqJsonLd} />
       <MarketingLayout>
@@ -95,6 +135,30 @@ export default function StandardPage({
             </h2>
             <p className="mt-4 text-sm text-muted-foreground">{standard.description}</p>
           </section>
+
+          {hasEmbeddedPractice && (
+            <section aria-labelledby="practice-heading" className="mt-12">
+              <h2 id="practice-heading" className="text-xl font-semibold">
+                Practice {course.name} SOL questions
+              </h2>
+              <p className="mt-2 text-sm text-muted-foreground">
+                Free {course.name} questions from official Virginia Department of Education released
+                SOL tests — good practice while you work on {standard.code} and the rest of the
+                course. Pick an answer to check it instantly, or open “Show answer” to review.
+              </p>
+              <PracticeQuiz questions={practice} />
+              {coursePractice && (
+                <p className="mt-6 text-sm">
+                  <Link
+                    href={`/sol/${subject.slug}/${course.slug}/practice`}
+                    className="font-medium text-foreground hover:underline"
+                  >
+                    → Take the full free {course.name} SOL practice test
+                  </Link>
+                </p>
+              )}
+            </section>
+          )}
 
           {standard.skills.length > 0 && (
             <section aria-labelledby="skills-heading" className="mt-12">

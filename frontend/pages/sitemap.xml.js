@@ -1,6 +1,6 @@
 import { getSolCatalog, getAllStandardParams } from "@/lib/solCatalog";
 import { GUIDES } from "@/lib/marketingGuides";
-import { listPracticeCourses, listPracticeSetParams } from "@/lib/practiceCatalog";
+import { listPracticeCourses, listPracticeSetParams, hasPractice } from "@/lib/practiceCatalog";
 
 const SITE_URL = "https://solprep.com";
 
@@ -13,10 +13,13 @@ function getRoutes() {
   const courseRoutes = catalog.flatMap((s) =>
     s.courses.map((c) => ({ path: `/sol/${s.slug}/${c.slug}`, priority: "0.8" }))
   );
-  const standardRoutes = getAllStandardParams().map((p) => ({
-    path: `/sol/${p.subject}/${p.course}/${p.standard}`,
-    priority: "0.6",
-  }));
+  // Per-standard pages: only those whose course has a real question bank now embed
+  // practice questions (unique, indexable content) — include just those, at low
+  // priority. Standards without a bank stay noindex and out of the sitemap, so we
+  // never send an "index this" signal for a page marked noindex.
+  const standardRoutes = getAllStandardParams()
+    .filter((p) => hasPractice(p.subject, p.course))
+    .map((p) => ({ path: `/sol/${p.subject}/${p.course}/${p.standard}`, priority: "0.4" }));
   const guideRoutes = GUIDES.map((g) => ({ path: `/guides/${g.slug}`, priority: "0.7" }));
   // Practice pages target the highest-volume "[course] sol practice test" queries
   // and carry real question content — highest crawl priority after the home hub.

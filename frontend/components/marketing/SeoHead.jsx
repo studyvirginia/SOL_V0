@@ -20,7 +20,7 @@ export default function SeoHead({
       <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
-      {noindex && <meta name="robots" content="noindex, nofollow" />}
+      {noindex && <meta name="robots" content="noindex, follow" />}
 
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content={SITE_NAME} />

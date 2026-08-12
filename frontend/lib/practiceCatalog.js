@@ -52,6 +52,20 @@ export function hasPractice(subject, course) {
   return loadAll().some((b) => b.subject === subject && b.course === course);
 }
 
+// Every question in a course's bank (id/stem/choices/answer), for embedding a
+// small, real practice slice on the per-standard pages. Returns [] if the course
+// has no bank clearing MIN_QUESTIONS.
+export function getCourseQuestions(subject, course) {
+  const b = loadAll().find((x) => x.subject === subject && x.course === course);
+  if (!b) return [];
+  return b.questions.map((q) => ({
+    id: q.id,
+    stem: q.stem,
+    choices: q.choices,
+    answer: q.answer,
+  }));
+}
+
 // Full bank for one course, sliced to a single set (set 1 = the main /practice page).
 export function getPractice(subject, course, setNumber = 1) {
   const b = loadAll().find((x) => x.subject === subject && x.course === course);
