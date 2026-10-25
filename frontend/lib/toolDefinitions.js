@@ -62,10 +62,10 @@ export const renderFormattingSchema = z.object({
 // ── Tool: MCQ ────────────────────────────────────────────────────────────────
 // Locked to AdaptiveMCQ.js prop signature exactly.
 export const mcqSchema = z.object({
-  question: z.string().describe("The question text. ALWAYS use $ for inline math and $$ for display math."),
-  options: z.array(z.string()).describe("List of possible answers. Use $ for math."),
+  question: z.string().describe("The question text. ALWAYS use $...$ for inline math and $$...$$ for display math. NEVER use RoughNotation tags inside math."),
+  options: z.array(z.string().describe("Option text. Use $...$ for math.")).describe("List of possible answers."),
   answer: z.number().int().describe("0-indexed position of the correct answer"),
-  explanation: z.string().describe("Explanation shown after the student answers. ALWAYS use $ for inline math and $$ for display math."),
+  explanation: z.string().describe("Explanation shown after the student answers. ALWAYS use $...$ for inline math and $$...$$ for display math. NEVER use RoughNotation tags inside math."),
   mode: z.enum(["diagnostic", "practice"]).optional().default("practice").describe("Feedback mode"),
 });
 
@@ -74,8 +74,8 @@ export const mcqSchema = z.object({
 export const flashcardsSchema = z.object({
   cards: z.array(
     z.object({
-      front: z.string().describe("The term or question on the front of the card. ALWAYS use $ for inline math."),
-      back: z.string().describe("The definition or answer on the back of the card. ALWAYS use $ for inline math."),
+      front: z.string().describe("The term or question on the front of the card. ALWAYS use $...$ for inline math."),
+      back: z.string().describe("The definition or answer on the back of the card. ALWAYS use $...$ for inline math."),
     })
   ).describe("Array of flashcard pairs"),
 });
@@ -102,10 +102,10 @@ export const quizSchema = z.object({
   mode: z.enum(["diagnostic", "practice"]).optional().default("practice").describe("Feedback mode"),
   questions: z.array(
     z.object({
-      question: z.string().describe("The question text. ALWAYS use $ for inline math and $$ for display math."),
-      options: z.array(z.string()).describe("List of possible answers. Use $ for math."),
+      question: z.string().describe("The question text. ALWAYS use $...$ for inline math and $$...$$ for display math. NEVER use RoughNotation tags inside math."),
+      options: z.array(z.string().describe("Option text. Use $...$ for math.")).describe("List of possible answers."),
       answer: z.number().int().describe("0-indexed position of the correct answer"),
-      explanation: z.string().describe("Explanation shown after the student answers. ALWAYS use $ for inline math and $$ for display math."),
+      explanation: z.string().describe("Explanation shown after the student answers. ALWAYS use $...$ for inline math and $$...$$ for display math. NEVER use RoughNotation tags inside math."),
     })
   ).describe("Array of quiz questions"),
 });
